@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>AIマネーの循環</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/* AI相関図ラボ 共通: 本体の相関図と同じ色と書体(本体の色の意味を引き継ぐ) */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1; --soft:#e8ecf0;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --conflict:#c93b3b; --deal:#8f6500;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;
+  padding-block:22px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:4px 0 6px;text-wrap:balance;font-weight:700}
+h2{font-size:18px;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--muted);max-width:66ch;margin:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+button,select,input{font:inherit;color:var(--fg)}
+button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--invest)}
+button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+:focus-visible{outline:2px solid var(--invest);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+a{color:var(--invest)}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:6px}
+footer ul{margin:0;padding-left:18px}
+.back{font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Layout: 左に円形の「お金の流れ」図(光の粒が流れる)、右に選んだループの説明。狭い画面では縦に並ぶ */
+.main{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+.stage{padding:8px}
+svg{display:block;width:100%;height:auto}
+.node circle{stroke:var(--surface);stroke-width:3}
+.node text{font-size:13px;font-weight:700;fill:var(--fg);text-anchor:middle;paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}
+.flow{fill:none;stroke-linecap:round;transition:opacity .3s}
+.flow.dim{opacity:.08}
+.amt{font-size:10.5px;font-family:var(--font-mono);fill:var(--muted);paint-order:stroke;stroke:var(--surface);stroke-width:3px;text-anchor:middle;transition:opacity .3s}
+.amt.dim{opacity:0}
+.dotp{transition:opacity .3s}
+.loops{display:flex;flex-wrap:wrap;gap:6px}
+.loops button{font-size:13px}
+.key{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.key i{display:inline-block;width:18px;height:0;border-top:3px solid;vertical-align:middle;margin-right:6px}
+.steps{margin:8px 0 0;padding-left:20px;display:grid;gap:6px;font-size:14px}
+.steps small{color:var(--muted)}
+.debate{display:grid;gap:8px;font-size:13.5px}
+.debate div{border-left:3px solid var(--line);padding-left:10px}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ③ / 6</div>
+    <h1>AIマネーの循環</h1>
+    <p class="lead">NvidiaがOpenAIに出資し、OpenAIがOracleに払い、OracleがNvidiaのGPUを買う。AI業界のお金は、同じ会社のあいだをぐるぐる回っています。青い粒が出資、金色の粒が支払い(クラウド・チップの購入)です。</p>
+  </header>
+  <div class="box">
+    <div class="loops" id="loops" role="group" aria-label="ループを選ぶ"></div>
+  </div>
+  <div class="main">
+    <section class="box stage" aria-label="お金の流れの図"><svg id="svg" viewBox="0 0 640 600" role="img" aria-label="AI企業のあいだのお金の流れ"></svg>
+      <div class="key" style="padding:4px 8px 6px"><span><i style="border-color:var(--invest)"></i>出資(会社の株を買う)</span><span><i style="border-color:var(--deal)"></i>支払い(クラウド・GPUを買う)</span><span><i style="border-color:var(--active);border-top-style:dashed"></i>株を受け取る権利</span><span>線の太さ = 金額(非公表は細い点線)</span></div>
+    </section>
+    <aside class="box" id="side" aria-live="polite"></aside>
+  </div>
+  <section class="box debate">
+    <h2>これはバブルなのか</h2>
+    <div><b>心配する見方</b><br>出資したお金がそのまま自社の製品の購入に戻ってくるため、売上が実際の需要より大きく見えるという指摘があります。OpenAIの支払いの約束は合計1兆ドルを超えるとされ、払いきれるかが問われています。</div>
+    <div><b>問題ないとする見方</b><br>AI企業の売上も急増しています(Anthropicの年換算売上は2025年末の約90億ドルから、2026年4月に300億ドル超)。チップと計算資源が足りないのは事実で、出資は長期の取引先を確保する普通の手段だという見方です。</div>
+  </section>
+  <footer>
+    <div>金額は契約の上限や報道ベースの数字を含み、期間もまちまちです(1年ではなく数年〜10年分の約束を含みます)。2026年11月13日時点。</div>
+    <ul>
+      <li><a href="https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/" target="_blank" rel="noopener">Microsoft公式ブログ(2025/10)</a></li>
+      <li><a href="https://presenc.ai/research/openai-compute-commitments-tracker-2026" target="_blank" rel="noopener">OpenAI計算資源の契約まとめ(presenc.ai, 2026/5)</a></li>
+      <li><a href="https://www.outlookbusiness.com/corporate/nvidia-to-invest-30bn-in-openai-previous-100bn-partnership-plan-scrapped" target="_blank" rel="noopener">Outlook Business(2026/2)</a> / <a href="https://techcrunch.com/2025/10/06/amd-to-supply-6gw-of-compute-capacity-to-openai-in-chip-deal-worth-tens-of-billions" target="_blank" rel="noopener">TechCrunch(2025/10)</a></li>
+      <li><a href="https://www.forbes.com/sites/jonmarkman/2026/04/22/amazon-33-billion-anthropic-deal-and-the-limits-of-ai-infrastructure/" target="_blank" rel="noopener">Forbes(2026/4)</a> / <a href="https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships" target="_blank" rel="noopener">Anthropic(2025/11)</a> / <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute" target="_blank" rel="noopener">Anthropic(2026/4)</a></li>
+      <li><a href="https://www.forbes.com/sites/janakirammsv/2026/04/13/coreweave-becomes-ais-landlord-with-meta-and-anthropic-deals/" target="_blank" rel="noopener">Forbes(2026/4, CoreWeave)</a> / <a href="https://introl.com/blog/meta-amd-100-billion-gpu-deal-nvidia-exclusivity" target="_blank" rel="noopener">Introl(2026/2)</a></li>
+    </ul>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<script>
+const NODES=[['nvidia','Nvidia'],['softbank','ソフトバンク'],['openai','OpenAI'],['google','Google'],['meta','Meta'],['oracle','Oracle'],['amazon','Amazon'],['coreweave','CoreWeave'],['anthropic','Anthropic'],['amd','AMD'],['msft','Microsoft']];
+/* [出し手, 受け手, 種類 i=出資 p=支払い w=株の権利, 表示, 金額(十億ドル, 不明は0)] */
+const F=[
+ ['nvidia','openai','i','出資 $30B',30],['openai','oracle','p','クラウド 約$300B',300],['oracle','nvidia','p','GPUを購入',0],
+ ['msft','openai','i','出資 約$13B',13],['openai','msft','p','Azure $250B',250],['msft','nvidia','p','GPUを購入',0],
+ ['softbank','openai','i','出資 $30B',30],['amazon','openai','i','出資 最大$50B',50],['openai','amazon','p','AWS $38B',38],
+ ['openai','coreweave','p','$22.4B',22.4],['nvidia','coreweave','i','出資(株主)',0],['coreweave','nvidia','p','GPUを購入',0],
+ ['openai','amd','p','GPU 6GW',0],['amd','openai','w','AMD株 最大10%',0],
+ ['amazon','anthropic','i','出資 累計$33B',33],['anthropic','amazon','p','AWS $100B+',100],
+ ['google','anthropic','i','出資',0],['anthropic','google','p','TPU 約3.5GW',0],
+ ['msft','anthropic','i','出資 最大$5B',5],['nvidia','anthropic','i','出資 最大$10B',10],['anthropic','msft','p','Azure $30B',30],
+ ['meta','coreweave','p','$35B',35],['meta','nvidia','p','GPU 数百万基',0],['meta','amd','p','GPU 6GW',0],['amd','meta','w','AMD株 最大10%',0]
+];
+const LOOPS=[
+ {k:'all',t:'すべて',f:null,d:'主な11社のあいだの出資と支払いをすべて表示しています。ループを選ぶと、そのお金の流れだけが光り、金額も表示されます。'},
+ {k:'nv',t:'Nvidia → OpenAI → Oracle',f:[['nvidia','openai'],['openai','oracle'],['oracle','nvidia']],d:'NvidiaがOpenAIに出資し、OpenAIはOracleのクラウドに約3,000億ドルを払う約束をし、OracleはそのためにNvidiaのGPUを買います。Nvidiaの出したお金が、GPUの売上として戻ってくる形です。',steps:['Nvidia が OpenAI に300億ドルを出資(2026年2月)','OpenAI が Oracle に約3,000億ドル分のクラウドを発注(5年)','Oracle が データセンター用に Nvidia のGPUを購入']},
+ {k:'ms',t:'Microsoft ⇄ OpenAI',f:[['msft','openai'],['openai','msft'],['msft','nvidia']],d:'Microsoftは累計約130億ドルを出資し、OpenAIはAzureを追加で2,500億ドル分買うと約束しました。出資額の約20倍がクラウドの売上として戻る計算です。',steps:['Microsoft が OpenAI に累計約130億ドルを出資','OpenAI が Azure を2,500億ドル分追加購入(2025年10月)','Microsoft が Azure 用に Nvidia のGPUを購入']},
+ {k:'cw',t:'Nvidia ⇄ CoreWeave',f:[['nvidia','coreweave'],['coreweave','nvidia'],['openai','coreweave'],['meta','coreweave']],d:'NvidiaはCoreWeaveの株主で、CoreWeaveはNvidiaのGPUを大量に買ってOpenAIやMetaに貸しています。',steps:['Nvidia が CoreWeave に出資','CoreWeave が Nvidia のGPUを購入','OpenAI(224億ドル)・Meta(350億ドル)が CoreWeave に支払い']},
+ {k:'amd',t:'AMD の株つき契約',f:[['openai','amd'],['amd','openai'],['meta','amd'],['amd','meta']],d:'AMDはGPUを買ってもらう代わりに、OpenAIとMetaにそれぞれ最大約10%のAMD株を受け取る権利を渡しました。買えば買うほど株がもらえ、AMDの株価が上がれば実質の値引きになります。',steps:['OpenAI・Meta が AMD のGPUを6GWずつ発注','AMD が それぞれに最大1億6,000万株(約10%)の権利を付与','購入量と株価の条件を満たすと、株が少しずつ手に入る']},
+ {k:'an',t:'Anthropic の3つの循環',f:[['amazon','anthropic'],['anthropic','amazon'],['google','anthropic'],['anthropic','google'],['msft','anthropic'],['nvidia','anthropic'],['anthropic','msft']],d:'Anthropicは、Amazon・Google・Microsoft/Nvidiaの3つの陣営からそれぞれ出資を受け、それぞれのクラウドやチップを買っています。1社に頼らない代わりに、3つの循環を同時に回しています。',steps:['Amazon が累計330億ドル出資 → Anthropic が AWS に10年で1,000億ドル超','Google が出資 → Anthropic が TPU を約3.5GW 追加','Microsoft(最大50億ドル)・Nvidia(最大100億ドル)が出資 → Anthropic が Azure を300億ドル']}
+];
+const W=640,H=600,cx=320,cy=300,R=230;
+const P={};NODES.forEach(([id],i)=>{const a=-Math.PI/2+i*2*Math.PI/NODES.length;P[id]={x:cx+R*Math.cos(a),y:cy+R*Math.sin(a)}});
+const svg=document.getElementById('svg');const NS='http://www.w3.org/2000/svg';
+const mk=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).append(e);return e};
+const gF=mk('g',{}),gD=mk('g',{}),gN=mk('g',{}),gA=mk('g',{});
+const COL={i:'var(--invest)',p:'var(--deal)',w:'var(--active)'};
+const flows=F.map(([a,b,k,lab,v])=>{const A=P[a],B=P[b];const mx=(A.x+B.x)/2,my=(A.y+B.y)/2;const dx=B.x-A.x,dy=B.y-A.y,L=Math.hypot(dx,dy);
+  const bend=.22*L;const qx=mx+(-dy/L)*bend*-1,qy=my+(dx/L)*bend*-1; /* 右曲がりの弧: 往復が重ならない */
+  const pa=mk('path',{class:'flow',d:`M${A.x},${A.y} Q${qx},${qy} ${B.x},${B.y}`,stroke:COL[k],'stroke-width':v?Math.max(1.6,Math.sqrt(v)*1.1):1.4,'stroke-dasharray':v?(k==='w'?'5 4':''):'3 4',opacity:.75},gF);
+  const t=mk('text',{class:'amt',x:.25*A.x+.5*qx+.25*B.x,y:.25*A.y+.5*qy+.25*B.y},gA);t.textContent=lab;
+  const dots=[0,1,2].map(j=>mk('circle',{class:'dotp',r:v>=30?4.2:3,fill:COL[k]},gD));
+  return{a,b,k,pa,t,dots,len:pa.getTotalLength(),speed:60+Math.min(v,300)*.25,on:true}});
+NODES.forEach(([id,nm])=>{const g=mk('g',{class:'node'},gN);mk('circle',{cx:P[id].x,cy:P[id].y,r:22,fill:id==='nvidia'?'var(--deal)':id==='openai'||id==='anthropic'?'var(--fg)':'var(--org)'},g);
+  const t=mk('text',{x:P[id].x,y:P[id].y+(P[id].y<cy?-30:42)},g);t.textContent=nm});
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let last=performance.now(),T=0;
+function tick(now){const dt=Math.min(.05,(now-last)/1000);last=now;T+=dt;
+  flows.forEach(f=>f.dots.forEach((d,j)=>{if(!f.on){d.setAttribute('opacity',0);return}const s=((T*f.speed/f.len)+j/3)%1;const p=f.pa.getPointAtLength(s*f.len);d.setAttribute('cx',p.x);d.setAttribute('cy',p.y);d.setAttribute('opacity',reduce?0:.95)}));
+  if(!reduce)requestAnimationFrame(tick)}
+requestAnimationFrame(tick);
+const side=document.getElementById('side');
+function choose(L){document.querySelectorAll('#loops button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.k===L.k)));
+  flows.forEach(f=>{f.on=!L.f||L.f.some(([a,b])=>a===f.a&&b===f.b);f.pa.classList.toggle('dim',!f.on);f.t.classList.toggle('dim',!f.on||!L.f)});
+  side.innerHTML=`<h2>${L.t}</h2><p>${L.d}</p>${L.steps?`<ol class="steps">${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>`:''}`}
+const lp=document.getElementById('loops');
+LOOPS.forEach(L=>{const b=document.createElement('button');b.type='button';b.dataset.k=L.k;b.textContent=L.t;b.onclick=()=>choose(L);lp.append(b)});
+choose(LOOPS[1]);
+</script>
+
+</body>
+</html>

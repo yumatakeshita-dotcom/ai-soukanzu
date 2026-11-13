@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>テック長者とスポーツ球団</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+/* AI相関図ラボ 共通: 本体の相関図と同じ色と書体(本体の色の意味を引き継ぐ) */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1; --soft:#e8ecf0;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --conflict:#c93b3b; --deal:#8f6500;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;
+  padding-block:22px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:4px 0 6px;text-wrap:balance;font-weight:700}
+h2{font-size:18px;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--muted);max-width:66ch;margin:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+button,select,input{font:inherit;color:var(--fg)}
+button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--invest)}
+button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+:focus-visible{outline:2px solid var(--invest);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+a{color:var(--invest)}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:6px}
+footer ul{margin:0;padding-left:18px}
+.back{font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Layout: 試合のスコアボード風。左にテック側、右にチーム側を並べ、真ん中の線で「持つ・出資・放映権」を結ぶ。下にカードで詳しく */
+.hero{display:grid;gap:10px;border-left:6px solid var(--deal);padding-left:14px}
+.hero b{font-size:clamp(18px,2.6vw,22px);line-height:1.4}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tabs button{font-size:13.5px}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted)}
+.key i{display:inline-block;width:20px;height:0;border-top:3px solid;vertical-align:middle;margin-right:6px}
+.board{overflow-x:auto}
+svg{display:block;width:100%;min-width:620px;height:auto}
+.lt,.rt{font-size:13px;fill:var(--fg);font-weight:700}
+.ls{font-size:10.5px;fill:var(--muted)}
+.rt{text-anchor:start}.lt{text-anchor:end}.ls.l{text-anchor:end}
+.wire{fill:none;stroke-width:2.4;opacity:.85}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;align-content:start}
+.card .h{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.card .h b{font-size:15px}
+.pill{font-size:11px;font-family:var(--font-mono);padding:1px 8px;border-radius:99px;color:#fff;background:var(--k)}
+.team{font-weight:700}
+.ai{font-size:12.5px;border-top:1px dashed var(--line);padding-top:6px;color:var(--muted)}
+.ai b{color:var(--deal);font-weight:500}
+.src{font-size:11.5px}
+.bl{font-family:var(--font-mono);font-size:10.5px;color:var(--deal);border:1px solid var(--deal);border-radius:4px;padding:0 5px}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ⑥ / 6</div>
+    <h1>テック長者とスポーツ球団</h1>
+    <p class="lead">テック企業の創業者・投資家・会社が、どのチームを持ち、どのリーグの放映権を買っているか。AI企業の相関図とつながる所には印をつけました。</p>
+  </header>
+  <section class="box hero">
+    <span class="eyebrow">2026年の大きな動き</span>
+    <b>OpenAIの初期出資者ビノード・コースラの一家が、スーパーボウル王者のシアトル・シーホークスを96億1,200万ドルで買うことに合意しました(2026年7月、NFLの承認が条件)。</b>
+    <span class="muted" style="font-size:13.5px">売り手は、Microsoft共同創業者の故ポール・アレンの遺産。Microsoftの創業者からAI投資家へ、チームの持ち主が入れ替わります。</span>
+  </section>
+  <section class="box" style="display:grid;gap:12px">
+    <div class="tabs" id="tabs" role="group" aria-label="地域を選ぶ"></div>
+    <div class="key"><span><i style="border-color:var(--active)"></i>オーナー(支配株主)</span><span><i style="border-color:var(--invest);border-top-style:dashed"></i>少数の出資</span><span><i style="border-color:var(--deal)"></i>放映権</span><span><i style="border-color:var(--org);border-top-style:dotted"></i>過去のオーナー</span><span>金色の点 = AI企業の相関図とつながる</span></div>
+    <div class="board"><svg id="svg" role="img" aria-label="テック側とチームの関係図"></svg></div>
+  </section>
+  <section class="grid" id="cards"></section>
+  <footer>
+    <div>2026年11月13日時点の公開情報です。金額は出典に書かれた範囲で載せています。日本のチームの取得年の一部は出典の記事になく、広く知られている年を載せました。確認できないものは空けています。</div>
+    <ul id="srcs"></ul>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<script>
+const S={
+ ap:['AP(KPTV, 2026/7/11)','https://www.kptv.com/2026/07/11/paul-allen-estate-agrees-sell-seattle-seahawks-khosla-family-ownership-group/'],
+ nx:['Nexairi「Tech companies sports ownership 2026」','https://nexairi-mentis.pages.dev/article/Sports/tech-companies-sports-ownership-2026'],
+ wt:['AP(WTOP, 2025/9)','https://wtop.com/sports/2025/09/paul-allens-estate-enters-a-formal-agreement-to-sell-trail-blazers-to-group-led-by-tom-dundon'],
+ si:['Sportier Insights「Tech Giants Are Cashing In On Sports」','https://sportierinsights.substack.com/p/tech-giants-are-cashing-in-on-sports'],
+ f1:['The Desk(2025/10)','https://thedesk.net/2025/10/apple-tv-gets-formula-1/'],
+ bi:['Business Insider Japan(2020/7)','https://www.businessinsider.jp/article/217285/'],
+ sg:['デイリースポーツ(2022/10/26)','https://www.daily.co.jp/soccer/2022/10/26/0015754991.shtml'],
+ wbc:['デイリースポーツ(2025/8/26)','https://daily.co.jp/baseball/2025/08/26/0019395027.shtml'],
+ sb:['ソフトバンク公式「バスケットボール」','https://www.softbank.jp/mobile/special/sports/basketball/']
+};
+const K={own:['オーナー','var(--active)',''],stake:['少数出資','var(--invest)','6 4'],rights:['放映権','var(--deal)',''],past:['過去のオーナー','var(--org)','2 4']};
+/* [地域, テック側, 説明, チーム, リーグ, 種類, 年, メモ, AI相関図での接点, 出典, Bリーグ] */
+const D=[
+ ['us','ビノード・コースラ家','Khosla Ventures 創業者','Seattle Seahawks','NFL','own','2026','2026年7月に96.12億ドルで買収に合意(NFLの承認が条件)。持っていた49ersの持ち分は手放す。','Khosla VenturesはOpenAIの初期出資者','ap'],
+ ['us','ポール・アレン(故人)','Microsoft 共同創業者','Seattle Seahawks','NFL','past','1997〜2026','1997年に1.94億ドルで買収。死後は妹のジョディ・アレンが遺産として保有し、2026年に売却。','Microsoftは OpenAI の最大の外部株主','ap'],
+ ['us','ポール・アレン(故人)','Microsoft 共同創業者','Portland Trail Blazers','NBA','past','〜2025','2025年9月、トム・ダンドン率いるグループへの売却に正式合意。','','wt'],
+ ['us','スティーブ・バルマー','元Microsoft CEO','LA Clippers','NBA','own','2014','20億ドルで買収。新アリーナ「Intuit Dome」も建てた。','Microsoft(OpenAI・Anthropicに出資)','nx'],
+ ['us','ブレット・テイラー','OpenAI 取締役会議長','San Francisco 49ers','NFL','stake','','約1%の持ち分。','OpenAIの取締役会議長','nx'],
+ ['us','ジョー・ツァイ','Alibaba 共同創業者・会長','Brooklyn Nets','NBA','own','2019','','AlibabaはAIモデル「Qwen」を開発','nx'],
+ ['us','ジョー・レイコブ','元Kleiner Perkins(VC)','Golden State Warriors','NBA','own','2010','投資家グループを率いて買収。','','nx'],
+ ['us','ライアン・スミス','Qualtrics 共同創業者','Utah Jazz','NBA','own','2020','16.6億ドルで買収。','','nx'],
+ ['rights','Apple','iPhone・Apple TV','MLS(全試合)','サッカー','rights','2023','10年・25億ドル。','Appleの図あり(米国時価総額ランキング)','si'],
+ ['rights','Apple','iPhone・Apple TV','F1(米国)','モータースポーツ','rights','2026','米国の放映権をNetflixと争って獲得。','','f1'],
+ ['rights','Amazon','Prime Video','NBA','NBA','rights','2025','年18億ドル、年66試合。','AmazonはAnthropicに累計330億ドル出資','si'],
+ ['rights','Amazon','Prime Video','NFL Thursday Night Football','NFL','rights','2022','独占配信は2022年から、2033年まで。年10億ドル超。','','si'],
+ ['rights','Netflix','動画配信','WWE Raw','プロレス','rights','2025','10年・50億ドル。','','si'],
+ ['rights','Netflix','動画配信','NFL クリスマスの試合','NFL','rights','2024','年2試合、2026年まで。','','si'],
+ ['jp','ソフトバンクグループ','孫正義','福岡ソフトバンクホークス','NPB','own','2005','','OpenAIに約13%出資・Stargateの出資者','bi'],
+ ['jp','楽天グループ','三木谷浩史','東北楽天ゴールデンイーグルス','NPB','own','2005','','楽天の図あり(日本の企業)','bi'],
+ ['jp','楽天グループ','三木谷浩史','ヴィッセル神戸','Jリーグ','own','2014','','','bi'],
+ ['jp','DeNA','南場智子','横浜DeNAベイスターズ','NPB','own','2012','','','bi'],
+ ['jp','DeNA','南場智子','川崎ブレイブサンダース','Bリーグ','own','2018','東芝から事業を引き継いだ。','','bi',1],
+ ['jp','メルカリ','山田進太郎','鹿島アントラーズ','Jリーグ','own','2019','','メルカリの図あり(日本の企業)','bi'],
+ ['jp','サイバーエージェント','藤田晋','FC町田ゼルビア','Jリーグ','own','2018','','','bi'],
+ ['jp','MIXI','','千葉ジェッツ','Bリーグ','own','','','','bi',1],
+ ['jp','バンダイナムコ','','島根スサノオマジック','Bリーグ','own','','','','bi',1],
+ ['jp','DeNA','南場智子','SC相模原','Jリーグ','own','2022','運営会社を子会社化し、9割超を保有する見込みと報じられた。','','sg'],
+ ['jp','ソフトバンク','通信(ソフトバンク株式会社)','Bリーグ(全試合配信)','Bリーグ','rights','','Bリーグと日本バスケットボール協会のトップパートナー。「バスケットLIVE」でBリーグ・Wリーグの全試合を配信。','ソフトバンクグループはOpenAIに約13%出資','sb',1],
+ ['jp','Netflix','動画配信','WBC 2026(日本国内)','野球','rights','2026','大会側がNetflixに日本国内の放送・配信権を直接与え、地上波の生中継はなし。','','wbc']
+];
+const TABS=[['all','すべて'],['us','米国のオーナー'],['rights','放映権'],['jp','日本'],['bl','Bリーグ']];
+let tab='all';const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const sel=()=>D.filter(d=>tab==='all'||(tab==='bl'?d[10]:d[0]===tab));
+function draw(){const L=sel();
+  const lefts=[...new Set(L.map(d=>d[1]))],rights=[...new Set(L.map(d=>d[3]))];
+  const rowH=34,H=Math.max(lefts.length,rights.length)*rowH+30,W=760,lx=250,rx=470;
+  const ly=i=>20+(i+.5)*(H-30)/lefts.length,ry=i=>20+(i+.5)*(H-30)/rights.length;
+  let s=`<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg">`;
+  L.forEach(d=>{const a=ly(lefts.indexOf(d[1])),b=ry(rights.indexOf(d[3]));const [_,c,dash]=K[d[5]];
+    s+=`<path class="wire" d="M${lx+8},${a} C${(lx+rx)/2},${a} ${(lx+rx)/2},${b} ${rx-8},${b}" stroke="${c}" stroke-dasharray="${dash}"/>`});
+  lefts.forEach((n,i)=>{const d=L.find(x=>x[1]===n);const ai=L.some(x=>x[1]===n&&x[8]);
+    s+=`<circle cx="${lx}" cy="${ly(i)}" r="6" fill="${ai?'var(--deal)':'var(--org)'}"/><text class="lt" x="${lx-14}" y="${ly(i)-1}">${esc(n)}</text><text class="ls l" x="${lx-14}" y="${ly(i)+12}">${esc(d[2])}</text>`});
+  rights.forEach((n,i)=>{const d=L.find(x=>x[3]===n);
+    s+=`<circle cx="${rx}" cy="${ry(i)}" r="6" fill="var(--fg)"/><text class="rt" x="${rx+14}" y="${ry(i)-1}">${esc(n)}</text><text class="ls" x="${rx+14}" y="${ry(i)+12}">${esc(d[4])}</text>`});
+  $('svg').outerHTML=s.replace('<svg ','<svg id="svg" role="img" aria-label="テック側とチームの関係図" ')+'</svg>';
+  $('cards').innerHTML=L.map(d=>`<article class="card" style="--k:${K[d[5]][1]}"><div class="h"><span class="pill">${K[d[5]][0]}</span>${d[10]?'<span class="bl">B.LEAGUE</span>':''}<span class="mono muted" style="font-size:12px">${esc(d[6])}</span></div>
+    <div><b>${esc(d[1])}</b> <span class="muted" style="font-size:12.5px">${esc(d[2])}</span></div><div class="team">→ ${esc(d[3])} <span class="muted" style="font-weight:400;font-size:12.5px">${esc(d[4])}</span></div>
+    ${d[7]?`<div style="font-size:13.5px">${esc(d[7])}</div>`:''}${d[8]?`<div class="ai"><b>AI相関図とのつながり</b> ${esc(d[8])}</div>`:''}<div class="src"><a href="${S[d[9]][1]}" target="_blank" rel="noopener">${esc(S[d[9]][0])}</a></div></article>`).join('');
+}
+$('tabs').innerHTML=TABS.map(([k,t])=>`<button type="button" data-k="${k}" aria-pressed="${k===tab}">${t}</button>`).join('');
+$('tabs').querySelectorAll('button').forEach(b=>b.onclick=()=>{tab=b.dataset.k;$('tabs').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));draw()});
+$('srcs').innerHTML=Object.values(S).map(([t,u])=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(t)}</a></li>`).join('');
+draw();
+</script>
+
+</body>
+</html>

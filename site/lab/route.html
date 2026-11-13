@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>つながり最短ルート</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/* AI相関図ラボ 共通: 本体の相関図と同じ色と書体(本体の色の意味を引き継ぐ) */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1; --soft:#e8ecf0;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --conflict:#c93b3b; --deal:#8f6500;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;
+  padding-block:22px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:4px 0 6px;text-wrap:balance;font-weight:700}
+h2{font-size:18px;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--muted);max-width:66ch;margin:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+button,select,input{font:inherit;color:var(--fg)}
+button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--invest)}
+button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+:focus-visible{outline:2px solid var(--invest);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+a{color:var(--invest)}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:6px}
+footer ul{margin:0;padding-left:18px}
+.back{font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Layout: 上に2つの入力と例、下に「駅の路線図」のように縦に並ぶ経路 */
+.pick{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto;gap:10px;align-items:end}
+.field{position:relative;display:grid;gap:4px;min-width:0}
+.field label{font-size:12px;color:var(--muted)}
+.field input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font-size:16px}
+.sug{position:absolute;left:0;right:0;top:100%;z-index:5;margin:2px 0 0;padding:4px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;max-height:280px;overflow:auto;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.sug li{padding:6px 10px;border-radius:6px;cursor:pointer;display:flex;gap:8px;align-items:baseline}
+.sug li:hover,.sug li[aria-selected="true"]{background:var(--soft)}
+.sug small{color:var(--muted);margin-left:auto;font-family:var(--font-mono);font-size:11px}
+.arrow{font-family:var(--font-mono);color:var(--muted);padding-bottom:10px}
+#go{background:var(--fg);color:var(--bg);border-color:var(--fg);padding:10px 18px;font-weight:700}
+.big{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.big .n{font-family:var(--font-mono);font-size:56px;line-height:1;font-weight:500;color:var(--active)}
+.line{list-style:none;margin:16px 0 0;padding:0;position:relative}
+.line li{position:relative;padding:0 0 0 34px;min-height:44px}
+.line li::before{content:"";position:absolute;left:9px;top:6px;bottom:-6px;width:4px;background:var(--line);border-radius:2px}
+.line li:last-child::before{display:none}
+.stop{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.dot{position:absolute;left:0;top:2px;width:22px;height:22px;border-radius:50%;border:4px solid var(--surface);box-shadow:0 0 0 2px var(--c,var(--org));background:var(--c,var(--org))}
+.stop b{font-size:17px}
+.kind{font-size:11px;font-family:var(--font-mono);color:var(--muted)}
+.rel{display:block;font-size:13px;color:var(--muted);margin:2px 0 10px;padding:4px 10px;border-left:2px solid var(--line)}
+.share{display:grid;gap:8px}
+.share textarea{width:100%;min-height:96px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);font:13px/1.6 var(--font-body);resize:vertical}
+.presets button{font-size:13px}
+@media (max-width:720px){.pick{grid-template-columns:minmax(0,1fr)}.arrow{display:none}}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ① / 6</div>
+    <h1>つながり最短ルート</h1>
+    <p class="lead">2人(または2社)を選ぶと、AI企業の相関図にある約8,200の人と会社、約12,800のつながりから、一番短い道をたどります。「熊本からサム・アルトマンまで何ステップ?」のような遊び方ができます。</p>
+  </header>
+
+  <section class="box" aria-label="出発と到着を選ぶ">
+    <div class="pick">
+      <div class="field"><label for="a">出発</label><input id="a" autocomplete="off" placeholder="例: 熊本県・菊陽町"><ul class="sug" id="sa" hidden></ul></div>
+      <div class="arrow">→</div>
+      <div class="field"><label for="b">到着</label><input id="b" autocomplete="off" placeholder="例: サム・アルトマン"><ul class="sug" id="sb" hidden></ul></div>
+      <button id="go" type="button">たどる</button>
+    </div>
+    <div class="row presets" style="margin-top:12px">
+      <span class="muted" style="font-size:12px">お題:</span>
+      <button type="button" data-a="熊本県・菊陽町" data-b="サム・アルトマン">熊本 → アルトマン</button>
+      <button type="button" data-a="孫正義" data-b="イーロン・マスク">孫正義 → マスク</button>
+      <button type="button" data-a="トヨタ自動車" data-b="Anthropic">トヨタ → Anthropic</button>
+      <button type="button" data-a="メルカリ" data-b="ジェンスン・フアン">メルカリ → フアン</button>
+    </div>
+    <label class="row" style="margin-top:10px;font-size:13px;color:var(--muted)"><input type="checkbox" id="pas"> 信託銀行・大手運用会社(BlackRockなど)も経由する</label>
+  </section>
+
+  <section class="box" id="out" aria-live="polite"><p class="muted">データを読み込んでいます…</p></section>
+
+  <footer>
+    <div>データ: 本体の「AI企業の相関図」(2026年11月13日時点)。出資・在籍・取引・移籍などの線をすべて同じ重さとして、一番少ない段数の道を探します。株を持っているだけの信託銀行や大手運用会社は、ほとんどの会社とつながってしまうため、最初は外しています。</div>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<script>
+const KCOL={member:'var(--active)',invest:'var(--invest)',invest2:'var(--invest)',owns:'var(--org)',govern:'var(--org)',deal:'var(--deal)',from:'var(--left)',moved:'var(--left)',conflict:'var(--conflict)',link:'var(--muted)'};
+const TCOL={p:'var(--active)',i:'var(--invest)',o:'var(--org)',c:'var(--fg)'};
+let G=null,ADJ=null,NAMES=null;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('graph.json').then(r=>r.json()).then(d=>{
+  G=d;ADJ=G.n.map(()=>[]);
+  G.e.forEach((e,i)=>{ADJ[e[0]].push([e[1],i]);ADJ[e[1]].push([e[0],i])});
+  NAMES=G.n.map((n,i)=>({i,n:n[0],l:n[0].toLowerCase(),deg:ADJ[i].length}));
+  $('a').value='熊本県・菊陽町';$('b').value='サム・アルトマン';run();
+}).catch(()=>{$('out').innerHTML='<p>データを読み込めませんでした。ページを開き直してください。</p>'});
+function find(q){q=q.trim().toLowerCase();if(!q)return[];
+  const ex=NAMES.filter(x=>x.l===q),st=NAMES.filter(x=>x.l!==q&&x.l.startsWith(q)),inc=NAMES.filter(x=>!x.l.startsWith(q)&&x.l.includes(q));
+  return ex.concat(st.sort((a,b)=>b.deg-a.deg),inc.sort((a,b)=>b.deg-a.deg)).slice(0,12)}
+function pickIdx(v){const f=find(v);return f.length?f[0].i:-1}
+function sentence(e,ai,bi){const A=G.n[e[0]][0],B=G.n[e[1]][0],k=e[2],l=e[3]?`(${e[3]})`:'';
+  return {member:`${A} は ${B} に在籍${l}`,invest:`${A} が ${B} に出資${l}`,invest2:`${A} が ${B} に出資${l}`,owns:`${A} が ${B} を保有${l}`,govern:`${A} が ${B} を管理`,deal:`${A} と ${B} の取引${l}`,from:`${A} は ${B} の出身`,moved:`${A} は ${B} へ移った`,conflict:`${A} と ${B} は対立${l}`,link:`${A} と ${B}${l||' がつながる'}`}[k]||`${A} — ${B}`}
+const KLAB={member:'在籍',invest:'出資',invest2:'出資',owns:'保有',govern:'管理',deal:'取引',from:'出身',moved:'移籍',conflict:'対立',link:'関係'};
+function bfs(s,t,usePas){const prev=new Int32Array(G.n.length).fill(-2),pe=new Int32Array(G.n.length).fill(-1);prev[s]=-1;const q=[s];let h=0;
+  while(h<q.length){const x=q[h++];if(x===t)break;for(const [y,ei] of ADJ[x]){if(prev[y]!==-2)continue;if(!usePas&&G.n[y][2]&&y!==t)continue;prev[y]=x;pe[y]=ei;q.push(y)}}
+  if(prev[t]===-2)return null;const path=[];let x=t;while(x!==-1){path.push([x,pe[x]]);x=prev[x]}return path.reverse()}
+function run(){if(!G)return;const s=pickIdx($('a').value),t=pickIdx($('b').value);
+  if(s<0||t<0){$('out').innerHTML=`<p>「${esc(s<0?$('a').value:$('b').value)}」が見つかりませんでした。候補から選んでください。</p>`;return}
+  $('a').value=G.n[s][0];$('b').value=G.n[t][0];
+  const p=bfs(s,t,$('pas').checked);
+  if(!p){$('out').innerHTML=`<p>${esc(G.n[s][0])} から ${esc(G.n[t][0])} への道は、この相関図の中では見つかりませんでした。</p>`;return}
+  const steps=p.length-1;
+  const lis=p.map(([x,ei],k)=>{const n=G.n[x];const nxt=p[k+1];const rel=nxt?`<span class="rel">${esc(sentence(G.e[nxt[1]]))} <span class="kind">${KLAB[G.e[nxt[1]][2]]||''}</span></span>`:'';
+    return `<li style="--c:${TCOL[n[1]]||'var(--org)'}"><span class="dot"></span><div class="stop"><b>${esc(n[0])}</b><span class="kind">${n[1]==='p'?'人':'会社・組織'}</span></div>${rel}</li>`}).join('');
+  const chain=p.map(([x])=>G.n[x][0]).join(' → ');
+  const text=`${G.n[s][0]}から${G.n[t][0]}まで、${steps}ステップでした。\n${chain}\n#AI相関図`;
+  $('out').innerHTML=`<div class="big"><span class="n">${steps}</span><span>ステップでつながりました</span></div>
+   <ol class="line">${lis}</ol>
+   <div class="share"><h2 style="margin-top:8px">Xに投稿する文</h2><textarea id="tx" aria-label="投稿文">${esc(text)}</textarea><div class="row"><button type="button" id="cp">文をコピー</button><span id="cpm" class="muted" style="font-size:12px"></span></div></div>`;
+  $('cp').onclick=()=>{const ta=$('tx');navigator.clipboard.writeText(ta.value).then(()=>{$('cpm').textContent='コピーしました'}).catch(()=>{ta.select();$('cpm').textContent='選択しました。コピーしてください'})};
+}
+function wireSug(inp,ul){let items=[],sel=-1;
+  const render=()=>{ul.innerHTML=items.map((x,k)=>`<li role="option" aria-selected="${k===sel}" data-k="${k}">${esc(x.n)}<small>${G.n[x.i][1]==='p'?'人':'組織'}・${x.deg}</small></li>`).join('');ul.hidden=!items.length};
+  inp.addEventListener('input',()=>{if(!G)return;items=find(inp.value);sel=-1;render()});
+  inp.addEventListener('keydown',ev=>{if(ul.hidden)return;if(ev.key==='ArrowDown'){sel=Math.min(items.length-1,sel+1);render();ev.preventDefault()}else if(ev.key==='ArrowUp'){sel=Math.max(0,sel-1);render();ev.preventDefault()}else if(ev.key==='Enter'){if(sel>=0){inp.value=items[sel].n}ul.hidden=true;ev.preventDefault();run()}else if(ev.key==='Escape')ul.hidden=true});
+  ul.addEventListener('mousedown',ev=>{const li=ev.target.closest('li');if(!li)return;inp.value=items[+li.dataset.k].n;ul.hidden=true;ev.preventDefault()});
+  inp.addEventListener('blur',()=>setTimeout(()=>ul.hidden=true,120));
+}
+wireSug($('a'),$('sa'));wireSug($('b'),$('sb'));
+$('go').onclick=run;$('pas').onchange=run;
+document.querySelectorAll('.presets button').forEach(b=>b.onclick=()=>{$('a').value=b.dataset.a;$('b').value=b.dataset.b;run()});
+</script>
+
+</body>
+</html>

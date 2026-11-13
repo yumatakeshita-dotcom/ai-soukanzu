@@ -1,0 +1,48 @@
+# AI企業の相関図 プロジェクト
+
+AI企業・半導体企業の人・出資・取引・移籍のつながりを見せるWebサイト。
+本体の相関図(`site/index.html`)と、そのデータを使った実験ページ6つ(`site/lab/`)でできている。
+2026年11月13日に claude.ai のアーティファクトからこのプロジェクトに移した。経緯は `docs/migration_memo.md`。
+
+## 持ち主について
+- 熊本ヴォルターズで事業開発をしている。エンジニアではない
+- 返事は日本語。変更の説明は専門用語を使わずに短く
+- 選択肢があるときは、おすすめを1つ示す
+- 大きな変更の前は、やることを示してOKをもらう
+- ファイルの削除・上書きの前は必ず確認する
+- わからないことは推測せずに聞く
+
+## フォルダの中身
+```
+site/                 公開するもの(このフォルダをそのまま置けばサイトになる)
+  index.html          本体の相関図(約10MB。データもこの中に入っている)
+  bulk.json ほか      本体が後から読み込むデータ(顔写真、人物、Googleニュースの見出し、pb/ 以下の追加データ)
+  lab/                実験ページ6つ + index.html(一覧)
+src/lab/              実験ページの元ファイル。ここを直して build する
+scripts/              表示・確認・データ書き出しの道具
+docs/                 移行メモなど
+```
+
+## よく使う操作
+- 手元で見る: `npm run serve` → ブラウザで http://localhost:8000
+- 変更のあとの確認(必ずやる): `npm run check`  ※初回だけ `npm install` と `npx playwright install chromium`
+- 実験ページを作り直す: `npm run build-lab`(`src/lab/*.html` を直したあと)
+- 本体のデータから実験ページ用データを作り直す:
+  `node scripts/export_graph.js && node scripts/export_flows.js && python scripts/make_lab_data.py && npm run build-lab`
+
+## 本体(site/index.html)の直し方
+ファイルが大きいので、全体を読まずに目印で探して、その部分だけを直す。
+- 毎日の更新記録: `/* UPDATES_START */` 〜 `/* UPDATES_END */` の間
+  - `LAST_CHECK` = 最終確認日、`UPDATES` = 最近の変化(新しいものを先頭に足す)
+- 計算資源の取引(金色の線): `const DEALS={` と、出典の `const DS={`
+- 半導体の会社(TSMC・JASM・ASML・Samsung・SK hynix): `// ===== 半導体の相関図` の部分
+- 一次情報のリンク: `const PRIMARY={`
+- 使わない写真の一覧: `const PHBLOCK=`
+
+## 守ること
+- 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
+- 数字が報道ベースや契約の上限のときは、そう書く
+- 顔写真は、利用の権利(ライセンス)を確かめられたものだけ使う。Getty Images など権利表記のある写真は使わない
+- 既存のデータは消さない。直すときは「いつ、何を直したか」が説明文でわかるようにする
+- 色は必ずCSSの変数(`--active` `--invest` `--deal` など)を使い、ライト・ダークの両方で読めるようにする
+- スマホの幅(390px)で横にはみ出さないこと。`npm run check` が確かめる

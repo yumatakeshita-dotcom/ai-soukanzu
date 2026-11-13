@@ -1,0 +1,109 @@
+<title>AI人物トレカ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+/*BASE*/
+/* Layout: 上にガチャの台(引いたカードがめくれる)、下に図鑑(集めたカードと鍵のかかった枠) */
+:root{--ssr:#b8860b;--sr:#7a5bc0;--r:#3a87c7;--n:#6a7684}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ssr:#e6b84a;--sr:#b39cf0;--r:#6cb4f0;--n:#97a3b0}}
+:root[data-theme="dark"]{--ssr:#e6b84a;--sr:#b39cf0;--r:#6cb4f0;--n:#97a3b0}
+.machine{display:grid;gap:14px;justify-items:center;text-align:center}
+.pull{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.pull button{font-weight:700;padding:10px 22px;font-size:15px}
+#one{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.tray{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;min-height:250px;align-items:center}
+.card{--rc:var(--n);width:168px;height:262px;perspective:900px;flex:none}
+.card .in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.card.flip .in{transform:rotateY(180deg)}
+.face,.cback{position:absolute;inset:0;border-radius:12px;backface-visibility:hidden;overflow:hidden}
+.cback{background:repeating-linear-gradient(45deg,var(--soft) 0 8px,var(--surface) 8px 16px);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--font-mono);font-size:12px;color:var(--muted);letter-spacing:.1em}
+.face{transform:rotateY(180deg);background:var(--surface);border:3px solid var(--rc);display:grid;grid-template-rows:auto 1fr auto;text-align:left}
+.card.ssr .face{box-shadow:0 0 0 2px var(--surface),0 0 18px var(--ssr)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:6px 8px;background:var(--rc);color:#fff;font-family:var(--font-mono);font-size:11px;font-weight:500}
+.mid{display:grid;justify-items:center;align-content:center;gap:4px;padding:6px 8px}
+.av{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:900;font-size:20px;letter-spacing:.02em}
+.nm{font-weight:900;font-size:14px;line-height:1.25;text-align:center}
+.en{font-family:var(--font-mono);font-size:10px;color:var(--muted);text-align:center}
+.role{font-size:10.5px;color:var(--muted);text-align:center;line-height:1.35;max-height:2.7em;overflow:hidden}
+.st{display:grid;gap:3px;padding:6px 10px 9px;font-size:10px}
+.st div{display:grid;grid-template-columns:4.2em 1fr 1.8em;gap:6px;align-items:center}
+.st i{display:block;height:5px;border-radius:3px;background:var(--rc)}
+.st span:last-child{font-family:var(--font-mono);text-align:right}
+.bar{background:var(--soft);border-radius:3px}
+.rate{font-size:12px;color:var(--muted)}
+.dex{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
+.slot{border:1px solid var(--line);border-radius:10px;padding:8px;display:grid;justify-items:center;gap:4px;background:var(--bg);text-align:center;font-size:11.5px;min-height:118px;cursor:default}
+.slot.got{cursor:pointer;background:var(--surface);border-color:var(--rc)}
+.slot .av{width:44px;height:44px;font-size:14px}
+.slot.lock .av{background:var(--line)!important;color:var(--muted)}
+.prog{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline}
+.prog b{font-family:var(--font-mono);font-size:26px;font-weight:500}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font-size:12.5px;padding:4px 10px}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);max-width:min(420px,92vw);padding:18px}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ⑤ / 6</div>
+    <h1>AI人物トレカ</h1>
+    <p class="lead">AI企業の相関図に載っている120人をカードにしました。ステータスは相関図でのつながりの数、関わった会社の数、創業者かどうかから計算しています。引いて、図鑑を埋めてください。</p>
+  </header>
+  <section class="box machine">
+    <div class="pull"><button type="button" id="one">1回引く</button><button type="button" id="ten">10連</button></div>
+    <div class="rate">出る確率: SSR 4% / SR 16% / R 35% / N 45%</div>
+    <div class="tray" id="tray" aria-live="polite"></div>
+  </section>
+  <section class="box" style="display:grid;gap:12px">
+    <div class="prog"><h2 style="margin:0">図鑑</h2><b id="pc">0 / 120</b><span class="muted" id="pr"></span><button type="button" id="reset" style="margin-left:auto;font-size:12px">図鑑をリセット</button></div>
+    <div class="filters" id="flt"></div>
+    <div class="dex" id="dex"></div>
+  </section>
+  <footer>
+    <div>カードのデータは本体の「AI企業の相関図」(2026年11月13日時点)から作っています。顔写真は権利の確認ができていないため使わず、名前の頭文字で表しています。集めたカードは、このブラウザの中だけに保存されます。</div>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<dialog id="dlg"><div id="dlgc"></div><form method="dialog" style="margin-top:12px;text-align:right"><button>閉じる</button></form></dialog>
+<script>
+const C=/*DATA:cards*/;
+const SSR_ALSO=['サム・アルトマン','ダリオ・アモデイ','ジェンスン・フアン','デミス・ハサビス','マーク・ザッカーバーグ','イリヤ・スツケバー','ミラ・ムラティ'];
+C.forEach(c=>{if(SSR_ALSO.includes(c.n))c.rar='SSR'});
+const ORD={SSR:0,SR:1,R:2,N:3};C.sort((a,b)=>ORD[a.rar]-ORD[b.rar]);
+const RC={SSR:'var(--ssr)',SR:'var(--sr)',R:'var(--r)',N:'var(--n)'};
+const ODDS=[['SSR',.04],['SR',.16],['R',.35],['N',.45]];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const mx={d:Math.max(...C.map(c=>c.d)),c:Math.max(...C.map(c=>c.c))};
+function hue(s){let h=0;for(const ch of s)h=(h*31+ch.codePointAt(0))>>>0;return h%360}
+function ini(c){if(c.en){const p=c.en.split(/\s+/).filter(Boolean);return(p[0][0]+(p.length>1?p[p.length-1][0]:'')).toUpperCase()}return c.n.replace(/[・\s]/g,'').slice(0,2)}
+function av(c){const h=hue(c.n);return `<div class="av" style="background:linear-gradient(135deg,hsl(${h} 55% 42%),hsl(${(h+50)%360} 60% 32%))">${esc(ini(c))}</div>`}
+function stats(c){const s=[['つながり',c.d/mx.d,c.d],['会社',c.c/mx.c,c.c],['創業',c.f,c.f?'◎':'—']];
+  return s.map(([k,v,t])=>`<div><span>${k}</span><span class="bar"><i style="width:${Math.max(6,v*100)}%"></i></span><span>${t}</span></div>`).join('')}
+function cardHtml(c,i){return `<div class="card ${c.rar.toLowerCase()}" style="--rc:${RC[c.rar]}" data-i="${i}"><div class="in"><div class="cback">AI相関図</div><div class="face">
+  <div class="top"><span>${c.rar}</span><span>No.${String(C.indexOf(c)+1).padStart(3,'0')}</span></div>
+  <div class="mid">${av(c)}<div class="nm">${esc(c.n)}</div>${c.en?`<div class="en">${esc(c.en)}</div>`:''}<div class="role">${esc(c.role)}</div></div>
+  <div class="st">${stats(c)}</div></div></div></div>`}
+let got={};try{got=JSON.parse(localStorage.getItem('ai-tcg')||'{}')||{}}catch(e){got={}}
+const save=()=>{try{localStorage.setItem('ai-tcg',JSON.stringify(got))}catch(e){}};
+function draw1(){let r=Math.random(),rar='N';for(const [k,p] of ODDS){if(r<p){rar=k;break}r-=p}const pool=C.filter(c=>c.rar===rar);return pool[Math.floor(Math.random()*pool.length)]}
+function pull(n){const L=[];for(let i=0;i<n;i++)L.push(draw1());
+  if(n===10&&!L.some(c=>c.rar==='SSR'||c.rar==='SR')){const pool=C.filter(c=>c.rar==='SR');L[9]=pool[Math.floor(Math.random()*pool.length)]}
+  $('tray').innerHTML=L.map((c,i)=>cardHtml(c,i)).join('');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  [...$('tray').children].forEach((el,i)=>setTimeout(()=>el.classList.add('flip'),reduce?0:250+i*160));
+  L.forEach(c=>{got[c.n]=(got[c.n]||0)+1});save();dex()}
+let filt='all';
+function dex(){const have=C.filter(c=>got[c.n]).length;$('pc').textContent=`${have} / ${C.length}`;
+  const by=['SSR','SR','R','N'].map(r=>`${r} ${C.filter(c=>c.rar===r&&got[c.n]).length}/${C.filter(c=>c.rar===r).length}`).join('  ');$('pr').textContent=by;
+  $('dex').innerHTML=C.filter(c=>filt==='all'||c.rar===filt).map(c=>{const g=got[c.n];return g?`<div class="slot got" style="--rc:${RC[c.rar]}" data-n="${esc(c.n)}" tabindex="0" role="button">${av(c)}<b style="font-size:12px">${esc(c.n)}</b><span class="mono" style="color:${RC[c.rar]}">${c.rar}${g>1?' ×'+g:''}</span></div>`:`<div class="slot lock">${av({n:'?',en:'',d:0})}<span class="muted">No.${String(C.indexOf(c)+1).padStart(3,'0')}</span><span class="mono muted">${c.rar}</span></div>`}).join('');
+  $('dex').querySelectorAll('.got').forEach(el=>{const open=()=>{const c=C.find(x=>x.n===el.dataset.n);$('dlgc').innerHTML=`<div style="display:flex;justify-content:center">${cardHtml(c,0).replace('class="card ','class="card flip ')}</div><h2 style="margin-top:12px">${esc(c.n)}</h2><p class="muted" style="margin:0 0 6px">${esc(c.role)}</p><p style="margin:0;font-size:13.5px">関わった会社: ${c.co.map(esc).join('、')}</p>`;$('dlg').showModal()};el.onclick=open;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}}})}
+$('flt').innerHTML=['all','SSR','SR','R','N'].map(k=>`<button type="button" data-k="${k}" aria-pressed="${k==='all'}">${k==='all'?'すべて':k}</button>`).join('');
+$('flt').querySelectorAll('button').forEach(b=>b.onclick=()=>{filt=b.dataset.k;$('flt').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));dex()});
+$('one').onclick=()=>pull(1);$('ten').onclick=()=>pull(10);
+$('reset').onclick=()=>{if($('reset').dataset.c){got={};save();dex();$('reset').textContent='図鑑をリセット';delete $('reset').dataset.c}else{$('reset').dataset.c=1;$('reset').textContent='もう一度押すと消えます'}};
+/* 最初は見本としてSSRを3枚めくった状態で見せる(図鑑には入れない) */
+$('tray').innerHTML=['サム・アルトマン','孫正義','ジェンスン・フアン'].map(n=>C.find(c=>c.n===n)).filter(Boolean).map((c,i)=>cardHtml(c,i).replace('class="card ','class="card flip ')).join('');
+dex();
+</script>

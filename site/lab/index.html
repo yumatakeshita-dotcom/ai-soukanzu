@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI相関図ラボ</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;700&display=swap">
+<style>
+:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--accent:#4a5dd0}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--accent:#8394f5;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans JP",system-ui,sans-serif;padding:24px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:960px;margin:0 auto;display:grid;gap:16px}
+h1{margin:0;font-size:28px}p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px}
+a.c{display:grid;gap:4px;padding:14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg);text-decoration:none}
+a.c:hover{border-color:var(--accent)}a.c span{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body><div class="wrap">
+<h1>AI相関図ラボ</h1><p>AI企業の相関図のデータを使った6つの実験ページです。</p>
+<div class="grid">
+<a class="c" href="route.html"><span>①</span><b>つながり最短ルート</b><p>2人・2社の一番短いつながりをたどる</p></a>
+<a class="c" href="stop.html"><span>②</span><b>もしTSMCが止まったら</b><p>供給網が止まったときの影響を試す</p></a>
+<a class="c" href="money.html"><span>③</span><b>AIマネーの循環</b><p>出資と支払いの流れを動きで見る</p></a>
+<a class="c" href="moves.html"><span>④</span><b>AI人材の移籍マップ</b><p>研究者の移籍を年ごとに追う</p></a>
+<a class="c" href="cards.html"><span>⑤</span><b>AI人物トレカ</b><p>120人のカードを集める</p></a>
+<a class="c" href="sports.html"><span>⑥</span><b>テック長者とスポーツ球団</b><p>テック側とチームのつながり</p></a>
+</div>
+<p><a href="../index.html" style="color:var(--accent)">← AI企業の相関図(本体)へ</a></p>
+</div></body></html>

@@ -1,0 +1,100 @@
+<title>AI人材の移籍マップ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/*BASE*/
+/* Layout: 移籍市場の電光掲示板。上に年のスライダー、左に円形の移籍図、右に「その年の移籍」一覧 */
+:root{--c1:#0d8a79;--c2:#4a5dd0;--c3:#d9772b;--c4:#b8397a;--c5:#8f6500;--c6:#3a87c7;--c7:#7a5bc0;--c8:#c93b3b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--c1:#2fc2ab;--c2:#8394f5;--c3:#f09a55;--c4:#f08cbc;--c5:#e6b84a;--c6:#6cb4f0;--c7:#b39cf0;--c8:#f07272}}
+:root[data-theme="dark"]{--c1:#2fc2ab;--c2:#8394f5;--c3:#f09a55;--c4:#f08cbc;--c5:#e6b84a;--c6:#6cb4f0;--c7:#b39cf0;--c8:#f07272}
+.ctrl{display:flex;flex-wrap:wrap;gap:12px 18px;align-items:center}
+.yr{font-family:var(--font-mono);font-size:34px;font-weight:500;min-width:4ch;font-variant-numeric:tabular-nums}
+#y{flex:1;min-width:180px;accent-color:var(--invest)}
+.main{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:860px){.main{grid-template-columns:minmax(0,1fr)}}
+svg{display:block;width:100%;height:auto}
+.rib{fill:none;stroke-linecap:round;opacity:.55;transition:opacity .3s}
+.rib.dim{opacity:.06}
+.rib.new{opacity:.95}
+.org text{font-size:16px;font-weight:700;fill:var(--fg);paint-order:stroke;stroke:var(--surface);stroke-width:4px}
+.org{cursor:pointer}
+.org .cnt{font-family:var(--font-mono);font-size:12.5px;font-weight:400;fill:var(--muted)}
+.feed{list-style:none;margin:0;padding:0;display:grid;gap:6px;max-height:520px;overflow:auto}
+.feed li{display:grid;grid-template-columns:3.4em minmax(0,1fr);gap:8px;padding:7px 8px;border-radius:8px;background:var(--bg);font-size:13.5px}
+.feed .y{font-family:var(--font-mono);color:var(--muted);font-size:12px;padding-top:2px}
+.feed .mv{color:var(--muted);font-size:12.5px}
+.feed .mv b{color:var(--fg);font-weight:500}
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.tally div{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted)}
+.tally b{display:block;font-family:var(--font-mono);font-size:20px;color:var(--fg);font-weight:500}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ④ / 6</div>
+    <h1>AI人材の移籍マップ</h1>
+    <p class="lead">研究者や幹部が、どの会社からどの会社へ移ったかを年ごとに見せます。線の色は「出ていった元の会社」、太さは人数です。その年に動いた線は濃く光ります。会社をクリックすると、その会社の出入りだけを表示します。</p>
+  </header>
+  <section class="box ctrl">
+    <span class="yr" id="yl">2026</span>
+    <input type="range" id="y" min="2015" max="2026" value="2026" step="1" aria-label="年">
+    <button type="button" id="play">再生</button>
+    <button type="button" id="all" aria-pressed="false">その年だけ表示</button>
+  </section>
+  <div class="main">
+    <section class="box" style="padding:8px"><svg id="svg" viewBox="-110 -20 860 680" role="img" aria-label="会社のあいだの人の移動"></svg></section>
+    <aside class="box" style="display:grid;gap:12px">
+      <div class="tally" id="tally"></div>
+      <h2 id="ft" style="margin:0">移籍の一覧</h2>
+      <ul class="feed" id="feed"></ul>
+    </aside>
+  </div>
+  <footer>
+    <div>データ: 本体の「AI企業の相関図」に記録した「出身」「移籍先」のつながり(71件、2026年11月13日時点)。相関図に載っている人だけなので、実際の移籍の一部です。年は、移った先に入った年(わかる場合)です。Google BrainはGoogle DeepMindにまとめています。</div>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<script>
+const FL=/*DATA:flows*/;
+const $=id=>document.getElementById(id);const NS='http://www.w3.org/2000/svg';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+FL.forEach(f=>{if(!f.y)f.y=2026});
+const tot={};FL.forEach(f=>{tot[f.a]=(tot[f.a]||0)+1;tot[f.b]=(tot[f.b]||0)+1});
+const SORTED=Object.keys(tot).sort((a,b)=>tot[b]-tot[a]);
+const ORGS=[];for(let i=0;i<Math.ceil(SORTED.length/2);i++){ORGS.push(SORTED[i]);const j=SORTED.length-1-i;if(j>i)ORGS.push(SORTED[j])}
+const RANK=o=>SORTED.indexOf(o);
+const PAL=['--c1','--c2','--c3','--c4','--c5','--c6','--c7','--c8'];
+const colOf=o=>{const i=RANK(o);return i<PAL.length?`var(${PAL[i]})`:'var(--org)'};
+const cx=320,cy=320,R=238;const P={};ORGS.forEach((o,i)=>{const a=-Math.PI/2+i*2*Math.PI/ORGS.length;P[o]={x:cx+R*Math.cos(a),y:cy+R*Math.sin(a),a}});
+const svg=$('svg');const mk=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).append(e);return e};
+const gR=mk('g',{}),gO=mk('g',{});
+const pairs={};FL.forEach(f=>{const k=f.a+'>'+f.b;(pairs[k]=pairs[k]||[]).push(f)});
+const ribs=Object.entries(pairs).map(([k,L])=>{const [a,b]=k.split('>');const A=P[a],B=P[b];
+  const qx=cx+(A.x+B.x-2*cx)*.18+(B.y-A.y)*.08,qy=cy+(A.y+B.y-2*cy)*.18-(B.x-A.x)*.08;
+  const p=mk('path',{class:'rib',d:`M${A.x},${A.y} Q${qx},${qy} ${B.x},${B.y}`,stroke:colOf(a)},gR);return{a,b,L,p}});
+let focus=null;
+ORGS.forEach(o=>{const g=mk('g',{class:'org',tabindex:0,role:'button','aria-label':o},gO);const {x,y,a}=P[o];
+  const c=mk('circle',{cx:x,cy:y,r:Math.min(16,5+Math.sqrt(tot[o])*2.2),fill:colOf(o),stroke:'var(--surface)','stroke-width':2.5},g);
+  const out=Math.cos(a)>=0;const tx=x+Math.cos(a)*24,ty=y+Math.sin(a)*24+4;
+  const t=mk('text',{x:tx,y:ty+1,'text-anchor':Math.abs(Math.cos(a))<.3?'middle':out?'start':'end'},g);t.textContent=o;
+  const n=mk('text',{class:'cnt',x:tx,y:ty+17,'text-anchor':Math.abs(Math.cos(a))<.3?'middle':out?'start':'end'},g);n.dataset.o=o;
+  const act=()=>{focus=focus===o?null:o;draw()};g.addEventListener('click',act);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();act()}})});
+let year=2026,only=false,timer=null;
+function draw(){$('yl').textContent=year;
+  const vis=f=>(only?f.y===year:f.y<=year)&&(!focus||f.a===focus||f.b===focus);
+  ribs.forEach(r=>{const n=r.L.filter(vis).length,fresh=r.L.filter(f=>f.y===year&&vis(f)).length;
+    r.p.setAttribute('stroke-width',n?1.5+n*1.8:0);r.p.classList.toggle('new',fresh>0);r.p.classList.toggle('dim',!n)});
+  gO.querySelectorAll('.cnt').forEach(t=>{const o=t.dataset.o;const i=FL.filter(f=>f.b===o&&vis(f)).length,u=FL.filter(f=>f.a===o&&vis(f)).length;t.textContent=i||u?`+${i} / −${u}`:''});
+  const list=FL.filter(vis).sort((a,b)=>b.y-a.y);
+  $('ft').textContent=(focus?focus+' の':'')+(only?`${year}年の移籍`:`${year}年までの移籍`)+`(${list.length}件)`;
+  $('feed').innerHTML=list.map(f=>`<li><span class="y">${f.y}</span><span><b>${esc(f.p)}</b><br><span class="mv"><b style="color:${colOf(f.a)}">${esc(f.a)}</b> → <b>${esc(f.b)}</b></span></span></li>`).join('')||'<li><span></span><span class="muted">この条件の移籍はありません</span></li>';
+  const net=ORGS.map(o=>[o,FL.filter(f=>f.b===o&&vis(f)).length-FL.filter(f=>f.a===o&&vis(f)).length]).sort((a,b)=>b[1]-a[1]);
+  const top=net[0],bot=net[net.length-1];
+  $('tally').innerHTML=`<div><b>${list.length}</b>移籍(件)</div><div><b style="color:var(--active)">${top&&top[1]>0?'+'+top[1]:'0'}</b>最も人が増えた: ${top&&top[1]>0?esc(top[0]):'—'}</div><div><b style="color:var(--conflict)">${bot&&bot[1]<0?bot[1]:'0'}</b>最も人が出ていった: ${bot&&bot[1]<0?esc(bot[0]):'—'}</div>`}
+$('y').oninput=e=>{year=+e.target.value;draw()};
+$('all').onclick=()=>{only=!only;$('all').setAttribute('aria-pressed',String(only));draw()};
+$('play').onclick=()=>{if(timer){clearInterval(timer);timer=null;$('play').textContent='再生';return}
+  year=2015;$('y').value=year;draw();$('play').textContent='停止';
+  timer=setInterval(()=>{if(year>=2026){clearInterval(timer);timer=null;$('play').textContent='再生';return}year++;$('y').value=year;draw()},1100)};
+draw();
+</script>

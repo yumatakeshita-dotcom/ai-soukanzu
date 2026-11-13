@@ -1,0 +1,35 @@
+/* AI相関図ラボ 共通: 本体の相関図と同じ色と書体(本体の色の意味を引き継ぐ) */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1; --soft:#e8ecf0;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --conflict:#c93b3b; --deal:#8f6500;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;
+  padding-block:22px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:4px 0 6px;text-wrap:balance;font-weight:700}
+h2{font-size:18px;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--muted);max-width:66ch;margin:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+button,select,input{font:inherit;color:var(--fg)}
+button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--invest)}
+button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+:focus-visible{outline:2px solid var(--invest);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+a{color:var(--invest)}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:6px}
+footer ul{margin:0;padding-left:18px}
+.back{font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

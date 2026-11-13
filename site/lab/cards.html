@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<title>AI人物トレカ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700;900&display=swap">
+<style>
+/* AI相関図ラボ 共通: 本体の相関図と同じ色と書体(本体の色の意味を引き継ぐ) */
+:root{
+  --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1; --soft:#e8ecf0;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --conflict:#c93b3b; --deal:#8f6500;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741; --soft:#232a33;
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --conflict:#f07272; --deal:#e6b84a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:15px;line-height:1.65;
+  padding-block:22px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1120px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
+.eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}
+h1{font-size:clamp(24px,4vw,34px);line-height:1.25;margin:4px 0 6px;text-wrap:balance;font-weight:700}
+h2{font-size:18px;margin:0 0 8px;text-wrap:balance}
+.lead{color:var(--muted);max-width:66ch;margin:0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+button,select,input{font:inherit;color:var(--fg)}
+button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 14px;cursor:pointer}
+button:hover{border-color:var(--invest)}
+button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+:focus-visible{outline:2px solid var(--invest);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+a{color:var(--invest)}
+footer{font-size:12.5px;color:var(--muted);display:grid;gap:6px}
+footer ul{margin:0;padding-left:18px}
+.back{font-size:13px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Layout: 上にガチャの台(引いたカードがめくれる)、下に図鑑(集めたカードと鍵のかかった枠) */
+:root{--ssr:#b8860b;--sr:#7a5bc0;--r:#3a87c7;--n:#6a7684}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ssr:#e6b84a;--sr:#b39cf0;--r:#6cb4f0;--n:#97a3b0}}
+:root[data-theme="dark"]{--ssr:#e6b84a;--sr:#b39cf0;--r:#6cb4f0;--n:#97a3b0}
+.machine{display:grid;gap:14px;justify-items:center;text-align:center}
+.pull{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.pull button{font-weight:700;padding:10px 22px;font-size:15px}
+#one{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.tray{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;min-height:250px;align-items:center}
+.card{--rc:var(--n);width:168px;height:262px;perspective:900px;flex:none}
+.card .in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.card.flip .in{transform:rotateY(180deg)}
+.face,.cback{position:absolute;inset:0;border-radius:12px;backface-visibility:hidden;overflow:hidden}
+.cback{background:repeating-linear-gradient(45deg,var(--soft) 0 8px,var(--surface) 8px 16px);border:2px solid var(--line);display:grid;place-items:center;font-family:var(--font-mono);font-size:12px;color:var(--muted);letter-spacing:.1em}
+.face{transform:rotateY(180deg);background:var(--surface);border:3px solid var(--rc);display:grid;grid-template-rows:auto 1fr auto;text-align:left}
+.card.ssr .face{box-shadow:0 0 0 2px var(--surface),0 0 18px var(--ssr)}
+.top{display:flex;justify-content:space-between;align-items:center;padding:6px 8px;background:var(--rc);color:#fff;font-family:var(--font-mono);font-size:11px;font-weight:500}
+.mid{display:grid;justify-items:center;align-content:center;gap:4px;padding:6px 8px}
+.av{width:62px;height:62px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:900;font-size:20px;letter-spacing:.02em}
+.nm{font-weight:900;font-size:14px;line-height:1.25;text-align:center}
+.en{font-family:var(--font-mono);font-size:10px;color:var(--muted);text-align:center}
+.role{font-size:10.5px;color:var(--muted);text-align:center;line-height:1.35;max-height:2.7em;overflow:hidden}
+.st{display:grid;gap:3px;padding:6px 10px 9px;font-size:10px}
+.st div{display:grid;grid-template-columns:4.2em 1fr 1.8em;gap:6px;align-items:center}
+.st i{display:block;height:5px;border-radius:3px;background:var(--rc)}
+.st span:last-child{font-family:var(--font-mono);text-align:right}
+.bar{background:var(--soft);border-radius:3px}
+.rate{font-size:12px;color:var(--muted)}
+.dex{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px}
+.slot{border:1px solid var(--line);border-radius:10px;padding:8px;display:grid;justify-items:center;gap:4px;background:var(--bg);text-align:center;font-size:11.5px;min-height:118px;cursor:default}
+.slot.got{cursor:pointer;background:var(--surface);border-color:var(--rc)}
+.slot .av{width:44px;height:44px;font-size:14px}
+.slot.lock .av{background:var(--line)!important;color:var(--muted)}
+.prog{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline}
+.prog b{font-family:var(--font-mono);font-size:26px;font-weight:500}
+.filters{display:flex;flex-wrap:wrap;gap:6px}
+.filters button{font-size:12.5px;padding:4px 10px}
+dialog{border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);max-width:min(420px,92vw);padding:18px}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ⑤ / 6</div>
+    <h1>AI人物トレカ</h1>
+    <p class="lead">AI企業の相関図に載っている120人をカードにしました。ステータスは相関図でのつながりの数、関わった会社の数、創業者かどうかから計算しています。引いて、図鑑を埋めてください。</p>
+  </header>
+  <section class="box machine">
+    <div class="pull"><button type="button" id="one">1回引く</button><button type="button" id="ten">10連</button></div>
+    <div class="rate">出る確率: SSR 4% / SR 16% / R 35% / N 45%</div>
+    <div class="tray" id="tray" aria-live="polite"></div>
+  </section>
+  <section class="box" style="display:grid;gap:12px">
+    <div class="prog"><h2 style="margin:0">図鑑</h2><b id="pc">0 / 120</b><span class="muted" id="pr"></span><button type="button" id="reset" style="margin-left:auto;font-size:12px">図鑑をリセット</button></div>
+    <div class="filters" id="flt"></div>
+    <div class="dex" id="dex"></div>
+  </section>
+  <footer>
+    <div>カードのデータは本体の「AI企業の相関図」(2026年11月13日時点)から作っています。顔写真は権利の確認ができていないため使わず、名前の頭文字で表しています。集めたカードは、このブラウザの中だけに保存されます。</div>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<dialog id="dlg"><div id="dlgc"></div><form method="dialog" style="margin-top:12px;text-align:right"><button>閉じる</button></form></dialog>
+<script>
+const C=[{"n":"イーロン・マスク","en":"Elon Musk","d":22,"c":8,"v":0,"f":1,"co":["Neuralink","OpenAI","SpaceX","Tesla","The Boring Company","X (Twitter)"],"role":"xAI 創業者","rar":"SSR"},{"n":"スティーブ・ジョブズ","en":"Steve Jobs","d":14,"c":3,"v":0,"f":1,"co":["Apple","Corning","NeXT"],"role":"NeXT 創業者","rar":"SSR"},{"n":"孫正義","en":"Masayoshi Son","d":7,"c":5,"v":0,"f":1,"co":["Arm","T-Mobile US","Vision Fund","ソフトバンク","ソフトバンクグループ"],"role":"ソフトバンクグループ 創業者 / 会長兼社長","rar":"SSR"},{"n":"青柳直樹","en":"Naoki Aoyagi","d":8,"c":4,"v":0,"f":1,"co":["newmo","メルカリ","メルコイン","メルペイ"],"role":"newmo 代表取締役CEO / 創業者","rar":"SSR"},{"n":"ブレット・テイラー","en":"Bret Taylor","d":7,"c":4,"v":0,"f":1,"co":["FriendFeed","OpenAI","Sierra","X (Twitter)"],"role":"OpenAI 取締役会議長","rar":"SSR"},{"n":"ジョン・シュルマン","en":"John Schulman","d":7,"c":3,"v":0,"f":1,"co":["Anthropic","OpenAI","Thinking Machines Lab"],"role":"Thinking Machines Lab チーフサイエンティスト","rar":"SSR"},{"n":"ダニエラ・アモデイ","en":"Daniela Amodei","d":6,"c":3,"v":0,"f":1,"co":["Anthropic","OpenAI","Stripe"],"role":"Anthropic 社長 / 共同創業者","rar":"SSR"},{"n":"ラリー・エリソン","en":"Larry Ellison","d":6,"c":3,"v":0,"f":1,"co":["Apple","Oracle","Tesla"],"role":"Oracle 共同創業者 / 会長兼CTO","rar":"SSR"},{"n":"デミス・ハサビス","en":"Demis Hassabis","d":5,"c":3,"v":0,"f":1,"co":["Alphabet","Google DeepMind","Isomorphic Labs"],"role":"Google DeepMind 共同創業者 / 会長","rar":"SR"},{"n":"ムスタファ・スレイマン","en":"Mustafa Suleyman","d":7,"c":2,"v":0,"f":1,"co":["Google DeepMind","Microsoft"],"role":"Microsoft Microsoft AI CEO","rar":"SR"},{"n":"マーク・ベニオフ","en":"Marc Benioff","d":7,"c":2,"v":0,"f":1,"co":["Salesforce","Slack"],"role":"Slack 親会社のCEO","rar":"SR"},{"n":"リード・ヘイスティングス","en":"Reed Hastings","d":6,"c":2,"v":0,"f":1,"co":["Anthropic","Netflix"],"role":"Anthropic 取締役","rar":"SR"},{"n":"アレクサンドル・ワン","en":"Alexandr Wang","d":6,"c":2,"v":0,"f":1,"co":["Meta","Scale AI"],"role":"Meta Chief AI Officer","rar":"SR"},{"n":"岡野原大輔","en":"Daisuke Okanohara","d":6,"c":2,"v":0,"f":1,"co":["Matlantis(PFCC)","Preferred Networks"],"role":"Preferred Networks 社長 / 共同創業者","rar":"SR"},{"n":"サム・アルトマン","en":"Sam Altman","d":5,"c":2,"v":0,"f":1,"co":["Helion Energy","OpenAI"],"role":"OpenAI CEO / 共同創業者","rar":"SR"},{"n":"イリヤ・スツケバー","en":"Ilya Sutskever","d":5,"c":2,"v":0,"f":1,"co":["OpenAI","Safe Superintelligence"],"role":"Safe Superintelligence CEO / 共同創業者","rar":"SR"},{"n":"ルーク・メッツ","en":"Luke Metz","d":5,"c":2,"v":0,"f":1,"co":["OpenAI","Thinking Machines Lab"],"role":"OpenAI 復帰","rar":"SR"},{"n":"アンディ・コンウィンスキー","en":"Andy Konwinski","d":5,"c":2,"v":0,"f":1,"co":["Databricks","Perplexity"],"role":"Perplexity 共同創業者","rar":"SR"},{"n":"パーカー・ハリス","en":"Parker Harris","d":5,"c":2,"v":0,"f":1,"co":["Salesforce","Slack"],"role":"Slack CTO","rar":"SR"},{"n":"ダリオ・アモデイ","en":"Dario Amodei","d":4,"c":2,"v":0,"f":1,"co":["Anthropic","OpenAI"],"role":"Anthropic CEO / 共同創業者","rar":"SR"},{"n":"ミラ・ムラティ","en":"Mira Murati","d":4,"c":2,"v":0,"f":1,"co":["OpenAI","Thinking Machines Lab"],"role":"Thinking Machines Lab CEO / 創業者","rar":"SR"},{"n":"ダニエル・グロス","en":"Daniel Gross","d":4,"c":2,"v":0,"f":1,"co":["Meta","Safe Superintelligence"],"role":"Meta MSLの幹部","rar":"SR"},{"n":"セバスチャン・スラン","en":"Sebastian Thrun","d":4,"c":2,"v":0,"f":1,"co":["Cresta","Waymo"],"role":"Cresta 創業者","rar":"SR"},{"n":"グレッグ・ブロックマン","en":"Greg Brockman","d":3,"c":2,"v":0,"f":1,"co":["OpenAI","Stripe"],"role":"OpenAI 社長 / 共同創業者","rar":"SR"},{"n":"イーゴリ・バブシュキン","en":"Igor Babuschkin","d":3,"c":2,"v":0,"f":1,"co":["River AI","xAI"],"role":"River AI 創業者","rar":"SR"},{"n":"山田進太郎","en":"Shintaro Yamada","d":3,"c":2,"v":0,"f":1,"co":["Mercari US","メルカリ"],"role":"メルカリ 創業者 / 代表執行役CEO","rar":"SR"},{"n":"ジョナサン・アイブ","en":"Jony Ive","d":3,"c":2,"v":0,"f":1,"co":["Apple","io Products"],"role":"io Products 創業者","rar":"SR"},{"n":"スー・ワグナー","en":"Sue Wagner","d":3,"c":2,"v":0,"f":1,"co":["Apple","BlackRock"],"role":"Apple 社外取締役","rar":"R"},{"n":"ジェフ・ベゾス","en":"Jeff Bezos","d":3,"c":2,"v":0,"f":1,"co":["Amazon","Prometheus"],"role":"Amazon 創業者 / 会長(執行)","rar":"R"},{"n":"アダム・ダンジェロ","en":"Adam D'Angelo","d":2,"c":2,"v":0,"f":1,"co":["OpenAI","Quora"],"role":"OpenAI 取締役","rar":"R"},{"n":"ナット・フリードマン","en":"Nat Friedman","d":2,"c":2,"v":0,"f":1,"co":["Meta","Xamarin"],"role":"Meta MSLの幹部","rar":"R"},{"n":"ビル・ゲイツ","en":"Bill Gates","d":2,"c":2,"v":0,"f":1,"co":["Microsoft","Xbox Game Studios"],"role":"Microsoft 共同創業者","rar":"R"},{"n":"リード・ホフマン","en":"Reid Hoffman","d":2,"c":2,"v":0,"f":1,"co":["LinkedIn","Microsoft"],"role":"Microsoft 取締役","rar":"R"},{"n":"宮川潤一","en":"Junichi Miyakawa","d":4,"c":3,"v":0,"f":0,"co":["PayPay","ソフトバンク","ソフトバンクグループ"],"role":"ソフトバンクグループ ソフトバンク(通信)社長","rar":"R"},{"n":"ディラン・フィールド","en":"Dylan Field","d":5,"c":1,"v":0,"f":1,"co":["Figma"],"role":"Figma CEO / 会長 / 共同創業者","rar":"R"},{"n":"ダイアン・グリーン","en":"Diane Greene","d":2,"c":2,"v":0,"f":1,"co":["Stripe","VMウエア"],"role":"Stripe 取締役","rar":"R"},{"n":"メラニー・パーキンス","en":"Melanie Perkins","d":5,"c":1,"v":0,"f":1,"co":["Canva"],"role":"Canva CEO / 共同創業者","rar":"R"},{"n":"エリック・シュミット","en":"Eric Schmidt","d":3,"c":3,"v":0,"f":0,"co":["Alphabet","Apple","Relativity Space"],"role":"Relativity Space CEO(Wikidata)","rar":"R"},{"n":"ルオミン・パン","en":"Ruoming Pang","d":5,"c":2,"v":0,"f":0,"co":["Meta","OpenAI"],"role":"OpenAI AI基盤","rar":"R"},{"n":"バレット・ゾフ","en":"Barret Zoph","d":5,"c":2,"v":0,"f":0,"co":["OpenAI","Thinking Machines Lab"],"role":"OpenAI 復帰","rar":"R"},{"n":"アンドリュー・タロック","en":"Andrew Tulloch","d":3,"c":1,"v":0,"f":1,"co":["Thinking Machines Lab"],"role":"Thinking Machines Lab 元共同創業者","rar":"R"},{"n":"伊藤錬","en":"Ren Ito","d":3,"c":1,"v":0,"f":1,"co":["Sakana AI"],"role":"Sakana AI COO / 共同創業者","rar":"R"},{"n":"レネ・ハース","en":"Rene Haas","d":5,"c":2,"v":0,"f":0,"co":["Arm","ソフトバンクグループ"],"role":"ソフトバンクグループ 取締役 / Arm CEO","rar":"R"},{"n":"西川徹","en":"Toru Nishikawa","d":3,"c":1,"v":0,"f":1,"co":["Preferred Networks"],"role":"Preferred Networks 会長 / 共同創業者","rar":"R"},{"n":"上野山勝也","en":"Katsuya Uenoyama","d":3,"c":1,"v":0,"f":1,"co":["PKSHA Technology"],"role":"PKSHA Technology 代表取締役 / 創業者","rar":"R"},{"n":"エイダン・ゴメス","en":"Aidan Gomez","d":3,"c":1,"v":0,"f":1,"co":["Cohere"],"role":"Cohere CEO / 共同創業者","rar":"R"},{"n":"ニック・フロスト","en":"Nick Frosst","d":3,"c":1,"v":0,"f":1,"co":["Cohere"],"role":"Cohere 共同創業者","rar":"R"},{"n":"イワン・ジャオ","en":"Ivan Zhao","d":3,"c":1,"v":0,"f":1,"co":["Notion"],"role":"Notion CEO / 共同創業者","rar":"R"},{"n":"エヴァン・ウォレス","en":"Evan Wallace","d":3,"c":1,"v":0,"f":1,"co":["Figma"],"role":"Figma 元共同創業者","rar":"R"},{"n":"パトリック・コリソン","en":"Patrick Collison","d":3,"c":1,"v":0,"f":1,"co":["Stripe"],"role":"Stripe CEO / 共同創業者","rar":"R"},{"n":"アルビッド・ルンネマルク","en":"Arvid Lunnemark","d":3,"c":1,"v":0,"f":1,"co":["Cursor (Anysphere)"],"role":"Cursor (Anysphere) 元共同創業者","rar":"R"},{"n":"カル・ヘンダーソン","en":"Cal Henderson","d":3,"c":1,"v":0,"f":1,"co":["Slack"],"role":"Slack 元CTO / 共同創業者","rar":"R"},{"n":"ビル・キャンベル","en":"Bill Campbell","d":5,"c":2,"v":0,"f":0,"co":["Apple","Intuit"],"role":"Apple 元取締役","rar":"R"},{"n":"ラリー・ペイジ","en":"Larry Page","d":3,"c":1,"v":0,"f":1,"co":["Alphabet"],"role":"Alphabet 共同創業者 / 取締役","rar":"R"},{"n":"マーティン・エバーハード","en":"Martin Eberhard","d":3,"c":1,"v":0,"f":1,"co":["Tesla"],"role":"Tesla 共同創業者 / 元CEO","rar":"R"},{"n":"ノーム・シェイザー","en":"Noam Shazeer","d":3,"c":1,"v":0,"f":1,"co":["Character.AI"],"role":"Character.AI 共同創業者","rar":"R"},{"n":"ミシャ・ラスキン","en":"Misha Laskin","d":3,"c":1,"v":0,"f":1,"co":["Reflection AI"],"role":"Reflection AI 共同創業者","rar":"R"},{"n":"イオアニス・アントノグルー","en":"Ioannis Antonoglou","d":3,"c":1,"v":0,"f":1,"co":["Reflection AI"],"role":"Reflection AI 共同創業者","rar":"R"},{"n":"ヤン・ジーリン","en":"Yang Zhilin","d":3,"c":1,"v":0,"f":1,"co":["Moonshot AI"],"role":"Moonshot AI 共同創業者 / CEO","rar":"R"},{"n":"アンドレイ・カルパシー","en":"Andrej Karpathy","d":2,"c":1,"v":0,"f":1,"co":["OpenAI"],"role":"OpenAI 元研究者 / 共同創業者","rar":"R"},{"n":"ヤン・ライケ","en":"Jan Leike","d":4,"c":2,"v":0,"f":0,"co":["Anthropic","OpenAI"],"role":"Anthropic アラインメント責任者","rar":"R"},{"n":"サム・ショーンホルツ","en":"Sam Schoenholz","d":4,"c":2,"v":0,"f":0,"co":["OpenAI","Thinking Machines Lab"],"role":"OpenAI 復帰","rar":"R"},{"n":"ジャレッド・カプラン","en":"Jared Kaplan","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic 共同創業者(研究)","rar":"R"},{"n":"ジャック・クラーク","en":"Jack Clark","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic 共同創業者(政策)","rar":"R"},{"n":"クリス・オラ","en":"Chris Olah","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic 共同創業者(解釈可能性)","rar":"R"},{"n":"トム・ブラウン","en":"Tom Brown","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic 共同創業者(計算基盤)","rar":"R"},{"n":"サム・マッキャンドリッシュ","en":"Sam McCandlish","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic チーフアーキテクト / 共同創業者","rar":"N"},{"n":"ベン・マン","en":"Ben Mann","d":2,"c":1,"v":0,"f":1,"co":["Anthropic"],"role":"Anthropic Anthropic Labs共同責任者 / 共同創業者","rar":"N"},{"n":"ジョン・ジャンパー","en":"John Jumper","d":4,"c":2,"v":0,"f":0,"co":["Anthropic","Google DeepMind"],"role":"Anthropic 研究者","rar":"N"},{"n":"カイル・コシック","en":"Kyle Kosic","d":2,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"ジョエル・ピノー","en":"Joelle Pineau","d":4,"c":2,"v":0,"f":0,"co":["Cohere","Meta"],"role":"Cohere Chief AI Officer","rar":"N"},{"n":"リリアン・ウェン","en":"Lilian Weng","d":2,"c":1,"v":0,"f":1,"co":["Thinking Machines Lab"],"role":"Thinking Machines Lab 共同創業者","rar":"N"},{"n":"ダニエル・レヴィ","en":"Daniel Levy","d":2,"c":1,"v":0,"f":1,"co":["Safe Superintelligence"],"role":"Safe Superintelligence 社長 / 共同創業者","rar":"N"},{"n":"サンダー・ピチャイ","en":"Sundar Pichai","d":4,"c":2,"v":0,"f":0,"co":["Alphabet","Google DeepMind"],"role":"Google DeepMind Google / Alphabet CEO","rar":"N"},{"n":"ブラッド・スミス","en":"Brad Smith","d":4,"c":2,"v":0,"f":0,"co":["Intuit","Microsoft"],"role":"Microsoft 副会長 / 社長","rar":"N"},{"n":"アルチュール・メンシュ","en":"Arthur Mensch","d":2,"c":1,"v":0,"f":1,"co":["Mistral AI"],"role":"Mistral AI CEO / 共同創業者","rar":"N"},{"n":"ギヨーム・ランプル","en":"Guillaume Lample","d":2,"c":1,"v":0,"f":1,"co":["Mistral AI"],"role":"Mistral AI チーフサイエンティスト / 共同創業者","rar":"N"},{"n":"ティモテ・ラクロワ","en":"Timothée Lacroix","d":2,"c":1,"v":0,"f":1,"co":["Mistral AI"],"role":"Mistral AI CTO / 共同創業者","rar":"N"},{"n":"デイビッド・ハ","en":"David Ha","d":2,"c":1,"v":0,"f":1,"co":["Sakana AI"],"role":"Sakana AI CEO / 共同創業者","rar":"N"},{"n":"リオン・ジョーンズ","en":"Llion Jones","d":2,"c":1,"v":0,"f":1,"co":["Sakana AI"],"role":"Sakana AI CTO / 共同創業者","rar":"N"},{"n":"ジェンスン・フアン","en":"Jensen Huang","d":2,"c":1,"v":0,"f":1,"co":["Nvidia"],"role":"Nvidia CEO / 共同創業者","rar":"N"},{"n":"アラヴィンド・スリニバス","en":"Aravind Srinivas","d":2,"c":1,"v":0,"f":1,"co":["Perplexity"],"role":"Perplexity CEO / 共同創業者","rar":"N"},{"n":"ルーシー・グオ","en":"Lucy Guo","d":2,"c":1,"v":0,"f":1,"co":["Scale AI"],"role":"Scale AI 元共同創業者","rar":"N"},{"n":"アリ・ゴドシ","en":"Ali Ghodsi","d":2,"c":1,"v":0,"f":1,"co":["Databricks"],"role":"Databricks CEO / 共同創業者","rar":"N"},{"n":"マテイ・ザハリア","en":"Matei Zaharia","d":2,"c":1,"v":0,"f":1,"co":["Databricks"],"role":"Databricks CTO / 共同創業者","rar":"N"},{"n":"イオン・ストイカ","en":"Ion Stoica","d":2,"c":1,"v":0,"f":1,"co":["Databricks"],"role":"Databricks 共同創業者","rar":"N"},{"n":"レイノルド・シン","en":"Reynold Xin","d":2,"c":1,"v":0,"f":1,"co":["Databricks"],"role":"Databricks チーフアーキテクト / 共同創業者","rar":"N"},{"n":"パトリック・ウェンデル","en":"Patrick Wendell","d":2,"c":1,"v":0,"f":1,"co":["Databricks"],"role":"Databricks 共同創業者","rar":"N"},{"n":"サイモン・ラスト","en":"Simon Last","d":2,"c":1,"v":0,"f":1,"co":["Notion"],"role":"Notion 共同創業者","rar":"N"},{"n":"ジョン・コリソン","en":"John Collison","d":2,"c":1,"v":0,"f":1,"co":["Stripe"],"role":"Stripe 社長 / 共同創業者","rar":"N"},{"n":"クリフ・オブレヒト","en":"Cliff Obrecht","d":2,"c":1,"v":0,"f":1,"co":["Canva"],"role":"Canva COO / 共同創業者","rar":"N"},{"n":"マイケル・トゥルエル","en":"Michael Truell","d":2,"c":1,"v":0,"f":1,"co":["Cursor (Anysphere)"],"role":"Cursor (Anysphere) CEO / 共同創業者","rar":"N"},{"n":"スアレー・アシフ","en":"Sualeh Asif","d":2,"c":1,"v":0,"f":1,"co":["Cursor (Anysphere)"],"role":"Cursor (Anysphere) 共同創業者","rar":"N"},{"n":"アマン・サンガー","en":"Aman Sanger","d":2,"c":1,"v":0,"f":1,"co":["Cursor (Anysphere)"],"role":"Cursor (Anysphere) 共同創業者","rar":"N"},{"n":"スチュワート・バターフィールド","en":"Stewart Butterfield","d":2,"c":1,"v":0,"f":1,"co":["Slack"],"role":"Slack 元CEO / 共同創業者","rar":"N"},{"n":"スティーブ・ウォズニアック","en":"Steve Wozniak","d":2,"c":1,"v":0,"f":1,"co":["Apple"],"role":"Apple 共同創業者","rar":"N"},{"n":"ロナルド・ウェイン","en":"Ronald Wayne","d":2,"c":1,"v":0,"f":1,"co":["Apple"],"role":"Apple 共同創業者(早期に離脱)","rar":"N"},{"n":"ロン・シュガー","en":"Ron Sugar","d":4,"c":2,"v":0,"f":0,"co":["Apple","Northrop Grumman"],"role":"Apple 社外取締役","rar":"N"},{"n":"アレックス・ゴルスキー","en":"Alex Gorsky","d":4,"c":2,"v":0,"f":0,"co":["Apple","Johnson & Johnson"],"role":"Apple 社外取締役","rar":"N"},{"n":"インドラ・ヌーイ","en":"Indra Nooyi","d":4,"c":2,"v":0,"f":0,"co":["Amazon","PepsiCo"],"role":"Amazon 取締役","rar":"N"},{"n":"ウェンデル・ウィークス","en":"Wendell Weeks","d":4,"c":2,"v":0,"f":0,"co":["Amazon","Corning"],"role":"Amazon 取締役","rar":"N"},{"n":"セルゲイ・ブリン","en":"Sergey Brin","d":2,"c":1,"v":0,"f":1,"co":["Alphabet"],"role":"Alphabet 共同創業者 / 取締役","rar":"N"},{"n":"マーク・ターペニング","en":"Marc Tarpenning","d":2,"c":1,"v":0,"f":1,"co":["Tesla"],"role":"Tesla 共同創業者","rar":"N"},{"n":"ダニエル・デ・フレイタス","en":"Daniel de Freitas","d":2,"c":1,"v":0,"f":1,"co":["Character.AI"],"role":"Character.AI 共同創業者","rar":"N"},{"n":"ジョウ・シンユー","en":"Zhou Xinyu","d":2,"c":1,"v":0,"f":1,"co":["Moonshot AI"],"role":"Moonshot AI 共同創業者","rar":"N"},{"n":"ウー・ユーシン","en":"Wu Yuxin","d":2,"c":1,"v":0,"f":1,"co":["Moonshot AI"],"role":"Moonshot AI 共同創業者","rar":"N"},{"n":"リャン・ウェンフォン","en":"Liang Wenfeng","d":2,"c":1,"v":0,"f":1,"co":["DeepSeek"],"role":"DeepSeek 創業者 / CEO","rar":"N"},{"n":"モリス・チャン(張忠謀)","en":"Morris Chang","d":2,"c":1,"v":0,"f":1,"co":["TSMC"],"role":"TSMC 創業者","rar":"N"},{"n":"ヴォイチェフ・ザレンバ","en":"Wojciech Zaremba","d":1,"c":1,"v":0,"f":1,"co":["OpenAI"],"role":"OpenAI 共同創業者","rar":"N"},{"n":"デニス・ドレッサー","en":"Denise Dresser","d":3,"c":2,"v":0,"f":0,"co":["OpenAI","Slack"],"role":"OpenAI 元CRO","rar":"N"},{"n":"ラフル・パティル","en":"Rahul Patil","d":3,"c":2,"v":0,"f":0,"co":["Anthropic","Stripe"],"role":"Anthropic CTO","rar":"N"},{"n":"クリスチャン・セゲディ","en":"Christian Szegedy","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"グレッグ・ヤン","en":"Greg Yang","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"ジミー・バー","en":"Jimmy Ba","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"トニー・ウー","en":"Yuhuai (Tony) Wu","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"トビー・ポーレン","en":"Toby Pohlen","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"マヌエル・クロイス","en":"Manuel Kroiss","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"ロス・ノルディーン","en":"Ross Nordeen","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 元共同創業者","rar":"N"},{"n":"グオドン・ジャン","en":"Guodong Zhang","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 共同創業者","rar":"N"},{"n":"ジハン・ダイ","en":"Zihang Dai","d":1,"c":1,"v":0,"f":1,"co":["xAI"],"role":"xAI 共同創業者","rar":"N"}];
+const SSR_ALSO=['サム・アルトマン','ダリオ・アモデイ','ジェンスン・フアン','デミス・ハサビス','マーク・ザッカーバーグ','イリヤ・スツケバー','ミラ・ムラティ'];
+C.forEach(c=>{if(SSR_ALSO.includes(c.n))c.rar='SSR'});
+const ORD={SSR:0,SR:1,R:2,N:3};C.sort((a,b)=>ORD[a.rar]-ORD[b.rar]);
+const RC={SSR:'var(--ssr)',SR:'var(--sr)',R:'var(--r)',N:'var(--n)'};
+const ODDS=[['SSR',.04],['SR',.16],['R',.35],['N',.45]];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const mx={d:Math.max(...C.map(c=>c.d)),c:Math.max(...C.map(c=>c.c))};
+function hue(s){let h=0;for(const ch of s)h=(h*31+ch.codePointAt(0))>>>0;return h%360}
+function ini(c){if(c.en){const p=c.en.split(/\s+/).filter(Boolean);return(p[0][0]+(p.length>1?p[p.length-1][0]:'')).toUpperCase()}return c.n.replace(/[・\s]/g,'').slice(0,2)}
+function av(c){const h=hue(c.n);return `<div class="av" style="background:linear-gradient(135deg,hsl(${h} 55% 42%),hsl(${(h+50)%360} 60% 32%))">${esc(ini(c))}</div>`}
+function stats(c){const s=[['つながり',c.d/mx.d,c.d],['会社',c.c/mx.c,c.c],['創業',c.f,c.f?'◎':'—']];
+  return s.map(([k,v,t])=>`<div><span>${k}</span><span class="bar"><i style="width:${Math.max(6,v*100)}%"></i></span><span>${t}</span></div>`).join('')}
+function cardHtml(c,i){return `<div class="card ${c.rar.toLowerCase()}" style="--rc:${RC[c.rar]}" data-i="${i}"><div class="in"><div class="cback">AI相関図</div><div class="face">
+  <div class="top"><span>${c.rar}</span><span>No.${String(C.indexOf(c)+1).padStart(3,'0')}</span></div>
+  <div class="mid">${av(c)}<div class="nm">${esc(c.n)}</div>${c.en?`<div class="en">${esc(c.en)}</div>`:''}<div class="role">${esc(c.role)}</div></div>
+  <div class="st">${stats(c)}</div></div></div></div>`}
+let got={};try{got=JSON.parse(localStorage.getItem('ai-tcg')||'{}')||{}}catch(e){got={}}
+const save=()=>{try{localStorage.setItem('ai-tcg',JSON.stringify(got))}catch(e){}};
+function draw1(){let r=Math.random(),rar='N';for(const [k,p] of ODDS){if(r<p){rar=k;break}r-=p}const pool=C.filter(c=>c.rar===rar);return pool[Math.floor(Math.random()*pool.length)]}
+function pull(n){const L=[];for(let i=0;i<n;i++)L.push(draw1());
+  if(n===10&&!L.some(c=>c.rar==='SSR'||c.rar==='SR')){const pool=C.filter(c=>c.rar==='SR');L[9]=pool[Math.floor(Math.random()*pool.length)]}
+  $('tray').innerHTML=L.map((c,i)=>cardHtml(c,i)).join('');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  [...$('tray').children].forEach((el,i)=>setTimeout(()=>el.classList.add('flip'),reduce?0:250+i*160));
+  L.forEach(c=>{got[c.n]=(got[c.n]||0)+1});save();dex()}
+let filt='all';
+function dex(){const have=C.filter(c=>got[c.n]).length;$('pc').textContent=`${have} / ${C.length}`;
+  const by=['SSR','SR','R','N'].map(r=>`${r} ${C.filter(c=>c.rar===r&&got[c.n]).length}/${C.filter(c=>c.rar===r).length}`).join('  ');$('pr').textContent=by;
+  $('dex').innerHTML=C.filter(c=>filt==='all'||c.rar===filt).map(c=>{const g=got[c.n];return g?`<div class="slot got" style="--rc:${RC[c.rar]}" data-n="${esc(c.n)}" tabindex="0" role="button">${av(c)}<b style="font-size:12px">${esc(c.n)}</b><span class="mono" style="color:${RC[c.rar]}">${c.rar}${g>1?' ×'+g:''}</span></div>`:`<div class="slot lock">${av({n:'?',en:'',d:0})}<span class="muted">No.${String(C.indexOf(c)+1).padStart(3,'0')}</span><span class="mono muted">${c.rar}</span></div>`}).join('');
+  $('dex').querySelectorAll('.got').forEach(el=>{const open=()=>{const c=C.find(x=>x.n===el.dataset.n);$('dlgc').innerHTML=`<div style="display:flex;justify-content:center">${cardHtml(c,0).replace('class="card ','class="card flip ')}</div><h2 style="margin-top:12px">${esc(c.n)}</h2><p class="muted" style="margin:0 0 6px">${esc(c.role)}</p><p style="margin:0;font-size:13.5px">関わった会社: ${c.co.map(esc).join('、')}</p>`;$('dlg').showModal()};el.onclick=open;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}}})}
+$('flt').innerHTML=['all','SSR','SR','R','N'].map(k=>`<button type="button" data-k="${k}" aria-pressed="${k==='all'}">${k==='all'?'すべて':k}</button>`).join('');
+$('flt').querySelectorAll('button').forEach(b=>b.onclick=()=>{filt=b.dataset.k;$('flt').querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));dex()});
+$('one').onclick=()=>pull(1);$('ten').onclick=()=>pull(10);
+$('reset').onclick=()=>{if($('reset').dataset.c){got={};save();dex();$('reset').textContent='図鑑をリセット';delete $('reset').dataset.c}else{$('reset').dataset.c=1;$('reset').textContent='もう一度押すと消えます'}};
+/* 最初は見本としてSSRを3枚めくった状態で見せる(図鑑には入れない) */
+$('tray').innerHTML=['サム・アルトマン','孫正義','ジェンスン・フアン'].map(n=>C.find(c=>c.n===n)).filter(Boolean).map((c,i)=>cardHtml(c,i).replace('class="card ','class="card flip ')).join('');
+dex();
+</script>
+
+</body>
+</html>

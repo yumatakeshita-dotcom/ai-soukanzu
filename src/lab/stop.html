@@ -1,0 +1,147 @@
+<title>もしTSMCが止まったら</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&display=swap">
+<style>
+/*BASE*/
+/* Layout: 左から右へ「装置→製造→チップ→クラウド→AI→使う人」と流れる6列。止めた所から右へ赤が広がる */
+:root{--ok:#0d8a79;--warn:#c98a00;--bad:#c93b3b;--dead:#161b22}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ok:#2fc2ab;--warn:#e6b84a;--bad:#f07272;--dead:#000000}}
+:root[data-theme="dark"]{--ok:#2fc2ab;--warn:#e6b84a;--bad:#f07272;--dead:#000000}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.stat{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.stat b{display:block;font-family:var(--font-mono);font-size:28px;font-weight:500;line-height:1.1}
+.stat span{font-size:12px;color:var(--muted)}
+.board{position:relative;overflow-x:auto}
+.cols{position:relative;display:grid;grid-template-columns:repeat(6,minmax(150px,1fr));gap:18px;min-width:980px;padding:4px 2px 8px;z-index:1}
+.col h3{font-size:11px;font-family:var(--font-mono);letter-spacing:.08em;color:var(--muted);margin:0 0 8px;font-weight:500}
+.col{display:flex;flex-direction:column;gap:8px}
+.chip{position:relative;text-align:left;border:1px solid var(--line);border-left:6px solid var(--hc,var(--ok));background:var(--surface);border-radius:8px;padding:7px 10px;cursor:pointer;display:grid;gap:2px;transition:border-color .25s,background .25s}
+.chip .nm{font-weight:700;font-size:13.5px;line-height:1.3}
+.chip .pc{font-family:var(--font-mono);font-size:12px;color:var(--hc,var(--ok))}
+.chip .why{font-size:11px;color:var(--muted);line-height:1.4}
+.chip.stopped{background:var(--dead);color:#fff;border-color:var(--dead)}
+.chip.stopped .pc,.chip.stopped .why{color:#d6dbe0}
+.chip.jp{box-shadow:inset 0 0 0 1px var(--deal)}
+.chip .flag{font-size:10px;font-family:var(--font-mono);color:var(--deal)}
+svg.wires{position:absolute;inset:0;pointer-events:none;z-index:0}
+svg.wires path{fill:none;stroke-width:1.4;opacity:.55;transition:stroke .25s,opacity .25s}
+.presets button{font-size:13px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.list{margin:0;padding-left:18px;font-size:13.5px}
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI相関図ラボ ② / 6</div>
+    <h1>もしTSMCが止まったら</h1>
+    <p class="lead">AIの供給網を、装置から使う人まで6段に並べました。会社をクリックすると「止まった」状態になり、その会社から部品やサービスを受けている先へ影響が広がります。もう一度クリックすると元に戻ります。</p>
+  </header>
+  <section class="box" style="display:grid;gap:12px">
+    <div class="row presets">
+      <span class="muted" style="font-size:12px">シナリオ:</span>
+      <button type="button" data-s="tsmc">台湾のTSMCが止まる</button>
+      <button type="button" data-s="asml">ASMLの装置が届かない</button>
+      <button type="button" data-s="hynix">HBMの最大手 SK hynixが止まる</button>
+      <button type="button" data-s="jasm">熊本のJASMが止まる</button>
+      <button type="button" data-s="nvidia">Nvidiaが出荷停止</button>
+      <button type="button" data-s="">すべて元に戻す</button>
+    </div>
+    <div class="summary" id="sum"></div>
+    <div class="legend"><span><i style="background:var(--ok)"></i>ふつう(80%以上)</span><span><i style="background:var(--warn)"></i>弱る(30〜79%)</span><span><i style="background:var(--bad)"></i>ほぼ止まる(30%未満)</span><span><i style="background:var(--dead)"></i>止めた会社</span><span><i style="background:transparent;box-shadow:inset 0 0 0 2px var(--deal)"></i>日本・熊本に関係</span></div>
+  </section>
+  <section class="box board" aria-label="供給網">
+    <svg class="wires" id="wires" aria-hidden="true"></svg>
+    <div class="cols" id="cols"></div>
+  </section>
+  <section class="box" id="story" aria-live="polite"></section>
+  <footer>
+    <div>簡易モデルです。会社ごとに「必要なもの」(製造・メモリ・計算資源など)を分け、それぞれの仕入れ先のうち動いている割合を出し、いちばん弱いものをその会社の稼働率としています。データセンターは、すでに設置したチップで4割は動き続けると仮定しています。部品の在庫、代わりの仕入れ先を探す時間、各社の取引量の違いは入れていません。取引の関係は本体の相関図(2026年11月13日時点の公開情報)に基づきます。</div>
+    <div>主な出典: <a href="https://www.anthropic.com/news/google-broadcom-partnership-compute" target="_blank" rel="noopener">Anthropic(2026/4)</a> / <a href="https://eetimes.itmedia.co.jp/ee/articles/2610/19/news041.html" target="_blank" rel="noopener">EE Times Japan(2026/10)</a> / <a href="https://www.irishtimes.com/technology/2026/10/01/cornering-the-market-for-machines-that-make-nvidias-ai-chips/" target="_blank" rel="noopener">Irish Times(2026/10)</a> / <a href="https://www.storagenewsletter.com/2026/08/03/south-korea-memory-vendors-samsung-and-sk-hynix-signed-major-deals/" target="_blank" rel="noopener">StorageNewsletter(2026/8)</a></div>
+    <div class="back"><a href="https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu" target="_blank" rel="noopener">AI企業の相関図(本体)を開く ↗</a></div>
+  </footer>
+</div>
+<script>
+const LAYERS=['装置・素材','製造・メモリ','チップ','クラウド・データセンター','AI企業','使う人・製品'];
+/* id, 名前, 段, 必要なもの {種類:[仕入れ先]}, 日本・熊本との関係 */
+const NODES=[
+ ['asml','ASML(オランダ)',0,{}],
+ ['zeiss','Carl Zeiss(ドイツ)',0,{}],
+ ['tel','東京エレクトロン',0,{},1],
+ ['shinetsu','信越化学(ウエハー)',0,{},1],
+ ['tsmc','TSMC(台湾)',1,{'露光装置':['asml'],'製造装置':['tel'],'ウエハー':['shinetsu']}],
+ ['jasm','JASM(熊本)',1,{'製造技術':['tsmc'],'製造装置':['tel'],'ウエハー':['shinetsu']},1],
+ ['samsungf','Samsung(受託製造)',1,{'露光装置':['asml'],'製造装置':['tel'],'ウエハー':['shinetsu']}],
+ ['hynix','SK hynix(HBM)',1,{'露光装置':['asml'],'製造装置':['tel'],'ウエハー':['shinetsu']}],
+ ['samsungm','Samsung(HBM)',1,{'露光装置':['asml'],'製造装置':['tel'],'ウエハー':['shinetsu']}],
+ ['micron','Micron(HBM)',1,{'露光装置':['asml'],'製造装置':['tel'],'ウエハー':['shinetsu']}],
+ ['nvidia','Nvidia GPU',2,{'製造':['tsmc'],'HBM':['hynix','samsungm','micron']}],
+ ['amd','AMD GPU',2,{'製造':['tsmc'],'HBM':['hynix','samsungm','micron']}],
+ ['tpu','Google TPU(Broadcom)',2,{'製造':['tsmc'],'HBM':['hynix','samsungm','micron']}],
+ ['trn','AWS Trainium',2,{'製造':['tsmc'],'HBM':['hynix','samsungm','micron']}],
+ ['cerebras','Cerebras',2,{'製造':['tsmc']}],
+ ['applesi','Apple Mシリーズ等',2,{'製造':['tsmc']}],
+ ['teslachip','Tesla AIチップ',2,{'製造':['samsungf']}],
+ ['auto','車載・画像センサー用ロジック',2,{'製造':['jasm','tsmc']},1],
+ ['azure','Microsoft Azure',3,{'AIチップ':['nvidia','amd']}],
+ ['aws','AWS',3,{'AIチップ':['nvidia','trn']}],
+ ['gcp','Google Cloud',3,{'AIチップ':['tpu','nvidia']}],
+ ['oracle','Oracle',3,{'AIチップ':['nvidia','amd']}],
+ ['coreweave','CoreWeave',3,{'AIチップ':['nvidia']}],
+ ['colossus','SpaceX Colossus',3,{'AIチップ':['nvidia']}],
+ ['metadc','Metaのデータセンター',3,{'AIチップ':['nvidia','amd']}],
+ ['openai','OpenAI',4,{'計算資源':['azure','oracle','aws','coreweave','gcp','cerebras']}],
+ ['anthropic','Anthropic',4,{'計算資源':['aws','gcp','azure','colossus','coreweave']}],
+ ['metaai','Meta AI',4,{'計算資源':['metadc','gcp','coreweave','oracle']}],
+ ['gemini','Google Gemini',4,{'計算資源':['gcp']}],
+ ['xai','xAI(Grok)',4,{'計算資源':['colossus']}],
+ ['chatgpt','ChatGPT・Claudeを使う企業',5,{'AI':['openai','anthropic','gemini']}],
+ ['iphone','iPhone・Mac',5,{'チップ':['applesi']}],
+ ['car','トヨタ・デンソーの車',5,{'半導体':['auto']},1],
+ ['tesla','Teslaの自動運転',5,{'チップ':['teslachip']}],
+ ['sns','Instagram・WhatsAppのAI',5,{'AI':['metaai']}]
+];
+const BASE_DC=0.4; /* データセンターは、すでに設置済みのチップで4割は動き続けると仮定 */
+const SC={tsmc:['tsmc'],asml:['asml'],hynix:['hynix'],jasm:['jasm'],nvidia:['nvidia'],'':[]};
+const by=Object.fromEntries(NODES.map(n=>[n[0],{id:n[0],nm:n[1],L:n[2],need:n[3],jp:!!n[4]}]));
+let stopped=new Set();
+const $=id=>document.getElementById(id);
+function compute(){const h={},why={};
+  for(let L=0;L<6;L++)NODES.filter(n=>n[2]===L).forEach(([id])=>{const n=by[id];
+    if(stopped.has(id)){h[id]=0;why[id]='止めた';return}
+    let v=1,w='';Object.entries(n.need).forEach(([k,sup])=>{const f=sup.reduce((s,x)=>s+(h[x]??1),0)/sup.length;if(f<v){v=f;w=k}});
+    const base=n.L===3?BASE_DC:0;v=base+(1-base)*v;
+    h[id]=v;why[id]=v<.995?`${w}が${Math.round(v*100)}%`:''});
+  return{h,why}}
+function col(v,id){return stopped.has(id)?'var(--dead)':v>=.8?'var(--ok)':v>=.3?'var(--warn)':'var(--bad)'}
+function render(){const {h,why}=compute();
+  $('cols').innerHTML=LAYERS.map((t,L)=>`<div class="col"><h3>${L+1}. ${t}</h3>${NODES.filter(n=>n[2]===L).map(([id])=>{const n=by[id],v=h[id];
+    const sup=Object.entries(n.need).map(([k,s])=>k+': '+s.map(x=>by[x].nm.replace(/\(.*?\)/,'')).join('・')).join(' / ');
+    return `<button type="button" class="chip${stopped.has(id)?' stopped':''}${n.jp?' jp':''}" data-id="${id}" style="--hc:${col(v,id)}" aria-pressed="${stopped.has(id)}" title="${sup||'仕入れ先はこの図の外'}">
+      <span class="nm">${n.nm}</span>${n.jp?'<span class="flag">日本・熊本</span>':''}<span class="pc">${stopped.has(id)?'停止':'稼働 '+Math.round(v*100)+'%'}</span>${why[id]&&!stopped.has(id)?`<span class="why">${why[id]}</span>`:''}</button>`}).join('')}</div>`).join('');
+  $('cols').querySelectorAll('.chip').forEach(b=>b.onclick=()=>{const id=b.dataset.id;stopped.has(id)?stopped.delete(id):stopped.add(id);setPreset();render()});
+  const hit=NODES.filter(([id])=>!stopped.has(id)&&h[id]<.8),dead=NODES.filter(([id])=>!stopped.has(id)&&h[id]<.3);
+  const users=NODES.filter(n=>n[2]>=4&&!stopped.has(n[0])&&h[n[0]]<.8);
+  $('sum').innerHTML=`<div class="stat"><b>${stopped.size}</b><span>止めた会社</span></div><div class="stat"><b style="color:var(--warn)">${hit.length}</b><span>影響を受ける会社・製品</span></div><div class="stat"><b style="color:var(--bad)">${dead.length}</b><span>ほぼ止まる</span></div><div class="stat"><b>${users.length}</b><span>AI企業・使う人への影響</span></div>`;
+  story(h,hit);requestAnimationFrame(wires.bind(null,h))}
+function story(h,hit){
+  if(!stopped.size){$('story').innerHTML='<h2>使い方</h2><p class="muted">上のシナリオを押すか、どれかの会社をクリックしてください。まずは「台湾のTSMCが止まる」がおすすめです。</p>';return}
+  const worst=hit.slice().sort((a,b)=>h[a[0]]-h[b[0]]).slice(0,10);
+  let note='';
+  if(stopped.has('tsmc'))note='<p>TSMCは、NvidiaのGPU、GoogleのTPU、AWSのTrainium、AppleのMシリーズをまとめて作っています。ここが止まると新しいチップがほぼ作れなくなり、クラウドを1社に頼っていないOpenAIやAnthropicでも、すでに設置した分しか使えなくなります。熊本のJASMもTSMCの技術で動くため、日本の車載用半導体にも影響が出ます。</p>';
+  else if(stopped.has('asml'))note='<p>最先端のEUV装置を作れるのは世界でASMLだけです。すぐに工場が止まるわけではありませんが、新しい工場や次の世代のチップは作れなくなります(このモデルでは在庫を考えないため、強めに出ています)。</p>';
+  else if(stopped.has('hynix'))note='<p>HBMはSK hynix・Samsung・Micronの3社だけが作れるため、1社が止まると残り2社で3分の2しか供給できません。GPUは作れても、メモリが足りずに出荷が減ります。</p>';
+  else if(stopped.has('jasm'))note='<p>JASMが止まっても、AI向けの最先端チップへの影響は今のところ小さいです。影響が大きいのは車載・画像センサー向けで、トヨタやデンソーの車づくりに響きます。2028年に3nmの第2工場が動けば、熊本はAIの供給網にもっと深く組み込まれます。</p>';
+  else if(stopped.has('nvidia'))note='<p>Nvidiaが止まると、xAI(SpaceX Colossus)のようにNvidiaだけに頼るところは止まり、TPUやTrainiumを持つGoogle・AWSは比較的持ちこたえます。AnthropicやGoogleがチップを分散している理由がここにあります。</p>';
+  $('story').innerHTML=`<h2>何が起きるか</h2>${note}<ol class="list">${worst.map(([id])=>`<li><b>${by[id].nm}</b> 稼働 ${Math.round(h[id]*100)}%</li>`).join('')}</ol>`}
+function wires(h){const svg=$('wires'),box=svg.parentElement.getBoundingClientRect(),cols=$('cols');
+  svg.setAttribute('width',cols.scrollWidth);svg.setAttribute('height',cols.scrollHeight+8);svg.style.width=cols.scrollWidth+'px';svg.style.height=(cols.scrollHeight+8)+'px';
+  const pos={};cols.querySelectorAll('.chip').forEach(c=>{const r=c.getBoundingClientRect();pos[c.dataset.id]={x1:r.left-box.left+svg.parentElement.scrollLeft,x2:r.right-box.left+svg.parentElement.scrollLeft,y:r.top-box.top+r.height/2}});
+  let d='';NODES.forEach(([id])=>Object.values(by[id].need).flat().forEach(s=>{const a=pos[s],b=pos[id];if(!a||!b)return;const bad=stopped.has(s)||h[s]<.8;const mx=(a.x2+b.x1)/2;
+    d+=`<path d="M${a.x2},${a.y} C${mx},${a.y} ${mx},${b.y} ${b.x1},${b.y}" stroke="${bad?'var(--bad)':'var(--line)'}" style="opacity:${bad?.9:.55}"/>`}));
+  svg.innerHTML=d}
+function setPreset(k){document.querySelectorAll('.presets button').forEach(b=>b.setAttribute('aria-pressed',String(k!==undefined&&b.dataset.s===k&&k!=='')))}
+document.querySelectorAll('.presets button').forEach(b=>b.onclick=()=>{stopped=new Set(SC[b.dataset.s]);render();setPreset(b.dataset.s)});
+addEventListener('resize',()=>render());
+stopped=new Set(['tsmc']);render();setPreset('tsmc');
+</script>

@@ -1,0 +1,11 @@
+{
+  "name": "ai-soukanzu",
+  "private": true,
+  "description": "AI企業の相関図と、AI相関図ラボの6ページ",
+  "scripts": {
+    "serve": "node scripts/serve.js",
+    "check": "node scripts/check.js",
+    "build-lab": "cd src/lab && python build.py route.html stop.html money.html moves.html cards.html sports.html"
+  },
+  "devDependencies": { "playwright": "1.47.2" }
+}
