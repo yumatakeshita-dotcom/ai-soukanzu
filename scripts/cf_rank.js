@@ -8,7 +8,7 @@ const {chromium}=require('playwright');const {start}=require('./serve');const fs
   await pg.goto(`http://localhost:${port}/index.html`,{waitUntil:'load',timeout:120000});await pg.waitForTimeout(1500);
   const r=await pg.evaluate(()=>{const out=[];Object.keys(COMPANIES).forEach(k=>{if(!DATA[k])return;try{build(k)}catch(e){return}
     const D=kkData();const weak=D.ref.filter(x=>x.cf==='r');
-    out.push({k,name:D.name,pct:D.pct,ok:D.cnt.o+D.cnt.f,r:weak.length,items:weak.slice(0,8).map(x=>`${x.who}|${x.kind}|${x.label}`)})});return out});
+    out.push({k,name:D.name,pct:D.pct,ok:D.cnt.o+D.cnt.f+D.cnt.s,r:weak.length,items:weak.slice(0,8).map(x=>`${x.who}|${x.kind}|${x.label}`)})});return out});
   r.sort((a,b)=>b.r-a.r||a.pct-b.pct);
   const lines=[`報道だけの線が多い会社(${new Date().toISOString().slice(0,10)})`,'順位 会社(キー) 報道だけ/公式・開示/確かめた割合'];
   r.slice(0,top).forEach((x,i)=>{lines.push(`${i+1}. ${x.name}(${x.k}) 報道${x.r} / 公式・開示${x.ok} / ${x.pct}%`);x.items.forEach(t=>lines.push('    - '+t))});
