@@ -36167,22 +36167,60 @@ function cfSummaryHtml(){
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
 // 人の動きの確かめ直し(2026/11/18): 調査タスクが足した線(finds.js)は書き換えず、図を作るときに確かめた出典を足す
 // [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと]
+// 2026/11/18 古い移籍(OpenAI→Anthropic)に出典を足した(足すだけ)。人材の流れ・営業資料の「2社のあいだの移籍」で使う
+Object.assign(DS,{
+ v_ant2021:['Anthropic公式発表(2021/5/28、ダリオ・アモデイCEO、ダニエラ・アモデイ社長で設立)','https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems','o'],
+ v_tc2021:['TechCrunch(2021/5/28、OpenAIの研究担当VPだったダリオ・アモデイが設立)','https://techcrunch.com/2021/05/28/anthropic-is-the-new-ai-research-outfit-from-openais-dario-amodei-and-it-has-124m-to-burn/','r'],
+ v_schul:['SiliconANGLE(2024/8/6、シュルマン本人のXの投稿を報道)','https://siliconangle.com/2024/08/06/openai-co-founder-john-schulman-joins-rival-llm-developer-anthropic/','r'],
+ v_leike:['Bloomberg(2024/5/28、ライケ本人のXの投稿を報道)','https://www.bloomberg.com/news/articles/2024-05-28/ex-openai-safety-leader-leike-to-join-rival-anthropic','r'],
+ v_kingma:['TechCrunch(2024/10/1、キングマ本人のXの投稿を報道。直前はGoogle)','https://techcrunch.com/2024/10/01/anthropic-hires-openai-co-founder-durk-kingma/','r'],
+ v_olah:['クリス・オラ本人のサイト(About、OpenAIで解釈可能性の研究を率いた)','https://colah.github.io/about.html','s'],
+ v_forbes7:['Forbes(2025/1、Anthropicは2021年にOpenAIの元社員7人が設立。7人の名前つき)','https://www.forbes.com.au/news/innovation/anthropics-pending-60-billion-valuation-will-make-all-seven-cofounders-billionaires/','r'],
+ v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
+});
 const VERIFY_PPL=[
  ['ビル・ピーブルズ','','v_peebles','本人のXの投稿で確認'],
  ['ケイト・ラウチ','','v_rouch','本人のXの投稿で確認'],
  ['アンドリュー・ミリッチ','','v_milich','本人のXの投稿で確認'],
  ['デベンドラ・チャプロット','','v_chaplot','本人のXの投稿で確認'],
- ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認']
+ ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
+ ['ダリオ・アモデイ','Anthropic','v_ant2021','Anthropic公式発表で確認。OpenAI出身はTechCrunchの報道ベース',['openai']],
+ ['ダリオ・アモデイ','OpenAI','v_ant2021','Anthropic公式発表で確認。OpenAI出身はTechCrunchの報道ベース',['anthropic']],
+ ['ダリオ・アモデイ','Anthropic','v_tc2021','',['openai']],
+ ['ダリオ・アモデイ','OpenAI','v_tc2021','',['anthropic']],
+ ['ダニエラ・アモデイ','Anthropic','v_ant2021','Anthropic公式発表で確認。OpenAI出身は報道ベース',['openai']],
+ ['ダニエラ・アモデイ','OpenAI','v_ant2021','Anthropic公式発表で確認。OpenAI出身は報道ベース',['anthropic']],
+ ['ダニエラ・アモデイ','Anthropic','v_tc2021','',['openai']],
+ ['ダニエラ・アモデイ','OpenAI','v_tc2021','',['anthropic']],
+ ['ジョン・シュルマン','Anthropic','v_schul','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ジョン・シュルマン','OpenAI','v_schul','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['ヤン・ライケ','Anthropic','v_leike','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ヤン・ライケ','OpenAI','v_leike','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['ダーク・キングマ','Anthropic','v_kingma','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ダーク・キングマ','OpenAI','v_kingma','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['クリス・オラ','Anthropic','v_olah','本人のサイトで確認',['openai']],
+ ['クリス・オラ','OpenAI','v_olah','本人のサイトで確認',['anthropic']],
+ ['ジャレッド・カプラン','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['ジャレッド・カプラン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['ジャック・クラーク','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['ジャック・クラーク','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['トム・ブラウン','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['トム・ブラウン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['サム・マッキャンドリッシュ','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['サム・マッキャンドリッシュ','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
+ ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']]
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
-    VERIFY_PPL.forEach(([nm,other,key,note])=>{
+    VERIFY_PPL.forEach(([nm,other,key,note,only])=>{
+      if(only&&!only.includes(c))return;   /* 5番目: この会社の図にだけ付ける(2026/11/18追加) */
       const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
       const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
-      if(!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
+      if(note&&!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
     })});
 }
 
