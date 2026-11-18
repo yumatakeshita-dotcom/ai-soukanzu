@@ -452,5 +452,53 @@
    "計算拠点の規模": "1.7 GW"
   },
   "numbers_src": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+ },
+ {
+  "d": "2026-11-17",
+  "co": "Anthropic",
+  "key": "anthropic",
+  "form": "S-1/A",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm",
+  "acc": "0001628280-26-074338",
+  "desc": "S-1/A",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-10",
+  "co": "Anthropic",
+  "key": "anthropic",
+  "form": "S-1/A",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+  "acc": "0001628280-26-072484",
+  "desc": "S-1/A",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-02",
+  "co": "Anthropic",
+  "key": "anthropic",
+  "form": "S-1/A",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+  "acc": "0001628280-26-068676",
+  "desc": "S-1/A",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-26",
+  "co": "Anthropic",
+  "key": "anthropic",
+  "form": "S-1",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "acc": "0001628280-26-067168",
+  "desc": "S-1",
+  "cf": "開示"
  }
 ]

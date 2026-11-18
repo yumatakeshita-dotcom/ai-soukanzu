@@ -67,7 +67,7 @@ docs/                 移行メモなど
   - 調査タスクの `confidence` は「公式」「開示」「報道」「本人の発言」「推定」のどれか。開示=法定の書類(SEC・EDINET・決算資料)、推定=自分や他社の推定・試算の数字
 
 - xAI(SpaceXSI)の「モデル・製品の年表」と「Colossusの貸し借り」(2026/11/18追加): index.html の `// ===== 製品とモデルの年表` と `// ===== Colossusの貸し借り` の部分(`PRODTL` `COLOSSUS`)。会社の図の概要に出る。公式発表・開示で確かめたものを足すだけ
-- 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Nvidia・Microsoftなどの新しい提出書類を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
+- 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Anthropic・Nvidia・Microsoftなどの新しい提出書類を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
 
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
