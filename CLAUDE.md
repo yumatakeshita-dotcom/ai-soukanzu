@@ -52,6 +52,7 @@ docs/                 移行メモなど
 - 週のまとめ(ニュースレター): `scripts/weekly.py` が inbox/ と UPDATES から作る。`newsletter/` と `site/weekly/index.html`。共有リンクは相関図と別(https://claude.ai/artifact/WnWyUzjmrSVHcxVgzKWPCM)。毎週月曜9:37の定期タスクが作って公開する。くわしくは `newsletter/README.md`
 - 2社の共通のつながり(メニュー「共通のつながり」): `site/data/common.js`。データは持たず、開いたときに本体の相関図(DATA)からまとめる。2026/11/18追加
   - 営業先ごとの1枚資料: 同じ `site/data/common.js` の後半(`cmShowBrief`)。共通のつながりの結果画面の「営業資料(1枚)を作る」から開く。だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典をまとめ、印刷(PDF保存)・テキストのコピー・.txt保存ができる。2026/11/18追加
+- ニュースのリンク: Googleニュースの転送リンク(news.google.com/rss/articles/…)は元の記事のURLに直す。`python3 scripts/fix_gnews_links.py --auto` で、まだ直していないものを調べて置き換える(わからないものは残す)。毎朝9:47の定期タスク「ニュースのリンクを元記事に直す 毎日」が実行する。対応表は `scripts/gnews_map.json`
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
   - 同じファイルの2行目 `FINDLINKS` は、候補を相関図の人物・会社・線として出すためのもの(`scripts/finds_map.py` が inbox/ から作る)。どの会社の図に付けるかは index.html の `applyFinds` が名前で照らして決める。既存の人物・線は書き換えない
 - 確かさの印(公式・開示・本人・報道・推定。2026/11/18追加): index.html の `// ===== 確かさの印` の部分。線や数字の出典から自動で決まり、画面の「確かさ」で絞り込める
