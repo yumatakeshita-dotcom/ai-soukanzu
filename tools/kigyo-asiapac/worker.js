@@ -2435,13 +2435,17 @@ function createApp(opts = {}) {
     if (!m.nd) return null;
     const t = await getAsset(`/c/${fnv(cc + ":" + id) % m.nd}.json`);
     const r = t && JSON.parse(t).find((x) => x[0] === cc && x[1] === id);
-    return r ? { cc: r[0], id: r[1], name: r[2], kind: r[3], city: r[4], post: r[5], since: r[6], sic: r[7] } : null;
+    return r ? { cc: r[0], id: r[1], name: r[2], kind: r[3], city: r[4], post: r[5], since: r[6], sic: r[7], old: r[8] || "" } : null;
   }, "shardRow");
   const search = /* @__PURE__ */ __name(async (q) => {
     const rs = await Promise.all(SRC.map((s) => searchOne(s, q).catch(() => ({ rows: [] }))));
     if (rs.every((r) => r.short)) return { rows: [], short: true };
     const out = [], lists = rs.map((r) => r.rows || []);
-    for (let i = 0; out.length < 80 && lists.some((l) => i < l.length); i++) for (const l of lists) if (i < l.length && out.length < 80) out.push(l[i]);
+    const seen = /* @__PURE__ */ new Set();
+    for (let i = 0; out.length < 80 && lists.some((l) => i < l.length); i++) for (const l of lists) if (i < l.length && out.length < 80 && !seen.has(l[i].cc + ":" + l[i].id)) {
+      seen.add(l[i].cc + ":" + l[i].id);
+      out.push(l[i]);
+    }
     return { rows: out };
   }, "search");
   const searchOne = /* @__PURE__ */ __name(async (s, q) => {
@@ -2454,7 +2458,7 @@ function createApp(opts = {}) {
     if (cp.length < L) return { rows: [], short: true };
     const t = await getAsset(`/n/${fnv(cp.slice(0, L).join("")) % (m.nb || 1)}.json`);
     if (!t) return { rows: [] };
-    return { rows: JSON.parse(t).filter((r) => core(r[2]).startsWith(cq)).slice(0, 80).map((r) => ({ cc: r[0], id: r[1], name: r[2], city: r[3] })) };
+    return { rows: JSON.parse(t).filter((r) => core(r[2]).startsWith(cq)).slice(0, 80).map((r) => ({ cc: r[0], id: r[1], name: r[4] || r[2], city: r[3], old: r[4] ? r[2] : "" })) };
   }, "searchOne");
   app.get("/", async (c) => {
     const m = await meta();
@@ -2470,7 +2474,7 @@ function createApp(opts = {}) {
   app.get("/search", async (c) => {
     const q = (c.req.query("q") || "").trim().slice(0, 60);
     const { rows, short } = q ? await search(q) : { rows: [], short: true };
-    const body = `<h1 class="page">\u300C${esc(q)}\u300D\u306E\u691C\u7D22\u7D50\u679C</h1><div class="card">${short ? "<p>2\u6587\u5B57\u4EE5\u4E0A\u3067\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044(\u4F1A\u793E\u540D\u306E\u5148\u982D\u304B\u3089\u306E\u4E00\u81F4\u3067\u63A2\u3057\u307E\u3059)\u3002</p>" : rows.length ? `<ul class="list">${rows.map((r) => `<li><span class="av sq">${esc(r.cc)}</span><div class="tx"><a href="/e/${esc(r.cc)}/${encodeURIComponent(r.id)}"><b>${esc(r.name)}</b></a><small>${esc(CC[r.cc]?.name || r.cc)}${r.city ? " \u30FB " + esc(r.city) : ""} \u30FB \u767B\u8A18\u756A\u53F7 ${esc(r.id)}</small></div></li>`).join("")}</ul>` : "<p>\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u4F1A\u793E\u540D\u306E\u5148\u982D\u304B\u3089\u306E\u4E00\u81F4\u3067\u63A2\u3057\u3066\u3044\u307E\u3059\u3002</p>"}</div>`;
+    const body = `<h1 class="page">\u300C${esc(q)}\u300D\u306E\u691C\u7D22\u7D50\u679C</h1><div class="card">${short ? "<p>2\u6587\u5B57\u4EE5\u4E0A\u3067\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044(\u4F1A\u793E\u540D\u306E\u5148\u982D\u304B\u3089\u306E\u4E00\u81F4\u3067\u63A2\u3057\u307E\u3059)\u3002</p>" : rows.length ? `<ul class="list">${rows.map((r) => `<li><span class="av sq">${esc(r.cc)}</span><div class="tx"><a href="/e/${esc(r.cc)}/${encodeURIComponent(r.id)}"><b>${esc(r.name)}</b></a><small>${esc(CC[r.cc]?.name || r.cc)}${r.city ? " \u30FB " + esc(r.city) : ""} \u30FB \u767B\u8A18\u756A\u53F7 ${esc(r.id)}${r.old ? " \u30FB \u65E7\u793E\u540D " + esc(r.old) : ""}</small></div></li>`).join("")}</ul>` : "<p>\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F\u3002\u4F1A\u793E\u540D\u306E\u5148\u982D\u304B\u3089\u306E\u4E00\u81F4\u3067\u63A2\u3057\u3066\u3044\u307E\u3059\u3002</p>"}</div>`;
     return c.html(page({ title: `\u300C${q}\u300D\u306E\u691C\u7D22\u7D50\u679C | ${SITE.name}`, body, noindex: true }));
   });
   app.get("/e/:cc/:id", async (c) => {
@@ -2479,7 +2483,7 @@ function createApp(opts = {}) {
     const r = await shardRow(cc, id);
     if (!r) return c.html(page({ title: "\u898B\u3064\u304B\u308A\u307E\u305B\u3093", body: '<div class="card"><h1 class="page">\u898B\u3064\u304B\u308A\u307E\u305B\u3093</h1><p>\u3053\u306E\u767B\u8A18\u756A\u53F7\u306E\u4F1A\u793E\u306F\u3001\u63B2\u8F09\u3057\u3066\u3044\u307E\u305B\u3093(\u9589\u9396\u3055\u308C\u305F\u4F1A\u793E\u306A\u3069\u306E\u53EF\u80FD\u6027\u304C\u3042\u308A\u307E\u3059)\u3002</p></div>', noindex: true }), 404);
     const info = CC[cc];
-    const rows = [["\u56FD", info.name], ["\u767B\u8A18\u756A\u53F7", r.id], ["\u4F1A\u793E\u540D", r.name], r.kind && ["\u7A2E\u985E", r.kind], r.city && ["\u6240\u5728\u5730(\u5E02\u533A\u753A\u6751)", r.city], r.post && ["\u90F5\u4FBF\u756A\u53F7", r.post], r.since && ["\u8A2D\u7ACB\u30FB\u767B\u8A18\u306E\u65E5", r.since], r.sic && ["\u4E8B\u696D\u306E\u7A2E\u985E", r.sic]].filter(Boolean);
+    const rows = [["\u56FD", info.name], ["\u767B\u8A18\u756A\u53F7", r.id], ["\u4F1A\u793E\u540D", r.name], r.kind && ["\u7A2E\u985E", r.kind], r.city && ["\u6240\u5728\u5730(\u5E02\u533A\u753A\u6751)", r.city], r.post && ["\u90F5\u4FBF\u756A\u53F7", r.post], r.since && ["\u8A2D\u7ACB\u30FB\u767B\u8A18\u306E\u65E5", r.since], r.sic && ["\u4E8B\u696D\u306E\u7A2E\u985E", r.sic], r.old && ["\u65E7\u793E\u540D", r.old]].filter(Boolean);
     const body = `<div class="card head"><span class="av sq">${esc(cc)}</span><div><h1 class="page">${esc(r.name)}</h1><p class="muted" style="margin:0">${esc(info.name)}${r.kind ? " \u30FB " + esc(r.kind) : ""}${r.city ? " \u30FB " + esc(r.city) : ""}</p></div></div>
 <div class="card"><h2>\u767B\u8A18\u306E\u60C5\u5831</h2><dl>${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl><p class="src"><a href="${esc(info.url(r.id))}" rel="noopener nofollow" target="_blank">\u516C\u5F0F\u306E\u767B\u8A18\u3067\u898B\u308B \u2197</a></p></div>
 <p class="src">\u51FA\u5178: ${esc(info.reg)}\u306E\u516C\u958B\u30C7\u30FC\u30BF(<a href="${esc(info.licUrl)}" rel="noopener">${esc(info.lic)}</a>)\u3092\u52A0\u5DE5\u3057\u3066\u4F5C\u6210\u3057\u3066\u3044\u307E\u3059\u3002</p>`;
@@ -2498,7 +2502,15 @@ var worker_default = {
       const r = await env.ASSETS.fetch(new Request(new URL(path, request.url)));
       return r.ok ? await r.text() : null;
     }, "getAsset");
-    const getSgAsset = /* @__PURE__ */ __name(async (path) => env.SGDB ? await env.SGDB.prepare("SELECT data FROM f WHERE path = ?").bind(path).first("data") : null, "getSgAsset");
+    let sgVer;
+    const getSgAsset = /* @__PURE__ */ __name(async (path) => {
+      if (!env.SGDB) return null;
+      if (sgVer === void 0) sgVer = await env.SGDB.prepare("SELECT v, z FROM ver ORDER BY v DESC LIMIT 1").first().catch(() => null);
+      const d = await env.SGDB.prepare("SELECT data FROM f WHERE path = ?").bind(sgVer ? `/${sgVer.v}${path}` : path).first("data");
+      if (d == null || !sgVer?.z) return d;
+      const bin = Uint8Array.from(atob(d), (ch) => ch.charCodeAt(0));
+      return await new Response(new Blob([bin]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
+    }, "getSgAsset");
     return createApp({ getAsset, getSgAsset }).fetch(request, env, ctx);
   }
 };

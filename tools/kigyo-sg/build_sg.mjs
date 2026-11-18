@@ -18,21 +18,27 @@ const recs = all.filter(r=>r.length===H.length);
 // 業種コードの説明(説明のある行から、同じコードの説明を借りる)
 const ssic = {}; for (const r of recs){ const c=r[ix.industry_code], d=r[ix.industry]; if(c&&d&&!ssic[c]) ssic[c]=d; }
 const rows = recs.map(r=>{ const c=r[ix.industry_code]; const d=r[ix.industry]||ssic[c]||'';
-  return { id:r[ix.id], name:r[ix.name], kind:r[ix.type], addr:r[ix.address], post:r[ix.postal_code], since:r[ix.established], sic: c ? (d? `${c} ${d}` : `SSIC ${c}`) : (d||''), core: Array.from(core(r[ix.name])) }; });
+  const old = (r[ix.former_names]||'').split(' / ').map(s=>s.trim()).filter(s=>s && s!==r[ix.name]);
+  return { id:r[ix.id], name:r[ix.name], kind:r[ix.type], addr:r[ix.address], post:r[ix.postal_code], since:r[ix.established], sic: c ? (d? `${c} ${d}` : `SSIC ${c}`) : (d||''), core: Array.from(core(r[ix.name])), old }; });
+// 検索の入口: 今の名前 + 旧社名(2026-11-18追加。旧社名の行は5番目に今の名前を持つ)
+const keys = [];
+for (const r of rows){ keys.push({core:r.core, row:['SG',r.id,r.name,r.addr]});
+  const seen = new Set([r.core.join('')]);
+  for (const o of r.old){ const k=Array.from(core(o)); if(k.length<2||seen.has(k.join(''))) continue; seen.add(k.join('')); keys.push({core:k, row:['SG',r.id,o,r.addr,r.name]}); } }
 // よく出る先頭の文字(長さ2〜5)を「hot」にして、さらに1文字ずつ細かく分ける
 const T = 1500, hot = {};
-let cur = rows;
+let cur = keys;
 for (let L=2; L<6; L++){ const cnt=new Map(); for(const r of cur){ if(r.core.length>L){ const p=r.core.slice(0,L).join(''); cnt.set(p,(cnt.get(p)||0)+1);} }
   hot[L] = new Set([...cnt].filter(([,n])=>n>T).map(([p])=>p)); cur = cur.filter(r=>r.core.length>L && hot[L].has(r.core.slice(0,L).join(''))); }
 const NB = 700, ND = 700;
 const nb = Array.from({length:NB},()=>[]), nd = Array.from({length:ND},()=>[]);
-for (const r of rows){ let L=2; while(L<6 && hot[L]?.has(r.core.slice(0,L).join('')) && r.core.length>L) L++;
-  const key = r.core.slice(0,L).join(''); nb[fnv(key)%NB].push(['SG',r.id,r.name,r.addr]);
-  nd[fnv('SG:'+r.id)%ND].push(['SG',r.id,r.name,r.kind,r.addr,r.post,r.since,r.sic]); }
+for (const k of keys){ let L=2; while(L<6 && hot[L]?.has(k.core.slice(0,L).join('')) && k.core.length>L) L++;
+  nb[fnv(k.core.slice(0,L).join(''))%NB].push(k.row); }
+for (const r of rows) nd[fnv('SG:'+r.id)%ND].push(['SG',r.id,r.name,r.kind,r.addr,r.post,r.since,r.sic,r.old.join(' / ')]);
 fs.mkdirSync(out+'/c',{recursive:true}); fs.mkdirSync(out+'/n',{recursive:true});
 nb.forEach((a,i)=>{ a.sort((x,y)=>x[2].localeCompare(y[2])); fs.writeFileSync(`${out}/n/${i}.json`,JSON.stringify(a)); });
 nd.forEach((a,i)=>fs.writeFileSync(`${out}/c/${i}.json`,JSON.stringify(a)));
 fs.writeFileSync(`${out}/n/hot.json`,JSON.stringify(Object.fromEntries(Object.entries(hot).map(([L,s])=>[L,[...s].sort()]))));
 fs.writeFileSync(`${out}/c/meta.json`,JSON.stringify({total:rows.length,by:{SG:rows.length},nd:ND,nb:NB,built:new Date().toISOString().slice(0,10),source:"ACRA, data.gov.sg / Singapore Open Data Licence v1.0"}));
 const sz = a=>Math.max(...a.map(x=>JSON.stringify(x).length));
-console.log('rows',rows.length,'hot',Object.fromEntries(Object.entries(hot).map(([L,s])=>[L,s.size])),'max nb file',sz(nb),'max nd file',sz(nd));
+console.log('rows',rows.length,'keys',keys.length,'hot',Object.fromEntries(Object.entries(hot).map(([L,s])=>[L,s.size])),'max nb file',sz(nb),'max nd file',sz(nd));
