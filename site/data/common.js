@@ -3,7 +3,9 @@
    営業先への「入り口」を探すための画面。データは本体の相関図(DATA)をその場でまとめるので、毎日の更新がそのまま反映される。
    本体(index.html)からは showCommon(a,b) と commonBtn()/wireCommon() を呼ぶだけ。 */
 let CG=null,commonA='',commonB='',commonPas=false;
-const CM_ALIAS={'o:yコンビネータ':'o:ycombinator','o:yコンビネーター':'o:ycombinator','o:softbank':'o:ソフトバンクグループ','o:ソフトバンク':'o:ソフトバンクグループ','o:googlebrain':'o:googledeepmind','o:エヌビディア':'o:nvidia','o:オープンai':'o:openai','o:マイクロソフト':'o:microsoft','o:アマゾン':'o:amazon','o:メタ':'o:meta','o:アンソロピック':'o:anthropic','o:google':'o:alphabet','o:spacex旧xai':'o:spacex'};
+const CM_ALIAS={'o:yコンビネータ':'o:ycombinator','o:yコンビネーター':'o:ycombinator','o:softbank':'o:ソフトバンクグループ','o:ソフトバンク':'o:ソフトバンクグループ','o:googlebrain':'o:googledeepmind','o:エヌビディア':'o:nvidia','o:オープンai':'o:openai','o:マイクロソフト':'o:microsoft','o:アマゾン':'o:amazon','o:メタ':'o:meta','o:アンソロピック':'o:anthropic','o:google':'o:alphabet','o:spacex旧xai':'o:spacex',
+ /* 2026/11/18追加: 同じ会社なのに図によって名前の書き方が違い、別の点になっていたもの */
+ 'o:sony':'o:ソニー','o:キオクシア':'o:キオクシアホールディングス','o:amazoncom':'o:amazon','o:オラクル':'o:oracle','o:alibaba':'o:alibabaqwen','o:アリババ':'o:alibabaqwen','o:micron':'o:microntechnology','o:dell':'o:delltechnologies','o:sbi':'o:sbiホールディングス','o:ソフトバンクグループ投資事業':'o:ソフトバンクグループ','o:セールスフォース':'o:salesforce','o:hitachi':'o:日立製作所','o:nec':'o:日本電気','o:googlegemini':'o:googledeepmind'};
 /* 株を持っているだけの信託銀行・大手運用会社。ほとんどの上場企業の株主なので、最初は「共通点」から外す */
 const CM_PASSIVE=/(信託|カストディ|vanguard|blackrock|state ?street|jp ?morgan|chase bank|master ?trust|mellon|ssbtc|norway|持株会|自己株|ノルウェー|生命保険|custody|nominee|bnym|goldman sachs international|citibank|hsbc|morgan stanley & co|ステート|ジェーピー|バンク・オブ|ゴールドマン|シティバンク|モルガン|証券金融|chase|omnibus|secs? lending|bank of new york|ssbt|bny|nominees|trust company|custodian|jpmorgan)/i;
 const CM_KLAB={member:'在籍',invest:'出資',invest2:'出資',owns:'保有',govern:'管理',deal:'取引',uses:'AIを使う',from:'出身',moved:'移籍',conflict:'対立',link:'関係'};
@@ -14,7 +16,8 @@ const cmEsc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;
 function cmBuild(){
   if(CG)return CG;
   const nodes=[],idx=new Map(),edges=[],seen=new Map();
-  const norm=s=>String(s||'').toLowerCase().replace(/[\s　\.\,・()（）]/g,'').replace(/(inc|corp|corporation|株式会社|holdings|group|グループ)$/,'');
+  /* 2026/11/18: 全角の「ＮＴＴ」「ＳＢＩ」と半角の「NTT」「SBI」を同じ会社として扱うため NFKC で揃える */
+  const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\s　\.\,・()（）]/g,'').replace(/(inc|corp|corporation|株式会社|holdings|group|グループ)$/,'');
   const add=(k,name,t,code)=>{k=CM_ALIAS[k]||k;if(!idx.has(k)){idx.set(k,nodes.length);nodes.push({k,n:name,t,code:null,en:'',pas:CM_PASSIVE.test(name)?1:0})}
     const o=nodes[idx.get(k)];if(code&&!o.code){o.code=code;o.n=name;o.t='c'}return idx.get(k)};
   for(const c of Object.keys(DATA)){if(!COMPANIES[c])continue;let d;try{d=DATA[c]()}catch(e){continue}

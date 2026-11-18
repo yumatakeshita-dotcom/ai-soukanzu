@@ -36126,7 +36126,76 @@ function dealOverviewHtml(){
   return `<h3 style="margin:14px 0 6px;font-size:14px">${DEALS[comp]?'計算資源の取引':'取引関係'}(${DEAL_ASOF}時点)</h3><p style="font-size:13px">${D.note}</p>${rows?`<ul class="rel">${rows}</ul>`:'<p class="note">この年にはまだ取引の記録がありません。</p>'}<p class="note">金色の線が取引です。金額は契約の上限や報道ベースの数字を含みます。出典: ${dealSrcHtml(D.src)}</p>`;
 }
 
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBack(c,d);d.N.forEach(n=>{
+// ===== 大手どうしの抜けていた線(2026年11月18日に追加) =====
+// 両方とも相関図がある大手どうしで、公式発表や信頼できる報道で確かめたのに線がなかったものを、両方の会社の図に足す。
+// 例: ソニーはJASMの出資者なのに線がなく、「共通のつながり」でソニー⇄TSMCが遠回りになっていた。既存の線と重なるものは足さない。
+// [会社A, 会社B, 線の種類, 図に出す短いラベル, 始まった年, 説明, 出典キー]  invest/owns は A→B の向き
+Object.assign(DS,{
+ bl_jasm:['TSMC公式発表(2021/11/9)','https://pr.tsmc.com/english/news/2880'],
+ bl_shm:['ソニー・ホンダモビリティ公式発表(2022/10/13)','https://www.shm-afeela.com/en/assets/pdf/news-release_221013_en.pdf'],
+ bl_kxsd:['Sandisk・キオクシア発表(2026/1/29)','https://www.streetinsider.com/Basic+Content/Kioxia+and+Sandisk+Extend+Yokkaichi+Joint+Venture+Agreement+Through+2034/25916836.html'],
+ bl_sdsep:['Sandisk公式発表(2025/2 分社の完了)','https://www.sandisk.com/en-ae/company/newsroom/press-releases/2025/sandisk-celebrates-nasdaq-listing-after-completing-separation'],
+ bl_lnl:['TechNode(2024/6/20)','https://technode.com/2024/06/20/tsmc-begins-production-of-intels-lunar-lake-processor-core-ultra-200v-series/'],
+ bl_hna:['Intel公式(High NA EUV)','https://newsroom.intel.com/intel-foundry/intel-foundry-opens-new-frontier-chipmaking'],
+ bl_muhbm:['Micron公式発表(2024/2/26)','https://www.hpcwire.com/aiwire/2024/02/26/micron-commences-volume-production-of-hbm3e-solution-to-accelerate-the-growth-of-ai/'],
+ bl_nvarm:['NVIDIA・ソフトバンクグループ公式発表(2022/2/8)','https://nvidianews.nvidia.com/news/nvidia-and-softbank-group-announce-termination-of-nvidias-acquisition-of-arm-limited'],
+ bl_gapple:['NPR(2024/8/5 米司法省の裁判の判決)','https://www.npr.org/2024/08/05/nx-s1-5064624/google-justice-department-antitrust-search'],
+ bl_antc:['Anthropic公式発表(2023/5/23 シリーズC)','https://www.anthropic.com/news/anthropic-series-c'],
+ bl_mufgms:['MUFG公式発表(2008/9/29)','https://www.mufg.jp/dam/pressrelease/2008/pdf/pressrelease-20080929-003_ja.pdf'],
+ bl_brkjp:['Berkshire Hathaway公式発表(2020/8/30・米SEC)','https://www.sec.gov/Archives/edgar/data/1067983/000119312520235925/d947341dex991.htm'],
+ bl_hcm:['日立建機公式発表(2022/1/14)','https://www.hitachicm.com/global/en/news/press-releases/2022/20220114-ir'],
+ bl_qcapl:['Apple・Qualcomm共同発表(2019/4/16)','https://www.apple.com/ae/newsroom/2019/04/qualcomm-and-apple-agree-to-drop-all-litigation'],
+ bl_nttnec:['Light Reading(2020/6/25)','https://www.lightreading.com/asia/ntt-takes-$560m-stake-in-nec-to-forge-5g-optical-alliance/d/d-id/761967'],
+ bl_tywaymo:['トヨタ公式発表(2025/4/30)','https://global.toyota/en/newsroom/corporate/42703368.html'],
+ bl_tynv:['NVIDIA公式発表(2025/1/6)','https://investor.nvidia.com/news/press-release-details/2025/Toyota-Aurora-and-Continental-Join-Growing-List-of-NVIDIA-Partners-Rolling-Out-Next-Generation-Highly-Automated-and-Autonomous-Vehicle-Fleets/default.aspx'],
+ bl_sonybn:['ソニーグループ 米SEC提出資料(2025/7)','https://www.sec.gov/Archives/edgar/data/313838/000110465925070271/tm2521515d1_6k.htm'],
+ bl_tslaxai:['Electrek(2026/1/28)','https://electrek.co/2026/01/28/tesla-invests-2-billion-in-elon-musk-xai-cash-furnace/'],
+ bl_orclxai:['Oracle公式発表(2025/6/17)','https://www.oracle.com/news/announcement/xais-grok-models-are-now-on-oracle-cloud-infrastructure-2025-06-17/'],
+ bl_sonyms:['Microsoft公式発表(2019/5/16)','https://news.microsoft.com/2019/05/16/sony-and-microsoft-to-explore-strategic-partnership/']
+});
+const BIGLINKS_ASOF='2026年11月18日';
+const BIGLINKS=[
+ ['jp_6758','jasm','invest','約6%・子会社経由',2021,'2021年11月、ソニーの半導体子会社ソニーセミコンダクタソリューションズが、JASMに少数株主として出資すると発表。出資比率は約6%(JASMの公表時点)。隣で画像センサーを作り、JASMの半導体の買い手でもあります。',['bl_jasm']],
+ ['jp_6758','jp_7267','link','合弁 ソニー・ホンダモビリティ',2022,'2022年10月、ソニーとホンダが50%ずつ出資してソニー・ホンダモビリティを設立。電気自動車「AFEELA」を作っています。',['bl_shm']],
+ ['jp_6758','jp_7832','invest','約2.5%',2025,'2025年7月、ソニーがバンダイナムコの株を約2.5%(約680億円)取得し、アニメ・ゲームの分野で提携すると発表。',['bl_sonybn']],
+ ['jp_6758','msft','link','クラウド・AIで提携',2019,'2019年5月、クラウドゲーム・AI・半導体(画像センサー)の分野で提携を検討する覚書を結びました。',['bl_sonyms']],
+ ['jp_285A','us_SNDK','deal','工場を共同で運営',2025,'四日市・北上の半導体メモリ工場を共同で運営(Western Digitalから引き継いだ合弁)。2026年1月、四日市の合弁契約を2034年まで延ばすと発表。',['bl_kxsd']],
+ ['us_WDC','us_SNDK','link','2025年に分社',2025,'2025年2月、Western Digitalがメモリ(フラッシュ)事業をSandiskとして切り離し、Sandiskは単独で上場しました。',['bl_sdsep']],
+ ['us_INTC','tsmc','deal','Lunar Lakeを製造',2024,'Intelのパソコン向けCPU「Lunar Lake(Core Ultra 200V)」の中心部分を、TSMCの3nmで作っています(2024年に量産開始と報道)。',['bl_lnl']],
+ ['asml','us_INTC','deal','High-NA EUVの初号機',2023,'2023年末、ASMLが次世代の露光装置「High-NA EUV」の最初の1台をIntelの米オレゴン州の工場に納めました。',['bl_hna']],
+ ['us_MU','nvidia','deal','HBM3E(H200向け)',2024,'2024年2月、MicronがAI用の高速メモリHBM3Eの量産を始め、NvidiaのH200に使われると発表。',['bl_muhbm']],
+ ['nvidia','arm','conflict','買収を断念(2022)',2020,'2020年9月、Nvidiaがソフトバンクグループから約400億ドルでArmを買うと発表。各国の規制当局の反対で、2022年2月に取りやめました。',['bl_nvarm']],
+ ['us_GOOGL','us_AAPL','deal','検索の初期設定 約$20B/年',2002,'iPhoneのSafariの検索をGoogleにする契約。2024年8月の米国の裁判の判決で、2021年にGoogleがAppleに約200億ドルを払っていたことが示されました。',['bl_gapple']],
+ ['us_CRM','anthropic','invest','Salesforce Ventures',2023,'2023年5月のシリーズC(4.5億ドル)に、Salesforceの投資部門Salesforce Venturesが参加。',['bl_antc']],
+ ['jp_8306','us_MS','invest','約2割(2008年〜)',2008,'2008年9月、リーマン・ショックの直後に三菱UFJがモルガン・スタンレーに約90億ドルを出資し、提携。出資比率は約2割(報道ベース)で、日米の証券業務を共同で行っています。',['bl_mufgms']],
+ ['us_BRK','jp_8058','invest','5%超→約1割(報道)',2020,'2020年8月、バークシャー・ハサウェイ(ウォーレン・バフェット氏の会社)が日本の5大商社の株をそれぞれ5%超取得したと発表。その後も買い増し、報道ではそれぞれ約1割になっています。',['bl_brkjp']],
+ ['us_BRK','jp_8031','invest','5%超→約1割(報道)',2020,'2020年8月、バークシャー・ハサウェイが日本の5大商社の株をそれぞれ5%超取得したと発表。その後も買い増し、報道ではそれぞれ約1割になっています。',['bl_brkjp']],
+ ['us_BRK','jp_8001','invest','5%超→約1割(報道)',2020,'2020年8月、バークシャー・ハサウェイが日本の5大商社の株をそれぞれ5%超取得したと発表。その後も買い増し、報道ではそれぞれ約1割になっています。',['bl_brkjp']],
+ ['us_BRK','jp_8002','invest','5%超→約1割(報道)',2020,'2020年8月、バークシャー・ハサウェイが日本の5大商社の株をそれぞれ5%超取得したと発表。その後も買い増し、報道ではそれぞれ約1割になっています。',['bl_brkjp']],
+ ['jp_8001','jp_6305','invest','約26%(JIPと共同)',2022,'2022年、伊藤忠商事と日本産業パートナーズ(JIP)が共同で作った会社を通じて、日立製作所から日立建機の株を約26%買いました。',['bl_hcm']],
+ ['us_QCOM','us_AAPL','deal','iPhoneのモデム',2019,'2019年4月、長年の特許の裁判を取り下げて和解。6年間の特許契約と、複数年のモデム(通信チップ)の供給契約を結びました。',['bl_qcapl']],
+ ['jp_9432','jp_6701','invest','約4.8%',2020,'2020年6月、NTTがNECに約645億円を出資(約4.8%)し、5Gと光通信の技術を一緒に開発する提携を発表。',['bl_nttnec']],
+ ['jp_7203','waymo','link','自動運転で提携',2025,'2025年4月、自動運転の技術と、自家用車への応用で提携を検討すると発表。',['bl_tywaymo']],
+ ['jp_7203','nvidia','deal','次世代車にDRIVE AGX',2025,'2025年1月、トヨタの次世代の車がNvidiaの車載コンピューター(DRIVE AGX Orin)と基本ソフトを使うと発表。',['bl_tynv']],
+ ['us_TSLA','xai','invest','約$2B',2026,'2026年1月、TeslaがxAIに約20億ドルを出資すると発表(報道)。xAIはその後SpaceXに統合されています。',['bl_tslaxai']],
+ ['us_ORCL','xai','deal','GrokをOracleのクラウドで',2025,'2025年6月、xAIのAI「Grok」をOracleのクラウド(OCI)で使えるようにしたと発表。',['bl_orclxai']]
+];
+// 他の図で同じ会社が別の名前で出てくるとき用(重なる点を作らないため)
+const BIG_ALT={us_GOOGL:['Google','グーグル'],us_AAPL:['アップル'],nvidia:['NVIDIA','エヌビディア'],us_INTC:['インテル','Intel Corporation'],tsmc:['台湾積体電路製造','Taiwan Semiconductor'],jp_6758:['ソニー','Sony','Sony Group'],jp_7267:['ホンダ','Honda'],jp_7203:['トヨタ','Toyota'],jp_6701:['NEC'],jp_9432:['NTT'],jp_285A:['キオクシア','Kioxia'],us_SNDK:['SanDisk'],us_MU:['Micron'],msft:['マイクロソフト'],us_ORCL:['オラクル'],us_CRM:['セールスフォース'],us_TSLA:['テスラ']};
+function applyBig(c,d){
+  const ids=new Set(d.N.map(n=>n.id));
+  const has=(a,b)=>d.E.some(e=>(e.a===a&&e.b===b)||(e.a===b&&e.b===a));
+  BIGLINKS.forEach(([A,B,k,label,y,desc,src])=>{
+    if(c!==A&&c!==B)return;const o=c===A?B:A;if(!COMPANIES[o])return;
+    const nm=COMPANIES[o].name,names=[nm].concat(BIG_ALT[o]||[]).map(fnorm);
+    const ex=d.N.find(n=>n.id!==d.center&&(n.id===o||ALIAS[n.id]===o||names.includes(fnorm(n.name))||names.includes(fnorm(d.EN[n.id]))));
+    let id;if(ex)id=ex.id;else{id=o;if(ids.has(id))id='bl_'+o;ids.add(id);d.N.push({id,name:nm,kind:'o',from:y,desc,role:'つながりのある大手'})}
+    if(has(d.center,id))return;
+    const a=c===A?d.center:id,b=c===A?id:d.center;
+    d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
+  });
+}
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
