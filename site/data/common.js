@@ -375,6 +375,6 @@ function cmShowBrief(s,t){
     const done=()=>{document.body.classList.remove('cm-printing');document.title=ttl;window.removeEventListener('afterprint',done)};window.addEventListener('afterprint',done);
     try{window.print()}catch(e){done()}});
   document.getElementById('bfcopy').addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>msg('コピーしました')).catch(()=>msg('コピーできませんでした。保存(.txt)を使ってください'))});
-  document.getElementById('bfsave').addEventListener('click',()=>{try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=`接点資料_${D.B}.txt`.replace(/[\\/:*?"<>|]/g,'_');document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}});
+  document.getElementById('bfsave').addEventListener('click',()=>{if(typeof saveTextFile==='function')return saveTextFile(`接点資料_${D.B}.txt`,txt,msg);try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=`接点資料_${D.B}.txt`.replace(/[\\/:*?"<>|]/g,'_');document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}});
   window.scrollTo(0,0);
 }

@@ -36152,7 +36152,8 @@ let cfMode='all';try{const v=localStorage.getItem('cfmode');if(v==='fade'||v==='
 function cfSummaryHtml(){
   const c={f:0,o:0,s:0,r:0,e:0};let none=0;E.forEach(e=>{if(e.since&&e.since>year)return;const x=edgeCf(e);if(x)c[x]++;else if(e.label||e.d)none++});
   const tot=c.f+c.o+c.s+c.r+c.e;if(!tot)return '';
-  return `<h3 style="margin:14px 0 6px;font-size:14px">この図の線の確かさ</h3><p style="font-size:13px;margin:0">${['o','f','s','r','e'].filter(k=>c[k]).map(k=>`${cfBadge(k)}${c[k]}本`).join(' ')}${none?` ・ 出典なし ${none}本`:''}</p><p class="note">公式=会社・政府の発表、開示=法定の書類や投資家向け資料、本人=本人の発言だけ、報道=報道だけ(数字は報道ベース)、推定=推定・試算。線の上の「・報道」「・推定」も同じ意味です。上の「確かさ」で、報道だけの線を薄くしたり隠したりできます。</p>`;
+  const pct=Math.round((c.f+c.o)*100/tot);
+  return `<h3 style="margin:14px 0 6px;font-size:14px">この図の線の確かさ</h3><p style="margin:0 0 4px"><b style="font-size:26px;color:var(--active);font-variant-numeric:tabular-nums">${pct}%</b> <span style="font-size:13px">が公式・開示で確かめた線(${c.f+c.o}/${tot}本)</span></p><p style="font-size:13px;margin:0">${['o','f','s','r','e'].filter(k=>c[k]).map(k=>`${cfBadge(k)}${c[k]}本`).join(' ')}${none?` ・ 出典なし ${none}本`:''}</p><p class="note">公式=会社・政府の発表、開示=法定の書類や投資家向け資料、本人=本人の発言だけ、報道=報道だけ(数字は報道ベース)、推定=推定・試算。線の上の「・報道」「・推定」も同じ意味です。上の「確かさ」で、報道だけの線を薄くしたり隠したりできます。</p>`;
 }
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
 function dealSrcHtml(keys,cf){const one=k=>`<a href="${DS[k][1]}" target="_blank" rel="noopener">${DS[k][0]}</a>`;const K=(keys||[]).filter(k=>DS[k]);if(cf&&CFJA[cf])return cfBadge(CFJA[cf])+' '+K.map(one).join(' / ');return K.map(k=>cfBadge(dsCf(k))+one(k)).join(' / ')}
@@ -36163,6 +36164,13 @@ function dealOverviewHtml(){
   const rows=D.list.filter(r=>r[3]<=year).map(([id,name,label,y,desc,src])=>`<li style="display:block;border-top:1px solid var(--line);padding-top:6px"><b style="color:var(--deal);min-width:0">${name}</b> <span class="meta">${y}年〜 ・ ${label}</span><br>${desc}<br><small>出典: ${dealSrcHtml(src)}</small></li>`).join('');
   return `<h3 style="margin:14px 0 6px;font-size:14px">${DEALS[comp]?'計算資源の取引':'取引関係'}(${DEAL_ASOF}時点)</h3><p style="font-size:13px">${D.note}</p>${rows?`<ul class="rel">${rows}</ul>`:'<p class="note">この年にはまだ取引の記録がありません。</p>'}<p class="note">金色の線が取引です。金額は契約の上限や報道ベースの数字を含みます。出典: ${dealSrcHtml(D.src)}</p>`;
 }
+
+// テキストの保存(2026/11/18): 共有リンクの中では claude.use('downloads') で保存の確認を出し、それ以外(手元)ではふつうのダウンロードにする
+let _dlNs;function dlNs(){if(_dlNs===undefined){_dlNs=(window.claude&&typeof window.claude.use==='function')?Promise.resolve(window.claude.use('downloads')).catch(()=>null):Promise.resolve(null)}return _dlNs}
+function saveTextFile(name,txt,msg){name=String(name).replace(/[\\/:*?"<>|]/g,'_');msg=msg||function(){};
+  const plain=()=>{try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}};
+  if(!(window.claude&&typeof window.claude.use==='function'))return plain();
+  dlNs().then(d=>{if(!d)return plain();return d.save({filename:name,data:new Blob([txt],{type:'text/plain;charset=utf-8'})}).then(()=>msg('保存しました')).catch(e=>msg(e&&e.code==='declined'?'保存をやめました':'保存できませんでした。「テキストをコピー」を使ってください'))})}
 
 // ===== 確かな版(2026年11月18日に追加) =====
 // どの会社の図でも、公式発表・開示書類で確かめた線だけを本文に、報道だけのものを「参考」に分けた資料を作る。データは持たず、開いている図(E・N)からまとめる。
@@ -36177,6 +36185,9 @@ const KK_CSS=`
 .kk-doc h2{font-size:15px;margin:22px 0 8px;padding-left:8px;border-left:4px solid var(--fg)}
 .kk-doc .kk-k{font-size:12px;color:var(--muted)}
 .kk-doc .kk-lead{font-size:13px;color:var(--muted);margin:0}
+.kk-pct{display:flex;align-items:center;gap:14px;margin:16px 0 6px;padding:12px 14px;border:2px solid var(--active);border-radius:10px}
+.kk-pct b{font-size:40px;line-height:1;color:var(--active);font-variant-numeric:tabular-nums}
+.kk-pct span{font-size:13px;color:var(--fg);font-weight:700}.kk-pct small{font-weight:400;color:var(--muted)}
 .kk-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:14px 0 4px}
 .kk-tiles div{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted)}
 .kk-tiles b{display:block;font-size:20px;color:var(--fg)}
@@ -36222,7 +36233,7 @@ function kkData(){
   const bup=ups.filter(strong),rup=ups.filter(u=>!strong(u));
   bup.forEach(u=>{u.n=[sidx({t:u.src[0],u:u.src[1],c:u.cf})]});
   return {name,asof:typeof LAST_CHECK!=='undefined'?LAST_CHECK.replace(/^(\d+)-0?(\d+)-0?(\d+)$/,'$1年$2月$3日'):'',body,ref,none,bup,rup,srcs,
-    cnt:{o:body.filter(x=>x.cf==='o').length,f:body.filter(x=>x.cf==='f').length,r:ref.length}};
+    cnt:{o:body.filter(x=>x.cf==='o').length,f:body.filter(x=>x.cf==='f').length,r:ref.length},pct:(body.length+ref.length)?Math.round(body.length*100/(body.length+ref.length)):0};
 }
 function kkGroups(L){return KK_GROUP.map(([id,t,ks])=>[t,L.filter(x=>ks?ks.includes(x.k):!KK_GROUP.some(g=>g[2]&&g[2].includes(x.k)))]).filter(g=>g[1].length)}
 function kkHtml(D){
@@ -36233,6 +36244,7 @@ function kkHtml(D){
 <div class="kk-k">AI企業の相関図 ・ 確かな版</div>
 <h1>${kkEsc(D.name)}<br>公式発表・開示で確かめたつながり</h1>
 <p class="kk-lead">${kkEsc(D.asof)}時点。会社・政府の発表(公式)と法定の書類・投資家向け資料(開示)で確かめられたものだけを本文に載せ、報道だけのものは最後に「参考」として分けています。</p>
+<div class="kk-pct"><b>${D.pct}%</b><span>公式・開示で確かめた割合<br><small>出典のある線・数字 ${D.cnt.o+D.cnt.f+D.cnt.r}件のうち ${D.cnt.o+D.cnt.f}件</small></span></div>
 <div class="kk-tiles"><div><b>${D.cnt.o}</b>${cfBadge('o')}公式で確認</div><div><b>${D.cnt.f}</b>${cfBadge('f')}開示で確認</div><div><b>${D.cnt.r}</b>参考(報道・本人・推定)</div>${D.bup.length?`<div><b>${D.bup.length}</b>最近の変化(公式・開示)</div>`:''}</div>
 ${D.body.length?grp(D.body,it):'<p class="kk-lead" style="margin-top:14px">この会社の図には、公式発表・開示書類で確かめた線がまだありません。下の「参考」が今わかっていることです。</p>'}
 ${D.bup.length?`<h2>最近の変化(公式・開示)</h2>${D.bup.map(u=>`<div class="kk-it"><span class="kk-k">${kkEsc(u.d)}</span> ${cfBadge(u.cf)}<div>${kkEsc(u.t)}</div><div class="kk-s">出典 [${u.n[0]}]</div></div>`).join('')}`:''}
@@ -36242,7 +36254,7 @@ ${D.srcs.length?`<h2>出典</h2><ol>${D.srcs.map(s=>`<li>${cfBadge(s.c)}<a href=
 </div>`;
 }
 function kkText(D){
-  const L=[`${D.name} 確かな版(公式発表・開示で確かめたつながり) ${D.asof}時点`,''];
+  const L=[`${D.name} 確かな版(公式発表・開示で確かめたつながり) ${D.asof}時点`,`公式・開示で確かめた割合: ${D.pct}%(${D.cnt.o+D.cnt.f+D.cnt.r}件のうち${D.cnt.o+D.cnt.f}件)`,''];
   kkGroups(D.body).forEach(([t,l])=>{L.push('■ '+t);l.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}${x.since?'・'+x.since+'年〜':''}) ${x.label}${x.d?'\n  '+x.d:''}${x.n&&x.n.length?'\n  出典 '+x.n.map(i=>'['+i+']').join(''):''}`));L.push('')});
   if(D.bup.length){L.push('■ 最近の変化(公式・開示)');D.bup.forEach(u=>L.push(`・${u.d} ${u.t} [${u.n[0]}]`));L.push('')}
   if(D.ref.length||D.rup.length){L.push('■ 参考:報道などだけのもの(まだ確かめていない)');D.ref.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}) ${x.label}`));D.rup.forEach(u=>L.push(`・${u.d} ${u.t}(${CFL[u.cf]?CFL[u.cf].t:''})`));L.push('')}
@@ -36260,7 +36272,7 @@ function kkShow(){
   document.getElementById('kkprint').addEventListener('click',()=>{document.body.classList.add('kk-printing');const ttl=document.title;document.title=`確かな版_${D.name}`;
     const done=()=>{document.body.classList.remove('kk-printing');document.title=ttl;window.removeEventListener('afterprint',done)};window.addEventListener('afterprint',done);try{window.print()}catch(e){done()}});
   document.getElementById('kkcopy').addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>msg('コピーしました')).catch(()=>msg('コピーできませんでした。保存(.txt)を使ってください'))});
-  document.getElementById('kksave').addEventListener('click',()=>{try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=`確かな版_${D.name}.txt`.replace(/[\\/:*?"<>|]/g,'_');document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}});
+  document.getElementById('kksave').addEventListener('click',()=>saveTextFile(`確かな版_${D.name}.txt`,txt,msg));
 }
 function kkBtn(){return COMPANIES[comp]?`<div class="links"><a href="#" id="gokk"><b>確かな版を作る(公式・開示の数字だけの資料) ▸</b></a></div>`:''}
 function wireKk(){const g=document.getElementById('gokk');if(g)g.addEventListener('click',ev=>{ev.preventDefault();kkShow()})}
