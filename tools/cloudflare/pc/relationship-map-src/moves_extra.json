@@ -1,0 +1,1055 @@
+[
+ {
+  "p": "ノーム・シェイザー",
+  "en": "Noam Shazeer",
+  "a": "Google DeepMind",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "CNBC(2026/6/19)・Fast Company(2026/6/18)",
+  "url": "https://www.fastcompany.com/91562193/google-ai-leader-noam-shazeer-leaves-company-for-openai"
+ },
+ {
+  "p": "ケ・ヤン",
+  "en": "Ke Yang",
+  "a": "Apple",
+  "b": "Meta",
+  "y": 2025,
+  "src": "Bloomberg報道をTechCrunchが引用(2025/10/16)",
+  "url": "https://techcrunch.com/2025/10/16/apple-loses-another-ai-exec-to-meta"
+ },
+ {
+  "p": "マーク・リー",
+  "en": "Mark Lee",
+  "a": "Apple",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TipRanks(2025/7)",
+  "url": "https://www.tipranks.com/news/meta-poaches-two-apple-researchers-amid-ongoing-talent-war"
+ },
+ {
+  "p": "トム・ガンター",
+  "en": "Tom Gunter",
+  "a": "Apple",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TipRanks(2025/7)",
+  "url": "https://www.tipranks.com/news/meta-poaches-two-apple-researchers-amid-ongoing-talent-war"
+ },
+ {
+  "p": "トラピット・バンサル",
+  "en": "Trapit Bansal",
+  "a": "OpenAI",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TechCrunch(2025/6/26)",
+  "url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models"
+ },
+ {
+  "p": "ジャック・レイ",
+  "en": "Jack Rae",
+  "a": "Google DeepMind",
+  "b": "Meta",
+  "y": 2025,
+  "src": "Bloomberg報道をTechCrunchが引用(2025/6)",
+  "url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models"
+ },
+ {
+  "p": "ヨハン・シャルク",
+  "en": "Johan Schalkwyk",
+  "a": "Sesame",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TechCrunch(2025/6/26)",
+  "url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models"
+ },
+ {
+  "p": "アンドレイ・カルパシー",
+  "en": "Andrej Karpathy",
+  "a": "Eureka Labs",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "CNBC(2026/5/19)",
+  "url": "https://www.cnbc.com/2026/05/19/anthropic-hires-openai-cofounder-andrej-karpathy-former-tesla-ai-lead.html"
+ },
+ {
+  "p": "長崎忠雄",
+  "en": "Tadao Nagasaki",
+  "a": "AWSジャパン",
+  "b": "OpenAI Japan",
+  "y": 2024,
+  "src": "東洋経済(2024/3)・窓の杜(2024/4)",
+  "url": "https://toyokeizai.net/articles/-/745416"
+ },
+ {
+  "p": "東條英俊",
+  "en": "Hidetoshi Tojo",
+  "a": "Snowflake Japan",
+  "b": "Anthropic Japan",
+  "y": 2025,
+  "src": "マイナビニュース(2025/8/7)",
+  "url": "https://news.mynavi.jp/techplus/article/20250807-3399542/"
+ },
+ {
+  "p": "アダム・サドフスキー",
+  "en": "Adam Sadovsky",
+  "a": "Google DeepMind",
+  "b": "Microsoft",
+  "y": 2025,
+  "src": "CNBC(2025/7/22)",
+  "url": "https://www.cnbc.com/2025/07/22/microsoft-google-deepmind-ai-talent.html"
+ },
+ {
+  "p": "ソナル・グプタ",
+  "en": "Sonal Gupta",
+  "a": "Google DeepMind",
+  "b": "Microsoft",
+  "y": 2025,
+  "src": "CNBC(2025/7/22)",
+  "url": "https://www.cnbc.com/2025/07/22/microsoft-google-deepmind-ai-talent.html"
+ },
+ {
+  "p": "ジョナス・ロスフス",
+  "en": "Jonas Rothfuss",
+  "a": "Google DeepMind",
+  "b": "Microsoft",
+  "y": 2025,
+  "src": "CNBC(2025/7/22)",
+  "url": "https://www.cnbc.com/2025/07/22/microsoft-google-deepmind-ai-talent.html"
+ },
+ {
+  "p": "ミラン・コバック",
+  "en": "Milan Kovac",
+  "a": "Tesla",
+  "b": "Boston Dynamics",
+  "y": 2026,
+  "src": "Electrek(2026/1/16)",
+  "url": "https://electrek.co/2026/01/16/hyundais-boston-dynamics-scoops-up-teslas-former-optimus-head-milan-kovac/"
+ },
+ {
+  "p": "アシシュ・クマール",
+  "en": "Ashish Kumar",
+  "a": "Tesla",
+  "b": "Meta",
+  "y": 2025,
+  "src": "Jalopnik(2025/9/19)",
+  "url": "https://www.jalopnik.com/1972817/optimus-ai-head-leaves-tesla-for-meta/"
+ },
+ {
+  "p": "ニコラス・パーカー",
+  "en": "Nicholas Parker",
+  "a": "Microsoft",
+  "b": "Nvidia",
+  "y": 2026,
+  "src": "Nvidia 8-K(2026/7)",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000060/nvda-20260628.htm"
+ },
+ {
+  "p": "ペドラム・レザイ",
+  "en": "Pedram Rezaei",
+  "a": "Microsoft",
+  "b": "Amazon",
+  "y": 2026,
+  "src": "GeekWire(2026/10)",
+  "url": "https://www.geekwire.com/2026/amazon-hires-a-microsoft-ai-leader-to-help-build-its-tools-for-coding-and-work/"
+ },
+ {
+  "p": "パメラ・バッタチャリヤ",
+  "en": "Pamela Bhattacharya",
+  "a": "Microsoft",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "GeekWire(2026)",
+  "url": "https://www.geekwire.com/2026/tech-moves-microsoft-ai-leader-jumps-to-openai-former-ai2-exec-joins-meta-and-more/"
+ },
+ {
+  "p": "アニルッダ・ケンバビ",
+  "en": "Aniruddha Kembhavi",
+  "a": "Allen Institute for AI",
+  "b": "Meta",
+  "y": 2026,
+  "src": "GeekWire(2026)",
+  "url": "https://www.geekwire.com/2026/tech-moves-microsoft-ai-leader-jumps-to-openai-former-ai2-exec-joins-meta-and-more/"
+ },
+ {
+  "p": "クリス・マローン",
+  "en": "Chris Malone",
+  "a": "Meta",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "CNBC(2026/8/25)",
+  "url": "https://www.cnbc.com/2026/08/25/openais-head-of-data-centers-chris-malone-is-out-in-latest-exec-exit.html"
+ },
+ {
+  "p": "ロス・ノルディーン",
+  "en": "Ross Nordeen",
+  "a": "xAI",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "リチャード・クアック",
+  "en": "Richard Quach",
+  "a": "Uber",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "エリック・ボイド",
+  "en": "Eric Boyd",
+  "a": "Microsoft",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "ゴルビナ・マルコビッチ",
+  "en": "Golubina Markovikj",
+  "a": "Google",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "ソフィア・マルケス",
+  "en": "Sophia Marquez",
+  "a": "1X",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "ティム・ヒューズ",
+  "en": "Tim Hughes",
+  "a": "STACK Infrastructure",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "マイク・ファイン",
+  "en": "Mike Fein",
+  "a": "Google",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "ナターシャ・ダーシー・ソウザ",
+  "en": "Natasha Darcy Souza",
+  "a": "Stripe",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "イリーナ・ゴーシェ",
+  "en": "Irina Ghose",
+  "a": "Microsoft",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "TechFundingNews(Anthropic 2026年の主な採用)",
+  "url": "https://techfundingnews.com/anthropic-top-10-hires/"
+ },
+ {
+  "p": "ジョシュア・グロス",
+  "en": "Joshua Gross",
+  "a": "Thinking Machines Lab",
+  "b": "Meta",
+  "y": 2026,
+  "src": "The Next Web(2026/4/21)",
+  "url": "https://thenextweb.com/news/meta-thinking-machines-lab-talent-raid"
+ },
+ {
+  "p": "サンディヤ・デバナサン",
+  "en": "Sandhya Devanathan",
+  "a": "Meta",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "Rest of World(2026/9/11)",
+  "url": "https://restofworld.org/2026/openai-anthropic-big-tech-executives-asia/"
+ },
+ {
+  "p": "キラン・マニ",
+  "en": "Kiran Mani",
+  "a": "JioStar",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "Rest of World(2026/9/11)",
+  "url": "https://restofworld.org/2026/openai-anthropic-big-tech-executives-asia/"
+ },
+ {
+  "p": "三上智子",
+  "en": "Tomoko Mikami",
+  "a": "Microsoft Japan",
+  "b": "Google Cloud Japan",
+  "y": 2025,
+  "src": "日経クロステック・BigGo(2025/10)",
+  "url": "https://finance.biggo.jp/news/J6R4Z54B6tLPsnrZmjXx"
+ },
+ {
+  "p": "アラン・ダイ",
+  "en": "Alan Dye",
+  "a": "Apple",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TechCrunch(2025/12/3)",
+  "url": "https://techcrunch.com/2025/12/03/meta-poaches-apple-design-exec-alan-dye/"
+ },
+ {
+  "p": "ビリー・ソレンティーノ",
+  "en": "Billy Sorrentino",
+  "a": "Apple",
+  "b": "Meta",
+  "y": 2025,
+  "src": "TechCrunch(2025/12/3)",
+  "url": "https://techcrunch.com/2025/12/03/meta-poaches-apple-design-exec-alan-dye/"
+ },
+ {
+  "p": "ジェニファー・ニューステッド",
+  "en": "Jennifer Newstead",
+  "a": "Meta",
+  "b": "Apple",
+  "y": 2026,
+  "src": "MarketScreener(2025/12)・Apple公式",
+  "url": "https://uk.marketscreener.com/news/apple-appoints-meta-s-newstead-as-general-counsel-amid-executive-changes-ce7d51dfd081f027"
+ },
+ {
+  "p": "ポール・ミード",
+  "en": "Paul Meade",
+  "a": "Apple",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "AppleInsider(2026/6/26)",
+  "url": "https://appleinsider.com/articles/26/06/26/openai-has-poached-another-apple-executive-for-its-hardware-division"
+ },
+ {
+  "p": "タン・タン",
+  "en": "Tang Tan",
+  "a": "io",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "CNBC(2025/5/21)",
+  "url": "https://www.cnbc.com/2025/05/21/openai-jony-ive-apple-siri.html"
+ },
+ {
+  "p": "エバンス・ハンキー",
+  "en": "Evans Hankey",
+  "a": "io",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "CNBC(2025/5/21)",
+  "url": "https://www.cnbc.com/2025/05/21/openai-jony-ive-apple-siri.html"
+ },
+ {
+  "p": "スコット・キャノン",
+  "en": "Scott Cannon",
+  "a": "io",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "CNBC(2025/5/21)",
+  "url": "https://www.cnbc.com/2025/05/21/openai-jony-ive-apple-siri.html"
+ },
+ {
+  "p": "ダリ・ラジッチ",
+  "en": "Dali Rajic",
+  "a": "Wiz",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "Bloomberg(2026/8/13)",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-13/openai-hires-new-chief-revenue-officer-after-less-than-a-year"
+ },
+ {
+  "p": "サンジェイ・ゲマワット",
+  "en": "Sanjay Ghemawat",
+  "a": "Google DeepMind",
+  "b": "Discovery Loop",
+  "y": 2026,
+  "src": "GeekWire(2026/8)",
+  "url": "https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/"
+ },
+ {
+  "p": "オリオール・ヴィニャルス",
+  "en": "Oriol Vinyals",
+  "a": "Google DeepMind",
+  "b": "Discovery Loop",
+  "y": 2026,
+  "src": "MediaPost(2026/8/6)",
+  "url": "https://www.mediapost.com/publications/article/417036/deepmind-chief-scientist-leaves-to-start-a-company.html"
+ },
+ {
+  "p": "クオック・レ",
+  "en": "Quoc Le",
+  "a": "Google DeepMind",
+  "b": "Discovery Loop",
+  "y": 2026,
+  "src": "GeekWire(2026/8)",
+  "url": "https://www.geekwire.com/2026/the-startup-idea-that-convinced-a-uw-computer-science-legend-to-leave-google-after-27-years/"
+ },
+ {
+  "p": "ジョナス・アドラー",
+  "en": "Jonas Adler",
+  "a": "Google DeepMind",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "Bloomberg(2026/6/24、移籍予定として報道)",
+  "url": "https://thenextweb.com/news/google-loses-two-gemini-researchers-anthropic"
+ },
+ {
+  "p": "アレクサンダー・プリッツェル",
+  "en": "Alexander Pritzel",
+  "a": "Google DeepMind",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "Bloomberg(2026/6/24、移籍予定として報道)",
+  "url": "https://thenextweb.com/news/google-loses-two-gemini-researchers-anthropic"
+ },
+ {
+  "p": "サチン・カッティ",
+  "en": "Sachin Katti",
+  "a": "Intel",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "TrendForce(2025/11/11)・Reuters",
+  "url": "https://www.trendforce.com/news/2025/11/11/news-intel-cto-and-ai-chief-departs-for-openai-ceo-lip-bu-tan-steps-in-to-lead-ai-push/"
+ },
+ {
+  "p": "ソラブ・クルカルニ",
+  "en": "Saurabh Kulkarni",
+  "a": "Intel",
+  "b": "AMD",
+  "y": 2025,
+  "src": "TrendForce(2025/11/11)",
+  "url": "https://www.trendforce.com/news/2025/11/11/news-intel-cto-and-ai-chief-departs-for-openai-ceo-lip-bu-tan-steps-in-to-lead-ai-push/"
+ },
+ {
+  "p": "ジェニファー・マジレシ",
+  "en": "Jennifer Majlessi",
+  "a": "Salesforce",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "CNBC(2026/4/25)",
+  "url": "https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html"
+ },
+ {
+  "p": "ブライアン・ランズマン",
+  "en": "Brian Landsman",
+  "a": "Salesforce",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "The Information(2026)",
+  "url": "https://www.theinformation.com/briefings/openai-taps-salesforce-executive-lead-global-partnerships"
+ },
+ {
+  "p": "カマル・ブラー",
+  "en": "Kamal Brar",
+  "a": "Confluent",
+  "b": "Mistral AI",
+  "y": 2026,
+  "src": "CRN Asia(2026)",
+  "url": "https://www.crnasia.com/india/news/2026/mistral-ai-hires-confluent-s-kamal-brar-as-svp-to-lead-partner-business"
+ },
+ {
+  "p": "ブライアン・ホール",
+  "en": "Brian Hall",
+  "a": "Google",
+  "b": "Mistral AI",
+  "y": 2026,
+  "src": "TechCrunch(2026/7/4)",
+  "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/"
+ },
+ {
+  "p": "キャット・ウー",
+  "en": "Cat Wu",
+  "a": "Anthropic",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "36Kr(2026/11/5)",
+  "url": "https://eu.36kr.com/en/p/4056380039435140"
+ },
+ {
+  "p": "マックス・シュワルツァー",
+  "en": "Max Schwarzer",
+  "a": "OpenAI",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "Storyboard18(2026/3/5)",
+  "url": "https://www.storyboard18.com/trending/openai-vp-joins-anthropic-says-people-he-trusts-most-and-respects-moved-there-91303.htm"
+ },
+ {
+  "p": "アンドリュー・タロック",
+  "en": "Andrew Tulloch",
+  "a": "Meta",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "Semafor・WSJ報道をThe Next Webが引用(2026/9、移籍予定として報道)",
+  "url": "https://thenextweb.com/news/andrew-tulloch-leaving-meta-anthropic-tbd-lab"
+ },
+ {
+  "p": "ナン・ユー",
+  "en": "Nan Yu",
+  "a": "Linear",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "本人のX投稿(2026/8/31)",
+  "url": "https://x.com/thenanyu"
+ },
+ {
+  "p": "ステラ・カヴァル",
+  "en": "Stella Kaval",
+  "a": "Meta",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "本人のX投稿(2026/10/7)",
+  "url": "https://x.com/stellakaval"
+ },
+ {
+  "p": "ティボ・ソティオー",
+  "en": "Thibault Sottiaux",
+  "a": "Google DeepMind",
+  "b": "OpenAI",
+  "y": 2024,
+  "src": "Wikipedia・Latent Space",
+  "url": "https://en.wikipedia.org/wiki/Thibault_Sottiaux"
+ },
+ {
+  "p": "シャオロン・ワン",
+  "en": "Xiaolong Wang",
+  "a": "Assured Robot Intelligence",
+  "b": "Meta",
+  "y": 2026,
+  "src": "Bloomberg(2026/5/1)・本人のX投稿",
+  "url": "https://x.com/xiaolonw"
+ },
+ {
+  "p": "イーゴリ・バブシュキン",
+  "en": "Igor Babuschkin",
+  "a": "xAI",
+  "b": "River AI",
+  "y": 2026,
+  "src": "本人のXのプロフィールと投稿(2026/8/11、11億ドルの調達を発表)",
+  "url": "https://x.com/ibab"
+ },
+ {
+  "p": "リリアン・ウェン",
+  "en": "Lilian Weng",
+  "a": "Thinking Machines Lab",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "TechCrunch報道をDataconomyが引用(2026/7/30)",
+  "url": "https://dataconomy.com/2026/07/30/lilian-weng-rejoins-openai-lead-ai-research-team/"
+ },
+ {
+  "p": "ジョナサン・ラックマン",
+  "en": "Jonathan Lachman",
+  "a": "OpenAI",
+  "b": "Thinking Machines Lab",
+  "y": 2025,
+  "src": "Wikipedia(Thinking Machines Lab、創業メンバー。年は発足時の2025年)",
+  "url": "https://en.wikipedia.org/wiki/Thinking_Machines_Lab"
+ },
+ {
+  "p": "石川佑樹",
+  "en": "Yuki Ishikawa",
+  "a": "メルカリ",
+  "b": "Jizai",
+  "y": 2024,
+  "src": "ビジネスインサイダー・ジャパン(2025/7)",
+  "url": "https://www.businessinsider.jp/article/2507-artificial-intelligence-robot-ai/"
+ },
+ {
+  "p": "ジャド・タリフィ",
+  "en": "Jad Tarifi",
+  "a": "Google",
+  "b": "Integral AI",
+  "y": 2021,
+  "src": "ビジネスインサイダー・ジャパン(2025/11)",
+  "url": "https://www.businessinsider.jp/article/2511-quit-job-google-launch-ai-startup-tokyo/"
+ },
+ {
+  "p": "今泉竜一",
+  "en": "Ryuichi Imaizumi",
+  "a": "Google",
+  "b": "弥生",
+  "y": 2026,
+  "src": "弥生のプレスリリース(2026/7/2)",
+  "url": "https://prtimes.jp/main/html/rd/p/000000389.000015865.html"
+ },
+ {
+  "p": "デビッド・ベネット",
+  "en": "David Bennett",
+  "a": "Tenstorrent",
+  "b": "ai&",
+  "y": 2026,
+  "src": "EE Times(2026/3/26)",
+  "url": "https://www.eetimes.com/ex-tenstorrent-execs-start-cloud-provider-ai-lab-in-japan/"
+ },
+ {
+  "p": "原慎平",
+  "en": "Shimpei Hara",
+  "a": "Tenstorrent",
+  "b": "ai&",
+  "y": 2026,
+  "src": "EE Times(2026/3/26)",
+  "url": "https://www.eetimes.com/ex-tenstorrent-execs-start-cloud-provider-ai-lab-in-japan/"
+ },
+ {
+  "p": "氏原美紀子",
+  "en": "Mikiko Ujihara",
+  "a": "Google Japan",
+  "b": "Recursive",
+  "y": 2024,
+  "src": "Recursiveのお知らせ(2024/7/16)",
+  "url": "https://recursiveai.co.jp/news/20240716"
+ },
+ {
+  "p": "林達",
+  "en": "Tatsu Hayashi",
+  "a": "伊藤忠商事",
+  "b": "ストックマーク",
+  "y": 2016,
+  "src": "東京大学FoundX・週刊BCN+(創業年は2015年とする資料もあり)",
+  "url": "https://foundx.jp/interview/tatsu_hayashi"
+ },
+ {
+  "p": "山本一成",
+  "en": "Issei Yamamoto",
+  "a": "HEROZ",
+  "b": "Turing",
+  "y": 2021,
+  "src": "STARTUP DB・日経サイエンス",
+  "url": "https://startup-db.com/officers/KxdpYApTLKRmZO8k"
+ },
+ {
+  "p": "福島良典",
+  "en": "Yoshinori Fukushima",
+  "a": "Gunosy",
+  "b": "LayerX",
+  "y": 2018,
+  "src": "FastGrow・各紹介記事",
+  "url": "https://www.fastgrow.jp/people/379"
+ },
+ {
+  "p": "岡田陽介",
+  "en": "Yosuke Okada",
+  "a": "リッチメディア",
+  "b": "ABEJA",
+  "y": 2012,
+  "src": "日経クロストレンド・STARTUP DB",
+  "url": "https://xtrend.nikkei.com/atcl/trn/column/16/080800056/082900004/"
+ },
+ {
+  "p": "小田志門",
+  "en": "Shimon Oda",
+  "a": "イー・ガーディアン",
+  "b": "カラクリ",
+  "y": 2017,
+  "src": "STARTUP DB・マイナビ転職エージェント(在籍年に資料間でばらつきあり)",
+  "url": "https://startup-db.com/officers/6415"
+ },
+ {
+  "p": "山田進太郎",
+  "en": "Shintaro Yamada",
+  "a": "ウノウ",
+  "b": "Zynga",
+  "y": 2010,
+  "src": "経歴紹介(各プロフィール。出典に幅あり)",
+  "url": "https://myroad-online.jp/keyperson/yamada_shintaro/"
+ },
+ {
+  "p": "山田進太郎",
+  "en": "Shintaro Yamada",
+  "a": "Zynga",
+  "b": "メルカリ",
+  "y": 2013,
+  "src": "経歴紹介(各プロフィール。出典に幅あり)",
+  "url": "https://myroad-online.jp/keyperson/yamada_shintaro/"
+ },
+ {
+  "p": "南場智子",
+  "en": "Tomoko Namba",
+  "a": "マッキンゼー",
+  "b": "DeNA",
+  "y": 1999,
+  "src": "Wikipedia(南場智子)",
+  "url": "https://www.wikiwand.com/ja/articles/%E5%8D%97%E5%A0%B4%E6%99%BA%E5%AD%90"
+ },
+ {
+  "p": "三木谷浩史",
+  "en": "Hiroshi Mikitani",
+  "a": "日本興業銀行",
+  "b": "楽天",
+  "y": 1997,
+  "src": "Wikipedia(三木谷浩史。退社と創業の年は資料により1995〜97年)",
+  "url": "https://ja.wikipedia.org/wiki/%E4%B8%89%E6%9C%A8%E8%B0%B7%E6%B5%A9%E5%8F%B2"
+ },
+ {
+  "p": "ホイ・ビンユアン",
+  "en": "Binyuan Hui",
+  "a": "Alibaba",
+  "b": "Meta",
+  "y": 2026,
+  "src": "Caixin(2026/3/10)・Yicai(2026/3/4)",
+  "url": "https://www.caixinglobal.com/2026-03-10/in-profile-the-alibaba-engineer-behind-qwen-who-walked-away-102421613.html"
+ },
+ {
+  "p": "ジョウ・ハオ",
+  "en": "Zhou Hao",
+  "a": "Google DeepMind",
+  "b": "Alibaba",
+  "y": 2026,
+  "src": "Caixin(2026/3/10)・Yicai(2026/3/4)",
+  "url": "https://www.yicaiglobal.com/news/tech-lead-of-alibabas-ai-app-qwen-resigns"
+ },
+ {
+  "p": "ヤオ・シュンユー",
+  "en": "Yao Shunyu",
+  "a": "OpenAI",
+  "b": "Tencent",
+  "y": 2026,
+  "src": "CNBC(2026/6/5、最近1年以内に移籍)",
+  "url": "https://www.cnbc.com/2026/06/05/china-may-move-toward-us-path-on-ai-as-firms-poach-employees.html"
+ },
+ {
+  "p": "ウー・ヨンホイ",
+  "en": "Wu Yonghui",
+  "a": "Google DeepMind",
+  "b": "ByteDance",
+  "y": 2025,
+  "src": "CNBC(2026/6/5)",
+  "url": "https://www.cnbc.com/2026/06/05/china-may-move-toward-us-path-on-ai-as-firms-poach-employees.html"
+ },
+ {
+  "p": "バレット・ゾフ",
+  "en": "Barret Zoph",
+  "a": "OpenAI",
+  "b": "Google DeepMind",
+  "y": 2026,
+  "src": "Reuters(2026/8/26)・Quartz(研究担当VPに就任)",
+  "url": "https://qz.com/barret-zoph-google-deepmind-research-vp-thinking-machines-082726"
+ },
+ {
+  "p": "ダン・ドリスコル",
+  "en": "Dan Driscoll",
+  "a": "米陸軍",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "CNBC(2026/11/3)・Breaking Defense(元陸軍長官、国家安全保障の上級顧問に就任)",
+  "url": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html"
+ },
+ {
+  "p": "ショーン・ジェームズ",
+  "en": "Sean James",
+  "a": "Microsoft",
+  "b": "Nvidia",
+  "y": 2025,
+  "src": "Computerworld(2025/11/26、エネルギー・データセンター研究の上級ディレクター)",
+  "url": "https://www.computerworld.com/article/4096759/microsoft-loses-two-senior-ai-infrastructure-leaders-as-data-center-pressures-mount-2.html"
+ },
+ {
+  "p": "ピーター・ホシェレ",
+  "en": "Peter Hoeschele",
+  "a": "OpenAI",
+  "b": "Meta",
+  "y": 2026,
+  "src": "Bloomberg Law(2026/4/11、Stargate・計算資源部門。Metaへ参画予定と報道)",
+  "url": "https://news.bloomberglaw.com/california-brief/former-openai-stargate-leaders-plan-to-join-meta-platforms"
+ },
+ {
+  "p": "シェイメズ・ヘマニ",
+  "en": "Shamez Hemani",
+  "a": "OpenAI",
+  "b": "Meta",
+  "y": 2026,
+  "src": "Bloomberg Law(2026/4/11、Stargate・計算資源部門。Metaへ参画予定と報道)",
+  "url": "https://news.bloomberglaw.com/california-brief/former-openai-stargate-leaders-plan-to-join-meta-platforms"
+ },
+ {
+  "p": "アヌジ・サハラン",
+  "en": "Anuj Saharan",
+  "a": "OpenAI",
+  "b": "Meta",
+  "y": 2026,
+  "src": "Bloomberg Law(2026/4/11、Stargate・計算資源部門。Metaへ参画予定と報道)",
+  "url": "https://news.bloomberglaw.com/california-brief/former-openai-stargate-leaders-plan-to-join-meta-platforms"
+ },
+ {
+  "p": "シシュアイ・サン",
+  "en": "Sishuai Sun",
+  "a": "Tesla",
+  "b": "DencityAI",
+  "y": 2026,
+  "src": "Electrek報道をDigital Todayが引用(2026/8/24、AIハード設計の上級ディレクター)",
+  "url": "https://www.digitaltoday.co.kr/en/view/96079/tesla-ai-chip-executive-leaves-joins-dencityai-startup-founded-by-former-dojo-team"
+ },
+ {
+  "p": "クライブ・チャン",
+  "en": "Clive Chan",
+  "a": "OpenAI",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "The Decoder(2026/6/7、OpenAIの自社チップ計画の2人目のハード担当)",
+  "url": "https://the-decoder.com/anthropic-poaches-openais-second-ever-chip-engineer-as-both-companies-race-toward-ipos/"
+ },
+ {
+  "p": "アミール・サレク",
+  "en": "Amir Salek",
+  "a": "Google",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "Outlook Business(2026/8/22、元GoogleのTPU事業責任者。Bloomberg報道を引用)",
+  "url": "https://www.outlookbusiness.com/technology/anthropic-eyes-its-own-ai-chips-why-it-hired-a-google-chip-veteran"
+ },
+ {
+  "p": "シェイメズ・ヘマニ",
+  "en": "Shamez Hemani",
+  "a": "Meta",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "DatacenterDynamics報道(Metaに約5か月在籍後、計算資源担当で入社と本人がLinkedInで発表)",
+  "url": "https://www.datacenterdynamics.com/en/news/former-openai-stargate-exec-shamez-hemani-joins-anthropic-after-brief-meta-compute-stint"
+ },
+ {
+  "p": "スリニバス・ナラヤナン",
+  "en": "Srinivas Narayanan",
+  "a": "Meta",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "The Information報道をiPhone in Canadaが引用(2026/2/26、Meta在籍13年超のエンジニアリングVP)",
+  "url": "https://www.iphoneincanada.ca/2026/02/26/openai-poaches-top-talent-from-meta/"
+ },
+ {
+  "p": "イリーナ・コフマン",
+  "en": "Irina Kofman",
+  "a": "Meta",
+  "b": "OpenAI",
+  "y": 2024,
+  "src": "BTW Media(2024/8/26、Metaで生成AIのプロダクト担当ディレクター。戦略的取り組みを主導)",
+  "url": "https://btw.media/en/openai-hires-former-meta-executive-to-lead-strategic-initiatives"
+ },
+ {
+  "p": "アルバート・リー",
+  "en": "Albert Lee",
+  "a": "Google",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "Reuters報道をYahoo Financeが引用(2025/12/15、企業開発担当VP。Googleに約15年在籍)",
+  "url": "https://finance.yahoo.com/news/openai-hires-veteran-google-executive-184017915.html"
+ },
+ {
+  "p": "アルビンド・KC",
+  "en": "Arvind KC",
+  "a": "Roblox",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "Bloomberg(2026/2/24、最高人事責任者に就任)",
+  "url": "https://www.bloomberg.com/news/articles/2026-02-24/openai-hires-former-roblox-executive-as-chief-people-officer"
+ },
+ {
+  "p": "トーベン・セバーソン",
+  "en": "Torben Severson",
+  "a": "Amazon",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "The Information報道をBusiness Insiderが引用(2025/12、Amazonに約17年。グローバル事業開発責任者VP。OpenAIが確認)",
+  "url": "https://www.aol.com/news/longtime-amazon-exec-jumping-ship-180456257.html"
+ },
+ {
+  "p": "ピーター・シュタインベルガー",
+  "en": "Peter Steinberger",
+  "a": "OpenClaw",
+  "b": "OpenAI",
+  "y": 2026,
+  "src": "The Register・Help Net Security等(2026/2/15-16、OpenClaw創設者。個人エージェント担当。OpenClawは財団として独立。YC Startup School 2026の登壇動画から確認)",
+  "url": "https://www.theregister.com/2026/02/16/open_ai_grabs_openclaw"
+ },
+ {
+  "p": "ジャスジート・セコン",
+  "en": "Jasjeet Sekhon",
+  "a": "Google DeepMind",
+  "b": "Anthropic",
+  "y": 2026,
+  "src": "The Information(2026/11/16、Anthropicの広報が採用を確認。本人もXで表明。DeepMindの最高戦略責任者=2026年3月就任、前職Bridgewaterの最高科学責任者)",
+  "url": "https://www.theinformation.com/briefings/google-deepmind-strategy-chief-jasjeet-sekhon-departs-anthropic"
+ },
+ {
+  "p": "ナット・フリードマン",
+  "en": "Nat Friedman",
+  "a": "NFDG",
+  "b": "Meta",
+  "y": 2025,
+  "src": "ザッカーバーグのメモ(CNBC転載、2025/6-7)。元GitHub CEO。MetaはNFDGに出資。MSLをアレクサンドル・ワンと率いる。Cheeky Pintのザッカーバーグ・ワン回でも言及",
+  "url": "https://www.nbcnewyork.com/news/business/money-report/mark-zuckerberg-announces-creation-of-meta-superintelligence-labs-read-the-memo/6320911/"
+ },
+ {
+  "p": "クナル・シャー",
+  "en": "Kunal Shah",
+  "a": "CRED",
+  "b": "Meta",
+  "y": 2026,
+  "src": "YourStory等(2026/6/22、CRED創業者がWhatsApp責任者に。MetaがCREDに約9億ドル出資)。ザッカーバーグがCheeky Pintで言及",
+  "url": "https://yourstory.com/2026/06/cred-founder-kunal-shah-whatsapp-global-head-meta-investment"
+ },
+ {
+  "p": "ケビン・ワイル",
+  "en": "Kevin Weil",
+  "a": "Planet",
+  "b": "OpenAI",
+  "y": 2024,
+  "src": "OpenAI公式発表(2024/6/10、CPOに就任)",
+  "url": "https://openai.com/index/openai-welcomes-cfo-cpo"
+ },
+ {
+  "p": "フィジー・シモ",
+  "en": "Fidji Simo",
+  "a": "Instacart",
+  "b": "OpenAI",
+  "y": 2025,
+  "src": "Fortune・CNBC(2025/5/8、Instacart CEOがOpenAIのアプリケーション部門CEOに)",
+  "url": "https://fortune.com/2025/05/08/openai-hires-instacart-ceo-fidji-simo-for-major-leadership-role/"
+ },
+ {
+  "p": "タマイ・ベシログル",
+  "en": "Tamay Besiroglu",
+  "a": "Epoch AI",
+  "b": "Mechanize",
+  "y": 2025,
+  "src": "Fortune(2025/4、Epoch AIのメンバーがMechanizeを設立)",
+  "url": "https://fortune.com/article/tech-founder-online-epoch-ai-mechanize-tamay-besiroglu-automated-employees-workforce/"
+ },
+ {
+  "p": "エゲ・エルディル",
+  "en": "Ege Erdil",
+  "a": "Epoch AI",
+  "b": "Mechanize",
+  "y": 2025,
+  "src": "Fortune(2025/4、Epoch AIのメンバーがMechanizeを設立)",
+  "url": "https://fortune.com/article/tech-founder-online-epoch-ai-mechanize-tamay-besiroglu-automated-employees-workforce/"
+ },
+ {
+  "p": "マックス・ホダック",
+  "en": "Max Hodak",
+  "a": "Neuralink",
+  "b": "Science Corp",
+  "y": 2021,
+  "src": "Gizmodo(2021/5、Neuralink社長退任を本人が公表)・Futurism(2021/8、Science Corp設立)",
+  "url": "https://gizmodo.com/neuralink-president-announces-that-he-s-left-elon-musk-1846808399"
+ },
+ {
+  "p": "ケビン・メイヤー",
+  "en": "Kevin Mayer",
+  "a": "Disney",
+  "b": "ByteDance",
+  "y": 2020,
+  "src": "Axios(2020/5/18、DisneyからTikTok CEO/ByteDance COOへ。同年8月に辞任)",
+  "url": "https://www.axios.com/2020/05/18/disney-kevin-mayer-tiktok"
+ },
+ {
+  "p": "周受資(ショウ・ジー・チュー)",
+  "en": "Shou Zi Chew",
+  "a": "Xiaomi",
+  "b": "ByteDance",
+  "y": 2021,
+  "src": "Bloomberg(2021/3/24、XiaomiからByteDanceのCFOに。同年4月にTikTok CEO)",
+  "url": "https://www.bloomberg.com/news/articles/2021-03-24/bytedance-hires-xiaomi-executive-as-cfo-while-it-weighs-ipo"
+ },
+ {
+  "p": "ブレット・テイラー",
+  "en": "Bret Taylor",
+  "a": "Salesforce",
+  "b": "Sierra",
+  "y": 2023,
+  "src": "CNBC(2022/11/30、Salesforce共同CEOを2023/1末に退任)・Fortune(2024/2、Sierra始動)",
+  "url": "https://fortune.com/2024/02/13/bret-taylor-clay-bavor-ai-startup-sierra-110-million-funding-sequoia-benchmark/"
+ },
+ {
+  "p": "バネッサ・パパス",
+  "en": "Vanessa Pappas",
+  "a": "YouTube",
+  "b": "ByteDance",
+  "y": 2018,
+  "src": "Cheddar報道(YouTubeの幹部がTikTok米国の初代ゼネラルマネージャーに。2018年末)",
+  "url": "https://www.cheddar.com/media/tiktok-hires-youtube-exec-vanessa-pappas-to-lead-us"
+ },
+ {
+  "p": "ルース・ポラット",
+  "en": "Ruth Porat",
+  "a": "Morgan Stanley",
+  "b": "Google",
+  "y": 2015,
+  "src": "Alphabet公式発表(2015/3/24、Morgan StanleyのCFOがGoogleのCFOに)",
+  "url": "https://abc.xyz/investor/news/2015/0324"
+ },
+ {
+  "p": "リンダ・ヤッカリーノ",
+  "en": "Linda Yaccarino",
+  "a": "NBCUniversal",
+  "b": "X (Twitter)",
+  "y": 2023,
+  "src": "Marketing Dive(2023/5/12、NBCUniversal広告責任者がTwitter CEOに)",
+  "url": "https://www.marketingdive.com/news/nbcuniversal-ad-sales-linda-yaccarino-resigns-Twitter-CEO/650167/"
+ },
+ {
+  "p": "スコット・ベルスキー",
+  "en": "Scott Belsky",
+  "a": "Adobe",
+  "b": "A24",
+  "y": 2025,
+  "src": "Bloomberg(2025/1/30、AdobeのCSOがA24のパートナーに)",
+  "url": "https://www.bloomberg.com/news/articles/2025-01-30/adobe-s-scott-belsky-leaving-to-join-a24-film-studio"
+ },
+ {
+  "p": "シェリル・サンドバーグ",
+  "en": "Sheryl Sandberg",
+  "a": "Google",
+  "b": "Meta",
+  "y": 2008,
+  "src": "Facebook公式発表(2008/3/4、GoogleのVPがFacebookのCOOに)",
+  "url": "https://about.fb.com/news/2008/03/facebook-names-sheryl-sandberg-chief-operating-officer/"
+ },
+ {
+  "p": "マリッサ・メイヤー",
+  "en": "Marissa Mayer",
+  "a": "Google",
+  "b": "Yahoo",
+  "y": 2012,
+  "src": "Yahoo公式発表(2012/7/16、Google幹部がYahoo CEOに)",
+  "url": "https://businesswire.com/news/home/20120716006348/en/Yahoo!-Appoints-Marissa-Mayer-Chief-Executive-Officer"
+ },
+ {
+  "p": "ジェフ・ワイナー",
+  "en": "Jeff Weiner",
+  "a": "Yahoo",
+  "b": "LinkedIn",
+  "y": 2009,
+  "src": "LinkedIn公式発表(2009/6/24、CEO就任。同年1月に暫定社長として入社。間にAccel・Greylockの客員)",
+  "url": "https://news.linkedin.com/2009/06/linkedin-names-jeff-weiner-chief-executive-officer"
+ },
+ {
+  "p": "ディック・コストロ",
+  "en": "Dick Costolo",
+  "a": "Google",
+  "b": "X (Twitter)",
+  "y": 2009,
+  "src": "Search Engine Watch(2009/9、GoogleからTwitterのCOOに)",
+  "url": "https://www.searchenginewatch.com/2009/09/15/twitter-hires-exgoogler-feedburner-founder-dick-costello-as-coo/"
+ },
+ {
+  "p": "ボズ・セント・ジョン",
+  "en": "Bozoma Saint John",
+  "a": "Apple",
+  "b": "Uber",
+  "y": 2017,
+  "src": "CNN(2017/6/6、Apple Musicのマーケ責任者がUberの初代CBOに)",
+  "url": "https://money.cnn.com/2017/06/06/technology/business/bozoma-saint-john-uber/index.html"
+ }
+]

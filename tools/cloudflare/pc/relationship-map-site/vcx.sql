@@ -1,0 +1,14 @@
+DELETE FROM person_social WHERE q='4723073';
+INSERT INTO person_social VALUES ('4723073','Alfred_Lin','','','');
+DELETE FROM person_social WHERE q='5301728';
+INSERT INTO person_social VALUES ('5301728','dougleone','','','');
+DELETE FROM person_social WHERE q='6289985';
+INSERT INTO person_social VALUES ('6289985','JoshuaKushner','','','');
+DELETE FROM person_social WHERE q='6384918';
+INSERT INTO person_social VALUES ('6384918','rabois','','','');
+DELETE FROM person_social WHERE q='1380459';
+INSERT INTO person_social VALUES ('1380459','johndoerr','','','');
+DELETE FROM person_social WHERE q='5106403';
+INSERT INTO person_social VALUES ('5106403','cdixon','','','');
+DELETE FROM person_social WHERE q='23808716';
+INSERT INTO person_social VALUES ('23808716','martin_casado','','','');

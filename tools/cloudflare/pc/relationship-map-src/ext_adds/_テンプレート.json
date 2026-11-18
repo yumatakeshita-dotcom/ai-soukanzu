@@ -1,0 +1,28 @@
+{
+  "company": "openai",
+  "en": {
+    "example_person": "Example Person"
+  },
+  "nodes": [
+    {
+      "id": "example_person",
+      "name": "例 太郎",
+      "kind": "p",
+      "from": 2026,
+      "desc": "説明文。事実だけを、日付つきで書く。推測は書かない。",
+      "role": "CTO",
+      "to": null,
+      "founder": 0,
+      "src": "https://example.com/source",
+      "conf": "確認済み"
+    }
+  ],
+  "edges": [
+    {
+      "a": "example_person",
+      "b": "openai",
+      "k": "member",
+      "label": ""
+    }
+  ]
+}

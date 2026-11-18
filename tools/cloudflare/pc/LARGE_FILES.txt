@@ -1,0 +1,20 @@
+# 100MBを超える／まとめて大きいため、リポジトリに入れなかったもの
+# (1ファイルで100MBを超えるものは今回0件。下は静的ファイルのフォルダ合計と、元データのsqlite)
+
+relationship-map-asiapac/public/c/  1862 ファイル  合計 596 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-asiapac/public/n/  3722 ファイル  合計 335 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-europe/public/c/  5533 ファイル  合計 1,724 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-europe/public/n/  10813 ファイル  合計 769 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-site/public/c/  6001 ファイル  合計 876 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-site/public/img/  2118 ファイル  合計 6 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-site/public/n/  8001 ファイル  合計 308 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-static/public/aw/  74 ファイル  合計 2 MB  (build_*_shards.py などで作り直せる出力)
+relationship-map-static/public/pb/  401 ファイル  合計 19 MB  (build_*_shards.py などで作り直せる出力)
+~/.claude/data/asiapac_scratch.sqlite  1,693 MB
+~/.claude/data/europe_scratch.sqlite  4,672 MB
+~/.claude/data/houjin.sqlite  1,461 MB
+~/.claude/data/shard_scratch.sqlite  890 MB
+~/.claude/data/world_au.sqlite  601 MB
+~/.claude/data/world_more.sqlite  268 MB
+~/.claude/data/world_noee.sqlite  214 MB
+~/.claude/data/world.sqlite  1,689 MB
