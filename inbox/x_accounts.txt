@@ -1,0 +1,22 @@
+# 調査タスクが毎回見るXのアカウント(1行1つ)。足すだけ。消さない。
+# 形式: @アカウント | 見る種類(moves,money,vc,deep) | メモ
+# --- ユーザーが指定 (2026-11-18) ---
+@ecommartinez | money,vc,deep | ユーザー指定
+@tmiyatake1 | money,vc,deep | ユーザー指定
+@qihang_zeng6688 | money,vc,deep | ユーザー指定
+@USAnt_IDEA | money,vc,deep | ユーザー指定
+@ctgptlb | moves,money,vc | ユーザー指定
+@bizlab09 | money,vc,deep | ユーザー指定
+@SierraPlatform | money,deep | ユーザー指定
+# --- おすすめ (2026-11-18) ---
+@theinformation | moves,money,vc | 報道。移籍・調達の特ダネが多い
+@TechCrunch | money,vc | 報道。調達ニュース
+@Techmeme | moves,money,vc | テック報道のまとめ
+@garrytan | money,vc | Y Combinator の代表
+@eladgil | money,vc | 有名なエンジェル投資家
+@a16z | vc | VC公式
+@sama | moves,money | OpenAI CEO
+@OpenAI | moves,money | 公式
+@AnthropicAI | moves,money | 公式
+@xai | moves,money | 公式
+@SemiAnalysis_ | money,deep | 半導体・データセンターの分析
