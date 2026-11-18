@@ -21,7 +21,8 @@ AI企業・半導体企業の人・出資・取引・移籍のつながりを見
 ## フォルダの中身
 ```
 site/                 公開するもの(このフォルダをそのまま置けばサイトになる)
-  index.html          本体の相関図(約10MB。データもこの中に入っている)
+  index.html          本体の相関図(約5.4MB。会社ごとの相関図のデータと、毎日更新する部分が入っている)
+  data/               本体のデータのうち、大きな一覧21個(AIスタートアップ、人物、ニュースなど)。本体が開くときに読み込む
   bulk.json ほか      本体が後から読み込むデータ(顔写真、人物、Googleニュースの見出し、pb/ 以下の追加データ)
   lab/                実験ページ6つ + index.html(一覧)
 src/lab/              実験ページの元ファイル。ここを直して build する
@@ -37,6 +38,8 @@ docs/                 移行メモなど
   `node scripts/export_graph.js && node scripts/export_flows.js && python scripts/make_lab_data.py && npm run build-lab`
 
 ## 本体(site/index.html)の直し方
+大きな一覧(`AIWD` `PERSONAL` `JPCO` `NEWS` `YCS` など21個)は 2026年11月18日に `site/data/` のファイルに分けた。これらを直すときは `site/data/` のファイルを直す。毎日更新する部分は今までどおり index.html にある。
+**`site/data/` に新しいファイルを足したり中身を変えたりしたときは、共有リンクのアーティファクトにもそのファイルを公開する。**(毎日の自動更新は index.html しか公開しないため)
 ファイルが大きいので、全体を読まずに目印で探して、その部分だけを直す。
 - 毎日の更新記録: `/* UPDATES_START */` 〜 `/* UPDATES_END */` の間
   - `LAST_CHECK` = 最終確認日、`UPDATES` = 最近の変化(新しいものを先頭に足す)
