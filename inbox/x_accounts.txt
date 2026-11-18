@@ -31,3 +31,12 @@
 @thenextweb | moves,money,vc | 報道。結果の出典に多い
 @geekwire | money,vc,deep | 報道。AI新興企業に強い
 @tech_eu | money,vc | 欧州の調達報道
+# --- 自動で追加 (2026-11-19) ---
+@HarryStebbings | money,vc | 20VC代表。調達の話が多い
+@collision | money,deep | Stripe共同創業者。Cheeky Pint
+@SiliconANGLE | money,deep | 報道。結果の出典に多い
+@business | moves,money,vc | Bloomberg。調達・移籍の速報
+@GoogleDeepMind | moves,deep | Google DeepMind公式
+@demishassabis | moves,deep | Google DeepMind CEO
+@pushmeet | moves,deep | DeepMind研究VP
+@james_riney | money,vc | Coral Capital代表(日本VC)
