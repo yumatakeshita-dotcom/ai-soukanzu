@@ -4,9 +4,12 @@
 - 足すだけ。finds.js にすでにある項目は消さない・書き換えない
 - 同じ内容(種類+主な名前+出典URL)は2回足さない
 - 出典(src)の無い項目は足さない
+- 2行目の FINDLINKS(相関図に足すつながり)は scripts/finds_map.py が inbox/ から毎回作る
 使い方: python3 scripts/merge_inbox.py   (足した件数を表示する)
 """
 import json, os, re, sys, glob, datetime
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import finds_map
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
@@ -19,8 +22,10 @@ def load_existing():
     if not os.path.exists(OUT):
         return []
     s = open(OUT, encoding='utf-8').read()
-    m = re.search(r'const FINDS=(\[.*\]);?\s*$', s, re.S)
-    return json.loads(m.group(1)) if m else []
+    for line in s.splitlines():
+        if line.startswith('const FINDS='):
+            return json.loads(line[len('const FINDS='):].rstrip().rstrip(';'))
+    return []
 
 
 def norm(x):
@@ -148,6 +153,8 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, 'w', encoding='utf-8') as w:
         w.write(HEAD + 'const FINDS=' + json.dumps(allrows, ensure_ascii=False, separators=(',', ':')) + ';\n')
+        # 相関図に足すつながり(引き抜き・出資・買収・取引)。inbox/ から毎回作る。どの図に付けるかは index.html の applyFinds が決める
+        w.write(finds_map.js_line())
     assert len(allrows) >= len(have), '件数が減った(ありえない)'
     print(f'足した件数: {len(added)} / 合計: {len(allrows)}')
     for kind in KINDS:
