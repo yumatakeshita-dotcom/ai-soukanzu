@@ -181,3 +181,12 @@ function frRenderPair(moves,P){
   FEEDEL.querySelectorAll('.frtalk a[data-k]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();build(a.dataset.k);window.scrollTo(0,0)}));
   frWire();
 }
+
+// ----- 営業資料(1枚、common.js の cmBriefData)から使う: 2社のあいだの移籍を両方向で返す(2026年11月18日に追加) -----
+function frKeyOf(code,name){let k=code&&COMPANIES[code]?code:frKey('',name);return FR_MERGE[k]||k}
+function frBetween(codeA,nameA,codeB,nameB){
+  if(!frMoves)frMoves=frCollect();
+  const a=frKeyOf(codeA,nameA),b=frKeyOf(codeB,nameB);if(a===b)return {ab:[],ba:[]};
+  const srt=l=>l.sort((x,y)=>(y.y||0)-(x.y||0));
+  return {ab:srt(frMoves.filter(m=>m.a===a&&m.b===b)),ba:srt(frMoves.filter(m=>m.a===b&&m.b===a))};
+}
