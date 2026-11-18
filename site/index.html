@@ -36177,6 +36177,13 @@ Object.assign(DS,{
  v_kingma:['TechCrunch(2024/10/1、キングマ本人のXの投稿を報道。直前はGoogle)','https://techcrunch.com/2024/10/01/anthropic-hires-openai-co-founder-durk-kingma/','r'],
  v_olah:['クリス・オラ本人のサイト(About、OpenAIで解釈可能性の研究を率いた)','https://colah.github.io/about.html','s'],
  v_forbes7:['Forbes(2025/1、Anthropicは2021年にOpenAIの元社員7人が設立。7人の名前つき)','https://www.forbes.com.au/news/innovation/anthropics-pending-60-billion-valuation-will-make-all-seven-cofounders-billionaires/','r'],
+ v_msl:['Fortune(2025/7/2、ザッカーバーグの社内メモで新たな採用者として名前つき)','https://fortune.com/2025/07/02/key-takeaways-from-mark-zuckerbergs-memo-on-metas-new-superintelligence-ai-effort-and-key-hires/','r'],
+ v_zrh:['Fortune(2025/6/26、ベイヤー本人がXで3人のMeta入りを表明したと報道)','https://fortune.com/2025/06/26/former-openai-researcher-lucas-beyer-pours-cold-water-on-100-million-meta-signing-bonus/','r'],
+ v_weichung:['Sherwood News(2025/7、Wiredの報道を受けて2人のMeta入りを報道)','https://sherwood.news/tech/two-more-top-openai-researchers-defect-to-meta/','r'],
+ v_tml25:['Fortune(2025/2/18、Thinking Machines Labの発表と元OpenAIの経営陣)','https://fortune.com/2025/02/18/former-openai-cto-mira-murati-finally-unveils-her-thinking-machines-lab-startup-and-a-leadership-team-stacked-with-former-openai-colleagues/','r'],
+ v_tml26:['TechCrunch(2026/1/14、ゾフ・メッツらのOpenAI復帰。OpenAIのフィジー・シモがXで発表)','https://techcrunch.com/2026/01/14/mira-muratis-startup-thinking-machines-lab-is-losing-two-of-its-co-founders-to-openai/','r'],
+ v_tml26b:['Fortune(2026/1/16、ショーンホルツ、リア・ガイらのOpenAI入り)','https://fortune.com/2026/01/16/mira-murati-thinking-machines-staff-defections-openai-zoph-metz-schoenholz/','r'],
+ v_pang26:['Business Today(2026/2/26、The InformationがOpenAIの広報の話として報道)','https://www.businesstoday.in/technology/news/story/from-apple-to-meta-to-openai-in-7-months-who-is-ruoming-pang-518181-2026-02-26','r'],
  v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
 });
 const VERIFY_PPL=[
@@ -36209,14 +36216,49 @@ const VERIFY_PPL=[
  ['トム・ブラウン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
  ['サム・マッキャンドリッシュ','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
  ['サム・マッキャンドリッシュ','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['シェンジア・ジャオ','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
+ ['シェンジア・ジャオ','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ジアフイ・ユー','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
+ ['ジアフイ・ユー','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ホンユー・レン','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
+ ['ホンユー・レン','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ルーカス・ベイヤー','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
+ ['ルーカス・ベイヤー','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
+ ['アレクサンダー・コレスニコフ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
+ ['アレクサンダー・コレスニコフ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
+ ['シャオファ・ザイ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
+ ['シャオファ・ザイ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
+ ['ジェイソン・ウェイ','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from'],
+ ['ジェイソン・ウェイ','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ヒョンウォン・チョン','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from'],
+ ['ヒョンウォン・チョン','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ミラ・ムラティ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
+ ['ミラ・ムラティ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
+ ['バレット・ゾフ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
+ ['バレット・ゾフ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
+ ['リリアン・ウェン','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
+ ['リリアン・ウェン','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
+ ['ルーク・メッツ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
+ ['ルーク・メッツ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
+ ['バレット・ゾフ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from'],
+ ['バレット・ゾフ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved'],
+ ['ルーク・メッツ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from'],
+ ['ルーク・メッツ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved'],
+ ['サム・ショーンホルツ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from'],
+ ['サム・ショーンホルツ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved'],
+ ['リア・ガイ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from'],
+ ['リア・ガイ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved'],
+ ['ルオミン・パン','Meta','v_pang26','報道で確認(報道ベース)',['openai'],'from'],
+ ['ルオミン・パン','OpenAI','v_pang26','報道で確認(報道ベース)',['meta'],'moved'],
  ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
  ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']]
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
-    VERIFY_PPL.forEach(([nm,other,key,note,only])=>{
+    VERIFY_PPL.forEach(([nm,other,key,note,only,kind])=>{
       if(only&&!only.includes(c))return;   /* 5番目: この会社の図にだけ付ける(2026/11/18追加) */
+      if(kind&&e.k!==kind)return;          /* 6番目: 線の種類(from=出身、moved=移籍先)。同じ2社を行き来した人の、どちらの移籍かを分ける(2026/11/19追加) */
       const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
