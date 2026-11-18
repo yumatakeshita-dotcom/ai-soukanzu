@@ -35771,6 +35771,77 @@ function applyUses(c,d){
     d.E.push({a:d.center,b:aid,k:'uses',label,since:y,d:desc,src});
   })});
 }
+// ===== 調査で見つかったつながり(data/finds.js の FINDLINKS) 2026年11月18日に追加 =====
+// 毎朝の調査タスク(引き抜き・お金の流れ・LP/VC・深堀り)の候補のうち、出典つきのものを各社の図に足す。
+// 名前を会社の一覧(COMPANIES・ALIAS)と照らし、その会社の図にだけ人物・会社と線を足す。既存の人物・線はそのまま(重なる線は足さない)
+let FIDX=null;
+function fnorm(s){return String(s||'').toLowerCase().normalize('NFKC').replace(/[\s・,、.()()'’"“”\-]/g,'')}
+function findIndex(){
+  if(FIDX)return FIDX;FIDX={};
+  const put=(n,k)=>{const x=fnorm(n);if(x.length>=3&&!(x in FIDX))FIDX[x]=k};
+  const ks=Object.keys(RAW),plain=ks.filter(k=>!/^[a-z]{2}_/.test(k));
+  const names=k=>{const nm=(COMPANIES[k]||{}).name||'';put(nm,k);nm.split(/[\/()()]/).forEach(p=>put(p,k));put(EN_CO[k],k)};
+  plain.forEach(k=>{names(k);put(k,k)});
+  Object.entries(ALIAS).forEach(([a,k])=>{if(RAW[k])put(a,k)});
+  ['us_','st_','un_','jp_','vc_','aq_'].forEach(p=>ks.filter(k=>k.startsWith(p)).forEach(names));
+  return FIDX;
+}
+const EN_CO={gdm:'Google DeepMind',xai:'xAI',cursor:'Anysphere',softbank:'SoftBank Group',rakuten:'Rakuten',mercari:'Mercari',ly:'LY Corporation',pfn:'Preferred Networks'};
+function fres(s){
+  if(!s)return null;const I=findIndex();
+  for(const part of String(s).replace(/[((][^))]*[))]/g,' ').split(/\s*[\/／]\s*/)){
+    const w=part.trim().split(/\s+/).filter(Boolean);
+    // 後ろを落としてよいのは、日本語の説明(「SK hynix 開発総括」)か、投資部門の言い方(「Samsung Next」「AMD Ventures」)だけ。「Together Fund」を Together AI にしない
+    for(let i=w.length;i>=1;i--){const x=fnorm(w.slice(0,i).join(' '));if(i<w.length&&!w.slice(i).every(t=>!/^[A-Za-z]/.test(t)||/^(Ventures|Next|Investments|Inc\.?|Corp\.?)$/.test(t)))continue;if(x.length>=(i===w.length?3:4)&&I[x])return I[x]}
+  }
+  return null;
+}
+function fhash(s){let h=5381;s=String(s);for(let i=0;i<s.length;i++)h=((h*33)^s.charCodeAt(i))>>>0;return h.toString(36)}
+let FLN=0;
+function applyFinds(c,d){
+  if(typeof FINDLINKS==='undefined')return;
+  const ids=new Set(d.N.map(n=>n.id));
+  const has=(a,b,k)=>d.E.some(e=>e.k===k&&((e.a===a&&e.b===b)||(e.a===b&&e.b===a)));
+  const Y=new Date().getFullYear();
+  const node=(nm,en,kind,y,desc,role,extra)=>{
+    const key=kind==='p'?null:fres(nm);
+    if(key===c)return d.center;
+    const f1=fnorm(en||nm),f2=fnorm(nm);
+    const ex=d.N.find(n=>(key&&(n.id===key||ALIAS[n.id]===key))||(f1.length>=3&&(fnorm(d.EN[n.id])===f1||fnorm(n.name)===f1))||(f2.length>=2&&fnorm(n.name)===f2));
+    if(ex)return ex.id;
+    let id=key?(Object.keys(ALIAS).find(a=>ALIAS[a]===key)||key):'fx_'+fhash(kind+(en||nm));
+    if(key&&!ALIAS[id])ALIAS[id]=key;
+    if(!ids.has(id)){ids.add(id);d.N.push(Object.assign({id,name:key?COMPANIES[key].name:nm,kind,from:y,desc:desc+'(調査タスクで追加)',role,fd:1},extra||{}));if(en&&kind==='p')d.EN[id]=en}
+    return id;
+  };
+  const srcKeys=r=>r.s.map(([t,u])=>{const k='fl_'+fhash(u);if(!DS[k])DS[k]=[t,u];return k});
+  const edge=(a,b,k,r,lb,show)=>{if(a===b||has(a,b,k))return;const e={a,b,k,since:r.y||Y,d:r.d+(r.c?`(${r.c})`:''),src:srcKeys(r),lb:lb||'',fd:1};if(show&&lb)e.label=lb;d.E.push(e);FLN++};
+  FINDLINKS.forEach(r=>{
+    const y=r.y||Y;
+    if(r.k==='move'){
+      const [nm,en]=r.p,fc=fres(r.fr),tc=fres(r.to);
+      if(tc===c){const p=node(nm,en,'p',y,r.d,r.r);if(p!==d.center)edge(p,d.center,'member',r,r.lb||'入社');
+        if(fc&&fc!==c){const o=node(r.fr,'','o',Math.min(y,(COMPANIES[fc]||{}).min||y),'',r.fr);edge(p,o,'from',r,'出身')}}
+      else if(fc===c){const p=node(nm,en,'p',y,r.d,(r.r||'')+(r.to?'':'(退任)'),{to:y});if(p!==d.center){edge(p,d.center,'member',r,(r.to?'退社':'退任'));
+        if(r.to){const o=node(r.to,'','o',y,'移った先。',r.to);edge(p,o,'moved',r,'行き先')}}}
+    }else if(r.k==='inv'){
+      const tc=fres(r.to);
+      if(tc===c)r.i.forEach(nm=>{const o=node(nm,'','i',y,'出資者。'+r.d,'出資者');edge(o,d.center,'invest',r,r.lb,1)});
+      else if(r.i.some(nm=>fres(nm)===c)){const o=node(r.to,'','o',y,(r.fund?'ファンド。':'出資先。')+r.d,r.fund?'ファンド':'出資先');edge(d.center,o,'invest',r,r.lb,1)}
+    }else if(r.k==='acq'||r.k==='deal'){
+      const fc=fres(r.fr),tc=fres(r.to),k=r.k==='acq'?'owns':'deal';
+      if(fc===c){const o=node(r.to,'','o',y,r.d,r.k==='acq'?'買収した会社':'取引先');edge(d.center,o,k,r,r.lb,1)}
+      else if(tc===c){const o=node(r.fr,'','o',y,r.d,r.k==='acq'?'買収した会社(親会社)':'取引先');edge(o,d.center,k,r,r.lb,1)}
+    }
+  });
+}
+function findsMapHtml(){
+  /* 同じ候補から出た線(人物→会社と、人物→出身元)は1行にまとめる */
+  const seen=new Set(),L=E.filter(e=>{if(!e.fd||e.since>year||e.k==='from'||e.k==='moved')return false;const k=e.d+'|'+e.a+'|'+e.b;if(seen.has(k))return false;seen.add(k);return true});if(!L.length)return '';
+  const lab={member:'人の動き',invest:'出資',owns:'買収',deal:'取引'};
+  const rows=L.slice(0,40).map(e=>{const o=byId[e.a===CENTER?e.b:e.a]||byId[e.a];return `<li style="display:block;border-top:1px solid var(--line);padding-top:6px"><b style="min-width:0">${o?o.name:''}</b> <span class="meta">${lab[e.k]||''}${e.lb?' ・ '+e.lb:''} ・ ${e.since}年</span><br>${e.d}<br><small>出典: ${dealSrcHtml(e.src)}</small></li>`}).join('');
+  return `<h3 style="margin:14px 0 6px;font-size:14px">調査で見つかったつながり(${L.length}件)</h3><ul class="rel">${rows}</ul><p class="note">毎朝の調査タスク(引き抜き・お金の流れ・LP/VC・深堀り)が見つけ、出典を付けたものを自動で足しています。報道ベースのものを含みます。一覧はメニューの「調査の新着」にあります。</p>`;
+}
 function usesOverviewHtml(){
   const L=E.filter(e=>e.k==='uses'&&e.since<=year);if(!L.length)return '';
   const mine=USES[comp];
@@ -35786,7 +35857,7 @@ function dealOverviewHtml(){
   return `<h3 style="margin:14px 0 6px;font-size:14px">${DEALS[comp]?'計算資源の取引':'取引関係'}(${DEAL_ASOF}時点)</h3><p style="font-size:13px">${D.note}</p>${rows?`<ul class="rel">${rows}</ul>`:'<p class="note">この年にはまだ取引の記録がありません。</p>'}<p class="note">金色の線が取引です。金額は契約の上限や報道ベースの数字を含みます。出典: ${dealSrcHtml(D.src)}</p>`;
 }
 
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
@@ -36065,7 +36136,7 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${dealOverviewHtml()}${usesOverviewHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${acqBtn()}${vcBtn()}`;
+  ${updatesHtml(comp)}${dealOverviewHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${acqBtn()}${vcBtn()}`;
   wireAcq();wireVc();
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
@@ -36079,6 +36150,7 @@ function renderPanel(id){
   E.forEach(e=>{
     if(e.a!==id&&e.b!==id)return;
     const o=byId[e.a===id?e.b:e.a];if(stateOf(o,year)==='hidden')return;
+    if(e.fd){if(e.since<=year){const fl={member:e.a===id?'所属':'人',from:e.a===id?'出身元':'出身者',moved:e.a===id?'行き先':'出身',invest:e.a===id?'出資先':'出資者',owns:e.a===id?'傘下':'親会社',deal:'取引'}[e.k]||'';rel.push(`<li style="display:block"><b>${fl}</b> ${o.id===CENTER?o.name:o.kind==='p'?o.name:orgRef(o.name,id)}${e.lb?' ・ '+e.lb:''}<br><small>${e.d}<br>出典: ${dealSrcHtml(e.src)}(調査タスクで追加)</small></li>`)}return}
     if(e.k==='uses'){if(e.since<=year)rel.push(`<li style="display:block"><b style="color:var(--uses)">${e.a===id?'使うAI':'利用企業'}</b> ${o.id===CENTER?o.name:o.kind==='p'?o.name:orgRef(o.name,id)} ・ ${e.label}<br><small>${e.d}<br>出典: ${dealSrcHtml(e.src)}</small></li>`);return}
     if(e.k==='deal'&&e.since<=year){rel.push(`<li style="display:block"><b style="color:var(--deal)">取引</b> ${o.id===CENTER?o.name:o.kind==='p'?o.name:orgRef(o.name,id)} ・ ${e.label}<br><small>${e.d}<br>出典: ${dealSrcHtml(e.src)}</small></li>`);return}
     if(o.id===CENTER)return;
