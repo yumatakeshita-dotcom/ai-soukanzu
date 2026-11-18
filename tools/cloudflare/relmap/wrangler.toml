@@ -1,7 +1,0 @@
-# 相関図の公開版 kigyo-relmap(静的ファイルだけ)。このリポジトリの site/ をそのまま公開する。
-# PCの relationship-map-static/wrangler.toml と同じ Worker 名。2026-11-18 からクラウドの定期タスクが使う。
-name = "kigyo-relmap"
-compatibility_date = "2026-11-01"
-
-[assets]
-directory = "../../../site"

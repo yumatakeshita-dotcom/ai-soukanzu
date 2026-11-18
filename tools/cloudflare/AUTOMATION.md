@@ -4,7 +4,7 @@ PCなしで回すための定期タスクと、その決まりごと。
 
 | 時刻(日本) | 定期タスク | やること |
 |---|---|---|
-| 毎日 9:41 | 相関図サイトの公開(Cloudflare) | main の `site/` を `kigyo-relmap` に公開する(`tools/cloudflare/relmap/publish.sh`) |
+| 毎日 9:41 | 相関図サイトの公開(Cloudflare) | `kigyo-relmap` が main の `site/` と同じかを確かめ、違えば Worker を置き直す(`tools/cloudflare/relmap/publish.sh`) |
 | 毎日 9:57 | 人物を企業検索に足す(Cloudflare) | `inbox/moves/` の新しい移籍を、D1 `houjin` の `person` `person_role` `person_feed` に足す(`tools/cloudflare/d1_add.py`) |
 
 ## 決まりごと
@@ -16,6 +16,11 @@ PCなしで回すための定期タスクと、その決まりごと。
 - 鍵はクラウド環境「Default (MbTmFM)」の Network secret(api.cloudflare.com の Authorization)。
   wrangler には `CLOUDFLARE_API_TOKEN=placeholder` を渡せば、本物の鍵が付く。
   鍵を入れ直したあとは、新しく始まったセッションでだけ効く
+
+## kigyo-relmap の作り(2026-11-18 変更)
+- `tools/cloudflare/relmap/worker.mjs` が、GitHub(公開リポジトリ)の main の `site/` をそのまま配る。main が更新されると数分で公開側にも出る
+- 以前の「ファイルを Cloudflare に上げる」形(wrangler deploy)は、クラウドの鍵の付け方だとファイル上げの許可証が上書きされて 401 になるので使わない
+- Worker を置き直すのは `python3 tools/cloudflare/relmap/deploy_worker.py`(Workers スクリプトの API だけを使う)
 
 ## 人物の足し方(houjin)
 - `person`: `q`(Wikidata の数字ID。Q を付けない文字列), `en`, `ja`, `intro`(英語版 Wikipedia の冒頭), `w`(言語 en/ja), `t`(Wikipedia の題名)
