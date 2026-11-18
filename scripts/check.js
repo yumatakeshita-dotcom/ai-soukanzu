@@ -4,7 +4,7 @@ const PAGES=[
  ['index.html',"build('openai');build('anthropic');build('tsmc');build('jasm')"],
  ['index.html#common',"showCommon('Microsoft','Nvidia');showCommon('楽天グループ','OpenAI');build('openai');document.getElementById('gocommon').click()"],
  ['index.html#common',"showCommon('楽天グループ','OpenAI');document.getElementById('cmbrief').click();showCommon('トヨタ自動車','ソフトバンクグループ');document.getElementById('cmbrief').click()"],
- ['index.html#flow',"showFlowRank();frMoves=frCollect();frRender();document.querySelector('.frl details').open=true;document.querySelector('.frbar button[data-s=net]').click();document.querySelector('.frbar button[data-p=y1]').click()"],
+ ['index.html#flow',"showFlowRank();frMoves=frCollect();frRender();document.querySelector('.frl details').open=true;document.querySelector('.frbar button[data-s=net]').click();document.querySelector('.frbar button[data-p=y1]').click();document.querySelector('.frbar button[data-v=pair]').click();document.getElementById('frsw').click();document.querySelector('.frpr a[data-pa]').click()"],
  ['lab/route.html',''],['lab/stop.html',''],['lab/money.html',''],['lab/moves.html',''],['lab/cards.html',"document.getElementById('ten').click()"],['lab/sports.html','']
 ];
 (async()=>{const srv=await start(8123);const b=await chromium.launch();let bad=0;
