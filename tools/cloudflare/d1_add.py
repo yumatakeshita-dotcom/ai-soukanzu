@@ -19,6 +19,7 @@
   python3 tools/cloudflare/d1_add.py add     <DB名> <表名> <ファイル.csv|.json> [--dry-run]
       CSV は1行目が列名。JSON は [{列:値,...}, ...]。
       表にない列は無視する。主キー・UNIQUE が同じ行はそのまま残す(上書きしない)。
+      主キーのない表(person_role など)では、同じ中身の行がすでにあれば足さない。
 """
 import csv, json, os, re, sys, time, urllib.request, urllib.error
 
@@ -107,6 +108,12 @@ def columns(acc, db, table):
     return cols
 
 
+def has_key(acc, db, table):
+    if any(r.get("pk") for r in rows(query(acc, db, f'PRAGMA table_info("{table}")'))):
+        return True
+    return any(r.get("unique") for r in rows(query(acc, db, f'PRAGMA index_list("{table}")')))
+
+
 def load(path):
     if path.endswith(".json"):
         with open(path, encoding="utf-8") as f:
@@ -135,6 +142,19 @@ def add(acc, db, table, path, dry):
     if dry:
         print("(試しなので送りません)")
         return
+    if not has_key(acc, db, table):
+        # 主キーがないと INSERT OR IGNORE でも重複するので、1行ずつ同じ行があるか確かめる
+        keep = []
+        for r in data:
+            vals = [None if r.get(c) == "" else r.get(c) for c in cols]
+            where = " AND ".join(f'"{c}" IS ?' for c in cols)
+            if not rows(query(acc, db, f'SELECT 1 FROM "{table}" WHERE {where} LIMIT 1', vals)):
+                keep.append(r)
+        print(f"主キーのない表なので、すでにある {len(data) - len(keep):,} 行は足しません")
+        data = keep
+        if not data:
+            print("足す行はありません")
+            return
     per = max(1, min(BATCH_ROWS, MAX_PARAMS // len(cols)))
     collist = ",".join(f'"{c}"' for c in cols)
     one = "(" + ",".join("?" * len(cols)) + ")"
@@ -157,7 +177,7 @@ def add(acc, db, table, path, dry):
     after = count(acc, db, table)
     if after < before:
         die(f"行数が減りました({before:,} → {after:,})。すぐ持ち主に知らせてください")
-    print(f"完了: {before:,} → {after:,} 行(+{after - before:,}。同じものがあった {len(data) - (after - before):,} 行はそのまま)")
+    print(f"完了: {before:,} → {after:,} 行(+{after - before:,})")
 
 
 def main(a):
