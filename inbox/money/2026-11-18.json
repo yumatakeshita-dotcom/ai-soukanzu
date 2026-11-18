@@ -1,0 +1,179 @@
+{
+ "date": "2026-11-18",
+ "kind": "money",
+ "items": [
+  {
+   "from": "ElevenLabs",
+   "to": "Kotoba Technologies",
+   "kind": "買収",
+   "amount": "約1億ドル(報道ベース。日経アジアは1億ドル超、BI Japanはスタニシェフスキ CEO の会見発言として約1億ドル。会社は金額非公表)",
+   "date": "2026-11-16",
+   "note": "音声AIのElevenLabsが日本向け音声AIのKotobaを買収で合意。約15人が合流、2026年10〜12月期に完了予定",
+   "src": [
+    [
+     "ElevenLabs 公式ブログ(2026-11-16)",
+     "https://elevenlabs.io/blog/kotoba"
+    ],
+    [
+     "Nikkei Asia(2026-11-16)",
+     "https://asia.nikkei.com/business/business-deals/us-ai-voice-startup-elevenlabs-to-buy-japanese-focused-peer-kotoba"
+    ],
+    [
+     "Music Business Worldwide(2026-11-17)",
+     "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Premji Invest・Khosla Ventures・Eclipse(共同リード)、NVIDIA・AMD Ventures・Samsung Next・Eric Schmidt ほか",
+   "to": "Genesis AI",
+   "kind": "出資",
+   "amount": "5億ドル(シリーズA、評価額35億ドル・調達後)",
+   "date": "2026-11-17",
+   "note": "ロボットの手先の器用さを学ぶAIのGenesis AIが大型調達。Zoomのエリック・ユアン、ジェリー・ヤンらも個人で参加",
+   "src": [
+    [
+     "PR Newswire 会社発表(2026-11-17)",
+     "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html"
+    ],
+    [
+     "TechCrunch(2026-11-17)",
+     "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Zhou Xian",
+   "to": "Théophile Gervet",
+   "kind": "共同創業",
+   "amount": "",
+   "date": "2026-11-17",
+   "note": "Genesis AIの共同創業者(Zhou XianがCEO)。シリーズAの発表で確認",
+   "src": [
+    [
+     "PR Newswire 会社発表(2026-11-17)",
+     "https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Menlo Ventures(リード)、Nvidia・Snowflake・Cisco Investments・Madrona・NEA ほか",
+   "to": "Noeri",
+   "kind": "出資",
+   "amount": "1.1億ドル(報道ベース)",
+   "date": "2026-11-16",
+   "note": "スタンフォードのイェジン・チェ氏とカルロス・ゲストリン氏の企業向けAI会社Noeriが始動と同時に調達",
+   "src": [
+    [
+     "The Next Web(2026-11-16)",
+     "https://thenextweb.com/news/noeri-110m-stanford-yejin-choi-carlos-guestrin-menlo-nvidia"
+    ],
+    [
+     "GeekWire(2026-11-16)",
+     "https://www.geekwire.com/2026/former-uw-ai-researchers-yejin-choi-and-carlos-guestrin-raise-110m-for-ai-startup-noeri"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Yejin Choi",
+   "to": "Carlos Guestrin",
+   "kind": "共同創業",
+   "amount": "",
+   "date": "2026-11-16",
+   "note": "2人でNoeriを共同創業し、共同CEOを務める",
+   "src": [
+    [
+     "The Next Web(2026-11-16)",
+     "https://thenextweb.com/news/noeri-110m-stanford-yejin-choi-carlos-guestrin-menlo-nvidia"
+    ],
+    [
+     "GeekWire(2026-11-16)",
+     "https://www.geekwire.com/2026/former-uw-ai-researchers-yejin-choi-and-carlos-guestrin-raise-110m-for-ai-startup-noeri"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "NEA(リード)",
+   "to": "Corma",
+   "kind": "出資",
+   "amount": "1.25億ドル(シリーズA、評価額10億ドル)",
+   "date": "2026-11-16",
+   "note": "サイバー防御用のAIモデルを作るCormaが調達。8月にSequoia主導で6000万ドルを調達したばかり",
+   "src": [
+    [
+     "Business Wire 会社発表(2026-11-16)",
+     "https://www.businesswire.com/news/home/20261116743982/en/Corma-Raises-%24125M-Series-A-at-%241B-Valuation-to-Scale-Its-Frontier-Foundation-Model-for-Cyber-Defense-as-Fortune-500-Adoption-of-Its-Models-Surges"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "CapitalG(Alphabet、リード)、IVP・Sapphire Ventures・GIC・DFJ Growth",
+   "to": "LangChain",
+   "kind": "出資",
+   "amount": "3億ドル(シリーズC、評価額30億ドル。WSJ報道ベース)",
+   "date": "2026-11-12",
+   "note": "AIエージェントの開発道具LangChainが評価額を約2.4倍にして調達(報道)",
+   "src": [
+    [
+     "Crypto Briefing(2026-11-12)",
+     "https://cryptobriefing.com/langchain-raises-300-million-3-billion-valuation/"
+    ],
+    [
+     "Let's Data Science(2026-11-12)",
+     "https://letsdatascience.com/news/langchain-reportedly-raises-300m-at-3b-valuation-fbf16641"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Thrive Capital・Founders Fund・Lightspeed・Redpoint(リード)",
+   "to": "Fractile",
+   "kind": "出資",
+   "amount": "7.2億ドル(シリーズC)。評価額は動画の説明文では75億ドル、報道では約70億ドル(報道ベース)。累計調達9.4億ドル(動画の説明文)",
+   "date": "2026-11-12",
+   "note": "英国のAI用半導体Fractile。創業者ウォルター・グッドウィン氏が20VCに出演(11/14)。ニュース見出しはあるが出資の線は未登録",
+   "video": "https://youtu.be/UZ8eYaAf08M",
+   "src": [
+    [
+     "20VC YouTube 動画説明文(2026-11-14)",
+     "https://youtu.be/UZ8eYaAf08M"
+    ],
+    [
+     "Let's Data Science(2026-11-12)",
+     "https://letsdatascience.com/news/fractile-reportedly-raises-720m-at-7b-valuation-according-to-b11c5d76"
+    ],
+    [
+     "Silicon UK(2026-11)",
+     "https://www.silicon.co.uk/cloud/ai/fractile-funding-round-2-632302"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Greenoaks・Sequoia Capital(共同リード)、a16z、Alphabet・GV・CapitalG・Thrive・MGX・Temasek・英国Sovereign AI Fund ほか",
+   "to": "Isomorphic Labs",
+   "kind": "出資",
+   "amount": "50億ドル(シリーズC。評価額は非公表。11/5には評価額500億ドルで交渉中と報道)",
+   "date": "2026-11-17",
+   "note": "Google DeepMind発のAI創薬Isomorphic Labsが正式発表。Alphabetも追加出資(額は非公表)",
+   "src": [
+    [
+     "PR Newswire 会社発表(2026-11-17)",
+     "https://prnewswire.com/news-releases/isomorphic-labs-announces-5-billion-series-c-funding-302942062.html"
+    ],
+    [
+     "Sifted(2026-11-17)",
+     "https://sifted.eu/articles/isomorphic-labs-raises-5bn-backed-by-sequoia-and-a16z"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "見た動画(2026-11-11〜11-18): AI at Meta(チャンネルID UC5qxlwEKM7-5YZudb24l0bg)=新着なし。Colin and Samir(UCamLstJyCa-t5gfZegxsFMw)=『Corridor Crew Addresses Their Biggest Criticism』https://youtu.be/a9ZqZnoXj2g 、『How to Hook People Into Watching Anything』https://youtu.be/FliP14zJKbY 、『It’s Easy to Breakout on YouTube if You Do This』https://youtu.be/NKFg9E0CzFI 、『MatPat Reveals The Most Important YouTube Metric』https://youtu.be/IbijiLvk_98 。Cheeky Pint(UCXi7Hg2nSB40ujzM2CMtF-Q)=『How Mercedes found Kimi Antonelli』https://youtu.be/_G0IB_qGuEM 、Revolut CEO回の切り抜き5本(https://youtu.be/b_mkRCkTKSw https://youtu.be/IcsUnJEgjkA https://youtu.be/MlyS26Rh98g https://youtu.be/UGrCM2nuDGY https://youtu.be/dyr4aTCedcM)。Y Combinator=『The Rise Of AI Coworkers』https://youtu.be/y1-9yeYLJUo 、『The Whistleblower Who Took on Theranos』https://youtu.be/iXWSYlAX5Lg 。動画の説明文には出資・買収の金額は無く、文字起こしは取得していない。ニュース: 既に相関図にあるため除外=AMDのWorld Labs買収、SpaceXのAnysphere買収、TensorWaveとOpenAIの契約、Mirendil・Mercor・Torus・Roxの調達、Elad GilのApplied Compute出資。確かめきれず除外=Dreamteam(Bloomberg本文が読めず)、Path Robotics(日付未確認)、GoogleがAnthropicのIPOで最大100億ドル分の株を買う権利(元記事が読めず、要確認)、OpenAIのGoodfire買収検討(成立せず)。 【追加調査 2026-11-18 10時】海外の主要チャンネルの動画説明文も確認: TBPN(UC-DRzaGnL_vtBUpCFH5M0tg)、20VC(UCf0PBRjhf0rF8fWBIxTuoWA)、All-In(UCESLZhusAkFfsNsApnjF_Cg)、a16z(UC9cn0TuPq4dnbTY-CBsm8XA)、Sequoia(UCWrF0oN6unbXrWsTN7RctTw、新着なし)、Lenny's Podcast(UC6t1O76G0jYXOAoYCm153dA)。お金の話があったもの: 20VC『The AI Compute Crisis…| Fractile Founder』https://youtu.be/UZ8eYaAf08M (候補に追加)、20VC『Jev Creator…| Diogo Almeida』https://youtu.be/BE2JqjsN4aY (TypeSafe AIの評価額75億ドル・a16zのマルティン・カサド氏がリード。2026年10月の話で相関図に既にあるため除外)、20VC『WE SPEND MORE ON AI THAN SALARIES | MERCOR CEO』https://youtu.be/3T868ghJyEk (本人の発言: AIの利用料が人件費より多い。金額なしで除外)、All-In『Databricks CEO…』https://youtu.be/1bR0gtecoHU (上場せず非公開のままでいる理由。金額なし)。YouTubeの字幕はロボット確認で取得できず、説明文と記事で確認した。"
+}
