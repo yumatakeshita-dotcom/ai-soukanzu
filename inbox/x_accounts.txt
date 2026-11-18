@@ -20,3 +20,14 @@
 @AnthropicAI | moves,money | 公式
 @xai | moves,money | 公式
 @SemiAnalysis_ | money,deep | 半導体・データセンターの分析
+# --- 自動で追加 (2026-11-18) ---
+@dylan522p | money,deep | SemiAnalysis創業者。半導体
+@pmarca | money,vc | a16z共同創業者
+@nvidia | money,deep | NVIDIA公式
+@NikkeiAsia | moves,money,vc | アジアの企業・半導体報道
+@nikkei | money,vc | 日経電子版。国内の調達報道
+@Kantrowitz | moves,deep | Big Technology記者
+@crunchbasenews | money,vc | 調達データの報道
+@thenextweb | moves,money,vc | 報道。結果の出典に多い
+@geekwire | money,vc,deep | 報道。AI新興企業に強い
+@tech_eu | money,vc | 欧州の調達報道
