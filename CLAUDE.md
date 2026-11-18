@@ -28,6 +28,7 @@ site/                 公開するもの(このフォルダをそのまま置け
   lab/                実験ページ6つ + index.html(一覧)
 src/lab/              実験ページの元ファイル。ここを直して build する
 scripts/              表示・確認・データ書き出しの道具
+inbox/                調査タスク(引き抜き・お金の流れ・LP/VC・世界企業・深堀り)が毎朝保存する候補と、見るXアカウントの一覧(x_accounts.txt)
 docs/                 移行メモなど
 ```
 
@@ -48,6 +49,7 @@ docs/                 移行メモなど
 - 半導体の会社(TSMC・JASM・ASML・Samsung・SK hynix): `// ===== 半導体の相関図` の部分
 - 一次情報のリンク: `const PRIMARY={`
 - 使わない写真の一覧: `const PHBLOCK=`
+- 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
 
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
