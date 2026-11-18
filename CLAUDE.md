@@ -49,6 +49,7 @@ docs/                 移行メモなど
 - 半導体の会社(TSMC・JASM・ASML・Samsung・SK hynix): `// ===== 半導体の相関図` の部分
 - 一次情報のリンク: `const PRIMARY={`
 - 使わない写真の一覧: `const PHBLOCK=`
+- 週のまとめ(ニュースレター): `scripts/weekly.py` が inbox/ と UPDATES から作る。`newsletter/` と `site/weekly/index.html`。共有リンクは相関図と別(https://claude.ai/artifact/WnWyUzjmrSVHcxVgzKWPCM)。毎週月曜9:37の定期タスクが作って公開する。くわしくは `newsletter/README.md`
 - 2社の共通のつながり(メニュー「共通のつながり」): `site/data/common.js`。データは持たず、開いたときに本体の相関図(DATA)からまとめる。2026/11/18追加
   - 営業先ごとの1枚資料: 同じ `site/data/common.js` の後半(`cmShowBrief`)。共通のつながりの結果画面の「営業資料(1枚)を作る」から開く。だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典をまとめ、印刷(PDF保存)・テキストのコピー・.txt保存ができる。2026/11/18追加
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
