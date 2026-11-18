@@ -36184,6 +36184,7 @@ Object.assign(DS,{
  v_tml26:['TechCrunch(2026/1/14、ゾフ・メッツらのOpenAI復帰。OpenAIのフィジー・シモがXで発表)','https://techcrunch.com/2026/01/14/mira-muratis-startup-thinking-machines-lab-is-losing-two-of-its-co-founders-to-openai/','r'],
  v_tml26b:['Fortune(2026/1/16、ショーンホルツ、リア・ガイらのOpenAI入り)','https://fortune.com/2026/01/16/mira-murati-thinking-machines-staff-defections-openai-zoph-metz-schoenholz/','r'],
  v_pang26:['Business Today(2026/2/26、The InformationがOpenAIの広報の話として報道)','https://www.businesstoday.in/technology/news/story/from-apple-to-meta-to-openai-in-7-months-who-is-ruoming-pang-518181-2026-02-26','r'],
+ v_schul25:['Bloomberg(2025/2/6、シュルマンがAnthropicを離れ、ムラティの新会社へ。Anthropicがコメント)','https://www.bloomberg.com/news/articles/2025-02-06/openai-co-founder-john-schulman-leaves-rival-firm-anthropic','r'],
  v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
 });
 const VERIFY_PPL=[
@@ -36250,6 +36251,10 @@ const VERIFY_PPL=[
  ['リア・ガイ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved'],
  ['ルオミン・パン','Meta','v_pang26','報道で確認(報道ベース)',['openai'],'from'],
  ['ルオミン・パン','OpenAI','v_pang26','報道で確認(報道ベース)',['meta'],'moved'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','報道で確認(報道ベース)',['anthropic'],'moved'],
+ ['ジョン・シュルマン','Anthropic','v_schul25','報道で確認(報道ベース)',['tml'],'from'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','2026/11/19、直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['openai'],'moved'],
+ ['ジョン・シュルマン','OpenAI','v_schul25','2026/11/19、直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['tml'],'from'],
  ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
  ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']]
 ];
@@ -36263,7 +36268,8 @@ function applyVerifyPpl(c,d){
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
       const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
-      if(note&&!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
+      if(note&&/^\d{4}\/\d+\/\d+、/.test(note)){if(!(e.d||'').includes(note))e.d=(e.d||'')+`(${note})`}   /* 日付つきのひとことは、そのまま足す(2026/11/19追加) */
+      else if(note&&!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
     })});
 }
 

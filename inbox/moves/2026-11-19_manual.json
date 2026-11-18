@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-19",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Lilian Weng",
+   "name_ja": "リリアン・ウェン",
+   "from": "Thinking Machines Lab",
+   "to": "OpenAI",
+   "role": "研究者(AIでAIの研究を速める「再帰的な自己改善」のチームを率いると報道)",
+   "date": "2026-07-30",
+   "note": "Thinking Machines Labの共同創業者。2026年7月下旬に体調を理由に退任を表明し、数日のうちにOpenAIに戻った(OpenAIの広報がコメント)。The Information の報道。2018〜2024年にOpenAIの安全システム担当VP",
+   "backfill": true,
+   "src": [
+    ["The Next Web(2026-07、The Informationを引用)", "https://thenextweb.com/news/lilian-weng-thinking-machines-openai-recursive-self-improvement"],
+    ["AI Magazine(People Moves: Lilian Weng, OpenAI)", "https://aimagazine.com/articles/people-moves-lilian-weng-openai"]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "2026-11-19 手で追加(人材の流れの出典確認の作業中に見つけたもの)。日付は報道により7月28〜30日で少しずれる"
+}

@@ -33,8 +33,14 @@ function frCollect(){
       seen.set(pk,Object.assign(m,{p:P.name,en,src,fd:e.fd?1:0,cf:e.cf||P.cf||''}));
     });
   });
-  return [...seen.values()];
+  // 経由の移籍(2026/11/19追加): 同じ人に A→X と X→B があるとき、図に「A出身でBへ」とある A→B は直接の移籍ではないので数えない
+  // 例: シュルマンは OpenAI→Anthropic(2024)→Thinking Machines Lab(2025)。OpenAI→TML は経由として外す(データは消さない)
+  const all=[...seen.values()],byP={};all.forEach(m=>{const k=fnorm(m.en||m.p);(byP[k]||(byP[k]=[])).push(m)});
+  Object.values(byP).forEach(L=>{if(L.length<3)return;L.forEach(m=>{if(L.some(x=>x!==m&&x.a===m.a&&L.some(z=>z!==m&&z.a===x.b&&z.b===m.b)))m.via=1})});
+  FR_VIA=all.filter(m=>m.via);
+  return all.filter(m=>!m.via);
 }
+let FR_VIA=[];
 function frAgg(moves){
   const R={};const row=(k,n)=>R[k]||(R[k]={k,name:n,inn:[],out:[]});
   moves.forEach(m=>{row(m.a,m.an).out.push(m);row(m.b,m.bn).inn.push(m)});
@@ -123,7 +129,7 @@ function frRender(){
     <div class="frd">${r.i?`<div><h4>入ってきた人(${r.i}人)</h4><ul>${ppl(r.inn,'a')}</ul></div>`:''}${r.o?`<div><h4>出ていった人(${r.o}人)</h4><ul>${ppl(r.out,'b')}</ul></div>`:''}
     ${COMPANIES[r.k]?`<div style="grid-column:1/-1"><a href="#" data-k="${frEsc(r.k)}">${frEsc(r.name)}の相関図を見る ▸</a></div>`:''}</div></details></li>`).join('')}</ol>
   ${rows.length>150?`<p class="note">上位150社まで表示しています。会社名で絞り込むと、ほかの会社も見られます。</p>`:''}
-  <p class="note" style="margin-top:14px">年は、移った先に入った年(わかる場合)です。年がわからない移籍は「全期間」にだけ数えます。同じ人が同じ会社へ移った記録が2社の図にあるときは1件にまとめ、Google BrainはGoogle DeepMindにまとめ、大学などの出身校は数えていません。うち${fdN}件は毎朝の調査タスクが出典つきで足したもので、報道ベースのものを含みます。開いたときに各社の図から数え直すので、相関図に人が足されると自動で増えます。</p>`;
+  <p class="note" style="margin-top:14px">年は、移った先に入った年(わかる場合)です。年がわからない移籍は「全期間」にだけ数えます。同じ人が同じ会社へ移った記録が2社の図にあるときは1件にまとめ、Google BrainはGoogle DeepMindにまとめ、大学などの出身校は数えていません。ほかの会社を経由した移籍(例: シュルマンのOpenAI→Thinking Machines LabはAnthropic経由)は、経由した先への移籍として数え、直接の移籍としては数えていません(${FR_VIA.length}件)。うち${fdN}件は毎朝の調査タスクが出典つきで足したもので、報道ベースのものを含みます。開いたときに各社の図から数え直すので、相関図に人が足されると自動で増えます。</p>`;
   FEEDEL.querySelectorAll('.frbar button[data-s]').forEach(b=>b.addEventListener('click',()=>{frSort=b.dataset.s;frRender()}));
   FEEDEL.querySelectorAll('.frbar button[data-p]').forEach(b=>b.addEventListener('click',()=>{frPeriod=b.dataset.p;frRender()}));
   const qi=document.getElementById('frq');qi.addEventListener('input',()=>{frQ=qi.value;const pos=qi.selectionStart;frRender();const n=document.getElementById('frq');n.focus();try{n.setSelectionRange(pos,pos)}catch(e){}});
