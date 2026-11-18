@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-18",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Together Fund(シード・リード)、Accel(シリーズA・リード)、Premji Invest",
+   "to": "Dreamteam",
+   "kind": "出資",
+   "amount": "合計5,300万ドル(シードとシリーズAの合計。報道ベース。各回の金額と評価額は非公表)",
+   "date": "2026-11-16",
+   "note": "Freshworks出身者のAI顧客管理(CRM)の会社。SalesforceやSAPに対抗。前回は記事が読めず保留した分",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026-11-16)",
+     "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
+    ],
+    [
+     "Bloomberg(2026-11-16)",
+     "https://www.bloomberg.com/news/articles/2026-11-16/ai-startup-dreamteam-raises-capital-to-challenge-salesforce-sap"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Anand Venkatraman(CEO)",
+   "to": "Senthil Kanthaswamy・Ramesh Parthasarathy",
+   "kind": "共同創業",
+   "amount": "",
+   "date": "2026-11-16",
+   "note": "3人とも元Freshworks。2025年にDreamteamを共同で創業(日付は報道日)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026-11-16)",
+     "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Crosspoint Capital・Forgepoint Capital(共同リード)",
+   "to": "Kindo",
+   "kind": "出資",
+   "amount": "3,000万ドル(会社発表。累計5,760万ドル)",
+   "date": "2026-11-12",
+   "note": "企業のAIエージェントを一か所で管理する会社。相関図のニュース欄に見出しはあるが出資者は未登録",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Kindo 公式(2026-11-12)",
+     "https://www.kindo.ai/resources/press-kindo-raises-57-million-ai-agent-management"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Nik Storonsky(Revolut 創業者・CEO)",
+   "to": "QuantumLight",
+   "kind": "共同創業",
+   "amount": "2号ファンド5億ドル(2026年8月、報道ベース)。1号は2.5億ドル(2025年5月)",
+   "date": "2026-08-17",
+   "note": "Storonsky氏が2023年に作ったAIで選ぶVC。番組で本人は「2〜3年で40〜50件に出資」と発言(Cheeky Pint 2026-11-10)。報道では27社",
+   "quote": "They already invested in 40-50 deals in the last 2-3 years.",
+   "video": "https://www.youtube.com/watch?v=-NARhJ7jAj4",
+   "src": [
+    [
+     "Dealroom/Sifted(2026-08-17)",
+     "https://dealroom.co/news/145405-storonskys-quantumlight-closes-oversubscribed-500m-fund-to-back-ai-start/"
+    ],
+    [
+     "Bloomberg Law(2025-05)",
+     "https://news.bloomberglaw.com/private-equity/nik-storonskys-ai-venture-firm-raises-250-million-for-startups"
+    ],
+    [
+     "Cheeky Pint 書き起こし(2026-11-10)",
+     "https://cheekypint.substack.com/p/nik-storonsky-the-most-uncompromising"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "QuantumLight",
+   "to": "Together AI・Factory・Function Health・Robin AI・Ben・Fuse Energy",
+   "kind": "出資",
+   "amount": "金額は非公表",
+   "date": "2026-08-17",
+   "note": "QuantumLight の出資先として報道で名前が出た6社(AI関連はTogether AI・Factory・Robin AI)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Dealroom/Sifted(2026-08-17)",
+     "https://dealroom.co/news/145405-storonskys-quantumlight-closes-oversubscribed-500m-fund-to-back-ai-start/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "米エネルギー省(DOE)",
+   "to": "General Matter",
+   "kind": "支援",
+   "amount": "9億ドル(政府の発注。DOE全体では3社に計27億ドル)",
+   "date": "2026-01-07",
+   "note": "原子炉の燃料(HALEU)の国産化。番組でCEOは「AIの電力を原子力で」の文脈で説明(Cheeky Pint 2026-11-03)",
+   "quote": "$900 million award for capacity building",
+   "video": "https://www.youtube.com/watch?v=QsL2BIvRJI8",
+   "src": [
+    [
+     "World Nuclear News(2026-01)",
+     "https://world-nuclear-news.org/articles/doe-awards-usd27-billion-to-strengthen-us-uranium-enrichment"
+    ],
+    [
+     "WKMS(2026-01-07)",
+     "https://www.wkms.org/energy/2026-01-07/general-matter-scores-900m-award-from-doe-to-support-haleu-enrichment-in-paducah"
+    ],
+    [
+     "Cheeky Pint 書き起こし(2026-11-03)",
+     "https://cheekypint.substack.com/p/the-company-building-americas-uranium"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Scott Nolan",
+   "to": "General Matter",
+   "kind": "共同創業",
+   "amount": "",
+   "date": "2026-11-03",
+   "note": "共同創業者・CEO。元SpaceXの初期社員で、Founders Fundで10年投資をしていたと本人が発言(Cheeky Pint 2026-11-03)",
+   "quote": "I'd been doing investing at Founders Fund for 10 years.",
+   "video": "https://www.youtube.com/watch?v=QsL2BIvRJI8",
+   "src": [
+    [
+     "Cheeky Pint 書き起こし(2026-11-03)",
+     "https://cheekypint.substack.com/p/the-company-building-americas-uranium"
+    ]
+   ],
+   "confidence": "本人の発言"
+  },
+  {
+   "from": "Lantern",
+   "to": "Linga AI",
+   "kind": "買収",
+   "amount": "金額は非公表",
+   "date": "2026-11-17",
+   "note": "未公開企業の投資データを確かめる会社LanternがAIの会社Linga AIを買収。製品名はDiggensに",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Yahoo Finance(プレスリリース、2026-11-17)",
+     "https://finance.yahoo.com/technology/ai/articles/lantern-acquires-linga-ai-private-141400053.html"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "【過去の動画をさかのぼる調査(今回から)】inbox/money/seen_videos.txt を新しく作り、各チャンネルの新しい順に、まだ見ていない動画を5本ずつ見た。AI at Meta: 『Introducing Muse Wonder & Muse Wonder Full』https://www.youtube.com/watch?v=4ZwVP0-ylZU (2026-10-12、説明文あり、お金の話なし)、『SAM Audio』gPj_cQL_wvg・『SAM 3D』B7PZuM55ayc・『SAM 3』G4OLPDjwncw・『Omnilingual ASR』ab-GIqDQn7k (ロボット確認で説明文が取れず。題名から製品紹介でお金の話はないと判断)。Colin and Samir: 『Why Instagram Completely Changed Its Mind』sxizdQ2hRfk(2026-10-26)、『The New Rules of Creator Businesses』tvSda9z7Ul8(10-19)、『The Story of Our Most Relentless Friend』cRTxYTWof7M(9-30)、『Inside the Mind of YouTube's Anthony Bourdain』cjlGBDdQ-qA(9-23)、『Let’s Watch Celebrity Channels and Pick a Winner』Quxn-nFeKQ8(9-17)。説明文のみ。AI企業のお金の話はなし。Y Combinator: 『Is AI Now Good Enough To Cure Cancer?』-XL2gClQ2gg(11-08)、『How To Build The Future: Paul Graham & Amjad Masad』Q78dJ0vkWe8(11-07、Replitが1,000万ドルの開発を25万ドルで置き換えるという発言。お金の流れではないので除外)、『How Boom’s Biggest Crisis Became Its Biggest Opportunity』NYGf--dBeHA(11-06)、『10 Habits PhDs Must Unlearn』u-8KpXcPYCw・『The $1B Company Fixing AI’s Software Bottleneck』NVzgt2AEvDg(説明文取れず。次回やり直し候補)。Cheeky Pint(UCXi7Hg2nSB40ujzM2CMtF-Q): 『Nik Storonsky: The most uncompromising banking CEO』-NARhJ7jAj4(11-10)、『The company building America’s uranium supply from scratch』QsL2BIvRJI8(11-03)、『Why Sam Altman is against a single superintelligence』iMsUcCYNKqY(10-29、計算資源の費用の話のみ。1ギガワット5年で約700億ドルなどの発言。出資・買収なし)、『Why United’s CEO thinks air traffic control is the problem』3Lc0xfW4r9Q(10-27)、『How Toto Wolff built the most valuable team in F1』mFLcqTGpVyU(10-20)。Cheeky Pintは番組公式Substackの書き起こしで確認(Altman・Storonsky・Nolanの回)。YouTubeの字幕(文字起こし)は取得していない(ロボット確認で断られやすいため、説明文と公式書き起こしで代用)。新しい動画(直近7日)は同じ日の 2026-11-18.json で確認済みのため今回は追加の新着なし。ニュース: 同日の前回ファイルと相関図にある分(Genesis AI・Isomorphic Labs・LangChain・Corma・Noeri・Fractile・Mirendil・Mercor・Rox など)は除外。NvidiaのHugging Face買収(130億ドル)は2026年9月の話で今週ではないため除外。Knit Health(シリーズA 3,500万ドル)はリード投資家を確かめられず保留。Agile Robots(SoftBank、5億ドル)・UFORCE・Onodrimは相関図のニュース欄に見出しがあり、vc の調査ファイルにも一部あるため除外。"
+}
