@@ -1,0 +1,456 @@
+[
+ {
+  "d": "2026-11-17",
+  "co": "Nvidia",
+  "key": "nvidia",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm",
+  "acc": "0001045810-26-000088",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-12",
+  "co": "Nvidia",
+  "key": "nvidia",
+  "form": "8-K",
+  "items": [
+   "5.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "役員の交代",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+  "acc": "0001045810-26-000082",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-12",
+  "co": "CoreWeave",
+  "key": "",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000465/crwv-20260930.htm",
+  "acc": "0001769628-26-000465",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-12",
+  "co": "Meta",
+  "key": "meta",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+  "acc": "0001193125-26-458525",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-10",
+  "co": "CoreWeave",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm",
+  "acc": "0001769628-26-000461",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-06",
+  "co": "SpaceX(xAI・X・Cursorを含む)",
+  "key": "xai",
+  "form": "8-K",
+  "items": [
+   "5.02"
+  ],
+  "items_ja": [
+   "役員の交代"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026071689/spcx-20261104.htm",
+  "acc": "0001628280-26-071689",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-05",
+  "co": "Microsoft",
+  "key": "msft",
+  "form": "8-K",
+  "items": [
+   "5.02"
+  ],
+  "items_ja": [
+   "役員の交代"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+  "acc": "0001193125-26-448357",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-05",
+  "co": "Alphabet(Google)",
+  "key": "gdm",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+  "acc": "0001193125-26-449835",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-05",
+  "co": "Meta",
+  "key": "meta",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+  "acc": "0001193125-26-450074",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-04",
+  "co": "Microsoft",
+  "key": "msft",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
+  "acc": "0001193125-26-447173",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-04",
+  "co": "Oracle",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
+  "acc": "0001193125-26-447507",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-30",
+  "co": "Amazon",
+  "key": "",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+  "acc": "0001018724-26-000040",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-29",
+  "co": "Alphabet(Google)",
+  "key": "gdm",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+  "acc": "0001652044-26-000084",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-29",
+  "co": "Amazon",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+  "acc": "0001018724-26-000038",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-29",
+  "co": "Meta",
+  "key": "meta",
+  "form": "8-K",
+  "items": [
+   "1.01",
+   "3.03",
+   "5.03",
+   "9.01"
+  ],
+  "items_ja": [
+   "大事な契約",
+   "3.03",
+   "定款の変更",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm",
+  "acc": "0001193125-26-438017",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-28",
+  "co": "Microsoft",
+  "key": "msft",
+  "form": "8-K",
+  "items": [
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436149/msft-20261028.htm",
+  "acc": "0001193125-26-436149",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-28",
+  "co": "Microsoft",
+  "key": "msft",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+  "acc": "0001193125-26-436133",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-28",
+  "co": "Microsoft",
+  "key": "msft",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+  "acc": "0001193125-26-436122",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-28",
+  "co": "Oracle",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "7.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "公表資料",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526435853/d75538d8k.htm",
+  "acc": "0001193125-26-435853",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-28",
+  "co": "Alphabet(Google)",
+  "key": "gdm",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
+  "acc": "0001652044-26-000080",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-26",
+  "co": "SpaceX(xAI・X・Cursorを含む)",
+  "key": "xai",
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "items_ja": [
+   "その他の出来事"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+  "acc": "0001104659-26-118614",
+  "desc": "FORM 8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-22",
+  "co": "SpaceX(xAI・X・Cursorを含む)",
+  "key": "xai",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+  "acc": "0001628280-26-066880",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-22",
+  "co": "Tesla",
+  "key": "",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm",
+  "acc": "0001628280-26-066775",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-22",
+  "co": "Meta",
+  "key": "meta",
+  "form": "10-Q",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+  "acc": "0001628280-26-066773",
+  "desc": "10-Q",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-21",
+  "co": "Tesla",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm",
+  "acc": "0001628280-26-066738",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-21",
+  "co": "Meta",
+  "key": "meta",
+  "form": "8-K",
+  "items": [
+   "1.01",
+   "2.02",
+   "8.01",
+   "9.01"
+  ],
+  "items_ja": [
+   "大事な契約",
+   "決算",
+   "その他の出来事",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+  "acc": "0001628280-26-066700",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-10-20",
+  "co": "SpaceX(xAI・X・Cursorを含む)",
+  "key": "xai",
+  "form": "8-K",
+  "items": [
+   "2.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "決算",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm",
+  "acc": "0001628280-26-066482",
+  "desc": "8-K",
+  "cf": "開示",
+  "numbers": {
+   "会社全体の売上": "14.6 billion",
+   "SI部門の売上": "7.6 billion",
+   "SI部門の営業利益": "431 million",
+   "SI部門の調整後EBITDA": "5.0 billion",
+   "計算拠点の規模": "1.7 GW"
+  },
+  "numbers_src": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm"
+ }
+]

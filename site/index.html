@@ -36027,6 +36027,74 @@ function applyUses(c,d){
     d.E.push({a:d.center,b:aid,k:'uses',label,since:y,d:desc,src});
   })});
 }
+// ===== 製品とモデルの年表(会社の図の概要に出す) 2026年11月18日に追加 =====
+// [日付, 分類, できごと, 出典キー]。会社の公式発表で確かめたものだけ。日付は発表の日
+Object.assign(DS,{
+ v_xainews:['xAI(SpaceXSI)公式ニュース一覧(2026/11/18に確認)','https://x.ai/news','o'],
+ v_xaigrok47:['xAI(SpaceXSI)公式発表(2026/9/21、Grok 4.7)','https://x.ai/news/grok-4-7','o'],
+ v_xaibot:['xAI(SpaceXSI)公式発表(2026/8/11、Grok Bot)','https://x.ai/news/introducing-grok-bot','o'],
+ v_xaipn:['xAI(SpaceXSI)公式発表(2026/10/22、SpaceX Super Intelligence Partner Network)','https://x.ai/news/partnernetworkannouncement','o'],
+ v_xaiseriesc:['xAI公式発表(2024/12/23、シリーズC 60億ドル)','https://x.ai/news/series-c','o']
+});
+const PRODTL={
+ xai:{note:'xAI(今はSpaceXSI)のモデル・製品と、大きな会社の動きを、公式ニュースの日付で並べました。',list:[
+  ['2024-12-12','製品','Grokを、Xのすべての利用者が使えるようにした',['v_xainews']],
+  ['2024-12-23','資金','シリーズCで60億ドルを調達(a16z・BlackRock・Fidelity・MGX・QIA・Sequoia・Valorなど)',['v_xaiseriesc']],
+  ['2025-02-19','モデル','Grok 3(考えてから答える「推論」型)を公開',['v_xainews']],
+  ['2025-07-09','モデル','Grok 4と、上位プラン「SuperGrok Heavy」を公開',['v_xainews']],
+  ['2025-07-14','政府','政府向けの「xAI for Government」を開始',['v_xaigov']],
+  ['2025-08-28','モデル','プログラミング向けの速いモデル「Grok Code Fast 1」',['v_xainews']],
+  ['2025-11-17','モデル','Grok 4.1を公開',['v_xainews']],
+  ['2025-11-19','政府','サウジアラビア・HUMAINと、GPUの拠点づくりとGrokの全国展開で合意',['v_xaiksa']],
+  ['2025-12-11','政府','エルサルバドルの公立校5,000校超にGrokを入れると発表',['v_xaisv']],
+  ['2025-12-22','政府','米国防総省(戦争省)のAI基盤「GenAI.mil」に採用(約300万人)',['v_xaidow']],
+  ['2025-12-30','製品','会社向けの「Grok Business」「Grok Enterprise」',['v_xainews']],
+  ['2026-01-06','資金','シリーズEで200億ドルを調達(NvidiaとCiscoが戦略的な出資者)',['v_xaie']],
+  ['2026-01-28','製品','動画を作るAIのAPI「Grok Imagine API」',['v_xainews']],
+  ['2026-02-02','会社','SpaceXがxAIを買収',['v_sxai']],
+  ['2026-05-06','計算資源','AnthropicにColossus 1(GPU 22万基超)を貸す契約',['v_xaiant']],
+  ['2026-05-27','製品','端末で動くプログラミングの助手「Grok Build」(試験版)',['v_xainews']],
+  ['2026-06-16','会社','SpaceXがCursorと合併の契約(企業価値600億ドル)',['v_sxcur1']],
+  ['2026-06-17','提携','GrokをAmazon Bedrockで提供',['v_xaiaws']],
+  ['2026-07-20','モデル','Grok 4.5を公開',['v_xainews']],
+  ['2026-08-11','製品','いつも動くAIの同僚「Grok Bot」(試験版)',['v_xaibot']],
+  ['2026-08-14','モデル','Grok 4.6を公開。同じ日にSpaceXのCursor買収が完了',['v_xainews','v_sxcur2']],
+  ['2026-08-26','提携','Grok 4.6をMicrosoft Foundryで提供',['v_xaims']],
+  ['2026-09-21','モデル','Grok 4.7を公開(プログラミングと知的な仕事向け)',['v_xaigrok47']],
+  ['2026-10-12','製品','Grok・Grok Bot・Cursor・X Premiumをひとつにした「The X Subscription」',['v_xsub']],
+  ['2026-10-20','会社','SpaceXの7〜9月期決算で、AI部門の売上76億ドル・計算拠点1.7GWと開示',['v_sxq3']],
+  ['2026-10-22','提携','導入を手伝う会社の仕組み「SpaceX Super Intelligence Partner Network」(130社超が先行参加)',['v_xaipn']],
+  ['2026-11-11','製品','Grok Bot 1.0(チームで使える・頼まれる前に動く)',['v_xainews']]
+ ]}
+};
+PRODTL.twitter={note:'XとxAI・Grokが関わる主なできごとです(xAIの年表から抜き出し)。',list:PRODTL.xai.list.filter(r=>/Xの|X Premium|SpaceXがxAI/.test(r[2]))};
+const PTCOL={'モデル':'--active','製品':'--invest','資金':'--pink','政府':'--left','会社':'--core','計算資源':'--deal','提携':'--uses'};
+function prodTlHtml(){
+  const P=PRODTL[comp];if(!P)return '';
+  const L=P.list.filter(r=>+r[0].slice(0,4)<=year);if(!L.length)return '';
+  const rows=L.slice().reverse().map(([d,c,t,src])=>`<li style="display:block;border-top:1px solid var(--line);padding-top:6px"><span class="meta">${d.replace(/-/g,'/')}</span> <b style="color:var(${PTCOL[c]||'--muted'});min-width:0">${c}</b><br>${t}<br><small>出典: ${dealSrcHtml(src)}</small></li>`).join('');
+  return `<details style="margin-top:14px"><summary style="cursor:pointer;font-weight:bold;font-size:14px">モデル・製品の年表(${L.length}件、新しい順)</summary><p style="font-size:13px">${P.note}</p><ul class="rel">${rows}</ul></details>`;
+}
+// ===== Colossusの貸し借り(xAIの計算拠点を、だれが作り・だれが使っているか) 2026年11月18日に追加 =====
+// [名前, 中身, 出典キー]。数字は出典の言い方のまま。報道どうしで食い違うものはそう書く
+const COLOSSUS={
+ asof:'2026年11月18日',
+ inn:[['Nvidia','GPUの供給元。Colossus 1はH100・H200・GB200など22万基超',['v_xaiant']],
+      ['電力(ガス発電所)','サウスヘイブンの自前のガス発電所が、許可なしに作られたとして州と協議中(報道)',['r_dcdms']]],
+ sites:[['Colossus 1(メンフィス)','2024年〜。Nvidia GPU 22万基超',['v_xaiant']],
+        ['Colossus 2(メンフィス+ミシシッピ州サウスヘイブン)','2026年1月に稼働。年末に約120万基(マスク本人の発言)。SpaceX全体の計算拠点は9月末で1.7GW(開示)',['r_dcdms','v_sxq3']]],
+ out:[['Anthropic','Colossus 1を借りる(2026年5月の契約)。Claudeの有料プランの容量に使う。宇宙での計算でも協力に関心',['v_xaiant','v_antsx'],'anthropic'],
+      ['Google','Colossus 1のGPU約11万基を借りる(月9.2億ドルと報道)。Anthropicの「全容量」との関係ははっきりしません',['sxgoog'],'gdm'],
+      ['Grok(SpaceXSI自身)・Cursor','Colossus 2で自社のモデルを学習。CursorはSpaceXの子会社(2026年8月〜)',['v_sxcur2','r_dcdms'],'cursor']]
+};
+function colossusHtml(){
+  if(!['xai','anthropic','nvidia','cursor','gdm','twitter'].includes(comp))return '';
+  const C=COLOSSUS,esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const box=(r,col,k)=>`<div style="border:1px solid var(${col});border-radius:8px;padding:6px 8px;margin:4px 0;min-width:0">${k&&COMPANIES[k]&&k!==comp?`<a href="#" class="colgo" data-k="${k}"><b>${esc(r[0])}</b></a>`:`<b>${esc(r[0])}</b>`}<br><span style="font-size:12px">${esc(r[1])}</span><br><small>${dealSrcHtml(r[2])}</small></div>`;
+  const col=(h,list,c)=>`<div style="flex:1 1 200px;min-width:0"><div class="meta" style="font-weight:bold">${h}</div>${list.map(r=>box(r,c,r[3])).join('')}</div>`;
+  const ar='<div aria-hidden="true" class="colar"></div>';
+  return `<details style="margin-top:14px"${comp==='xai'?' open':''}><summary style="cursor:pointer;font-weight:bold;font-size:14px">Colossusの貸し借り(${C.asof}時点)</summary><p style="font-size:13px">xAI(SpaceXSI)の巨大な計算拠点「Colossus」に、何が入り、だれが使っているかを1枚にまとめました。</p><style>.colar{flex-basis:100%;text-align:center;color:var(--muted);font-size:18px;line-height:1}.colar::after{content:'↓'}</style><div style="display:flex;flex-wrap:wrap;gap:4px;align-items:stretch">${col('入るもの',C.inn,'--deal')}${ar}${col('拠点',C.sites,'--active')}${ar}${col('使う側',C.out,'--uses')}</div><p class="note">印は出典の確かさです。数字は契約の上限や本人の発言を含みます。</p></details>`;
+}
 // ===== 調査で見つかったつながり(data/finds.js の FINDLINKS) 2026年11月18日に追加 =====
 // 毎朝の調査タスク(引き抜き・お金の流れ・LP/VC・深堀り)の候補のうち、出典つきのものを各社の図に足す。
 // 名前を会社の一覧(COMPANIES・ALIAS)と照らし、その会社の図にだけ人物・会社と線を足す。既存の人物・線はそのまま(重なる線は足さない)
@@ -36737,8 +36805,9 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
   wireAcq();wireVc();wireCommon();wireKk();
+  document.querySelectorAll('a.colgo[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();build(a.dataset.k)});
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
 function acqBtn(){const a=ACQ[comp];return a&&a.length?`<div class="links"><a href="#" id="goacq"><b>${COMPANIES[comp].name}が買収・子会社化した会社(${a.length}社)を見る ▸</b></a></div>`:''}
