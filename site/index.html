@@ -35503,7 +35503,7 @@ DATA.samsung=mk('samsung',[
 ],[
  {a:'skhynix',b:'samsung',k:'conflict',label:'HBMで競争'},{a:'tsmc',b:'samsung',k:'conflict',label:'受託製造で競争'},
  {a:'nvidia',b:'samsung',k:'deal',label:'HBM4・GPU5万基',since:2025,d:'2025年10月、次世代メモリHBM4の供給を協議と報道。サムスンも社内のAI工場用にNvidia GPUを5万基買うと表明。',src:['krmem']},
- {a:'openai',b:'samsung',k:'deal',label:'Stargate メモリ',since:2025,d:'2025年10月、SK hynixと共にStargate向けに月90万枚分のDRAMウエハーを供給する基本合意。',src:['krmem']},
+ {a:'openai',b:'samsung',k:'deal',label:'Stargate メモリ',since:2025,d:'2025年10月、SK hynixと共にStargate向けに月90万枚分のDRAMウエハーを供給する基本合意。',src:['krmem','v_stargate']},
  {a:'broadcom',b:'samsung',k:'deal',label:'2nm 約$200B(報道)',since:2026,d:'2026年、2nmの製造と先端パッケージ・メモリを一括で請け負う長期契約。韓国の報道では約2,000億ドル規模。',src:['krmem']},
  {a:'tesla',b:'samsung',k:'deal',label:'AIチップ製造',since:2025,d:'2025年7月、TeslaのAIチップを米テキサスの工場で作る約165億ドルの契約。',src:['krmem']},
  {a:'asml',b:'samsung',k:'deal',label:'EUV',since:2019,d:'EUV装置を買っています。',src:['asmlft']}
@@ -35519,7 +35519,7 @@ DATA.skhynix=mk('skhynix',[
 ],[
  {a:'skhynix',b:'kioxia',k:'invest',label:'間接出資'},{a:'samsung',b:'skhynix',k:'conflict',label:'HBMで競争'},
  {a:'nvidia',b:'skhynix',k:'deal',label:'HBMの主な供給元',since:2022,d:'HBMの主要な供給元。2026年6月には次世代メモリの複数年の技術提携。SKグループはNvidiaと2GWのAI工場も計画(2027年稼働予定)。',src:['krmem']},
- {a:'openai',b:'skhynix',k:'deal',label:'Stargate メモリ',since:2025,d:'2025年10月、Samsungと共にStargate向けDRAMを供給する基本合意。',src:['krmem']},
+ {a:'openai',b:'skhynix',k:'deal',label:'Stargate メモリ',since:2025,d:'2025年10月、Samsungと共にStargate向けDRAMを供給する基本合意。',src:['krmem','v_stargate']},
  {a:'microsoft',b:'skhynix',k:'deal',label:'HBM4 5年契約',since:2026,d:'2026年、MicrosoftなどとHBM4の5年契約を結んだと報道。',src:['krmem']}
 ],{EN:{kwak:'Kwak Noh-jung',chey:'Chey Tae-won'},WEB:{skhynix:'https://www.skhynix.com'},WIKI:{skhynix:'https://ja.wikipedia.org/wiki/SKハイニックス'}});
 
@@ -35557,7 +35557,7 @@ DATA.oklo=mk('oklo','Oklo',[
  {id:'altman',name:'サム・アルトマン',kind:'p',from:2015,to:2025,role:'元会長(2015〜2025年4月)',desc:'OpenAIのCEO。長くOklo会長を務め、2025年4月に退任。OpenAIなどAI企業との電力の取引で利害がぶつからないようにするためと説明されました。',src:['pw_altokl']}
 ],[
  {a:'meta',b:'oklo',k:'deal',label:'オハイオ州 最大1.2GW',since:2026,d:'2026年1月9日、Metaがオハイオ州パイク郡の原子力の拠点(最大1.2GW、早ければ2030年に運転開始)を支えると発表。Vistra・TerraPowerとあわせて最大6.6GW。',src:['pw_metanuc']},
- {a:'switch',b:'oklo',k:'deal',label:'最大12GW(2044年まで)',since:2024,d:'2024年12月、データセンター会社のSwitchと、2044年までに最大12GWの原子炉を導入する基本合意。企業の電力契約として最大級。',src:['pw_oklosw']},
+ {a:'switch',b:'oklo',k:'deal',label:'最大12GW(2044年まで)',since:2024,d:'2024年12月、データセンター会社のSwitchと、2044年までに最大12GWの原子炉を導入する基本合意。企業の電力契約として最大級。',src:['pw_oklosw','v_oklo']},
  {a:'altman',b:'openai',k:'link',label:'OpenAIのCEO'}
 ],{EN:{dewitte:'Jacob DeWitte',cochran:'Caroline Cochran',altman:'Sam Altman'},WEB:{oklo:'https://oklo.com'},WIKI:{oklo:'https://en.wikipedia.org/wiki/Oklo_Inc.'}});
 
@@ -35578,29 +35578,29 @@ DATA.kairos=mk('kairos','Kairos Power',[
  {id:'laufer',name:'マイク・ローファー',kind:'p',from:2016,founder:1,role:'共同創業者 / CEO',desc:'共同創業者でCEO。'},
  {id:'peterson',name:'パー・ピーターソン',kind:'p',from:2016,founder:1,role:'共同創業者',desc:'共同創業者。カリフォルニア大学バークレー校の原子力工学の教授。'}
 ],[
- {a:'google',b:'kairos',k:'deal',label:'小型原子炉 500MW',since:2024,d:'2024年10月、Googleが小型原子炉から電力を買う世界初の企業契約。2030年までに1基目、2035年までに合計500MW。',src:['pw_kairos']}
+ {a:'google',b:'kairos',k:'deal',label:'小型原子炉 500MW',since:2024,d:'2024年10月、Googleが小型原子炉から電力を買う世界初の企業契約。2030年までに1基目、2035年までに合計500MW。',src:['pw_kairos','v_kairos']}
 ],{EN:{laufer:'Mike Laufer',peterson:'Per Peterson'},WEB:{kairos:'https://kairospower.com'},WIKI:{kairos:'https://en.wikipedia.org/wiki/Kairos_Power'}});
 
 DATA.xenergy=mk('xenergy','X-energy',[
  {id:'xenergy',name:'X-energy',kind:'c',from:2009,desc:'米メリーランド州の小型原子炉(Xe-100、1基80MW)の会社。2009年創業。'},
  {id:'sell',name:'クレイ・セル',kind:'p',from:2017,role:'CEO',desc:'CEO。元米国エネルギー省の副長官。'},
- {id:'griffin',name:'ケン・グリフィン',kind:'i',from:2024,role:'2024年10月 出資',desc:'ヘッジファンドCitadelの創業者。2024年10月の5億ドルの調達に参加。',src:['pw_xe']},
- {id:'energynw',name:'Energy Northwest',kind:'o',from:2024,role:'ワシントン州の電力会社連合',desc:'Amazonと組んで、ワシントン州リッチランドの近くにXe-100を4基(約320MW、最大960MW)建てる計画。',src:['pw_xe']}
+ {id:'griffin',name:'ケン・グリフィン',kind:'i',from:2024,role:'2024年10月 出資',desc:'ヘッジファンドCitadelの創業者。2024年10月の5億ドルの調達に参加。',src:['pw_xe','v_xe']},
+ {id:'energynw',name:'Energy Northwest',kind:'o',from:2024,role:'ワシントン州の電力会社連合',desc:'Amazonと組んで、ワシントン州リッチランドの近くにXe-100を4基(約320MW、最大960MW)建てる計画。',src:['pw_xe','v_xe']}
 ],[
- {a:'amazon',b:'xenergy',k:'invest',label:'5億ドルの調達を主導',since:2024,d:'2024年10月16日、Amazonの基金(Climate Pledge Fund)が5億ドルの調達の中心の出資者に。Amazonは2039年までに米国でX-energyの原子炉を最大5GW導入する目標を掲げました。',src:['pw_xe']},
- {a:'amazon',b:'energynw',k:'deal',label:'Xe-100 4基',since:2024,d:'AmazonがEnergy Northwestと、Xe-100を4基(約320MW)建てる契約。',src:['pw_xe']},
- {a:'energynw',b:'xenergy',k:'deal',label:'原子炉を導入',since:2024,d:'ワシントン州でXe-100を導入。',src:['pw_xe']}
+ {a:'amazon',b:'xenergy',k:'invest',label:'5億ドルの調達を主導',since:2024,d:'2024年10月16日、Amazonの基金(Climate Pledge Fund)が5億ドルの調達の中心の出資者に。Amazonは2039年までに米国でX-energyの原子炉を最大5GW導入する目標を掲げました。',src:['pw_xe','v_xe']},
+ {a:'amazon',b:'energynw',k:'deal',label:'Xe-100 4基',since:2024,d:'AmazonがEnergy Northwestと、Xe-100を4基(約320MW)建てる契約。',src:['pw_xe','v_xe']},
+ {a:'energynw',b:'xenergy',k:'deal',label:'原子炉を導入',since:2024,d:'ワシントン州でXe-100を導入。',src:['pw_xe','v_xe']}
 ],{EN:{sell:'Clay Sell',griffin:'Ken Griffin'},WEB:{xenergy:'https://x-energy.com'},WIKI:{xenergy:'https://en.wikipedia.org/wiki/X-energy'}});
 
 DATA.cfs=mk('cfs','Commonwealth Fusion Systems',[
  {id:'cfs',name:'Commonwealth Fusion Systems',kind:'c',from:2018,desc:'MIT発の核融合の会社(2018年創業)。ボストン近郊で試験炉SPARCを建設中(2026年稼働、2027年に科学的な損益分岐をめざす)。最初の発電所ARCはバージニア州に建てる計画。調達額は累計約30億ドルで、核融合の会社で最多。'},
  {id:'mumgaard',name:'ボブ・マムガード',kind:'p',from:2018,founder:1,role:'共同創業者 / CEO',desc:'共同創業者でCEO。'},
- {id:'nventures',name:'NVentures(Nvidia)',kind:'i',from:2025,role:'2025年8月 出資',desc:'2025年8月の8億6,300万ドルの調達(シリーズB2)に参加。',src:['pw_cfs863']},
- {id:'bev',name:'Breakthrough Energy Ventures',kind:'i',from:2018,role:'出資者',desc:'ビル・ゲイツ氏が作った気候技術の投資ファンド。',src:['pw_cfs863']},
- {id:'eni',name:'Eni',kind:'i',from:2018,role:'出資者',desc:'イタリアのエネルギー大手。2025年8月の調達で持ち分を増やしました。',src:['pw_cfs863']}
+ {id:'nventures',name:'NVentures(Nvidia)',kind:'i',from:2025,role:'2025年8月 出資',desc:'2025年8月の8億6,300万ドルの調達(シリーズB2)に参加。',src:['pw_cfs863','v_cfs']},
+ {id:'bev',name:'Breakthrough Energy Ventures',kind:'i',from:2018,role:'出資者',desc:'ビル・ゲイツ氏が作った気候技術の投資ファンド。',src:['pw_cfs863','v_cfs']},
+ {id:'eni',name:'Eni',kind:'i',from:2018,role:'出資者',desc:'イタリアのエネルギー大手。2025年8月の調達で持ち分を増やしました。',src:['pw_cfs863','v_cfs']}
 ],[
  {a:'google',b:'cfs',k:'deal',label:'ARCから200MW+出資',since:2025,d:'2025年6月30日、バージニア州チェスターフィールドに建てる初の商用炉ARCから200MWを買う契約。核融合の電力の企業による購入として最大。あわせて2回目の出資。',src:['pw_cfsg']},
- {a:'google',b:'cfs',k:'invest',label:'出資(2021年〜)',since:2021,d:'2025年8月の調達にも参加。',src:['pw_cfs863']},
+ {a:'google',b:'cfs',k:'invest',label:'出資(2021年〜)',since:2021,d:'2025年8月の調達にも参加。',src:['pw_cfs863','v_cfs']},
  {a:'nventures',b:'nvidia',k:'owns',label:'投資部門'}
 ],{EN:{mumgaard:'Bob Mumgaard'},WEB:{cfs:'https://cfs.energy'},WIKI:{cfs:'https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems'}});
 
@@ -35609,7 +35609,7 @@ DATA.talen=mk('talen','Talen Energy',[
  {id:'mcfarland',name:'マック・マクファーランド',kind:'p',from:2023,role:'社長兼CEO',desc:'社長兼CEO。'},
  {id:'cumulus',name:'Cumulus データセンター用地',kind:'o',from:2024,role:'2024年にAWSへ売却',desc:'サスケハナ原発に隣接する960MWのデータセンター用地。2024年にAWSへ売却。',src:['pw_talen']}
 ],[
- {a:'amazon',b:'talen',k:'deal',label:'原子力 1,920MW(2042年まで)',since:2025,d:'2025年6月、サスケハナ原発から1,920MWをAmazonのデータセンターに送る契約(2042年まで、延長あり。2032年までに全量)。金額は非公表。前年に隣の用地Cumulusも売却。',src:['pw_talen']},
+ {a:'amazon',b:'talen',k:'deal',label:'原子力 1,920MW(2042年まで)',since:2025,d:'2025年6月、サスケハナ原発から1,920MWをAmazonのデータセンターに送る契約(2042年まで、延長あり。2032年までに全量)。金額は非公表。前年に隣の用地Cumulusも売却。',src:['pw_talen','v_talen']},
  {a:'talen',b:'cumulus',k:'owns',label:'売却'},
  {a:'amazon',b:'cumulus',k:'owns',label:'2024年に取得'}
 ],{EN:{mcfarland:'Mac McFarland'},WEB:{talen:'https://www.talenenergy.com'},WIKI:{talen:'https://en.wikipedia.org/wiki/Talen_Energy'}});
@@ -35634,17 +35634,17 @@ DATA.iren=mk('iren','IREN',[
  {id:'droberts',name:'ダニエル・ロバーツ',kind:'p',from:2018,founder:1,role:'共同創業者 / 共同CEO',desc:'兄弟で創業した共同CEO。'},
  {id:'wroberts',name:'ウィル・ロバーツ',kind:'p',from:2018,founder:1,role:'共同創業者 / 共同CEO',desc:'兄弟で創業した共同CEO。'}
 ],[
- {a:'microsoft',b:'iren',k:'deal',label:'AIクラウド $9.7B(5年)',since:2025,d:'2025年11月3日、5年・約97億ドルでNvidia GB300を使うAIクラウドを提供する契約。テキサス州チルドレスの拠点(約200MW)で2026年から順に稼働。代金の20%は前払い。',src:['pw_iren']},
- {a:'dell',b:'iren',k:'deal',label:'GPUなど $5.8B',since:2025,d:'Microsoft向けのGPUと周辺機器を、Dellから約58億ドルで買う契約(2026年3月から順に納入)。',src:['pw_iren']},
- {a:'nvidia',b:'iren',k:'deal',label:'GB300',since:2025,d:'Microsoft向けの設備にNvidia GB300を使います(Dell経由で購入)。',src:['pw_iren']}
+ {a:'microsoft',b:'iren',k:'deal',label:'AIクラウド $9.7B(5年)',since:2025,d:'2025年11月3日、5年・約97億ドルでNvidia GB300を使うAIクラウドを提供する契約。テキサス州チルドレスの拠点(約200MW)で2026年から順に稼働。代金の20%は前払い。',src:['pw_iren','v_iren']},
+ {a:'dell',b:'iren',k:'deal',label:'GPUなど $5.8B',since:2025,d:'Microsoft向けのGPUと周辺機器を、Dellから約58億ドルで買う契約(2026年3月から順に納入)。',src:['pw_iren','v_iren']},
+ {a:'nvidia',b:'iren',k:'deal',label:'GB300',since:2025,d:'Microsoft向けの設備にNvidia GB300を使います(Dell経由で購入)。',src:['pw_iren','v_iren']}
 ],{EN:{droberts:'Daniel Roberts',wroberts:'Will Roberts'},WEB:{iren:'https://iren.com'},WIKI:{iren:'https://en.wikipedia.org/wiki/IREN_(company)'}});
 
 DATA.applieddigital=mk('applieddigital','Applied Digital',[
  {id:'applieddigital',name:'Applied Digital',kind:'c',from:2021,desc:'米国のAI向けデータセンターの会社。もとは暗号資産のマイニング向けの施設を作っていました。ノースダコタ州エレンデールに「Polaris Forge 1」を持ちます。'},
  {id:'cummins',name:'ウェス・カミンズ',kind:'p',from:2021,role:'会長兼CEO',desc:'会長兼CEO。'},
- {id:'pf1',name:'Polaris Forge 1(ノースダコタ州)',kind:'o',from:2025,role:'400MWの拠点',desc:'CoreWeaveに3件の契約で合計400MWを貸す拠点。',src:['pw_apld']}
+ {id:'pf1',name:'Polaris Forge 1(ノースダコタ州)',kind:'o',from:2025,role:'400MWの拠点',desc:'CoreWeaveに3件の契約で合計400MWを貸す拠点。',src:['pw_apld','v_apld']}
 ],[
- {a:'coreweave',b:'applieddigital',k:'deal',label:'400MW 約$11B(約15年)',since:2025,d:'2025年5月に2件(約15年、約70億ドル)、9月に150MWを追加。Polaris Forge 1の400MWをすべてCoreWeaveに貸し、見込みの賃料は合計約110億ドル。',src:['pw_apld']},
+ {a:'coreweave',b:'applieddigital',k:'deal',label:'400MW 約$11B(約15年)',since:2025,d:'2025年5月に2件(約15年、約70億ドル)、9月に150MWを追加。Polaris Forge 1の400MWをすべてCoreWeaveに貸し、見込みの賃料は合計約110億ドル。',src:['pw_apld','v_apld']},
  {a:'applieddigital',b:'pf1',k:'owns',label:''}
 ],{EN:{cummins:'Wes Cummins'},WEB:{applieddigital:'https://www.applieddigital.com'},WIKI:{applieddigital:'https://en.wikipedia.org/wiki/Applied_Digital'}});
 
@@ -35886,17 +35886,17 @@ const DEALS={
   ['microsoft','Microsoft','Azure $250B',2019,'2019年からの主なクラウド。2025年10月の再編で、OpenAIがAzureを追加で2,500億ドル分買うと合意。同時にMicrosoftの優先権がなくなり、他社のクラウドも使えるようになりました。',['msoai']],
   ['oracle','Oracle','クラウド 約$300B',2025,'2025年夏、5年・最大4.5GW・約3,000億ドルの計算資源の購入と報じられています。Stargate(テキサス州アビリーンなど)の中心。',['oaitrack']],
   ['softbank','ソフトバンク','Stargate',2025,'2025年1月にOracle・ソフトバンクと「Stargate」を発表(10GW・5,000億ドルの目標)。のちに約7GW・4,000億ドル超の計画とされています。2025年11月には日本向けの合弁会社「SB OAI Japan」を設立。',['oaitrack','sboai']],
-  ['amazon','Amazon','AWS $38B',2025,'2025年11月、7年・380億ドルでAWSのNvidia GPU(GB200・GB300)を使う契約。',['oaiaws']],
-  ['coreweave','CoreWeave','GPU $22.4B',2025,'2025年に3回に分けて契約し、合計約224億ドルと報じられています。',['cwv']],
+  ['amazon','Amazon','AWS $38B',2025,'2025年11月、7年・380億ドルでAWSのNvidia GPU(GB200・GB300)を使う契約。(2026/11/18、OpenAIの公式発表で確認)',['oaiaws','v_oaiaws']],
+  ['coreweave','CoreWeave','GPU $22.4B',2025,'2025年に3回に分けて契約し、合計約224億ドルと報じられています。(2026/11/18、CoreWeaveの公式発表(2025/9/25)で「合計約224億ドル」で確認)',['cwv','v_oaicw']],
   ['nvidia','Nvidia','GPU 10GW → 出資$30B',2025,'2025年9月に10GW分の基本合意と、最大1,000億ドルの段階的な出資を発表。2026年2月にこの計画をやめ、300億ドルの直接出資に切り替えたと報じられています。',['nv30']],
-  ['amd','AMD','GPU 6GW',2025,'2025年10月、6GW分のGPU(MI450世代から)。OpenAIはAMD株を最大1億6,000万株(約10%)取得できる権利も得ました。最初の1GWは2026年後半から。',['oaiamd']],
+  ['amd','AMD','GPU 6GW',2025,'2025年10月、6GW分のGPU(MI450世代から)。OpenAIはAMD株を最大1億6,000万株(約10%)取得できる権利も得ました。最初の1GWは2026年後半から。',['oaiamd','v_oaiamd']],
   ['tensorwave','TensorWave','AMD GPU 457MW',2027,'2026年11月16日、AMDのMI455X(Heliosラック)で457MW分の計算資源を6年契約。米国の複数拠点で2027年前半から稼働、2028年初めに全面稼働の予定。金額は非公表。',['oaitw']],
-  ['broadcom','Broadcom','自社チップ 10GW',2025,'2025年10月、OpenAI独自のAIチップを共同開発し、10GW分を導入する契約。2026年後半から導入。',['oaiavgo']],
+  ['broadcom','Broadcom','自社チップ 10GW',2025,'2025年10月、OpenAI独自のAIチップを共同開発し、10GW分を導入する契約。2026年後半から導入。',['oaiavgo','v_oaiavgo']],
   ['cerebras','Cerebras','推論 750MW',2026,'2026年1月、応答を速くする推論用に750MW・100億ドル超の契約。2028年までに導入。',['oaicbrs']],
   ['googlecloud','Google Cloud','クラウド',2025,'2025年に供給元に追加(規模は非公表)。Microsoftだけに頼る体制が終わりました。',['oaigcp']]
  ]},
  anthropic:{note:'Anthropicは「AWS(Trainium)・Google(TPU)・Nvidia GPU」の3種類のチップを使い分けるのが特徴です。2026年にはライバルのxAIを吸収したSpaceXからもGPUを借りています。',src:['antgoog'],list:[
-  ['amazon','Amazon','AWS 最大5GW',2023,'主なクラウドと学習のパートナー。Trainium2を100万個以上使う(Project Rainier)。2026年4月、今後10年でAWSに1,000億ドル超を支払い最大5GWを確保すると合意。Amazonは最大250億ドルを追加出資(累計330億ドル)。',['antaws']],
+  ['amazon','Amazon','AWS 最大5GW',2023,'主なクラウドと学習のパートナー。Trainium2を100万個以上使う(Project Rainier)。2026年4月、今後10年でAWSに1,000億ドル超を支払い最大5GWを確保すると合意。Amazonは最大250億ドルを追加出資(累計330億ドル)。',['antaws','v_antaws']],
   ['google','Google','TPU 3.5GW',2023,'2025年10月に最大100万個のTPUを使う契約。2026年4月、Google・Broadcomと次世代TPUを複数GW(約3.5GW)追加で合意し、2027年から稼働。同社最大の計算資源の契約。',['antgoog','antaws']],
   ['broadcom','Broadcom','TPU(2026)',2026,'GoogleのTPUを設計・製造するBroadcomも、2026年4月の契約の当事者になりました。',['antgoog']],
   ['microsoft','Microsoft','Azure $30B',2025,'2025年11月、Azureで300億ドル分の計算資源を買うと合意。ClaudeはMicrosoft Foundry・Copilotでも使えるように。MicrosoftとNvidiaは出資も。',['antmsnv','antaws']],
@@ -35909,7 +35909,7 @@ const DEALS={
   ['nvidia','Nvidia','GPU 数百万基',2026,'2026年2月、複数年でBlackwell・Vera RubinのGPUを数百万基。Grace CPUの単体導入やネットワーク機器も含む提携。',['metaamd']],
   ['amd','AMD','GPU 6GW',2026,'2026年2月、最大6GW分のMI450 GPU。総額1,000億ドルを超える可能性。AMD株を最大1億6,000万株(約10%)取得できる権利付き(OpenAIと同じ形)。',['metaamd']],
   ['googlecloud','Google Cloud','クラウド $10B+',2025,'2025年8月、6年・100億ドル超のクラウド契約。',['metagoog']],
-  ['coreweave','CoreWeave','クラウド $35B',2025,'2025年9月に142億ドル、2026年4月に210億ドルを追加(2032年12月まで、Vera Rubin)。',['cwv']],
+  ['coreweave','CoreWeave','クラウド $35B',2025,'2025年9月に142億ドル、2026年4月に210億ドルを追加(2032年12月まで、Vera Rubin)。',['cwv','v_metacw1','v_metacw2']],
   ['nebius','Nebius','クラウド 最大$27B',2025,'2025年11月に30億ドル、2026年3月に最大270億ドルの契約(Vera Rubin)。',['metanbis']],
   ['oracle','Oracle','クラウド 約$20B',2025,'約200億ドルの契約と報じられています。',['metaamd']],
   ['broadcom','Broadcom','自社チップ MTIA',2023,'推論用の自社チップ「MTIA」をBroadcomと設計し、生産中。',['metaamd']]
@@ -35919,7 +35919,7 @@ const DEALS={
   ['anthropic','Anthropic','Azure $30B',2025,'2025年11月、AnthropicがAzureで300億ドル分の計算資源を買うと合意。Microsoftは出資も。',['antmsnv']],
   ['nscale','Nscale','最大$43.8B',2025,'2033年12月までで最大約438億ドル。2026年11月、英国の約30億ドルの計画から手を引き、テキサスの追加分も見送ったと報道。',['msneo']],
   ['nebius','Nebius','最大$17.4B',2025,'2031年までで最大約174億ドル。',['msneo']],
-  ['iren','IREN','$9.7B',2025,'2031年までで約97億ドル。テキサスの施設は工事の遅れが報じられています。',['msneo']],
+  ['iren','IREN','$9.7B',2025,'2031年までで約97億ドル。テキサスの施設は工事の遅れが報じられています。',['msneo','v_iren']],
   ['coreweave','CoreWeave','最大の顧客',2023,'2025年のCoreWeaveの売上の約67%がMicrosoftと報じられています。',['cwv']]
  ]},
  xai:{note:'xAIは2026年2月にSpaceXに吸収合併されました(合算の評価額は1.25兆ドルと報道)。メンフィスの「Colossus」は、自社で使うだけでなくAnthropic・Googleに貸す側に回っています。',src:['sxmerge'],list:[
@@ -36090,6 +36090,24 @@ function usesOverviewHtml(){
   const rows=L.map(e=>{const o=byId[e.a===CENTER?e.b:e.a];return `<li style="display:block;border-top:1px solid var(--line);padding-top:6px"><b style="color:var(--uses);min-width:0">${o.name}</b> <span class="meta">${e.since}年〜 ・ ${e.label}</span><br>${e.d}<br><small>出典: ${dealSrcHtml(e.src)}</small></li>`}).join('');
   return `<h3 style="margin:14px 0 6px;font-size:14px">${mine?'このAIを使っている会社':'この会社が使っているAI'}(${USES_ASOF}時点)</h3>${mine?`<p style="font-size:13px">${mine.note}</p>`:''}<ul class="rel">${rows}</ul><p class="note">緑の点線が「AIを使う(導入)」です。会社の公式発表で確かめたものだけを載せています。</p>`;
 }
+// 2026/11/18 確かめ直し: 報道だけだった大きな数字を、会社の公式発表・開示書類で確かめた出典(足しただけ。元の出典は残す)
+Object.assign(DS,{
+ v_oaiaws:['OpenAI公式発表(2025/11/3、7年・380億ドル)','https://openai.com/index/aws-and-openai-partnership/'],
+ v_oaiamd:['AMD公式発表(2025/10/6、6GW)','https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus','o'],
+ v_oaiavgo:['OpenAI・Broadcom公式発表(2025/10/13、10GW)','https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/'],
+ v_oaicw:['CoreWeave公式発表(2025/9/25、合計約224億ドル)','https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b'],
+ v_metacw1:['CoreWeave SEC 8-K(2025/9/30、Metaと最大約142億ドル)','https://www.sec.gov/Archives/edgar/data/1769628/000176962825000050/crwv-20250925.htm'],
+ v_metacw2:['CoreWeave公式発表(2026/4/9、Metaと約210億ドル追加)','https://coreweave.com/news/coreweave-and-meta-announce-21-billion-expanded-ai-infrastructure-agreement'],
+ v_antaws:['Anthropic公式発表(2026/4/20、10年で1,000億ドル超・最大5GW)','https://www.anthropic.com/news/anthropic-amazon-compute'],
+ v_iren:['IREN公式発表(2025/11/3、約97億ドル・Dellに約58億ドル)','https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft','o'],
+ v_apld:['Applied Digital公式発表(2025/8/29、400MW・約110億ドル)','https://d1io3yog0oux5.cloudfront.net/_eb7a87052a53c57bab4d2d2673fadaee/appliedblockchaininc/news/2025-08-29_Applied_Digital_Finalizes_Additional_150MW_Lease_128.pdf','o'],
+ v_talen:['Talen Energy SEC 8-K(2025/6/11、1,920MW・2042年まで)','https://ir.talenenergy.com/node/8676/html','f'],
+ v_kairos:['Google公式ブログ(2024/10/14、500MW)','https://blog.google/outreach-initiatives/sustainability/google-kairos-power-nuclear-energy-agreement/'],
+ v_oklo:['Switch公式発表(2024/12/18、Okloと12GW・2044年まで)','https://www.switch.com/oklo-and-switc','o'],
+ v_xe:['X-energy公式発表(2024/10/16、約5億ドル・5GW・Energy Northwest 320MW)','https://x-energy.com/media/news-releases/amazon-invests-in-x-energy-to-support-advanced-small-modular-nuclear-reactors-and-expand-carbon-free-power'],
+ v_cfs:['CFS公式発表(2025/8/28、8億6,300万ドル)','https://www.nasdaq.com/press-release/commonwealth-fusion-systems-raises-863-million-series-b2-round-accelerate','o'],
+ v_stargate:['OpenAI公式発表(2025/10/1、月90万枚のDRAMウエハー)','https://openai.com/index/samsung-and-sk-join-stargate']
+});
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
    ・出典(DS)の3番目に 'f' 'o' 's' 'r' を書くと、その印を優先する(例: x:['媒体名','URL','o'])
