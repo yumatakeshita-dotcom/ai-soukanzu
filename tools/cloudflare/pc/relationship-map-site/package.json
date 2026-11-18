@@ -1,0 +1,20 @@
+{
+  "name": "relationship-map-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hono/node-server": "^2.1.7",
+    "hono": "^4.13.18"
+  },
+  "devDependencies": {
+    "wrangler": "^4.160.1"
+  }
+}

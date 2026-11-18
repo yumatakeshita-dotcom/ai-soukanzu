@@ -1,0 +1,10 @@
+DELETE FROM person_feed WHERE q='5238174' AND url='https://www.youtube.com/watch?v=q8miqVUyh7w';
+INSERT INTO person_feed VALUES ('5238174','2026-11-15','YouTube: All-In','David Sacks: Who Risked Jail to Take Down Jensen Huang?','https://www.youtube.com/watch?v=q8miqVUyh7w','出演(YouTube)');
+DELETE FROM person_feed WHERE q='5238174' AND url='https://www.youtube.com/watch?v=3zW2X9OXxC0';
+INSERT INTO person_feed VALUES ('5238174','2026-11-14','YouTube: All-In','David Sacks on Jensen’s Exit: China Wins, America Loses','https://www.youtube.com/watch?v=3zW2X9OXxC0','出演(YouTube)');
+DELETE FROM person_feed WHERE q='5238174' AND url='https://www.youtube.com/watch?v=itURTIZOqIA';
+INSERT INTO person_feed VALUES ('5238174','2026-11-08','YouTube: All-In','David Sacks: Trump Must End the Iran War to Save His Second Term','https://www.youtube.com/watch?v=itURTIZOqIA','出演(YouTube)');
+DELETE FROM person_feed WHERE q='56248473' AND url='https://www.youtube.com/watch?v=Wp9cMpw3ujM';
+INSERT INTO person_feed VALUES ('56248473','2026-11-07','YouTube: No Priors','Vlad Tenev on Private Investing','https://www.youtube.com/watch?v=Wp9cMpw3ujM','出演(YouTube)');
+DELETE FROM person_feed WHERE q='56248473' AND url='https://www.youtube.com/watch?v=yULk8eNa2mg';
+INSERT INTO person_feed VALUES ('56248473','2026-11-05','YouTube: No Priors','Tokenization, Agentic Trading, Harmonic: Robinhood''s Mission to Expand Ownership with CEO Vlad Tenev','https://www.youtube.com/watch?v=yULk8eNa2mg','出演(YouTube)');

@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS person_alias (q TEXT, alias TEXT);
+CREATE INDEX IF NOT EXISTS i_palias ON person_alias(q);
+DELETE FROM person_alias;
+INSERT INTO person_alias VALUES ('1193093','ホリエモン');
+INSERT INTO person_alias VALUES ('418622','モリゾウ');
+INSERT INTO person_alias VALUES ('5366748','ミッキー');
+INSERT INTO person_alias VALUES ('5366748','三木谷');
+INSERT INTO person_alias VALUES ('305177','ジェンセン・ファン');
+INSERT INTO person_alias VALUES ('305177','ジェンスン・ファン');
+INSERT INTO person_alias VALUES ('305177','ジェンセン・フアン');
+INSERT INTO person_alias VALUES ('36215','ザッカーバーク');
+INSERT INTO person_alias VALUES ('36215','ザック');
+INSERT INTO person_alias VALUES ('1137062','馬雲');
+INSERT INTO person_alias VALUES ('1137062','ジャック・マー');
+INSERT INTO person_alias VALUES ('131847088','リャン・ウェンフォン');
+INSERT INTO person_alias VALUES ('900000002','おざーん');

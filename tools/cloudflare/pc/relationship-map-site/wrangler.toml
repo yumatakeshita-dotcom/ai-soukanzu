@@ -1,0 +1,12 @@
+name = "kigyo-hito-tsunagari"
+main = "src/worker.mjs"
+compatibility_date = "2026-11-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "houjin"
+database_id = "20d760a8-8e71-4cef-bc4b-71631888785b"
