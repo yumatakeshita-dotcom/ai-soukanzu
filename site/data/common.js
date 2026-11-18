@@ -213,7 +213,7 @@ function cmRun(){
   GRP.forEach(([k,h])=>{const L=groups[k];if(!L.length)return;memo.push(`■ ${h}(${L.length})`);L.slice(0,5).forEach(r=>memo.push(`・${G.nodes[r.x].n}: ${r.ea.map(cmSentence).join('、')} / ${r.eb.map(cmSentence).join('、')}`))});
   if(P.len>1&&P.paths[0])memo.push(`■ 最短ルート(${P.len}ステップ)`,'・'+P.paths[0].map(x=>G.nodes[x].n).join(' → '));
   memo.push('※ 相関図に載っている範囲の情報です。連絡の前に、最新の状況を確かめてください。');
-  out.innerHTML=`<div class="cm-sum">
+  out.innerHTML=`<div class="row" style="margin:12px 0 0;gap:8px;flex-wrap:wrap"><button type="button" id="cmbrief" style="font-weight:700;border-color:var(--active);color:var(--active)">${cmEsc(B)} の営業資料(1枚)を作る ▸</button><span class="meta" style="font-size:12px">だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典を1枚に。印刷・PDF保存ができます</span></div><div class="cm-sum">
      <div><b>${direct.length}</b><small>直接のつながり</small></div>
      <div><b>${groups.person.length}</b><small>共通の人物</small></div>
      <div><b>${groups.investor.length}</b><small>共通の出資者</small></div>
@@ -226,6 +226,7 @@ function cmRun(){
    <section class="cm-g"><h3>営業メモ</h3><p>そのまま社内のメモやメールの下書きに貼れます。</p><textarea id="cmmemo" aria-label="営業メモ">${cmEsc(memo.join('\n'))}</textarea>
      <div class="row" style="margin-top:6px"><button type="button" id="cmcp">メモをコピー</button><span id="cmcpm" class="meta" style="font-size:12px"></span></div></section>
    <p class="note" style="margin-top:16px">データは企業の相関図(${Object.keys(DATA).filter(c=>COMPANIES[c]).length.toLocaleString()}社の図、${G.nodes.length.toLocaleString()}の人と会社、${G.edges.length.toLocaleString()}本の線)です。会社名をクリックすると、その会社の相関図を開きます。相関図に載っていない関係は出ません。</p>`;
+  document.getElementById('cmbrief').addEventListener('click',()=>cmShowBrief(s,t));
   document.getElementById('cmcp').addEventListener('click',()=>{const ta=document.getElementById('cmmemo');const m=document.getElementById('cmcpm');
     (navigator.clipboard?navigator.clipboard.writeText(ta.value):Promise.reject()).then(()=>{m.textContent='コピーしました'}).catch(()=>{ta.select();m.textContent='選択しました。コピーしてください'})});
 }
@@ -233,3 +234,144 @@ function cmRun(){
 function commonBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';if(!nm)return '';
   return `<div class="links"><a href="#" id="gocommon"><b>${cmEsc(nm)}と、ほかの会社の共通のつながりを探す ▸</b></a><small style="display:block;color:var(--muted)">共通の出資者・人物・取引先と最短ルート(営業先との接点探しに)</small></div>`}
 function wireCommon(){const g=document.getElementById('gocommon');if(g)g.addEventListener('click',ev=>{ev.preventDefault();const nm=COMPANIES[comp].name;showCommon(nm,commonA&&commonA!==nm?commonA:'');setTimeout(()=>{const b=document.getElementById('cmb');if(b&&!b.value)b.focus()},50)})}
+
+/* ===== 営業先ごとの1枚資料(2026/11/18追加) =====
+   「共通のつながり」の結果を、営業先1社ぶんの1枚の資料にまとめる。
+   だれに会うか・紹介を頼める人・共通の出資者と取引先・最近のニュース・最初のひとこと(案)・出典。
+   印刷すると、この資料だけがA4の1枚に出る(PDFで保存もできる)。テキストのコピーと .txt の保存もできる。
+   データは持たず、本体の相関図(DATA)・最近の変化(UPDATES)・ニュース(YNEWS/GNEWS)からその場で作る。 */
+/* 役職から、営業で会う順番を決める(小さいほど先) */
+function cmRoleRank(r){r=String(r||'');
+  if(/事業開発|ビジネス開発|BD|提携|パートナー|アライアンス|営業|セールス|CRO|売上|渉外/i.test(r))return 0;
+  if(/CEO|社長|代表|会長|創業|President|Founder/i.test(r))return 1;
+  if(/COO|CTO|CFO|CPO|CSO|CMO|最高|Chief|執行役員|事業部長|本部長|責任者|Head|VP/i.test(r))return 2;
+  if(/取締役|Board|社外/i.test(r))return 3;return 4}
+/* 営業先の会社の図から、いまいる人(元〜 と退任した人は除く) */
+function cmStaffOf(code){if(!code||!DATA[code])return[];let d;try{d=DATA[code]()}catch(e){return[]}
+  return d.N.filter(n=>n.kind==='p'&&n.id!==d.center&&!n.to&&!/^元/.test(n.role||''))
+    .map(n=>({n:n.name,en:(d.EN&&d.EN[n.id])||'',role:n.role||'',x:(d.X&&d.X[n.id])||'',li:(d.LINKS&&d.LINKS[n.id])||null,rk:cmRoleRank(n.role)}))
+    .sort((a,b)=>a.rk-b.rk)}
+/* 人の点(CG)の、ある会社での役職 */
+function cmRoleAt(i,coName){const o=CG.nodes[i];const r=(o.r||[]).find(x=>x[0]===coName);return r?r[1]:''}
+/* 営業先の最近のニュース: 本体の「最近の変化」を先に、次にニュースの見出し */
+function cmNewsOf(code,name){const out=[];
+  if(code&&typeof UPDATES!=='undefined')UPDATES.filter(u=>u.co.includes(code)).sort((a,b)=>b.d.localeCompare(a.d)).slice(0,4).forEach(u=>out.push({d:u.d,t:u.t,s:u.src[0],u:u.src[1]}));
+  if(typeof coNews==='function'){try{coNews(name).forEach(r=>{if(out.length<6&&!out.some(o=>o.u===r[2]))out.push({d:r[0],t:r[1],s:r[3],u:r[2]})})}catch(e){}}
+  return out.sort((a,b)=>b.d.localeCompare(a.d)).slice(0,5)}
+
+function cmBriefData(s,t,usePas){
+  const G=cmBuild(),A=G.nodes[s].n,B=G.nodes[t].n,code=G.nodes[t].code;
+  const direct=cmEdgesBetween(s,t),{groups}=cmCommon(s,t,usePas),P=cmPaths(s,t,usePas,3);
+  /* 紹介を頼める人: 両方に関わった人 → いなければ最短ルートの途中の人 */
+  let intro=groups.person.slice(0,3).map(r=>({i:r.x,how:`${A}では${cmRoleAt(r.x,A)||r.ea.map(cmSentence).join('、')} / ${B}では${cmRoleAt(r.x,B)||r.eb.map(cmSentence).join('、')}`}));
+  if(!intro.length&&P.len>1){const seen=new Set();P.paths.forEach(p=>p.slice(1,-1).forEach(x=>{if(G.nodes[x].t==='p'&&!seen.has(x)&&intro.length<3){seen.add(x);intro.push({i:x,how:'最短ルートの途中: '+p.map(y=>G.nodes[y].n).join(' → ')})}}))}
+  /* 人がいないときは、共通の出資者・取引先・最短ルートの途中の会社を「紹介を頼める相手」にする */
+  if(!intro.length){const seen=new Set();
+    [['investor','両方に出資'],['deal','両方と取引・AI'],['invested','両方が出資している先'],['other','両方と関係']].forEach(([k,lb])=>groups[k].slice(0,2).forEach(r=>{if(intro.length<3&&!seen.has(r.x)){seen.add(r.x);intro.push({i:r.x,how:`${lb}: ${r.ea.map(cmSentence).join('、')} / ${r.eb.map(cmSentence).join('、')}`})}}));
+    if(!intro.length&&P.len>1)P.paths.forEach(p=>p.slice(1,-1).forEach(x=>{if(intro.length<3&&!seen.has(x)){seen.add(x);intro.push({i:x,how:'最短ルートの途中: '+p.map(y=>G.nodes[y].n).join(' → ')})}}))}
+  const staff=cmStaffOf(code);
+  const bridgeNames=new Set(groups.person.map(r=>G.nodes[r.x].n));
+  const contacts=staff.slice(0,5).map(p=>Object.assign({bridge:bridgeNames.has(p.n)},p));
+  const news=cmNewsOf(code,B);
+  /* 最初のひとこと(案)。つながりの強い順に2〜3本 */
+  const lines=[];const nm=i=>G.nodes[i].n;
+  if(groups.person[0]){const r=groups.person[0];lines.push(`${nm(r.x)}さんとのご縁でご連絡しました。${nm(r.x)}さんは${A}と${B}の両方に関わってこられたと伺っています。`)}
+  if(direct[0])lines.push(`${A}と${B}は、すでに「${cmSentence(direct[0])}」という関係があります。その延長で、次の取り組みのご相談をさせてください。`);
+  if(groups.investor[0]){const x=groups.investor[0].x;lines.push(`${A}も${B}も${nm(x)}から出資を受けているご縁で、ご挨拶できればと思っています(${nm(x)}にご紹介をお願いする形も考えています)。`)}
+  if(groups.deal[0]){const r=groups.deal[0],ks=r.ea.concat(r.eb).some(e=>e.k==='uses');lines.push(`${nm(r.x)}とは${A}も${B}もつながりがあります(${cmSentence(r.ea[0])} / ${cmSentence(r.eb[0])})。${ks?'AIの使い方':'取引'}の経験をもとに、情報交換から始められればと思います。`)}
+  if(groups.invested[0]&&lines.length<3){const x=groups.invested[0].x;lines.push(`${A}も${B}も${nm(x)}の株主という共通点があり、株主どうしとしてご挨拶できればと思います。`)}
+  if(!lines.length&&P.len>1&&P.paths[0])lines.push(`${P.paths[0].slice(1,-1).map(nm).join('・')}を通じてつながりがあると知り、ご連絡しました。`);
+  if(!lines.length)lines.push(`${B}の取り組みに関心があり、ご連絡しました。`);
+  if(news[0])lines.push(`最近の「${news[0].t.replace(/\s*[-|｜]\s*[^-|｜]*$/,'').slice(0,50)}」(${news[0].d.slice(0,7).replace('-','年')}月)も拝見しました。`);
+  /* 出典: 資料に出した線の出典と、ニュース、一次情報 */
+  const src=new Map();const addE=e=>{(e.src||[]).forEach(k=>{if(typeof DS!=='undefined'&&DS[k])src.set(DS[k][1],DS[k][0])})};
+  direct.forEach(addE);['person','investor','deal','invested'].forEach(k=>groups[k].slice(0,4).forEach(r=>r.ea.concat(r.eb).forEach(addE)));
+  news.forEach(n=>src.set(n.u,n.s.includes(n.d)?n.s:`${n.s}(${n.d})`));
+  if(code&&typeof PRIMARY!=='undefined')(PRIMARY[code]||[]).forEach(([tt,u])=>src.set(u,tt));
+  return {A,B,code,direct,groups,P,intro,contacts,news,lines:lines.slice(0,4),src:[...src].map(([u,tt])=>({u,t:tt}))};
+}
+function cmBriefText(D){const G=CG,L=[];const day=new Date().toISOString().slice(0,10);
+  L.push(`営業先の接点資料: ${D.B}`,`自分の側: ${D.A} / 作成日: ${day} / AI企業の相関図より`,'');
+  L.push('■ 紹介を頼める人');D.intro.length?D.intro.forEach(x=>L.push(`・${G.nodes[x.i].n}: ${x.how}`)):L.push('・相関図の中では見つかりませんでした');
+  L.push('■ 先方で会いたい人');D.contacts.length?D.contacts.forEach(p=>L.push(`・${p.n}${p.en?`(${p.en})`:''}: ${p.role}${p.bridge?'(共通の人物)':''}`)):L.push('・相関図に載っている人がいません');
+  if(D.direct.length){L.push('■ 直接のつながり');D.direct.forEach(e=>L.push('・'+cmSentence(e)))}
+  [['investor','共通の出資者・株主'],['deal','共通の取引先・使っているAI'],['invested','どちらも出資している会社']].forEach(([k,h])=>{const R=D.groups[k];if(!R.length)return;L.push(`■ ${h}(${R.length})`);R.slice(0,4).forEach(r=>L.push(`・${G.nodes[r.x].n}: ${r.ea.map(cmSentence).join('、')} / ${r.eb.map(cmSentence).join('、')}`))});
+  if(D.P.len>1&&D.P.paths[0])L.push(`■ 最短ルート(${D.P.len}ステップ)`,'・'+D.P.paths[0].map(x=>G.nodes[x].n).join(' → '));
+  if(D.news.length){L.push('■ 最近のニュース');D.news.forEach(n=>L.push(`・${n.d} ${n.t}(${n.s})`))}
+  L.push('■ 最初のひとこと(案)');D.lines.forEach(s=>L.push('・'+s));
+  if(D.src.length){L.push('■ 出典');D.src.forEach(x=>L.push(`・${x.t} ${x.u}`))}
+  L.push('','※ 相関図に載っている範囲の情報です。報道ベースの内容を含みます。連絡の前に、最新の状況と役職を確かめてください。');
+  return L.join('\n')}
+function cmBriefHtml(D){const G=CG,day=new Date().toISOString().slice(0,10);
+  const nm=i=>cmEsc(G.nodes[i].n);
+  const li=(arr,f,empty)=>arr.length?`<ul>${arr.map(x=>`<li>${f(x)}</li>`).join('')}</ul>`:`<p class="bf-none">${empty}</p>`;
+  const rowC=r=>`<b>${nm(r.x)}</b><br><small>${cmEsc(r.ea.map(cmSentence).join('、'))} / ${cmEsc(r.eb.map(cmSentence).join('、'))}</small>`;
+  const linkP=p=>{const L=[];if(p.x)L.push(`<a href="https://x.com/${cmEsc(p.x)}" target="_blank" rel="noopener">X</a>`);if(Array.isArray(p.li))p.li.slice(0,2).forEach(([lb,u])=>L.push(`<a href="${cmEsc(u)}" target="_blank" rel="noopener">${cmEsc(lb)}</a>`));return L.length?` <small>${L.join(' ・ ')}</small>`:''};
+  const shared=[['investor','共通の出資者・株主'],['deal','共通の取引先・AI'],['invested','どちらも出資している会社']].filter(([k])=>D.groups[k].length);
+  return `<article class="bf" id="cmbriefdoc">
+  <header class="bf-h"><div><div class="bf-eye">営業先の接点資料</div><h2>${cmEsc(D.B)}</h2><div class="bf-meta">自分の側: <b>${cmEsc(D.A)}</b> ・ 作成日 ${day} ・ AI企業の相関図より</div></div>
+    <div class="bf-sum"><span><b>${D.groups.person.length}</b>共通の人物</span><span><b>${D.groups.investor.length}</b>共通の出資者</span><span><b>${D.groups.deal.length}</b>共通の取引先</span><span><b>${D.P.len<0?'—':D.P.len}</b>最短ステップ</span></div></header>
+  <div class="bf-grid">
+    <section class="bf-s bf-key"><h3>紹介を頼める人</h3>${li(D.intro,x=>`<b>${nm(x.i)}</b><br><small>${cmEsc(x.how)}</small>`,'相関図の中では見つかりませんでした。下の共通の出資者・取引先から紹介を頼むのが近道です。')}</section>
+    <section class="bf-s bf-key"><h3>先方で会いたい人</h3>${li(D.contacts,p=>`<b>${cmEsc(p.n)}</b>${p.en?` <small>${cmEsc(p.en)}</small>`:''}${p.bridge?' <span class="bf-tag">共通の人物</span>':''}<br><small>${cmEsc(p.role)}</small>${linkP(p)}`,'この会社の相関図に、いまいる人が載っていません。')}
+      ${D.contacts.length?'<p class="bf-note">事業開発・提携の担当、経営トップの順に並べています。</p>':''}</section>
+    <section class="bf-s bf-wide"><h3>最初のひとこと(案)</h3><ol class="bf-lines">${D.lines.map(s=>`<li>${cmEsc(s)}</li>`).join('')}</ol></section>
+    ${D.direct.length?`<section class="bf-s"><h3>直接のつながり</h3>${li(D.direct.slice(0,4),e=>cmEsc(cmSentence(e))+(e.y?` <small>${cmEsc(e.y)}年〜</small>`:''),'')}</section>`:''}
+    ${shared.map(([k,h])=>`<section class="bf-s"><h3>${h} <small>${D.groups[k].length}</small></h3>${li(D.groups[k].slice(0,4),rowC,'')}${D.groups[k].length>4?`<p class="bf-note">ほか${D.groups[k].length-4}件</p>`:''}</section>`).join('')}
+    ${D.P.len>1&&D.P.paths[0]?`<section class="bf-s"><h3>最短ルート <small>${D.P.len}ステップ</small></h3><p>${D.P.paths[0].map(nm).join(' → ')}</p></section>`:''}
+    <section class="bf-s bf-wide"><h3>最近のニュース</h3>${li(D.news,n=>`<small class="bf-d">${cmEsc(n.d)}</small> <a href="${cmEsc(n.u)}" target="_blank" rel="noopener">${cmEsc(n.t.slice(0,80))}</a> <small>${cmEsc(n.s)}</small>`,'この会社のニュースは、まだ集まっていません。')}</section>
+  </div>
+  <footer class="bf-f"><h3>出典</h3>${D.src.length?`<ol>${D.src.slice(0,14).map(x=>`<li><a href="${cmEsc(x.u)}" target="_blank" rel="noopener">${cmEsc(x.t)}</a> <span class="bf-url">${cmEsc(x.u.replace(/^https?:\/\//,'').slice(0,70))}</span></li>`).join('')}</ol>`:'<p class="bf-none">出典のある線はありませんでした。</p>'}
+    <p class="bf-note">相関図に載っている範囲の情報です。報道ベースの内容を含みます。連絡の前に、最新の状況と役職を確かめてください。</p></footer>
+</article>`}
+const CM_BRIEF_CSS=`
+  .bf-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:14px 0 10px}
+  .bf-bar .bf-primary{font-weight:700;border-color:var(--fg);background:var(--fg);color:var(--bg)}
+  .bf{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:18px 20px;max-width:900px;min-width:0;overflow-wrap:anywhere;font-size:13.5px;line-height:1.55}
+  .bf h2{margin:2px 0 4px;font-size:24px;line-height:1.2}.bf h3{margin:0 0 6px;font-size:13px;letter-spacing:.04em}.bf h3 small{color:var(--muted);font-family:var(--font-mono);font-weight:400}
+  .bf-h{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 18px;border-bottom:2px solid var(--fg);padding-bottom:10px;margin-bottom:12px}
+  .bf-eye{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;color:var(--muted)}
+  .bf-meta{font-size:12px;color:var(--muted)}
+  .bf-sum{display:flex;gap:6px;flex-wrap:wrap;align-self:end}.bf-sum span{border:1px solid var(--line);border-radius:8px;padding:4px 10px;font-size:11px;color:var(--muted);text-align:center;min-width:64px}
+  .bf-sum b{display:block;font-family:var(--font-mono);font-size:18px;color:var(--fg);line-height:1.2}
+  .bf-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px 18px}
+  .bf-s{min-width:0}.bf-wide{grid-column:1/-1}
+  .bf-key{border-left:4px solid var(--active);padding-left:10px}
+  .bf ul,.bf ol{margin:0;padding-left:18px;display:grid;gap:4px}.bf small{color:var(--muted);font-size:11.5px}
+  .bf-lines{background:var(--bg);border-radius:8px;padding:8px 12px 8px 28px}
+  .bf-tag{font-size:10.5px;border:1px solid var(--active);color:var(--active);border-radius:4px;padding:0 4px}
+  .bf-note{font-size:11.5px;color:var(--muted);margin:4px 0 0}.bf-none{color:var(--muted);margin:0;font-size:12.5px}
+  .bf-f{margin-top:14px;border-top:1px solid var(--line);padding-top:8px;font-size:11.5px}.bf-f ol{gap:2px}.bf-url{color:var(--muted);font-family:var(--font-mono);font-size:10.5px}
+  .bf a{color:var(--invest)}
+  #cmprint{display:none}
+  @media (max-width:720px){.bf{padding:14px}.bf-grid{grid-template-columns:minmax(0,1fr)}.bf h2{font-size:20px}}
+  @media print{
+    @page{size:A4;margin:10mm 11mm}
+    body.cm-printing{padding:0!important;background:var(--surface)!important}
+    body.cm-printing>*:not(#cmprint){display:none!important}
+    body.cm-printing #cmprint{display:block!important}
+    #cmprint{--bg:#f2f4f6;--surface:#ffffff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--active:#0d8a79;--invest:#4a5dd0;color:var(--fg);background:var(--surface);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    #cmprint .bf{border:0;padding:0;max-width:none;font-size:10pt;line-height:1.45}
+    #cmprint .bf h2{font-size:18pt}#cmprint .bf-grid{grid-template-columns:1fr 1fr;gap:8px 14px}
+    #cmprint .bf-s,#cmprint .bf-f li{break-inside:avoid}
+    #cmprint .bf{font-size:9.2pt;line-height:1.4}#cmprint .bf small{font-size:8pt}#cmprint .bf-f{font-size:8pt;margin-top:8px}
+    #cmprint .bf-f li:nth-child(n+9),#cmprint .bf-wide ul li:nth-child(n+5),#cmprint .bf-s:not(.bf-wide):not(.bf-key) li:nth-child(n+4){display:none}
+    #cmprint .bf-f ol{grid-template-columns:1fr 1fr;column-gap:16px}#cmprint .bf-url{display:none}#cmprint .bf-grid{gap:6px 14px}#cmprint .bf-h{margin-bottom:8px;padding-bottom:6px}
+    #cmprint a{color:var(--fg);text-decoration:none}
+  }`;
+function cmShowBrief(s,t){
+  const out=document.getElementById('cmout');if(!out)return;
+  const D=cmBriefData(s,t,commonPas);const txt=cmBriefText(D);
+  if(!document.getElementById('cmbriefcss')){const st=document.createElement('style');st.id='cmbriefcss';st.textContent=CM_BRIEF_CSS;document.head.appendChild(st)}
+  out.innerHTML=`<div class="bf-bar"><button type="button" id="bfback">◂ つながりの一覧に戻る</button><button type="button" class="bf-primary" id="bfprint">印刷・PDFで保存</button><button type="button" id="bfcopy">テキストをコピー</button><button type="button" id="bfsave">テキストで保存(.txt)</button><span id="bfmsg" class="meta" style="font-size:12px"></span></div>
+    <p class="meta" style="margin:0 0 10px;font-size:12px">印刷の画面で「PDFに保存」を選ぶと、PDFにできます。A4の1枚に収まるように作っています。</p>${cmBriefHtml(D)}`;
+  const msg=m=>{document.getElementById('bfmsg').textContent=m};
+  document.getElementById('bfback').addEventListener('click',()=>{cmRun();window.scrollTo(0,0)});
+  document.getElementById('bfprint').addEventListener('click',()=>{let p=document.getElementById('cmprint');if(!p){p=document.createElement('div');p.id='cmprint';document.body.appendChild(p)}
+    p.innerHTML=cmBriefHtml(D);document.body.classList.add('cm-printing');const ttl=document.title;document.title=`接点資料_${D.B}`;
+    const done=()=>{document.body.classList.remove('cm-printing');document.title=ttl;window.removeEventListener('afterprint',done)};window.addEventListener('afterprint',done);
+    try{window.print()}catch(e){done()}});
+  document.getElementById('bfcopy').addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>msg('コピーしました')).catch(()=>msg('コピーできませんでした。保存(.txt)を使ってください'))});
+  document.getElementById('bfsave').addEventListener('click',()=>{try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=`接点資料_${D.B}.txt`.replace(/[\\/:*?"<>|]/g,'_');document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}});
+  window.scrollTo(0,0);
+}
