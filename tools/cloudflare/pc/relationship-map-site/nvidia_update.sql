@@ -1,0 +1,5 @@
+UPDATE mapco SET note='AI向けGPUの供給元で、主要なAI企業の出資者。2026年は出資の約束が400億ドルを超えたと報じられています。2026年11月12日に、共同創業者のジェンスン・フアンがCEOを辞任したと発表されました。後任の選定中は、CFOのコレット・クレスが暫定CEOを務め、取締役会は初の議長を置きました(Nvidiaの発表、CNBC)。' WHERE slug='nvidia';
+UPDATE mapco_people SET role='元CEO / 共同創業者(2026年11月辞任)',until='2026',note='共同創業者。1993年から30年以上CEOを務め、2016年にOpenAIへ最初のAIスーパーコンピューターDGXを届けました。2026年11月8日に「妻に不誠実だった」と謝罪し、11月11日に取締役会が辞任(CEOと取締役)を受理、12日に発表されました。報道では、取引先の幹部との関係や、社員との関係も指摘されています(本人は国家安全保障や社内機密を損なったことを否定、報道ベース)。後任は社内外から探すとされ、議会での証言を予定していると報じられています(CNBC、Nvidiaの8-K)。' WHERE slug='nvidia' AND en='Jensen Huang';
+UPDATE mapco_people SET role='CFO / 暫定CEO',note='2013年からNvidiaに在籍するCFO。2026年11月12日から、CFOを続けながら暫定CEOを務めます(後任が決まるまで)。アナリストは、恒久のCEOは社外から選ばれる可能性が高いとみています(CNBC)。' WHERE slug='nvidia' AND en='Colette Kress';
+DELETE FROM mapco_people WHERE slug='nvidia' AND en='Harvey Jones';
+INSERT INTO mapco_people VALUES ('nvidia','ハーベイ・ジョーンズ','Harvey Jones','取締役会議長','2026','','1993年から取締役。Synopsysの元CEO。2026年11月12日、Nvidia初の取締役会議長に就任しました(Nvidiaの発表)。');

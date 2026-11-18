@@ -1,0 +1,7 @@
+name = "kigyo-relmap"
+compatibility_date = "2026-11-01"
+
+# 相関図の公開版(静的ファイルだけ。Claudeのartifactの代わり)
+# 中身は publish_static.py が ../relationship-map-src から作る(public/ を作り直す)
+[assets]
+directory = "./public"
