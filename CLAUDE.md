@@ -49,6 +49,7 @@ docs/                 移行メモなど
 - 半導体の会社(TSMC・JASM・ASML・Samsung・SK hynix): `// ===== 半導体の相関図` の部分
 - 一次情報のリンク: `const PRIMARY={`
 - 使わない写真の一覧: `const PHBLOCK=`
+- 2社の共通のつながり(メニュー「共通のつながり」): `site/data/common.js`。データは持たず、開いたときに本体の相関図(DATA)からまとめる。2026/11/18追加
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
 
 ## 守ること
