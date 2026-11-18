@@ -36146,6 +36146,107 @@ function dealOverviewHtml(){
   return `<h3 style="margin:14px 0 6px;font-size:14px">${DEALS[comp]?'計算資源の取引':'取引関係'}(${DEAL_ASOF}時点)</h3><p style="font-size:13px">${D.note}</p>${rows?`<ul class="rel">${rows}</ul>`:'<p class="note">この年にはまだ取引の記録がありません。</p>'}<p class="note">金色の線が取引です。金額は契約の上限や報道ベースの数字を含みます。出典: ${dealSrcHtml(D.src)}</p>`;
 }
 
+// ===== 確かな版(2026年11月18日に追加) =====
+// どの会社の図でも、公式発表・開示書類で確かめた線だけを本文に、報道だけのものを「参考」に分けた資料を作る。データは持たず、開いている図(E・N)からまとめる。
+const KK_CSS=`
+#kkwrap{position:fixed;inset:0;z-index:60;background:var(--bg);overflow:auto;-webkit-overflow-scrolling:touch}
+#kkwrap .kk-in{max-width:820px;margin:0 auto;padding:16px max(16px,env(safe-area-inset-right)) 48px max(16px,env(safe-area-inset-left))}
+.kk-bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.kk-bar button{font:inherit;font-size:13px;padding:6px 12px;border-radius:6px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer}
+.kk-bar .kk-primary{border-color:var(--active);color:var(--active);font-weight:700}
+.kk-doc{background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:18px 18px 22px;overflow-wrap:anywhere}
+.kk-doc h1{font-size:22px;margin:2px 0 6px;line-height:1.35}
+.kk-doc h2{font-size:15px;margin:22px 0 8px;padding-left:8px;border-left:4px solid var(--fg)}
+.kk-doc .kk-k{font-size:12px;color:var(--muted)}
+.kk-doc .kk-lead{font-size:13px;color:var(--muted);margin:0}
+.kk-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:14px 0 4px}
+.kk-tiles div{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12px;color:var(--muted)}
+.kk-tiles b{display:block;font-size:20px;color:var(--fg)}
+.kk-it{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin:7px 0;font-size:13px;line-height:1.65}
+.kk-it .kk-h{font-weight:700;font-size:14px}
+.kk-it .kk-s{font-size:12px;color:var(--muted);margin-top:4px}
+.kk-it .kk-s a{color:inherit}
+.kk-ref .kk-it{border-style:dashed}
+.kk-doc ol{font-size:12px;padding-left:20px}
+.kk-doc ol a{color:var(--fg)}
+.kk-doc .kk-foot{font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:20px;padding-top:8px}
+@media print{
+  body.kk-printing{padding:0!important;background:#fff!important}
+  body.kk-printing>*:not(#kkwrap){display:none!important}
+  body.kk-printing #kkwrap{position:static;overflow:visible;background:#fff}
+  body.kk-printing .kk-bar,body.kk-printing .kk-note{display:none!important}
+  body.kk-printing .kk-doc{border:none;padding:0}
+  .kk-it{break-inside:avoid}
+}`;
+const KK_GROUP=[['money','お金・取引・資本関係',['deal','invest','invest2','owns','govern']],['uses','このAIを使う会社・使っているAI',['uses']],['people','人の動き・在籍',['member','from','moved']],['other','そのほかのつながり',null]];
+function kkEsc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function kkData(){
+  const name=COMPANIES[comp].name,items=[];const seen=new Set();
+  const kname=k=>({deal:'取引',invest:'出資',invest2:'出資',owns:'資本関係',govern:'信託',uses:'利用',member:'在籍・人事',from:'出身',moved:'移籍',conflict:'対立'}[k]||'つながり');
+  E.forEach(e=>{
+    const A=byId[e.a],B=byId[e.b];if(!A||!B)return;
+    const label=e.lb||e.label||'';if(!label&&!e.d)return;
+    const who=e.a===CENTER?B.name:e.b===CENTER?A.name:`${A.name} ・ ${B.name}`;
+    const key=who+'|'+e.k+'|'+label;if(seen.has(key))return;seen.add(key);
+    const src=(e.src||[]).filter(k=>DS[k]).map(k=>({t:DS[k][0],u:DS[k][1],c:dsCf(k)}));
+    items.push({who,k:e.k,kind:kname(e.k),label,d:e.d||'',since:e.since||'',cf:edgeCf(e),src});
+  });
+  // 出資者・株主の役割(持ち分など)。出典がある人物・会社だけ
+  N.forEach(n=>{if(n.id===CENTER||!n.role)return;const c=nodeCf(n);if(!c)return;if(!/%|株|出資|持ち分|株主/.test(n.role+(n.desc||'')))return;const st=v=>v==='o'||v==='f';if(items.some(x=>x.who===n.name&&x.label===n.role||x.who===n.name&&st(x.cf)&&st(c)))return;
+    const src=(n.src||[]).filter(k=>DS[k]).map(k=>({t:DS[k][0],u:DS[k][1],c:dsCf(k)}));
+    items.push({who:n.name,k:'invest',kind:'株主・出資者',label:n.role,d:n.desc||'',since:'',cf:c,src})});
+  const ups=(typeof UPDATES!=='undefined'?UPDATES:[]).filter(u=>u.co&&u.co.includes(comp)).map(u=>({d:u.d,t:u.t,src:u.src,cf:CFJA[u.cf]||srcCf(u.src[0],u.src[1])}));
+  const strong=x=>x.cf==='o'||x.cf==='f';
+  const sortf=(a,b)=>(CFRANK[b.cf]||0)-(CFRANK[a.cf]||0)||(+b.since||0)-(+a.since||0);
+  const body=items.filter(strong).sort(sortf),ref=items.filter(x=>x.cf&&!strong(x)).sort(sortf),none=items.filter(x=>!x.cf).length;
+  const srcs=[];const sidx=u=>{let i=srcs.findIndex(s=>s.u===u.u);if(i<0){srcs.push(u);i=srcs.length-1}return i+1};
+  body.forEach(x=>{x.n=x.src.filter(s=>s.c==='o'||s.c==='f').concat(x.src.filter(s=>!(s.c==='o'||s.c==='f'))).slice(0,3).map(sidx)});
+  const bup=ups.filter(strong),rup=ups.filter(u=>!strong(u));
+  bup.forEach(u=>{u.n=[sidx({t:u.src[0],u:u.src[1],c:u.cf})]});
+  return {name,asof:typeof LAST_CHECK!=='undefined'?LAST_CHECK.replace(/^(\d+)-0?(\d+)-0?(\d+)$/,'$1年$2月$3日'):'',body,ref,none,bup,rup,srcs,
+    cnt:{o:body.filter(x=>x.cf==='o').length,f:body.filter(x=>x.cf==='f').length,r:ref.length}};
+}
+function kkGroups(L){return KK_GROUP.map(([id,t,ks])=>[t,L.filter(x=>ks?ks.includes(x.k):!KK_GROUP.some(g=>g[2]&&g[2].includes(x.k)))]).filter(g=>g[1].length)}
+function kkHtml(D){
+  const it=x=>`<div class="kk-it"><div><span class="kk-h">${kkEsc(x.who)}</span> ${cfBadge(x.cf)} <span class="kk-k">${kkEsc(x.kind)}${x.since?' ・ '+kkEsc(x.since)+'年〜':''}</span></div>${x.label?`<div><b>${kkEsc(x.label)}</b></div>`:''}${x.d?`<div>${kkEsc(x.d)}</div>`:''}${x.n&&x.n.length?`<div class="kk-s">出典 ${x.n.map(i=>'['+i+']').join(' ')}</div>`:''}</div>`;
+  const rit=x=>`<div class="kk-it"><div><span class="kk-h">${kkEsc(x.who)}</span> ${cfBadge(x.cf)} <span class="kk-k">${kkEsc(x.kind)}${x.since?' ・ '+kkEsc(x.since)+'年〜':''}</span></div>${x.label?`<div><b>${kkEsc(x.label)}</b></div>`:''}${x.src.length?`<div class="kk-s">出典: ${x.src.slice(0,2).map(s=>`<a href="${kkEsc(s.u)}" target="_blank" rel="noopener">${kkEsc(s.t)}</a>`).join(' / ')}</div>`:''}</div>`;
+  const grp=(L,f)=>kkGroups(L).map(([t,l])=>`<h2>${t}</h2>${l.map(f).join('')}`).join('');
+  return `<div class="kk-doc">
+<div class="kk-k">AI企業の相関図 ・ 確かな版</div>
+<h1>${kkEsc(D.name)}<br>公式発表・開示で確かめたつながり</h1>
+<p class="kk-lead">${kkEsc(D.asof)}時点。会社・政府の発表(公式)と法定の書類・投資家向け資料(開示)で確かめられたものだけを本文に載せ、報道だけのものは最後に「参考」として分けています。</p>
+<div class="kk-tiles"><div><b>${D.cnt.o}</b>${cfBadge('o')}公式で確認</div><div><b>${D.cnt.f}</b>${cfBadge('f')}開示で確認</div><div><b>${D.cnt.r}</b>参考(報道・本人・推定)</div>${D.bup.length?`<div><b>${D.bup.length}</b>最近の変化(公式・開示)</div>`:''}</div>
+${D.body.length?grp(D.body,it):'<p class="kk-lead" style="margin-top:14px">この会社の図には、公式発表・開示書類で確かめた線がまだありません。下の「参考」が今わかっていることです。</p>'}
+${D.bup.length?`<h2>最近の変化(公式・開示)</h2>${D.bup.map(u=>`<div class="kk-it"><span class="kk-k">${kkEsc(u.d)}</span> ${cfBadge(u.cf)}<div>${kkEsc(u.t)}</div><div class="kk-s">出典 [${u.n[0]}]</div></div>`).join('')}`:''}
+${D.ref.length||D.rup.length?`<section class="kk-ref"><h2>参考:報道などだけのもの(まだ確かめていない)</h2><p class="kk-lead">会社の発表や開示書類では、まだ確かめられていません。確かめられたら本文に移します。</p>${D.ref.map(rit).join('')}${D.rup.map(u=>`<div class="kk-it"><span class="kk-k">${kkEsc(u.d)}</span> ${cfBadge(u.cf)}<div>${kkEsc(u.t)}</div><div class="kk-s">出典: <a href="${kkEsc(u.src[1])}" target="_blank" rel="noopener">${kkEsc(u.src[0])}</a></div></div>`).join('')}</section>`:''}
+${D.srcs.length?`<h2>出典</h2><ol>${D.srcs.map(s=>`<li>${cfBadge(s.c)}<a href="${kkEsc(s.u)}" target="_blank" rel="noopener">${kkEsc(s.t)}</a><br><small>${kkEsc(s.u)}</small></li>`).join('')}</ol>`:''}
+<p class="kk-foot">この資料は「AI企業の相関図」のデータから自動で作りました。${D.none?`出典の付いていない線(${D.none}本、主に在籍の人物)は載せていません。`:''}数字は各出典の発表時点のもので、契約の多くは「最大」や「計画」の値です。判断に使うときは、必ず出典の原文を確かめてください。</p>
+</div>`;
+}
+function kkText(D){
+  const L=[`${D.name} 確かな版(公式発表・開示で確かめたつながり) ${D.asof}時点`,''];
+  kkGroups(D.body).forEach(([t,l])=>{L.push('■ '+t);l.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}${x.since?'・'+x.since+'年〜':''}) ${x.label}${x.d?'\n  '+x.d:''}${x.n&&x.n.length?'\n  出典 '+x.n.map(i=>'['+i+']').join(''):''}`));L.push('')});
+  if(D.bup.length){L.push('■ 最近の変化(公式・開示)');D.bup.forEach(u=>L.push(`・${u.d} ${u.t} [${u.n[0]}]`));L.push('')}
+  if(D.ref.length||D.rup.length){L.push('■ 参考:報道などだけのもの(まだ確かめていない)');D.ref.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}) ${x.label}`));D.rup.forEach(u=>L.push(`・${u.d} ${u.t}(${CFL[u.cf]?CFL[u.cf].t:''})`));L.push('')}
+  if(D.srcs.length){L.push('■ 出典');D.srcs.forEach((s,i)=>L.push(`[${i+1}] ${s.t} ${s.u}`))}
+  L.push('','AI企業の相関図のデータから自動で作成。数字は発表時点のもので、契約の多くは上限・計画の値です。');
+  return L.join('\n');
+}
+function kkShow(){
+  if(!document.getElementById('kkcss')){const st=document.createElement('style');st.id='kkcss';st.textContent=KK_CSS;document.head.appendChild(st)}
+  const D=kkData(),txt=kkText(D);let w=document.getElementById('kkwrap');if(!w){w=document.createElement('div');w.id='kkwrap';w.setAttribute('role','dialog');w.setAttribute('aria-label','確かな版');document.body.appendChild(w)}
+  w.innerHTML=`<div class="kk-in"><div class="kk-bar"><button type="button" id="kkclose">◂ 相関図に戻る</button><button type="button" class="kk-primary" id="kkprint">印刷・PDFで保存</button><button type="button" id="kkcopy">テキストをコピー</button><button type="button" id="kksave">テキストで保存(.txt)</button><span id="kkmsg" class="meta" style="font-size:12px"></span></div><p class="meta kk-note" style="margin:0 0 10px;font-size:12px">印刷の画面で「PDFに保存」を選ぶと、PDFにできます。</p>${kkHtml(D)}</div>`;
+  w.style.display='block';w.scrollTop=0;document.documentElement.style.overflow='hidden';
+  const msg=m=>{document.getElementById('kkmsg').textContent=m};
+  document.getElementById('kkclose').addEventListener('click',()=>{w.style.display='none';document.documentElement.style.overflow=''});
+  document.getElementById('kkprint').addEventListener('click',()=>{document.body.classList.add('kk-printing');const ttl=document.title;document.title=`確かな版_${D.name}`;
+    const done=()=>{document.body.classList.remove('kk-printing');document.title=ttl;window.removeEventListener('afterprint',done)};window.addEventListener('afterprint',done);try{window.print()}catch(e){done()}});
+  document.getElementById('kkcopy').addEventListener('click',()=>{(navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject()).then(()=>msg('コピーしました')).catch(()=>msg('コピーできませんでした。保存(.txt)を使ってください'))});
+  document.getElementById('kksave').addEventListener('click',()=>{try{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'text/plain;charset=utf-8'}));a.download=`確かな版_${D.name}.txt`.replace(/[\\/:*?"<>|]/g,'_');document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500);msg('保存しました')}catch(e){msg('保存できませんでした')}});
+}
+function kkBtn(){return COMPANIES[comp]?`<div class="links"><a href="#" id="gokk"><b>確かな版を作る(公式・開示の数字だけの資料) ▸</b></a></div>`:''}
+function wireKk(){const g=document.getElementById('gokk');if(g)g.addEventListener('click',ev=>{ev.preventDefault();kkShow()})}
+
 // ===== 大手どうしの抜けていた線(2026年11月18日に追加) =====
 // 両方とも相関図がある大手どうしで、公式発表や信頼できる報道で確かめたのに線がなかったものを、両方の会社の図に足す。
 // 例: ソニーはJASMの出資者なのに線がなく、「共通のつながり」でソニー⇄TSMCが遠回りになっていた。既存の線と重なるものは足さない。
@@ -36497,8 +36598,8 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${acqBtn()}${vcBtn()}${commonBtn()}`;
-  wireAcq();wireVc();wireCommon();
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
+  wireAcq();wireVc();wireCommon();wireKk();
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
 function acqBtn(){const a=ACQ[comp];return a&&a.length?`<div class="links"><a href="#" id="goacq"><b>${COMPANIES[comp].name}が買収・子会社化した会社(${a.length}社)を見る ▸</b></a></div>`:''}
