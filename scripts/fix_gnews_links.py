@@ -1,13 +1,17 @@
 """Googleニュースの転送リンク(news.google.com/rss/articles/...)を元の記事のURLに置き換える。
 
-使い方:
+使い方(ふだんはこれだけ):
+  python3 scripts/fix_gnews_links.py --auto
+    まだ直していないGoogleニュースのリンクを探し、行き先を調べて置き換える(毎朝9:13の定期タスクで実行)
+
+手で分けてやるとき:
   1. node scripts/resolve_gnews.js <URL一覧.txt> <結果.jsonl>   # ブラウザで開いて転送先を記録する
   2. python3 scripts/fix_gnews_links.py <結果.jsonl>            # 下のファイルのリンクを置き換える
 
 - 転送先がわかったものだけ置き換える。わからなかったものは今のリンクのまま残す(消さない)
 - わかった対応は scripts/gnews_map.json に足していく(次回の更新でも使える)
 """
-import json, os, re, sys
+import json, os, re, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAP = os.path.join(ROOT, "scripts", "gnews_map.json")
@@ -18,11 +22,33 @@ BAD = re.compile(r'["\\<>\s]')
 
 def ok(u):
     return (u and u.startswith(("https://", "http://")) and not BAD.search(u)
-            and "google.com" not in u.split("/")[2] and len(u) < 2000)
+            and not re.search(r"(^|\.)google\.com$", u.split("/")[2]) and len(u) < 2000)
+
+def auto():
+    """まだ直していないリンクを集めて resolve_gnews.js で調べ、その結果で置き換える"""
+    m = json.load(open(MAP)) if os.path.exists(MAP) else {}
+    urls = set()
+    for t in TARGETS:
+        f = os.path.join(ROOT, t)
+        if os.path.exists(f):
+            urls.update(u for u in GN.findall(open(f, encoding="utf-8").read()) if u not in m)
+    if not urls:
+        print("直すリンクはありません")
+        return []
+    d = tempfile.mkdtemp()
+    lst, out = os.path.join(d, "urls.txt"), os.path.join(d, "out.jsonl")
+    open(lst, "w").write("\n".join(sorted(urls)) + "\n")
+    print(f"調べるリンク: {len(urls)} 件")
+    # ブラウザの道具は、作業フォルダの外から読み込む(手元に入れた古い版とぶつからないように)
+    subprocess.run(["node", os.path.join(ROOT, "scripts", "resolve_gnews.js"), lst, out, "6"], cwd=d, check=False)
+    return [out] if os.path.exists(out) else []
 
 def main():
     m = json.load(open(MAP)) if os.path.exists(MAP) else {}
-    for p in sys.argv[1:]:
+    args = sys.argv[1:]
+    if args == ["--auto"]:
+        args = auto()
+    for p in args:
         for line in open(p, encoding="utf-8"):
             line = line.strip()
             if not line:
