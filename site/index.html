@@ -152,7 +152,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="finds">調査の新着</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -36277,6 +36277,57 @@ function kkShow(){
 function kkBtn(){return COMPANIES[comp]?`<div class="links"><a href="#" id="gokk"><b>確かな版を作る(公式・開示の数字だけの資料) ▸</b></a></div>`:''}
 function wireKk(){const g=document.getElementById('gokk');if(g)g.addEventListener('click',ev=>{ev.preventDefault();kkShow()})}
 
+// ===== 確かさの一覧(2026年11月18日に追加) =====
+// 全社の「公式・開示で確かめた割合」を並べる。データは持たず、開いたときに各社の図(DATA)から確かな版と同じ数え方でまとめる。
+let cfListSort='pct';
+function cfListRows(){
+  const keep={comp,N,E,byId,CENTER};const rows=[];
+  Reflect.ownKeys(COMPANIES).forEach(k=>{if(typeof k!=='string'||k.startsWith('__')||!DATA[k])return;
+    try{const d=DATA[k]();comp=k;N=d.N;E=d.E;CENTER=d.center;byId=Object.fromEntries(N.map(n=>[n.id,n]));
+      const D=kkData();const tot=D.cnt.o+D.cnt.f+D.cnt.r;if(!tot)return;
+      rows.push({k,name:D.name,o:D.cnt.o,f:D.cnt.f,r:D.cnt.r,tot,pct:D.pct})}catch(e){}});
+  ({comp,N,E,byId,CENTER}=keep);return rows;
+}
+function showCfList(){
+  stop();leavePerson();ctrail=[];
+  MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
+  document.querySelectorAll('#tabs button').forEach(b=>b.setAttribute('aria-pressed','false'));
+  document.getElementById('title').textContent='確かさの一覧(公式で確かめた割合)';document.title='確かさの一覧';
+  document.getElementById('note').textContent='';
+  FEEDEL.innerHTML='<p class="meta" style="padding:20px 0">各社の図を数えています…</p>';
+  setTimeout(()=>{const rows=cfListRows();cfListRender(rows)},30);
+}
+function cfListRender(rows){
+  const S={pct:(a,b)=>b.pct-a.pct||b.tot-a.tot,tot:(a,b)=>b.o+b.f-(a.o+a.f)||b.pct-a.pct,r:(a,b)=>b.r-a.r||a.pct-b.pct};
+  rows.sort(S[cfListSort]);
+  const all={ok:rows.reduce((s,x)=>s+x.o+x.f,0),tot:rows.reduce((s,x)=>s+x.tot,0)};const allPct=all.tot?Math.round(all.ok*100/all.tot):0;
+  const hi=rows.filter(x=>x.pct>=60&&x.tot>=5).length;
+  FEEDEL.innerHTML=`<style>
+  .cfl-top{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 12px}
+  .cfl-top div{border:1px solid var(--line);border-radius:10px;padding:8px 12px;background:var(--surface);min-width:0}
+  .cfl-top b{display:block;font-size:26px;line-height:1.15;font-variant-numeric:tabular-nums}.cfl-top small{color:var(--muted);font-size:12px}
+  .cfl-top .main b{color:var(--active)}
+  .cfl-bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 10px;font-size:13px}
+  .cfl-bar button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+  .cfl{list-style:none;margin:0;padding:0;display:grid;gap:6px;max-width:900px}
+  .cfl li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 10px;align-items:center;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--surface)}
+  .cfl .nm{font-weight:700;min-width:0;overflow-wrap:anywhere}
+  .cfl .pc{font-size:20px;font-weight:700;color:var(--active);font-variant-numeric:tabular-nums;text-align:right}
+  .cfl .meter{grid-column:1/-1;height:8px;border-radius:4px;background:var(--line);overflow:hidden;display:flex}
+  .cfl .meter i{display:block;height:100%}
+  .cfl .cnt{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);align-items:center}
+  .cfl .cnt a{color:var(--invest);margin-left:auto}
+  </style>
+  <p style="font-size:13px;color:var(--muted);margin:0 0 10px;max-width:70ch">各社の図の線・数字のうち、会社・政府の発表(公式)や法定の書類(開示)で確かめられたものの割合です。報道だけのものは毎週、公式発表・開示書類で確かめ直しています。割合が高い会社ほど、「確かな版」の資料にしたときに中身が厚くなります。</p>
+  <div class="cfl-top"><div class="main"><b>${allPct}%</b><small>全体で確かめた割合(${all.ok.toLocaleString()} / ${all.tot.toLocaleString()}件)</small></div><div><b>${rows.length}</b><small>出典のある会社</small></div><div><b>${hi}</b><small>60%以上(5件以上)の会社</small></div></div>
+  <div class="cfl-bar" role="group" aria-label="並べ方"><span class="meta">並べ方</span>${[['pct','確かめた割合が高い順'],['tot','公式・開示の数が多い順'],['r','報道だけが多い順']].map(([v,t])=>`<button type="button" data-s="${v}" aria-pressed="${cfListSort===v}">${t}</button>`).join('')}</div>
+  <ol class="cfl">${rows.map(x=>`<li><span class="nm">${kkEsc(x.name)}</span><span class="pc">${x.pct}%</span>
+   <span class="meter" aria-hidden="true"><i style="width:${x.f*100/x.tot}%;background:var(--invest)"></i><i style="width:${x.o*100/x.tot}%;background:var(--active)"></i><i style="width:${x.r*100/x.tot}%;background:var(--left);opacity:.55"></i></span>
+   <span class="cnt">${x.o?cfBadge('o')+x.o:''} ${x.f?cfBadge('f')+x.f:''} <span>参考(報道など) ${x.r}</span><a href="#" data-k="${kkEsc(x.k)}">確かな版を見る ▸</a></span></li>`).join('')}</ol>`;
+  FEEDEL.querySelectorAll('.cfl-bar button').forEach(b=>b.addEventListener('click',()=>{cfListSort=b.dataset.s;cfListRender(rows)}));
+  FEEDEL.querySelectorAll('.cfl a[data-k]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();build(a.dataset.k);kkShow()}));
+}
+
 // ===== 大手どうしの抜けていた線(2026年11月18日に追加) =====
 // 両方とも相関図がある大手どうしで、公式発表や信頼できる報道で確かめたのに線がなかったものを、両方の会社の図に足す。
 // 例: ソニーはJASMの出資者なのに線がなく、「共通のつながり」でソニー⇄TSMCが遠回りになっていた。既存の線と重なるものは足さない。
@@ -38561,6 +38612,7 @@ function showHome(){
     ['rel','ニュースから関係を見る','提携・買収・出資を、記事から相関図に'],
     ['money','AIマネーの循環','出資と支払いが、AI企業のあいだをどう回っているか'],
     ['move','AI人材の移籍マップ','研究者や幹部が、どの会社からどの会社へ移ったかを年ごとに'],
+    ['cf','確かさの一覧','各社の数字のうち、公式発表・開示書類で確かめた割合'],
     ['finds','調査の新着',`${typeof FINDS!=='undefined'?FINDS.length:0}件。毎朝の調査で見つけた移籍・出資・ファンドの候補`],
     ['su','スタートアップ一覧',`${YCS.length.toLocaleString()}社(Y Combinator出身)`],
     ['jpsu','日本のスタートアップ',`${JPSU.length}社(東証グロース上場と未上場)`],
@@ -38578,7 +38630,7 @@ function showHome(){
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
-  const go={company:()=>build('openai'),common:()=>showCommon(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
+  const go={company:()=>build('openai'),common:()=>showCommon(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),cf:()=>showCfList(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
   FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
@@ -38897,13 +38949,13 @@ function vcBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';const r=vcsOf(
   return (n||out.length)?`<div class="links"><a href="#" id="govc"><b>${nm}の投資・出資の記録を見る ▸</b></a><small style="display:block;color:var(--muted)">${n?`投資したVC・投資家 ${r.vcs.length}社${r.news.length?`+ニュース${r.news.length}件`:''}`:''}${n&&out.length?' / ':''}${out.length?`出資している会社 ${out.length}社`:''}</small></div>`:''}
 function wireVc(){const g=document.getElementById('govc');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showOrg(COMPANIES[comp].name,'',()=>build(comp))})}
 /* 上のメインメニュー: いま見ている画面を色で示し、会社の選択欄(長い一覧)は相関図を見ているときだけ出す */
-const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),common:()=>showCommon()};
+const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),common:()=>showCommon(),cf:()=>showCfList()};
 function navSync(){
   let cur='company';
   if(!MAINEL.hidden||!PROFEL.hidden)cur='company';
   else if(!RANKEL.hidden)cur='rank';
   else if(!UNIEL.hidden)cur='uni';
-  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':'uni'}
+  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^確かさの一覧/.test(t)?'cf':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
