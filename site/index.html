@@ -36128,7 +36128,13 @@ Object.assign(DS,{
  v_antsx:['Anthropic公式発表(2026/5/6、Colossus 1の全容量・30万kW超・GPU 22万基超)','https://www.anthropic.com/news/higher-limits-spacex','o'],
  v_tslaxai:['Tesla SEC 8-K(2026/1/28、xAIシリーズE優先株に約20億ドル、1/16に契約)','https://ir.tesla.com/_flysystem/s3/sec/000162828026003837/tsla-20260128-gen.pdf','f'],
  v_periodic:['Periodic Labs公式発表(2025/9/30、出資者の一覧)','https://periodic.com/news/introducing-periodic-labs','o'],
- v_felicis:['Felicis公式ブログ(2025/9/30、最初の出資)','https://www.felicis.com/blog/periodic-labs-investment','o']
+ v_felicis:['Felicis公式ブログ(2025/9/30、最初の出資)','https://www.felicis.com/blog/periodic-labs-investment','o'],
+ // 2026/11/18 確かめ直し(4回目): 人の動き。本人の投稿(本人)や会社の発表(公式)
+ v_peebles:['ビル・ピーブルズ本人のX(2026/4/17、OpenAIを離れると表明)','https://x.com/billpeeb/status/2045225014807670949','s'],
+ v_rouch:['ケイト・ラウチ本人のX(2026/4、がんの治療のためCMOを退くと表明)','https://x.com/kate_rouch/status/2040152110353019005','s'],
+ v_milich:['アンドリュー・ミリッチ本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/milichab/status/2032176871517934070','s'],
+ v_chaplot:['デベンドラ・チャプロット本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/dchaplot/status/2032596951435456797','s'],
+ v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o']
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36152,12 +36158,33 @@ function nodeCf(n){if(n.cf&&CFJA[n.cf])return CFJA[n.cf];const c=cfOf(n.src);if(
 function cfBadge(c){return c&&CFL[c]?`<i class="cf cf-${c}" title="${CFL[c].l}">${CFL[c].t}</i>`:''}
 let cfMode='all';try{const v=localStorage.getItem('cfmode');if(v==='fade'||v==='strict')cfMode=v}catch(e){}
 function cfSummaryHtml(){
-  const c={f:0,o:0,s:0,r:0,e:0};let none=0;E.forEach(e=>{if(e.since&&e.since>year)return;const x=edgeCf(e);if(x)c[x]++;else if(e.label||e.d)none++});
+  const c={f:0,o:0,s:0,r:0,e:0};let none=0,sp=0;E.forEach(e=>{if(e.since&&e.since>year)return;const x=edgeCf(e);if(x)c[x]++;else if(e.label||e.d)none++;if(x==='s'&&['member','from','moved'].includes(e.k))sp++});
   const tot=c.f+c.o+c.s+c.r+c.e;if(!tot)return '';
-  const pct=Math.round((c.f+c.o)*100/tot);
-  return `<h3 style="margin:14px 0 6px;font-size:14px">この図の線の確かさ</h3><p style="margin:0 0 4px"><b style="font-size:26px;color:var(--active);font-variant-numeric:tabular-nums">${pct}%</b> <span style="font-size:13px">が公式・開示で確かめた線(${c.f+c.o}/${tot}本)</span></p><p style="font-size:13px;margin:0">${['o','f','s','r','e'].filter(k=>c[k]).map(k=>`${cfBadge(k)}${c[k]}本`).join(' ')}${none?` ・ 出典なし ${none}本`:''}</p><p class="note">公式=会社・政府の発表、開示=法定の書類や投資家向け資料、本人=本人の発言だけ、報道=報道だけ(数字は報道ベース)、推定=推定・試算。線の上の「・報道」「・推定」も同じ意味です。上の「確かさ」で、報道だけの線を薄くしたり隠したりできます。</p>`;
+  const pct=Math.round((c.f+c.o+sp)*100/tot);
+  return `<h3 style="margin:14px 0 6px;font-size:14px">この図の線の確かさ</h3><p style="margin:0 0 4px"><b style="font-size:26px;color:var(--active);font-variant-numeric:tabular-nums">${pct}%</b> <span style="font-size:13px">が公式・開示で確かめた線(${c.f+c.o+sp}/${tot}本${sp?`。うち人の動き${sp}本は本人の投稿で確認`:''})</span></p><p style="font-size:13px;margin:0">${['o','f','s','r','e'].filter(k=>c[k]).map(k=>`${cfBadge(k)}${c[k]}本`).join(' ')}${none?` ・ 出典なし ${none}本`:''}</p><p class="note">公式=会社・政府の発表、開示=法定の書類や投資家向け資料、本人=本人の発言だけ、報道=報道だけ(数字は報道ベース)、推定=推定・試算。線の上の「・報道」「・推定」も同じ意味です。上の「確かさ」で、報道だけの線を薄くしたり隠したりできます。</p>`;
 }
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
+// 人の動きの確かめ直し(2026/11/18): 調査タスクが足した線(finds.js)は書き換えず、図を作るときに確かめた出典を足す
+// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと]
+const VERIFY_PPL=[
+ ['ビル・ピーブルズ','','v_peebles','本人のXの投稿で確認'],
+ ['ケイト・ラウチ','','v_rouch','本人のXの投稿で確認'],
+ ['アンドリュー・ミリッチ','','v_milich','本人のXの投稿で確認'],
+ ['デベンドラ・チャプロット','','v_chaplot','本人のXの投稿で確認'],
+ ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認']
+];
+function applyVerifyPpl(c,d){
+  const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
+  d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
+    VERIFY_PPL.forEach(([nm,other,key,note])=>{
+      const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
+      if(other&&!(O.name||'').includes(other))return;
+      if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
+      const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
+      if(!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
+    })});
+}
+
 function dealSrcHtml(keys,cf){const one=k=>`<a href="${DS[k][1]}" target="_blank" rel="noopener">${DS[k][0]}</a>`;const K=(keys||[]).filter(k=>DS[k]);if(cf&&CFJA[cf])return cfBadge(CFJA[cf])+' '+K.map(one).join(' / ');return K.map(k=>cfBadge(dsCf(k))+one(k)).join(' / ')}
 function dealOverviewHtml(){
   let D=DEALS[comp];
@@ -36227,15 +36254,15 @@ function kkData(){
     const src=(n.src||[]).filter(k=>DS[k]).map(k=>({t:DS[k][0],u:DS[k][1],c:dsCf(k)}));
     items.push({who:n.name,k:'invest',kind:'株主・出資者',label:n.role,d:n.desc||'',since:'',cf:c,src})});
   const ups=(typeof UPDATES!=='undefined'?UPDATES:[]).filter(u=>u.co&&u.co.includes(comp)).map(u=>({d:u.d,t:u.t,src:u.src,cf:CFJA[u.cf]||srcCf(u.src[0],u.src[1])}));
-  const strong=x=>x.cf==='o'||x.cf==='f';
+  const PPLK=['member','from','moved'];const strong=x=>x.cf==='o'||x.cf==='f'||(x.cf==='s'&&PPLK.includes(x.k));
   const sortf=(a,b)=>(CFRANK[b.cf]||0)-(CFRANK[a.cf]||0)||(+b.since||0)-(+a.since||0);
   const body=items.filter(strong).sort(sortf),ref=items.filter(x=>x.cf&&!strong(x)).sort(sortf),none=items.filter(x=>!x.cf).length;
   const srcs=[];const sidx=u=>{let i=srcs.findIndex(s=>s.u===u.u);if(i<0){srcs.push(u);i=srcs.length-1}return i+1};
-  body.forEach(x=>{x.n=x.src.filter(s=>s.c==='o'||s.c==='f').concat(x.src.filter(s=>!(s.c==='o'||s.c==='f'))).slice(0,3).map(sidx)});
+  const sst=s=>s.c==='o'||s.c==='f'||s.c==='s';body.forEach(x=>{x.n=x.src.filter(sst).concat(x.src.filter(s=>!sst(s))).slice(0,3).map(sidx)});
   const bup=ups.filter(strong),rup=ups.filter(u=>!strong(u));
   bup.forEach(u=>{u.n=[sidx({t:u.src[0],u:u.src[1],c:u.cf})]});
   return {name,asof:typeof LAST_CHECK!=='undefined'?LAST_CHECK.replace(/^(\d+)-0?(\d+)-0?(\d+)$/,'$1年$2月$3日'):'',body,ref,none,bup,rup,srcs,
-    cnt:{o:body.filter(x=>x.cf==='o').length,f:body.filter(x=>x.cf==='f').length,r:ref.length},pct:(body.length+ref.length)?Math.round(body.length*100/(body.length+ref.length)):0};
+    cnt:{o:body.filter(x=>x.cf==='o').length,f:body.filter(x=>x.cf==='f').length,s:body.filter(x=>x.cf==='s').length,r:ref.length},pct:(body.length+ref.length)?Math.round(body.length*100/(body.length+ref.length)):0};
 }
 function kkGroups(L){return KK_GROUP.map(([id,t,ks])=>[t,L.filter(x=>ks?ks.includes(x.k):!KK_GROUP.some(g=>g[2]&&g[2].includes(x.k)))]).filter(g=>g[1].length)}
 function kkHtml(D){
@@ -36245,9 +36272,9 @@ function kkHtml(D){
   return `<div class="kk-doc">
 <div class="kk-k">AI企業の相関図 ・ 確かな版</div>
 <h1>${kkEsc(D.name)}<br>公式発表・開示で確かめたつながり</h1>
-<p class="kk-lead">${kkEsc(D.asof)}時点。会社・政府の発表(公式)と法定の書類・投資家向け資料(開示)で確かめられたものだけを本文に載せ、報道だけのものは最後に「参考」として分けています。</p>
-<div class="kk-pct"><b>${D.pct}%</b><span>公式・開示で確かめた割合<br><small>出典のある線・数字 ${D.cnt.o+D.cnt.f+D.cnt.r}件のうち ${D.cnt.o+D.cnt.f}件</small></span></div>
-<div class="kk-tiles"><div><b>${D.cnt.o}</b>${cfBadge('o')}公式で確認</div><div><b>${D.cnt.f}</b>${cfBadge('f')}開示で確認</div><div><b>${D.cnt.r}</b>参考(報道・本人・推定)</div>${D.bup.length?`<div><b>${D.bup.length}</b>最近の変化(公式・開示)</div>`:''}</div>
+<p class="kk-lead">${kkEsc(D.asof)}時点。会社・政府の発表(公式)と法定の書類・投資家向け資料(開示)で確かめられたものだけを本文に載せ、報道だけのものは最後に「参考」として分けています。人の動き(採用・退任)は、本人の投稿で確かめたもの(本人)も本文に入れています。</p>
+<div class="kk-pct"><b>${D.pct}%</b><span>公式・開示で確かめた割合<br><small>出典のある線・数字 ${D.cnt.o+D.cnt.f+D.cnt.s+D.cnt.r}件のうち ${D.cnt.o+D.cnt.f+D.cnt.s}件</small></span></div>
+<div class="kk-tiles"><div><b>${D.cnt.o}</b>${cfBadge('o')}公式で確認</div><div><b>${D.cnt.f}</b>${cfBadge('f')}開示で確認</div>${D.cnt.s?`<div><b>${D.cnt.s}</b>${cfBadge('s')}人の動き(本人の投稿)</div>`:''}<div><b>${D.cnt.r}</b>参考(報道・本人・推定)</div>${D.bup.length?`<div><b>${D.bup.length}</b>最近の変化(公式・開示)</div>`:''}</div>
 ${D.body.length?grp(D.body,it):'<p class="kk-lead" style="margin-top:14px">この会社の図には、公式発表・開示書類で確かめた線がまだありません。下の「参考」が今わかっていることです。</p>'}
 ${D.bup.length?`<h2>最近の変化(公式・開示)</h2>${D.bup.map(u=>`<div class="kk-it"><span class="kk-k">${kkEsc(u.d)}</span> ${cfBadge(u.cf)}<div>${kkEsc(u.t)}</div><div class="kk-s">出典 [${u.n[0]}]</div></div>`).join('')}`:''}
 ${D.ref.length||D.rup.length?`<section class="kk-ref"><h2>参考:報道などだけのもの(まだ確かめていない)</h2><p class="kk-lead">会社の発表や開示書類では、まだ確かめられていません。確かめられたら本文に移します。</p>${D.ref.map(rit).join('')}${D.rup.map(u=>`<div class="kk-it"><span class="kk-k">${kkEsc(u.d)}</span> ${cfBadge(u.cf)}<div>${kkEsc(u.t)}</div><div class="kk-s">出典: <a href="${kkEsc(u.src[1])}" target="_blank" rel="noopener">${kkEsc(u.src[0])}</a></div></div>`).join('')}</section>`:''}
@@ -36256,7 +36283,7 @@ ${D.srcs.length?`<h2>出典</h2><ol>${D.srcs.map(s=>`<li>${cfBadge(s.c)}<a href=
 </div>`;
 }
 function kkText(D){
-  const L=[`${D.name} 確かな版(公式発表・開示で確かめたつながり) ${D.asof}時点`,`公式・開示で確かめた割合: ${D.pct}%(${D.cnt.o+D.cnt.f+D.cnt.r}件のうち${D.cnt.o+D.cnt.f}件)`,''];
+  const L=[`${D.name} 確かな版(公式発表・開示で確かめたつながり) ${D.asof}時点`,`公式・開示で確かめた割合: ${D.pct}%(${D.cnt.o+D.cnt.f+D.cnt.s+D.cnt.r}件のうち${D.cnt.o+D.cnt.f+D.cnt.s}件)`,''];
   kkGroups(D.body).forEach(([t,l])=>{L.push('■ '+t);l.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}${x.since?'・'+x.since+'年〜':''}) ${x.label}${x.d?'\n  '+x.d:''}${x.n&&x.n.length?'\n  出典 '+x.n.map(i=>'['+i+']').join(''):''}`));L.push('')});
   if(D.bup.length){L.push('■ 最近の変化(公式・開示)');D.bup.forEach(u=>L.push(`・${u.d} ${u.t} [${u.n[0]}]`));L.push('')}
   if(D.ref.length||D.rup.length){L.push('■ 参考:報道などだけのもの(まだ確かめていない)');D.ref.forEach(x=>L.push(`・${x.who}(${CFL[x.cf].t}・${x.kind}) ${x.label}`));D.rup.forEach(u=>L.push(`・${u.d} ${u.t}(${CFL[u.cf]?CFL[u.cf].t:''})`));L.push('')}
@@ -36286,8 +36313,8 @@ function cfListRows(){
   const keep={comp,N,E,byId,CENTER};const rows=[];
   Reflect.ownKeys(COMPANIES).forEach(k=>{if(typeof k!=='string'||k.startsWith('__')||!DATA[k])return;
     try{const d=DATA[k]();comp=k;N=d.N;E=d.E;CENTER=d.center;byId=Object.fromEntries(N.map(n=>[n.id,n]));
-      const D=kkData();const tot=D.cnt.o+D.cnt.f+D.cnt.r;if(!tot)return;
-      rows.push({k,name:D.name,o:D.cnt.o,f:D.cnt.f,r:D.cnt.r,tot,pct:D.pct})}catch(e){}});
+      const D=kkData();const tot=D.cnt.o+D.cnt.f+D.cnt.s+D.cnt.r;if(!tot)return;
+      rows.push({k,name:D.name,o:D.cnt.o,f:D.cnt.f,s:D.cnt.s,r:D.cnt.r,tot,pct:D.pct})}catch(e){}});
   ({comp,N,E,byId,CENTER}=keep);return rows;
 }
 function showCfList(){
@@ -36300,9 +36327,9 @@ function showCfList(){
   setTimeout(()=>{const rows=cfListRows();cfListRender(rows)},30);
 }
 function cfListRender(rows){
-  const S={pct:(a,b)=>b.pct-a.pct||b.tot-a.tot,tot:(a,b)=>b.o+b.f-(a.o+a.f)||b.pct-a.pct,r:(a,b)=>b.r-a.r||a.pct-b.pct};
+  const S={pct:(a,b)=>b.pct-a.pct||b.tot-a.tot,tot:(a,b)=>b.o+b.f+b.s-(a.o+a.f+a.s)||b.pct-a.pct,r:(a,b)=>b.r-a.r||a.pct-b.pct};
   rows.sort(S[cfListSort]);
-  const all={ok:rows.reduce((s,x)=>s+x.o+x.f,0),tot:rows.reduce((s,x)=>s+x.tot,0)};const allPct=all.tot?Math.round(all.ok*100/all.tot):0;
+  const all={ok:rows.reduce((s,x)=>s+x.o+x.f+x.s,0),tot:rows.reduce((s,x)=>s+x.tot,0)};const allPct=all.tot?Math.round(all.ok*100/all.tot):0;
   const hi=rows.filter(x=>x.pct>=60&&x.tot>=5).length;
   FEEDEL.innerHTML=`<style>
   .cfl-top{display:flex;flex-wrap:wrap;gap:10px;margin:4px 0 12px}
@@ -36320,12 +36347,12 @@ function cfListRender(rows){
   .cfl .cnt{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12px;color:var(--muted);align-items:center}
   .cfl .cnt a{color:var(--invest);margin-left:auto}
   </style>
-  <p style="font-size:13px;color:var(--muted);margin:0 0 10px;max-width:70ch">各社の図の線・数字のうち、会社・政府の発表(公式)や法定の書類(開示)で確かめられたものの割合です。報道だけのものは毎週、公式発表・開示書類で確かめ直しています。割合が高い会社ほど、「確かな版」の資料にしたときに中身が厚くなります。</p>
+  <p style="font-size:13px;color:var(--muted);margin:0 0 10px;max-width:70ch">各社の図の線・数字のうち、会社・政府の発表(公式)や法定の書類(開示)で確かめられたものの割合です。人の動き(採用・退任)は、本人の投稿で確かめたもの(本人)も数えています。報道だけのものは毎週、公式発表・開示書類で確かめ直しています。割合が高い会社ほど、「確かな版」の資料にしたときに中身が厚くなります。</p>
   <div class="cfl-top"><div class="main"><b>${allPct}%</b><small>全体で確かめた割合(${all.ok.toLocaleString()} / ${all.tot.toLocaleString()}件)</small></div><div><b>${rows.length}</b><small>出典のある会社</small></div><div><b>${hi}</b><small>60%以上(5件以上)の会社</small></div></div>
   <div class="cfl-bar" role="group" aria-label="並べ方"><span class="meta">並べ方</span>${[['pct','確かめた割合が高い順'],['tot','公式・開示の数が多い順'],['r','報道だけが多い順']].map(([v,t])=>`<button type="button" data-s="${v}" aria-pressed="${cfListSort===v}">${t}</button>`).join('')}</div>
   <ol class="cfl">${rows.map(x=>`<li><span class="nm">${kkEsc(x.name)}</span><span class="pc">${x.pct}%</span>
-   <span class="meter" aria-hidden="true"><i style="width:${x.f*100/x.tot}%;background:var(--invest)"></i><i style="width:${x.o*100/x.tot}%;background:var(--active)"></i><i style="width:${x.r*100/x.tot}%;background:var(--left);opacity:.55"></i></span>
-   <span class="cnt">${x.o?cfBadge('o')+x.o:''} ${x.f?cfBadge('f')+x.f:''} <span>参考(報道など) ${x.r}</span><a href="#" data-k="${kkEsc(x.k)}">確かな版を見る ▸</a></span></li>`).join('')}</ol>`;
+   <span class="meter" aria-hidden="true"><i style="width:${x.f*100/x.tot}%;background:var(--invest)"></i><i style="width:${x.o*100/x.tot}%;background:var(--active)"></i><i style="width:${x.s*100/x.tot}%;background:var(--pink)"></i><i style="width:${x.r*100/x.tot}%;background:var(--left);opacity:.55"></i></span>
+   <span class="cnt">${x.o?cfBadge('o')+x.o:''} ${x.f?cfBadge('f')+x.f:''} ${x.s?cfBadge('s')+x.s:''} <span>参考(報道など) ${x.r}</span><a href="#" data-k="${kkEsc(x.k)}">確かな版を見る ▸</a></span></li>`).join('')}</ol>`;
   FEEDEL.querySelectorAll('.cfl-bar button').forEach(b=>b.addEventListener('click',()=>{cfListSort=b.dataset.s;cfListRender(rows)}));
   FEEDEL.querySelectorAll('.cfl a[data-k]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();build(a.dataset.k);kkShow()}));
 }
@@ -36399,7 +36426,7 @@ function applyBig(c,d){
     d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
   });
 }
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyBack(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyVerifyPpl(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
