@@ -35,16 +35,16 @@
 /* Layout: 上に会社の切り替え、左に力学配置の相関図、右に詳細パネル。年スライダーで入れ替わりを見る */
 :root{
   --bg:#f2f4f6; --surface:#ffffff; --fg:#161b22; --muted:#5d6875; --line:#d5dbe1;
-  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --core:#161b22; --conflict:#c93b3b; --pink:#b8397a; --deal:#8f6500;
+  --active:#0d8a79; --left:#d9772b; --invest:#4a5dd0; --org:#6a7684; --core:#161b22; --conflict:#c93b3b; --pink:#b8397a; --deal:#8f6500; --uses:#2e7d32;
   --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
   --font-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741;
-  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --core:#e8ecf0; --conflict:#f07272; --pink:#f08cbc; --deal:#e6b84a; color-scheme:dark}}
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --core:#e8ecf0; --conflict:#f07272; --pink:#f08cbc; --deal:#e6b84a; --uses:#74c97a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#11151a; --surface:#1a2027; --fg:#e8ecf0; --muted:#97a3b0; --line:#2e3741;
-  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --core:#e8ecf0; --conflict:#f07272; --pink:#f08cbc; --deal:#e6b84a; color-scheme:dark}
+  --active:#2fc2ab; --left:#f09a55; --invest:#8394f5; --org:#97a3b0; --core:#e8ecf0; --conflict:#f07272; --pink:#f08cbc; --deal:#e6b84a; --uses:#74c97a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.6;
   padding-block:20px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -195,6 +195,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
       <span><i class="ln" style="border-color:var(--invest)"></i>出資</span>
       <span><i class="ln" style="border-color:var(--conflict);border-top-style:dotted"></i>対立</span>
       <span><i class="ln" style="border-color:var(--deal);border-top-width:3px"></i>取引(クラウド・GPU契約)</span>
+      <span><i class="ln" style="border-color:var(--uses);border-top-style:dotted;border-top-width:3px"></i>AIを使う(導入)</span>
     </div>
   </div>
 
@@ -35713,6 +35714,68 @@ function applyDeals(c,d){
     d.E.push({a:id,b:d.center,k:'deal',label,since:y,d:desc,src})
   });
 }
+// ===== 使う側の線(どの企業がどのAIを使っているか) 2026年11月18日に追加 =====
+// 公式発表で確かめたものだけ。[使う会社のid, 名前, 図に出す短いラベル, 始まった年, 説明, 出典キー]
+const USES_ASOF='2026年11月18日';
+Object.assign(DS,{
+ u_oaiapple:['OpenAI公式発表(2024/6/10)','https://openai.com/index/openai-and-apple-announce-partnership/'],
+ u_oairakuten:['楽天グループ公式発表(2024/2/26)','https://global.rakuten.com/corp/news/press/2024/0226_02.html'],
+ u_oaimufg:['OpenAI公式 導入事例(MUFG)','https://openai.com/index/mufg'],
+ u_oaiwalmart:['Walmart公式発表(2025/10/14)','https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences'],
+ u_anttokyo:['Anthropic公式発表(2025/10/29 東京オフィス開設)','https://anthropic.com/news/opening-our-tokyo-office'],
+ u_antdeloitte:['Anthropic公式発表(2025/10/6)','https://www.anthropic.com/news/deloitte-anthropic-partnership'],
+ u_antaccenture:['Accenture公式発表(2025/12/9)','https://newsroom.accenture.com/news/2025/accenture-and-anthropic-launch-multi-year-partnership-to-drive-enterprise-ai-innovation-and-value-across-industries'],
+ u_gapple:['Google・Apple 共同声明(2026/1/12)','https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/'],
+ u_gsamsung:['Samsung公式発表(2024/1/17)','https://www.samsungmobilepress.com/press-releases/samsung-and-google-cloud-join-forces-to-bring-generative-ai-to-samsung-galaxy-s24-series/'],
+ u_sakanamufg:['Sakana AI公式発表(2025/5/19)','https://sakana.ai/mufg-bank/']
+});
+const USES={
+ openai:{note:'OpenAIの技術を自社の製品や社内の仕事に使っている主な会社です。日本では楽天・三菱UFJ銀行が早くから組んでいます。',list:[
+  ['apple','Apple','Siri・iPhoneにChatGPT',2024,'2024年6月、iPhone・iPad・MacにChatGPT(GPT-4o)を組み込むと発表。Siriや文章作成ツールから、利用者の同意を得てChatGPTを呼び出せます。',['u_oaiapple']],
+  ['rakuten','楽天グループ','通信・サービスに導入',2023,'2023年11月に戦略的な提携。2024年2月には、携帯電話の通信網の設計・運用を助けるAIを共同で作ると発表。',['u_oairakuten']],
+  ['mufg','三菱UFJ銀行','行員約3.5万人が利用',2024,'2024年10月から協業。2026年から行員約3万5,000人にChatGPT Enterpriseを順に導入。家計アプリやデジタル銀行のAIサービスも共同で開発しています。',['u_oaimufg']],
+  ['walmart','Walmart','ChatGPTで買い物',2025,'2025年10月、ChatGPTの中でWalmartの商品をそのまま買える「Instant Checkout」で提携。社内でもChatGPT Enterpriseを展開。',['u_oaiwalmart']]
+ ]},
+ anthropic:{note:'Claudeを社内の開発や文書の仕事に使っている主な会社です。2025年10月の東京オフィス開設の発表で、日本の利用企業として楽天・野村総合研究所・パナソニック・クラスメソッドの名前が挙がりました。',list:[
+  ['rakuten','楽天グループ','開発の自動化',2025,'Claudeで長時間の自動プログラミングを行い、開発の生産性が大きく上がったとAnthropicが紹介しています。',['u_anttokyo']],
+  ['nri','野村総合研究所','文書の分析',2025,'文書の分析にかかる時間を、精度を保ったまま数時間から数分に短くしたと紹介されています。',['u_anttokyo']],
+  ['panasonic','パナソニック','社内業務と製品',2025,'社内の業務と、消費者向けの製品の両方にClaudeを組み込んでいると紹介されています。',['u_anttokyo']],
+  ['classmethod','クラスメソッド','開発(Claude Code)',2025,'クラウドの構築会社。生産性が10倍になり、ある案件ではコードの99%をClaude Codeが書いたと紹介されています。',['u_anttokyo']],
+  ['deloitte','デロイト','47万人に展開',2025,'2025年10月、世界の47万人超にClaudeを使えるようにすると発表。Anthropicで最大の企業導入。1万5,000人を認定する研修も作ります。',['u_antdeloitte']],
+  ['accenture','アクセンチュア','3万人を育成',2025,'2025年12月、複数年の提携を発表。約3万人の社員にClaudeの研修を行い、企業へのAI導入を手伝います。',['u_antaccenture']]
+ ]},
+ gdm:{note:'GoogleのGemini(AIモデル)を自社の製品の土台に使っている主な会社です。スマホの大手2社がどちらもGeminiを使っています。',list:[
+  ['apple','Apple','次のSiriの土台',2026,'2026年1月の共同声明で、Appleの次世代のAIモデルをGeminiとGoogleのクラウド技術を土台に作ると発表。新しいSiriなどに使われます。処理はAppleの端末と自社のクラウドで行うとしています。',['u_gapple']],
+  ['samsung','Samsung','Galaxy AI',2024,'2024年1月、Galaxy S24の要約機能などにGemini Pro、写真の編集にImagen 2、端末の中の処理にGemini Nanoを使うと発表。',['u_gsamsung']]
+ ]},
+ sakana:{note:'Sakana AIの技術を使っている主な会社です。',list:[
+  ['mufg','三菱UFJ銀行','3年の提携',2025,'2025年5月、3年間の提携を発表。銀行の仕事向けのAIを作り、まず社内の判断を助ける仕組みから導入。共同創業者の伊藤錬氏がMUFGのAIアドバイザーに就きました。',['u_sakanamufg']]
+ ]}
+};
+const USEN={apple:'iPhoneの会社。',rakuten:'日本のネット通販・携帯電話の大手。',mufg:'日本最大の銀行。',walmart:'米国の小売り最大手。',nri:'日本のシンクタンク・システム会社。',panasonic:'日本の電機大手。',classmethod:'日本のクラウド構築会社。',deloitte:'世界4大会計事務所の1つ。',accenture:'世界的なコンサルティング会社。',samsung:'韓国の電機大手。スマホのGalaxyを作る。'};
+const USE_AI_NAME={openai:'OpenAI',anthropic:'Anthropic',gdm:'Google(Gemini)',sakana:'Sakana AI'};
+function applyUses(c,d){
+  const ids=new Set(d.N.map(n=>n.id));
+  const add=(id,name,kind,y,desc,role)=>{if(!ids.has(id)){ids.add(id);d.N.push({id,name,kind,from:y,desc,role})}};
+  const U=USES[c];
+  if(U)U.list.forEach(([id,name,label,y,desc,src])=>{
+    add(id,name,'o',y,(USEN[id]||'')+desc,'AIの利用企業');
+    d.E.push({a:id,b:d.center,k:'uses',label,since:y,d:desc,src});
+  });
+  // 使う側の会社の図にも、使っているAIへの線を出す(例: 楽天の図 → OpenAI・Anthropic)
+  Object.keys(USES).forEach(ai=>{if(ai===c)return;USES[ai].list.forEach(([id,name,label,y,desc,src])=>{
+    if(id!==d.center)return;
+    const aid=ai==='gdm'?'google':ai;
+    add(aid,USE_AI_NAME[ai],'o',y,'使っているAI。'+desc,'使っているAI');
+    d.E.push({a:d.center,b:aid,k:'uses',label,since:y,d:desc,src});
+  })});
+}
+function usesOverviewHtml(){
+  const L=E.filter(e=>e.k==='uses'&&e.since<=year);if(!L.length)return '';
+  const mine=USES[comp];
+  const rows=L.map(e=>{const o=byId[e.a===CENTER?e.b:e.a];return `<li style="display:block;border-top:1px solid var(--line);padding-top:6px"><b style="color:var(--uses);min-width:0">${o.name}</b> <span class="meta">${e.since}年〜 ・ ${e.label}</span><br>${e.d}<br><small>出典: ${dealSrcHtml(e.src)}</small></li>`}).join('');
+  return `<h3 style="margin:14px 0 6px;font-size:14px">${mine?'このAIを使っている会社':'この会社が使っているAI'}(${USES_ASOF}時点)</h3>${mine?`<p style="font-size:13px">${mine.note}</p>`:''}<ul class="rel">${rows}</ul><p class="note">緑の点線が「AIを使う(導入)」です。会社の公式発表で確かめたものだけを載せています。</p>`;
+}
 function dealSrcHtml(keys){return (keys||[]).map(k=>DS[k]?`<a href="${DS[k][1]}" target="_blank" rel="noopener">${DS[k][0]}</a>`:'').join(' / ')}
 function dealOverviewHtml(){
   let D=DEALS[comp];
@@ -35722,7 +35785,7 @@ function dealOverviewHtml(){
   return `<h3 style="margin:14px 0 6px;font-size:14px">${DEALS[comp]?'計算資源の取引':'取引関係'}(${DEAL_ASOF}時点)</h3><p style="font-size:13px">${D.note}</p>${rows?`<ul class="rel">${rows}</ul>`:'<p class="note">この年にはまだ取引の記録がありません。</p>'}<p class="note">金色の線が取引です。金額は契約の上限や報道ベースの数字を含みます。出典: ${dealSrcHtml(D.src)}</p>`;
 }
 
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
@@ -35737,7 +35800,7 @@ const xs=n=>`https://x.com/search?q=${encodeURIComponent(EN[n.id]||n.name)}&f=us
 const W=1000,H=720,cx=W/2,cy=H/2;
 function seedRand(){let s=7;return()=>{s=(s*16807)%2147483647;return s/2147483647}}
 const zone={c:[0,0],i:[260,-40],o:[-260,250],pcur:[-250,-170],pleft:[-120,230]};
-function link(e){return e.k==='member'||e.k==='invest'||e.k==='deal'}
+function link(e){return e.k==='member'||e.k==='invest'||e.k==='deal'||e.k==='uses'}
 function relax(iters){
   for(let t=0;t<iters;t++){
     const cool=1-t/iters;
@@ -35960,10 +36023,11 @@ function draw(){
     if(e.k==='govern'||e.k==='owns'){col='var(--org)';dash='2 3'}
     if(e.k==='conflict'){col='var(--conflict)';dash='2 4'}
     if(e.k==='deal'){col='var(--deal)';w=2.4}
+    if(e.k==='uses'){col='var(--uses)';dash='2 3';w=2.2}
     const [ax,ay]=pos(A),[bx,by]=pos(B);
     o.p.setAttribute('x1',ax);o.p.setAttribute('y1',ay);o.p.setAttribute('x2',bx);o.p.setAttribute('y2',by);
     o.p.setAttribute('stroke',col);o.p.setAttribute('stroke-dasharray',dash);o.p.setAttribute('stroke-width',w);
-    if(o.t){const r=e.k==='deal'?.3:.5;o.t.setAttribute('x',ax+(bx-ax)*r);o.t.setAttribute('y',ay+(by-ay)*r-4);o.t.style.fill=e.k==='deal'?'var(--deal)':''}
+    if(o.t){const r=e.k==='deal'||e.k==='uses'?.3:.5;o.t.setAttribute('x',ax+(bx-ax)*r);o.t.setAttribute('y',ay+(by-ay)*r-4);o.t.style.fill=e.k==='deal'?'var(--deal)':e.k==='uses'?'var(--uses)':''}
   });
   applyDim();
   document.getElementById('yearLabel').textContent=year;
@@ -36000,7 +36064,7 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${dealOverviewHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${acqBtn()}${vcBtn()}`;
+  ${updatesHtml(comp)}${dealOverviewHtml()}${usesOverviewHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${acqBtn()}${vcBtn()}`;
   wireAcq();wireVc();
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
@@ -36014,6 +36078,7 @@ function renderPanel(id){
   E.forEach(e=>{
     if(e.a!==id&&e.b!==id)return;
     const o=byId[e.a===id?e.b:e.a];if(stateOf(o,year)==='hidden')return;
+    if(e.k==='uses'){if(e.since<=year)rel.push(`<li style="display:block"><b style="color:var(--uses)">${e.a===id?'使うAI':'利用企業'}</b> ${o.id===CENTER?o.name:o.kind==='p'?o.name:orgRef(o.name,id)} ・ ${e.label}<br><small>${e.d}<br>出典: ${dealSrcHtml(e.src)}</small></li>`);return}
     if(e.k==='deal'&&e.since<=year){rel.push(`<li style="display:block"><b style="color:var(--deal)">取引</b> ${o.id===CENTER?o.name:o.kind==='p'?o.name:orgRef(o.name,id)} ・ ${e.label}<br><small>${e.d}<br>出典: ${dealSrcHtml(e.src)}</small></li>`);return}
     if(o.id===CENTER)return;
     const lab={from:e.a===id?'出身元':'出身者',govern:'信託',owns:e.a===id?'傘下':'親会社',moved:e.a===id?'行き先':'出身',invest:'出資',invest2:'出資',conflict:'対立',member:'',deal:'取引'}[e.k];
