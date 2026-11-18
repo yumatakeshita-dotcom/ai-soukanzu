@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OpenAI 確かな版</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f2; --card:#ffffff; --ink:#1d1d1f; --sub:#5b5b60; --line:#e3e1da;
+  --o:#1f6f43; --o-bg:#e4f3ea; --f:#1d4f91; --f-bg:#e3ecf8; --r:#8a5a00; --r-bg:#fbf0d9;
+  --accent:#1d1d1f;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141416; --card:#1e1e21; --ink:#ececee; --sub:#a3a3aa; --line:#33333a;
+    --o:#7fd3a2; --o-bg:#1d3326; --f:#8fb6f0; --f-bg:#1c2a40; --r:#f0c46a; --r-bg:#3a2e14;
+    --accent:#ececee;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141416; --card:#1e1e21; --ink:#ececee; --sub:#a3a3aa; --line:#33333a;
+  --o:#7fd3a2; --o-bg:#1d3326; --f:#8fb6f0; --f-bg:#1c2a40; --r:#f0c46a; --r-bg:#3a2e14;
+  --accent:#ececee;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans JP",system-ui,sans-serif;line-height:1.7;font-size:15px}
+.wrap{max-width:860px;margin:0 auto;padding:28px max(16px,env(safe-area-inset-right)) 60px max(16px,env(safe-area-inset-left))}
+header{border-bottom:2px solid var(--accent);padding-bottom:16px;margin-bottom:24px}
+.kicker{font-size:12px;letter-spacing:.08em;color:var(--sub)}
+h1{font-size:28px;margin:4px 0 6px;line-height:1.3}
+.lead{color:var(--sub);margin:0}
+h2{font-size:18px;margin:34px 0 10px;padding-left:10px;border-left:4px solid var(--accent)}
+.note{font-size:13px;color:var(--sub);margin:4px 0 12px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:18px 0 8px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tile b{display:block;font-size:24px;line-height:1.2}
+.tile span{font-size:12px;color:var(--sub)}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.item .top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.item .who{font-weight:700}
+.item .num{font-weight:700;font-size:16px}
+.item p{margin:4px 0 0;font-size:14px}
+.item .src{font-size:12px;color:var(--sub);margin-top:6px;overflow-wrap:anywhere}
+.item .src a{color:inherit}
+.cf{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;white-space:nowrap}
+.cf-o{color:var(--o);background:var(--o-bg)}
+.cf-f{color:var(--f);background:var(--f-bg)}
+.cf-r{color:var(--r);background:var(--r-bg)}
+.ref .item{border-style:dashed}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13px;color:var(--sub);margin-top:10px}
+ol.srcs{font-size:13px;padding-left:20px;overflow-wrap:anywhere}
+ol.srcs a{color:var(--ink)}
+footer{margin-top:40px;font-size:12px;color:var(--sub);border-top:1px solid var(--line);padding-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">AI企業の相関図 ・ 確かな版(見本)</div>
+  <h1>OpenAI<br>公式発表・開示で確かめた数字</h1>
+  <p class="lead">2026年11月18日時点。会社自身の発表と法定の開示書類で確かめられたものだけを本文に載せ、報道だけの数字は最後に「参考」として分けています。</p>
+  <div class="legend">
+    <span><span class="cf cf-o">公式</span> 当事者の会社の発表</span>
+    <span><span class="cf cf-f">開示</span> SEC・EDINETなど法定の書類</span>
+    <span><span class="cf cf-r">報道</span> 報道のみ(未確認)</span>
+  </div>
+</header>
+
+<div class="tiles">
+  <div class="tile"><b>8件</b><span>計算資源の契約(公式で確認)</span></div>
+  <div class="tile"><b>約27%</b><span>Microsoftの持ち分(再編時・公式)</span></div>
+  <div class="tile"><b>4社</b><span>導入企業(公式で確認)</span></div>
+  <div class="tile"><b>13件</b><span>参考:報道だけの数字・人事</span></div>
+</div>
+
+<h2>1. 計算資源の契約</h2>
+<p class="note">クラウド・GPU・半導体の大型契約。数字は発表時のもので、多くは「最大」や「計画」の値です。</p>
+
+<div class="item"><div class="top"><span class="who">Microsoft(Azure)</span><span class="num">追加 2,500億ドル</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月の提携の見直しで、OpenAIがAzureを追加で2,500億ドル分買うと合意。同時にMicrosoftの「優先して使ってもらう権利」はなくなり、他社のクラウドも使えるようになりました。</p>
+<div class="src">出典[1] Microsoft公式ブログ(2025/10/28)</div></div>
+
+<div class="item"><div class="top"><span class="who">Amazon(AWS)</span><span class="num">7年・380億ドル</span><span class="cf cf-o">公式</span></div>
+<p>2025年11月、AWSのNvidia製GPU(GB200・GB300)を使う契約。</p>
+<div class="src">出典[2] OpenAI公式発表(2025/11/3)</div></div>
+
+<div class="item"><div class="top"><span class="who">CoreWeave</span><span class="num">合計 約224億ドル</span><span class="cf cf-o">公式</span></div>
+<p>2025年に3回に分けて契約。3回目(最大65億ドル)の発表で、合計が約224億ドルになったと公表。</p>
+<div class="src">出典[3] CoreWeave公式発表(2025/9/25)</div></div>
+
+<div class="item"><div class="top"><span class="who">AMD</span><span class="num">GPU 6GW + AMD株 最大1億6,000万株</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月、MI450世代から6GW分のGPUを導入。最初の1GWは2026年後半から。OpenAIは導入の進み具合に応じてAMD株を取得できる権利(ワラント)も得ました。</p>
+<div class="src">出典[4] AMD公式発表(2025/10/6)</div></div>
+
+<div class="item"><div class="top"><span class="who">Broadcom</span><span class="num">自社AIチップ 10GW</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月、OpenAI独自のAIチップを共同で作り、10GW分を導入。2026年後半から2029年末にかけて。</p>
+<div class="src">出典[5] OpenAI・Broadcom公式発表(2025/10/13)</div></div>
+
+<div class="item"><div class="top"><span class="who">Cerebras</span><span class="num">推論用 750MW</span><span class="cf cf-o">公式</span></div>
+<p>2026年1月、応答を速くする推論用の計算資源を2028年までに導入。金額(100億ドル超)は報道の数字のため、本文では扱いません。</p>
+<div class="src">出典[6] Cerebras公式ブログ(2026/1)</div></div>
+
+<div class="item"><div class="top"><span class="who">Samsung・SK hynix</span><span class="num">DRAMウエハー 月90万枚</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月、Stargate向けに最大で月90万枚分のDRAMウエハーを供給する基本合意(意向表明)。</p>
+<div class="src">出典[7] OpenAI公式発表(2025/10/1)</div></div>
+
+<div class="item"><div class="top"><span class="who">ソフトバンクグループ</span><span class="num">合弁「SB OAI Japan」</span><span class="cf cf-o">公式</span></div>
+<p>2025年11月、日本の企業向けにOpenAIの技術を提供する合弁会社を設立。Stargate計画の出資者でもあります。</p>
+<div class="src">出典[8] ソフトバンクグループ公式発表(2025/11/5)</div></div>
+
+<h2>2. 株主と権利</h2>
+<div class="item"><div class="top"><span class="who">Microsoft</span><span class="num">約27%(約1,350億ドル相当)</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月の再編時点。すべての株式を普通株に直して数えた持ち分です。モデルや製品の知的財産の権利は2032年まで。研究の権利は、AGI(汎用人工知能)の判定まで、または2030年までのどちらか早いほう。</p>
+<div class="src">出典[1] Microsoft公式ブログ(2025/10/28)</div></div>
+<p class="note">その後の持ち分(2026年6月末で約25%など)は報道のため「参考」に入れています。OpenAIは上場していないため、株主の一覧を開示書類で確かめることはできません。</p>
+
+<h2>3. OpenAIを使う大手企業</h2>
+<div class="item"><div class="top"><span class="who">Apple</span><span class="num">Siri・iPhoneにChatGPT</span><span class="cf cf-o">公式</span></div>
+<p>2024年6月発表。利用者の同意を得て、SiriなどからChatGPTを呼び出せます。</p>
+<div class="src">出典[9] OpenAI公式発表(2024/6/10)</div></div>
+<div class="item"><div class="top"><span class="who">楽天グループ</span><span class="num">通信網のAIを共同開発</span><span class="cf cf-o">公式</span></div>
+<p>2023年11月に提携。2024年2月、携帯電話の通信網の設計・運用を助けるAIを共同で作ると発表。</p>
+<div class="src">出典[10] 楽天グループ公式発表(2024/2/26)</div></div>
+<div class="item"><div class="top"><span class="who">三菱UFJ銀行</span><span class="num">行員 約3万5,000人</span><span class="cf cf-o">公式</span></div>
+<p>2026年から行員約3万5,000人にChatGPT Enterpriseを順に導入。家計アプリなども共同開発。</p>
+<div class="src">出典[11] OpenAI公式 導入事例(MUFG)</div></div>
+<div class="item"><div class="top"><span class="who">Walmart</span><span class="num">ChatGPTの中で買い物</span><span class="cf cf-o">公式</span></div>
+<p>2025年10月、ChatGPTの中でWalmartの商品をそのまま買える仕組みで提携。</p>
+<div class="src">出典[12] Walmart公式発表(2025/10/14)</div></div>
+
+<section class="ref">
+<h2>参考:報道だけの数字(まだ確かめていないもの)</h2>
+<p class="note">ここにある数字は、会社の発表や開示書類ではまだ確かめられていません。確かめられたら上の本文に移します。</p>
+
+<div class="item"><div class="top"><span class="who">Oracle</span><span class="num">約3,000億ドル・5年・最大4.5GW</span><span class="cf cf-r">報道</span></div>
+<p>OracleはOpenAIとの4.5GWの契約を発表済みですが、約3,000億ドルという金額は報道の数字です。</p>
+<div class="src">出典[13] presenc.ai(2026/5)</div></div>
+<div class="item"><div class="top"><span class="who">Nvidia</span><span class="num">直接出資 300億ドル</span><span class="cf cf-r">報道</span></div>
+<p>2025年9月の「10GW・最大1,000億ドル」の基本合意は公式発表。2026年2月にこれを300億ドルの直接出資に切り替えたという点は報道のみ。</p>
+<div class="src">出典[14] Outlook Business(2026/2)</div></div>
+<div class="item"><div class="top"><span class="who">TensorWave</span><span class="num">AMD製GPU 457MW・6年</span><span class="cf cf-r">報道</span></div>
+<p>2026年11月16日の報道。金額は非公表。</p>
+<div class="src">出典[15] The Next Web(2026/11/16)</div></div>
+<div class="item"><div class="top"><span class="who">株主の割合ほか</span><span class="num">ソフトバンク 約13%・Microsoft 約25%・Amazon 最大500億ドル</span><span class="cf cf-r">報道</span></div>
+<p>2026年の増資と、その後の持ち分。いずれも報道の数字。TSMCの最大5億ドル出資の承認(2026/11/11)も、台湾の開示システムでの確認はまだです。</p>
+<div class="src">出典[16] Focus Taiwan(2026/11/11)ほか</div></div>
+<div class="item"><div class="top"><span class="who">人の動き(2026年)</span><span class="num">6件</span><span class="cf cf-r">報道</span></div>
+<p>営業の責任者の採用(Cursor・SpaceX出身の2人)、米州営業VPのSalesforceへの復帰、Sora責任者・マーケティング責任者の退任、元ホワイトハウス高官の採用など。どれもOpenAIの公式発表はなく、報道や本人の投稿によるものです。</p>
+<div class="src">出典[17] The Next Web、TechCrunch、PYMNTS など</div></div>
+</section>
+
+<h2>出典</h2>
+<ol class="srcs">
+<li><a href="https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/">Microsoft公式ブログ「The next chapter of the Microsoft–OpenAI partnership」(2025/10/28)</a></li>
+<li><a href="https://openai.com/index/aws-and-openai-partnership/">OpenAI公式「AWS and OpenAI announce multi-year strategic partnership」(2025/11/3)</a></li>
+<li><a href="https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b">CoreWeave公式「CoreWeave Expands Agreement with OpenAI by up to $6.5B」(2025/9/25)</a></li>
+<li><a href="https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus">AMD公式「AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs」(2025/10/6)</a></li>
+<li><a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/">OpenAI公式「OpenAI and Broadcom announce strategic collaboration」(2025/10/13)</a></li>
+<li><a href="https://cerebras.ai/blog/openai-partners-with-cerebras-to-bring-high-speed-inference-to-the-mainstream">Cerebras公式ブログ(2026/1)</a></li>
+<li><a href="https://openai.com/index/samsung-and-sk-join-stargate">OpenAI公式「Samsung and SK join OpenAI's Stargate initiative」(2025/10/1)</a></li>
+<li><a href="https://group.softbank/en/news/press/20251105">ソフトバンクグループ公式発表(2025/11/5)</a></li>
+<li><a href="https://openai.com/index/openai-and-apple-announce-partnership/">OpenAI公式「OpenAI and Apple announce partnership」(2024/6/10)</a></li>
+<li><a href="https://global.rakuten.com/corp/news/press/2024/0226_02.html">楽天グループ公式発表(2024/2/26)</a></li>
+<li><a href="https://openai.com/index/mufg">OpenAI公式 導入事例(MUFG)</a></li>
+<li><a href="https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences">Walmart公式発表(2025/10/14)</a></li>
+<li><a href="https://presenc.ai/research/openai-compute-commitments-tracker-2026">presenc.ai「OpenAI compute commitments tracker 2026」(報道・まとめ)</a></li>
+<li><a href="https://www.outlookbusiness.com/corporate/nvidia-to-invest-30bn-in-openai-previous-100bn-partnership-plan-scrapped">Outlook Business(2026/2、報道)</a></li>
+<li><a href="https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios">The Next Web(2026/11/16、報道)</a></li>
+<li><a href="https://focustaiwan.tw/business/202611110009">Focus Taiwan(2026/11/11、報道)</a></li>
+<li><a href="https://thenextweb.com/news/openai-brian-mccarthy-worldwide-sales-spacex-cursor">The Next Web(2026/9/18、報道)</a> ほか、相関図の各線の出典</li>
+</ol>
+
+<footer>この見本は「AI企業の相関図」のデータから、確かさの印が「公式」「開示」のものだけを選んで作りました。数字は各出典の発表時点のもので、契約の多くは「最大」や「計画」の値です。投資の判断に使うときは、必ず出典の原文を確かめてください。</footer>
+</div>
+</body>
+</html>
