@@ -2,6 +2,7 @@
 const {chromium}=require('playwright');const {start}=require('./serve');
 const PAGES=[
  ['index.html',"build('openai');build('anthropic');build('tsmc');build('jasm')"],
+ ['index.html#common',"showCommon('Microsoft','Nvidia');showCommon('楽天グループ','OpenAI');build('openai');document.getElementById('gocommon').click()"],
  ['lab/route.html',''],['lab/stop.html',''],['lab/money.html',''],['lab/moves.html',''],['lab/cards.html',"document.getElementById('ten').click()"],['lab/sports.html','']
 ];
 (async()=>{const srv=await start(8123);const b=await chromium.launch();let bad=0;
