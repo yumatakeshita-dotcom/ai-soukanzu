@@ -1,5 +1,98 @@
-{"date":"2026-11-18","kind":"vc","items":[
-{"lp":"大成建設","fund":"大成建設CVCファンド(名称未公表)","gp":"Pegasus Tech Ventures","size":"約240億円(約1.5億ドル、発表ベース)","date":"2026-11-16","note":"大成建設が単独LPのCVC。AI・ロボット・デジタルツインの海外新興企業に投資、運用10年","src":[["PR TIMES(2026-11-16)","https://prtimes.jp/main/html/rd/p/000000242.000044738.html"],["ニューズウィーク日本版/ロイター(2026-11-16)","https://www.newsweekjapan.jp/articles/-/340235"]],"confidence":"公式"},
-{"lp":"","fund":"Fidelity 2号ベンチャー・グロース・ファンド(名称未公表)","gp":"Fidelity Investments","size":"約7.6億ドル(報道ベース)","date":"2026-11-12","note":"フィデリティが2本目のベンチャー成長ファンドで約7.6億ドルを集めたと報道。LPは非公表","src":[["Alternatives Watch(2026-11-12)","https://alternativeswatch.com/2026/11/12/fidelity-raises-760m-second-venture-growth-fund"]],"confidence":"報道"},
-{"lp":"Alphabet、Thrive Capital、MGX、GV、CapitalG、Temasek、英Sovereign AI Fund ほか","fund":"Isomorphic Labs シリーズC(企業への出資)","gp":"Greenoaks・Sequoia Capital(共同主導)、a16z も参加","size":"50億ドル(公式発表)","date":"2026-11-17","note":"DeepMind発のAI創薬会社が50億ドル調達。11/5の「交渉中」報道の確定版。評価額は非公表","src":[["BioSpace/PR Newswire(2026-11-17)","https://www.biospace.com/press-releases/isomorphic-labs-announces-5-billion-series-c-funding"],["City AM(2026-11-17)","https://cityam.com/isomorphic-labs-raises-5bn-in-one-of-uk-techs-biggest-funding-rounds"]],"confidence":"公式"}
-],"notes":"調べた範囲: 2026-11-11〜11-18のVCファンド組成・LP出資・AI系VCの大型案件(英語・日本語の報道、PR TIMES)。既に site/data/news.js にあるため除外: Norwest 18(40億ドル)、Agile Robots シリーズF(ソフトバンク主導5億ドル)、Fractile シリーズC(Thrive・Founders Fund等)。期間外で除外: Flashpoint Fund IV・サンフランシスコ年金のVC出資1.1億ドル・Taravine 1号(いずれ11/5)。対象外: Avatar Capital Partners 2号(不動産ファンド)、Mission Street Capital(200万ドル未満、LPは個人)。未確認で除外: Plural の約10億ユーロ新ファンド(一次報道を読めず)、英USSのVC 13億ドル目標(記事を読めず)。年金基金が特定のAI系VCファンドに出資した公開資料は今回見つからず。"}
+{
+ "date": "2026-11-18",
+ "kind": "vc",
+ "items": [
+  {
+   "lp": "大成建設",
+   "fund": "大成建設CVCファンド(名称未公表)",
+   "gp": "Pegasus Tech Ventures",
+   "size": "約240億円(約1.5億ドル、発表ベース)",
+   "date": "2026-11-16",
+   "note": "大成建設が単独LPのCVC。AI・ロボット・デジタルツインの海外新興企業に投資、運用10年",
+   "src": [
+    [
+     "PR TIMES(2026-11-16)",
+     "https://prtimes.jp/main/html/rd/p/000000242.000044738.html"
+    ],
+    [
+     "ニューズウィーク日本版/ロイター(2026-11-16)",
+     "https://www.newsweekjapan.jp/articles/-/340235"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "lp": "",
+   "fund": "Fidelity 2号ベンチャー・グロース・ファンド(名称未公表)",
+   "gp": "Fidelity Investments",
+   "size": "約7.6億ドル(報道ベース)",
+   "date": "2026-11-12",
+   "note": "フィデリティが2本目のベンチャー成長ファンドで約7.6億ドルを集めたと報道。LPは非公表",
+   "src": [
+    [
+     "Alternatives Watch(2026-11-12)",
+     "https://alternativeswatch.com/2026/11/12/fidelity-raises-760m-second-venture-growth-fund"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "lp": "Alphabet、Thrive Capital、MGX、GV、CapitalG、Temasek、英Sovereign AI Fund ほか",
+   "fund": "Isomorphic Labs シリーズC(企業への出資)",
+   "gp": "Greenoaks・Sequoia Capital(共同主導)、a16z も参加",
+   "size": "50億ドル(公式発表)",
+   "date": "2026-11-17",
+   "note": "DeepMind発のAI創薬会社が50億ドル調達。11/5の「交渉中」報道の確定版。評価額は非公表",
+   "src": [
+    [
+     "BioSpace/PR Newswire(2026-11-17)",
+     "https://www.biospace.com/press-releases/isomorphic-labs-announces-5-billion-series-c-funding"
+    ],
+    [
+     "City AM(2026-11-17)",
+     "https://cityam.com/isomorphic-labs-raises-5bn-in-one-of-uk-techs-biggest-funding-rounds"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "lp": "大学基金・財団・年金・保険会社・ファンド・オブ・ファンズなど(欧米、名前は非公表)",
+   "fund": "Plural 3号ファンド",
+   "gp": "Plural(Wise・Skypeの創業者らが運営)",
+   "size": "10億ユーロ(約11億ドル、公式発表。約3分の1は追加投資用)",
+   "date": "2026-11-16",
+   "note": "欧州の初期スタートアップ向け。エネルギー・AI基盤・防衛・半導体など。前回の2倍。本人たちがXでも発表",
+   "src": [
+    [
+     "Tech.eu(2026-11-16)",
+     "https://tech.eu/2026/11/16/plural-doubles-its-firepower-with-1b-fund-to-help-frontier-founders-build-europe-s-first-trillion-dollar-tech-company"
+    ],
+    [
+     "Crunchbase News(2026-11-15)",
+     "https://news.crunchbase.com/venture/plural-closes-billion-euro-fund-european-ai-robotics-defense-startup-investment/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "lp": "Volvo Group Venture Capital、Holcim、Hilti、Trimble、Acciona、DPR Construction、Mortenson、Dubai Future District Fund ほか30社超",
+   "fund": "Zacua Ventures Fund II",
+   "gp": "Zacua Ventures",
+   "size": "1.35億ドル(締め切り)",
+   "date": "2026-11-12",
+   "note": "建設・インフラ・製造の技術に投資。フィジカルAI・ロボットも対象。LPは建設や機械の大手が中心",
+   "src": [
+    [
+     "Global Venturing(2026-11-12)",
+     "https://globalventuring.com/corporate/industrial/zacua-ventures-closes-135m-second-fund-backing-corporate-investors/"
+    ],
+    [
+     "The Next Web(2026-11)",
+     "https://thenextweb.com/news/zacua-ventures-135m-fund-ii-construction-tech"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "調べた範囲: 2026-11-11〜11-18のVCファンド組成・LP出資・AI系VCの大型案件(英語・日本語の報道、PR TIMES)。既に site/data/news.js にあるため除外: Norwest 18(40億ドル)、Agile Robots シリーズF(ソフトバンク主導5億ドル)、Fractile シリーズC(Thrive・Founders Fund等)。期間外で除外: Flashpoint Fund IV・サンフランシスコ年金のVC出資1.1億ドル・Taravine 1号(いずれ11/5)。対象外: Avatar Capital Partners 2号(不動産ファンド)、Mission Street Capital(200万ドル未満、LPは個人)。未確認で除外: Plural の約10億ユーロ新ファンド(一次報道を読めず)、英USSのVC 13億ドル目標(記事を読めず)。年金基金が特定のAI系VCファンドに出資した公開資料は今回見つからず。 追加調査(X・公式サイト, 10:00): Xの投稿は本文を直接読めない(読み込みを拒否される)ため、Xで発表されたものは報道で確かめた。Proximal Ventures(2750万ドル、Kleiner Perkins・SignalFireが出資)は既に site/data/news.js にあるので除外。Ondine Capital 3号(台湾、半導体)は金額もLPも非公表で除外。日本の新ファンドは、PR TIMES で見つかったものがすべて期間外(HIRAC 3号・T-CAF は6月など)だった。"
+}
