@@ -1,7 +1,7 @@
 # 顔写真のクレジット一覧のページ(site/credits.html)を作る。
 # もとのデータ: docs/photo_rights/photo_licenses.json(2026/11/18 に Wikimedia Commons から権利情報を集めたもの)
-# 使い方: python3 scripts/make_photo_credits.py
-import json, html, os
+# 使い方: python3 scripts/make_photo_credits.py  (docs/photo_rights/photo_licenses.csv も作り直す)
+import json, html, os, csv
 R = os.path.join(os.path.dirname(__file__), '..')
 rows = json.load(open(os.path.join(R, 'docs/photo_rights/photo_licenses.json'), encoding='utf-8'))
 e = lambda s: html.escape(str(s or ''), quote=True)
@@ -53,3 +53,13 @@ q.addEventListener('input',()=>{{const v=q.value.trim().toLowerCase();L.forEach(
 '''
 open(os.path.join(R, 'site/credits.html'), 'w', encoding='utf-8').write(page)
 print('site/credits.html', len(items), '件')
+
+# 一覧表(Excelで開ける)も作り直す
+CAT = {'ok': 'OK(表記なしで使える)', 'credit': 'クレジットが必要', 'risk': '要注意', 'hidden': '表示を止めている', 'initials': 'イニシャル表示に変えた'}
+ORDER = ['risk', 'initials', 'credit', 'ok', 'hidden']
+with open(os.path.join(R, 'docs/photo_rights/photo_licenses.csv'), 'w', newline='', encoding='utf-8-sig') as fo:
+    w = csv.writer(fo)
+    w.writerow(['判定', '置き場所', 'キー', '名前(英)', '名前(日)', '手がかり', 'ライセンス', '作者', '元の画像', 'ライセンスのURL', '利用の制限', '候補の画像の数', 'メモ'])
+    for x in sorted(rows, key=lambda x: (ORDER.index(x['cat']), x['set'], x['name'])):
+        w.writerow([CAT[x['cat']], x['set'], x['key'], x['name'], x['ja'], x['origsrc'], x['lic'], x['artist'], x['src'], x['licurl'], x['restr'], x['nfiles'], x['why']])
+print('docs/photo_rights/photo_licenses.csv', len(rows), '行')

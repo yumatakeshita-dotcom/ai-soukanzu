@@ -1,37 +1,28 @@
 ﻿判定,置き場所,キー,名前(英),名前(日),手がかり,ライセンス,作者,元の画像,ライセンスのURL,利用の制限,候補の画像の数,メモ
-要注意,faces.json,Alexandr Wang,Alexandr Wang,,X(@alexandr_wang),,,https://x.com/alexandr_wang,,,0,X(@alexandr_wang)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Andrew Macdonald,Andrew Macdonald,,公式サイト,,,https://www.uber.com/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Andy Konwinski,Andy Konwinski,,X(@andykonwinski),,,https://x.com/andykonwinski,,,0,X(@andykonwinski)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Aravind Srinivas,Aravind Srinivas,,X(@AravSrinivas),,,https://x.com/AravSrinivas,,,0,X(@AravSrinivas)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Clément Delangue,Clément Delangue,,X(@ClementDelangue),,,https://x.com/ClementDelangue,,,0,X(@ClementDelangue)の画像(自由に使えるライセンスではない)
-要注意,faces.json,David Ha,David Ha,,X(@hardmaru),,,https://x.com/hardmaru,,,0,X(@hardmaru)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Elon Musk,Elon Musk,,X(@elonmusk),,,https://x.com/elonmusk,,,0,X(@elonmusk)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Hiroki Ito,Hiroki Ito,,公式サイト,,,https://boostcapital.co.jp/about,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Hisayuki Idekoba,Hisayuki Idekoba,,公式サイト,,,https://recruit-holdings.com/ja/about,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Ilya Sutskever,Ilya Sutskever,,X(@ilyasut),,,https://x.com/ilyasut,,,0,X(@ilyasut)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Ivan Zhang,Ivan Zhang,,公式サイト,,,https://cohere.com/about,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Ivan Zhao,Ivan Zhao,,X(@ivanhzhao),,,https://x.com/ivanhzhao,,,0,X(@ivanhzhao)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Jill Hazelbaker,Jill Hazelbaker,,公式サイト,,,https://www.uber.com/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,John Schulman,John Schulman,,X(@johnschulman2),,,https://x.com/johnschulman2,,,0,X(@johnschulman2)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Julien Chaumond,Julien Chaumond,,X(@julien_c),,,https://x.com/julien_c,,,0,X(@julien_c)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Katrina Lake,Katrina Lake,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Kenta Takahashi,Kenta Takahashi,,公式サイト,,,https://boostcapital.co.jp/about,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Kevin Scott,Kevin Scott,,X(@kevin_scott),,,https://x.com/kevin_scott,,,0,X(@kevin_scott)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Koray Kavukcuoglu,Koray Kavukcuoglu,,X(@koraykv),,,https://x.com/koraykv,,,0,X(@koraykv)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Masumi Minegishi,Masumi Minegishi,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Max Jaderberg,Max Jaderberg,,公式サイト,,,https://www.isomorphiclabs.com/about-us,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Michael Truell,Michael Truell,,X(@mntruell),,,https://x.com/mntruell,,,0,X(@mntruell)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Mira Murati,Mira Murati,,X(@miramurati),,,https://x.com/miramurati,,,0,X(@miramurati)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Naoki Aoyagi,Naoki Aoyagi,,X(@naoki),,,https://x.com/naoki,,,0,X(@naoki)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Oriol Vinyals,Oriol Vinyals,,X(@OriolVinyalsML),,,https://x.com/OriolVinyalsML,,,0,X(@OriolVinyalsML)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Reid Hoffman,Reid Hoffman,,X(@reidhoffman),,,https://x.com/reidhoffman,,,0,X(@reidhoffman)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Reynold Xin,Reynold Xin,,X(@rxin),,,https://x.com/rxin,,,0,X(@rxin)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Rony Kahan,Rony Kahan,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,faces.json,Soumith Chintala,Soumith Chintala,,X(@soumithchintala),,,https://x.com/soumithchintala,,,0,X(@soumithchintala)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Thomas Wolf,Thomas Wolf,,X(@Thom_Wolf),,,https://x.com/Thom_Wolf,,,0,X(@Thom_Wolf)の画像(自由に使えるライセンスではない)
-要注意,faces.json,Tony West,Tony West,,公式サイト,,,https://www.uber.com/about/leadership,,,0,公式サイトの画像(自由に使えるライセンスではない)
-要注意,index.html PH,clark,Jack Clark,,Wikipedia記事の画像,,,,,,0,元の画像が特定できない
-要注意,index.html PH,narasimhan,Vas Narasimhan,,,,,,,,0,元の画像が特定できない
+イニシャル表示に変えた,faces.json,Andrew Macdonald,Andrew Macdonald,,公式サイト,,,https://www.uber.com/about/leadership,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Andy Konwinski,Andy Konwinski,,X(@andykonwinski),,,https://x.com/andykonwinski,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,David Ha,David Ha,,X(@hardmaru),,,https://x.com/hardmaru,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Hiroki Ito,Hiroki Ito,,公式サイト,,,https://boostcapital.co.jp/about,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Hisayuki Idekoba,Hisayuki Idekoba,,公式サイト,,,https://recruit-holdings.com/ja/about,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Ivan Zhang,Ivan Zhang,,公式サイト,,,https://cohere.com/about,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Ivan Zhao,Ivan Zhao,,X(@ivanhzhao),,,https://x.com/ivanhzhao,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Jill Hazelbaker,Jill Hazelbaker,,公式サイト,,,https://www.uber.com/about/leadership,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,John Schulman,John Schulman,,X(@johnschulman2),,,https://x.com/johnschulman2,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Julien Chaumond,Julien Chaumond,,X(@julien_c),,,https://x.com/julien_c,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Katrina Lake,Katrina Lake,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Kenta Takahashi,Kenta Takahashi,,公式サイト,,,https://boostcapital.co.jp/about,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Kevin Scott,Kevin Scott,,X(@kevin_scott),,,https://x.com/kevin_scott,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Koray Kavukcuoglu,Koray Kavukcuoglu,,X(@koraykv),,,https://x.com/koraykv,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Masumi Minegishi,Masumi Minegishi,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Max Jaderberg,Max Jaderberg,,公式サイト,,,https://www.isomorphiclabs.com/about-us,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Michael Truell,Michael Truell,,X(@mntruell),,,https://x.com/mntruell,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Naoki Aoyagi,Naoki Aoyagi,,X(@naoki),,,https://x.com/naoki,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Oriol Vinyals,Oriol Vinyals,,X(@OriolVinyalsML),,,https://x.com/OriolVinyalsML,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Reynold Xin,Reynold Xin,,X(@rxin),,,https://x.com/rxin,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Rony Kahan,Rony Kahan,,公式サイト,,,https://recruit-holdings.com/ja/about/leadership,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Soumith Chintala,Soumith Chintala,,X(@soumithchintala),,,https://x.com/soumithchintala,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,faces.json,Thomas Wolf,Thomas Wolf,,X(@Thom_Wolf),,,https://x.com/Thom_Wolf,,,0,2026/11/18 画像を外してイニシャル表示に。元の画像は docs/photo_rights/replaced_20261118.json
+イニシャル表示に変えた,index.html PH,clark,Jack Clark,,Wikipedia記事の画像,,,,,,0,2026/11/18 写真が人物ではなく講堂の画像だったため外した(イニシャル表示)
 クレジットが必要,data/out.js,Ahti Heinla,Ahti Heinla,,Wikipedia記事の画像,CC BY 4.0,Web Summit,https://commons.wikimedia.org/wiki/File:Ahti_Heinla_(55644964634)_(cropped).jpg,https://creativecommons.org/licenses/by/4.0,,1,
 クレジットが必要,data/out.js,Aidan Gomez,Aidan Gomez,,Wikipedia記事の画像,CC BY-SA 4.0,Gabriel Hutchinson,https://commons.wikimedia.org/wiki/File:Aidan_Gomez_at_%22ALL_IN%22_2025_06.jpg,https://creativecommons.org/licenses/by-sa/4.0,,1,
 クレジットが必要,data/out.js,Akimi Iijima,Akimi Iijima,,Wikipedia記事の画像,CC BY 4.0,内閣官房内閣広報室,https://commons.wikimedia.org/wiki/File:Masami_Iijima.jpg,https://creativecommons.org/licenses/by/4.0,,1,
@@ -150,6 +141,7 @@
 クレジットが必要,faces.json,Alex Bouaziz,Alex Bouaziz,,Wikimedia Commons,CC BY 2.0,Vaughn Ridley/Collision via Sportsfile – Collision Conf,https://commons.wikimedia.org/wiki/File:Alex_Bouaziz_at_Collision_2022.jpg,https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Alex Gorsky,Alex Gorsky,,Wikimedia Commons,CC BY 3.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Alex_Gorsky_at_World_Economic_Forum.jpg,https://creativecommons.org/licenses/by/3.0,,2,
 クレジットが必要,faces.json,Alex Molinaroli,Alex Molinaroli,,Wikimedia Commons,CC BY-SA 3.0,"Anna C Timms, on behalf of Johnson Controls","https://commons.wikimedia.org/wiki/File:Alex_Molinaroli,_Johnson_Controls,_2013.JPG",https://creativecommons.org/licenses/by-sa/3.0,,2,
+クレジットが必要,faces.json,Alexandr Wang,Alexandr Wang,,Wikimedia Commons,CC BY-SA 4.0,"Meta Platforms, Inc.","https://commons.wikimedia.org/wiki/File:Alexandr_Wang,_Chief_A.I._Officer,_Meta.jpg",https://creativecommons.org/licenses/by-sa/4.0,,0,2026/11/18 Xの画像から差し替え
 クレジットが必要,faces.json,Amy Weaver,Amy Weaver,,Wikimedia Commons,CC BY 3.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Amy_Weaver_at_World_Economic_Forum_Davos_2021.png,https://creativecommons.org/licenses/by/3.0,,3,
 クレジットが必要,faces.json,Andrew Gould,Andrew Gould,,Wikimedia Commons,CC BY 2.0,EG Focus,"https://commons.wikimedia.org/wiki/File:EG_Awards_judging_panel_-_Andrew_Gould,_JLL_(3731324485).jpg",https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Andrew Viterbi,Andrew Viterbi,,Wikimedia Commons,CC BY-SA 4.0,Canyigitozen,https://commons.wikimedia.org/wiki/File:10-08ViterbiBIG.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
@@ -159,6 +151,7 @@
 クレジットが必要,faces.json,Anirudh Devgan,Anirudh Devgan,,Wikimedia Commons,CC BY-SA 4.0,Niralidevgan,https://commons.wikimedia.org/wiki/File:Anirudh_Devgan.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
 クレジットが必要,faces.json,Anton Osika,Anton Osika,,Wikimedia Commons,CC BY 4.0,Web Summit,https://commons.wikimedia.org/wiki/File:Anton_Osika_Web_Summit_2025_(cropped).jpg,https://creativecommons.org/licenses/by/4.0,,2,
 クレジットが必要,faces.json,Antonio Neri,Antonio Neri,,Wikimedia Commons,CC BY 2.5,sailko,"https://commons.wikimedia.org/wiki/File:Specola,_medaglione_di_antonio_neri.JPG",https://creativecommons.org/licenses/by/2.5,,2,
+クレジットが必要,faces.json,Aravind Srinivas,Aravind Srinivas,,Wikimedia Commons,CC BY 2.0,TechCrunch,https://commons.wikimedia.org/wiki/File:Aravind_Srinivas_2024.jpg,https://creativecommons.org/licenses/by/2.0,,0,2026/11/18 差し替え
 クレジットが必要,faces.json,Arne Sorenson,Arne Sorenson,,Wikimedia Commons,CC BY 2.0,World Travel &amp; Tourism Council,"https://commons.wikimedia.org/wiki/File:Arne_Sorenson_President_%26_CEO,_Marriott_International_(25676937623)_(cropped).jpg",https://creativecommons.org/licenses/by/2.0,,3,
 クレジットが必要,faces.json,Arvind Krishna,Arvind Krishna,,Wikimedia Commons,CC BY 3.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Arvind_Krishna_(born_1962)_at_World_Economic_Forum_Davos_2021.png,https://creativecommons.org/licenses/by/3.0,,2,
 クレジットが必要,faces.json,Atsushi Horiba,Atsushi Horiba,,Wikimedia Commons,CC BY 4.0,"Cabinet Public Affairs Office, Cabinet Secretariat",https://commons.wikimedia.org/wiki/File:Atsushi_Horiba_20221124_cropped.jpg,https://creativecommons.org/licenses/by/4.0,,2,
@@ -187,6 +180,7 @@
 クレジットが必要,faces.json,Chuck Prince,Chuck Prince,,Wikimedia Commons,CC BY 3.0 br,Ricardo Stuckert/PR,https://commons.wikimedia.org/wiki/File:Prince25012007.jpg,https://creativecommons.org/licenses/by/3.0/br/deed.en,,2,
 クレジットが必要,faces.json,Chuck Robbins,Chuck Robbins,,Wikimedia Commons,CC BY 2.0,"Chairman of the Joint Chiefs of Staff from Washington D.C, United States",https://commons.wikimedia.org/wiki/File:Charles_H._Robbins.jpg,https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Claude Ryan,Claude Ryan,,Wikimedia Commons,CC BY-SA 3.0,Markbellis,"https://commons.wikimedia.org/wiki/File:Claude_Ryan,_Minister_of_Education,_former_leader_of_Quebec_Liberals,_1988.jpg",https://creativecommons.org/licenses/by-sa/3.0,,2,
+クレジットが必要,faces.json,Clément Delangue,Clément Delangue,,Wikimedia Commons,CC BY 3.0,SiliconANGLE theCUBE,https://commons.wikimedia.org/wiki/File:Cl%C3%A9ment_Delangue_on_SiliconANGLE_theCUBE.jpg,https://creativecommons.org/licenses/by/3.0,,0,2026/11/18 差し替え
 クレジットが必要,faces.json,Craig Barrett,Craig Barrett,,Wikimedia Commons,CC BY 2.0,Robert Scoble,https://commons.wikimedia.org/wiki/File:Craig_Barrett.jpg,https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Craig Federighi,Craig Federighi,,Wikimedia Commons,CC BY-SA 4.0,Julian Schiavo,https://commons.wikimedia.org/wiki/File:Craig_Federighi_at_Apple_WWDC_2019_(cropped).jpg,https://creativecommons.org/licenses/by-sa/4.0,,3,
 クレジットが必要,faces.json,Cristiano Amon,Cristiano Amon,,Wikimedia Commons,CC BY-SA 3.0,"©2012 Eric Myer Photography, Inc.",https://commons.wikimedia.org/wiki/File:CristianoAmon.jpeg,https://creativecommons.org/licenses/by-sa/3.0,,2,
@@ -213,6 +207,7 @@
 クレジットが必要,faces.json,Doug Oberhelman,Doug Oberhelman,,Wikimedia Commons,CC BY-SA 3.0,Wald-Burger8,https://commons.wikimedia.org/wiki/File:Douglas_R._Oberhelman_(CEO).jpg,https://creativecommons.org/licenses/by-sa/3.0,,2,
 クレジットが必要,faces.json,Eddy Cue,Eddy Cue,,Wikimedia Commons,CC BY-SA 4.0,Bea Phi,"https://commons.wikimedia.org/wiki/File:Eddy_Cue,_senior_vice_president_of_Services_at_Apple,_at_SXSW_2025_01_(cropped).jpg",https://creativecommons.org/licenses/by-sa/4.0,personality,2,
 クレジットが必要,faces.json,Eiji Hashimoto,Eiji Hashimoto,,Wikimedia Commons,CC BY 4.0,内閣官房内閣広報室,https://commons.wikimedia.org/wiki/File:Eiji_Hashimoto_20250702.jpg,https://creativecommons.org/licenses/by/4.0,,2,
+クレジットが必要,faces.json,Elon Musk,Elon Musk,,Wikimedia Commons,CC BY-SA 4.0,Gage Skidmore,"https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg",https://creativecommons.org/licenses/by-sa/4.0,,0,2026/11/18 Xの画像から差し替え
 クレジットが必要,faces.json,Eric Schmidt,Eric Schmidt,,Wikimedia Commons,CC BY 3.0,Guillaume Paumier,https://commons.wikimedia.org/wiki/File:Eric_Schmidt_at_the_37th_G8_Summit_in_Deauville_037.jpg,https://creativecommons.org/licenses/by/3.0,personality,3,
 クレジットが必要,faces.json,Evan Greenberg,Evan Greenberg,,Wikimedia Commons,CC BY-SA 4.0,Chubb Limited,https://commons.wikimedia.org/wiki/File:Evan_Greenberg_in_2024.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
 クレジットが必要,faces.json,Frances Arnold,Frances Arnold,,Wikimedia Commons,CC BY-SA 4.0,Christopher Michel,https://commons.wikimedia.org/wiki/File:Frances_Arnold_in_2021_at_Caltech_01_(cropped).jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
@@ -238,6 +233,7 @@
 クレジットが必要,faces.json,Hock Tan,Hock Tan,,Wikimedia Commons,CC BY-SA 4.0,"Greg Bezat, d/b/a Bezat Video Group",https://commons.wikimedia.org/wiki/File:Hock_Tan_2022.png,https://creativecommons.org/licenses/by-sa/4.0,,2,
 クレジットが必要,faces.json,Howard Schultz,Howard Schultz,,Wikimedia Commons,CC BY-SA 3.0,Gage Skidmore,https://commons.wikimedia.org/wiki/File:Howard_Schultz_by_Gage_Skidmore.jpg,https://creativecommons.org/licenses/by-sa/3.0,,2,
 クレジットが必要,faces.json,Hugh McColl,Hugh McColl,,Wikimedia Commons,CC BY 2.0,"Justin Ruckman from Charlotte, NC, USA",https://commons.wikimedia.org/wiki/File:ICV09_Center_City_talk_with_Hugh_McColl_2009.jpg,https://creativecommons.org/licenses/by/2.0,,2,
+クレジットが必要,faces.json,Ilya Sutskever,Ilya Sutskever,,Wikimedia Commons,CC BY-SA 4.0,Eladkarmel,https://commons.wikimedia.org/wiki/File:Ilya_Sutskever_and_Sam_Altman_in_TAU_(cropped).jpg,https://creativecommons.org/licenses/by-sa/4.0,,0,2026/11/18 Xの画像から差し替え
 クレジットが必要,faces.json,Indra Nooyi,Indra Nooyi,,Wikimedia Commons,CC BY-SA 2.0,"JeffBedford from Arlington, Virginia, United States",https://commons.wikimedia.org/wiki/File:IndraNooyiDavos2010ver2.jpg,https://creativecommons.org/licenses/by-sa/2.0,,2,
 クレジットが必要,faces.json,Irene Rosenfeld,Irene Rosenfeld,,Wikimedia Commons,CC BY-SA 2.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Irene_Rosenfeld.jpg,https://creativecommons.org/licenses/by-sa/2.0,,2,
 クレジットが必要,faces.json,Ivan Seidenberg,Ivan Seidenberg,,Wikimedia Commons,CC BY 2.0,Jim Wallace (Smithsonian Institution),https://commons.wikimedia.org/wiki/File:Ivan_Seidenberg.jpg,https://creativecommons.org/licenses/by/2.0,,2,
@@ -322,6 +318,7 @@
 クレジットが必要,faces.json,Mike Duke,Mike Duke,,Wikimedia Commons,CC BY-SA 2.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Leading_Through_Adversity_Mike_Duke.jpg,https://creativecommons.org/licenses/by-sa/2.0,,2,
 クレジットが必要,faces.json,Mike Sievert,Mike Sievert,,Wikimedia Commons,CC BY-SA 4.0,T-Mobile USA,https://commons.wikimedia.org/wiki/File:Mike_Sievert.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
 クレジットが必要,faces.json,Mike Verdu,Mike Verdu,,Wikimedia Commons,CC BY 2.0,Photo by Kimberly White/Getty Images for TechCrunch,https://commons.wikimedia.org/wiki/File:Mike_Verdu_at_TechCrunch.jpg,https://creativecommons.org/licenses/by/2.0,,2,
+クレジットが必要,faces.json,Mira Murati,Mira Murati,,Wikimedia Commons,CC BY 4.0,SWinxy,https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_274_(Mira_Murati).jpg,https://creativecommons.org/licenses/by/4.0,,0,2026/11/18 Xの画像から差し替え
 クレジットが必要,faces.json,Mitchell Hashimoto,Mitchell Hashimoto,,Wikimedia Commons,CC BY 3.0,Nils Pascal Illenseer,https://commons.wikimedia.org/wiki/File:Rupy_Talk_Mitchell_Hashimoto_(18945835).jpeg,https://creativecommons.org/licenses/by/3.0,,2,
 クレジットが必要,faces.json,Mitchell Rales,Mitchell Rales,,Wikimedia Commons,CC BY 2.0,Joe Andrucyk via Maryland GovPics on Flickr,https://commons.wikimedia.org/wiki/File:Mitchell_Rales_2018.jpg,https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Muhtar Kent,Muhtar Kent,,Wikimedia Commons,CC BY 2.0,thaigov,https://commons.wikimedia.org/wiki/File:Muhtar_Kent_(cropped).jpg,https://creativecommons.org/licenses/by/2.0,,2,
@@ -352,6 +349,7 @@
 クレジットが必要,faces.json,Ramon Laguarta,Ramon Laguarta,,Wikimedia Commons,CC BY-SA 4.0,Qwertyfry38,https://commons.wikimedia.org/wiki/File:Ramon_Laguarta.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
 クレジットが必要,faces.json,Randall Stephenson,Randall Stephenson,,Wikimedia Commons,CC BY 2.0,Robert Scoble,"https://commons.wikimedia.org/wiki/File:Randall_Stephenson,_CEO_of_AT%26T.jpg",https://creativecommons.org/licenses/by/2.0,,2,
 クレジットが必要,faces.json,Reed Hastings,Reed Hastings,,Wikimedia Commons,CC BY 2.0,,"https://commons.wikimedia.org/wiki/File:Reed_Hastings,_Web_2.0_Conference.jpg",https://creativecommons.org/licenses/by/2.0,,2,
+クレジットが必要,faces.json,Reid Hoffman,Reid Hoffman,,Wikimedia Commons,CC BY 2.0,U.S. Secretary of Defense,https://commons.wikimedia.org/wiki/File:2022_Reid_Hoffman_(cropped).jpg,https://creativecommons.org/licenses/by/2.0,,0,2026/11/18 Xの画像から差し替え
 クレジットが必要,faces.json,Richard Burke,Richard Burke,,Wikimedia Commons,CC BY 4.0,"Europäische Kommission - Audiovisueller Dienst, CE - Service audiovisuel, EC - Audiovisual Service","https://commons.wikimedia.org/wiki/File:Richard_Burke,_Member_of_the_CEC_(P-004786-01-10).jpg",https://creativecommons.org/licenses/by/4.0,,2,
 クレジットが必要,faces.json,Rick Wagoner,Rick Wagoner,,Wikimedia Commons,CC BY 3.0 br,Roberto Barroso/ABr,https://commons.wikimedia.org/wiki/File:Richard_Wagoner.jpg,https://creativecommons.org/licenses/by/3.0/br/deed.en,,2,
 クレジットが必要,faces.json,Robert Bradway,Robert Bradway,,Wikimedia Commons,CC BY-SA 4.0,"Amgen, Inc.",https://commons.wikimedia.org/wiki/File:Robert_A._Bradway.jpg,https://creativecommons.org/licenses/by-sa/4.0,,2,
@@ -1267,6 +1265,7 @@
 クレジットが必要,index.html PH,hoffman,Reid Hoffman,,Wikipedia記事の画像,CC BY 2.0,U.S. Secretary of Defense,https://commons.wikimedia.org/wiki/File:2022_Reid_Hoffman_(cropped).jpg,https://creativecommons.org/licenses/by/2.0,,1,
 クレジットが必要,index.html PH,altman,Sam Altman,,Wikipedia記事の画像,CC BY 4.0,首相官邸ホームページ / Office of the Prime Minister of Japan Official Website,"https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg",https://creativecommons.org/licenses/by/4.0,,1,
 クレジットが必要,index.html PH,friar,Sarah Friar,,Wikipedia記事の画像,CC BY 2.0,MoneyConf,https://commons.wikimedia.org/wiki/File:Sarah_Friar_MoneyConf_2018_(cropped).jpg,https://creativecommons.org/licenses/by/2.0,,1,
+クレジットが必要,index.html PH,narasimhan,Vas Narasimhan,,Wikimedia Commons,CC BY 3.0,World Economic Forum,https://commons.wikimedia.org/wiki/File:Vas_Narasimhan_at_World_Economic_Forum_Annual_Meeting_2025.png,https://creativecommons.org/licenses/by/3.0,,0,2026/11/18 見た目を照らして Commons の写真と同じと確認
 クレジットが必要,index.html PH,lecun,Yann LeCun,,Wikipedia記事の画像,CC BY-SA 2.0,Jérémy Barande,https://commons.wikimedia.org/wiki/File:Laura_Chaubard_%26_Yann_Le_Cun_-_2024_(53814052697)_(cropped).jpg,https://creativecommons.org/licenses/by-sa/2.0,,1,
 OK(表記なしで使える),data/out.js,Arthur Mensch,Arthur Mensch,,Wikipedia記事の画像,CC0,Jan2342342423,https://commons.wikimedia.org/wiki/File:Arthur_Mensch.png,http://creativecommons.org/publicdomain/zero/1.0/deed.en,,1,
 OK(表記なしで使える),data/out.js,Bill Dally,Bill Dally,,Wikipedia記事の画像,Public domain,The White House,"https://commons.wikimedia.org/wiki/File:William_Dally,_PCAST_Member_(cropped).jpg",,,1,
@@ -1396,6 +1395,7 @@ OK(表記なしで使える),faces.json,Thomas Edison,Thomas Edison,,Wikimedia C
 OK(表記なしで使える),faces.json,Thomas Mellon,Thomas Mellon,,Wikimedia Commons,Public domain,Unknown authorUnknown author,https://commons.wikimedia.org/wiki/File:Judge_Thomas_Mellon.jpg,,,2,
 OK(表記なしで使える),faces.json,Thomas Watson Jr.,Thomas Watson Jr.,,Wikimedia Commons,Public domain,U.S. State department,https://commons.wikimedia.org/wiki/File:ThomasJWatsonJr.jpg,,,2,
 OK(表記なしで使える),faces.json,Tom Kennedy,Tom Kennedy,,Wikimedia Commons,Public domain,"Not given - whole page is listed as ""Photographs by Barratt, Elliott and Fry, Hoppe, Ian Smith (Edinburgh), Lafayette, Wide World Photos, Bassano, C.N., Topical",https://commons.wikimedia.org/wiki/File:Tom_Kennedy.jpg,,,2,
+OK(表記なしで使える),faces.json,Tony West,Tony West,,Wikimedia Commons,Public domain,"Lonnie Tague, United States Department of Justice",https://commons.wikimedia.org/wiki/File:TonyWest-Official_DOJ_Portrait.jpg,,,0,2026/11/18 差し替え
 OK(表記なしで使える),faces.json,Toshiaki Higashihara,Toshiaki Higashihara,,Wikimedia Commons,Public domain,ラーム・エマニュエル駐日米国大使,https://commons.wikimedia.org/wiki/File:Higashihara_Toshiaki.jpg,,,2,
 OK(表記なしで使える),faces.json,Vannevar Bush,Vannevar Bush,,Wikimedia Commons,Public domain,Harris &amp; Ewing,"https://commons.wikimedia.org/wiki/File:Vannevar_Bush,_1938,_Harris_%26_Ewing_(cropped).jpg",,,2,
 OK(表記なしで使える),faces.json,Wallace Abbott,Wallace Abbott,,Wikimedia Commons,Public domain,Татьяна Пекная,https://commons.wikimedia.org/wiki/File:Dr._Wallace_C._Abbott.jpg,,,2,
