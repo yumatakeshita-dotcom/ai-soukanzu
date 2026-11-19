@@ -14,8 +14,8 @@ import glob, html, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGE = os.path.join(ROOT, 'docs', 'compute_deals_2026-11.html')
 ITEMS = {'1.01', '2.01', '2.02'}
-FORMS = {'S-1', 'S-1/A', '424B4', 'D', 'D/A'}
-FORM_JA = {'S-1': '上場の届け出書', 'S-1/A': '上場の届け出書(訂正)', '424B4': '上場の値段の確定',
+FORMS = {'S-1', 'S-1/A', 'S-1MEF', '424B4', 'D', 'D/A'}
+FORM_JA = {'S-1': '上場の届け出書', 'S-1/A': '上場の届け出書(訂正)', '424B4': '上場の値段の確定', 'S-1MEF': '追加の株の届け出(値段がわかる)',
            'D': '資金調達の届け出', 'D/A': '資金調達の届け出(訂正)', '8-K': '臨時の報告'}
 
 
