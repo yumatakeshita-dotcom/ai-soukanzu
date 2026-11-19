@@ -12,7 +12,7 @@
 結果は inbox/gemini/日付.json と 日付.md(表)に足す(同じ名前があれば -2, -3 … を付けて新しく作る。消さない・上書きしない)。
 このフォルダは merge_inbox.py の対象外なので、サイトには自動では出ない(候補として人が見る)。
 
-キー: 環境変数 GEMINI_API_KEY(コードに書かない)。モデル: GEMINI_MODEL(既定は gemini-flash-latest)。
+キー: 環境変数 GEMINI_API_KEY(コードに書かない)。モデル: GEMINI_MODEL(既定は gemini-2.5-flash。429 のときは次の候補を試す)。
 
 使い方:
   python3 scripts/gemini_research.py status
@@ -39,8 +39,19 @@ def key():
     return os.environ.get('GEMINI_API_KEY', '').strip()
 
 
+# 2026/11/19: 無料枠では Google検索つきの呼び出しが gemini-flash-latest などで 429(枠切れ)になり、
+# gemini-2.5-flash だけ通った。そのため既定は gemini-2.5-flash にし、429 のときは次の候補を順に試す。
+MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-2.5-pro']
+_model_used = []
+
+
+def models():
+    env = os.environ.get('GEMINI_MODEL', '').strip()
+    return [env] + [m for m in MODEL_FALLBACKS if m != env] if env else list(MODEL_FALLBACKS)
+
+
 def model():
-    return os.environ.get('GEMINI_MODEL', '').strip() or 'gemini-flash-latest'
+    return _model_used[-1] if _model_used else models()[0]
 
 
 def _ctx():
@@ -149,7 +160,18 @@ def resp_text(resp):
 
 
 def gen(body):
-    return http('POST', f'{API}/v1beta/models/{model()}:generateContent', body)
+    last = None
+    for m in models():
+        try:
+            r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
+            _model_used.append(m)
+            return r
+        except RuntimeError as e:
+            if ' 429' not in str(e) and ' 404' not in str(e):
+                raise
+            last = e
+            print(f'[{m}] 枠切れ・使えないため次のモデルを試す', file=sys.stderr)
+    raise last
 
 
 def search_step(topic, n):
