@@ -1,5 +1,6 @@
 // 幹部の入れ替わり年表(メニュー「幹部の年表」)。2026年11月19日に追加。
 // データ(EXECTL)と画面(showExecTl)がこのファイルに入っている。会社を足すときは EXECTL に同じ形で足す。
+// 2026年11月19日: Anthropicを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/exectl_auto.js(scripts/exectl_auto.py が作る)。
 // 1件 = {d:'日付(YYYY-MM-DD か YYYY-MM)', t:'in'入社 / 'out'退社 / 'role'役割の変更 / 'co'会社の出来事, p:'人の名前', en:'英語名', role:'役職', from/to:'どこから・どこへ', note:'ひとこと', cf:'o'公式 / 'f'開示 / 's'本人 / 'r'報道 / 'e'推定, src:[[出典名,URL],...]}
 // 守ること: 出典のURLを必ず付ける。うわさは入れない。報道だけのものは cf:'r'。既存の行は消さず、直すときは note に「(○年○月○日に直した)」と書き添える。
 const EXECTL={
@@ -72,6 +73,54 @@ openai:{
   '社長のブロックマンに、計算資源・売上・渉外の責任者が集まっていると報じられています。大きな提携の話は、ブロックマンの周りの人が窓口になりやすいとみられます(報道ベースの見立て)。',
   '上場の準備書類を出した2026年6月8日のあとも、幹部の退任が続いています。上場の時期は「まだ決めていない」と会社は言っています。'
  ]
+},
+anthropic:{
+ name:'Anthropic',
+ ipo:{d:'2026-06-01',label:'上場の準備書類(S-1)を米SECに非公開で提出'},
+ asof:'2026-11-19',
+ note:'Anthropicの経営陣・幹部の入社・退社・役割の変更を、2024年から並べました(2026年11月19日に追加)。公式=Anthropicの発表、本人=本人の投稿・手紙、報道=報道だけで確かめたもの。報道だけのものは日付が数日ずれることがあります。2026年11月19日にナスダックで取引が始まる見込みと報じられています。',
+ now:[
+  ['CEO','ダリオ・アモデイ','共同創業者'],
+  ['社長','ダニエラ・アモデイ','共同創業者。取締役会議長'],
+  ['CFO','クリシュナ・ラオ','2024年5月から。上場を担当'],
+  ['CTO','ラフル・パティル','2025年10月、Stripeから'],
+  ['CPO(製品の責任者)','アミ・ボーラ','2026年1月から'],
+  ['CCO(営業の責任者)','ポール・スミス','2025年、ServiceNowから'],
+  ['海外の責任者','クリス・チャウリ','2025年9月、国際担当の社長(Managing Director)'],
+  ['チーフアーキテクト','サム・マッキャンドリッシュ','共同創業者。元CTO'],
+  ['Labs(新規事業)','マイク・クリーガー / ベン・マン','2026年1月から'],
+  ['チーフサイエンス・オフィサー','ジャレッド・カプラン','共同創業者'],
+  ['取締役','リード・ヘイスティングス','2025年5月、Netflix共同創業者']
+ ],
+ ev:[
+  {d:'2024-05-15',t:'in',p:'マイク・クリーガー',en:'Mike Krieger',role:'CPO(最高製品責任者)',from:'Instagram(共同創業者・CTO)、Artifact',note:'',cf:'o',src:[['Anthropic公式(2024/5/15)','https://www.anthropic.com/news/mike-krieger-joins-anthropic']]},
+  {d:'2024-05-21',t:'in',p:'クリシュナ・ラオ',en:'Krishna Rao',role:'CFO(初代)',from:'Fanatics Commerce(CFO)、元Airbnb',note:'会社の広報が初代CFOと認めた',cf:'r',src:[['CFO Dive(2024/5)','https://www.cfodive.com/news/ai-startup-anthropic-airbnb-alum-first-cfo/716899/']]},
+  {d:'2024-05-28',t:'in',p:'ヤン・ライケ',en:'Jan Leike',role:'アラインメント(安全)研究の責任者',from:'OpenAI',note:'OpenAIを辞めた約2週間後。本人がXで発表',cf:'s',src:[['本人のX(@janleike)','https://x.com/janleike'],['PYMNTS(2024/5)','https://www.pymnts.com/personnel/2024/former-openai-safety-head-jan-leike-joins-anthropic/']]},
+  {d:'2024-08-05',t:'in',p:'ジョン・シュルマン',en:'John Schulman',role:'研究者(OpenAI共同創業者)',from:'OpenAI',note:'',cf:'r',src:[['TechCrunch(2024/8/5)','https://techcrunch.com/2024/08/05/openai-co-founder-leaves-for-anthropic']]},
+  {d:'2025-02-06',t:'out',p:'ジョン・シュルマン',en:'John Schulman',role:'研究者',to:'Thinking Machines Lab',note:'入社から約半年',cf:'r',src:[['Bloomberg(2025/2/6)','https://www.bloomberg.com/news/articles/2025-02-06/openai-co-founder-john-schulman-leaves-rival-firm-anthropic']]},
+  {d:'2025-05-28',t:'in',p:'リード・ヘイスティングス',en:'Reed Hastings',role:'取締役',from:'Netflix(共同創業者)',note:'長期利益信託(Long-Term Benefit Trust)が選任',cf:'o',src:[['Anthropic公式(2025/5/28)','https://anthropic.com/news/reed-hastings']]},
+  {d:'2025-07-15',t:'in',p:'ポール・スミス',en:'Paul Smith',role:'CCO(最高営業責任者、初代)',from:'ServiceNow(社長)',note:'法人営業を統括。2025年後半に着任',cf:'o',src:[['Anthropic公式(2025/7/15)','https://www.anthropic.com/news/paul-smith-to-join-anthropic']]},
+  {d:'2025-09',t:'in',p:'クリス・チャウリ',en:'Chris Ciauri',role:'国際担当の社長(Managing Director of International)',from:'(Google Cloud、Salesforceなど)',note:'海外展開を率いる。ポール・スミスの下',cf:'o',src:[['Anthropic公式(2025/9)','https://anthropic.com/news/anthropic-expands-global-leadership-in-enterprise-ai-naming-chris-ciauri-as-managing-director-of']]},
+  {d:'2025-10-02',t:'in',p:'ラフル・パティル',en:'Rahul Patil',role:'CTO',from:'Stripe(CTO)',note:'共同創業者のサム・マッキャンドリッシュはCTOからチーフアーキテクト(事前学習)に。2人ともダニエラ・アモデイ社長の直属',cf:'r',src:[['TechCrunch(2025/10/2)','https://www.techcrunch.com/2025/10/02/anthropic-hires-new-cto-with-focus-on-ai-infrastructure']]},
+  {d:'2026-01',t:'role',p:'マイク・クリーガー / アミ・ボーラ',en:'Mike Krieger / Ami Vora',role:'新規事業のLabsへ / CPO(製品の責任者)に',note:'クリーガーはベン・マンとLabsを率いる。2025年末に入社したボーラ(元WhatsApp)が製品部門を率いる',cf:'o',src:[['Anthropic公式(2026/1)','https://www.anthropic.com/news/introducing-anthropic-labs']]},
+  {d:'2026-01-15',t:'in',p:'アンドレア・ヴァローネ',en:'Andrea Vallone',role:'研究者(アラインメント、ヤン・ライケのもと)',from:'OpenAI(モデルポリシー研究の責任者)',note:'',cf:'r',src:[['The Decoder(The Vergeを引用)','https://the-decoder.com/openai-safety-researcher-joins-anthropics-alignment-team/']]},
+  {d:'2026-02-09',t:'out',p:'ムリナンク・シャルマ',en:'Mrinank Sharma',role:'安全対策(セーフガード)研究チームの責任者',to:'(未発表)',note:'「世界は危機にある」と書いた手紙を本人が公開して退社',cf:'s',src:[['Business Today(2026/2/10)','https://www.businesstoday.in/technology/news/story/anthropics-head-of-ai-safety-mrinank-sharma-resigns-says-world-is-in-peril-in-resignation-letter-515448-2026-02-10'],['eWeek','https://www.eweek.com/news/ai-safety-leader-resigns-anthropic-global-risks/']]},
+  {d:'2026-03-05',t:'in',p:'マックス・シュワルツァー',en:'Max Schwarzer',role:'研究者',from:'OpenAI(研究VP)',note:'',cf:'r',src:[['Storyboard18(2026/3/5)','https://www.storyboard18.com/trending/openai-vp-joins-anthropic-says-people-he-trusts-most-and-respects-moved-there-91303.htm']]},
+  {d:'2026-06-01',t:'co',p:'上場の準備',en:'',role:'',note:'S-1(上場の届け出書類の下書き)を米SECに非公開で提出したと公表。OpenAIより約1週間早い',cf:'r',src:[['Let\'s Data Science(2026/6)','https://letsdatascience.com/news/anthropic-confidentially-files-for-us-ipo-11bb348f']]},
+  {d:'2026-06-07',t:'in',p:'クライブ・チャン',en:'Clive Chan',role:'自社チップ計画のハードウェア担当',from:'OpenAI',note:'OpenAIの自社チップ計画の2人目のハード担当だった',cf:'r',src:[['The Decoder(2026/6/7)','https://the-decoder.com/anthropic-poaches-openais-second-ever-chip-engineer-as-both-companies-race-toward-ipos/']]},
+  {d:'2026-06-19',t:'in',p:'ジョン・ジャンパー',en:'John Jumper',role:'研究者(AIで科学)',from:'Google DeepMind(VP、AlphaFoldの開発者)',note:'2024年のノーベル化学賞。本人がXで発表し、Anthropicの広報も認めた',cf:'r',src:[['People Matters(2026/6)','https://www.peoplematters.in/news/leadership/google-deepmind-nobel-winner-john-jumper-joins-anthropic-in-latest-ai-talent-coup-50417'],['Outlook Business','https://www.outlookbusiness.com/corporate/google-deepmind-loses-nobel-winner-john-jumper-to-anthropic']]},
+  {d:'2026-06-25',t:'in',p:'スティーブ・ジャレット',en:'Steve Jarrett',role:'欧州・アフリカ展開の担当(パリ)',from:'Orange(最高AI責任者)',note:'役職名は未発表',cf:'r',src:[['The Next Web(2026/6)','https://thenextweb.com/news/anthropic-hires-orange-ai-chief']]},
+  {d:'2026-07-13',t:'in',p:'トム・ブロムフィールド',en:'Tom Blomfield',role:'技術スタッフ(計算資源チーム、共同創業者トム・ブラウンと働く)',from:'Y Combinator(パートナー)、Monzo創業者',note:'本人のXのプロフィールで確認(2026/11/19)',cf:'s',src:[['本人のX(@t_blom)','https://x.com/t_blom'],['The Next Web','https://thenextweb.com/news/tom-blomfield-monzo-founder-anthropic-compute']]},
+  {d:'2026-09-01',t:'in',p:'ジェニー・シャイアーズ',en:'Jenny Shiers',role:'人事部門',from:'Unily(最高人事責任者)',note:'',cf:'r',src:[['International Employment Lawyer(2026/9)','https://www.internationalemploymentlawyer.com/news/former-unily-chief-people-officer-joins-anthropic']]},
+  {d:'2026-10-26',t:'co',p:'上場の書類を公開',en:'',role:'',note:'S-1を公開し、ナスダックに銘柄コード「ANT」で上場すると届け出。創業者の株と長期利益信託が会社の支配を保つしくみ',cf:'r',src:[['Decrypt(2026/10)','https://decrypt.co/381818/anthropic-makes-ipo-filing-public-plans-nasdaq-listing-under-ant'],['The Motley Fool(2026/10/26)','https://www.fool.com/investing/2026/10/26/anthropics-ipo-keeps-founders-in-control/']]},
+  {d:'2026-11-05',t:'out',p:'キャット・ウー',en:'Cat Wu',role:'Claude Codeの製品担当',to:'OpenAI',note:'',cf:'r',src:[['36Kr(2026/11/5)','https://eu.36kr.com/en/p/4056380039435140']]},
+  {d:'2026-11-18',t:'co',p:'上場の値段が決まる',en:'',role:'',note:'1株83ドルで、仮の条件(70〜78ドル)の上を上回ったと報道。調達は約685億ドル。19日にナスダックで取引開始',cf:'r',src:[['CNBC(2026/11/18)','https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html']]}
+ ],
+ points:[
+  '法人営業はCCOのポール・スミス(ServiceNow出身)が統括し、海外はクリス・チャウリ、欧州はOrange出身のスティーブ・ジャレット(パリ)が担当と報じられています。日本の大企業への提案は、この海外の担当の線が窓口になりやすいとみられます(報道ベースの見立て)。',
+  'OpenAIと違い、共同創業者7人が今も幹部に残っています(この相関図のデータの範囲)。2025〜26年は製品・技術・営業のトップを外から入れて、上場に向けて体制を作りました。',
+  'OpenAIとの人の行き来は両方向です。OpenAIから安全・研究・チップの人が入り(ライケ、ヴァローネ、シュワルツァー、チャン)、Claude Codeの担当者がOpenAIへ移りました。'
+ ]
 }
 };
 
@@ -103,7 +152,9 @@ function showExecTl(key){
 }
 function exTlRender(){
   const D=EXECTL[exTlKey],esc=kkEsc;
-  const all=D.ev.slice().sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0);
+  const auto=(typeof EXECTL_AUTO!=='undefined'&&EXECTL_AUTO[exTlKey])||[];
+  const all=D.ev.concat(auto).sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:0);
+  const nAuto=auto.length;
   const years=[...new Set(all.map(exTlYearOf))];
   const list=all.filter(e=>(exTlType==='all'||e.t===exTlType)&&(exTlYear==='all'||exTlYearOf(e)===exTlYear));
   const y26=all.filter(e=>exTlYearOf(e)==='2026');
@@ -117,7 +168,7 @@ function exTlRender(){
     if(D.ipo&&!ipoShown&&e.d>D.ipo.d){ipoShown=true;rows.push(`<li class="xt-ipo">ここから上場の準備書類を出したあと(${exTlFmt(D.ipo.d)})</li>`)}
     const T=EXTL_T[e.t];
     rows.push(`<li class="xt-e" style="--c:${T[1]}"><div class="xt-d">${exTlFmt(e.d)}</div><div class="xt-b">
-      <div class="xt-h"><span class="xt-t">${T[0]}</span>${typeof cfBadge==='function'?cfBadge(e.cf):''}<b>${esc(e.p)}</b>${e.en?` <small>${esc(e.en)}</small>`:''}</div>
+      <div class="xt-h"><span class="xt-t">${T[0]}</span>${typeof cfBadge==='function'?cfBadge(e.cf):''}<b>${esc(e.p)}</b>${e.en?` <small>${esc(e.en)}</small>`:''}${e.auto?` <small class="xt-auto" title="毎朝の移籍の調査から自動で足しました(${esc(e.auto)})">自動で追加</small>`:''}</div>
       ${e.role?`<div class="xt-r">${esc(e.role)}</div>`:''}
       ${e.from?`<div class="xt-m">前は: ${esc(e.from)}</div>`:''}${e.to?`<div class="xt-m">次は: ${esc(e.to)}</div>`:''}
       ${e.note?`<div class="xt-n">${esc(e.note)}</div>`:''}
@@ -149,10 +200,12 @@ function exTlRender(){
   .xt-t{font-size:11px;font-weight:700;color:var(--c);border:1px solid var(--c);border-radius:4px;padding:0 4px}
   .xt-r{font-size:13px;margin-top:2px}.xt-m{font-size:12px;color:var(--muted)}.xt-n{font-size:13px;margin-top:3px}
   .xt-s{font-size:12px;margin-top:3px}.xt-s a{color:var(--invest)}
+  .xt-h .xt-auto{border:1px dashed var(--muted);border-radius:4px;padding:0 4px;font-size:11px}
   @media (max-width:520px){.xt-e{grid-template-columns:minmax(0,1fr);gap:2px}}
   </style>
   <div class="xt-wrap">
-  <p class="xt-lead">${esc(D.note)}</p>
+  ${Object.keys(EXECTL).length>1?`<div class="xt-bar" role="group" aria-label="会社を選ぶ"><span class="meta">会社</span>${Object.keys(EXECTL).map(k=>`<button type="button" data-k="${k}" aria-pressed="${exTlKey===k}">${esc(EXECTL[k].name)}</button>`).join('')}</div>`:''}
+  <p class="xt-lead">${esc(D.note)}${nAuto?` 「自動で追加」の${nAuto}件は、毎朝の移籍の調査から自動で足したものです。`:''}</p>
   <div class="xt-top"><div class="o"><b>${out26}件</b><small>2026年に退いた幹部など</small></div><div class="i"><b>${in26}件</b><small>2026年に入った幹部など</small></div>${D.ipo?`<div><b>${afterIpo}件</b><small>上場の準備書類のあとの退任</small></div>`:''}<div><b>${ok} / ${all.length}</b><small>公式・本人で確かめた件数</small></div></div>
   <div class="xt-box"><h3>営業で使えるポイント</h3><ul>${D.points.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>
   <details class="xt-box"><summary><b>今の主な顔ぶれ(${exTlFmt(D.asof)}時点、報道ベース)</b></summary><div class="xt-now" style="margin-top:8px">${D.now.map(r=>`<div><small>${esc(r[0])}</small>${esc(r[1])}<small>${esc(r[2])}</small></div>`).join('')}</div></details>
@@ -161,6 +214,7 @@ function exTlRender(){
   <div class="xt-bar"><button type="button" id="xtcopy">テキストをコピー</button><button type="button" id="xtsave">.txtで保存</button><span class="meta" id="xtmsg" aria-live="polite"></span></div>
   <ol class="xt">${rows.join('')||'<li class="meta">当てはまるものがありません</li>'}</ol>
   </div>`;
+  FEEDEL.querySelectorAll('.xt-bar button[data-k]').forEach(b=>b.addEventListener('click',()=>{exTlYear='all';showExecTl(b.dataset.k);window.scrollTo(0,0)}));
   FEEDEL.querySelectorAll('.xt-bar button[data-t]').forEach(b=>b.addEventListener('click',()=>{exTlType=b.dataset.t;exTlRender()}));
   FEEDEL.querySelectorAll('.xt-bar button[data-y]').forEach(b=>b.addEventListener('click',()=>{exTlYear=b.dataset.y;exTlRender()}));
   const msg=t=>{const m=document.getElementById('xtmsg');if(m)m.textContent=t};

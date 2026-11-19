@@ -5,6 +5,7 @@
 - 同じ内容(種類+主な名前+出典URL)は2回足さない
 - 出典(src)の無い項目は足さない
 - 2行目の FINDLINKS(相関図に足すつながり)は scripts/finds_map.py が inbox/ から毎回作る
+- 最後に scripts/exectl_auto.py も動かし、幹部の年表(site/data/exectl_auto.js)に幹部の動きを足す
 使い方: python3 scripts/merge_inbox.py   (足した件数を表示する)
 """
 import json, os, re, sys, glob, datetime
@@ -161,6 +162,12 @@ def main():
         n = sum(1 for r in added if r['k'] == kind)
         if n:
             print(f'  {kind}: {n}')
+    # 幹部の年表(site/data/exectl_auto.js)にも、移籍の調査から幹部の動きを足す(2026/11/19追加)
+    try:
+        import exectl_auto
+        exectl_auto.main()
+    except Exception as ex:
+        print('幹部の年表(自動)は作れませんでした:', ex)
 
 
 if __name__ == '__main__':
