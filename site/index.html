@@ -36136,7 +36136,9 @@ Object.assign(DS,{
  v_rouch:['ケイト・ラウチ本人のX(2026/4、がんの治療のためCMOを退くと表明)','https://x.com/kate_rouch/status/2040152110353019005','s'],
  v_milich:['アンドリュー・ミリッチ本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/milichab/status/2032176871517934070','s'],
  v_chaplot:['デベンドラ・チャプロット本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/dchaplot/status/2032596951435456797','s'],
- v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o']
+ v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
+ // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
+ v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36167,23 +36169,24 @@ function cfSummaryHtml(){
 }
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
 // 人の動きの確かめ直し(2026/11/18): 調査タスクが足した線(finds.js)は書き換えず、図を作るときに確かめた出典を足す
-// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと]
+// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと, 確かめた日(省くと2026/11/18)]
 const VERIFY_PPL=[
  ['ビル・ピーブルズ','','v_peebles','本人のXの投稿で確認'],
  ['ケイト・ラウチ','','v_rouch','本人のXの投稿で確認'],
  ['アンドリュー・ミリッチ','','v_milich','本人のXの投稿で確認'],
  ['デベンドラ・チャプロット','','v_chaplot','本人のXの投稿で確認'],
- ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認']
+ ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
+ ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
-    VERIFY_PPL.forEach(([nm,other,key,note])=>{
+    VERIFY_PPL.forEach(([nm,other,key,note,dt])=>{dt=dt||'2026/11/18';
       const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
       const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
-      if(!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
+      if(!(e.d||'').includes(dt+'、'))e.d=(e.d||'')+`(${dt}、${note})`;
     })});
 }
 
