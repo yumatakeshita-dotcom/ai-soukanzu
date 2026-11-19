@@ -36136,7 +36136,9 @@ Object.assign(DS,{
  v_rouch:['ケイト・ラウチ本人のX(2026/4、がんの治療のためCMOを退くと表明)','https://x.com/kate_rouch/status/2040152110353019005','s'],
  v_milich:['アンドリュー・ミリッチ本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/milichab/status/2032176871517934070','s'],
  v_chaplot:['デベンドラ・チャプロット本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/dchaplot/status/2032596951435456797','s'],
- v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o']
+ v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
+ // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
+ v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36167,7 +36169,8 @@ function cfSummaryHtml(){
 }
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
 // 人の動きの確かめ直し(2026/11/18): 調査タスクが足した線(finds.js)は書き換えず、図を作るときに確かめた出典を足す
-// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと]
+// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと, ...続き]
+// 続き(順番は自由・省いてよい): 確かめた日 '2026/11/19'(省くと2026/11/18)、付ける会社の図の一覧 ['openai']、線の種類 'from'(出身)か'moved'(移籍先)
 // 2026/11/18 古い移籍(OpenAI→Anthropic)に出典を足した(足すだけ)。人材の流れ・営業資料の「2社のあいだの移籍」で使う
 Object.assign(DS,{
  v_ant2021:['Anthropic公式発表(2021/5/28、ダリオ・アモデイCEO、ダニエラ・アモデイ社長で設立)','https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems','o'],
@@ -36218,63 +36221,65 @@ const VERIFY_PPL=[
  ['トム・ブラウン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
  ['サム・マッキャンドリッシュ','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
  ['サム・マッキャンドリッシュ','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
- ['シェンジア・ジャオ','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
- ['シェンジア・ジャオ','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
- ['ジアフイ・ユー','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
- ['ジアフイ・ユー','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
- ['ホンユー・レン','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from'],
- ['ホンユー・レン','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved'],
- ['ルーカス・ベイヤー','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
- ['ルーカス・ベイヤー','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
- ['アレクサンダー・コレスニコフ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
- ['アレクサンダー・コレスニコフ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
- ['シャオファ・ザイ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from'],
- ['シャオファ・ザイ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved'],
- ['ジェイソン・ウェイ','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from'],
- ['ジェイソン・ウェイ','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved'],
- ['ヒョンウォン・チョン','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from'],
- ['ヒョンウォン・チョン','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved'],
- ['ミラ・ムラティ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
- ['ミラ・ムラティ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
- ['バレット・ゾフ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
- ['バレット・ゾフ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
- ['リリアン・ウェン','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
- ['リリアン・ウェン','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
- ['ルーク・メッツ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from'],
- ['ルーク・メッツ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved'],
- ['バレット・ゾフ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from'],
- ['バレット・ゾフ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved'],
- ['ルーク・メッツ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from'],
- ['ルーク・メッツ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved'],
- ['サム・ショーンホルツ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from'],
- ['サム・ショーンホルツ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved'],
- ['リア・ガイ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from'],
- ['リア・ガイ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved'],
- ['ルオミン・パン','Meta','v_pang26','報道で確認(報道ベース)',['openai'],'from'],
- ['ルオミン・パン','OpenAI','v_pang26','報道で確認(報道ベース)',['meta'],'moved'],
- ['ジョン・シュルマン','Thinking Machines','v_schul25','報道で確認(報道ベース)',['anthropic'],'moved'],
- ['ジョン・シュルマン','Anthropic','v_schul25','報道で確認(報道ベース)',['tml'],'from'],
- ['ジョン・シュルマン','Thinking Machines','v_schul25','2026/11/19、直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['openai'],'moved'],
- ['ジョン・シュルマン','OpenAI','v_schul25','2026/11/19、直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['tml'],'from'],
- ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['openai'],'moved'],
- ['アンドリュー・タロック','OpenAI','v_tulloch','報道で確認(報道ベース)',['tml'],'from'],
- ['アンドリュー・タロック','Meta','v_tulloch','報道で確認(報道ベース)',['tml'],'moved'],
- ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['meta'],'from'],
+ ['シェンジア・ジャオ','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['シェンジア・ジャオ','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ジアフイ・ユー','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ジアフイ・ユー','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ホンユー・レン','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ホンユー・レン','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ルーカス・ベイヤー','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['ルーカス・ベイヤー','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['アレクサンダー・コレスニコフ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['アレクサンダー・コレスニコフ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['シャオファ・ザイ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['シャオファ・ザイ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['ジェイソン・ウェイ','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ジェイソン・ウェイ','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ヒョンウォン・チョン','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ヒョンウォン・チョン','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ミラ・ムラティ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ミラ・ムラティ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['バレット・ゾフ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['バレット・ゾフ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['リリアン・ウェン','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['リリアン・ウェン','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ルーク・メッツ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ルーク・メッツ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['バレット・ゾフ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['バレット・ゾフ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['ルーク・メッツ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['ルーク・メッツ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['サム・ショーンホルツ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['サム・ショーンホルツ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['リア・ガイ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['リア・ガイ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['ルオミン・パン','Meta','v_pang26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['ルオミン・パン','OpenAI','v_pang26','報道で確認(報道ベース)',['meta'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','報道で確認(報道ベース)',['anthropic'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','Anthropic','v_schul25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['openai'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','OpenAI','v_schul25','直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['tml'],'from','2026/11/19'],
+ ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['アンドリュー・タロック','OpenAI','v_tulloch','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['アンドリュー・タロック','Meta','v_tulloch','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
  ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
- ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']]
+ ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']],
+ ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
-    VERIFY_PPL.forEach(([nm,other,key,note,only,kind])=>{
-      if(only&&!only.includes(c))return;   /* 5番目: この会社の図にだけ付ける(2026/11/18追加) */
-      if(kind&&e.k!==kind)return;          /* 6番目: 線の種類(from=出身、moved=移籍先)。同じ2社を行き来した人の、どちらの移籍かを分ける(2026/11/19追加) */
+    VERIFY_PPL.forEach(([nm,other,key,note,...rest])=>{
+      let dt='2026/11/18',only=null,kind='';   /* 5番目からの続き: 日付・会社の図の一覧・線の種類(2026/11/19にまとめた) */
+      rest.forEach(x=>{if(Array.isArray(x))only=x;else if(x==='from'||x==='moved')kind=x;else if(/^\d{4}\/\d+\/\d+$/.test(x||''))dt=x});
+      if(only&&!only.includes(c))return;   /* この会社の図にだけ付ける */
+      if(kind&&e.k!==kind)return;          /* 同じ2社を行き来した人の、どちらの移籍かを分ける */
       const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
       const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
-      if(note&&/^\d{4}\/\d+\/\d+、/.test(note)){if(!(e.d||'').includes(note))e.d=(e.d||'')+`(${note})`}   /* 日付つきのひとことは、そのまま足す(2026/11/19追加) */
-      else if(note&&!/2026\/11\/18、/.test(e.d||''))e.d=(e.d||'')+`(2026/11/18、${note})`;
+      if(note&&!(e.d||'').includes(dt+'、'))e.d=(e.d||'')+`(${dt}、${note})`;
     })});
 }
 
