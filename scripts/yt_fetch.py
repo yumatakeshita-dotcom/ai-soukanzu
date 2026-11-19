@@ -8,12 +8,13 @@
   python3 scripts/yt_fetch.py --retry-queue          # 前回までに取れなかった動画をやり直す
   python3 scripts/yt_fetch.py --waits 60,180,600 ID  # 待つ秒数を変える(初期値 60,180,600)
   python3 scripts/yt_fetch.py --channel ID --title T ID  # 取れなかったときの記録用の情報
+  python3 scripts/yt_fetch.py --kind moves ID        # 記録先を inbox/moves/ にする(初期値は money)
 
 結果:
   - 画面に JSON(id, ok, description, transcript, tries, error, desc_source)を出す
   - 字幕のテキストは --out のフォルダ(初期値はスクラッチ用の /tmp/yt)に <ID>.txt で保存
-  - 最後まで取れなかった動画は inbox/money/yt_retry.txt に足す(足すだけ)。
-    次の回は --retry-queue で先にやり直す。取れたら inbox/money/yt_retry_done.txt に足す
+  - 最後まで取れなかった動画は inbox/<種類>/yt_retry.txt に足す(足すだけ)。
+    次の回は --retry-queue で先にやり直す。取れたら inbox/<種類>/yt_retry_done.txt に足す
 
 やり方:
   1. yt-dlp の普通の取り方で説明文と英語の字幕を取る
@@ -137,8 +138,12 @@ def main():
     ap.add_argument("--title", default="")
     ap.add_argument("--date", default="")
     ap.add_argument("--gap", type=int, default=10, help="動画の間に空ける秒数")
+    ap.add_argument("--kind", default="money", help="記録先の inbox/ のフォルダ(money, moves など)")
     ap.add_argument("--no-queue", action="store_true", help="取れなくても yt_retry.txt に足さない")
     a = ap.parse_args()
+    global QUEUE, DONE
+    QUEUE = os.path.join(ROOT, "inbox", a.kind, "yt_retry.txt")
+    DONE = os.path.join(ROOT, "inbox", a.kind, "yt_retry_done.txt")
     waits = [int(x) for x in a.waits.split(",") if x.strip()]
     os.makedirs(a.out, exist_ok=True)
     today = time.strftime("%Y-%m-%d")

@@ -66,7 +66,7 @@ docs/                 移行メモなど
   - 確かさの一覧(メニュー「確かさの一覧」、2026/11/18追加): 全社の「公式・開示で確かめた割合」を並べる画面。index.html の `// ===== 確かさの一覧` の部分。データは持たず、開いたときに各社の図から確かな版と同じ数え方で数える
   - Xの確かめ方(2026/11/19から): クラウド環境から x.com と YouTube に直接つながる。`python3 scripts/x_check.py @名前` でプロフィールの自己紹介、`python3 scripts/x_check.py https://x.com/名前/status/番号` で投稿の本文と日付が見られる(X公式の埋め込みサービスを使う)。ログインが要る検索やタイムラインの一覧は見られないので、投稿のURLは報道などで探す。確かめたら `DS` に `'s'`(本人)で出典を足し、`VERIFY_PPL` に5番目の値で確かめた日を書く
   - 報道からXの投稿をたどる(2026/11/19から): `python3 scripts/x_from_news.py --kind money 記事URL` で、記事に載っているXの投稿を拾い、埋め込みサービスで投稿者・日付・本文を確かめる。`inbox/x_accounts.txt` の見るアカウントの投稿には `watched:true` が付く
-  - YouTubeの字幕(2026/11/19から): `python3 scripts/yt_fetch.py 動画ID` が、断られたら60秒・3分・10分待ってやり直す。だめなら説明文はチャンネルのRSSから取り、動画を `inbox/money/yt_retry.txt` に足す(次の回に `--retry-queue` でやり直し、取れたら `yt_retry_done.txt` に足す)。クラウドからは字幕がロボット確認で断られやすい
+  - YouTubeの字幕(2026/11/19から): `python3 scripts/yt_fetch.py 動画ID` が、断られたら60秒・3分・10分待ってやり直す。だめなら説明文はチャンネルのRSSから取り、動画を `inbox/money/yt_retry.txt` に足す(次の回に `--retry-queue` でやり直し、取れたら `yt_retry_done.txt` に足す。引き抜きの調査は `--kind moves` で `inbox/moves/` に記録)。クラウドからは字幕がロボット確認で断られやすい
   - techcrunch.com はクラウド環境から記事の本文を読める(2026/11/19に許可)
   - 調査タスクの `confidence` は「公式」「開示」「報道」「本人の発言」「推定」のどれか。開示=法定の書類(SEC・EDINET・決算資料)、推定=自分や他社の推定・試算の数字
 
