@@ -26,7 +26,16 @@ PCなしで回すための定期タスクと、その決まりごと。
 - `person`: `q`(Wikidata の数字ID。Q を付けない文字列), `en`, `ja`, `intro`(英語版 Wikipedia の冒頭), `w`(言語 en/ja), `t`(Wikipedia の題名)
 - `person_role`: `q`, `company`, `role`(日本語)。主キーがないので、同じ行があれば足さない
 - `person_feed`: `q`, `ts`(YYYY-MM-DD), `src`(媒体名), `title`, `url`, `kind`(`move`)
+- `person_src`: `q`, `label`, `url`(仮の番号の人の出典)
 - 処理済みの日付ファイルは `inbox/moves/d1_done.txt` に1行ずつ足す(消さない)
+- CSV は `tools/cloudflare/moves_csv.py` で作る(D1 には書かない。読むだけ)
+
+### Wikidata に項目がない人(仮の番号、2026-11-18 から)
+- `q` を 900000001 から始まる9桁の番号にする(サイトは 900000000 以上を「Wikidataに項目がない人」として扱い、Wikidata へのリンクの代わりに `person_src` の出典を出す)。今ある一番大きい番号の次から順に付ける
+- 同名が多くて本人と決められない人も仮の番号にする(別人の項目に結び付けない)
+- `intro` `w` `t` は空(サイトが「Wikipediaの冒頭」と表示してしまうため)。説明は `d` に日本語で、出典は `person_src` に入れる
+- 後で Wikidata に項目ができても番号は書き換えない(足すだけ)
+- 2026-11-18 時点: 900000001〜002 はPCで入れた人、003〜020 は移籍の18人
 
 ## PC から移した道具
 `pc/` 以下。表の形と各サイトの作りは `pc/D1_SCHEMA.md`。
