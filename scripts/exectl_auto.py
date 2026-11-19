@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """毎朝の移籍の調査(inbox/moves/*.json)から、幹部の動きを「幹部の年表」に自動で足す。
 
-- 書き出し先: site/data/exectl_auto.js(const EXECTL_AUTO={openai:[...],anthropic:[...]})
+- 書き出し先: site/data/finds.js の3行目(const EXECTL_AUTO={openai:[...],anthropic:[...]})。
+  finds.js は毎朝9:13の定期タスクが commit して共有リンクに公開するので、別のファイルにしない
+  (merge_inbox.py が finds.js を書くときに js_line() を3行目に入れる。このファイルを単独で動かしたときは3行目だけを書き換える)
 - 手で書いた年表(site/data/exectl.js)は読むだけ。書き換えない
 - 手で書いた年表にもう同じ人・同じ種類(入社/退社)があるもの、同じ人の前後1か月の行があるものは足さない(手の方を優先)
 - 出典(src)の無いもの、confidence が「うわさ」のものは足さない
@@ -12,7 +14,7 @@
 import json, os, re, glob
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUT = os.path.join(ROOT, 'site', 'data', 'exectl_auto.js')
+OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
 MANUAL = os.path.join(ROOT, 'site', 'data', 'exectl.js')
 # 年表の会社: キー -> 名前(inbox の from/to にこの名前が入っていれば対象)
 COMPANIES = {'openai': 'OpenAI', 'anthropic': 'Anthropic'}
@@ -50,7 +52,7 @@ def has(name, text):
     return name.lower() in str(text or '').lower()
 
 
-def main():
+def build():
     keys = manual_keys()
     out = {k: [] for k in COMPANIES}
     seen = set()
@@ -100,16 +102,31 @@ def main():
                 out[key].append(e)
     for k in out:
         out[k].sort(key=lambda e: (e['d'], e['en'] or e['p']))
-    head = ('// 幹部の年表に自動で足したもの。scripts/exectl_auto.py が inbox/moves/ から毎日作る(手で直さない)。'
-            '手で書いた年表は site/data/exectl.js\n')
-    body = 'const EXECTL_AUTO=' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) + ';\n'
-    new = head + body
-    old = open(OUT, encoding='utf-8').read() if os.path.exists(OUT) else ''
-    if new != old:
-        open(OUT, 'w', encoding='utf-8').write(new)
+    return out
+
+
+def js_line(out=None):
+    """finds.js の3行目。手で直さない"""
+    out = build() if out is None else out
+    return ('const EXECTL_AUTO=' + json.dumps(out, ensure_ascii=False, separators=(',', ':')) +
+            ';// 幹部の年表に自動で足したもの(scripts/exectl_auto.py が inbox/moves/ から毎回作る。手で直さない)\n')
+
+
+def report(out):
     n = sum(len(v) for v in out.values())
-    print('幹部の年表(自動): ' + '、'.join(f'{COMPANIES[k]} {len(v)}件' for k, v in out.items()) + f'(合計{n}件)' + ('' if new != old else '・変化なし'))
+    print('幹部の年表(自動): ' + '、'.join(f'{COMPANIES[k]} {len(v)}件' for k, v in out.items()) + f'(合計{n}件)')
     return n
+
+
+def main():
+    """単独で動かしたとき: finds.js の EXECTL_AUTO の行だけを書き換える(ほかの行はそのまま)"""
+    out = build()
+    lines = open(OUT, encoding='utf-8').read().splitlines(True)
+    keep = [l for l in lines if not l.startswith('const EXECTL_AUTO=')]
+    if keep and not keep[-1].endswith('\n'):
+        keep[-1] += '\n'
+    open(OUT, 'w', encoding='utf-8').write(''.join(keep) + js_line(out))
+    return report(out)
 
 
 if __name__ == '__main__':

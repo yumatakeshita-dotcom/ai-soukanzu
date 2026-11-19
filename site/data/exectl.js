@@ -1,6 +1,6 @@
 // 幹部の入れ替わり年表(メニュー「幹部の年表」)。2026年11月19日に追加。
 // データ(EXECTL)と画面(showExecTl)がこのファイルに入っている。会社を足すときは EXECTL に同じ形で足す。
-// 2026年11月19日: Anthropicを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/exectl_auto.js(scripts/exectl_auto.py が作る)。
+// 2026年11月19日: Anthropicを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/finds.js の3行目(scripts/exectl_auto.py が作る)。
 // 1件 = {d:'日付(YYYY-MM-DD か YYYY-MM)', t:'in'入社 / 'out'退社 / 'role'役割の変更 / 'co'会社の出来事, p:'人の名前', en:'英語名', role:'役職', from/to:'どこから・どこへ', note:'ひとこと', cf:'o'公式 / 'f'開示 / 's'本人 / 'r'報道 / 'e'推定, src:[[出典名,URL],...]}
 // 守ること: 出典のURLを必ず付ける。うわさは入れない。報道だけのものは cf:'r'。既存の行は消さず、直すときは note に「(○年○月○日に直した)」と書き添える。
 const EXECTL={

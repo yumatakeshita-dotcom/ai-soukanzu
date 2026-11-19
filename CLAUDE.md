@@ -54,7 +54,7 @@ docs/                 移行メモなど
   - 営業先ごとの1枚資料: 同じ `site/data/common.js` の後半(`cmShowBrief`)。共通のつながりの結果画面の「営業資料(1枚)を作る」から開く。だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典をまとめ、印刷(PDF保存)・テキストのコピー・.txt保存ができる。2026/11/18追加
 - ニュースのリンク: Googleニュースの転送リンク(news.google.com/rss/articles/…)は元の記事のURLに直す。`python3 scripts/fix_gnews_links.py --auto` で、まだ直していないものを調べて置き換える(わからないものは残す)。毎朝9:47の定期タスク「ニュースのリンクを元記事に直す 毎日」が実行する。対応表は `scripts/gnews_map.json`
 - 幹部の年表(メニュー「幹部の年表」、2026/11/19追加): `site/data/exectl.js`。OpenAIとAnthropicの経営陣の入社・退社・役割の変更を、上場の準備書類の前後で並べる。データ(`EXECTL`)と画面(`showExecTl`)が同じファイル。1件ごとに出典URLと確かさ(`cf`)を書く。新しい幹部の動きは `ev` に足す(足すだけ)。ほかの会社を足すときは `EXECTL` に同じ形で足す
-  - 2026/11/19: Anthropicを追加(画面の「会社」で切り替え)。毎朝の移籍の調査(inbox/moves/)から、OpenAI・Anthropicの幹部の動きを `scripts/exectl_auto.py` が `site/data/exectl_auto.js` に自動で足す(画面では「自動で追加」の印)。`scripts/merge_inbox.py` の最後に動くので、毎朝9:13の「調査の新着」の定期タスクで更新される。手で書いた年表に同じ人の前後1か月の行があれば足さない。exectl_auto.js は手で直さない(直したいものは exectl.js に手で書く)
+  - 2026/11/19: Anthropicを追加(画面の「会社」で切り替え)。毎朝の移籍の調査(inbox/moves/)から、OpenAI・Anthropicの幹部の動きを `scripts/exectl_auto.py` が `site/data/finds.js` の3行目(`EXECTL_AUTO`)に自動で足す(画面では「自動で追加」の印)。`scripts/merge_inbox.py` の最後に動くので、毎朝9:13の「調査の新着」の定期タスクで更新される。手で書いた年表に同じ人の前後1か月の行があれば足さない。この3行目は手で直さない(直したいものは exectl.js に手で書く)
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
   - 同じファイルの2行目 `FINDLINKS` は、候補を相関図の人物・会社・線として出すためのもの(`scripts/finds_map.py` が inbox/ から作る)。どの会社の図に付けるかは index.html の `applyFinds` が名前で照らして決める。既存の人物・線は書き換えない
 - 確かさの印(公式・開示・本人・報道・推定。2026/11/18追加): index.html の `// ===== 確かさの印` の部分。線や数字の出典から自動で決まり、画面の「確かさ」で絞り込める
