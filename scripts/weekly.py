@@ -154,6 +154,71 @@ def load_feature(date):
     return {'title': title, 'body': '\n'.join(lines[1:]).strip()}
 
 
+def _co(x):
+    """会社名をそろえる(括弧と「/」より後ろを落とす)"""
+    x = re.split(r'[((/／]', str(x or ''))[0].strip()
+    return x
+
+
+def feature_candidates(start, end):
+    """特集の候補(2026/11/19追加)。期間の調査(inbox/moves)で人の動きが多かった会社を数え、
+    newsletter/feature/candidates/ に書く。人が選んで newsletter/feature/発行日.md に書き起こす。"""
+    from collections import defaultdict
+    ppl = defaultdict(list)
+    for f in sorted(glob.glob(os.path.join(ROOT, 'inbox', 'moves', '*.json'))):
+        try:
+            data = json.load(open(f, encoding='utf-8'))
+        except Exception:
+            continue
+        fdate = str(data.get('date') or os.path.basename(f)[:10])[:10]
+        for it in data.get('items') or []:
+            if not isinstance(it, dict) or not mi.src_list(it):
+                continue
+            d = str(it.get('date') or fdate)[:10]
+            if not (start <= d <= end or (start <= fdate <= end)):
+                continue
+            who = it.get('name_ja') or it.get('name_en') or ''
+            for side, lbl in (('from', '出た'), ('to', '入った')):
+                c = _co(it.get(side))
+                if c and len(c) >= 2:
+                    ppl[c].append((lbl, who, _co(it.get('to') if side == 'from' else it.get('from')), d))
+    rows = sorted(ppl.items(), key=lambda kv: -len(kv[1]))
+    lines = [f'# 特集の候補 {start}〜{end}', '',
+             '期間の調査(inbox/moves)で、人の動きが多かった会社です。選んだら、出典を確かめて newsletter/feature/発行日.md に書きます。', '']
+    n = 0
+    for c, L in rows:
+        if len(L) < 2:
+            continue
+        n += 1
+        ins = [x for x in L if x[0] == '入った']
+        outs = [x for x in L if x[0] == '出た']
+        lines.append(f'## {c}(入った{len(ins)}人・出た{len(outs)}人)')
+        for lbl, who, other, d in sorted(L, key=lambda x: x[3], reverse=True)[:6]:
+            lines.append(f'- {d} {who}({"←" if lbl == "入った" else "→"} {other or "不明"})')
+        lines.append('')
+        if n >= 5:
+            break
+    if not n:
+        lines.append('この期間は、2件以上の動きがあった会社はありませんでした。相関図の「人材の流れ」で、2社を選んで探せます。')
+    return '\n'.join(lines) + '\n'
+
+
+def to_note(feature, date):
+    """note向けの記事(2026/11/19追加)。特集を、noteに貼れる形にする(公開はしない)。
+    noteの編集画面ではリンクの書き方 [文字](URL) がそのまま効かないことがあるので、「文字 URL」(括弧のなかなら、括弧を重ねずに)にして出す。"""
+    body = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'\1 \2', feature['body'])
+    body = re.sub(r'\*\*([^*]+)\*\*', r'\1', body)
+    return '\n'.join([
+        feature['title'], '',
+        body, '',
+        '---',
+        'この記事は、AI企業の人・出資・取引のつながりを集めた「AI企業の相関図」のデータから書いています。',
+        f'相関図: {MAP_URL}',
+        f'週のまとめ(ニュースレター): {WEEKLY_URL}',
+        '※ 各項目は報道ベースです。出典のリンクから元の記事をご確認ください。',
+        f'(発行日 {date})', ''])
+
+
 def build_issue(date, start, end):
     sec, found, edges = collect(start, end)
     lead_path = os.path.join(LEAD, date + '.md')
@@ -405,6 +470,8 @@ def main():
         end = a.end or d2s(last_sun)
         iss = build_issue(date, start, end)
         json.dump(iss, open(os.path.join(ISSUES, date + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        os.makedirs(os.path.join(FEATURE, 'candidates'), exist_ok=True)
+        open(os.path.join(FEATURE, 'candidates', date + '.md'), 'w', encoding='utf-8').write(feature_candidates(start, end))
         print(f'第{iss["no"]}号 {start}〜{end}: ' + ', '.join(f'{k} {v}' for k, v in iss['counts'].items()))
     issues = [json.load(open(p, encoding='utf-8')) for p in sorted(glob.glob(os.path.join(ISSUES, '*.json')))]
     if not issues:
@@ -412,6 +479,9 @@ def main():
         return
     for iss in issues:
         open(os.path.join(NL, iss['date'] + '.md'), 'w', encoding='utf-8').write(to_md(iss))
+        if iss.get('feature'):
+            os.makedirs(os.path.join(NL, 'note'), exist_ok=True)
+            open(os.path.join(NL, 'note', iss['date'] + '.md'), 'w', encoding='utf-8').write(to_note(iss['feature'], iss['date']))
     os.makedirs(os.path.dirname(PAGE), exist_ok=True)
     open(PAGE, 'w', encoding='utf-8').write(render_page(issues))
     print('作ったもの:', os.path.relpath(PAGE, ROOT), f'newsletter/ に .md {len(issues)}号分')

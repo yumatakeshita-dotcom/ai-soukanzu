@@ -12,11 +12,59 @@
    "note": "Thinking Machines Labの共同創業者。2026年7月下旬に体調を理由に退任を表明し、数日のうちにOpenAIに戻った(OpenAIの広報がコメント)。The Information の報道。2018〜2024年にOpenAIの安全システム担当VP",
    "backfill": true,
    "src": [
-    ["The Next Web(2026-07、The Informationを引用)", "https://thenextweb.com/news/lilian-weng-thinking-machines-openai-recursive-self-improvement"],
-    ["AI Magazine(People Moves: Lilian Weng, OpenAI)", "https://aimagazine.com/articles/people-moves-lilian-weng-openai"]
+    [
+     "The Next Web(2026-07、The Informationを引用)",
+     "https://thenextweb.com/news/lilian-weng-thinking-machines-openai-recursive-self-improvement"
+    ],
+    [
+     "AI Magazine(People Moves: Lilian Weng, OpenAI)",
+     "https://aimagazine.com/articles/people-moves-lilian-weng-openai"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Andrej Karpathy",
+   "name_ja": "アンドレイ・カルパシー",
+   "from": "",
+   "to": "Anthropic",
+   "role": "事前学習チーム(Claudeで事前学習の研究を速める新しいチームを率いると報道)",
+   "date": "2026-05-19",
+   "note": "OpenAIの共同創業者(のちTesla、Eureka Labs創業)。事前学習の責任者ニコラス・ジョセフの下で、Claudeを使って事前学習の研究を速める新チームに入ると、Anthropicが確認(Axios、本人側の発表も報道)。Eureka Labsを離れたかは確認できていない",
+   "backfill": true,
+   "src": [
+    [
+     "Axios(2026-05-19)",
+     "https://axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+    ],
+    [
+     "The Decoder(2026-05)",
+     "https://the-decoder.com/prominent-ai-researcher-andrej-karpathy-picks-anthropic-over-former-home-openai-to-get-back-into-frontier-llm-research/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Noam Shazeer",
+   "name_ja": "ノーム・シェイザー",
+   "from": "Google DeepMind",
+   "to": "OpenAI",
+   "role": "研究(役割は未確認。AIの設計の研究を率いるという報道もある)",
+   "date": "2026-06-17",
+   "note": "GoogleのGemini共同リード(VP)。2024年にCharacter.AIの契約(約27億ドルと報道)でGoogleに戻っていた。2026年6月17〜18日にXで移籍を表明し、アルトマンが歓迎、Googleも退社を認めた",
+   "backfill": true,
+   "src": [
+    [
+     "9to5Google(2026-06-17)",
+     "https://9to5google.com/2026/06/17/geminis-co-lead-is-leaving-google-to-join-openai/"
+    ],
+    [
+     "The Decoder(2026-06)",
+     "https://the-decoder.com/googles-gemini-co-lead-noam-shazeer-joins-openai-after-two-year-return-stint/"
+    ]
    ],
    "confidence": "報道"
   }
  ],
- "notes": "2026-11-19 手で追加(人材の流れの出典確認の作業中に見つけたもの)。日付は報道により7月28〜30日で少しずれる"
+ "notes": "2026-11-19 手で追加(人材の流れの出典確認の作業中に見つけたもの)。日付は報道により7月28〜30日で少しずれる / 2026-11-19 カルパシーのAnthropic入りとシェイザーのOpenAI入りを追加(noteの記事で見つけ、報道で確かめたもの)"
 }
