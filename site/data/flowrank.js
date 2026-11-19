@@ -93,6 +93,15 @@ const FR_CSS=`<style>
   .frpr li{display:grid;grid-template-columns:2em minmax(0,1fr) auto;gap:8px;align-items:center;border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:7px 10px;font-size:13.5px}
   .frpr .c{font-variant-numeric:tabular-nums;font-weight:700;text-align:right;white-space:nowrap}
   </style>`;
+// 経由の移籍の一覧(2026/11/19追加): 数には入れず、「どこを経由したか」を小さく出す
+function frViaPath(m){
+  const k=fnorm(m.en||m.p);const L=frMoves.filter(x=>fnorm(x.en||x.p)===k);
+  const x=L.find(x=>x.a===m.a&&L.some(z=>z.a===x.b&&z.b===m.b));return x?x.bn:'';
+}
+function frViaHtml(list,cls){
+  if(!list.length)return '';
+  return `<div class="${cls||''}" style="grid-column:1/-1;font-size:12.5px;color:var(--muted);max-width:900px;margin:0 0 12px"><h4 style="margin:4px 0;font-size:13px;color:var(--fg)">経由の移籍 <small class="meta">${list.length}件・数には入れていません</small></h4><ul style="margin:0;padding-left:18px;display:grid;gap:3px">${list.map(m=>{const v=frViaPath(m);return `<li><b style="color:var(--fg)">${frEsc(m.p)}</b> ${frEsc(m.an)} → ${v?`<b>${frEsc(v)}</b>(経由) → `:''}${frEsc(m.bn)}${m.y?` ・ ${m.y}年`:''}</li>`}).join('')}</ul></div>`;
+}
 function frEsc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function frRender(){
   const Y=new Date().getFullYear();
@@ -127,6 +136,7 @@ function frRender(){
     <span class="bars"><span>流入 ${r.i}</span><i style="width:${r.i*100/max}%;background:var(--active)"></i><span>流出 ${r.o}</span><i style="width:${r.o*100/max}%;background:var(--left)"></i></span>
     <span class="tops">${r.o?`主な移籍先: ${chips(frTop(r.out,'b'),r.k,'b')}`:''}${r.o&&r.i?'<br>':''}${r.i?`主な出身元: ${chips(frTop(r.inn,'a'),r.k,'a')}`:''}</span></summary>
     <div class="frd">${r.i?`<div><h4>入ってきた人(${r.i}人)</h4><ul>${ppl(r.inn,'a')}</ul></div>`:''}${r.o?`<div><h4>出ていった人(${r.o}人)</h4><ul>${ppl(r.out,'b')}</ul></div>`:''}
+    ${frViaHtml(FR_VIA.filter(m=>(m.a===r.k||m.b===r.k)&&(!from||m.y>=from)))}
     ${COMPANIES[r.k]?`<div style="grid-column:1/-1"><a href="#" data-k="${frEsc(r.k)}">${frEsc(r.name)}の相関図を見る ▸</a></div>`:''}</div></details></li>`).join('')}</ol>
   ${rows.length>150?`<p class="note">上位150社まで表示しています。会社名で絞り込むと、ほかの会社も見られます。</p>`:''}
   <p class="note" style="margin-top:14px">年は、移った先に入った年(わかる場合)です。年がわからない移籍は「全期間」にだけ数えます。同じ人が同じ会社へ移った記録が2社の図にあるときは1件にまとめ、Google BrainはGoogle DeepMindにまとめ、大学などの出身校は数えていません。ほかの会社を経由した移籍(例: シュルマンのOpenAI→Thinking Machines LabはAnthropic経由)は、経由した先への移籍として数え、直接の移籍としては数えていません(${FR_VIA.length}件)。うち${fdN}件は毎朝の調査タスクが出典つきで足したもので、報道ベースのものを含みます。開いたときに各社の図から数え直すので、相関図に人が足されると自動で増えます。</p>`;
@@ -173,6 +183,7 @@ function frRenderPair(moves,P){
   <div class="frbar" role="group" aria-label="期間"><span class="meta">期間</span>${Object.entries(P).map(([v,[,t]])=>`<button type="button" data-p="${v}" aria-pressed="${frPeriod===v}">${t}</button>`).join('')}</div>
   <div class="frsel"><select id="frpa" aria-label="1社目">${opt(frPair.a)}</select><button type="button" id="frsw" title="入れかえる" aria-label="2社を入れかえる">⇄</button><select id="frpb" aria-label="2社目">${opt(frPair.b)}</select></div>
   <div class="frpv"><div><h3>${frEsc(A)} → ${frEsc(B)} <b>${ab.length}</b>人</h3>${ppl(ab)}</div><div><h3>${frEsc(B)} → ${frEsc(A)} <b>${ba.length}</b>人</h3>${ppl(ba)}</div></div>
+  ${frViaHtml(FR_VIA.filter(m=>((m.a===frPair.a&&m.b===frPair.b)||(m.a===frPair.b&&m.b===frPair.a))&&(!P[frPeriod][0]||m.y>=P[frPeriod][0])),'frpv-via')}
   <div class="frtalk"><div class="meta" style="font-size:12px;margin-bottom:4px">話題の例(そのまま使う前に、出典を確かめてください)</div><span id="frtk">${frEsc(talk)}</span>
    <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px"><button type="button" id="frcp">文をコピー</button>${COMPANIES[frPair.a]?`<a href="#" data-k="${frEsc(frPair.a)}">${frEsc(A)}の相関図 ▸</a>`:''}${COMPANIES[frPair.b]?`<a href="#" data-k="${frEsc(frPair.b)}">${frEsc(B)}の相関図 ▸</a>`:''}${COMPANIES[frPair.a]&&COMPANIES[frPair.b]&&typeof showCommon==='function'?`<a href="#" id="frcm">2社の共通のつながりを見る ▸</a>`:''}</div></div>
   <h3 style="margin:16px 0 6px;font-size:15px">よくある移籍ルート(${frEsc(P[frPeriod][1])}、上位${Math.min(30,pairs.length)})</h3>
