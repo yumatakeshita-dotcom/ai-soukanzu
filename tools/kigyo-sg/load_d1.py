@@ -6,7 +6,8 @@
 """
 import json, os, sys, time, gzip, base64, urllib.request
 from concurrent.futures import ThreadPoolExecutor
-DB = "https://api.cloudflare.com/client/v4/accounts/b7b515e722cbecf8000c746711d00a41/d1/database/b1b4af48-9eac-402d-be0e-2b91cc6d01f2/query"
+# 入れ先のデータベース(何も指定しなければシンガポールの「kigyo-sg」。ほかの国は環境変数 D1_DB にその番号を入れる)
+DB = "https://api.cloudflare.com/client/v4/accounts/b7b515e722cbecf8000c746711d00a41/d1/database/" + os.environ.get("D1_DB", "b1b4af48-9eac-402d-be0e-2b91cc6d01f2") + "/query"
 TOKEN = os.environ.get("CLOUDFLARE_API_TOKEN", "x")  # 環境のネットワーク設定でトークンが自動で付くときは x のままでよい
 
 def q(sql, params=None):
