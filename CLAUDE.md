@@ -71,6 +71,8 @@ docs/                 移行メモなど
   - **引き抜き調査(inbox/moves/)で本人の投稿も集める(2026/11/19から)**: 人の動きを見つけたら、本人のX・LinkedIn(個人ページや投稿)・YouTubeでの発表を探し、見つかったら `src` の先頭に `["本人のX(2026/11/19)","https://x.com/名前/status/番号"]` のように入れる。`python3 scripts/x_check.py 投稿のURL` で本文と日付を確かめてから入れる(見つからなければ報道だけでよい。作らない・推測しない)。本人の投稿がある人の動きは、`confidence` が「報道」でも図では最初から「本人」の印になる(index.html の `selfPost`。会社のLinkedInページは含めない)。会社の公式発表があれば `confidence` は「公式」にする
   - 調査タスクの `confidence` は「公式」「開示」「報道」「本人の発言」「推定」のどれか。開示=法定の書類(SEC・EDINET・決算資料)、推定=自分や他社の推定・試算の数字
 
+- Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
+
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
 - 数字が報道ベースや契約の上限のときは、そう書く
