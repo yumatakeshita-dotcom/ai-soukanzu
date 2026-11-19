@@ -36139,6 +36139,7 @@ Object.assign(DS,{
  v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
  // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
  v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
+ v_lau:['オースティン・ラウ本人のX(2026/11/5、OpenAIに加わったと投稿。2026/11/19にXで確認)','https://x.com/helloitsaustin/status/2118161804463595931','s'],
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36278,6 +36279,7 @@ const VERIFY_PPL=[
  ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
  ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
+ ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
