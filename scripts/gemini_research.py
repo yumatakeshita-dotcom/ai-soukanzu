@@ -188,10 +188,31 @@ def gen(body):
     raise last
 
 
+_last_process = {}
+
+
+def process_info(resp):
+    """2026/11/20: Geminiが実際に打った検索の言葉・見たページ・根拠の対応を取り出す(履歴用)"""
+    queries, srcs, sup = [], [], []
+    for c in resp.get('candidates') or []:
+        g = c.get('groundingMetadata') or {}
+        queries += g.get('webSearchQueries') or []
+        base = len(srcs)
+        for ch in g.get('groundingChunks') or []:
+            w = ch.get('web') or {}
+            srcs.append([w.get('title') or w.get('uri') or '', w.get('uri') or ''])
+        for sp in g.get('groundingSupports') or []:
+            sup.append({'text': (sp.get('segment') or {}).get('text', ''),
+                        'idx': [base + i for i in sp.get('groundingChunkIndices') or []]})
+    return {'queries': queries, 'sources': srcs, 'supports': sup, 'usage': resp.get('usageMetadata') or {}}
+
+
 def search_step(topic, n):
     body = {'contents': [{'role': 'user', 'parts': [{'text': build_prompt(topic, n)}]}],
             'tools': [{'google_search': {}}]}
     resp = gen(body)
+    _last_process.clear()
+    _last_process.update(process_info(resp))
     return parse_items(resp_text(resp)), grounding_sources(resp)
 
 
@@ -353,9 +374,15 @@ def research(topic, n=10, check=True, dry=False, log=print):
     meta = {'date': date, 'model': model(), 'checked': checked, 'grounding': gsrc}
     p = new_path(date, '')
     json.dump({'date': date, 'kind': 'gemini', 'topic': topic, 'model': meta['model'], 'checked': checked,
-               'items': rows, 'grounding': gsrc, 'grounding_resolved': gres}, open(p + '.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+               'items': rows, 'grounding': gsrc, 'grounding_resolved': gres,
+               'process': dict(_last_process)}, open(p + '.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     open(p + '.md', 'w', encoding='utf-8').write(to_md(topic, rows, meta))
     log(f'{len(rows)}件を保存: {os.path.relpath(p, ROOT)}.json / .md')
+    try:  # 履歴の目次を作り直す(2026/11/20)。失敗しても調査は止めない
+        import gemini_history
+        gemini_history.build()
+    except Exception as e:
+        print('履歴の目次を作れなかった:', e, file=sys.stderr)
     return {'items': rows, 'saved': os.path.relpath(p, ROOT) + '.md', 'markdown': to_md(topic, rows, meta)}
 
 

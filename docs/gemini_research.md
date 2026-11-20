@@ -63,3 +63,10 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
   Gemini が書くURLは作り話のことが多いので、確かめ無しには使えない
 - Gemini の検索の転送リンク(vertexaisearch…)は、数時間で使えなくなる。調べた直後に元のURLにして `grounding_resolved` に保存している
 - 無料枠は混雑(503)が多い。20秒・60秒・120秒待ってやり直す
+
+## 調べ方の履歴を見る(2026/11/20追加)
+Gemini API で調べても、Geminiアプリ・NotebookLM の履歴には残らない。そこで毎回の調査で、Geminiが実際に打った検索の言葉・見たページ・根拠の対応(`process`)を `inbox/gemini/日付.json` に残し、`python3 scripts/gemini_history.py` で日付ごとの目次を作る(調査のたびに自動で作り直す)。
+- 文章の目次: `inbox/gemini/README.md`(GitHubで読める)
+- 見やすい版: `inbox/gemini/history.html`(共有リンクにも公開。毎朝の定期タスクが公開し直す)
+- 試しに残した生の返答(`*_process_raw.json`)も同じ目次に出る。足すだけで、元の記録は書き換えない
+- 2026/11/20より前の調査は、検索の言葉が残っていない(「この回は記録なし」と出る)
