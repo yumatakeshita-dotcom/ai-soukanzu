@@ -283,11 +283,11 @@ const N = [
  {id:'thiel',name:'ピーター・ティール',kind:'i',from:2015,desc:'設立時の資金提供者の一人。',role:'個人投資家'},
  {id:'hoffman',name:'リード・ホフマン',kind:'i',from:2015,desc:'設立時の資金提供者の一人。LinkedIn共同創業者で、のち取締役も務めました。',role:'個人投資家'},
  {id:'yc',name:'Y Combinator',kind:'i',from:2015,desc:'設立時に関わったアクセラレーター。アルトマンは元代表。',role:'設立時の支援者'},
- {id:'microsoft',name:'Microsoft',kind:'i',from:2019,desc:'2019年に10億ドルを出資し、累計約130億ドルを投じる契約。2025年10月の再編後の持ち分は約27%、2026年6月末で約25%と報じられています。',role:'最大の外部株主 約25%'},
+ {id:'microsoft',name:'Microsoft',kind:'i',from:2019,desc:'2019年に10億ドルを出資し、累計約130億ドルを投じる契約。2025年10月の再編後の持ち分は約27%(2025/10/28、Microsoft公式ブログで確認。希薄化後・転換後の割合)。2026年6月末で約25%は報道ベースです。(2026/11/20 公式の出典を足した)',role:'最大の外部株主 約27%(再編時・公式)',src:['v_msopbc']},
  {id:'foundation',name:'OpenAI Foundation',kind:'i',from:2015,desc:'元の非営利組織。再編後も約26%を持ち、全取締役を任命して支配権を保ちます。',role:'非営利財団 約26%'},
  {id:'khosla',name:'Khosla Ventures',kind:'i',from:2019,desc:'2019年から出資する初期のベンチャーキャピタル。',role:'VC'},
  {id:'thrive',name:'Thrive Capital',kind:'i',from:2023,desc:'2023年の株式売却を主導した投資会社。',role:'VC'},
- {id:'softbank',name:'SoftBank',kind:'i',from:2024,desc:'約13%を保有と報じられています。2026年の増資では300億ドルを出資。',role:'約13%'},
+ {id:'softbank',name:'SoftBank',kind:'i',from:2024,desc:'2026年2月27日のソフトバンクグループの発表で、300億ドルの追加出資の完了後に累計646億ドル・持ち分約13%になる見込みと確認(計算の前提は未記載)。実際の持ち分は報道ベースです。(2026/11/20 公式の出典を足した)',role:'約13%(見込み・公式発表)',src:['v_sb0227']},
  {id:'nvidia',name:'Nvidia',kind:'i',from:2024,desc:'GPU供給元であり出資者。2026年の増資に300億ドルと報じられています。(2026/11/18、OpenAIの公式発表で確認)',role:'出資 + GPU供給',src:['v_oai110']},
  {id:'mgx',name:'MGX',kind:'i',from:2024,desc:'アブダビの投資会社。2024年の増資に参加。',role:'ファンド'},
  {id:'amazon',name:'Amazon',kind:'i',from:2026,desc:'2026年の増資で最大500億ドルをコミットと報じられています。Anthropicの大株主でもあります。(2026/11/18、OpenAIの公式発表で500億ドルを確認)',role:'出資(2026年)',src:['v_oai110']},
@@ -36231,6 +36231,10 @@ Object.assign(DS,{
  v_milich:['アンドリュー・ミリッチ本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/milichab/status/2032176871517934070','s'],
  v_chaplot:['デベンドラ・チャプロット本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/dchaplot/status/2032596951435456797','s'],
  v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
+ // 2026/11/20 確かめ直し(5回目): OpenAIの大株主(Microsoft・ソフトバンク)
+ v_metz:['ルーク・メッツ本人のXのプロフィール(2026/11/20確認、「Meta / Previously: Thinking Machines, OpenAI, Google Brain」)','https://x.com/Luke_Metz','s'],
+ v_msopbc:['Microsoft公式ブログ(2025/10/28、再編後の持ち分は約27%・約1,350億ドル。希薄化後・転換後)','https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/','o'],
+ v_sb0227:['ソフトバンクグループ公式発表(2026/2/27、300億ドルの追加出資。完了後に累計646億ドル・持ち分約13%の見込み)','https://group.softbank/news/press/20260227','o'],
  // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
  v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
  // 2026/11/18 xAI・Grok・Xの調査で追加(公式・開示を優先)
@@ -36301,6 +36305,7 @@ const VERIFY_PPL=[
  ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
  ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
+ ['ルーク・メッツ','Meta','v_metz','本人のXのプロフィールで確認','2026/11/20'],
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
