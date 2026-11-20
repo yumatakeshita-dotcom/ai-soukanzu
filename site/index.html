@@ -36301,7 +36301,13 @@ const VERIFY_PPL=[
  ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
  ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
+ /*XV_PPL_START*/ // scripts/moves_x_apply.py --apply が、本人のXで確かめた人の動きをここに足す(足すだけ)
+ /*XV_PPL_END*/
 ];
+// 本人のXで確かめた人の動きの出典(scripts/moves_x_apply.py が足す。2026/11/20)
+Object.assign(DS,{
+ /*XV_DS_START*/ /*XV_DS_END*/
+});
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
