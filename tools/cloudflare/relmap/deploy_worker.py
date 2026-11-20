@@ -35,7 +35,8 @@ def main():
             sys.exit("止めました: アカウントが1つに決まりません。CLOUDFLARE_ACCOUNT_ID を設定してください")
         acc = res[0]["id"]
     code = open(os.path.join(HERE, "worker.mjs"), "rb").read()
-    meta = {"main_module": "worker.mjs", "compatibility_date": "2026-11-01"}
+    # keep_bindings: 画面やAPIで設定した秘密(Stripeの鍵など)を、置き直しても消さない
+    meta = {"main_module": "worker.mjs", "compatibility_date": "2026-11-01", "keep_bindings": ["secret_text"]}
     # プロ会員用の D1「kigyo-pro」があれば束ねる(なければこれまでどおり束ねない。作るのは持ち主の確認のあと)
     dbs = call("GET", f"/accounts/{acc}/d1/database?name=kigyo-pro").get("result") or []
     dbs = [d for d in dbs if d.get("name") == "kigyo-pro"]

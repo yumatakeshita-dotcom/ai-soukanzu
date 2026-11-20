@@ -18,7 +18,7 @@
 2. ★ D1 `kigyo-pro` を作り、`pro_schema.sql` を流す(CREATE は d1_add.py が拒否するので、ダッシュボードか wrangler で1回だけ)
 3. ★ `python3 tools/cloudflare/relmap/deploy_worker.py` で Worker を置き直す(D1 があれば自動で束ねる)
 4. 料金ページ `/pro/` が見えること、先行案内が登録できることを確かめる
-5. 決済から会員になるまでは最初は手作業: Stripe で入金を確認 → `pro_issue.py` でキー作成 → メールで渡す(Stripe の webhook での自動化は、購入が出てから)
+5. 決済から会員になるまでは最初は手作業: Stripe で入金を確認 → `pro_issue.py` でキー作成 → メールで渡す→ Stripe の webhook での自動化は `docs/stripe_setup.md`(2026/11/20追加。`/api/stripe/webhook`、`/api/pro/claim`、`site/pro/thanks.html`、`pro_stripe.sql`)
 6. 準備ができたら `config.js` の `gate` を true にして push
 
 ## 決めてあること・まだ弱いところ
