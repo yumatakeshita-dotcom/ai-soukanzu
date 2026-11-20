@@ -73,6 +73,7 @@ docs/                 移行メモなど
 
 - Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
   - 毎朝8:23の定期タスク「Gemini調査(確かめつき) 毎日」が `python3 scripts/gemini_research.py daily` を動かし、`scripts/gemini_verify.py` で出典URL(実際に開く)・重なり・日付・確かさを確かめる(2026/11/19追加)。合格したものだけ `inbox/money/日付-gemini.json`・`inbox/moves/日付-gemini.json` に足し、9:13の「調査の新着」がサイトに出す。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない
+  - 調べ方の履歴(2026/11/20追加): Geminiが打った検索の言葉・見たページ・候補を日付ごとに `inbox/gemini/README.md` と `inbox/gemini/history.html` にまとめる(`scripts/gemini_history.py`。調査のたびに自動)。共有リンクにも公開。くわしくは `docs/gemini_research.md`
 - 幹部の年表に Nvidia を追加(2026/11/19)。SECの臨時報告書(8-K)から取締役・経営陣の入れ替わり12件。`scripts/exectl_auto.py` も Nvidia を対象にした
 
 ## 守ること
