@@ -1,0 +1,6 @@
+{
+ "date": "2026-11-21",
+ "kind": "deep",
+ "items": [],
+ "notes": "地域別: 中国=Web検索4回(TechCrunch・Next Web・Euronews・AI Weekly等)、韓国=Web検索2回(Korea Times・Kyunghyang等)、欧州=Web検索2回(TechCrunch・Dealroom等)。この環境から報道サイトの本文は大半が開けなかった(403/Cloudflare)ため、全件を検索結果の要約で確認(本文未確認)。X確認0件。外したもの(名前のみ): Plural(1.1B, VCファンドでAI企業でない), Fractile(既存), Genesis AI(既存・米国), Mistral €3B(9月、対象外), ElevenLabs/Black Forest Labs(日付が古い)。さかのぼり: 2026-10(DeepSeek・Moonshotの資金調達2件)。欧州の移籍は該当なし。"
+}
