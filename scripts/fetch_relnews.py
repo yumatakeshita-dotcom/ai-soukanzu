@@ -57,6 +57,34 @@ def parse(data, src, r):
                         "x": desc[:120] + ("..." if len(desc) > 120 else "")})
     return out
 
+KW = re.compile(r"AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|Meta|Microsoft|Google|スタートアップ|資金調達|買収|出資|LLM|robot|ロボット|chip|startup|funding|acquir|raises", re.I)
+
+
+def gemini_pick(items):
+    """新しい見出しのうち、AI・半導体・資金調達・企業の人事や買収に関係するものをGeminiに選んでもらう。
+    失敗したら None(キーワードの判定にもどる)。2026/11/20追加"""
+    try:
+        sys.path.insert(0, __import__("os").path.dirname(__file__))
+        import gemini_research as g
+        if not g.key():
+            return None
+        keep = set()
+        for b in range(0, len(items), 80):
+            chunk = items[b:b + 80]
+            lines = "\n".join(f"{i}: {x['t']}" for i, x in enumerate(chunk))
+            prompt = ("次の見出しのうち、AI企業・半導体・AI向けの計算資源やデータセンター・スタートアップの資金調達や買収・"
+                      "AI関連企業の幹部の人事に関係するものの番号だけを選び、JSONの数字の配列だけを返してください(例: [0,3,5])。\n" + lines)
+            r = g.gen({"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"temperature": 0}})
+            m = re.search(r"\[[\d,\s]*\]", g.resp_text(r))
+            if not m:
+                return None
+            keep |= {b + i for i in json.loads(m.group(0)) if 0 <= i < len(chunk)}
+        return keep
+    except Exception as e:
+        print("Geminiの選別は使えなかった(キーワードで代わりに選ぶ):", str(e)[:120])
+        return None
+
+
 def main():
     dry = "--dry" in sys.argv
     p = "site/data/relnews.js"
@@ -73,6 +101,9 @@ def main():
                     have.add(x["u"]); new.append(x)
         except Exception as e:
             print("取れなかった:", src, url[:70], e)
+    picked = gemini_pick(new) if new else None
+    for k, x in enumerate(new):
+        x["a"] = 1 if (k in picked if picked is not None else bool(KW.search(x["t"]))) else 0
     new.sort(key=lambda x: x["d"], reverse=True)
     print(f"新しい見出し {len(new)}件(いまの記録 {len(cur)}件)")
     if dry:
