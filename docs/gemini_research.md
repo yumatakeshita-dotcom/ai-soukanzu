@@ -45,6 +45,8 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
 - やり直し: `python3 scripts/gemini_research.py retry`(古い順に最大3件。まだ枠切れなら残りは次の日)。やり直したら queue.jsonl に「done」の行を足す
 - Google検索の転送リンク(vertexaisearch…)は、たどって実際の記事のURLに直して保存する(もとのリンクは `転送リンク` に残す)
 
+- 使った回数: 呼び出しのたびに `inbox/gemini/usage.jsonl` に1行足す。`python3 scripts/gemini_research.py usage` で、日ごと(日本時間)の成功・枠切れ・混雑・トークン数を数える。2026/11/20より前の分は記録がない
+
 ### 有料に切り替える手順(請求先の設定)
 1. https://aistudio.google.com/apikey を開く(キーを作ったのと同じGoogleアカウントで)
 2. 使っているキーの横の「無料枠(Free tier)」の表示、または「課金を設定(Set up billing)」を押す

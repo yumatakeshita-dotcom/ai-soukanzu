@@ -19,6 +19,7 @@
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
   python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
   python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ scripts/gemini_verify.py で確かめる(毎朝の定期タスク)
+  python3 scripts/gemini_research.py usage                         # 使った回数を日ごとに数える(無料枠が足りるかの目安)
   python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
   python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
@@ -166,6 +167,47 @@ def resp_text(resp):
     return '\n'.join(parts)
 
 
+# ---------- 使った回数の記録(2026/11/20追加。足すだけ) ----------
+# 呼び出しのたびに inbox/gemini/usage.jsonl に1行足す(日時・モデル・結果・トークン数)。`usage` コマンドで日ごとに数える。
+# 無料枠が足りるか、有料にするかの目安にする。記録に失敗しても調査は止めない。
+USAGE = os.path.join(OUT_DIR, 'usage.jsonl')
+
+
+def usage_log(model_name, result, resp=None):
+    try:
+        um = (resp or {}).get('usageMetadata') or {}
+        os.makedirs(OUT_DIR, exist_ok=True)
+        with open(USAGE, 'a', encoding='utf-8') as f:
+            f.write(json.dumps({'at': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), 'model': model_name,
+                                'result': result, 'in': um.get('promptTokenCount'), 'out': um.get('candidatesTokenCount')},
+                               ensure_ascii=False) + '\n')
+    except Exception:
+        pass
+
+
+def usage_report(log=print):
+    if not os.path.exists(USAGE):
+        log('まだ記録がありません'); return {}
+    jst = datetime.timezone(datetime.timedelta(hours=9))
+    days = {}
+    for ln in open(USAGE, encoding='utf-8'):
+        try: e = json.loads(ln)
+        except json.JSONDecodeError: continue
+        d = datetime.datetime.fromisoformat(e['at']).astimezone(jst).strftime('%Y-%m-%d')
+        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'in': 0, 'out': 0, 'models': {}})
+        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy'}.get(e['result'])
+        if key: x[key] += 1
+        if e['result'] == 'ok': x['models'][e['model']] = x['models'].get(e['model'], 0) + 1
+        x['in'] += e.get('in') or 0; x['out'] += e.get('out') or 0
+    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 入力トークン | 出力トークン | モデル別の成功')
+    for d in sorted(days):
+        x = days[d]
+        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
+    n = len(days); tot = sum(x['ok'] for x in days.values())
+    log(f'\n{n}日間で成功 {tot}回(1日あたり {tot/n:.1f}回)。無料枠は検索つきで1モデル1日20回前後。枠切れ(429)が出る日が続くなら、有料への切り替えを検討(docs/gemini_research.md)')
+    return days
+
+
 class QuotaExhausted(RuntimeError):
     """全部のモデルで枠切れ(429)。無料枠の1日の上限に達したときなど。"""
 
@@ -179,9 +221,11 @@ def gen(body):
             try:
                 r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
                 _model_used.append(m)
+                usage_log(m, 'ok', r)
                 return r
             except RuntimeError as e:
                 last = e
+                usage_log(m, next((c for c in ('429', '503', '500', '404') if f' {c}' in str(e)), 'error'))
                 if (' 503' in str(e) or ' 500' in str(e)) and i < len(BUSY_WAITS):
                     print(f'[{m}] 混雑のため {BUSY_WAITS[i]}秒待ってやり直す', file=sys.stderr)
                     time.sleep(BUSY_WAITS[i])
@@ -578,6 +622,7 @@ def main():
     r.add_argument('--no-verify', action='store_true')
     v = sp.add_parser('verify'); v.add_argument('file')
     sp.add_parser('retry')
+    sp.add_parser('usage')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -587,6 +632,8 @@ def main():
         build_store(a.dry_run)
     elif a.cmd == 'retry':
         retry_queue()
+    elif a.cmd == 'usage':
+        usage_report()
     elif a.cmd == 'verify':
         d = json.load(open(a.file, encoding='utf-8'))
         rows = verify_rows(d['items'], d.get('grounding') or [])
