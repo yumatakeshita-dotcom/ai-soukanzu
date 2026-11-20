@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kigyo-relmap.yuma-takeshita.workers.dev/sitemap.xml
