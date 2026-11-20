@@ -18,6 +18,7 @@
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
   python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
+  python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
   python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
@@ -160,6 +161,10 @@ def resp_text(resp):
     return '\n'.join(parts)
 
 
+class QuotaExhausted(RuntimeError):
+    """全部のモデルで枠切れ(429)。無料枠の1日の上限に達したときなど。"""
+
+
 def gen(body):
     last = None
     for m in models():
@@ -172,6 +177,8 @@ def gen(body):
                 raise
             last = e
             print(f'[{m}] 枠切れ・使えないため次のモデルを試す', file=sys.stderr)
+    if last is not None and ' 429' in str(last):
+        raise QuotaExhausted(str(last)[:300])
     raise last
 
 
@@ -358,7 +365,84 @@ def new_path(date, ext):
     return p
 
 
-def research(topic, n=10, check=True, dry=False, log=print, verify=True):
+# ---------- 枠切れのときは、あとでやり直す列に足す(2026/11/20追加。足すだけ) ----------
+# 無料枠は1日の回数に上限がある(429)。上限に達した日は、調べたいテーマを queue.jsonl に足しておき、
+# 翌朝 `python3 scripts/gemini_research.py retry` でやり直す。やり直したら「done」の行を足す(消さない)。
+QUEUE = os.path.join(OUT_DIR, 'queue.jsonl')
+
+
+def _queue_events():
+    if not os.path.exists(QUEUE):
+        return []
+    out = []
+    for ln in open(QUEUE, encoding='utf-8'):
+        ln = ln.strip()
+        if ln:
+            try: out.append(json.loads(ln))
+            except json.JSONDecodeError: pass
+    return out
+
+
+def queue_add(topic, n, reason):
+    os.makedirs(OUT_DIR, exist_ok=True)
+    qid = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
+    with open(QUEUE, 'a', encoding='utf-8') as f:
+        f.write(json.dumps({'id': qid, 'ev': 'queued', 'topic': topic, 'n': n, 'at': datetime.datetime.now().isoformat(timespec='seconds'),
+                            'reason': reason[:120]}, ensure_ascii=False) + '\n')
+    return qid
+
+
+def queue_pending():
+    ev = _queue_events()
+    done = {e['id'] for e in ev if e.get('ev') in ('done', 'gave_up')}
+    return [e for e in ev if e.get('ev') == 'queued' and e['id'] not in done]
+
+
+def queue_mark(qid, ev, note=''):
+    with open(QUEUE, 'a', encoding='utf-8') as f:
+        f.write(json.dumps({'id': qid, 'ev': ev, 'at': datetime.datetime.now().isoformat(timespec='seconds'), 'note': note}, ensure_ascii=False) + '\n')
+
+
+def retry_queue(log=print, max_items=3):
+    """やり直す列にあるテーマを、古い順に最大 max_items 件やり直す。また枠切れなら、残りは次の日に回す。"""
+    pend = queue_pending()
+    if not pend:
+        log('やり直す列は空です'); return 0
+    done = 0
+    for q in pend[:max_items]:
+        log(f'やり直し: {q["topic"]}')
+        try:
+            r = research(q['topic'], q.get('n', 10), True, False, log, True, queue_on_quota=False)
+        except QuotaExhausted:
+            log('まだ枠切れです。残りは次の日にやり直します'); break
+        queue_mark(q['id'], 'done', r.get('saved', ''))
+        done += 1
+    log(f'{done}件をやり直しました(残り {len(queue_pending())}件)')
+    return done
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def resolve_redirect(url, timeout=15):
+    """Googleの転送リンク(vertexaisearch…)を、実際の記事のURLに直す。直せなければ元のまま。"""
+    if 'vertexaisearch.cloud.google.com/grounding-api-redirect' not in url:
+        return url
+    try:
+        op = urllib.request.build_opener(_NoRedirect, urllib.request.HTTPSHandler(context=_ctx()))
+        op.open(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=timeout)
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get('Location', '')
+        if e.code in (301, 302, 303, 307, 308) and loc.startswith('http'):
+            return loc
+    except Exception:
+        pass
+    return url
+
+
+def research(topic, n=10, check=True, dry=False, log=print, verify=True, queue_on_quota=True):
     date = datetime.date.today().isoformat()
     if dry or not key():
         prompt = build_prompt(topic, n)
@@ -370,8 +454,21 @@ def research(topic, n=10, check=True, dry=False, log=print, verify=True):
         log(f'- 手元で照らす既存の名前: {len(known_names()):,}件')
         log(f'- 保存先(本番のとき): {os.path.relpath(new_path(date, ""), ROOT)}.json / .md')
         return {'dry_run': True, 'items': []}
-    items, gsrc = search_step(topic, n)
+    try:
+        items, gsrc = search_step(topic, n)
+    except QuotaExhausted as e:
+        if not queue_on_quota:
+            raise
+        qid = queue_add(topic, n, str(e))
+        log(f'今日は枠切れ(無料枠の1日の上限)です。「{topic}」はやり直す列に足しました(id {qid})。'
+            '翌朝に `python3 scripts/gemini_research.py retry` でやり直します')
+        return {'queued': qid, 'items': []}
     rows = clean(items, known_names(), gsrc)
+    for r in rows:  # Googleの転送リンクは実際の記事のURLに直す(もとのリンクは「転送リンク」に残す)
+        real = resolve_redirect(r['出典URL'])
+        if real != r['出典URL']:
+            r['転送リンク'] = r['出典URL']; r['出典URL'] = real
+            r['src'] = [[r['src'][0][0], real]]
     st = load_store()
     checked = 'しない'
     if check and rows and st.get('name'):
@@ -411,6 +508,7 @@ def main():
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
     r.add_argument('--no-verify', action='store_true')
     v = sp.add_parser('verify'); v.add_argument('file')
+    sp.add_parser('retry')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -418,6 +516,8 @@ def main():
         if not key() and not a.dry_run:
             print('GEMINI_API_KEY が未設定なので、ドライランにします'); a.dry_run = True
         build_store(a.dry_run)
+    elif a.cmd == 'retry':
+        retry_queue()
     elif a.cmd == 'verify':
         d = json.load(open(a.file, encoding='utf-8'))
         rows = verify_rows(d['items'], d.get('grounding') or [])

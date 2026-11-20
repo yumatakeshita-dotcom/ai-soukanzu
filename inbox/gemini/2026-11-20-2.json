@@ -1,0 +1,9 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini",
+ "topic": "動作確認用のテーマ",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [],
+ "grounding": []
+}
