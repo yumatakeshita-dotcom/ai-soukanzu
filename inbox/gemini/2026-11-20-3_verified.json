@@ -1,0 +1,352 @@
+{
+ "date": "2026-11-20",
+ "source": "inbox/gemini/2026-11-20-3.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "三菱UFJフィナンシャル・グループ",
+    "関係": "提携",
+    "相手": "松尾研究所, Third Intelligence",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://it.impress.co.jp/articles/-/30020",
+    "確かさ": "報道",
+    "備考": "金融サービスにおけるAI活用推進、松尾研発スタートアップへの包括支援を含む包括的パートナーシップ。MUFGは2025年11月にThird Intelligenceへの出資と協業に関する覚書を締結済み。",
+    "src": [
+     [
+      "it.impress.co.jp",
+      "https://it.impress.co.jp/articles/-/30020"
+     ]
+    ],
+    "既存の名前": [
+     "三菱UFJフィナンシャル・グループ"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZFECHxH1FHdYLl6EwcpGEF6EFJo8Kgzzn4ER9L40LvSNZ2gbwJH0boaKgYAH3s-ErZz01v5mHwPg8IbzEFLv0kgI8632w2nIy8Crwz8NHl2SUDvvZcBzz8fRkWKqO2giBJ40s"
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://it.impress.co.jp/articles/-/30020"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "三菱電機",
+    "関係": "出資",
+    "相手": "Sakana AI株式会社",
+    "金額": "",
+    "日付": "2026-03-25",
+    "出典URL": "https://prtimes.jp/main/html/rd/p/000000378.000120285.html",
+    "確かさ": "公式",
+    "備考": "次世代AI基盤モデル技術を活用した新たなソリューション創出を目指す。",
+    "src": [
+     [
+      "prtimes.jp",
+      "https://prtimes.jp/main/html/rd/p/000000378.000120285.html"
+     ]
+    ],
+    "既存の名前": [
+     "三菱電機"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQlmWTZMiw7j4khxdsDz5VjiBLOEJbMOmTir7DtBX3G_d7dNVHCUrWmKxMSQaYmCFlSNFF5wqMiFNMzLP5RFyiAEpdF5fwwc_SOKCHKaekjVqAQ817P_052d7rtp-GehzIHtNUEs00i-BFvBev_-NMTylGFa0="
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://prtimes.jp/main/html/rd/p/000000378.000120285.html",
+     "names_on_page": [
+      "三菱電機",
+      "Sakana AI株式会社"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた"
+   ],
+   "verdict": "合格",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Terra Charge",
+    "関係": "資金調達",
+    "相手": "",
+    "金額": "100億円",
+    "日付": "2026-10",
+    "出典URL": "https://lp.startup-db.com/media/articles/funding-ranking-202610",
+    "確かさ": "報道",
+    "備考": "EV充電インフラ「テラチャージ」の展開に向けた資金調達。2026年10月の国内スタートアップ資金調達ランキング1位。",
+    "src": [
+     [
+      "lp.startup-db.com",
+      "https://lp.startup-db.com/media/articles/funding-ranking-202610"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIq1-i6iozZmBLW_B9k_g2GAS76ojjESDE2-qgDFBs2x4_9cpS9LF_95z5W4k3CJKPIcFEOR_el2-shdnCIrIBFT_8nO7UVPvNLUynlE-S5IfA5UKU4v971iP9PjYA93oprDWdK9L0rDIhRWPQ9z0QW2pdAOm1RVZ4Lw=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://lp.startup-db.com/media/articles/funding-ranking-202610"
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "株式会社GeoDreams",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-10-01",
+    "出典URL": "https://prtimes.jp/main/html/rd/p/000000022.000162716.html",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "大谷 文夫",
+    "役職": "顧問",
+    "移籍元": "元株式会社東芝 執行役上席常務",
+    "移籍先": "株式会社GeoDreams",
+    "src": [
+     [
+      "prtimes.jp",
+      "https://prtimes.jp/main/html/rd/p/000000022.000162716.html"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvhu7-Rvmso2s5PDkc0G18PvsiX75QR1pJlI2XYHg_uJ-cc3pBzfb6s6RYPA4u1XCJYr4l46Y8ZVWLOrhyPRLMngiAx0ehLHw_BtcD1pmzATSKySA_F4LR5h9p1u63BtEy8alQcplD5a4pa94VuU0t-Y8tEJM="
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://prtimes.jp/main/html/rd/p/000000022.000162716.html",
+     "names_on_page": [
+      "株式会社GeoDreams",
+      "大谷 文夫"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-11-19)と49日ずれる"
+    ],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "日付: ページの公開日(2026-11-19)と49日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "大成建設",
+    "関係": "提携",
+    "相手": "ペガサス・テック・ベンチャーズ",
+    "金額": "240億円",
+    "日付": "2026-11-16",
+    "出典URL": "https://finance.biggo.jp/news/4e53b381-1921-4f0d-9093-107611bed9b7",
+    "確かさ": "報道",
+    "備考": "米ベンチャーキャピタルとコーポレートベンチャーキャピタル（CVC）ファンドを設立。AI、ロボティクス、デジタルツインなどの先端技術を持つ世界のスタートアップに投資。",
+    "src": [
+     [
+      "finance.biggo.jp",
+      "https://finance.biggo.jp/news/4e53b381-1921-4f0d-9093-107611bed9b7"
+     ]
+    ],
+    "既存の名前": [
+     "大成建設"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi5zYt8EY96ZYcnbRbl2vsebB_3yPegBN79lwE1ijt-AudFmWkXiQYgEGEij2LWpFhwlMdDIW7YgZgSdwYTdmFnEVfn978pjkdvV9aUOxgE8IHjFPmKzvbxBGZQGsJqJQELDIe-LTxj6a7e0qebQaHuQacK6SEdBIIEOBcQw=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://finance.biggo.jp/news/4e53b381-1921-4f0d-9093-107611bed9b7"
+    },
+    "dup": "「大成建設」と「テック」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「大成建設」と「テック」の組み合わせがすでにある(site/data/finds.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "新光電気工業",
+    "関係": "買収",
+    "相手": "ジャパンディスプレイ",
+    "金額": "",
+    "日付": "2026-09-30",
+    "出典URL": "https://www.semiconductor-industry.com/news-202610/",
+    "確かさ": "報道",
+    "備考": "ジャパンディスプレイ茂原工場の売買契約を締結。AIアクセラレーターなどの先端半導体向けフリップチップタイプパッケージの需要拡大に対応するための新拠点。",
+    "src": [
+     [
+      "www.semiconductor-industry.com",
+      "https://www.semiconductor-industry.com/news-202610/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBAfGN1KH7nb-a2FAvTlSwUlYGQwm__pIaE-FOyKagYf8lifWsUbdPCkcGYYkOMWXvP3Z4-Kv0kL2Lpj6O4zFIfPW2qwS0u9Zcho46PybHW7NUGOh0x6b4dxZz7J4SJVSZAL-agii3FvgZQ0bTxw=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.semiconductor-industry.com/news-202610/"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "株式会社プレイド",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026",
+    "出典URL": "https://plaid.co.jp/company/leadership/",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "竹村 尚彦",
+    "役職": "執行役員 CPO (Chief Product Officer)",
+    "移籍元": "株式会社プレイド (執行役員)",
+    "移籍先": "株式会社プレイド",
+    "src": [
+     [
+      "plaid.co.jp",
+      "https://plaid.co.jp/company/leadership/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://plaid.co.jp/company/leadership/"
+    },
+    "dup": "",
+    "date": [
+     "日付が読めない"
+    ],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "日付: 日付が読めない",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "株式会社プレイド",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-07",
+    "出典URL": "https://plaid.co.jp/company/leadership/",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "辻 高宏",
+    "役職": "執行役員 CFO (Chief Financial Officer)",
+    "移籍元": "株式会社LITALICO (元取締役副社長CFO)",
+    "移籍先": "株式会社プレイド",
+    "src": [
+     [
+      "plaid.co.jp",
+      "https://plaid.co.jp/company/leadership/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://plaid.co.jp/company/leadership/"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}

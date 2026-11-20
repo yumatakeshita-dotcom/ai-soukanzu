@@ -104,7 +104,9 @@ def resolve_redirect(url, timeout=20):
 def resolve_pool(grounding):
     """Gemini が検索で実際に見たページ(転送リンク)を、元のURLの一覧にする"""
     out = []
-    for t, u in grounding or []:
+    for g in grounding or []:
+        # 組(名前, URL)のものと、すでに元のURLだけにした文字列の両方を受ける
+        u = g if isinstance(g, str) else g[-1]
         real = resolve_redirect(u) if REDIRECT.search(u or '') else u
         if real and real not in out:
             out.append(real)
