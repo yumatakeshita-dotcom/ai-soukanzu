@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini-money",
+ "model": "gemini-2.5-flash",
+ "days": 7,
+ "items": [
+  {
+   "name_en": "Jensen Huang",
+   "name_ja": "黄仁勳",
+   "from": "Nvidia",
+   "to": "",
+   "role": "CEO, President, Board Member",
+   "date": "2026-11-12",
+   "note": "CEO、社長、取締役を辞任。",
+   "src_name": "NVIDIA Newsroom",
+   "src_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "src_name2": "Quantisnow",
+   "src_url2": "https://quantisnow.com/insight/4786407",
+   "confidence": "公式"
+  },
+  {
+   "name_en": "Colette Kress",
+   "name_ja": "コレット・クレス",
+   "from": "Nvidia",
+   "to": "Nvidia",
+   "role": "Interim CEO, EVP, CFO",
+   "date": "2026-11-12",
+   "note": "黄仁勳氏の後任として暫定CEOに就任、EVP兼CFOと兼務。",
+   "src_name": "NVIDIA Newsroom",
+   "src_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "src_name2": "Quantisnow",
+   "src_url2": "https://quantisnow.com/insight/4786407",
+   "confidence": "公式"
+  },
+  {
+   "name_en": "Santosh Janardhan",
+   "name_ja": "サントシュ・ジャナールダン",
+   "from": "Meta",
+   "to": "",
+   "role": "Head of Infrastructure, Co-Head of Engineering",
+   "date": "2026-11-13",
+   "note": "2027年初めに退任予定。",
+   "src_name": "星島日報",
+   "src_url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+   "src_name2": "CFM閃存市場",
+   "src_url2": "https://chinamemory.com.cn/news/show-17796.html",
+   "confidence": "報道"
+  },
+  {
+   "name_en": "David Brown",
+   "name_ja": "デビッド・ブラウン",
+   "from": "Amazon AWS",
+   "to": "Meta",
+   "role": "Head of Infrastructure, CTO of Meta Compute",
+   "date": "2026-11-13",
+   "note": "サントシュ・ジャナールダンの後任として就任。",
+   "src_name": "星島日報",
+   "src_url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+   "src_name2": "CFM閃存市場",
+   "src_url2": "https://chinamemory.com.cn/news/show-17796.html",
+   "confidence": "報道"
+  }
+ ],
+ "grounding": []
+}

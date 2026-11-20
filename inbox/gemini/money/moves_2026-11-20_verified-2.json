@@ -1,0 +1,215 @@
+{
+ "date": "2026-11-20",
+ "source": "inbox/gemini/money/moves_2026-11-20_raw.json",
+ "summary": {
+  "合格": 0,
+  "要確認": 2,
+  "却下": 2
+ },
+ "results": [
+  {
+   "no": 1,
+   "item": {
+    "name_en": "Jensen Huang",
+    "name_ja": "黄仁勳",
+    "from": "Nvidia",
+    "to": "",
+    "role": "CEO, President, Board Member",
+    "date": "2026-11-12",
+    "note": "CEO、社長、取締役を辞任。",
+    "src_name": "NVIDIA Newsroom",
+    "src_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "src_name2": "Quantisnow",
+    "src_url2": "https://quantisnow.com/insight/4786407",
+    "confidence": "公式"
+   },
+   "verify": {
+    "checks": {
+     "ページを開けた数": 1,
+     "名前": false,
+     "金額": null,
+     "日付": "合う",
+     "重複": "なし"
+    },
+    "status": "却下",
+    "reasons": [
+     "会社名が欠けている",
+     "種類が不正(None)",
+     "開いたページに、出す側と受け取る側の両方の名前は見つからない"
+    ],
+    "sources": [
+     {
+      "name": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "state": "ok",
+      "to_name": false,
+      "from_name": true,
+      "amount": null,
+      "page_dates": [
+       "2026-11-12"
+      ],
+      "date_from": "本文の先頭"
+     },
+     {
+      "name": "Quantisnow",
+      "url": "https://quantisnow.com/insight/4786407",
+      "state": "Gemini経由で開けた",
+      "via_gemini": true,
+      "to_name": false,
+      "from_name": false,
+      "amount": null,
+      "page_dates": [
+       "2023-07-24"
+      ],
+      "date_from": "Gemini経由"
+     }
+    ]
+   }
+  },
+  {
+   "no": 2,
+   "item": {
+    "name_en": "Colette Kress",
+    "name_ja": "コレット・クレス",
+    "from": "Nvidia",
+    "to": "Nvidia",
+    "role": "Interim CEO, EVP, CFO",
+    "date": "2026-11-12",
+    "note": "黄仁勳氏の後任として暫定CEOに就任、EVP兼CFOと兼務。",
+    "src_name": "NVIDIA Newsroom",
+    "src_url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "src_name2": "Quantisnow",
+    "src_url2": "https://quantisnow.com/insight/4786407",
+    "confidence": "公式"
+   },
+   "verify": {
+    "checks": {
+     "ページを開けた数": 1,
+     "名前": true,
+     "金額": null,
+     "日付": "合う",
+     "重複": "近い既存あり"
+    },
+    "status": "要確認",
+    "reasons": [
+     "同じ組み合わせが既にある(日付・金額は別)→新しい動きの可能性",
+     "種類が不正(None)"
+    ],
+    "sources": [
+     {
+      "name": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "state": "ok",
+      "to_name": true,
+      "from_name": true,
+      "amount": null,
+      "page_dates": [
+       "2026-11-12"
+      ],
+      "date_from": "本文の先頭"
+     },
+     {
+      "name": "Quantisnow",
+      "url": "https://quantisnow.com/insight/4786407",
+      "state": "Gemini経由で開けた",
+      "via_gemini": true,
+      "to_name": false,
+      "from_name": false,
+      "amount": null,
+      "page_dates": [
+       "2023-07-24"
+      ],
+      "date_from": "Gemini経由"
+     }
+    ]
+   }
+  },
+  {
+   "no": 3,
+   "item": {
+    "name_en": "Santosh Janardhan",
+    "name_ja": "サントシュ・ジャナールダン",
+    "from": "Meta",
+    "to": "",
+    "role": "Head of Infrastructure, Co-Head of Engineering",
+    "date": "2026-11-13",
+    "note": "2027年初めに退任予定。",
+    "src_name": "星島日報",
+    "src_url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+    "src_name2": "CFM閃存市場",
+    "src_url2": "https://chinamemory.com.cn/news/show-17796.html",
+    "confidence": "報道"
+   },
+   "verify": {
+    "checks": {
+     "ページを開けた数": 0,
+     "名前": null,
+     "金額": null,
+     "日付": "未確認",
+     "重複": "なし"
+    },
+    "status": "却下",
+    "reasons": [
+     "会社名が欠けている",
+     "種類が不正(None)",
+     "出典ページを開けない、または会社名が見つからない(Claudeが別の方法で確かめる)"
+    ],
+    "sources": [
+     {
+      "name": "星島日報",
+      "url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+      "state": "届かない:<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or "
+     },
+     {
+      "name": "CFM閃存市場",
+      "url": "https://chinamemory.com.cn/news/show-17796.html",
+      "state": "届かない:<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or "
+     }
+    ]
+   }
+  },
+  {
+   "no": 4,
+   "item": {
+    "name_en": "David Brown",
+    "name_ja": "デビッド・ブラウン",
+    "from": "Amazon AWS",
+    "to": "Meta",
+    "role": "Head of Infrastructure, CTO of Meta Compute",
+    "date": "2026-11-13",
+    "note": "サントシュ・ジャナールダンの後任として就任。",
+    "src_name": "星島日報",
+    "src_url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+    "src_name2": "CFM閃存市場",
+    "src_url2": "https://chinamemory.com.cn/news/show-17796.html",
+    "confidence": "報道"
+   },
+   "verify": {
+    "checks": {
+     "ページを開けた数": 0,
+     "名前": null,
+     "金額": null,
+     "日付": "未確認",
+     "重複": "なし"
+    },
+    "status": "要確認",
+    "reasons": [
+     "種類が不正(None)",
+     "出典ページを開けない、または会社名が見つからない(Claudeが別の方法で確かめる)"
+    ],
+    "sources": [
+     {
+      "name": "星島日報",
+      "url": "https://std.stheadline.com/sc/realtime/Meta%E9%97%9C%E9%8D%B5%E6%99%82%E6%9C%9F%E7%AA%81%E7%84%B6%E6%8F%9B%E5%B0%87",
+      "state": "届かない:<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or "
+     },
+     {
+      "name": "CFM閃存市場",
+      "url": "https://chinamemory.com.cn/news/show-17796.html",
+      "state": "届かない:<urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or "
+     }
+    ]
+   }
+  }
+ ]
+}

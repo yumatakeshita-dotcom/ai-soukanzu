@@ -28,9 +28,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gemini_research as gr  # 2026/11/19 PR39 の試作(Geminiへの呼び出しをそのまま使う)
 
 ROOT = gr.ROOT
-OUT = os.path.join(ROOT, 'inbox', 'gemini', 'money')
+OUT = os.path.join(ROOT, 'inbox', 'gemini', 'money')  # 確かめた途中の記録(モードごとに名前を分ける)
 USAGE = os.path.join(ROOT, 'inbox', 'gemini', 'usage.json')
 KINDS = ['出資', '買収', '報酬', '共同創業', '支援']
+MODE = 'money'  # 'money'(お金の流れ) か 'moves'(引き抜き・人の移籍)。--kind で切り替える(2026/11/20追加)
+OUT_DIRS = {'money': os.path.join(ROOT, 'inbox', 'money'), 'moves': os.path.join(ROOT, 'inbox', 'moves')}
 CONF = ['公式', '開示', '報道', '本人の発言', '推定']
 UA = 'Mozilla/5.0 (compatible; relmap-verify/1.0)'
 
@@ -81,16 +83,39 @@ def note_call(blocked=False):
 def recent_known(days=30, limit=80):
     """最近の調査の保存(inbox/money と inbox/gemini/money)から「すでに見つけた」一覧を作る。"""
     rows = []
-    for f in sorted(glob.glob(os.path.join(ROOT, 'inbox', 'money', '*.json'))):
+    for f in sorted(glob.glob(os.path.join(OUT_DIRS[MODE], '*.json'))):
         try:
             for it in json.load(open(f, encoding='utf-8')).get('items', []):
-                rows.append(f"{it.get('from')} → {it.get('to')} / {it.get('kind')} / {it.get('amount','')} / {it.get('date','')}")
+                rows.append(f"{it.get('name_ja') or it.get('from')} → {it.get('to')} / {it.get('kind') or it.get('role','')} / {it.get('amount','')} / {it.get('date','')}")
         except (OSError, ValueError):
             pass
     return rows[-limit:]
 
 
+MOVES_PROMPT = '''あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{today}です。
+{start}から今日までに発表・報道された、AI企業・半導体企業の経営陣・主要研究者・エンジニアの移籍・就任・退任・引き抜きを、Google検索で確かめて最大{n}件返してください。対象の例: OpenAI, Anthropic, xAI, Meta, Google DeepMind, Microsoft, Apple, Nvidia, Mistral, Thinking Machines, Perplexity, Cursor, TSMC, Samsung, SK hynix, ソフトバンク, Sakana AI, Preferred Networks。
+守ること:
+- 出典は記事や発表の元のURL(媒体や会社自身のサイトのアドレス)。vertexaisearch.cloud.google.com などの転送リンクは絶対に書かない。元のアドレスがわからないものは入れない
+- 出典は1件につき2つまで。2つ目は別の媒体で
+- 日付は、移籍・就任が発表された日(YYYY-MM-DD)
+- 本人の名前(英語と日本語)、移籍元(from)、移籍先(to)、役職(role)を書く。移籍先か移籍元が無い「退任」は from か to を空にしない(わからなければ入れない)
+- 確かさは次のどれか1つ: 公式 / 開示 / 報道 / 本人の発言 / 推定
+- 下の「すでに見つけた」と同じ人・同じ移籍は入れない
+
+答えは次の形のJSONだけを ```json と ``` で囲んで返す(説明文は不要):
+{{"items":[{{"name_en":"","name_ja":"","from":"移籍元の会社","to":"移籍先の会社","role":"役職","date":"YYYY-MM-DD","note":"60字以内の日本語の説明","src_name":"媒体名","src_url":"","src_name2":"","src_url2":"","confidence":"報道"}}]}}
+
+--- すでに見つけた ---
+{known}
+'''
+
+
 def build_prompt(n, days):
+    if MODE == 'moves':
+        d = datetime.date.today()
+        start = d - datetime.timedelta(days=days)
+        known = '\n'.join(recent_known()) or '(なし)'
+        return MOVES_PROMPT.format(today=f'{d:%Y年%m月%d日}', start=f'{start:%Y年%m月%d日}', n=n, known=known)
     d = datetime.date.today()
     start = d - datetime.timedelta(days=days)
     known = '\n'.join(recent_known()) or '(なし)'
@@ -141,12 +166,16 @@ def search(n=10, days=14, log=print):
     except ValueError:
         items = []
     os.makedirs(OUT, exist_ok=True)
-    p = new_path(today() + '_raw')
+    p = new_path(prefix() + today() + '_raw')
     out = {'date': today(), 'kind': 'gemini-money', 'model': gr.model(), 'days': days, 'items': items,
            'grounding': gr.grounding_sources(resp)}
     json.dump(out, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     log(f'Geminiの候補 {len(items)}件 → {os.path.relpath(p, ROOT)}')
     return p
+
+
+def prefix():
+    return 'moves_' if MODE == 'moves' else ''
 
 
 def new_path(stem, ext='.json'):
@@ -161,6 +190,14 @@ def new_path(stem, ext='.json'):
 def norm(s):
     s = unicodedata.normalize('NFKC', str(s or '')).lower()
     return re.sub(r'[\s・,、.()「」\-_/&\'’"]+', '', s)
+
+
+def parties(it):
+    """照らす名前。money は(出す側, 受け取る側)。moves は(本人の名前, 移籍先)。"""
+    if MODE == 'moves':
+        frs = name_variants(it.get('name_ja')) + name_variants(it.get('name_en'))
+        return frs, name_variants(it.get('to'))
+    return name_variants(it.get('from')), name_variants(it.get('to'))
 
 
 def name_variants(s):
@@ -298,7 +335,7 @@ def existing_blob(exclude=None):
 
 def is_dup(it, blob, self_json=None):
     """to の名前の近く(前後400字)に from の名前があり、同じ日付の月日 or 金額もあれば既存とみなす。"""
-    tos, frs = name_variants(it.get('to')), name_variants(it.get('from'))
+    frs, tos = parties(it)
     if not tos or not frs:
         return False, ''
     date = str(it.get('date') or '')
@@ -316,6 +353,8 @@ def is_dup(it, blob, self_json=None):
                     return True, '同じ組み合わせ・同じ日付が既にある'
                 if av and any(str(a)[:4] in win for a in av):
                     return True, '同じ組み合わせ・同じ金額が既にある'
+                if MODE == 'moves':
+                    return True, '同じ人・同じ移籍先が既にある'  # 引き抜きは同じ人の同じ移籍を二重に入れない
                 return False, '同じ組み合わせが既にある(日付・金額は別)→新しい動きの可能性'
     return False, ''
 
@@ -382,9 +421,12 @@ def verify_item(it, days, blob, viaG=None):
         flags.append(('却下' if hard else '要確認', msg))
 
     # 必須項目
-    if not (it.get('from') and it.get('to')):
+    if MODE == 'moves':
+        if not ((it.get('name_ja') or it.get('name_en')) and it.get('to')):
+            bad('本人の名前か移籍先が欠けている')
+    elif not (it.get('from') and it.get('to')):
         bad('会社名が欠けている')
-    if it.get('kind') not in KINDS:
+    if MODE != 'moves' and it.get('kind') not in KINDS:
         bad(f'種類が不正({it.get("kind")})', hard=False)
     cf = it.get('confidence')
     if cf not in CONF:
@@ -415,7 +457,8 @@ def verify_item(it, days, blob, viaG=None):
     ok_pages = 0
     names_ok = amt_ok = None
     date_state = '未確認'
-    pnames = [name_variants(it.get('from')), name_variants(it.get('to'))]
+    pnames = list(parties(it))[::1]
+    pnames = [pnames[0], pnames[1]]
     for nm, u in srcs:
         st, final, raw = fetch(u)
         info = {'name': nm, 'url': u, 'state': st}
@@ -472,7 +515,7 @@ def verify_item(it, days, blob, viaG=None):
 
 def verify(path=None, days=14, log=print, via=True):
     if not path:
-        fs = sorted(glob.glob(os.path.join(OUT, today() + '_raw*.json')))
+        fs = sorted(glob.glob(os.path.join(OUT, prefix() + today() + '_raw*.json')))
         if not fs:
             log('今日の raw がない。先に search を実行')
             return None
@@ -499,6 +542,10 @@ def verify(path=None, days=14, log=print, via=True):
     return p
 
 
+def who(it):
+    return it.get('name_ja') or it.get('from') or ''
+
+
 def to_md(out):
     L = [f'# Gemini候補の機械チェック({out["date"]})', '',
          f'合格 {out["summary"]["合格"]} / 要確認 {out["summary"]["要確認"]} / 却下 {out["summary"]["却下"]}(元: {out["source"]})', '']
@@ -507,7 +554,7 @@ def to_md(out):
         if r['verify']['status'] != '合格':
             continue
         it, c = r['item'], r['verify']['checks']
-        L += [f'- [{r["no"]}] {it.get("from")} → {it.get("to")} / {it.get("kind")} / {it.get("amount") or "金額なし"} / {it.get("date")} / {it.get("confidence")}',
+        L += [f'- [{r["no"]}] {who(it)} → {it.get("to")} / {it.get("kind") or it.get("role") or ""} / {it.get("amount") or "金額なし"} / {it.get("date")} / {it.get("confidence")}',
               f'  - {it.get("note")}', f'  - 確認: 名前={c["名前"]} 金額={c["金額"]} 日付={c["日付"]} 重複={c["重複"]}']
         for s in r['verify']['sources']:
             L.append(f'  - 出典: {s["name"]} {s["url"]} [{s["state"]}]')
@@ -517,19 +564,19 @@ def to_md(out):
     for r in out['results']:
         if r['verify']['status'] == '要確認':
             it = r['item']
-            L.append(f'- [{r["no"]}] {it.get("from")} → {it.get("to")} / {it.get("amount") or "-"} / {it.get("date")}: ' + ' / '.join(r['verify']['reasons']))
+            L.append(f'- [{r["no"]}] {who(it)} → {it.get("to")} / {it.get("amount") or "-"} / {it.get("date")}: ' + ' / '.join(r['verify']['reasons']))
     L += ['', '## 却下(読まなくてよい)']
     for r in out['results']:
         if r['verify']['status'] == '却下':
             it = r['item']
-            L.append(f'- [{r["no"]}] {it.get("from")} → {it.get("to")}: ' + ' / '.join(r['verify']['reasons']))
+            L.append(f'- [{r["no"]}] {who(it)} → {it.get("to")}: ' + ' / '.join(r['verify']['reasons']))
     return '\n'.join(L) + '\n'
 
 
 # ---------- 3. 取り込み ----------
 def emit(path=None, only=None, log=print):
     if not path:
-        fs = sorted(glob.glob(os.path.join(OUT, today() + '_verified*.json')))
+        fs = sorted(glob.glob(os.path.join(OUT, prefix() + today() + '_verified*.json')))
         if not fs:
             log('今日の verified がない')
             return None
@@ -542,15 +589,21 @@ def emit(path=None, only=None, log=print):
         it = r['item']
         src = [[s['name'], s['url']] for s in r['verify']['sources'] if s['state'] == 'ok']
         note = (it.get('note') or '').strip()
-        items.append({'from': it['from'], 'to': it['to'], 'kind': it['kind'], 'amount': it.get('amount', ''),
-                      'date': it.get('date', ''), 'note': note, 'quote': '', 'video': '', 'src': src,
-                      'confidence': it.get('confidence', '報道')})
+        if MODE == 'moves':
+            items.append({'name_en': it.get('name_en', ''), 'name_ja': it.get('name_ja', ''), 'from': it.get('from', ''),
+                          'to': it['to'], 'role': it.get('role', ''), 'date': it.get('date', ''), 'note': note,
+                          'src': src, 'confidence': it.get('confidence', '報道')})
+        else:
+            items.append({'from': it['from'], 'to': it['to'], 'kind': it['kind'], 'amount': it.get('amount', ''),
+                          'date': it.get('date', ''), 'note': note, 'quote': '', 'video': '', 'src': src,
+                          'confidence': it.get('confidence', '報道')})
     d = today()
-    p, i = os.path.join(ROOT, 'inbox', 'money', f'{d}_gemini.json'), 1
+    od = OUT_DIRS[MODE]
+    p, i = os.path.join(od, f'{d}_gemini.json'), 1
     while os.path.exists(p):
         i += 1
-        p = os.path.join(ROOT, 'inbox', 'money', f'{d}_gemini-{i}.json')
-    json.dump({'date': d, 'kind': 'money', 'items': items,
+        p = os.path.join(od, f'{d}_gemini-{i}.json')
+    json.dump({'date': d, 'kind': MODE, 'items': items,
                'notes': f'Geminiが探し、プログラムが出典・金額・日付・重複を確かめた合格分({os.path.relpath(path, ROOT)})。'},
               open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     log(f'{len(items)}件 → {os.path.relpath(p, ROOT)}')
@@ -568,10 +621,15 @@ def main():
     sp = ap.add_subparsers(dest='cmd', required=True)
     for n in ('run', 'search'):
         s = sp.add_parser(n); s.add_argument('--max', type=int, default=10); s.add_argument('--days', type=int, default=14)
+        s.add_argument('--kind', choices=['money', 'moves'], default='money')
     v = sp.add_parser('verify'); v.add_argument('file', nargs='?'); v.add_argument('--days', type=int, default=14)
+    v.add_argument('--kind', choices=['money', 'moves'], default='money')
     e = sp.add_parser('emit'); e.add_argument('file', nargs='?'); e.add_argument('--only')
+    e.add_argument('--kind', choices=['money', 'moves'], default='money')
     sp.add_parser('status')
     a = ap.parse_args()
+    global MODE
+    MODE = getattr(a, 'kind', 'money')
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
     elif a.cmd == 'search':
