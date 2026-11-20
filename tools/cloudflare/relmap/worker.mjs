@@ -51,9 +51,97 @@ async function proApi(req, env, url) {
   return reply({ ok: false, error: 'not_found' }, 404);
 }
 
+// ===== 2026-11-20 追加: Stripe 課金(Payment Link → webhook → アクセスキー自動発行) =====
+// 秘密の値はコードに書かず、Worker の「秘密設定」で渡す: STRIPE_WEBHOOK_SECRET(whsec_...)、STRIPE_SECRET_KEY(sk_...)、PRO_KEY_SECRET(自分で作るランダムな長い文字列)
+// アクセスキーは PRO_KEY_SECRET と購入IDから計算で作る(保存するのはハッシュだけ)。同じ購入からは必ず同じキーになるので、webhook が2回届いても二重に発行されない。
+const BUSINESS_MIN_AMOUNT = 5000; // 円。これ以上の支払いは法人プラン(価格は仮: 個人980円/法人9,800円)
+
+function b64url(buf) {
+  let s = ''; for (const b of new Uint8Array(buf)) s += String.fromCharCode(b);
+  return btoa(s).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+async function hmacKey(secret, usage) {
+  return crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, usage);
+}
+async function deriveKey(env, purchaseId) {
+  const sig = await crypto.subtle.sign('HMAC', await hmacKey(env.PRO_KEY_SECRET, ['sign']), new TextEncoder().encode('pro-key:' + purchaseId));
+  return b64url(sig).slice(0, 32);
+}
+// Stripe-Signature(t=時刻,v1=署名)を確かめる。5分より古いものは断る(使い回し対策)
+async function verifyStripeSig(raw, header, secret) {
+  const parts = Object.fromEntries((header || '').split(',').map(p => p.split('=')).filter(p => p.length === 2));
+  const t = Number(parts.t); const sigs = (header || '').split(',').filter(p => p.startsWith('v1=')).map(p => p.slice(3));
+  if (!t || !sigs.length || Math.abs(Date.now() / 1000 - t) > 300) return false;
+  const k = await hmacKey(secret, ['verify']);
+  for (const sig of sigs) {
+    const bytes = new Uint8Array((sig.match(/../g) || []).map(h => parseInt(h, 16)));
+    if (bytes.length === 32 && await crypto.subtle.verify('HMAC', k, bytes, new TextEncoder().encode(t + '.' + raw))) return true;
+  }
+  return false;
+}
+
+async function stripeWebhook(req, env) {
+  if (req.method !== 'POST') return reply({ ok: false, error: 'method' }, 405);
+  if (!env.DB || !env.STRIPE_WEBHOOK_SECRET || !env.PRO_KEY_SECRET) return reply({ ok: false, error: 'not_ready' }, 503);
+  const raw = await req.text(); // 署名は本文そのままに対してかけるので、JSONにする前の文字列を使う
+  if (!await verifyStripeSig(raw, req.headers.get('stripe-signature'), env.STRIPE_WEBHOOK_SECRET)) return reply({ ok: false, error: 'signature' }, 400);
+  let ev; try { ev = JSON.parse(raw); } catch (e) { return reply({ ok: false, error: 'bad_json' }, 400); }
+  const o = (ev.data && ev.data.object) || {};
+  const now = new Date().toISOString();
+  if (ev.type === 'checkout.session.completed') {
+    // 支払い済みのときだけキーを作る(後払い・未払いのときは checkout.session.async_payment_succeeded で別に来る)
+    if (o.payment_status === 'paid') await issueFromSession(env, o, now);
+  } else if (ev.type === 'checkout.session.async_payment_succeeded') {
+    await issueFromSession(env, o, now);
+  } else if (ev.type === 'customer.subscription.deleted') {
+    await setStatus(env, 'stripe_subscription', o.id, 'canceled');
+  } else if (ev.type === 'customer.subscription.updated') {
+    // 支払いが止まった(past_due / unpaid)ら無効、戻ったら有効に戻す。active のほかは使えない
+    const st = ['active', 'trialing'].includes(o.status) ? 'active' : (o.status === 'canceled' ? 'canceled' : o.status);
+    await setStatus(env, 'stripe_subscription', o.id, st);
+  } else if (ev.type === 'charge.refunded') {
+    if (o.refunded) await setStatus(env, 'stripe_customer', o.customer, 'refunded'); // 全額返金のときだけ
+  } else if (ev.type === 'charge.dispute.created') {
+    await setStatus(env, 'stripe_customer', o.customer || null, 'disputed');
+  }
+  return reply({ ok: true }); // 知らない種類のイベントも 200 で返す(Stripe に何度も再送させない)
+}
+async function issueFromSession(env, s, now) {
+  const purchaseId = s.subscription || s.id;
+  const key = await deriveKey(env, purchaseId);
+  const plan = (s.amount_total || 0) >= BUSINESS_MIN_AMOUNT ? 'business' : 'personal';
+  // 足すだけ(同じキーがすでにあれば何もしない)。メールアドレスは保存しない
+  await env.DB.prepare('INSERT OR IGNORE INTO pro_keys (key_hash, plan, status, expires_at, note, created_at, stripe_customer, stripe_subscription) VALUES (?1, ?2, \'active\', NULL, ?3, ?4, ?5, ?6)')
+    .bind(await sha256Hex(key), plan, 'stripe ' + (s.customer || s.id), now, s.customer || null, s.subscription || null).run();
+}
+async function setStatus(env, col, id, status) {
+  if (!id) return; // 対象がわからないときは何もしない
+  const c = col === 'stripe_subscription' ? 'stripe_subscription' : 'stripe_customer';
+  await env.DB.prepare(`UPDATE pro_keys SET status = ?1 WHERE ${c} = ?2`).bind(status, id).run();
+}
+// 購入後のページ(/pro/thanks.html?session_id=...)が、買った本人にキーを見せるための入口。
+// Stripe に「その session は支払い済みか」を問い合わせ、済みのときだけ同じ計算でキーを返す。session_id は推測できない長い文字列。
+async function claimKey(req, env, url) {
+  if (req.method !== 'POST') return reply({ ok: false, error: 'method' }, 405);
+  const origin = req.headers.get('origin');
+  if (origin && origin !== url.origin) return reply({ ok: false, error: 'origin' }, 403);
+  if (!env.DB || !env.STRIPE_SECRET_KEY || !env.PRO_KEY_SECRET) return reply({ ok: false, error: 'not_ready' }, 503);
+  let id; try { id = String((await req.json()).session_id || ''); } catch (e) { return reply({ ok: false, error: 'bad_json' }, 400); }
+  if (!/^cs_(test|live)_[A-Za-z0-9]{10,200}$/.test(id)) return reply({ ok: false, error: 'bad_id' }, 400);
+  const r = await fetch('https://api.stripe.com/v1/checkout/sessions/' + id, { headers: { authorization: 'Bearer ' + env.STRIPE_SECRET_KEY } });
+  if (!r.ok) return reply({ ok: false, error: 'not_found' }, 404);
+  const s = await r.json();
+  if (s.status !== 'complete' || s.payment_status !== 'paid') return reply({ ok: false, error: 'not_paid' }, 402);
+  // webhook がまだ届いていなくても、ここで同じ行を足しておく(同じキーなので二重にならない)
+  await issueFromSession(env, s, new Date().toISOString());
+  return reply({ ok: true, key: await deriveKey(env, s.subscription || s.id) });
+}
+
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
+    if (url.pathname === '/api/stripe/webhook') return stripeWebhook(req, env);
+    if (url.pathname === '/api/pro/claim') return claimKey(req, env, url);
     if (url.pathname.startsWith('/api/pro/')) return proApi(req, env, url);
     if (req.method !== 'GET' && req.method !== 'HEAD') return new Response('Method Not Allowed', { status: 405 });
     let path = decodeURIComponent(url.pathname);
