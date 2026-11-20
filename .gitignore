@@ -1,6 +1,7 @@
 node_modules/
 src/lab/graph_raw.json
 src/lab/flows_raw.json
+__pycache__/
 
 # 開示ウォッチのUser-Agent(個人のメールを含むので入れない)
 inbox/disclosures/ua.txt
