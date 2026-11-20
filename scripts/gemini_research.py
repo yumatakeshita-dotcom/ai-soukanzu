@@ -18,7 +18,7 @@
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
   python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
-  python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ scripts/gemini_verify.py で確かめる(毎朝の定期タスク)
+  python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ確かめる。そのあと宿題リスト(inbox/queue.json)の先頭を1件(毎朝の定期タスク)
   python3 scripts/gemini_research.py usage                         # 使った回数を日ごとに数える(無料枠が足りるかの目安)
   python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
   python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
@@ -617,6 +617,7 @@ def main():
     s = sp.add_parser('store'); s.add_argument('--dry-run', action='store_true')
     dd = sp.add_parser('daily', help='曜日ごとのテーマで調べて、そのまま確かめる(毎朝の定期タスク用)')
     dd.add_argument('--max', type=int, default=10); dd.add_argument('--dry-run', action='store_true')
+    dd.add_argument('--no-queue', action='store_true', help='宿題リストの1件を調べない')
     r = sp.add_parser('research'); r.add_argument('topic'); r.add_argument('--max', type=int, default=10)
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
     r.add_argument('--no-verify', action='store_true')
@@ -650,6 +651,14 @@ def main():
         if res.get('saved'):
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
+        # 2026/11/20: そのあと、調べる順番の一覧(inbox/queue.json)の先頭を1件だけ調べる。人の指示は要らない。
+        # 無料枠が切れていたら状態を変えずに終わる(次の朝に同じ項目)。--no-queue で省ける
+        if not a.no_queue:
+            try:
+                import research_queue
+                research_queue.run_next(a.dry_run)
+            except Exception as e:
+                print('宿題リストの調査をできなかった:', str(e)[:200], file=sys.stderr)
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):
