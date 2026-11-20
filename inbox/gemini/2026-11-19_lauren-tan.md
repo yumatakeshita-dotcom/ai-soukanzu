@@ -22,11 +22,13 @@
 | Netflixでは画面まわりの開発チームのマネージャー | 本人(Geminiの答え。下の日付は未確認) | — |
 
 ## 新しい点(相関図にまだないもの)
+> **注意(2026/11/20追記):** 下の表の「cursor.com」の記事(https://cursor.com/ja/lp-team/lauren)は、2026/11/20時点で開けません(Cursorの料金ページに転送される)。本文は確かめられていないので、この記事を出典にしないでください。本人だと言える根拠は、Xの自己紹介(https://x.com/poteto)とGitHub(https://github.com/poteto)です。
+
 ※ cursor.com・teamday.ai・lennysnewsletter.com はクラウドから開けなかったため、ウェブ検索の見出しと抜粋で確かめた。足す前にページを開いて確かめること。
 
 | 内容 | 確かさ | 出典 | 足すなら |
 |---|---|---|---|
-| Cursor の公式ブログで、自分の作業手順をまとめた道具「pstack」を無料公開(Cursorの社内で1週間に1万回使われた、と本人) | 本人(Cursor公式サイト上の本人の記事) | https://cursor.com/ja/lp-team/lauren | Cursorの図のローレン・タンの説明に1文 |
+| Cursor の公式ブログで、自分の作業手順をまとめた道具「pstack」を無料公開(Cursorの社内で1週間に1万回使われた、と本人) | 本人(Cursor公式サイト上の本人の記事) | https://cursor.com/ja/lp-team/lauren(2026/11/20に開けず。出典にしない) | Cursorの図のローレン・タンの説明に1文 |
 | Grok Bot は 2026/8/11 にベータ公開。ローレン・タンはその中心チームの一人 | 報道 | https://www.teamday.ai/ai/people/lauren-tan 、 https://lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month | xAIの図の Grok Bot の説明。公開日は公式発表で確かめてから |
 | AIのエージェントで大量のプルリクエスト(作業の単位)を出している。数は資料で違う(Gemini「月約4,000件」、teamday.ai「月11,000件、取り消し0.5%」) | 報道(本人の講演の要約) | https://www.teamday.ai/ai/lauren-tan-spacexsi-grok-bot-11000-agent-prs-lint-rules | 数字は入れない方がよい(食い違い) |
 | GitHub の所属が @xai-org | 本人 | https://github.com/poteto | s_ltanx と並ぶ本人の出典として DS に足せる |
