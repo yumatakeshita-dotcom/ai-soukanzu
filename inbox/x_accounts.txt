@@ -40,3 +40,14 @@
 @demishassabis | moves,deep | Google DeepMind CEO
 @pushmeet | moves,deep | DeepMind研究VP
 @james_riney | money,vc | Coral Capital代表(日本VC)
+# --- 自動で追加 (2026-11-20) ---
+@amir | moves,money,vc | The Information編集長。特ダネ
+@aaronpholmes | moves,money | The Information記者
+@ZeffMax | moves,money,deep | WSJ AI記者
+@EricNewcomer | money,vc | Newcomer。VC・調達の報道
+@alexeheath | moves,money,vc | Sources運営。元記者でVC所属
+@Reuters | money,moves | ロイター。速報
+@Siftedeu | money,vc | 欧州スタートアップ報道
+@ycombinator | vc,deep | Y Combinator公式
+@sequoia | vc,money | セコイア公式
+@SakanaAILabs | moves,money,deep | 日本のAI新興(Sakana AI)公式

@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
 MANUAL = os.path.join(ROOT, 'site', 'data', 'exectl.js')
 # 年表の会社: キー -> 名前(inbox の from/to にこの名前が入っていれば対象)
-COMPANIES = {'openai': 'OpenAI', 'anthropic': 'Anthropic', 'nvidia': 'Nvidia'}  # 2026/11/19 Nvidiaを追加
+COMPANIES = {'openai': 'OpenAI', 'anthropic': 'Anthropic', 'nvidia': 'Nvidia', 'xai': 'xAI', 'gdm': 'DeepMind'}  # 2026/11/19 Nvidia、11/20 xAI・DeepMindを追加
 EXEC = re.compile(r'CEO|CTO|CFO|COO|CRO|CPO|CMO|CCO|CIO|CSO|Chief|最高|責任者|VP|副社長|社長|会長|取締役|役員|幹部|'
                   r'[Hh]ead|Director|ディレクター|部門長|統括|共同創業|創業者|顧問|General Manager|代表|Managing|President|'
                   r'リーダー|リード')

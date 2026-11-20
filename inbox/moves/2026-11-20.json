@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-20",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Jensen Huang",
+   "name_ja": "ジェンスン・ファン",
+   "from": "Nvidia(社長・CEO・取締役)",
+   "to": "(退任)",
+   "role": "Nvidiaの社長・CEOと取締役を辞任。後任の暫定CEOはColette Kress(CFO兼任)、取締役会議長にHarvey C. Jones",
+   "date": "2026-11-11",
+   "note": "Nvidiaの8-K開示で確認。CEOの辞任と暫定CEO就任。理由は開示になし(私生活の報道は単独報道で未確認)。後任探し中",
+   "src": [
+    [
+     "Nvidia Form 8-K(2026-11-11)",
+     "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+    ],
+    [
+     "YourStory(2026-11)",
+     "https://yourstory.com/2026/11/jensen-huang-resigns-after-33-years-at-nvidia"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ],
+ "notes": "過去48時間では新しい移籍は見つからず。11-18 のファイルでは「48時間より前」で外していたNvidia CEO辞任(2026-11-11、SEC 8-K 本文を実際に開いて確認、YourStoryは本文未確認)を、相関図にまだ無いため候補に入れた。Cat Wu(Anthropic→OpenAI)・Jasjeet Sekhon・Dan Driscoll は既に相関図にあるため外した。Emily Dalton Smith(Meta、6月退社)は古いため外した。さかのぼり2026-08: 検索で出るのは2025年の記事か単一の集計ページのみで、報道で確かめられた新しい8月の動きは0件(Zoph/Metzの8月の移籍は出典1つのみで未確認のため入れず)。YouTube: Y Combinatorの直近5本を一覧したが移籍の話題の動画はなく、字幕は取得せず。X: moves対象アカウント20件。記事からたどって確かめた投稿0件(対象アカウントの投稿0件。x_from_newsは実行せず)。thenextweb・fourweekmba・newsbytes等は本文を開けず(本文未確認)。"
+}
