@@ -88,4 +88,4 @@ claude.ai で相関図を作りながら話し合った内容のまとめ。Clau
 - OpenAI 1社分の「確かな版」見本: `docs/samples/openai_kakujitsu.html`(共有リンク https://claude.ai/artifact/HBQzJ6Zvxiaqa3sLhFRE3D)
 - 公式で確かめられたのは、計算資源の契約8件・Microsoftの持ち分・導入企業4社。報道だけのもの(Oracle約3,000億ドル、Nvidia 300億ドル、増資後の持ち分、人の動き6件)は「参考」に分けた
 - 見立て: 単体で個人に売るのは難しい。日本の事業会社・金融機関の調査担当、記者向けに「出典つきで社内資料にそのまま貼れる」点が売り。人の動きはほぼ報道だけなので、確かな版では弱い
-- 5社まとめの見本集(2026/11/19): `docs/samples/kakujitsu_5sha.html`(共有リンク https://claude.ai/artifact/7VbpaREMMvD7z3gM6Xwn5U)。確かめた割合が60%以上(出典のある線5件以上)の xAI・Periodic Labs・Alphabet・CFS・TensorWave。売り込みのときに最初に見せる1枚として作った
+- 見本集(2026/11/19作成、11/20に6社へ。60%以上の会社が増えたら作り直す。作り直しは node scripts/kakujitsu_samples.js && python3 scripts/kakujitsu_samples.py): `docs/samples/kakujitsu_samples.html`(共有リンク https://claude.ai/artifact/7VbpaREMMvD7z3gM6Xwn5U)。確かめた割合が60%以上(出典のある線5件以上)の Anthropic・xAI・Periodic Labs・Alphabet・CFS・TensorWave。OpenAIは44%(報道だけ22件のうち人の動きが多く、本人の投稿で確かめる必要がある)のため、60%に届くまで入れない。売り込みのときに最初に見せる1枚として作った
