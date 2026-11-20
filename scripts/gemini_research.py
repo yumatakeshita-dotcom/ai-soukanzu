@@ -659,6 +659,9 @@ def main():
                 research_queue.run_next(a.dry_run)
             except Exception as e:
                 print('宿題リストの調査をできなかった:', str(e)[:200], file=sys.stderr)
+        # 2026/11/20: 枠切れで後回しにしたテーマが列にあれば、今日の分のあとに1件だけやり直す(定期タスクの文を変えずに拾うため)
+        if not a.dry_run and queue_pending():
+            retry_queue(max_items=1)
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):
