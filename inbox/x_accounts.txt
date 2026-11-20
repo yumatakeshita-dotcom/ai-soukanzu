@@ -51,3 +51,14 @@
 @ycombinator | vc,deep | Y Combinator公式
 @sequoia | vc,money | セコイア公式
 @SakanaAILabs | moves,money,deep | 日本のAI新興(Sakana AI)公式
+# --- 自動で追加 (2026-11-21) ---
+@MistralAI | moves,money,deep | 仏AI新興Mistral公式
+@AravSrinivas | moves,money | Perplexity共同創業者CEO
+@karpathy | moves,deep | 元OpenAI・元Tesla AI研究者
+@ilyasut | moves,deep | SSI共同創業者
+@saranormous | vc,money | Conviction創業者。AI投資家
+@sarahcat21 | vc,money | Amplify Partners。AI投資家
+@bgurley | vc,money | Benchmark出身の有名VC
+@lightspeedvp | vc,money | Lightspeed公式
+@PreferredNet | money,deep | 日本のAI新興PFN公式(英語)
+@JPStartups | vc,money | 日本のスタートアップ報道
