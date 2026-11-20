@@ -77,3 +77,8 @@ function showInvest(q){
     const bt=ev.target.closest('button[data-ii]');if(bt){invSel=Number(bt.dataset.ii);input.value=G.nodes[invSel].n;render();window.scrollTo(0,0);return}
     if(ev.target.id==='invback'){invSel=-1;input.value='';render()}});
 }
+
+/* 会社の相関図の概要に出す入口(index.html の概要の組み立てから呼ぶ。2026/11/20) */
+function investBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';if(!nm)return '';
+  return `<div class="links"><a href="#" id="goinvest"><b>${cmEsc(nm)}への出資者と、出資している先を見る ▸</b></a><small style="display:block;color:var(--muted)">どの企業が、どの企業に出資しているか(出典の有無つき)</small></div>`}
+function wireInvest(){const g=document.getElementById('goinvest');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showInvest(COMPANIES[comp].name);window.scrollTo(0,0)})}
