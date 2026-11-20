@@ -18,8 +18,10 @@
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
   python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--dry-run]
+  python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ scripts/gemini_verify.py で確かめる(毎朝の定期タスク)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -29,6 +31,7 @@ DOCS = os.environ.get('GEMINI_DOCS_DIR', '/mnt/project-files')
 API = 'https://generativelanguage.googleapis.com'
 CONF = ['公式', '開示', '報道', '本人の発言', '推定']
 COLS = ['会社名', '関係', '相手', '金額', '日付', '出典URL', '確かさ', '備考']
+EXTRA = ['人物', '役職', '移籍元', '移籍先']
 
 # ファイル検索に入れる資料。コードそのもの(02〜05)は調べものに役立たないので入れない
 DOC_GLOBS = ['notebooklm/*.md', 'notebooklm-code/00_*.md', 'notebooklm-code/10_*.md',
@@ -117,13 +120,15 @@ def build_prompt(topic, n):
 下の「すでにある範囲」に無い、新しい事実(企業間の出資・取引・提携・買収、人物の移籍・就任・退任)を、Google検索で確かめて最大{n}件返してください。
 守ること:
 - 出典は記事や発表の元のURL(https で始まる、そのページを開けば事実が書いてあるもの)。見つからないものは入れない。うわさ・推測は入れない
+- 出典はできるだけ一次情報(会社の公式発表・ニュースルーム、SECなどの開示書類、本人のX)にする。無ければ英語の大手報道(Reuters・Bloomberg・CNBC・TechCrunch など)。日本語の記事しか無いときだけ日本語の記事にする
+- 向きをそろえる: 出資・買収・取引は「会社名」がお金を出す側・買う側、「相手」が受ける側・買われる側。人の動きは「人物」に人の名前(英語)、「移籍元」「移籍先」に会社名、「役職」に新しい役職を書き、「会社名」には主な会社を書く
 - 確かさは次のどれか1つ: 公式(会社の発表) / 開示(SEC・EDINET・決算資料など法定の書類) / 報道 / 本人の発言(本人のX・ブログ・動画) / 推定(試算)
 - 金額が報道ベースや契約の上限なら、備考にそう書く。不明なら金額は空
 - 日付は YYYY-MM-DD(わかる範囲で YYYY-MM でもよい)
 - すでにある会社・人物でも、新しい関係・金額・日付・移籍なら新しい情報として扱ってよい
 
 答えは次の形のJSONだけを ```json と ``` で囲んで返す(説明文は不要):
-{{"items":[{{"会社名":"","関係":"出資/取引/提携/買収/移籍/就任/退任 など","相手":"","金額":"","日付":"","出典URL":"","出典名":"媒体名","確かさ":"報道","備考":""}}]}}
+{{"items":[{{"会社名":"","関係":"出資/取引/提携/買収/移籍/就任/退任 など","相手":"","金額":"","日付":"","出典URL":"","出典名":"媒体名","確かさ":"報道","備考":"","人物":"(人の動きのときだけ)","役職":"","移籍元":"","移籍先":""}}]}}
 
 --- すでにある範囲 ---
 {rng}
@@ -159,18 +164,27 @@ def resp_text(resp):
     return '\n'.join(parts)
 
 
+BUSY_WAITS = [20, 60, 120]  # 2026/11/19: 混雑(503・500)のときは時間をおいてやり直す(秒)
+
+
 def gen(body):
     last = None
     for m in models():
-        try:
-            r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
-            _model_used.append(m)
-            return r
-        except RuntimeError as e:
-            if ' 429' not in str(e) and ' 404' not in str(e):
-                raise
-            last = e
-            print(f'[{m}] 枠切れ・使えないため次のモデルを試す', file=sys.stderr)
+        for i in range(len(BUSY_WAITS) + 1):
+            try:
+                r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
+                _model_used.append(m)
+                return r
+            except RuntimeError as e:
+                last = e
+                if (' 503' in str(e) or ' 500' in str(e)) and i < len(BUSY_WAITS):
+                    print(f'[{m}] 混雑のため {BUSY_WAITS[i]}秒待ってやり直す', file=sys.stderr)
+                    time.sleep(BUSY_WAITS[i])
+                    continue
+                if not any(c in str(e) for c in (' 429', ' 404', ' 503', ' 500')):
+                    raise
+                print(f'[{m}] 枠切れ・混雑・使えないため次のモデルを試す', file=sys.stderr)
+                break
     raise last
 
 
@@ -265,6 +279,9 @@ def clean(items, names, extra_src):
         if re.search(r'sec\.gov|edinet-fsa|disclosure', url) and cf == '報道':
             cf = '開示'
         row = {c: str(it.get(c) or '').strip() for c in COLS}
+        for c in EXTRA:  # 人の動きのときの項目(2026/11/19追加)。あるときだけ残す
+            if str(it.get(c) or '').strip():
+                row[c] = str(it[c]).strip()
         row['確かさ'] = cf
         row['src'] = [[str(it.get('出典名') or url), url]]
         known = [x for x in (it.get('会社名'), it.get('相手')) if norm(x) in names]
@@ -315,6 +332,13 @@ def research(topic, n=10, check=True, dry=False, log=print):
         return {'dry_run': True, 'items': []}
     items, gsrc = search_step(topic, n)
     rows = clean(items, known_names(), gsrc)
+    # 検索で見たページの転送リンクは数時間で使えなくなるので、すぐ元のURLにしておく(2026/11/19)
+    try:
+        import gemini_verify
+        gres = gemini_verify.resolve_pool(gsrc)
+    except Exception as e:
+        print('転送リンクを元のURLにできなかった:', e, file=sys.stderr)
+        gres = []
     st = load_store()
     checked = 'しない'
     if check and rows and st.get('name'):
@@ -329,10 +353,27 @@ def research(topic, n=10, check=True, dry=False, log=print):
     meta = {'date': date, 'model': model(), 'checked': checked, 'grounding': gsrc}
     p = new_path(date, '')
     json.dump({'date': date, 'kind': 'gemini', 'topic': topic, 'model': meta['model'], 'checked': checked,
-               'items': rows, 'grounding': gsrc}, open(p + '.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+               'items': rows, 'grounding': gsrc, 'grounding_resolved': gres}, open(p + '.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     open(p + '.md', 'w', encoding='utf-8').write(to_md(topic, rows, meta))
     log(f'{len(rows)}件を保存: {os.path.relpath(p, ROOT)}.json / .md')
     return {'items': rows, 'saved': os.path.relpath(p, ROOT) + '.md', 'markdown': to_md(topic, rows, meta)}
+
+
+# 毎朝の定期タスクで使うテーマ(曜日ごと。2026/11/19追加)。月=0 … 日=6
+DAILY_THEMES = [
+    '直近3日のAI企業・半導体企業の大型の資金調達と買収(世界)',
+    '直近3日のAI企業・半導体企業の経営陣・主要研究者の移籍・就任・退任',
+    '直近3日の計算資源(GPU・データセンター・電力・メモリ)の大型契約と提携',
+    '直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携',
+    '直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業',
+    '直近3日のアジア(台湾・韓国・シンガポール・インド・中東)のAI企業の資金調達・提携・人の動き',
+    '直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド',
+]
+
+
+def daily_theme(d=None):
+    d = d or datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).date()
+    return DAILY_THEMES[d.weekday()]
 
 
 def status():
@@ -347,6 +388,8 @@ def main():
     sp = ap.add_subparsers(dest='cmd', required=True)
     sp.add_parser('status')
     s = sp.add_parser('store'); s.add_argument('--dry-run', action='store_true')
+    dd = sp.add_parser('daily', help='曜日ごとのテーマで調べて、そのまま確かめる(毎朝の定期タスク用)')
+    dd.add_argument('--max', type=int, default=10); dd.add_argument('--dry-run', action='store_true')
     r = sp.add_parser('research'); r.add_argument('topic'); r.add_argument('--max', type=int, default=10)
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
     a = ap.parse_args()
@@ -356,6 +399,13 @@ def main():
         if not key() and not a.dry_run:
             print('GEMINI_API_KEY が未設定なので、ドライランにします'); a.dry_run = True
         build_store(a.dry_run)
+    elif a.cmd == 'daily':
+        topic = daily_theme()
+        print('今日のテーマ: ' + topic)
+        res = research(topic, a.max, True, a.dry_run)
+        if res.get('saved'):
+            import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
+            gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run)
         if res.get('markdown'):

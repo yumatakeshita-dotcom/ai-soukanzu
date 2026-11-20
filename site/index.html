@@ -35775,7 +35775,7 @@ const UPDATES=[
  {d:'2026-11-10',co:['anthropic','gdm','nvidia','msft'],t:'Google・Nvidia・Microsoftが、Anthropicの上場価格で計260億ドルを出資する予定と届け出',src:['FT経由 Finimize(2026-11-11)','https://finimize.com/content/anthropics-bankers-weigh-pricing-its-ipo-above-range']},
  {d:'2026-11-12',co:['anthropic'],t:'Anthropicの上場の申込みが募集の約6倍に達したと報道',src:['Reuters/Bloomberg(2026-11-12)','https://www.investing.com/news/stock-market-news/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-5023345']},
  {d:'2026-11-11',co:['tsmc','anthropic','openai'],t:'TSMCの取締役会がAnthropic株(上場時)とOpenAI優先株に各最大5億ドルの出資を承認',src:['Focus Taiwan(2026-11-11)','https://focustaiwan.tw/business/202611110009']},
- {d:'2026-11-12',co:['nvidia'],t:'Nvidiaのジェンスン・フアンCEOが辞任。CFOのコレット・クレス氏が暫定CEOに',src:['Al Jazeera(2026-11-12)','https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress']},
+ {d:'2026-11-12',co:['nvidia'],t:'Nvidiaのジェンスン・フアンCEOが辞任。CFOのコレット・クレス氏が暫定CEOに(2026/11/19、NvidiaのSEC 8-Kと公式発表で確認。取締役会の承認は11月11日)',src:['Al Jazeera(2026-11-12)','https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress']},
  {d:'2026-11-12',co:['xai'],t:'SpaceXがテキサス・アリゾナのAI計算拠点に740億ドル超を投資する計画を発表',src:['Reuters(2026-11-12)','https://www.investing.com/news/stock-market-news/spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona-5022690']},
  {d:'2026-11-12',co:['softbank'],t:'ソフトバンクGが4〜9月期に7680億円の純損失。米データセンター計画で37億ドルの減損',src:['DIGITIMES(2026-11-12)','https://www.digitimes.com/news/a20261111PD245/equipment-loss-2026-market.html']},
  {d:'2026-11-10',co:['anthropic'],t:'Anthropicが上場の公募価格の仮条件を1株70〜78ドルに設定(銘柄コードANT)',src:['ABC7 News(2026-11-10)','https://abc7news.com/story/anthropic-seeks-70-78-share-new-ipo-filing-values-13-trillion/20029820/']},
@@ -36144,6 +36144,9 @@ Object.assign(DS,{
  // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
  v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
  v_lau:['オースティン・ラウ本人のX(2026/11/5、OpenAIに加わったと投稿。2026/11/19にXで確認)','https://x.com/helloitsaustin/status/2118161804463595931','s'],
+ // 2026/11/19 追加: NvidiaのCEO交代をSECの臨時報告書(8-K)で確かめた
+ v_nvceo:['Nvidia SEC 8-K(2026/11/12、フアンCEOの辞任・クレス暫定CEO・ジョーンズ議長)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm','f'],
+ v_nvceopr:['Nvidia公式発表「NVIDIA Announces CEO Transition」(2026/11/12、8-Kの添付資料)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm','o'],
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36185,6 +36188,9 @@ const VERIFY_PPL=[
  ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
  ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
+ ['ジェンスン・フアン','Nvidia','v_nvceo','NvidiaのSEC 8-Kで辞任を確認','2026/11/19'],
+ ['コレット・クレス','Nvidia','v_nvceo','NvidiaのSEC 8-Kで暫定CEOを確認','2026/11/19'],
+ ['ハーベイ・ジョーンズ','Nvidia','v_nvceo','NvidiaのSEC 8-Kで議長就任を確認','2026/11/19'],
 ];
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));

@@ -1,6 +1,6 @@
 // 幹部の入れ替わり年表(メニュー「幹部の年表」)。2026年11月19日に追加。
 // データ(EXECTL)と画面(showExecTl)がこのファイルに入っている。会社を足すときは EXECTL に同じ形で足す。
-// 2026年11月19日: Anthropicを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/finds.js の3行目(scripts/exectl_auto.py が作る)。
+// 2026年11月19日: Anthropicを追加。同じ日にNvidia(SECの8-Kから)も追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/finds.js の3行目(scripts/exectl_auto.py が作る)。
 // 1件 = {d:'日付(YYYY-MM-DD か YYYY-MM)', t:'in'入社 / 'out'退社 / 'role'役割の変更 / 'co'会社の出来事, p:'人の名前', en:'英語名', role:'役職', from/to:'どこから・どこへ', note:'ひとこと', cf:'o'公式 / 'f'開示 / 's'本人 / 'r'報道 / 'e'推定, src:[[出典名,URL],...]}
 // 守ること: 出典のURLを必ず付ける。うわさは入れない。報道だけのものは cf:'r'。既存の行は消さず、直すときは note に「(○年○月○日に直した)」と書き添える。
 const EXECTL={
@@ -120,6 +120,36 @@ anthropic:{
   '法人営業はCCOのポール・スミス(ServiceNow出身)が統括し、海外はクリス・チャウリ、欧州はOrange出身のスティーブ・ジャレット(パリ)が担当と報じられています。日本の大企業への提案は、この海外の担当の線が窓口になりやすいとみられます(報道ベースの見立て)。',
   'OpenAIと違い、共同創業者7人が今も幹部に残っています(この相関図のデータの範囲)。2025〜26年は製品・技術・営業のトップを外から入れて、上場に向けて体制を作りました。',
   'OpenAIとの人の行き来は両方向です。OpenAIから安全・研究・チップの人が入り(ライケ、ヴァローネ、シュワルツァー、チャン)、Claude Codeの担当者がOpenAIへ移りました。'
+ ]
+}
+,
+nvidia:{
+ name:'Nvidia',
+ asof:'2026-11-19',
+ note:'Nvidiaの経営陣・取締役の入れ替わりを、米SECに出した臨時報告書(8-K)を中心に並べました(2026年11月19日に追加)。開示=SECの書類、公式=Nvidiaの発表。Nvidiaは上場済みなので「上場の準備書類」の線はありません。',
+ now:[
+  ['暫定CEO(CFOを兼ねる)','コレット・クレス','2026年11月11日から。正式なCEOは社内外から探している'],
+  ['取締役会議長','ハーベイ・ジョーンズ','2026年11月11日から。Nvidiaで初めての議長。Synopsysの元CEO'],
+  ['全世界の営業(EVP)','ニコラス・パーカー','2026年8月24日着任の予定、Microsoftから'],
+  ['経理の責任者(CAO)','スコット・ガウェル','2026年5月4日、Intelから']
+ ],
+ ev:[
+  {d:'2023-07-24',t:'in',p:'メリッサ・ローラ',en:'Melissa Lora',role:'取締役(監査委員)',from:'',note:'取締役が13人から14人に',cf:'f',src:[['Nvidia SEC 8-K(2023/7/24)','https://www.sec.gov/Archives/edgar/data/1045810/000104581023000164/nvda-20230724.htm']]},
+  {d:'2024-11-07',t:'in',p:'エレン・オチョア',en:'Ellen Ochoa',role:'取締役',from:'(元NASAジョンソン宇宙センター所長)',note:'取締役が12人から13人に',cf:'f',src:[['Nvidia SEC 8-K(2024/11/7)','https://www.sec.gov/Archives/edgar/data/1045810/000104581024000300/nvda-20241107.htm']]},
+  {d:'2025-07-31',t:'out',p:'エレン・オチョア',en:'Ellen Ochoa',role:'取締役',to:'',note:'個人的な理由で辞任。会社との意見の違いではないと開示',cf:'f',src:[['Nvidia SEC 8-K(2025/8/5)','https://www.sec.gov/Archives/edgar/data/1045810/000104581025000197/nvda-20250731.htm']]},
+  {d:'2026-01-20',t:'out',p:'パーシス・ドレル',en:'Persis Drell',role:'取締役(報酬委員)',to:'(新しい仕事、未発表)',note:'会社との意見の違いではないと開示',cf:'f',src:[['Nvidia SEC 8-K(2026/1/23)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000003/nvda-20260120.htm']]},
+  {d:'2026-04-24',t:'out',p:'ドナルド・ロバートソン',en:'Donald Robertson',role:'VP・経理の責任者(CAO)',to:'(引退。7月1日まで財務のVPとして残る)',note:'5月4日にCAOを退く',cf:'f',src:[['Nvidia SEC 8-K(2026/4/27)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000026/nvda-20260424.htm']]},
+  {d:'2026-05-04',t:'in',p:'スコット・ガウェル',en:'Scott Gawel',role:'VP・経理の責任者(CAO)',from:'Intel',note:'4月26日に選任、5月4日に着任',cf:'f',src:[['Nvidia SEC 8-K(2026/4/27)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000026/nvda-20260424.htm']]},
+  {d:'2026-06-28',t:'out',p:'アジャイ・プリ',en:'Ajay Puri',role:'EVP・全世界の営業(Worldwide Field Operations)',to:'(引退。後任の着任後は相談役として残る)',note:'在籍21年',cf:'f',src:[['Nvidia SEC 8-K(2026/7/2)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm']]},
+  {d:'2026-07-13',t:'in',p:'スザンヌ・ノラ・ジョンソン',en:'Suzanne Nora Johnson',role:'取締役(監査委員)',from:'(元ゴールドマン・サックス副会長)',note:'5月7日に選任、7月13日に就任。取締役が10人から11人に',cf:'f',src:[['Nvidia SEC 8-K(2026/5/8)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000028/nvda-20260507.htm']]},
+  {d:'2026-08-24',t:'in',p:'ニコラス・パーカー',en:'Nicholas Parker',role:'EVP・全世界の営業(プリの後任)',from:'Microsoft(26年。世界営業部門のEVP・チーフ・ビジネス・オフィサー)',note:'7月1日に選任。着任は8月24日の予定と開示',cf:'f',src:[['Nvidia SEC 8-K(2026/7/2)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000060/nvda-20260628.htm']]},
+  {d:'2026-11-11',t:'out',p:'ジェンスン・フアン',en:'Jensen Huang',role:'社長・CEO・取締役(1993年の共同創業から)',to:'',note:'取締役会が辞任を受け入れ、即日退任。理由は開示されていない。発表は11月12日',cf:'f',src:[['Nvidia SEC 8-K(2026/11/12)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm'],['Nvidia公式発表(2026/11/12、8-Kの添付資料)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm']]},
+  {d:'2026-11-11',t:'role',p:'コレット・クレス',en:'Colette Kress',role:'CFOのまま暫定CEOに',note:'2013年9月からCFO。取締役会は正式なCEOを社内外から探す',cf:'f',src:[['Nvidia SEC 8-K(2026/11/12)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm'],['Nvidia公式発表(2026/11/12)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm']]},
+  {d:'2026-11-11',t:'role',p:'ハーベイ・ジョーンズ',en:'Harvey Jones',role:'取締役会議長(Nvidiaで初めて)',note:'1993年から取締役。Synopsysの元CEO',cf:'f',src:[['Nvidia SEC 8-K(2026/11/12)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm']]}
+ ],
+ points:[
+  '2026年11月に、創業から33年CEOだったジェンスン・フアンが辞任し、CFOのコレット・クレスが暫定CEOになりました。営業のトップも8月にMicrosoft出身のニコラス・パーカーに替わったばかりで、取引先の窓口が変わりやすい時期です。',
+  'クレス暫定CEOはCFOも兼ねています。11月17日の決算発表では中国向けH200の販売停止を表明したと報じられました(相関図の「最近の変化」)。'
  ]
 }
 };

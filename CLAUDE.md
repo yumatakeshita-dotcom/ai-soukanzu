@@ -53,7 +53,7 @@ docs/                 移行メモなど
 - 2社の共通のつながり(メニュー「共通のつながり」): `site/data/common.js`。データは持たず、開いたときに本体の相関図(DATA)からまとめる。2026/11/18追加
   - 営業先ごとの1枚資料: 同じ `site/data/common.js` の後半(`cmShowBrief`)。共通のつながりの結果画面の「営業資料(1枚)を作る」から開く。だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典をまとめ、印刷(PDF保存)・テキストのコピー・.txt保存ができる。2026/11/18追加
 - ニュースのリンク: Googleニュースの転送リンク(news.google.com/rss/articles/…)は元の記事のURLに直す。`python3 scripts/fix_gnews_links.py --auto` で、まだ直していないものを調べて置き換える(わからないものは残す)。毎朝9:47の定期タスク「ニュースのリンクを元記事に直す 毎日」が実行する。対応表は `scripts/gnews_map.json`
-- 幹部の年表(メニュー「幹部の年表」、2026/11/19追加): `site/data/exectl.js`。OpenAIとAnthropicの経営陣の入社・退社・役割の変更を、上場の準備書類の前後で並べる。データ(`EXECTL`)と画面(`showExecTl`)が同じファイル。1件ごとに出典URLと確かさ(`cf`)を書く。新しい幹部の動きは `ev` に足す(足すだけ)。ほかの会社を足すときは `EXECTL` に同じ形で足す
+- 幹部の年表(メニュー「幹部の年表」、2026/11/19追加): `site/data/exectl.js`。OpenAI・Anthropic・Nvidiaの経営陣の入社・退社・役割の変更を、上場の準備書類の前後で並べる。データ(`EXECTL`)と画面(`showExecTl`)が同じファイル。1件ごとに出典URLと確かさ(`cf`)を書く。新しい幹部の動きは `ev` に足す(足すだけ)。ほかの会社を足すときは `EXECTL` に同じ形で足す
   - 2026/11/19: Anthropicを追加(画面の「会社」で切り替え)。毎朝の移籍の調査(inbox/moves/)から、OpenAI・Anthropicの幹部の動きを `scripts/exectl_auto.py` が `site/data/finds.js` の3行目(`EXECTL_AUTO`)に自動で足す(画面では「自動で追加」の印)。`scripts/merge_inbox.py` の最後に動くので、毎朝9:13の「調査の新着」の定期タスクで更新される。手で書いた年表に同じ人の前後1か月の行があれば足さない。この3行目は手で直さない(直したいものは exectl.js に手で書く)
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
   - 同じファイルの2行目 `FINDLINKS` は、候補を相関図の人物・会社・線として出すためのもの(`scripts/finds_map.py` が inbox/ から作る)。どの会社の図に付けるかは index.html の `applyFinds` が名前で照らして決める。既存の人物・線は書き換えない
@@ -72,6 +72,8 @@ docs/                 移行メモなど
   - 調査タスクの `confidence` は「公式」「開示」「報道」「本人の発言」「推定」のどれか。開示=法定の書類(SEC・EDINET・決算資料)、推定=自分や他社の推定・試算の数字
 
 - Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
+  - 毎朝8:23の定期タスク「Gemini調査(確かめつき) 毎日」が `python3 scripts/gemini_research.py daily` を動かし、`scripts/gemini_verify.py` で出典URL(実際に開く)・重なり・日付・確かさを確かめる(2026/11/19追加)。合格したものだけ `inbox/money/日付-gemini.json`・`inbox/moves/日付-gemini.json` に足し、9:13の「調査の新着」がサイトに出す。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない
+- 幹部の年表に Nvidia を追加(2026/11/19)。SECの臨時報告書(8-K)から取締役・経営陣の入れ替わり12件。`scripts/exectl_auto.py` も Nvidia を対象にした
 
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない

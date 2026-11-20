@@ -6,6 +6,7 @@
   gemini_status   … キーの有無・ファイル検索ストアの状態
   gemini_store    … 資料(notebooklm/ ほか)をファイル検索ストアに入れる(足すだけ)
   gemini_research … テーマを渡すと、新しい企業・人物・取引・移籍を表で返し、inbox/gemini/ に足す
+  gemini_verify   … inbox/gemini/ の結果を確かめる(URL・重なり・日付・確かさ)。合格したものだけ取り込み候補にする(2026/11/19追加)
 キーは環境変数 GEMINI_API_KEY から読む。未設定のときはドライラン(送る内容の確認)だけ返す。
 """
 import io, json, os, sys
@@ -13,6 +14,7 @@ from contextlib import redirect_stdout
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gemini_research as g
+import gemini_verify as gv
 
 TOOLS = [
     {'name': 'gemini_status', 'description': 'Gemini調査の準備状態(キー・ファイル検索ストア)を返す',
@@ -26,6 +28,12 @@ TOOLS = [
          'topic': {'type': 'string', 'description': '調べるテーマ(例: 日本のAIスタートアップの資金調達 2026年11月)'},
          'max_items': {'type': 'integer', 'default': 10},
          'check': {'type': 'boolean', 'default': True, 'description': 'ファイル検索で既存資料と照らすか'},
+         'dry_run': {'type': 'boolean', 'default': False}}}},
+    {'name': 'gemini_verify',
+     'description': 'inbox/gemini/ のGemini調査の結果を確かめる: 出典URLにつながるか(つながらないものは未確認)、既存データとの重なり、'
+                    '日付の食い違い、確かさの印。合格したものだけ inbox/money・moves に足す。file を省くと、まだ確かめていないもの全部',
+     'inputSchema': {'type': 'object', 'properties': {
+         'file': {'type': 'string', 'description': '例: inbox/gemini/2026-11-19.json'},
          'dry_run': {'type': 'boolean', 'default': False}}}},
 ]
 
@@ -43,6 +51,10 @@ def call(name, a):
         elif name == 'gemini_research':
             r = g.research(a['topic'], int(a.get('max_items') or 10), a.get('check', True), bool(a.get('dry_run')), log)
             out = '\n'.join(logs) + ('\n\n' + r['markdown'] if r.get('markdown') else '')
+        elif name == 'gemini_verify':
+            fs = [os.path.join(g.ROOT, a['file'])] if a.get('file') else gv.targets()
+            gv.run(fs, dry=bool(a.get('dry_run')), log=log)
+            out = '\n'.join(logs)
         else:
             raise ValueError('知らない道具: ' + name)
     return out

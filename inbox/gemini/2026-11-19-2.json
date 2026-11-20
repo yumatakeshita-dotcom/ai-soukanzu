@@ -1,0 +1,141 @@
+{
+ "date": "2026-11-19",
+ "kind": "gemini",
+ "topic": "直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "ElevenLabs",
+   "関係": "買収",
+   "相手": "Kotoba Technologies",
+   "金額": "$100M超",
+   "日付": "2026-11-17",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK-OQs43LF7KcwwPJt0EQIavOObWn1UPhZsl2Y5ZHLbEGxJFDKtX06evhx5BEAMn8XknjGHynxqR4gJi_FzskhHIGuIy6axAtlG2M7WKqJ1_cWJNkZG93ERBSQEz5AZZCk-FdJihRR-adk6gBwGQ9wlNOK0EvwbxTvTz7GYgzgpyK1H",
+   "確かさ": "報道",
+   "備考": "約159億円と報道される",
+   "src": [
+    [
+     "Digital Music News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEK-OQs43LF7KcwwPJt0EQIavOObWn1UPhZsl2Y5ZHLbEGxJFDKtX06evhx5BEAMn8XknjGHynxqR4gJi_FzskhHIGuIy6axAtlG2M7WKqJ1_cWJNkZG93ERBSQEz5AZZCk-FdJihRR-adk6gBwGQ9wlNOK0EvwbxTvTz7GYgzgpyK1H"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs",
+    "Kotoba Technologies"
+   ]
+  },
+  {
+   "会社名": "三菱UFJフィナンシャル・グループ",
+   "関係": "提携",
+   "相手": "松尾研究所, Third Intelligence",
+   "金額": "",
+   "日付": "2026-11-17",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo50oXmVz-MfhDj9jOFumLq2jjxpPv1gm2kD-uKuUsIR68IUkReffOdvR-iMVXR6On5zDo8Mul922OkDjrywexkFZ3jzArCM8JjijsLN8rU8dp6DvyiYk5lybzRYmIB-4Bs__",
+   "確かさ": "報道",
+   "備考": "日本発次世代AI「遍在型AGI」を活用した金融サービス実現に向けた包括的パートナーシップ",
+   "src": [
+    [
+     "IT Leaders",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo50oXmVz-MfhDj9jOFumLq2jjxpPv1gm2kD-uKuUsIR68IUkReffOdvR-iMVXR6On5zDo8Mul922OkDjrywexkFZ3jzArCM8JjijsLN8rU8dp6DvyiYk5lybzRYmIB-4Bs__"
+    ]
+   ],
+   "既存の名前": [
+    "三菱UFJフィナンシャル・グループ"
+   ]
+  },
+  {
+   "会社名": "スペースデータ",
+   "関係": "資金調達",
+   "相手": "森ビルイノベーションファンド, KRAFTIA Innovation Fund",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUVlv_Bv-rHtv0fyFeKw_F9bTXuBlSjJ6cy_kMP8UAmPu3445wCcj7YwTIU0TSzRyLuMQGloPKte8dNuRpGxTKd5-9CBN5gsGgM01XzDXvSYSnQzRxo92WtzyrCnOJhuJ63Kq7Q48cb5oCJeAgCNnw",
+   "確かさ": "公式",
+   "備考": "デジタルツイン・AI技術を活用した都市開発、防災、社会インフラ分野での事業成長に向けた第三者割当増資",
+   "src": [
+    [
+     "PR TIMES",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUVlv_Bv-rHtv0fyFeKw_F9bTXuBlSjJ6cy_kMP8UAmPu3445wCcj7YwTIU0TSzRyLuMQGloPKte8dNuRpGxTKd5-9CBN5gsGgM01XzDXvSYSnQzRxo92WtzyrCnOJhuJ63Kq7Q48cb5oCJeAgCNnw"
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "HIVELAB",
+   "関係": "買収",
+   "相手": "J2B株式会社",
+   "金額": "",
+   "日付": "2026-11-17",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKkt3VPlNm7rg58QqEurLvd0mviVkiYJHYQ6EjbgMwOedWoVamonhcwiDntzB5_sQplS3d_pEEP_94sw3EYDY1en0eFvEVcWSpXmmlli3ktXKewCsO8P7CFad7bTOLwPG1ZrFW8lmghm98eiWM6YyZtWxYg==",
+   "確かさ": "報道",
+   "備考": "HIVELABグループがJ2Bの既存株式を取得するM&Aによりグループ参画。HIVELABのAI技術とJ2Bのクリエイティブ制作力を組み合わせ、事業拡大とグローバル展開を推進",
+   "src": [
+    [
+     "ニコニコニュース (PR TIMES)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKkt3VPlNm7rg58QqEurLvd0mviVkiYJHYQ6EjbgMwOedWoVamonhcwiDntzB5_sQplS3d_pEEP_94sw3EYDY1en0eFvEVcWSpXmmlli3ktXKewCsO8P7CFad7bTOLwPG1ZrFW8lmghm98eiWM6YyZtWxYg=="
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "エクサウィザーズ",
+   "関係": "提携",
+   "相手": "XBOW",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjDs6cgjw7AUv7hhX3KI8z0U8VLjxbbjG2sLorn4mdCLrN-Cd8HnRmv5L0FoFFxq2_m0kramIVEfiKUdNESaARoBZFMEi9JekRq_KVHjflVYIh4tu51TNJgrC9a_f5YmIwcI1PCdlwDffYEKnjEgTpynyMQnQbPaFr7WIlC4lrIveD",
+   "確かさ": "報道",
+   "備考": "自律型AIエージェントによるペネトレーションテストサービスを国内提供するための販売パートナー契約を締結",
+   "src": [
+    [
+     "ニコニコニュース",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjDs6cgjw7AUv7hhX3KI8z0U8VLjxbbjG2sLorn4mdCLrN-Cd8HnRmv5L0FoFFxq2_m0kramIVEfiKUdNESaARoBZFMEi9JekRq_KVHjflVYIh4tu51TNJgrC9a_f5YmIwcI1PCdlwDffYEKnjEgTpynyMQnQbPaFr7WIlC4lrIveD"
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "富士通",
+   "関係": "提携拡大",
+   "相手": "Google Cloud",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWH0pv76pHGk3NhlPMnb0nw9D8hzNMuxV5kWBSiSVx2VZkoPRukGwpg3CjA-fZ2B7xVSGZxYBt-_MgbxBFxANAHgcABVQmp3yjoYeyFBQP2JXBpDA9kbTb9S_jIaSxVrdbBTIS",
+   "確かさ": "報道",
+   "備考": "社内AI活用の契約を締結し、4つの柱で顧客を支援する提携拡大",
+   "src": [
+    [
+     "ビジネス+IT",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWH0pv76pHGk3NhlPMnb0nw9D8hzNMuxV5kWBSiSVx2VZkoPRukGwpg3CjA-fZ2B7xVSGZxYBt-_MgbxBFxANAHgcABVQmp3yjoYeyFBQP2JXBpDA9kbTb9S_jIaSxVrdbBTIS"
+    ]
+   ],
+   "既存の名前": [
+    "富士通",
+    "Google Cloud"
+   ]
+  }
+ ],
+ "grounding": [
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDsxfpoXI4uoR5v_xjtH8oPSAX_c4ZDdjT0Eo8gxvIzdVC1rFRyae-vgAuUqcz2p_sZuM9XgCYpTWyBUaelMt1icKMK9ClaX-s26UETlfdImEC2stJFByrKz7lETqpy32PRCp-Pws="
+  ],
+  [
+   "impress.co.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo50oXmVz-MfhDj9jOFumLq2jjxpPv1gm2kD-uKuUsIR68IUkReffOdvR-iMVXR6On5zDo8Mul922OkDjrywexkFZ3jzArCM8JjijsLN8rU8dp6DvyiYk5lybzRYmIB-4Bs__2"
+  ],
+  [
+   "nicovideo.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKkt3VPlNm7rg58QqEurLvd0mviVkiYJHYQ6EjbgMwOedWoVamonhcwiDntzB5_sQplS3d_pEEP_94sw3EYDY1en0eFvEVcWSpXmmlli3ktXKewCsO8P7CFad7bTOLwPG1ZrFW8lmghm98eiWM6YyZtWxYg=="
+  ],
+  [
+   "nicovideo.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjDs6cgjw7AUv7hhX3KI8z0U8VLjxbbjG2sLorn4mdCLrN-Cd8HnRmv5L0FoFFxq2_m0kramIVEfiKUdNESaARoBZFMEi9JekRq_KVHjflVYIh4tu51TNJgrC9a_f5YmIwcI1PCdlwDffYEKnjEgTpynyMQnQbPaFr7WIlC4lrIveD"
+  ],
+  [
+   "sbbit.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWH0pv76pHGk3NhlPMnb0nw9D8hzNMuxV5kWBSiSVx2VZkoPRukGwpg3CjA-fZ2B7xVSGZxYBt-_mgbxBFxANAHgcABVQmp3yjoYeyFBQP2JXBpDA9kbTb9S_jIaSxVrdbBTIS"
+  ]
+ ]
+}
