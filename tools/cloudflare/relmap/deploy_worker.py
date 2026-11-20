@@ -36,6 +36,14 @@ def main():
         acc = res[0]["id"]
     code = open(os.path.join(HERE, "worker.mjs"), "rb").read()
     meta = {"main_module": "worker.mjs", "compatibility_date": "2026-11-01"}
+    # プロ会員用の D1「kigyo-pro」があれば束ねる(なければこれまでどおり束ねない。作るのは持ち主の確認のあと)
+    dbs = call("GET", f"/accounts/{acc}/d1/database?name=kigyo-pro").get("result") or []
+    dbs = [d for d in dbs if d.get("name") == "kigyo-pro"]
+    if dbs:
+        meta["bindings"] = [{"type": "d1", "name": "DB", "id": dbs[0]["uuid"]}]
+        print("D1 kigyo-pro を DB として束ねます")
+    else:
+        print("D1 kigyo-pro はまだありません(プロ会員のAPIは 503 を返します。ほかの機能には影響しません)")
     if "--dry-run" in sys.argv:
         print(f"(試し) {NAME} に worker.mjs({len(code):,} バイト)を置きます。送りません")
         return

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI企業の相関図 プロ</title>
+<meta name="description" content="AI企業の出資・取引・人の動きを、公式発表と開示書類で確かめた数字だけで資料にできます。出典URLと確認日つき。">
+<style>
+:root{
+  --bg:#f2f4f6;--surface:#ffffff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--active:#0d8a79;--conflict:#c93b3b;
+  --font-body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151a;--surface:#1a2027;--fg:#e8edf2;--muted:#9aa6b2;--line:#2b343d;--active:#3ec9b4;--conflict:#ff7b7b}}
+:root[data-theme="dark"]{--bg:#11151a;--surface:#1a2027;--fg:#e8edf2;--muted:#9aa6b2;--line:#2b343d;--active:#3ec9b4;--conflict:#ff7b7b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.75 var(--font-body);padding:0 max(16px,env(safe-area-inset-right)) 48px max(16px,env(safe-area-inset-left))}
+main{max-width:760px;margin:0 auto;padding-top:28px}
+a{color:var(--active)}
+h1{font-size:26px;line-height:1.4;margin:6px 0 8px}
+h2{font-size:18px;margin:32px 0 10px;padding-left:10px;border-left:4px solid var(--active)}
+.lead{font-size:16px;color:var(--muted);margin:0 0 18px}
+.back{font-size:13px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card h3{font-size:15px;margin:0 0 4px}
+.card p{margin:4px 0;font-size:14px;color:var(--muted)}
+.card ul{margin:6px 0 0;padding-left:20px;font-size:14px}
+.price{font-size:30px;font-weight:700;line-height:1.2}.price small{font-size:13px;font-weight:400;color:var(--muted)}
+.tag{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:999px;padding:0 8px;color:var(--muted)}
+.tag.pro{border-color:var(--active);color:var(--active)}
+button,.btn{font:inherit;font-size:14px;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--fg);cursor:pointer;text-decoration:none;display:inline-block}
+.main{border-color:var(--active);color:var(--active);font-weight:700}
+input[type=email],input[type=password]{font:inherit;width:100%;max-width:360px;padding:9px 11px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.msg{font-size:13px;min-height:1.5em;margin-top:6px}
+.note{font-size:12px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:500}
+td.c{text-align:center}
+</style>
+</head>
+<body>
+<main>
+<p class="back"><a href="../">◂ 相関図にもどる</a></p>
+<h1>AI企業の相関図 プロ</h1>
+<p class="lead">AI企業の出資・取引・人の動きを、<b>公式発表と開示書類で確かめた数字だけ</b>で資料にできます。1つ1つに出典のURLと確認日が付きます。</p>
+
+<div class="card">
+  <h3>こんな人のために</h3>
+  <ul>
+    <li>AI企業の動きを、会議や社内資料に<b>出典つきで</b>貼りたい(調査・企画・営業企画・投資の担当)</li>
+    <li>「その数字は、どこに書いてあるの?」に、すぐ答えられるようにしたい</li>
+    <li>報道だけの話と、確かめられた話を<b>分けて</b>見たい</li>
+  </ul>
+</div>
+
+<h2>無料とプロの違い</h2>
+<table>
+  <tr><th></th><th class="c">無料</th><th class="c">プロ</th></tr>
+  <tr><td>相関図・実験ページを見る</td><td class="c">○</td><td class="c">○</td></tr>
+  <tr><td>毎日の更新、確かさの印、確かさの一覧を見る</td><td class="c">○</td><td class="c">○</td></tr>
+  <tr><td><b>確かな版</b>(公式・開示だけの資料)を印刷・PDF・コピー・保存</td><td class="c">—</td><td class="c">○</td></tr>
+  <tr><td><b>営業資料(1枚)</b>(共通のつながり)を印刷・保存</td><td class="c">—</td><td class="c">○</td></tr>
+</table>
+<p class="note">画面で読むぶんは、これまでどおり無料です。プロは「資料として持ち出す」ための機能です。</p>
+
+<h2>料金</h2>
+<div class="grid">
+  <div class="card"><h3>個人 <span class="tag pro">仮の価格</span></h3>
+    <div class="price" id="p1">月980円</div>
+    <p>確かな版・営業資料の書き出し</p></div>
+  <div class="card"><h3>法人(請求書払い) <span class="tag pro">仮の価格</span></h3>
+    <div class="price" id="p2">月9,800円</div>
+    <p>社内の複数人で使えます(アクセスキーを1つ発行)。請求書払いに対応します。</p></div>
+</div>
+
+<h2 id="join">申し込み</h2>
+<div class="card" id="buybox">
+  <div id="buy-paid" hidden>
+    <p>下のボタンから、お支払いに進みます。決済後に、アクセスキーをお届けします。</p>
+    <div class="row"><a class="btn main" id="buy-link" href="#">個人プランに申し込む</a></div>
+  </div>
+  <div id="buy-wait" hidden>
+    <p>いま、お申し込みの準備をしています。メールアドレスを登録すると、始まったときに1度だけお知らせします。</p>
+    <div class="row"><input type="email" id="wl-email" placeholder="メールアドレス" autocomplete="email">
+      <button type="button" class="main" id="wl-btn">先行案内に登録</button></div>
+    <div class="row note"><label><input type="radio" name="wl-plan" value="personal" checked> 個人</label>
+      <label><input type="radio" name="wl-plan" value="business"> 法人(請求書払い)</label></div>
+    <div class="msg" id="wl-msg" role="status"></div>
+    <p class="note">お知らせ以外には使いません。いつでも停止できます。</p>
+  </div>
+</div>
+
+<h2>すでに会員の方</h2>
+<div class="card">
+  <p>お届けしたアクセスキーを入れてください。このブラウザに保存され、「確かな版」「営業資料」の書き出しが使えます。</p>
+  <div class="row"><input type="password" id="k-in" placeholder="アクセスキー" autocomplete="off">
+    <button type="button" id="k-btn">確かめる</button></div>
+  <div class="msg" id="k-msg" role="status"></div>
+</div>
+
+<h2>ご注意</h2>
+<div class="card">
+  <ul>
+    <li>この資料は情報の整理です。<b>投資・法務などの助言ではありません。</b></li>
+    <li>数字は各出典の発表時点のものです。契約の多くは上限や計画の値で、条件も一緒に書いています。</li>
+    <li>報道だけの数字は「参考」として分けています。確かめられたら、本文に移します。</li>
+    <li>人物の顔写真は、権利を確かめられたものだけを相関図で使っています。この資料には使いません。</li>
+  </ul>
+</div>
+</main>
+<script src="config.js"></script>
+<script>
+(function(){
+  var C=window.PRO_CONFIG||{};
+  var yen=function(n){return '月'+Number(n).toLocaleString('ja-JP')+'円'};
+  document.getElementById('p1').textContent=yen(C.priceMonthly||980);
+  document.getElementById('p2').textContent=yen(C.priceBusinessMonthly||9800);
+  var paid=!!C.checkoutUrl;
+  document.getElementById('buy-paid').hidden=!paid;
+  document.getElementById('buy-wait').hidden=paid;
+  if(paid)document.getElementById('buy-link').href=C.checkoutUrl;
+
+  function post(path,obj){return fetch(path,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(obj)}).then(function(r){return r.json().catch(function(){return {ok:false,error:'bad'}})})}
+
+  document.getElementById('wl-btn').addEventListener('click',function(){
+    var m=document.getElementById('wl-msg'),email=document.getElementById('wl-email').value.trim();
+    var plan=(document.querySelector('input[name=wl-plan]:checked')||{}).value||'personal';
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){m.textContent='メールアドレスを確かめてください';return}
+    m.textContent='送っています…';
+    post('/api/pro/waitlist',{email:email,plan:plan}).then(function(j){
+      m.textContent=j.ok?'登録しました。始まったらお知らせします。':(j.error==='not_ready'?'ただいま準備中です。しばらくしてからお試しください。':'登録できませんでした。時間をおいてお試しください。');
+      if(j.ok)document.getElementById('wl-email').value='';
+    }).catch(function(){m.textContent='つながりませんでした。時間をおいてお試しください。'});
+  });
+
+  document.getElementById('k-btn').addEventListener('click',function(){
+    var m=document.getElementById('k-msg'),k=document.getElementById('k-in').value.trim();
+    if(!k){m.textContent='アクセスキーを入れてください';return}
+    m.textContent='確かめています…';
+    post('/api/pro/verify',{key:k}).then(function(j){
+      if(j.ok){try{localStorage.setItem('pro_key',k)}catch(e){}m.textContent='確かめられました。相関図にもどると、書き出しが使えます。'}
+      else m.textContent=j.error==='not_ready'?'ただいま準備中です。':'キーが確かめられませんでした。入力を見直してください。';
+    }).catch(function(){m.textContent='つながりませんでした。時間をおいてお試しください。'});
+  });
+})();
+</script>
+</body>
+</html>

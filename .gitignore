@@ -5,3 +5,6 @@ __pycache__/
 
 # 開示ウォッチのUser-Agent(個人のメールを含むので入れない)
 inbox/disclosures/ua.txt
+
+# プロ会員のキーのハッシュ(pro_issue.py が作る。リポジトリには入れない)
+pro_keys.json
