@@ -17,8 +17,11 @@
 使い方:
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
-  python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--dry-run]
+  python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
   python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ scripts/gemini_verify.py で確かめる(毎朝の定期タスク)
+  python3 scripts/gemini_research.py usage                         # 使った回数を日ごとに数える(無料枠が足りるかの目安)
+  python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
+  python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -164,6 +167,50 @@ def resp_text(resp):
     return '\n'.join(parts)
 
 
+# ---------- 使った回数の記録(2026/11/20追加。足すだけ) ----------
+# 呼び出しのたびに inbox/gemini/usage.jsonl に1行足す(日時・モデル・結果・トークン数)。`usage` コマンドで日ごとに数える。
+# 無料枠が足りるか、有料にするかの目安にする。記録に失敗しても調査は止めない。
+USAGE = os.path.join(OUT_DIR, 'usage.jsonl')
+
+
+def usage_log(model_name, result, resp=None):
+    try:
+        um = (resp or {}).get('usageMetadata') or {}
+        os.makedirs(OUT_DIR, exist_ok=True)
+        with open(USAGE, 'a', encoding='utf-8') as f:
+            f.write(json.dumps({'at': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'), 'model': model_name,
+                                'result': result, 'in': um.get('promptTokenCount'), 'out': um.get('candidatesTokenCount')},
+                               ensure_ascii=False) + '\n')
+    except Exception:
+        pass
+
+
+def usage_report(log=print):
+    if not os.path.exists(USAGE):
+        log('まだ記録がありません'); return {}
+    jst = datetime.timezone(datetime.timedelta(hours=9))
+    days = {}
+    for ln in open(USAGE, encoding='utf-8'):
+        try: e = json.loads(ln)
+        except json.JSONDecodeError: continue
+        d = datetime.datetime.fromisoformat(e['at']).astimezone(jst).strftime('%Y-%m-%d')
+        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'in': 0, 'out': 0, 'models': {}})
+        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy'}.get(e['result'])
+        if key: x[key] += 1
+        if e['result'] == 'ok': x['models'][e['model']] = x['models'].get(e['model'], 0) + 1
+        x['in'] += e.get('in') or 0; x['out'] += e.get('out') or 0
+    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 入力トークン | 出力トークン | モデル別の成功')
+    for d in sorted(days):
+        x = days[d]
+        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
+    n = len(days); tot = sum(x['ok'] for x in days.values())
+    log(f'\n{n}日間で成功 {tot}回(1日あたり {tot/n:.1f}回)。無料枠は検索つきで1モデル1日20回前後。枠切れ(429)が出る日が続くなら、有料への切り替えを検討(docs/gemini_research.md)')
+    return days
+
+
+class QuotaExhausted(RuntimeError):
+    """全部のモデルで枠切れ(429)。無料枠の1日の上限に達したときなど。"""
+
 BUSY_WAITS = [20, 60, 120]  # 2026/11/19: 混雑(503・500)のときは時間をおいてやり直す(秒)
 
 
@@ -174,9 +221,11 @@ def gen(body):
             try:
                 r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
                 _model_used.append(m)
+                usage_log(m, 'ok', r)
                 return r
             except RuntimeError as e:
                 last = e
+                usage_log(m, next((c for c in ('429', '503', '500', '404') if f' {c}' in str(e)), 'error'))
                 if (' 503' in str(e) or ' 500' in str(e)) and i < len(BUSY_WAITS):
                     print(f'[{m}] 混雑のため {BUSY_WAITS[i]}秒待ってやり直す', file=sys.stderr)
                     time.sleep(BUSY_WAITS[i])
@@ -185,6 +234,8 @@ def gen(body):
                     raise
                 print(f'[{m}] 枠切れ・混雑・使えないため次のモデルを試す', file=sys.stderr)
                 break
+    if last is not None and ' 429' in str(last):
+        raise QuotaExhausted(str(last)[:300])
     raise last
 
 
@@ -311,6 +362,57 @@ def clean(items, names, extra_src):
     return out
 
 
+# ---------- 出典URLを実際に開いて確かめる(2026/11/20追加) ----------
+# Gemini が書いたURLは作り話や日付ちがいのことがある。クラウドから開けるページは、
+# 本文に会社名・相手の名前が載っているかまで確かめる。開けないサイトは「開けない」と正直に書く(確かめた扱いにしない)。
+def _domain(u):
+    m = re.match(r'https?://([^/]+)', u or '')
+    return re.sub(r'^www\.', '', m.group(1).lower()) if m else ''
+
+
+def _name_tokens(row):
+    toks = []
+    for x in (row.get('会社名'), row.get('相手')):
+        for part in re.split(r'[,、/・]', str(x or '')):
+            part = re.sub(r'\([^)]*\)|\uff08[^\uff09]*\uff09', '', part).strip()
+            if len(part) >= 3 and part != '不明':
+                toks.append(part)
+    return toks[:6]
+
+
+def check_url(row, grounded_domains, timeout=15):
+    """行ごとに {'状態': ok|名前なし|開けない|エラー, '検索で見たサイト': bool, '詳細': str} を返す"""
+    url = row['出典URL']
+    res = {'検索で見たサイト': _domain(url) in grounded_domains}
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; ai-soukanzu-check)'})
+        with urllib.request.urlopen(req, timeout=timeout, context=_ctx()) as r:
+            code = r.status
+            html = r.read(600000).decode('utf-8', 'ignore')
+    except urllib.error.HTTPError as e:
+        res.update(状態='エラー', 詳細=f'HTTP {e.code}' + ('(ページが無い)' if e.code in (404, 410) else ''))
+        return res
+    except Exception as e:
+        res.update(状態='開けない', 詳細='クラウドからつながらない(' + type(e).__name__ + ')')
+        return res
+    text = norm(re.sub(r'<[^>]+>', ' ', html))
+    toks = _name_tokens(row)
+    hit = [t for t in toks if norm(t) in text]
+    title = re.search(r'<title[^>]*>(.*?)</title>', html, re.S)
+    res['詳細'] = (re.sub(r'\s+', ' ', title.group(1)).strip()[:60] if title else '') or f'HTTP {code}'
+    res['状態'] = 'ok' if hit or not toks else '名前なし'
+    res['載っていた名前'] = hit
+    return res
+
+
+def verify_rows(rows, gsrc, log=print):
+    gd = {_domain(u) for _, u in gsrc} | {re.sub(r'^www\.', '', str(t).lower()) for t, _ in gsrc}
+    for r in rows:
+        r['URL確認'] = check_url(r, gd)
+        log(f'  {r["URL確認"]["状態"]:6} {r["会社名"]} ← {_domain(r["出典URL"])}')
+    return rows
+
+
 def to_md(topic, rows, meta):
     lines = [f'# Gemini調査の候補({meta["date"]})', '',
              f'- テーマ: {topic}', f'- モデル: {meta["model"]}',
@@ -322,6 +424,11 @@ def to_md(topic, rows, meta):
             note += f'(既存の名前: {"・".join(r["既存の名前"])})'
         if r.get('資料に既出'):
             note += f'(資料に既出の可能性: {r["資料に既出"]})'
+        u = r.get('URL確認')
+        if u:
+            lab = {'ok': 'URL確認:開けて名前も載っていた', '名前なし': 'URL確認:開けたが名前が見つからない',
+                   '開けない': 'URL未確認:クラウドから開けない', 'エラー': 'URL確認:' + u.get('詳細', 'エラー')}[u['状態']]
+            note += f'({lab}{"・検索で見たサイト" if u.get("検索で見たサイト") else ""})'
         vals = [r[c] for c in COLS[:-1]] + [note]
         lines.append('| ' + ' | '.join(v.replace('|', '/').replace('\n', ' ') for v in vals) + ' |')
     if meta.get('grounding'):
@@ -339,7 +446,84 @@ def new_path(date, ext):
     return p
 
 
-def research(topic, n=10, check=True, dry=False, log=print):
+# ---------- 枠切れのときは、あとでやり直す列に足す(2026/11/20追加。足すだけ) ----------
+# 無料枠は1日の回数に上限がある(429)。上限に達した日は、調べたいテーマを queue.jsonl に足しておき、
+# 翌朝 `python3 scripts/gemini_research.py retry` でやり直す。やり直したら「done」の行を足す(消さない)。
+QUEUE = os.path.join(OUT_DIR, 'queue.jsonl')
+
+
+def _queue_events():
+    if not os.path.exists(QUEUE):
+        return []
+    out = []
+    for ln in open(QUEUE, encoding='utf-8'):
+        ln = ln.strip()
+        if ln:
+            try: out.append(json.loads(ln))
+            except json.JSONDecodeError: pass
+    return out
+
+
+def queue_add(topic, n, reason):
+    os.makedirs(OUT_DIR, exist_ok=True)
+    qid = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
+    with open(QUEUE, 'a', encoding='utf-8') as f:
+        f.write(json.dumps({'id': qid, 'ev': 'queued', 'topic': topic, 'n': n, 'at': datetime.datetime.now().isoformat(timespec='seconds'),
+                            'reason': reason[:120]}, ensure_ascii=False) + '\n')
+    return qid
+
+
+def queue_pending():
+    ev = _queue_events()
+    done = {e['id'] for e in ev if e.get('ev') in ('done', 'gave_up')}
+    return [e for e in ev if e.get('ev') == 'queued' and e['id'] not in done]
+
+
+def queue_mark(qid, ev, note=''):
+    with open(QUEUE, 'a', encoding='utf-8') as f:
+        f.write(json.dumps({'id': qid, 'ev': ev, 'at': datetime.datetime.now().isoformat(timespec='seconds'), 'note': note}, ensure_ascii=False) + '\n')
+
+
+def retry_queue(log=print, max_items=3):
+    """やり直す列にあるテーマを、古い順に最大 max_items 件やり直す。また枠切れなら、残りは次の日に回す。"""
+    pend = queue_pending()
+    if not pend:
+        log('やり直す列は空です'); return 0
+    done = 0
+    for q in pend[:max_items]:
+        log(f'やり直し: {q["topic"]}')
+        try:
+            r = research(q['topic'], q.get('n', 10), True, False, log, True, queue_on_quota=False)
+        except QuotaExhausted:
+            log('まだ枠切れです。残りは次の日にやり直します'); break
+        queue_mark(q['id'], 'done', r.get('saved', ''))
+        done += 1
+    log(f'{done}件をやり直しました(残り {len(queue_pending())}件)')
+    return done
+
+
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def resolve_redirect(url, timeout=15):
+    """Googleの転送リンク(vertexaisearch…)を、実際の記事のURLに直す。直せなければ元のまま。"""
+    if 'vertexaisearch.cloud.google.com/grounding-api-redirect' not in url:
+        return url
+    try:
+        op = urllib.request.build_opener(_NoRedirect, urllib.request.HTTPSHandler(context=_ctx()))
+        op.open(urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'}), timeout=timeout)
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get('Location', '')
+        if e.code in (301, 302, 303, 307, 308) and loc.startswith('http'):
+            return loc
+    except Exception:
+        pass
+    return url
+
+
+def research(topic, n=10, check=True, dry=False, log=print, verify=True, queue_on_quota=True):
     date = datetime.date.today().isoformat()
     if dry or not key():
         prompt = build_prompt(topic, n)
@@ -351,8 +535,21 @@ def research(topic, n=10, check=True, dry=False, log=print):
         log(f'- 手元で照らす既存の名前: {len(known_names()):,}件')
         log(f'- 保存先(本番のとき): {os.path.relpath(new_path(date, ""), ROOT)}.json / .md')
         return {'dry_run': True, 'items': []}
-    items, gsrc = search_step(topic, n)
+    try:
+        items, gsrc = search_step(topic, n)
+    except QuotaExhausted as e:
+        if not queue_on_quota:
+            raise
+        qid = queue_add(topic, n, str(e))
+        log(f'今日は枠切れ(無料枠の1日の上限)です。「{topic}」はやり直す列に足しました(id {qid})。'
+            '翌朝に `python3 scripts/gemini_research.py retry` でやり直します')
+        return {'queued': qid, 'items': []}
     rows = clean(items, known_names(), gsrc)
+    for r in rows:  # Googleの転送リンクは実際の記事のURLに直す(もとのリンクは「転送リンク」に残す)
+        real = resolve_redirect(r['出典URL'])
+        if real != r['出典URL']:
+            r['転送リンク'] = r['出典URL']; r['出典URL'] = real
+            r['src'] = [[r['src'][0][0], real]]
     # 検索で見たページの転送リンクは数時間で使えなくなるので、すぐ元のURLにしておく(2026/11/19)
     try:
         import gemini_verify
@@ -371,6 +568,9 @@ def research(topic, n=10, check=True, dry=False, log=print):
         checked = f'ファイル検索({st["name"]})'
     elif check:
         checked = 'ストア未作成のため、名前の照らし合わせだけ'
+    if verify and rows:
+        log('出典URLを開いて確かめる:')
+        verify_rows(rows, gsrc, log)
     meta = {'date': date, 'model': model(), 'checked': checked, 'grounding': gsrc}
     p = new_path(date, '')
     json.dump({'date': date, 'kind': 'gemini', 'topic': topic, 'model': meta['model'], 'checked': checked,
@@ -419,6 +619,10 @@ def main():
     dd.add_argument('--max', type=int, default=10); dd.add_argument('--dry-run', action='store_true')
     r = sp.add_parser('research'); r.add_argument('topic'); r.add_argument('--max', type=int, default=10)
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
+    r.add_argument('--no-verify', action='store_true')
+    v = sp.add_parser('verify'); v.add_argument('file')
+    sp.add_parser('retry')
+    sp.add_parser('usage')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -426,6 +630,19 @@ def main():
         if not key() and not a.dry_run:
             print('GEMINI_API_KEY が未設定なので、ドライランにします'); a.dry_run = True
         build_store(a.dry_run)
+    elif a.cmd == 'retry':
+        retry_queue()
+    elif a.cmd == 'usage':
+        usage_report()
+    elif a.cmd == 'verify':
+        d = json.load(open(a.file, encoding='utf-8'))
+        rows = verify_rows(d['items'], d.get('grounding') or [])
+        out = re.sub(r'(_raw)?\.json$', '', a.file) + '_urlcheck.md'
+        if os.path.exists(out):
+            print(f'{out} がすでにあるので上書きしません'); return
+        meta = {'date': d.get('date', ''), 'model': d.get('model', ''), 'checked': d.get('checked', '')}
+        open(out, 'w', encoding='utf-8').write(to_md(d.get('topic', ''), rows, meta))
+        print('保存:', out)
     elif a.cmd == 'daily':
         topic = daily_theme()
         print('今日のテーマ: ' + topic)
@@ -434,7 +651,7 @@ def main():
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
     else:
-        res = research(a.topic, a.max, not a.no_check, a.dry_run)
+        res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):
             print(res['markdown'])
 
