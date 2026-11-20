@@ -21,6 +21,7 @@
   python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ確かめる。そのあと宿題リスト(inbox/queue.json)の先頭を1件(毎朝の定期タスク)
   python3 scripts/gemini_research.py usage                         # 使った回数を日ごとに数える(無料枠が足りるかの目安)
   python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
+  python3 scripts/gemini_research.py limit                         # 今日の使った回数と1日の上限(inbox/gemini/limits.json)を見る
   python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
@@ -194,15 +195,15 @@ def usage_report(log=print):
         try: e = json.loads(ln)
         except json.JSONDecodeError: continue
         d = datetime.datetime.fromisoformat(e['at']).astimezone(jst).strftime('%Y-%m-%d')
-        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'in': 0, 'out': 0, 'models': {}})
-        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy'}.get(e['result'])
+        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'cap': 0, 'in': 0, 'out': 0, 'models': {}})
+        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy', 'cap': 'cap'}.get(e['result'])
         if key: x[key] += 1
         if e['result'] == 'ok': x['models'][e['model']] = x['models'].get(e['model'], 0) + 1
         x['in'] += e.get('in') or 0; x['out'] += e.get('out') or 0
-    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 入力トークン | 出力トークン | モデル別の成功')
+    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 上限で停止 | 入力トークン | 出力トークン | モデル別の成功')
     for d in sorted(days):
         x = days[d]
-        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
+        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["cap"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
     n = len(days); tot = sum(x['ok'] for x in days.values())
     log(f'\n{n}日間で成功 {tot}回(1日あたり {tot/n:.1f}回)。無料枠は検索つきで1モデル1日20回前後。枠切れ(429)が出る日が続くなら、有料への切り替えを検討(docs/gemini_research.md)')
     return days
@@ -211,13 +212,54 @@ def usage_report(log=print):
 class QuotaExhausted(RuntimeError):
     """全部のモデルで枠切れ(429)。無料枠の1日の上限に達したときなど。"""
 
+
+# ---------- 1日の上限(2026/11/20追加) ----------
+# inbox/gemini/limits.json の daily_max_calls(環境変数 GEMINI_DAILY_MAX があればそちら)を、1日(日本時間)の呼び出し回数の上限にする。
+# 上限に達したら Gemini を呼ばず QuotaExhausted にする。→ 今ある「枠切れ」の流れ(やり直す列・宿題リストは翌朝に同じ項目)にそのまま乗る。
+LIMITS = os.path.join(OUT_DIR, 'limits.json')
+DEFAULT_DAILY_MAX = 18  # 無料枠(検索つきで1モデル1日20回前後)の範囲内
+
+
+def daily_max():
+    try:
+        v = os.environ.get('GEMINI_DAILY_MAX')
+        if v not in (None, ''):
+            return int(v)
+        return int(json.load(open(LIMITS, encoding='utf-8')).get('daily_max_calls', DEFAULT_DAILY_MAX))
+    except Exception:
+        return DEFAULT_DAILY_MAX
+
+
+def calls_today():
+    """今日(日本時間)の呼び出し回数。上限に止められた記録(cap)は数えない。"""
+    if not os.path.exists(USAGE):
+        return 0
+    jst = datetime.timezone(datetime.timedelta(hours=9))
+    today = datetime.datetime.now(jst).date()
+    n = 0
+    for ln in open(USAGE, encoding='utf-8'):
+        try:
+            e = json.loads(ln)
+            if e.get('result') != 'cap' and datetime.datetime.fromisoformat(e['at']).astimezone(jst).date() == today:
+                n += 1
+        except Exception:
+            continue
+    return n
+
 BUSY_WAITS = [20, 60, 120]  # 2026/11/19: 混雑(503・500)のときは時間をおいてやり直す(秒)
 
 
 def gen(body):
+    cap = daily_max()
+    if cap > 0 and calls_today() >= cap:
+        usage_log('-', 'cap')  # 自分で決めた上限で止めた記録(回数には数えない)
+        raise QuotaExhausted(f'1日の上限 {cap} 回に達したため止めました(inbox/gemini/limits.json で変えられます)')
     last = None
     for m in models():
         for i in range(len(BUSY_WAITS) + 1):
+            if cap > 0 and calls_today() >= cap:  # やり直しの途中で上限に達したら、そこで止める
+                usage_log('-', 'cap')
+                raise QuotaExhausted(f'1日の上限 {cap} 回に達したため止めました')
             try:
                 r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
                 _model_used.append(m)
@@ -624,6 +666,7 @@ def main():
     v = sp.add_parser('verify'); v.add_argument('file')
     sp.add_parser('retry')
     sp.add_parser('usage')
+    sp.add_parser('limit')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -635,6 +678,9 @@ def main():
         retry_queue()
     elif a.cmd == 'usage':
         usage_report()
+    elif a.cmd == 'limit':
+        c, m = calls_today(), daily_max()
+        print(f'今日(日本時間)の呼び出し {c} 回 / 1日の上限 ' + (f'{m} 回(残り {max(m - c, 0)} 回)' if m > 0 else 'なし'))
     elif a.cmd == 'verify':
         d = json.load(open(a.file, encoding='utf-8'))
         rows = verify_rows(d['items'], d.get('grounding') or [])

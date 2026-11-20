@@ -13,6 +13,7 @@
   調査の新着  main に今日の commit が1件でもあるか(9:13以降)
   Gemini の枠  inbox/gemini/usage.jsonl で、その日の呼び出しが全部 429(枠切れ)なら「注意」
   宿題リスト  inbox/queue.json の先頭が何日も動いていないか
+  月曜だけ    先週のGemini使用回数・やり直し・宿題リストの消化(scripts/gemini_usage_summary.py。回数中心、金額は「仮定」)
 見られないもの: 共有リンクのアーティファクト(9:41の公開)と Cloudflare は、リポジトリに記録が残らない。
   定期タスク側(scripts/watchdog.py の外)で、公開ページの LAST_CHECK を読んで比べる。
 
@@ -161,6 +162,13 @@ def to_md(now, rows):
          '| 判定 | 項目 | ひとこと |', '|---|---|---|']
     for r in sorted(rows, key=lambda r: ['問題', '注意', 'OK', '時刻前'].index(r[0])):
         L.append(f'| {r[0]} | {r[1]} | {r[2]} |')
+    if now.weekday() == 0:  # 月曜は、先週のGemini使用回数・やり直し・宿題リストの消化を付ける(2026/11/20追加)
+        try:
+            sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+            import gemini_usage_summary
+            L += ['', gemini_usage_summary.summary(now.date()).rstrip()]
+        except Exception as ex:
+            L += ['', f'(Geminiの使用まとめを作れませんでした: {str(ex)[:100]})']
     L += ['', '※ 共有リンクのアーティファクト(9:41の公開)と Cloudflare は、リポジトリに記録が残らないため、この表では見ていません。']
     return '\n'.join(L) + '\n'
 
