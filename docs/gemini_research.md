@@ -63,3 +63,6 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
   Gemini が書くURLは作り話のことが多いので、確かめ無しには使えない
 - Gemini の検索の転送リンク(vertexaisearch…)は、数時間で使えなくなる。調べた直後に元のURLにして `grounding_resolved` に保存している
 - 無料枠は混雑(503)が多い。20秒・60秒・120秒待ってやり直す
+
+## チャットに出た案は先にGeminiへ(2026/11/20から)
+プロジェクトのチャットに書かれたテーマ・案・質問は、まず Claude ではなく Gemini で広げて調べる(`python3 scripts/gemini_research.py research "テーマ"`)。そのあと `python3 scripts/gemini_verify.py inbox/gemini/日付-N.json` で出典を開いて確かめ、通ったものだけが `inbox/money/` か `inbox/moves/` に足される。Claude は「出典の確認と取り込み」だけを受け持つ(使う量を減らすため)。最初の1回(2026/11/20)は4テーマ中3テーマが動き、合格は1件だけだった(Geminiの出典URLの多くが開けない・重複のため)。無料枠が切れる(429)と別のモデルが404で止まるので、その日の残りは翌日に回す。
