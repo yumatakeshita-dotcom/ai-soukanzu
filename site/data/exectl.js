@@ -121,6 +121,25 @@ anthropic:{
   'OpenAIと違い、共同創業者7人が今も幹部に残っています(この相関図のデータの範囲)。2025〜26年は製品・技術・営業のトップを外から入れて、上場に向けて体制を作りました。',
   'OpenAIとの人の行き来は両方向です。OpenAIから安全・研究・チップの人が入り(ライケ、ヴァローネ、シュワルツァー、チャン)、Claude Codeの担当者がOpenAIへ移りました。'
  ]
+},
+nvidia:{
+ name:'NVIDIA',
+ asof:'2026-11-20',
+ note:'NVIDIAのCEO交代(2026年11月12日)を足しました(2026年11月20日に追加)。OpenAI・Anthropicのような長い年表ではなく、今回の発表で確かめられた動きだけです。公式=NVIDIAの発表。辞任の理由についての報道は、確かめられていないため載せていません。',
+ now:[
+  ['暫定CEO','コレット・クレス','CFOのまま暫定CEOを兼ねる。2026年11月12日から'],
+  ['取締役会の議長','ハーヴェイ・ジョーンズ','長く取締役を務めてきた人。会社として初めて議長を置いた(2026年11月12日)']
+ ],
+ ev:[
+  {d:'2026-11-12',t:'out',p:'ジェンスン・フアン',en:'Jensen Huang',role:'共同創業者・CEO',note:'CEOを辞任。NVIDIAの公式発表(2026年11月12日)。辞任の理由は、公式の発表では確かめていない',cf:'o',src:[['NVIDIA公式発表(2026/11/12)','https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition']]},
+  {d:'2026-11-12',t:'role',p:'コレット・クレス',en:'Colette Kress',role:'暫定CEO(CFOを兼ねる)',note:'後任が決まるまで暫定CEOに。CFOの仕事も続ける',cf:'o',src:[['NVIDIA公式発表(2026/11/12)','https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition']]},
+  {d:'2026-11-12',t:'role',p:'ハーヴェイ・ジョーンズ',en:'Harvey C. Jones',role:'取締役会の議長(初代)',note:'長く社外取締役を務めてきた人が、会社として初めての議長に',cf:'o',src:[['NVIDIA公式発表(2026/11/12)','https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition']]}
+ ],
+ points:[
+  '後任のCEOは、社内外の候補から取締役会が選ぶとされ、いつまでに決めるかは示されていません。決まるまでは、CFOのクレス氏が窓口になるとみられます(見立て)。',
+  '暫定CEOがCFOを兼ねているため、お金・調達・投資まわりの話はこれまでどおりクレス氏の周りに集まります。',
+  '大きな提携・出資(OpenAI、Anthropic、xAIなど)の相手は、CEOが替わる間も続くかを確かめておくと安心です。決まったものは相関図の線で確認できます。'
+ ]
 }
 };
 
