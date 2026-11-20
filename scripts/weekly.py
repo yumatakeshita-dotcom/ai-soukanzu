@@ -373,6 +373,8 @@ def main():
     os.makedirs(os.path.dirname(PAGE), exist_ok=True)
     open(PAGE, 'w', encoding='utf-8').write(render_page(issues))
     print('作ったもの:', os.path.relpath(PAGE, ROOT), f'newsletter/ に .md {len(issues)}号分')
+    # 法的ページへのフッターリンクを入れ直す(設定がOFFなら何も足さない)
+    subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'legal.py')], check=False)
 
 
 if __name__ == '__main__':

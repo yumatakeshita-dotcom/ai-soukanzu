@@ -14,3 +14,7 @@ for f in sys.argv[1:] or ['route.html','stop.html','money.html','moves.html','ca
         if tag in s: s=s.replace(tag,open(os.path.join(here,data+'.json'),encoding='utf8').read())
     open(os.path.join(out,f),'w',encoding='utf8').write(HEAD+s+'\n</body>\n</html>\n')
     print('書き出し:',f)
+
+# 法的ページへのフッターリンクを入れ直す(scripts/legal.py。設定がOFFなら何も足さない)
+import subprocess
+subprocess.run([sys.executable,os.path.join(here,'..','..','scripts','legal.py')],check=False)
