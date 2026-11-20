@@ -29,6 +29,14 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
 - ファイル検索の入れ先の名前は `inbox/gemini/store.json` に記録する(キーは入っていない)
 - 資料の場所を変えるときは `GEMINI_DOCS_DIR`(既定は `/mnt/project-files`)
 
+## 出典URLの確かめ(2026/11/20追加)
+`research` の最後に、各行の出典URLを実際に開いて確かめる(`--no-verify` で省く)。昨日の結果は `python3 scripts/gemini_research.py verify inbox/gemini/日付.json` で確かめ直せる(`日付_urlcheck.md` を足す。あれば上書きしない)。
+- 開けて、会社名・相手の名前が本文に載っていた → 「URL確認:開けて名前も載っていた」
+- 開けたが名前が無い → 「名前が見つからない」(作り話か別の記事の疑い。使わない)
+- 404 など → 「エラー」
+- クラウドから開けない(prtimes・mynavi・impress・eetimes など日本のニュースサイトは今は許可されていない) → 「URL未確認」。**確かめた扱いにはしない**。許可を足せば確かめられる
+- Gemini が検索で実際に見たサイトの一覧に、そのドメインが入っているかも「検索で見たサイト」として付ける
+
 ## キーの取り方と入れ方
 1. https://aistudio.google.com/apikey を開き、Google アカウントでログインして「APIキーを作成」を押す
 2. 出てきたキーをコピーする(チャットには貼らない)

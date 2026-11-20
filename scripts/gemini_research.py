@@ -17,7 +17,8 @@
 使い方:
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
-  python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--dry-run]
+  python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
+  python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
 import urllib.request, urllib.error
@@ -273,6 +274,57 @@ def clean(items, names, extra_src):
     return out
 
 
+# ---------- 出典URLを実際に開いて確かめる(2026/11/20追加) ----------
+# Gemini が書いたURLは作り話や日付ちがいのことがある。クラウドから開けるページは、
+# 本文に会社名・相手の名前が載っているかまで確かめる。開けないサイトは「開けない」と正直に書く(確かめた扱いにしない)。
+def _domain(u):
+    m = re.match(r'https?://([^/]+)', u or '')
+    return re.sub(r'^www\.', '', m.group(1).lower()) if m else ''
+
+
+def _name_tokens(row):
+    toks = []
+    for x in (row.get('会社名'), row.get('相手')):
+        for part in re.split(r'[,、/・]', str(x or '')):
+            part = re.sub(r'\([^)]*\)|\uff08[^\uff09]*\uff09', '', part).strip()
+            if len(part) >= 3 and part != '不明':
+                toks.append(part)
+    return toks[:6]
+
+
+def check_url(row, grounded_domains, timeout=15):
+    """行ごとに {'状態': ok|名前なし|開けない|エラー, '検索で見たサイト': bool, '詳細': str} を返す"""
+    url = row['出典URL']
+    res = {'検索で見たサイト': _domain(url) in grounded_domains}
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; ai-soukanzu-check)'})
+        with urllib.request.urlopen(req, timeout=timeout, context=_ctx()) as r:
+            code = r.status
+            html = r.read(600000).decode('utf-8', 'ignore')
+    except urllib.error.HTTPError as e:
+        res.update(状態='エラー', 詳細=f'HTTP {e.code}' + ('(ページが無い)' if e.code in (404, 410) else ''))
+        return res
+    except Exception as e:
+        res.update(状態='開けない', 詳細='クラウドからつながらない(' + type(e).__name__ + ')')
+        return res
+    text = norm(re.sub(r'<[^>]+>', ' ', html))
+    toks = _name_tokens(row)
+    hit = [t for t in toks if norm(t) in text]
+    title = re.search(r'<title[^>]*>(.*?)</title>', html, re.S)
+    res['詳細'] = (re.sub(r'\s+', ' ', title.group(1)).strip()[:60] if title else '') or f'HTTP {code}'
+    res['状態'] = 'ok' if hit or not toks else '名前なし'
+    res['載っていた名前'] = hit
+    return res
+
+
+def verify_rows(rows, gsrc, log=print):
+    gd = {_domain(u) for _, u in gsrc} | {re.sub(r'^www\.', '', str(t).lower()) for t, _ in gsrc}
+    for r in rows:
+        r['URL確認'] = check_url(r, gd)
+        log(f'  {r["URL確認"]["状態"]:6} {r["会社名"]} ← {_domain(r["出典URL"])}')
+    return rows
+
+
 def to_md(topic, rows, meta):
     lines = [f'# Gemini調査の候補({meta["date"]})', '',
              f'- テーマ: {topic}', f'- モデル: {meta["model"]}',
@@ -284,6 +336,11 @@ def to_md(topic, rows, meta):
             note += f'(既存の名前: {"・".join(r["既存の名前"])})'
         if r.get('資料に既出'):
             note += f'(資料に既出の可能性: {r["資料に既出"]})'
+        u = r.get('URL確認')
+        if u:
+            lab = {'ok': 'URL確認:開けて名前も載っていた', '名前なし': 'URL確認:開けたが名前が見つからない',
+                   '開けない': 'URL未確認:クラウドから開けない', 'エラー': 'URL確認:' + u.get('詳細', 'エラー')}[u['状態']]
+            note += f'({lab}{"・検索で見たサイト" if u.get("検索で見たサイト") else ""})'
         vals = [r[c] for c in COLS[:-1]] + [note]
         lines.append('| ' + ' | '.join(v.replace('|', '/').replace('\n', ' ') for v in vals) + ' |')
     if meta.get('grounding'):
@@ -301,7 +358,7 @@ def new_path(date, ext):
     return p
 
 
-def research(topic, n=10, check=True, dry=False, log=print):
+def research(topic, n=10, check=True, dry=False, log=print, verify=True):
     date = datetime.date.today().isoformat()
     if dry or not key():
         prompt = build_prompt(topic, n)
@@ -326,6 +383,9 @@ def research(topic, n=10, check=True, dry=False, log=print):
         checked = f'ファイル検索({st["name"]})'
     elif check:
         checked = 'ストア未作成のため、名前の照らし合わせだけ'
+    if verify and rows:
+        log('出典URLを開いて確かめる:')
+        verify_rows(rows, gsrc, log)
     meta = {'date': date, 'model': model(), 'checked': checked, 'grounding': gsrc}
     p = new_path(date, '')
     json.dump({'date': date, 'kind': 'gemini', 'topic': topic, 'model': meta['model'], 'checked': checked,
@@ -349,6 +409,8 @@ def main():
     s = sp.add_parser('store'); s.add_argument('--dry-run', action='store_true')
     r = sp.add_parser('research'); r.add_argument('topic'); r.add_argument('--max', type=int, default=10)
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
+    r.add_argument('--no-verify', action='store_true')
+    v = sp.add_parser('verify'); v.add_argument('file')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -356,8 +418,17 @@ def main():
         if not key() and not a.dry_run:
             print('GEMINI_API_KEY が未設定なので、ドライランにします'); a.dry_run = True
         build_store(a.dry_run)
+    elif a.cmd == 'verify':
+        d = json.load(open(a.file, encoding='utf-8'))
+        rows = verify_rows(d['items'], d.get('grounding') or [])
+        out = re.sub(r'(_raw)?\.json$', '', a.file) + '_urlcheck.md'
+        if os.path.exists(out):
+            print(f'{out} がすでにあるので上書きしません'); return
+        meta = {'date': d.get('date', ''), 'model': d.get('model', ''), 'checked': d.get('checked', '')}
+        open(out, 'w', encoding='utf-8').write(to_md(d.get('topic', ''), rows, meta))
+        print('保存:', out)
     else:
-        res = research(a.topic, a.max, not a.no_check, a.dry_run)
+        res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):
             print(res['markdown'])
 
