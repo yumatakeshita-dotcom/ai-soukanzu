@@ -45,16 +45,16 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- August AI → 出資 → Accel, Peak XV Partners, Claypond Capital(2026-11-20)
-- Humyn Labs → 出資 → Accel, Prosus Ventures, BeeGlobal, Bajaj Finance傘下のFinserv Intelligence, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, Jump Trading, Trifecta Capital(2026-11-20)
-- Samsung SDS → 就任 → (2026-11-20)
-- Samsung SDS → 資金調達 → KKR(2026-11-20)
-- Samsung Electronics → 就任 → (2026-11-20)
-- Samsung Electronics → 就任 → (2026-11-20)
-- Startup Island TAIWAN → 提携 → XOSS POINT. (日本・熊本)(2026-11-18)
-- 応援科技 (Ouen Technology) → 提携 → Borderless Japan傘下プラットフォーム「For Good」(2026-11-19)
-- ICMG Ventures → 提携 → シンガポール国立大学 Asian Institute of Digital Finance (NUS AIDF)(2026-11-19)
-- OpenAI → 提携 → Aleph(2026-11-19)
+- August AI → 出資 → Accel, Peak XV Partners, Claypond Capital(2026-11-20)【保留】
+- Humyn Labs → 出資 → Accel, Prosus Ventures, BeeGlobal, Bajaj Finance傘下のFinserv Intelligence, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, Jump Trading, Trifecta Capital(2026-11-20)【保留】
+- Samsung SDS → 就任 → (2026-11-20)【保留】
+- Samsung SDS → 資金調達 → KKR(2026-11-20)【保留】
+- Samsung Electronics → 就任 → (2026-11-20)【保留】
+- Samsung Electronics → 就任 → (2026-11-20)【保留】
+- Startup Island TAIWAN → 提携 → XOSS POINT. (日本・熊本)(2026-11-18)【保留】
+- 応援科技 (Ouen Technology) → 提携 → Borderless Japan傘下プラットフォーム「For Good」(2026-11-19)【保留】
+- ICMG Ventures → 提携 → シンガポール国立大学 Asian Institute of Digital Finance (NUS AIDF)(2026-11-19)【保留】
+- OpenAI → 提携 → Aleph(2026-11-19)【除外】
 
 記録ファイル: inbox/gemini/2026-11-20-5.json / 2026-11-20-5.md
 
