@@ -1,6 +1,6 @@
 // 幹部の入れ替わり年表(メニュー「幹部の年表」)。2026年11月19日に追加。
 // データ(EXECTL)と画面(showExecTl)がこのファイルに入っている。会社を足すときは EXECTL に同じ形で足す。
-// 2026年11月19日: Anthropicを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/finds.js の3行目(scripts/exectl_auto.py が作る)。
+// 2026年11月19日: Anthropicを追加。11月20日: xAI(SpaceX傘下)とGoogle DeepMindを追加。毎朝の移籍の調査から自動で足すもの(EXECTL_AUTO)は site/data/finds.js の3行目(scripts/exectl_auto.py が作る)。
 // 1件 = {d:'日付(YYYY-MM-DD か YYYY-MM)', t:'in'入社 / 'out'退社 / 'role'役割の変更 / 'co'会社の出来事, p:'人の名前', en:'英語名', role:'役職', from/to:'どこから・どこへ', note:'ひとこと', cf:'o'公式 / 'f'開示 / 's'本人 / 'r'報道 / 'e'推定, src:[[出典名,URL],...]}
 // 守ること: 出典のURLを必ず付ける。うわさは入れない。報道だけのものは cf:'r'。既存の行は消さず、直すときは note に「(○年○月○日に直した)」と書き添える。
 const EXECTL={
@@ -120,6 +120,64 @@ anthropic:{
   '法人営業はCCOのポール・スミス(ServiceNow出身)が統括し、海外はクリス・チャウリ、欧州はOrange出身のスティーブ・ジャレット(パリ)が担当と報じられています。日本の大企業への提案は、この海外の担当の線が窓口になりやすいとみられます(報道ベースの見立て)。',
   'OpenAIと違い、共同創業者7人が今も幹部に残っています(この相関図のデータの範囲)。2025〜26年は製品・技術・営業のトップを外から入れて、上場に向けて体制を作りました。',
   'OpenAIとの人の行き来は両方向です。OpenAIから安全・研究・チップの人が入り(ライケ、ヴァローネ、シュワルツァー、チャン)、Claude Codeの担当者がOpenAIへ移りました。'
+ ]
+},
+xai:{
+ name:'xAI(SpaceX傘下)',
+ asof:'2026-11-20',
+ note:'xAIの経営陣・共同創業者の入社・退社を、2025年のXとの合併後の動きから並べました。xAIは2026年2月にSpaceXに買収され、SpaceXは6月にナスダックに上場しています。報道だけで確かめたものが多く(cf=報道)、日付は数日ずれることがあります。後任が確認できていない役職は「今の主な顔ぶれ」に入れていません。',
+ now:[
+  ['最高経営責任者','イーロン・マスク','SpaceXの会長兼CEO。xAIもSpaceXの傘下'],
+  ['財務(SpaceXのCFO)','ブレット・ジョンセン','合併後の会社の財務責任者。xAIのCFOだったアームストロングは2026年4月に退社']
+ ],
+ ev:[
+  {d:'2025-07-09',t:'out',p:'リンダ・ヤッカリーノ',en:'Linda Yaccarino',role:'X(旧Twitter)のCEO',to:'(未発表)',note:'本人がXで発表。XはxAIと2025年3月に合併済み',cf:'r',src:[['AP通信(2025/7/9、Fox系列局に掲載)','https://www.ktvu.com/news/x-ceo-linda-yaccarino-steps-down-from-social-media-platform']]},
+  {d:'2025-07',t:'out',p:'マイク・リベラトーレ',en:'Mike Liberatore',role:'CFO(2025年4月に就任)',to:'(未確認。1社の報道はOpenAIと伝えたが他は確認できず)',note:'就任から約3か月。退社は7月末で、報道は9月3日(WSJ・Bloomberg)',cf:'r',src:[['Bloomberg(2025/9/3)','https://www.bloomberg.com/news/articles/2025-09-03/xai-s-cfo-liberatore-leaves-musk-s-ai-venture-three-months-after-taking-job'],['Fortune(2025/9/5)','https://fortune.com/2025/09/05/elon-musk-xai-cfo-exit-latest-example-executive-turnover-high-profile-startups/']]},
+  {d:'2025-08-13',t:'out',p:'イゴール・バブシュキン',en:'Igor Babuschkin',role:'共同創業者(エンジニアリングの責任者)',to:'Babuschkin Ventures(AI安全に投資する新ファンド)',note:'本人がXで「xAIでの最後の日」と投稿したと報道(本人の投稿そのものは未確認)',cf:'r',src:[['Verdict(2025/8)','https://www.verdict.co.uk/igor-babuschkin-exits-xai-t-ai/'],['Yahoo Finance(2025/8)','https://finance.yahoo.com/news/igor-babuschkin-exits-xai-create-093518481.html']]},
+  {d:'2025-10-08',t:'in',p:'アンソニー・アームストロング',en:'Anthony Armstrong',role:'CFO(xAIとXの財務)',from:'モルガン・スタンレー(元銀行員、マスク氏のTwitter買収の助言役)',note:'リベラトーレの後任',cf:'r',src:[['eWeek(2025/10)','https://www.eweek.com/news/musk-xai-cfo/'],['Seeking Alpha(FTを引用)','https://seekingalpha.com/news/4502183-elon-musk-appoints-former-morgan-stanley-executive-as-cfo-of-xai-and-x-ft']]},
+  {d:'2026-01-20',t:'out',p:'グレッグ・ヤン',en:'Greg Yang',role:'共同創業者',to:'(退任。非公式のアドバイザー)',note:'ライム病と診断されたため、と報道',cf:'r',src:[['Bloomberg Government','https://news.bgov.com/artificial-intelligence/xai-co-founder-yang-leaves-musks-startup-after-lyme-diagnosis']]},
+  {d:'2026-02-02',t:'co',p:'SpaceXがxAIを買収',en:'',role:'',note:'全部株式の取引で、xAIの評価額は約2500億ドル、合体した会社は約1.25兆ドルと報道。上場に向けた再編',cf:'r',src:[['Fortune(2026/2/2)','https://fortune.com/2026/02/02/elon-musk-spacex-xai-ipo-trillion'],['Dawn(ロイター配信)','https://www.dawn.com/news/1970823']]},
+  {d:'2026-02-10',t:'out',p:'トニー・ウー',en:'Yuhuai (Tony) Wu',role:'共同創業者',to:'(未発表)',note:'',cf:'r',src:[['Fortune(2026/2/11)','https://fortune.com/2026/02/11/half-of-xai-founding-team-has-left-elon-musks-ai-company-potentially-complicating-his-plans-for-a-blockbuster-spacex-ipo/'],['Gigazine','https://www.gigazine.net/gsc_news/en/20260212-xai-co-founders-leaving']]},
+  {d:'2026-02-11',t:'out',p:'ジミー・バ',en:'Jimmy Ba',role:'共同創業者',to:'(未発表)',note:'この時点で創業メンバーの半数が退社と報道',cf:'r',src:[['Fortune(2026/2/11)','https://fortune.com/2026/02/11/half-of-xai-founding-team-has-left-elon-musks-ai-company-potentially-complicating-his-plans-for-a-blockbuster-spacex-ipo/'],['Gigazine','https://www.gigazine.net/gsc_news/en/20260212-xai-co-founders-leaving']]},
+  {d:'2026-02-27',t:'out',p:'トビー・ポーレン',en:'Toby Pohlen',role:'共同創業者',to:'(未発表・休養)',note:'',cf:'r',src:[['Bloomberg(2026/2/27)','https://www.bloomberg.com/news/articles/2026-02-27/xai-co-founder-toby-pohlen-is-latest-executive-to-depart'],['Business Today','https://www.businesstoday.in/amp/technology/story/xai-founding-member-toby-pohlen-departs-as-elon-musks-ai-startup-faces-wave-of-exits-518276-2026-02-27']]},
+  {d:'2026-03-12',t:'out',p:'グオドン・ジャン',en:'Guodong Zhang',role:'共同創業者',to:'(未発表)',note:'',cf:'r',src:[['AOL(2026/3)','https://www.aol.com/articles/xai-exodus-another-cofounder-gone-154733954.html']]},
+  {d:'2026-03-13',t:'out',p:'ジーハン・ダイ',en:'Zihang Dai',role:'共同創業者',to:'(未発表)',note:'',cf:'r',src:[['AOL(2026/3)','https://www.aol.com/articles/xai-exodus-another-cofounder-gone-154733954.html']]},
+  {d:'2026-03-13',t:'in',p:'アンドリュー・ミリッチ / ジェイソン・ギンズバーグ',en:'Andrew Milich / Jason Ginsberg',role:'コーディング能力強化の責任者(マスク氏の直属)',from:'Cursor(Anysphere)',note:'創業者の退社が続くなかでの引き抜き',cf:'r',src:[['The Information(2026/3/13)','https://feature.theinformation.com/articles/xai-hires-two-senior-leaders-cursor-catch-coding'],['Business Today(2026/3/13)','https://www.businesstoday.in/technology/news/story/amid-xai-co-founder-exits-elon-musk-poaches-key-engineers-from-ai-coding-startup-cursor-520548-2026-03-13']]},
+  {d:'2026-03-14',t:'in',p:'デベンドラ・チャプロット',en:'Devendra Singh Chaplot',role:'Grokのモデル学習',from:'Thinking Machines Lab(元Mistral AI共同創業者)',note:'',cf:'r',src:[['Fintech Weekly(2026/3)','https://www.fintechweekly.com/news/xai-superintelligence-devendra-chaplot-mistral-thinking-machines-lab-grok-march-2026'],['Open Magazine','https://openthemagazine.com/world/elon-musk-welcomes-iit-bombay-graduate-devendra-singh-chaplot-to-xai-team']]},
+  {d:'2026-03-28',t:'out',p:'マニュエル・クロイス',en:'Manuel Kroiss',role:'共同創業者',to:'(未発表)',note:'報道では、これで共同創業者(マスク氏を除く)全員が退社',cf:'r',src:[['The Next Web(2026/3/28)','https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild']]},
+  {d:'2026-04-09',t:'out',p:'アンソニー・アームストロング',en:'Anthony Armstrong',role:'CFO',to:'(未発表)',note:'在任約半年。幹部の退社が続くなかで。SpaceXのCFO(ジョンセン)の直属だった',cf:'r',src:[['The Information(ロイター・Yahoo経由、2026/4/9)','https://finance.yahoo.com/markets/stocks/articles/cfo-anthony-armstrong-leaves-xai-190108826.html'],['CFO Dive','https://www.cfodive.com/news/xai-cfo-departs-information-reports-ipo/817238/']]},
+  {d:'2026-06-11',t:'co',p:'親会社SpaceXの上場の値段が決まる',en:'',role:'',note:'1株135ドル、調達は約750億ドルと報道。12日にナスダックで取引開始(銘柄コードSPCX)。xAIは上場前に傘下に入った',cf:'r',src:[['CBS News(2026/6)','https://www.cbsnews.com/news/spacex-stock-price-ipo-spcx-initial-public-offering/'],['Nasdaq.com','https://www.nasdaq.com/articles/spacex-commences-trading-nasdaq-after-record-75-billion-ipo']]},
+  {d:'2026-09-18',t:'out',p:'ブライアン・マッカーシー',en:'Brian McCarthy',role:'SpaceX(旧Cursor)の営業',to:'OpenAI(世界営業担当VP・新設)',note:'SpaceXに入ったCursorの営業幹部がOpenAIへ',cf:'r',src:[['The Next Web(2026/9)','https://thenextweb.com/news/openai-brian-mccarthy-worldwide-sales-spacex-cursor'],['AI Magazine','https://aimagazine.com/articles/people-moves-brian-mccarthy-vice-president-worldwide-sales-openai']]},
+  {d:'2026-10-08',t:'out',p:'イスマイル・エルマス',en:'Ismail Elmas',role:'SpaceX(旧Cursor)の営業',to:'OpenAI(欧州・中東・アフリカ営業VP、ミュンヘン)',note:'',cf:'r',src:[['The Next Web(2026/10)','https://thenextweb.com/news/openai-ismail-elmas-emea-sales-spacex-cursor'],['ITPro','https://www.itpro.com/business/leadership/openai-taps-ismail-elmas-to-lead-emea-sales']]}
+ ],
+ points:[
+  'xAIの共同創業者のうち、マスク氏以外は全員が2026年3月までに退社した、と報じられています(報道ベース)。営業の窓口になる幹部は、今のxAIより親会社のSpaceX側で見たほうがよいとみられます。',
+  'CFOは2025年に2度交代(リベラトーレ→アームストロング)し、アームストロングも2026年4月に退社。財務はSpaceXのCFOが見ています。後任のxAI専任CFOは確認できていません。',
+  'CursorがSpaceXの傘下に入ったあと、営業幹部の2人(マッカーシー、エルマス)がOpenAIの営業トップに移りました。営業の人の流れが、OpenAIの法人営業の強化につながっている形です(報道ベースの見立て)。'
+ ]
+},
+gdm:{
+ name:'Google DeepMind',
+ asof:'2026-11-20',
+ note:'Google DeepMindの幹部・主要研究者の入社・退社・役割の変更を、2026年8月の体制の再編を中心に並べました。上場はない会社なので、上場の線はありません。研究者は、幹部級か話題になった人だけを入れています。報道だけで確かめたものが多く(cf=報道)、日付は数日ずれることがあります。',
+ now:[
+  ['DeepMindの責任者(SVP)','コライ・カブクチュオール','2026年8月から日々の運営を担当。AlphabetのチーフAIアーキテクトも兼ねる。ピチャイCEOの直属'],
+  ['Alphabetのチーフサイエンティスト・DeepMind会長','デミス・ハサビス','2026年8月にCEOから会長へ。AGIの社会への影響などを担当'],
+  ['研究の幹部(VP)','バレット・ゾフ','2026年8月にOpenAIから移籍']
+ ],
+ ev:[
+  {d:'2026-01-30',t:'out',p:'デビッド・シルバー',en:'David Silver',role:'強化学習チームの責任者(AlphaGoの中心人物)',to:'Ineffable Intelligence(自分で創業、ロンドン)',note:'休職のあと復帰せず。会社の広報も確認。法人登記の記録では1月16日付で取締役',cf:'r',src:[['Fortune(2026/1/30)','https://fortune.com/2026/01/30/google-deepmind-ai-researcher-david-silver-leaves-to-found-ai-startup-ineffable-intelligence/']]},
+  {d:'2026-05-19',t:'in',p:'ドゥエ・キエラ',en:'Douwe Kiela',role:'(未公表)',from:'Contextual AI(創業者)',note:'Contextual AIの社員の一部とライセンス契約でGoogleに合流と報道',cf:'r',src:[['Bloomberg Law(2026/5)','https://news.bloomberglaw.com/antitrust/google-hires-staff-from-ai-startup-contextual-in-licensing-deal'],['The Star(Bloomberg配信、2026/5/20)','https://www.thestar.com.my/tech/tech-news/2026/05/20/google-deepmind-hires-staff-from-contextual-ai-in-licensing-deal-bloomberg-news-reports']]},
+  {d:'2026-06-18',t:'out',p:'ノーム・シェイザー',en:'Noam Shazeer',role:'Geminiの共同責任者',to:'OpenAI(研究の幹部)',note:'Transformer論文の著者の1人',cf:'r',src:[['Fast Company(2026/6/18)','https://www.fastcompany.com/91562193/google-ai-leader-noam-shazeer-leaves-company-for-openai']]},
+  {d:'2026-06-19',t:'out',p:'ジョン・ジャンパー',en:'John Jumper',role:'VP(AlphaFoldの開発者)',to:'Anthropic(研究者、AIで科学)',note:'2024年のノーベル化学賞。本人がXで発表し、Anthropicの広報も認めた',cf:'r',src:[['People Matters(2026/6)','https://www.peoplematters.in/news/leadership/google-deepmind-nobel-winner-john-jumper-joins-anthropic-in-latest-ai-talent-coup-50417'],['Outlook Business','https://www.outlookbusiness.com/corporate/google-deepmind-loses-nobel-winner-john-jumper-to-anthropic']]},
+  {d:'2026-08-05',t:'role',p:'デミス・ハサビス / コライ・カブクチュオール',en:'Demis Hassabis / Koray Kavukcuoglu',role:'ハサビスはAlphabetのチーフサイエンティスト・DeepMind会長に / カブクチュオールはDeepMindのSVPに',note:'ハサビスはCEOから会長へ(スタッフへのメモ)。CTOだったカブクチュオールが日々の運営を担当し、AlphabetのチーフAIアーキテクトも兼ねる。肩書きはCEOでなくSVP',cf:'r',src:[['Reuters配信(The Star、2026/8/6)','https://www.thestar.com.my/tech/tech-news/2026/08/06/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role'],['BusinessDay(2026/8/5)','https://www.businessday.co.za/world/international-companies/2026-08-05-alphabet-shakes-up-ai-leadership-as-deepmind-revamp-gathers-pace/']]},
+  {d:'2026-08-05',t:'out',p:'ジェフ・ディーン',en:'Jeff Dean',role:'チーフサイエンティスト(GoogleとDeepMind)',to:'Discovery Loop(共同創業。Googleが出資・計算資源を提供)',note:'Google在籍約27年。AIで科学研究を自動化する新会社。共同創業者の顔ぶれは報道で食い違い(サンジャイ・ゲマワットは複数の報道が名前を挙げるが、ここでは未確認)',cf:'r',src:[['MediaPost','https://mediapost.com/publications/article/417036/deepmind-chief-scientist-leaves-to-start-a-company.html'],['AI Weekly','https://aiweekly.co/alerts/jeff-dean-exits-google-to-co-found-discovery-loop-startup']]},
+  {d:'2026-08-26',t:'in',p:'バレット・ゾフ',en:'Barret Zoph',role:'研究VP',from:'OpenAI(研究の幹部)',note:'OpenAIには1月に戻って約7か月',cf:'r',src:[['Quartz(2026/8)','https://qz.com/barret-zoph-google-deepmind-research-vp-thinking-machines-082726']]}
+ ],
+ points:[
+  'DeepMindの運営は2026年8月からカブクチュオール(SVP)に移り、ピチャイCEOの直属です。法人・クラウドの提案でも、製品づくりの窓口はこの線になるとみられます(報道ベースの見立て)。',
+  '2026年はGeminiを率いた人が相次いで抜けました(シェイザー→OpenAI、ディーン→新会社、ジャンパー→Anthropic、シルバー→新会社)。一方でOpenAIからゾフが入っています。',
+  'ヴィニャルズ(Geminiの共同責任者の1人)も新会社に移ると伝えた報道がありますが、確認できる出典が見つからなかったので入れていません。'
  ]
 }
 };
