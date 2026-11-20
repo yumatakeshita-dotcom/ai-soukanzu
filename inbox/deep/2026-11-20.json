@@ -1,0 +1,244 @@
+{
+ "date": "2026-11-20",
+ "kind": "deep",
+ "items": [
+  {
+   "company_en": "Fractile",
+   "company_ja": "フラクタイル",
+   "founded": "2022",
+   "hq": "英国(ロンドン)",
+   "what": "AIの推論用半導体を作る英国の新興企業",
+   "people": [
+    {
+     "name": "Walter Goodwin",
+     "role": "創業者・CEO(オックスフォード大のロボティクス研究所の博士課程中に創業)",
+     "prev": "",
+     "src": [
+      [
+       "SiliconANGLE(2026-11-11)",
+       "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+      ]
+     ]
+    }
+   ],
+   "investors": [
+    {
+     "name": "Thrive Capital・Founders Fund・Lightspeed・Redpoint(主導)",
+     "round": "シリーズC",
+     "amount": "7.2億ドル、評価額約70億ドル(報道ベース。英政府は「5億ポンド超のラウンド」と説明)",
+     "src": [
+      [
+       "SiliconANGLE(2026-11-11)",
+       "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+      ]
+     ]
+    },
+    {
+     "name": "英国ソブリンAIベンチャーファンド・British Business Bank",
+     "round": "シリーズC",
+     "amount": "金額は非公表",
+     "src": [
+      [
+       "Silicon UK(2026-11)",
+       "https://www.silicon.co.uk/cloud/ai/fractile-funding-round-2-632302"
+      ]
+     ]
+    },
+    {
+     "name": "Kindred Capital・NATO Innovation Fund・Oxford Science Enterprises",
+     "round": "シード",
+     "amount": "シード合計約1,750万ドル(報道ベース)",
+     "src": [
+      [
+       "Fortune(2024-07-26)",
+       "https://fortune.com/2024/07/26/fractile-ai-chip-startup-nvidia-15-million-funding-seed-round/"
+      ]
+     ]
+    }
+   ],
+   "partners": [],
+   "note": "量産チップは未出荷で、来年の初出荷に資金を使う。顧客・売上は未公表。Anthropicとのチップ契約を伝える二次情報はあるが一次の確認なし(登録しない)",
+   "src": [
+    [
+     "SiliconANGLE(2026-11-11)",
+     "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+    ],
+    [
+     "Silicon UK(2026-11)",
+     "https://www.silicon.co.uk/cloud/ai/fractile-funding-round-2-632302"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "company_en": "Kindo",
+   "company_ja": "キンド",
+   "founded": "(未確認)",
+   "hq": "米国",
+   "what": "企業のAIエージェントの動きを一か所で管理する会社",
+   "people": [
+    {
+     "name": "Andre Fuetsch(Crosspoint Capital)",
+     "role": "取締役に就任",
+     "prev": "",
+     "src": [
+      [
+       "Kindo発表 PR Newswire(2026-11-12)",
+       "https://www.webull.com/news/15911162486124544"
+      ]
+     ]
+    },
+    {
+     "name": "Ernie Bio(Forgepoint Capital)",
+     "role": "取締役に就任",
+     "prev": "",
+     "src": [
+      [
+       "Kindo発表 PR Newswire(2026-11-12)",
+       "https://www.webull.com/news/15911162486124544"
+      ]
+     ]
+    }
+   ],
+   "investors": [
+    {
+     "name": "Crosspoint Capital・Forgepoint Capital(共同主導)",
+     "round": "2026-11の増資",
+     "amount": "3,000万ドル、累計5,760万ドル(会社発表)",
+     "src": [
+      [
+       "Kindo公式(2026-11-12)",
+       "https://www.kindo.ai/resources/press-kindo-raises-57-million-ai-agent-management"
+      ]
+     ]
+    },
+    {
+     "name": "TFX Capital・CircleRock Capital",
+     "round": "同上",
+     "amount": "非公表",
+     "src": [
+      [
+       "Ventureburn(2026-11)",
+       "https://ventureburn.com/kindo-raises-30-million-enterprise-ai-control/"
+      ]
+     ]
+    },
+    {
+     "name": "Drive Capital・Riot Ventures(既存)",
+     "round": "同上に参加",
+     "amount": "非公表",
+     "src": [
+      [
+       "Ventureburn(2026-11)",
+       "https://ventureburn.com/kindo-raises-30-million-enterprise-ai-control/"
+      ]
+     ]
+    }
+   ],
+   "partners": [],
+   "note": "2026年の売上は約8倍と報道。創業者・設立年は今回確かめられず(要確認)",
+   "src": [
+    [
+     "Kindo公式(2026-11-12)",
+     "https://www.kindo.ai/resources/press-kindo-raises-57-million-ai-agent-management"
+    ],
+    [
+     "Ventureburn(2026-11)",
+     "https://ventureburn.com/kindo-raises-30-million-enterprise-ai-control/"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "company_en": "Model ML",
+   "company_ja": "モデルML",
+   "founded": "約2023",
+   "hq": "ロンドン(報道により米ニューヨークとも)",
+   "what": "銀行員・投資家向けの個人用AIエージェント",
+   "people": [
+    {
+     "name": "Chaz Englander",
+     "role": "共同創業者・CEO",
+     "prev": "Fat Llama(共同創業)",
+     "src": [
+      [
+       "Tech.eu(2026-11-17)",
+       "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/"
+      ]
+     ]
+    },
+    {
+     "name": "Arnie Englander",
+     "role": "共同創業者(チャズ氏の兄弟)",
+     "prev": "Fat Llama(共同創業)",
+     "src": [
+      [
+       "Tech.eu(2026-11-17)",
+       "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/"
+      ]
+     ]
+    }
+   ],
+   "investors": [
+    {
+     "name": "General Atlantic・QED Investors(共同主導)",
+     "round": "シリーズB",
+     "amount": "2.5億ドル、評価額15億ドル(報道ベース)",
+     "src": [
+      [
+       "TechCrunch(2026-11-17)",
+       "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+      ]
+     ]
+    },
+    {
+     "name": "Evolution Equity Partners・Airtree・Forestay Capital・Y Combinator・FT Partners・Latitude・Inception Fund・13Books Capital",
+     "round": "シリーズB(参加)",
+     "amount": "非公表",
+     "src": [
+      [
+       "Tech.eu(2026-11-17)",
+       "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/"
+      ]
+     ]
+    },
+    {
+     "name": "FT Partners(主導)",
+     "round": "シリーズA(2025-11)",
+     "amount": "7,500万ドル(報道ベース)。累計約3.5億ドル",
+     "src": [
+      [
+       "Pulse 2.0(2025-11)",
+       "https://pulse2.com/model-ml-75-million-series-a/amp/"
+      ]
+     ]
+    }
+   ],
+   "partners": [
+    {
+     "name": "HSBC・Deloitte・PwC",
+     "what": "導入先として報道(1媒体のみ・要確認)",
+     "src": [
+      [
+       "FF News(2026-11)",
+       "https://ffnews.com/news/model-ml-raises-250m-at-1-5bn-18-months-after-coming-out-of-stealth-8447a9c3"
+      ]
+     ]
+    }
+   ],
+   "note": "2026年第3四半期の年間経常収益が12倍と報道。顧客データでは学習しないと説明",
+   "src": [
+    [
+     "TechCrunch(2026-11-17)",
+     "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/"
+    ],
+    [
+     "Tech.eu(2026-11-17)",
+     "https://tech.eu/2026/11/17/model-ml-hits-15b-valuation-with-250m-raise-just-18-months-after-emerging-from-stealth/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "処理済み: なし(requests.txtは無し)。選んだ会社は直近のmoney/vcで出資の線だけ登録済みで相関図本体に詳細が無かった3社。Xはx_accountsのdeep対象で該当投稿は見つからず。Fractileの設立年・本社の詳細、Kindoの創業者・設立年、Model MLの設立年・本社は確かめきれず(推測せず空欄/要確認)。FractileのAnthropic契約は二次情報のみで除外。英政府の評価額表記(5億ポンド超)はラウンド規模と評価額で媒体の記述が食い違う。"
+}

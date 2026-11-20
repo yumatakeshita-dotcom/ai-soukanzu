@@ -1,0 +1,221 @@
+<title>AI計算資源の契約まとめ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=IBM+Plex+Sans+JP:wght@600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* レイアウト: 1段の読みもの。冒頭に結論、次に会社ごとの契約表、最後に読み方と出典 */
+:root{
+  --bg:#f5f6f4; --paper:#ffffff; --ink:#1b1f1d; --sub:#5b645f; --rule:#d9ddd8;
+  --accent:#1f6f5c; --bar:#2f8f76; --barsoft:#cfe5dd;
+  --disc:#7a4d00; --discbg:#fbefd6; --off:#1f5fa8; --offbg:#e2ecf8; --rep:#6b6f6c; --repbg:#ececea;
+  --display:"IBM Plex Sans JP","Noto Sans JP",system-ui,sans-serif;
+  --body:"Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121614; --paper:#1a1f1d; --ink:#e7ebe8; --sub:#a3ada7; --rule:#2e3532;
+  --accent:#5fc7a9; --bar:#4fb393; --barsoft:#22392f;
+  --disc:#f0c46a; --discbg:#3a2e14; --off:#8fb8f0; --offbg:#1b2a3d; --rep:#b7bcb8; --repbg:#2a2e2c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121614; --paper:#1a1f1d; --ink:#e7ebe8; --sub:#a3ada7; --rule:#2e3532;
+  --accent:#5fc7a9; --bar:#4fb393; --barsoft:#22392f;
+  --disc:#f0c46a; --discbg:#3a2e14; --off:#8fb8f0; --offbg:#1b2a3d; --rep:#b7bcb8; --repbg:#2a2e2c; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.75}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:clamp(24px,4.4vw,34px)}
+h2{font-size:20px;margin-top:36px;padding-bottom:6px;border-bottom:2px solid var(--ink)}
+h3{font-size:16px}
+p{margin:0}
+.eyebrow{font-size:12px;letter-spacing:.08em;color:var(--sub);font-family:var(--mono)}
+.lead{display:grid;gap:10px;margin-top:10px}
+.lead p{max-width:62ch}
+.key{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:20px}
+.key div{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:12px 14px;min-width:0}
+.key b{display:block;font-family:var(--mono);font-size:24px;font-variant-numeric:tabular-nums;color:var(--accent);line-height:1.3}
+.key span{font-size:13px;color:var(--sub)}
+.bars{display:grid;gap:8px;margin-top:14px}
+.row{display:grid;grid-template-columns:7.5em 1fr;gap:10px;align-items:center}
+.row .nm{font-size:13px;font-weight:700}
+.track{position:relative;height:26px;background:var(--barsoft);border-radius:3px;min-width:0}
+.fill{position:absolute;inset:0 auto 0 0;background:var(--bar);border-radius:3px}
+.fill.max{background:repeating-linear-gradient(135deg,var(--bar) 0 6px,var(--barsoft) 6px 10px)}
+.track em{position:absolute;left:8px;top:0;line-height:26px;font-style:normal;font-family:var(--mono);font-size:12px;color:var(--ink);text-shadow:0 0 3px var(--paper);font-variant-numeric:tabular-nums}
+.legend{font-size:12px;color:var(--sub);margin-top:6px}
+.co{margin-top:22px;display:grid;gap:8px}
+.tw{overflow-x:auto;background:var(--paper);border:1px solid var(--rule);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:600px;font-size:13.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:500;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.amt{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.cf{display:inline-block;font-size:11px;font-weight:700;padding:1px 7px;border-radius:999px;white-space:nowrap}
+.cf.f{color:var(--disc);background:var(--discbg)}
+.cf.o{color:var(--off);background:var(--offbg)}
+.cf.r{color:var(--rep);background:var(--repbg)}
+.note{font-size:13px;color:var(--sub)}
+ul.how{margin:10px 0 0;padding-left:1.2em;display:grid;gap:6px;max-width:66ch}
+ol.src{font-size:12.5px;padding-left:1.4em;display:grid;gap:4px;word-break:break-all}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ipo td:first-child{min-width:7em}
+.wl{white-space:nowrap}
+footer{margin-top:32px;font-size:12px;color:var(--sub)}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">第2版(11月19日9時に更新) ・ 2026年11月19日時点 ・ AI企業の相関図 調べ</p>
+  <h1>AI計算資源の契約まとめ</h1>
+  <div class="lead">
+    <p>Anthropicは11月19日にナスダックへ上場する予定です(銘柄記号ANT)。11月17日に出した届け出書には、データセンターやGPUを借りる契約の金額がはじめて細かく載りました。この1枚では、その開示の数字を軸に、OpenAI・Meta・Microsoft・xAI(今はSpaceXの一部門)の契約を、会社の公式発表と開示書類で確かめた範囲で並べます。</p>
+    <p>印の意味は次のとおりです。<span class="cf f">開示</span>はSECに出した法定の書類、<span class="cf o">公式</span>は会社の発表、<span class="cf r">報道</span>は報道だけで確かめていないものです。</p>
+  </div>
+
+  <div class="key">
+    <div><b>9,009億ドル</b><span>Anthropicの計算資源などの契約の合計。うち約4,516億ドルは2030年末まで <span class="cf f">開示</span></span></div>
+    <div><b>707億ドル</b><span>Anthropicが2026年10月から12か月のあいだに払う見込みの額 <span class="cf f">開示</span></span></div>
+    <div><b>332億ドル</b><span>Anthropicの2026年1〜9月の売上。前年同期の約13倍 <span class="cf f">開示</span></span></div>
+    <div><b>76億ドル</b><span>SpaceXのAI部門(旧xAI・X・Cursor)の7〜9月期の売上 <span class="cf f">開示</span></span></div>
+  </div>
+
+  <h2>上場の条件(第2版で追加)</h2>
+  <p class="note" style="margin-top:10px">2026年11月19日に書き足しました。同じ日の9時に、値段と株数を開示で確かめて書き直しました(11月18日にSECへ出た追加の株の届け出 S-1MEF。はじめは報道の値段でした)。値段・株数をすべてまとめた正式な書類(424B4)は、まだ出ていません。</p>
+  <section class="co ipo">
+    <div class="tw"><table>
+      <thead><tr><th>項目</th><th>数字</th><th>中身</th><th>確かさ</th></tr></thead>
+      <tbody>
+        <tr><td>1株の値段</td><td class="amt">$83</td><td>11月18日に決まった。予定の幅(70〜78ドル)より高い。報道でも83ドル</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>予定の幅</td><td class="amt">$70〜$78</td><td>11月17日の届け出書(S-1訂正3)の幅</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>売り出す株の数</td><td class="amt">約9億8,000万株</td><td>はじめは8億2,500万株(会社が8億135万株、株主が2,365万株)。11月18日に会社の分を1億5,500万株増やした。追加で出せる株も1億2,375万株から1億4,700万株に増えた</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>集まるお金(目安)</td><td class="amt">約813億ドル</td><td>約9億8,000万株×83ドルで計算した額(追加で出せる株は入れていない)。株主が売る分(約20億ドル)も入っている。はじめの報道では約685億ドル</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>同時の私募</td><td class="amt">約260億ドル</td><td>上場と同じ値段で、取引先の会社が別の種類の株(Class N)を買う。Google 約100億・Nvidia 約100億・AMD 約25億・Broadcom 約10億・Micron 約10億・Microsoft 約10億・TSMC 約5億ドル(74ドルで計算した額)</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>取締役たちの購入</td><td class="amt">最大$3.03億</td><td>取締役とその関係先が、上場のときに買う意向を示した額(約束ではない)</td><td><span class="cf f">開示</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+  <p class="legend">私募の7社のうち、Google・Microsoftは計算資源を貸す側、Nvidia・AMD・Broadcom・Micron・TSMCは半導体を作る側です。貸す側・作る側が、借りる側の株も持つ形になります。</p>
+
+  <h2>Anthropicはどこからいくら借りるか</h2>
+  <p class="note" style="margin-top:10px">届け出書に書かれた、会社ごとの約束の額です。棒の長さは同じ目盛り(Googleの最低額を一杯)にそろえています。斜線は「最大」の額で、実際に使う額はこれより少ないことがあります。</p>
+  <div class="bars" role="img" aria-label="Anthropicの計算資源の約束額。Google 1,213億ドル以上、SpaceXAI 最大1,205億ドル、Amazon 1,100億ドル以上、Microsoft 472億〜492億ドル">
+    <div class="row"><span class="nm">Google</span><div class="track"><div class="fill" style="width:100%"></div><em>1,213億ドル以上(2026/4〜2033/7)</em></div></div>
+    <div class="row"><span class="nm">SpaceXAI</span><div class="track"><div class="fill max" style="width:99.3%"></div><em>最大1,205億ドル(〜2029)</em></div></div>
+    <div class="row"><span class="nm">Amazon</span><div class="track"><div class="fill" style="width:90.7%"></div><em>1,100億ドル以上(2026/5〜2036/4)</em></div></div>
+    <div class="row"><span class="nm">Microsoft</span><div class="track"><div class="fill" style="width:38.9%"></div><em>472億〜492億ドル</em></div></div>
+  </div>
+  <p class="legend">このほかGoogleとは、2028〜2031年に届くTPU(Google製のAI用チップ)で、約1,250億〜1,500億ドルの支払いを見込むと書かれています(上の合計には入っていません)。</p>
+
+  <h2>会社ごとの主な契約</h2>
+
+  <section class="co">
+    <h3>Anthropic(買う側)</h3>
+    <div class="tw"><table>
+      <thead><tr><th>相手</th><th>金額</th><th>中身</th><th>確かさ</th></tr></thead>
+      <tbody>
+        <tr><td>Google</td><td class="amt">≥$1,213億</td><td>2026年3月の契約。2026年4月〜2033年7月に使う最低額。使い切れなくても差額を払う</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>SpaceXAI(旧xAI)</td><td class="amt">≤$1,205億</td><td>2026年5〜10月の契約。Colossus 1などのNvidia GPU。全量がそろう12月以降は月約31億ドル。2027年1月・3月のあとは90日前の通知で解約できる</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>Amazon</td><td class="amt">≥$1,100億</td><td>2026年4月の契約。2026年5月〜2036年4月に使う最低額</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>Microsoft</td><td class="amt">$472億〜$492億</td><td>2025年11月の契約を増やした。2026年11月〜2033年6月</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>Fluidstack</td><td class="amt">$500億</td><td>テキサス州・ニューヨーク州などに自社のデータセンターを作る(2025年11月)</td><td><span class="cf o">公式</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="co">
+    <h3>OpenAI(買う側)</h3>
+    <div class="tw"><table>
+      <thead><tr><th>相手</th><th>金額・規模</th><th>中身</th><th>確かさ</th></tr></thead>
+      <tbody>
+        <tr><td>Microsoft</td><td class="amt">$2,500億</td><td>2025年10月の再編で、Azureを追加で買うと合意。Microsoftの優先権はなくなった</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>Amazon(AWS)</td><td class="amt">$380億</td><td>2025年11月、7年でNvidia GPUを使う</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>CoreWeave</td><td class="amt">約$224億</td><td>2025年に3回に分けて契約</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>AMD</td><td class="amt">6GW</td><td>2025年10月。AMD株を最大1億6,000万株取得できる権利つき</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>Broadcom</td><td class="amt">10GW</td><td>2025年10月。OpenAI独自のAIチップを共同で作る</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>Cerebras</td><td class="amt">750MW</td><td>2026年1月。応答を速くする推論用。100億ドル超</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>Oracle</td><td class="amt">約$3,000億</td><td>5年・最大4.5GW(Stargate)</td><td><span class="cf r">報道</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="co">
+    <h3>Meta(買う側)</h3>
+    <div class="tw"><table>
+      <thead><tr><th>相手</th><th>金額・規模</th><th>中身</th><th>確かさ</th></tr></thead>
+      <tbody>
+        <tr><td>Nvidia</td><td class="amt">数百万基</td><td>2026年2月、Blackwell・Vera RubinのGPUを複数年で</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>AMD</td><td class="amt">6GW</td><td>2026年2月、MI450 GPU。株の取得権つき(総額は報道ベース)</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>Nebius</td><td class="amt">最大$270億</td><td>2026年3月、Vera Rubin</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>CoreWeave</td><td class="amt">$142億+$210億</td><td>2025年9月(SECの書類)と2026年4月の追加</td><td><span class="cf f">開示</span> <span class="cf o">公式</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="co">
+    <h3>Microsoft(借りる側)とSpaceX(貸す側)</h3>
+    <div class="tw"><table>
+      <thead><tr><th>契約</th><th>金額</th><th>中身</th><th>確かさ</th></tr></thead>
+      <tbody>
+        <tr><td>Microsoft ← Nebius</td><td class="amt">$174億〜$194億</td><td>2025年9月、5年</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>Microsoft ← IREN</td><td class="amt">約$97億</td><td>2025年11月</td><td><span class="cf o">公式</span></td></tr>
+        <tr><td>SpaceX → Anthropic</td><td class="amt">≤$1,205億</td><td>上のAnthropicの表と同じ契約。SpaceXの計算拠点は9月末で1.7GW</td><td><span class="cf f">開示</span></td></tr>
+        <tr><td>SpaceX → Google</td><td class="amt">月$9.2億</td><td>Colossus 1のGPU約11万基を貸す(2026年10月〜2029年6月)</td><td><span class="cf r">報道</span></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <h2>開示ウォッチの新着</h2>
+  <p class="note" style="margin-top:10px">毎週火曜の開示ウォッチ(SECの書類の見張り)で見つかった、契約・買収・決算・上場の書類です。新しいものが上に足されます。</p>
+  <!-- WATCH_START -->
+  <div class="tw"><table>
+  <thead><tr><th>日付</th><th>会社</th><th>書類</th><th>確かさ</th></tr></thead>
+  <tbody>
+  <tr data-acc="0001628280-26-074904"><td class="amt">2026-11-18</td><td>Anthropic</td><td>追加の株の届け出(値段がわかる)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001045810-26-000088"><td class="amt">2026-11-17</td><td>Nvidia</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/nvda-20261117.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-074338"><td class="amt">2026-11-17</td><td>Anthropic</td><td>上場の届け出書(訂正)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001769628-26-000461"><td class="amt">2026-11-10</td><td>CoreWeave</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/crwv-20261110.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-072484"><td class="amt">2026-11-10</td><td>Anthropic</td><td>上場の届け出書(訂正)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-068676"><td class="amt">2026-11-02</td><td>Anthropic</td><td>上場の届け出書(訂正)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001018724-26-000038"><td class="amt">2026-10-29</td><td>Amazon</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001193125-26-438017"><td class="amt">2026-10-29</td><td>Meta</td><td>臨時の報告(大事な契約)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001193125-26-436122"><td class="amt">2026-10-28</td><td>Microsoft</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001652044-26-000080"><td class="amt">2026-10-28</td><td>Alphabet(Google)</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-067168"><td class="amt">2026-10-26</td><td>Anthropic</td><td>上場の届け出書</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-066738"><td class="amt">2026-10-21</td><td>Tesla</td><td>臨時の報告(決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/tsla-20261021.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-066700"><td class="amt">2026-10-21</td><td>Meta</td><td>臨時の報告(大事な契約・決算)</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  <tr data-acc="0001628280-26-066482"><td class="amt">2026-10-20</td><td>SpaceX(xAI・X・Cursorを含む)</td><td>臨時の報告(決算)<br>会社全体の売上 146億ドル、SI部門の売上 76億ドル、SI部門の営業利益 4.31億ドル、SI部門の調整後EBITDA 50億ドル、計算拠点の規模 1.7 GW</td><td class="wl"><a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spcx-20261020.htm" target="_blank" rel="noopener">書類</a> <span class="cf f">開示</span></td></tr>
+  </tbody>
+  </table></div>
+  <!-- WATCH_END -->
+
+  <h2>読むときの注意</h2>
+  <ul class="how">
+    <li>「最低額」は使わなくても払う額、「最大」は上限です。最大の額は、実際の支払いより大きく見えることがあります。</li>
+    <li>GW(ギガワット)は電力の大きさで、データセンターの規模を表します。1GWはおよそ原子力発電所1基分です。</li>
+    <li>同じ契約を、借りる側と貸す側の両方が発表していることがあります。合計するときは二重に数えないようにしてください。</li>
+    <li>報道の印がついたものは、会社の発表や開示書類ではまだ確かめていません。</li>
+  </ul>
+
+  <h2>出典</h2>
+  <ol class="src">
+    <li><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm" target="_blank" rel="noopener">Anthropic S-1訂正3(SEC、2026/11/17)</a></li>
+    <li><a href="https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm" target="_blank" rel="noopener">SpaceX 2026年7〜9月期の決算発表(SEC 8-Kの添付、2026/10/20)</a></li>
+    <li><a href="https://x.ai/news/anthropic-compute-partnership" target="_blank" rel="noopener">xAI(SpaceXSI)公式発表(2026/5/6、AnthropicにColossus 1を提供)</a></li>
+    <li><a href="https://www.anthropic.com/news/anthropic-amazon-compute" target="_blank" rel="noopener">Anthropic公式発表(2026/4/20、Amazon)</a></li>
+    <li><a href="https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/" target="_blank" rel="noopener">Microsoft公式ブログ(2025/10/28、OpenAIとの再編)</a></li>
+    <li><a href="https://openai.com/index/aws-and-openai-partnership/" target="_blank" rel="noopener">OpenAI公式発表(2025/11/3、AWS)</a></li>
+    <li><a href="https://www.coreweave.com/news/coreweave-expands-agreement-with-openai-by-up-to-6-5b" target="_blank" rel="noopener">CoreWeave公式発表(2025/9/25、OpenAI)</a></li>
+    <li><a href="https://ir.amd.com/news-events/press-releases/detail/1260/amd-and-openai-announce-strategic-partnership-to-deploy-6-gigawatts-of-amd-gpus" target="_blank" rel="noopener">AMD公式発表(2025/10/6、OpenAI 6GW)</a></li>
+    <li><a href="https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/" target="_blank" rel="noopener">OpenAI・Broadcom公式発表(2025/10/13)</a></li>
+    <li><a href="https://investor.nvidia.com/news/press-release-details/2026/Meta-Builds-AI-Infrastructure-With-NVIDIA/" target="_blank" rel="noopener">Nvidia公式発表(2026/2/17、Meta)</a></li>
+    <li><a href="https://ir.amd.com/news-events/press-releases/detail/1279/amd-and-meta-announce-expanded-strategic-partnership" target="_blank" rel="noopener">AMD公式発表(2026/2/24、Meta 6GW)</a></li>
+    <li><a href="https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta" target="_blank" rel="noopener">Nebius公式発表(2026/3/16、Meta)</a></li>
+    <li><a href="https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm" target="_blank" rel="noopener">Nebius SEC 6-K(2025/9/8、Microsoft)</a></li>
+    <li><a href="https://iren.gcs-web.com/news-releases/news-release-details/iren-secures-97bn-ai-cloud-contract-microsoft" target="_blank" rel="noopener">IREN公式発表(2025/11/3、Microsoft)</a></li>
+    <li><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm" target="_blank" rel="noopener">Anthropic S-1MEF(SEC、2026/11/18、1株83ドル・追加の株)</a></li>
+    <li><a href="https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html" target="_blank" rel="noopener">CNBC(2026/11/18、上場の値段83ドル。報道)</a></li>
+    <li><a href="https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/" target="_blank" rel="noopener">TechCrunch(2026/11/18、上場の値段83ドル。報道)</a></li>
+  </ol>
+  <p class="note" style="margin-top:8px">Fluidstack・Cerebras・CoreWeave(Meta)の公式発表、報道の出典は、AI企業の相関図の各社の「計算資源の取引」にあります。</p>
+
+  <footer>作成: AI企業の相関図(2026年11月18日、第2版 11月19日: 上場の条件を追加し、同じ日に値段を開示で確かめた)。数字は出典の書き方のまま日本語にしています。投資の助言ではありません。</footer>
+</div>

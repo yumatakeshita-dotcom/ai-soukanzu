@@ -4,6 +4,7 @@ const PAGES=[
  ['index.html',"build('openai');build('anthropic');build('tsmc');build('jasm')"],
  ['index.html#common',"showCommon('Microsoft','Nvidia');showCommon('楽天グループ','OpenAI');build('openai');document.getElementById('gocommon').click()"],
  ['index.html#common',"showCommon('楽天グループ','OpenAI');document.getElementById('cmbrief').click();showCommon('トヨタ自動車','ソフトバンクグループ');document.getElementById('cmbrief').click()"],
+ ['index.html',"showExecTl('openai');document.querySelector('[data-t=out]').click();document.querySelector('[data-y=\"2026\"]').click();showExecTl('anthropic');document.querySelector('[data-t=all]').click();showExecTl('xai');showExecTl('gdm')"],
  ['credits.html',"document.getElementById('q').value='musk';document.getElementById('q').dispatchEvent(new Event('input'))"],['lab/route.html',''],['lab/stop.html',''],['lab/money.html',''],['lab/moves.html',''],['lab/cards.html',"document.getElementById('ten').click()"],['lab/sports.html','']
 ];
 (async()=>{const srv=await start(8123);const b=await chromium.launch();let bad=0;
