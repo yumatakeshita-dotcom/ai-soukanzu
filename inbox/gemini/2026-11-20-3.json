@@ -1,0 +1,187 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini",
+ "topic": "日本のVC・スタートアップを取材する記者のXアカウント",
+ "model": "gemini-2.5-flash",
+ "checked": "しない",
+ "items": [
+  {
+   "会社名": "三菱UFJフィナンシャル・グループ",
+   "関係": "提携",
+   "相手": "松尾研究所, Third Intelligence",
+   "金額": "",
+   "日付": "2026-11-17",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZFECHxH1FHdYLl6EwcpGEF6EFJo8Kgzzn4ER9L40LvSNZ2gbwJH0boaKgYAH3s-ErZz01v5mHwPg8IbzEFLv0kgI8632w2nIy8Crwz8NHl2SUDvvZcBzz8fRkWKqO2giBJ40s",
+   "確かさ": "報道",
+   "備考": "金融サービスにおけるAI活用推進、松尾研発スタートアップへの包括支援を含む包括的パートナーシップ。MUFGは2025年11月にThird Intelligenceへの出資と協業に関する覚書を締結済み。",
+   "src": [
+    [
+     "IT Leaders",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZFECHxH1FHdYLl6EwcpGEF6EFJo8Kgzzn4ER9L40LvSNZ2gbwJH0boaKgYAH3s-ErZz01v5mHwPg8IbzEFLv0kgI8632w2nIy8Crwz8NHl2SUDvvZcBzz8fRkWKqO2giBJ40s"
+    ]
+   ],
+   "既存の名前": [
+    "三菱UFJフィナンシャル・グループ"
+   ]
+  },
+  {
+   "会社名": "三菱電機",
+   "関係": "出資",
+   "相手": "Sakana AI株式会社",
+   "金額": "",
+   "日付": "2026-03-25",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQlmWTZMiw7j4khxdsDz5VjiBLOEJbMOmTir7DtBX3G_d7dNVHCUrWmKxMSQaYmCFlSNFF5wqMiFNMzLP5RFyiAEpdF5fwwc_SOKCHKaekjVqAQ817P_052d7rtp-GehzIHtNUEs00i-BFvBev_-NMTylGFa0=",
+   "確かさ": "公式",
+   "備考": "次世代AI基盤モデル技術を活用した新たなソリューション創出を目指す。",
+   "src": [
+    [
+     "三菱電機株式会社 プレスリリース",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQlmWTZMiw7j4khxdsDz5VjiBLOEJbMOmTir7DtBX3G_d7dNVHCUrWmKxMSQaYmCFlSNFF5wqMiFNMzLP5RFyiAEpdF5fwwc_SOKCHKaekjVqAQ817P_052d7rtp-GehzIHtNUEs00i-BFvBev_-NMTylGFa0="
+    ]
+   ],
+   "既存の名前": [
+    "三菱電機"
+   ]
+  },
+  {
+   "会社名": "Terra Charge",
+   "関係": "資金調達",
+   "相手": "",
+   "金額": "100億円",
+   "日付": "2026-10",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIq1-i6iozZmBLW_B9k_g2GAS76ojjESDE2-qgDFBs2x4_9cpS9LF_95z5W4k3CJKPIcFEOR_el2-shdnCIrIBFT_8nO7UVPvNLUynlE-S5IfA5UKU4v971iP9PjYA93oprDWdK9L0rDIhRWPQ9z0QW2pdAOm1RVZ4Lw==",
+   "確かさ": "報道",
+   "備考": "EV充電インフラ「テラチャージ」の展開に向けた資金調達。2026年10月の国内スタートアップ資金調達ランキング1位。",
+   "src": [
+    [
+     "STARTUP DB Media",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIq1-i6iozZmBLW_B9k_g2GAS76ojjESDE2-qgDFBs2x4_9cpS9LF_95z5W4k3CJKPIcFEOR_el2-shdnCIrIBFT_8nO7UVPvNLUynlE-S5IfA5UKU4v971iP9PjYA93oprDWdK9L0rDIhRWPQ9z0QW2pdAOm1RVZ4Lw=="
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "株式会社GeoDreams",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-10-01",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvhu7-Rvmso2s5PDkc0G18PvsiX75QR1pJlI2XYHg_uJ-cc3pBzfb6s6RYPA4u1XCJYr4l46Y8ZVWLOrhyPRLMngiAx0ehLHw_BtcD1pmzATSKySA_F4LR5h9p1u63BtEy8alQcplD5a4pa94VuU0t-Y8tEJM=",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "大谷 文夫",
+   "役職": "顧問",
+   "移籍元": "元株式会社東芝 執行役上席常務",
+   "移籍先": "株式会社GeoDreams",
+   "src": [
+    [
+     "PR TIMES",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvhu7-Rvmso2s5PDkc0G18PvsiX75QR1pJlI2XYHg_uJ-cc3pBzfb6s6RYPA4u1XCJYr4l46Y8ZVWLOrhyPRLMngiAx0ehLHw_BtcD1pmzATSKySA_F4LR5h9p1u63BtEy8alQcplD5a4pa94VuU0t-Y8tEJM="
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "大成建設",
+   "関係": "提携",
+   "相手": "ペガサス・テック・ベンチャーズ",
+   "金額": "240億円",
+   "日付": "2026-11-16",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi5zYt8EY96ZYcnbRbl2vsebB_3yPegBN79lwE1ijt-AudFmWkXiQYgEGEij2LWpFhwlMdDIW7YgZgSdwYTdmFnEVfn978pjkdvV9aUOxgE8IHjFPmKzvbxBGZQGsJqJQELDIe-LTxj6a7e0qebQaHuQacK6SEdBIIEOBcQw==",
+   "確かさ": "報道",
+   "備考": "米ベンチャーキャピタルとコーポレートベンチャーキャピタル（CVC）ファンドを設立。AI、ロボティクス、デジタルツインなどの先端技術を持つ世界のスタートアップに投資。",
+   "src": [
+    [
+     "BigGo ファイナンス",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi5zYt8EY96ZYcnbRbl2vsebB_3yPegBN79lwE1ijt-AudFmWkXiQYgEGEij2LWpFhwlMdDIW7YgZgSdwYTdmFnEVfn978pjkdvV9aUOxgE8IHjFPmKzvbxBGZQGsJqJQELDIe-LTxj6a7e0qebQaHuQacK6SEdBIIEOBcQw=="
+    ]
+   ],
+   "既存の名前": [
+    "大成建設"
+   ]
+  },
+  {
+   "会社名": "新光電気工業",
+   "関係": "買収",
+   "相手": "ジャパンディスプレイ",
+   "金額": "",
+   "日付": "2026-09-30",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBAfGN1KH7nb-a2FAvTlSwUlYGQwm__pIaE-FOyKagYf8lifWsUbdPCkcGYYkOMWXvP3Z4-Kv0kL2Lpj6O4zFIfPW2qwS0u9Zcho46PybHW7NUGOh0x6b4dxZz7J4SJVSZAL-agii3FvgZQ0bTxw==",
+   "確かさ": "報道",
+   "備考": "ジャパンディスプレイ茂原工場の売買契約を締結。AIアクセラレーターなどの先端半導体向けフリップチップタイプパッケージの需要拡大に対応するための新拠点。",
+   "src": [
+    [
+     "半導体業界ニュース",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBAfGN1KH7nb-a2FAvTlSwUlYGQwm__pIaE-FOyKagYf8lifWsUbdPCkcGYYkOMWXvP3Z4-Kv0kL2Lpj6O4zFIfPW2qwS0u9Zcho46PybHW7NUGOh0x6b4dxZz7J4SJVSZAL-agii3FvgZQ0bTxw=="
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "株式会社プレイド",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw==",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "竹村 尚彦",
+   "役職": "執行役員 CPO (Chief Product Officer)",
+   "移籍元": "株式会社プレイド (執行役員)",
+   "移籍先": "株式会社プレイド",
+   "src": [
+    [
+     "プレイド 経営メンバー",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw=="
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "株式会社プレイド",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw==",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "辻 高宏",
+   "役職": "執行役員 CFO (Chief Financial Officer)",
+   "移籍元": "株式会社LITALICO (元取締役副社長CFO)",
+   "移籍先": "株式会社プレイド",
+   "src": [
+    [
+     "プレイド 経営メンバー",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw=="
+    ]
+   ],
+   "既存の名前": []
+  }
+ ],
+ "grounding": [
+  [
+   "itmedia.co.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE-A2io0k6agshzWlELTineD52s7EmZQuClJMNROcXfietIwbXRRH0xT_3zgIQkQcODJwQo2UfMN_VBGKvYvmQfLVw-_8peVB20lMPMlXXrxxXJRfGgYGvgQdAnj2vyZxBBnyykx2h7jDYoht_uHBw86UmgU2elsg=="
+  ],
+  [
+   "startup-db.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIq1-i6iozZmBLW_B9k_g2GAS76ojjESDE2-qgDFBs2x4_9cpS9LF_95z5W4k3CJKPIcFEOR_el2-shdnCIrIBFT_8nO7UVPvNLUynlE-S5IfA5UKU4v971iP9PjYA93oprDWdK9L0rDIhRWPQ9z0QW2pdAOm1RVZ4Lw=="
+  ],
+  [
+   "biggo.jp",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGi5zYt8EY96ZYcnbRbl2vsebB_3yPegBN79lwE1ijt-AudFmWkXiQYgEGEij2LWpFhwlMdDIW7YgZgSdwYTdmFnEVfn978pjkdvV9aUOxgE8IHjFPmKzvbxBGZQGsJqJQELDIe-LTxj6a7e0qebQaHuQacK6SEdBIIEOBcQw=="
+  ],
+  [
+   "semiconductor-industry.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBAfGN1KH7nb-a2FAvTlSwUlYGQwm__pIaE-FOyKagYf8lifWsUbdPCkcGYYkOMWXvP3Z4-Kv0kL2Lpj6O4zFIfPW2qwS0u9Zcho46PybHW7NUGOh0x6b4dxZz7J4SJVSZAL-agii3FvgZQ0bTxw=="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/",
+  "https://lp.startup-db.com/media/articles/funding-ranking-202610",
+  "https://finance.biggo.jp/news/4e53b381-1921-4f0d-9093-107611bed9b7",
+  "https://www.semiconductor-industry.com/news-202610/"
+ ]
+}

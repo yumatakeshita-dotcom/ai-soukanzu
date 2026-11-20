@@ -61,3 +61,37 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
 
 注意: 環境変数は、その環境を使うセッションのすべてのコマンドから読める。
 ファイル検索に入れた資料の保存は無料、入れるとき(文字をベクトルにする処理)と検索の結果を読ませるときに料金がかかる(Google の料金表で確かめる)。
+
+## 毎朝の自動の調査と確かめ(2026/11/19追加)
+毎朝8:23(日本時間)の定期タスク「Gemini調査(確かめつき) 毎日」が、次を行う。
+
+1. `python3 scripts/gemini_research.py daily` … 曜日ごとのテーマ(`DAILY_THEMES`)で Gemini に調べさせ、`inbox/gemini/日付.json` に足す。
+   そのまま `scripts/gemini_verify.py` で確かめる
+2. `scripts/gemini_verify.py` の確かめ方(1件ずつ)
+   - **出典URLにつながるか**: ページを実際に開き、会社名・相手の名前が書いてあるかも見る。開けないサイトは「未確認」と書く
+     - Gemini が書いたURLが無い・中身が違うときは、Gemini が検索で実際に見たページ(転送リンクを元のURLに直したもの)から、同じ名前が書いてあるページを探して置き換える
+   - **重なり**: 同じ出典URL、または同じ会社と相手が近い日付で、すでに相関図(index.html・data/*.js)や他の調査(inbox/)にあるもの
+   - **日付の食い違い**: Gemini の日付と、URLの中の日付・ページの公開日が7日以上ずれるもの。未来の日付
+   - **確かさの印**: 出典の種類と合わない印を直す(例:「公式」なのに報道サイト → 「報道」。SECの書類なら「開示」)
+3. 判定
+   - **合格**(つながって中身も合い、重なり・日付の食い違いが無い)… `inbox/money/日付-gemini.json` か `inbox/moves/日付-gemini.json` に足す。
+     毎朝9:13の「調査の新着」の定期タスクが、ほかの調査と同じようにサイトに足す
+   - **保留**(開けず「未確認」)… 定期タスクが WebSearch で開ける別の出典(会社の発表・英語の報道)を探し、見つかれば `日付-recheck.json` にして確かめ直す
+   - **除外** … 理由を `日付_verified.md` に残すだけ
+4. 結果は `inbox/gemini/日付_verified.json / .md` に足す。確かめた元のファイルは `inbox/gemini/verified.txt` に記録(2回確かめない)
+
+### わかったこと(2026/11/19〜20)
+- 日本のニュースサイトがクラウドから開けるようになった(2026/11/19、PR TIMES・日経・ITmedia・マイナビ・Impress・EE Times Japan・JETRO・創業手帳・財経新聞など15か所を許可)
+- 開いてみると、初回の試し(10件)で **Gemini が書いた出典URLの7件はページが無かった**(404)。1件はページはあるが別の記事。
+  Gemini が書くURLは作り話のことが多いので、確かめ無しには使えない
+- Gemini の検索の転送リンク(vertexaisearch…)は、数時間で使えなくなる。調べた直後に元のURLにして `grounding_resolved` に保存している
+- 無料枠は混雑(503)が多い。20秒・60秒・120秒待ってやり直す
+
+## チャットに出た案は先にGeminiへ(2026/11/20から)
+プロジェクトのチャットに書かれたテーマ・案・質問は、まず Claude ではなく Gemini で広げて調べる(`python3 scripts/gemini_research.py research "テーマ"`)。そのあと `python3 scripts/gemini_verify.py inbox/gemini/日付-N.json` で出典を開いて確かめ、通ったものだけが `inbox/money/` か `inbox/moves/` に足される。Claude は「出典の確認と取り込み」だけを受け持つ(使う量を減らすため)。最初の1回(2026/11/20)は4テーマ中3テーマが動き、合格は1件だけだった(Geminiの出典URLの多くが開けない・重複のため)。無料枠が切れる(429)と別のモデルが404で止まるので、その日の残りは翌日に回す。
+## 調べ方の履歴を見る(2026/11/20追加)
+Gemini API で調べても、Geminiアプリ・NotebookLM の履歴には残らない。そこで毎回の調査で、Geminiが実際に打った検索の言葉・見たページ・根拠の対応(`process`)を `inbox/gemini/日付.json` に残し、`python3 scripts/gemini_history.py` で日付ごとの目次を作る(調査のたびに自動で作り直す)。
+- 文章の目次: `inbox/gemini/README.md`(GitHubで読める)
+- 見やすい版: `inbox/gemini/history.html`(共有リンクにも公開。毎朝の定期タスクが公開し直す)
+- 試しに残した生の返答(`*_process_raw.json`)も同じ目次に出る。足すだけで、元の記録は書き換えない
+- 2026/11/20より前の調査は、検索の言葉が残っていない(「この回は記録なし」と出る)

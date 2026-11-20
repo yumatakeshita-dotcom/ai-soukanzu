@@ -1,240 +1,108 @@
 {
  "date": "2026-11-20",
  "kind": "gemini",
- "topic": "テスト(枠切れの確認)",
+ "topic": "直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業",
  "model": "gemini-2.5-flash",
- "checked": "しない",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
  "items": [
   {
-   "会社名": "ADEKA",
-   "関係": "提携",
-   "相手": "Entegris",
+   "会社名": "Palo Alto Networks",
+   "関係": "買収",
+   "相手": "Applied Compute",
+   "金額": "45億ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquires-applied-compute-45-billion-all-stock",
+   "確かさ": "報道",
+   "備考": "株式交換方式",
+   "src": [
+    [
+     "Palo Alto Networks (報道による引用)",
+     "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquires-applied-compute-45-billion-all-stock"
+    ]
+   ],
+   "既存の名前": [
+    "Palo Alto Networks",
+    "Applied Compute"
+   ]
+  },
+  {
+   "会社名": "ElevenLabs",
+   "関係": "買収",
+   "相手": "Kotoba Technologies",
+   "金額": "約1億ドル (約159億円)",
+   "日付": "2026-11-17",
+   "出典URL": "https://www.itmedia.co.jp/aiplus/article/2611/19/news070.html",
+   "確かさ": "報道",
+   "備考": "2026年第4四半期後半完了予定",
+   "src": [
+    [
+     "ITmedia AI+",
+     "https://www.itmedia.co.jp/aiplus/article/2611/19/news070.html"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs",
+    "Kotoba Technologies"
+   ]
+  },
+  {
+   "会社名": "Google Labs",
+   "関係": "買収",
+   "相手": "Howie",
    "金額": "",
    "日付": "2026-11-16",
-   "出典URL": "https://www.adeka.co.jp/news/detail/20261116.html",
-   "確かさ": "公式",
-   "備考": "3D半導体デバイス向け先端半導体材料の国内生産で協業、ADEKA鹿島化学品工場内に製造設備建設、2027年10月営業運転開始予定",
-   "src": [
-    [
-     "ADEKA",
-     "https://www.adeka.co.jp/news/detail/20261116.html"
-    ]
-   ],
-   "既存の名前": [],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
-  },
-  {
-   "会社名": "Microsoft",
-   "関係": "出資",
-   "相手": "UAE、サウジアラビア、カタール、クウェート",
-   "金額": "100億ドル以上",
-   "日付": "2026-09-23",
-   "出典URL": "https://biggo-finance.com/news/microsoft-middle-east-ai-infra-investment-20260923",
+   "出典URL": "https://dataconomy.com/2026/11/18/google-labs-acquires-ai-scheduling-startup-howie/",
    "確かさ": "報道",
-   "備考": "2030年までに湾岸4カ国にクラウド・AIインフラ構築へ投資",
+   "備考": "金額非公開",
    "src": [
     [
-     "BigGo ファイナンス",
-     "https://biggo-finance.com/news/microsoft-middle-east-ai-infra-investment-20260923"
+     "Dataconomy",
+     "https://dataconomy.com/2026/11/18/google-labs-acquires-ai-scheduling-startup-howie/"
     ]
    ],
    "既存の名前": [
-    "Microsoft"
-   ],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
+    "Howie"
+   ]
   },
   {
-   "会社名": "智譜 (Zhipu AI)",
-   "関係": "上場",
-   "相手": "香港証券取引所",
-   "金額": "約578億9000万香港ドル",
-   "日付": "2026-01-08",
-   "出典URL": "https://36kr.jp/265541/",
-   "確かさ": "報道",
-   "備考": "大規模言語モデル（LLM）企業として世界初の上場、初値は120香港ドル",
-   "src": [
-    [
-     "36Kr Japan",
-     "https://36kr.jp/265541/"
-    ]
-   ],
-   "既存の名前": [],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
-  },
-  {
-   "会社名": "三菱UFJフィナンシャル・グループ",
-   "関係": "提携",
-   "相手": "松尾研究所, Third Intelligence",
-   "金額": "",
+   "会社名": "AMD",
+   "関係": "買収",
+   "相手": "Taalas",
+   "金額": "約29億ドル",
    "日付": "2026-11-17",
-   "出典URL": "https://www.nikkinonline.com/article/130103",
+   "出典URL": "https://www.biggo.finance/tw/news/amd-acquires-taalas-for-approximately-2-9-billion-chasing-nvidia-with-ai-inference-specific-chips-20261118182902640277",
    "確かさ": "報道",
-   "備考": "AI研究の松尾豊教授が参画する両社と包括的パートナーシップ契約、AIを活用した金融サービスで優位性向上を目指す",
+   "備考": "現金と株式",
    "src": [
     [
-     "ニッキンONLINE",
-     "https://www.nikkinonline.com/article/130103"
+     "BigGo Finance",
+     "https://www.biggo.finance/tw/news/amd-acquires-taalas-for-approximately-2-9-billion-chasing-nvidia-with-ai-inference-specific-chips-20261118182902640277"
     ]
    ],
    "既存の名前": [
-    "三菱UFJフィナンシャル・グループ"
-   ],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
-  },
-  {
-   "会社名": "Tokyo Artisan Intelligence",
-   "関係": "資金調達",
-   "相手": "三井住友海上キャピタル、みずほ銀行など",
-   "金額": "12.7億円",
-   "日付": "2026-10-26",
-   "出典URL": "https://copy.ai/blog/weekly-ai-startup-funding-20261027-1102",
-   "確かさ": "報道",
-   "備考": "シリーズCの1stクローズ、エッジAIとAI半導体の研究開発・製品開発",
-   "src": [
-    [
-     "コーピー | AIフロンティア",
-     "https://copy.ai/blog/weekly-ai-startup-funding-20261027-1102"
-    ]
-   ],
-   "既存の名前": [],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
-  },
-  {
-   "会社名": "Blackwall",
-   "関係": "資金調達",
-   "相手": "AVP (主導), ドーン・キャピタル, MMCベンチャーズ, テラ・ベンチャーズ",
-   "金額": "1億ドル",
-   "日付": "2026-10-20",
-   "出典URL": "https://prtimes.jp/main/html/rd/p/000000001.000086884.html",
-   "確かさ": "報道",
-   "備考": "シリーズCラウンド、企業価値22億ドルに到達。ホスティングプロバイダー市場向けグローバルWebトラフィック管理プラットフォームの拡大",
-   "src": [
-    [
-     "PR TIMES",
-     "https://prtimes.jp/main/html/rd/p/000000001.000086884.html"
-    ]
-   ],
-   "既存の名前": [
-    "Blackwall"
-   ],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "エラー",
-    "詳細": "HTTP 404(ページが無い)"
-   }
-  },
-  {
-   "会社名": "CG SEMI",
-   "関係": "提携",
-   "相手": "ルネサスエレクトロニクス",
-   "金額": "760億ルピー超",
-   "日付": "2026-07-04",
-   "出典URL": "https://www.jetro.go.jp/biznews/2026/08/0a3994e68e4ee4d0.html",
-   "確かさ": "推定",
-   "備考": "インド初となる半導体後工程（OSAT）工場が商業生産開始、日本のルネサスエレクトロニクスと提携し技術導入",
-   "src": [
-    [
-     "ジェトロ",
-     "https://www.jetro.go.jp/biznews/2026/08/0a3994e68e4ee4d0.html"
-    ]
-   ],
-   "既存の名前": [],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "エラー",
-    "詳細": "HTTP 403"
-   }
-  },
-  {
-   "会社名": "デル・テクノロジーズ",
-   "関係": "就任",
-   "相手": "Jon Robottom (ジョン・ロボトム)",
-   "金額": "",
-   "日付": "2026-08-17",
-   "出典URL": "https://monoist.itmedia.co.jp/mn/articles/2610/29/news043.html",
-   "確かさ": "推定",
-   "備考": "日本法人代表取締役社長に就任。前職は日本AMD代表取締役社長",
-   "src": [
-    [
-     "MONOist",
-     "https://monoist.itmedia.co.jp/mn/articles/2610/29/news043.html"
-    ]
-   ],
-   "既存の名前": [
-    "デル・テクノロジーズ"
-   ],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
-  },
-  {
-   "会社名": "Bitgrit, エスツー, 秋田市",
-   "関係": "提携/投資検討",
-   "相手": "ムバダラ・インベストメント (UAE政府系ファンド)",
-   "金額": "最大1兆円",
-   "日付": "2026-08-07",
-   "出典URL": "https://yururito2030.com/ai-data-center-akita/",
-   "確かさ": "報道",
-   "備考": "秋田県での日本最大級AIデータセンター建設構想、UAEからの最大1兆円規模の投資を検討",
-   "src": [
-    [
-     "ゆるりと2030",
-     "https://yururito2030.com/ai-data-center-akita/"
-    ]
-   ],
-   "既存の名前": [],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
+    "AMD"
+   ]
   },
   {
    "会社名": "Anthropic",
    "関係": "上場",
-   "相手": "米国証券取引委員会 (SEC)",
-   "金額": "約154.1兆円",
-   "日付": "2026-06-01",
-   "出典URL": "https://biggo-finance.com/news/unitree-anthropic-ipo-20260601",
+   "相手": "",
+   "金額": "約813億ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://edition.cnn.com/2026/11/18/tech/anthropic-ipo-nasdaq/index.html",
    "確かさ": "報道",
-   "備考": "IPOを秘密申請、評価額がOpenAIを上回ると報道",
+   "備考": "NASDAQ上場, 史上最大規模のIPO",
    "src": [
     [
-     "BigGo ファイナンス",
-     "https://biggo-finance.com/news/unitree-anthropic-ipo-20260601"
+     "CNN Business",
+     "https://edition.cnn.com/2026/11/18/tech/anthropic-ipo-nasdaq/index.html"
     ]
    ],
    "既存の名前": [
     "Anthropic"
-   ],
-   "URL確認": {
-    "検索で見たサイト": false,
-    "状態": "開けない",
-    "詳細": "クラウドからつながらない(URLError)"
-   }
+   ]
   }
  ],
- "grounding": []
+ "grounding": [],
+ "grounding_resolved": []
 }
