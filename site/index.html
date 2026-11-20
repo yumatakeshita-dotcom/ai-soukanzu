@@ -35778,8 +35778,10 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-20';
+const LAST_CHECK='2026-11-21';
 const UPDATES=[
+ {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
+ {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
  {d:'2026-11-18',co:['anthropic'],t:'Anthropicの上場価格は1株83ドルで想定の上限を上回ったと報道。調達は約685億ドル、19日にナスダックで取引開始',src:['CNBC(2026-11-18)','https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html']},
  {d:'2026-11-18',co:['anthropic','xai'],t:'Anthropicの上場の届け出書(S-1訂正3)から、売上(2026年1〜9月で332億ドル)、計算資源の契約(合計約9,009億ドル。SpaceXAIに最大1,205億ドルなど)、Amazon・Googleの持ち分を追加',cf:'開示',src:['Anthropic S-1訂正3(SEC、2026-11-17)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm']},
