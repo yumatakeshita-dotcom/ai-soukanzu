@@ -125,3 +125,6 @@
 @Inc42 | money,vc | インドのスタートアップ報道(Inc42)公式。確認済み
 @DealStreetAsia | money,vc | アジアのPE・VC・調達の報道。確認済み
 @aiwatch_jp | deep,moves | 日本のAIニュース(AI Watch)公式。確認済み
+# --- 日本のテック・半導体の情報 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@nikkei_tech | money,moves,deep | 日経電子版「テック」公式(AI・スタートアップ)。確認済み
+@zubo_semicon | deep | 半導体業界の情報発信(現役エンジニアの個人)。確認済み
