@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-21",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "name_en": "Jonathan Ross",
+   "name_ja": "ジョナサン・ロス",
+   "from": "Groq(創業者・CEO)",
+   "to": "Nvidia",
+   "role": "Groqの技術ライセンスに合わせて参加",
+   "date": "2025-12-24",
+   "region": "米国",
+   "backfill": true,
+   "note": "Sunny Madra(社長)ほか幹部も Nvidia に参加。Groqの発表(ブログ)に基づく報道。Groq自体は残り GroqCloud は続く。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "TechCrunch(2025/12/24)",
+     "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/"
+    ],
+    [
+     "CTV News(Groqの発表を引用)",
+     "https://www.ctvnews.ca/business/article/nvidia-to-licence-groq-technology-hire-executives/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Varun Mohan",
+   "name_ja": "ヴァルン・モハン",
+   "from": "Windsurf(共同創業者・CEO)",
+   "to": "Google(DeepMind)",
+   "role": "共同創業者 Douglas Chen らとともに参加",
+   "date": "2025-07",
+   "region": "米国",
+   "backfill": true,
+   "note": "$24億の報酬・ライセンス契約(株式の出資や会社の買収ではない)。残りのWindsurfはCognitionが買収。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Built In(2025/7/16)",
+     "https://builtin.com/articles/congnition-windsurf-acquisition-20250716"
+    ],
+    [
+     "Bloomberg(2025/7/14)",
+     "https://www.bloomberg.com/news/articles/2025-07-14/ai-startup-cognition-to-buy-windsurf-after-google-licensing-deal"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}

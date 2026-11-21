@@ -1,0 +1,5474 @@
+{
+ "date": "2026-11-21",
+ "days": 120,
+ "summary": "動画・番組の手がかり: 新着1539本のうち368本に移籍・出資などの言葉と会社名",
+ "leads": [
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "アンソロピック上場 日米株安 AIバブル懸念は【NIKKEI NEWS NEXT】",
+   "url": "https://www.youtube.com/watch?v=UZ6vz8Y6k0k",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "How an American AI Company Uses Chinese Open-Weight Models",
+   "url": "https://omny.fm/shows/odd-lots/how-an-american-ai-company-uses-chinese-open-weight-models",
+   "words": [
+    "deal",
+    "investors"
+   ],
+   "companies": [
+    "DeepSeek"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "【11月21日】株式上場で社員は「上級国民」になった ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1121-e3soleg",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "ソフトバンク"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "Market Nukes, Math Solved Again, Mansion Section | Alex Epstein, David Chang, Zhou Xian, Eric Wind",
+   "url": "https://share.transistor.fm/s/216b6b63",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Hard Fork",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "G.T.A. VI Is a Monumental Human Achievement",
+   "url": "https://www.nytimes.com/column/hard-fork",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "Anthropic’s Moment of Truth, Jensen in Limbo, Apple’s AI Agent",
+   "url": "",
+   "words": [
+    "ipo",
+    "raised"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Jensen",
+    "Nvidia",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "Why the Agent Era Needs a New Operating System | DHH",
+   "url": "https://a16z.simplecast.com/episodes/why-the-agent-era-needs-a-new-operating-system-dhh-aj7iuAnL",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【速報解説：アンソロピック、上場後の４大リスク】公開価格を超えた理由／頂点を目指す宣言／NVIDIA問題の余波は？／データセンター規制の影響／東南アジアのクラウド問題／金利上昇のリスク",
+   "url": "https://www.youtube.com/watch?v=VJE7fdvirsE",
+   "words": [
+    "ipo",
+    "上場",
+    "入社"
+   ],
+   "companies": [
+    "アンソロピック",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "“史上最大IPO”AI企業アンソロピックが上場！支払い義務が143兆円‥オープンAIと熾烈競争！空前の時価総額にリスクは？エヌビディアのスキャンダルも影響か【INSIDE/USエコノミー】",
+   "url": "https://www.youtube.com/watch?v=bn7qEFKZJyM",
+   "words": [
+    "ipo",
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "エヌビディア",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "日本経済新聞",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【日経ヴェリタス マーケット一目瞭然】 巨大上場で疑念晴れず AI相場に晩秋の嵐",
+   "url": "https://www.youtube.com/watch?v=5kWQz-N8OEo",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "nvidia",
+    "アンソロピック",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "日本経済新聞",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【生成AI】アンソロピック上場、時価総額は203兆円【Claude】",
+   "url": "https://www.youtube.com/watch?v=jqtITbY5ap0",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Market Slides, Math Solved, SpaceX is now GroundX, THE MANSION SECTION",
+   "url": "https://www.youtube.com/watch?v=S-mfGKgD2MU",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "a16z",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Why AI Has DHH Working 16-Hour Days",
+   "url": "https://www.youtube.com/watch?v=TtOoLanFzGw",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "'We Have To Know Why': Philanthropist Priscilla Chan’s Bold Bet On Rare Disease",
+   "url": "https://www.youtube.com/watch?v=ar9X778_Kjw",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Meta",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Navigating a falling market: The Investment Committee's strategy",
+   "url": "https://www.youtube.com/watch?v=7yuxLar3WEA",
+   "words": [
+    "investment",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Would be unprecedented to see final bottom on S&P with Apple where it is: BTIG’s Jonathan Krinsky",
+   "url": "https://www.youtube.com/watch?v=P-Aej5E1S0A",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Top tech investor Dan Niles on Anthropic: You can make an argument that IPO didn't go great",
+   "url": "https://www.youtube.com/watch?v=XC02cQqB5Uk",
+   "words": [
+    "investment",
+    "investor",
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Nvidia's legal woes are adding up: What you should know",
+   "url": "https://www.youtube.com/watch?v=djyc-rPqBV4",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Anthropic stock falls in first full day of trading following record-breaking IPO",
+   "url": "https://www.youtube.com/watch?v=1jSLdV-Aocs",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fractile: Mega-Rounds Continue",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-will-jensen-return-to-nvidia-anthropic-set-for-largest-ipo-of-all-time-kalshi-mercor-fractile-mega-rounds-continue",
+   "words": [
+    "buys",
+    "compute",
+    "deal",
+    "investors",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Meta",
+    "Microsoft",
+    "NVIDIA",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "This Is The Problem With AI's Most Bullish Chart",
+   "url": "https://omny.fm/shows/odd-lots/this-is-the-problem-with-ais-most-bullish-chart",
+   "words": [
+    "compute",
+    "data center",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "日経ビジネス モーニングニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "11月20日（金）：アンソロピック上場／ベイカレント、自衛官30人採用／KDDI、勤務間インターバル",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "KDDI",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "【11月20日】アンソロピックが、グーグルを超える日 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1120-e3smud0",
+   "words": [
+    "退任"
+   ],
+   "companies": [
+    "アンソロピック",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+   "url": "",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Cursor",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "Anthropic IPO, GTA 6 Launch, Strauss Zelnick Joins | Hemant Taneja",
+   "url": "https://share.transistor.fm/s/94091b47",
+   "words": [
+    "compute",
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "Why The Anthropic IPO Will Succeed — With Aaron Levie",
+   "url": "",
+   "words": [
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "How I Built This",
+   "type": "ポッドキャスト",
+   "published": "2026-11-19",
+   "title": "Jensen Huang: The Personal Cost of Building NVIDIA (April 2026)",
+   "url": "",
+   "words": [
+    "resignation"
+   ],
+   "companies": [
+    "Jensen",
+    "NVIDIA",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "日本経済新聞",
+   "type": "動画",
+   "published": "2026-11-19",
+   "title": "【米アンソロピックがナスダックに上場】 #Shorts",
+   "url": "https://www.youtube.com/watch?v=5OaKAeYbWw8",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-19",
+   "title": "Will Jensen Return to NVIDIA | Kalshi, Mercor, Fractile: Mega-Rounds Continue",
+   "url": "https://www.youtube.com/watch?v=RZ4BBkSZ3io",
+   "words": [
+    "investments",
+    "investors",
+    "ipo",
+    "raises"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "NVIDIA",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-19",
+   "title": "Ant IPO (Hemant Joins), GTA 6 Launch (Strauss Zelnick Joins Live)",
+   "url": "https://www.youtube.com/watch?v=-iCfFQQBMzI",
+   "words": [
+    "compute",
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "動画",
+   "published": "2026-11-19",
+   "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+   "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Cursor",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-19",
+   "title": "Europe’s AI Future With Judith Dada | Pub Conversations",
+   "url": "https://www.youtube.com/watch?v=N5YwZjN4_oI",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "ポッドキャスト",
+   "published": "2026-11-18",
+   "title": "⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC",
+   "url": "https://www.youtube.com/watch?v=wX8nDtGIfYA",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-11-18",
+   "title": "AIがコードや軌道上計算網を担う？最新の大型調達は何を変えるか",
+   "url": "",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-18",
+   "title": "The Missing Layer for Personal AI | First Person Labs’ Ken Liu",
+   "url": "https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-18",
+   "title": "【速報解説：NVIDIAは来年も死角なし。CEO退任でも強い理由】決算の4ポイント／CEO復帰の可能性は薄い／中国向けなしでも急成長／サプライヤーとの長期契約／CPU売上倍増／新CEOに求められること",
+   "url": "https://www.youtube.com/watch?v=Y5n4azPHHqw",
+   "words": [
+    "入社",
+    "退任"
+   ],
+   "companies": [
+    "NVIDIA",
+    "amazon",
+    "xtech",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "a16z",
+   "type": "動画",
+   "published": "2026-11-18",
+   "title": "What It Takes to Build an AI That Actually Knows You",
+   "url": "https://www.youtube.com/watch?v=kBJe4H_WobA",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Sequoia Capital",
+   "type": "動画",
+   "published": "2026-11-18",
+   "title": "The Boomerang CEO(s): With MongoDB’s Dev Ittycheria",
+   "url": "https://www.youtube.com/watch?v=uMO3zS5FLoc",
+   "words": [
+    "left"
+   ],
+   "companies": [
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "動画",
+   "published": "2026-11-18",
+   "title": "⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC",
+   "url": "https://www.youtube.com/watch?v=wX8nDtGIfYA",
+   "words": [
+    "buy",
+    "compute",
+    "ipo"
+   ],
+   "companies": [
+    "AMD",
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-18",
+   "title": "Can Open Source Make AI Agents Safer?",
+   "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-11-17",
+   "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+   "url": "https://allinchamathjason.libsyn.com/databricks-ceo-agi-is-already-here-why-companies-are-behind-and-the-superintelligence-debate",
+   "words": [
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Databricks"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-17",
+   "title": "Why The Anthropic IPO Will Fail — With Gary Marcus",
+   "url": "",
+   "words": [
+    "compute",
+    "ipo",
+    "joins",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-17",
+   "title": "How Humans Will Work Alongside AI Agents — With Mike Cannon-Brookes",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-11-17",
+   "title": "Replit’s $9B perfect storm, and the winds of “AI psychosis,” with Amjad Masad",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Replit"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-17",
+   "title": "Why This AI Founder Won't Hire From OpenAI",
+   "url": "https://www.youtube.com/watch?v=Qopc3Q6LuV0",
+   "words": [
+    "hire"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-17",
+   "title": "🔴 David Solomon LIVE on TBPN at TomorrowX",
+   "url": "https://www.youtube.com/watch?v=W3uUcIITE-A",
+   "words": [
+    "investment",
+    "investors"
+   ],
+   "companies": [
+    "Jensen"
+   ]
+  },
+  {
+   "source": "All-In Podcast",
+   "type": "動画",
+   "published": "2026-11-17",
+   "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+   "url": "https://www.youtube.com/watch?v=1bR0gtecoHU",
+   "words": [
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Databricks"
+   ]
+  },
+  {
+   "source": "All-In Podcast",
+   "type": "動画",
+   "published": "2026-11-17",
+   "title": "Anthropic IPO Breakdown: Most Valuable Company?",
+   "url": "https://www.youtube.com/watch?v=wpRf6pd37fc",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-17",
+   "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+   "url": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
+   "words": [
+    "investigate"
+   ],
+   "companies": [
+    "OpenAI",
+    "openai"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-16",
+   "title": "20VC: Jev Creator on Why Data Is More Important Than Compute | Will US Open-Source Models Catch Chinese | The Cost of Intelligence and Tokens: What No One Sees But Needs to Know with Diogo Almeida",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jev-creator-on-why-data-is-more-important-than-compute-will-us-open-source-models-catch-chinese-the-cost-of-intelligence-and-tokens-what-no-one-sees-but-needs-to-know-with-diogo-almeida",
+   "words": [
+    "compute",
+    "investing"
+   ],
+   "companies": [
+    "OpenAI",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "Dwarkesh Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-16",
+   "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+   "url": "https://www.dwarkesh.com/p/paul-christiano-2",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-16",
+   "title": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+   "url": "https://omny.fm/shows/odd-lots/the-impossible-trilemma-that-hangs-over-the-nvidia-crisis",
+   "words": [
+    "resignation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-11-16",
+   "title": "Why NJ’s governor thinks Republicans are trapped in an X bubble",
+   "url": "",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "Musk"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-16",
+   "title": "Jev Creator on Will US Open Models Catch Chinese | The Cost of Intelligence & Tokens | Diogo Almeida",
+   "url": "https://www.youtube.com/watch?v=BE2JqjsN4aY",
+   "words": [
+    "compute",
+    "investing"
+   ],
+   "companies": [
+    "OpenAI",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "Dwarkesh Patel",
+   "type": "動画",
+   "published": "2026-11-16",
+   "title": "AIs might overthrow the government within a year – Paul Christiano",
+   "url": "https://www.youtube.com/watch?v=SyHM5hNPAEo",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-16",
+   "title": "NVIDIA cuPhoton Brings Real-Time Black Hole Science to GPUs",
+   "url": "https://www.youtube.com/watch?v=E3Hy-WRJbXE",
+   "words": [
+    "acquired",
+    "compute"
+   ],
+   "companies": [
+    "NVIDIA",
+    "nvidia"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-16",
+   "title": "20 Years of CUDA: Honoring the Architects of Progress",
+   "url": "https://www.youtube.com/watch?v=v2I4vqz87fk",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-15",
+   "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+   "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+   "words": [
+    "left"
+   ],
+   "companies": [
+    "Meta",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "動画",
+   "published": "2026-11-15",
+   "title": "Meta’s Muse: Inside the launch of the most successful consumer product this year | Mona Sarantakos",
+   "url": "https://www.youtube.com/watch?v=WY0cdD4gNoQ",
+   "words": [
+    "left"
+   ],
+   "companies": [
+    "Meta",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-14",
+   "title": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-taking-on-nvidia-fractile-ceo-on-the-future-of-chips-what-everyone-gets-wrong-about-capex-spending-the-winners-and-losers-in-neo-clouds-with-walter-goodwin",
+   "words": [
+    "deal",
+    "raised",
+    "series c"
+   ],
+   "companies": [
+    "Founders Fund",
+    "Jensen",
+    "NVIDIA",
+    "Nvidia",
+    "Thrive"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-14",
+   "title": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+   "url": "https://omny.fm/shows/odd-lots/how-wall-street-is-bracing-for-the-post-jensen-huang-nvidia-era",
+   "words": [
+    "data center",
+    "resignation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-11-14",
+   "title": "Jensen Ousted as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+   "url": "https://allinchamathjason.libsyn.com/jensen-ousted-as-nvidia-ceo-spy-scandal-export-restrictions-market-impact",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-14",
+   "title": "The AI Compute Crisis: Why We Need Thousands of Times More Computing Power | Fractile Founder",
+   "url": "https://www.youtube.com/watch?v=UZ8eYaAf08M",
+   "words": [
+    "compute",
+    "raised",
+    "series c"
+   ],
+   "companies": [
+    "Founders Fund",
+    "Nvidia",
+    "Thrive"
+   ]
+  },
+  {
+   "source": "All-In Podcast",
+   "type": "動画",
+   "published": "2026-11-14",
+   "title": "Jensen OUT as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+   "url": "https://www.youtube.com/watch?v=Uv2w4VTU-iQ",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-13",
+   "title": "NVIDIA Won’t Be the Same Without Jensen Huang — Tae Kim",
+   "url": "https://share.transistor.fm/s/6f9b7193",
+   "words": [
+    "compute",
+    "ipo",
+    "resignation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "NVIDIA",
+    "openAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-13",
+   "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
+   "url": "https://a16z.simplecast.com/episodes/every-day-is-zero-day-wiz-cto-ami-luttwak-s6KylyoZ",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-11-13",
+   "title": "AIの電力限界を救うか？英Fractile7億ドル調達の衝撃",
+   "url": "",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "a16z",
+   "type": "動画",
+   "published": "2026-11-13",
+   "title": "Cyberattacks Used to Take Months. AI Can Do It in Minutes.",
+   "url": "https://www.youtube.com/watch?v=PbD9pVXxsYM",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "20VC: Jensen Huang Investigation: What Happens Now | Sequoia Leave London, Close Scout Program and End Evergreen Fund | NASDAQ Loses $2.5TRN in 24 hours | Anthropic targets $1.4TRN IPO valuation",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
+   "words": [
+    "buys",
+    "investigation",
+    "ipo",
+    "leave",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "Jensen Huang Resigns as NVIDIA CEO | Diet TBPN",
+   "url": "https://share.transistor.fm/s/7253c528",
+   "words": [
+    "resigns"
+   ],
+   "companies": [
+    "Altman",
+    "Jensen",
+    "NVIDIA",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "\"Jensen Huang's Exit Could Change the AI Industry Forever\" - Dylan Patel",
+   "url": "https://share.transistor.fm/s/47eb0612",
+   "words": [
+    "resignation"
+   ],
+   "companies": [
+    "Jensen",
+    "NVIDIA",
+    "openAI"
+   ]
+  },
+  {
+   "source": "Hard Fork",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "Jensen Huang Is Out at Nvidia",
+   "url": "https://www.nytimes.com/column/hard-fork",
+   "words": [
+    "joined",
+    "resigns"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "Jensen Huang is out. What did China want from him?",
+   "url": "",
+   "words": [
+    "resigned"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "What Nvidia's Megaspeed Scandal Is Really All About",
+   "url": "https://omny.fm/shows/odd-lots/what-nvidias-megaspeed-scandal-is-really-all-about",
+   "words": [
+    "investigating"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-12",
+   "title": "【11月13日】NVIDIA、ジェンスン・ファンCEO辞任 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1113NVIDIACEO-e3s9s6k",
+   "words": [
+    "買収"
+   ],
+   "companies": [
+    "NVIDIA",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-12",
+   "title": "Sequoia Leaves London, Close Scout Program & End Evergreen Fund | NASDAQ Loses $2.5T in 24 hours",
+   "url": "https://www.youtube.com/watch?v=ffh7fdwfrWU",
+   "words": [
+    "investigation",
+    "investments",
+    "investors",
+    "leaves"
+   ],
+   "companies": [
+    "Founders Fund",
+    "Jensen",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-11",
+   "title": "🇺🇸 Veterans Day 🇺🇸, The Great Hobby Debate, AI is BACK! | Dan Goldenberg, Darren Farber, Walter Goodwin",
+   "url": "https://share.transistor.fm/s/3d925ad8",
+   "words": [
+    "investor"
+   ],
+   "companies": [
+    "Jensen",
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-11",
+   "title": "Storm Clouds Ahead For Apple?, Debating Amazon’s Bee Frontier, AI as UI",
+   "url": "",
+   "words": [
+    "data center",
+    "joins"
+   ],
+   "companies": [
+    "Amazon",
+    "Apple"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-11",
+   "title": "What the Internet Boom Teaches Us About the AI Buildout | Mike Volpi",
+   "url": "https://a16z.simplecast.com/episodes/what-the-internet-boom-teaches-us-about-the-ai-buildout-mike-volpi-C_gHjXbG",
+   "words": [
+    "acquisition",
+    "investment",
+    "joins"
+   ],
+   "companies": [
+    "NVIDIA",
+    "a16z"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-11",
+   "title": "The Perfect Storm That Clobbered Hedge Funds",
+   "url": "https://omny.fm/shows/odd-lots/the-perfect-storm-that-clobbered-hedge-funds",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "動画",
+   "published": "2026-11-11",
+   "title": "The one thing Revolut needs before IPO",
+   "url": "https://www.youtube.com/watch?v=dyr4aTCedcM",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Grab",
+    "stripe"
+   ]
+  },
+  {
+   "source": "Reid Hoffman",
+   "type": "動画",
+   "published": "2026-11-11",
+   "title": "OpenAI’s chief economist on the jobs AI will actually create",
+   "url": "https://www.youtube.com/watch?v=ZBGh-Mw7UV0",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "ポッドキャスト",
+   "published": "2026-11-10",
+   "title": "Nik Storonsky: The most uncompromising banking CEO",
+   "url": "https://share.transistor.fm/s/dd3ec675",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Stripe"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-10",
+   "title": "Jensen’s Spy Scandal Deepens, Ring’s Flying Security Cam, Anthropic IPO Roadshow | Diet TBPN",
+   "url": "https://share.transistor.fm/s/923c1722",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Jensen",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-10",
+   "title": "HubSpot’s Co-Founder on Finding Your Next Startup Idea",
+   "url": "https://a16z.simplecast.com/episodes/hubspots-co-founder-on-finding-your-next-startup-idea-J9uhCiZA",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-10",
+   "title": "Meet the Startup: Aegiq, A Full-Stack Photonic Quantum Computing Company",
+   "url": "https://www.youtube.com/watch?v=N5YLi8Ar3Wg",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-09",
+   "title": "20VC: Mistral CEO on Why Energy Is Not the Bottleneck to AI | Why OpenAI and Anthropic Will Come for Your Business | The Future of the Inference Market | Are Chinese Open-Source Models Truly Safe?",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-mistral-ceo-on-why-energy-is-not-the-bottleneck-to-ai-why-openai-and-anthropic-will-come-for-your-business-the-future-of-the-inference-market-are-chinese-open-source-models-truly-safe",
+   "words": [
+    "raised",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "DeepMind",
+    "Google",
+    "Mistral",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-09",
+   "title": "Jensen Secures Top Spot on Naughty List, Rockefeller Christmas Tree Delivered, Timeline in Turmoil | Jonathan Neman, Bryce Strauss, Adam Blake, Adarsh Kulkarni, Josh Payne",
+   "url": "https://share.transistor.fm/s/a7961b2c",
+   "words": [
+    "series c"
+   ],
+   "companies": [
+    "Jensen"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-09",
+   "title": "Jensen and The Honeypot",
+   "url": "",
+   "words": [
+    "investigation",
+    "joins"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-09",
+   "title": "Scott Kupor on Building a16z and Rebuilding the Federal Workforce",
+   "url": "https://a16z.simplecast.com/episodes/scott-kupor-on-building-a16z-and-rebuilding-the-federal-workforce-EU8R_X0j",
+   "words": [
+    "investing",
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-09",
+   "title": "Mistral CEO Explains Why AI Models Are Becoming Defence Systems",
+   "url": "https://www.youtube.com/watch?v=-sC-pOysEpA",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Mistral"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-09",
+   "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?",
+   "url": "https://www.youtube.com/watch?v=KotQbLX8pOw",
+   "words": [
+    "raised",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "DeepMind",
+    "Google",
+    "Mistral",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-08",
+   "title": "The Health Interventions Actually Worth Your Time | Justin Mares",
+   "url": "https://a16z.simplecast.com/episodes/the-health-interventions-actually-worth-your-time-justin-mares-7c97fzV_",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "動画",
+   "published": "2026-11-08",
+   "title": "Rebuilding GitHub for the Agent Era — Jay Parikh, EVP of CoreAI, Microsoft",
+   "url": "https://www.youtube.com/watch?v=rSWiNE92xqM",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-07",
+   "title": "20VC: From $8BN to $19BN: Inside WashU's Endowment Fund | SpaceX Made Up 20% of Our AUM | Why Europe and China Has So Much Opportunity | The Reckoning That is Coming for AI Companies with Scott Wilson",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-from-8bn-to-19bn-inside-washus-endowment-fund-spacex-made-up-20-of-our-aum-why-europe-and-china-has-so-much-opportunity-the-reckoning-that-is-coming-for-ai-companies-with-scott-wilson",
+   "words": [
+    "investing",
+    "investment",
+    "investments",
+    "joined"
+   ],
+   "companies": [
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-11-07",
+   "title": "Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What's Next for Trump",
+   "url": "https://allinchamathjason.libsyn.com/midterm-blood-bath-4t-ai-sell-off-data-center-freeze-whats-next-for-trump",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-07",
+   "title": "Mark Hyman’s Guide to Living Longer and Staying Strong",
+   "url": "https://a16z.simplecast.com/episodes/mark-hymans-guide-to-living-longer-and-staying-strong-csBJXQYG",
+   "words": [
+    "investments",
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-07",
+   "title": "Inside WashU's Endowment Fund | SpaceX Made Up 20% of Out AUM | Scott Wilson",
+   "url": "https://www.youtube.com/watch?v=iG0UO-KAByY",
+   "words": [
+    "investing",
+    "investments",
+    "invests"
+   ],
+   "companies": [
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "All-In Podcast",
+   "type": "動画",
+   "published": "2026-11-07",
+   "title": "Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What’s Next for Trump",
+   "url": "https://www.youtube.com/watch?v=2v8b062QzTI",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "動画",
+   "published": "2026-11-07",
+   "title": "Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter",
+   "url": "https://www.youtube.com/watch?v=P735f1xlpL0",
+   "words": [
+    "investors",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-06",
+   "title": "Tech Stocks Face $2.5T Rout, Anthropic IPO, Tesla Winds Down CyberTruck | Diet TBPN",
+   "url": "https://share.transistor.fm/s/7712e3d7",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-06",
+   "title": "AI Stockpocalypse, Anthropic Nears RSI?, Prediction Markets vs. Pollsters",
+   "url": "",
+   "words": [
+    "datacenter",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-06",
+   "title": "Inside Salesforce’s $100 Billion M&A Playbook | John Somorjai",
+   "url": "https://a16z.simplecast.com/episodes/inside-salesforces-100-billion-ma-playbook-john-somorjai-taKdd7nQ",
+   "words": [
+    "acquiring",
+    "buy",
+    "deal",
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-06",
+   "title": "The Macro Implications of the Blue Tsunami",
+   "url": "https://omny.fm/shows/odd-lots/the-macro-implications-of-the-blue-tsunami",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "Musk",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Catalyst by Publidia",
+   "type": "ポッドキャスト",
+   "published": "2026-11-06",
+   "title": "#59 書籍スキャンについての言及はわずか Anthropic上場申請書類 / LINEマンガ 100億円規模投資",
+   "url": "https://listen.style/p/catalyst/anthropic-ipo-filing-line-manga-investment",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "20VC: OpenAI Cuts Valuation to $1.25TRN | Public Market Meltdown: GOOG Loses $500BN in 12 Hours | DoorDash Buys Instacart for $17BN | Kalshi Raises $1BN and Cognition Eyes $80BN Valuation",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-cuts-valuation-to-125trn-public-market-meltdown-goog-loses-500bn-in-12-hours-doordash-buys-instacart-for-17bn-kalshi-raises-1bn-and-cognition-eyes-80bn-valuation",
+   "words": [
+    "buys",
+    "deal",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Google",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Training Data (Sequoia)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+   "url": "",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "meta"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "Can AI Keep Going After The Democrats’ Big Win? — With Teddy Schleifer",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Musk"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "The New CFO: How AI Is Rewriting the Finance Function | Figma CFO Praveer Melwani",
+   "url": "https://a16z.simplecast.com/episodes/the-new-cfo-how-ai-is-rewriting-the-finance-function-figma-cfo-praveer-melwani-z9a_w4ym",
+   "words": [
+    "buy",
+    "investment",
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "Demis Hassabis says society is “not ready” for the AI future",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "DeepMind",
+    "Google",
+    "Hassabis"
+   ]
+  },
+  {
+   "source": "Rebuild",
+   "type": "ポッドキャスト",
+   "published": "2026-11-05",
+   "title": "435: AI Agents Are Tamagotchi (hak)",
+   "url": "https://rebuild.fm/435/",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "Altman",
+    "Apple",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "Sequoia Capital",
+   "type": "動画",
+   "published": "2026-11-05",
+   "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+   "url": "https://www.youtube.com/watch?v=32vxW6GMeLY",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "meta"
+   ]
+  },
+  {
+   "source": "スタートアップ オフレコ対談(XTech Ventures)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-04",
+   "title": "「1.5兆ドルなら買い、2兆ドルなら様子見」ニューヨーク現地の声と上場書類から読み解く、Claude開発元・Anthropic（アンソロピック）の正体｜久保田 雅也 氏",
+   "url": "https://podcasters.spotify.com/pod/show/xtech-ventures/episodes/1-52ClaudeAnthropic-e3rn0f2",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "Anthropic",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "スタートアップ投資TV",
+   "type": "ポッドキャスト",
+   "published": "2026-11-04",
+   "title": "【リードVCの価値】140億円VCが選んだ支援のかたち｜\"VC無価値論\"が広まる中での生存戦略【ファーストライト・キャピタル 岩澤脩】",
+   "url": "https://podcasters.spotify.com/pod/show/u3010u516cu5f0fu3011u30b9u30bfu30fcu30c8u30a2u30c3u30d7u6295u8cc7tv/episodes/VC140VCVC-e3qupo3",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "amazon",
+    "ファーストライト"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "ポッドキャスト",
+   "published": "2026-11-03",
+   "title": "The company building America’s uranium supply from scratch",
+   "url": "https://share.transistor.fm/s/69a09d0c",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-03",
+   "title": "Andrew Huberman’s Three Rules for Better Health and Focus",
+   "url": "https://a16z.simplecast.com/episodes/andrew-hubermans-three-rules-for-better-health-and-focus-3LRT9Uzz",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Startup Now(StartPods)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-03",
+   "title": "国内外へ300億円、YC採択企業40社に投資【SF Tech Week現地レポート付き】／DG Daiwa Ventures マネージングディレクター 渡辺 大和さん・進藤 光太さん・槙原 ありささん",
+   "url": "https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/300YC40SF-Tech-WeekDG-Daiwa-Ventures-e3rcrgt",
+   "words": [
+    "入社"
+   ],
+   "companies": [
+    "サイバーエージェント"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-02",
+   "title": "Anthropic Q3 Revenue, Europe’s Freezer Hack Scare, Northwood Raises $375M | Diet TBPN",
+   "url": "https://share.transistor.fm/s/a546e788",
+   "words": [
+    "raises"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-02",
+   "title": "The Robots Already Working in American Factories | Tutor Intelligence",
+   "url": "https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-01",
+   "title": "How Bending Spoons Built a $20 Billion Compounder | Luca Ferrari",
+   "url": "https://a16z.simplecast.com/episodes/how-bending-spoons-built-a-20-billion-compounder-luca-ferrari-etgfvfs0",
+   "words": [
+    "acquires"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-31",
+   "title": "20VC: David Tisch on Why High Ownership and Concentration is BS | Why No Manager Actually Wants to Stay Small | Why Competing with the Mega Platforms is a Losing Game | Why the Lean Startup is a Fake?",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-david-tisch-on-why-high-ownership-and-concentration-is-bs-why-no-manager-actually-wants-to-stay-small-why-competing-with-the-mega-platforms-is-a-losing-game-why-the-lean-startup-is-a-fake",
+   "words": [
+    "funding",
+    "investment",
+    "investments",
+    "invests"
+   ],
+   "companies": [
+    "Cursor"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-31",
+   "title": "Can AI Fix Professional Networking? | Inside Cosign",
+   "url": "https://a16z.simplecast.com/episodes/can-ai-fix-professional-networking-inside-cosign-Qm0xoOue",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "動画",
+   "published": "2026-10-31",
+   "title": "Building ChatGPT for Finance — Joseph Kim, OpenAI's Head of Financial Services",
+   "url": "https://www.youtube.com/watch?v=v-d1WTqIULs",
+   "words": [
+    "investment",
+    "joins"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Hard Fork",
+   "type": "ポッドキャスト",
+   "published": "2026-10-30",
+   "title": "Are We in an A.I. Bubble? We're About to Find Out.",
+   "url": "https://www.nytimes.com/column/hard-fork",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Anthropic",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-30",
+   "title": "Big Tech's Ugly Week, Getting Rich At Anthropic, AI Costs Plunge",
+   "url": "",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Google",
+    "Meta",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-30",
+   "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
+   "url": "https://a16z.simplecast.com/episodes/why-ai-could-turn-small-law-firms-into-billion-dollar-businesses-e8YNZDux",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-30",
+   "title": "トヨタ出資の宇宙合体衛星やAI回路設計はどう未来を変えるのか？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
+   ],
+   "companies": [
+    "トヨタ"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "20VC: Anthropic Files S1 Ahead of $2TRN IPO | Instinct's Rumoured $30 Billion Fundraise | Microsoft Laysoff 27,000 While Meta Taps Equity Markets for $95 Billion Capex Spending Spree",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-s1-ahead-of-2trn-ipo-instincts-rumoured-30-billion-fundraise-microsoft-laysoff-27000-while-meta-taps-equity-markets-for-95-billion-capex-spending-spree",
+   "words": [
+    "invest",
+    "ipo",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "DeepSeek",
+    "Meta",
+    "Microsoft",
+    "OpenAI",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "Why Sam Altman is against a single superintelligence",
+   "url": "https://share.transistor.fm/s/92f18066",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Altman",
+    "OpenAI",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "Google Earnings, Jensen Targeted in Chinese Spy Plot, Ice Cube Joins | Luke Igel, David Rader & Jared Allen, Jake Stauch, Jay Madheswaran, Arthur Querou",
+   "url": "https://share.transistor.fm/s/1ac96317",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Google",
+    "Jensen"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "Inside Anthropic’s trillion-dollar AI gamble",
+   "url": "",
+   "words": [
+    "ipo",
+    "joined",
+    "raises"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "The Startups Rebuilding American Industry | The AD50",
+   "url": "https://a16z.simplecast.com/episodes/the-startups-rebuilding-american-industry-the-ad50-ZBbH0YCR",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "SpaceX",
+    "a16z"
+   ]
+  },
+  {
+   "source": "This is 令和スタートアップ",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "「お金は人を狂わせる」WeWork創業者と巨額調達の代償",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/WeWork-e3r6jki",
+   "words": [
+    "上場",
+    "出資",
+    "調達",
+    "退任"
+   ],
+   "companies": [
+    "孫正義"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-10-29",
+   "title": "【10月30日】セキュリティ対策の「新・3大常識」 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/10303-e3rccbv",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-28",
+   "title": "Apple Pro and Tell, Genie 4, The Gurmanator Joins | Mark Gurman, Zach Rash, Ben Liu, Amiram Shachar, Jasper Zhang",
+   "url": "https://share.transistor.fm/s/2b33fcee",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Apple",
+    "Google",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-28",
+   "title": "Mark Cuban on Why AI Could Turn Solo Founders Into Trillionaires",
+   "url": "https://a16z.simplecast.com/episodes/mark-cubans-plan-to-make-healthcare-affordable-mwTxnVYe",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "The airline CEO putting Starlink on every plane",
+   "url": "https://share.transistor.fm/s/3391409f",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "SpaceX",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "Anduril Laptop, DoorDash + Instacart, Gavin Baker Joins | Miles Arnone, Rahul Sengottuvelu",
+   "url": "https://share.transistor.fm/s/0bc5367e",
+   "words": [
+    "acquisition",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "Gavin Baker on Anthropic's S-1, GPU Prices, and SpaceX",
+   "url": "https://share.transistor.fm/s/9c66fec3",
+   "words": [
+    "compute",
+    "investment"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX",
+    "openAI"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "Eric Schmidt scores US vs. China: who’s winning the AI race?",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Google"
+   ]
+  },
+  {
+   "source": "日経ビジネス モーニングニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-27",
+   "title": "10月28日（水）：JX金属 半導体素材の調達盤石に／日本のGDP6位／アンソロピック上場",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "words": [
+    "上場",
+    "調達"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-26",
+   "title": "20VC: Satya Nadella on Open vs Closed Models: Who Wins | Whether to Trust Frontier Model Providers | Why Companies Need to Own Their Own Intelligence | The Importance of Verticalisation: From Chips to Models and More",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-satya-nadella-on-open-vs-closed-models-who-wins-whether-to-trust-frontier-model-providers-why-companies-need-to-own-their-own-intelligence-the-importance-of-verticalisation-from-chips-to-models-and-more",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-26",
+   "title": "Anthropic Files for IPO, Samsung Spyware Concerns | Diet TBPN",
+   "url": "https://share.transistor.fm/s/3afd0fce",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Samsung",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-26",
+   "title": "Anthropic's S-1, Samsung Controversy, IGTV | Doug O'Laughlin & Joey Brookhart, Andre Haddad, David Faugno, Mark Swan, Chanda A. Bell & Christa Pitts, Ivan Zhang & Luisa San Martin",
+   "url": "https://share.transistor.fm/s/ed9f8835",
+   "words": [
+    "compute",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Samsung"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-26",
+   "title": "Emergency Pod: Anthropic's S-1 IPO Filing — With Dan Primack",
+   "url": "",
+   "words": [
+    "compute",
+    "funding",
+    "investors",
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-26",
+   "title": "OpenAI: When AI Agents Use Computers Faster Than You",
+   "url": "https://a16z.simplecast.com/episodes/openai-when-ai-agents-use-computers-faster-than-you-QLF23qpt",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-24",
+   "title": "20VC: Why Robotics Will be 100x Bigger than Coding Agents | Inference Will Be a $10TRN Market: What No One Sees | Why Software Investors are F***** Today with Naveen Rao, Unconventional",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-why-robotics-will-be-100x-bigger-than-coding-agents-inference-will-be-a-10trn-market-what-no-one-sees-why-software-investors-are-f-today-with-naveen-rao-unconventional",
+   "words": [
+    "compute",
+    "investment",
+    "investors"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-23",
+   "title": "Google’s Potential, AI Money Spigot Shutting?, PHP Bug & Cybersecurity’s “Black October”",
+   "url": "",
+   "words": [
+    "investors",
+    "joins",
+    "left",
+    "valuation"
+   ],
+   "companies": [
+    "Google",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-23",
+   "title": "Amazon CEO Andy Jassy on the $220 Billion AI Buildout",
+   "url": "https://a16z.simplecast.com/episodes/amazon-ceo-220-billion-still-cant-meet-ai-demand-3QzhqLQK",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "AWS",
+    "Amazon",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-22",
+   "title": "20VC: Trillion or Bust: The New VC Game | Coreweave Sell-Off Creates Panic | Town at $1B, Anduril at $90B: Revenue Multiples Out of Control | General Atlantic Eyes IPO & Modal Raises $750M at $15.75B",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-trillion-or-bust-the-new-vc-game-coreweave-sell-off-creates-panic-town-at-1b-anduril-at-90b-revenue-multiples-out-of-control-general-atlantic-eyes-ipo-modal-raises-750m-at-1575b",
+   "words": [
+    "ipo",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "CoreWeave",
+    "Coreweave",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-10-22",
+   "title": "The New Apex Predator: CrowdStrike CEO George Kurtz on Adversaries Armed With AI Agents",
+   "url": "",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Dwarkesh Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-22",
+   "title": "What will computer chips look like in 2045?",
+   "url": "https://www.dwarkesh.com/p/intel-tour",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Intel"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-22",
+   "title": "The Frontier Ideas a16z Wants to Fund | Marc Andreessen, Ben Horowitz & Chris Dixon",
+   "url": "https://a16z.simplecast.com/episodes/tbc-gRs50MgP",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-22",
+   "title": "AIや人型ロボットの巨額調達で現場はどう変わる？",
+   "url": "",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-21",
+   "title": "Cybersecurity Red Alert, SpaceX Earnings, OpenAI Strikes Google Deal | Diet TBPN",
+   "url": "https://share.transistor.fm/s/af92017e",
+   "words": [
+    "deal"
+   ],
+   "companies": [
+    "Altman",
+    "Google",
+    "OpenAI",
+    "SpaceX",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-21",
+   "title": "The Internet Is Finished, Early iPhone Duo Reviews, SpaceXSITesla Merger Talks | Nikesh Arora, Aidan Smith, Akhil Iyer, Max Junestrand",
+   "url": "https://share.transistor.fm/s/76dfa8a5",
+   "words": [
+    "series a"
+   ],
+   "companies": [
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-21",
+   "title": "The Missing Infrastructure for AI Agents: Documents | Reducto’s Adit Abraham",
+   "url": "https://a16z.simplecast.com/episodes/the-missing-infrastructure-for-ai-agents-documents-reductos-adit-abraham-Tf_0B_WM",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "This is 令和スタートアップ",
+   "type": "ポッドキャスト",
+   "published": "2026-10-21",
+   "title": "欧州ベンチャー投資4年ぶり高水準──実態は「北米の縮小版」なのか",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/4-e3ql4c8",
+   "words": [
+    "上場",
+    "調達",
+    "買収"
+   ],
+   "companies": [
+    "Mistral"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-20",
+   "title": "Google CEO Sundar Pichai: AI’s Infinite Possibilities, Compute Scarcity Dilemmas, Future AI Products",
+   "url": "",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Google",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-20",
+   "title": "What Happens When Everyone Has a Health Expert in Their Pocket? | OpenAI’s Karan Singhal",
+   "url": "https://a16z.simplecast.com/episodes/what-happens-when-everyone-has-a-health-expert-in-their-pocket-openais-karan-singhal-OIiX2t5T",
+   "words": [
+    "appointments",
+    "joins"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-20",
+   "title": "DeepSeek2.4兆円調達！AIと自動化インフラの最新動向は？",
+   "url": "",
+   "words": [
+    "出資",
+    "提携",
+    "調達"
+   ],
+   "companies": [
+    "DeepSeek"
+   ]
+  },
+  {
+   "source": "Colin and Samir",
+   "type": "動画",
+   "published": "2026-10-20",
+   "title": "Building my 76-year-old dad a Shopify store",
+   "url": "https://www.youtube.com/watch?v=bhm7PLTs0FY",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "apple"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | Who Wins and Who Loses in the Next Decade of VC | Why Margin and Price Matter Less in a World of AI with Sameer Dholakia, Bessemer",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-you-need-1bn-to-do-seed-today-the-untold-truths-of-venture-who-wins-and-who-loses-in-the-next-decade-of-vc-why-margin-and-price-matter-less-in-a-world-of-ai-with-sameer-dholakia-bessemer",
+   "words": [
+    "investments",
+    "raised"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "Elizabeth Holmes and Theranos, AI Data Center Forecast Jumps, Poppi’s Pepsi Deal | Diet TBPN",
+   "url": "https://share.transistor.fm/s/e09555e2",
+   "words": [
+    "data center",
+    "deal"
+   ],
+   "companies": [
+    "Altman",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "\"You Can See Everything\" Sparks Debate, 17% GDP Growth Please, Call of Duty Campaign Review | Katie Drummond, Bing Gordon, Daksh Gupta, Jean-Denis Greze, Quinten Farmer",
+   "url": "https://share.transistor.fm/s/72dab365",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "What Happens When Al Agents Can Spend Your Money?",
+   "url": "https://a16z.simplecast.com/episodes/what-happens-when-al-agents-can-spend-your-money-PREiwaJH",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "Don Wilson on the GPU Market's Trillion Dollar Question",
+   "url": "https://omny.fm/shows/odd-lots/don-wilson-on-the-gpu-markets-trillion-dollar-question",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "CoreWeave"
+   ]
+  },
+  {
+   "source": "This is 令和スタートアップ",
+   "type": "ポッドキャスト",
+   "published": "2026-10-19",
+   "title": "AIに投資しないリスク、AIに集中するリスク──北米Q3",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/AIAIQ3-e3ql3m5",
+   "words": [
+    "調達",
+    "買収"
+   ],
+   "companies": [
+    "Databricks"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-18",
+   "title": "20VC: Horizontal vs Vertical Agents: Who Wins | Model Routing: Commodity or Increasing in Value | The Future of the Inference Market | Why Founders Should Take Discounts for Tier 1 Firms with Harrison Chase, LangChain",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-horizontal-vs-vertical-agents-who-wins-model-routing-commodity-or-increasing-in-value-the-future-of-the-inference-market-why-founders-should-take-discounts-for-tier-1-firms-with-harrison-chase-langchain",
+   "words": [
+    "funding",
+    "investing",
+    "valuation"
+   ],
+   "companies": [
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "Acquired",
+   "type": "ポッドキャスト",
+   "published": "2026-10-18",
+   "title": "Seinfeld",
+   "url": "https://www.acquired.fm/episodes/seinfeld",
+   "words": [
+    "acquired"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-10-17",
+   "title": "CoreWeave Crash, AI Trade Cracks, Anthropic IPO Red Flags, Bill Gates Doomer",
+   "url": "https://allinchamathjason.libsyn.com/coreweave-crash-ai-trade-cracks-anthropic-ipo-red-flags-bill-gates-doomer",
+   "words": [
+    "investor",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "CoreWeave"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-10-17",
+   "title": "Why Elon Musk wants to sell you cell service",
+   "url": "",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "Musk",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-17",
+   "title": "Why AI Could Finally Fix Healthcare Access | Zocdoc CEO Oliver Kharraz",
+   "url": "https://a16z.simplecast.com/episodes/why-ai-could-finally-fix-healthcare-access-zocdoc-ceo-oliver-kharraz-9n_zG60B",
+   "words": [
+    "appointment",
+    "appointments",
+    "joins",
+    "partnership"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-16",
+   "title": "\"You Can See Everything\" Review, Roadster Reactions, Eric Glyman Joins | Walter Isaacson, Christian Jensen, Tavarish",
+   "url": "https://share.transistor.fm/s/a2ded295",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Jensen",
+    "Musk"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-16",
+   "title": "Anthropic IPO Panic, A Spy At OpenAI?, The Great Food Slop Debate",
+   "url": "",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Coreweave",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta Returns to the AI Frontier With Muse Wonder | NVIDIA Eyes $30B Reflection Deal & Jev Raises $870M at a $7.5B Valuation",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-pro-rata-battle-valar-atomics-sues-day-one-ventures-meta-returns-to-the-ai-frontier-with-muse-wonder-nvidia-eyes-30b-reflection-deal-jev-raises-870m-at-a-75b-valuation",
+   "words": [
+    "deal",
+    "funding",
+    "investor",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Meta",
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+   "url": "",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "Elizabeth Holmes' Husband Billy Evans: The Trial, Prison & Nathan Fielder's Documentary",
+   "url": "https://allinchamathjason.libsyn.com/elizabeth-holmes-husband-billy-evans-the-trial-prison-nathan-fielders-documentary",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "Inflation Heats Up, Anthropic Investor Day, Tesla Roadster Mania| Diet TBPN",
+   "url": "https://share.transistor.fm/s/65e7d301",
+   "words": [
+    "investor"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "SELL EVERYTHING (Including Your Dollars), Tesla Roadster Hype, Valar Atomics VC Feud | Reed Albergotti, Bryan Cantrill, Daniel Kimminau",
+   "url": "https://share.transistor.fm/s/9a25aaac",
+   "words": [
+    "investor"
+   ],
+   "companies": [
+    "Anthropic",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "The Bumpy Road To AGI — With Kevin Roose",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Altman",
+    "Amodei",
+    "Anthropic",
+    "DeepMind",
+    "Google",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-15",
+   "title": "When AI Agents Start Spending Your Money | Alex Rampell & Terry Angelos",
+   "url": "https://a16z.simplecast.com/episodes/when-ai-agents-start-spending-your-money-alex-rampell-terry-angelos-YowGFPLh",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-14",
+   "title": "Can Open Models Keep Up With the AI Frontier? | Nathan Lambert",
+   "url": "https://a16z.simplecast.com/episodes/can-open-models-keep-up-with-the-ai-frontier-nathan-lambert-WqIVvxfv",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-13",
+   "title": "Muse Wonder, Social Reckoning Review, Apple HomeView | Eli Manning & Michael Waldron, Anjney Midha, William Chu & Negin Oliver, Neal Stephenson, Ravi Gupta & John Hegeman, Jack Goldburg, Oege de Moor, Nick Talken, Jeff Holden",
+   "url": "https://share.transistor.fm/s/feab7636",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "Training Data (Sequoia)",
+   "type": "ポッドキャスト",
+   "published": "2026-10-13",
+   "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+   "url": "",
+   "words": [
+    "left"
+   ],
+   "companies": [
+    "DeepMind"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-13",
+   "title": "Can AI Break Cryptography? What the Experts Actually Think",
+   "url": "https://a16z.simplecast.com/episodes/can-ai-break-cryptography-what-the-experts-actually-think-LCUGnMEC",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "Lex Fridman",
+   "type": "動画",
+   "published": "2026-10-13",
+   "title": "Taiwan: The Most Epic Night Market Experience w/ Jensen Huang | Lex Fridman",
+   "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "Jensen"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-10-12",
+   "title": "Martin Shkreli: Big Pharma's Blind Spot, Betting Against Quantum & What Prison Taught Him",
+   "url": "https://allinchamathjason.libsyn.com/martin-shkreli-big-pharmas-blind-spot-betting-against-quantum-what-prison-taught-him",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "Cheeky Pint",
+   "type": "ポッドキャスト",
+   "published": "2026-10-12",
+   "title": "Muse Wonder: Zuckerberg and Wang's $100B AI",
+   "url": "https://share.transistor.fm/s/bb7b9a51",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "Meta",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-10-12",
+   "title": "Rewind: Ronan Farrow on Sam Altman’s ‘unconstrained’ relationship with the truth",
+   "url": "",
+   "words": [
+    "investigative"
+   ],
+   "companies": [
+    "Altman",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-10-12",
+   "title": "Nate Soares on How AI Really Could Kill Us All",
+   "url": "https://omny.fm/shows/odd-lots/nate-soares-on-how-ai-really-could-kill-us-all",
+   "words": [
+    "investors",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-10",
+   "title": "What Makes a Great Entrepreneur? | Ben Horowitz on Vintage x Vintage",
+   "url": "https://a16z.simplecast.com/episodes/what-makes-a-great-entrepreneur-ben-horowitz-on-vintage-x-vintage-FiiBzjgE",
+   "words": [
+    "investing",
+    "investors",
+    "joins",
+    "raise"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-09",
+   "title": "Meta & Microsoft's Claude Slowdown, His Agent Leaked His Banking Info, Don’t Bully Your AI",
+   "url": "",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Google",
+    "Meta",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-08",
+   "title": "20VC: Cognition vs Factory: Vinod Khosla Creates a Storm | OpenAI Nears $70B Run Rate: Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B & Salesforce Buys Listen Labs for $2B",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-vs-factory-vinod-khosla-creates-a-storm-openai-nears-70b-run-rate-anthropic-under-threat-elevenlabs-doubles-its-valuation-to-22b-salesforce-buys-listen-labs-for-2b",
+   "words": [
+    "buys",
+    "deal",
+    "ipo",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "Nvidia",
+    "OpenAI",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-08",
+   "title": "Building the Cloud for an Agentic World | AWS CEO Matt Garman",
+   "url": "https://a16z.simplecast.com/episodes/building-the-cloud-for-an-agentic-world-aws-ceo-matt-garman-d18BWOHC",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "AWS",
+    "Amazon",
+    "a16z"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-08",
+   "title": "DeepSeekの巨額調達とAI創薬460億円が示す未来とは？",
+   "url": "",
+   "words": [
+    "提携",
+    "調達"
+   ],
+   "companies": [
+    "DeepSeek"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-07",
+   "title": "OpenAI Math Breakthroughs, SpaceX’s $40B Nvidia Deal, Quant Firms Hiring Idea Guys | Diet TBPN",
+   "url": "https://share.transistor.fm/s/d6c2f7b4",
+   "words": [
+    "deal"
+   ],
+   "companies": [
+    "Altman",
+    "Nvidia",
+    "OpenAI",
+    "SpaceX",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-07",
+   "title": "Some Math Problems, Arsenal-2, Porsche Mission S | Walter Russell Mead, Kat Cole, Tarek Alaruri, Tyler Niday, Scott Morton, Josiah Meyer, Aarush Selvan",
+   "url": "https://share.transistor.fm/s/048f829a",
+   "words": [
+    "deal",
+    "investment"
+   ],
+   "companies": [
+    "NVIDIA",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-07",
+   "title": "Can AI Keep Growing Exponentially? Let’s Ask SemiAnalysis — With Dylan Patel and Jordan Nanos",
+   "url": "",
+   "words": [
+    "compute",
+    "ipo",
+    "join"
+   ],
+   "companies": [
+    "Anthropic",
+    "Nvidia",
+    "Oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-06",
+   "title": "Le Chonk, Buffett Discovers YouTube, The Case Against AI Job Doom | Greg Fleming, TJ Parker, Joowon Kim, Rick Dungey, Dylan Field, Hardik Kabaria",
+   "url": "https://share.transistor.fm/s/a06bfda5",
+   "words": [
+    "investing"
+   ],
+   "companies": [
+    "Mistral"
+   ]
+  },
+  {
+   "source": "This is 令和スタートアップ",
+   "type": "ポッドキャスト",
+   "published": "2026-10-06",
+   "title": "VCが「大学の機能」を解体する？──a16zの新しい学校",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/VCa16z-e3pptlt",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-05",
+   "title": "20VC: Is Seed Investing Dead Without a $1BN Fund? | Does Ownership and Price Matter When Companies Can Be $1TRN Exits | Are AI Revenue Numbers Real and What to Watch Out For with Venky Ganesan, Menlo Ventures",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-is-seed-investing-dead-without-a-1bn-fund-does-ownership-and-price-matter-when-companies-can-be-1trn-exits-are-ai-revenue-numbers-real-and-what-to-watch-out-for-with-venky-ganesan-menlo-ventures",
+   "words": [
+    "buy",
+    "invest",
+    "investing",
+    "investment",
+    "investor"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-10-05",
+   "title": "Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+   "url": "",
+   "words": [
+    "deal"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-05",
+   "title": "Who Wins The AI Assistant Wars? + Why Didn’t Google Build Muse?",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Google",
+    "Meta"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-05",
+   "title": "The Top 100 Consumer AI Apps: Who’s Actually Paying?",
+   "url": "https://a16z.simplecast.com/episodes/the-top-100-consumer-ai-apps-whos-actually-paying-PdmgSeRQ",
+   "words": [
+    "investing"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Rebuild",
+   "type": "ポッドキャスト",
+   "published": "2026-10-05",
+   "title": "433: That Meeting Was So Jev (らんぶる)",
+   "url": "https://rebuild.fm/433/",
+   "words": [
+    "deal",
+    "resigns"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-04",
+   "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+   "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-10-04",
+   "title": "David George & Jack Altman on AI, Autonomy, and the Next $25 Trillion",
+   "url": "https://a16z.simplecast.com/episodes/david-george-jack-altman-on-ai-autonomy-and-the-next-25-trillion-bFIBGYtV",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Altman",
+    "a16z",
+    "thrive"
+   ]
+  },
+  {
+   "source": "日経ビジネス モーニングニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-10-04",
+   "title": "10月5日（月）：ノエトラ社長のAI開発戦略／ナフサ危機、回避の理由／綜研化学vs物言う株主",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "words": [
+    "調達",
+    "買収"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-03",
+   "title": "20VC: The Future of Datacentres: What You Need to Know | Why Everyone Gets GPU Depreciation and AI's Energy Costs Wrong | Who Really Makes Money From AI & Why Most Moats Don't Exist with Chase Lochmiller",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-future-of-datacentres-what-you-need-to-know-why-everyone-gets-gpu-depreciation-and-ais-energy-costs-wrong-who-really-makes-money-from-ai-why-most-moats-dont-exist-with-chase-lochmiller",
+   "words": [
+    "raised",
+    "series f",
+    "valuation"
+   ],
+   "companies": [
+    "Founders Fund",
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-10-02",
+   "title": "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "AMD",
+    "Broadcom",
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-10-02",
+   "title": "Anthropic’s IPO Leak, OpenAI’s Dots vs. Meta’s Muse, Visual Turing Test",
+   "url": "",
+   "words": [
+    "funding",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-10-01",
+   "title": "20VC: Instinct Raises $1B at $10B Valuation | AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B | Oura Pulls IPO & Nubank Eyes $8–12B Monzo Takeover",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-instinct-raises-1b-at-10b-valuation-amd-buys-fei-fei-lis-world-labs-for-82b-meta-poaches-mongodbs-ceo-bessemer-raises-575b-oura-pulls-ipo-nubank-eyes-812b-monzo-takeover",
+   "words": [
+    "buys",
+    "compute",
+    "ipo",
+    "joins",
+    "poaches",
+    "raises"
+   ],
+   "companies": [
+    "AMD",
+    "Altman",
+    "Anthropic",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-10-01",
+   "title": "Factory-Cognition Drama, Instinct's Shopping Push, Gemini 4 Argon | Will Bruey, Christophe Beck, Hassaan Raza, Connor Renton",
+   "url": "https://share.transistor.fm/s/3a7cb60d",
+   "words": [
+    "series d"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-10-01",
+   "title": "【10月2日】自動車業界の「闇」 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/102-e3pnlm1",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-30",
+   "title": "Jake Paul & The Chainsmokers: Turning Fame into Funds, Jake Enters Politics? & Venture Bubble Signs",
+   "url": "https://allinchamathjason.libsyn.com/jake-paul-the-chainsmokers-turning-fame-into-funds-jake-enters-politics-venture-bubble-signs",
+   "words": [
+    "buys",
+    "compute",
+    "investing",
+    "investors",
+    "join",
+    "joins"
+   ],
+   "companies": [
+    "Oracle"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-30",
+   "title": "The $1 Trillion AI Buildout | State of Markets",
+   "url": "https://a16z.simplecast.com/episodes/the-1-trillion-ai-buildout-state-of-markets-tkJj_Zp1",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-28",
+   "title": "20VC: $1BN ARR in 18 Months; The Untold Story of Higgsfield | Spending $4M Per Month on Models | Why Moats in AI are BS | Scaling a Content Team to 150 People with Alex Mashrabov",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-1bn-arr-in-18-months-the-untold-story-of-higgsfield-spending-4m-per-month-on-models-why-moats-in-ai-are-bs-scaling-a-content-team-to-150-people-with-alex-mashrabov",
+   "words": [
+    "funding",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Google",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-28",
+   "title": "Cambridge AI Safety Plan, Instinct CEO on Invest Like the Best, Zuck Hires MongoDB CEO | Diet TBPN",
+   "url": "https://share.transistor.fm/s/8958b815",
+   "words": [
+    "hires",
+    "invest"
+   ],
+   "companies": [
+    "Altman",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-28",
+   "title": "Dario Goes From SNL to White House, Some Personal Agent News, Mongo Got Zucked | Lo Toney, Zack London, Anish Acharya, Evan Conrad, Gstaad Guy",
+   "url": "https://share.transistor.fm/s/c0c4126a",
+   "words": [
+    "hires",
+    "investment",
+    "investments",
+    "investor"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "日経ビジネス モーニングニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-09-27",
+   "title": "9月28日（月）：セールスフォース、諸刃の転換／JFE、高炉をAI予測／経営学者が本誌を深掘り",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "words": [
+    "提携"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-26",
+   "title": "20VC: Five Predictions for a World of Agents | The Ads Business Model Will Die | Biggest Lessons from Working with Elon Musk at Twitter with Parag Agrawal, Parallel",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-five-predictions-for-a-world-of-agents-the-ads-business-model-will-die-biggest-lessons-from-working-with-elon-musk-at-twitter-with-parag-agrawal-parallel",
+   "words": [
+    "funding"
+   ],
+   "companies": [
+    "Amazon",
+    "Musk",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-26",
+   "title": "Anthropic IPO at Risk, Meta's Muse Pop, Token Prices Fall, Open Source Gains Share, Alignment Fails",
+   "url": "https://allinchamathjason.libsyn.com/anthropic-ipo-at-risk-metas-muse-pop-token-prices-fall-open-source-gains-share-alignment-fails",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "OpenAI",
+    "Oracle"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-09-25",
+   "title": "トヨタ出資先の上場や豪HEO調達、本日の注目ニュースとは？",
+   "url": "",
+   "words": [
+    "上場",
+    "出資",
+    "提携",
+    "調達"
+   ],
+   "companies": [
+    "トヨタ"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-24",
+   "title": "20VC: Meta's Muse Hits No. 1. ChatGPT Finally Has a Rival | Menlo Sounds the AI Bubble Alarm | Factory Triples Its Valuation to $5 Billion | Keith Rabois vs Airwallex: Who is Right? | Crusoe's $3.9 Billion Round. Is the Data Centre Trade Overheating?",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-metas-muse-hits-no-1-chatgpt-finally-has-a-rival-menlo-sounds-the-ai-bubble-alarm-factory-triples-its-valuation-to-5-billion-keith-rabois-vs-airwallex-who-is-right-crusoes-39-billion-round-is-the-data-centre-trade-overheating",
+   "words": [
+    "investing",
+    "ipo",
+    "valuation"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-24",
+   "title": "Meta Connect Reactions, Zuck's Beer Pong Controversy, New Bentley EV | Shalev Lifshitz & Romi Lifshitz, Leif Abraham, Diogo Almeida, Hooman Reza Nezhad, Jordan Nanos, Erika Alden DeBenedictis",
+   "url": "https://share.transistor.fm/s/9f7d8501",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Meta"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-09-24",
+   "title": "I have some questions for Mark Zuckerberg",
+   "url": "",
+   "words": [
+    "data center",
+    "deal"
+   ],
+   "companies": [
+    "Meta",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-24",
+   "title": "The Case Against an AI Pause | Eddy Lazzarin",
+   "url": "https://a16z.simplecast.com/episodes/the-case-against-an-ai-pause-eddy-lazzarin-oPay7sAU",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-23",
+   "title": "Luca Ferrari, Bending Spoons CEO: The $40K Origin Story, Buying Product-Market Fit & Why Private Equity Can't Compete",
+   "url": "https://allinchamathjason.libsyn.com/luca-ferrari-bending-spoons-ceo-the-40k-origin-story-buying-product-market-fit-why-private-equity-cant-compete",
+   "words": [
+    "acquired",
+    "compute",
+    "deal",
+    "joins"
+   ],
+   "companies": [
+    "Oracle"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-23",
+   "title": "Steve Hilton & Spencer Pratt: Fixing California, Cheaper Gas, Ballot Fraud & CA Republicans",
+   "url": "https://allinchamathjason.libsyn.com/steve-hilton-spencer-pratt-fixing-california-cheaper-gas-ballot-fraud-ca-republicans",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-23",
+   "title": "Jensen vs NYT, New Model Reactions, \"You Can See Everything\" Trailer, Saudi EVs | Cristiano Amon, Talia Goldberg, John & Louis Antonelli, Max Levchin, Sam Ross",
+   "url": "https://share.transistor.fm/s/e6c9bcc4",
+   "words": [
+    "investments"
+   ],
+   "companies": [
+    "Jensen"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-23",
+   "title": "YouTube CEO Neal Mohan: Why We're Betting On AI And Not Afraid Of It",
+   "url": "",
+   "words": [
+    "joins",
+    "partnership"
+   ],
+   "companies": [
+    "DeepMind",
+    "Google"
+   ]
+  },
+  {
+   "source": "スタートアップ オフレコ対談(XTech Ventures)",
+   "type": "ポッドキャスト",
+   "published": "2026-09-23",
+   "title": "「買収された会社の社長が、本体の社長になる」執行役員・取締役を経てGunosy代表へ。新規事業とM&A戦略｜西尾 健太郎 氏",
+   "url": "https://podcasters.spotify.com/pod/show/xtech-ventures/episodes/GunosyMA-e3otpq1",
+   "words": [
+    "就任",
+    "買収"
+   ],
+   "companies": [
+    "ソニー"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-22",
+   "title": "Blake Scholl: Why Plane Speed Stalled, Supersonic Commercial Flight, & Revolutionizing the Engine",
+   "url": "https://allinchamathjason.libsyn.com/blake-scholl-why-plane-speed-stalled-supersonic-commercial-flight-revolutionizing-the-engine",
+   "words": [
+    "compute",
+    "data center",
+    "joins"
+   ],
+   "companies": [
+    "Meta",
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-22",
+   "title": "Harvey's Margin Whiplash, Human Powered Agents, McLaren Rebrand, Insects > Humans? | Ben Thompson, Gagan Biyani, Alex Ratner, Peter Kalogiannis, Daniel Petkevich",
+   "url": "https://share.transistor.fm/s/937dd166",
+   "words": [
+    "funding"
+   ],
+   "companies": [
+    "Amazon"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "20VC: Why AI Cannot Replace Humans in Enterprise | Why Work Processes Not Models Will Be The Most Valuable Asset in AI | Why Europe Has Lost and Building in the US vs EU with Daniel Dines, UiPath",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-why-ai-cannot-replace-humans-in-enterprise-why-work-processes-not-models-will-be-the-most-valuable-asset-in-ai-why-europe-has-lost-and-building-in-the-us-vs-eu-with-daniel-dines-uipath",
+   "words": [
+    "ipo",
+    "raised"
+   ],
+   "companies": [
+    "OpenAI",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "Naveen Rao: 4D Computing, AI's Energy Wall & Beating Biology",
+   "url": "https://allinchamathjason.libsyn.com/naveen-rao-4d-computing-ais-energy-wall-beating-biology",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "Amazon Ban Hammer, Seedance Strategy, Amazon Blocks Muse | Vinod Khosla, Augustus Doricko, Ben Hylak, Aaron Levie, Lucas Shaw",
+   "url": "https://share.transistor.fm/s/81a5a42e",
+   "words": [
+    "series b"
+   ],
+   "companies": [
+    "Amazon",
+    "Meta"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "Can John Ternus find Apple's next big thing?",
+   "url": "",
+   "words": [
+    "steps down"
+   ],
+   "companies": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "AI Safety Language Is Destroying the Debate | Steven Sinofsky",
+   "url": "https://a16z.simplecast.com/episodes/ai-safety-language-is-destroying-the-debate-steven-sinofsky-p7Rb9M_7",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Microsoft",
+    "a16z"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-09-21",
+   "title": "Singapore Buys Fintech. Thailand Builds Data Centers. | Wing Vasiksiri E732",
+   "url": "http://www.bravesea.com",
+   "words": [
+    "acquisition",
+    "buys",
+    "data center",
+    "deal",
+    "joins"
+   ],
+   "companies": [
+    "Grab"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-20",
+   "title": "Adam Foroughi, Applovin CEO: Surviving a 92% Drawdown, Ads as ML 1.0 & the $50B Game Ad Market",
+   "url": "https://allinchamathjason.libsyn.com/adam-foroughi-applovin-ceo-surviving-a-92-drawdown-ads-as-ml-10-the-50b-game-ad-market",
+   "words": [
+    "compute",
+    "investor",
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Apple",
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-19",
+   "title": "20VC: \"Anti-Data Centres is a Chinese Psyop\" | How Many Planned Data Centers Will Actually Get Built? | Is Energy AI's Biggest Bottleneck? With Thomas Sohmers, Co-Founder @ Positron",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-anti-data-centres-is-a-chinese-psyop-how-many-planned-data-centers-will-actually-get-built-is-energy-ais-biggest-bottleneck-with-thomas-sohmers-co-founder-positron",
+   "words": [
+    "investors",
+    "series c",
+    "valuation"
+   ],
+   "companies": [
+    "Jensen",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-19",
+   "title": "Bill Gurley: Searching for Feynman",
+   "url": "https://allinchamathjason.libsyn.com/bill-gurley-the-covid-cover-up-the-search-for-the-truth",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Meta",
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-19",
+   "title": "AI Doom Backlash Arrives, Anthropic & OpenAI IPO Outlook, Frontier Business Momentum Slows",
+   "url": "",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-19",
+   "title": "What Makes a Consumer AI Product Stick? | Josh Elman",
+   "url": "https://a16z.simplecast.com/episodes/what-makes-a-consumer-ai-product-stick-josh-elman-xHQUEG_W",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-18",
+   "title": "Jared Isaacman: A New Era for NASA and American Space Exploration",
+   "url": "https://allinchamathjason.libsyn.com/jared-isaacman-a-new-era-for-nasa-and-american-space-exploration",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-18",
+   "title": "Nick Shirley: Exposing Government Fraud, Suing California & Taking on the Media",
+   "url": "https://allinchamathjason.libsyn.com/nick-shirley-exposing-government-fraud-suing-california-taking-on-the-media",
+   "words": [
+    "compute",
+    "investigating",
+    "investigative",
+    "joins"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-18",
+   "title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
+   "url": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Databricks",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "20VC: Why \"Pacing the Frontier\" is BS | Instinct Raising $1BN at $10BN & Meta Launches Muse | Miro Sells for $1.35BN After a $17.5BN Valuation | Mistral Raises €3BN & Could Sam Bankman-Fried Win His Freedom?",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-why-pacing-the-frontier-is-bs-instinct-raising-1bn-at-10bn-meta-launches-muse-miro-sells-for-135bn-after-a-175bn-valuation-mistral-raises-3bn-could-sam-bankman-fried-win-his-freedom",
+   "words": [
+    "invest",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "Mistral"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "Meta's Dina Powell McCormick: The Case for Data Centers, Backlash, AI Job Boom & Meta's Future",
+   "url": "https://allinchamathjason.libsyn.com/metas-dina-powell-mccormick-the-case-for-data-centers-backlash-ai-job-boom-metas-future",
+   "words": [
+    "compute",
+    "data center",
+    "joins"
+   ],
+   "companies": [
+    "Meta",
+    "Oracle"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "Brad Gerstner: No AI Bubble, Semis Eat the Nasdaq & AI's Take Off Problem",
+   "url": "https://allinchamathjason.libsyn.com/brad-gerstner-no-ai-bubble-semis-eat-the-nasdaq-ais-take-off-problem",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "Snap Launches SPECS, Paramount Eyes Nashville Offices, OpenAI Explores $1.2T Valuation | Diet TBPN",
+   "url": "https://share.transistor.fm/s/d42de643",
+   "words": [
+    "valuation"
+   ],
+   "companies": [
+    "Altman",
+    "OpenAI",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "Brené Brown & Reid Hoffman on the skills every leader needs now",
+   "url": "",
+   "words": [
+    "join",
+    "joined"
+   ],
+   "companies": [
+    "thrive"
+   ]
+  },
+  {
+   "source": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "type": "ポッドキャスト",
+   "published": "2026-09-17",
+   "title": "「米AI企業で相次ぐ大型買収、その理由」＃21（2026.09.17）",
+   "url": "",
+   "words": [
+    "買収"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "Rebuild",
+   "type": "ポッドキャスト",
+   "published": "2026-09-16",
+   "title": "432: Market Price 2nm Norimaki (hak)",
+   "url": "https://rebuild.fm/432/",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Google",
+    "Meta"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-15",
+   "title": "JD Vance on AI, Entitlement Fraud, Iran War, Israel, H-1B Abuse & the Midterms",
+   "url": "https://allinchamathjason.libsyn.com/jd-vance-on-ai-entitlement-fraud-iran-war-israel-h-1b-abuse-the-midterms",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Oracle",
+    "oracle"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-15",
+   "title": "Satya Nadella on the AI Doomer Slowdown, Microsoft's Master Plan & Who Wins AI",
+   "url": "https://allinchamathjason.libsyn.com/satya-nadella-on-the-ai-doomer-slowdown-microsofts-master-plan-who-wins-ai",
+   "words": [
+    "compute",
+    "data center",
+    "joins"
+   ],
+   "companies": [
+    "Microsoft",
+    "Oracle"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-15",
+   "title": "Elon Musk & Gwynne Shotwell on AI Risks and Peer Review, Starship, Terafab, SpaceX/Tesla Merger",
+   "url": "https://allinchamathjason.libsyn.com/elon-musk-gwynne-shotwell-on-ai-risks-and-peer-review-starship-terafab-spacextesla-merger",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Musk",
+    "Oracle",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-09-15",
+   "title": "Let’s Kill Sh*t: Axios CEO on simplifying your work-life in the AI era",
+   "url": "",
+   "words": [
+    "data center",
+    "deal"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-14",
+   "title": "Jensen Huang: The Doomer Hoax, Superintelligence Is Here, and The Future of AI (ft. President Trump)",
+   "url": "https://allinchamathjason.libsyn.com/jensen-huang-the-doomer-hoax-superintelligence-is-here-and-the-future-of-ai-ft-president-trump",
+   "words": [
+    "acquisition",
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia",
+    "Oracle"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-09-14",
+   "title": "AI Has Changed The Way We Create, Consume And Value Content | Adriel Yong - E730",
+   "url": "https://pod.co/bravedynamics/ai-has-changed-the-way-we-create-consume-and-value-content-adriel-yong-e730",
+   "words": [
+    "joined",
+    "raised"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-12",
+   "title": "20VC: 7 Predictions for How AI Changes the World: Labour, Engineering, Social Media, GrokBots Buying Cybercabs and more with Matteo Franceschetti, Co-Founder @ Eight Sleep",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-7-predictions-for-how-ai-changes-the-world-labour-engineering-social-media-grokbots-buying-cybercabs-and-more-with-matteo-franceschetti-co-founder-eight-sleep",
+   "words": [
+    "hire",
+    "investors",
+    "leave"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-12",
+   "title": "Why Companies Are Becoming a Series of Loops | Anish Acharya on Lenny’s Podcast",
+   "url": "https://a16z.simplecast.com/episodes/why-companies-are-becoming-a-series-of-loops-anish-acharya-on-lennys-podcast-ZW9GBD70",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-11",
+   "title": "AI Kills Everybody or Doomer Psyop? OpenAI's Math Breakthrough, Nike's $200B Collapse",
+   "url": "https://allinchamathjason.libsyn.com/ai-kills-everybody-or-doomer-psyop-openais-math-breakthrough-nikes-200b-collapse",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-11",
+   "title": "Fruitfly Hard Takeoff, Washington on AI Risk, 𝕏 Timeline Reactions | Thijs Simonian, Alex Heath & Guy Oseary, Mitesh Agrawal",
+   "url": "https://share.transistor.fm/s/e0816bdf",
+   "words": [
+    "investor"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-11",
+   "title": "Special Report: Will AI Wipe Out Humanity? (And Who Profits)",
+   "url": "",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Musk"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-09-11",
+   "title": "Why Bridgewater's CIO Says AI's Human Extinction Risk Is Real",
+   "url": "https://omny.fm/shows/odd-lots/why-bridgewaters-cio-says-ais-human-extinction-risk-is-real",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-09-11",
+   "title": "フィジカルAIと巨額資金調達は次のAI市場を制するのか？",
+   "url": "",
+   "words": [
+    "調達",
+    "買収"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-10",
+   "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
+   "words": [
+    "acquisition",
+    "deal",
+    "funding",
+    "ipo",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "OpenAI",
+    "Thinking Machines"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-09-10",
+   "title": "Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
+   "url": "",
+   "words": [
+    "funding",
+    "joins"
+   ],
+   "companies": [
+    "meta"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-10",
+   "title": "AI Safety Timeline Takeover, Bending Spoons Acquires Miro, iPhone Duo Reactions | Diet TBPN",
+   "url": "https://share.transistor.fm/s/f1dc8adf",
+   "words": [
+    "acquires"
+   ],
+   "companies": [
+    "Altman",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-10",
+   "title": "How AI Is Rewriting the Power Law of Venture Capital",
+   "url": "https://a16z.simplecast.com/episodes/aram-x-jen-x-dg-draft-dXGKJks2",
+   "words": [
+    "compute",
+    "investing",
+    "investors"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "This is 令和スタートアップ",
+   "type": "ポッドキャスト",
+   "published": "2026-09-10",
+   "title": "セクターの15年──調達額トップ20の顔ぶれが映す日本の独自進化",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/1520-e3od814",
+   "words": [
+    "上場",
+    "調達"
+   ],
+   "companies": [
+    "メルカリ"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-09",
+   "title": "Apple Unveils iPhone Duo, Muse AI Agent, Keith Rabois Joins | David Cahn, Mikey Shulman, David Perell, Jim Reilly, Fletcher Richman",
+   "url": "https://share.transistor.fm/s/3cda42af",
+   "words": [
+    "investment",
+    "investor",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Meta",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-09",
+   "title": "Apple’s Most Ambitious Roadmap Ever? + OpenAI vs. Google vs. Anthropic Revisited",
+   "url": "",
+   "words": [
+    "ipo",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Google",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-09-09",
+   "title": "【9月10日】アップル『iPhone Duo』を発表 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/910iPhone-Duo-e3ok2g2",
+   "words": [
+    "退社"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-08",
+   "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+   "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+   "words": [
+    "acquisition"
+   ],
+   "companies": [
+    "Cursor",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-08",
+   "title": "Math Wars, GG Navier Stokes, Greg Brockman Joins | Dan Wright, Eric Seufert, Scott Wu, Sahir Jaggi, Andrew Borovsky, Harry Mellsop",
+   "url": "https://share.transistor.fm/s/f5316429",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Apple",
+    "Meta"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-07",
+   "title": "20VC: The $100 Billion AI Assistant Race: Town vs Instinct vs GrokBot | We Spend $75K Per Engineer on AI Tools | Why the AI Assistant Market Is Not a Bubble & AI Assistants Will Replace Every App on Your Phone with JD, Founder of Town",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-100-billion-ai-assistant-race-town-vs-instinct-vs-grokbot-we-spend-75k-per-engineer-on-ai-tools-why-the-ai-assistant-market-is-not-a-bubble-ai-assistants-will-replace-every-app-on-your-phone-with-jd-founder-of-town",
+   "words": [
+    "funding",
+    "investor",
+    "raise",
+    "valuation"
+   ],
+   "companies": [
+    "Apple"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-06",
+   "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+   "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
+   "words": [
+    "investing",
+    "investors"
+   ],
+   "companies": [
+    "Google",
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-06",
+   "title": "Your AI Doctor Is Coming | Julie Yoo",
+   "url": "https://a16z.simplecast.com/episodes/your-ai-doctor-is-coming-julie-yoo-YEmlPria",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-09-04",
+   "title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+   "url": "https://allinchamathjason.libsyn.com/gpt-6-hits-agi-tech-euphoria-20-sf-mansion-shortage-nyc-bans-ai-in-schools-venezuela-oil-deal",
+   "words": [
+    "deal"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-04",
+   "title": "Fei Fei Li: The Race to Build World Models For AI",
+   "url": "https://a16z.simplecast.com/episodes/fei-fei-li-the-race-to-build-world-models-for-ai-tvIN7XfT",
+   "words": [
+    "join",
+    "raises"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "20VC: NVIDIA Crushes Quarter and Buys Hugging Face | OpenAI Cuts Off Cursor | Instinct Hits $2.5BN Valuation and The Race for AI Assistants | Cognition Raises at $46BN, Linear $2.5BN and Clay $7BN",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
+   "words": [
+    "buys",
+    "deal",
+    "left",
+    "raises",
+    "valuation"
+   ],
+   "companies": [
+    "Altman",
+    "Cursor",
+    "Musk",
+    "NVIDIA",
+    "Nvidia",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+   "url": "",
+   "words": [
+    "compute",
+    "data center",
+    "joins"
+   ],
+   "companies": [
+    "Meta",
+    "SoftBank"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "Model Mayhem, GPT-6 Astra, Why Nvidia Bought Hugging Face | Diet TBPN",
+   "url": "https://share.transistor.fm/s/2593cfdb",
+   "words": [
+    "bought"
+   ],
+   "companies": [
+    "Altman",
+    "Nvidia",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "Model Mayhem, NVIDIA x Hugging Face Deal, GPT-6 Astra | Pablo Torre, Mohit Aron, Akshay Narisetti, Hari Ravichandran, Matt Caldwell & Jordy Leiser, Jeff Thornburg, Charlie O’Neill, Sridhar Ramaswamy",
+   "url": "https://share.transistor.fm/s/aeb93c8c",
+   "words": [
+    "bought",
+    "deal",
+    "investigation",
+    "investigative"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "The $100B Niches Hiding Inside Payments",
+   "url": "https://a16z.simplecast.com/episodes/the-100b-niches-hiding-inside-payments-aKQoOt7o",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "【9月4日】「NISA貧乏」は損？本質的な長期投資 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/94NISA-e3oai9q",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "type": "ポッドキャスト",
+   "published": "2026-09-03",
+   "title": "牛のげっぷとAI電力への投資が未来を変える？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
+   ],
+   "companies": [
+    "エヌビディア",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "Stripe",
+   "type": "動画",
+   "published": "2026-09-03",
+   "title": "Sea founder and CEO Forrest Li in conversation with Tyler Bryson",
+   "url": "https://www.youtube.com/watch?v=CEYGln3s9MM",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Stripe"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-02",
+   "title": "Cloudflare CEO: We're Ready To Block Millions of Websites From AI — With Matthew Prince",
+   "url": "",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Google"
+   ]
+  },
+  {
+   "source": "SEA of Startups",
+   "type": "ポッドキャスト",
+   "published": "2026-09-02",
+   "title": "Southeast Asia's Superapps Finally Made Money. Do Not Copy How.",
+   "url": "https://seaofstartups.substack.com/p/southeast-asias-superapps-finally",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "GoTo",
+    "Grab"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-09-02",
+   "title": "Itamar Novick: Where AI Replaces People, and Where It Does Not - E727",
+   "url": "https://pod.co/bravedynamics/itamar-novick-where-ai-replaces-people-and-where-it-does-not-e727",
+   "words": [
+    "acquired",
+    "investor",
+    "ipo",
+    "joined"
+   ],
+   "companies": [
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "Dwarkesh Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-09-01",
+   "title": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
+   "url": "https://www.dwarkesh.com/p/ajeya-cotra",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-31",
+   "title": "20VC: The AI Bubble Is Wrong | AI Margins Need to Improve | Revenue Concentration Should be a Concern | Why People Over-Estimate Open Models But Enterprises Still Fear Frontier Models with Aaron Katz, ClickHouse",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-is-wrong-ai-margins-need-to-improve-revenue-concentration-should-be-a-concern-why-people-over-estimate-open-models-but-enterprises-still-fear-frontier-models-with-aaron-katz-clickhouse",
+   "words": [
+    "investors",
+    "ipo",
+    "raised"
+   ],
+   "companies": [
+    "Anthropic",
+    "Microsoft",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-31",
+   "title": "WE'RE BACK, Meta Addiction, Tim Cook's Last Day | Jordan Schneider, Robert Mendelsohn & Eric Olszewski, Billy Thalheimer, Aaron Cannon, Stephen Balaban",
+   "url": "https://share.transistor.fm/s/1b7b60f3",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "DeepSeek",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-08-31",
+   "title": "New York Governor Kathy Hochul thinks AI should be ‘less evil’",
+   "url": "",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "Meta"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-31",
+   "title": "Gavin Baker: Why AI Demand Is Outrunning Compute Supply",
+   "url": "https://a16z.simplecast.com/episodes/gavin-baker-why-ai-demand-is-outrunning-compute-supply-z97oFoOG",
+   "words": [
+    "compute",
+    "investments"
+   ],
+   "companies": [
+    "NVIDIA",
+    "a16z"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-30",
+   "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
+   "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-30",
+   "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
+   "url": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
+   "words": [
+    "investable",
+    "investment",
+    "joins"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-29",
+   "title": "20VC: Is Anthropic's Coding Business Worth $2 Trillion? | Should American Enterprises Work With Open-Source Chinese Models? | Why 80–90% of Neo-Labs Die in the Next 18 Months? with Eno Reyes, Co-Founder @ Factory",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-is-anthropics-coding-business-worth-2-trillion-should-american-enterprises-work-with-open-source-chinese-models-why-8090-of-neo-labs-die-in-the-next-18-months-with-eno-reyes-co-founder-factory",
+   "words": [
+    "investors",
+    "raised",
+    "series c",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Nvidia",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-29",
+   "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+   "url": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
+   "words": [
+    "investigation",
+    "joins"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-28",
+   "title": "The Infrastructure Behind the Machine Age",
+   "url": "https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-27",
+   "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+   "words": [
+    "buys",
+    "deal",
+    "invests",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "NVIDIA",
+    "OpenAI",
+    "Perplexity",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "No Priors",
+   "type": "ポッドキャスト",
+   "published": "2026-08-27",
+   "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+   "url": "",
+   "words": [
+    "compute",
+    "join"
+   ],
+   "companies": [
+    "Google"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-08-27",
+   "title": "OpenAI's executive exodus has one big winner",
+   "url": "",
+   "words": [
+    "left"
+   ],
+   "companies": [
+    "Altman",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-08-27",
+   "title": "【8月28日】エヌビディアの「新しい循環取引」がケタ違いだ ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/828-e3o04gm",
+   "words": [
+    "買収"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "Dwarkesh Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-25",
+   "title": "Dylan Patel – Anthropic & OpenAI will have most of the world’s compute by 2028",
+   "url": "https://www.dwarkesh.com/p/dylan-patel-3",
+   "words": [
+    "compute",
+    "raises"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-25",
+   "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
+   "url": "https://a16z.simplecast.com/episodes/the-new-economics-of-ai-martin-casado-steven-sinofsky-6Xew5iHr",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Stripe",
+   "type": "動画",
+   "published": "2026-08-25",
+   "title": "Canva cofounder and COO Cliff Obrecht in conversation with John Collison",
+   "url": "https://www.youtube.com/watch?v=4GmHpHyoKmo",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Stripe"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-24",
+   "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with Julien Bek",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
+   "words": [
+    "invest",
+    "investment",
+    "investor",
+    "series a"
+   ],
+   "companies": [
+    "Sequoia",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-08-24",
+   "title": "【8月25日】PayPayが賭ける「波乱の取引所」 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/825PayPay-e3nrg4j",
+   "words": [
+    "出資"
+   ],
+   "companies": [
+    "エヌビディア",
+    "孫正義"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-08-23",
+   "title": "The Innovation Playbook of 3 Southeast Asian Founders - E724",
+   "url": "https://pod.co/bravedynamics/the-innovation-playbook-of-3-southeast-asian-founders-e724",
+   "words": [
+    "bought",
+    "funding",
+    "partnership"
+   ],
+   "companies": [
+    "Google"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-22",
+   "title": "20VC: The AI Bubble Will Burst: Half the Neoclouds Will Die | China: Should We Ban Chip Exports & Be Fearful of Chinese Open-Source | Mag7: Who Dies and Who Thrives: Why Meta is Meh and Microsoft is Mega",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-will-burst-half-the-neoclouds-will-die-china-should-we-ban-chip-exports-be-fearful-of-chinese-open-source-mag7-who-dies-and-who-thrives-why-meta-is-meh-and-microsoft-is-mega",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "Microsoft",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-08-21",
+   "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
+   "url": "https://allinchamathjason.libsyn.com/dario-defends-himself-datacenter-panic-ai-doomer-trap-senate-toss-up",
+   "words": [
+    "data center",
+    "datacenter",
+    "investigation"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-21",
+   "title": "Microsoft's Deputy CISO on Securing AI Agents",
+   "url": "https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Microsoft",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-20",
+   "title": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+   "words": [
+    "buy",
+    "buys",
+    "deal",
+    "raise",
+    "valuation"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Cursor",
+    "Microsoft",
+    "SpaceX",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-20",
+   "title": "How Global Networks Are Reshaping Startup Success",
+   "url": "https://a16z.simplecast.com/episodes/how-global-networks-are-reshaping-startup-success-YCGysOkP",
+   "words": [
+    "investing",
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-19",
+   "title": "How Whatnot Built a Global Marketplace",
+   "url": "https://a16z.simplecast.com/episodes/how-whatnot-built-a-global-marketplace-DoonwHjN",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-18",
+   "title": "How Do You Defend Against AI That Can Hack?",
+   "url": "https://a16z.simplecast.com/episodes/how-do-you-defend-against-ai-that-can-hack-L2M2EmmY",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-17",
+   "title": "Stripe’s AI Strategy: Build More, Not Less",
+   "url": "https://a16z.simplecast.com/episodes/stripes-ai-strategy-build-more-not-less-0w7FfhZZ",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Stripe",
+    "a16z"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-08-17",
+   "title": "【8月18日】AI時代に「なぜかうまくいく人」になる ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/818AI-e3nhkns",
+   "words": [
+    "提携"
+   ],
+   "companies": [
+    "楽天"
+   ]
+  },
+  {
+   "source": "All-In",
+   "type": "ポッドキャスト",
+   "published": "2026-08-14",
+   "title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+   "url": "https://allinchamathjason.libsyn.com/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-groks-comeback",
+   "words": [
+    "acquired",
+    "ipo",
+    "joins",
+    "valuation"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Meta",
+    "Nvidia",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-14",
+   "title": "Cursor Acquisition Closes, Bezos x Liverpool, Flying Roadster, Car Week, Gen Z Trends & More",
+   "url": "https://share.transistor.fm/s/0181c123",
+   "words": [
+    "acquisition",
+    "buys"
+   ],
+   "companies": [
+    "Anthropic",
+    "Cursor",
+    "openAI"
+   ]
+  },
+  {
+   "source": "VIVA VC(ファーストライト×Chronicle)",
+   "type": "ポッドキャスト",
+   "published": "2026-08-14",
+   "title": "#3-22 1人の「採用ミス」が命取り。スタートアップ面接はどこを見るべき？",
+   "url": "https://podcasters.spotify.com/pod/show/vivavc-chronicle/episodes/3-22-1-e3nd3q1",
+   "words": [
+    "調達"
+   ],
+   "companies": [
+    "ファーストライト"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-13",
+   "title": "20VC: Canva Slashes Growth: How Much is it Really Worth | Demis Hassabis and Jeff Dean: Talent Exodus at Google | Revolut's $50BN CEO Pay Package | Elon Musk's $55BN Terrafab",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-canva-slashes-growth-how-much-is-it-really-worth-demis-hassabis-and-jeff-dean-talent-exodus-at-google-revoluts-50bn-ceo-pay-package-elon-musks-55bn-terrafab",
+   "words": [
+    "leaves",
+    "valuation"
+   ],
+   "companies": [
+    "Google",
+    "Hassabis",
+    "Musk",
+    "TSMC"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-13",
+   "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+   "url": "https://a16z.simplecast.com/episodes/the-two-ways-to-sell-ai-lighthouse-or-landgrab-9C2mrr4S",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-12",
+   "title": "Kushner & Iger’s $12.5B Lakers Deal, Grok 4.6 Launches, Anthropic’s Watermarking Move | Diet TBPN",
+   "url": "https://share.transistor.fm/s/136a2805",
+   "words": [
+    "deal"
+   ],
+   "companies": [
+    "Altman",
+    "Anthropic",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-12",
+   "title": "Kushner and Iger Buy The Lakers, Grok 4.6 Launch, NVIDIA Nemotron | Darren Rovell, Patrick Whitesell, Harjot Gill, Jeff Huber, Soren Monroe-Anderson & Shaun Maguire, Andrei Georgescu",
+   "url": "https://share.transistor.fm/s/05cdd0cc",
+   "words": [
+    "buy",
+    "investing",
+    "investment",
+    "investor",
+    "investors",
+    "partnership"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-12",
+   "title": "Here's How The AI Bubble Bursts — With Paul Kedrosky",
+   "url": "",
+   "words": [
+    "investment",
+    "investor",
+    "investors",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Dwarkesh Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-11",
+   "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+   "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-11",
+   "title": "Nvidia’s $500B Compute Deal, Paramount Threatens CA Exit, Musk’s “Shortcut” to $1T Payday | Diet TBPN",
+   "url": "https://share.transistor.fm/s/30031c7f",
+   "words": [
+    "compute",
+    "deal"
+   ],
+   "companies": [
+    "Altman",
+    "Musk",
+    "Nvidia",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-11",
+   "title": "NVIDIA's $500B Compute Deal, Paramount Threatens to Bounce, Record Europe Tourism | Ernie Garcia, Alex Edelson, Nico Simko, Ian McGinley, Conor Sen",
+   "url": "https://share.transistor.fm/s/9e551a21",
+   "words": [
+    "compute",
+    "deal",
+    "investor",
+    "investors"
+   ],
+   "companies": [
+    "Musk",
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-11",
+   "title": "The CISO Playbook for AI Agents | Datadog",
+   "url": "https://a16z.simplecast.com/episodes/the-ciso-playbook-for-ai-agents-datadog-rhAxFNQK",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "a16z"
+   ]
+  },
+  {
+   "source": "Masters of Scale",
+   "type": "ポッドキャスト",
+   "published": "2026-08-11",
+   "title": "Rapid Recap: Google’s exodus, Spider-Man’s odyssey, Taco “Hell”, and more",
+   "url": "",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Google",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-10",
+   "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
+   "words": [
+    "acquisition",
+    "funding",
+    "raised",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-09",
+   "title": "The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor",
+   "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+   "words": [
+    "hires"
+   ],
+   "companies": [
+    "Cursor"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-08",
+   "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-boom-will-create-enormous-roadkill-who-wins-loses-why-founders-should-never-take-multi-stage-money-at-seed-why-triple-triple-double-double-is-good-enough",
+   "words": [
+    "investors",
+    "series a",
+    "valuation"
+   ],
+   "companies": [
+    "Microsoft",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-08",
+   "title": "Demis Steps Down, Apple’s Memory Problem, Microsoft’s Clever Trick",
+   "url": "",
+   "words": [
+    "raise",
+    "steps down"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "DeepMind",
+    "Google",
+    "Hassabis",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-07",
+   "title": "AI Viruses, OpenAI's First Device, WSJ Mansion Section | Samir Kaul, Patrick Wendell, Grant LaFontaine",
+   "url": "https://share.transistor.fm/s/a03bb8de",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Databricks",
+    "Meta",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-08-06",
+   "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
+   "words": [
+    "buys",
+    "deal",
+    "left",
+    "raises"
+   ],
+   "companies": [
+    "Anthropic",
+    "Meta",
+    "Moonshot",
+    "OpenAI",
+    "Scale AI",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-06",
+   "title": "More Details on OpenAI-Hugging Face, SpaceX SPV Investors Get Rugged, Demis and DeepMind | Diet TBPN",
+   "url": "https://share.transistor.fm/s/35773988",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Altman",
+    "DeepMind",
+    "OpenAI",
+    "SpaceX",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-06",
+   "title": "SpaceX SPV Gone Wrong, Intel's Comeback, Dylan Field Joins | Aditya Agarwal, Ariane Gorin, Nick Thompson, Chris Power, Christian Mochen",
+   "url": "https://share.transistor.fm/s/baea2d66",
+   "words": [
+    "joins",
+    "series a",
+    "steps down"
+   ],
+   "companies": [
+    "Google",
+    "Intel",
+    "Microsoft",
+    "OpenAI",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Rebuild",
+   "type": "ポッドキャスト",
+   "published": "2026-08-06",
+   "title": "430: Situational Unawareness (hak)",
+   "url": "https://rebuild.fm/430/",
+   "words": [
+    "join"
+   ],
+   "companies": [
+    "Anthropic",
+    "DeepSeek",
+    "Google",
+    "OpenAI",
+    "deepseek"
+   ]
+  },
+  {
+   "source": "ソフトバンクグループ",
+   "type": "動画",
+   "published": "2026-08-06",
+   "title": "SoftBank Group Q1 FY2026 Earnings Highlights / CFO Yoshimitsu Goto",
+   "url": "https://www.youtube.com/watch?v=C0bF0erPLyE",
+   "words": [
+    "investing"
+   ],
+   "companies": [
+    "Goto",
+    "SoftBank",
+    "softbank"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-08-05",
+   "title": "How The AI Bet Pays Off + AI Lab Strategy Game — With David Cahn",
+   "url": "",
+   "words": [
+    "investment",
+    "investments",
+    "joins"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic",
+    "Apple",
+    "Google",
+    "Meta",
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-04",
+   "title": "Bending Spoons Buys Airtable, OpenAI Hits Back at Apple Over Lawsuit, Spider-Man Ads in BMWs | Diet TBPN",
+   "url": "https://share.transistor.fm/s/1bfdc068",
+   "words": [
+    "buys"
+   ],
+   "companies": [
+    "Altman",
+    "Apple",
+    "OpenAI",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-04",
+   "title": "Bending Spoons Buys Airtable, Snap Rips, Ads in BMW | Grace Li, Samir Kaji, John Quinn, Nikhil Reddy, Art Levy & Russell Kaplan, Brendan Carr",
+   "url": "https://share.transistor.fm/s/b35b3f03",
+   "words": [
+    "buys",
+    "investing"
+   ],
+   "companies": [
+    "Apple",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-08-04",
+   "title": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+   "url": "https://a16z.simplecast.com/episodes/openais-joshua-achiam-did-we-already-reach-agi-kjP0kXD4",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Startup Now(StartPods)",
+   "type": "ポッドキャスト",
+   "published": "2026-08-04",
+   "title": "インドネシア起業に40億円超が集まる理由。日本発だから勝てるモビリティ×金融の巨大市場／movus technologies株式会社 代表取締役 酒井丈虎さん",
+   "url": "https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/40movus-technologies-e3mmnb0",
+   "words": [
+    "提携",
+    "調達"
+   ],
+   "companies": [
+    "ソフトバンク"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "ポッドキャスト",
+   "published": "2026-08-03",
+   "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/the_inference_engineering_masterclass_philip_kiely_ali_taha_baseten",
+   "words": [
+    "raised"
+   ],
+   "companies": [
+    "DeepSeek",
+    "Intel",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-08-03",
+   "title": "Astra Ends Math, 1 Person $1M Companies, Hank Green Is Absolutely Right | John Gruber, Shaun Maguire & Isaiah Taylor, Justin Lopas, Beau Gaston, Ron Arel",
+   "url": "https://share.transistor.fm/s/0b7ccbeb",
+   "words": [
+    "acquisition",
+    "investment"
+   ],
+   "companies": [
+    "Apple",
+    "Google",
+    "Meta",
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-07-31",
+   "title": "Leopold is Back! Big Tech Earnings, Defense Tech Deep Dive | Richard Craib, Trae Stephens, Blake Resnick",
+   "url": "https://share.transistor.fm/s/975a6b11",
+   "words": [
+    "investing",
+    "investment",
+    "investor"
+   ],
+   "companies": [
+    "Founders Fund"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-07-31",
+   "title": "Leopold Blows Up, OpenAI Drastically Cuts Prices, Microsoft’s Best Day",
+   "url": "",
+   "words": [
+    "invests",
+    "left"
+   ],
+   "companies": [
+    "Amazon",
+    "Apple",
+    "Google",
+    "Microsoft",
+    "Nvidia",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-07-30",
+   "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jensens-open-weights-letter-travis-kalanick-raises-17b-for-atoms-google-cloud-grows-82-but-the-market-tanks-francisco-partners-raises-21bn-etched-raises-300m-to-take-on-nvidia",
+   "words": [
+    "raises"
+   ],
+   "companies": [
+    "Anthropic",
+    "Google",
+    "Jensen",
+    "Nvidia",
+    "OpenAI",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-07-29",
+   "title": "RSI Is Closer Than People Think, Per Tae Kim",
+   "url": "https://share.transistor.fm/s/4b521dc2",
+   "words": [
+    "compute",
+    "data center"
+   ],
+   "companies": [
+    "AMD",
+    "Meta",
+    "NVIDIA",
+    "openAI"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-07-29",
+   "title": "How China Caught U.S. AI — With Grace Shao",
+   "url": "",
+   "words": [
+    "compute",
+    "joins"
+   ],
+   "companies": [
+    "Anthropic",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-07-29",
+   "title": "AI: State of Industry and Investment | Aravind Kandiah, Jun Wakabayashi, John Homer Alvero - E717",
+   "url": "https://pod.co/bravedynamics/ai-state-of-industry-and-investment-aravind-kandiah-jun-wakabayashi-john-homer-alvero-e717",
+   "words": [
+    "investment",
+    "left"
+   ],
+   "companies": [
+    "Sequoia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-07-28",
+   "title": "Tae Kim Sounds Off, Big Companies Are Hiring Again, NVIDIA $50B Tenant | Tae Kim, Ben Zweig, Aakash Thumaty",
+   "url": "https://share.transistor.fm/s/d8926292",
+   "words": [
+    "compute",
+    "investment"
+   ],
+   "companies": [
+    "Anthropic",
+    "NVIDIA",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "The Colin and Samir Show",
+   "type": "ポッドキャスト",
+   "published": "2026-07-28",
+   "title": "9 Lessons From TBPN's $100M+ Exit",
+   "url": "",
+   "words": [
+    "acquisition",
+    "bought",
+    "deal"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-07-27",
+   "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+   "words": [
+    "invest",
+    "investing",
+    "raised",
+    "series a"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-07-27",
+   "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
+   "url": "https://a16z.simplecast.com/episodes/steven-sinofsky-ai-doesnt-need-new-rules-yet-BuNOSzIn",
+   "words": [
+    "joins"
+   ],
+   "companies": [
+    "Microsoft"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-07-27",
+   "title": "Building the World's Most-used Medical AI | Dr. Thomas Kelly of Heidi - E716",
+   "url": "https://pod.co/bravedynamics/from-surgical-trainee-to-ai-founder-dr-thomas-kelly-of-heidi-e716",
+   "words": [
+    "series b"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "Lenny's Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-07-26",
+   "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
+   "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
+   "words": [
+    "joined"
+   ],
+   "companies": [
+    "Amazon",
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-07-24",
+   "title": "What Happens If AI Fails?, Subprime Data Center Crisis, How Bad Can SpaceX Get?",
+   "url": "",
+   "words": [
+    "acquire",
+    "data center"
+   ],
+   "companies": [
+    "Google",
+    "OpenAI",
+    "SpaceX"
+   ]
+  }
+ ]
+}
