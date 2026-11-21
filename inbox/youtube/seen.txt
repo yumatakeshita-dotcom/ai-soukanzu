@@ -210,3 +210,203 @@ UHn0YtJly0E|Reid Hoffman|2026-11-20|Why do tech companies want data centers in e
 jBkayOiYu5Y|Reid Hoffman|2026-11-20|Should we be slowing down AI?
 0xnIgWKmkBc|Reid Hoffman|2026-11-18|Reid Hoffman live: AI jobs, data centers & pacing AI
 xVp2z35qIpw|Reid Hoffman|2026-11-14|Will AI Make Everything Cheaper?
+xuQhEr3G2LQ|AI at Meta|2026-10-12|Introducing Muse Wonder & Muse Wonder Full: frontier models for agentic tasks
+rrvx-L2UjwE|AI at Meta|2026-02-26|| AI at Meta
+iEJG27hG0Ik|AI at Meta|2025-12-08|SAM 3: Building a unified model architecture for detection and tracking
+ICRweUeXPUM|AI at Meta|2025-11-26|Personalized Rehab with AI
+-v7z4GwTqOo|AI at Meta|2025-11-24|How AI is helping animal conservation | AI at Meta
+fn8b-255Oxo|AI at Meta|2025-11-21|Introducing the Segment Anything Playground | AI at Meta
+1FgGbehqNGM|AI at Meta|2025-11-20|SAM 3D: Behind the two-model design | AI at Meta
+vy-Hr7wre4Q|AI at Meta|2025-11-20|SAM 3: Under the hood of the data engine | AI at Meta
+U-7LsM-M1ng|AI at Meta|2025-11-19|Introducing SAM 3 + SAM 3D  AI at Meta
+8hZB60rY5eI|Colin and Samir|2026-11-10|Why 85% is Better Than 100%
+qgEGgPlpD80|Colin and Samir|2026-10-27|How to Win on Instagram in 2027
+Ap8PSUKviBA|Colin and Samir|2026-10-23|Why YouTubers Want to be in Sephora
+TL7cgeVQRgQ|Colin and Samir|2026-10-21|Another YouTuber Business You've Never Heard Of
+bhm7PLTs0FY|Colin and Samir|2026-10-20|Building my 76-year-old dad a Shopify store
+_HeVGWcbJxM|Colin and Samir|2026-10-20|Best YouTube Business You've Never Heard Of
+MlyS26Rh98g|Cheeky Pint|2026-11-13|Revolut's startup playbook
+UGrCM2nuDGY|Cheeky Pint|2026-11-12|Why America can’t build a Revolut
+dyr4aTCedcM|Cheeky Pint|2026-11-11|The one thing Revolut needs before IPO
+bTaf_dcCZew|Cheeky Pint|2026-11-10|How Revolut builds products
+mmYG9BfXlzk|Cheeky Pint|2026-11-09|Why the US needs Russia for nuclear
+5W76csiQ5AM|Cheeky Pint|2026-11-08|Why we won't need nuclear
+hM4wHjV9A-A|Cheeky Pint|2026-11-06|Sam Altman’s plan for data centers
+crqGEzMle-g|Cheeky Pint|2026-11-05|Sam Altman: This feels like the early internet again
+-2xlcSreRtw|Cheeky Pint|2026-11-04|The problem with nuclear
+7O1z8duLPQI|Cheeky Pint|2026-11-03|What should power data centers?
+lqdc1MeyIfs|Y Combinator|2026-11-02|Engineers Make Great Founders
+x21EgQzfZaM|Y Combinator|2026-10-30|AI for the Air-Gapped Economy
+VoSVN7H07-Q|Y Combinator|2026-10-29|AI for City Hall
+674Efd5Scfg|Y Combinator|2026-10-29|LLMs That Write Well
+ffh7fdwfrWU|20VC with Harry Stebbings|2026-11-12|Sequoia Leaves London, Close Scout Program & End Evergreen Fund | NASDAQ Loses $2.5T in 24 hours
+3T868ghJyEk|20VC with Harry Stebbings|2026-11-11|WE SPEND MORE ON AI THAN SALARIES | MERCOR CEO
+CYs13p70rwo|20VC with Harry Stebbings|2026-11-10|HE COULD WALK AWAY WITH BILLIONS. HE SAID NO
+NsvFpH37OXg|20VC with Harry Stebbings|2026-11-10|Why WashU’s CIO Is Still Investing in China
+7TTx9P-6alk|20VC with Harry Stebbings|2026-11-10|Mistral CEO on Why AI Inference Is Becoming a Commodity
+-sC-pOysEpA|20VC with Harry Stebbings|2026-11-09|Mistral CEO Explains Why AI Models Are Becoming Defence Systems
+KotQbLX8pOw|20VC with Harry Stebbings|2026-11-09|Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?
+iG0UO-KAByY|20VC with Harry Stebbings|2026-11-07|Inside WashU's Endowment Fund | SpaceX Made Up 20% of Out AUM | Scott Wilson
+8h-gfrVYyAU|All-In Podcast|2026-11-10|Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing
+PD-FlgD_ILw|All-In Podcast|2026-11-08|Chamath: I was wrong. The economy is broken.
+itURTIZOqIA|All-In Podcast|2026-11-08|David Sacks: Trump Must End the Iran War to Save His Second Term
+2v8b062QzTI|All-In Podcast|2026-11-07|Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What’s Next for Trump
+PbD9pVXxsYM|a16z|2026-11-13|Cyberattacks Used to Take Months. AI Can Do It in Minutes.
+Xk96rASVKh0|a16z|2026-11-12|How to find the next billion-dollar game.
+qGZdj0ygD9s|Sequoia Capital|2026-11-05|Waymo-fying People: The Egocentric Data Bet | Josh Gao, Mecka
+32vxW6GMeLY|Sequoia Capital|2026-11-05|A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning
+wVXczLJ1cgI|Sequoia Capital|2026-11-03|Mecka’s Founders Came From Cloud Kitchens and Crypto, Not Robotics
+UshLbshJEQg|Sequoia Capital|2026-11-03|The CEO Habit That Gets People to Tell You the Truth | Chase Lochmiller, Crusoe
+PLXsY-jPW6U|Sequoia Capital|2026-11-02|Robotics Has No Internet to Pre-Train On | Josh Gao, Mecka
+W8MfWS8jCG4|Sequoia Capital|2026-11-02|Should Every CEO Hire a Coach? Crusoe’s CEO Says Yes | Chase Lochmiller
+XYNP_3ms0Ig|Sequoia Capital|2026-11-02|The Shift in European Defense Procurement is Structural | Uwe Horstmann, Stark
+mv9NH2HTthU|Sequoia Capital|2026-10-30|Why Crusoe’s CEO Isn’t Worried About Competitors | Chase Lochmiller
+qwgiMe4SwF4|Sequoia Capital|2026-10-30|Why Stark builds the factory before the prototype is done | Johannes Schaback
+tPs3gJbTtmk|Sequoia Capital|2026-10-29|How Crusoe’s CEO Runs Welders and AI Researchers | Chase Lochmiller, Crusoe
+Z6l61F9K-d8|Sequoia Capital|2026-10-29|The buyer is a general. The customer is a staff sergeant. | Uwe Horstmann, Stark
+64vUl9k-IAQ|Sequoia Capital|2026-10-29|Turning Stranded Energy Into Intelligence: Crusoe CEO Chase Lochmiller
+qhIabMKHJlA|Sequoia Capital|2026-10-28|European Defense Sovereignty Starts in the Factory: Stark’s Uwe Horstmann and Johannes Schaback
+0idrTKCDhuE|Sequoia Capital|2026-10-20|Inside the Robot Data Factory: Mecka's Josh Gao on Sensorizing Humans to Train Robots
+qGf2Yvan4Wg|Lenny's Podcast|2026-11-08|Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)
+3rueWsTpuq0|Lenny's Podcast|2026-11-08|Why 0 Followers Are Better Than 100k Followers
+iSwSORFViVw|Lenny's Podcast|2026-11-07|The #1 Mistake Brands are Making with UGC
+KzS5Qs7vSMg|Lenny's Podcast|2026-11-01|A UGC masterclass from the 22-year-old who built Wispr Flow’s growth machine | Hector Serrano
+bBoTLUrDFyc|Lenny's Podcast|2026-10-30|Why Design Partners Don't Work
+odrLBDG9o3U|Lenny's Podcast|2026-10-28|Your cold email isn't a sales pitch
+nBu1HbmwX7w|Lenny's Podcast|2026-10-28|The Design Partner Trap
+2HZPSYxws50|Lenny's Podcast|2026-10-27|Does your product need to be 10x better?
+ucVpG3ekHOw|Lenny's Podcast|2026-10-26|AI Progress Is Smooth Until It Crosses a Threshold
+19qrLchbQEc|Lenny's Podcast|2026-10-25|How to find product-market fit (but, actually) | Rob Snyder (Author, The Power of Pull)
+AXWebWeraOQ|Lenny's Podcast|2026-10-24|What Happens When AI Beats The Expert?
+q4Qeo0X0urY|Lenny's Podcast|2026-10-24|Why Anthropic Takes AI Risk So Seriously
+CoSptp9tYpY|Dwarkesh Patel|2026-11-13|I’ve changed my mind about continual learning
+1NHPDzpfR6Y|Dwarkesh Patel|2026-11-13|Recursive self-improvement has started
+3eMnUYkvbJg|Dwarkesh Patel|2026-11-12|How Robert Moses Got Everything Built
+bkzWrrsRyqA|Dwarkesh Patel|2026-11-09|How Robert Moses Ruled New York Without Being Elected
+S4NYamZuts4|Dwarkesh Patel|2026-11-07|How LBJ Fooled the Segregationists
+JyB3mExvn_w|Dwarkesh Patel|2026-11-06|The Man Who Built New York Without Winning a Single Vote
+1NQwfImTseU|Dwarkesh Patel|2026-11-05|Which AI is the best liar?
+CGPQ2-pJ6As|Dwarkesh Patel|2026-11-04|The man who handed out LBJ’s money - Robert Caro
+paOOAJS5Omk|Dwarkesh Patel|2026-11-03|How Robert Moses Destroyed His Enemies  - Robert Caro
+mydXxjJ6ppY|No Priors|2026-11-14|Rethinking Drug Development With Computing
+B5uVBqVxc20|No Priors|2026-11-12|Why Drug Approvals Haven’t Grown
+IiKf3BgBezE|No Priors|2026-11-12|Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg
+jfTYHFoyUb0|No Priors|2026-11-11|Why Closed Systems Can Be More Dangerous
+0sUu1fC73pQ|No Priors|2026-11-09|Personal AI Agents vs. Enterprise Security
+Z1FxJ7jAxWM|No Priors|2026-11-09|Will AI Agents Break the Internet?
+Wp9cMpw3ujM|No Priors|2026-11-07|Vlad Tenev on Private Investing
+vKCbFpy3cIQ|No Priors|2026-11-05|AI Agents for Traders
+yULk8eNa2mg|No Priors|2026-11-05|Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev
+gmBvFy9YPeY|No Priors|2026-11-05|Bringing AI Coding Agents to the Whole Enterprise
+hOK2P4htZDo|No Priors|2026-11-04|Why Security Is the Gas Pedal for AI
+2hJkprFnzhY|Lex Fridman|2026-11-10|Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare | Lex Fridman Podcast #504
+ZAzWPE9CItg|Lex Fridman|2026-10-26|AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503
+FGCP2F_7rQk|Lex Fridman|2026-10-13|Taiwan: The Most Epic Night Market Experience w/ Jensen Huang | Lex Fridman
+s7d2d8FhevU|Lex Fridman|2026-09-17|Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502
+NYFGCESmikA|Lex Fridman|2026-08-26|DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501
+l6USUAIKJls|Lex Fridman|2026-08-12|Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500
+XyXBwO5jYpw|Lex Fridman|2026-07-28|Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499
+pv1TUJSEM2k|Lex Fridman|2026-06-30|The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498
+1M3Vdl6DRkU|Lex Fridman|2026-05-29|Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497
+nepKKz-MzFM|Lex Fridman|2026-05-06|FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496
+iKx3gAODybU|Lex Fridman|2026-04-09|Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495
+vif8NQcjVf0|Lex Fridman|2026-03-23|Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494
+H9rF1CSSh-w|Lex Fridman|2026-03-11|Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493
+SHlrUAkkWI0|Lex Fridman|2026-03-03|Lex trains w/ Khabib Nurmagomedov | Exclusive Footage at UFC PI
+bdIoODXsu8k|Latent Space|2026-11-10|Designing for Agents — Zeno Rocha, Resend
+v5IJwVnTxzg|Latent Space|2026-11-09|What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team
+dpY7YzZo4kE|Latent Space|2026-11-08|Will Repos Become Software Factories? — Mihail Eric, Monaco
+rSWiNE92xqM|Latent Space|2026-11-08|Rebuilding GitHub for the Agent Era — Jay Parikh, EVP of CoreAI, Microsoft
+P735f1xlpL0|Latent Space|2026-11-07|Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter
+KgqWyVVH4Oc|Latent Space|2026-11-06|Cooking with Reducto’s CEO: Why PDFs Still Break AI — Adit Abraham
+3nAV2s4GYbs|Latent Space|2026-11-06|Mini Brains, Beating Heart Organoids, and the AI That Predicts Them — Fabian Theis, Helmholtz Munich
+QmDLDy3ZSNE|Latent Space|2026-11-04|Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai
+LL0YmIyBKSU|Latent Space|2026-11-03|⚡️ The 2026 Software Factory Infra Stack — Zach Lloyd, Warp.dev
+bJBEFzlKPoQ|Latent Space|2026-11-02|Building Legal Agents When You Can't See the Data — Jacob Lauritzen, CTO of Legora
+KM3VQZKjpiY|Latent Space|2026-10-31|Using Agents for Long-Horizon Financial Work — Aman Singh, Arca
+v-d1WTqIULs|Latent Space|2026-10-31|Building ChatGPT for Finance — Joseph Kim, OpenAI's Head of Financial Services
+DdCEmlAydcw|Anthropic|2026-09-23|Inside Anthropic's molecular biology lab
+uVS88gnaxcg|Anthropic|2026-09-01|Meet Claude Fable 5.1
+ROF2Nv_KjOM|Anthropic|2026-09-01|Introducing Claude Fable 5.1
+UxJZrCFzTHY|Anthropic|2026-08-28|Model Hardware Standard: AI operating physical equipment
+djVUCj5i4sw|Anthropic|2026-08-27|We're building a way for AI models to connect to any device and run real experiments.
+P1zBiAQU1IA|Anthropic|2026-08-27|AI models can now help run physical science experiments
+iF5IWjOWcA4|Anthropic|2026-08-10|How Icelanders are thinking about AI
+rKV5JcALQoQ|Anthropic|2026-07-06|The different levels of how Claude thinks
+Y9Wz2PV404E|Anthropic|2026-06-09|Introducing Claude Fable 5
+j2knrqAzYVY|Anthropic|2026-05-07|Translating Claude’s thoughts into language
+INGOC6-LLv0|Anthropic|2026-04-07|An initiative to secure the world's software | Project Glasswing
+D4XTefP3Lsc|Anthropic|2026-04-02|When AIs act emotional
+dPn3GBI8lII|Anthropic|2026-02-05|Introducing Claude Opus 4.6
+uND6iY2qp_c|Google DeepMind|2026-11-11|AlphaGenome 2: Teaching AI to read the entire human genome
+sFfPkUJd_Jk|Google DeepMind|2026-10-27|Genie 4: A new generation of world simulation
+LVEfFyijQ2c|Google DeepMind|2026-10-13|Applying Gemini 4 for large-scale codebase maintenance in Chromium
+ftkic7Tdpcg|Google DeepMind|2026-10-13|Using Gemini 4 Argon to protect against Cyber attackers
+9PICEmtfpWU|Google DeepMind|2026-10-13|Teaching a humanoid robot to play cornhole with Gemini 4 Argon
+9jQA7IgPhBE|Google DeepMind|2026-10-13|Untangling 500-page chemistry patents with Gemini 4
+HIUzrxQxTtw|Google DeepMind|2026-10-01|From deepfakes to DNA: the science of watermarking AI
+FL6mI_Br-mc|Google DeepMind|2026-09-23|Create your own voices with Gemini 3.8 text-to-speech
+O_EWbnkjXdk|Google DeepMind|2026-09-09|How AI is transforming weather prediction
+ya04CpsRJH0|Google DeepMind|2026-09-08|AlphaGenome Atlas: Using AI to find disease causing variants 🧬
+U0aToL5C-bQ|Google DeepMind|2026-09-08|AlphaGenome Atlas: Understanding the human genome
+_6jZlnRsXXQ|Google DeepMind|2026-09-03|WeatherNext 3: More accurate, timely, and local weather forecasts
+5ibgnmypP8I|NVIDIA|2026-11-13|Autonomous Vehicle Safety: 5 Things to Know
+IOcODanTpN0|NVIDIA|2026-11-13|Meet GR00T 2, our most advanced, open System One model for robotics research.
+iC6H8KOQTFU|NVIDIA|2026-11-13|Meet the Startup: Prima Mente, an AI Biology Company
+N5YLi8Ar3Wg|NVIDIA|2026-11-10|Meet the Startup: Aegiq, A Full-Stack Photonic Quantum Computing Company
+Hcc6Ua7uTas|Microsoft Research|2026-11-12|Microsoft Research Focus – Edition #98
+yMev3Q_1fsQ|Microsoft Research|2026-11-11|Detecting and Mitigating Bias in Voice Activated Technologies
+rPGPRMRkyZ4|Microsoft Research|2026-11-10|Paza: How Architecture, Language Typology & Adaptation Shape Speech Recognition in African Languages
+uuXijUuj4MA|Microsoft Research|2026-11-03|Learn the rules: The hacker mindset
+KyX-aQ-pw4I|Microsoft Research|2026-11-03|ATLAS: Navigating Culture as Infrastructure for Designing and Evaluating AI
+dS6cFdoyit8|Microsoft Research|2026-11-02|Learning Generative Maps & the Rewards Guiding Them: Normalizing Flow Maps & Surrogate Reward Mixing
+zPgns4ui61Y|Microsoft Research|2026-11-02|Scaling Density Functional Theory with Gaussian Splatting
+k6oC-6TPAr8|Microsoft Research|2026-10-29|Microsoft Research Focus – Edition #97
+e1p0SLgh3G4|Microsoft Research|2026-10-23|Project Gecko Story
+PG2g7Yw9hjU|Microsoft Research|2026-10-23|Security and Privacy in the Underserved Majority World: Practices, Challenges, and Opportunities
+xbPxl1bPVZA|Microsoft Research|2026-10-23|uGAP: A Unified Geospatial AI Platform for African Geographic Data
+Ap71pyHK8c8|Microsoft Research|2026-10-20|Called to serve: Tech, research, and positive impact with Chris White
+RLwtsHktVo8|Stripe|2026-11-10|Product keynote | How AI is changing SaaS products, pricing, and growth
+S1sQdg5_sbw|Stripe|2026-11-10|Fireside | John Collison and Sam Gerstenzang on building companies with AI
+1_W21ZDr17M|Stripe|2026-10-21|Gamma's path to $100M ARR
+CEYGln3s9MM|Stripe|2026-09-03|Sea founder and CEO Forrest Li in conversation with Tyler Bryson
+4GmHpHyoKmo|Stripe|2026-08-25|Canva cofounder and COO Cliff Obrecht in conversation with John Collison
+26aV9GTeoSo|Stripe|2026-07-09|A conversation with Replit's President and Head of AI Michele Catasta
+5bjkprj4lpU|Stripe|2026-06-30|Tech analyst Philipp Klöckner in conversation with Conor McNamara
+GaxHXrskngs|Stripe|2026-06-18|Why "splitting the G" is not a real thing in Ireland
+vV6uCBbCyNE|Stripe|2026-06-17|The "AI" invention that fooled the world 200 years ago
+pX-AdubYXgk|Stripe|2026-06-17|Fin / Intercom cofounder Des Traynor on Eoghan McCabe’s "manic" AI pivot
+WkktooN6s-w|Stripe|2026-06-16|A conversation with Alan cofounder and CTO Charles Gorintin
+Xpn8Lo7BJWw|Stripe|2026-06-12|Privy Founder Henri Stern on why stablecoins only matter if they deliver real user value
+70kWqOOWlAA|Stripe|2026-06-10|Barney Hussey-Yeo in conversation with John Collison
+dEVF0b5gbms|Stripe|2026-06-10|L’impact inattendu de ChatGPT sur les abonnements du Monde
+dOL8fsLkg5g|Stripe|2026-06-09|Bringing world-class payments to UK small businesses
+ZlNGUaWgffs|ソフトバンクグループ|2026-11-12|SoftBank Group Corp. Q2 FY2026 Earnings Results - November 10, 2026 #shorts
+5-QR7GCKcJw|ソフトバンクグループ|2026-11-12|2027年3月期 第2四半期 決算説明会（2026年11月10日開催）ソフトバンクグループ株式会社 #shorts
+wVIHL2PIQqM|ソフトバンクグループ|2026-11-10|SoftBank Group Q2 FY2026 Earnings Highlights / CFO Yoshimitsu Goto
+_51ld_6DAQg|ソフトバンクグループ|2026-08-14|SoftBank Group Corp. Q1 FY2026 Earnings Results - August 6, 2026 (Archived Video)
+NCd66cbCNIY|ソフトバンクグループ|2026-08-12|2027年3月期 第1四半期 決算説明会（2026年8月6日開催）ソフトバンクグループ株式会社 #shorts
+o1GiyIClNKA|ソフトバンクグループ|2026-08-12|SoftBank Group Corp. Q1 FY2026 Earnings Results - August 6, 2026 #shorts
+wz_28DrRGnY|ソフトバンクグループ|2026-08-06|2027年3月期 第1四半期 決算説明会 アーカイブ動画（2026年8月6日開催）ソフトバンクグループ株式会社
+epjav0PyB4c|ソフトバンクグループ|2026-08-06|2027年3月期 第1四半期 後藤CFO 決算ハイライト　英語音声・日本語字幕
+C0bF0erPLyE|ソフトバンクグループ|2026-08-06|SoftBank Group Q1 FY2026 Earnings Highlights / CFO Yoshimitsu Goto
+JEkK61q24qU|ソフトバンクグループ|2026-06-30|SoftBank Group Corp. The 46th Annual General Meeting of Shareholders - June 24, 2026 #shorts #2
+4r0mqOyCzM4|ソフトバンクグループ|2026-06-30|第46回定時株主総会（2026年6月24日開催）ソフトバンクグループ株式会社 #shorts #2
+A8TqCLnpNUg|ソフトバンクグループ|2026-06-29|Special Event Hosted by SoftBank Corp., SB OAI Japan GK, SoftBank Group Corp., and OpenAI(2026/6/16)
+N2CO7l4Ao9E|ソフトバンクグループ|2026-06-29|ソフトバンク、SB OAI Japan、ソフトバンクグループおよびOpenAIによる法人向け特別イベント（2026年6月16日開催）
+ZVpVvGWy46Q|Garry Tan|2026-01-27|Change the Game Before the Game Changes You
+QFNFA8cV4sA|Garry Tan|2025-09-16|The Vale: Raising Builders, Not Consumers
+IoOMs7U93eY|Garry Tan|2025-07-31|Make Your Own Luck
+B93mNF2hxF0|Garry Tan|2025-07-23|The Lesson of Craft
+XpvW6nX3kOc|Garry Tan|2025-07-13|you have dreams, put it out
+mVUaSCoJRWk|Garry Tan|2025-07-09|Don’t be thirsty
+RPovgtwIkbI|Reid Hoffman|2026-11-14|AI agents at OpenAI are working 3X the hours of humans?!
+HLqOmNRHtHA|Reid Hoffman|2026-11-12|Just because AI can do your tasks doesn't mean it can do your job
+1_3Tl_TAY1Y|Reid Hoffman|2026-11-12|OpenAI Chief Economist Ronnie Chatterji on why your view of AI might already be out of date
+ZBGh-Mw7UV0|Reid Hoffman|2026-11-11|OpenAI’s chief economist on the jobs AI will actually create
+kUisfvHvIXI|Reid Hoffman|2026-11-11|Will AI triple unemployment? OpenAI’s chief economist answers
+Rl87nR_D_lg|Reid Hoffman|2026-11-08|Will AI remember how we treated it?
+4N4zT08_oR8|Reid Hoffman|2026-11-08|Demis Hassabis warns of an AI “oil spill”
+tbjMSrbbz1s|Reid Hoffman|2026-11-07|Demis Hassabis on the riskiest path to AGI
+El_ZY0sgBXg|Reid Hoffman|2026-11-06|Should AI be allowed to say no? 🚫
+tcT3tG7IadY|Reid Hoffman|2026-11-05|Are we ready to ask if AI has moral standing?

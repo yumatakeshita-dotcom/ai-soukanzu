@@ -12,8 +12,102 @@
    "quote": "",
    "video": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
    "src": [
-    ["The Next Web(2026/10)", "https://thenextweb.com/news/arda-bob-mcgrew-232m-1-5bn-ai-manufacturing"],
-    ["AI Weekly(2026/10)", "https://aiweekly.co/alerts/bob-mcgrews-ai-manufacturing-startup-arda-raises-230m-at-15b-led-by-altimeter"]
+    [
+     "The Next Web(2026/10)",
+     "https://thenextweb.com/news/arda-bob-mcgrew-232m-1-5bn-ai-manufacturing"
+    ],
+    [
+     "AI Weekly(2026/10)",
+     "https://aiweekly.co/alerts/bob-mcgrews-ai-manufacturing-startup-arda-raises-230m-at-15b-led-by-altimeter"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  },
+  {
+   "from": "Nvidia",
+   "to": "Thinking Machines Lab",
+   "kind": "出資",
+   "amount": "非公表('significant investment')+Vera Rubin 1GW以上の供給",
+   "date": "2026-03-10",
+   "note": "NvidiaがMira Muratiの会社に出資し、1ギガワット以上のVera Rubinを供給する長期の提携(Nvidia公式ブログで確認。出資額は非公表)。2026/3/10のTBPNの回から探した",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "NVIDIA公式ブログ(2026/3/10)",
+     "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    ],
+    [
+     "Axios(2026/3/10)",
+     "https://axios.com/2026/03/10/nvidia-thinking-machines-mira-murati/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "OpenAI",
+   "to": "Thrive Holdings",
+   "kind": "出資",
+   "amount": "非公表(持ち分)",
+   "date": "2025-12-01",
+   "note": "OpenAIが、主要な出資者Thrive Capitalが作ったThrive Holdingsの持ち分を取得。会計・ITサービスで研究・開発チームを送り込む(OpenAI公式発表で確認。割合は非公表)。20VC(2025/12/4)の回から探した",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "OpenAI公式(2025/12/1)",
+     "https://openai.com/index/thrive-holdings"
+    ],
+    [
+     "Bloomberg(2025/12/1)",
+     "https://www.bloomberg.com/news/articles/2025-12-01/openai-takes-stake-in-thrive-holdings-adding-to-circular-deals"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "Accel・Coatue(主導)、Nvidia・Google(新規)",
+   "to": "Cursor(Anysphere)",
+   "kind": "出資",
+   "amount": "$2.3B(シリーズD、評価額$29.3B)",
+   "date": "2025-11-13",
+   "note": "Cursorが23億ドルを調達。Accelと Coatueが主導、Nvidia・Googleが新たに参加、Thrive・a16z・DSTは継続(Cursor公式ブログで確認)。年間売上は10億ドル超。20VC(2025/11/20)の回から探した",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Cursor公式ブログ(2025/11/13)",
+     "https://cursor.com/blog/series-d"
+    ],
+    [
+     "TechCrunch(2025/11/13)",
+     "https://www.techcrunch.com/2025/11/13/coding-assistant-cursor-raises-2-3b-5-months-after-its-previous-round/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "Apollo Global Management",
+   "to": "SpaceX",
+   "kind": "支援",
+   "amount": "約$400億(5年のリース。Nvidia Vera Rubinを含むGPU等)",
+   "date": "2026-10-26",
+   "note": "SpaceXが2026/10/26に、Apolloの運用する会社がGPU・サーバーを買ってSpaceXに貸す約400億ドルの拘束力あるコミットメントを開示(SEC提出書類を引く報道。契約はまだ確定前との報道もあり、閉じたかは媒体で差あり)。報道ベース。TBPN(2026/10/7)の回から探した",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Kuwait Times(SEC提出書類を引用、2026/10)",
+     "https://kuwaittimes.com/article/52491/business/spacex-strikes-ai-chip-lease-deal-as-musk-warns-rivals/amp"
+    ],
+    [
+     "BGR(2026/10)",
+     "https://www.bgr.com/2281034/spacex-needs-40-billion-for-nvidia-chips/"
+    ]
    ],
    "confidence": "報道",
    "via": "media"
