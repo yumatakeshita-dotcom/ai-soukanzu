@@ -53,6 +53,43 @@ def lg(x, mx):
     return math.log1p(x) / math.log1p(mx) if mx > 0 else 0.0
 
 
+def en_names():
+    """人物の日本語名 → 英語名。本体(index.html)の各図の人物と英語名の対応、実験ページの人物カード、人の移籍の調査データから集める(2026/11/21追加)"""
+    import bisect
+    m = {}
+    h = open(os.path.join(ROOT, 'site', 'index.html'), encoding='utf-8').read()
+    ns = [(x.start(), x.group(1)) for x in re.finditer(r'const N = (\[.*?\]);\n', h)]
+    pos = [p for p, _ in ns]
+    for x in re.finditer(r'const EN=(\{.*?\});', h):
+        i = bisect.bisect_left(pos, x.start()) - 1
+        if i < 0 or x.start() - pos[i] > 400000:
+            continue
+        try:
+            N, E = json.loads(ns[i][1]), json.loads(x.group(1))
+        except ValueError:
+            continue
+        for n in N:
+            if n.get('kind') == 'p' and E.get(n['id']):
+                m[norm(n['name'])] = E[n['id']]
+    try:
+        for c in json.load(open(os.path.join(ROOT, 'src', 'lab', 'cards.json'), encoding='utf-8')):
+            if c.get('n') and c.get('en'):
+                m[norm(c['n'])] = c['en']
+        for c in json.load(open(os.path.join(ROOT, 'src', 'lab', 'flows.json'), encoding='utf-8')):
+            if c.get('p') and c.get('en'):
+                m[norm(c['p'])] = c['en']
+    except (OSError, ValueError):
+        pass
+    for f in glob.glob(os.path.join(ROOT, 'inbox', 'moves', '20*.json')):
+        try:
+            for it in json.load(open(f, encoding='utf-8')).get('items', []):
+                if it.get('name_ja') and it.get('name_en'):
+                    m.setdefault(norm(it['name_ja']), it['name_en'])
+        except (ValueError, OSError, AttributeError):
+            pass
+    return m
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--top', type=int, default=50)
@@ -90,11 +127,16 @@ def main():
     rec_s, news_s = '\x00'.join(spaced(t) for t in recent_txt), '\x00'.join(spaced(t) for t in titles)
     rec_p, news_p = '\x00'.join(norm(t) for t in recent_txt), '\x00'.join(norm(t) for t in titles)
     rows = []
+    en = en_names()
     for i in cand:
-        k = keys[i]
-        rows.append({'name': nodes[i][0], 'kind': KINDS[nodes[i][1]], 'links': len(nb[i]),
-                     'recent': count(nodes[i][0], rec_s, rec_p),
-                     'news': 0 if norm(nodes[i][0]) in COMMON else count(nodes[i][0], news_s, news_p)})
+        nm = nodes[i][0]
+        names = [nm] + ([en[keys[i]]] if nodes[i][1] == 'p' and keys[i] in en else [])   # 人物は英語名でも数える
+        r = {'name': nm, 'kind': KINDS[nodes[i][1]], 'links': len(nb[i]),
+             'recent': sum(count(x, rec_s, rec_p) for x in names),
+             'news': 0 if norm(nm) in COMMON else sum(count(x, news_s, news_p) for x in names)}
+        if len(names) > 1:
+            r['en'] = names[1]
+        rows.append(r)
     mx = {m: max(r[m] for r in rows) for m in W}
     for r in rows:
         r['score'] = round(100 * sum(W[m] * lg(r[m], mx[m]) for m in W), 1)

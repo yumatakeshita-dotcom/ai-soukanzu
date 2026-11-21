@@ -450,16 +450,17 @@
    "rank": 49
   },
   {
-   "name": "インデックス・ベンチャーズ",
-   "kind": "投資家",
-   "links": 56,
-   "recent": 0,
-   "news": 0,
+   "name": "ジェンスン・フアン",
+   "kind": "人物",
+   "links": 2,
+   "recent": 1,
+   "news": 11,
+   "en": "Jensen Huang",
    "score": 32.8,
    "rank": 50
   },
   {
-   "name": "Bump",
+   "name": "インデックス・ベンチャーズ",
    "kind": "投資家",
    "links": 56,
    "recent": 0,
@@ -468,13 +469,22 @@
    "rank": 51
   },
   {
+   "name": "Bump",
+   "kind": "投資家",
+   "links": 56,
+   "recent": 0,
+   "news": 0,
+   "score": 32.8,
+   "rank": 52
+  },
+  {
    "name": "三菱地所",
    "kind": "会社",
    "links": 34,
    "recent": 0,
    "news": 1,
    "score": 32.7,
-   "rank": 52
+   "rank": 53
   },
   {
    "name": "Stripe",
@@ -483,7 +493,7 @@
    "recent": 0,
    "news": 3,
    "score": 32.4,
-   "rank": 53
+   "rank": 54
   },
   {
    "name": "オリックス",
@@ -492,7 +502,7 @@
    "recent": 0,
    "news": 1,
    "score": 32.4,
-   "rank": 54
+   "rank": 55
   },
   {
    "name": "Perplexity",
@@ -501,7 +511,7 @@
    "recent": 0,
    "news": 6,
    "score": 32.2,
-   "rank": 55
+   "rank": 56
   },
   {
    "name": "りそなホールディングス",
@@ -510,7 +520,7 @@
    "recent": 0,
    "news": 1,
    "score": 32.2,
-   "rank": 56
+   "rank": 57
   },
   {
    "name": "Lightspeed",
@@ -519,7 +529,7 @@
    "recent": 1,
    "news": 2,
    "score": 32.0,
-   "rank": 57
+   "rank": 58
   },
   {
    "name": "ブースト",
@@ -528,7 +538,7 @@
    "recent": 0,
    "news": 1,
    "score": 31.9,
-   "rank": 58
+   "rank": 59
   },
   {
    "name": "AstraZeneca",
@@ -537,7 +547,7 @@
    "recent": 0,
    "news": 4,
    "score": 31.9,
-   "rank": 59
+   "rank": 60
   },
   {
    "name": "日立製作所",
@@ -546,7 +556,7 @@
    "recent": 0,
    "news": 4,
    "score": 31.9,
-   "rank": 60
+   "rank": 61
   },
   {
    "name": "大和ハウス工業",
@@ -555,7 +565,7 @@
    "recent": 0,
    "news": 1,
    "score": 31.7,
-   "rank": 61
+   "rank": 62
   },
   {
    "name": "ライトスピード",
@@ -564,7 +574,7 @@
    "recent": 0,
    "news": 0,
    "score": 31.7,
-   "rank": 62
+   "rank": 63
   },
   {
    "name": "SBIインベストメント",
@@ -573,7 +583,7 @@
    "recent": 0,
    "news": 1,
    "score": 31.7,
-   "rank": 63
+   "rank": 64
   },
   {
    "name": "塩野義製薬",
@@ -582,7 +592,7 @@
    "recent": 0,
    "news": 2,
    "score": 31.5,
-   "rank": 64
+   "rank": 65
   },
   {
    "name": "ＳＢＩホールディングス",
@@ -591,7 +601,7 @@
    "recent": 0,
    "news": 1,
    "score": 31.4,
-   "rank": 65
+   "rank": 66
   },
   {
    "name": "Canva",
@@ -600,7 +610,7 @@
    "recent": 0,
    "news": 0,
    "score": 31.2,
-   "rank": 66
+   "rank": 67
   },
   {
    "name": "ファイアベース",
@@ -609,7 +619,7 @@
    "recent": 0,
    "news": 0,
    "score": 31.2,
-   "rank": 67
+   "rank": 68
   },
   {
    "name": "THE CHASE MANHATTAN BANK,N.A.LONDONSECS LENDING OMNIBUS ACCOUNT",
@@ -618,7 +628,7 @@
    "recent": 0,
    "news": 0,
    "score": 31.0,
-   "rank": 68
+   "rank": 69
   },
   {
    "name": "SMBCベンチャーキャピタル",
@@ -627,7 +637,7 @@
    "recent": 0,
    "news": 4,
    "score": 30.9,
-   "rank": 69
+   "rank": 70
   },
   {
    "name": "孫正義",
@@ -635,8 +645,9 @@
    "links": 6,
    "recent": 0,
    "news": 14,
+   "en": "Masayoshi Son",
    "score": 30.8,
-   "rank": 70
+   "rank": 71
   },
   {
    "name": "Cognition",
@@ -645,7 +656,7 @@
    "recent": 0,
    "news": 11,
    "score": 30.6,
-   "rank": 71
+   "rank": 72
   },
   {
    "name": "Walmart",
@@ -654,7 +665,7 @@
    "recent": 0,
    "news": 2,
    "score": 30.4,
-   "rank": 72
+   "rank": 73
   },
   {
    "name": "ByteDance",
@@ -663,7 +674,7 @@
    "recent": 0,
    "news": 2,
    "score": 30.4,
-   "rank": 73
+   "rank": 74
   },
   {
    "name": "三井物産",
@@ -672,7 +683,7 @@
    "recent": 0,
    "news": 2,
    "score": 30.4,
-   "rank": 74
+   "rank": 75
   },
   {
    "name": "JPモルガン証券",
@@ -681,7 +692,7 @@
    "recent": 0,
    "news": 0,
    "score": 30.3,
-   "rank": 75
+   "rank": 76
   },
   {
    "name": "小松製作所",
@@ -690,7 +701,7 @@
    "recent": 0,
    "news": 1,
    "score": 30.3,
-   "rank": 76
+   "rank": 77
   },
   {
    "name": "ＴＯＰＰＡＮホールディングス",
@@ -699,7 +710,7 @@
    "recent": 0,
    "news": 1,
    "score": 30.3,
-   "rank": 77
+   "rank": 78
   },
   {
    "name": "三菱UFJ銀行",
@@ -708,7 +719,7 @@
    "recent": 0,
    "news": 2,
    "score": 30.0,
-   "rank": 78
+   "rank": 79
   },
   {
    "name": "ゆうちょ銀行",
@@ -717,7 +728,7 @@
    "recent": 0,
    "news": 1,
    "score": 29.9,
-   "rank": 79
+   "rank": 80
   },
   {
    "name": "オリエンタルランド",
@@ -726,7 +737,7 @@
    "recent": 0,
    "news": 1,
    "score": 29.9,
-   "rank": 80
+   "rank": 81
   },
   {
    "name": "グレイロック",
@@ -735,7 +746,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.9,
-   "rank": 81
+   "rank": 82
   },
   {
    "name": "genesia",
@@ -744,7 +755,7 @@
    "recent": 0,
    "news": 1,
    "score": 29.9,
-   "rank": 82
+   "rank": 83
   },
   {
    "name": "ベンチマーク",
@@ -753,7 +764,7 @@
    "recent": 0,
    "news": 3,
    "score": 29.6,
-   "rank": 83
+   "rank": 84
   },
   {
    "name": "コースラ・ベンチャーズ",
@@ -762,7 +773,7 @@
    "recent": 0,
    "news": 1,
    "score": 29.6,
-   "rank": 84
+   "rank": 85
   },
   {
    "name": "日本郵政",
@@ -771,7 +782,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.5,
-   "rank": 85
+   "rank": 86
   },
   {
    "name": "Insight Partners",
@@ -780,7 +791,7 @@
    "recent": 0,
    "news": 11,
    "score": 29.5,
-   "rank": 86
+   "rank": 87
   },
   {
    "name": "Goldman Sachs",
@@ -789,7 +800,7 @@
    "recent": 0,
    "news": 2,
    "score": 29.5,
-   "rank": 87
+   "rank": 88
   },
   {
    "name": "GOVERNMENT OF NORWAY",
@@ -798,7 +809,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.3,
-   "rank": 88
+   "rank": 89
   },
   {
    "name": "島津製作所",
@@ -807,7 +818,7 @@
    "recent": 0,
    "news": 1,
    "score": 29.3,
-   "rank": 89
+   "rank": 90
   },
   {
    "name": "フレックスポート",
@@ -816,7 +827,17 @@
    "recent": 0,
    "news": 0,
    "score": 29.3,
-   "rank": 90
+   "rank": 91
+  },
+  {
+   "name": "イーロン・マスク",
+   "kind": "人物",
+   "links": 16,
+   "recent": 0,
+   "news": 2,
+   "en": "Elon Musk",
+   "score": 29.1,
+   "rank": 92
   },
   {
    "name": "General Catalyst",
@@ -825,7 +846,7 @@
    "recent": 0,
    "news": 8,
    "score": 29.0,
-   "rank": 91
+   "rank": 93
   },
   {
    "name": "明治安田生命保険相互会社",
@@ -834,7 +855,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.0,
-   "rank": 92
+   "rank": 94
   },
   {
    "name": "本田技研工業",
@@ -843,7 +864,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.0,
-   "rank": 93
+   "rank": 95
   },
   {
    "name": "キリンホールディングス",
@@ -852,7 +873,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.0,
-   "rank": 94
+   "rank": 96
   },
   {
    "name": "GV(旧グーグル・ベンチャーズ)",
@@ -861,7 +882,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.0,
-   "rank": 95
+   "rank": 97
   },
   {
    "name": "ファウンダーズ・ファンド",
@@ -870,7 +891,7 @@
    "recent": 0,
    "news": 0,
    "score": 29.0,
-   "rank": 96
+   "rank": 98
   },
   {
    "name": "三菱ＵＦＪフィナンシャル・グループ",
@@ -879,7 +900,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.8,
-   "rank": 97
+   "rank": 99
   },
   {
    "name": "キヤノン",
@@ -888,7 +909,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.8,
-   "rank": 98
+   "rank": 100
   },
   {
    "name": "Reddit",
@@ -897,7 +918,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.8,
-   "rank": 99
+   "rank": 101
   },
   {
    "name": "味の素",
@@ -906,7 +927,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.6,
-   "rank": 100
+   "rank": 102
   },
   {
    "name": "大和証券グループ本社",
@@ -915,7 +936,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.6,
-   "rank": 101
+   "rank": 103
   },
   {
    "name": "アンドリーセン・ホロウィッツ",
@@ -924,7 +945,7 @@
    "recent": 0,
    "news": 2,
    "score": 28.6,
-   "rank": 102
+   "rank": 104
   },
   {
    "name": "トヨタ自動車",
@@ -933,7 +954,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 103
+   "rank": 105
   },
   {
    "name": "X (Twitter)",
@@ -942,7 +963,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 104
+   "rank": 106
   },
   {
    "name": "Walt Disney",
@@ -951,7 +972,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 105
+   "rank": 107
   },
   {
    "name": "みずほフィナンシャルグループ",
@@ -960,7 +981,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 106
+   "rank": 108
   },
   {
    "name": "三井住友トラストグループ",
@@ -969,7 +990,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 107
+   "rank": 109
   },
   {
    "name": "関西電力",
@@ -978,7 +999,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 108
+   "rank": 110
   },
   {
    "name": "かんぽ生命保険",
@@ -987,7 +1008,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 109
+   "rank": 111
   },
   {
    "name": "荏原製作所",
@@ -996,7 +1017,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 110
+   "rank": 112
   },
   {
    "name": "エーザイ",
@@ -1005,7 +1026,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 111
+   "rank": 113
   },
   {
    "name": "日立建機",
@@ -1014,7 +1035,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 112
+   "rank": 114
   },
   {
    "name": "Doorman",
@@ -1023,7 +1044,7 @@
    "recent": 0,
    "news": 0,
    "score": 28.3,
-   "rank": 113
+   "rank": 115
   },
   {
    "name": "光通信",
@@ -1032,7 +1053,7 @@
    "recent": 0,
    "news": 1,
    "score": 28.1,
-   "rank": 114
+   "rank": 116
   },
   {
    "name": "Danaher",
@@ -1041,7 +1062,7 @@
    "recent": 0,
    "news": 2,
    "score": 28.0,
-   "rank": 115
+   "rank": 117
   },
   {
    "name": "東京海上ホールディングス",
@@ -1050,7 +1071,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.8,
-   "rank": 116
+   "rank": 118
   },
   {
    "name": "住友電気工業",
@@ -1059,7 +1080,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.8,
-   "rank": 117
+   "rank": 119
   },
   {
    "name": "ソニーグループ",
@@ -1068,7 +1089,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.6,
-   "rank": 118
+   "rank": 120
   },
   {
    "name": "京セラ",
@@ -1077,7 +1098,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.6,
-   "rank": 119
+   "rank": 121
   },
   {
    "name": "東京瓦斯",
@@ -1086,7 +1107,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.6,
-   "rank": 120
+   "rank": 122
   },
   {
    "name": "モバイル・インターネットキャピタル",
@@ -1095,7 +1116,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.6,
-   "rank": 121
+   "rank": 123
   },
   {
    "name": "三菱商事",
@@ -1104,7 +1125,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 122
+   "rank": 124
   },
   {
    "name": "東日本旅客鉄道",
@@ -1113,7 +1134,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 123
+   "rank": 125
   },
   {
    "name": "クボタ",
@@ -1122,7 +1143,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 124
+   "rank": 126
   },
   {
    "name": "アサヒグループホールディングス",
@@ -1131,7 +1152,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 125
+   "rank": 127
   },
   {
    "name": "大日本印刷",
@@ -1140,7 +1161,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 126
+   "rank": 128
   },
   {
    "name": "西武ホールディングス",
@@ -1149,7 +1170,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 127
+   "rank": 129
   },
   {
    "name": "マツキヨココカラ＆カンパニー",
@@ -1158,7 +1179,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 128
+   "rank": 130
   },
   {
    "name": "ソフトバンクグループ(投資事業)",
@@ -1167,7 +1188,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 129
+   "rank": 131
   },
   {
    "name": "Zベンチャーキャピタル",
@@ -1176,7 +1197,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 130
+   "rank": 132
   },
   {
    "name": "Paul Graham (programmer)",
@@ -1185,7 +1206,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.3,
-   "rank": 131
+   "rank": 133
   },
   {
    "name": "Hugging Face",
@@ -1194,7 +1215,7 @@
    "recent": 0,
    "news": 3,
    "score": 27.1,
-   "rank": 132
+   "rank": 134
   },
   {
    "name": "Temasek",
@@ -1203,7 +1224,7 @@
    "recent": 1,
    "news": 0,
    "score": 27.0,
-   "rank": 133
+   "rank": 135
   },
   {
    "name": "日本製鉄",
@@ -1212,7 +1233,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 134
+   "rank": 136
   },
   {
    "name": "Berkshire Hathaway",
@@ -1221,7 +1242,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 135
+   "rank": 137
   },
   {
    "name": "Ramp",
@@ -1230,7 +1251,7 @@
    "recent": 1,
    "news": 0,
    "score": 27.0,
-   "rank": 136
+   "rank": 138
   },
   {
    "name": "ＫＤＤＩ",
@@ -1239,7 +1260,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 137
+   "rank": 139
   },
   {
    "name": "大塚ホールディングス",
@@ -1248,7 +1269,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 138
+   "rank": 140
   },
   {
    "name": "東海旅客鉄道",
@@ -1257,7 +1278,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 139
+   "rank": 141
   },
   {
    "name": "鹿島建設",
@@ -1266,7 +1287,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 140
+   "rank": 142
   },
   {
    "name": "日本取引所グループ",
@@ -1275,7 +1296,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 141
+   "rank": 143
   },
   {
    "name": "シマノ",
@@ -1284,7 +1305,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 142
+   "rank": 144
   },
   {
    "name": "キッコーマン",
@@ -1293,7 +1314,7 @@
    "recent": 0,
    "news": 0,
    "score": 27.0,
-   "rank": 143
+   "rank": 145
   },
   {
    "name": "CrowdStrike",
@@ -1302,7 +1323,7 @@
    "recent": 0,
    "news": 2,
    "score": 26.9,
-   "rank": 144
+   "rank": 146
   },
   {
    "name": "ファーストリテイリング",
@@ -1311,7 +1332,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 145
+   "rank": 147
   },
   {
    "name": "日本たばこ産業",
@@ -1320,7 +1341,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 146
+   "rank": 148
   },
   {
    "name": "ＩＮＰＥＸ",
@@ -1329,7 +1350,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 147
+   "rank": 149
   },
   {
    "name": "スズキ",
@@ -1338,7 +1359,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 148
+   "rank": 150
   },
   {
    "name": "バンダイナムコホールディングス",
@@ -1347,7 +1368,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 149
+   "rank": 151
   },
   {
    "name": "清水建設",
@@ -1356,7 +1377,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 150
+   "rank": 152
   },
   {
    "name": "西日本旅客鉄道",
@@ -1365,7 +1386,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 151
+   "rank": 153
   },
   {
    "name": "東洋水産",
@@ -1374,7 +1395,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 152
+   "rank": 154
   },
   {
    "name": "セールスフォース・ベンチャーズ",
@@ -1383,7 +1404,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 153
+   "rank": 155
   },
   {
    "name": "Robert Tappan Morris",
@@ -1392,7 +1413,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.7,
-   "rank": 154
+   "rank": 156
   },
   {
    "name": "Sequoia",
@@ -1401,7 +1422,7 @@
    "recent": 1,
    "news": 6,
    "score": 26.5,
-   "rank": 155
+   "rank": 157
   },
   {
    "name": "Uber / Uber Eats",
@@ -1410,7 +1431,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 156
+   "rank": 158
   },
   {
    "name": "伊藤忠商事",
@@ -1419,7 +1440,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 157
+   "rank": 159
   },
   {
    "name": "中外製薬",
@@ -1428,7 +1449,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 158
+   "rank": 160
   },
   {
    "name": "八十二長野銀行",
@@ -1437,7 +1458,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 159
+   "rank": 161
   },
   {
    "name": "任天堂",
@@ -1446,7 +1467,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 160
+   "rank": 162
   },
   {
    "name": "野村ホールディングス",
@@ -1455,7 +1476,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 161
+   "rank": 163
   },
   {
    "name": "富士フイルムホールディングス",
@@ -1464,7 +1485,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 162
+   "rank": 164
   },
   {
    "name": "大林組",
@@ -1473,7 +1494,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 163
+   "rank": 165
   },
   {
    "name": "セコム",
@@ -1482,7 +1503,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 164
+   "rank": 166
   },
   {
    "name": "パン・パシフィック・インターナショナルホールディングス",
@@ -1491,7 +1512,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 165
+   "rank": 167
   },
   {
    "name": "積水ハウス",
@@ -1500,7 +1521,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 166
+   "rank": 168
   },
   {
    "name": "日東電工",
@@ -1509,7 +1530,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 167
+   "rank": 169
   },
   {
    "name": "大阪瓦斯",
@@ -1518,7 +1539,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 168
+   "rank": 170
   },
   {
    "name": "レゾナック・ホールディングス",
@@ -1527,7 +1548,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 169
+   "rank": 171
   },
   {
    "name": "中部電力",
@@ -1536,7 +1557,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 170
+   "rank": 172
   },
   {
    "name": "富士電機",
@@ -1545,7 +1566,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 171
+   "rank": 173
   },
   {
    "name": "ＡＮＡホールディングス",
@@ -1554,7 +1575,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 172
+   "rank": 174
   },
   {
    "name": "協和キリン",
@@ -1563,7 +1584,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 173
+   "rank": 175
   },
   {
    "name": "東京センチュリー",
@@ -1572,7 +1593,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 174
+   "rank": 176
   },
   {
    "name": "ミネベアミツミ",
@@ -1581,7 +1602,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 175
+   "rank": 177
   },
   {
    "name": "ブラザー工業",
@@ -1590,7 +1611,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 176
+   "rank": 178
   },
   {
    "name": "セコイア・キャピタル",
@@ -1599,7 +1620,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.4,
-   "rank": 177
+   "rank": 179
   },
   {
    "name": "Visa",
@@ -1608,7 +1629,7 @@
    "recent": 0,
    "news": 1,
    "score": 26.3,
-   "rank": 178
+   "rank": 180
   },
   {
    "name": "三菱電機",
@@ -1617,7 +1638,7 @@
    "recent": 0,
    "news": 1,
    "score": 26.3,
-   "rank": 179
+   "rank": 181
   },
   {
    "name": "Helion Energy",
@@ -1626,7 +1647,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 180
+   "rank": 182
   },
   {
    "name": "デンソー",
@@ -1635,7 +1656,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 181
+   "rank": 183
   },
   {
    "name": "アイシン",
@@ -1644,7 +1665,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 182
+   "rank": 184
   },
   {
    "name": "信越化学工業",
@@ -1653,7 +1674,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 183
+   "rank": 185
   },
   {
    "name": "三菱重工業",
@@ -1662,7 +1683,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 184
+   "rank": 186
   },
   {
    "name": "豊田通商",
@@ -1671,7 +1692,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 185
+   "rank": 187
   },
   {
    "name": "ダイキン工業",
@@ -1680,7 +1701,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 186
+   "rank": 188
   },
   {
    "name": "第一三共",
@@ -1689,7 +1710,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 187
+   "rank": 189
   },
   {
    "name": "Ｔ＆Ｄホールディングス",
@@ -1698,7 +1719,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 188
+   "rank": 190
   },
   {
    "name": "カプコン",
@@ -1707,7 +1728,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 189
+   "rank": 191
   },
   {
    "name": "資生堂",
@@ -1716,7 +1737,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 190
+   "rank": 192
   },
   {
    "name": "マキタ",
@@ -1725,7 +1746,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 191
+   "rank": 193
   },
   {
    "name": "日本航空",
@@ -1734,7 +1755,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 192
+   "rank": 194
   },
   {
    "name": "大塚商会",
@@ -1743,7 +1764,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 193
+   "rank": 195
   },
   {
    "name": "大東建託",
@@ -1752,7 +1773,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 194
+   "rank": 196
   },
   {
    "name": "ＭｏｎｏｔａＲＯ",
@@ -1761,7 +1782,7 @@
    "recent": 0,
    "news": 0,
    "score": 26.1,
-   "rank": 195
+   "rank": 197
   },
   {
    "name": "Sakana AI",
@@ -1770,7 +1791,7 @@
    "recent": 0,
    "news": 0,
    "score": 25.8,
-   "rank": 196
+   "rank": 198
   },
   {
    "name": "Preferred Networks",
@@ -1779,29 +1800,11 @@
    "recent": 0,
    "news": 0,
    "score": 25.8,
-   "rank": 197
+   "rank": 199
   },
   {
    "name": "ファナック",
    "kind": "投資家",
-   "links": 23,
-   "recent": 0,
-   "news": 0,
-   "score": 25.8,
-   "rank": 198
-  },
-  {
-   "name": "Lockheed Martin",
-   "kind": "会社",
-   "links": 14,
-   "recent": 0,
-   "news": 1,
-   "score": 25.8,
-   "rank": 199
-  },
-  {
-   "name": "リクルートホールディングス",
-   "kind": "会社",
    "links": 23,
    "recent": 0,
    "news": 0,
