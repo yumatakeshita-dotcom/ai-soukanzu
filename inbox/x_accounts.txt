@@ -137,3 +137,15 @@
 # --- 日本のテック・半導体の情報 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
 @nikkei_tech | money,moves,deep | 日経電子版「テック」公式(AI・スタートアップ)。確認済み
 @zubo_semicon | deep | 半導体業界の情報発信(現役エンジニアの個人)。確認済み
+
+# --- 新モデル・新プロジェクトを流す英語圏のアカウント (2026-11-21 追加。PCのブラウザでプロフィールの表示・フォロワー数・最近の投稿を確認) ---
+@claudeai | moves,deep | Claude公式(Anthropicの製品アカウント)。確認済み
+@OpenAIDevs | deep | OpenAI開発者向けの公式(Codex・API)。確認済み
+@GoogleAI | deep | Google AI公式。確認済み
+@AIatMeta | moves,deep | Meta AI公式。確認済み
+@huggingface | deep | Hugging Face公式。新モデルの公開が多い。確認済み
+@deepseek_ai | money,deep | DeepSeek公式(中国のAI新興)。確認済み
+@OfficialLoganK | deep | Google Gemini・AI Studio担当。本人の表示を確認
+@_akhaliq | deep | AI論文・新モデルの紹介(Hugging Face所属)。確認済み
+@perplexity_ai | money,deep | Perplexity公式。確認済み
+@cursor_ai | money,deep | Cursor(AIコーディング)公式。確認済み
