@@ -57,6 +57,7 @@ docs/                 移行メモなど
   - 2026/11/20: NVIDIAを追加(CEO交代の3件だけ。公式発表で確かめたもの)。足し方は同じ(`EXECTL` に `nvidia:` を足す)
   - 2026/11/20: xAI(SpaceX傘下)とGoogle DeepMindを追加(`EXECTL` の `xai` `gdm`。この2社には上場の線がない)。`exectl_auto.py` の `COMPANIES` にも足した
   - 2026/11/19: Anthropicを追加(画面の「会社」で切り替え)。毎朝の移籍の調査(inbox/moves/)から、OpenAI・Anthropicの幹部の動きを `scripts/exectl_auto.py` が `site/data/finds.js` の3行目(`EXECTL_AUTO`)に自動で足す(画面では「自動で追加」の印)。`scripts/merge_inbox.py` の最後に動くので、毎朝9:13の「調査の新着」の定期タスクで更新される。手で書いた年表に同じ人の前後1か月の行があれば足さない。この3行目は手で直さない(直したいものは exectl.js に手で書く)
+- 共有カード・検索用の meta(2026/11/20追加): `scripts/seo.py` が各ページの `<head>` に description・OGP(`<!--SEO:START-->〜`<!--SEO:END-->` の間)を入れ、`site/sitemap.xml` と `site/robots.txt` を作る。公開URLは `scripts/seo_config.json` の `base_url` 1か所(独自ドメインにしたら書き換えて `python3 scripts/seo.py`)。何度動かしても同じ。`npm run check` が印の有無を確かめ、`build-lab` と `weekly.py` の最後にも自動で動く。毎朝の更新で印が消えたら `python3 scripts/seo.py` で戻る。共有画像は `site/og.png`(`python3 scripts/make_og.py` で作り直す)。ページを足したら seo_config.json の `pages` にも足す
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
   - 同じファイルの2行目 `FINDLINKS` は、候補を相関図の人物・会社・線として出すためのもの(`scripts/finds_map.py` が inbox/ から作る)。どの会社の図に付けるかは index.html の `applyFinds` が名前で照らして決める。既存の人物・線は書き換えない
 - 確かさの印(公式・開示・本人・報道・推定。2026/11/18追加): index.html の `// ===== 確かさの印` の部分。線や数字の出典から自動で決まり、画面の「確かさ」で絞り込める
