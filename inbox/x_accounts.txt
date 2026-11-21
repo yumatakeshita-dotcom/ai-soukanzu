@@ -62,3 +62,8 @@
 @lightspeedvp | vc,money | Lightspeed公式
 @PreferredNet | money,deep | 日本のAI新興PFN公式(英語)
 @JPStartups | vc,money | 日本のスタートアップ報道
+# --- 日本のVC・スタートアップ (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@thebridge_jp | money,vc,moves | 日本のテックスタートアップ報道(THE BRIDGE)。確認済み
+@Kepple_jp | money,vc | 資金調達中心のスタートアップ報道(KEPPLE)。確認済み
+@coral_capital | money,vc | 日本のVC(Coral Capital)公式。確認済み
+@sogyotecho | money,vc | 起業・資金調達の情報(創業手帳)。確認済み
