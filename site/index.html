@@ -1,4 +1,21 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><!--SEO:START-->
+<meta name="description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<link rel="canonical" href="https://kigyo-relmap.yuma-takeshita.workers.dev/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI企業の相関図">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="AI企業の相関図">
+<meta property="og:description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<meta property="og:url" content="https://kigyo-relmap.yuma-takeshita.workers.dev/">
+<meta property="og:image" content="https://kigyo-relmap.yuma-takeshita.workers.dev/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI企業の相関図">
+<meta name="twitter:description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<meta name="twitter:image" content="https://kigyo-relmap.yuma-takeshita.workers.dev/og.png">
+<!--SEO:END-->
+</head><body>
 
 
 
@@ -152,7 +169,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -242,6 +259,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/finds.js"></script>
 <script src="data/common.js"></script>
 <script src="data/flowrank.js"></script>
+<script src="data/invest.js"></script>
 <script src="data/cfhist.js"></script>
 <script src="data/exectl.js"></script>
 <script>
@@ -284,11 +302,11 @@ const N = [
  {id:'thiel',name:'ピーター・ティール',kind:'i',from:2015,desc:'設立時の資金提供者の一人。',role:'個人投資家'},
  {id:'hoffman',name:'リード・ホフマン',kind:'i',from:2015,desc:'設立時の資金提供者の一人。LinkedIn共同創業者で、のち取締役も務めました。',role:'個人投資家'},
  {id:'yc',name:'Y Combinator',kind:'i',from:2015,desc:'設立時に関わったアクセラレーター。アルトマンは元代表。',role:'設立時の支援者'},
- {id:'microsoft',name:'Microsoft',kind:'i',from:2019,desc:'2019年に10億ドルを出資し、累計約130億ドルを投じる契約。2025年10月の再編後の持ち分は約27%、2026年6月末で約25%と報じられています。',role:'最大の外部株主 約25%'},
+ {id:'microsoft',name:'Microsoft',kind:'i',from:2019,desc:'2019年に10億ドルを出資し、累計約130億ドルを投じる契約。2025年10月の再編後の持ち分は約27%(2025/10/28、Microsoft公式ブログで確認。希薄化後・転換後の割合)。2026年6月末で約25%は報道ベースです。(2026/11/20 公式の出典を足した)',role:'最大の外部株主 約27%(再編時・公式)',src:['v_msopbc']},
  {id:'foundation',name:'OpenAI Foundation',kind:'i',from:2015,desc:'元の非営利組織。再編後も約26%を持ち、全取締役を任命して支配権を保ちます。',role:'非営利財団 約26%'},
  {id:'khosla',name:'Khosla Ventures',kind:'i',from:2019,desc:'2019年から出資する初期のベンチャーキャピタル。',role:'VC'},
  {id:'thrive',name:'Thrive Capital',kind:'i',from:2023,desc:'2023年の株式売却を主導した投資会社。',role:'VC'},
- {id:'softbank',name:'SoftBank',kind:'i',from:2024,desc:'約13%を保有と報じられています。2026年の増資では300億ドルを出資。',role:'約13%'},
+ {id:'softbank',name:'SoftBank',kind:'i',from:2024,desc:'2026年2月27日のソフトバンクグループの発表で、300億ドルの追加出資の完了後に累計646億ドル・持ち分約13%になる見込みと確認(計算の前提は未記載)。実際の持ち分は報道ベースです。(2026/11/20 公式の出典を足した)',role:'約13%(見込み・公式発表)',src:['v_sb0227']},
  {id:'nvidia',name:'Nvidia',kind:'i',from:2024,desc:'GPU供給元であり出資者。2026年の増資に300億ドルと報じられています。(2026/11/18、OpenAIの公式発表で確認)',role:'出資 + GPU供給',src:['v_oai110']},
  {id:'mgx',name:'MGX',kind:'i',from:2024,desc:'アブダビの投資会社。2024年の増資に参加。',role:'ファンド'},
  {id:'amazon',name:'Amazon',kind:'i',from:2026,desc:'2026年の増資で最大500億ドルをコミットと報じられています。Anthropicの大株主でもあります。(2026/11/18、OpenAIの公式発表で500億ドルを確認)',role:'出資(2026年)',src:['v_oai110']},
@@ -35779,8 +35797,10 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-20';
+const LAST_CHECK='2026-11-21';
 const UPDATES=[
+ {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
+ {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
  {d:'2026-11-18',co:['anthropic'],t:'Anthropicの上場価格は1株83ドルで想定の上限を上回ったと報道。調達は約685億ドル、19日にナスダックで取引開始',src:['CNBC(2026-11-18)','https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html']},
  {d:'2026-11-18',co:['anthropic','xai'],t:'Anthropicの上場の届け出書(S-1訂正3)から、売上(2026年1〜9月で332億ドル)、計算資源の契約(合計約9,009億ドル。SpaceXAIに最大1,205億ドルなど)、Amazon・Googleの持ち分を追加',cf:'開示',src:['Anthropic S-1訂正3(SEC、2026-11-17)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm']},
@@ -35792,7 +35812,7 @@ const UPDATES=[
  {d:'2026-11-10',co:['anthropic','gdm','nvidia','msft'],t:'Google・Nvidia・Microsoftが、Anthropicの上場価格で計260億ドルを出資する予定と届け出',src:['FT経由 Finimize(2026-11-11)','https://finimize.com/content/anthropics-bankers-weigh-pricing-its-ipo-above-range']},
  {d:'2026-11-12',co:['anthropic'],t:'Anthropicの上場の申込みが募集の約6倍に達したと報道',src:['Reuters/Bloomberg(2026-11-12)','https://www.investing.com/news/stock-market-news/anthropics-ipo-is-about-six-times-oversubscribed-bloomberg-news-reports-5023345']},
  {d:'2026-11-11',co:['tsmc','anthropic','openai'],t:'TSMCの取締役会がAnthropic株(上場時)とOpenAI優先株に各最大5億ドルの出資を承認',src:['Focus Taiwan(2026-11-11)','https://focustaiwan.tw/business/202611110009']},
- {d:'2026-11-12',co:['nvidia'],t:'Nvidiaのジェンスン・フアンCEOが辞任。CFOのコレット・クレス氏が暫定CEOに',src:['Al Jazeera(2026-11-12)','https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress']},
+ {d:'2026-11-12',co:['nvidia'],t:'Nvidiaのジェンスン・フアンCEOが辞任。CFOのコレット・クレス氏が暫定CEOに(2026/11/19、NvidiaのSEC 8-Kと公式発表で確認。取締役会の承認は11月11日)',src:['Al Jazeera(2026-11-12)','https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress']},
  {d:'2026-11-12',co:['xai'],t:'SpaceXがテキサス・アリゾナのAI計算拠点に740億ドル超を投資する計画を発表',src:['Reuters(2026-11-12)','https://www.investing.com/news/stock-market-news/spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona-5022690']},
  {d:'2026-11-12',co:['softbank'],t:'ソフトバンクGが4〜9月期に7680億円の純損失。米データセンター計画で37億ドルの減損',src:['DIGITIMES(2026-11-12)','https://www.digitimes.com/news/a20261111PD245/equipment-loss-2026-market.html']},
  {d:'2026-11-10',co:['anthropic'],t:'Anthropicが上場の公募価格の仮条件を1株70〜78ドルに設定(銘柄コードANT)',src:['ABC7 News(2026-11-10)','https://abc7news.com/story/anthropic-seeks-70-78-share-new-ipo-filing-values-13-trillion/20029820/']},
@@ -36232,6 +36252,10 @@ Object.assign(DS,{
  v_milich:['アンドリュー・ミリッチ本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/milichab/status/2032176871517934070','s'],
  v_chaplot:['デベンドラ・チャプロット本人のX(2026/3、SpaceX・xAIに加わると表明)','https://x.com/dchaplot/status/2032596951435456797','s'],
  v_groqnv:['Groq公式発表(2025/12/24、ロス氏らがNvidiaに加わる)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
+ // 2026/11/20 確かめ直し(5回目): OpenAIの大株主(Microsoft・ソフトバンク)
+ v_metz:['ルーク・メッツ本人のXのプロフィール(2026/11/20確認、「Meta / Previously: Thinking Machines, OpenAI, Google Brain」)','https://x.com/Luke_Metz','s'],
+ v_msopbc:['Microsoft公式ブログ(2025/10/28、再編後の持ち分は約27%・約1,350億ドル。希薄化後・転換後)','https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/','o'],
+ v_sb0227:['ソフトバンクグループ公式発表(2026/2/27、300億ドルの追加出資。完了後に累計646億ドル・持ち分約13%の見込み)','https://group.softbank/news/press/20260227','o'],
  // 2026/11/19 追加: x.comに直接つながるようになったので、本人のXのプロフィールで確かめた人の動き
  v_blomfield:['トム・ブロムフィールド本人のXのプロフィール(2026/11/19確認、「Member of Technical Staff at @anthropicai」)','https://x.com/t_blom','s'],
  // 2026/11/18 xAI・Grok・Xの調査で追加(公式・開示を優先)
@@ -36261,6 +36285,9 @@ s_ltanx:['ローレン・タン本人のXのプロフィール(2026/11/19確認�
 f_antmef:['Anthropic S-1MEF(SEC、2026/11/18。追加の株の届け出。1株83ドル・追加1億7,825万株)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm','f'],
  r_xaiorg:['Business Insider経由 AOL(2026/4/9、ニコルス氏が社長に。技術チームの組み直し)','https://www.aol.com/articles/xai-reorganizes-engineering-team-ahead-225826490.html','r'],
  v_lau:['オースティン・ラウ本人のX(2026/11/5、OpenAIに加わったと投稿。2026/11/19にXで確認)','https://x.com/helloitsaustin/status/2118161804463595931','s'],
+ // 2026/11/19 追加: NvidiaのCEO交代をSECの臨時報告書(8-K)で確かめた
+ v_nvceo:['Nvidia SEC 8-K(2026/11/12、フアンCEOの辞任・クレス暫定CEO・ジョーンズ議長)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm','f'],
+ v_nvceopr:['Nvidia公式発表「NVIDIA Announces CEO Transition」(2026/11/12、8-Kの添付資料)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvidiaannouncesceotransiti.htm','o'],
 });
 // ===== 確かさの印(2026年11月18日に追加) =====
 /* 線や数字の「確かさ」を、出典の種類から自動で決める。強い順に f=開示書類 o=公式発表 s=本人の発言 r=報道だけ。
@@ -36425,7 +36452,17 @@ const VERIFY_PPL=[
  ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
  ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
+ ['ジェンスン・フアン','Nvidia','v_nvceo','NvidiaのSEC 8-Kで辞任を確認','2026/11/19'],
+ ['コレット・クレス','Nvidia','v_nvceo','NvidiaのSEC 8-Kで暫定CEOを確認','2026/11/19'],
+ ['ハーベイ・ジョーンズ','Nvidia','v_nvceo','NvidiaのSEC 8-Kで議長就任を確認','2026/11/19'],
+ ['ルーク・メッツ','Meta','v_metz','本人のXのプロフィールで確認','2026/11/20'],
+ /*XV_PPL_START*/ // scripts/moves_x_apply.py --apply が、本人のXで確かめた人の動きをここに足す(足すだけ)
+ /*XV_PPL_END*/
 ];
+// 本人のXで確かめた人の動きの出典(scripts/moves_x_apply.py が足す。2026/11/20)
+Object.assign(DS,{
+ /*XV_DS_START*/ /*XV_DS_END*/
+});
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
@@ -36972,8 +37009,8 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
-  wireAcq();wireVc();wireCommon();wireKk();
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}${investBtn()}`;
+  wireAcq();wireVc();wireCommon();wireInvest();wireKk();
   document.querySelectorAll('a.colgo[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();build(a.dataset.k)});
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
@@ -38890,7 +38927,7 @@ qEl.addEventListener('keydown',ev=>{
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
 /* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面 ===== */
-const BUILT='2026-11-13 17:57';
+const BUILT='2026-11-21 12:04';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
@@ -38902,12 +38939,13 @@ function showHome(){
   const cards=[
     ['company','企業の相関図',`${nCo}社。社長・経営陣・出資者のつながり`,'openai'],
     ['common','2社の共通のつながり','2社を選ぶと、共通の出資者・人物・取引先と最短ルート。営業先との接点探しに'],
+    ['invest','出資の一覧','どの企業が、どの企業に出資しているか。会社を選ぶと、出資者と出資先が並ぶ'],
     ['rank','時価総額ランキング','米国200社と日本188社'],
     ['uni','スタートアップ',`ユニコーン${UNI.length}社の一覧と、上場申請`],
     ['rel','ニュースから関係を見る','提携・買収・出資を、記事から相関図に'],
     ['money','AIマネーの循環','出資と支払いが、AI企業のあいだをどう回っているか'],
     ['move','AI人材の移籍マップ','研究者や幹部が、どの会社からどの会社へ移ったかを年ごとに'],
-    ['extl','幹部の入れ替わり年表','OpenAIとAnthropicの経営陣の入社・退社を、上場準備の前後で。出典つき'],
+    ['extl','幹部の入れ替わり年表','OpenAI・Anthropic・xAI・Google DeepMindの経営陣の入社・退社を、時系列で。出典つき'],
     ['cf','確かさの一覧','各社の数字のうち、公式発表・開示書類で確かめた割合'],
     ['finds','調査の新着',`${typeof FINDS!=='undefined'?FINDS.length:0}件。毎朝の調査で見つけた移籍・出資・ファンドの候補`],
     ['su','スタートアップ一覧',`${YCS.length.toLocaleString()}社(Y Combinator出身)`],
@@ -38918,7 +38956,7 @@ function showHome(){
     ['jp','日本の企業価値','上場企業と未上場ユニコーン'],
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
-  const news=RELNEWS.slice(0,6);
+  const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
@@ -38926,7 +38964,7 @@ function showHome(){
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
-  const go={company:()=>build('openai'),common:()=>showCommon(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
+  const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
   FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
@@ -39245,13 +39283,13 @@ function vcBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';const r=vcsOf(
   return (n||out.length)?`<div class="links"><a href="#" id="govc"><b>${nm}の投資・出資の記録を見る ▸</b></a><small style="display:block;color:var(--muted)">${n?`投資したVC・投資家 ${r.vcs.length}社${r.news.length?`+ニュース${r.news.length}件`:''}`:''}${n&&out.length?' / ':''}${out.length?`出資している会社 ${out.length}社`:''}</small></div>`:''}
 function wireVc(){const g=document.getElementById('govc');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showOrg(COMPANIES[comp].name,'',()=>build(comp))})}
 /* 上のメインメニュー: いま見ている画面を色で示し、会社の選択欄(長い一覧)は相関図を見ているときだけ出す */
-const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),common:()=>showCommon(),cf:()=>showCfList(),extl:()=>showExecTl()};
+const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),common:()=>showCommon(),invest:()=>showInvest(),cf:()=>showCfList(),extl:()=>showExecTl()};
 function navSync(){
   let cur='company';
   if(!MAINEL.hidden||!PROFEL.hidden)cur='company';
   else if(!RANKEL.hidden)cur='rank';
   else if(!UNIEL.hidden)cur='uni';
-  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
+  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
@@ -39606,7 +39644,7 @@ async function relExtract(items){
 
 const h0=location.hash.slice(1);
 navSync();
-if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
+if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='invest')showInvest();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
 </script>
 
 </body></html>

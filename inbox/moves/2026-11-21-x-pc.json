@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-21",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Aleksander Madry",
+   "name_ja": "アレクサンダー・マドリー",
+   "from": "休職(2026-05にOpenAIを離れた)",
+   "to": "OpenAI(復帰)",
+   "role": "安全・セキュリティ担当(肩書は未発表。チーフサイエンティストのPachockiと取り組む)",
+   "date": "2026-10-19",
+   "note": "本人がXで「退社と思っていたものは休職に近かった」と復帰を発表。Sam Altmanが引用して歓迎(10/20)。2026/11/21にPCのブラウザでXの本人ページを開いて投稿と自己紹介(OpenAI and MIT faculty (on leave))を確認。複数の報道でも確認。",
+   "src": [
+    [
+     "Aleksander Madry本人のX(2026-10-19)",
+     "https://x.com/aleks_madry/status/2112231448103239998"
+    ],
+    [
+     "Sam Altmanのポスト(2026-10-20)",
+     "https://x.com/sama/status/2112652656602923366"
+    ],
+    [
+     "OpenAI welcomes Aleksander Madry back to tackle AI safety challenges(Crypto Briefing)",
+     "https://cryptobriefing.com/openai-aleksander-madry-returns-ai-safety/"
+    ],
+    [
+     "Aleksander Madry returns to OpenAI to work on AI safety and security(Runtime Wire)",
+     "https://runtimewire.com/article/aleksander-madry-returns-openai-ai-safety"
+    ]
+   ],
+   "confidence": "本人の発言"
+  }
+ ],
+ "notes": "祐真さんのPCのブラウザでXの見る一覧(約25アカウント: sama・gdb・miramurati・alexandr_wang・AnthropicAI・OpenAI・xai・elonmusk・jackclarkSF・DarioAmodei・The Information記者・Techmeme・Reuters・nikkei_startup・thebridge_jpなど)の直近の投稿を読んだ。移籍はMadryの復帰のみ新規(Cat Wuは既出)。読むだけで操作はしていない。"
+}

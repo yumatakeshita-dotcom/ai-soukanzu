@@ -31,8 +31,8 @@ function cmBuild(){
     d.E.forEach(e=>{const a=m[e.a],b=m[e.b];if(a==null||b==null||a===b)return;
       const kk=e.k==='invest2'?'invest':e.k,sym=kk==='deal'||kk==='link'||kk==='conflict';
       const sig=(sym?Math.min(a,b)+'|'+Math.max(a,b):a+'|'+b)+'|'+kk;
-      const ne={a,b,k:e.k,l:e.label||'',y:e.since||'',d:(e.k==='deal'||e.k==='uses')?(e.d||''):'',src:e.src||null};
-      if(seen.has(sig)){const o=edges[seen.get(sig)];if(!o.l&&ne.l)o.l=ne.l;if(!o.d&&ne.d)o.d=ne.d;if(!o.src&&ne.src)o.src=ne.src;if(!o.y&&ne.y)o.y=ne.y;return}
+      const ne={a,b,k:e.k,l:e.label||'',y:e.since||'',d:(e.k==='deal'||e.k==='uses')?(e.d||''):'',src:e.src||null,ed:(e.k==='invest'||e.k==='invest2')?(e.d||''):''};
+      if(seen.has(sig)){const o=edges[seen.get(sig)];if(!o.l&&ne.l)o.l=ne.l;if(!o.d&&ne.d)o.d=ne.d;if(!o.src&&ne.src)o.src=ne.src;if(!o.ed&&ne.ed)o.ed=ne.ed;if(!o.y&&ne.y)o.y=ne.y;return}
       seen.set(sig,edges.length);edges.push(ne)});
   }
   /* 相関図を持っていない会社の点も、名前が同じなら会社につなげる(クリックで開けるように) */

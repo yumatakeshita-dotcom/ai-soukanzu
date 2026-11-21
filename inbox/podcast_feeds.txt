@@ -1,0 +1,46 @@
+# 毎日見るポッドキャスト(足すだけ。消さない)。公開RSS。SpotifyにはRSSの公開がないので、同じ番組のRSS(Apple Podcastsの検索で調べた配信元)を使う
+# 形: RSSのURL|番組名|種類|言語|確かめ方(2026/11/21: Apple Podcastsの検索で番組名・制作者が一致)
+https://rss.libsyn.com/shows/61840/destinations/240976.xml|20VC|VC|en|Apple一致(配信元ホスト未許可)
+https://feeds.megaphone.fm/nopriors|No Priors|AI・VC|en|Apple一致
+https://apple.dwarkesh-podcast.workers.dev/feed.rss|Dwarkesh Podcast|AIインタビュー|en|Apple一致(配信元ホスト未許可)
+https://feeds.transistor.fm/acquired|Acquired|企業史・買収|en|Apple一致
+https://rss.libsyn.com/shows/254861/destinations/1928300.xml|All-In|VC・テック|en|Apple一致(配信元ホスト未許可)
+https://podcast.latent.space/feed.xml|Latent Space|AI技術|en|Apple一致(配信元ホスト未許可)
+https://api.substack.com/feed/podcast/10845.rss|Lenny's Podcast|起業・プロダクト|en|Apple一致
+https://feeds.transistor.fm/cheeky-pint-with-john-collison|Cheeky Pint|起業・金融|en|Apple一致
+https://feeds.transistor.fm/technology-brother|TBPN|AI・テック|en|Apple一致
+https://feeds.simplecast.com/6HKOhNgS|Hard Fork|テックニュース|en|Apple一致
+https://feeds.megaphone.fm/recodedecode|Decoder with Nilay Patel|テック経営者|en|Apple一致
+https://feeds.megaphone.fm/trainingdata|Training Data (Sequoia)|VC・AI|en|Apple一致
+https://feeds.megaphone.fm/LI3617121267|Big Technology Podcast|テックニュース|en|Apple一致
+https://feeds.simplecast.com/JGE3yC0V|The a16z Show|VC|en|Apple一致
+https://feeds.simplecast.com/Hb_IuXOo|AI + a16z|VC・AI|en|Apple一致
+https://rss.art19.com/masters-of-scale|Masters of Scale|起業|en|Apple一致
+https://feeds.megaphone.fm/VMP2035168248|How I Built This|起業|en|Apple一致
+https://feeds.megaphone.fm/LI6529969937|The Colin and Samir Show|起業・クリエイター|en|Apple一致
+https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss|Odd Lots (Bloomberg)|金融・テック|en|Apple一致(配信元ホスト未許可)
+https://feeds.rebuild.fm/rebuildfm|Rebuild|テック(日本語)|ja|Apple一致(配信元ホスト未許可)
+# 2026/11/21 日本語・アジアの番組を追加(Apple Podcastsの検索で番組名・制作者を確認。国別の検索結果から選んだ)
+https://anchor.fm/s/feda3708/podcast/rss|VIVA VC(ファーストライト×Chronicle)|VC(日本)|ja|Apple一致
+https://anchor.fm/s/64e84f18/podcast/rss|スタートアップ オフレコ対談(XTech Ventures)|VC・起業(日本)|ja|Apple一致
+https://anchor.fm/s/984c99a4/podcast/rss|スタートアップ投資TV|VC・投資(日本)|ja|Apple一致
+https://anchor.fm/s/1297db0c/podcast/rss|This is 令和スタートアップ|起業(日本)|ja|Apple一致
+https://anchor.fm/s/29b92318/podcast/rss|海外スタートアップレポート(シリコンバレーによろしく リターンズ)|海外起業(日本語)|ja|Apple一致
+https://anchor.fm/s/fdcb115c/podcast/rss|川邊の会食(川邊健太郎)|経営者インタビュー(日本)|ja|Apple一致
+https://anchor.fm/s/7369a14/podcast/rss|Off Topic|テック・起業(日本)|ja|Apple一致
+https://anchor.fm/s/e97e8ad0/podcast/rss|Startup Now(StartPods)|起業家(日本)|ja|Apple一致
+https://feeds.megaphone.fm/NBP3303775005|日経ビジネス モーニングニュース|経済ニュース(日本)|ja|Apple一致
+https://anchor.fm/s/5aafac80/podcast/rss|NewsPicks Daily Briefing|経済ニュース(日本)|ja|Apple一致
+https://api.substack.com/feed/podcast/922535.rss|SEA of Startups|東南アジア起業・資金|en|Apple一致
+https://anchor.fm/s/58b89130/podcast/rss|Forbes India The Startup Fridays|インド起業|en|Apple一致
+https://anchor.fm/s/c39f2f18/podcast/rss|스타트업 인사이드(スタイン)|韓国起業|ko|Apple一致
+https://anchor.fm/s/104dd2638/podcast/rss|와우레터(ワウテール)|韓国起業ニュース|ko|Apple一致
+https://anchor.fm/s/108af8fa8/podcast/rss|The New Playbook 新创手册|中華圏起業|zh|Apple一致
+# 2026/11/21 許可された7ホストの番組を追加(Apple一致)
+https://api.robotstart.jp/api/v1/feeds/3614048b/get-feeds/podcast|10分でわかるスタートアップ・資金調達ニュース|資金調達(日本)|ja|Apple一致
+https://www.hiromaeda.com/feed/podcast/|前田ヒロ Startup Podcast|VC・起業(日本)|ja|Apple一致
+https://www.radionikkei.jp/podcast/techscience/rss.xml|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|テック(日本)|ja|Apple一致
+https://rss.listen.style/p/catalyst/rss|Catalyst by Publidia|ビジネス(日本)|ja|Apple一致
+https://feed.pod.co/bravedynamics|BRAVE Southeast Asia Tech|東南アジアVC・起業|en|Apple一致
+https://feed.firstory.me/rss/user/cl3k10tva02to01uicdc13m9r|創創燒(創投公會TVCA)|台湾VC|zh|Apple一致
+https://feeds.captivate.fm/prime-venture-partners/|Prime Venture Partners Podcast|インドVC|en|Apple一致

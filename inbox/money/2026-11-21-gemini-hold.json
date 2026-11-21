@@ -1,0 +1,258 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Accel",
+   "to": "August AI",
+   "kind": "出資",
+   "amount": "$12M(3社合計)",
+   "date": "2026-11-19",
+   "note": "August AI(インド発のヘルスケアAIエージェント)のシリーズA 1,200万ドル。Accel・Peak XV・Claypond Capitalが参加(Inc42 2026/11/19で本文を確認。出資額の内訳は報道ベース)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/august-ai-raises-12-mn-to-expand-ai-healthcare-assistant-in-the-us/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Peak XV Partners",
+   "to": "August AI",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "August AI(インド発のヘルスケアAIエージェント)のシリーズA 1,200万ドル。Accel・Peak XV・Claypond Capitalが参加(Inc42 2026/11/19で本文を確認。出資額の内訳は報道ベース)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/august-ai-raises-12-mn-to-expand-ai-healthcare-assistant-in-the-us/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Claypond Capital",
+   "to": "August AI",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "August AI(インド発のヘルスケアAIエージェント)のシリーズA 1,200万ドル。Accel・Peak XV・Claypond Capitalが参加(Inc42 2026/11/19で本文を確認。出資額の内訳は報道ベース)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/august-ai-raises-12-mn-to-expand-ai-healthcare-assistant-in-the-us/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Accel",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "$26M(株式。ラウンド合計$47M)",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA。株式2,600万ドルをAccelが主導、ほか債務(ベンチャーデット)2,100万ドルで合計4,700万ドル(TechCrunchとInc42の本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Prosus Ventures",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "BeeGlobal",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Finserv Intelligence(Bajaj Finance傘下)",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Bajaj Alts AI Opportunities Fund",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Dallas Venture Capital",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Lighthouse Canton",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認);ベンチャーデット$21Mも主導",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Jump Trading",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn LabsのシリーズA株式分に参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Trifecta Capital",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-18",
+   "note": "Humyn Labsのベンチャーデット$21Mに参加(TechCrunch本文で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/18)",
+     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"
+    ],
+    [
+     "Inc42(2026/11/19)",
+     "https://inc42.com/buzz/humyn-labs-47-mn-round-from-blinkit-to-vice-city-more/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ]
+}

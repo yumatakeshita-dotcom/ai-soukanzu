@@ -1,0 +1,216 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini",
+ "topic": "OpenAIのIPO(上場)準備の動き 2026年11月",
+ "model": "gemini-2.5-flash",
+ "checked": "しない",
+ "items": [
+  {
+   "会社名": "OpenAI",
+   "関係": "出資",
+   "相手": "",
+   "金額": "$11 billion",
+   "日付": "2026-11-06",
+   "出典URL": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+   "確かさ": "報道",
+   "備考": "評価額は$1.25兆ドル。これはより大規模な資金調達ラウンドの一部であり、最終的に$200億に達する可能性もある。SoftBankとMGXが参加したと報じられている。",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "Pierre Computer Company, Inc.",
+   "金額": "",
+   "日付": "2026-11-04",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU=",
+   "確かさ": "報道",
+   "備考": "Code Storage、Trees、Diffsなどの開発ツール企業。買収額は非公開。",
+   "src": [
+    [
+     "Venture Atlas",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU="
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "Odessia",
+   "金額": "",
+   "日付": "2026-11",
+   "出典URL": "https://www.tracxn.com/d/acquisitions/acquisitions-by-openai",
+   "確かさ": "報道",
+   "備考": "自動旅行計画サービスを提供する企業。買収額は非公開。",
+   "src": [
+    [
+     "Tracxn",
+     "https://www.tracxn.com/d/acquisitions/acquisitions-by-openai"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "Groupe Figaro (Le Figaro)",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZpDZlJ10MIiMK-eZza9WOx6mOvNl_Nr5qhdCxDFmLsEtCkw6nYfYuFUvRViyL-mwxwtro95qMmFVD2ehAHmQ4dQ4qf4OXMWYgcovjjKmAYJCmInN-V819byl9zNOZlCQ2CvDUArrRU2LUxaV27bfRMOTQgTpbbe7mo3JpRKp7jO7b9WTPgnY17Xc_cmY=",
+   "確かさ": "報道",
+   "備考": "ChatGPTでLe Figaroのジャーナリズムコンテンツを利用可能にし、Le Figaro内でChatGPT Enterpriseを展開する戦略的パートナーシップ。",
+   "src": [
+    [
+     "Unite.AI",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZpDZlJ10MIiMK-eZza9WOx6mOvNl_Nr5qhdCxDFmLsEtCkw6nYfYuFUvRViyL-mwxwtro95qMmFVD2ehAHmQ4dQ4qf4OXMWYgcovjjKmAYJCmInN-V819byl9zNOZlCQ2CvDUArrRU2LUxaV27bfRMOTQgTpbbe7mo3JpRKp7jO7b9WTPgnY17Xc_cmY="
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "LVMH's media division (Groupe Les Echos-Le Parisien)",
+   "金額": "",
+   "日付": "2026-11-16",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZPgJCwnrgnMNYpmoKxVyqqTVDcKErV8QAZhjwK4l7HCG6IDG1wGSNNV-B5nl5sSYpxaA96rFy6XAJUK7sWGO-MRk_aXNU2flXcrCjhrbd63MQLeclqap7aoN5yyjoIR--iJtTU95GW_3tUAKOcy4OiOedCcWPNew67tvZ0MXrVZAqWHivdDQ2gzz-Q072qnND8iMLmH9EY8tWuFy509xwSIrdIQTOFQ==",
+   "確かさ": "報道",
+   "備考": "LVMHのメディア部門の出版物全体でChatGPT EnterpriseおよびOpenAIツールを展開し、そのコンテンツをChatGPTに統合する戦略的パートナーシップ。",
+   "src": [
+    [
+     "MLQ.ai",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZPgJCwnrgnMNYpmoKxVyqqTVDcKErV8QAZhjwK4l7HCG6IDG1wGSNNV-B5nl5sSYpxaA96rFy6XAJUK7sWGO-MRk_aXNU2flXcrCjhrbd63MQLeclqap7aoN5yyjoIR--iJtTU95GW_3tUAKOcy4OiOedCcWPNew67tvZ0MXrVZAqWHivdDQ2gzz-Q072qnND8iMLmH9EY8tWuFy509xwSIrdIQTOFQ=="
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "Aleph",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://www.globenewswire.com/news-release/2026/11/19/2782780/0/en/OpenAI-increases-its-ChatGPT-Ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-Aleph.html",
+   "確かさ": "公式",
+   "備考": "44カ国でChatGPT広告のプレゼンスを拡大するための独占的な再販業者パートナーシップ。",
+   "src": [
+    [
+     "GlobeNewswire",
+     "https://www.globenewswire.com/news-release/2026/11/19/2782780/0/en/OpenAI-increases-its-ChatGPT-Ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-Aleph.html"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI",
+    "Aleph"
+   ]
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-02",
+   "出典URL": "https://openai.com/blog/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-modernization",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Dan Driscoll",
+   "役職": "Senior Counselor for National Security Modernization",
+   "移籍元": "(元陸軍長官)",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "OpenAI Blog",
+     "https://openai.com/blog/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-modernization"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ]
+  }
+ ],
+ "grounding": [
+  [
+   "techcrunch.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET147KB5INwpHG0Owr5S_z_m6d8Er21W8ts1bVDrwF89Tdi822dRXxUgGzrdk8tW6qzUGhwk1knolkxu_vI9tolaJ6Pk1NZPxd4rjs1lbiZ3bal9Uetv_muHB8EiDEtN0WnUmRwLYEbexykjwydwg7RZFb7l-NAVWvD4JrUZ3n7WLIXjfHUnCaLoeGy4jp-y4weBNf7m_6L_IIyht86zt8xZL2xhErNqDOay3J"
+  ],
+  [
+   "unite.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErQD-XY2kx1BbzJuYOhvSjBXjtoVzdxtE0jRMO9gcwOH-HUqNbKxBfRSQxHbb1LiuU3RjQXq_Wy1xTfkSMCnwQFKy2nZGhGvG6sfqeU8GYR3YHTEJfL64pVZBxmhkq2-nzi0Vx5lUpgkhpetNus0YnY9rjICsXB0iJULv_xtZww7VbB06rTcxycQ=="
+  ],
+  [
+   "shattered.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEn_ydzKAv-XXSv2GCi0bDTqzvRzeR0MBoRxawGuTkGyiqsUC3g7b8Ud5rNfQTGhKCHnc7ZLI1mr4ZIdFKkh5yTD380fkqTPGbTwF5W_1K-jb4TG9FV8ShjyirdAizX_Arzxw75QEy2Ym_EiuxzCknZORHrMy-H5-Wfjn_-rFaslaM6gZ4K32DOBxfLeG6BgaMZ"
+  ],
+  [
+   "presenc.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlgfnUcAtXVWGNx2dpz8zKfFOTxE8QeSsLDSwreREJXb9udIsR-rZlNwNmUuO_KH6QMD-y22LmPeOOjDQz3k8OC98ZQqyTS34j8W9y02y1SIyPydSSFHelJTo_hmz3DnMk9HA5AE4C5bfTJOMiGJYu9gtEGFJHmKzl"
+  ],
+  [
+   "ventureatlas.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlWNib8OXU="
+  ],
+  [
+   "shattered.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5KPiTgYBQuMaY26VIs_dqpRUPJkCFjJf1ZUWZ-kwaNUMOW3Fu_s4AfnsURuiAn5S9focdQ_u8euZnXqowiFAT9ZEO9Th2Bjv-4HNfU0HCEH9iVt8U2E4Wuxb0kY7dlD_n0cKQJG5yYbZ6yCMgKwC5GXXGH3uF-D2gMUJVuQYSItyKXAPFLxWxQ7Je"
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZd0xbdG1efEiYh-A2R23iwqaC3SPZ7lKi-9Tp9TlAVdyTkz0AlrB35vXAmi-BDb1QK1stFp56uGrsn924-Gbf9BIM7gH5p4adg66jQa05LK2jR__7TuYB2_HGO3KH1kP4nlWn6P3lehix5qRc"
+  ],
+  [
+   "tracxn.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcz22-jFc_WTeyKbjtHJC3UGhfIPusYviaNZc04YQ89r6VwMZVSj2x7hfnLSONeWH_0t0Its9L25DPW3B3KdNbslGXKGYMjcwNPVhv4-vRSIgMo7CvqDq-F1tYg_hGoTihkMjPJp0p9sRQcJ-CkyTVtaH_SQp1MpTwL9CtL7cN7uEnbXW7PCt7GEfrauyCR1AievuVFGZyUA7abzsX6jUxFg=="
+  ],
+  [
+   "unite.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZpDZlJ10MIiMK-eZza9WOx6mOvNl_Nr5qhdCxDFmLsEtCkw6nYfYuFUvRViyL-mwxwtro95qMmFVD2ehAHmQ4dQ4qf4OXMWYgcovjjKmAYJCmInN-V819byl9zNOZlCQ2CvDUArrRU2LUxaV27bfRMOTQgTpbbe7mo3JpRKp7jO7b9WTPgnY17Xc_cmY="
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy3AXmJXeOQQob13xN3FYDjZon0nbrELmi19hfwoFrW7JqkDI-z5iI_Y_FE1LXs4q02CfwaBGUNEDPODF_EfEnRfjfMjAaBKbgeFMKGBoKH2DLRrDEHrF6M9s60Z4cTnF8-mLXp-sRJYLeHf8fv_XhmQcIjBpxPmjqZUeKKVr-Qv483NGU"
+  ],
+  [
+   "mlq.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZPgJCwnrgnMNYpmoKxVyqqTVDcKErV8QAZhjwK4l7HCG6IDG1wGSNNV-B5nl5sSYpxaA96rFy6XAJUK7sWGO-MRk_aXNU2flXcrCjhrbd63MQLeclqap7aoN5yyjoIR--iJtTU95GW_3tUAKOcy4OiOedCcWPNew67tvZ0MXrVZAqWHivdDQ2gzz-Q072qnND8iMLmH9EY8tWuFy509xwSIrdIQTOFQ=="
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIdmN3RjjrgPcjoY0hUJYj9gNiireisIRst6TMW9pDPJfRE5vbMt_SBsc6w2jT20v3e_Dwcf6brA6_OLqdSYaOCiDE8k8-lcLC84zUlrZfxGR36dcs8fCi05OlzywmLz3trG1Hs0X623KsTjdMVlJbeDnnwQ=="
+  ],
+  [
+   "globenewswire.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeuuVWgnibEPO0gGTaROEHG8JCx2urTGZ2M_IX2cc9Qgimt1zzRvGj-YddpxDmMYJ-e7VSegGBcptnmPvf5ztk_JMpCF3fw_toCgBLrgPXfg6htY58abPQkFq_ZcAcxE8pfFI0s3s_uesLHTBm8Ip2D4c0yl0-sIDcvesSFdJVM3W1NYz0gaWmZZbVGWuZcEBqgT7oIVdsNpueultM1IPvd3btbbsurVeS3X0TxOuANZVHJcNyFtWmKP1EMHzO6hF94Y9BrjmKNQh5jZ8z6zfcjRz4IvqHOlUy59-uKeoXI20uPUgxEbEWekmD2bHoLAMeBw=="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+  "https://www.unite.ai/openai-secures-11b-in-initial-funding-at-1-25t-valuation/",
+  "https://shattered.io/openai-11-billion-funding-1-25-trillion-valuation-bloomberg-2026/",
+  "https://presenc.ai/research/openai-funding-round-november-2026",
+  "https://www.ventureatlas.org/news/2026-11-04-openai-pierre-acquisition",
+  "https://shattered.io/openai-acquires-pierre-code-storage-trees-diffs-codex-2026/",
+  "https://openai.com/index/openai-to-acquire-pierre/",
+  "https://tracxn.com/d/acquisitions/acquisitions-by-openai/__kElhSG7uVGeFk1i71Co9-nwFtmtyMVT7f-YHMn4TFBg",
+  "https://www.unite.ai/openai-to-surface-le-figaro-reporting-in-chatgpt-partnership/",
+  "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/",
+  "https://mlq.ai/news/lvmhs-media-group-signs-a-deal-with-openai-to-bring-chatgpt-enterprise-to-its-newsrooms/",
+  "https://openai.com/index/lvmh-media-division-partnership/",
+  "https://www.globenewswire.com/news-release/2026/11/19/3406657/0/en/openai-increases-its-chatgpt-ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-aleph.html"
+ ]
+}
