@@ -90,6 +90,12 @@ def main(days=7, quiet=False):
     with open(SEEN, "a", encoding="utf-8") as f:
         for v in videos:
             f.write(f"{v['id']}|{v['channel']}|{v['published']}|{v['title']}\n")
+    try:  # 過去動画(各100本)も一緒に取る。失敗しても毎日の確認は止めない(2026/11/21追加)
+        import yt_backfill
+        bf = yt_backfill.main(quiet=True)
+        summary += " / " + bf
+    except Exception as e:  # noqa: BLE001
+        summary += f" / 過去動画の取得は失敗({str(e)[:60]})"
     if not quiet:
         print(summary)
         print("記録:", os.path.relpath(path, ROOT))

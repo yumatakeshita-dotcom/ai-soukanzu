@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Nvidia",
+   "to": "Thinking Machines Lab",
+   "kind": "出資",
+   "amount": "非公表('significant investment')+Vera Rubin 1GW以上の供給",
+   "date": "2026-03-10",
+   "note": "NvidiaがMira Muratiの会社に出資し、1ギガワット以上のVera Rubinを供給する長期の提携(Nvidia公式ブログで確認。出資額は非公表)。2026/3/10のTBPNの回から探した",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "NVIDIA公式ブログ(2026/3/10)",
+     "https://blogs.nvidia.com/blog/nvidia-thinking-machines-lab/"
+    ],
+    [
+     "Axios(2026/3/10)",
+     "https://axios.com/2026/03/10/nvidia-thinking-machines-mira-murati/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media",
+   "seed_agent": "datacenter",
+   "seed_from": "inbox/money/2026-11-21-media.json"
+  }
+ ],
+ "notes": "datacenter: 過去の inbox から拾った 2 件(初回の拾い。元のファイルは変えていない)"
+}

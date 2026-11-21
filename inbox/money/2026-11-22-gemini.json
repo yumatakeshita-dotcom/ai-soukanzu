@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "NVIDIA Corporation",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "10 billion",
+   "date": "2026-11-20",
+   "note": "IPOと同時に実施された非公開化私募(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  },
+  {
+   "from": "Google LLC",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "10 billion",
+   "date": "2026-11-20",
+   "note": "IPOと同時に実施された非公開化私募(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  },
+  {
+   "from": "Advanced Micro Devices, Inc.",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-20",
+   "note": "IPOと同時に実施された非公開化私募、総額260億ドルのうちの一部(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-22.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}

@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "三菱電機",
+   "to": "Sakana AI株式会社",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-03-25",
+   "note": "次世代AI基盤モデル技術を活用した新たなソリューション創出を目指す。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "prtimes.jp",
+     "https://prtimes.jp/main/html/rd/p/000000378.000120285.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini",
+   "seed_agent": "jp_funding",
+   "seed_from": "inbox/money/2026-11-20-gemini-2.json"
+  },
+  {
+   "from": "",
+   "to": "Z Creative Partners",
+   "kind": "出資",
+   "amount": "5000万円",
+   "date": "2026-11-13",
+   "note": "生成AIによるブランド評価を可視化・分析する技術開発(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "sogyotecho.jp",
+     "https://sogyotecho.jp/news/20261116z-creative-partners/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini",
+   "seed_agent": "jp_funding",
+   "seed_from": "inbox/money/2026-11-20-gemini.json"
+  },
+  {
+   "from": "",
+   "to": "STRACT",
+   "kind": "出資",
+   "amount": "約12億円",
+   "date": "2026-11-18",
+   "note": "AIショッピングアプリ「DONDO」およびEC運営AIエージェント「ureteku AI」の機能開発などに活用(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "sogyotecho.jp",
+     "https://sogyotecho.jp/news/20261119stract/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini",
+   "seed_agent": "jp_funding",
+   "seed_from": "inbox/money/2026-11-20-gemini.json"
+  },
+  {
+   "from": "スパークス・アセット・マネジメント(未来創生3号ファンド、リード)・三菱UFJキャピタル・Suzuki Global Venturesほか",
+   "to": "movus technologies",
+   "kind": "出資",
+   "amount": "シリーズB総額42.6億円(エクイティ16.6億円+デット26億円。みずほ銀行・三井住友銀行を含む5行の融資)",
+   "date": "2026-05-15",
+   "region": "日本・インドネシア",
+   "backfill": true,
+   "note": "日本語ポッドキャスト(Startup Now、2026-08-04)の説明文で見つけ、会社のPR TIMESのリリース本文とTheBridgeの記事で確かめた。Grabとのパートナーシップも同時発表",
+   "src": [
+    [
+     "movus technologies プレスリリース(PR TIMES、2026-05-15)",
+     "https://prtimes.jp/main/html/rd/p/000000002.000180213.html"
+    ],
+    [
+     "TheBridge(2026-05)",
+     "https://thebridge.jp/2026/05/movus-technologies-raises-series-b-funding-for-eco-car-subscription"
+    ]
+   ],
+   "confidence": "公式",
+   "seed_agent": "jp_funding",
+   "seed_from": "inbox/money/2026-11-21_asia-sources.json"
+  }
+ ],
+ "notes": "jp_funding: 過去の inbox から拾った 7 件(初回の拾い。元のファイルは変えていない) 外した3件: 海外の会社(Accel等=インド発HealthTech、Clouted=米国、Manus=中国・シンガポール)のため日本向けでない。"
+}

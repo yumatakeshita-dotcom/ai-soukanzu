@@ -1,0 +1,336 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "出典の付いていない人の移籍を、公式発表・本人の投稿・SEC書類・大手報道で確かめて出典を足す対象を探す(OpenAI・Anthropic・Meta・xAI の幹部の入社・退社)",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "OpenAI",
+   "関係": "移籍",
+   "相手": "Mike Liberatore",
+   "金額": "",
+   "日付": "2025-09-16",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZOlybI2TylasiU5q9HRZ82IfVL9CdYv1-2Tn80BkEzi_gzNf9y7STGizWrcwdIYV6T4O-ecsYGGZC22YEpXZL97P9S4OceKNEpOb8UU5IAoMzG_ZKKcbis90YZiLy15kW6oieEM2tDuBtsktKaJQP1BajSwdLJKjkFqHin-iordMYW9ezWmGiy5sDooEpnMED55DNMWsI-A==",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Mike Liberatore",
+   "役職": "Business Finance Officer for AI infrastructure",
+   "移籍元": "xAI",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "Business Insider",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZOlybI2TylasiU5q9HRZ82IfVL9CdYv1-2Tn80BkEzi_gzNf9y7STGizWrcwdIYV6T4O-ecsYGGZC22YEpXZL97P9S4OceKNEpOb8UU5IAoMzG_ZKKcbis90YZiLy15kW6oieEM2tDuBtsktKaJQP1BajSwdLJKjkFqHin-iordMYW9ezWmGiy5sDooEpnMED55DNMWsI-A=="
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "移籍",
+   "相手": "Graham Seamans",
+   "金額": "",
+   "日付": "2026-10",
+   "出典URL": "https://www.businessworld.in/article/openai-hires-another-executive-from-musk-s-ai-ecosystem-629136",
+   "確かさ": "報道",
+   "備考": "Bloomberg Newsの報道に基づく",
+   "人物": "Graham Seamans",
+   "役職": "Head of sales for cybersecurity business",
+   "移籍元": "xAI",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "BW Businessworld",
+     "https://www.businessworld.in/article/openai-hires-another-executive-from-musk-s-ai-ecosystem-629136"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe6e4MPTTOAvLUzFs7hd6JPXldZ01DiasQfAEQWkggk1_Vs0-mQfHxK6m0ViDBqjlIgbHs4KyMU-fBnwa1XYpcCZtAT_kBmMe1xl9UdRkzbA40AhV8oU7YfKd5ddL7ge7Tki_c2udxdn3vdGYiechvbUMnKoGJaKOcmcqOSNfLm55cl4zHnattzrsFEflklJbukj5Wx31F8cDt6YCdlg==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "移籍",
+   "相手": "Uday Ruddarraju",
+   "金額": "",
+   "日付": "2025-07-10",
+   "出典URL": "https://www.thestatesman.com/world/xais-head-of-infrastructure-engineering-resigns-joins-openai-1503455934.html",
+   "確かさ": "本人の発言",
+   "備考": "X (旧Twitter)での本人の投稿とGreg Brockman氏の投稿に基づく",
+   "人物": "Uday Ruddarraju",
+   "役職": "(joined OpenAI)",
+   "移籍元": "xAI",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "The Statesman",
+     "https://www.thestatesman.com/world/xais-head-of-infrastructure-engineering-resigns-joins-openai-1503455934.html"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvOY1eUJSTSKZD5ZftFXdGZd8Sko5_zIEtUvIt8Bh7qAs3kVvoVBZpy-0HWy7pKGl18Z6jINM3T_P5HBYTXdxuR-4tTUvsaJupv-c1yFuLSa_O2cfbUE54Wc5FDMprkOE-Ppk01dxJ-2OHFVz8x_I8e6zun3SbhoJWNUAKsx2KKuVjhk3MpPeawTbQefC1fi_e35FpThvPlmLJMF3N-m8rnWVNCIdaRmLUrw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "移籍",
+   "相手": "Brent Mayo",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://www.ndtvprofit.com/technology/openai-poaches-xai-veteran-brent-mayo-as-sam-altman-heats-up-rivalry-with-elon-musk-11806987",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Brent Mayo",
+   "役職": "(joined OpenAI)",
+   "移籍元": "xAI",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "The Wall Street Journal (via OpenAI Poaches xAI Veteran Brent Mayo As Sam Altman Heats Up Rivalry With Elon Musk)",
+     "https://www.ndtvprofit.com/technology/openai-poaches-xai-veteran-brent-mayo-as-sam-altman-heats-up-rivalry-with-elon-musk-11806987"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0S2MY-EpLk83unFP0pmCtdCgaIMelT9u32Bj_Xa6R1SfPkknbK0YSvQBZC25CyT9oD8oShYi9K269XdFPi2cV6KZH1SEzRKWaFxtD7pkvZMAGfsxGjqVzwtS6WC9PH8WLFDtaQ_f9HLxXx_wVLru9fu0jrjtxmvDYBnmbiJ_AvP8xuwn7P09GEk2SIBql0xOlIRWaIB8rc-mlN1TTUrAFdTHfsCqO1IgbLtOOcbiuYR4VvGgzGCTn7RTg_4lc",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "Andrej Karpathy",
+   "金額": "",
+   "日付": "2026-05-19",
+   "出典URL": "https://fortune.com/2026/11/20/ai-adoption-k-shaped-leaders-anthropic-ipo-stephen-messer/",
+   "確かさ": "報道",
+   "備考": "以前OpenAI、その後Eureka Labsに在籍",
+   "人物": "Andrej Karpathy",
+   "役職": "Lead pretraining",
+   "移籍元": "Eureka Labs",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Fortune",
+     "https://fortune.com/2026/11/20/ai-adoption-k-shaped-leaders-anthropic-ipo-stephen-messer/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5N7PgLmH_16joX0CzjhqJ652qZddL2-6ksLW3yUaw6EyTJrQMlfYRW7Neuqk_kmtDRoJwZ_3Q-LJyFdI5jaqero06usqJrnzlFWhso5a4w1HbHQ0tzKZdF4xJwg2je4zswsVjxBLVs5Od_lvNapU4eBry5xpe_DVsu_-qVX0lJ2a_sc_Fkf3DE2S1WQcarOOcfGZE",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Meta",
+   "関係": "退任",
+   "相手": "Yann LeCun",
+   "金額": "",
+   "日付": "2026-03",
+   "出典URL": "https://fortune.com/2026/11/20/ai-adoption-k-shaped-leaders-anthropic-ipo-stephen-messer/",
+   "確かさ": "報道",
+   "備考": "退任後、AMI Labsを設立し10.3億ドルを調達",
+   "人物": "Yann LeCun",
+   "移籍元": "Meta",
+   "移籍先": "AMI Labs",
+   "src": [
+    [
+     "Fortune",
+     "https://fortune.com/2026/11/20/ai-adoption-k-shaped-leaders-anthropic-ipo-stephen-messer/"
+    ]
+   ],
+   "既存の名前": [
+    "Meta"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5N7PgLmH_16joX0CzjhqJ652qZddL2-6ksLW3yUaw6EyTJrQMlfYRW7Neuqk_kmtDRoJwZ_3Q-LJyFdI5jaqero06usqJrnzlFWhso5a4w1HbHQ0tzKZdF4xJwg2je4zswsVjxBLVs5Od_lvNapU4eBry5xpe_DVsu_-qVX0lJ2a_sc_Fkf3DE2S1WQcarOOcfGZE",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Meta",
+   "関係": "就任",
+   "相手": "Alex Schultz",
+   "金額": "",
+   "日付": "2026-07-01",
+   "出典URL": "https://www.marketscreener.com/news/meta-platforms-inc-announces-executive-changes-ce7f5fd2da8bf725",
+   "確かさ": "報道",
+   "備考": "同社初のChief Data Officer",
+   "人物": "Alex Schultz",
+   "役職": "Chief Data Officer",
+   "src": [
+    [
+     "MarketScreener",
+     "https://www.marketscreener.com/news/meta-platforms-inc-announces-executive-changes-ce7f5fd2da8bf725"
+    ]
+   ],
+   "既存の名前": [
+    "Meta"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJr_mGmJmS2om89JXTDZVvfECEqAuZrg0qLVxMeZ_YKIf5tVhFpnwyVeRku0gUMyr15eair7aOHDpXBYCAGes5USYMGm7J10znDMp95G4iTDrkfLamFpnmY5OiFCYIRkLhEcPo_CE05yhfeBt8gS4UtYs87pznfxRu2NeiqtNyrzMl3GGB3inI9OwxmiYQRXgAxMrMly-3TkjDZ6xjsQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Meta",
+   "関係": "就任",
+   "相手": "Denise Moreno",
+   "金額": "",
+   "日付": "2026-07-01",
+   "出典URL": "https://www.marketscreener.com/news/meta-platforms-inc-announces-executive-changes-ce7f5fd2da8bf725",
+   "確かさ": "報道",
+   "備考": "Vice President of consumer marketing and growthからの昇進",
+   "人物": "Denise Moreno",
+   "役職": "Chief Marketing Officer",
+   "src": [
+    [
+     "MarketScreener",
+     "https://www.marketscreener.com/news/meta-platforms-inc-announces-executive-changes-ce7f5fd2da8bf725"
+    ]
+   ],
+   "既存の名前": [
+    "Meta"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJr_mGmJmS2om89JXTDZVvfECEqAuZrg0qLVxMeZ_YKIf5tVhFpnwyVeRku0gUMyr15eair7aOHDpXBYCAGes5USYMGm7J10znDMp95G4iTDrkfLamFpnmY5OiFCYIRkLhEcPo_CE05yhfeBt8gS4UtYs87pznfxRu2NeiqtNyrzMl3GGB3inI9OwxmiYQRXgAxMrMly-3TkjDZ6xjsQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "Igor Babuschkin",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://entrepreneurloop.com/xai-reorganization-2026-leadership-changes-grok-future/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Igor Babuschkin",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "xAI Reorganization: Co-Founders Exit as Musk Reshapes AI Leadership (Bloomberg)",
+     "https://entrepreneurloop.com/xai-reorganization-2026-leadership-changes-grok-future/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI",
+    "Igor Babuschkin"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjvJt1YcEBdYnHs7rmODRoDAb5Uxtdz08h_8YQnDmiYRQNr6KY_FsYPas8JPNopS5FOpPKMyCk0yDmqxwd5Gpp42TwsUmhPPIL-mBxeqxSJYxLt4tC-NBOl4uG97SyVMkCFgfrFfbWcC6xtqW2dZD1NP2K8grZ5gmnrIOpjjA1ae5yQMOUPpcbR_UKxGyAEw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "就任",
+   "相手": "Michael Nicolls",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://www.kucoin.com/news/flash/elon-musk-reorganizes-xai-with-12-key-appointments-from-spacex-and-family-office",
+   "確かさ": "報道",
+   "備考": "元Starlink幹部",
+   "人物": "Michael Nicolls",
+   "役職": "President",
+   "移籍元": "SpaceX",
+   "移籍先": "xAI",
+   "src": [
+    [
+     "AI World (Bloomberg)",
+     "https://www.kucoin.com/news/flash/elon-musk-reorganizes-xai-with-12-key-appointments-from-spacex-and-family-office"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOxl1Z0yk9Ar7Jj9QVEOl1qRRKr7pIX1pFCs3uZDPewny9xXmV3XBqtB87UTNoVGTKS714ZiFgH92U9CEqNFHhxx26NlLHCXspkBg6KRAB9h4wF2mWvWzF0rDFkUioUykwjQ1-yJ2f0NjbbyyG7oz0ol60wSWQb40g9uf32jynzV9R0IwyHaIJKbf4087zFVTI9bGLU1UBftGOVGuQM6CTOdysjr2aMRtY3bcsBw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "xAI executive departures 2026 official",
+   "xAI new hires leadership 2026 official",
+   "Meta AI executive changes 2026 official",
+   "Anthropic executive movements 2026 official announcements",
+   "OpenAI leadership changes 2026 official news",
+   "OpenAI executive joins xAI",
+   "Anthropic executive joins Meta",
+   "Meta executive joins Anthropic",
+   "xAI executive joins OpenAI"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2668,
+   "candidatesTokenCount": 2724,
+   "totalTokenCount": 16490,
+   "cachedContentTokenCount": 503,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2668
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 503
+    }
+   ],
+   "toolUsePromptTokenCount": 4242,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4242
+    }
+   ],
+   "thoughtsTokenCount": 6856,
+   "serviceTier": "standard"
+  }
+ }
+}

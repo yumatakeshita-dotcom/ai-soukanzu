@@ -1,0 +1,788 @@
+{
+ "date": "2026-11-22",
+ "source": "保留のやり直し",
+ "results": [
+  {
+   "item": {
+    "会社名": "三菱UFJフィナンシャル・グループ",
+    "関係": "提携",
+    "相手": "松尾研究所, Third Intelligence",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo50oXmVz-MfhDj9jOFumLq2jjxpPv1gm2kD-uKuUsIR68IUkReffOdvR-iMVXR6On5zDo8Mul922OkDjrywexkFZ3jzArCM8JjijsLN8rU8dp6DvyiYk5lybzRYmIB-4Bs__",
+    "確かさ": "報道",
+    "備考": "日本発次世代AI「遍在型AGI」を活用した金融サービス実現に向けた包括的パートナーシップ",
+    "既存の名前": [
+     "三菱UFJフィナンシャル・グループ"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGo50oXmVz-MfhDj9jOFumLq2jjxpPv1gm2kD-uKuUsIR68IUkReffOdvR-iMVXR6On5zDo8Mul922OkDjrywexkFZ3jzArCM8JjijsLN8rU8dp6DvyiYk5lybzRYmIB-4Bs__"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-19)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "HIVELAB",
+    "関係": "買収",
+    "相手": "J2B株式会社",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://news.nicovideo.jp/watch/nw20003093?news_ref=20_20",
+    "確かさ": "報道",
+    "備考": "HIVELABグループがJ2Bの既存株式を取得するM&Aによりグループ参画。HIVELABのAI技術とJ2Bのクリエイティブ制作力を組み合わせ、事業拡大とグローバル展開を推進",
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtKkt3VPlNm7rg58QqEurLvd0mviVkiYJHYQ6EjbgMwOedWoVamonhcwiDntzB5_sQplS3d_pEEP_94sw3EYDY1en0eFvEVcWSpXmmlli3ktXKewCsO8P7CFad7bTOLwPG1ZrFW8lmghm98eiWM6YyZtWxYg==",
+    "src": [
+     [
+      "news.nicovideo.jp",
+      "https://news.nicovideo.jp/watch/nw20003093?news_ref=20_20"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://news.nicovideo.jp/watch/nw20003093?news_ref=20_20"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-19)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "エクサウィザーズ",
+    "関係": "提携",
+    "相手": "XBOW",
+    "金額": "",
+    "日付": "2026-11-18",
+    "出典URL": "https://news.nicovideo.jp/watch/nw20007601?news_ref=watch_60_nw19948331",
+    "確かさ": "報道",
+    "備考": "自律型AIエージェントによるペネトレーションテストサービスを国内提供するための販売パートナー契約を締結",
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjDs6cgjw7AUv7hhX3KI8z0U8VLjxbbjG2sLorn4mdCLrN-Cd8HnRmv5L0FoFFxq2_m0kramIVEfiKUdNESaARoBZFMEi9JekRq_KVHjflVYIh4tu51TNJgrC9a_f5YmIwcI1PCdlwDffYEKnjEgTpynyMQnQbPaFr7WIlC4lrIveD",
+    "src": [
+     [
+      "news.nicovideo.jp",
+      "https://news.nicovideo.jp/watch/nw20007601?news_ref=watch_60_nw19948331"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://news.nicovideo.jp/watch/nw20007601?news_ref=watch_60_nw19948331"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-19)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "富士通",
+    "関係": "提携拡大",
+    "相手": "Google Cloud",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWH0pv76pHGk3NhlPMnb0nw9D8hzNMuxV5kWBSiSVx2VZkoPRukGwpg3CjA-fZ2B7xVSGZxYBt-_MgbxBFxANAHgcABVQmp3yjoYeyFBQP2JXBpDA9kbTb9S_jIaSxVrdbBTIS",
+    "確かさ": "報道",
+    "備考": "社内AI活用の契約を締結し、4つの柱で顧客を支援する提携拡大",
+    "既存の名前": [
+     "富士通",
+     "Google Cloud"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWH0pv76pHGk3NhlPMnb0nw9D8hzNMuxV5kWBSiSVx2VZkoPRukGwpg3CjA-fZ2B7xVSGZxYBt-_MgbxBFxANAHgcABVQmp3yjoYeyFBQP2JXBpDA9kbTb9S_jIaSxVrdbBTIS"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-19)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "終値",
+    "相手": "Class A株",
+    "金額": "97.17ドル",
+    "日付": "2026-11-19",
+    "出典URL": "https://www.morningstar.com/stocks/anthropic-stock-pops-34-after-record-breaking-ipo",
+    "確かさ": "報道",
+    "備考": "IPO価格83ドルから約17%上昇",
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_",
+    "src": [
+     [
+      "www.morningstar.com",
+      "https://www.morningstar.com/stocks/anthropic-stock-pops-34-after-record-breaking-ipo"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.morningstar.com/stocks/anthropic-stock-pops-34-after-record-breaking-ipo",
+     "names_on_page": [
+      "Anthropic"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-11-02)と17日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-20)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "日付: ページの公開日(2026-11-02)と17日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "三菱UFJフィナンシャル・グループ",
+    "関係": "提携",
+    "相手": "松尾研究所, Third Intelligence",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://it.impress.co.jp/articles/-/30020",
+    "確かさ": "報道",
+    "備考": "金融サービスにおけるAI活用推進、松尾研発スタートアップへの包括支援を含む包括的パートナーシップ。MUFGは2025年11月にThird Intelligenceへの出資と協業に関する覚書を締結済み。",
+    "既存の名前": [
+     "三菱UFJフィナンシャル・グループ"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFZFECHxH1FHdYLl6EwcpGEF6EFJo8Kgzzn4ER9L40LvSNZ2gbwJH0boaKgYAH3s-ErZz01v5mHwPg8IbzEFLv0kgI8632w2nIy8Crwz8NHl2SUDvvZcBzz8fRkWKqO2giBJ40s",
+    "src": [
+     [
+      "it.impress.co.jp",
+      "https://it.impress.co.jp/articles/-/30020"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://it.impress.co.jp/articles/-/30020",
+     "names_on_page": [
+      "三菱UFJフィナンシャル・グループ",
+      "松尾研究所",
+      "Third Intelligence"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-20)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "新光電気工業",
+    "関係": "買収",
+    "相手": "ジャパンディスプレイ",
+    "金額": "",
+    "日付": "2026-09-30",
+    "出典URL": "https://www.semiconductor-industry.com/news-202610/",
+    "確かさ": "報道",
+    "備考": "ジャパンディスプレイ茂原工場の売買契約を締結。AIアクセラレーターなどの先端半導体向けフリップチップタイプパッケージの需要拡大に対応するための新拠点。",
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBAfGN1KH7nb-a2FAvTlSwUlYGQwm__pIaE-FOyKagYf8lifWsUbdPCkcGYYkOMWXvP3Z4-Kv0kL2Lpj6O4zFIfPW2qwS0u9Zcho46PybHW7NUGOh0x6b4dxZz7J4SJVSZAL-agii3FvgZQ0bTxw==",
+    "src": [
+     [
+      "www.semiconductor-industry.com",
+      "https://www.semiconductor-industry.com/news-202610/"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.semiconductor-industry.com/news-202610/",
+     "names_on_page": [
+      "新光電気工業",
+      "ジャパンディスプレイ"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-11-02)と33日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-20)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "日付: ページの公開日(2026-11-02)と33日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "株式会社プレイド",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-07",
+    "出典URL": "https://plaid.co.jp/company/leadership/",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "辻 高宏",
+    "役職": "執行役員 CFO (Chief Financial Officer)",
+    "移籍元": "株式会社LITALICO (元取締役副社長CFO)",
+    "移籍先": "株式会社プレイド",
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qANJgZ7slsRFhG1TTPoaH85L5qDwk3ytUS5bsdYzNKiTeolPz-8PhPSVA8uP58dUfinnacTIW9pZH9Xk6zu8ZoNVvrwRQKhcMveuUkJUEDGebeGzFn_oIDYZboVf0I9Glw==",
+    "src": [
+     [
+      "plaid.co.jp",
+      "https://plaid.co.jp/company/leadership/"
+     ]
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://plaid.co.jp/company/leadership/",
+     "names_on_page": [
+      "辻 高宏"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-20)",
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "買収",
+    "相手": "Pierre Computer Company, Inc.",
+    "金額": "",
+    "日付": "2026-11-04",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU=",
+    "確かさ": "報道",
+    "備考": "Code Storage、Trees、Diffsなどの開発ツール企業。買収額は非公開。",
+    "既存の名前": [
+     "OpenAI"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-20)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung SDS",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+    "確かさ": "報道",
+    "備考": "2027年の社長人事で留任",
+    "人物": "Lee Jun-hee",
+    "役職": "代表取締役社長",
+    "移籍先": "Samsung SDS",
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjtWe7WxufZBUOvLwPkQzXjytPUhx2FPGtYwhpykYRxBOxR6JWUupYaK421w4rTe32L19Ec9z7F6OyPidIhG9-7pRAnnDkPCJrphAkZzSaOZLRwmkXw5Sd9X0v7bhU4bayJECeKr75Oo6wDtC5mFCfghyUW6WOD9qSqShjQg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+     "names_on_page": [
+      "Samsung SDS",
+      "Lee Jun-hee"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの本文の日付(2028-03-18)と484日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "日付: ページの本文の日付(2028-03-18)と484日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung SDS",
+    "関係": "資金調達",
+    "相手": "KKR",
+    "金額": "1.2兆ウォン (約1400億円)",
+    "日付": "2026-11-20",
+    "出典URL": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+    "確かさ": "報道",
+    "備考": "転換社債発行によりAIインフラ投資の原資を確保",
+    "既存の名前": [
+     "KKR"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjtWe7WxufZBUOvLwPkQzXjytPUhx2FPGtYwhpykYRxBOxR6JWUupYaK421w4rTe32L19Ec9z7F6OyPidIhG9-7pRAnnDkPCJrphAkZzSaOZLRwmkXw5Sd9X0v7bhU4bayJECeKr75Oo6wDtC5mFCfghyUW6WOD9qSqShjQg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+     "names_on_page": [
+      "Samsung SDS",
+      "KKR"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの本文の日付(2028-03-18)と484日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "日付: ページの本文の日付(2028-03-18)と484日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung Electronics",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q==",
+    "確かさ": "報道",
+    "備考": "半導体部門で社長昇進",
+    "人物": "Hwang Sang-joon",
+    "役職": "メモリ事業部長",
+    "移籍先": "Samsung Electronics",
+    "既存の名前": [
+     "Samsung Electronics"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung Electronics",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q==",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Choi Won-jun",
+    "役職": "モバイルエクスペリエンス（MX）事業部長",
+    "移籍先": "Samsung Electronics",
+    "既存の名前": [
+     "Samsung Electronics"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Startup Island TAIWAN",
+    "関係": "提携",
+    "相手": "XOSS POINT. (日本・熊本)",
+    "金額": "",
+    "日付": "2026-11-18",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZzA8ZfRPsW0eOX-0PWWoKdOnyPrOTiNR6BV3oEXhrC8cJdwCYsI6_DnP7nZU6Ff-H1C9eZTGONHyCgesvJVcxG50ceITRgl_MwuzSwgdHqkpFI8VjFK67ksr6LXyyp0Bo06CrLTt2nd9qy295eKtYLN-kCuEZjG9cBAKJrztL",
+    "確かさ": "報道",
+    "備考": "「Japan Night」イベント中に基本合意書(MOU)を締結、台日スタートアップ連携深化",
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZzA8ZfRPsW0eOX-0PWWoKdOnyPrOTiNR6BV3oEXhrC8cJdwCYsI6_DnP7nZU6Ff-H1C9eZTGONHyCgesvJVcxG50ceITRgl_MwuzSwgdHqkpFI8VjFK67ksr6LXyyp0Bo06CrLTt2nd9qy295eKtYLN-kCuEZjG9cBAKJrztL"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "応援科技 (Ouen Technology)",
+    "関係": "提携",
+    "相手": "Borderless Japan傘下プラットフォーム「For Good」",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9",
+    "確かさ": "報道",
+    "備考": "決済・資金流のクラウドプラットフォームを統合し、戦略提携",
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-oKNKm-uU7EdZiiEpUbWvL2Psa7hgtJW4_IVm-iCBUqoDINEcliPEQ71zSXmsiFbInTnSE0lyAg3yRXGSA-BH73dLXhMPEyrZQQ8U8C5ETLq-qxAKxrtOJsHuS29Mxslo0mmYNpTlran7OdPr6tUKCDg_Q8Un6UsdIbCF6g==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9",
+     "names_on_page": [
+      "Borderless Japan傘下プラットフォーム「For Good」"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "ICMG Ventures",
+    "関係": "提携",
+    "相手": "シンガポール国立大学 Asian Institute of Digital Finance (NUS AIDF)",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0EbZeEOUyBvVFherARp8w4V3hpdlpmKedRUvyZLFVLpnRwvpKR1qHrylOSJegI4n0kbfw31QmFzA8L1CAvrkWDBoPqUTpv7Urcs1A-W8Ssikl8uFXvGkNp5Yjiiy2qs90GhcLqGgSk1njhiReEcEVzGkxoY==",
+    "確かさ": "公式",
+    "備考": "MOUを締結",
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0EbZeEOUyBvVFherARp8w4V3hpdlpmKedRUvyZLFVLpnRwvpKR1qHrylOSJegI4n0kbfw31QmFzA8L1CAvrkWDBoPqUTpv7Urcs1A-W8Ssikl8uFXvGkNp5Yjiiy2qs90GhcLqGgSk1njhiReEcEVzGkxoY=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(2回目。最初の確かめ: 2026-11-21)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Starfire Ventures",
+    "関係": "ファンド設立",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-16",
+    "出典URL": "https://casrai.org/news/starfire-ventures-two-hundred-million-ai-fund-2026",
+    "確かさ": "報道",
+    "備考": "Serena WilliamsとBeth Ferreiraによる、AIネイティブスタートアップ向け2億ドルのデビューファンド",
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFm0oYTI5KMqIpbLKhqH5RR3K2Wz-LnT-mMbGaFB87MacyjanuLrxeMnWXci8N9XoaFtMgNPW58MjPLWvdKl87YGDoxhpso6A5QOci-j6AOFDDNIhg2L9aswBEb_b55y5vro3zmgVBiL2VkASUBvIum7PY00wLpvbi-FSIk1JEu_pjZ5FR",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://casrai.org/news/starfire-ventures-two-hundred-million-ai-fund-2026"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(1回目。最初の確かめ: 2026-11-22)",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Creandum",
+    "関係": "ファンド閉鎖",
+    "相手": "Fund VIII",
+    "金額": "750 million",
+    "日付": "2026-11",
+    "出典URL": "https://www.everythingstartups.com/new-ai-vc-funds",
+    "確かさ": "報道",
+    "備考": "ヨーロッパとアメリカのAI駆動型スタートアップ向けファンド",
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvixli507rBG6J4EApmDDTOU1RZK1XPDpJlPgAaP7bkmBmVDHfFuuIckTulBxjWNJ7dNpHWhrURh4uH0S_uS09LGzZEWi1n6KMQg1QVZhvR9M1pmr9XKMht4sMyHXvPOicGES7w2nen2G348FN",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.everythingstartups.com/new-ai-vc-funds"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(1回目。最初の確かめ: 2026-11-22)",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Info Edge Group",
+    "関係": "出資",
+    "相手": "Bharat Semi",
+    "金額": "24 million",
+    "日付": "2026-11-15",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVyyQ3mYNFgPieYdz2b-GCiwA04O71yKoiIXmgWRI5xL-BtU_3NtrlX7V9kzO0EHLeGGjuHoVOFTVRZ-qdiIKRpjl6mGqA0rtU6VypK3cvPfn-Q3NIryJPnplXUayghY38-i417YettQf5G6LP3wQLfyuqh33O7VzjG8bCS_YcOuBtE3zDEYVqClcK6eSHjWKKh8JCdDAyERQBljkM_DwOd9fkbOUFK2cla_vU-XwHOucSyXSv",
+    "確かさ": "報道",
+    "備考": "インドの半導体スタートアップ",
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVyyQ3mYNFgPieYdz2b-GCiwA04O71yKoiIXmgWRI5xL-BtU_3NtrlX7V9kzO0EHLeGGjuHoVOFTVRZ-qdiIKRpjl6mGqA0rtU6VypK3cvPfn-Q3NIryJPnplXUayghY38-i417YettQf5G6LP3wQLfyuqh33O7VzjG8bCS_YcOuBtE3zDEYVqClcK6eSHjWKKh8JCdDAyERQBljkM_DwOd9fkbOUFK2cla_vU-XwHOucSyXSv"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "保留のやり直し(1回目。最初の確かめ: 2026-11-22)",
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}
