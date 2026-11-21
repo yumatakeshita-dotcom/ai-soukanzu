@@ -1,0 +1,24 @@
+{
+  "_memo": "法的ページ(利用規約・プライバシーポリシー・特商法表記・お問い合わせ)のひな形の設定。弁護士・専門家の確認が済むまでは show_footer_links を false のままにする(各ページのフッターに出るリンクが消える)。確認が済んだら true にして `python3 scripts/legal.py` を動かす。空欄('')の項目は、ページ上で【要記入】の印のまま出る",
+  "show_footer_links": false,
+  "reviewed": false,
+  "last_updated": "",
+  "fields": {
+    "service_name": "AI企業の相関図",
+    "operator_name": "",
+    "representative": "",
+    "address": "",
+    "phone": "",
+    "contact_email": "",
+    "contact_hours": "",
+    "site_url": "https://kigyo-relmap.yuma-takeshita.workers.dev",
+    "price_text": "",
+    "payment_methods": "",
+    "payment_timing": "",
+    "delivery_timing": "",
+    "cancel_policy": "",
+    "refund_policy": "",
+    "jurisdiction": "",
+    "analytics_tool": ""
+  }
+}

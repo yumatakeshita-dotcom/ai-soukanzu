@@ -5,7 +5,7 @@
   1. 出典URLにつながるか。ページが開けたら、会社名・相手の名前がページに書いてあるかも見る
      - クラウドからつながらないサイト(日本のニュースサイトの多く)は「未確認」と書く(作ったURLかどうかは分からないため)
   2. すでにある情報と重なっていないか(site/index.html・site/data/*.js・inbox/ のほかの調査と、URLや名前で照らす)
-  3. 日付の食い違い: Gemini の日付と、URLの中の日付・ページに書かれた公開日・相関図にある同じ組み合わせの日付を比べる
+  3. 日付の食い違い: Gemini の日付と、URLの中の日付・ページに書かれた公開日・本文の名前の近くの日付(7日以上ずれたら除外。2026/11/21)・相関図にある同じ組み合わせの日付を比べる
   4. 確かさの印が出典の種類と合うか(例: 「公式」なのに報道サイトのURL → 「報道」に下げる)
 
 判定:
@@ -23,6 +23,7 @@
   python3 scripts/gemini_verify.py inbox/gemini/2026-11-19.json [--no-net] [--dry-run]
     --no-net   … URLを開かない(全部「未確認」になる。試し用)
     --dry-run  … どこにも書かずに結果だけ表示する
+    --recheck  … 保留(開けなかった)のままの候補を、もう一度確かめる。最初の確かめから7日以内・4回まで。合格したものだけ inbox/ に足す(2026/11/21)
 """
 import argparse, datetime, glob, html, json, os, re, ssl, sys, unicodedata
 import urllib.request, urllib.error
@@ -33,6 +34,7 @@ DONE = os.path.join(GDIR, 'verified.txt')
 JST = datetime.timezone(datetime.timedelta(hours=9))
 UA = 'Mozilla/5.0 (compatible; ai-soukanzu-verify/1.0)'
 DATE_TOL = 7        # 日付のずれを許す日数
+BODY_TOL = 6        # 本文の日付は、ちょうど7日ずれでも「1週間ずれ」として除外する(2026/11/21)
 WIN = 400           # 名前の近さを見る文字数(重なりの判定)
 REDIRECT = re.compile(r'vertexaisearch\.cloud\.google\.com/grounding-api-redirect')
 MOVE_REL = re.compile(r'移籍|就任|退任|辞任|引き抜|採用|入社|退社|任命|交代')
@@ -158,6 +160,75 @@ def page_dates(body):
 
 
 # ---------- 3. 日付 ----------
+MONTHS = {m: i + 1 for i, m in enumerate('january february march april may june july august september october november december'.split())}
+MONTHS.update({k[:3]: v for k, v in list(MONTHS.items())})
+MONTHS['sept'] = 9
+_EN_MON = '|'.join(sorted(MONTHS, key=len, reverse=True))
+
+
+def text_dates(t):
+    """本文に書かれた日付を (開始日, 終了日) で返す(2026/11/21)。
+    2026年11月12日・2026-11-12・Nov 12, 2026・12 November 2026 は1日、2026年4月・April 2026 は月全体"""
+    out = []
+
+    def add(y, m, d=None):
+        try:
+            if d:
+                x = datetime.date(y, m, d)
+                out.append((x, x))
+            else:
+                a = datetime.date(y, m, 1)
+                b = (datetime.date(y + (m == 12), m % 12 + 1, 1) - datetime.timedelta(days=1))
+                out.append((a, b))
+        except ValueError:
+            pass
+    for y, m, d in re.findall(r'(?<!\d)(20[12]\d)年\s*(\d{1,2})月\s*(\d{1,2})日', t):
+        add(int(y), int(m), int(d))
+    for y, m, d in re.findall(r'(?<!\d)(20[12]\d)[-/.](\d{1,2})[-/.](\d{1,2})(?!\d)', t):
+        add(int(y), int(m), int(d))
+    for m, d, y in re.findall(r'\b(' + _EN_MON + r')\.?\s+(\d{1,2})(?:st|nd|rd|th)?,?\s+(20[12]\d)', t, flags=re.I):
+        add(int(y), MONTHS[m.lower()], int(d))
+    for d, m, y in re.findall(r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(' + _EN_MON + r')\.?,?\s+(20[12]\d)', t, flags=re.I):
+        add(int(y), MONTHS[m.lower()], int(d))
+    for y, m in re.findall(r'(?<![\d年])(20[12]\d)年\s*(\d{1,2})月(?!\s*\d{1,2}日)', t):
+        add(int(y), int(m))
+    for m, y in re.findall(r'\b(' + _EN_MON + r')\.?,?\s+(20[12]\d)', t, flags=re.I):
+        add(int(y), MONTHS[m.lower()])
+    return out
+
+
+def span_gap(span, d):
+    """日付 d と期間 span との距離(日)。期間の中なら 0"""
+    a, b = span
+    return 0 if a <= d <= b else min(abs((a - d).days), abs((b - d).days))
+
+
+def body_date_mismatch(body, names, d):
+    """ページ本文の、会社名・相手の名前の近くに書かれた日付が、Geminiの日付と食い違うか(2026/11/21)。
+    ページのどこかにGeminiの日付(前後 BODY_TOL 日)があれば食い違いとは見ない。
+    名前の近くに日付があり、ページ全体にも近い日付がないときだけ、一番近い日付を説明で返す。なければ None"""
+    txt = page_text(body)
+    alld = text_dates(txt)
+    if not alld or any(span_gap(sp, d) <= BODY_TOL for sp in alld):
+        return None
+    near = []
+    low = txt.lower()
+    for n in names:
+        n = n.lower()
+        if len(norm(n)) < 2:
+            continue
+        i = low.find(n)
+        k = 0
+        while i >= 0 and k < 8:
+            near += text_dates(txt[max(0, i - 150): i + len(n) + 150])
+            i = low.find(n, i + 1)
+            k += 1
+    if not near:
+        return None
+    sp = min(near, key=lambda x: span_gap(x, d))
+    return f'ページの本文の日付({sp[0]}〜{sp[1]})と{span_gap(sp, d)}日以上ずれる' if sp[0] != sp[1] else f'ページの本文の日付({sp[0]})と{span_gap(sp, d)}日ずれる'
+
+
 def parse_date(s):
     s = str(s or '').strip()
     for f, n in (('%Y-%m-%d', 10), ('%Y-%m', 7)):
@@ -402,6 +473,10 @@ def verify_item(it, raw, nrm, net=True, pool=None):
             if p and abs((p - d).days) > DATE_TOL and abs((p - d).days) < 4000:
                 probs.append(f'ページの公開日({pd})と{abs((p - d).days)}日ずれる')
                 break
+        if st == 'ok':
+            bm = body_date_mismatch(body, names, d)
+            if bm:
+                probs.append(bm)
         if ex_dates and not dup:
             far = [x for x in ex_dates if abs((x - d).days) > 31]
             if far and len(far) == len(ex_dates):
@@ -527,12 +602,101 @@ def run(files, net=True, dry=False, log=print):
     return summary
 
 
+# ---------- 保留のやり直し(2026/11/21) ----------
+RECHECK_LOG = os.path.join(GDIR, 'recheck.jsonl')
+RECHECK_DAYS = 7    # 最初の確かめから、この日数までやり直す
+RECHECK_MAX = 4     # やり直す回数の上限(最初の確かめを含めない)
+
+
+def item_key(it):
+    return '|'.join(norm(it.get(k)) for k in ('会社名', '相手', '人物', '日付')) + '|' + str(it.get('Geminiが書いたURL') or it.get('出典URL') or '')
+
+
+def recheck_targets():
+    """保留のまま、まだやり直せるもの。(key, item, 最初の確かめの日, やり直した回数) の一覧。
+    すでに合格・除外になったものや、期限・回数を超えたものは入れない"""
+    st = {}
+    for f in sorted(glob.glob(os.path.join(GDIR, '*_verified*.json'))):
+        try:
+            d = json.load(open(f, encoding='utf-8'))
+        except ValueError:
+            continue
+        for r in d.get('results') or []:
+            it = r.get('item') or {}
+            e = st.setdefault(item_key(it), {'first': d.get('date'), 'n': 0, 'verdict': None, 'item': it})
+            e['verdict'] = r['verdict']
+            e['item'] = it
+    if os.path.exists(RECHECK_LOG):
+        for line in open(RECHECK_LOG, encoding='utf-8'):
+            try:
+                x = json.loads(line)
+            except ValueError:
+                continue
+            e = st.get(x['key'])
+            if e:
+                e['n'] += 1
+                e['verdict'] = x['verdict']
+    out = []
+    for k, e in st.items():
+        if e['verdict'] != '保留' or e['n'] >= RECHECK_MAX:
+            continue
+        fd = parse_date(e['first'])
+        if not fd or (today() - fd).days > RECHECK_DAYS:
+            continue
+        out.append((k, e['item'], e['first'], e['n']))
+    return out
+
+
+def run_recheck(net=True, dry=False, log=print):
+    """保留の候補を、もう一度確かめる。合格したものだけ、ふだんと同じ inbox/ に足す(足すだけ)"""
+    tg = recheck_targets()
+    if not tg:
+        log('やり直す保留はありません')
+        return []
+    raw, nrm = load_corpus()
+    res, keys = [], []
+    for k, it, first, n in tg:
+        # 最初に書かれたGeminiのURLが残っていれば、それから確かめ直す
+        base = dict(it, 出典URL=it.get('Geminiが書いたURL') or it.get('出典URL'))
+        base.pop('src', None)
+        r = verify_item(base, raw, nrm, net, [])
+        r['notes'].insert(0, f'保留のやり直し({n + 1}回目。最初の確かめ: {first})')
+        res.append(r)
+        keys.append(k)
+    md = to_md('保留のやり直し', res)
+    if dry:
+        log(md)
+        return res
+    pj = new_path(os.path.join(GDIR, f'{today()}_recheck_verified'), '.json')
+    json.dump({'date': str(today()), 'source': '保留のやり直し', 'results': res}, open(pj, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    open(pj[:-5] + '.md', 'w', encoding='utf-8').write(md)
+    with open(RECHECK_LOG, 'a', encoding='utf-8') as w:
+        for k, r in zip(keys, res):
+            w.write(json.dumps({'date': str(today()), 'key': k, 'verdict': r['verdict']}, ensure_ascii=False) + '\n')
+    by = {}
+    for r in res:
+        if r['verdict'] == '合格':
+            kk, row = to_inbox(r)
+            by.setdefault(kk, []).append(row)
+    for kk, rows in by.items():
+        p = new_path(os.path.join(ROOT, 'inbox', kk, f'{today()}-gemini-recheck'), '.json')
+        json.dump({'date': str(today()), 'kind': kk, 'items': rows, 'notes': '保留をやり直して、scripts/gemini_verify.py の確かめを通ったもの'},
+                  open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        log(f'やり直しで合格 {len(rows)}件 → {os.path.relpath(p, ROOT)}')
+    log(f'保留のやり直し: {len(res)}件 → 合格 {sum(r["verdict"]=="合格" for r in res)} / 保留 {sum(r["verdict"]=="保留" for r in res)} / 除外 {sum(r["verdict"]=="除外" for r in res)}')
+    return res
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('files', nargs='*')
     ap.add_argument('--no-net', action='store_true')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--recheck', action='store_true', help='保留のままの候補を、もう一度確かめる(7日以内・4回まで)')
     a = ap.parse_args()
+    if a.recheck:
+        run_recheck(net=not a.no_net, dry=a.dry_run)
+        return
     files = [os.path.abspath(f) for f in a.files] or targets()
     run(files, net=not a.no_net, dry=a.dry_run)
 

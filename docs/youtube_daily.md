@@ -33,3 +33,8 @@
 - まだ読めない: dart.fss.or.kr(空の応答)、group.softbank(断られた)、disclosure2.edinet-fsa.go.jp(サイト側が403)、api.edinet-fsa.go.jp(転送先を確認中)
 - 前田ヒロは `www.hiromaeda.com` に転送されるため、その許可が要る(URLは www に直した)
 - 決算資料(IR)の取り込みの道具は、まだ作っていない(次の作業)
+## 過去の動画をさかのぼる(2026/11/21追加)
+- RSSは最新15本までなので、`python3 scripts/yt_deep.py` で各チャンネルの「アップロード一覧」(再生リスト UU+チャンネルID)の公開ページから直近100本(タイトル・長さ・おおよその投稿時期)を読む。30チャンネルで約2900本、約3か月〜1年分。結果は `inbox/youtube/deep/日付.json`(見た動画は `deep/seen.txt`)
+- 説明文は取れない(動画ページはロボット確認で断られる)。タイトルは手がかりなので、報道・公式で確かめてから inbox/moves・money に足す
+- 100本より先(続きの読み込み)は、YouTubeの内部APIを使うことになるので行っていない
+- 新しい許可ドメインは不要(www.youtube.com は許可済み)
