@@ -1,0 +1,23 @@
+# 毎日見るYouTubeチャンネル(足すだけ。消さない)
+# 形: チャンネルID|名前|種類|確かめ方(2026/11/21: 公式RSSのチャンネル名と一致を確認)
+UC5qxlwEKM7-5YZudb24l0bg|AI at Meta|AI企業|RSS名一致
+UCamLstJyCa-t5gfZegxsFMw|Colin and Samir|起業・クリエイター|RSS名一致
+UCXi7Hg2nSB40ujzM2CMtF-Q|Cheeky Pint|起業・金融|RSS名一致
+UCcefcZRL2oaA_uBNeo5UOWg|Y Combinator|起業|RSS名一致
+UCf0PBRjhf0rF8fWBIxTuoWA|20VC with Harry Stebbings|VC|RSS名一致
+UC-DRzaGnL_vtBUpCFH5M0tg|TBPN|AI・テック|RSS名一致
+UCESLZhusAkFfsNsApnjF_Cg|All-In Podcast|VC・テック|RSS名一致
+UC9cn0TuPq4dnbTY-CBsm8XA|a16z|VC|RSS名一致
+UCWrF0oN6unbXrWsTN7RctTw|Sequoia Capital|VC|RSS名一致
+UC6t1O76G0jYXOAoYCm153dA|Lenny's Podcast|起業・プロダクト|RSS名一致
+UCXl4i9dYBrFOabk0xGmbkRA|Dwarkesh Patel|AIインタビュー|RSS名一致
+UCSI7h9hydQ40K5MJHnCrQvw|No Priors|AI・VC|RSS名一致
+UCSHZKyawb77ixDdsGog4iWA|Lex Fridman|AIインタビュー|RSS名一致
+UCxBcwypKK-W3GHd_RZ9FZrQ|Latent Space|AI技術|RSS名一致
+UCXZCJLdBC09xxGZ6gcdrc6A|OpenAI|AI企業(公式)|RSS名一致
+UCrDwWp7EBBv4NwvScIpBDOA|Anthropic|AI企業(公式)|RSS名一致
+UCP7jMXSY2xbc3KCAE0MHQ-A|Google DeepMind|AI企業(公式)|RSS名一致
+UCHuiy8bXnmK5nisYHUd1J5g|NVIDIA|半導体(公式)|RSS名一致
+UCCb9_Kn8F_Opb3UCGm-lILQ|Microsoft Research|AI企業(公式)|RSS名一致
+UCrp_UI8XtuYfpiqluWLD7Lw|CNBC Television|経済ニュース|RSS名一致
+UCM1guA1E-RHLO2OyfQPOkEQ|Stripe|決済・起業(公式)|RSS名一致
