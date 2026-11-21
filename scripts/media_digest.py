@@ -15,7 +15,12 @@ KW = re.compile(r"\b(joins?|joined|hires?|hired|poach\w*|leaves?|left|steps? dow
 CO = re.compile(r"\b(?:OpenAI|Anthropic|xAI|SpaceX|Nvidia|NVIDIA|Jensen|Meta|Google|DeepMind|Microsoft|Apple|Amazon|AWS|Mistral|"
                 r"Perplexity|Cursor|Anysphere|Thinking Machines|Safe Superintelligence|SSI|TSMC|Samsung|SK hynix|SoftBank|"
                 r"ソフトバンク|Sakana|Preferred Networks|Replit|Scale AI|Databricks|Stripe|Intel|AMD|Broadcom|Oracle|CoreWeave|"
-                r"a16z|Sequoia|Thrive|Founders Fund|Altman|Amodei|Musk|Zuckerberg|Hassabis)\b", re.I)
+                r"a16z|Sequoia|Thrive|Founders Fund|Altman|Amodei|Musk|Zuckerberg|Hassabis|"
+                r"Rakuten|Toyota|Sony|NTT|KDDI|Moonshot|DeepSeek|Alibaba|Tencent|ByteDance|Baidu|Naver|Kakao|Upstage|Rebellions|"
+                r"Grab|GoTo|Sea Limited|Reliance|Infosys|Sarvam|Temasek|GIC|Peak XV|Antler|East Ventures|"
+                r"楽天|トヨタ|ソニー|サイバーエージェント|LINEヤフー|ヤフー|メルカリ|オープンAI|アンソロピック|エヌビディア|エヌヴィディア|"
+                r"サカナ|Preferred|PFN|ELYZA|ソフトバンク|孫正義|ファーストライト|XTech|グロービス|ジャフコ|JAFCO)\b|"
+                r"楽天|トヨタ|ソニー|サイバーエージェント|LINEヤフー|メルカリ|オープンAI|アンソロピック|エヌビディア|ソフトバンク|孫正義", re.I)
 
 
 def main(days=3):

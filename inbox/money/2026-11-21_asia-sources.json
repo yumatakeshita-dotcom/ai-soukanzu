@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "スパークス・アセット・マネジメント(未来創生3号ファンド、リード)・三菱UFJキャピタル・Suzuki Global Venturesほか",
+   "to": "movus technologies",
+   "kind": "出資",
+   "amount": "シリーズB総額42.6億円(エクイティ16.6億円+デット26億円。みずほ銀行・三井住友銀行を含む5行の融資)",
+   "date": "2026-05-15",
+   "region": "日本・インドネシア",
+   "backfill": true,
+   "note": "日本語ポッドキャスト(Startup Now、2026-08-04)の説明文で見つけ、会社のPR TIMESのリリース本文とTheBridgeの記事で確かめた。Grabとのパートナーシップも同時発表",
+   "src": [
+    [
+     "movus technologies プレスリリース(PR TIMES、2026-05-15)",
+     "https://prtimes.jp/main/html/rd/p/000000002.000180213.html"
+    ],
+    [
+     "TheBridge(2026-05)",
+     "https://thebridge.jp/2026/05/movus-technologies-raises-series-b-funding-for-eco-car-subscription"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "日本語・アジアのポッドキャスト16番組を追加し過去120日を確認(323本)。手がかり351件のうち、日本語・アジアの番組から確かめて足せたのはこの1件。残りは解説・ニュースまとめで個別の移籍・出資の特定ができなかった"
+}
