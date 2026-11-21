@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Slow Ventures(リード)・Gold House Ventures・Weekend Fund・Peak XV's Surgeほか",
+   "to": "Clouted(旧Clout Kitchen)",
+   "kind": "出資",
+   "amount": "シードで700万ドル(報道ベース)",
+   "date": "2026-05-20",
+   "region": "米国・東南アジア",
+   "backfill": true,
+   "note": "東南アジアのポッドキャスト(BRAVE Southeast Asia Tech、2026-09-14)の説明文で見つけ、TechCrunch(本文を開いて、日付・金額・リード・参加者を確認)とTheBridge(日本語、2026-05-27)で確かめた。a16z Speedrun・AppWorksが前のラウンドで出資していたのはポッドキャストの説明のみで、記事では未確認なので入れていない",
+   "src": [
+    [
+     "TechCrunch(2026-05-20)",
+     "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/"
+    ],
+    [
+     "TheBridge(2026-05-27)",
+     "https://thebridge.jp/2026/05/clouted-seed-raises-7m-videos"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Vertex Ventures SEA & India・Vertex Growth(リード)",
+   "to": "Acrab(シンガポール、AIチップ)",
+   "kind": "出資",
+   "amount": "シリーズBで1億3000万ドル(報道ベース。見出しで確認)",
+   "date": "2026-08-06",
+   "region": "シンガポール",
+   "backfill": true,
+   "note": "SEA of Startupsのポッドキャスト(2026-08-19)の説明文で社名を見つけ、DealStreetAsiaの記事の見出しと日付(2026-08-06「Vertex-backed Series B、$130m」)で確かめた。本文は会員向けで読めず、リードの2社は検索結果の要約(e27・TechNodeなど)による。会社発表のページはこの環境から開けず未確認。累計3.5億ドル(2026-06-17に公表)は1回の出資ではないので入れていない",
+   "src": [
+    [
+     "DealStreetAsia(2026-08-06)",
+     "https://www.dealstreetasia.com/stories/ai-startup-acrab-raises-130m-in-vertex-backed-series-b-funding-491373"
+    ],
+    [
+     "DealStreetAsia(2026-06-17)",
+     "https://www.dealstreetasia.com/?p=485810"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "台湾・インド・東南アジアの番組(BRAVE SEA・SEA of Startups・創創燒・Prime Venture Partners・The New Playbook)の過去分を確認。具体的な出資が特定できたのはClouted・Acrab・SEDEMAC(IPO、AI関連でないため見送り)・Heidi Health(2025年のため見送り)。台湾の創創燒・中華圏の番組は個別の移籍・出資の記述なし。Tech in Asia・Entrackrはクラウドから本文を読めなかった(techinasia接続不可、entrackrは接続できたが該当記事は見つからず)"
+}
