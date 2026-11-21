@@ -180,6 +180,8 @@ def main():
     build_md(d)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     open(OUT, 'w', encoding='utf-8').write(build_html(d))
+    import subprocess  # 共有カード用の meta を付け直す(上書きで消えるため)
+    subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'seo.py')], check=False, capture_output=True)
     print('作りました:', os.path.relpath(MD, ROOT), os.path.relpath(OUT, ROOT))
 
 
