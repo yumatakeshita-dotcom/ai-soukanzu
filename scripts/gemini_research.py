@@ -116,6 +116,21 @@ def known_names():
 
 
 # ---------- 1回目: Google検索で調べる ----------
+def media_leads(limit=12):
+    """動画・ポッドキャストの新着から作った手がかり(inbox/media/)のタイトルだけを渡す(2026/11/21追加)。"""
+    fs = sorted(glob.glob(os.path.join(ROOT, 'inbox', 'media', '2*.json')))
+    if not fs:
+        return ''
+    try:
+        leads = json.load(open(fs[-1], encoding='utf-8')).get('leads', [])[:limit]
+    except Exception:  # noqa: BLE001
+        return ''
+    if not leads:
+        return ''
+    rows = '\n'.join(f"- {l['published']} {l['source']}: {l['title'][:90]}" for l in leads)
+    return ('\n--- 最近の動画・ポッドキャストの題名(手がかり。ここから新しい事実を探してよいが、事実は必ず検索で別の出典を確かめる) ---\n' + rows + '\n')
+
+
 def build_prompt(topic, n):
     rng = read_doc('notebooklm-code/10_*.md')
     return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{datetime.date.today():%Y年%m月%d日}です。
@@ -134,6 +149,7 @@ def build_prompt(topic, n):
 答えは次の形のJSONだけを ```json と ``` で囲んで返す(説明文は不要):
 {{"items":[{{"会社名":"","関係":"出資/取引/提携/買収/移籍/就任/退任 など","相手":"","金額":"","日付":"","出典URL":"","出典名":"媒体名","確かさ":"報道","備考":"","人物":"(人の動きのときだけ)","役職":"","移籍元":"","移籍先":""}}]}}
 
+{media_leads()}
 --- すでにある範囲 ---
 {rng}
 """

@@ -1,0 +1,48 @@
+8fd14988-e40e-11f1-99ee-ebfb28833f04|No Priors|2026-11-19|Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew
+substack:post:224231309|Lenny's Podcast|2026-11-15|Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos
+7235be28-350c-444f-ac4b-87ac2204866e|TBPN|2026-11-20|AI Solves Riemann Hypothesis, Stock Market Plunges, The Mansion Section | Diet TBPN
+3dbc9e4b-8658-4585-a60c-425d71c6eb89|TBPN|2026-11-20|Market Nukes, Math Solved Again, Mansion Section | Alex Epstein, David Chang, Zhou Xian, Eric Wind
+04a0e19a-ce79-4a3d-b41c-510b301c0c7f|TBPN|2026-11-19|Anthropic IPO, GTA 6 Launch, Strauss Zelnick Joins | Hemant Taneja
+98737106-739a-431b-8874-43feb4fa7bf9|TBPN|2026-11-19|The CEO Behind GTA VI on Building the Biggest Game in History
+a2d501f2-6067-4ea7-8b45-721d286ec57e|TBPN|2026-11-18|🤠 LIVE from TomorrowX Day 2 | Jon Gray, Scott DeBoer, Jed Finn, Scott Wu, Travis Kalanick
+f126b009-6d90-4f81-a678-5d58ec4ebc3f|TBPN|2026-11-18|“If I Were Jensen, Here’s What I’d Do” — Travis Kalanick
+6afa0353-01b4-4a78-97c6-20fafa930781|TBPN|2026-11-17|🔴 LIVE From TomorrowX | David Solomon, Brian Armstrong, Ron Biscardi, Gavin Baker, Alex Davis, Guy O
+ed0cd554-3321-40a7-8719-8c36129c7e89|TBPN|2026-11-17|Goldman Sachs CEO Reacts to Jensen Huang's Potential Return to NVIDIA
+0535f287-ed99-4552-ae5d-e51735a621ec|TBPN|2026-11-16|Will Jensen Return? FAA Meltdown, Amazon Casts Pattinson as Bond | Diet TBPN
+397b4c55-9abf-4b57-b29a-b67d99286ac3|TBPN|2026-11-16|Ground Stop, NVIDIA's Uncertain Future, Robert Pattinson is James Bond
+0ef0dda2-c60e-44d1-8d24-60d48e6d64fd|Hard Fork|2026-11-20|G.T.A. VI Is a Monumental Human Achievement
+f232d23e-cfc6-11f0-83c5-27dffdffb411|Decoder with Nilay Patel|2026-11-19|How Silicon Valley lost the public, with Crooked Media’s Jon Favreau
+f1920728-cfc6-11f0-83c5-6feaaa2e439e|Decoder with Nilay Patel|2026-11-16|Why NJ’s governor thinks Republicans are trapped in an X bubble
+ac5ae4ac-b924-11f1-b9c2-d75a896809a1|Decoder with Nilay Patel|2026-11-14|The OpenAI board member who fired Sam Altman says we still can't trust AI CEOs
+cdf88558-e532-11f1-bd65-e791b83fbbbd|Big Technology Podcast|2026-11-20|Anthropic’s Moment of Truth, Jensen in Limbo, Apple’s AI Agent
+2c830ecc-e40c-11f1-9c6c-9b911c01396a|Big Technology Podcast|2026-11-19|Why The Anthropic IPO Will Succeed — With Aaron Levie
+db5555a0-e28f-11f1-b508-c3817b5a2c66|Big Technology Podcast|2026-11-17|Why The Anthropic IPO Will Fail — With Gary Marcus
+14b0ea60-e1ca-11f1-b285-1334fdd80ba6|Big Technology Podcast|2026-11-17|How Humans Will Work Alongside AI Agents — With Mike Cannon-Brookes
+030986db-8ba8-41c9-9fae-b42a34c5dc25|The a16z Show|2026-11-20|Why the Agent Era Needs a New Operating System | DHH
+1454bf4f-d708-4e4b-b627-8e139743b851|The a16z Show|2026-11-19|How Fast Should We Build Superintelligence? | Nick Bostrom
+b4bb80f6-965a-4e39-b7d1-5fa11e78ba4f|The a16z Show|2026-11-18|The Missing Layer for Personal AI | First Person Labs’ Ken Liu
+7ffcabac-4109-49f0-b288-14b13284a3a6|The a16z Show|2026-11-17|Can AI Learn to Improve Itself? | Recursive Self-Improvement
+94e8e25d-cebe-4e18-b377-91a63ae26305|The a16z Show|2026-11-16|Alex Imas & Tyler Cowen | AI Is Moving Fast. Why Isn’t the Economy?
+f8630efe-32c7-4d53-90af-02d1b1170ce0|The a16z Show|2026-11-15|What Breaks When You Scale 10x? | Zipline’s Keller Cliffton
+3e52fa64-4b71-4444-b74f-7042c7ba8deb|The a16z Show|2026-11-14|From the Telephone to Modern Computing | James Gleick
+gid://art19-episode-locator/V0/n8OEBrGn6rRg48r2wStSA1I_6pHkjhsGRX5woy9LLmE|Masters of Scale|2026-11-19|The new space race: Musk vs Bezos
+gid://art19-episode-locator/V0/yZJszZJrwyjxHXdFsbcQQLJ5meJZRUxx0YADYOGLAzI|Masters of Scale|2026-11-17|Replit’s $9B perfect storm, and the winds of “AI psychosis,” with Amjad Masad
+gid://art19-episode-locator/V0/6I2Sj8tiyi87AVW8vrbyLiSYhPaCxAuPGY7CzrjXVJ8|Masters of Scale|2026-11-14|The “best practices” corrupting business, with Eric Ries and Krista Tippett
+c42fd7e8-c97a-11f1-9218-3bcfa8b7014c|How I Built This|2026-11-19|Jensen Huang: The Personal Cost of Building NVIDIA (April 2026)
+758822cc-e2dd-11f1-9a55-87cd37c9fb74|How I Built This|2026-11-18|Exciting News: More How I Built This is on the Way!
+12b12692-e163-11f1-9dcc-0b90b15efe79|How I Built This|2026-11-16|Good Culture: How Jesse Merrill Made Cottage Cheese Cool
+7bb21354-e2df-11f1-b9e1-4b3123b2b267|The Colin and Samir Show|2026-11-18|How Raj Shamani Built YouTube’s #1 Podcast
+7dc28d5e-c137-4739-83c7-65bead01ea11|20VC|2026-11-19|20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fr
+d58483f7-f3a8-4375-b3ca-9f357ff95d41|20VC|2026-11-16|20VC: Jev Creator on Why Data Is More Important Than Compute | Will US Open-Source Models Catch Chin
+2287a085-1a53-4fbc-8983-a411da9c85f8|20VC|2026-11-14|20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex S
+substack:post:225196123|Dwarkesh Podcast|2026-11-16|Paul Christiano – We could be 12 months away from AIs that can overthrow the government
+87f8e24a-476f-4565-88fb-9e5ee7549ece|All-In|2026-11-20|Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?
+22b845c5-e5be-4dd1-b4dd-7f3843120d12|All-In|2026-11-17|Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate
+ 01a1f60c-1b1f-7366-a794-20e0b0bcdc8a |Latent Space|2026-11-19|Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO
+youtube:wX8nDtGIfYA|Latent Space|2026-11-18|⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC
+ 01a1e632-c02d-713d-a840-cae7f745d45e |Latent Space|2026-11-16|Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
+4364f8cd-e957-44ef-9795-b5070115b19e|Odd Lots (Bloomberg)|2026-11-20|How an American AI Company Uses Chinese Open-Weight Models
+53c36daa-840c-48b3-b071-b5070021e016|Odd Lots (Bloomberg)|2026-11-19|This Is The Problem With AI's Most Bullish Chart
+8dad6dc9-ed8d-497d-8cde-b50501578aa2|Odd Lots (Bloomberg)|2026-11-18|How GTA VI Became the Most Expensive Video Game Ever Made
+4bf9cb81-2185-4513-8d9c-b5010173862f|Odd Lots (Bloomberg)|2026-11-16|The Impossible Trilemma That Hangs Over the Nvidia Crisis
+9d24ac51-fef1-4f4e-8cda-b501016c2b98|Odd Lots (Bloomberg)|2026-11-14|How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era

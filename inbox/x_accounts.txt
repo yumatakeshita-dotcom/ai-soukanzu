@@ -62,6 +62,25 @@
 @lightspeedvp | vc,money | Lightspeed公式
 @PreferredNet | money,deep | 日本のAI新興PFN公式(英語)
 @JPStartups | vc,money | 日本のスタートアップ報道
+# --- 海外の人本人 (2026-11-21。プロフィールを x_check.py で確かめた) ---
+@elonmusk | moves,money,vc | xAI/SpaceX/Tesla CEO。本人
+@gdb | moves,money,vc | OpenAI共同創業者・社長。本人
+@miramurati | moves,money,vc | Thinking Machines創業者。元OpenAI CTO。本人
+@alexandr_wang | moves,money,vc | Meta Chief AI Officer。Scale AI創業者。本人
+@chamath | moves,money,vc | Social Capital。All-In。本人
+@DavidSacks | moves,money,vc | Craft Ventures。All-In。本人
+@ylecun | moves,money,vc | AMI Labs創業者。元Meta。本人
+@AndrewYNg | moves,money,vc | Coursera共同創業者。AI研究者。本人
+@JeffDean | moves,money,vc | Discovery Loop CEO。元Google。本人
+@mustafasuleyman | moves,money,vc | Microsoft AI CEO。本人
+@satyanadella | moves,money,vc | Microsoft CEO。本人
+@sundarpichai | moves,money,vc | Google CEO。本人
+@patrickc | moves,money,vc | Stripe CEO。本人
+@paulg | moves,money,vc | Y Combinator共同創業者。本人
+@bhorowitz | moves,money,vc | a16z共同創業者。本人
+@reidhoffman | moves,money,vc | LinkedIn共同創業者。投資家。本人
+@vkhosla | moves,money,vc | Khosla Ventures。本人
+@jackclarkSF | moves,money,vc | Anthropic共同創業者。本人
 # --- 日本のVC・スタートアップ (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
 @thebridge_jp | money,vc,moves | 日本のテックスタートアップ報道(THE BRIDGE)。確認済み
 @Kepple_jp | money,vc | 資金調達中心のスタートアップ報道(KEPPLE)。確認済み
@@ -90,10 +109,7 @@
 # --- 候補の追加 (2026-11-21。x_check.py で自己紹介を確認。Geminiは枠切れのため今回は使わず) ---
 @hardmaru | moves,deep | Sakana AI 共同創業者・CEO(日本のAI新興)。確認済み
 @DarioAmodei | moves,money | Anthropic CEO。確認済み
-@gdb | moves,deep | OpenAI 社長・共同創業者。確認済み
 @drfeifei | moves,money,deep | World Labs 創業者(AI研究者)。確認済み
-@ylecun | moves,deep | AMI Labs 創業者(元Meta AI責任者)。確認済み
-@AndrewYNg | moves,deep | AI研究者・起業家(Landing AI など)。確認済み
 @kleinerperkins | vc,money | Kleiner Perkins(米国VC)公式。確認済み
 @GreylockVC | vc,money | Greylock(米国VC)公式。確認済み
 @IndexVentures | vc,money | Index Ventures(欧米のVC)公式。確認済み
@@ -105,16 +121,9 @@
 @semafor | moves,money | 世界の報道(Semafor)公式。確認済み
 @WSJ | moves,money | The Wall Street Journal 公式。確認済み
 # --- 海外の投資家・起業家 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
-@paulg | vc,moves,deep | Paul Graham(Y Combinator 創業者)。確認済み
 @naval | vc,money | 投資家・起業家。確認済み
-@reidhoffman | vc,moves,money | LinkedIn 共同創業者・投資家。確認済み
 @balajis | vc,deep | 起業家・投資家(Network School)。確認済み
-@patrickc | money,deep | Stripe CEO。確認済み
 @sarahguo | vc,money,moves | Conviction 創業者(AI投資)。確認済み
-@miramurati | moves,deep | Thinking Machines 創業者(元OpenAI CTO)。確認済み
-@chamath | vc,money | Social Capital 創業者・投資家。確認済み
-@satyanadella | moves,money | Microsoft CEO。確認済み
-@sundarpichai | moves,money | Google CEO。確認済み
 @dwarkesh_sp | deep | Dwarkesh Podcast(AI・起業家へのインタビュー)。確認済み
 @NFX | vc,money | NFX(米国の初期VC)公式。確認済み
 @hunterwalk | vc,money | Homebrew 共同創業者(VC)。確認済み
