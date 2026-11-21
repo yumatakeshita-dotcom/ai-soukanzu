@@ -169,7 +169,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -258,6 +258,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/movelab.js"></script>
 <script src="data/finds.js"></script>
 <script src="data/common.js"></script>
+<script src="data/invest.js"></script>
 <script src="data/cfhist.js"></script>
 <script src="data/exectl.js"></script>
 <script>
@@ -36880,8 +36881,8 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
-  wireAcq();wireVc();wireCommon();wireKk();
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}${investBtn()}`;
+  wireAcq();wireVc();wireCommon();wireInvest();wireKk();
   document.querySelectorAll('a.colgo[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();build(a.dataset.k)});
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
@@ -38810,6 +38811,7 @@ function showHome(){
   const cards=[
     ['company','企業の相関図',`${nCo}社。社長・経営陣・出資者のつながり`,'openai'],
     ['common','2社の共通のつながり','2社を選ぶと、共通の出資者・人物・取引先と最短ルート。営業先との接点探しに'],
+    ['invest','出資の一覧','どの企業が、どの企業に出資しているか。会社を選ぶと、出資者と出資先が並ぶ'],
     ['rank','時価総額ランキング','米国200社と日本188社'],
     ['uni','スタートアップ',`ユニコーン${UNI.length}社の一覧と、上場申請`],
     ['rel','ニュースから関係を見る','提携・買収・出資を、記事から相関図に'],
@@ -38834,7 +38836,7 @@ function showHome(){
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
-  const go={company:()=>build('openai'),common:()=>showCommon(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
+  const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
   FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
@@ -39153,13 +39155,13 @@ function vcBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';const r=vcsOf(
   return (n||out.length)?`<div class="links"><a href="#" id="govc"><b>${nm}の投資・出資の記録を見る ▸</b></a><small style="display:block;color:var(--muted)">${n?`投資したVC・投資家 ${r.vcs.length}社${r.news.length?`+ニュース${r.news.length}件`:''}`:''}${n&&out.length?' / ':''}${out.length?`出資している会社 ${out.length}社`:''}</small></div>`:''}
 function wireVc(){const g=document.getElementById('govc');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showOrg(COMPANIES[comp].name,'',()=>build(comp))})}
 /* 上のメインメニュー: いま見ている画面を色で示し、会社の選択欄(長い一覧)は相関図を見ているときだけ出す */
-const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),common:()=>showCommon(),cf:()=>showCfList(),extl:()=>showExecTl()};
+const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),common:()=>showCommon(),invest:()=>showInvest(),cf:()=>showCfList(),extl:()=>showExecTl()};
 function navSync(){
   let cur='company';
   if(!MAINEL.hidden||!PROFEL.hidden)cur='company';
   else if(!RANKEL.hidden)cur='rank';
   else if(!UNIEL.hidden)cur='uni';
-  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
+  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
@@ -39514,7 +39516,7 @@ async function relExtract(items){
 
 const h0=location.hash.slice(1);
 navSync();
-if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
+if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='invest')showInvest();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
 </script>
 
 </body></html>
