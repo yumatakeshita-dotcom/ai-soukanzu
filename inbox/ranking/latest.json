@@ -1,0 +1,1812 @@
+{
+ "date": "2026-11-21",
+ "method": "重要度=つながり40%+直近90日の動き35%+ニュース見出し25%(各指標は対数で0〜1にそろえる)",
+ "weights": {
+  "links": 0.4,
+  "recent": 0.35,
+  "news": 0.25
+ },
+ "total": 7103,
+ "top": [
+  {
+   "name": "OpenAI",
+   "kind": "会社",
+   "links": 86,
+   "recent": 10,
+   "news": 90,
+   "score": 96.2,
+   "rank": 1
+  },
+  {
+   "name": "Nvidia",
+   "kind": "投資家",
+   "links": 47,
+   "recent": 4,
+   "news": 85,
+   "score": 79.6,
+   "rank": 2
+  },
+  {
+   "name": "Google",
+   "kind": "投資家",
+   "links": 65,
+   "recent": 2,
+   "news": 17,
+   "score": 66.0,
+   "rank": 3
+  },
+  {
+   "name": "Accel",
+   "kind": "投資家",
+   "links": 17,
+   "recent": 5,
+   "news": 6,
+   "score": 60.4,
+   "rank": 4
+  },
+  {
+   "name": "ソフトバンク",
+   "kind": "投資家",
+   "links": 59,
+   "recent": 0,
+   "news": 30,
+   "score": 52.2,
+   "rank": 5
+  },
+  {
+   "name": "Khosla Ventures",
+   "kind": "投資家",
+   "links": 11,
+   "recent": 2,
+   "news": 13,
+   "score": 50.8,
+   "rank": 6
+  },
+  {
+   "name": "Founders Fund",
+   "kind": "投資家",
+   "links": 19,
+   "recent": 2,
+   "news": 3,
+   "score": 48.0,
+   "rank": 7
+  },
+  {
+   "name": "Microsoft",
+   "kind": "投資家",
+   "links": 56,
+   "recent": 0,
+   "news": 5,
+   "score": 42.7,
+   "rank": 8
+  },
+  {
+   "name": "SOSV",
+   "kind": "投資家",
+   "links": 86,
+   "recent": 0,
+   "news": 2,
+   "score": 42.3,
+   "rank": 9
+  },
+  {
+   "name": "Sequoia Capital",
+   "kind": "投資家",
+   "links": 31,
+   "recent": 1,
+   "news": 1,
+   "score": 42.1,
+   "rank": 10
+  },
+  {
+   "name": "Cisco",
+   "kind": "投資家",
+   "links": 29,
+   "recent": 1,
+   "news": 1,
+   "score": 41.5,
+   "rank": 11
+  },
+  {
+   "name": "Airbnb",
+   "kind": "投資家",
+   "links": 73,
+   "recent": 0,
+   "news": 2,
+   "score": 41.0,
+   "rank": 12
+  },
+  {
+   "name": "Salesforce",
+   "kind": "投資家",
+   "links": 20,
+   "recent": 0,
+   "news": 16,
+   "score": 40.4,
+   "rank": 13
+  },
+  {
+   "name": "Y Combinator",
+   "kind": "投資家",
+   "links": 138,
+   "recent": 0,
+   "news": 0,
+   "score": 40.0,
+   "rank": 14
+  },
+  {
+   "name": "CapitalG",
+   "kind": "投資家",
+   "links": 11,
+   "recent": 2,
+   "news": 1,
+   "score": 40.0,
+   "rank": 15
+  },
+  {
+   "name": "Intel",
+   "kind": "投資家",
+   "links": 25,
+   "recent": 0,
+   "news": 10,
+   "score": 39.7,
+   "rank": 16
+  },
+  {
+   "name": "グローバル・ブレイン",
+   "kind": "投資家",
+   "links": 35,
+   "recent": 0,
+   "news": 5,
+   "score": 39.0,
+   "rank": 17
+  },
+  {
+   "name": "Qualcomm",
+   "kind": "投資家",
+   "links": 18,
+   "recent": 0,
+   "news": 13,
+   "score": 38.5,
+   "rank": 18
+  },
+  {
+   "name": "ジャフコ",
+   "kind": "投資家",
+   "links": 32,
+   "recent": 0,
+   "news": 5,
+   "score": 38.3,
+   "rank": 19
+  },
+  {
+   "name": "Thrive Capital",
+   "kind": "投資家",
+   "links": 14,
+   "recent": 2,
+   "news": 0,
+   "score": 38.0,
+   "rank": 20
+  },
+  {
+   "name": "Amazon",
+   "kind": "投資家",
+   "links": 48,
+   "recent": 0,
+   "news": 2,
+   "score": 37.6,
+   "rank": 21
+  },
+  {
+   "name": "Tesla",
+   "kind": "会社",
+   "links": 16,
+   "recent": 0,
+   "news": 13,
+   "score": 37.6,
+   "rank": 22
+  },
+  {
+   "name": "Tencent",
+   "kind": "投資家",
+   "links": 10,
+   "recent": 1,
+   "news": 3,
+   "score": 37.2,
+   "rank": 23
+  },
+  {
+   "name": "Coinbase",
+   "kind": "会社",
+   "links": 91,
+   "recent": 0,
+   "news": 0,
+   "score": 36.7,
+   "rank": 24
+  },
+  {
+   "name": "みずほキャピタル",
+   "kind": "投資家",
+   "links": 35,
+   "recent": 0,
+   "news": 3,
+   "score": 36.7,
+   "rank": 25
+  },
+  {
+   "name": "Palo Alto Networks",
+   "kind": "会社",
+   "links": 9,
+   "recent": 1,
+   "news": 3,
+   "score": 36.5,
+   "rank": 26
+  },
+  {
+   "name": "500 Global",
+   "kind": "投資家",
+   "links": 89,
+   "recent": 0,
+   "news": 0,
+   "score": 36.5,
+   "rank": 27
+  },
+  {
+   "name": "ドアダッシュ",
+   "kind": "投資家",
+   "links": 87,
+   "recent": 0,
+   "news": 0,
+   "score": 36.3,
+   "rank": 28
+  },
+  {
+   "name": "Plug and Play Tech Center",
+   "kind": "投資家",
+   "links": 85,
+   "recent": 0,
+   "news": 0,
+   "score": 36.1,
+   "rank": 29
+  },
+  {
+   "name": "DeepSeek",
+   "kind": "会社",
+   "links": 7,
+   "recent": 1,
+   "news": 4,
+   "score": 35.9,
+   "rank": 30
+  },
+  {
+   "name": "ＪＸ金属",
+   "kind": "会社",
+   "links": 15,
+   "recent": 0,
+   "news": 9,
+   "score": 35.2,
+   "rank": 31
+  },
+  {
+   "name": "Andreessen Horowitz",
+   "kind": "投資家",
+   "links": 24,
+   "recent": 0,
+   "news": 4,
+   "score": 35.0,
+   "rank": 32
+  },
+  {
+   "name": "Moonshot AI",
+   "kind": "会社",
+   "links": 9,
+   "recent": 1,
+   "news": 2,
+   "score": 34.9,
+   "rank": 33
+  },
+  {
+   "name": "ElevenLabs",
+   "kind": "会社",
+   "links": 6,
+   "recent": 1,
+   "news": 4,
+   "score": 34.8,
+   "rank": 34
+  },
+  {
+   "name": "旭化成",
+   "kind": "会社",
+   "links": 23,
+   "recent": 0,
+   "news": 4,
+   "score": 34.7,
+   "rank": 35
+  },
+  {
+   "name": "グラブ",
+   "kind": "投資家",
+   "links": 68,
+   "recent": 0,
+   "news": 0,
+   "score": 34.3,
+   "rank": 36
+  },
+  {
+   "name": "newmo",
+   "kind": "会社",
+   "links": 19,
+   "recent": 0,
+   "news": 5,
+   "score": 34.2,
+   "rank": 37
+  },
+  {
+   "name": "venture capital",
+   "kind": "会社",
+   "links": 3,
+   "recent": 1,
+   "news": 9,
+   "score": 34.1,
+   "rank": 38
+  },
+  {
+   "name": "SBIホールディングス",
+   "kind": "投資家",
+   "links": 40,
+   "recent": 0,
+   "news": 1,
+   "score": 33.9,
+   "rank": 39
+  },
+  {
+   "name": "日本生命保険相互会社",
+   "kind": "投資家",
+   "links": 64,
+   "recent": 0,
+   "news": 0,
+   "score": 33.8,
+   "rank": 40
+  },
+  {
+   "name": "Index Ventures",
+   "kind": "投資家",
+   "links": 10,
+   "recent": 0,
+   "news": 12,
+   "score": 33.7,
+   "rank": 41
+  },
+  {
+   "name": "Benchmark",
+   "kind": "投資家",
+   "links": 14,
+   "recent": 0,
+   "news": 7,
+   "score": 33.5,
+   "rank": 42
+  },
+  {
+   "name": "Rappi",
+   "kind": "会社",
+   "links": 60,
+   "recent": 0,
+   "news": 0,
+   "score": 33.3,
+   "rank": 43
+  },
+  {
+   "name": "ＳＯＭＰＯホールディングス",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 2,
+   "score": 33.1,
+   "rank": 44
+  },
+  {
+   "name": "BufferBox",
+   "kind": "投資家",
+   "links": 57,
+   "recent": 0,
+   "news": 0,
+   "score": 32.9,
+   "rank": 45
+  },
+  {
+   "name": "Chaldal",
+   "kind": "投資家",
+   "links": 57,
+   "recent": 0,
+   "news": 0,
+   "score": 32.9,
+   "rank": 46
+  },
+  {
+   "name": "Lezzoo",
+   "kind": "投資家",
+   "links": 57,
+   "recent": 0,
+   "news": 0,
+   "score": 32.9,
+   "rank": 47
+  },
+  {
+   "name": "OrderAhead",
+   "kind": "投資家",
+   "links": 57,
+   "recent": 0,
+   "news": 0,
+   "score": 32.9,
+   "rank": 48
+  },
+  {
+   "name": "シリーズAラウンド",
+   "kind": "投資家",
+   "links": 13,
+   "recent": 0,
+   "news": 7,
+   "score": 32.9,
+   "rank": 49
+  },
+  {
+   "name": "インデックス・ベンチャーズ",
+   "kind": "投資家",
+   "links": 56,
+   "recent": 0,
+   "news": 0,
+   "score": 32.8,
+   "rank": 50
+  },
+  {
+   "name": "Bump",
+   "kind": "投資家",
+   "links": 56,
+   "recent": 0,
+   "news": 0,
+   "score": 32.8,
+   "rank": 51
+  },
+  {
+   "name": "三菱地所",
+   "kind": "会社",
+   "links": 34,
+   "recent": 0,
+   "news": 1,
+   "score": 32.7,
+   "rank": 52
+  },
+  {
+   "name": "Stripe",
+   "kind": "会社",
+   "links": 20,
+   "recent": 0,
+   "news": 3,
+   "score": 32.4,
+   "rank": 53
+  },
+  {
+   "name": "オリックス",
+   "kind": "会社",
+   "links": 33,
+   "recent": 0,
+   "news": 1,
+   "score": 32.4,
+   "rank": 54
+  },
+  {
+   "name": "Perplexity",
+   "kind": "会社",
+   "links": 13,
+   "recent": 0,
+   "news": 6,
+   "score": 32.2,
+   "rank": 55
+  },
+  {
+   "name": "りそなホールディングス",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 1,
+   "score": 32.2,
+   "rank": 56
+  },
+  {
+   "name": "Lightspeed",
+   "kind": "投資家",
+   "links": 6,
+   "recent": 1,
+   "news": 2,
+   "score": 32.0,
+   "rank": 57
+  },
+  {
+   "name": "ブースト",
+   "kind": "会社",
+   "links": 31,
+   "recent": 0,
+   "news": 1,
+   "score": 31.9,
+   "rank": 58
+  },
+  {
+   "name": "AstraZeneca",
+   "kind": "会社",
+   "links": 16,
+   "recent": 0,
+   "news": 4,
+   "score": 31.9,
+   "rank": 59
+  },
+  {
+   "name": "日立製作所",
+   "kind": "会社",
+   "links": 16,
+   "recent": 0,
+   "news": 4,
+   "score": 31.9,
+   "rank": 60
+  },
+  {
+   "name": "大和ハウス工業",
+   "kind": "会社",
+   "links": 30,
+   "recent": 0,
+   "news": 1,
+   "score": 31.7,
+   "rank": 61
+  },
+  {
+   "name": "ライトスピード",
+   "kind": "投資家",
+   "links": 49,
+   "recent": 0,
+   "news": 0,
+   "score": 31.7,
+   "rank": 62
+  },
+  {
+   "name": "SBIインベストメント",
+   "kind": "投資家",
+   "links": 30,
+   "recent": 0,
+   "news": 1,
+   "score": 31.7,
+   "rank": 63
+  },
+  {
+   "name": "塩野義製薬",
+   "kind": "会社",
+   "links": 22,
+   "recent": 0,
+   "news": 2,
+   "score": 31.5,
+   "rank": 64
+  },
+  {
+   "name": "ＳＢＩホールディングス",
+   "kind": "会社",
+   "links": 29,
+   "recent": 0,
+   "news": 1,
+   "score": 31.4,
+   "rank": 65
+  },
+  {
+   "name": "Canva",
+   "kind": "会社",
+   "links": 46,
+   "recent": 0,
+   "news": 0,
+   "score": 31.2,
+   "rank": 66
+  },
+  {
+   "name": "ファイアベース",
+   "kind": "投資家",
+   "links": 46,
+   "recent": 0,
+   "news": 0,
+   "score": 31.2,
+   "rank": 67
+  },
+  {
+   "name": "THE CHASE MANHATTAN BANK,N.A.LONDONSECS LENDING OMNIBUS ACCOUNT",
+   "kind": "投資家",
+   "links": 45,
+   "recent": 0,
+   "news": 0,
+   "score": 31.0,
+   "rank": 68
+  },
+  {
+   "name": "SMBCベンチャーキャピタル",
+   "kind": "投資家",
+   "links": 14,
+   "recent": 0,
+   "news": 4,
+   "score": 30.9,
+   "rank": 69
+  },
+  {
+   "name": "孫正義",
+   "kind": "人物",
+   "links": 6,
+   "recent": 0,
+   "news": 14,
+   "score": 30.8,
+   "rank": 70
+  },
+  {
+   "name": "Cognition",
+   "kind": "会社",
+   "links": 7,
+   "recent": 0,
+   "news": 11,
+   "score": 30.6,
+   "rank": 71
+  },
+  {
+   "name": "Walmart",
+   "kind": "投資家",
+   "links": 19,
+   "recent": 0,
+   "news": 2,
+   "score": 30.4,
+   "rank": 72
+  },
+  {
+   "name": "ByteDance",
+   "kind": "会社",
+   "links": 19,
+   "recent": 0,
+   "news": 2,
+   "score": 30.4,
+   "rank": 73
+  },
+  {
+   "name": "三井物産",
+   "kind": "会社",
+   "links": 19,
+   "recent": 0,
+   "news": 2,
+   "score": 30.4,
+   "rank": 74
+  },
+  {
+   "name": "JPモルガン証券",
+   "kind": "投資家",
+   "links": 41,
+   "recent": 0,
+   "news": 0,
+   "score": 30.3,
+   "rank": 75
+  },
+  {
+   "name": "小松製作所",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 1,
+   "score": 30.3,
+   "rank": 76
+  },
+  {
+   "name": "ＴＯＰＰＡＮホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 1,
+   "score": 30.3,
+   "rank": 77
+  },
+  {
+   "name": "三菱UFJ銀行",
+   "kind": "投資家",
+   "links": 18,
+   "recent": 0,
+   "news": 2,
+   "score": 30.0,
+   "rank": 78
+  },
+  {
+   "name": "ゆうちょ銀行",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 1,
+   "score": 29.9,
+   "rank": 79
+  },
+  {
+   "name": "オリエンタルランド",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 1,
+   "score": 29.9,
+   "rank": 80
+  },
+  {
+   "name": "グレイロック",
+   "kind": "投資家",
+   "links": 39,
+   "recent": 0,
+   "news": 0,
+   "score": 29.9,
+   "rank": 81
+  },
+  {
+   "name": "genesia",
+   "kind": "投資家",
+   "links": 24,
+   "recent": 0,
+   "news": 1,
+   "score": 29.9,
+   "rank": 82
+  },
+  {
+   "name": "ベンチマーク",
+   "kind": "投資家",
+   "links": 14,
+   "recent": 0,
+   "news": 3,
+   "score": 29.6,
+   "rank": 83
+  },
+  {
+   "name": "コースラ・ベンチャーズ",
+   "kind": "投資家",
+   "links": 23,
+   "recent": 0,
+   "news": 1,
+   "score": 29.6,
+   "rank": 84
+  },
+  {
+   "name": "日本郵政",
+   "kind": "投資家",
+   "links": 37,
+   "recent": 0,
+   "news": 0,
+   "score": 29.5,
+   "rank": 85
+  },
+  {
+   "name": "Insight Partners",
+   "kind": "投資家",
+   "links": 6,
+   "recent": 0,
+   "news": 11,
+   "score": 29.5,
+   "rank": 86
+  },
+  {
+   "name": "Goldman Sachs",
+   "kind": "会社",
+   "links": 17,
+   "recent": 0,
+   "news": 2,
+   "score": 29.5,
+   "rank": 87
+  },
+  {
+   "name": "GOVERNMENT OF NORWAY",
+   "kind": "投資家",
+   "links": 36,
+   "recent": 0,
+   "news": 0,
+   "score": 29.3,
+   "rank": 88
+  },
+  {
+   "name": "島津製作所",
+   "kind": "会社",
+   "links": 22,
+   "recent": 0,
+   "news": 1,
+   "score": 29.3,
+   "rank": 89
+  },
+  {
+   "name": "フレックスポート",
+   "kind": "投資家",
+   "links": 36,
+   "recent": 0,
+   "news": 0,
+   "score": 29.3,
+   "rank": 90
+  },
+  {
+   "name": "General Catalyst",
+   "kind": "投資家",
+   "links": 7,
+   "recent": 0,
+   "news": 8,
+   "score": 29.0,
+   "rank": 91
+  },
+  {
+   "name": "明治安田生命保険相互会社",
+   "kind": "投資家",
+   "links": 35,
+   "recent": 0,
+   "news": 0,
+   "score": 29.0,
+   "rank": 92
+  },
+  {
+   "name": "本田技研工業",
+   "kind": "会社",
+   "links": 35,
+   "recent": 0,
+   "news": 0,
+   "score": 29.0,
+   "rank": 93
+  },
+  {
+   "name": "キリンホールディングス",
+   "kind": "会社",
+   "links": 35,
+   "recent": 0,
+   "news": 0,
+   "score": 29.0,
+   "rank": 94
+  },
+  {
+   "name": "GV(旧グーグル・ベンチャーズ)",
+   "kind": "投資家",
+   "links": 35,
+   "recent": 0,
+   "news": 0,
+   "score": 29.0,
+   "rank": 95
+  },
+  {
+   "name": "ファウンダーズ・ファンド",
+   "kind": "投資家",
+   "links": 35,
+   "recent": 0,
+   "news": 0,
+   "score": 29.0,
+   "rank": 96
+  },
+  {
+   "name": "三菱ＵＦＪフィナンシャル・グループ",
+   "kind": "会社",
+   "links": 34,
+   "recent": 0,
+   "news": 0,
+   "score": 28.8,
+   "rank": 97
+  },
+  {
+   "name": "キヤノン",
+   "kind": "会社",
+   "links": 34,
+   "recent": 0,
+   "news": 0,
+   "score": 28.8,
+   "rank": 98
+  },
+  {
+   "name": "Reddit",
+   "kind": "投資家",
+   "links": 34,
+   "recent": 0,
+   "news": 0,
+   "score": 28.8,
+   "rank": 99
+  },
+  {
+   "name": "味の素",
+   "kind": "会社",
+   "links": 33,
+   "recent": 0,
+   "news": 0,
+   "score": 28.6,
+   "rank": 100
+  },
+  {
+   "name": "大和証券グループ本社",
+   "kind": "会社",
+   "links": 33,
+   "recent": 0,
+   "news": 0,
+   "score": 28.6,
+   "rank": 101
+  },
+  {
+   "name": "アンドリーセン・ホロウィッツ",
+   "kind": "投資家",
+   "links": 15,
+   "recent": 0,
+   "news": 2,
+   "score": 28.6,
+   "rank": 102
+  },
+  {
+   "name": "トヨタ自動車",
+   "kind": "投資家",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 103
+  },
+  {
+   "name": "X (Twitter)",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 104
+  },
+  {
+   "name": "Walt Disney",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 105
+  },
+  {
+   "name": "みずほフィナンシャルグループ",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 106
+  },
+  {
+   "name": "三井住友トラストグループ",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 107
+  },
+  {
+   "name": "関西電力",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 108
+  },
+  {
+   "name": "かんぽ生命保険",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 109
+  },
+  {
+   "name": "荏原製作所",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 110
+  },
+  {
+   "name": "エーザイ",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 111
+  },
+  {
+   "name": "日立建機",
+   "kind": "会社",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 112
+  },
+  {
+   "name": "Doorman",
+   "kind": "投資家",
+   "links": 32,
+   "recent": 0,
+   "news": 0,
+   "score": 28.3,
+   "rank": 113
+  },
+  {
+   "name": "光通信",
+   "kind": "会社",
+   "links": 19,
+   "recent": 0,
+   "news": 1,
+   "score": 28.1,
+   "rank": 114
+  },
+  {
+   "name": "Danaher",
+   "kind": "会社",
+   "links": 14,
+   "recent": 0,
+   "news": 2,
+   "score": 28.0,
+   "rank": 115
+  },
+  {
+   "name": "東京海上ホールディングス",
+   "kind": "会社",
+   "links": 30,
+   "recent": 0,
+   "news": 0,
+   "score": 27.8,
+   "rank": 116
+  },
+  {
+   "name": "住友電気工業",
+   "kind": "会社",
+   "links": 30,
+   "recent": 0,
+   "news": 0,
+   "score": 27.8,
+   "rank": 117
+  },
+  {
+   "name": "ソニーグループ",
+   "kind": "会社",
+   "links": 29,
+   "recent": 0,
+   "news": 0,
+   "score": 27.6,
+   "rank": 118
+  },
+  {
+   "name": "京セラ",
+   "kind": "投資家",
+   "links": 29,
+   "recent": 0,
+   "news": 0,
+   "score": 27.6,
+   "rank": 119
+  },
+  {
+   "name": "東京瓦斯",
+   "kind": "会社",
+   "links": 29,
+   "recent": 0,
+   "news": 0,
+   "score": 27.6,
+   "rank": 120
+  },
+  {
+   "name": "モバイル・インターネットキャピタル",
+   "kind": "投資家",
+   "links": 29,
+   "recent": 0,
+   "news": 0,
+   "score": 27.6,
+   "rank": 121
+  },
+  {
+   "name": "三菱商事",
+   "kind": "投資家",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 122
+  },
+  {
+   "name": "東日本旅客鉄道",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 123
+  },
+  {
+   "name": "クボタ",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 124
+  },
+  {
+   "name": "アサヒグループホールディングス",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 125
+  },
+  {
+   "name": "大日本印刷",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 126
+  },
+  {
+   "name": "西武ホールディングス",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 127
+  },
+  {
+   "name": "マツキヨココカラ＆カンパニー",
+   "kind": "会社",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 128
+  },
+  {
+   "name": "ソフトバンクグループ(投資事業)",
+   "kind": "投資家",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 129
+  },
+  {
+   "name": "Zベンチャーキャピタル",
+   "kind": "投資家",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 130
+  },
+  {
+   "name": "Paul Graham (programmer)",
+   "kind": "投資家",
+   "links": 28,
+   "recent": 0,
+   "news": 0,
+   "score": 27.3,
+   "rank": 131
+  },
+  {
+   "name": "Hugging Face",
+   "kind": "会社",
+   "links": 10,
+   "recent": 0,
+   "news": 3,
+   "score": 27.1,
+   "rank": 132
+  },
+  {
+   "name": "Temasek",
+   "kind": "投資家",
+   "links": 7,
+   "recent": 1,
+   "news": 0,
+   "score": 27.0,
+   "rank": 133
+  },
+  {
+   "name": "日本製鉄",
+   "kind": "投資家",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 134
+  },
+  {
+   "name": "Berkshire Hathaway",
+   "kind": "投資家",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 135
+  },
+  {
+   "name": "Ramp",
+   "kind": "会社",
+   "links": 7,
+   "recent": 1,
+   "news": 0,
+   "score": 27.0,
+   "rank": 136
+  },
+  {
+   "name": "ＫＤＤＩ",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 137
+  },
+  {
+   "name": "大塚ホールディングス",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 138
+  },
+  {
+   "name": "東海旅客鉄道",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 139
+  },
+  {
+   "name": "鹿島建設",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 140
+  },
+  {
+   "name": "日本取引所グループ",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 141
+  },
+  {
+   "name": "シマノ",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 142
+  },
+  {
+   "name": "キッコーマン",
+   "kind": "会社",
+   "links": 27,
+   "recent": 0,
+   "news": 0,
+   "score": 27.0,
+   "rank": 143
+  },
+  {
+   "name": "CrowdStrike",
+   "kind": "会社",
+   "links": 12,
+   "recent": 0,
+   "news": 2,
+   "score": 26.9,
+   "rank": 144
+  },
+  {
+   "name": "ファーストリテイリング",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 145
+  },
+  {
+   "name": "日本たばこ産業",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 146
+  },
+  {
+   "name": "ＩＮＰＥＸ",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 147
+  },
+  {
+   "name": "スズキ",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 148
+  },
+  {
+   "name": "バンダイナムコホールディングス",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 149
+  },
+  {
+   "name": "清水建設",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 150
+  },
+  {
+   "name": "西日本旅客鉄道",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 151
+  },
+  {
+   "name": "東洋水産",
+   "kind": "会社",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 152
+  },
+  {
+   "name": "セールスフォース・ベンチャーズ",
+   "kind": "投資家",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 153
+  },
+  {
+   "name": "Robert Tappan Morris",
+   "kind": "投資家",
+   "links": 26,
+   "recent": 0,
+   "news": 0,
+   "score": 26.7,
+   "rank": 154
+  },
+  {
+   "name": "Sequoia",
+   "kind": "投資家",
+   "links": 1,
+   "recent": 1,
+   "news": 6,
+   "score": 26.5,
+   "rank": 155
+  },
+  {
+   "name": "Uber / Uber Eats",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 156
+  },
+  {
+   "name": "伊藤忠商事",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 157
+  },
+  {
+   "name": "中外製薬",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 158
+  },
+  {
+   "name": "八十二長野銀行",
+   "kind": "投資家",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 159
+  },
+  {
+   "name": "任天堂",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 160
+  },
+  {
+   "name": "野村ホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 161
+  },
+  {
+   "name": "富士フイルムホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 162
+  },
+  {
+   "name": "大林組",
+   "kind": "投資家",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 163
+  },
+  {
+   "name": "セコム",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 164
+  },
+  {
+   "name": "パン・パシフィック・インターナショナルホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 165
+  },
+  {
+   "name": "積水ハウス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 166
+  },
+  {
+   "name": "日東電工",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 167
+  },
+  {
+   "name": "大阪瓦斯",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 168
+  },
+  {
+   "name": "レゾナック・ホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 169
+  },
+  {
+   "name": "中部電力",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 170
+  },
+  {
+   "name": "富士電機",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 171
+  },
+  {
+   "name": "ＡＮＡホールディングス",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 172
+  },
+  {
+   "name": "協和キリン",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 173
+  },
+  {
+   "name": "東京センチュリー",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 174
+  },
+  {
+   "name": "ミネベアミツミ",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 175
+  },
+  {
+   "name": "ブラザー工業",
+   "kind": "会社",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 176
+  },
+  {
+   "name": "セコイア・キャピタル",
+   "kind": "投資家",
+   "links": 25,
+   "recent": 0,
+   "news": 0,
+   "score": 26.4,
+   "rank": 177
+  },
+  {
+   "name": "Visa",
+   "kind": "会社",
+   "links": 15,
+   "recent": 0,
+   "news": 1,
+   "score": 26.3,
+   "rank": 178
+  },
+  {
+   "name": "三菱電機",
+   "kind": "会社",
+   "links": 15,
+   "recent": 0,
+   "news": 1,
+   "score": 26.3,
+   "rank": 179
+  },
+  {
+   "name": "Helion Energy",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 180
+  },
+  {
+   "name": "デンソー",
+   "kind": "投資家",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 181
+  },
+  {
+   "name": "アイシン",
+   "kind": "投資家",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 182
+  },
+  {
+   "name": "信越化学工業",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 183
+  },
+  {
+   "name": "三菱重工業",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 184
+  },
+  {
+   "name": "豊田通商",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 185
+  },
+  {
+   "name": "ダイキン工業",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 186
+  },
+  {
+   "name": "第一三共",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 187
+  },
+  {
+   "name": "Ｔ＆Ｄホールディングス",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 188
+  },
+  {
+   "name": "カプコン",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 189
+  },
+  {
+   "name": "資生堂",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 190
+  },
+  {
+   "name": "マキタ",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 191
+  },
+  {
+   "name": "日本航空",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 192
+  },
+  {
+   "name": "大塚商会",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 193
+  },
+  {
+   "name": "大東建託",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 194
+  },
+  {
+   "name": "ＭｏｎｏｔａＲＯ",
+   "kind": "会社",
+   "links": 24,
+   "recent": 0,
+   "news": 0,
+   "score": 26.1,
+   "rank": 195
+  },
+  {
+   "name": "Sakana AI",
+   "kind": "会社",
+   "links": 23,
+   "recent": 0,
+   "news": 0,
+   "score": 25.8,
+   "rank": 196
+  },
+  {
+   "name": "Preferred Networks",
+   "kind": "会社",
+   "links": 23,
+   "recent": 0,
+   "news": 0,
+   "score": 25.8,
+   "rank": 197
+  },
+  {
+   "name": "ファナック",
+   "kind": "投資家",
+   "links": 23,
+   "recent": 0,
+   "news": 0,
+   "score": 25.8,
+   "rank": 198
+  },
+  {
+   "name": "Lockheed Martin",
+   "kind": "会社",
+   "links": 14,
+   "recent": 0,
+   "news": 1,
+   "score": 25.8,
+   "rank": 199
+  },
+  {
+   "name": "リクルートホールディングス",
+   "kind": "会社",
+   "links": 23,
+   "recent": 0,
+   "news": 0,
+   "score": 25.8,
+   "rank": 200
+  }
+ ]
+}
