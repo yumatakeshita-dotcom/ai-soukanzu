@@ -17,3 +17,13 @@
 - Geminiの調査(`gemini_research.py`)は、最新の手がかりのタイトルをプロンプトに添える(探すのはGemini、事実は検索で別の出典を確かめる)
 - 配信元ホストが環境の許可に無いと見られない(2026/11/21に5つを許可して、20番組すべて見られた。以前は 20VC・All-In・Dwarkesh・Latent Space・Odd Lots・Rebuild は2026/11/21時点で未許可。許可すれば自動で見られる): rss.libsyn.com, apple.dwarkesh-podcast.workers.dev, podcast.latent.space, www.omnycontent.com, feeds.rebuild.fm
 - 日本語のYouTubeは NewsPicks・ReHacQ・PIVOT・テレ東BIZ・日経・ソフトバンクグループを足した(計27)
+
+## 日本語・アジアの情報源を追加(2026/11/21)
+- ポッドキャスト16番組を `inbox/podcast_feeds.txt` に追加(計35)。日本のVC・スタートアップ(VIVA VC、XTech Ventures、スタートアップ投資TV、令和スタートアップ、Startup Now、川邊の会食、Off Topic、海外スタートアップレポート)、経済ニュース(日経ビジネス、NewsPicks)、アジア(SEA of Startups、Forbes India、韓国の스타인・와우레터、The New Playbook)。Apple Podcastsを国別(jp・kr・tw・cn・in・id・sg)に検索して選んだ。過去120日分(323本)を `pod_daily.py --days 120` で記録
+- `media_digest.py` の会社名リストに日本・アジアの名前を足した(手がかり用。足すだけ)
+- 確かめて足せたもの: movus technologies のシリーズB(出資1件、PR TIMESの会社リリースで確認)
+- **まだ見られないもの(環境の許可に無いホスト)**:
+  - ポッドキャスト: api.robotstart.jp(10分でわかるスタートアップ・資金調達ニュース)、hiromaeda.com(前田ヒロ)、www.radionikkei.jp(耳でわかるビジネステック)、rss.listen.style(Catalyst)、feed.pod.co(BRAVE Southeast Asia Tech)、feed.firstory.me(創創燒 TVCA ほか台湾)、feeds.captivate.fm(Prime Venture Partners)
+  - 決算資料(IR): www.jpx.co.jp、www.release.tdnet.info、disclosure2.edinet-fsa.go.jp、api.edinet-fsa.go.jp、www.hkexnews.hk、dart.fss.or.kr、mops.twse.com.tw、www.bseindia.com、www.sgx.com、group.softbank
+  - 記事: techinasia.com、e27.co、startup-db.com、entrackr.com
+  - 許可済みで使えるもの: prtimes.jp、thebridge.jp、dealstreetasia.com、kr-asia.com、inc42.com、nikkei.com
