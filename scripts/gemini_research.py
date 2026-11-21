@@ -650,6 +650,12 @@ def main():
         if res.get('saved'):
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
+        if not a.dry_run:
+            import gemini_verify  # 2026/11/21: 保留(出典を開けなかった)のものを、もう一度確かめる。今日の調査が取れなくてもやる
+            try:
+                gemini_verify.run_recheck()
+            except Exception as e:  # やり直しの失敗で、毎朝の調査を止めない
+                print('保留のやり直しをできませんでした:', e)
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):

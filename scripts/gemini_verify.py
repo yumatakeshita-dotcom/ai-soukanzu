@@ -23,6 +23,7 @@
   python3 scripts/gemini_verify.py inbox/gemini/2026-11-19.json [--no-net] [--dry-run]
     --no-net   … URLを開かない(全部「未確認」になる。試し用)
     --dry-run  … どこにも書かずに結果だけ表示する
+    --recheck  … 保留(開けなかった)のままの候補を、もう一度確かめる。最初の確かめから7日以内・4回まで。合格したものだけ inbox/ に足す(2026/11/21)
 """
 import argparse, datetime, glob, html, json, os, re, ssl, sys, unicodedata
 import urllib.request, urllib.error
@@ -601,12 +602,101 @@ def run(files, net=True, dry=False, log=print):
     return summary
 
 
+# ---------- 保留のやり直し(2026/11/21) ----------
+RECHECK_LOG = os.path.join(GDIR, 'recheck.jsonl')
+RECHECK_DAYS = 7    # 最初の確かめから、この日数までやり直す
+RECHECK_MAX = 4     # やり直す回数の上限(最初の確かめを含めない)
+
+
+def item_key(it):
+    return '|'.join(norm(it.get(k)) for k in ('会社名', '相手', '人物', '日付')) + '|' + str(it.get('Geminiが書いたURL') or it.get('出典URL') or '')
+
+
+def recheck_targets():
+    """保留のまま、まだやり直せるもの。(key, item, 最初の確かめの日, やり直した回数) の一覧。
+    すでに合格・除外になったものや、期限・回数を超えたものは入れない"""
+    st = {}
+    for f in sorted(glob.glob(os.path.join(GDIR, '*_verified*.json'))):
+        try:
+            d = json.load(open(f, encoding='utf-8'))
+        except ValueError:
+            continue
+        for r in d.get('results') or []:
+            it = r.get('item') or {}
+            e = st.setdefault(item_key(it), {'first': d.get('date'), 'n': 0, 'verdict': None, 'item': it})
+            e['verdict'] = r['verdict']
+            e['item'] = it
+    if os.path.exists(RECHECK_LOG):
+        for line in open(RECHECK_LOG, encoding='utf-8'):
+            try:
+                x = json.loads(line)
+            except ValueError:
+                continue
+            e = st.get(x['key'])
+            if e:
+                e['n'] += 1
+                e['verdict'] = x['verdict']
+    out = []
+    for k, e in st.items():
+        if e['verdict'] != '保留' or e['n'] >= RECHECK_MAX:
+            continue
+        fd = parse_date(e['first'])
+        if not fd or (today() - fd).days > RECHECK_DAYS:
+            continue
+        out.append((k, e['item'], e['first'], e['n']))
+    return out
+
+
+def run_recheck(net=True, dry=False, log=print):
+    """保留の候補を、もう一度確かめる。合格したものだけ、ふだんと同じ inbox/ に足す(足すだけ)"""
+    tg = recheck_targets()
+    if not tg:
+        log('やり直す保留はありません')
+        return []
+    raw, nrm = load_corpus()
+    res, keys = [], []
+    for k, it, first, n in tg:
+        # 最初に書かれたGeminiのURLが残っていれば、それから確かめ直す
+        base = dict(it, 出典URL=it.get('Geminiが書いたURL') or it.get('出典URL'))
+        base.pop('src', None)
+        r = verify_item(base, raw, nrm, net, [])
+        r['notes'].insert(0, f'保留のやり直し({n + 1}回目。最初の確かめ: {first})')
+        res.append(r)
+        keys.append(k)
+    md = to_md('保留のやり直し', res)
+    if dry:
+        log(md)
+        return res
+    pj = new_path(os.path.join(GDIR, f'{today()}_recheck_verified'), '.json')
+    json.dump({'date': str(today()), 'source': '保留のやり直し', 'results': res}, open(pj, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    open(pj[:-5] + '.md', 'w', encoding='utf-8').write(md)
+    with open(RECHECK_LOG, 'a', encoding='utf-8') as w:
+        for k, r in zip(keys, res):
+            w.write(json.dumps({'date': str(today()), 'key': k, 'verdict': r['verdict']}, ensure_ascii=False) + '\n')
+    by = {}
+    for r in res:
+        if r['verdict'] == '合格':
+            kk, row = to_inbox(r)
+            by.setdefault(kk, []).append(row)
+    for kk, rows in by.items():
+        p = new_path(os.path.join(ROOT, 'inbox', kk, f'{today()}-gemini-recheck'), '.json')
+        json.dump({'date': str(today()), 'kind': kk, 'items': rows, 'notes': '保留をやり直して、scripts/gemini_verify.py の確かめを通ったもの'},
+                  open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        log(f'やり直しで合格 {len(rows)}件 → {os.path.relpath(p, ROOT)}')
+    log(f'保留のやり直し: {len(res)}件 → 合格 {sum(r["verdict"]=="合格" for r in res)} / 保留 {sum(r["verdict"]=="保留" for r in res)} / 除外 {sum(r["verdict"]=="除外" for r in res)}')
+    return res
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('files', nargs='*')
     ap.add_argument('--no-net', action='store_true')
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--recheck', action='store_true', help='保留のままの候補を、もう一度確かめる(7日以内・4回まで)')
     a = ap.parse_args()
+    if a.recheck:
+        run_recheck(net=not a.no_net, dry=a.dry_run)
+        return
     files = [os.path.abspath(f) for f in a.files] or targets()
     run(files, net=not a.no_net, dry=a.dry_run)
 
