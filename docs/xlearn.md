@@ -7,3 +7,4 @@
   3. `python3 scripts/xlearn.py build` → `check` → commit・push
 - 共有リンクに出すときは `site/xlearn/index.html` を公開する(1枚で完結)
 - 定期タスク: 毎朝9:19(日本時間)「英語のAI新着・新モデルの日本語解説 毎日」(trig_01LX2MuZq99jhSirGcDdcg6w)。PRがmainに入るまでは動かず停止する
+- 許可がまだなくて読めない公式サイト(2026/11/21調べ。許可されたら sources.txt に足す): x.ai / docs.x.ai(xAI)、microsoft.ai、blogs.microsoft.com、www.apple.com / machinelearning.apple.com(Apple)、aws.amazon.com(Amazon Nova)、cohere.com、deepseek.com / api-docs.deepseek.com、moonshotai.github.io / kimi.com(Moonshot)、qwen.ai / qwenlm.github.io(Alibaba)、z.ai、stability.ai、databricks.com、openrouter.ai。許可が出るまでは、報道(techcrunch・venturebeat・siliconangle・theverge など許可済み)とXの本人投稿で確かめ、確かさは「報道」にする

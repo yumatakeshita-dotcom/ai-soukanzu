@@ -1,0 +1,70 @@
+{
+ "new": [
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/europe/",
+   "text": "Europe, Middle East and Africa"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+   "text": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/features/ai/how-a-new-ai-model-could-help-crushed-rock-fight-climate-change/",
+   "text": "How a new AI model could help crushed rock fight climate change"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/features/ai/a-former-marine-had-an-idea-to-help-fellow-veterans-ai-helped-him-build-it/",
+   "text": "A former Marine had an idea to help fellow veterans: AI helped him build it"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/tag/community-partnerships/",
+   "text": "Tag: Community partnerships"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/features/ai/local-know-how-helps-communities-make-the-most-of-new-technology-and-opportunities/",
+   "text": "Local know-how helps communities make the most of new technology and opportunities"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/emea/features/before-the-ambulance-arrives-how-ai-is-helping-the-nhs-rethink-patient-care/",
+   "text": "Before the ambulance arrives: How AI is helping the NHS rethink patient care"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/emea/features/a-concrete-vision-saint-gobain-and-microsoft-discovery-build-for-the-future/",
+   "text": "A concrete vision: Saint-Gobain and Microsoft Discovery build for the future"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/emea/features/missed-a-lecture-this-ai-agent-at-bar-ilan-university-helps-students-catch-up/",
+   "text": "Missed a lecture? This AI agent at Bar-Ilan University helps students catch up"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/maia-2026/",
+   "text": "Introducing Microsoft’s latest custom chip: Maia 300"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/features/ai/when-disaster-strikes-ai-helps-responders-reach-people-more-quickly/",
+   "text": "When disaster strikes, AI helps responders reach people more quickly"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/features/ai/retrochimera-new-research-advances-ai-assisted-molecule-synthesis/",
+   "text": "RetroChimera: New research advances AI-assisted molecule synthesis"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/canada/features/ai/kinaxis-supply-chain/",
+   "text": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty"
+  }
+ ],
+ "failed": []
+}

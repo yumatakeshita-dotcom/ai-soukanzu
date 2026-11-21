@@ -127,6 +127,30 @@
    ],
    "confidence": "公式",
    "checked": "2026-11-21"
+  },
+  {
+   "id": "2026-08-12-spacexai-grok-4-6",
+   "kind": "新モデル",
+   "company": "xAI(SpaceXAI)",
+   "date": "2026-08-12",
+   "title_en": "SpaceXAI releases flagship Grok 4.6 model with advanced reasoning capabilities (SiliconANGLE)",
+   "title_ja": "Grok 4.6 が登場(SpaceXAI=旧xAIの主力モデル。報道ベース)",
+   "translation_ja": "SiliconANGLEの報道より:「SpaceXAIは本日、大規模言語モデル Grok 4.6 を公開しました。同社は、一部の分野ではAnthropicの Claude Fable 5 を上回ると述べています。同社は先月までxAIという名前で、SpaceXによる買収に合わせて社名を変えました。Grok 4.6 は、前の主力モデルの公開から1か月後に出ました。主な改良点は、前のモデルより学習に時間をかけたことです。AIが作ったデータで推論力を高め、質の高い『エンジニアリングのデータ』も与えました。そのあと、教師あり微調整と強化学習の2段階を行っています。」",
+   "what_ja": "報道によれば、外部評価(Artificial Analysis 知能指数)で61点。OpenAIのGPT-5.6 Solと並び、Claude Fable 5の1点下です。高い水準の説明から試作品(ソフトのひな形)を作るのが得意で、画面などの見た目の部品づくりや、長い作業の途中で自分の誤りを確かめる動きも改善したとされます。数字や比較は、SpaceXAI自身の説明を報道が伝えたものです。公式サイト(x.ai)は読めないため、公式の確認はまだです。なお2026年8月の発表で、その後に新しい主力モデルが出ているかは未確認です。",
+   "howto": [
+    "報道によれば、Cursorと、SpaceXAI自作のプログラミング道具『Grok Build』で使える",
+    "標準版の料金は、報道によれば入力100万トークン2ドル・出力6ドル。2倍の料金の高速版もある",
+    "APIで使う場合の正確なモデル名・料金は、公式のリリースノート(docs.x.ai)で確認が必要(今は読めないため未確認)"
+   ],
+   "howto_note": "報道ベースのため、料金・提供範囲は公式で確かめてから使ってください。",
+   "sources": [
+    [
+     "SiliconANGLE(2026/8/12)",
+     "https://siliconangle.com/2026/08/12/spacexai-releases-flagship-grok-4-6-model-advanced-reasoning-capabilities/"
+    ]
+   ],
+   "confidence": "報道",
+   "checked": "2026-11-21"
   }
  ]
 }
