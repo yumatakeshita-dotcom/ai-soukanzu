@@ -18,6 +18,9 @@
 - 配信元ホストが環境の許可に無いと見られない(2026/11/21に5つを許可して、20番組すべて見られた。以前は 20VC・All-In・Dwarkesh・Latent Space・Odd Lots・Rebuild は2026/11/21時点で未許可。許可すれば自動で見られる): rss.libsyn.com, apple.dwarkesh-podcast.workers.dev, podcast.latent.space, www.omnycontent.com, feeds.rebuild.fm
 - 日本語のYouTubeは NewsPicks・ReHacQ・PIVOT・テレ東BIZ・日経・ソフトバンクグループを足した(計27)
 
+## 過去の動画をさかのぼる(2026/11/21追加)
+- 公式RSSは直近15本までなので、`python3 scripts/yt_backfill.py [--leads]` がチャンネルの「アップロード一覧」の公開ページから各チャンネル最新100本(動画ID・題名・おおよその古さ)を読み、`inbox/youtube/backfill/日付.json` に足す(足すだけ。取った動画は飛ばす)。2026/11/21の試運転で30/30チャンネル・2,885本。説明文は取らない(題名と会社名が手がかり。確かめは別の出典で)
+- `--leads` を付けると、移籍・出資の言葉と会社名がある題名だけ表示する
 ## 日本語・アジアの情報源を追加(2026/11/21)
 - ポッドキャスト16番組を `inbox/podcast_feeds.txt` に追加(計35)。日本のVC・スタートアップ(VIVA VC、XTech Ventures、スタートアップ投資TV、令和スタートアップ、Startup Now、川邊の会食、Off Topic、海外スタートアップレポート)、経済ニュース(日経ビジネス、NewsPicks)、アジア(SEA of Startups、Forbes India、韓国の스타인・와우레터、The New Playbook)。Apple Podcastsを国別(jp・kr・tw・cn・in・id・sg)に検索して選んだ。過去120日分(323本)を `pod_daily.py --days 120` で記録
 - `media_digest.py` の会社名リストに日本・アジアの名前を足した(手がかり用。足すだけ)
