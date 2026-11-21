@@ -635,12 +635,12 @@
       ],
       "when": "火・金 8:05(予定)",
       "outputs": [
-        "inbox/hiring/日付.json(新設)"
+        "inbox/moves/日付-hiring.json(人事責任者の就任など)"
       ],
       "limits": "Geminiは使わない(Claudeの検索で確かめる)。開けない採用ページは理由つきで記録して翌回また見る。画像は転載しない。",
       "tasks": [],
       "helpers": [],
-      "note": "まだ定期タスクは作っていない。作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。"
+      "note": "まだ定期タスクは作っていない。作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py hiring。足すだけ・2回目以降は足さない)。"
     },
     {
       "id": "jp_alliance",
@@ -662,7 +662,7 @@
       "limits": "Geminiは使わない(Gemini係の木曜テーマ「日本」と重ねない)。発表のページを開いて確かめたものだけ。",
       "tasks": [],
       "helpers": [],
-      "note": "まだ定期タスクは作っていない。出力先は既存の inbox/money なので、取り込み係の変更は要らない。"
+      "note": "まだ定期タスクは作っていない。出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。"
     },
     {
       "id": "jp_hr",
@@ -682,7 +682,7 @@
       "limits": "Geminiは使わない。本文で確かめられない名前・役職は足さない(開示係と同じ決まり)。",
       "tasks": [],
       "helpers": [],
-      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/moves。"
+      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/moves。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_hr。足すだけ・2回目以降は足さない)。"
     },
     {
       "id": "jp_funding",
@@ -703,7 +703,7 @@
       "limits": "Gemini係の木曜テーマ(日本)と重なったものは、取り込み側が重複を省く。Geminiは使わない。",
       "tasks": [],
       "helpers": [],
-      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/money。"
+      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/money。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_funding。足すだけ・2回目以降は足さない)。"
     },
     {
       "id": "datacenter",
@@ -724,7 +724,7 @@
       "limits": "Geminiは使わない。契約の上限額は「上限」と書く。",
       "tasks": [],
       "helpers": [],
-      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/money。"
+      "note": "定期タスクはまだ作っていない。出力先は既存の inbox/money。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py datacenter。足すだけ・2回目以降は足さない)。"
     },
     {
       "id": "column",
