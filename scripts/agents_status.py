@@ -10,7 +10,7 @@ site/agents/status.json に書く。一覧ページ(site/agents/index.html)が�
 使い方: python3 scripts/agents_status.py            # status.json を作り直して表示
         python3 scripts/agents_status.py --now 2026-11-22T10:30  # 日本時間の時刻を決めて試す
 """
-import argparse, datetime, fnmatch, glob, json, os, re, sys
+import argparse, datetime, fnmatch, glob, json, os, re, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -42,9 +42,12 @@ FILES = {
     'column': [dict(f='newsletter/column/{d}.md', days=(6,), hm=(20, 0), since=NEW6, t='解説まとめ')],
 }
 # 記録がリポジトリに残らない係(動いたかは見張り役・各サービス側で確かめる)
+# 日付つきのファイルを作らない係は、そのファイルを最後に commit した日(git)で見る(2026/11/22追加)
+GIT = {
+    'x': dict(f='inbox/x_accounts.txt', hm=(7, 7), t='Xアカウントの追加'),
+    'xlearn': dict(f='inbox/xlearn/items.json', hm=(9, 19), t='新モデル解説の追記'),
+}
 NA = {
-    'x': '記録がリポジトリに残らない(アカウント追加と印の追記だけ)。見張り役では見られない',
-    'xlearn': '自分専用ページの更新で、日付つきの記録が無い',
     'publish': '公開(9:41)はリポジトリに記録が残らない。公開ページの LAST_CHECK で確かめる',
     'kigyo': 'Cloudflare 側の作業で、リポジトリに記録が残らない(inbox/watchdog/kigyo-日付.md は見張りの記録)',
 }
@@ -120,6 +123,17 @@ def evaluate(now):
             out[aid] = st('pre', '作る前', f'{NEW6} から見る')
         else:
             out[aid] = st('off', '今日は予定なし', '曜日の予定に入っていない')
+    for aid, c in GIT.items():
+        if not due(c['hm']):
+            out[aid] = st('wait', 'まだ時刻前', f'{c["hm"][0]}:{c["hm"][1]:02d}の予定')
+            continue
+        r = subprocess.run(['git', 'log', '-1', '--format=%cI', '--', c['f']], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        try:
+            last = datetime.datetime.fromisoformat(r).astimezone(JST).date().isoformat()
+        except ValueError:
+            out[aid] = st('na', '見られない', f'{c["f"]} の commit の日付を取れない')
+            continue
+        out[aid] = st('ok', '動いた', f'{c["f"]} を今日 commit した') if last == d else st('ng', '記録なし', f'{c["f"]} の最後の commit は {last}')
     for aid, why in NA.items():
         out[aid] = st('na', '見られない', why)
     return out

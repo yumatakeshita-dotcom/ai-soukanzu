@@ -172,6 +172,17 @@ def evaluate(now):
     return rows
 
 
+def stopped_agents(now):
+    """一覧の「記録なし」の係を、名前つきで『注意』に足す(2026/11/22追加)。失敗しても見張りは止めない"""
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import agents_status
+        names = {a['id']: a['name'] for a in json.load(open(os.path.join(ROOT, 'docs', 'agents.json'), encoding='utf-8'))['agents']}
+        return [('注意', f'係: {names.get(k, k)}', '今日の記録なし。' + v['detail']) for k, v in agents_status.evaluate(now).items() if v['state'] == 'ng']
+    except Exception:
+        return []
+
+
 def to_md(now, rows):
     prob = [r for r in rows if r[0] == '問題']
     warn = [r for r in rows if r[0] == '注意']
@@ -199,6 +210,7 @@ def main():
     now = datetime.datetime.fromisoformat(a.now).replace(tzinfo=JST) if a.now else datetime.datetime.now(JST)
     run(['git', 'fetch', '-q', 'origin', 'main'])
     rows = evaluate(now)
+    rows += stopped_agents(now)
     md = to_md(now, rows)
     print(md)
     if not a.no_write:
