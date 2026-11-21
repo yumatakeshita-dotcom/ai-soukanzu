@@ -11,3 +11,17 @@ Mistral | https://mistral.ai/news/
 Google | https://blog.google/innovation-and-ai/models-and-research/gemini-models/rss/
 Perplexity | https://www.perplexity.ai/hub/blog
 Microsoft | https://news.microsoft.com/source/topics/ai/
+xAI | https://docs.x.ai/release-notes
+DeepSeek | https://api-docs.deepseek.com/updates
+Microsoft AI | https://microsoft.ai/news/
+Apple | https://machinelearning.apple.com/
+Apple | https://www.apple.com/newsroom/
+Amazon | https://aws.amazon.com/blogs/aws/
+Cohere | https://cohere.com/blog
+Alibaba Qwen | https://qwen.ai/blog
+Alibaba Qwen | https://qwenlm.github.io/blog/
+Moonshot | https://www.kimi.com/
+Stability AI | https://stability.ai/news
+Databricks | https://www.databricks.com/blog
+OpenRouter | https://openrouter.ai/announcements
+# 読めない: x.ai/news(403)、z.ai/blog(404=パス違い。正しいパスがわかれば足す)
