@@ -169,7 +169,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button><button type="button" data-h="agents">調査エージェント</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -38948,6 +38948,7 @@ function showHome(){
     ['extl','幹部の入れ替わり年表','OpenAI・Anthropic・xAI・Google DeepMindの経営陣の入社・退社を、時系列で。出典つき'],
     ['cf','確かさの一覧','各社の数字のうち、公式発表・開示書類で確かめた割合'],
     ['xlearn','AIの新着解説','英語で流れるAI会社の新モデル・新機能を、日本語訳・解説・試し方つきで(別ページで開く)'],
+    ['agents','調査エージェント','毎日の調べ物を分野ごとの「係」に分けた一覧。担当・情報源・動く時間・出力先・上限(別ページで開く)'],
     ['finds','調査の新着',`${typeof FINDS!=='undefined'?FINDS.length:0}件。毎朝の調査で見つけた移籍・出資・ファンドの候補`],
     ['su','スタートアップ一覧',`${YCS.length.toLocaleString()}社(Y Combinator出身)`],
     ['jpsu','日本のスタートアップ',`${JPSU.length}社(東証グロース上場と未上場)`],
@@ -38965,7 +38966,7 @@ function showHome(){
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
-  const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
+  const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),agents:()=>openAgents(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
   FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
@@ -38975,6 +38976,8 @@ function showHome(){
 /* VCNEWS は data/vcnews.js に分けた */
 /* AIの新着解説(2026/11/21追加): 別ページ site/xlearn/index.html を開く。ページは scripts/xlearn.py が作る */
 function openXlearn(){window.open('xlearn/index.html','_blank','noopener')}
+/* 調査エージェント一覧(2026/11/21追加): 別ページ site/agents/index.html を開く。ページは scripts/agents_build.py が docs/agents.json から作る */
+function openAgents(){window.open('agents/index.html','_blank','noopener')}
 const vcState={q:'',reg:'',kind:'',lim:100};
 const nz=s=>norm(String(s||'').replace(/\b(inc|corp|co|ltd|llc|ai|labs|technologies|holdings)\b\.?/gi,''));
 let VCIDX=null;
@@ -39286,7 +39289,7 @@ function vcBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';const r=vcsOf(
   return (n||out.length)?`<div class="links"><a href="#" id="govc"><b>${nm}の投資・出資の記録を見る ▸</b></a><small style="display:block;color:var(--muted)">${n?`投資したVC・投資家 ${r.vcs.length}社${r.news.length?`+ニュース${r.news.length}件`:''}`:''}${n&&out.length?' / ':''}${out.length?`出資している会社 ${out.length}社`:''}</small></div>`:''}
 function wireVc(){const g=document.getElementById('govc');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showOrg(COMPANIES[comp].name,'',()=>build(comp))})}
 /* 上のメインメニュー: いま見ている画面を色で示し、会社の選択欄(長い一覧)は相関図を見ているときだけ出す */
-const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),common:()=>showCommon(),invest:()=>showInvest(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn()};
+const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),common:()=>showCommon(),invest:()=>showInvest(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),agents:()=>openAgents()};
 function navSync(){
   let cur='company';
   if(!MAINEL.hidden||!PROFEL.hidden)cur='company';

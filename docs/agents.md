@@ -1,0 +1,329 @@
+# 調査エージェント一覧
+
+(元データ: `docs/agents.json`。`python3 scripts/agents_build.py` で作り直す。更新 2026-11-21)
+
+調べる係(エージェント)が分野ごとに inbox/ へ候補を足し、取り込み係が朝9:13にサイトへ足す、という分け方です。
+時刻は日本時間。定期タスクの実際の名前・時間は claude.ai の定期タスクが正です。
+
+## 決まり
+
+- 調べる係(エージェント)は、見つけたものを inbox/ に「足すだけ」で保存する。サイト(site/)には直接書かない。消さない・上書きしない。
+- サイトに足すのは朝9:13の「取り込み係」の1本だけ(merge_inbox.py)。例外は、自分専用のページを持つ係(新モデル解説の site/xlearn/ と、確かさの印)だけ。
+- Gemini は「探し役」。出典URLは作り話が多いので、Claude が元ページを開いて確かめたものだけを入れる。Geminiの呼び出しは全部の係で1日18回まで(inbox/gemini/limits.json)。
+- 事実には出典URLと確かさ(公式・開示・本人の発言・報道・推定)を付ける。うわさは入れない。顔写真・画像は転載しない(リンクと説明だけ)。
+- スポーツ・Volters のスポンサー資料は扱わない。
+
+## 調べる係
+
+### 人材係
+
+AI企業・半導体企業の人の動き(移籍・就任・退任・引き抜き)を見張る
+
+- 担当範囲: OpenAI・Anthropic・xAI・Meta・Google DeepMind・Nvidia・TSMC など主要企業の、経営陣・主要研究者・エンジニアの移籍。過去分は月ごとに 2023-01 までさかのぼる。
+- 情報源: 公式発表・信頼できる報道(techcrunch は本文を読める) / 本人のX・LinkedIn・YouTube(本人の投稿があれば「本人」の印) / Xの見るアカウント(inbox/x_accounts.txt の moves)
+- 動く時間: 毎日 7:29
+- 出力先: `inbox/moves/日付.json`、`inbox/moves/backfill.txt(さかのぼりの進み具合)`
+- 上限・決まり: さかのぼりは1回1か月。Geminiは使わない(Gemini係が別に探す)。
+- 定期タスク: 調査: 引き抜き(人の移籍) v5(適時開示IRつき)(毎日 7:29、`trig_01E5NW3DMcpkYnMUAoyMeGWc`)
+- 道具: scripts/x_from_news.py、scripts/x_check.py、scripts/yt_fetch.py
+- 補足: いまは開示係(IR)と動画・音声係の手順も同じ1本のタスクの中にある。分ける案は「変更案」を参照。
+
+### お金係
+
+AI企業への出資・買収・報酬・共同創業など、お金の流れを調べる
+
+- 担当範囲: 大型の資金調達、買収、創業者の出資。YouTube(AI at Meta・Colin and Samir・Cheeky Pint・Y Combinator)の発言も出典にする。
+- 情報源: 報道(記事の本文で金額と日付を確かめる) / YouTubeの字幕・説明文(取れなければ書き起こし・紹介記事) / Xの見るアカウント(money)
+- 動く時間: 月曜・木曜 7:52
+- 出力先: `inbox/money/日付.json`、`inbox/money/seen_videos.txt・yt_retry.txt`
+- 上限・決まり: 過去の動画はチャンネルごとに1回5本まで。字幕は断られたら60秒・3分・10分待ってやり直す。
+- 定期タスク: 調査: お金の流れ(YouTube・X・海外を翻訳) v4(月・木 7:52、`trig_017GV1aGf5yoaC2bPcPcEz94`)
+- 道具: scripts/yt_fetch.py、scripts/x_from_news.py
+
+### ファンド係
+
+VCの新ファンドと、LP(年金・大学基金・事業会社など)の出資を調べる
+
+- 担当範囲: a16z・Sequoia・ソフトバンク・ビジョン・ファンド・JAFCO・WiL など。日本のVCとLPも含む。月ごとに 2023-01 までさかのぼる。
+- 情報源: VC・スタートアップの公式サイト / SECのForm D・年金基金の公開資料 / 報道・PR TIMES・Business Wire / Xの見るアカウント(vc)
+- 動く時間: 火曜 7:48
+- 出力先: `inbox/vc/日付.json`、`inbox/vc/backfill.txt`
+- 上限・決まり: さかのぼりは1回1か月。
+- 定期タスク: 調査: LP・VC資金(X・公式サイトも) v4(火 7:48、`trig_01EhwJdxzL2c2fLtBwLTc8Dy`)
+- 道具: scripts/x_from_news.py
+
+### 開示係(IR・決算・SEC)
+
+会社が出した「公式の書類」から、出資・買収・役員人事・契約を拾う
+
+- 担当範囲: 日本(TDnet)・香港(HKEX)・シンガポール(SGX。いまは取引所側が断るため読めない)の適時開示と、米国SEC(SpaceX・Anthropic・Perplexity・Nvidia・Microsoft など)。計算資源の契約まとめ(1枚資料)も更新する。
+- 情報源: TDnet・HKEX・SGX / SEC EDGAR(環境変数 SEC_UA が必要) / 決算資料・上場の届け出(S-1・424B4)
+- 動く時間: 毎日 7:29(IRの部分)/ 火曜 10:19 SEC / 火曜 10:53 計算資源の1枚資料
+- 出力先: `inbox/ir/日付.json`、`inbox/disclosures/日付.json`、`inbox/money/日付-ir.json`、`inbox/moves/日付-ir.json`、`docs/compute_deals_2026-11.html`
+- 上限・決まり: PDFを実際に開いて確かめたものだけ足す。名前や役職が本文で確かめられないものは足さない。
+- 定期タスク: 調査: 引き抜き v5 の中の手順0b(IR)(毎日 7:29(人材係と同居)、`trig_01E5NW3DMcpkYnMUAoyMeGWc`)、開示ウォッチ(SEC) 毎週(火 10:19、`trig_01PmyNoQcJrBh8cnHzpWq2CF`)、計算資源の1枚資料を更新 毎週(火 10:53、`trig_01WMjzgVZYKv6e1NK8896umN`)
+- 道具: scripts/ir_watch.py、scripts/sec_watch.py、scripts/compute_brief.py
+- 補足: docs/ir_watch.md に詳しい手順。
+
+### 動画・音声係
+
+YouTubeとポッドキャストの新着から、移籍・出資の手がかりを集める
+
+- 担当範囲: YouTube 30チャンネル(AI at Meta・20VC・All-In・a16z・Sequoia・日本語の NewsPicks・PIVOT など)と、ポッドキャスト42番組。過去の動画・番組の手がかりも毎日10件まで確かめる。
+- 情報源: YouTubeの公式RSS(字幕はロボット確認で断られやすい) / ポッドキャストの公開RSS(Spotifyには無いので同じ番組のRSS)
+- 動く時間: 毎朝(人材係・お金係の実行時に一緒に動く)/ 毎日 10:07 過去の手がかりの確かめ
+- 出力先: `inbox/youtube/日付.json`、`inbox/podcasts/日付.json`、`inbox/media/日付.md(手がかり)`、`inbox/backlog/`
+- 上限・決まり: 手がかりは「確かめ前」。出典を開いて確かめてから inbox/moves・money に足す。10:07の確かめは軽いモデル(Haiku)で動かしてよい。
+- 定期タスク: 過去の動画・番組の手がかりを確かめる 毎日(毎日 10:07、`trig_015icKBYsv61mhiq414U9eUU`)
+- 道具: scripts/yt_daily.py、scripts/pod_daily.py、scripts/media_digest.py、scripts/media_backlog.py、scripts/yt_fetch.py
+- 補足: docs/youtube_daily.md・docs/backlog_check.md に詳しい手順。見るチャンネル・番組の一覧は inbox/youtube_channels.txt・inbox/podcast_feeds.txt。
+
+### X係
+
+見るXアカウントを毎日10個ずつ増やし、報道から投稿をたどって本人の発言を確かめる
+
+- 担当範囲: inbox/x_accounts.txt(いま119アカウント)。ログインが要る検索・タイムラインは見ない。投稿のURLを報道から拾い、X公式の埋め込みで投稿者・日付・本文を確かめる。
+- 情報源: x.com のプロフィール・投稿(scripts/x_check.py) / 報道に載ったXの投稿(scripts/x_from_news.py)
+- 動く時間: 毎日 7:07(アカウントを足す)/ 毎日 9:25(本人のXで確かめた移籍に「本人」の印)
+- 出力先: `inbox/x_accounts.txt(足すだけ)`、site/index.html の XV_DS・XV_PPL の目印の間(印。足すだけ)
+- 上限・決まり: 1日10個まで。自己紹介が合わない・別人・なりすましは入れない。
+- 定期タスク: 調査: 見るべきXアカウントを毎日10個追加 v2(Xで直接確認)(毎日 7:07、`trig_01MfEQuZiCxMLn85QStG8GVV`)、本人のXで確かめた移籍に印を足す 毎日(毎日 9:25、`trig_01Dh8bo3v4hkqwLeVixtpyWy`)
+- 道具: scripts/x_check.py、scripts/x_from_news.py、scripts/moves_x_apply.py
+- 補足: 9:25の印は site/index.html を直接足す(取り込み係の9:13のあと)。確かな版の割合に数えられる。
+
+### 新モデル解説係
+
+英語で流れるAIの新モデル・新機能を、公式ページで確かめて日本語で解説する
+
+- 担当範囲: OpenAI・Anthropic・Google・Meta・xAI・Z.ai など。日本語訳・何が変わったか・試し方(出典に書いてある範囲だけ)。許可がなく読めない公式サイトは報道とXの本人投稿で確かめ、確かさは「報道」にする。
+- 情報源: 各社の公式ニュース(inbox/xlearn/sources.txt) / Xの本人投稿 / 報道(techcrunch・venturebeat など)
+- 動く時間: 毎日 9:19
+- 出力先: `inbox/xlearn/items.json(足すだけ)`、`site/xlearn/index.html(自分専用のページ)`
+- 上限・決まり: Geminiは候補探しに1日1回まで。新しい項目を足したら共有リンクにも公開する。
+- 定期タスク: 英語のAI新着・新モデルの日本語解説 毎日 v2(毎日 9:19、`trig_017MDcgGenF3SV329FyWt8dg`)
+- 道具: scripts/xlearn.py
+- 補足: メニュー「AIの新着解説」から開く。docs/xlearn.md。
+
+### 世界・アジア係
+
+まだ薄い地域(中国・韓国・欧州・アジア太平洋)の会社と人の動きを増やす
+
+- 担当範囲: 水曜: 各国の会社登記データ(台湾・オーストラリア・シンガポールなど)の更新と、次に増やせる国。土曜: 中国・韓国・欧州のAI企業の移籍・資金調達・新しい会社(月ごとに 2024-01 までさかのぼる)。
+- 情報源: 各国の政府オープンデータ / 現地の報道(36Kr・SCMP・聯合ニュース・The Elec・Sifted・Tech.eu など)
+- 動く時間: 水曜 7:44 / 土曜 7:38
+- 出力先: `inbox/world/日付.json`、inbox/moves・money・deep の 日付_thin.json、`inbox/thin/backfill.txt`
+- 上限・決まり: 確かめられなかった会社は名前だけ notes に書く。Cloudflare・D1には書かない。
+- 定期タスク: 調査: 世界企業抽出(データ元の更新と次の国)(水 7:44、`trig_01VpCoAphFginv19u6ZxJdau`)、調査: まだ薄いところ(中国・韓国・欧州) v1(土 7:38、`trig_01WSpxjHnNRCYxWWwV9sNujn`)
+
+### 深堀り係
+
+まだ詳しく載っていない会社を選び、その会社の相関図の元(創業者・出資者・取引先・移ってきた人)を作る
+
+- 担当範囲: 直近7日の移籍・お金・VCの調査に出てきた会社のうち、相関図にほとんど無い会社を最大3社。inbox/deep/requests.txt に書いた会社を最優先。
+- 情報源: 会社の公式サイト(About・Team・ニュース) / 報道・本人のX
+- 動く時間: 金曜 7:41
+- 出力先: `inbox/deep/日付.json`
+- 上限・決まり: 1回3社まで。過去に書いた会社は選ばない。
+- 定期タスク: 調査: 深堀り部屋(会社の相関図の候補) v3(金 7:41、`trig_01FhtMQdnwVmKHcqseNmsnEe`)
+- 道具: scripts/x_from_news.py
+
+### おもしろ情報係(装い・愛読書・社名の由来)
+
+人物・会社の公に語られた小ネタを、曜日ごとの欄で1日5件まで集める
+
+- 担当範囲: 月=愛用品・服装(装い)/ 火=本・映画 / 水=社名の由来 / 木=朝の習慣 / 金=失敗談・名言 / 土=社名 / 日=本。健康・家族・資産の細かい話やうわさ、写真・ロゴの転載は入れない。
+- 情報源: Wikipedia・SEC書類・各社のブログ・本人のX / 報道(複数の大手に載っているもの)
+- 動く時間: 毎日 8:53
+- 出力先: `inbox/fun/日付.json`
+- 上限・決まり: Geminiは1日1回まで。名言は原文が開けたものだけ一字一句同じに。
+- 定期タスク: 調査: おもしろ情報(日替わりの欄) 毎日(毎日 8:53、`trig_0128tJHLZLo2HP1nUykaW2YR`)
+- 道具: scripts/fun_merge.py(まだ main に無い)、docs/fun_research.md(まだ main に無い)
+- 補足: 手順の docs/fun_research.md と scripts/fun_merge.py は、まだ main に入っていない枝(claude/project-thread-hf59zy)にある。タスクは毎回そこから取り出して使っている。main に入れると安定する。
+
+### Gemini係(探し役)
+
+Gemini+Google検索で新しいつながりを探し、機械で出典を確かめて、合格したものだけ候補にする
+
+- 担当範囲: 曜日ごとのテーマ(月=資金調達・買収、火=移籍、水=計算資源、木=日本、金=買収・新会社、土=アジア、日=VC)。宿題リスト(inbox/queue.json)の先頭を1件ずつ調べる。重要度ランキングの上位25社も宿題に足す。
+- 情報源: Gemini API(検索つき) / scripts/gemini_verify.py(出典URLを実際に開く・重なり・日付・確かさ)
+- 動く時間: 毎日 8:23 /(枠切れ分のやり直し 7:17)/ 履歴ページ更新 8:41
+- 出力先: `inbox/gemini/日付.json・日付_verified.json`、`inbox/money/日付-gemini.json・inbox/moves/日付-gemini.json(合格分だけ)`、`inbox/gemini/history.html・README.md`、`inbox/queue.json・inbox/ranking/`
+- 上限・決まり: Geminiの呼び出しは全係あわせて1日18回まで(上限に達したら止まり、翌朝やり直す)。キーは環境変数 GEMINI_API_KEY(表示しない)。
+- 定期タスク: 調査: Gemini調査(確かめつき) 毎日(毎日 8:23、`trig_01BCmv9iBdku8w6qVtRu8gsD`)、Geminiの枠切れ分をやり直す 毎朝(毎日 7:17、`trig_01QSGNZ7pGpZVk94kvMUWmcv`)、Gemini調査の履歴ページを更新 毎日(毎日 8:41、`trig_01Jy4phGSDzRsXuj36NWFVJ1`)
+- 道具: scripts/gemini_research.py、scripts/gemini_verify.py、scripts/gemini_history.py、scripts/research_queue.py、scripts/importance_rank.py
+- 補足: docs/gemini_research.md。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない。
+
+
+## 運営係
+
+### 取り込み係
+
+各係が inbox/ に置いた候補を、サイトに足す(足すのはこの係だけ)
+
+- 担当範囲: merge_inbox.py で「調査の新着」(site/data/finds.js)に足し、ニュースの見出し(relnews.js)も更新して共有リンクに出す。そのあと Googleニュースの転送リンクを元記事のURLに直す。
+- 情報源: inbox/ の全部
+- 動く時間: 毎日 9:13 / 9:47 リンク直し
+- 出力先: `site/data/finds.js`、`site/data/relnews.js`、`site/gnews.json`
+- 上限・決まり: 足すだけ・重複なし・出典のないものは足さない。
+- 定期タスク: 調査の新着とニュースをサイトに追加 毎日(v2)(毎日 9:13、`trig_01KpG31FmjBt76XH4qCRccGt`)、ニュースのリンクを元記事に直す 毎日(毎日 9:47、`trig_01XvLjpWiiGS8egcoVT9PaKQ`)
+- 道具: scripts/merge_inbox.py、scripts/fetch_relnews.py、scripts/fix_gnews_links.py
+
+### 本体更新係
+
+毎朝、直近48時間のニュースで本体の相関図(最近の変化・計算資源の取引)を更新する
+
+- 担当範囲: OpenAI・Anthropic・xAI・Meta・Microsoft・Google・Nvidia・ソフトバンク・TSMC・JASM など。LAST_CHECK を今日にして共有リンクに公開する。
+- 情報源: 公式発表・信頼できる報道
+- 動く時間: 毎日 6:43
+- 出力先: site/index.html の UPDATES
+- 上限・決まり: 既存データは消さない。デザイン・構造は変えない。
+- 定期タスク: AI企業の相関図 毎日更新(プロジェクト版)(毎日 6:43、`trig_01PPxjQRpdSsUYFn2Mq51JLG`)
+- 道具: scripts/check.js
+
+### 公開係
+
+相関図サイトを Cloudflare(kigyo-relmap)に公開し、公開後に確かめる
+
+- 担当範囲: kigyo-relmap だけ。kigyo-asiapac・kigyo-europe・kigyo-hito-tsunagari は公開しない。
+- 情報源: main の site/
+- 動く時間: 毎日 9:41
+- 出力先: 公開サイト(ファイルは変えない)
+- 上限・決まり: commit も push もしない。
+- 定期タスク: 相関図サイトの公開(Cloudflare kigyo-relmap)(毎日 9:41、`trig_018upkuCbCX3x4QYh4WAfoaL`)
+- 道具: tools/cloudflare/relmap/publish.sh
+
+### 確かさ係
+
+報道だけの数字を、公式発表・開示書類で確かめ直す
+
+- 担当範囲: 確かな版の割合が低い会社から、毎週5件ずつ。確かめた出典は DS に足し、印を上げる。
+- 情報源: 公式発表・SEC・EDINET・HKEX
+- 動く時間: 日曜 10:23
+- 出力先: site/index.html の確かめ直しの DS、`inbox/verify/日付.json`、`site/data/cfhist.js`
+- 上限・決まり: 毎週5件(15件調べたら終わる)。数字が違うときは書き換えず、確かめた数字を書き足す。
+- 定期タスク: 報道だけの数字を確かめ直す 毎週(日 10:23、`trig_016KAHRPKkwRqqNyffSrHizY`)
+- 道具: scripts/cf_rank.js
+
+### 週刊編集係
+
+前の週の「AIのお金と人の動き」をニュースレターにまとめる
+
+- 担当範囲: inbox/ と UPDATES から作る。外部サービスへの投稿・メール送信はしない。
+- 情報源: inbox/ と UPDATES
+- 動く時間: 月曜 9:37
+- 出力先: `newsletter/`、`site/weekly/index.html`
+- 上限・決まり: 過去の号は書き換えない。
+- 定期タスク: 週のまとめ 毎週月曜(月 9:37、`trig_01AnpBjsz5emziDRdF3hxdGE`)
+- 道具: scripts/weekly.py
+
+### 企業検索係
+
+企業検索サイト(台湾・オーストラリア・シンガポール)と人物データを保つ
+
+- 担当範囲: 人の移籍を Cloudflare D1 の人物データに足す(足すだけ)。シンガポールは毎月20日に新しい版。毎日、社数と応答を見張る。
+- 情報源: inbox/moves/ / ACRA(data.gov.sg)
+- 動く時間: 毎日 9:57 人物 / 毎日 11:17 見張り / 毎月20日 10:17
+- 出力先: Cloudflare D1(足すだけ)、`inbox/watchdog/kigyo-日付.md`
+- 上限・決まり: kigyo-asiapac・kigyo-europe・kigyo-hito-tsunagari は公開しない。D1は DELETE・UPDATE・REPLACE をしない。
+- 定期タスク: 人物を企業検索に足す(Cloudflare D1 houjin) v2(毎日 9:57、`trig_011ahHJHoG8gNGqDtXqni3yd`)、企業検索サイトの見張り 毎日(毎日 11:17、`trig_01X6G3iE2iQ7ApMgfp74Ahh6`)、シンガポールの会社 毎月更新(毎月20日 10:17、`trig_01BXpEQLNMagj7MC5kaBXrAv`)
+- 道具: tools/cloudflare/d1_add.py、tools/cloudflare/kigyo_health.py
+
+### 見張り番
+
+毎朝の自動作業が止まっていないか、記録だけから確かめる
+
+- 担当範囲: その時刻に出るはずの記録(inbox/ のファイル・LAST_CHECK・Geminiの枠切れ)があるかを見て、問題・注意を知らせる。月曜は定期タスクの使用量の目安をまとめる。
+- 情報源: リポジトリの記録
+- 動く時間: 毎日 10:31 / 月曜 10:51 使用量
+- 出力先: `inbox/watchdog/日付.md`、`inbox/usage/日付.md`
+- 上限・決まり: 軽い確認。Haiku で動かしてよい。他のタスクは実行・変更しない。
+- 定期タスク: 見張り役: 毎朝の自動作業が止まっていないか 毎日(毎日 10:31、`trig_01VHEGy98XEzS4DmncbxnqxS`)、定期タスクの使用量まとめ 毎週月曜(月 10:51、`trig_01Aw6q7atsUnkJkSk1R83JpH`)
+- 道具: scripts/watchdog.py、scripts/usage_report.py(枝から取り出して使う)
+
+## 1日の流れ(日本時間)
+
+| 時刻 | 曜日 | 係 | タスク |
+|---|---|---|---|
+| 6:43 | 毎日 | 本体更新係 | AI企業の相関図 毎日更新(プロジェクト版) |
+| 7:07 | 毎日 | X係 | 調査: 見るべきXアカウントを毎日10個追加 v2(Xで直接確認) |
+| 7:17 | 毎日 | Gemini係(探し役) | Geminiの枠切れ分をやり直す 毎朝 |
+| 7:29 | 毎日 | 人材係 | 調査: 引き抜き(人の移籍) v5(適時開示IRつき) |
+| 7:29 | 毎日 | 開示係(IR・決算・SEC) | 調査: 引き抜き v5 の中の手順0b(IR) |
+| 7:38 | 土 | 世界・アジア係 | 調査: まだ薄いところ(中国・韓国・欧州) v1 |
+| 7:41 | 金 | 深堀り係 | 調査: 深堀り部屋(会社の相関図の候補) v3 |
+| 7:44 | 水 | 世界・アジア係 | 調査: 世界企業抽出(データ元の更新と次の国) |
+| 7:48 | 火 | ファンド係 | 調査: LP・VC資金(X・公式サイトも) v4 |
+| 7:52 | 月・木 | お金係 | 調査: お金の流れ(YouTube・X・海外を翻訳) v4 |
+| 8:23 | 毎日 | Gemini係(探し役) | 調査: Gemini調査(確かめつき) 毎日 |
+| 8:41 | 毎日 | Gemini係(探し役) | Gemini調査の履歴ページを更新 毎日 |
+| 8:53 | 毎日 | おもしろ情報係(装い・愛読書・社名の由来) | 調査: おもしろ情報(日替わりの欄) 毎日 |
+| 9:13 | 毎日 | 取り込み係 | 調査の新着とニュースをサイトに追加 毎日(v2) |
+| 9:19 | 毎日 | 新モデル解説係 | 英語のAI新着・新モデルの日本語解説 毎日 v2 |
+| 9:25 | 毎日 | X係 | 本人のXで確かめた移籍に印を足す 毎日 |
+| 9:37 | 月 | 週刊編集係 | 週のまとめ 毎週月曜 |
+| 9:41 | 毎日 | 公開係 | 相関図サイトの公開(Cloudflare kigyo-relmap) |
+| 9:47 | 毎日 | 取り込み係 | ニュースのリンクを元記事に直す 毎日 |
+| 9:57 | 毎日 | 企業検索係 | 人物を企業検索に足す(Cloudflare D1 houjin) v2 |
+| 10:07 | 毎日 | 動画・音声係 | 過去の動画・番組の手がかりを確かめる 毎日 |
+| 10:17 | 毎月20日 | 企業検索係 | シンガポールの会社 毎月更新 |
+| 10:19 | 火 | 開示係(IR・決算・SEC) | 開示ウォッチ(SEC) 毎週 |
+| 10:23 | 日 | 確かさ係 | 報道だけの数字を確かめ直す 毎週 |
+| 10:31 | 毎日 | 見張り番 | 見張り役: 毎朝の自動作業が止まっていないか 毎日 |
+| 10:51 | 月 | 見張り番 | 定期タスクの使用量まとめ 毎週月曜 |
+| 10:53 | 火 | 開示係(IR・決算・SEC) | 計算資源の1枚資料を更新 毎週 |
+| 11:17 | 毎日 | 企業検索係 | 企業検索サイトの見張り 毎日 |
+
+## Geminiの1日の割り当て(案。上限は全部で18回)
+
+| 使い道 | 回数 | 備考 |
+|---|---|---|
+| Gemini係の朝の調査(8:23) | 6回 | テーマ1つ+確かめ直し。失敗のやり直しも数える |
+| 宿題リストの先頭1件(8:23の中) | 4回 | 薄いところ・重要度の上位から |
+| 枠切れ分のやり直し(7:17) | 3回 | 前日に後回しにしたテーマだけ |
+| 新モデル解説係の候補探し(9:19) | 1回 |  |
+| おもしろ情報係(8:53) | 1回 | 枠切れなら Web 検索だけで3件まで |
+| 予備 | 3回 | 手動の試し・ほかの係の追加調査 |
+
+合計18回。この割り当ては案で、コードの上限(inbox/gemini/limits.json の 18)は変えていない。依頼文では「19回まで」とあったが、無料枠が検索つきで1日20回前後なので、いまの18のままにしてある(変えるなら limits.json の1か所)。
+
+## 変更案(まだ実施していません)
+
+### 1. タスク名の頭に係の名前を付ける
+
+いまのタスク名は「調査: ○○ v4」のようにばらばら。「【人材係】引き抜き 毎日」のように係の名前を頭に付けると、claude.ai の定期タスクの一覧でも係ごとに並ぶ。動いているものを壊さないよう、まだ付け替えていない。付け替えるときは名前だけ(時間・手順は変えない)。
+
+| いまの名前 | 案 |
+|---|---|
+| 調査: 引き抜き(人の移籍) v5(適時開示IRつき) | 【人材係】引き抜き+IR 毎日 |
+| 調査: お金の流れ … v4 | 【お金係】お金の流れ 月・木 |
+| 調査: LP・VC資金 … v4 | 【ファンド係】LP・VC 火 |
+| 調査: 世界企業抽出 / まだ薄いところ | 【世界・アジア係】世界企業 水 / 薄いところ 土 |
+| 調査: 深堀り部屋 v3 | 【深堀り係】深堀り 金 |
+| 調査: おもしろ情報(日替わりの欄) 毎日 | 【おもしろ情報係】日替わり 毎日 |
+| 調査: Gemini調査(確かめつき) 毎日 | 【Gemini係】朝の調査 毎日 |
+| 英語のAI新着・新モデルの日本語解説 毎日 v2 | 【新モデル解説係】毎日 |
+| 調査の新着とニュースをサイトに追加 毎日(v2) | 【取り込み係】サイトに追加 毎日 |
+
+### 2. 7:29 の1本を3本に分ける
+
+いまの「引き抜き v5」は、人材(移籍)・開示(IR)・動画の3つを1回で全部やるので、長くなり、途中で止まると全部止まる。係ごとに分けると、どの係が止まったか見張り番でも分かる。案: 人材係 7:29(そのまま)/ 開示係(IR)7:34 / 動画・音声係 7:39(月・木のお金係の前日にも見られる)。曜日の調査(7:38 土・7:41 金・7:44 水・7:48 火・7:52 月木)とは時間が重ならないように少しずつずらす。取り込み係の 9:13 より前に全部終わる。
+
+### 3. 「inbox に足す係」と「サイトに足す係」を分ける決まりを守る
+
+サイトに足すのは取り込み係(9:13)だけ。例外は、自分専用のページを持つ新モデル解説係(9:19、site/xlearn/)と、X係の「本人」の印(9:25、index.html の目印の間)。例外も足すだけで、9:13 のあとに動く。新しい係を足すときは、まず inbox/ に足す形にして、取り込み係に merge_inbox.py の対象を足してもらう。
+
+### 4. 軽い作業は Haiku、探す・確かめるは Sonnet のまま
+
+見張り番(10:31)・過去の手がかりの確かめ(10:07)・企業検索の見張り(11:17)は軽い確認なので、claude.ai の定期タスクの設定でモデルを Haiku にしてよい(設定画面でしか変えられない)。
+
+### 5. 枝から取り出して使っている手順を main に入れる
+
+おもしろ情報係(docs/fun_research.md・scripts/fun_merge.py)と見張り番の使用量まとめ(scripts/usage_report.py)は、まだ main に無い枝から毎回取り出して使っている。main に入れると、枝が消えたときにタスクが止まる心配がなくなる。
+
+### 6. 依頼にあった「8:35 X」「装い」「報道」のタスクについて
+
+定期タスクの一覧には、8:35 の X のタスクと、装い・報道だけの独立したタスクは見当たらなかった。X は 7:07(アカウント追加)と 9:25(本人の印)が、装いは「おもしろ情報係」の月曜の欄(愛用品・服装)が、報道は取り込み係の 9:13 の中(fetch_relnews.py)が担当している。別のタスクとして置きたければ、この一覧に係を足してから作る。
+
+### 7. 古い版(止めてあるもの)は消さない
+
+v1〜v3 の古いタスクは「止めてある」だけで残している(消すと、その実行の記録のスレッドも消えるため)。一覧には載せていない。
