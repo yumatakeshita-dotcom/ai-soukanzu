@@ -41,6 +41,11 @@ const OUTFIT=[
 const OF_AX=[['f','フォーマル度'],['r','定番度'],['m','まねしやすさ'],['p','価格帯']];
 let ofSel=0;
 function ofBar(v){return `<span class="of-bar" aria-label="${v}/5">${[1,2,3,4,5].map(i=>`<i${i<=v?' class="on"':''}></i>`).join('')}</span>`}
+/* 自動で足した分(inbox/outfit/ の合格分)。画像は載せず、出典ページへのリンクと文章だけ */
+function ofAuto(P){
+  const A=(typeof OUTFIT_AUTO!=='undefined'?OUTFIT_AUTO:[]).find(x=>x.n===P.n);if(!A)return '';
+  const esc=kkEsc,cfm={o:'公式',s:'本人',r:'報道'};
+  return `<section class="of-box"><h3>公開の場での装い(自動で追加・${A.looks.length}件)</h3><ul class="of-items">${A.looks.map(l=>`<li class="of-it"><div><b>${esc(l.w)}</b> <span class="cf-b">${cfm[l.cf]||''}</span></div><small>${esc(l.d)} ${esc(l.scene)}${l.brands.length?' / ブランド: '+l.brands.map(b=>esc(b.b)+'('+esc(b.rel)+')').join('、'):''}</small>${l.note?`<small>${esc(l.note)}</small>`:''}<div class="of-src"><a href="${esc(l.src[1])}" target="_blank" rel="noopener">${esc(l.src[0])}</a></div></li>`).join('')}</ul><p class="meta" style="margin:6px 0 0">出典ページを自動で開き、本人の名前とブランド名が書いてあるものだけ載せています。画像は載せていません。</p></section>`}
 function ofRender(){
   const P=OUTFIT[ofSel],esc=kkEsc,out=document.getElementById('ofout');
   const cfm={o:'公式',s:'本人',r:'報道'};
@@ -51,6 +56,7 @@ function ofRender(){
   out.innerHTML=`<h2 style="margin:0 0 4px">${esc(P.n)} <small class="meta">${esc(P.en)} / ${esc(P.co)}</small></h2>
   <p style="margin:0 0 10px">${esc(P.look)}</p>${score}
   <section class="of-box"><h3>関係のあるブランド${brands.length?`(${brands.length})`:''}</h3><ul class="of-items">${items}</ul></section>
+  ${ofAuto(P)}
   <section class="of-box"><h3>こんな場面の参考に</h3><p style="margin:0">${esc(P.scene)}</p></section>
   <p class="meta">確かめた日: ${esc(P.asof)}</p>`;
 }

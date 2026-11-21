@@ -83,6 +83,7 @@ docs/                 移行メモなど
   - 2社のあいだの流れ(同じ画面の「見かた」で切り替え、2026/11/18追加): 2社を選ぶと両方向の移籍と人の一覧、営業の話題の例(コピー可)、よくある移籍ルート上位30を出す。同じ `flowrank.js` の後半(`frRenderPair`)
   - 営業資料(1枚)にも「2社のあいだの移籍」の欄と、ひとこと(案)の1文が自動で入る。移った人は「紹介を頼める人」の候補にも足す(4人まで)。`common.js` の `cmBriefData` が `flowrank.js` の `frBetween` を呼ぶ(2026/11/18追加)
 
+- 装いとブランド(メニュー「装いとブランド」、2026/11/21追加・見本版): `site/data/outfit.js`(手で確かめた分と採点)と `site/data/outfit_auto.js`(自動分)。Geminiで探し(`scripts/outfit_research.py`)、出典ページを開いて確かめた合格分だけ `scripts/outfit_merge.py` で足す。画像は転載しない・ブランドは出典に書いてあるものだけ。**変えたときは共有リンクにも公開する**。くわしくは `docs/outfit.md`
 - 毎日のYouTube確認(2026/11/21追加): `inbox/youtube_channels.txt` の21チャンネルを `scripts/yt_daily.py` が公式RSSで必ず見て、新着を `inbox/youtube/日付.json` に足す。`yt_fetch.py --retry-queue` を呼ぶと一緒に動く。見られなかった理由も記録して翌日また見る。ポッドキャスト(`inbox/podcast_feeds.txt`、`scripts/pod_daily.py`)と、動画・番組の手がかりのまとめ(`scripts/media_digest.py` → `inbox/media/`)も同じ回で動く。Geminiの調査には手がかりのタイトルを渡す。くわしくは `docs/youtube_daily.md`
 - Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
   - 毎朝8:23の定期タスク「Gemini調査(確かめつき) 毎日」が `python3 scripts/gemini_research.py daily` を動かし、`scripts/gemini_verify.py` で出典URL(実際に開く)・重なり・日付・確かさを確かめる(2026/11/19追加)。合格したものだけ `inbox/money/日付-gemini.json`・`inbox/moves/日付-gemini.json` に足し、9:13の「調査の新着」がサイトに出す。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない
