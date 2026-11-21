@@ -71,3 +71,7 @@
 @kabutan_jp | moves,money,vc | 株探(株式・企業情報サイト)公式。確認済み
 @Nikkei_Business | moves,money,vc | 日経電子版「ビジネス」公式。確認済み
 @tdnet_jp | money,deep | 適時開示情報(上場企業の開示)のbot。確認済み
+# --- 日本のスタートアップ報道 (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@nikkei_startup | money,vc,moves | 日経スタートアップ(日経の公式)。確認済み
+@startupnews_jp | money,vc | スタートアップ・ベンチャーのニュースを集める。個人運営。確認済み
+@JapanVenture | vc,money | 日本のスタートアップ事情を伝えるブログ・番組。確認済み
