@@ -1,0 +1,455 @@
+{
+ "date": "2026-11-21",
+ "source": "inbox/gemini/2026-11-20-5.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "August AI",
+    "関係": "出資",
+    "相手": "Accel, Peak XV Partners, Claypond Capital",
+    "金額": "$12M",
+    "日付": "2026-11-20",
+    "出典URL": "https://www.atpartners.co.jp/news/2026-11-20-article-c7e28aad3f",
+    "確かさ": "報道",
+    "備考": "インド発のHealthTech企業、Series A資金調達",
+    "src": [
+     [
+      "AT PARTNERS",
+      "https://www.atpartners.co.jp/news/2026-11-20-article-c7e28aad3f"
+     ]
+    ],
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd4i9MDpanpkCB_6rMhTMb4BUDaBk0fBv4xewTdkQonW8IttMQ24y9-YlOrQ8v8UwBbm64rEEB0e4mCOmjpL6jex8VkdAaDqUBLkMIWs5R3WVYkLHKzKmMMTNDX0IC_f5TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.atpartners.co.jp/news/2026-11-20-article-c7e28aad3f"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Humyn Labs",
+    "関係": "出資",
+    "相手": "Accel, Prosus Ventures, BeeGlobal, Bajaj Finance傘下のFinserv Intelligence, Bajaj Alts AI Opportunities Fund, Dallas Venture Capital, Lighthouse Canton, Jump Trading, Trifecta Capital",
+    "金額": "$47M",
+    "日付": "2026-11-20",
+    "出典URL": "https://www.atpartners.co.jp/news/2026-11-20-article-1971faffb2",
+    "確かさ": "報道",
+    "備考": "インド発のヒューマノイドロボット学習データ提供企業、Series A資金調達（株式資金調達とベンチャーデットの合計）",
+    "src": [
+     [
+      "AT PARTNERS",
+      "https://www.atpartners.co.jp/news/2026-11-20-article-1971faffb2"
+     ]
+    ],
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkJuzdzyrJ-nFmmv5_FdLdKKySq7UCIpwSPic6v_mDF9Z9YMyqdeatKyAFEycniHZwtJcejnxxCREImzQlcenwaoPrYYtcHgCBztiik5j3FilychAUIpGCc2C7EnD6zTfXYekK9F6nL-OOSvpNsk3OYvXv99CTJHmNOQ==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.atpartners.co.jp/news/2026-11-20-article-1971faffb2"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung SDS",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+    "確かさ": "報道",
+    "備考": "2027年の社長人事で留任",
+    "人物": "Lee Jun-hee",
+    "役職": "代表取締役社長",
+    "移籍先": "Samsung SDS",
+    "src": [
+     [
+      "BigGo ファイナンス",
+      "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7"
+     ]
+    ],
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjtWe7WxufZBUOvLwPkQzXjytPUhx2FPGtYwhpykYRxBOxR6JWUupYaK421w4rTe32L19Ec9z7F6OyPidIhG9-7pRAnnDkPCJrphAkZzSaOZLRwmkXw5Sd9X0v7bhU4bayJECeKr75Oo6wDtC5mFCfghyUW6WOD9qSqShjQg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung SDS",
+    "関係": "資金調達",
+    "相手": "KKR",
+    "金額": "1.2兆ウォン (約1400億円)",
+    "日付": "2026-11-20",
+    "出典URL": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7",
+    "確かさ": "報道",
+    "備考": "転換社債発行によりAIインフラ投資の原資を確保",
+    "src": [
+     [
+      "BigGo ファイナンス",
+      "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7"
+     ]
+    ],
+    "既存の名前": [
+     "KKR"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHjtWe7WxufZBUOvLwPkQzXjytPUhx2FPGtYwhpykYRxBOxR6JWUupYaK421w4rTe32L19Ec9z7F6OyPidIhG9-7pRAnnDkPCJrphAkZzSaOZLRwmkXw5Sd9X0v7bhU4bayJECeKr75Oo6wDtC5mFCfghyUW6WOD9qSqShjQg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://finance.biggo.jp/news/87a3a636-7427-49c1-912b-4cab0a363fe7"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung Electronics",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q==",
+    "確かさ": "報道",
+    "備考": "半導体部門で社長昇進",
+    "人物": "Hwang Sang-joon",
+    "役職": "メモリ事業部長",
+    "移籍先": "Samsung Electronics",
+    "src": [
+     [
+      "BigGo ファイナンス",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+     ]
+    ],
+    "既存の名前": [
+     "Samsung Electronics"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Samsung Electronics",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q==",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Choi Won-jun",
+    "役職": "モバイルエクスペリエンス（MX）事業部長",
+    "移籍先": "Samsung Electronics",
+    "src": [
+     [
+      "BigGo ファイナンス",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+     ]
+    ],
+    "既存の名前": [
+     "Samsung Electronics"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ux4zIdWL-b-If9-cluqafjXYlhK_Sr40A7gJ_9pkQi4EqQEJKT517nCOdTwwpkCDuqMoA2vywq3Gga3VYislu45iji6teBIYv_ZmZy-DwOku5heWHLCLoyoBj8sAcPwfQfW9GvD3vL4dF8t4LhEwP_f7TaxzOXPO5fj84RQ1LMaA3kNB8mN19-PYo3Q=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Startup Island TAIWAN",
+    "関係": "提携",
+    "相手": "XOSS POINT. (日本・熊本)",
+    "金額": "",
+    "日付": "2026-11-18",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZzA8ZfRPsW0eOX-0PWWoKdOnyPrOTiNR6BV3oEXhrC8cJdwCYsI6_DnP7nZU6Ff-H1C9eZTGONHyCgesvJVcxG50ceITRgl_MwuzSwgdHqkpFI8VjFK67ksr6LXyyp0Bo06CrLTt2nd9qy295eKtYLN-kCuEZjG9cBAKJrztL",
+    "確かさ": "報道",
+    "備考": "「Japan Night」イベント中に基本合意書(MOU)を締結、台日スタートアップ連携深化",
+    "src": [
+     [
+      "エキサイト",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZzA8ZfRPsW0eOX-0PWWoKdOnyPrOTiNR6BV3oEXhrC8cJdwCYsI6_DnP7nZU6Ff-H1C9eZTGONHyCgesvJVcxG50ceITRgl_MwuzSwgdHqkpFI8VjFK67ksr6LXyyp0Bo06CrLTt2nd9qy295eKtYLN-kCuEZjG9cBAKJrztL"
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZzA8ZfRPsW0eOX-0PWWoKdOnyPrOTiNR6BV3oEXhrC8cJdwCYsI6_DnP7nZU6Ff-H1C9eZTGONHyCgesvJVcxG50ceITRgl_MwuzSwgdHqkpFI8VjFK67ksr6LXyyp0Bo06CrLTt2nd9qy295eKtYLN-kCuEZjG9cBAKJrztL"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "応援科技 (Ouen Technology)",
+    "関係": "提携",
+    "相手": "Borderless Japan傘下プラットフォーム「For Good」",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9",
+    "確かさ": "報道",
+    "備考": "決済・資金流のクラウドプラットフォームを統合し、戦略提携",
+    "src": [
+     [
+      "BigGo ファイナンス",
+      "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9"
+     ]
+    ],
+    "既存の名前": [],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-oKNKm-uU7EdZiiEpUbWvL2Psa7hgtJW4_IVm-iCBUqoDINEcliPEQ71zSXmsiFbInTnSE0lyAg3yRXGSA-BH73dLXhMPEyrZQQ8U8C5ETLq-qxAKxrtOJsHuS29Mxslo0mmYNpTlran7OdPr6tUKCDg_Q8Un6UsdIbCF6g==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "ICMG Ventures",
+    "関係": "提携",
+    "相手": "シンガポール国立大学 Asian Institute of Digital Finance (NUS AIDF)",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0EbZeEOUyBvVFherARp8w4V3hpdlpmKedRUvyZLFVLpnRwvpKR1qHrylOSJegI4n0kbfw31QmFzA8L1CAvrkWDBoPqUTpv7Urcs1A-W8Ssikl8uFXvGkNp5Yjiiy2qs90GhcLqGgSk1njhiReEcEVzGkxoY==",
+    "確かさ": "公式",
+    "備考": "MOUを締結",
+    "src": [
+     [
+      "PR TIMES",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0EbZeEOUyBvVFherARp8w4V3hpdlpmKedRUvyZLFVLpnRwvpKR1qHrylOSJegI4n0kbfw31QmFzA8L1CAvrkWDBoPqUTpv7Urcs1A-W8Ssikl8uFXvGkNp5Yjiiy2qs90GhcLqGgSk1njhiReEcEVzGkxoY=="
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ0EbZeEOUyBvVFherARp8w4V3hpdlpmKedRUvyZLFVLpnRwvpKR1qHrylOSJegI4n0kbfw31QmFzA8L1CAvrkWDBoPqUTpv7Urcs1A-W8Ssikl8uFXvGkNp5Yjiiy2qs90GhcLqGgSk1njhiReEcEVzGkxoY=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "Aleph",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://www.globenewswire.com/news-release/2026/11/19/3406657/0/en/openai-increases-its-chatgpt-ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-aleph.html",
+    "確かさ": "公式",
+    "備考": "ChatGPT Adsの独占リセラー契約を44カ国（中南米、欧州/中央アジア、中東/アフリカ、アジア太平洋含む）で締結",
+    "src": [
+     [
+      "GlobeNewswire",
+      "https://www.globenewswire.com/news-release/2026/11/19/3406657/0/en/openai-increases-its-chatgpt-ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-aleph.html"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI",
+     "Aleph"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 403"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://www.globenewswire.com/news-release/2026/11/19/3406657/0/en/openai-increases-its-chatgpt-ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-aleph.html"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  }
+ ]
+}

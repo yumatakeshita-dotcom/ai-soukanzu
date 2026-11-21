@@ -372,6 +372,7 @@ def main():
         open(os.path.join(NL, iss['date'] + '.md'), 'w', encoding='utf-8').write(to_md(iss))
     os.makedirs(os.path.dirname(PAGE), exist_ok=True)
     open(PAGE, 'w', encoding='utf-8').write(render_page(issues))
+    subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'seo.py')], check=False)  # 共有カード用の meta を入れ直す
     print('作ったもの:', os.path.relpath(PAGE, ROOT), f'newsletter/ に .md {len(issues)}号分')
     # 法的ページへのフッターリンクを入れ直す(設定がOFFなら何も足さない)
     subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'legal.py')], check=False)

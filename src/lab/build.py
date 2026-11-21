@@ -18,3 +18,6 @@ for f in sys.argv[1:] or ['route.html','stop.html','money.html','moves.html','ca
 # 法的ページへのフッターリンクを入れ直す(scripts/legal.py。設定がOFFなら何も足さない)
 import subprocess
 subprocess.run([sys.executable,os.path.join(here,'..','..','scripts','legal.py')],check=False)
+# 共有カード用の meta(title・OGP)を入れ直す。scripts/seo.py は何度動かしても同じ結果
+import subprocess
+subprocess.run([sys.executable,os.path.join(here,'..','..','scripts','seo.py')],check=False)

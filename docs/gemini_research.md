@@ -24,7 +24,7 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
 `gemini_status` / `gemini_store` / `gemini_research` で同じことができる。
 
 - キー: 環境変数 `GEMINI_API_KEY`(コードには書かない)。無いときは自動でドライランになる
-- モデル: 環境変数 `GEMINI_MODEL`。無ければ `gemini-2.5-flash`。枠切れ(429)のときは gemini-flash-latest → gemini-3.5-flash → gemini-2.5-pro の順に試す(2026/11/19: 無料枠ではGoogle検索つきが gemini-2.5-flash しか通らなかったため)
+- モデル: 環境変数 `GEMINI_MODEL`。無ければ `gemini-2.5-flash`。枠切れ(429)のときは gemini-flash-latest → gemini-3.5-flash → gemini-3.1-pro-preview(2026/11/21: gemini-2.5-pro は新規利用者には使えなくなったので入れ替え) の順に試す(2026/11/19: 無料枠ではGoogle検索つきが gemini-2.5-flash しか通らなかったため)
 - 出典URLは Gemini が書いたもの。相関図に入れる前に元ページを開いて確かめる(初回の試しでは日付の誤りが1件あった。`inbox/gemini/2026-11-19_review.md`)
 - ファイル検索の入れ先の名前は `inbox/gemini/store.json` に記録する(キーは入っていない)
 - 資料の場所を変えるときは `GEMINI_DOCS_DIR`(既定は `/mnt/project-files`)
@@ -97,3 +97,27 @@ Gemini API で調べても、Geminiアプリ・NotebookLM の履歴には残ら�
 - 見やすい版: `inbox/gemini/history.html`(共有リンクにも公開。毎朝の定期タスクが公開し直す)
 - 試しに残した生の返答(`*_process_raw.json`)も同じ目次に出る。足すだけで、元の記録は書き換えない
 - 2026/11/20より前の調査は、検索の言葉が残っていない(「この回は記録なし」と出る)
+
+## 宿題リスト(調べる順番の一覧)と見張り役(2026/11/20追加)
+### 宿題リスト `inbox/queue.json`
+人の指示が無くても、毎朝のGemini調査(`gemini_research.py daily`)が、曜日のテーマのあとに**先頭の1件**を調べる。
+- 各項目: テーマ(`theme`)・理由(`reason`、どこが薄いか)・状態(`status` = 未 / 調査済 / 保留)・最終調査日(`last_researched`)・履歴(`history`)
+- `python3 scripts/research_queue.py build` … 薄いところから項目を足す(人の動きが0〜1件の会社、地域ごとの会社リスト、固定の課題)。すでにある項目は触らない・消さない
+- `python3 scripts/research_queue.py status` / `next` … 件数と次の候補を見る。`mark ID 保留 --note 理由` で止めておける(保留は自動では選ばれない)
+- `python3 scripts/research_queue.py run-next [--dry-run]` … 先頭の1件を Gemini で調べ、`gemini_verify.py` で出典を確かめ、「調査済」にする
+- 同じ調査を繰り返さない: 調査済みの項目は、固定の課題は30日、会社は120日たつまで選ばない
+- 無料枠が切れた(429)日は、状態を変えずに終わる(翌朝に同じ項目)。`daily --no-queue` で宿題リストを省ける
+- 優先順: 固定の課題(出典の無い移籍・出典の無い出資・上位5社以外)→ 人の動きが0件の会社 → 1件の会社。理由に書いた数字は2026/11/20の集計
+- 調べた結果は、ほかのGemini調査と同じ(`inbox/gemini/`)。確かめを通ったものだけが `inbox/money`・`inbox/moves` に足される
+
+### 見張り役 `scripts/watchdog.py`
+毎朝の作業が止まっていないかを、リポジトリに残った記録から確かめる(`inbox/watchdog/日付.md` に足す)。
+更新(LAST_CHECK)・各調査のファイル(壊れたJSONも)・main への push・Geminiの無料枠切れ・宿題リストが進んでいるかを見る。
+共有リンクのアーティファクト(9:41の公開)は記録がリポジトリに残らないので、定期タスク側で公開ページの `LAST_CHECK` を読んで比べる。
+
+## 1日の上限と週のまとめ(2026/11/20追加)
+- 1日(日本時間)に Gemini を呼べる回数の上限は `inbox/gemini/limits.json` の `daily_max_calls`(初期値18。無料枠は検索つきで1モデル1日20回前後)。環境変数 `GEMINI_DAILY_MAX` があればそちらを優先。0 以下で上限なし。今日の回数は `python3 scripts/gemini_research.py limit`
+- 上限に達すると Gemini を呼ばず「枠切れ」と同じ扱いになる。調査のテーマは後回し(やり直す列)、宿題リストは状態を変えず、翌朝に回る。止めた記録は `usage.jsonl` に `cap` として残る(回数には数えない)
+- 毎週月曜の見張り役の記録(`inbox/watchdog/日付.md`)の最後に、先週のGemini使用回数・やり直し・宿題リストの消化が付く(`scripts/gemini_usage_summary.py`。単独でも動く)
+- 有料にした場合の金額は `limits.json` の `assumed_price`(**仮定**。公式の料金表で確かめた値ではない)から出す目安。回数を主に見る
+- 注意: 回数は `inbox/gemini/usage.jsonl` で数えるので、定期タスクが inbox/gemini/ を commit・push しないと、別の日・別の環境の分は引き継がれない(同じ実行の中では効く)

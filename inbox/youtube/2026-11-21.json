@@ -1,0 +1,1375 @@
+{
+ "date": "2026-11-21",
+ "days": 7,
+ "summary": "YouTube確認: 21/21チャンネル、新着124本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 7
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 7
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 15
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 11
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 13
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 15
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 11
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 15
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "videos": [
+  {
+   "id": "GmVRob0o1a8",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "3 Reasons Why India Will Be Your Biggest Audience",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=GmVRob0o1a8",
+   "description": ""
+  },
+  {
+   "id": "LcEJ4-h0Ke4",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Why Indians Are So Good At Editing",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=LcEJ4-h0Ke4",
+   "description": ""
+  },
+  {
+   "id": "MLW7pECIZRw",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Why You Should Say \"No\" More",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=MLW7pECIZRw",
+   "description": ""
+  },
+  {
+   "id": "a9ZqZnoXj2g",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Corridor Crew Addresses Their Biggest Criticism",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=a9ZqZnoXj2g",
+   "description": ""
+  },
+  {
+   "id": "FliP14zJKbY",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "How to Hook People Into Watching Anything",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=FliP14zJKbY",
+   "description": ""
+  },
+  {
+   "id": "NKFg9E0CzFI",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "It’s Easy to Breakout on YouTube if You Do This",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=NKFg9E0CzFI",
+   "description": ""
+  },
+  {
+   "id": "IbijiLvk_98",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "MatPat Reveals The Most Important YouTube Metric",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=IbijiLvk_98",
+   "description": ""
+  },
+  {
+   "id": "uTm1UdFWKBo",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Toto Wolff runs Mercedes like a startup",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=uTm1UdFWKBo",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "_G0IB_qGuEM",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "How Mercedes found Kimi Antonelli",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=_G0IB_qGuEM",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "b_mkRCkTKSw",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "The idea Revolut’s CEO underestimated",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=b_mkRCkTKSw",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "IcsUnJEgjkA",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Why Revolut is strict with new product bets",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=IcsUnJEgjkA",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "tgK-mPtgCCU",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "We’ll Be Inferior to Our Grandchildren—and That’s Great",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=tgK-mPtgCCU",
+   "description": "Jacob Coxon worries that next to AI, “we’d be the ants, they would be the humans negotiating with each other. We’d be vastly inferior to them.”\n\nRobin Hanson: “We’re gonna be inferior to our grandchildren, and I think that’s great.”"
+  },
+  {
+   "id": "lwfewYL7X0o",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "Jacob Coxon vs. Robin Hanson: Should We Slow Down AI?",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "description": "Should governments intervene to substantially slow the progress of frontier AI? In the inaugural YC debate, Jacob Coxon, an ex-Anthropic and OpenAI researcher, faces off against Robin Hanson, an economist at GMU, about AI takeoff and what government regulation should (or shouldn’t) do about it.\n\nChapters:\n00:00 - YC Debate Topic: Should We Slow Down AI?\n02:42 - Jacob's case: Superintelligence by 2028\n07:02 - Models already behaving in ways we don't understand\n09:18 - Robin's case: the danger of abstraction\n11:22 - Why new technologies take decades to diffuse\n13:12 - Liability instead of regulation\n14:50 - Why regulating AI is different from regulating drugs\n16:00 - Jacob's rebuttal: general intelligence is one number\n17:36 - Why normal liability won't cover extinction risk\n19:52 - Robin's "
+  },
+  {
+   "id": "ZZEseOhghdo",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Nvidia needs Jensen, but can he return?",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=ZZEseOhghdo",
+   "description": "Nvidia needs Jensen Huang back...but can he return?"
+  },
+  {
+   "id": "7uqCc2gCf6Q",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Anthropic is the biggest winner from Jensen's Exit",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=7uqCc2gCf6Q",
+   "description": "Is Anthropic the real winner in the Jensen's departure?"
+  },
+  {
+   "id": "RZ4BBkSZ3io",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Will Jensen Return to NVIDIA | Kalshi, Mercor, Fractile: Mega-Rounds Continue",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=RZ4BBkSZ3io",
+   "description": "Jason Lemkin is one of the leading SaaS investors of the last decade with a portfolio including the likes of Algolia, Talkdesk, Owner, RevenueCat, Saleloft and more.\n\nRory O’Driscoll is a General Partner @ Scale where he has led investments in category leaders such as Bill.com (BILL), Box (BOX), DocuSign (DOCU), and WalkMe (WKME), among others.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n01:29 - Should Jensen Huang Be Reinstated at Nvidia?\n09:59 - Could Jensen’s Exit Strengthen Anthropic’s Position?\n12:20 - Anthropic's $1.5 Trillion IPO: A New Era for Tech?\n13:08 - Anthropic's IPO Raises a Bigger Question About the Future of Jobs\n16:14 - How Anthropic's IPO Could Change the Venture Capital Landscape\n18:28 - Will VCs Now Be Judged on How Many $20 Billion Compa"
+  },
+  {
+   "id": "Qopc3Q6LuV0",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Why This AI Founder Won't Hire From OpenAI",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=Qopc3Q6LuV0",
+   "description": "Why doesn't this AI founder hire from OpenAI?\n\nDiogo Almeida, Founder & CEO of TypeSafe AI, explains why he believes OpenAI researchers prioritise algorithms and scaling over data, and why that makes them a poor fit for his company."
+  },
+  {
+   "id": "5iSYPTFOeiU",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Could the AI Bubble Burst Sooner Than You Think? | TypeSafe AI CEO",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=5iSYPTFOeiU",
+   "description": "Is the AI bubble closer to bursting than we think?\n\nDiogo Almeida, Co-Founder and CEO of TypeSafe AI, warns that FOMO-driven spending and businesses overestimating AI's capabilities could trigger a sudden collapse in demand."
+  },
+  {
+   "id": "BE2JqjsN4aY",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Jev Creator on Will US Open Models Catch Chinese | The Cost of Intelligence & Tokens | Diogo Almeida",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=BE2JqjsN4aY",
+   "description": "Diogo Almeida is the Co-Founder and CEO of TypeSafe AI, the company behind Jev. Jev is an AI model that lets software make decisions automatically and tells developers how confident it is in each call. According to Sequoia's Pat Grady, it went from zero to $100M in revenue in seven days. TypeSafe's latest round valued the company at $7.5BN, with Martin Casado at Andreessen Horowitz leading and Sequoia also investing. Before TypeSafe, Diogo was a researcher at OpenAI, where he helped invent ChatGPT.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n01:43 Why AI Reliability Is the Biggest Bottleneck to Automation\n04:51 Why Data Matters More Than Compute\n07:30 Why Scaling Compute Alone Stopped Working\n09:05 What Actually Makes AI Training Data Valuable\n14:00 Is Synthe"
+  },
+  {
+   "id": "UZ8eYaAf08M",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "The AI Compute Crisis: Why We Need Thousands of Times More Computing Power | Fractile Founder",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=UZ8eYaAf08M",
+   "description": "Walter Goodwin is the founder and CEO of Fractile, the British chipmaker taking on Nvidia in the race to make AI models answer faster. Fractile has raised $940M, including a $720M Series C that valued the company at $7.5BN. Thrive, Founders Fund, Lightspeed and Redpoint led the latest round.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n02:03 Can a Chip Company Win Without Going Full Stack?\n04:04 Why Every AI Company Is Fighting Commoditization\n05:13 What Parts of the AI Stack Are Actually Commoditized?\n09:16 Why Specialized AI Chips Could Reshape the Market\n11:10 Can Specialized Chips Take Share From Nvidia?\n14:08 Why Memory Bandwidth Is the Real Bottleneck in AI Inference\n18:50 How 3D Memory Stacking Could Transform AI Chips\n23:52 Why Long-Running Agents Requ"
+  },
+  {
+   "id": "a4tlqyjt57I",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Take-Two CEO: It's Too Early for GTA 7",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=a4tlqyjt57I",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "zN2XWhEQKdk",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "The Art of GTA VI",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=zN2XWhEQKdk",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "S-mfGKgD2MU",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Market Slides, Math Solved, SpaceX is now GroundX, THE MANSION SECTION",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=S-mfGKgD2MU",
+   "description": "00:01:01 Anthropic Slips After Historic IPO\n00:01:36 Math Solved Again\n00:07:22 Market Nukes\n00:10:11 Lenders Push Back on SpaceX Chips\n00:17:33 𝕏 Timeline Reactions\n00:24:48 THE MANSION SECTION\n00:29:36 Alex Epstein discusses the urgent need for bipartisan permitting reform to expand America’s freedom to build energy infrastructure, housing, and AI data centers. He argues that the proposed legislation could lower costs and create jobs by removing regulatory barriers, while emphasizing that Congress has only a narrow window to pass it. He also champions widespread AI and energy development while criticizing tariffs and restrictions on overseas data-center construction.\n00:59:11 David Chang is a renowned chef, restaurateur, and media personality known for founding Momofuku. David Chang disc"
+  },
+  {
+   "id": "ZGUt_uvDaJw",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Travis Kalanick on Jensen Huang",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=ZGUt_uvDaJw",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "-iCfFQQBMzI",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Ant IPO (Hemant Joins), GTA 6 Launch (Strauss Zelnick Joins Live)",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=-iCfFQQBMzI",
+   "description": "00:05:00 Strauss Zelnick discusses his career and leadership as CEO of Take-Two Interactive, the publisher behind Grand Theft Auto, NBA 2K, and other major franchises. He explains Take-Two’s long-term strategy, Rockstar Games’ creative process, the launch of GTA 6, and his views on acquisitions, artificial intelligence, emerging technologies, and the future of interactive entertainment.\n00:58:21 Anthropic IPO\n01:01:19 Hemant Taneja, CEO of General Catalyst, discusses Anthropic’s rapid growth and IPO as evidence of AI’s transformative potential and the expanding scale of venture-backed companies. He also explores new approaches to financing compute infrastructure, the changing venture-capital landscape, and AI’s potential to reshape healthcare and biotechnology.\n01:25:33 𝕏 Timeline Reaction"
+  },
+  {
+   "id": "0FOR4_lSvJs",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "The CEO Behind GTA VI on Building the Biggest Game in History",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=0FOR4_lSvJs",
+   "description": "This is our full interview with Strauss Zelnick.\n\nWe discuss the historic launch of GTA VI, its record-breaking reviews and preorders, how Rockstar spent more than a decade building the game, the impact of AI on game development, why he believes VR has failed to live up to the hype, and what's next for GTA.\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.acom\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://www.shopify.com/\nCodex - http://openAI.com/codex\nLambda - https://lambda.com/\n\nSign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps:/"
+  },
+  {
+   "id": "LuTx7-eGNiI",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Chantel Jeffries on Being Founder-First",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=LuTx7-eGNiI",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "ytrmKEZ97Ho",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Travis Kalanick Wants Jensen Huang Back as NVIDIA CEO",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=ytrmKEZ97Ho",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "_myHTDYcCa4",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "AI's First Big Box Office Smash?",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=_myHTDYcCa4",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "R8loy37E_lg",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "“If I Were Jensen, Here’s What I’d Do” — Travis Kalanick",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=R8loy37E_lg",
+   "description": "This is our full interview with Travis Kalanick.\n\nWe discuss his support for Jensen Huang's return to NVIDIA, why he believes Jensen was the target of a coordinated campaign, his 12 principles for fighting back against public attacks, and the risks of NVIDIA moving forward without its founder.\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.acom\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://www.shopify.com/\nCodex - http://openAI.com/codex\nLambda - https://lambda.com/\n\nSign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nht"
+  },
+  {
+   "id": "jiXyYYlt7Yk",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "🤠 LIVE from TX with TK, Jon Gray & Scott Wu",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=jiXyYYlt7Yk",
+   "description": "TBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.com\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://www.shopify.com/\nCodex - http://openAI.com/codex\nLambda - https://lambda.com\n\nFollow TBPN: \nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/tbpn/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "W3uUcIITE-A",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "🔴 David Solomon LIVE on TBPN at TomorrowX",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=W3uUcIITE-A",
+   "description": "00:00:00 Ron Biscardi discusses his role as CEO of iConnections and the launch of Tomorrow X, a major AI and technology summit in Austin. He explains how the event brings leading CEOs and institutional-grade investment insights to everyday investors, online creators, and attendees from around the world.\n00:06:46 David Solomon discusses his leadership of Goldman Sachs, emphasizing human relationships, trust, and judgment alongside technological innovation. He explains the firm’s shift toward durable revenues, institutional focus, AI adoption, and cybersecurity, while also sharing perspectives on IPOs, private markets, reindustrialization, and America’s economic strengths.\n00:37:03 Gavin Baker, founder and managing partner of technology investment firm Atreides Management, discusses Jensen H"
+  },
+  {
+   "id": "N-4Se6Nlg-g",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Goldman Sachs CEO Reacts to Jensen Huang's Potential Return to NVIDIA",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=N-4Se6Nlg-g",
+   "description": "This is our full interview with Goldman Sachs Chairman & CEO David Solomon.\n\nWe discuss how Goldman Sachs is evolving its business, the growing threat of cyberattacks and how AI is changing cybersecurity, the outlook for IPOs and private markets, NVIDIA's future without Jensen Huang, the role of capital in America's reindustrialization, where the biggest opportunities in AI will emerge, and his reaction to Jensen's latest statement about potentially returning as CEO.\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.acom\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://ww"
+  },
+  {
+   "id": "YtG6B_5er0s",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "Will Jensen Return? FAA Meltdown, Amazon Casts Pattinson as Bond | Diet TBPN",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=YtG6B_5er0s",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nDiet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after.\n\nDescribed by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella.\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.com\nFigma - https://www.figma.com\nLambda - https://lambda.ai\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - http"
+  },
+  {
+   "id": "Nyu5Lnr7F8I",
+   "channel": "TBPN",
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "kind": "AI・テック",
+   "title": "How Jensen Engineered His Own Downfall",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=Nyu5Lnr7F8I",
+   "description": "Sign up for TBPN’s daily newsletter at TBPN.com\n\nFollow TBPN:\nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/technology-brothers/id1772360235\nhttps://www.youtube.com/@TBPNLive"
+  },
+  {
+   "id": "G5w7EyF-aFQ",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=G5w7EyF-aFQ",
+   "description": "(0:00) Chamath's theory on 10 AI Megacorps that go \"Dirt to Application\"\n(3:27) Anthropic goes public, how companies are handling AI disruption\n(16:41) Bull/bear case for Anthropic and the market\n(36:41) White House weighs new open source disclosure rule for Chinese models \n(59:17) State of Nvidia: Tanking stock, talent crisis, legal issues, Jensen's future\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachE"
+  },
+  {
+   "id": "1bR0gtecoHU",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=1bR0gtecoHU",
+   "description": "(0:00) Ali Ghodsi joins the show: Databricks’ early bets on cloud, AI, and open source\n(8:50) Is AGI Already Here? Why Enterprise AI Is Falling Behind\n(22:04) Live Demo: How Databricks Uses Agentic AI For Efficiency\n(38:25) Databricks IPO: The Case for Staying Private\n(44:02) RSI, Cyber Risk & the Doom Debate\n\nThanks to our partner for making this possible:\n\nAirwallex is a leading global payments and financial platform for modern businesses,\noffering trusted solutions to manage everything from business accounts, payments,\ntreasury, and spend management to embedded finance. Learn more at https://airwallex.com/allin\n\nFollow Ali:\nhttps://x.com/@alighodsi\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com"
+  },
+  {
+   "id": "wpRf6pd37fc",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Anthropic IPO Breakdown: Most Valuable Company?",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=wpRf6pd37fc",
+   "description": "Data from @AlphasenseInc \n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "MUtgp2ixLyk",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "\"Cops need body cams to DEFEND themselves!\"",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=MUtgp2ixLyk",
+   "description": "Thanks to our partners for making this possible!\n\nMost advertisers have never heard of the platform with an $11B annual run rate in ad spend. AppLovin Ads. 1B+ daily active users, full-screen video ads watched for a median of 35 seconds, and businesses are profitably spending hundreds of thousands of dollars a day on it. Now open to everyone. Sign up at http://applovin.com/ALLIN \n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:"
+  },
+  {
+   "id": "zIsl7Q6nhFs",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "“My personal assistant was leaking to short sellers.” 🤯",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=zIsl7Q6nhFs",
+   "description": "Thanks to our partners for making this possible!\n\nMost advertisers have never heard of the platform with an $11B annual run rate in ad spend. AppLovin Ads. 1B+ daily active users, full-screen video ads watched for a median of 35 seconds, and businesses are profitably spending hundreds of thousands of dollars a day on it. Now open to everyone. Sign up at http://applovin.com/ALLIN \n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:"
+  },
+  {
+   "id": "JF5W20NVLL4",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Jason: \"The leak came from inside the White House.\"",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=JF5W20NVLL4",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "q8miqVUyh7w",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "David Sacks: Who Risked Jail to Take Down Jensen Huang?",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=q8miqVUyh7w",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "w_QLUF4nSb4",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "David Friedberg: Bring Back Jensen If He's Innocent",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=w_QLUF4nSb4",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "3zW2X9OXxC0",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "David Sacks on Jensen’s Exit: China Wins, America Loses",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=3zW2X9OXxC0",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "ONVWLa2LOzk",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "David Friedberg: Was Jensen Taken Out So the Deep State Could Control AI?",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=ONVWLa2LOzk",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "Uv2w4VTU-iQ",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Jensen OUT as Nvidia CEO: \"Spy\" Scandal, Export Restrictions, Market Impact",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=Uv2w4VTU-iQ",
+   "description": "(0:00) Bestie intros!\n(1:20) Jensen Huang out as CEO: Spy allegations, classified memo leak, who wanted Jensen out?\n(31:22) Market impact: AI trade, what happens to \"The Bank of Nvidia,\" China's strategy\n(44:19) Export controls, totalitarian AI risks, China hawks\n(58:26) Who should be Nvidia's next CEO?\n(1:06:25) Anthropic kicks off IPO road show\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\nRefe"
+  },
+  {
+   "id": "_EFi5y_ULE4",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "How one college football game nearly bankrupted DoorDash.",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=_EFi5y_ULE4",
+   "description": "Tony Xu, co-founder and CEO of DoorDash, on the Stanford football Saturday that became a company value.\n\nIt was the fall of 2013, shortly after Xu and three fellow Stanford students started the company. Refunding every customer that night took 40% of DoorDash's bank account, leaving it with under $30,000.\n\nSource: Y Combinator interview with Garry Tan, 2025"
+  },
+  {
+   "id": "TtOoLanFzGw",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Why AI Has DHH Working 16-Hour Days",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=TtOoLanFzGw",
+   "description": "David Heinemeier Hansson thinks the agent era is reopening a window in computing that has been closed for decades: the chance to build a new operating system people actually want to use.\n\nDHH joins a16z General Partners Martin Casado and Anish Acharya to explain why he’s building Omarchy, an agent-first Linux distribution designed around a computer that users can modify simply by asking.\n\nThey discuss why the command lines, config files, and detailed error messages that once made Linux intimidating now make it unusually well suited to agents, and why DHH believes software development has become cheap enough to challenge decades-old platform lock-in.\n\nBut if code is becoming abundant, what still matters? DHH argues that taste, craft, and the willingness to obsess over the final 2% become mo"
+  },
+  {
+   "id": "-aL8XcfEbu0",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Build something big.",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=-aL8XcfEbu0",
+   "description": "Bridgit Mendler, CEO & Co-Founder at Northwood Space."
+  },
+  {
+   "id": "gDW9An30_c0",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Why Nick Bostrom Thinks Superintelligence Could End Aging",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=gDW9An30_c0",
+   "description": "The question isn’t simply whether humanity should race toward superintelligence or stop. Nick Bostrom argues the harder challenge is preserving the ability to slow down when safety falls behind, without turning a temporary pause into permanent technological stagnation.\n\na16z’s Eddy Lazzarin and Elena Burger sit down with Bostrom to revisit the ideas he helped bring into the mainstream, now that increasingly capable AI systems actually exist. They discuss why alignment may become harder as models grow more situationally aware, which capability improvements may carry more risk than others, and why Bostrom favors “pacing the frontier” rather than committing to a broad or indefinite pause.\n\nThey also examine the cost of waiting. Bostrom argues that safely developed superintelligence could radi"
+  },
+  {
+   "id": "oRmAbrpECkQ",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "John Schulman on Getting AI Models to Tell the Truth",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=oRmAbrpECkQ",
+   "description": "John Schulman, CTO of Thinking Machines Lab and co-founder of OpenAI, on the alignment approach he is most bullish on: training objectives that get models to report what they otherwise wouldn't verbalize.\n\nSchulman was one of OpenAI's founding members in 2015. In February 2025, he became chief scientist of Thinking Machines Lab.\n\nHe spoke with a16z General Partner Sarah Wang in the first episode of Working Theory.\n\nWatch the full episode on the a16z YouTube Channel."
+  },
+  {
+   "id": "yvUZevBjdXg",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Ben Silbermann on when a product is ready to ship.",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=yvUZevBjdXg",
+   "description": "By January 2010, he and co-founders Paul Sciarra and Evan Sharp were emailing friends and family to try it. Four months in, it had a few hundred users.\n\nSource: Y Combinator Startup School, 2012."
+  },
+  {
+   "id": "5OszlMNUZD0",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "OpenAI’s Mark Chen: The Future Is Models Aligning Models",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=5OszlMNUZD0",
+   "description": "Mark Chen, Chief Research Officer at OpenAI, on where models fit into the work of aligning other models.\n\nIn July 2025, Chen co-authored Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety, a position paper signed by researchers from OpenAI, Google DeepMind, Anthropic and a group of other companies and nonprofits.\n\nWatch the full episode of Working Theory on the a16z YouTube channel."
+  },
+  {
+   "id": "kBJe4H_WobA",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "What It Takes to Build an AI That Actually Knows You",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=kBJe4H_WobA",
+   "description": "AI agents are getting smarter, but every new agent still has to learn who you are. What if your preferences, priorities, relationships, and digital context could move with you instead?\n\nFirst Person Labs co-founder Ken Liu joins a16z’s Martin Casado and Joel de la Garza to introduce Second, a personal context layer designed to understand what you’re doing across your digital life and make that context available to the agents you choose.\n\nThey discuss how Second can proactively connect information across conversations and applications, why protecting such personal data requires a different security architecture, and the longer-term vision of AI that doesn’t just respond to prompts, but understands enough context to know when and how to help.\n\nTimestamps:\n0:00 Intro\n0:50 What Is First Person"
+  },
+  {
+   "id": "OrQX4dH4t40",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "did the intern cook?",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=OrQX4dH4t40",
+   "description": ""
+  },
+  {
+   "id": "ArJTup6HNRA",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Can AI build AI?",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=ArJTup6HNRA",
+   "description": "In our first episode of Working Theory, a16z General Partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\n\nWatch the full episode on the a16z Youtube Channel."
+  },
+  {
+   "id": "h_aA1-R70E8",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "OpenAI’s Cofounder & Research Chief Explain Self-Improving AI",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=h_aA1-R70E8",
+   "description": "For decades, the idea of AI improving itself was just a thought experiment. Today, AI is already helping researchers at frontier labs run experiments, write code and test ideas faster. Mark Chen says OpenAI has built “AI research interns.” So how far are we from AI that can do the research on its own?\n\nIn our first episode of Working Theory, a16z general partner Sarah Wang explores recursive self-improvement with two leading AI researchers: Mark Chen, Chief Research Officer at OpenAI, and John Schulman, co-founder and Chief Scientist of Thinking Machines Lab, and co-founder of OpenAI.\n\nThey cover what RSI actually means, why research taste is so hard to teach, and why AI may be one of our best tools for solving alignment.\n\nChapters:\n00:00 The last invention\n01:58 What is RSI?\n03:21 How far"
+  },
+  {
+   "id": "97SWpLlTgdQ",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "The story of Uber.",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=97SWpLlTgdQ",
+   "description": "Travis Kalanick, founder of Uber & Atoms, on the night in Paris where the idea took hold.\n\nIn late 2008, Kalanick and Garrett Camp, who had sold StumbleUpon to eBay, spent a week in Paris at the LeWeb conference. Camp had already been working on San Francisco's taxi problem. His first pitch was a shared limo service booked from an iPhone app.\n\nUber launched in San Francisco on May 31, 2010."
+  },
+  {
+   "id": "g_67TmQ8lGY",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "What History Tells Us About the AI Revolution | Tyler Cowen & Alex Imas",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=g_67TmQ8lGY",
+   "description": "AI capabilities are improving fast. But will the economy move just as quickly?\n\na16z General Partner Erik Torenberg sits down with Google DeepMind economist Alex Imas and economist Tyler Cowen to examine how advances in AI translate into growth, jobs, wages, and productivity.\n\nThey debate what it would take to reach double-digit economic growth, why bottlenecks and falling AI costs could slow the impact, and whether frontier lab valuations require much larger productivity gains.\n\nThey also explore the “economics of intelligence,” including why the bigger shift may come not from smarter individual agents, but from AI agents learning to coordinate at scale.\n\nTimestamps:\n00:00 Intro\n00:58 Is AI progress speeding up?\n04:44 Why Tyler is a little more cautious\n10:49 Could AI really double econom"
+  },
+  {
+   "id": "uMO3zS5FLoc",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "The Boomerang CEO(s): With MongoDB’s Dev Ittycheria",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=uMO3zS5FLoc",
+   "description": "Dev Ittycheria ran MongoDB for 11 years, took it from about $35 million in revenue to more than $2.3 billion, and retired. Ten months later his successor left, and within a week Dev was back in the chair. Since we recorded this, I’ve announced that I’m going back to HubSpot as CEO in addition to my work at Sequoia, so I’ve been replaying his advice with a lot more at stake.\n\nThe center of this conversation is Dev’s definition of the job, a framing he credits to former Palo Alto Networks CEO Mark McLaughlin. A CEO has three jobs: set the strategy, get the right people on the bus to execute it, and create an environment where they’re set up to win. A CEO can do a thousand things, and if they do 997 of them well and those three poorly, they’ve failed. Strategy doesn’t change that often, so mo"
+  },
+  {
+   "id": "HiDkG7MYSgg",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Understanding vibes is actually a skill",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=HiDkG7MYSgg",
+   "description": "The PM skill that you won't find in any job description | Tulsee Doshi (Head of Product, Gemini)"
+  },
+  {
+   "id": "WY0cdD4gNoQ",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Meta’s Muse: Inside the launch of the most successful consumer product this year | Mona Sarantakos",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=WY0cdD4gNoQ",
+   "description": "Muse is the #1 app in the App Store and arguably the fastest-growing AI consumer product of all time. Mona Sarantakos has led product on it since day one. She’s VP of Product at Meta Superintelligence Labs and a 10-year Meta veteran with over 20 years of experience as a PM. This is her first podcast interview.\n\n*We discuss:*\n1. How a weekend with OpenClaw on a Raspberry Pi turned into Muse\n2. Why Muse waited seven months to launch, despite getting started before most of its competitors\n3. How Nat Friedman, Alex Wang, and Mark Zuckerberg each left their imprint on the product\n4. How the team uses “agent swarms” to surface user insights at scale\n5. The use case nobody on the team predicted\n6. How Jolly, a placeholder avatar, became an icon\n7. The two levers that actually move activation for "
+  },
+  {
+   "id": "-PQpJAdp7gw",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How Hackers Got Into OpenAI’s Code and Anthropic’s Slack - Paul Christiano",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=-PQpJAdp7gw",
+   "description": ""
+  },
+  {
+   "id": "o7D3wiHnU4k",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How Fast Can AI Become an Expert?",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=o7D3wiHnU4k",
+   "description": ""
+  },
+  {
+   "id": "SyHM5hNPAEo",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "AIs might overthrow the government within a year – Paul Christiano",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=SyHM5hNPAEo",
+   "description": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He’s recently joined OpenAI’s board (though here he is speaking as a private citizen).\n\nPaul thinks that on the current trajectory (absent any slowing down), there is a 1 in 3 chance that we could have superintelligence powerful enough to overthrow the government within a year. (He articulates a concrete scenario).\n\nHe argues that the labs should pause further algorithmic progress until they can secure their weights and research secrets. Otherwise China could simply steal the superintelligence in the middle of the intelligence explosion, and the labs would no longer be able to slow down even if they sa"
+  },
+  {
+   "id": "7DO3mOl_OrI",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "AI’s math progress matters more for AI research than for math",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=7DO3mOl_OrI",
+   "description": ""
+  },
+  {
+   "id": "SeGUXN8XIu8",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "The Next 4 Years of AI Will Look Nothing Like the Last 4",
+   "published": "2026-11-15",
+   "url": "https://www.youtube.com/watch?v=SeGUXN8XIu8",
+   "description": ""
+  },
+  {
+   "id": "_wLzJINt9iQ",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "description": "Is the AI singularity actually coming? Bob McGrew, former Chief Research Officer at OpenAI, argues that superintelligence won’t arrive without changes in the physical world, and that the “hard takeoff” argument is wrong.\n\nSarah Guo and Elad Gil sit down with Bob, an early key executive at Palantir who later led research at OpenAI. He is now CEO and co-founder of Arda, which is leveraging AI to make American manufacturing competitive. Bob explains why automating AI researchers is a one-time boost rather than a runaway loop, and why GPUs, compute, wet labs, and factories are the real bottlenecks. \nThey cover Arda’s work with Anduril on everything from actuators to missiles to the Fury combat aircraft, why Arda is building “Cursor for manufacturing engineers”, and how the forward deployed eng"
+  },
+  {
+   "id": "KBdrDLKsW5w",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "How Close Are We to Treating Cancer and Heart Disease?",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=KBdrDLKsW5w",
+   "description": "When would most cancers be treatable?\n\nHere’s what Isomorphic Labs President Max Jaderberg expects in five years:"
+  },
+  {
+   "id": "H0Eb08kxYuY",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Who Should Own AI’s Discoveries?",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=H0Eb08kxYuY",
+   "description": "OpenAI or Anthropic owning every AI discovery? \n\nVlad Tenev calls that a bit dystopian:"
+  },
+  {
+   "id": "no6lv6pTJeU",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "How Cloudflare Thinks About AI Token Usage",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=no6lv6pTJeU",
+   "description": "“We don’t have a token leaderboard. We encourage people to focus on the output.”\n\nCloudflare CTO Dane Knecht on how Cloudflare thinks about AI tokens:"
+  },
+  {
+   "id": "v1X9Fqs5a14",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "GTA 6 and the Biggest Jewelry Thief in US History | Lex Fridman Podcast #505",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
+   "description": "Larry Lawton is one of the most notorious and prolific jewelry thieves in US history, who was eventually caught by the FBI, spent more than a decade in prison, including a lot of time in the hole, and then he turned his life around to run the Reality Check Program, that helps keep at-risk youth out of prison.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep505-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/larry-lawton-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in "
+  },
+  {
+   "id": "x0VSm6IjcDQ",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Scaling Linear's GTM to $100M+ ARR — Cristina Cordova, COO",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+   "description": "Over half the issues created in Linear now come from agents instead of people.\n\nI sat down with Cristina Cordova (COO at Linear) to talk about what that does to the software industry. They shipped an MCP server early, watched agents take over half the work, and then had to answer an uncomfortable question: if your product is mostly a database an agent writes to, why would humans open the app?\n\nA few things I didn't expect. Three weeks into the job she stood up at an offsite and crossed \"go enterprise\" off the company goals, and they didn't go after enterprise until two years later. They've never hired a single SDR, and they don't do forward deployed engineering.\n\nWe also got into the AI budget every startup is tapping into and why she thinks it's already tightening, what it takes to cannib"
+  },
+  {
+   "id": "wX8nDtGIfYA",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=wX8nDtGIfYA",
+   "description": "Anthropic reported $17B in quarterly revenue. What did it cost to get there? Tanay Jaipuria, a partner at Wing Venture Capital, opens the S-1 with swyx and explains how the picture changes when you count the compute spent on free users and model training.\n\nThe opening update walks through the preliminary IPO price range, Anthropic’s roadshow, Cowork adoption, the AMD inference slide, and where Claude Fable 5.2 and GPT-6.2 Astra landed on the leaderboard, with Fable demos in motion. Then Tanay gets into how Anthropic financed its growth, why it matters whether customers use Claude Code or buy tokens through a cloud partner, and how model labs might put spare compute to work.\n\nA Latent Space Lightning Pod. The interview was recorded November 6, 2026. The opening update was recorded November "
+  },
+  {
+   "id": "8cGfJOU3AlQ",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=8cGfJOU3AlQ",
+   "description": "A camera moves around a person. Halfway around, the model has to draw the back of a head it has never seen. How much can it learn about that missing view just by watching video? That’s the question we put to Andreas Blattmann and Dustin Podell of Black Forest Labs.\n\nTheir answer runs through FLUX 3. BFL trained one backbone on images, video and audio. The guests explain what each adds, how they decide which parts of denoising deserve the most compute, and why a detail that looks great in a still can flicker from frame to frame. We also get into the case for autoregression and where they think diffusion still has an edge.\n\nThere’s personal history here. Stable Diffusion is why Dustin left his software job and why swyx started Latent Space. They revisit the first FLUX training run in a Frenc"
+  },
+  {
+   "id": "mX7wHNnsghs",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "How to claim your business in ChatGPT with Shopify",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=mX7wHNnsghs",
+   "description": "Claim your business in ChatGPT by connecting your Shopify store. This demo shows how to start in Business Hub or the Shopify App Store, then connect your store directly to ChatGPT. After that, you can manage your business information to shape how you show up in ChatGPT.\n\nClaim your business in Business Hub\nhttps://chatgpt.com/business-hub\n\nConnect through the Shopify App Store\nhttps://apps.shopify.com/chatgpt"
+  },
+  {
+   "id": "X19Q12hmRjY",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "An underrated way to use ChatGPT: Finding a doctor",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=X19Q12hmRjY",
+   "description": "Your yearly checkups start with finding the right doctor. Magan Chin shares how she uses ChatGPT to find highly rated doctors nearby.\n\nTip by 💡:\nInstagram @genzbestie · TikTok @genzbestie_"
+  },
+  {
+   "id": "WGvsk0LIveU",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "3 ChatGPT Tips to Save Money",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=WGvsk0LIveU",
+   "description": "ChatGPT can help you find ways to save, whether you’re shopping for a desk chair or wondering what you’re still paying for after a free trial ends.\n\nLearn three ways to save money with ChatGPT. Use a product screenshot to compare prices before you buy, spot subscriptions you no longer use, and build a monthly budget that leaves room for things you enjoy.\n\nLooking for a better deal? Try ChatGPT before your next purchase: https://chatgpt.com/?utm_source=youtube&utm_medium=organic_social&utm_campaign=tips_to_save_money&utm_content=shopping_cta\n\nWant a closer look at your spending? Explore ChatGPT Finances: https://chatgpt.com/finances/?utm_source=youtube&utm_medium=organic_social&utm_campaign=tips_to_save_money&utm_content=finances_cta"
+  },
+  {
+   "id": "OSHSopaYjTw",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Create and Share a Dashboard in ChatGPT",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=OSHSopaYjTw",
+   "description": "Turn your analysis into a dashboard your team can use. Building on the fictional Acme sales example, this walkthrough brings quarterly metrics and customer follow-ups into one view.\n\nSee how to inspect the data behind a chart, edit its appearance, ask questions about the numbers, and refine the dashboard with annotations. The video also covers refreshes, matching your branding, and sharing through Sites with connected data.\n\nSites data connections and viewer access:\nhttps://learn.chatgpt.com/docs/sites/data-and-connections\n\nPublishing and sharing a Site:\nhttps://learn.chatgpt.com/docs/sites/publishing-and-sharing\n\nConnection and refresh options depend on your workspace and the data source.\n\nPart 4 of the Data Agent series."
+  },
+  {
+   "id": "JEgTn37Sk50",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Ask Questions About Your Data in ChatGPT",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=JEgTn37Sk50",
+   "description": "Prepare for a sales meeting by asking ChatGPT what changed in your data and which customers need attention. Using sample data from the fictional company Acme, this walkthrough compares quarterly sales, visualizes the segments behind the change, and explores customer orders alongside account notes.\n\nSee how to ask follow-up questions, check which sources ChatGPT is using, and turn the findings into a concise three-slide presentation for your team.\n\nExplore the Data plugin:\nhttps://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7\n\nPart 3 of the Data Agent series."
+  },
+  {
+   "id": "oJIuz3AFfEQ",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Connect Your Team’s Data to ChatGPT",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=oJIuz3AFfEQ",
+   "description": "Connect the data tools your team already uses to ChatGPT. This walkthrough is for workspace admins: enable the Data plugin, choose how teammates can install it, and explore the setup for a Snowflake connection.\n\nYou’ll also see how to add a custom plugin or MCP server and why connecting your team’s messages, email, and files gives ChatGPT more context for its answers.\n\nWorkspace setup and access:\nhttps://help.openai.com/en/articles/20001518-using-the-data-plugin-in-chatgpt-work-and-codex\n\nSnowflake setup guide:\nhttps://help.openai.com/en/articles/20001249-set-up-the-snowflake-app-template-in-chatgpt\n\nCustom MCP setup guide:\nhttps://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt\n\nPart 2 of the Data Agent series."
+  },
+  {
+   "id": "KrlfehIapEA",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Meet the Data Agent in ChatGPT",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=KrlfehIapEA",
+   "description": "Get started with the Data plugin in ChatGPT. Take a quick tour of how to ask questions about your data, create visualizations, build dashboards, and share reports with your team.\n\nSee where to find Data in the plugin marketplace, how it works with your files and connected tools, and the skills available for tasks like checking data quality, defining KPIs, and business analysis.\n\nExplore the Data plugin:\nhttps://chatgpt.com/plugins/Plugin_fc9843a6fb34819195d6c7802398a8a7\n\nPlugin availability depends on your workspace settings.\n\nPart 1 of the Data Agent series."
+  },
+  {
+   "id": "3_fayTbZrW8",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Create and Share a Report in ChatGPT Space",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
+   "description": "Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place.\n\nSee how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the findings you want to discuss.\n\nCreate and edit Pages:\nhttps://learn.chatgpt.com/docs/space/pages\n\nShare a Page or Space:\nhttps://learn.chatgpt.com/docs/space/collaboration#share-a-page-or-space\n\nPart 5 of the Data Agent series."
+  },
+  {
+   "id": "ikNf7eW8CHk",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
+   "description": "David Lee, Director of Innovation & Growth at Holiday Extras, calls his dot, Brian, on his morning commute. They talk through the meetings ahead, and Brian can have a report ready by the time David gets to his desk. His colleague Liam Thompson, VP of AI Innovation, calls his dot Beast. The day after Holiday Extras launched a new app feature, Beast checked how it was performing and brought Liam the numbers before he’d even asked. \n\nGet to know David, Liam and their dots in the Holiday Extras story:  https://openai.com/business/customer-stories/holiday-extras-dots/"
+  },
+  {
+   "id": "AhmCKHNqhB8",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Introducing ChatGPT for Accounting",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=AhmCKHNqhB8",
+   "description": "ChatGPT for Accounting helps take the busywork out of your month-end close.\n\nWatch how ChatGPT finds completed jobs in your email and drafts QuickBooks invoices for your review, flagging anything unclear along the way.\n\nThe Accounting plugin also helps you reconcile transactions, process invoices and receipts, and prepare monthly reports using your existing spreadsheets and connected accounting tools.\n\nLearn more about the plugins: \nhttps://openai.com/business/solutions/accounting"
+  },
+  {
+   "id": "2pdF52EVlbM",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "An underrated way to use ChatGPT: Life admin",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=2pdF52EVlbM",
+   "description": "Even ChatGPT researchers need a little help with life admin.\n\nIsa F. shares an underrated way she uses ChatGPT: keeping track of the details and making time for her next haircut."
+  },
+  {
+   "id": "pmOJIq7Ah00",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Introducing ChatGPT for Sales",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=pmOJIq7Ah00",
+   "description": "Spend less time on busywork and more time selling with ChatGPT for Sales.\n\nThe new Sales plugin and 30+ new and expanded partner plugins bring your customer context and sales tools together in ChatGPT. Prepare for calls, tailor proposals, and follow up faster with insights from the tools your team already uses.\n\nLearn more: https://openai.com/index/introducing-chatgpt-for-sales/"
+  },
+  {
+   "id": "tKoDPOrLMX0",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "Building 3D video sets with GPT-6.2 Astra",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+   "description": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use.\n\nRecreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background."
+  },
+  {
+   "id": "C1zYX5jwqq4",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+   "description": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale.\n\nGPT‑6.2 Astra sets a new quality bar for AI in complex professional work. Its slides, spreadsheets, and documents read less like AI, and more closely follow the templates you provide and the conventions of your field. It writes cleaner code and builds frontends that look and work better, particularly for websites, gaming, and 3D design.\n\nCompared with GPT‑6.1 Sol, GPT‑6.2 Sol is smarter, more efficient, and lets you "
+  },
+  {
+   "id": "ZIpm-0RczCk",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "How Revolut’s lean teams take on bigger challenges with OpenAI",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=ZIpm-0RczCk",
+   "description": "What can one engineer build when a project looks like it needs a whole team? At Revolut, an engineer used Codex to build an internal code review service himself. Its designers used Codex to turn seven years of design documentation into a format AI could read in a single day. OpenAI also helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer.\n\nRead the full story: https://openai.com/business/customer-stories/revolut/"
+  },
+  {
+   "id": "sof3vW4mHTs",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "The making of Anthropic",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+   "description": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. \n\nTold by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah."
+  },
+  {
+   "id": "JDsFHmq9hlA",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "What we make of this moment, will make this moment.",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
+   "description": "What we* make of this moment, will make this moment.\n\n*a food bank in Texas, a PhD student in Tokyo with a floating fish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more."
+  },
+  {
+   "id": "FORdPIWOH5k",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=FORdPIWOH5k",
+   "description": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. \n\nIn this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves, and the topic on everyone's mind: recursive self-improvement (RSI).\n\n00:00 Introduction \n01:26 Evolution of Google DeepMind\n04:41 Products as a path to AGI\n13:01 Architectures and models \n24:40 Recursive self improvement \n30:50 Safety and agent teams \n40:35 Benchmarks \n\n___\n\nSubscribe to our cha"
+  },
+  {
+   "id": "pVc6KkjeCfU",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Behind the scenes with Genie 4",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=pVc6KkjeCfU",
+   "description": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. \n\nInstead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in seconds, navigate scenes with keyboard controls, and direct action on the fly with live prompts. Using the built-in agent in Project Genie, the team also built custom apps mapped to keyboard hotkeys—triggering character movement, dialogue, and events in real time—and used prompts as repeatable seeds for everything from creative prototyping to robotics training environments.\n\nGenie 4 is now available in Project Genie, starting with eligible Google AI Ultra subscribers.\n\nTeam: Google DeepMind, S"
+  },
+  {
+   "id": "EDp4IoAUsXY",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Introducing the new Project Genie, powered by Genie 4",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=EDp4IoAUsXY",
+   "description": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4.\n\nProject Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your browser:\n\n• Shape worlds in real time with Genie 4: Trigger dynamic events using natural language—like shifting the weather, introducing new characters, or changing the action mid-session—complete with simulated physics, natural lighting, and native scene-matched audio and character dialogue.\n\n• Build with the Project Genie agent: Describe the story or simulation you want to create, and the new agent generates starting visuals and custom background music, while Gemini observes in-session to sugges"
+  },
+  {
+   "id": "Hgv4wjYXHKw",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "AI is more than a better way to search.",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=Hgv4wjYXHKw",
+   "description": "Over a drink with NVIDIA’s Chris Alexiuk, Langdock Co-CEO Judith Dada shared why AI’s biggest impact may be felt in better services, better products, and healthier, more affordable lives."
+  },
+  {
+   "id": "N5YwZjN4_oI",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Europe’s AI Future With Judith Dada | Pub Conversations",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=N5YwZjN4_oI",
+   "description": "What does Europe need to get right about AI?\n\nLangdock Co-CEO Judith Dada joins NVIDIA’s Chris Alexiuk to talk about Europe’s AI future, from building computing infrastructure to bringing AI’s benefits to everyday life.\n\nThey discuss her move from venture capital to Langdock, the scenario she co-wrote in Europe 2031, and why human dignity matters as AI becomes more capable.\n\nLearn more about Judith’s work at Langdock: \n\nhttps://www.linkedin.com/company/langdock/\nhttps://www.youtube.com/channel/UCpyyPBQpoAD72zrZCWXPFhg\nhttps://www.instagram.com/langdock_se/\nhttps://x.com/langdock\n\nJudith:\nhttps://www.linkedin.com/in/judith-dada/\nhttps://www.instagram.com/jloladada\nhttps://x.com/DadaJudith\n\nPub Conversations brings people together over a drink to talk about AI, their work, and what comes nex"
+  },
+  {
+   "id": "xkSVuGruhgE",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Think childproofing, but for AI.",
+   "published": "2026-11-19",
+   "url": "https://www.youtube.com/watch?v=xkSVuGruhgE",
+   "description": "Hugging Face co-founder Thomas Wolf explains why AI assistants need limits on what they can access and do.\n\nListen to the NVIDIA AI Podcast with ServiceNow’s Amanda Grady and NVIDIA’s Carter Abdallah:"
+  },
+  {
+   "id": "2Y3e3RYNjFk",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "AI is getting better at figuring out how software works. Even when the code is hidden.",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=2Y3e3RYNjFk",
+   "description": "So what does that mean for security? \n\nHugging Face and ServiceNow get into it on the NVIDIA AI Podcast."
+  },
+  {
+   "id": "uJG53ligJt4",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "NVIDIA SC26 Special Address",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=uJG53ligJt4",
+   "description": "Scientific computing is entering the era of agentic AI.\n\nBringing simulation, AI, and agents together gives researchers new ways to tackle complex problems and accelerate scientific discovery.\n\nWatch Ian Buck, VP of Hyperscale and HPC at NVIDIA, highlight the latest cutting-edge breakthroughs revolutionizing the scientific computing community. \n\nhttps://blogs.nvidia.com/blog/ian-buck-sc26/ \nhttps://blogs.nvidia.com/blog/sc26-wrapup"
+  },
+  {
+   "id": "gn_LIY2D2Ag",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "The AI Podcast is back.",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=gn_LIY2D2Ag",
+   "description": "The AI Podcast is back.\n\nHugging Face’s Thomas Wolf and ServiceNow’s Amanda Grady join us to discuss why building in the open matters for AI safety.\n\nBecause sharing code means more people can help identify problems and fix them.\n\nListen on your favorite podcast platform or watch on YouTube: https://youtu.be/y9AALMeAeGI?si=zARxzOBGTaG28Jql"
+  },
+  {
+   "id": "y9AALMeAeGI",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Can Open Source Make AI Agents Safer?",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
+   "description": "Hugging Face co-founder Thomas Wolf and ServiceNow’s Amanda Grady, SVP of AI Platform Security, join the NVIDIA AI Podcast to explain how to keep AI agents safe when telling a model “please don’t” is no longer enough.\n\nThey cover why firm boundaries beat persuadable models, what happened when Hugging Face was attacked by a swarm of AI agents, and why security is what lets companies put agents to real work. This is the 15-minute best-moments edit. The full-length episode is on your favorite podcast platform! \n\nIn this episode:\n0:16 Why guardrails inside the model aren’t enough\n2:00 The attack on Hugging Face, and why open models mattered\n3:28 Agent identity and the AI Passport\n6:03 Security as an unlocker for AI\n8:33 Why open source is more secure, not less\n10:59 Physical AI and the micro-d"
+  },
+  {
+   "id": "E3Hy-WRJbXE",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "NVIDIA cuPhoton Brings Real-Time Black Hole Science to GPUs",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=E3Hy-WRJbXE",
+   "description": "NVIDIA cuPhoton moves the scientific data pipeline onto GPUs, helping researchers study black holes as events unfold.\n\n- Eight radio observatories worked together as a virtual telescope the size of Earth to capture the first image of a black hole in the M87 galaxy\n- cuPhoton streams only the data needed for black hole jets and overlaps loading with signal processing, reconstruction, analysis and visualization, all of which AI agents can run\n- It speeds up data loading by up to 3,700x and correlation by up to 460x, scaling across multi-node systems powered by the NVIDIA Vera Rubin platform\n- Data can now be acquired at rates up to 345 GHz, cuPhoton reduces months of compute to minutes and  help  resolve the light rings around black hole\n\nLearn More: https://www.nvidia.com/en-us/high-perform"
+  },
+  {
+   "id": "uGZO6I-CJtM",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
+   "description": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway.\n\nInstead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time.\n\n- Streams hundreds to thousands of gigabits of instrument data per second into GPU memory\n- Berkeley Lab’s Molecular Foundry uses DAQIRI to stream over 500 Gb/s from a new camera, delivering results during the experiment\n- Enables live scan analysis, telescope signal characterization, experiment guidance, and synchronized interactive digital twins\n\nLearn More: https://developer.nvidia.com/daqiri"
+  },
+  {
+   "id": "v2I4vqz87fk",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "20 Years of CUDA: Honoring the Architects of Progress",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=v2I4vqz87fk",
+   "description": "For 20 years, pioneers, researchers, developers, and creators have changed the world with CUDA.\n\nNVIDIA announced CUDA in 2006 as a different way to compute - giving developers direct access to the parallel power of the GPU.\n\nTwo decades later, the CUDA platform is enabling work in scientific computing, professional visualization, autonomous vehicles, drug discovery and healthcare, generative AI, robotics and more.\n\nToday, more than 11 million developers are leveraging CUDA for their work and a new generation of students, researchers and builders continue to shape the future. We’re celebrating 20 years of CUDA and honoring the architects of progress.\n\n#CUDA #SC26 #NVIDIA"
+  },
+  {
+   "id": "ha-gDrDm8Es",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "From AI Factories to Intelligent Cities",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es",
+   "description": "AI factories, physical AI, and agents, built with local partners are helping cities improve  planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation.\n\n#SCEWC26 #SmartCities #aiagents \n\n➡️ Learn more: https://nvda.ws/3Vb9wWH"
+  },
+  {
+   "id": "yI0f-tK7BDw",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "GraphRAG: Beyond Search",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=yI0f-tK7BDw",
+   "description": "GraphRAG is a Microsoft Research approach that uses large language models and knowledge graphs to help AI uncover relationships, themes, and insights across complex collections of information. This video explores how GraphRAG enables more comprehensive, context-rich answers to questions that traditional retrieval-augmented generation (RAG) systems can struggle to address.\n\nThe evolution of GraphRAG: https://www.microsoft.com/en-us/research/story/the-evolution-of-graphrag-advancing-systems-and-evaluation-together/"
+  },
+  {
+   "id": "40EmWY5nBYo",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "The evolution of GraphRAG",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=40EmWY5nBYo",
+   "description": "GraphRAG is a Microsoft Research approach that uses large language models and knowledge graphs to help AI uncover relationships, themes, and insights across complex collections of information. This video explores how GraphRAG enables more comprehensive, context-rich answers to questions that traditional retrieval-augmented generation (RAG) systems can struggle to address.\n\nThe evolution of GraphRAG: https://www.microsoft.com/en-us/research/story/the-evolution-of-graphrag-advancing-systems-and-evaluation-together/"
+  },
+  {
+   "id": "K1iNbVIFcJE",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Can AI help build a healthier future?",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=K1iNbVIFcJE",
+   "description": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more.\n\nShow notes: https://www.microsoft.com/en-us/research/podcast/can-ai-help-deliver-the-health-breakthroughs-we-need/\nThe Shape of Things to Come podcast series: https://www.microsoft.com/en-us/research/story/the-shape-of-things-to-come/"
+  },
+  {
+   "id": "4fQW__mvEcs",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Mad Money 11/20/26 | Audio Only",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=4fQW__mvEcs",
+   "description": "Listen to Jim Cramer’s personal guide through the confusing jungle of Wall Street investing, navigating through opportunities and pitfalls with one goal in mind - to help you make money.\n\nFor access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g\n\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Watch CNBC on the go with CNBC+: https://www.cnbc.com/WatchCNBCPlus\n\n\nTurn to CNBC TV for the latest stock market news and analysis. From market futures to live price updates CNBC is the leader in business news worldwide.\n\nConnect with CNBC News Online\nGet the latest news: http://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/Instagr"
+  },
+  {
+   "id": "PUZSFuGDkEo",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Market Close: Ugly Wall Street Fall, Major Averages in Correction, Anthropic Drops • 11/20/26",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=PUZSFuGDkEo",
+   "description": "CNBC Business News Update with Jessica Ettinger - Markets & Business News With Expert Analysis From Top Business Names. Visit CNBC.com For More.\n\nFor access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g\n\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Watch CNBC on the go with CNBC+: https://www.cnbc.com/WatchCNBCPlus\n\n\nTurn to CNBC TV for the latest stock market news and analysis. From market futures to live price updates CNBC is the leader in business news worldwide.\n\nConnect with CNBC News Online\nGet the latest news: http://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/InstagramCNBC\nFollow CNBC News on Facebook: https"
+  },
+  {
+   "id": "nDiqt15QiVQ",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Closing Bell panel weighs whether the selloff is a buying opportunity",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=nDiqt15QiVQ",
+   "description": "Cameron Dawson, NewEdge Wealth CIO, and Kevin Gordon, Schwab Center for Financial Research, join 'Closing Bell' with reaction the the day's selloff."
+  },
+  {
+   "id": "jeweqVGk3M8",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Alphabet outperforms Mag 7 peers amid tech sell-off",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=jeweqVGk3M8",
+   "description": "CNBC’s MacKenzie Sigalos reports on why Alphabet is holding up better than its Mag 7 peers amid a sharp tech sell-off."
+  },
+  {
+   "id": "ar9X778_Kjw",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "'We Have To Know Why': Philanthropist Priscilla Chan’s Bold Bet On Rare Disease",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=ar9X778_Kjw",
+   "description": "In just a decade, rare disease groups have gone from not understanding certain genetic mutations to bringing gene therapies into clinical trials. Priscilla Chan joins Becky Quick to discuss rare disease research, personalized medicine and how AI could help advance biomedicine and science.\n\nChan and her husband, Mark Zuckerberg, the founder of Meta, co-founded the Chan Zuckerberg Initiative (CZI) and Biohub, both with a core mission of curing, preventing, or managing all disease. Drawing on her background as a pediatrician, Chan explains how rare disease groups are building research programs, patient registries and clinical trials, and how this work could point to new approaches for treating diseases more broadly.\n\nIn this episode:\n00:26 Introduction\n03:02 Priscilla’s Road to Rare\n13:07 Bui"
+  },
+  {
+   "id": "w_bkVIHqnEE",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Holiday deals: Can you trust AI to find them?",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=w_bkVIHqnEE",
+   "description": "Artificial intelligence shopping tools can help consumers compare prices and find gift ideas, but experts say shoppers still need to verify unfamiliar retailers and sellers before buying. Scammers can use AI to make fake stores, product photos and reviews look convincing.\n\nCNBC's Sharon Epperson has the latest on how to avoid AI scammers this holiday season."
+  },
+  {
+   "id": "jvSpZhK9QfY",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Without a recession, this is a correction not a bear market, says Ed Yardeni",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=jvSpZhK9QfY",
+   "description": "Ed Yardeni, Yardeni Research President, and David Lefkowitz, UBS Global Wealth Management head of equities Americas, joins 'Power Lunch' with reaction to the day's selloff."
+  },
+  {
+   "id": "2da3M3l3sfU",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "The Pentagon's Emil Michael on AI and cyber efforts",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=2da3M3l3sfU",
+   "description": "Emil Michael, Undersecretary of Defense for Research and Engineering, joins CNBC's “Squawk on the Street” to discuss the administrations cyber efforts and how they plan on improving within the next quarter."
+  },
+  {
+   "id": "7yuxLar3WEA",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Navigating a falling market: The Investment Committee's strategy",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=7yuxLar3WEA",
+   "description": "The Investment Committee debate how to trade a falling market following the historic Anthropic IPO and Nvidia's continued weakness amid it's various scandals."
+  },
+  {
+   "id": "P-Aej5E1S0A",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Would be unprecedented to see final bottom on S&P with Apple where it is: BTIG’s Jonathan Krinsky",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=P-Aej5E1S0A",
+   "description": "Jonathan Krinsky, BTIG chief market technician, joins 'The Exchange' to discuss Apple stock, market volatility and more."
+  },
+  {
+   "id": "XC02cQqB5Uk",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Top tech investor Dan Niles on Anthropic: You can make an argument that IPO didn't go great",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=XC02cQqB5Uk",
+   "description": "Dan Niles, Niles Investment Management founder and portfolio manager, joins 'Squawk on the Street' to discuss the S&P and Nasdaq pacing for the worst month since March 2025, Anthropic's share price, and more."
+  },
+  {
+   "id": "HePmHD3xZuM",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=HePmHD3xZuM",
+   "description": "President Donald Trump on Friday said U.S. companies will either be banned from building data centers in other countries, or will face a “tremendous tax” penalty if they do so."
+  },
+  {
+   "id": "djyc-rPqBV4",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Nvidia's legal woes are adding up: What you should know",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=djyc-rPqBV4",
+   "description": "CNBC's Seema Mody joins 'The Exchange' to discuss Nivida's legal woes and how Wall Street is responding."
+  },
+  {
+   "id": "1jSLdV-Aocs",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Anthropic stock falls in first full day of trading following record-breaking IPO",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=1jSLdV-Aocs",
+   "description": "Anthropic shares fell on Friday after a historic Nasdaq debut, as concerns about artificial intelligence trade continued to drag tech stocks lower."
+  },
+  {
+   "id": "xKDzMYHi-uw",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "President Trump holds a news conference at the White House after Asia trip — 11/20/2026",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=xKDzMYHi-uw",
+   "description": "President Donald Trump on Friday holds a news conference from the White House after returning from the APEC summit. \n\nThe highlight of this week’s APEC summit in Shenzhen was a trilateral meeting Thursday between Trump, Chinese President Xi Jinping and Russian President Vladimir Putin. The three leaders, meeting together for the first time, reaffirmed interests in reducing nuclear risks and plans to increase oil production.\n\nFor access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g\n\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Watch CNBC on the go with CNBC+: https://www.cnbc.com/WatchCNBCPlus\n\nTurn to CNBC TV for the latest stock market news and analysis. From market futures to live "
+  }
+ ]
+}
