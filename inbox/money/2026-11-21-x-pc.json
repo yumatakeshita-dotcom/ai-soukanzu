@@ -49,6 +49,30 @@
     ]
    ],
    "confidence": "報道"
+  },
+  {
+   "from": "Google",
+   "to": "Howie(AI日程調整アシスタント。米国シアトル)",
+   "kind": "買収",
+   "amount": "非公開",
+   "date": "2026-11-16",
+   "region": "米国",
+   "note": "Google LabsがXで発表、Bloombergが最初に報道。チームはGoogle Labsに合流。GeekWireの投稿(11/20)をPCのブラウザで読み、複数の報道で確認。金額は非公開。",
+   "src": [
+    [
+     "GeekWire 公式X(2026-11-20)",
+     "https://x.com/geekwire/status/2123712211248103841"
+    ],
+    [
+     "Google buys Howie, an AI assistant that books your meetings(The Next Web)",
+     "https://thenextweb.com/news/google-labs-buys-howie-ai-scheduling-agent"
+    ],
+    [
+     "Google Buys AI Scheduler Howie(Channel Insider)",
+     "https://www.channelinsider.com/ai/news-google-acquires-howie-ai-scheduling/"
+    ]
+   ],
+   "confidence": "報道"
   }
  ],
  "notes": "Xの見る一覧の読み取りから。Databricksが約2,250億ドル評価額で調達協議(WSJ、Techmeme経由)とRemanenceの3,000万ドルシードは別の出典で確かめられず、今回は足さない。"
