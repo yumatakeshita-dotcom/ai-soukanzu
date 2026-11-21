@@ -26,3 +26,8 @@ This is f*cking insane. Anthropic engineer: "Prompting is basically over. 95% of
 2. 今やっている小さな作業を1つ選ぶ(例: 毎朝のXの読み取り)
 3. 「やる→確認する→直す」を1つのループにして、Claudeに回させる
 4. 人が見るのは最後の結果だけにする(今回の相関図の仕事で、毎朝の定期タスクがこれに近い)
+
+## 追記(2026-11-21)
+- 引用元のHanakoさん(@hanakoxbt)は、同じ型の投稿を別の人物名で繰り返している(9/12は「Sam Altman」、11/6は「Grok」)。「◯◯が言った」の肩書きは、公式の出典で確かめるまで信じない
+- 記事の本文はXの画面から読めなかった(検索で題名の冒頭だけ)
+- 翻訳ページ: Claudeのページ(アーティファクト)として公開。元のHTMLは `docs/translate_page_source.html`
