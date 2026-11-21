@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-22",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "辻 高宏",
+   "name_ja": "",
+   "from": "株式会社LITALICO (元取締役副社長CFO)",
+   "to": "株式会社プレイド",
+   "role": "執行役員 CFO (Chief Financial Officer)",
+   "date": "2026-07",
+   "note": "(Gemini調査・自動の確かめを通過)",
+   "src": [
+    [
+     "plaid.co.jp",
+     "https://plaid.co.jp/company/leadership/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "保留をやり直して、scripts/gemini_verify.py の確かめを通ったもの"
+}

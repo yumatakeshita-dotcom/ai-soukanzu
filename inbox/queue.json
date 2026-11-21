@@ -8,10 +8,18 @@
    "theme": "出典の付いていない人の移籍を、公式発表・本人の投稿・SEC書類・大手報道で確かめて出典を足す対象を探す(OpenAI・Anthropic・Meta・xAI の幹部の入社・退社)",
    "reason": "出典なしの移籍が143件あるため(2026/11/20の集計)",
    "priority": 1,
-   "status": "未",
-   "last_researched": null,
-   "attempts": 0,
-   "history": [],
+   "status": "調査済",
+   "last_researched": "2026-11-22",
+   "attempts": 1,
+   "history": [
+    {
+     "date": "2026-11-22",
+     "result": "調査済",
+     "file": "inbox/gemini/2026-11-22-2.md",
+     "note": "Geminiの候補10件",
+     "items": 10
+    }
+   ],
    "added": "2026-11-20"
   },
   {

@@ -4,6 +4,100 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-22-3　Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年
+
+- モデル: gemini-2.5-flash　/　候補 8件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic IPO 2026 状況
+- Nvidia Jensen Huang 2026 発表
+- Apple AI エージェント 開発 2026
+- DHH a16z AI エージェント 2026
+- Fractile Kindo Model ML AI スタートアップ 投資家 2026
+- Fractile AI 資金調達 2026
+- Kindo AI 投資家 2026
+- Model ML AI スタートアップ 競合 2026
+- AI スタートアップ 大型投資 2026-11
+
+**出てきた候補**
+
+- NVIDIA → 退任 → (2026-11-12)
+- NVIDIA → 就任 → (2026-11-12)
+- NVIDIA → 就任 → (2026-11-12)
+- Anthropic → 新規株式公開 (IPO) → NASDAQ(2026-11-19)
+- Google → 出資 → Anthropic(2026-11-19)
+- NVIDIA → 出資 → Anthropic(2026-11-19)
+- Fractile → 出資 → (2026-11-11)
+- Apple → 開発 → 自律型AIエージェント(2026-11-17)
+
+記録ファイル: inbox/gemini/2026-11-22-3.json / 2026-11-22-3.md
+
+## 2026-11-22-2　出典の付いていない人の移籍を、公式発表・本人の投稿・SEC書類・大手報道で確かめて出典を足す対象を探す(OpenAI・Anthropic・Meta・xAI の幹部の入社・退社)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- xAI executive departures 2026 official
+- xAI new hires leadership 2026 official
+- Meta AI executive changes 2026 official
+- Anthropic executive movements 2026 official announcements
+- OpenAI leadership changes 2026 official news
+- OpenAI executive joins xAI
+- Anthropic executive joins Meta
+- Meta executive joins Anthropic
+- xAI executive joins OpenAI
+
+**出てきた候補**
+
+- OpenAI → 移籍 → Mike Liberatore(2025-09-16)【保留】
+- OpenAI → 移籍 → Graham Seamans(2026-10)【除外】
+- OpenAI → 移籍 → Uday Ruddarraju(2025-07-10)【保留】
+- OpenAI → 移籍 → Brent Mayo(2026-07)【保留】
+- Anthropic → 移籍 → Andrej Karpathy(2026-05-19)【除外】
+- Meta → 退任 → Yann LeCun(2026-03)【除外】
+- Meta → 就任 → Alex Schultz(2026-07-01)【保留】
+- Meta → 就任 → Denise Moreno(2026-07-01)【保留】
+- xAI → 退任 → Igor Babuschkin(2026-02)【保留】
+- xAI → 就任 → Michael Nicolls(2026-04)【保留】
+
+記録ファイル: inbox/gemini/2026-11-22-2.json / 2026-11-22-2.md
+
+## 2026-11-22　直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- AI startup funding November 2026
+- venture capital AI investments November 15-22 2026
+- AI funding rounds last week November 2026
+- new AI funds November 2026
+- AI company acquisitions November 15-22 2026
+- AI M&A last week November 2026
+- AI company partnerships November 15-22 2026
+- AI executive moves November 15-22 2026
+- Anthropic IPO November 2026 news
+- Nvidia news November 2026 Jensen Huang
+- Apple AI agent November 2026
+- David Heinemeier Hansson AI project November 2026
+
+**出てきた候補**
+
+- Anthropic → 上場 → Nasdaq(2026-11-20)【除外】
+- NVIDIA Corporation → 出資 → Anthropic(2026-11-20)【合格】
+- Google LLC → 出資 → Anthropic(2026-11-20)【合格】
+- Advanced Micro Devices, Inc. → 出資 → Anthropic(2026-11-20)【合格】
+- Starfire Ventures → ファンド設立 → (2026-11-16)【保留】
+- Creandum → ファンド閉鎖 → Fund VIII(2026-11)【保留】
+- Greenoaks → 出資 → Isomorphic Labs(2026-11-21)【除外】
+- Premji Invest → 出資 → Genesis AI(2026-11-21)【除外】
+- General Atlantic → 出資 → Model ML(2026-11-21)【除外】
+- Info Edge Group → 出資 → Bharat Semi(2026-11-15)【保留】
+
+記録ファイル: inbox/gemini/2026-11-22.json / 2026-11-22.md
+
 ## 2026-11-21-3　ベトナムのAIスタートアップの資金調達 2026年11月
 
 - モデル: gemini-2.5-flash　/　候補 2件
