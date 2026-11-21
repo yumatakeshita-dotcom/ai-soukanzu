@@ -17,3 +17,8 @@
 5. 状態を `mark` で記録。入れたら `done`、確認できないものは `unverified` に理由つき(例:報道が1件だけ・日付が合わない・見つからない)。削除はしない
 6. `python3 scripts/media_backlog.py status` で README を更新 → `python3 scripts/merge_inbox.py` → commit して main に push
 7. 報告は「確かめた○件・入れた○件・確かめられなかった○件・残り○件」の1行
+
+## 出演の意味の「joins」を除いた(2026/11/21)
+- 確かめて外れた288件のうち259件(9割)は、「○○ joins the show / joins 司会者…」という出演の意味で、移籍ではなかった
+- `media_digest.py` の `join_move()` が、「joins ... as / to lead」の形(説明文も見る)か、題名で「joins 会社名」と直接続く形(続きが to discuss・for・on などでないもの)のときだけ移籍の手がかりとして数える。`media_backlog.py` も同じ判定を使う
+- すでにリストにあった未確認のうち、出演の意味だけだった34件は、状態を checked にして理由を書いた(消していない)。毎日の手がかりのまとめは51本→40本に減った
