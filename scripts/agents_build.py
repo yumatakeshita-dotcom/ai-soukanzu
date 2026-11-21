@@ -64,7 +64,7 @@ def build_md(d):
         for a in d['agents']:
             if a['group'] != grp:
                 continue
-            L += [f'### {a["name"]}', '', f'{a["tagline"]}', '',
+            L += [f'### {a["name"]}' + (' (計画中)' if a.get('status') == '計画中' else ''), '', f'{a["tagline"]}', '',
                   f'- 担当範囲: {a["scope"]}',
                   '- 情報源: ' + ' / '.join(a['sources']),
                   f'- 動く時間: {a["when"]}',
@@ -138,7 +138,7 @@ def build_html(d):
         note = f'<p class="note">補足: {esc(a["note"])}</p>' if a.get('note') else ''
         cards.append(f'<section class="card" id="{esc(a["id"])}" data-g="{esc(a["group"])}">'
                      f'<h3>{esc(a["name"])}</h3><p class="tag">{esc(a["tagline"])}</p>'
-                     f'<div><span class="pill">{esc(a["group"])}</span><span class="pill when">{esc(a["when"].split("/")[0].strip())}</span></div>'
+                     f'<div><span class="pill">{esc(a["group"])}</span>{'<span class="pill" style="color:var(--warn);border-color:var(--warn)">計画中</span>' if a.get('status')=='計画中' else ''}<span class="pill when">{esc(a["when"].split("/")[0].strip())}</span></div>'
                      f'<dl>{dl}</dl>{note}</section>')
     tl = ''.join(f'<tr><td>{t}</td><td>{esc(day)}</td><td>{esc(who)}</td><td>{esc(name)}</td></tr>' for _, t, day, who, name in timeline(d))
     g = d['gemini_budget']
