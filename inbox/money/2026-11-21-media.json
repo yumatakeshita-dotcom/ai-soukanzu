@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Altimeter Capital・Accel・Khosla Ventures",
+   "to": "Arda",
+   "kind": "出資",
+   "amount": "$230M(Series A 約$160M・評価額 約$15億。累計約$232M)",
+   "date": "2026-10-20",
+   "note": "元OpenAI研究責任者のBob McGrewらが作った工場向けAI『Arda』が2026/10/20に公開。Altimeter・Accel・Khoslaが主導、XYZ・8VC・SV Angel・Felicisも参加。顧客にAnduril。2026/11/19の動画(No Priors)の手がかりから探し、報道の検索結果で確認。記事の本文は取得できず、複数の報道の要約が一致した範囲のみ。金額は報道間で$230M/$232Mの差あり(Series Aは$160M、累計$232Mという本人の説明)",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+   "src": [
+    ["The Next Web(2026/10)", "https://thenextweb.com/news/arda-bob-mcgrew-232m-1-5bn-ai-manufacturing"],
+    ["AI Weekly(2026/10)", "https://aiweekly.co/alerts/bob-mcgrews-ai-manufacturing-startup-arda-raises-230m-at-15b-led-by-altimeter"]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  }
+ ]
+}
