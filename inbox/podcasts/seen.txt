@@ -32,3 +32,17 @@ c42fd7e8-c97a-11f1-9218-3bcfa8b7014c|How I Built This|2026-11-19|Jensen Huang: T
 758822cc-e2dd-11f1-9a55-87cd37c9fb74|How I Built This|2026-11-18|Exciting News: More How I Built This is on the Way!
 12b12692-e163-11f1-9dcc-0b90b15efe79|How I Built This|2026-11-16|Good Culture: How Jesse Merrill Made Cottage Cheese Cool
 7bb21354-e2df-11f1-b9e1-4b3123b2b267|The Colin and Samir Show|2026-11-18|How Raj Shamani Built YouTube’s #1 Podcast
+7dc28d5e-c137-4739-83c7-65bead01ea11|20VC|2026-11-19|20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fr
+d58483f7-f3a8-4375-b3ca-9f357ff95d41|20VC|2026-11-16|20VC: Jev Creator on Why Data Is More Important Than Compute | Will US Open-Source Models Catch Chin
+2287a085-1a53-4fbc-8983-a411da9c85f8|20VC|2026-11-14|20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex S
+substack:post:225196123|Dwarkesh Podcast|2026-11-16|Paul Christiano – We could be 12 months away from AIs that can overthrow the government
+87f8e24a-476f-4565-88fb-9e5ee7549ece|All-In|2026-11-20|Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?
+22b845c5-e5be-4dd1-b4dd-7f3843120d12|All-In|2026-11-17|Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate
+ 01a1f60c-1b1f-7366-a794-20e0b0bcdc8a |Latent Space|2026-11-19|Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO
+youtube:wX8nDtGIfYA|Latent Space|2026-11-18|⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC
+ 01a1e632-c02d-713d-a840-cae7f745d45e |Latent Space|2026-11-16|Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
+4364f8cd-e957-44ef-9795-b5070115b19e|Odd Lots (Bloomberg)|2026-11-20|How an American AI Company Uses Chinese Open-Weight Models
+53c36daa-840c-48b3-b071-b5070021e016|Odd Lots (Bloomberg)|2026-11-19|This Is The Problem With AI's Most Bullish Chart
+8dad6dc9-ed8d-497d-8cde-b50501578aa2|Odd Lots (Bloomberg)|2026-11-18|How GTA VI Became the Most Expensive Video Game Ever Made
+4bf9cb81-2185-4513-8d9c-b5010173862f|Odd Lots (Bloomberg)|2026-11-16|The Impossible Trilemma That Hangs Over the Nvidia Crisis
+9d24ac51-fef1-4f4e-8cda-b501016c2b98|Odd Lots (Bloomberg)|2026-11-14|How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era
