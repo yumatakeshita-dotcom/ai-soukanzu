@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-20",
+ "kind": "money",
+ "items": [
+  {
+   "from": "",
+   "to": "Z Creative Partners",
+   "kind": "出資",
+   "amount": "5000万円",
+   "date": "2026-11-13",
+   "note": "生成AIによるブランド評価を可視化・分析する技術開発(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "sogyotecho.jp",
+     "https://sogyotecho.jp/news/20261116z-creative-partners/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "AMD",
+   "to": "Taalas",
+   "kind": "買収",
+   "amount": "",
+   "date": "2026-11-17",
+   "note": "AI推論プラットフォーム強化のため(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "ai.watch.impress.co.jp",
+     "https://ai.watch.impress.co.jp/docs/news/2157777.html"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "",
+   "to": "STRACT",
+   "kind": "出資",
+   "amount": "約12億円",
+   "date": "2026-11-18",
+   "note": "AIショッピングアプリ「DONDO」およびEC運営AIエージェント「ureteku AI」の機能開発などに活用(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "sogyotecho.jp",
+     "https://sogyotecho.jp/news/20261119stract/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-19.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}

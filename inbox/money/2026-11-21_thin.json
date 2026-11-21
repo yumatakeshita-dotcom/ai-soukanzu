@@ -1,0 +1,85 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Tencent・CATLほか",
+   "to": "DeepSeek",
+   "kind": "出資",
+   "amount": "約1000億元(約150億ドル)の第2ラウンド。報道で数字に幅あり(800億元〜1055億元)",
+   "date": "2026-10-30",
+   "region": "中国",
+   "backfill": true,
+   "note": "2026-10の分。10/6にBloombergが「800億元以上」と報じ、その後約1000億元で完了と報道(完了日は10/30とする報道)。会社の公式発表は確認できず。本文は開けず検索結果の要約で確認(報道ベース)",
+   "src": [
+    [
+     "DeepSeek Closes $16B Second Round at $74 Billion Pre-Money(AI Weekly)",
+     "https://aiweekly.co/alerts/deepseek-closes-16b-second-round-at-74-billion-pre-money"
+    ],
+    [
+     "DeepSeek to raise at least $12 billion in Tencent-backed funding(Khaleej Times)",
+     "https://www.khaleejtimes.com/business/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "(複数の投資家)",
+   "to": "Moonshot AI(Kimi)",
+   "kind": "出資",
+   "amount": "評価額約500億ドルの非公開ラウンド(調達額は報道なし)",
+   "date": "2026-10-06",
+   "region": "中国",
+   "backfill": true,
+   "note": "2026-10の分。Bloombergが評価額約500億ドルで完了と報道、2027年初めの香港上場を目指す。調達額は不明。本文は開けず検索結果の要約で確認(報道ベース)",
+   "src": [
+    [
+     "Moonshot AI eyes Hong Kong IPO after $50 billion valuation(Euronews, 2026-10-06)",
+     "https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital"
+    ],
+    [
+     "Moonshot is chasing a $50bn valuation(The Next Web)",
+     "https://thenextweb.com/news/moonshot-50-billion-pre-ipo-raise-kimi-k3"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Upstage",
+   "to": "Cohere",
+   "kind": "支援",
+   "amount": "",
+   "date": "2026-11-17",
+   "region": "韓国",
+   "note": "提携(各国のデータ管理に合わせたAIを共同開発)。金額なし。既存の続報ではなく新規。本文は開けず検索結果の要約で確認(報道ベース)",
+   "src": [
+    [
+     "Upstage, Cohere build AI tailored for national data control(Korea Times, 2026-11-17)",
+     "https://www.koreatimes.co.kr/business/companies/20261117/upstage-cohere-build-ai-tailored-for-national-data-control"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Rebellions",
+   "to": "SK Telecom・NVIDIA",
+   "kind": "支援",
+   "amount": "",
+   "date": "2026-11-09",
+   "region": "韓国",
+   "note": "提携(韓国のAI半導体をNVIDIAの仕組みにつなぐ。GPUと国産NPUの基盤を2028年を目標に導入)。本文は開けず検索結果の要約で確認(報道ベース)",
+   "src": [
+    [
+     "Kyunghyang(2026-11-09)",
+     "https://www.khan.co.kr/en/article/202611091536027"
+    ],
+    [
+     "VentureSquare",
+     "https://www.venturesquare.net/en/1126835/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "地域別: 中国=Web検索4回(TechCrunch・Next Web・Euronews・AI Weekly等)、韓国=Web検索2回(Korea Times・Kyunghyang等)、欧州=Web検索2回(TechCrunch・Dealroom等)。この環境から報道サイトの本文は大半が開けなかった(403/Cloudflare)ため、全件を検索結果の要約で確認(本文未確認)。X確認0件。外したもの(名前のみ): Plural(1.1B, VCファンドでAI企業でない), Fractile(既存), Genesis AI(既存・米国), Mistral €3B(9月、対象外), ElevenLabs/Black Forest Labs(日付が古い)。さかのぼり: 2026-10(DeepSeek・Moonshotの資金調達2件)。欧州の移籍は該当なし。"
+}

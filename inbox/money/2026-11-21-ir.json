@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "塩野義製薬",
+   "to": "IntraBio",
+   "kind": "買収",
+   "amount": "",
+   "date": "2026-11-18",
+   "region": "日本",
+   "note": "塩野義製薬の適時開示「IntraBio社の買収完了について」で確認(TDnet(日本)、2026-11-18。PDFを開いて会社・日付・内容を照合)。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "TDnet(日本) 塩野義製薬の開示(2026-11-18)",
+     "https://www.release.tdnet.info/inbs/140120261118582416.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ]
+}

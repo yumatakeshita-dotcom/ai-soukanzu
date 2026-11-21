@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Lightspeed・Greenoaks・Benchmark(協議中と報道)",
+   "to": "Sierra(Bret Taylor)",
+   "kind": "出資",
+   "amount": "約15億ドルを評価額約300億ドルで調達する協議(5月のラウンドは約150億ドル超)",
+   "date": "2026-11-18",
+   "region": "米国",
+   "note": "【協議中・未確定】The Informationが11/18に報道、同社は11/20にXで年換算売上4億ドル超と300億ドル評価額を狙う旨を投稿(PCのブラウザで確認)。Sierraの発表はなく、条件は変わりうる。完了したら更新する。",
+   "src": [
+    [
+     "The Information 公式X(2026-11-20)",
+     "https://x.com/theinformation/status/2123823942775329221"
+    ],
+    [
+     "Bret Taylor's Sierra in Talks to Raise $1.5B at $30B Valuation(AI Weekly)",
+     "https://aiweekly.co/alerts/bret-taylors-sierra-in-talks-to-raise-15b-at-30b-valuation-nearly-doubling-may"
+    ],
+    [
+     "Bret Taylor's Sierra Reportedly in Talks at $30 Billion Valuation(Let's Data Science)",
+     "https://letsdatascience.com/news/bret-taylors-sierra-reportedly-in-talks-at-30-billion-valuat-334df43c"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Accel(リード)・Lighthouse Canton・Prosusほか",
+   "to": "Humyn Labs",
+   "kind": "出資",
+   "amount": "シリーズAで4,700万ドル(株式約2,600万ドル+借入約2,100万ドル)",
+   "date": "2026-11-19",
+   "region": "インド",
+   "note": "ロボットの学習用に人の作業の映像を集める会社。BRIDGEが11/20にXで報道(PCのブラウザで確認)、複数の報道で確認。内訳は報道により差がある。",
+   "src": [
+    [
+     "BRIDGE(JP) 公式X(2026-11-20)",
+     "https://x.com/thebridge_jp/status/2123574757618811042"
+    ],
+    [
+     "Physical AI startup Humyn Labs raises $47M in Series A(YourStory)",
+     "https://yourstory.com/2026/11/physical-ai-startup-humyn-labs-raises-47-million-series-a"
+    ],
+    [
+     "India: Humyn Labs raises $47m funding led by Accel, Lighthouse(DealStreetAsia)",
+     "https://www.dealstreetasia.com/?p=501549"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Google",
+   "to": "Howie(AI日程調整アシスタント。米国シアトル)",
+   "kind": "買収",
+   "amount": "非公開",
+   "date": "2026-11-16",
+   "region": "米国",
+   "note": "Google LabsがXで発表、Bloombergが最初に報道。チームはGoogle Labsに合流。GeekWireの投稿(11/20)をPCのブラウザで読み、複数の報道で確認。金額は非公開。",
+   "src": [
+    [
+     "GeekWire 公式X(2026-11-20)",
+     "https://x.com/geekwire/status/2123712211248103841"
+    ],
+    [
+     "Google buys Howie, an AI assistant that books your meetings(The Next Web)",
+     "https://thenextweb.com/news/google-labs-buys-howie-ai-scheduling-agent"
+    ],
+    [
+     "Google Buys AI Scheduler Howie(Channel Insider)",
+     "https://www.channelinsider.com/ai/news-google-acquires-howie-ai-scheduling/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "Xの見る一覧の読み取りから。Databricksが約2,250億ドル評価額で調達協議(WSJ、Techmeme経由)とRemanenceの3,000万ドルシードは別の出典で確かめられず、今回は足さない。"
+}

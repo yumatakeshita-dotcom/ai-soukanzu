@@ -1,0 +1,187 @@
+{
+ "date": "2026-11-21",
+ "kind": "gemini",
+ "topic": "インドネシア のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は記事のURL",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "PT Kawasan Industri Terpadu Batang",
+   "関係": "提携",
+   "相手": "Axelera AI",
+   "金額": "$56 million",
+   "日付": "2026-11-06",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AaHj-khBMrMq-fbi2CYiGD1nDa9ylfBuR5qLrIjz7KTHvf5H6mBo_bhBQ0b-wP6sE_zaYORUKa-kSopJoR98Kk_MKheUKs84edb0eU3sNSkL3Mnk3A5Awpbbcy_8r8hKHVMOm6R3xGQ78sOxCJA64UzIMzezrUn5Gzm-8T56o3BqhjM7lHmD08KFiJTWKydWCxLN",
+   "確かさ": "報道",
+   "備考": "AIエコシステム開発の探索に関する提携契約。ヨーロッパのチップ企業Axelera AIによる投資。",
+   "src": [
+    [
+     "The Jakarta Post",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8AaHj-khBMrMq-fbi2CYiGD1nDa9ylfBuR5qLrIjz7KTHvf5H6mBo_bhBQ0b-wP6sE_zaYORUKa-kSopJoR98Kk_MKheUKs84edb0eU3sNSkL3Mnk3A5Awpbbcy_8r8hKHVMOm6R3xGQ78sOxCJA64UzIMzezrUn5Gzm-8T56o3BqhjM7lHmD08KFiJTWKydWCxLN"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "XELTA.AI (Matchbest Group)",
+   "関係": "提携",
+   "相手": "インドネシア政府",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://www.forbesindia.com/upfront/brand-connect/xelta-ai-enters-a-new-era-in-indonesia-with-a-major-government-mou-article/3000641",
+   "確かさ": "報道",
+   "備考": "AIを活用した短編映画、マイクロドラマ、デジタルコンテンツに関するクロスボーダー協力およびインドネシア市場への拡大に関する覚書。",
+   "src": [
+    [
+     "Forbes India",
+     "https://www.forbesindia.com/upfront/brand-connect/xelta-ai-enters-a-new-era-in-indonesia-with-a-major-government-mou-article/3000641"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXYEH-yAHEXziL5P96oLk9oYvYC4WeuT78rVKGOhru_nh9qcLKe6A1GgXH_zwCFR9l6yDYhcRf7PeVrk6dBK1gHmjazq60HCBi82cgDAYtJtzjp624nGO__12LMOVvVEW147I_hTKdh5i0YggMTZ1Qmfev5e59atOWqzE4GDnI8NSHrB0llDUMzNYKv9e2X3R5ENkTjxAOJJOy97MBdLwIRXXtIhxjYr2Lp7_M08LwO85nfqNYE5Ps8geGE0atXQc=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Rekosistem",
+   "関係": "出資",
+   "相手": "",
+   "金額": "$7 million",
+   "日付": "2026-11-04",
+   "出典URL": "https://blog.mean.ceo/startups-indonesia-news-november-2026/",
+   "確かさ": "報道",
+   "備考": "シリーズA資金調達。",
+   "src": [
+    [
+     "Mean CEO's BLOG",
+     "https://blog.mean.ceo/startups-indonesia-news-november-2026/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMrOJnQABEN-R_LXOBtiqgDn67LEW3XHM2bhLWwMwnyNUPKyMz-BmzFji5sUJ1jyfsY_Td6hiUHIQet836qIOsOTkbZrtnJQ58-hn02AxbDWSexqKFK79nqvf16tTczot3mEmPGVpkQILH8og8mCoOieNk_GOkA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Ringkas",
+   "関係": "出資",
+   "相手": "",
+   "金額": "$5.1 million",
+   "日付": "2026-11-04",
+   "出典URL": "https://blog.mean.ceo/startups-indonesia-news-november-2026/",
+   "確かさ": "報道",
+   "備考": "プレシリーズA資金調達。",
+   "src": [
+    [
+     "Mean CEO's BLOG",
+     "https://blog.mean.ceo/startups-indonesia-news-november-2026/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFFMrOJnQABEN-R_LXOBtiqgDn67LEW3XHM2bhLWwMwnyNUPKyMz-BmzFji5sUJ1jyfsY_Td6hiUHIQet836qIOsOTkbZrtnJQ58-hn02AxbDWSexqKFK79nqvf16tTczot3mEmPGVpkQILH8og8mCoOieNk_GOkA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "KUMPUL",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJrdsetTIH1b1NUsS6Rm890wbGVWM5nVufC3VIiUB7t0DxhGzkp2lSu6sytgOZXhnfV72K4Rgp1ardWFMbvz2X0QLgWAofLrQNPEy_m2DC9s30u195hnOQc2P2rm9_Fe0NiMapoX6dq-Cd5oooG2X3RDouNoeYMa4Xl5SVexnEmfzMbaKm8PqPmSZX5lUkBkMteZAPq0fnnWs=",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Rudiantara",
+   "役職": "Advisor",
+   "移籍先": "KUMPUL and KUMPUL Impact",
+   "src": [
+    [
+     "KUMPUL",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJrdsetTIH1b1NUsS6Rm890wbGVWM5nVufC3VIiUB7t0DxhGzkp2lSu6sytgOZXhnfV72K4Rgp1ardWFMbvz2X0QLgWAofLrQNPEy_m2DC9s30u195hnOQc2P2rm9_Fe0NiMapoX6dq-Cd5oooG2X3RDouNoeYMa4Xl5SVexnEmfzMbaKm8PqPmSZX5lUkBkMteZAPq0fnnWs="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "SK Innovation E&S",
+   "関係": "提携",
+   "相手": "Orbitani, Little Mermaids",
+   "金額": "",
+   "日付": "2026-11-20",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnGmcs-Eb0qImZoMsk1QJk3IYrAqv_SYv9UNt5PbxTdI0Oq8LKg03PW3HH6SxLYSe2ToXL-Y9l02XJtifwCUR5m9xbuxvqImk3NzPyBiFjWmRA3ZTu5kwQ0OgtdOvToeI-gXCwmW20SxNQA5chNrqwUa0pKP0-xy6DSGfeNQlyFgsqdIMr6tVyBnU6qCzTFS6YSrT6_E3TT07PUGWdqJSLElwIJzn4CuQtqaBlWkkr56ieFafnjw=",
+   "確かさ": "報道",
+   "備考": "MAJU:ON Hackathonを通じてインドネシアのAIスタートアップを支援。起業家・AIトレーニング、メンターシップ、政府・業界とのネットワーキング、VC投資家へのアクセスを1年間提供。",
+   "src": [
+    [
+     "FutureCIO",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnGmcs-Eb0qImZoMsk1QJk3IYrAqv_SYv9UNt5PbxTdI0Oq8LKg03PW3HH6SxLYSe2ToXL-Y9l02XJtifwCUR5m9xbuxvqImk3NzPyBiFjWmRA3ZTu5kwQ0OgtdOvToeI-gXCwmW20SxNQA5chNrqwUa0pKP0-xy6DSGfeNQlyFgsqdIMr6tVyBnU6qCzTFS6YSrT6_E3TT07PUGWdqJSLElwIJzn4CuQtqaBlWkkr56ieFafnjw="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Indonesian AI startup funding November 2026",
+   "Indonesian AI company investment November 2026",
+   "Indonesian AI startup acquisition November 2026",
+   "AI startup Indonesia partnership November 2026",
+   "AI startup Indonesia personnel change November 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2210,
+   "candidatesTokenCount": 1571,
+   "totalTokenCount": 9144,
+   "cachedContentTokenCount": 441,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2210
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 441
+    }
+   ],
+   "toolUsePromptTokenCount": 2904,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2904
+    }
+   ],
+   "thoughtsTokenCount": 2459,
+   "serviceTier": "standard"
+  }
+ }
+}

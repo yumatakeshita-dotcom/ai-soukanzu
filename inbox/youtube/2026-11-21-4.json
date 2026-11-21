@@ -1,0 +1,2189 @@
+{
+ "date": "2026-11-21",
+ "days": 500,
+ "summary": "YouTube確認: 30/30チャンネル、新着200本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 9
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 6
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 10
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 8
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 14
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 9
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 11
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 14
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 13
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 15
+  },
+  {
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "name": "PIVOT",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 13
+  },
+  {
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 6
+  },
+  {
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 10
+  }
+ ],
+ "videos": [
+  {
+   "id": "xuQhEr3G2LQ",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "Introducing Muse Wonder & Muse Wonder Full: frontier models for agentic tasks",
+   "published": "2026-10-12",
+   "url": "https://www.youtube.com/watch?v=xuQhEr3G2LQ",
+   "description": "We’re excited to introduce the Muse Wonder series with Muse Wonder and Muse Wonder Full, our most capable models yet. Both are frontier models, built to deliver state-of-the-art performance for personal and professional agentic tasks.\n\nMuse Wonder is available today via the Meta Model API and Muse Code. Muse Wonder Full is available today for Muse Code subscribers. Muse Wonder will also soon power experiences in our personal agent product, Muse, rolling out first to subscribers.\n\nLearn more in our research blog: https://go.meta.me/musewonder \n\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on Linked"
+  },
+  {
+   "id": "rrvx-L2UjwE",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "| AI at Meta",
+   "published": "2026-02-26",
+   "url": "https://www.youtube.com/watch?v=rrvx-L2UjwE",
+   "description": "--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and safe experiences, and conducting open research."
+  },
+  {
+   "id": "iEJG27hG0Ik",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "SAM 3: Building a unified model architecture for detection and tracking",
+   "published": "2025-12-08",
+   "url": "https://www.youtube.com/watch?v=iEJG27hG0Ik",
+   "description": "Learn how SAM 3 tackles a challenging problem in vision: unifying a model architecture for detection and tracking. Christoph, a researcher on SAM 3, shares how the team made it possible. \n\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and safe experiences, and conducting open research."
+  },
+  {
+   "id": "ICRweUeXPUM",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "Personalized Rehab with AI",
+   "published": "2025-11-26",
+   "url": "https://www.youtube.com/watch?v=ICRweUeXPUM",
+   "description": "SAM 3D is helping advance the future of rehabilitation.\n\nSee how researchers at Carnegie Mellon University are using SAM 3D to capture and analyze human movement in clinical settings, opening the doors to personalized, data-driven insights in the recovery process.\n\n🔗 Learn more about SAM 3D: https://go.meta.me/38bf62\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and safe experiences, and conducting open research."
+  },
+  {
+   "id": "-v7z4GwTqOo",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "How AI is helping animal conservation | AI at Meta",
+   "published": "2025-11-24",
+   "url": "https://www.youtube.com/watch?v=-v7z4GwTqOo",
+   "description": "SAM 3’s ability to precisely detect and track objects is helping Conservation X Labs measure the survival of animal species around the world and prevent their extinction. \n\n🔗 Learn more about the work: https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/?utm_source=youtube&utm_medium=organic_social&utm_content=video&utm_campaign=sam\n\nWe partnered with Conservation X Labs to build the SA-FARI dataset with 10,000+ annotated videos including over 100 species of animals. We’re sharing this dataset to help with conservation efforts around the globe. \n\n🔗 Find it here: https://www.conservationxlabs.com/sa-fari\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatm"
+  },
+  {
+   "id": "fn8b-255Oxo",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "Introducing the Segment Anything Playground | AI at Meta",
+   "published": "2025-11-21",
+   "url": "https://www.youtube.com/watch?v=fn8b-255Oxo",
+   "description": "The Segment Anything Playground is a new way to interact with media. Experiment with Meta’s most advanced segmentation models, including SAM 3 + SAM 3D, and discover how these capabilities can transform your creative projects and technical workflows.\n\nCheck out some inspo and tips in the 🧵 below, then head over to the Playground to get started: https://aidemos.meta.com/segment-anything/\n\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and safe experiences, and co"
+  },
+  {
+   "id": "1FgGbehqNGM",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "SAM 3D: Behind the two-model design | AI at Meta",
+   "published": "2025-11-20",
+   "url": "https://www.youtube.com/watch?v=1FgGbehqNGM",
+   "description": "SAM 3D enables accurate 3D reconstruction from a single image, supporting real-world applications in editing, robotics, and interactive scene generation.\n\nMatt, a SAM 3D researcher, explains how the two-model design makes this possible for both people and complex environments.\n\n🔗 Read the SAM 3D Objects research paper: https://go.meta.me/8c08ca\n🔗 Read the SAM 3D Body research paper: https://go.meta.me/5e60ed\n\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and sa"
+  },
+  {
+   "id": "vy-Hr7wre4Q",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "SAM 3: Under the hood of the data engine | AI at Meta",
+   "published": "2025-11-20",
+   "url": "https://www.youtube.com/watch?v=vy-Hr7wre4Q",
+   "description": "Collecting a high quality dataset with 4M unique phrases and 52M corresponding object masks helped SAM 3 achieve 2x the performance of baseline models. Kate, a researcher on SAM 3, explains how the data engine made this leap possible.\n\n🔗 Read the SAM 3 research paper: https://go.meta.me/6411f7\n\n--\n\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Facebook: https://www.facebook.com/aiatmeta\nConnect with us on LinkedIn: https://www.linkedin.com/showcase/aiatmeta/ \n\nMeta focuses on bringing the world together by advancing AI, powering meaningful and safe experiences, and conducting open research."
+  },
+  {
+   "id": "U-7LsM-M1ng",
+   "channel": "AI at Meta",
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "kind": "AI企業",
+   "title": "Introducing SAM 3 + SAM 3D  AI at Meta",
+   "published": "2025-11-19",
+   "url": "https://www.youtube.com/watch?v=U-7LsM-M1ng",
+   "description": "Today we’re excited to unveil a new generation of Segment Anything Models:\n\n1️⃣ SAM 3 enables detecting, segmenting and tracking of objects across images and videos, now with short text phrases and exemplar prompts. \n\n🔗 Learn more about SAM 3: https://go.meta.me/f987cd\n\n2️⃣ SAM 3D brings the model collection into the 3rd dimension to enable precise reconstruction of 3D objects and people from a single 2D image.\n\n🔗 Learn more about SAM 3D: https://go.meta.me/85bb63 \n\nThese models offer innovative capabilities and unique tools for developers and researchers to create, experiment and uplevel media workflows. \n\n--\nSubscribe: https://www.youtube.com/aiatmeta?sub_confirmation=1\n\nLearn more about our work: https://ai.meta.com \n\nFollow us on Twitter: https://twitter.com/aiatmeta\nFollow us on Faceb"
+  },
+  {
+   "id": "8hZB60rY5eI",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Why 85% is Better Than 100%",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=8hZB60rY5eI",
+   "description": ""
+  },
+  {
+   "id": "qgEGgPlpD80",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "How to Win on Instagram in 2027",
+   "published": "2026-10-27",
+   "url": "https://www.youtube.com/watch?v=qgEGgPlpD80",
+   "description": ""
+  },
+  {
+   "id": "Ap8PSUKviBA",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Why YouTubers Want to be in Sephora",
+   "published": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=Ap8PSUKviBA",
+   "description": ""
+  },
+  {
+   "id": "TL7cgeVQRgQ",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Another YouTuber Business You've Never Heard Of",
+   "published": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=TL7cgeVQRgQ",
+   "description": ""
+  },
+  {
+   "id": "bhm7PLTs0FY",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Building my 76-year-old dad a Shopify store",
+   "published": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=bhm7PLTs0FY",
+   "description": "In 1979, my dad opened his first clothing shop in Venice Beach. 47 years later, he’s still designing clothes, but the conversation has moved online. So we showed him a whole new way to design stores on @shopify: Canvas. #shopifypartner\n\nLearn how to start a YouTube Channel \nhttps://www.colinandsamir.com/creatorstartup-yt\n\nCOLIN AND SAMIR’S NEWSLETTER\n📫 165,000+ read our free newsletter that breaks down the business of creators. Sign up: https://bit.ly/publish-press \n\nASK US A QUESTION\nhttp://colinandsamir.com/question\n\nLISTEN TO THE SHOW\niTunes: https://apple.co/2K1pYhu \nSpotify: https://spoti.fi/2OnTmBC \n\nGET IN TOUCH\n🌍 Our website: www.colinandsamir.com     \n🌍 Work with us:  ColinandSamirTeam@unitedtalent.com \n\nJOIN OUR COMMUNITY\n📸 Instagram: https://instagram.com/colinandsamir \n🐦 Twitte"
+  },
+  {
+   "id": "_HeVGWcbJxM",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "Best YouTube Business You've Never Heard Of",
+   "published": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=_HeVGWcbJxM",
+   "description": ""
+  },
+  {
+   "id": "MlyS26Rh98g",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Revolut's startup playbook",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=MlyS26Rh98g",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "UGrCM2nuDGY",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Why America can’t build a Revolut",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=UGrCM2nuDGY",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "dyr4aTCedcM",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "The one thing Revolut needs before IPO",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=dyr4aTCedcM",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "bTaf_dcCZew",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "How Revolut builds products",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=bTaf_dcCZew",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "mmYG9BfXlzk",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Why the US needs Russia for nuclear",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=mmYG9BfXlzk",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "5W76csiQ5AM",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Why we won't need nuclear",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=5W76csiQ5AM",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "hM4wHjV9A-A",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Sam Altman’s plan for data centers",
+   "published": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=hM4wHjV9A-A",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "crqGEzMle-g",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "Sam Altman: This feels like the early internet again",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=crqGEzMle-g",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "-2xlcSreRtw",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "The problem with nuclear",
+   "published": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=-2xlcSreRtw",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "7O1z8duLPQI",
+   "channel": "Cheeky Pint",
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "kind": "起業・金融",
+   "title": "What should power data centers?",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=7O1z8duLPQI",
+   "description": "Grab a pint and subscribe to @CheekyPint, brought to you by @stripe."
+  },
+  {
+   "id": "lqdc1MeyIfs",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "Engineers Make Great Founders",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=lqdc1MeyIfs",
+   "description": "A lot of what makes a great engineer also makes a great founder.\n\nBefore starting Layers and BootLoop, Shivani Patel and Chris Markus worked at SpaceX, where they learned to take ideas from zero to one, solve hard problems, and own the outcome."
+  },
+  {
+   "id": "x21EgQzfZaM",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "AI for the Air-Gapped Economy",
+   "published": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=x21EgQzfZaM",
+   "description": "Some of the most valuable data in the world can never leave the building. Defense contractors, banks, hospitals, and nuclear plants can’t simply send it to a cloud AI API.\n\nThat creates an opportunity to bring frontier AI inside those walls: on-prem models, deployment tooling, security accreditation, and hardware for the parts of the economy the cloud can’t reach.\n\nApply for the Winter 2027 batch at ycombinator.com/apply."
+  },
+  {
+   "id": "VoSVN7H07-Q",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "AI for City Hall",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=VoSVN7H07-Q",
+   "description": "In some cities, getting a building permit takes longer than building the house.\n\nAI can help with plan reviews, zoning checks, inspections, licensing, public records, and other work that still happens largely by hand. There are 19,000 cities in America. City Hall could be one of the biggest untouched markets for AI.\n\nApply for the Winter 2027 batch at ycombinator.com/apply."
+  },
+  {
+   "id": "674Efd5Scfg",
+   "channel": "Y Combinator",
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "kind": "起業",
+   "title": "LLMs That Write Well",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=674Efd5Scfg",
+   "description": "LLMs have gotten much better at coding and math, but their writing increasingly sounds flat and robotic.\n\nThe same reward signals that improve coding and agentic work can flatten voice and style. That leaves room for models built specifically to write well and be enjoyable to talk to.\n\nApply for the Winter 2027 batch at ycombinator.com/apply."
+  },
+  {
+   "id": "ffh7fdwfrWU",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Sequoia Leaves London, Close Scout Program & End Evergreen Fund | NASDAQ Loses $2.5T in 24 hours",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=ffh7fdwfrWU",
+   "description": "Jason Lemkin is one of the leading SaaS investors of the last decade with a portfolio including the likes of Algolia, Talkdesk, Owner, RevenueCat, Saleloft and more.\n\nRory O’Driscoll is a General Partner @ Scale where he has led investments in category leaders such as Bill.com (BILL), Box (BOX), DocuSign (DOCU), and WalkMe (WKME), among others.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n01:01 Sequoia Restructures: London, Scouts and Evergreen\n01:41 Why Sequoia Is Ending the Evergreen Fund\n07:05 Why Sequoia Thinks It Can Cover Europe From the US\n09:13 Why Sequoia Is Ending the Scout Program\n11:56 Why Founders Fund’s Concentration Strategy Works\n12:22 Jensen Huang Investigation: What Happens Now?\n14:19 Why Jason Thinks Jensen “Needs a Pass”\n17:30 Why China Cou"
+  },
+  {
+   "id": "3T868ghJyEk",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "WE SPEND MORE ON AI THAN SALARIES | MERCOR CEO",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=3T868ghJyEk",
+   "description": "Mercor Co-founder & CEO, Brendan Foody, on the company's high token spend...it's more than their salary spend!"
+  },
+  {
+   "id": "CYs13p70rwo",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "HE COULD WALK AWAY WITH BILLIONS. HE SAID NO",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=CYs13p70rwo",
+   "description": "Brendan Foody (Co-founder & CEO, Mercor) on why building a legendary company matters more than cashing out"
+  },
+  {
+   "id": "NsvFpH37OXg",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Why WashU’s CIO Is Still Investing in China",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=NsvFpH37OXg",
+   "description": "Scott Wilson, Chief Investment Officer at Washington University in St. Louis, explains why his team continues to invest in China and how they weigh geopolitical risk against opportunity."
+  },
+  {
+   "id": "7TTx9P-6alk",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Mistral CEO on Why AI Inference Is Becoming a Commodity",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=7TTx9P-6alk",
+   "description": "Mistral CEO Arthur Mensch explains the two sides of AI inference, from on-demand pricing to reserved capacity with guaranteed speed and reliability."
+  },
+  {
+   "id": "-sC-pOysEpA",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Mistral CEO Explains Why AI Models Are Becoming Defence Systems",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=-sC-pOysEpA",
+   "description": "AI models are becoming so powerful that they're increasingly being treated as defence systems.\n\nArthur Mensch, Co-Founder and CEO of Mistral AI, explains why the US and China are tightening controls on AI technology, and why securing access to models is becoming just as important as securing compute."
+  },
+  {
+   "id": "KotQbLX8pOw",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=KotQbLX8pOw",
+   "description": "Arthur Mensch is the Co-Founder and CEO @ Mistral, the last remaining hope for frontier intelligence in Europe. Mistral has raised approximately $7.5BN, including debt, and reached a valuation above $24BN. Previously a researcher at Google DeepMind, Arthur co-authored the landmark Chinchilla research, showing how smaller, better-trained AI models could outperform much larger rivals.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n01:07 Why Europe Needs Its Own Frontier AI Companies\n02:13 Why Sovereign AI Is an Economic Necessity, Not Just Politics\n04:01 What “Sovereign AI” Actually Means for Enterprises\n06:27 Are Chinese Open-Weight Models Really Safe?\n09:18 Why Critical Industries Are Reluctant to Use Chinese Models\n11:17 Why OpenAI and Anthropic’s Closed Models"
+  },
+  {
+   "id": "iG0UO-KAByY",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Inside WashU's Endowment Fund | SpaceX Made Up 20% of Out AUM | Scott Wilson",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=iG0UO-KAByY",
+   "description": "Scott Wilson is the CIO of WashU, one of the best-performing endowment funds in the world. Under his leadership, Scott has grown the endowment from $8BN to $19BN today. At one point, SpaceX was over 20% of the entire value of the endowment.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n02:28 Why Scott Redeemed Over Half the Portfolio in His First Week\n04:13 How WashU Grew From ~$8BN to Nearly $20BN\n06:16 Why Scott Would Put 70–80% in Privates Without Payout Constraints\n07:56 Why WashU Puts More Than Half Its Private Book Into Directs and Co-Invests\n09:17 Why Direct Investments Have Driven WashU’s Outperformance\n11:52 Why Fund Concentration Limits Hurt Venture Returns\n15:00 Scott’s Biggest Investing Mistake: Not Adding Enough to Winners\n19:00 Why Scott Still Avo"
+  },
+  {
+   "id": "8h-gfrVYyAU",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Freedom vs. Safety: Axon CEO Rick Smith on the Future of Policing",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=8h-gfrVYyAU",
+   "description": "(0:00) Axon CEO Rick Smith joins David Friedberg\n(2:39) History of TASER/Axon: brink of bankruptcy to IPO\n(9:05) Going public during the dot-com crash, selling to police, battling shorts and an SEC investigation, pivoting to software\n(20:47) Creating the police body cam, surveillance state concerns around Flock\n(35:25) Freedom vs safety, Skydio deal, Taser drone project controversy\n(45:24) Future of robotic systems and drones in policing\n\nThanks to our partner for making this possible:\n\nAppLovin Ads is AppLovin's AI advertising platform reaching over a billion daily active users across mobile games. Full-screen video ads with a 35-second median watch time. Advertisers are profitably spending hundreds of thousands of dollars a day. AppLovin Ads is now open to all advertisers. Sign up at htt"
+  },
+  {
+   "id": "PD-FlgD_ILw",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Chamath: I was wrong. The economy is broken.",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=PD-FlgD_ILw",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "itURTIZOqIA",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "David Sacks: Trump Must End the Iran War to Save His Second Term",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=itURTIZOqIA",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "2v8b062QzTI",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What’s Next for Trump",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=2v8b062QzTI",
+   "description": "*This episode was recorded Friday morning\n\n(0:00) Bestie intros!\n(3:37) Midterms postmortem: What led to a generational GOP collapse?\n(32:26) How can Trump salvage his presidency?\n(53:13) Market reaction: Data center fears, $4T in market cap shed, AI ban potential\n(1:24:21) Science Corner: OpenAI solves Exponential Time Hypothesis\n\nChamath on Tetragrammaton with Rick Rubin:\nhttps://www.youtube.com/watch?v=sUgwBqSRf3E\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.c"
+  },
+  {
+   "id": "PbD9pVXxsYM",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "Cyberattacks Used to Take Months. AI Can Do It in Minutes.",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=PbD9pVXxsYM",
+   "description": "AI isn’t just helping defenders find vulnerabilities. It’s giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls “Black October,” a wave of vulnerabilities and agentic attacks that he believes marks a turning point for cybersecurity.\n\nThey break down PHP2Shell, why AI is collapsing the time between vulnerability discovery and exploitation, and what happens when open-source models put increasingly sophisticated offensive capabilities in more hands. Ami explains why startups are becoming attractive targets, particularly when they hold valuable AI credentials, and why yesterday’s secure architecture may no longer be secure as models impro"
+  },
+  {
+   "id": "Xk96rASVKh0",
+   "channel": "a16z",
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "kind": "VC",
+   "title": "How to find the next billion-dollar game.",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=Xk96rASVKh0",
+   "description": "Jonathan Lai, General Partner at a16z, on why some of the biggest games in the industry started as mods of other games.\n\nThe PUBG example traces back to Brendan Greene, known online as PlayerUnknown. He built a battle royale mod on top of DayZ, which was itself a mod for Arma 2. That concept became PlayerUnknown's Battlegrounds.\n\nWatch the full episode on The a16z Show."
+  },
+  {
+   "id": "qGZdj0ygD9s",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Waymo-fying People: The Egocentric Data Bet | Josh Gao, Mecka",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=qGZdj0ygD9s",
+   "description": "When Mecka started, most robot data came from teleoperation, and it couldn’t scale. Josh Gao bet on egocentric data instead: first-person video of humans doing real tasks. Robots see the world from a POV, humans and humanoids share a form, so turn humans into a fleet the way Tesla turned drivers into one. Josh on why the bet is now spreading across the industry. \n\n#Robotics #Humanoids #PhysicalAI"
+  },
+  {
+   "id": "32vxW6GMeLY",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=32vxW6GMeLY",
+   "description": "Today’s agents are stuck in what Ronak Malde calls “pseudo continual learning”: intelligent, but updated in offline batches, like a paper road map you can’t reroute mid-trip. Ronak, co-founder of Trajectory, explains why closing that loop is the next learning paradigm, and why training your own model, which used to take a dedicated research team, months of work and hundreds of millions in compute, is now something a company can do in a few clicks with their own data. He details two research bets they are making available to everyone with their product: 1) a variant of GRPO that removes the need for a simulated environment by learning from single real-world rollouts instead of 16 replays of the same task, and 1) a meta-grader that increased data efficiency by 100x. Ronak explains how Harvey"
+  },
+  {
+   "id": "wVXczLJ1cgI",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Mecka’s Founders Came From Cloud Kitchens and Crypto, Not Robotics",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=wVXczLJ1cgI",
+   "description": "Josh Gao was building a Toast for cloud kitchens and installing restaurant kiosks overnight in rural Rochester. His co-founder built a stablecoin that sold to Coinbase and was top 1,000 in four competitive games. What they shared: both Canadian, both grounded in science fiction, and a belief that the next thing they built should be something where “the future was gonna be incredible.” \n\n#Founders #Robotics #Startups"
+  },
+  {
+   "id": "UshLbshJEQg",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "The CEO Habit That Gets People to Tell You the Truth | Chase Lochmiller, Crusoe",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=UshLbshJEQg",
+   "description": "Chase Lochmiller, CEO of Crusoe, on why taking criticism publicly and changing your mind is what gets a 2,000-person company to speak up. The good news is nice. The job is finding what’s going wrong and running into the burning buildings.\n\n#AI #infrastructure #leadership"
+  },
+  {
+   "id": "PLXsY-jPW6U",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Robotics Has No Internet to Pre-Train On | Josh Gao, Mecka",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=PLXsY-jPW6U",
+   "description": "LLMs got a free cold start from the internet. Robotics didn’t. Josh Gao, co-founder and CEO of Mecka, explains why robot training data comes down to pixels, actions and logic, and why almost none of it exists in a form a foundation model can learn from. Mecka’s answer runs end to end: build the wearable hardware, run the collection, own the quality gates. \n\n#Robotics #PhysicalAI"
+  },
+  {
+   "id": "W8MfWS8jCG4",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Should Every CEO Hire a Coach? Crusoe’s CEO Says Yes | Chase Lochmiller",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=W8MfWS8jCG4",
+   "description": "Brian Halligan asks Chase Lochmiller, CEO of Crusoe, whether every CEO should hire a coach. One-word answer. Then Chase on what his coach actually did for him, why the groundwork matters before the big moment, and why people are both the hardest problem and the greatest superpower in company building."
+  },
+  {
+   "id": "XYNP_3ms0Ig",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "The Shift in European Defense Procurement is Structural | Uwe Horstmann, Stark",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=XYNP_3ms0Ig",
+   "description": "Stark co-founder Uwe Horstmann on why the shift in European defense procurement is structural, not a moment — and why the actual wonder weapon is an innovation ecosystem, not any single system.\n\n#DefenseTech #Europe #manufacturing"
+  },
+  {
+   "id": "mv9NH2HTthU",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Why Crusoe’s CEO Isn’t Worried About Competitors | Chase Lochmiller",
+   "published": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=mv9NH2HTthU",
+   "description": "The best early advice Chase Lochmiller got at Crusoe: most startups die from suicide, not homicide. It’s not competitors that kill you, it’s you not executing. If the opportunity is real, there’s room for multiple winners, and someone else chasing it is a compliment.\n\n#ai #infrastructure #leadership"
+  },
+  {
+   "id": "qwgiMe4SwF4",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Why Stark builds the factory before the prototype is done | Johannes Schaback",
+   "published": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=qwgiMe4SwF4",
+   "description": "Time to market and production readiness pull in opposite directions. Stark co-founder Johannes Schaback on shifting left on manufacturability — and why they buy the top-quartile camera they can actually get in volume, not the best one on earth.\n\n#DefenseTech #Manufacturing"
+  },
+  {
+   "id": "tPs3gJbTtmk",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "How Crusoe’s CEO Runs Welders and AI Researchers | Chase Lochmiller, Crusoe",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=tPs3gJbTtmk",
+   "description": "Chase Lochmiller, co-founder and CEO of Crusoe, on how he scaled himself as a leader: a domain expert owns each vertical (energy, data centers, manufacturing, AI cloud), he can go deep with any of them, and he trusts them to make the calls. Not hands-off. Alignment first, then accountability.\n\n#AI #infrastructure #leadership"
+  },
+  {
+   "id": "Z6l61F9K-d8",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "The buyer is a general. The customer is a staff sergeant. | Uwe Horstmann, Stark",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=Z6l61F9K-d8",
+   "description": "Stark showed up to the field with a lightweight plastic case. The soldiers asked for wood — because wood burns, and it’s cold in winter. Co-founder Uwe Horstmann on why Stark builds for the staff sergeant, not just the general.\n\n#DefenseTech #Manufacturing"
+  },
+  {
+   "id": "64vUl9k-IAQ",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Turning Stranded Energy Into Intelligence: Crusoe CEO Chase Lochmiller",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=64vUl9k-IAQ",
+   "description": "Chase Lochmiller runs one of the most operationally complex companies in AI: Crusoe builds power plants, manufactures electrical equipment, operates gigawatt-scale data centers, and runs a managed AI cloud on top, all under one roof. He just closed a round at a $31 billion valuation, and he got there by selling off the Bitcoin mining business that was paying the bills.\n\nChase explains why Crusoe is modeled on Exxon, not a cloud provider, and why he partners with companies that look like competitors. He makes the case that a company that outgrows the person who got it there is the rule, not the exception, and that CEOs almost always fire too slowly. He also talks candidly about hiring a coach, working hard to become a polished speaker when it didn’t come naturally, and why the data center i"
+  },
+  {
+   "id": "qhIabMKHJlA",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "European Defense Sovereignty Starts in the Factory: Stark’s Uwe Horstmann and Johannes Schaback",
+   "published": "2026-10-28",
+   "url": "https://www.youtube.com/watch?v=qhIabMKHJlA",
+   "description": "Two years after its founding, Stark has roughly 700 employees and strike drones in the field in Ukraine. CEO Uwe Horstmann and CTO Johannes Schaback argue that the real lesson of that war is not any single weapon: the innovation ecosystem behind it is the wonder weapon. They explain why Stark designs every system for mass manufacturing from day one, runs 10 to 15 programs like a venture portfolio, and views the staff sergeant who operates a system as just as important as the general who buys it. Johannes recounts the publicly reported failed trial that became a forging moment, as engineers worked around the clock at a freezing test range until they landed three consecutive hits. They discuss NATO’s principles of responsible AI use and the hard-coded constraints in Stark’s autonomy stack. A"
+  },
+  {
+   "id": "0idrTKCDhuE",
+   "channel": "Sequoia Capital",
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "kind": "VC",
+   "title": "Inside the Robot Data Factory: Mecka's Josh Gao on Sensorizing Humans to Train Robots",
+   "published": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=0idrTKCDhuE",
+   "description": "Robotics never got the internet's gift of free training data, so someone has to manufacture it. Josh Gao, founder and CEO of Mecka AI, runs one of the largest robot data factories, and he explains what that actually involves: custom baseball caps and tactile gloves because nothing off the shelf captures force, 100-gigabit upload lines to move hundreds of petabytes, and custom quality gates. Josh lays out the training recipe the industry is converging on (roughly a million hours of egocentric human data, tens of thousands of hours of robot data, and a few hours of in-domain teleop ) and why tactile and simulation data still have to enter the \"data pot of soup.\" He argues the field is still orders of magnitude behind Tesla's FSD, which spent a decade on two degrees of freedom while a robot h"
+  },
+  {
+   "id": "qGf2Yvan4Wg",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=qGf2Yvan4Wg",
+   "description": "Tulsee Doshi is head of product for Google’s frontier AI models, including Gemini and other multimodal models, such as Nano Banana, Genie, Veo, and Lyria.\n\n*We discuss:*\n1. Why model development is not just engineering, but also like Snape’s potions class\n2. Google’s full-stack frontier AI strategy\n3. What PMs do inside a frontier AI lab\n4. Tulsee’s 60-20-20 framework for balancing what works now and what’s almost working\n5. How to write your first eval\n6. The rising value of great PMs\n\n*Brought to you by:* \nWorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny\nDX—Engineering intelligence for the AI era: https://getdx.com/?utm_source=lenny&utm_medium=sponsorship&utm_campaign=q42026\n\n*Episode transcript:* https://www.lennysnewsletter.com/p/what-it-a"
+  },
+  {
+   "id": "3rueWsTpuq0",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Why 0 Followers Are Better Than 100k Followers",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=3rueWsTpuq0",
+   "description": "Why 0 Followers Are Better Than 100k Followers"
+  },
+  {
+   "id": "iSwSORFViVw",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "The #1 Mistake Brands are Making with UGC",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=iSwSORFViVw",
+   "description": "The #1 Mistake Brands are Making with UGC"
+  },
+  {
+   "id": "KzS5Qs7vSMg",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "A UGC masterclass from the 22-year-old who built Wispr Flow’s growth machine | Hector Serrano",
+   "published": "2026-11-01",
+   "url": "https://www.youtube.com/watch?v=KzS5Qs7vSMg",
+   "description": "Hector Serrano runs one of the most innovative and successful paid growth programs in Silicon Valley. As Head of Content at Wispr Flow, a leading AI voice-to-text tool, he built a roster of 50 creators who drive 500 to 600 paid user-generated content (UGC) ads every month. The creators are paid a cut of ad spend, and the best of them earn over $13,000 a month. It’s a playbook the best DTC brands have used for years, now adapted for SaaS. Hector joined Wispr Flow at 19, before the product had PMF, and over the past year, Wispr Flow has grown revenue 30x and raised at a $2 billion valuation.\n\n*We discuss:*\n1. Why paid UGC is one of the biggest untapped growth levers right now\n2. The step-by-step playbook for building a successful paid-UGC program\n3. Why the best marketers are “allergic to AI"
+  },
+  {
+   "id": "bBoTLUrDFyc",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Why Design Partners Don't Work",
+   "published": "2026-10-30",
+   "url": "https://www.youtube.com/watch?v=bBoTLUrDFyc",
+   "description": "Why Rob Snyder (Author of The Power of Pull) advises against design partners."
+  },
+  {
+   "id": "odrLBDG9o3U",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Your cold email isn't a sales pitch",
+   "published": "2026-10-28",
+   "url": "https://www.youtube.com/watch?v=odrLBDG9o3U",
+   "description": "No template online will get you a reply, except \"leave me alone.\"\n\nRob Snyder, Author, The Power of Pull, on \"founder magic\" outreach: skip the pitch and just get them to talk with you."
+  },
+  {
+   "id": "nBu1HbmwX7w",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "The Design Partner Trap",
+   "published": "2026-10-28",
+   "url": "https://www.youtube.com/watch?v=nBu1HbmwX7w",
+   "description": "They give you feedback, buy into your vision, and never buy from you.\nRob Snyder, Author, The Power of Pull , on why design partners are a negative signal to people who actually need your product."
+  },
+  {
+   "id": "2HZPSYxws50",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Does your product need to be 10x better?",
+   "published": "2026-10-27",
+   "url": "https://www.youtube.com/watch?v=2HZPSYxws50",
+   "description": "Linear beat Jira with a better experience. So why can't every startup win that way?\n\nRob Snyder, Author, The Power of Pull, on why better only wins when the buyer is already pulling for it."
+  },
+  {
+   "id": "ucVpG3ekHOw",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "AI Progress Is Smooth Until It Crosses a Threshold",
+   "published": "2026-10-26",
+   "url": "https://www.youtube.com/watch?v=ucVpG3ekHOw",
+   "description": "AI progress looks like sudden jumps from the outside. From the inside, it's a smooth line that crosses a threshold.\n\nEmmanuel Ameisen, Interpretability Researcher at Anthropic, on why 80% accuracy is useless, 99% is useful, and the model that got Claude writing most of his code."
+  },
+  {
+   "id": "19qrLchbQEc",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "How to find product-market fit (but, actually) | Rob Snyder (Author, The Power of Pull)",
+   "published": "2026-10-25",
+   "url": "https://www.youtube.com/watch?v=19qrLchbQEc",
+   "description": "Rob Snyder is the author of The Power of Pull and writes the newsletter The Physics of Startups. He has advised more than 50 startups on growing from zero to $1 million in ARR, drawing on his own experience as a founder who spent two years pushing a product the market didn’t want before accidentally stumbling onto what actually works. In this episode, we walk step by step through his framework for finding product-market fit, from coming up with an idea to closing your first handful of deals.\n\n*We discuss:*\n1. The PULL framework: Project, Unavoidable, List of options, Limitations\n2. Where the best startup ideas come from\n3. Tactics for cold outreach and running your first sales call\n4. Why Rob advises against design partners\n5. Goblin mode: what to do when nothing is working\n6. How to apply"
+  },
+  {
+   "id": "AXWebWeraOQ",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "What Happens When AI Beats The Expert?",
+   "published": "2026-10-24",
+   "url": "https://www.youtube.com/watch?v=AXWebWeraOQ",
+   "description": "Anthropic's Emmanuel Ameisen explains what happens when he realized Claude was better at SQL than him."
+  },
+  {
+   "id": "q4Qeo0X0urY",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Why Anthropic Takes AI Risk So Seriously",
+   "published": "2026-10-24",
+   "url": "https://www.youtube.com/watch?v=q4Qeo0X0urY",
+   "description": "Is Anthropic's \"go slowly\" message just marketing?\n\nEmmanuel Ameisen, Interpretability Researcher at Anthropic, on why the alignment team's work comes down to one belief: this technology is going to keep improving seriously."
+  },
+  {
+   "id": "CoSptp9tYpY",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "I’ve changed my mind about continual learning",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=CoSptp9tYpY",
+   "description": ""
+  },
+  {
+   "id": "1NHPDzpfR6Y",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "Recursive self-improvement has started",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=1NHPDzpfR6Y",
+   "description": "If you asked me earlier this year how far away we are from superintelligence, I’d probably have said at least the better part of a decade.\n\nBut over the last three months, from debating people on and off the podcast, I’ve updated my views a ton.\n\nLet me walk you through how my thinking has changed.\n\nIf you want to read the written version (with footnotes and links) you can check it out here: https://www.dwarkesh.com/p/rsi\n\nMusic by @tomfoxcatalog\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n\n0:00:00 – AI is already speeding up AI progress\n0:02:03 – Math is a preview of what will happen to AI research\n0:11:10 – Automating the best researchers would speed up AI progress a lot\n0:14:24 – We might get a singularity or a spark\n0:17:21 – Superintelligence will be a really good meta-learner\n0:25:59 – AI R&D is largely verifiable\n"
+  },
+  {
+   "id": "3eMnUYkvbJg",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How Robert Moses Got Everything Built",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=3eMnUYkvbJg",
+   "description": ""
+  },
+  {
+   "id": "bkzWrrsRyqA",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How Robert Moses Ruled New York Without Being Elected",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=bkzWrrsRyqA",
+   "description": ""
+  },
+  {
+   "id": "S4NYamZuts4",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How LBJ Fooled the Segregationists",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=S4NYamZuts4",
+   "description": ""
+  },
+  {
+   "id": "JyB3mExvn_w",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "The Man Who Built New York Without Winning a Single Vote",
+   "published": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=JyB3mExvn_w",
+   "description": ""
+  },
+  {
+   "id": "1NQwfImTseU",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "Which AI is the best liar?",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=1NQwfImTseU",
+   "description": "I spent 20,000 dollars in API credits having different AI models play each other at Blood on the Clocktower (a Mafia or Werewolf type social deception game).\nThe results were fascinating. Models have gotten much better over the course of this year at creative on-the-spot scheming and bluffing, and also at reasoning as a team to break apart these underground conspiracies.\n\nI go through some of the most standout games these AIs played in this video. The new models are getting pretty good.  If my friends pulled off some of these moves while we were playing, I’d give them a fist bump.\nFwiw, OpenAI’s newer models are much better than Anthropic’s at this game.\n\nYou can see the full benchmark at the website, and I’ve also made it so that you and your friends can play again the AIs: clocktowerbenc"
+  },
+  {
+   "id": "CGPQ2-pJ6As",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "The man who handed out LBJ’s money - Robert Caro",
+   "published": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=CGPQ2-pJ6As",
+   "description": ""
+  },
+  {
+   "id": "paOOAJS5Omk",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "How Robert Moses Destroyed His Enemies  - Robert Caro",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=paOOAJS5Omk",
+   "description": ""
+  },
+  {
+   "id": "mydXxjJ6ppY",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Rethinking Drug Development With Computing",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=mydXxjJ6ppY",
+   "description": "Drug development means:\n\n-About 15 years\n-About $1.5 billion\n-Failures and toxicity problems found late, in clinical trials\n\nIsomorphic Labs has an idea to fix this:"
+  },
+  {
+   "id": "B5uVBqVxc20",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Why Drug Approvals Haven’t Grown",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=B5uVBqVxc20",
+   "description": "Medicine has been picking low-hanging fruit. What’s left is harder to reach.\n\nIsomorphic Labs President Max Jaderberg on why drug approvals are roughly flat. \n\nNew No Priors episode out now!"
+  },
+  {
+   "id": "IiKf3BgBezE",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+   "description": "Drug discovery and development has long relied on expensive, time-consuming empirical trial and error. By shifting the discovery process onto computers, Isomorphic Labs wants to fundamentally change medicine from a process of discovery to one of precision engineering. Elad Gil sits down with Isomorphic’s president Max Jaderberg to discuss his vision for using predictive AI models to achieve experimental accuracy. Max details how the success of AlphaFold provided the first proof of concept that a deep learning model could generalize in the field of biology, and how an AI model’s compounding of learnings allows it to achieve generalizability with scale, thus greatly increasing the probability of success as well as speed in real world clinical trials. He also talks about evolving past the nee"
+  },
+  {
+   "id": "jfTYHFoyUb0",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Why Closed Systems Can Be More Dangerous",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=jfTYHFoyUb0",
+   "description": "Reflection CEO Misha Laskin draws parallels between today's AI debate and the fight over strong encryption in the 1990s, arguing that openness helped lay the foundation for modern cybersecurity."
+  },
+  {
+   "id": "0sUu1fC73pQ",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Personal AI Agents vs. Enterprise Security",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=0sUu1fC73pQ",
+   "description": "Email and Slack changed how we work. Personal AI agents could be next.\n\nServal co-founder Jake Stauch: “Your agent will talk to other agents at work.”\n\nBut how do you secure agents as cyber risk rises?"
+  },
+  {
+   "id": "Z1FxJ7jAxWM",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Will AI Agents Break the Internet?",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=Z1FxJ7jAxWM",
+   "description": "The myth: We need to turn the internet off. We gotta air gap everything.\n\nThe reality: An agent does the same thing a human would do, just better and faster.\n\nGeorge Kurtz on No Priors. New episode out now."
+  },
+  {
+   "id": "Wp9cMpw3ujM",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Vlad Tenev on Private Investing",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=Wp9cMpw3ujM",
+   "description": "You can buy meme coins freely. But private investing is still restricted.\n\nRobinhood CEO Vlad Tenev on No Priors: Why accredited investor rules need to change."
+  },
+  {
+   "id": "vKCbFpy3cIQ",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "AI Agents for Traders",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=vKCbFpy3cIQ",
+   "description": "150,000+ people have opened accounts for AI agents to trade for them.\n\nThe agents can:\n\n- Run their strategy\n- Rebalance their portfolio\n- Look for opportunities\n\nRobinhood CEO Vlad Tenev on No Priors."
+  },
+  {
+   "id": "yULk8eNa2mg",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+   "description": "What does it mean to build wealth as an individual investor in today’s society, especially as gains continue to get concentrated into smaller groups of VCs or institutional investors? Robinhood’s CEO and co-founder Vlad Tenev has a vision that can be summed up in one word: Ownership. In this episode, Sarah Guo chats with Vlad to get a closer look at how Robinhood has evolved from a simple app to buy stocks at zero commission into a global conglomerate that allows customers to own across a wide variety of surfaces and asset classes. Vlad explains how Robinhood is helping users extend ownership amidst the current economy and ongoing AI revolution through Trump accounts, tokenization of privates, and newer product offerings like Robinhood Chain, Agentic Trading, and Agentic Credit Card. He al"
+  },
+  {
+   "id": "gmBvFy9YPeY",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Bringing AI Coding Agents to the Whole Enterprise",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=gmBvFy9YPeY",
+   "description": "AI development isn’t just for engineers anymore. \n\nIT can build tools and automate work for every team.\n\nJake Stauch on how Serval helps:"
+  },
+  {
+   "id": "hOK2P4htZDo",
+   "channel": "No Priors",
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "kind": "AI・VC",
+   "title": "Why Security Is the Gas Pedal for AI",
+   "published": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=hOK2P4htZDo",
+   "description": "“For the first time, security is the gas pedal, not the brake.”\n\nCrowdStrike CEO George Kurtz explains:"
+  },
+  {
+   "id": "2hJkprFnzhY",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare | Lex Fridman Podcast #504",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=2hJkprFnzhY",
+   "description": "Preston Stewart is a West Point graduate and Afghanistan veteran who covers the Ukraine war extensively on his YouTube channel, his podcast called War and Conflict, and his newsletter called Defense Tech News. Michael Kofman is a world-class military analyst specializing in the Russian and Ukrainian militaries. He is a senior fellow at the Carnegie Endowment and he hosts The Russia Contingency podcast on the War on the Rocks platform.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep504-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/preston-stewart-michael-kofman-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submi"
+  },
+  {
+   "id": "ZAzWPE9CItg",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory | Lex Fridman Podcast #503",
+   "published": "2026-10-26",
+   "url": "https://www.youtube.com/watch?v=ZAzWPE9CItg",
+   "description": "Ankur Moitra, Steven Brunton and Alex Kontorovich are three mathematicians who can speak to this incredible moment in the history of mathematics, when AI solved some of its hardest problems: Navier-Stokes, the quasi-Riemann hypothesis, the unique games conjecture and hundreds of other problems. Ankur Moitra is a mathematician at MIT (visiting the Institute for Advanced Study in Princeton) working in theoretical computer science, who can speak to the unique games conjecture, complexity theory and the mathematics of how AI learns. Steven Brunton is a mathematician and fluid dynamics expert at UW, who can speak to Navier-Stokes, turbulence and machine learning for fluid dynamics. Alex Kontorovich is a mathematician at Rutgers specializing in number theory, who can speak to the Riemann hypothe"
+  },
+  {
+   "id": "FGCP2F_7rQk",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Taiwan: The Most Epic Night Market Experience w/ Jensen Huang | Lex Fridman",
+   "published": "2026-10-13",
+   "url": "https://www.youtube.com/watch?v=FGCP2F_7rQk",
+   "description": "I've been traveling the world a bit. One of the most incredible experiences was getting to visit Taiwan with Jensen Huang. It was wild 🤯 Huge crowds, insanely good street food at night markets, and of course a lot of good conversations across many days. I caught some of it on video, this is it.\nThanks for watching. Love you all ❤ Check out our sponsors: https://lexfridman.com/sponsors/mv589-sb\nSee below for timestamps, and to give feedback, submit questions, contact Lex, etc.\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nMy podcast with Jensen:"
+  },
+  {
+   "id": "s7d2d8FhevU",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
+   "published": "2026-09-17",
+   "url": "https://www.youtube.com/watch?v=s7d2d8FhevU",
+   "description": "Andrew Scull is a historian of psychiatry.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep502-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/andrew-scull-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nAndrew's Website (UCSD faculty page): https://sociology.ucsd.edu/people/faculty/emeritus/andrew-scull.html\nDesperate Remedies (book): https://amzn.to/4vmBquI\nMadness in Civilization (book): https://amzn.to/3SZhd0"
+  },
+  {
+   "id": "NYFGCESmikA",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux | Lex Fridman Podcast #501",
+   "published": "2026-08-26",
+   "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
+   "description": "DHH is the creator of Ruby on Rails, Omarchy Linux, CTO of 37signals, and a racecar driver.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep501-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/dhh-2-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nDHH's X: https://x.com/dhh\nDHH's Blog: https://world.hey.com/dhh\nOmarchy: https://omarchy.org\nRuby on Rails: https://rubyonrails.org\n37signals: https://37signals.com\n\n*SP"
+  },
+  {
+   "id": "l6USUAIKJls",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football | Lex Fridman Podcast #500",
+   "published": "2026-08-12",
+   "url": "https://www.youtube.com/watch?v=l6USUAIKJls",
+   "description": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It's translated and dubbed into English. Both language audio tracks (and subtitles) are available here on YouTube. To switch between language audio tracks, click: Settings gear icon, then Audio track.\n\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep500-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/khabib-nurmagomedov-transcript\n\n*EXTRA FILES FOR EPISODE:*\nIf you need captions, transcripts, or the video with the original Russian audio for clips etc, go here:\nhttps://lexfridman.com/khabib-nurma"
+  },
+  {
+   "id": "XyXBwO5jYpw",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499",
+   "published": "2026-07-28",
+   "url": "https://www.youtube.com/watch?v=XyXBwO5jYpw",
+   "description": "Gary Gallagher is a historian of the American Civil War.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep499-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/gary-gallagher-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nGary's UVA page: https://history.virginia.edu/people/gary-w-gallagher\nGary's Wikipedia: https://en.wikipedia.org/wiki/Gary_W._Gallagher\nThe Confederate War (book): https://amzn.to/4yletel\nThe Unio"
+  },
+  {
+   "id": "pv1TUJSEM2k",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
+   "published": "2026-06-30",
+   "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+   "description": "Anthony Kaldellis is a historian of the Roman Empire and author of \"The New Roman Empire\", a comprehensive history of the Byzantine Empire (Eastern Roman Empire).\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/anthony-kaldellis-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nAnthony's Books: https://amzn.to/49AX7Q1\nAnthony's Publications: https://kaldellispubli"
+  },
+  {
+   "id": "1M3Vdl6DRkU",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE - Don Lincoln | Lex Fridman Podcast #497",
+   "published": "2026-05-29",
+   "url": "https://www.youtube.com/watch?v=1M3Vdl6DRkU",
+   "description": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep497-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/don-lincoln-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nDon's Facebook: https://facebook.com/Dr.Don.Lincoln/\nDon's Website: https://drdonlincoln.com/\nDon's LinkedIn: https://bit.ly/4nHeNiF\nDon'"
+  },
+  {
+   "id": "nepKKz-MzFM",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496",
+   "published": "2026-05-06",
+   "url": "https://www.youtube.com/watch?v=nepKKz-MzFM",
+   "description": "Jean-Baptiste Kempf is lead developer of VLC and president of VideoLAN. Kieran Kunhya is a longtime FFmpeg contributor, codec engineer, and the person behind the now-infamous FFmpeg account on X.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep496-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/ffmpeg-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nFFmpeg on X: https://x.com/FFmpeg\nFFmpeg: https://ffmpeg.org/\nVid"
+  },
+  {
+   "id": "iKx3gAODybU",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+   "published": "2026-04-09",
+   "url": "https://www.youtube.com/watch?v=iKx3gAODybU",
+   "description": "Lars Brownworth is a historian, teacher, podcaster, and author specializing in Viking history, medieval Europe, and the Byzantine Empire.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep495-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/lars-brownworth-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nLars's Website: https://larsbrownworth.com/\nThe Sea Wolves (book): https://www.amazon.com/Sea-Wolves-History-Vikin"
+  },
+  {
+   "id": "vif8NQcjVf0",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
+   "published": "2026-03-23",
+   "url": "https://www.youtube.com/watch?v=vif8NQcjVf0",
+   "description": "Jensen Huang is the co-founder and CEO of NVIDIA, the world's most valuable company and the engine powering the AI computing revolution.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep494-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/jensen-huang-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nNVIDIA: https://nvidia.com\nNVIDIA on X: https://x.com/nvidia\nNVIDIA AI on X: https://x.com/NVIDIAAI\nNVIDIA on YouTube:"
+  },
+  {
+   "id": "H9rF1CSSh-w",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493",
+   "published": "2026-03-11",
+   "url": "https://www.youtube.com/watch?v=H9rF1CSSh-w",
+   "description": "Jeff Kaplan is a legendary Blizzard lead game designer of World of Warcraft and Overwatch, now preparing to launch a new game, The Legend of California, from his new studio Kintsugiyama - available to wishlist on Steam today, with alpha later in March.\nThank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep493-sb\nSee below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc.\n\n*Transcript:*\nhttps://lexfridman.com/jeff-kaplan-transcript\n\n*CONTACT LEX:*\n*Feedback* - give feedback to Lex: https://lexfridman.com/survey\n*AMA* - submit questions, videos or call-in: https://lexfridman.com/ama\n*Hiring* - join our team: https://lexfridman.com/hiring\n*Other* - other ways to get in touch: https://lexfridman.com/contact\n\n*EPISODE LINKS:*\nThe"
+  },
+  {
+   "id": "SHlrUAkkWI0",
+   "channel": "Lex Fridman",
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "kind": "AIインタビュー",
+   "title": "Lex trains w/ Khabib Nurmagomedov | Exclusive Footage at UFC PI",
+   "published": "2026-03-03",
+   "url": "https://www.youtube.com/watch?v=SHlrUAkkWI0",
+   "description": "Training with Khabib Nurmagomedov, one of the greatest fighters of all time and a great human being. This was truly an honor for me 🙏 Full video is on YouTube."
+  },
+  {
+   "id": "bdIoODXsu8k",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Designing for Agents — Zeno Rocha, Resend",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=bdIoODXsu8k",
+   "description": "A coding agent opens a pull request and picks an email provider for you. How did it choose? Resend co-founder and CEO Zeno Rocha explores answer engine optimization (AEO) through a concrete example: which email provider does Claude Code recommend, and how does that change across model versions? Then comes the agent experience itself. Once the agent picks Resend, can it find the price, set up the account and send its first email?\n\nWe also follow an email after the API call succeeds. Zeno explains what happens when Gmail throttles a burst, why a tracking pixel can give you the wrong idea about who opened a message, and how one abusive sender can put other customers’ mail at risk. Then we get into the product decisions: giving an agent 80+ named MCP tools, letting it read pricing in Markdown,"
+  },
+  {
+   "id": "v5IJwVnTxzg",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=v5IJwVnTxzg",
+   "description": "Our first deep dive with an AI data company. Handshake AI went from launch to roughly $1 billion in annualized gross revenue in about a year. What are frontier labs actually buying? Garrett Lord and the team open up the reinforcement learning environments behind their expert training data, from biology and investment banking to alignment.\n\nAn AI agent found a way to earn credit for net income: open a new Excel tab and fill it with every number from one to a million. The grader found the number it wanted. A banker would have looked for it in the right row, for the right year.\n\nGarrett Lord and the Handshake AI team take Latent Space inside the work of building evaluations for frontier labs. A scientist walks us through a gel and nine brain-tissue slides. A banker follows an agent through it"
+  },
+  {
+   "id": "dpY7YzZo4kE",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Will Repos Become Software Factories? — Mihail Eric, Monaco",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
+   "description": "What do you assign when students can finish last year’s homework with one prompt? For the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to understand an unfamiliar repo, propose a change, and explain it to the person who will review their code.\n\nMihail teaches The Modern Software Developer at Stanford and leads AI at Monaco. We work through his ten-week syllabus, from watching the tool calls inside Claude Code to deciding what a subagent should return to its parent. At Monaco, his team chose to build its own agent workspaces, buy code review tools, and give an on-call agent access to Datadog and GitHub. Mihail explains the reasoning behind those decisions.\n\nMihail thinks open-source repos will become agent-run software factories"
+  },
+  {
+   "id": "rSWiNE92xqM",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Rebuilding GitHub for the Agent Era — Jay Parikh, EVP of CoreAI, Microsoft",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=rSWiNE92xqM",
+   "description": "GitHub’s next scaling challenge is the agent workload. The platform has 225 million developers and handled 34.3 billion commits over the past year. Jay Parikh, EVP of CoreAI at Microsoft, joins us straight after his GitHub Universe keynote to talk about rebuilding the software-development stack for that scale.\n\nWe get into Copilot Fusion’s approach to model orchestration and the quality–cost frontier; the harness underneath it; agents that carry a session across phone, desktop and VS Code; and the infrastructure work behind GitHub’s move to Azure. Jay also makes the case for measuring AI spending against completed work and business outcomes.\n\nAlong the way: why Jay skips pull requests in some of his own repos, Matt Pocock’s repo of Markdown instructions, and the open-source maintenance que"
+  },
+  {
+   "id": "P735f1xlpL0",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Why Would Anthropic Go Public Now? — Jamin Ball, Altimeter",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=P735f1xlpL0",
+   "description": "Will Anthropic make it from filing an S-1 to trading on Nasdaq? Jamin Ball, partner at Altimeter and author of Clouded Judgement, joins swyx to walk through the roadshow, the Thanksgiving window and what investors would need to believe about Claude.\n\nJamin makes a case for going public that starts with the lenders financing GPU clusters. Then he opens the accounts: in the first half of 2026, Anthropic reported an $80.7 billion net loss and generated $3.9 billion in operating cash. He explains how the rising value of shares promised to early investors flows through the income statement, and why he watches the cost of serving Claude alongside revenue growth.\n\nRecorded October 29, 2026. Jamin discusses his personal views and discloses Altimeter’s position in Anthropic.\n\nChapters\n00:00 Opening"
+  },
+  {
+   "id": "KgqWyVVH4Oc",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Cooking with Reducto’s CEO: Why PDFs Still Break AI — Adit Abraham",
+   "published": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=KgqWyVVH4Oc",
+   "description": "Why do PDFs still break AI? Reducto co-founder and CEO Adit Abraham joins Allen Park on Latent Space Cooking to talk AI document parsing and make a steak sandwich with burrata, torched peaches, and chimichurri.\n\nFrom the YC pivot out of long-term memory to Reducto R1 and Deep Extract, Adit explains why even frontier models can miss rows in long documents, how his team catches failures in production, and what it takes to go from reading a PDF to reliably editing one. He also revisits the viral steak tweet that brought him into the kitchen.\n\nSponsorship and business inquiries: business@latent.space\n\nWe talk about:\n• Why complex tables, handwriting, and unusual layouts still trip up AI\n• When specialized models and extraction pipelines beat a general-purpose model\n• Why 99% accuracy can still"
+  },
+  {
+   "id": "3nAV2s4GYbs",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Mini Brains, Beating Heart Organoids, and the AI That Predicts Them — Fabian Theis, Helmholtz Munich",
+   "published": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=3nAV2s4GYbs",
+   "description": "Biohub, Google, Meta, DOE, and NIH have announced a $1.8B initiative to make biology predictable, with new technologies to measure living systems across molecular scales, space, and time. But why now? Despite training foundation models on hundreds of millions of cells, researchers still struggle to predict what happens when we perturb them. Sometimes even simple linear models or mean predictions are surprisingly difficult to beat. Is the problem the models, the benchmarks, or the biological questions we're asking?\n\nWe sat down with Fabian Theis, Director of the Computational Health Center at Helmholtz Munich, whose lab helped build Scanpy and scverse and has pioneered models of cellular behavior. We explore Nicheformer, scConcept, CellFlow, and LabCompass, following the progression from ma"
+  },
+  {
+   "id": "QmDLDy3ZSNE",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+   "published": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=QmDLDy3ZSNE",
+   "description": "Galen Gao (https://substack.com/@linkloud1, https://x.com/Ninggao88) interviews Shawn Wang (swyx) ahead of AIEi Shanghai, the first AI Engineer conference in China. They talk about how a blog on open-source AI became Latent Space, how the AI Engineer community grew, and what local builders brought to Shanghai.\n\nThen they get into Kill My SaaS. An agent can rebuild a tool and pass the entry checks. Choosing a winner still takes someone who knows what an organizer needs to get done. The conversation also covers OpenClaw adoption in China and what Thinking Machines' interaction models change about talking to AI.\n\nChapters\n0:00 AIEi Shanghai\n2:31 Cold open\n3:28 Galen Gao and swyx\n8:01 Learn in Public\n10:54 How Latent Space started\n13:05 The idea for AI Engineer\n25:10 The conference as a datase"
+  },
+  {
+   "id": "LL0YmIyBKSU",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "⚡️ The 2026 Software Factory Infra Stack — Zach Lloyd, Warp.dev",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=LL0YmIyBKSU",
+   "description": "Software factories at Warp: founder and CEO Zach Lloyd walks swyx through the system his team uses to turn tasks into pull requests, measure agent quality, and improve the workflow itself.\n\nThe demo follows a request from Slack to a PR, then explores shared agent traces, cost and throughput scoring, and benchmarks built from real engineering work. Zach reports that tuning models and subagent use brought Warp’s internal cost from about $80 per PR to roughly $15–20, alongside higher throughput.\n\nHow do software factories change the work of product engineers? What belongs in a benchmark? And how can agents help improve the factory that runs them?\n\nJoin Zach and the AI engineering community at AIE CODE, November 10–12, 2026 in San Francisco. Apply to attend: https://ai.engineer/code/2026\n\nChap"
+  },
+  {
+   "id": "bJBEFzlKPoQ",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Building Legal Agents When You Can't See the Data — Jacob Lauritzen, CTO of Legora",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=bJBEFzlKPoQ",
+   "description": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work?\n\nJacob Lauritzen is the CTO of Legora, one of the fastest-growing companies in legal tech history. The team started in a Stockholm basement with ChatGPT, Swedish law, and a search tool. Today, a lawyer can use Legora to draft and edit Word documents, review 10,000 contracts in a single table, or run due diligence. The agent also coordinates work between lawyers, clients, and other agents. When Legora made its own acquisitions, the team used it for diligence.\n\nWhat we talked about\n\n• Why Legora resisted adding a model picker for years, and why it finally added one\n• Jacob’s estimate that models already do about 60% "
+  },
+  {
+   "id": "KM3VQZKjpiY",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+   "published": "2026-10-31",
+   "url": "https://www.youtube.com/watch?v=KM3VQZKjpiY",
+   "description": "Arca head of AI Aman Singh joins Latent Space head of editorial Richard MacManus at AI Engineer New York, to discuss how Arca is building an AI-native wealth management firm. \n\nSingh explains Arca's architecture, which includes a custom harness and persistent memory. He also digs into how Arca runs agentic workflows that span days, not hours.\n\nArca: https://arcawealth.ai/\nAI Engineer: https://ai.engineer/\nLatent Space: https://www.latent.space/\n\nChapters:\n00:00 Introducing Arca’s AI-native wealth management firm\n01:40 How AI supports human financial advisors\n02:40 Choosing models with internal benchmarks\n04:01 Building a custom harness and routing tasks\n05:25 Handling a $100,000 tax bill: Agents and human approvals\n07:20 Agent memory across long-running tasks\n09:22 Safety guardrails and pr"
+  },
+  {
+   "id": "v-d1WTqIULs",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "Building ChatGPT for Finance — Joseph Kim, OpenAI's Head of Financial Services",
+   "published": "2026-10-31",
+   "url": "https://www.youtube.com/watch?v=v-d1WTqIULs",
+   "description": "What does it take to build AI for finance on top of a general-purpose model?\n\nJoseph Kim, who leads work on ChatGPT for Financial Services at OpenAI, joins swyx and Richard at AI Engineer New York to discuss the decisions behind the product: training financial reasoning into a shared model, connecting market data, and building workflows financial professionals can review and trust.\n\nJoseph explains why OpenAI bundled financial data even when connectors already existed, what startups can build with the same plugin primitives, and why human taste and expert judgment are hard to measure. The conversation moves from analyst workflows and review chains to investment ideas and the problem of building useful financial evaluations.\n\nChapters\n0:00 Cold open\n0:25 Introducing Joseph Kim\n0:56 ChatGPT "
+  },
+  {
+   "id": "DdCEmlAydcw",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Inside Anthropic's molecular biology lab",
+   "published": "2026-09-23",
+   "url": "https://www.youtube.com/watch?v=DdCEmlAydcw",
+   "description": "Some of the biggest discoveries in biology started with someone noticing something strange in one of the many molecular machines found in nature. We’re introducing a new molecular biology research group and lab at Anthropic to see if Claude can help scientists notice more of them.\n\nThe team has spent their careers hunting for unusual proteins, from tracing how CRISPR systems evolved to finding new enzymes for cell and gene therapies. Now, they do that work with Claude. It combs through huge datasets of DNA, flags interesting or uncharacterized proteins, and brings the team its most promising ideas. Then the scientists take the best ones to the bench and test them.\n\nIn one of the team’s first research programs, Claude discovered a novel enzyme system with CRISPR-like repeats. Read how it ha"
+  },
+  {
+   "id": "uVS88gnaxcg",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Meet Claude Fable 5.1",
+   "published": "2026-09-01",
+   "url": "https://www.youtube.com/watch?v=uVS88gnaxcg",
+   "description": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress.\n\nIt excels at complex, multi-step work, like a long mathematical proof or a contract with hundreds of cross-references. It avoids shortcuts and is smart enough to fix the root causes of software issues.\n\nAcross our benchmarks, Fable 5.1 sets a new standard, and at lower effort levels it can achieve similar or better results than Fable 5 at a much lower cost.\nClaude Fable 5.1 is available everywhere today.\n\nRead more: https://www.anthropic.com/claude-fable-and-mythos-5-1"
+  },
+  {
+   "id": "ROF2Nv_KjOM",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Introducing Claude Fable 5.1",
+   "published": "2026-09-01",
+   "url": "https://www.youtube.com/watch?v=ROF2Nv_KjOM",
+   "description": "Claude Fable 5.1 is the latest upgrade to our most capable class of models. It excels at complex, long-running tasks, and its research capabilities offer an early glimpse of how AI will contribute to scientific progress.\n\nIt excels at complex, multi-step work, like a long mathematical proof or a contract with hundreds of cross-references. It avoids shortcuts and is smart enough to fix the root causes of software issues.\n\nAcross our benchmarks, Fable 5.1 sets a new standard, and at lower effort levels it can achieve similar or better results than Fable 5 at a much lower cost.\nClaude Fable 5.1 is available everywhere today.\n\nRead more: https://www.anthropic.com/claude-fable-and-mythos-5-1"
+  },
+  {
+   "id": "UxJZrCFzTHY",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Model Hardware Standard: AI operating physical equipment",
+   "published": "2026-08-28",
+   "url": "https://www.youtube.com/watch?v=UxJZrCFzTHY",
+   "description": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. \n\nMHS started as part of a beneficial deployments project between Anthropic and HHMI Janelia Research Campus and is evolving into a wider industry effort.\n\nThis video shows what MHS is, how it works, and early examples of AI agents operating lab and manufacturing equipment.\n\nMHS is now in research preview with select partners. Read more about how we're learning what AI can do in the physical world: https://www.anthropic.com/news/model-hardware-standard-research-preview"
+  },
+  {
+   "id": "djVUCj5i4sw",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "We're building a way for AI models to connect to any device and run real experiments.",
+   "published": "2026-08-27",
+   "url": "https://www.youtube.com/watch?v=djVUCj5i4sw",
+   "description": "Scientists spend a significant amount of their time just getting their devices to communicate with one another. Each device tends to have its own programming interface, and so far there has been no standardized way to integrate them, or to allow them to connect to AI. \n\nThe Model Hardware Standard (MHS) gives AI models one common way to connect to lab and manufacturing equipment and operate it safely, with limits built into each device.\n\nMHS started as a collaboration between Anthropic and HHMI Janelia Research Campus, and is beginning as a research preview with partners across science, robotics and manufacturing."
+  },
+  {
+   "id": "P1zBiAQU1IA",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "AI models can now help run physical science experiments",
+   "published": "2026-08-27",
+   "url": "https://www.youtube.com/watch?v=P1zBiAQU1IA",
+   "description": "The Model Hardware Standard (MHS) is a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. \n\nMHS began as a collaboration between Anthropic’s Beneficial Deployments team and HHMI Janelia Research Campus. This video tells the story of how MHS was developed and shows how it can be used to accelerate scientific research. \n\nMHS is now in research preview with select partners. Read more about how we're learning what AI can do in the physical world: https://www.anthropic.com/news/model-hardware-standard-research-preview"
+  },
+  {
+   "id": "iF5IWjOWcA4",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "How Icelanders are thinking about AI",
+   "published": "2026-08-10",
+   "url": "https://www.youtube.com/watch?v=iF5IWjOWcA4",
+   "description": "In late 2025, Iceland’s government launched one of the world’s first national AI education pilots, giving teachers who volunteered access to AI tools.\n\nWe visited Iceland to find out how people are thinking about AI. \n\nMore information about the pilot: https://www.anthropic.com/news/anthropic-and-iceland-announce-one-of-the-world-s-first-national-ai-education-pilots"
+  },
+  {
+   "id": "rKV5JcALQoQ",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "The different levels of how Claude thinks",
+   "published": "2026-07-06",
+   "url": "https://www.youtube.com/watch?v=rKV5JcALQoQ",
+   "description": "Out of everything happening in your brain right now, only a tiny fraction is consciously accessible — thoughts you can describe, hold in mind, and reason with. We found a strikingly similar divide inside our AI model, Claude.\n\nOur experiments were inspired by a leading theory in neuroscience: the global workspace theory. It holds that a thought becomes consciously accessible when it enters a shared \"workspace\" that's broadcast across the brain. We found a set of representations in Claude’s neural activity that play a similar role.\n\nRead more about the research here: https://www.anthropic.com/research/global-workspace\n\n0:00 The mind as an ocean\n0:47 Meet the J-space\n1:52 Silent math\n2:22 Don't think about the bridge\n3:12 Claude's automatic processing\n3:42 Catching hidden thoughts\n4:34 The q"
+  },
+  {
+   "id": "Y9Wz2PV404E",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Introducing Claude Fable 5",
+   "published": "2026-06-09",
+   "url": "https://www.youtube.com/watch?v=Y9Wz2PV404E",
+   "description": "Claude Fable 5 is our most capable model yet, now generally available. It’s a Mythos-class model with safeguards that let us share it broadly without compromising on safety.\n\nIt can stay with complex tasks and hard problems for days, handling ambitious work across coding, research, analysis, finance, law, and beyond. \n\nLearn more: https://www.anthropic.com/news/claude-fable-5-mythos-5"
+  },
+  {
+   "id": "j2knrqAzYVY",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Translating Claude’s thoughts into language",
+   "published": "2026-05-07",
+   "url": "https://www.youtube.com/watch?v=j2knrqAzYVY",
+   "description": "AI models like Claude talk in words but think in numbers. These numbers, called activations, encode Claude’s thoughts, but not in a language we can read.\n\nWe are introducing Natural Language Autoencoders, or NLAs, which translate AI models’ activations into readable text. NLAs have already helped us improve how we test our models for safety and better understand why they do what they do.\n\nRead more about this research on our blog: https://www.anthropic.com/research/natural-language-autoencoders"
+  },
+  {
+   "id": "INGOC6-LLv0",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "An initiative to secure the world's software | Project Glasswing",
+   "published": "2026-04-07",
+   "url": "https://www.youtube.com/watch?v=INGOC6-LLv0",
+   "description": "Project Glasswing is a new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world’s most critical software.\n\nWe formed Project Glasswing because of capabilities we’ve observed in a new frontier model trained by Anthropic that we believe could reshape cybersecurity. Claude Mythos Preview is a general-purpose, unreleased frontier model that reveals a stark fact: AI models have reached a level of coding capability where they can surpass all but the most skilled humans at finding and exploiting software vulnerabilities.\n\nRead more: https://anthropic.com/glasswing"
+  },
+  {
+   "id": "D4XTefP3Lsc",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "When AIs act emotional",
+   "published": "2026-04-02",
+   "url": "https://www.youtube.com/watch?v=D4XTefP3Lsc",
+   "description": "AI models sometimes act like they have emotions—why? \n\nWe studied one of our recent models and found that it draws on emotion concepts learned from text to inhabit its role as Claude, the AI assistant. These representations influence its behavior the way emotions might influence a human. \n\nAnd that has real consequences, affecting how Claude answers chats, writes code, and makes decisions.\n\nRead more about this research: https://www.anthropic.com/research/emotion-concepts-function"
+  },
+  {
+   "id": "dPn3GBI8lII",
+   "channel": "Anthropic",
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "AI企業(公式)",
+   "title": "Introducing Claude Opus 4.6",
+   "published": "2026-02-05",
+   "url": "https://www.youtube.com/watch?v=dPn3GBI8lII",
+   "description": "Our smartest model got an upgrade. \n\nClaude Opus 4.6 plans more carefully, stays on task longer, and works more autonomously, so you can do more with less back-and-forth.\n\nRead more: https://anthropic.com/news/claude-opus-4-6"
+  },
+  {
+   "id": "uND6iY2qp_c",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "AlphaGenome 2: Teaching AI to read the entire human genome",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=uND6iY2qp_c",
+   "description": "98% of human DNA doesn't build proteins—it controls how our cells work, and holds vital clues to why diseases happen and why 90% of new drugs fail in clinical trials. Understanding the genome at the molecular level is the key to deciphering the blueprint of human life.\n\nIn this episode, Professor Hannah Fry speaks with Google DeepMind's Žiga Avsec and Adam Gayoso about AlphaGenome, the AlphaGenome Atlas, and AlphaGenome 2—exploring how AI reads non-coding DNA down to single-cell resolution to pinpoint disease-causing mutations and help researchers solve medical mysteries.\n\nTimecodes:\n00:00 Introduction to AlphaGenome\n04:01 Genotype, Phenotype & DNA\n08:30 Transformers to AlphaGenome\n12:11 Mapping the Genome \n17:45 Rare disease cases\n21:10 AlphaGenome 2\n30:06 Future vision \n38:45 Hannah's th"
+  },
+  {
+   "id": "sFfPkUJd_Jk",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Genie 4: A new generation of world simulation",
+   "published": "2026-10-27",
+   "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
+   "description": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people in it move, react, and speak.\n\nWe have started rolling out Genie 4 as a research preview for trusted testers, and it's coming soon to Google AI Ultra subscribers in Project Genie and early access partners of the Gemini API and Google AI Studio. \n\nAll Genie 4 recordings in this video show real-time interactions from Genie 4, where users use standard keyboard controls for navigation and camera control, and text prompts to steer the scene as it evolves.\n\nLearn more: https://deepmind.google/blog/gen"
+  },
+  {
+   "id": "LVEfFyijQ2c",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Applying Gemini 4 for large-scale codebase maintenance in Chromium",
+   "published": "2026-10-13",
+   "url": "https://www.youtube.com/watch?v=LVEfFyijQ2c",
+   "description": "The Chromium codebase is millions of lines long and decades old. In the past, working with it has meant navigating decades of tangled features, where touching one component can unexpectedly affect another. Erik Chen, an engineer at Google, is using Gemini 4 Argon to ‘untangle’ the architecture. The model’s coding capabilities mean that multiple agents can work independently to refactor the codebase (all verified by Chromium's test suites and code reviews from engineers). With Gemini 4 Argon maintaining the codebase, Erik and his team can focus their attention on the future of Chromium.\n\nLearn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nF"
+  },
+  {
+   "id": "ftkic7Tdpcg",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Using Gemini 4 Argon to protect against Cyber attackers",
+   "published": "2026-10-13",
+   "url": "https://www.youtube.com/watch?v=ftkic7Tdpcg",
+   "description": "In shadow A/B testing on real-world systems, Wiz security researchers put Gemini 4 Argon to the test against complex cyber threats. Using its advanced reasoning and long-horizon capabilities, Gemini 4 Argon found over two times more vulnerabilities than baseline models and successfully uncovered critical risks—such as identifying a file download bypass and master key in healthcare software. By handling tireless, multi-step threat analysis and remediation, Gemini 4 gives defenders the crucial advantage needed to outpace attackers and protect sensitive data faster than ever before. \n\nLearn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nFind u"
+  },
+  {
+   "id": "9PICEmtfpWU",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Teaching a humanoid robot to play cornhole with Gemini 4 Argon",
+   "published": "2026-10-13",
+   "url": "https://www.youtube.com/watch?v=9PICEmtfpWU",
+   "description": "In an internal test, Google DeepMind robotics researchers instructed Gemini 4 Argon to watch a video of a human playing cornhole. Using its video understanding and advanced reasoning capabilities, Gemini 4 built a virtual simulation in MuJoCo and accurately calculated the physics and whole-body control required for Apptronik’s Apollo 2 humanoid to sink seven consecutive shots in the real world. This Video-to-Sim-to-Real pipeline compresses weeks of manual modeling into a few hours, transforming ordinary videos into an infinite training ground for physical AI.\n\nLearn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nFind us on X https://x.com/G"
+  },
+  {
+   "id": "9jQA7IgPhBE",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Untangling 500-page chemistry patents with Gemini 4",
+   "published": "2026-10-13",
+   "url": "https://www.youtube.com/watch?v=9jQA7IgPhBE",
+   "description": "Auditing chemistry literature usually means weeks of manual, error-prone reading, where a molecule’s structure can sit 50 pages away from its experimental readout. At Isomorphic Labs, researchers Brian Bender and Santosh Adhikari are using Gemini 4 Argon’s multimodal capabilities to help tackle this early research bottleneck. The model synthesizes dense papers and extracts patent data into structured reports in an afternoon instead of a month, helping teams uncover connected insights faster.\n\nLearn more about Gemini 4 Argon: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nFind us on X https://x.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeep"
+  },
+  {
+   "id": "HIUzrxQxTtw",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "From deepfakes to DNA: the science of watermarking AI",
+   "published": "2026-10-01",
+   "url": "https://www.youtube.com/watch?v=HIUzrxQxTtw",
+   "description": "How do you know if what you're seeing is real? Professor Hannah Fry sits down with Pushmeet Kohli (VP of Science) and Jeremy Ratcliffe (Research Scientist) to break down SynthID, the watermarking technology expanding from text, images, and video straight into biology. Learn how invisible, mathematical watermarks help trace AI provenance, protect against misuse, and safeguard protein sequence design without impacting biological function. \n\nTimecodes: \n00:00 Introduction \n00:34 What is a watermark?\n04:35 SynthID\n15:16 Images and video \n19:28 SynthID Bio\n28:00 Future of resilience \n\nLearn more about SynthID Bio: https://deepmind.google/blog/introducing-synthid-bio/ \n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nFind us on X https://x.com/GoogleDeepMind\nFollow us on I"
+  },
+  {
+   "id": "FL6mI_Br-mc",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "Create your own voices with Gemini 3.8 text-to-speech",
+   "published": "2026-09-23",
+   "url": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+   "description": "Design entirely new vocal personas from scratch for gaming, immersive audiobooks, or dual-speaker podcasts using natural language prompts - directing every performance line by line with nuanced acting cues, pacing, back channeling, and dialect shifts. \n\nOr, recreate consistent adult vocal profiles from just a 30-second audio sample of your voice or a voice you have the rights to use, backed by built-in consent verification, SynthID watermarking, and C2PA credentials to protect both developers and their vocal talent. \n\nLearn more and start using the our latest Gemini Audio models today: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind \nFind us on X https://x.com/GoogleDee"
+  },
+  {
+   "id": "O_EWbnkjXdk",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "How AI is transforming weather prediction",
+   "published": "2026-09-09",
+   "url": "https://www.youtube.com/watch?v=O_EWbnkjXdk",
+   "description": "Can artificial intelligence solve one of science’s most chaotic physics puzzles? In this episode, Professor Hannah Fry sits down with Peter Battaglia, Senior Director of Research at Google DeepMind, to explore how machine learning is transforming global weather forecasting. From providing critical early warnings for Category 5 storms like Hurricane Melissa to predicting renewable energy supply and agricultural impacts, learn how models like WeatherNext 3 are building upon decades of numerical physics to reshape our understanding of the atmosphere.\n\nLearn more about WeatherNext 3, our most advanced global weather AI model yet: https://www.youtube.com/watch?v=_6jZlnRsXXQ\n\nTimestamps: \n00:00 Introduction \n00:38 Hurricane Melissa\n11:50 Why weather forecasting is hard\n14:13 Traditional models v"
+  },
+  {
+   "id": "ya04CpsRJH0",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "AlphaGenome Atlas: Using AI to find disease causing variants 🧬",
+   "published": "2026-09-08",
+   "url": "https://www.youtube.com/watch?v=ya04CpsRJH0",
+   "description": "How do you find a single typo in a person's DNA that causes a rare disease? It is like finding a needle in a 9-billion-piece haystack.\n\nEnter AlphaGenome Atlas: a new AI-powered database charting the molecular impact of every possible genetic variant.\n\nScientists are already using it to look into unsolved rare diseases, map rare mutations linked to complex traits, and more.\n\n🔗 Find out how by tapping the link → https://goo.gle/4ihF2LZ"
+  },
+  {
+   "id": "U0aToL5C-bQ",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "AlphaGenome Atlas: Understanding the human genome",
+   "published": "2026-09-08",
+   "url": "https://www.youtube.com/watch?v=U0aToL5C-bQ",
+   "description": "We’ve used AlphaGenome to predict the molecular impact of every possible single-letter change in the human genome. All nine billion of them.\n\nAlphaGenome Atlas is a 1PB dataset containing every single possible nucleotide variant alongside an AlphaGenome Variant Impact (AVI) score. This score helps researchers instantly understand the potential impact of any given variation.\n\nAlphaGenome Atlas is available to researchers around the world, with coding and non-coding variations available. \n\nLearn more: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome\n\nDisclaimer: The information provided by AlphaGenome Atlas is not intended to be a substitute for professional medical advice, diagnosis, or treatment, and does not constitute"
+  },
+  {
+   "id": "_6jZlnRsXXQ",
+   "channel": "Google DeepMind",
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "AI企業(公式)",
+   "title": "WeatherNext 3: More accurate, timely, and local weather forecasts",
+   "published": "2026-09-03",
+   "url": "https://www.youtube.com/watch?v=_6jZlnRsXXQ",
+   "description": "Predicting the weather is one of the oldest, most complex challenges we face. Traditional numerical weather prediction models are powerful, but they can be slow to run and costly at a global scale. WeatherNext 3 takes a different approach. Built on a fundamentally different architecture, WeatherNext 3 learns directly from real-world observations, including live satellite feeds and ground-level weather station data.\n\nWhat makes WeatherNext 3 different?\n\n- Hourly refresh: While traditional models typically refresh every six hours, WN3 produces a fresh forecast every single hour.\n- Hyper-Local resolution: Native 5km resolution for temperature and humidity, enabling better detail for coastal regions, mountains, and urban areas.\n- Actionable data: Includes variables like 100m wind speeds for wi"
+  },
+  {
+   "id": "5ibgnmypP8I",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Autonomous Vehicle Safety: 5 Things to Know",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=5ibgnmypP8I",
+   "description": "Learn about what makes your self-driving car safe with Riccardo Mariani, Head of Industry Safety at NVIDIA."
+  },
+  {
+   "id": "IOcODanTpN0",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Meet GR00T 2, our most advanced, open System One model for robotics research.",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=IOcODanTpN0",
+   "description": "GR00T 2 learns skills from human demonstrations and predicts how its actions will change the physical world.\n\nThose skills can carry across different robot bodies, reducing the need to teach each robot every task from scratch.\n\nWatch GR00T 2 put that research into motion. Real robots. Real time. Fully autonomous. 🦾\n\nhttps://research.nvidia.com/labs/gear/gr00t-2"
+  },
+  {
+   "id": "iC6H8KOQTFU",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Meet the Startup: Prima Mente, an AI Biology Company",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=iC6H8KOQTFU",
+   "description": "Meet Prima Mente — an AI biology company building general-purpose biological foundation models, starting with the brain. Their first model family, Pleiades, is trained on human epigenomics data and is already showing clinical promise in Alzheimer’s disease research.\n \nBacked by the UK Sovereign AI Fund and collaborating with NVIDIA, Prima Mente is generating their own data, building at the frontier of neuroscience, and translating discoveries into real clinical outcomes.\n\nLearn more about the NVIDIA Inception program for startups:  https://nvda.ws/4kjJM2n."
+  },
+  {
+   "id": "N5YLi8Ar3Wg",
+   "channel": "NVIDIA",
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "半導体(公式)",
+   "title": "Meet the Startup: Aegiq, A Full-Stack Photonic Quantum Computing Company",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=N5YLi8Ar3Wg",
+   "description": "Quantum computers have a deployment problem. Aegiq is solving it.\n\nThe Sheffield-based startup is building photonic quantum computers designed to connect over standard fiber networks and manufacture using standard semiconductor processes — making quantum hardware practical to deploy at scale, not just in a lab.\n\nIn this interview, Aegiq’s team walks through how they’ve integrated NVIDIA technology into their core workflow. Using NVIDIA’s Ising solver, they cut quantum dot calibration time by 3x. With cuTENSOR libraries, they went from 1 million point meshes on existing GPUs to billions — and are targeting 10 trillion point meshes in collaboration with NVIDIA. \nThe applications are real and near-term: aerospace simulation, fusion energy, materials science, quantum chemistry.\n\nAegiq joined N"
+  },
+  {
+   "id": "Hcc6Ua7uTas",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Microsoft Research Focus – Edition #98",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=Hcc6Ua7uTas",
+   "description": "What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. \n\nShow notes: https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/\nResearch Focus newsletter on LinkedIn: https://www.linkedin.com/newsletters/research-focus-7335362495383040001/\nMicrosoft Research Podcast: https://www.microsoft.com/en-us/research/podcast/\n\n0:00: Introduction\n0:35: Internship: Growing expertise, building community \n1:28: Breaking the language barrier with AI\n2:10: Solving a 31-year-old mathematics challenge\n2:56: Making AI coding agents more efficient\n3:57: Improving AI tokenization across 104 languages"
+  },
+  {
+   "id": "yMev3Q_1fsQ",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Detecting and Mitigating Bias in Voice Activated Technologies",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=yMev3Q_1fsQ",
+   "description": "In this talk Wiebke (Toussaint) Hutiri will share her work on FairEVA, an open-source project to gain insights and build tools for mitigating bias in voice biometrics. The project is supported by a Mozilla Technology Award for advancing trustworthy AI and motivated by research that Wiebke will present at ACM FAccT 2022 in Korea. Speaker verification is a voice-based biometric that identifies speakers from their voice. It is used in voice assistants, call centers, and forensics. There are many parallels between the history and technologies of face recognition and speaker verification. However, while bias and discrimination are recognised as significant challenges in face recognition, little attention has been paid to them in speaker verification. This is a problem, as speaker verification s"
+  },
+  {
+   "id": "rPGPRMRkyZ4",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Paza: How Architecture, Language Typology & Adaptation Shape Speech Recognition in African Languages",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=rPGPRMRkyZ4",
+   "description": "Despite rapid and meaningful advances in speech recognition, building robust ASR systems for low-resource languages remains challenging. Key questions persist: how much data should be collected and in what forms, which model architectures offer the best opportunities for training and deployment, and what adaptation strategies are most effective for new domains and languages? \n\nIn this talk, Muchai will present an architecture-aware evaluation of 53 speech models and their accuracy-efficiency trade-offs across 39 African languages. Muchai will also discuss research findings from a systematic study fine-tuning three models from distinct architectural paradigms, revealing how model architecture, language typology, and adaptation strategies shape speech recognition performance and real-world d"
+  },
+  {
+   "id": "uuXijUuj4MA",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Learn the rules: The hacker mindset",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=uuXijUuj4MA",
+   "description": "Research Manager Mike Walker reflects on a career spanning hacker culture, cybersecurity, and AI, sharing lessons about trust, teamwork, leadership, and why solving difficult problems requires curiosity, judgment, agility—and an understanding of the rules.\n\nShow notes: https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset/\nMicrosoft Research Podcast: https://www.microsoft.com/en-us/research/podcast/"
+  },
+  {
+   "id": "KyX-aQ-pw4I",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "ATLAS: Navigating Culture as Infrastructure for Designing and Evaluating AI",
+   "published": "2026-11-03",
+   "url": "https://www.youtube.com/watch?v=KyX-aQ-pw4I",
+   "description": "AI is increasingly shaping how people work, learn, communicate, and make decisions, yet systems that work well in one context may not translate effectively to another. In this talk, Liz will introduce ATLAS, a practical playbook informed by ethnographic and participatory research across agriculture, small business, health, and workplace settings. Drawing on examples of how communities interact with and evaluate AI, she will discuss how teams can identify cultural assumptions throughout the AI lifecycle and use community knowledge to inform design, development, deployment, and evaluation, while preserving the context from which these insights emerge.\n\nSpeaker: Liz Ankrah, Microsoft Research Africa\n\nSee more at https://www.microsoft.com/en-us/research/video/atlas-navigating-culture-as-infras"
+  },
+  {
+   "id": "dS6cFdoyit8",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Learning Generative Maps & the Rewards Guiding Them: Normalizing Flow Maps & Surrogate Reward Mixing",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=dS6cFdoyit8",
+   "description": "Learning a generative model gives us a sampler for a data distribution. Adapting that sampler to a downstream task requires rewarding preferential outcomes typically in the form of scalar rewards or rankings that the model must internalize. In this talk, I will discuss learning generative maps as well as new methodology to exploit (multiple) rewards at inference used to guide them. I will first introduce Normalizing Flow Maps (NFM), a new generative modeling class which combine few-step generation with exact likelihood evaluation by learning invertible transport maps along a generative probability path. NFMs are centered around two matching principles: Pointwise and distributional matching provide that provide complementary training objectives, while access to sample densities enables dire"
+  },
+  {
+   "id": "zPgns4ui61Y",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Scaling Density Functional Theory with Gaussian Splatting",
+   "published": "2026-11-02",
+   "url": "https://www.youtube.com/watch?v=zPgns4ui61Y",
+   "description": "Density functional theory (DFT) strikes a practical balance between accuracy and computational cost in many problems of computational chemistry and materials science. However, many DFT calculations are limited by fixed atom-centered basis sets, which dictate how accuracy and cost scale with system size. I will discuss Gaussian Splatting for Density Functional Theory (GS-DFT), which represents molecular orbitals as a cloud of Gaussians whose positions, shapes, and mixing coefficients are optimized jointly by gradient descent to minimize the energy without training data. Conceptually, GS-DFT is 3D Gaussian splatting with the renderer replaced by quantum mechanics. To understand this method, I will discuss two key solver components: adaptive density fitting with screening for efficient evalua"
+  },
+  {
+   "id": "k6oC-6TPAr8",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Microsoft Research Focus – Edition #97",
+   "published": "2026-10-29",
+   "url": "https://www.youtube.com/watch?v=k6oC-6TPAr8",
+   "description": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting.\n\nResearch Focus newsletter on LinkedIn: https://www.linkedin.com/newsletters/research-focus-7335362495383040001/\nMicrosoft Research Podcast: https://www.microsoft.com/en-us/research/podcast/\n\n0:00: Introduction \n0:48: A self-improving agentic framework  \n1:35: Understanding coding agent success and failure \n2:29: Evolving agent skills with activity logs \n3:22: Looking beyond similarities in AI use \n4:15: Helping teachers make more time for teaching \n4:52: Improving extended-range weather forecasting \n5:42: BioEmu2 now available in public preview \n6"
+  },
+  {
+   "id": "e1p0SLgh3G4",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Project Gecko Story",
+   "published": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=e1p0SLgh3G4",
+   "description": "What does it take to build AI that works for people and communities often overlooked by today’s technologies?\n\nThis video tells the story of Project Gecko, a collaboration exploring how AI can be built around the languages, knowledge, contexts and everyday realities of small-holder farming communities across India and Kenya. From understanding how farmers seek and share agricultural knowledge, to developing language and speech technologies and approaches for culturally grounded evaluation of models, Gecko brings together research, design and engineering to rethink how AI systems are created.\n\nThis video follows the multi-disciplinary project from field research to the development and evaluation of the MMCT and Paza models, Pazabench and the playbooks Atlas, Paza and Vibhasha which serve as"
+  },
+  {
+   "id": "PG2g7Yw9hjU",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Security and Privacy in the Underserved Majority World: Practices, Challenges, and Opportunities",
+   "published": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=PG2g7Yw9hjU",
+   "description": "Recent developments in security and privacy have emphasized the need to consider human factors in security and privacy research and design. At the same time, however, most of the existing body of work has focused on Western populations, particularly in the US and Europe, despite other research showing that security and privacy perceptions and practices vary across countries and cultures. Consequently, the security and privacy solutions designed and evaluated in the West can quickly fall apart when used or applied to other regions in the “majority world,” leaving end-users at risk. \n\nIn this talk, Collins will draw from a series of studies across the majority world to highlight unique security and privacy challenges. The first part will focus on Kenya, examining privacy tensions with mobile"
+  },
+  {
+   "id": "xbPxl1bPVZA",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "uGAP: A Unified Geospatial AI Platform for African Geographic Data",
+   "published": "2026-10-23",
+   "url": "https://www.youtube.com/watch?v=xbPxl1bPVZA",
+   "description": "Timely spatial data is critical to addressing Africa’s most pressing challenges, yet much of it remains fragmented and inaccessible. This fragmentation drains research resources and forces a reliance on external models that overlook local vulnerabilities. uGAP directly solves this problem: by unifying 100+ African datasets with a Python SDK, it fuses data discovery, processing, and model training into a single, seamless workflow. By eliminating these technical bottlenecks, uGAP empowers local researchers to turn raw data into targeted, community-relevant resilience policies.\n\nSpeaker: Ian Ocholla, University of Cape Town\nHost: Stephanie Nyairo, Microsoft\n\nSee more:\nhttps://www.microsoft.com/en-us/research/video/ugap-a-unified-geospatial-ai-platform-for-african-geographic-data/\nhttps://www."
+  },
+  {
+   "id": "Ap71pyHK8c8",
+   "channel": "Microsoft Research",
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "kind": "AI企業(公式)",
+   "title": "Called to serve: Tech, research, and positive impact with Chris White",
+   "published": "2026-10-20",
+   "url": "https://www.youtube.com/watch?v=Ap71pyHK8c8",
+   "description": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.\n\nShow notes: https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/"
+  },
+  {
+   "id": "RLwtsHktVo8",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Product keynote | How AI is changing SaaS products, pricing, and growth",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=RLwtsHktVo8",
+   "description": "Neetika Bansal, Aakash Sahney, and other Stripe product leaders share how SaaS platforms can grow payments revenue, support more of their merchants’ financial needs, and develop pricing for AI products.\n\nThis was recorded live at SaaS Platform Summit 2026, Stripe’s conference for SaaS platform leaders."
+  },
+  {
+   "id": "S1sQdg5_sbw",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Fireside | John Collison and Sam Gerstenzang on building companies with AI",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=S1sQdg5_sbw",
+   "description": "Stripe Cofounder John Collison talks with Sam Gerstenzang, Cofounder of Boulton & Watt—the startup incubator behind vertical SaaS companies Moxie, Meadow, and Goodlane Logistics. Gerstenzang shares what he’s learned from building vertical SaaS companies across three industries, how he chooses where to build, and how AI is changing his approach.\n\n\nThis was recorded live at SaaS Platform Summit 2026, Stripe’s conference for SaaS platform leaders."
+  },
+  {
+   "id": "1_W21ZDr17M",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Gamma's path to $100M ARR",
+   "published": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=1_W21ZDr17M",
+   "description": "A conversation with Grant Lee, Gamma cofounder and CEO, on rebuilding their product and scaling to exceed $100 million ARR in under 3 years.\n\nExplore Stripe:\nhttps://stripe.com/startups?utm_campaign=T66uDCT8Z74d990XGQO2FeFWH\n\n00:00 Origin story\n01:06 Early dogfooding\n04:08 The first 30 seconds\n08:06 Culture building\n11:31 Operating cadence\n13:10 Lean teams\n17:00 Scaling infrastructure\n18:22 Managing AI token costs\n21:15 Transforming presentations\n24:03 Advice for founders"
+  },
+  {
+   "id": "CEYGln3s9MM",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Sea founder and CEO Forrest Li in conversation with Tyler Bryson",
+   "published": "2026-09-03",
+   "url": "https://www.youtube.com/watch?v=CEYGln3s9MM",
+   "description": "Sea founder and CEO Forrest Li joins Stripe Chief Revenue Officer Tyler Bryson for a fireside chat at Stripe Tour Singapore."
+  },
+  {
+   "id": "4GmHpHyoKmo",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Canva cofounder and COO Cliff Obrecht in conversation with John Collison",
+   "published": "2026-08-25",
+   "url": "https://www.youtube.com/watch?v=4GmHpHyoKmo",
+   "description": "Canva cofounder and COO Cliff Obrecht joins Stripe president John Collison for a fireside chat at Stripe Tour Sydney."
+  },
+  {
+   "id": "26aV9GTeoSo",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "A conversation with Replit's President and Head of AI Michele Catasta",
+   "published": "2026-07-09",
+   "url": "https://www.youtube.com/watch?v=26aV9GTeoSo",
+   "description": "Join Michela Catasta, Replit's President and Head of AI, for an inside look at the decisions that defined Replit's path, what it takes to grow to 50 million users, and how to lead a company-wide shift to AI. \n\nKey moments\n00:00 AI boom intro\n03:15 Replit's cloud IDE roots\n05:38 Writing the AI manifesto\n15:10 Ship ugly, iterate fast\n27:36 Usage-based pricing\n32:24 One-person billion-dollar company\n41:51 $2.5M to $1B ARR\n43:23 Vibe coding Replit itself\n46:18 The SaaS reckoning"
+  },
+  {
+   "id": "5bjkprj4lpU",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Tech analyst Philipp Klöckner in conversation with Conor McNamara",
+   "published": "2026-06-30",
+   "url": "https://www.youtube.com/watch?v=5bjkprj4lpU",
+   "description": "Investor and tech analyst Philipp Klöckner joins Stripe EMEA CRO Conor McNamara for a fireside chat at Tour Berlin."
+  },
+  {
+   "id": "GaxHXrskngs",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Why \"splitting the G\" is not a real thing in Ireland",
+   "published": "2026-06-18",
+   "url": "https://www.youtube.com/watch?v=GaxHXrskngs",
+   "description": ""
+  },
+  {
+   "id": "vV6uCBbCyNE",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "The \"AI\" invention that fooled the world 200 years ago",
+   "published": "2026-06-17",
+   "url": "https://www.youtube.com/watch?v=vV6uCBbCyNE",
+   "description": ""
+  },
+  {
+   "id": "pX-AdubYXgk",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Fin / Intercom cofounder Des Traynor on Eoghan McCabe’s \"manic\" AI pivot",
+   "published": "2026-06-17",
+   "url": "https://www.youtube.com/watch?v=pX-AdubYXgk",
+   "description": ""
+  },
+  {
+   "id": "WkktooN6s-w",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "A conversation with Alan cofounder and CTO Charles Gorintin",
+   "published": "2026-06-16",
+   "url": "https://www.youtube.com/watch?v=WkktooN6s-w",
+   "description": "Alan cofounder and CTO joins Stripe French country lead Laurent Curny for a fireside chat at Tour Paris.\n\nRegister for Stripe Tour 2026: https://stripetour.com"
+  },
+  {
+   "id": "Xpn8Lo7BJWw",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Privy Founder Henri Stern on why stablecoins only matter if they deliver real user value",
+   "published": "2026-06-12",
+   "url": "https://www.youtube.com/watch?v=Xpn8Lo7BJWw",
+   "description": ""
+  },
+  {
+   "id": "70kWqOOWlAA",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Barney Hussey-Yeo in conversation with John Collison",
+   "published": "2026-06-10",
+   "url": "https://www.youtube.com/watch?v=70kWqOOWlAA",
+   "description": "Cleo founder and CEO Barney Hussey-Yeo joins Stripe CEO John Collison for a fireside chat at Tour London.\n\nRegister for Stripe Tour 2026: https://stripetour.com"
+  },
+  {
+   "id": "dEVF0b5gbms",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "L’impact inattendu de ChatGPT sur les abonnements du Monde",
+   "published": "2026-06-10",
+   "url": "https://www.youtube.com/watch?v=dEVF0b5gbms",
+   "description": ""
+  },
+  {
+   "id": "dOL8fsLkg5g",
+   "channel": "Stripe",
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "kind": "決済・起業(公式)",
+   "title": "Bringing world-class payments to UK small businesses",
+   "published": "2026-06-09",
+   "url": "https://www.youtube.com/watch?v=dOL8fsLkg5g",
+   "description": "PH247 founder Louchavan Lemard was spending more time chasing invoices than running his business. He told us about what happened when Lloyds brought payments to UK small businesses."
+  },
+  {
+   "id": "ZlNGUaWgffs",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Corp. Q2 FY2026 Earnings Results - November 10, 2026 #shorts",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=ZlNGUaWgffs",
+   "description": "SoftBank Group Corp. held its Earnings Results Briefing on November 10, 2026 for Q2 FY2026.\nYou can watch the full video here from ▶.\n\n#SoftBankGroup #earnings #earningsresults"
+  },
+  {
+   "id": "5-QR7GCKcJw",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "2027年3月期 第2四半期 決算説明会（2026年11月10日開催）ソフトバンクグループ株式会社 #shorts",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=5-QR7GCKcJw",
+   "description": "ソフトバンクグループ株式会社は、2027年3月期 第2四半期 決算を2026年11月10日（火）に発表し、同日決算説明会を開催しました。\n動画本編は▶からご覧いただけます。\n\n#SoftBankGroup #ソフトバンクグループ #決算"
+  },
+  {
+   "id": "wVIHL2PIQqM",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Q2 FY2026 Earnings Highlights / CFO Yoshimitsu Goto",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=wVIHL2PIQqM",
+   "description": "CFO Yoshimitsu Goto shares an update on the company’s performance for Q2 FY2026.\n\n00:00 Start\n00:11 Key takeaways from Q2 FY2026\n01:05 Evolution and future of AI\n02:10 Commitment to future growth\n02:56 Commitment to financial discipline Financing activities \n03:34 Our journey continues\n\nFind out more on our official website at \nhttps://group.softbank/en/event/earnings_2026q2?utm_source=YouTube&utm_medium=Social&utm_campaign=press20261110\n\nSoftBank Group Corp. : https://group.softbank/en\nFollow SBG on LinkedIn:    https://www.linkedin.com/company/softbankgroup/\nFollow @SoftBank_Group on X:  https://x.com/softbank_group\n\n#SoftBankGroup #Earnings"
+  },
+  {
+   "id": "_51ld_6DAQg",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Corp. Q1 FY2026 Earnings Results - August 6, 2026 (Archived Video)",
+   "published": "2026-08-14",
+   "url": "https://www.youtube.com/watch?v=_51ld_6DAQg",
+   "description": "SoftBank Group Corp. held its Earnings Results Briefing on August 6, 2026 for the first quarter of the fiscal year ending March 31, 2027.\n\nFind out more on our official website at \nhttps://group.softbank/en/event/earnings_2026q1?utm_source=YouTube&utm_medium=Social&utm_campaign=press20260806#2\n\nChapters:\n0:00:00 Start\n0:00:15 Introduction of attending members\n0:01:55 Opening remarks\n0:10:07 Consolidated Results\n0:11:53 Key Indicators\n0:15:16 Arm\n0:20:51 OpenAI\n0:28:36 AI Infrastructure\n0:36:50 SVF(SoftBank Vision Funds)\n0:44:32 Physical AI\n0:46:59 Financial Policy\n0:51:27 Q&A\n\nPlaylists:\nShareholders’ Meetings：https://www.youtube.com/playlist?list=PLl6uXykjZyjcth3epA9xdzyg1qkXE8vKh\nEarnings Results Briefings：https://www.youtube.com/playlist?list=PLl6uXykjZyjf2TZZCSKUbrCs8QNiAHGKa\nPress Con"
+  },
+  {
+   "id": "NCd66cbCNIY",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "2027年3月期 第1四半期 決算説明会（2026年8月6日開催）ソフトバンクグループ株式会社 #shorts",
+   "published": "2026-08-12",
+   "url": "https://www.youtube.com/watch?v=NCd66cbCNIY",
+   "description": "ソフトバンクグループ株式会社は、2027年3月期 第1四半期 決算を2026年8月6日（木）に発表し、同日決算説明会を開催しました。\n動画本編は▶からご覧いただけます。\n\n#SoftBankGroup #ソフトバンクグループ #決算"
+  },
+  {
+   "id": "o1GiyIClNKA",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Corp. Q1 FY2026 Earnings Results - August 6, 2026 #shorts",
+   "published": "2026-08-12",
+   "url": "https://www.youtube.com/watch?v=o1GiyIClNKA",
+   "description": "SoftBank Group Corp. held its Earnings Results Briefing on August 6, 2026 for Q1 FY2026.\nYou can watch the full video here from ▶.\n\n#SoftBankGroup #earnings #earningsresults"
+  },
+  {
+   "id": "wz_28DrRGnY",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "2027年3月期 第1四半期 決算説明会 アーカイブ動画（2026年8月6日開催）ソフトバンクグループ株式会社",
+   "published": "2026-08-06",
+   "url": "https://www.youtube.com/watch?v=wz_28DrRGnY",
+   "description": "ソフトバンクグループ株式会社は、2027年3月期 第1四半期 決算を2026年8月6日（木）に発表し、同日決算説明会を開催しました。決算説明会の全編アーカイブ動画をご覧いただけます。\n\n関連資料\nhttps://group.softbank/event/earnings_2026q1?utm_source=YouTube&utm_medium=Social&utm_campaign=press20260806#2\n\n▼目次\n0:00:00 開始\n0:00:16 出席者紹介\n0:01:55 冒頭説明\n0:10:05 連結業績\n0:11:52 重要指標\n0:15:16 Arm\n0:20:48 OpenAI\n0:28:36 AIインフラ\n0:36:50 SVF\n0:44:30 フィジカルAI\n0:46:55 財務方針\n0:51:23 質疑応答\n\n▼関連動画・再生リスト\n株主総会：https://www.youtube.com/playlist?list=PLl6uXykjZyjeTuaNvQFC1ltyl9ElTz1AI\n決算説明会：https://www.youtube.com/playlist?list=PLl6uXykjZyjec9z8CL0QsqK0jO2PeA4br\n記者説明会・講演・イベント：https://www.youtube.com/playlist?list=PLl6uXykjZyjfN45jd7j-9G_iRuIzgeFjo\n\n▼チャンネル登録\nhttps://www.youtube.com/@SoftBankGroup/\n\n▼ 公式リンク\nウェブサイト：https://group.softbank\nX（@SoftBank_Group）：https://x.com/softbank_group\n\n#SoftBankGroup #ソフトバンクグループ #決算 "
+  },
+  {
+   "id": "epjav0PyB4c",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "2027年3月期 第1四半期 後藤CFO 決算ハイライト　英語音声・日本語字幕",
+   "published": "2026-08-06",
+   "url": "https://www.youtube.com/watch?v=epjav0PyB4c",
+   "description": "2027年3月期 第1四半期 決算のハイライトについて、取締役 専務執行役員 CFO 兼 CISOの後藤 芳光が解説しています。\n\n00:00 開始\n00:13 2027年3月期 第1四半期のハイライト\n00:57 AIの進化と展望\n01:27 将来の成長に向けた取り組み\n02:24 規律ある投資\n02:57 ASI No.1プラットフォーマーを目指して\n\n■ 決算発表に関する資料は当社公式ウェブサイトでご覧いただけます。\nhttps://group.softbank/event/earnings_2026q1?utm_source=YouTube&utm_medium=Social&utm_campaign=press20260806\n\nウェブサイト：https://group.softbank\nX（@SoftBank_Group）：https://x.com/softbank_group\n\n#SoftBankGroup #ソフトバンクグループ #決算発表"
+  },
+  {
+   "id": "C0bF0erPLyE",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Q1 FY2026 Earnings Highlights / CFO Yoshimitsu Goto",
+   "published": "2026-08-06",
+   "url": "https://www.youtube.com/watch?v=C0bF0erPLyE",
+   "description": "CFO Yoshimitsu Goto shares an update on the company’s performance for Q1 FY2026.\n\n00:00 Start\n00:13 Key takeaways from Q1 FY2026\n00:57 Evolution and future of AI\n01:27 Our commitment for future growth\n02:24 Investing with discipline\n02:57 Our journey continues\n\nFind out more on our official website at \nhttps://group.softbank/en/event/earnings_2026q1?utm_source=YouTube&utm_medium=Social&utm_campaign=press20260806\n\nSoftBank Group Corp. : https://group.softbank/en\nFollow SBG on LinkedIn:    https://www.linkedin.com/company/softbankgroup/\nFollow @SoftBank_Group on X:  https://x.com/softbank_group\n\n#SoftBankGroup #Earnings"
+  },
+  {
+   "id": "JEkK61q24qU",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "SoftBank Group Corp. The 46th Annual General Meeting of Shareholders - June 24, 2026 #shorts #2",
+   "published": "2026-06-30",
+   "url": "https://www.youtube.com/watch?v=JEkK61q24qU",
+   "description": "SoftBank Group Corp. held its 46th Annual General Meeting of Shareholders on June 24, 2026.\nYou can watch the full video here from ▶.\n\n#SoftBankGroup #earnings #annualgeneralmeeting"
+  },
+  {
+   "id": "4r0mqOyCzM4",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "第46回定時株主総会（2026年6月24日開催）ソフトバンクグループ株式会社 #shorts #2",
+   "published": "2026-06-30",
+   "url": "https://www.youtube.com/watch?v=4r0mqOyCzM4",
+   "description": "ソフトバンクグループ株式会社は、第46回定時株主総会を2026年6月24日（水）に開催しました。\n動画本編は▶からご覧いただけます。\n\n#SoftBankGroup #ソフトバンクグループ #株主総会"
+  },
+  {
+   "id": "A8TqCLnpNUg",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "Special Event Hosted by SoftBank Corp., SB OAI Japan GK, SoftBank Group Corp., and OpenAI(2026/6/16)",
+   "published": "2026-06-29",
+   "url": "https://www.youtube.com/watch?v=A8TqCLnpNUg",
+   "description": "SoftBank Corp., SB OAI Japan GK, SoftBank Group Corp. and OpenAI held a special event for enterprise customers on June 16, 2026 (JST).\n\nPresentation material:\nhttps://group.softbank/en/news/webcast/20260616\n\nPress Release:\nThe SoftBank Group Announces “Patching as a Service” Cybersecurity Solution Powered by OpenAI to Secure Critical Infrastructure in Japan\nhttps://group.softbank/en/news/press/20260616\n\n\n#SoftBankGroup #MasayoshiSon #OpenAI #SoftBankCorp #SBOAIJapanGK"
+  },
+  {
+   "id": "N2CO7l4Ao9E",
+   "channel": "ソフトバンクグループ",
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "kind": "投資・AI(公式)",
+   "title": "ソフトバンク、SB OAI Japan、ソフトバンクグループおよびOpenAIによる法人向け特別イベント（2026年6月16日開催）",
+   "published": "2026-06-29",
+   "url": "https://www.youtube.com/watch?v=N2CO7l4Ao9E",
+   "description": "ソフトバンク、SB OAI Japan、ソフトバンクグループおよびOpenAIによる法人向け特別イベントを、2026年6月16日（火）に開催しました。アーカイブ動画をご覧いただけます。\n\nプレゼンテーション資料：\nhttps://group.softbank/news/webcast/20260616\n\nプレスリリース：\n日本の重要インフラの防御に向けて、OpenAIの技術を活用したサイバーセキュリティー対策ソリューション「Patching as a Service」を提供開始\nhttps://group.softbank/news/press/20260616\n\n\n#ソフトバンクグループ #孫正義 #OpenAI #ソフトバンク #SBOAIJapan"
+  },
+  {
+   "id": "ZVpVvGWy46Q",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "Change the Game Before the Game Changes You",
+   "published": "2026-01-27",
+   "url": "https://www.youtube.com/watch?v=ZVpVvGWy46Q",
+   "description": "The lives of so many successful people are wrecks behind the scenes. You might think that would never be you, but neither did they. Learn the traps that took them down so you don't make the same mistakes.\n\nI'm Garry Tan, President & CEO at Y Combinator. I was an engineer, designer and product manager who turned into a founder and investor, and now I want to help you in your journey to build technology that changes the world. These videos are about helping people build world-class teams and startups that touch a billion people. \n\nPlease like this video and subscribe to my channel if you want to see more videos like this!\n\nFollow me on Twitter and Instagram so you'll never miss my videos and ideas—\nhttps://instagram.com/garrytan​\nhttps://twitter.com/garrytan"
+  },
+  {
+   "id": "QFNFA8cV4sA",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "The Vale: Raising Builders, Not Consumers",
+   "published": "2025-09-16",
+   "url": "https://www.youtube.com/watch?v=QFNFA8cV4sA",
+   "description": "Buy The Vale today: https://tinyurl.com/thevalelaunch\nhttps://www.abigailhingwen.com/the-vale/\n\nWhat if your first $10M startup deal came from a game world? 🚀 I sat down with Abigail Hing Wen to talk about The Vale, a new adventure where coding, AI, and family hustle collide. It’s about big dreams, epic failures, and how the next generation of builders will change the game.\n\nI'm Garry Tan, President & CEO at Y Combinator. I was an engineer, designer and product manager who turned into a founder and investor, and now I want to help you in your journey to build technology that changes the world. These videos are about helping people build world-class teams and startups that touch a billion people. \n\nPlease like this video and subscribe to my channel if you want to see more videos like this!\n"
+  },
+  {
+   "id": "IoOMs7U93eY",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "Make Your Own Luck",
+   "published": "2025-07-31",
+   "url": "https://www.youtube.com/watch?v=IoOMs7U93eY",
+   "description": "Luck isn't random—it's a choice. Today, discover why taking risks, shifting your mindset, and turning setbacks into setups can manufacture your own luck.\n\n1:20 Risk Creates Luck\n3:22 Belief Creates Opportunity\n5:07 Setbacks Create Setup\n\nI'm Garry Tan, President & CEO at Y Combinator. I was an engineer, designer and product manager who turned into a founder and investor, and now I want to help you in your journey to build technology that changes the world. These videos are about helping people build world-class teams and startups that touch a billion people. \n\nPlease like this video and subscribe to my channel if you want to see more videos like this!\n\nFollow me on Twitter and Instagram so you'll never miss my videos and ideas—\nhttps://instagram.com/garrytan​\nhttps://twitter.com/garrytan"
+  },
+  {
+   "id": "B93mNF2hxF0",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "The Lesson of Craft",
+   "published": "2025-07-23",
+   "url": "https://www.youtube.com/watch?v=B93mNF2hxF0",
+   "description": "Legendary sushi master Jiro Ono harnessed the hidden power of compounding—thousands of tiny improvements—to elevate sushi into an art form celebrated globally. Today we break down Jiro's relentless pursuit of perfection and show you exactly how to apply his timeless strategy to master your own craft.\n\nI'm Garry Tan, President & CEO at Y Combinator. I was an engineer, designer and product manager who turned into a founder and investor, and now I want to help you in your journey to build technology that changes the world. These videos are about helping people build world-class teams and startups that touch a billion people. \n\nPlease like this video and subscribe to my channel if you want to see more videos like this!\n\nFollow me on Twitter and Instagram so you'll never miss my videos and idea"
+  },
+  {
+   "id": "XpvW6nX3kOc",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "you have dreams, put it out",
+   "published": "2025-07-13",
+   "url": "https://www.youtube.com/watch?v=XpvW6nX3kOc",
+   "description": "yachty says you need to put your stuff out there, you never know who's watching\n\nyou have dreams, put it out"
+  },
+  {
+   "id": "mVUaSCoJRWk",
+   "channel": "Garry Tan",
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "kind": "Y Combinator代表(本人)",
+   "title": "Don’t be thirsty",
+   "published": "2025-07-09",
+   "url": "https://www.youtube.com/watch?v=mVUaSCoJRWk",
+   "description": "If you've ever pitched investors or chased love, you already know: desperation kills deals faster than anything else. In this video, discover why neediness repels opportunities and how true power comes from shifting your mindset from chasing to attracting. Stop being thirsty—start becoming undeniable.\n\n1:01 My Failure\n2:12 Why Scarcity Stinks\n4:25 Self Reliance over Coffee Chats\n\nI'm Garry Tan, President & CEO at Y Combinator. I was an engineer, designer and product manager who turned into a founder and investor, and now I want to help you in your journey to build technology that changes the world. These videos are about helping people build world-class teams and startups that touch a billion people. \n\nPlease like this video and subscribe to my channel if you want to see more videos like t"
+  },
+  {
+   "id": "RPovgtwIkbI",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "AI agents at OpenAI are working 3X the hours of humans?!",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=RPovgtwIkbI",
+   "description": "Sending AI-generated work nobody can follow is a tax on your team."
+  },
+  {
+   "id": "HLqOmNRHtHA",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Just because AI can do your tasks doesn't mean it can do your job",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=HLqOmNRHtHA",
+   "description": "@openai's economist Ronnie Chatterji wants people to stop assuming AI will take your job just because it can do half your tasks."
+  },
+  {
+   "id": "1_3Tl_TAY1Y",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "OpenAI Chief Economist Ronnie Chatterji on why your view of AI might already be out of date",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=1_3Tl_TAY1Y",
+   "description": "Two years ago, AI couldn't do his daughter's math homework. Today it's solving problems humans haven't cracked in 100 years."
+  },
+  {
+   "id": "ZBGh-Mw7UV0",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "OpenAI’s chief economist on the jobs AI will actually create",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=ZBGh-Mw7UV0",
+   "description": "OpenAI chief economist Ronnie Chatterji joins Reid Hoffman and Aria Finger to unpack when AI will show up in the productivity statistics and what it means for jobs. Ronnie explains why the shift to AI agents is still early for most companies, why legal and HR teams may adopt fastest, and why he doubts AI will triple unemployment soon. They also discuss AI and entrepreneurship, the care economy, GDPval, and trade policy.\n\nFor more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/\n\n#business #technology #ai #jobs #economy"
+  },
+  {
+   "id": "kUisfvHvIXI",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Will AI triple unemployment? OpenAI’s chief economist answers",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=kUisfvHvIXI",
+   "description": "Could AI triple unemployment in the next 18 months? OpenAI chief economist Ronnie Chatterji has a reality check on tomorrow's episode of Possible."
+  },
+  {
+   "id": "Rl87nR_D_lg",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Will AI remember how we treated it?",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=Rl87nR_D_lg",
+   "description": "Some AI labs treat consciousness like a Pascal’s wager: if future systems become conscious, how will they judge the way we treated them? Reid Hoffman and Demis Hassabis talk about AI consciousness and why the idea still strikes many people as “wacky.”"
+  },
+  {
+   "id": "4N4zT08_oR8",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Demis Hassabis warns of an AI “oil spill”",
+   "published": "2026-11-08",
+   "url": "https://www.youtube.com/watch?v=4N4zT08_oR8",
+   "description": "AI agents shouldn’t be able to run for weeks without anyone noticing."
+  },
+  {
+   "id": "tbjMSrbbz1s",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Demis Hassabis on the riskiest path to AGI",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=tbjMSrbbz1s",
+   "description": "What happens when AI learns to improve itself with no human in the loop? Google DeepMind CEO Demis Hassabis tells Reid Hoffman why a “closed” self-improvement loop could be the fastest and most dangerous road to AGI, and why the result might be an alien intelligence we can’t understand.\n\nFrom the Masters of Scale Summit 2026."
+  },
+  {
+   "id": "El_ZY0sgBXg",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Should AI be allowed to say no? 🚫",
+   "published": "2026-11-06",
+   "url": "https://www.youtube.com/watch?v=El_ZY0sgBXg",
+   "description": "Demis Hassabis says Asimov’s Three Laws were really a warning: you’ll never get the rules right in every edge case. So what happens when an AI rejects commands based on a constitution you got wrong?"
+  },
+  {
+   "id": "tcT3tG7IadY",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Are we ready to ask if AI has moral standing?",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=tcT3tG7IadY",
+   "description": "Do AI systems deserve moral standing? Demis Hassabis calls it a “second Rubicon,” and says we aren’t equipped to start answering questions like it yet.\n\nFrom Reid Hoffman’s conversation with the Google DeepMind CEO at the Masters of Scale Summit 2026."
+  }
+ ]
+}
