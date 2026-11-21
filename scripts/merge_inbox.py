@@ -166,6 +166,12 @@ def main():
         if n:
             print(f'  {kind}: {n}')
     exectl_auto.report(exectl_auto.build())
+    # ニュースの見出し(トップの「最近のニュース」)も毎回足す。2026/11/20追加(11/13から止まっていたため)
+    try:
+        import fetch_relnews
+        fetch_relnews.main()
+    except Exception as e:
+        print('ニュースの取り込みに失敗(ほかの処理は済んでいる):', e)
 
 
 if __name__ == '__main__':
