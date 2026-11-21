@@ -152,3 +152,15 @@
 @Alibaba_Qwen | moves,deep | Qwen(Alibabaのモデル)公式。11/16・11/18の投稿を確認
 @simonw | deep | Simon Willison。新モデルを試して書く開発者。11/19・11/20の投稿を確認
 @swyx | moves,deep | AI開発者向けの発信者(Latent Space等)。11/20・11/21の投稿を確認
+
+# --- 自動で追加 (2026-11-22) --- x_check.py で表示名と自己紹介を確認
+@KateClarkTweets | money,vc | WSJ記者。調達・VCの特ダネ
+@ashleevance | moves,deep | 記者。Core Memory司会
+@karaswisher | moves,money | 著名テック記者・司会
+@cerebras | money,deep | Cerebras公式(AI半導体)
+@sarahtavel | vc,money | Benchmarkのパートナー
+@rabois | vc,moves | 投資家。創業者の動きが早い
+@benchmark | vc,money | VC公式(Benchmark)
+@nathanbenaich | vc,deep | Air Street投資家。AI動向
+@FinSMEs | money,vc | VC調達ニュースの速報
+@preferred_jp | deep,money | PFN公式(日本のAI)
