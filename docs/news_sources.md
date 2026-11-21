@@ -18,4 +18,4 @@ forbesjapan.com、ledge.ai、kr-asia.com(トップは開く。RSSは404。記事
 Bloomberg、FT、WSJ、The Information、Business Insider、Fortune、Nikkei Asia、NewsPicks、Tech in Asia
 
 ## 毎朝のニュース集めに足したもの
-`scripts/fetch_relnews.py` の FEEDS に、Crunchbase News・The Verge(AI)・Ars Technica(AI)・SiliconANGLE のRSSを足した(2026/11/21)。
+`scripts/fetch_relnews.py` の FEEDS に、Crunchbase News・The Verge(AI)・Ars Technica(AI)・SiliconANGLE のRSSを足した(2026/11/21)。続けて日本語の GIGAZINE・東洋経済オンラインのRSSも足した(同日)。
