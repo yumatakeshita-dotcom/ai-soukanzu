@@ -1,0 +1,18 @@
+{
+  "_memo": "公開URLはここ1か所だけ。独自ドメインに変えるときは base_url を書き換えて `python3 scripts/seo.py` を実行する",
+  "base_url": "https://kigyo-relmap.yuma-takeshita.workers.dev",
+  "site_name": "AI企業の相関図",
+  "image": "og.png",
+  "pages": {
+    "index.html": {"url": "/", "title": "AI企業の相関図", "description": "OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。"},
+    "lab/index.html": {"url": "/lab/", "title": "AI相関図ラボ", "description": "相関図のデータを使った実験ページ集。つながりの最短ルート、お金の循環、人材の移籍マップなど。"},
+    "lab/route.html": {"url": "/lab/route.html", "title": "つながり最短ルート", "description": "2つの会社・人物のあいだを、出資や移籍のつながりでたどる最短ルートを探す。"},
+    "lab/stop.html": {"url": "/lab/stop.html", "title": "もしTSMCが止まったら", "description": "TSMCが止まったとき、どのAI企業・半導体企業にどう影響が広がるかを相関図でたどる。"},
+    "lab/money.html": {"url": "/lab/money.html", "title": "AIマネーの循環", "description": "NvidiaがOpenAIに出資し、OpenAIがOracleに払う。AI業界のお金が同じ会社のあいだを回る様子を図で見る。"},
+    "lab/moves.html": {"url": "/lab/moves.html", "title": "AI人材の移籍マップ", "description": "AI企業のあいだで、どの人がどこからどこへ移ったかを見られるマップ。"},
+    "lab/cards.html": {"url": "/lab/cards.html", "title": "AI人物トレカ", "description": "AI業界の人物をカードにして、経歴やつながりを楽しく見る。"},
+    "lab/sports.html": {"url": "/lab/sports.html", "title": "テック長者とスポーツ球団", "description": "テック業界の資産家とスポーツ球団のつながりを見る実験ページ。", "sitemap": false},
+    "weekly/index.html": {"url": "/weekly/", "title": "AIのお金と人の動き(週のまとめ)", "description": "AIのお金と人の動きを、毎週月曜にまとめるニュースレター。最新号と過去の号の一覧。"},
+    "credits.html": {"url": "/credits.html", "title": "顔写真のクレジット", "description": "相関図で使っている顔写真の出典とライセンスの一覧。"}
+  }
+}
