@@ -46,7 +46,7 @@ def parse(t):
     return out
 
 
-def main(leads_only=False):
+def main(leads_only=False, quiet=False):
     os.makedirs(OUT, exist_ok=True)
     seen = set()
     for f in os.listdir(OUT):
@@ -74,10 +74,13 @@ def main(leads_only=False):
     if new:
         json.dump({"date": time.strftime("%Y-%m-%d"), "summary": summary, "checked": checked, "videos": new},
                   open(os.path.join(OUT, time.strftime("%Y-%m-%d-%H%M") + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(summary)
-    for c in checked:
-        if not c["ok"]:
+    bad = [c for c in checked if not c["ok"]]
+    if not quiet:
+        print(summary)
+        for c in bad:
             print("  見られなかった:", c["name"], c["error"])
+    if quiet:
+        return summary + ("。見られなかった: " + "、".join(c["name"] for c in bad) if bad else "")
     if leads_only:
         import media_digest as m
         for v in new:

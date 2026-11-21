@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-21",
+ "summary": "過去動画の取得: 28/30チャンネル、新しく20本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Stripe",
+   "ok": false,
+   "error": "読めない:'NoneType' object has no attribute 'group'"
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 6
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 7
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": false,
+   "error": "読めない:'NoneType' object has no attribute 'group'"
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 1
+  }
+ ],
+ "videos": [
+  {
+   "id": "OR1IJgyFbS0",
+   "title": "Michael Irvin on if the NFL is supersizing the schedule",
+   "age": "18 min ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=OR1IJgyFbS0"
+  },
+  {
+   "id": "KfS3q96rZPY",
+   "title": "Paris Hilton on human connection in the age of AI",
+   "age": "49 min ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=KfS3q96rZPY"
+  },
+  {
+   "id": "y20NM5jHgUE",
+   "title": "No More Regretful \"Impulse Buys.\" What Is the Skincare That Truly Wins in an Age of Decision Fati...",
+   "age": "1h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=y20NM5jHgUE"
+  },
+  {
+   "id": "SRhCRlLKVRQ",
+   "title": "\"The patent for strawberry cultivation technology belongs to Oishii Farm.\" A bizarre battle betwe...",
+   "age": "2h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=SRhCRlLKVRQ"
+  },
+  {
+   "id": "UK-JANyvCX0",
+   "title": "[Masaru Sato × Muneo Suzuki] \"China Visits Iturup Island\": What Is Their Intent? #MasaruSato #Mun...",
+   "age": "2h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=UK-JANyvCX0"
+  },
+  {
+   "id": "TW5n0gItvCM",
+   "title": "AI Has Made Work Faster. Why Aren't We Seeing Results?",
+   "age": "3h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=TW5n0gItvCM"
+  },
+  {
+   "id": "Bgs_G1FoaCE",
+   "title": "Is Generation Z really that vulnerable? What a local company with a 120:1 applicant-to-acceptance...",
+   "age": "4h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=Bgs_G1FoaCE"
+  },
+  {
+   "id": "c5UjWcUQSik",
+   "title": "[Kanna Hashimoto is a Pro] The \"Worried\" Expression That Makes People Want to Help You #Posture #...",
+   "age": "5h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=c5UjWcUQSik"
+  },
+  {
+   "id": "D4p8Q5KoTWY",
+   "title": "【ひろゆき&石丸伸二&後藤達也&今野忍】祝！200万人突破…今後どうする！？生配信【ReHacQ高橋弘樹】",
+   "age": "",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=D4p8Q5KoTWY"
+  },
+  {
+   "id": "_AQRXQS1MQ0",
+   "title": "【平良海馬に緊急直撃】MLB挑戦の本音激白／球団との交渉条件／サイ・ヤング賞のスピーチの中身／高校時代の秘話／／日本球界に戻る可能性は？【PIVOT BASEBALL】",
+   "age": "3h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=_AQRXQS1MQ0"
+  },
+  {
+   "id": "VpgmEDmmHWQ",
+   "title": "MinebeaMitsumi: The Company Powering Airplanes #CambriaPalace #MinebeaMitsumi #Airplane #Printer ...",
+   "age": "2h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=VpgmEDmmHWQ"
+  },
+  {
+   "id": "KwqGBEw-3T8",
+   "title": "Metropolitan Police Department Holds Large-Scale Recruitment Fair to Showcase Appeal and Secure T...",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=KwqGBEw-3T8"
+  },
+  {
+   "id": "jCzYqkt44aA",
+   "title": "Racing Down the Streets of Shinagawa! \"Isu-1 Grand Prix\"",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=jCzYqkt44aA"
+  },
+  {
+   "id": "8a1e_2tULHA",
+   "title": "METI Announces End of EV Subsidy Applications; Budget Expected to Run Out",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=8a1e_2tULHA"
+  },
+  {
+   "id": "5w23Gek5JS8",
+   "title": "SEC Investigating NVIDIA Over Accounting Practices?",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=5w23Gek5JS8"
+  },
+  {
+   "id": "rYsMLWzkdBg",
+   "title": "Princess Aiko Departs Singapore Following Official Visit",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=rYsMLWzkdBg"
+  },
+  {
+   "id": "CaJz0TmMjHw",
+   "title": "US Treasury Secretary: \"US and China Agree on Human Involvement in Military AI\"",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=CaJz0TmMjHw"
+  },
+  {
+   "id": "n5QGz_VDuOA",
+   "title": "【宇宙に「ト音記号」出現】ブラックホール活動で形成か　#Shorts",
+   "age": "2h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=n5QGz_VDuOA"
+  },
+  {
+   "id": "4jZGUiOEI9o",
+   "title": "【プレイド｢KARTE｣不正アクセス被害 1億件超】 #Shorts",
+   "age": "4h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=4jZGUiOEI9o"
+  },
+  {
+   "id": "Lr_NR7v5mWU",
+   "title": "How AI turns years of drug discovery into weeks",
+   "age": "48 min ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=Lr_NR7v5mWU"
+  }
+ ]
+}

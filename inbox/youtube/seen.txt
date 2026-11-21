@@ -410,3 +410,32 @@ Rl87nR_D_lg|Reid Hoffman|2026-11-08|Will AI remember how we treated it?
 tbjMSrbbz1s|Reid Hoffman|2026-11-07|Demis Hassabis on the riskiest path to AGI
 El_ZY0sgBXg|Reid Hoffman|2026-11-06|Should AI be allowed to say no? 🚫
 tcT3tG7IadY|Reid Hoffman|2026-11-05|Are we ready to ask if AI has moral standing?
+OR1IJgyFbS0|CNBC Television|2026-11-21|Michael Irvin on if the NFL is supersizing the schedule
+KfS3q96rZPY|CNBC Television|2026-11-21|Paris Hilton on human connection in the age of AI
+y20NM5jHgUE|NewsPicks|2026-11-21|もう「なんとなく買い」で失敗したくない。 決断疲れの時代に本当に選ばれるスキンケアとは？【NewsPicks/松本考司/中山佳奈子/小倉弘子/富士フイルム/STORY/美容】
+SRhCRlLKVRQ|NewsPicks|2026-11-21|「イチゴの栽培技術の特許は、Oishiiファームのものだ」ユニコーンvs無名スタートアップの奇妙なバトル
+UK-JANyvCX0|NewsPicks|2026-11-21|【佐藤優×鈴木宗男】「中国が択捉島を訪問」その意図とは？ #佐藤優 #鈴木宗男 #ロシア外交
+TW5n0gItvCM|NewsPicks|2026-11-21|AIで仕事は速くなった。なぜ成果が出ない？
+Bgs_G1FoaCE|NewsPicks|2026-11-21|Z世代は本当に打たれ弱い？採用倍率120倍の地方企業が変えたこと【NewsPicks/須黒清華/山崎亮/こども家庭庁/フジワラテクノアート/Z世代/離職/FR経営】
+c5UjWcUQSik|NewsPicks|2026-11-21|【橋本環奈が上手い】つい助けたくなる「心配」の表情 #姿勢 #表情 #頭 #コミュニケーション
+zWM8MZnK8jo|NewsPicks|2026-11-21|【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/OpenAI/Amazon/Google/ダリオ・アモデイ/解説：後藤直義、森川潤）
+D4p8Q5KoTWY|ReHacQ-リハック-|2026-11-21|【ひろゆき&石丸伸二&後藤達也&今野忍】祝！200万人突破…今後どうする！？生配信【ReHacQ高橋弘樹】
+ITR1D_nMP1U|ReHacQ-リハック-|2026-11-21|【ReHacQ緊急生配信】AI株急落…NVIDIA騒動どうなる？アンソロピック上場の影響は？勢力図は変わる？【後藤達也vs今井翔太】
+_AQRXQS1MQ0|PIVOT|2026-11-21|【平良海馬に緊急直撃】MLB挑戦の本音激白／球団との交渉条件／サイ・ヤング賞のスピーチの中身／高校時代の秘話／／日本球界に戻る可能性は？【PIVOT BASEBALL】
+N8xZBajXL4E|PIVOT|2026-11-21|【成長企業はフリーランス活用率が2倍】社内にない専門性を外から取り入れる時代／外部プロ人材をうまく活用できる企業の条件／AI時代の人事戦略再設計
+2I_BW_1plW8|PIVOT|2026-11-21|【スマホ首による健康被害】スマホ首の原因は首じゃない？／首回しは絶対NG／現状把握アセスメント／2分で効くイエス・ノー運動／ストレス肩こりの対処法／枕は金額で選ぶな【PIVOT HEALTH】
+VpgmEDmmHWQ|テレ東BIZ|2026-11-21|飛行機を支えるミネベアミツミ#カンブリア宮殿 #ミネベアミツミ #飛行機 #プリンター #ギネス #技術
+KwqGBEw-3T8|テレ東BIZ|2026-11-21|警視庁が大規模な採用説明会を開催　魅力発信し人材確保につなげる
+jCzYqkt44aA|テレ東BIZ|2026-11-21|品川の公道を疾走！「いす－1グランプリ」
+8a1e_2tULHA|テレ東BIZ|2026-11-21|経済産業省　EV補助金の申請受け付け終了を発表　確保した予算が枯渇する見通し
+5w23Gek5JS8|テレ東BIZ|2026-11-21|米証券取引委員会がエヌビディアの会計調査か
+rYsMLWzkdBg|テレ東BIZ|2026-11-21|シンガポールを公式訪問していた愛子さま　帰国の途に
+CaJz0TmMjHw|テレ東BIZ|2026-11-21|米財務長官「米中が軍事AIの人間関与で一致」
+dUlKb0yRjrk|テレ東BIZ|2026-11-21|中国軍事企業とつながりか エヌビディア問題の女性
+zq1qHUcpSv8|テレ東BIZ|2026-11-21|【モーサテサタデー】AI相場は終わるのか
+S8MzGa703LQ|テレ東BIZ|2026-11-21|量子コンピュータ最前線！覇権を握る“方式“は？【配信版①/円卓コンフィデンシャル】
+n5QGz_VDuOA|日本経済新聞|2026-11-21|【宇宙に「ト音記号」出現】ブラックホール活動で形成か　#Shorts
+4jZGUiOEI9o|日本経済新聞|2026-11-21|【プレイド｢KARTE｣不正アクセス被害 1億件超】 #Shorts
+-pLjgo20bWc|日本経済新聞|2026-11-21|【秋と穐 「火」は怖し、「亀」はめでたし　漢字そぞろ歩き】　#Shorts
+n2YfK-t8VTo|日本経済新聞|2026-11-21|【数学難問「リーマン予想」解決か】 #Shorts
+Lr_NR7v5mWU|Reid Hoffman|2026-11-21|How AI turns years of drug discovery into weeks
