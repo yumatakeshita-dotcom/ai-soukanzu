@@ -4,6 +4,33 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-21　インド・東南アジア(シンガポール・インドネシア・ベトナム・タイ・フィリピン)のAI関連スタートアップの資金調達 2026年11月、出典はInc42・TechCrunchなどの記事URL
+
+- モデル: gemini-2.5-flash　/　候補 3件
+
+**Geminiが打った検索の言葉**
+
+- India AI startup funding November 2026 Inc42 TechCrunch Reuters Bloomberg
+- Southeast Asia AI startup funding November 2026 Inc42 TechCrunch Reuters Bloomberg
+- Singapore AI startup funding November 2026 TechCrunch Inc42
+- Indonesia AI startup funding November 2026 TechCrunch Inc42
+- Vietnam AI startup funding November 2026 TechCrunch Inc42
+- Thailand AI startup funding November 2026 TechCrunch Inc42
+- Philippines AI startup funding November 2026 TechCrunch Inc42
+
+**見たページ**
+
+- [e27.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvZ_Eh7KcnrZrCgSI0FenVQXTOvT0rUQGqmYIw3KwgNfOo7yfqd_aQnTemBQH_G2lotODSLgWp5AV7TmrdikruM5LoNB4Qh5K4vuN2KbVcbbATjNKZS-WTCHCV_ylbDRfcZ4fhv9xk0N6nnBVpg-2WB5AoUHcb1v7BamK5JXGzOeaOt7l5TpduYb8aQGXAwgPcsVp6bV8cnCA=)
+- [aravind-r.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlt-mKPKBCB78euaNR_TjNdXsxOrm2kcecsBZw1DcumNHclEFTirQK5gqZdXlkmAMVKuDFIab_uXR0Z-neCDqLXfzeHB6eFpSqLgf4_1VX8oA0dNHVILgQFW-RQHNxdVuE_zXCY_kjAn0C-TFZySWDTKl7VC7Ow1fECqdpgm4Ghlbb7SAxdjTAog==)
+
+**出てきた候補**
+
+- Kuaishou → 出資 → Kling AI(2026-10-30)
+- Google.org → 出資 → AIFroncort.AI(2026-11)
+-  → 出資 → Dreamteam(2026-11)
+
+記録ファイル: inbox/gemini/2026-11-21.json / 2026-11-21.md
+
 ## 2026-11-20_process_raw　直近1週間(2026年11月13日〜20日)のAI・半導体企業の出資と買収
 
 - モデル: (不明)　/　候補 5件　/　試しに生の返答をそのまま残した記録
