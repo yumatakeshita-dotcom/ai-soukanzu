@@ -9,3 +9,4 @@ HuggingFace | https://huggingface.co/blog
 GitHub | https://github.blog/ai-and-ml/
 Mistral | https://mistral.ai/news/
 Google | https://blog.google/innovation-and-ai/models-and-research/gemini-models/rss/
+Perplexity | https://www.perplexity.ai/hub/blog
