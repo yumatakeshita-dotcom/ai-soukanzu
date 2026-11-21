@@ -135,3 +135,26 @@ function funBtn(){
   return `<div class="links"><a href="#" id="gofun"><b>おもしろ情報: ${funEsc(e.p)} ${funEsc(e.catn)} ▸</b></a><small style="display:block;color:var(--muted)">${funEsc(e.t)} ${typeof cfBadge==='function'?cfBadge(e.cf):''} ${(e.src&&e.src[0])?`(出典: ${funEsc(e.src[0][0])})`:''}</small></div>`;
 }
 function wireFun(){const g=document.getElementById('gofun');if(g)g.addEventListener('click',ev=>{ev.preventDefault();const nm=COMPANIES[comp].name;const e=funFor([nm],[comp])[0];funQ=nm.length>=3?nm:'';funCat=(FUN_CATS.find(c=>c.n===(e&&e.catn))||FUN_CATS[0]).k;showFun();window.scrollTo(0,0)})}
+
+/* 会社の相関図に「人 → 作品」の線を足す(試作、2026/11/21)。本・映画の件で works と link(会社のキー)があるものだけ。
+   人が図にいるときだけ足す(いなければ何もしない)。作品は「関連企業」の色の小さな丸、線は灰色の細い線(種類 fun)。
+   出典と確かさの印は件のものをそのまま付ける。既存の人・線は書き換えない。index.html の DATA の組み立てから呼ぶ。 */
+function applyFun(c,d){
+  let all;try{all=funAll()}catch(e){return}
+  const norm=s=>String(s||'').toLowerCase().normalize('NFKC').replace(/[\s・,、.()()'’"“”\-]/g,'');
+  const ids=new Set(d.N.map(n=>n.id));
+  const yMin=(typeof COMPANIES!=='undefined'&&COMPANIES[c]&&COMPANIES[c].min)||2000;
+  (all.book||[]).forEach(e=>{
+    if(e.link!==c||!e.works||!e.works.length)return;
+    const pn=norm(e.p.replace(/\(.*\)$/,'')),pe=norm(e.en);
+    const person=d.N.find(n=>n.kind==='p'&&(norm(d.EN[n.id])===pe||norm(n.name)===pn));
+    if(!person)return;
+    e.works.forEach(w=>{
+      const id='fun_'+norm(w[0]).slice(0,24);
+      if(!ids.has(id)){ids.add(id);d.N.push({id,name:w[0]+(w[1]?'('+w[1]+')':''),kind:'o',from:yMin,desc:'おもしろ情報より。'+e.t+'。'+e.note,role:'作品',fd:1})}
+      if(d.E.some(x=>x.a===person.id&&x.b===id))return;
+      const src=(e.src||[]).map((s,i)=>{const k='fn_'+norm(e.p+w[0]).slice(0,16)+i;if(typeof DS!=='undefined'&&!DS[k])DS[k]=[s[0],s[1]];return k});
+      d.E.push({a:person.id,b:id,k:'fun',since:yMin,d:e.t+'(おもしろ情報)',src,lb:'',fd:1,cf:(typeof CFJA!=='undefined'&&CFJA[e.cf])||''});
+    });
+  });
+}

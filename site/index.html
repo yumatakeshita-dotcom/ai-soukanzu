@@ -36728,7 +36728,7 @@ function applyBig(c,d){
     d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
   });
 }
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyVerifyPpl(c,d);applyBack(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);if(typeof applyFun==='function')applyFun(c,d);applyVerifyPpl(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
