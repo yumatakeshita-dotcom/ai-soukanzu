@@ -67,3 +67,7 @@
 @Kepple_jp | money,vc | 資金調達中心のスタートアップ報道(KEPPLE)。確認済み
 @coral_capital | money,vc | 日本のVC(Coral Capital)公式。確認済み
 @sogyotecho | money,vc | 起業・資金調達の情報(創業手帳)。確認済み
+# --- 日本の上場企業ニュース (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@kabutan_jp | moves,money,vc | 株探(株式・企業情報サイト)公式。確認済み
+@Nikkei_Business | moves,money,vc | 日経電子版「ビジネス」公式。確認済み
+@tdnet_jp | money,deep | 適時開示情報(上場企業の開示)のbot。確認済み
