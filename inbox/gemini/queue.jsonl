@@ -1,2 +1,3 @@
 {"id": "20261120-013821", "ev": "queued", "topic": "動作確認用のテーマ", "n": 3, "at": "2026-11-20T01:38:21", "reason": "Gemini API エラー 429: quota"}
 {"id": "20261120-013821", "ev": "done", "at": "2026-11-20T01:38:21", "note": "inbox/gemini/2026-11-20-2.md"}
+{"id": "20261120-fractile", "ev": "queued", "topic": "Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年", "n": 8, "at": "2026-11-20T19:10:00", "reason": "Gemini API エラー 429: quota(2026-11-20 のチャットの案を調べたとき)"}
