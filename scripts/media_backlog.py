@@ -36,11 +36,49 @@ def save(q):
     json.dump(q, open(Q, "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
 
 
+AGE = re.compile(r"(\d+)\s*(h|d|w|mo|y)\b")
+STOP = set("the and for with why how what who this that from into your you are was will new now all but not can has have its our out one two ceo ai vs inc llc interview episode podcast live show part week monday tuesday wednesday thursday friday saturday sunday january february march april may june july august september october november december".split())
+_corpus = []
+
+
+def approx_date(age):
+    """YouTubeの『3mo ago』のようなおおよその古さから、おおよその日付(年月日)を作る(2026/11/21追加)。"""
+    m = AGE.search(age or "")
+    if not m:
+        return datetime.date.today().isoformat()
+    n, u = int(m.group(1)), m.group(2)
+    days = {"h": 0, "d": n, "w": 7 * n, "mo": 30 * n, "y": 365 * n}[u]
+    return (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+
+
+def corpus():
+    if not _corpus:
+        t = ""
+        for f in glob.glob(os.path.join(ROOT, "site", "data", "*.js")) + [os.path.join(ROOT, "site", "index.html")]:
+            t += open(f, encoding="utf-8", errors="ignore").read().lower()
+        _corpus.append(t)
+    return _corpus[0]
+
+
+def new_names(title):
+    """題名の中の英字の固有名詞のうち、相関図のデータに1回も出てこないもの(新しい会社・人の可能性)。"""
+    c = corpus()
+    out = []
+    for w in re.findall(r"\b[A-Z][A-Za-z0-9]{2,}\b", title):
+        if w.lower() not in STOP and w.lower() not in c and w not in out:
+            out.append(w)
+    return out[:4]
+
+
 def sync():
     q = load(); new = 0
-    for f in sorted(glob.glob(os.path.join(ROOT, "inbox", "youtube", "2*.json")) + glob.glob(os.path.join(ROOT, "inbox", "podcasts", "2*.json"))):
+    files = sorted(glob.glob(os.path.join(ROOT, "inbox", "youtube", "2*.json")) + glob.glob(os.path.join(ROOT, "inbox", "podcasts", "2*.json")) +
+                   glob.glob(os.path.join(ROOT, "inbox", "youtube", "backfill", "2*.json")))
+    for f in files:
         d = json.load(open(f, encoding="utf-8"))
         for v in d.get("videos", []) + d.get("episodes", []):
+            if "published" not in v:  # 過去動画の一覧は古さだけ(説明文なし)
+                v["published"] = approx_date(v.get("age"))
             text = v["title"] + " " + v.get("description", "")
             if v["published"] >= (datetime.date.today() - datetime.timedelta(days=RECENT_DAYS)).isoformat():
                 continue
@@ -53,14 +91,16 @@ def sync():
                 continue
             q["items"][i] = {"id": i, "published": v["published"], "source": v.get("channel") or v.get("show"), "title": v["title"],
                              "url": v.get("url", ""), "words": strong[:6], "companies": cos[:6],
-                             "desc": re.sub(r"\s+", " ", v.get("description", ""))[:400], "status": "todo", "note": ""}
+                             "desc": re.sub(r"\s+", " ", v.get("description", ""))[:400], "status": "todo", "note": "",
+                             "newnames": new_names(v["title"])}
             new += 1
     save(q); print(f"新しく足した手がかり: {new}件(合計{len(q['items'])})")
 
 
 def todo(n):
     its = [x for x in load()["items"].values() if x["status"] == "todo"]
-    its.sort(key=lambda x: (-len(x["words"]) - len(x["companies"]), x["published"]), reverse=False)
+    # 相関図にまだ無い名前が題名にあるものは少しだけ先に(ゲスト名なども拾うので、ごく軽い加点)
+    its.sort(key=lambda x: (-len(x["words"]) - len(x["companies"]) - (1 if x.get("newnames") else 0), x["published"]), reverse=False)
     return its[:n]
 
 
