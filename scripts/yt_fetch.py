@@ -156,6 +156,10 @@ def main():
         import yt_daily
         print("[yt_daily] " + yt_daily.main(quiet=True) + "(新着は inbox/youtube/ の今日のJSONを見る。"
               "調査の notes にこの1行を書く)", file=sys.stderr)
+        # ポッドキャストも同じ回で確認し、動画・番組の新着から移籍・出資の手がかりをまとめる(2026/11/21追加)
+        import pod_daily, media_digest
+        print("[pod_daily] " + pod_daily.main(quiet=True), file=sys.stderr)
+        print("[media_digest] " + media_digest.main() + "(inbox/media/ の今日の.mdを見て、出典を開いて確かめてから候補にする)", file=sys.stderr)
 
     jobs = [(v, a.channel, a.date, a.title) for v in a.ids]
     if a.retry_queue:

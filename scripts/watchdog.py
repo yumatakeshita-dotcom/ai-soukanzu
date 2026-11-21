@@ -34,6 +34,7 @@ SCHEDULE = [
     ('深堀り調査(deep)', (7, 41), (4,), 'inbox/deep', ''),
     ('薄いところ調査(moves _thin)', (7, 38), (5,), 'inbox/moves', '_thin'),
     ('YouTube確認(youtube)', (7, 26), None, 'inbox/youtube', ''),
+    ('ポッドキャスト確認(podcasts)', (7, 26), None, 'inbox/podcasts', ''),
     ('Gemini調査(gemini)', (8, 23), None, 'inbox/gemini', ''),
     ('開示ウォッチ(disclosures)', (10, 19), (1,), 'inbox/disclosures', ''),
     ('報道だけの数字の確かめ直し(verify)', (10, 23), (6,), 'inbox/verify', ''),

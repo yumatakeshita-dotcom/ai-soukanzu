@@ -21,3 +21,10 @@ UCHuiy8bXnmK5nisYHUd1J5g|NVIDIA|半導体(公式)|RSS名一致
 UCCb9_Kn8F_Opb3UCGm-lILQ|Microsoft Research|AI企業(公式)|RSS名一致
 UCrp_UI8XtuYfpiqluWLD7Lw|CNBC Television|経済ニュース|RSS名一致
 UCM1guA1E-RHLO2OyfQPOkEQ|Stripe|決済・起業(公式)|RSS名一致
+# 2026/11/21 日本語のチャンネルを追加(RSS名一致)
+UCfTnJmRQP79C4y_BMF_XrlA|NewsPicks|経済ニュース(日本語)|RSS名一致
+UCG_oqDSlIYEspNpd2H4zWhw|ReHacQ-リハック-|経済・政治(日本語)|RSS名一致
+UC8yHePe_RgUBE-waRWy6olw|PIVOT|ビジネス(日本語)|RSS名一致
+UCkKVQ_GNjd8FbAuT6xDcWgg|テレ東BIZ|経済ニュース(日本語)|RSS名一致
+UCHL12woHGeiqAqLrK-pJe7g|日本経済新聞|経済ニュース(日本語)|RSS名一致
+UCamllJQ7YaqaDNMCWgonj2w|ソフトバンクグループ|投資・AI(公式)|RSS名一致
