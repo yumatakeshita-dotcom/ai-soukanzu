@@ -36464,6 +36464,17 @@ const VERIFY_PPL=[
 Object.assign(DS,{
  /*XV_DS_START*/ /*XV_DS_END*/
 });
+/* 出資の線に、data/investsrc.js の出典を足す(2026/11/21。足すだけ・既存の出典は消さない)。名前が合う出資の線だけ */
+function applyInvSrc(c,d){
+  if(typeof INVSRC==='undefined')return;
+  if(typeof INVSRC_DS!=='undefined')Object.keys(INVSRC_DS).forEach(k=>{if(!DS[k])DS[k]=INVSRC_DS[k]});
+  const nm=x=>String(x||'').normalize('NFKC').toLowerCase().replace(/[\s　\.\,・()（）]/g,'').replace(/(inc|corp|corporation|株式会社|holdings|group|グループ)$/,'');
+  const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
+  d.E.forEach(e=>{if(e.k!=='invest'&&e.k!=='invest2')return;const A=by[e.a],B=by[e.b];if(!A||!B)return;
+    INVSRC.forEach(([a,b,keys,note,dt])=>{if(nm(A.name)!==nm(a)||nm(B.name)!==nm(b))return;
+      (keys||[]).forEach(key=>{if(DS[key]&&!(e.src||[]).includes(key))e.src=(e.src||[]).concat([key])});
+      if(note&&!(e.d||'').includes('出典で確認'))e.d=(e.d||'')+`(${dt||''}、出典で確認: ${note})`})});
+}
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
@@ -36728,7 +36739,7 @@ function applyBig(c,d){
     d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
   });
 }
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyVerifyPpl(c,d);applyBack(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);applyVerifyPpl(c,d);applyInvSrc(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}

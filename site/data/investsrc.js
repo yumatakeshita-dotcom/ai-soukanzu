@@ -13,6 +13,7 @@ const INVSRC_DS={
  iv_dbi:['Databricks公式発表(2023/9/14、シリーズI 43Bドル評価。T. Rowe Priceが主導、NVIDIAが新規出資)','https://www.databricks.com/company/newsroom/press-releases/databricks-raises-series-i-investment-43b-valuation','o'],
  iv_dbj:['Databricks公式発表(2024/12/17、シリーズJ。Thrive Capitalが主導、a16z・GIC・Insight Partners・MGXなどが参加)','https://www.databricks.com/company/newsroom/press-releases/databricks-raising-10b-series-j-investment-62b-valuation','o'],
  iv_cohd:['Cohere公式発表(2025/8、5億ドル。Radical Ventures・Inovia Capitalが主導、AMD Ventures・NVIDIA・Salesforce Venturesなどが参加)','https://cohere.com/blog/august-2025-funding-round','o'],
+ iv_ssit:['TechCrunch(2025/4/12、SSIが20億ドル・評価額320億ドルで調達と報道。Greenoaksが主導、Nvidia・a16z・Alphabet・Lightspeed・Sequoiaなどが出資者。記事の本文は開けず検索結果の要約で確認)','https://techcrunch.com/2025/04/12/openai-co-founder-ilya-sutskevers-safe-superintelligence-reportedly-valued-at-32b/','r'],
 /*MONEY_DS_START*/
   im_23adc9a8:['Kindo 公式(2026-11-12)','https://www.kindo.ai/resources/press-kindo-raises-57-million-ai-agent-management','o'],
  im_50897c97:['PR Newswire 会社発表(2026-11-17)','https://www.prnewswire.com/news-releases/genesis-ai-raises-500m-series-a-at-3-5b-valuation-to-master-human-level-dexterity-in-general-purpose-robots-and-deploy-at-scale-302941249.html','o'],
@@ -72,6 +73,12 @@ const INVSRC=[
  ['AMD Ventures','Cohere',['iv_cohd'],'2025年8月の5億ドルに既存の出資者として参加','2026/11/21'],
  ['Nvidia','Cohere',['iv_cohd'],'2025年8月の5億ドルに既存の出資者として参加','2026/11/21'],
  ['Salesforce Ventures','Cohere',['iv_cohd'],'2025年8月の5億ドルに既存の出資者として参加','2026/11/21'],
+ ['Greenoaks','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで主導と報道(報道ベース)','2026/11/21'],
+ ['Andreessen Horowitz','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['Alphabet','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['Lightspeed','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['Nvidia','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['Sequoia Capital','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
  /*MONEY_SRC_START*/
   ['Crosspoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
  ['Forgepoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
