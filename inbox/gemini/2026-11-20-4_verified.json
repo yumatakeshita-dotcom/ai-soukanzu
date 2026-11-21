@@ -1,0 +1,300 @@
+{
+ "date": "2026-11-20",
+ "source": "inbox/gemini/2026-11-20-4.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "出資",
+    "相手": "",
+    "金額": "$11 billion",
+    "日付": "2026-11-06",
+    "出典URL": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "確かさ": "報道",
+    "備考": "評価額は$1.25兆ドル。これはより大規模な資金調達ラウンドの一部であり、最終的に$200億に達する可能性もある。SoftBankとMGXが参加したと報じられている。",
+    "src": [
+     [
+      "TechCrunch",
+      "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+     "names_on_page": [
+      "OpenAI"
+     ]
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-06)の同じ種類の出来事がすでにある(site/data/exectl.js)",
+    "date": [
+     "ページの公開日(2026-11-18)と12日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「OpenAI」の同じころ(2026-11-06)の同じ種類の出来事がすでにある(site/data/exectl.js)",
+    "日付: ページの公開日(2026-11-18)と12日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "買収",
+    "相手": "Pierre Computer Company, Inc.",
+    "金額": "",
+    "日付": "2026-11-04",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU=",
+    "確かさ": "報道",
+    "備考": "Code Storage、Trees、Diffsなどの開発ツール企業。買収額は非公開。",
+    "src": [
+     [
+      "Venture Atlas",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU="
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7QuXyjdZFdS6bSEXeJNiA0_VRemVCeimsl7iQquKQUWeFiejVeFpzx6Un4_9ZY0RJkwpi7dnSmxoMs7gF8ybTRvIJQBgHxElJR3zRN2L1UT-TujDnt1ARmBs_g9eHXYQgs9mz3fXaKK6jJtDiXpFBC0_0VJYus_qgtrlNvib8OXU="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "買収",
+    "相手": "Odessia",
+    "金額": "",
+    "日付": "2026-11",
+    "出典URL": "https://www.tracxn.com/d/acquisitions/acquisitions-by-openai",
+    "確かさ": "報道",
+    "備考": "自動旅行計画サービスを提供する企業。買収額は非公開。",
+    "src": [
+     [
+      "Tracxn",
+      "https://www.tracxn.com/d/acquisitions/acquisitions-by-openai"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.tracxn.com/d/acquisitions/acquisitions-by-openai"
+    },
+    "dup": "「OpenAI」と「Odessia」の組み合わせがすでにある(site/data/relnews.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」と「Odessia」の組み合わせがすでにある(site/data/relnews.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "Groupe Figaro (Le Figaro)",
+    "金額": "",
+    "日付": "2026-11-18",
+    "出典URL": "https://www.unite.ai/openai-to-surface-le-figaro-reporting-in-chatgpt-partnership/",
+    "確かさ": "報道",
+    "備考": "ChatGPTでLe Figaroのジャーナリズムコンテンツを利用可能にし、Le Figaro内でChatGPT Enterpriseを展開する戦略的パートナーシップ。",
+    "src": [
+     [
+      "www.unite.ai",
+      "https://www.unite.ai/openai-to-surface-le-figaro-reporting-in-chatgpt-partnership/"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZpDZlJ10MIiMK-eZza9WOx6mOvNl_Nr5qhdCxDFmLsEtCkw6nYfYuFUvRViyL-mwxwtro95qMmFVD2ehAHmQ4dQ4qf4OXMWYgcovjjKmAYJCmInN-V819byl9zNOZlCQ2CvDUArrRU2LUxaV27bfRMOTQgTpbbe7mo3JpRKp7jO7b9WTPgnY17Xc_cmY="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.unite.ai/openai-to-surface-le-figaro-reporting-in-chatgpt-partnership/"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-18)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-18)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "LVMH's media division (Groupe Les Echos-Le Parisien)",
+    "金額": "",
+    "日付": "2026-11-16",
+    "出典URL": "https://mlq.ai/news/lvmhs-media-group-signs-a-deal-with-openai-to-bring-chatgpt-enterprise-to-its-newsrooms/",
+    "確かさ": "報道",
+    "備考": "LVMHのメディア部門の出版物全体でChatGPT EnterpriseおよびOpenAIツールを展開し、そのコンテンツをChatGPTに統合する戦略的パートナーシップ。",
+    "src": [
+     [
+      "mlq.ai",
+      "https://mlq.ai/news/lvmhs-media-group-signs-a-deal-with-openai-to-bring-chatgpt-enterprise-to-its-newsrooms/"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "Geminiが書いたURL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZPgJCwnrgnMNYpmoKxVyqqTVDcKErV8QAZhjwK4l7HCG6IDG1wGSNNV-B5nl5sSYpxaA96rFy6XAJUK7sWGO-MRk_aXNU2flXcrCjhrbd63MQLeclqap7aoN5yyjoIR--iJtTU95GW_3tUAKOcy4OiOedCcWPNew67tvZ0MXrVZAqWHivdDQ2gzz-Q072qnND8iMLmH9EY8tWuFy509xwSIrdIQTOFQ=="
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://mlq.ai/news/lvmhs-media-group-signs-a-deal-with-openai-to-bring-chatgpt-enterprise-to-its-newsrooms/"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-16)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクを元の記事のURLに置き換えた",
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-16)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "Aleph",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://www.globenewswire.com/news-release/2026/11/19/2782780/0/en/OpenAI-increases-its-ChatGPT-Ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-Aleph.html",
+    "確かさ": "公式",
+    "備考": "44カ国でChatGPT広告のプレゼンスを拡大するための独占的な再販業者パートナーシップ。",
+    "src": [
+     [
+      "GlobeNewswire",
+      "https://www.globenewswire.com/news-release/2026/11/19/2782780/0/en/OpenAI-increases-its-ChatGPT-Ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-Aleph.html"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI",
+     "Aleph"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.globenewswire.com/news-release/2026/11/19/2782780/0/en/OpenAI-increases-its-ChatGPT-Ads-presence-in-44-countries-through-an-exclusive-reseller-partnership-with-Aleph.html"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-02",
+    "出典URL": "https://openai.com/blog/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-modernization",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "Dan Driscoll",
+    "役職": "Senior Counselor for National Security Modernization",
+    "移籍元": "(元陸軍長官)",
+    "移籍先": "OpenAI",
+    "src": [
+     [
+      "OpenAI Blog",
+      "https://openai.com/blog/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-modernization"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://openai.com/blog/openai-appoints-dan-driscoll-as-senior-counselor-for-national-security-modernization"
+    },
+    "dup": "「OpenAI」と「Dan Driscoll」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」と「Dan Driscoll」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Together Fund",
+   "to": "Dreamteam",
+   "kind": "出資",
+   "amount": "$53M(3社合計)",
+   "date": "2026-11-17",
+   "note": "Dreamteam(元Freshworks幹部らが作ったAI型CRM)が覆面を解いて5,300万ドルを調達。Together Fund・Accel・Premji Investが参加(Inc42 2026/11/17で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/17)",
+     "https://inc42.com/buzz/dreamteam-bags-53-mn-to-disrupt-the-crm-space-with-ai/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Accel",
+   "to": "Dreamteam",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-17",
+   "note": "Dreamteam(元Freshworks幹部らが作ったAI型CRM)が覆面を解いて5,300万ドルを調達。Together Fund・Accel・Premji Investが参加(Inc42 2026/11/17で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/17)",
+     "https://inc42.com/buzz/dreamteam-bags-53-mn-to-disrupt-the-crm-space-with-ai/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Premji Invest",
+   "to": "Dreamteam",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-17",
+   "note": "Dreamteam(元Freshworks幹部らが作ったAI型CRM)が覆面を解いて5,300万ドルを調達。Together Fund・Accel・Premji Investが参加(Inc42 2026/11/17で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/17)",
+     "https://inc42.com/buzz/dreamteam-bags-53-mn-to-disrupt-the-crm-space-with-ai/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Google.org",
+   "to": "Froncort.AI",
+   "kind": "出資",
+   "amount": "$2.3M",
+   "date": "2026-11-10",
+   "note": "Froncort.AI(インドのAI疾病監視)へのGoogle.orgの支援金230万ドル。Google Cloudのクレジット20万ドルと技術支援を含む。助成型の資金で、株式の出資とは限らない(Inc42 2026/11/10で本文を確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Inc42(2026/11/10)",
+     "https://inc42.com/buzz/froncort-ai-raises-2-3-mn-from-google-org-to-expand-ai-based-disease-surveillance/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ]
+}

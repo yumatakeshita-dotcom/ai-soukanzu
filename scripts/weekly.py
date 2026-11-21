@@ -15,6 +15,7 @@
 
 冒頭の「今週のポイント」は newsletter/lead/YYYY-MM-DD.md(発行日)に書いておくと使われる。
 無ければ件数から短い文を自動で作る。
+特集(任意)は newsletter/feature/YYYY-MM-DD.md(発行日)に書いておくと「今週のポイント」の次に入る。1行目は「# 題名」、あとは文と「- 」の箇条書き。リンクは [文字](URL)。
 足すだけ: inbox/ や index.html は読むだけで書き換えない。
 """
 import argparse, datetime, glob, html, json, os, re, subprocess, sys
@@ -27,6 +28,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NL = os.path.join(ROOT, 'newsletter')
 ISSUES = os.path.join(NL, 'issues')
 LEAD = os.path.join(NL, 'lead')
+FEATURE = os.path.join(NL, 'feature')  # 特集(2026/11/19追加)
 PAGE = os.path.join(ROOT, 'site', 'weekly', 'index.html')
 MAP_URL = 'https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu'
 WEEKLY_URL = 'https://claude.ai/artifact/WnWyUzjmrSVHcxVgzKWPCM'  # このページ(site/weekly/index.html)の共有リンク
@@ -142,15 +144,91 @@ def auto_lead(sec, found):
     return '\n'.join('- ' + l for l in lines)
 
 
+def load_feature(date):
+    """特集: newsletter/feature/発行日.md。1行目「# 題名」、残りが本文。無ければ None"""
+    p = os.path.join(FEATURE, date + '.md')
+    if not os.path.exists(p):
+        return None
+    lines = open(p, encoding='utf-8').read().strip().splitlines()
+    title = lines[0].lstrip('#').strip() if lines else ''
+    return {'title': title, 'body': '\n'.join(lines[1:]).strip()}
+
+
+def _co(x):
+    """会社名をそろえる(括弧と「/」より後ろを落とす)"""
+    x = re.split(r'[((/／]', str(x or ''))[0].strip()
+    return x
+
+
+def feature_candidates(start, end):
+    """特集の候補(2026/11/19追加)。期間の調査(inbox/moves)で人の動きが多かった会社を数え、
+    newsletter/feature/candidates/ に書く。人が選んで newsletter/feature/発行日.md に書き起こす。"""
+    from collections import defaultdict
+    ppl = defaultdict(list)
+    for f in sorted(glob.glob(os.path.join(ROOT, 'inbox', 'moves', '*.json'))):
+        try:
+            data = json.load(open(f, encoding='utf-8'))
+        except Exception:
+            continue
+        fdate = str(data.get('date') or os.path.basename(f)[:10])[:10]
+        for it in data.get('items') or []:
+            if not isinstance(it, dict) or not mi.src_list(it):
+                continue
+            d = str(it.get('date') or fdate)[:10]
+            if not (start <= d <= end or (start <= fdate <= end)):
+                continue
+            who = it.get('name_ja') or it.get('name_en') or ''
+            for side, lbl in (('from', '出た'), ('to', '入った')):
+                c = _co(it.get(side))
+                if c and len(c) >= 2:
+                    ppl[c].append((lbl, who, _co(it.get('to') if side == 'from' else it.get('from')), d))
+    rows = sorted(ppl.items(), key=lambda kv: -len(kv[1]))
+    lines = [f'# 特集の候補 {start}〜{end}', '',
+             '期間の調査(inbox/moves)で、人の動きが多かった会社です。選んだら、出典を確かめて newsletter/feature/発行日.md に書きます。', '']
+    n = 0
+    for c, L in rows:
+        if len(L) < 2:
+            continue
+        n += 1
+        ins = [x for x in L if x[0] == '入った']
+        outs = [x for x in L if x[0] == '出た']
+        lines.append(f'## {c}(入った{len(ins)}人・出た{len(outs)}人)')
+        for lbl, who, other, d in sorted(L, key=lambda x: x[3], reverse=True)[:6]:
+            lines.append(f'- {d} {who}({"←" if lbl == "入った" else "→"} {other or "不明"})')
+        lines.append('')
+        if n >= 5:
+            break
+    if not n:
+        lines.append('この期間は、2件以上の動きがあった会社はありませんでした。相関図の「人材の流れ」で、2社を選んで探せます。')
+    return '\n'.join(lines) + '\n'
+
+
+def to_note(feature, date):
+    """note向けの記事(2026/11/19追加)。特集を、noteに貼れる形にする(公開はしない)。
+    noteの編集画面ではリンクの書き方 [文字](URL) がそのまま効かないことがあるので、「文字 URL」(括弧のなかなら、括弧を重ねずに)にして出す。"""
+    body = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', r'\1 \2', feature['body'])
+    body = re.sub(r'\*\*([^*]+)\*\*', r'\1', body)
+    return '\n'.join([
+        feature['title'], '',
+        body, '',
+        '---',
+        'この記事は、AI企業の人・出資・取引のつながりを集めた「AI企業の相関図」のデータから書いています。',
+        f'相関図: {MAP_URL}',
+        f'週のまとめ(ニュースレター): {WEEKLY_URL}',
+        '※ 各項目は報道ベースです。出典のリンクから元の記事をご確認ください。',
+        f'(発行日 {date})', ''])
+
+
 def build_issue(date, start, end):
     sec, found, edges = collect(start, end)
     lead_path = os.path.join(LEAD, date + '.md')
     lead = open(lead_path, encoding='utf-8').read().strip() if os.path.exists(lead_path) else auto_lead(sec, found)
+    feature = load_feature(date)
     nums = sorted(os.path.basename(p)[:10] for p in glob.glob(os.path.join(ISSUES, '*.json')))
     no = (nums.index(date) + 1) if date in nums else len(nums) + 1
     from collections import Counter
     return {
-        'no': no, 'date': date, 'start': start, 'end': end, 'lead': lead,
+        'no': no, 'date': date, 'start': start, 'end': end, 'lead': lead, 'feature': feature,
         'sections': sec, 'found': found,
         'counts': {k: len(v) for k, v in sec.items()} | {'found': len(found), 'edges': len(edges)},
         'edge_kinds': dict(Counter(r['k'] for r in edges)),
@@ -176,6 +254,8 @@ def to_md(iss):
     out = [f'# 今週のAIのお金と人の動き 第{iss["no"]}号',
            f'{jdate(iss["start"])}〜{jdate(iss["end"])} / 発行 {jdate(iss["date"])}', '',
            '## 今週のポイント', iss['lead'], '']
+    if iss.get('feature'):
+        out += [f'## 特集: {iss["feature"]["title"]}', iss['feature']['body'], '']
     for k, name, desc in SECTIONS:
         rows = iss['sections'][k]
         if not rows:
@@ -219,12 +299,39 @@ def lead_html(lead):
     return ''.join(f'<p class="lead">{e(l)}</p>' for l in lines)
 
 
+def md_inline(t):
+    """[文字](URL) と **太字** だけを HTML にする(それ以外はそのまま文字として出す)"""
+    t = e(t)
+    t = re.sub(r'\[([^\]]+)\]\((https?://[^)\s]+)\)', lambda m: f'<a href="{m.group(2)}" target="_blank" rel="noopener">{m.group(1)}</a>', t)
+    return re.sub(r'\*\*([^*]+)\*\*', r'<b>\1</b>', t)
+
+
+def feature_html(f):
+    out, ul = [], []
+    def flush():
+        if ul:
+            out.append('<ul class="items">' + ''.join(f'<li>{x}</li>' for x in ul) + '</ul>')
+            ul.clear()
+    for l in f['body'].splitlines():
+        l = l.strip()
+        if not l:
+            flush(); continue
+        if l.startswith('- '):
+            ul.append(md_inline(l[2:]))
+        else:
+            flush(); out.append(f'<p class="desc">{md_inline(l)}</p>')
+    flush()
+    return f'<section class="sec feature"><h3>特集: {e(f["title"])}</h3>{"".join(out)}</section>'
+
+
 def issue_html(iss, open_=True):
     c = iss['counts']
     tiles = [('お金の流れ', c['money'], 'money'), ('人の動き', c['moves'], 'moves'),
              ('ファンド', c['vc'], 'vc'), ('過去の動き', c['found'], 'found')]
     tile_html = ''.join(f'<div class="tile {k}"><b>{n}</b><span>{e(lbl)}</span></div>' for lbl, n, k in tiles)
     body = [f'<div class="tiles">{tile_html}</div>', '<h3>今週のポイント</h3>', lead_html(iss['lead'])]
+    if iss.get('feature'):
+        body.append(feature_html(iss['feature']))
     for k, name, desc in SECTIONS:
         rows = iss['sections'][k]
         if rows:
@@ -363,6 +470,8 @@ def main():
         end = a.end or d2s(last_sun)
         iss = build_issue(date, start, end)
         json.dump(iss, open(os.path.join(ISSUES, date + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        os.makedirs(os.path.join(FEATURE, 'candidates'), exist_ok=True)
+        open(os.path.join(FEATURE, 'candidates', date + '.md'), 'w', encoding='utf-8').write(feature_candidates(start, end))
         print(f'第{iss["no"]}号 {start}〜{end}: ' + ', '.join(f'{k} {v}' for k, v in iss['counts'].items()))
     issues = [json.load(open(p, encoding='utf-8')) for p in sorted(glob.glob(os.path.join(ISSUES, '*.json')))]
     if not issues:
@@ -370,9 +479,15 @@ def main():
         return
     for iss in issues:
         open(os.path.join(NL, iss['date'] + '.md'), 'w', encoding='utf-8').write(to_md(iss))
+        if iss.get('feature'):
+            os.makedirs(os.path.join(NL, 'note'), exist_ok=True)
+            open(os.path.join(NL, 'note', iss['date'] + '.md'), 'w', encoding='utf-8').write(to_note(iss['feature'], iss['date']))
     os.makedirs(os.path.dirname(PAGE), exist_ok=True)
     open(PAGE, 'w', encoding='utf-8').write(render_page(issues))
+    subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'seo.py')], check=False)  # 共有カード用の meta を入れ直す
     print('作ったもの:', os.path.relpath(PAGE, ROOT), f'newsletter/ に .md {len(issues)}号分')
+    # 法的ページへのフッターリンクを入れ直す(設定がOFFなら何も足さない)
+    subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'legal.py')], check=False)
 
 
 if __name__ == '__main__':

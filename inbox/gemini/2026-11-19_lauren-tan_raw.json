@@ -1,0 +1,52 @@
+{
+ "model": "gemini-2.5-flash",
+ "text": "```json\n{\n \"identity_evidence\": [\n  \"オンラインでは「poteto」として知られており、自身のGitHubプロフィール（@poteto）もこの名前を使用している。\",\n  \"React Compilerのコアチームのメンバーであると複数の情報源で言及されている。\",\n  \"自身のLinkedInプロフィールや講演資料でも「Lauren Tan (poteto)」と名乗っている。\",\n  \"AIエージェントのスキルセット「pstack」の作者である。\"\n ],\n \"homonyms\": [],\n \"facts\": [\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"オーストラリアのモナシュ大学で会計学と金融学を学び、ディーンズリストに掲載された。\",\n   \"時期\": \"不明\",\n   \"相手\": \"モナシュ大学\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRKn9eiAg-S6dFrbtS8MX7hs3TgHECqgDopsyGs2u411VNnfysY6sFjUo4O_-C66ZrFZ1umfsxAXfRYRSaGRJc2Lj67YQXhVH2IyoRVVAhZykkrnLZ0-Yc2wTo\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"ロンドン・スクール・オブ・エコノミクス・アンド・ポリティカル・サイエンスでビジネス分析と評価において上位5%の成績を収めた。\",\n   \"時期\": \"不明\",\n   \"相手\": \"ロンドン・スクール・オブ・エコノミクス・アンド・ポリティカル・サイエンス\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRKn9eiAg-S6dFrbtS8MX7hs3TgHECqgDopsyGs2u411VNnfysY6sFjUo4O_-C66ZrFZ1umfsxAXfRYRSaGRJc2Lj67YQXhVH2IyoRVVAhZykkrnLZ0-Yc2wTo\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"Netflixで2016年7月から2017年11月までStudio Programmingのシニアソフトウェアエンジニア（リード）を務めた。\",\n   \"時期\": \"2016-07 to 2017-11\",\n   \"相手\": \"Netflix\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"Netflixで2017年11月から2020年2月までUIエンジニアリングのエンジニアリングマネージャーを務めた。\",\n   \"時期\": \"2017-11 to 2020-02\",\n   \"相手\": \"Netflix\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"移籍\",\n   \"内容\": \"2020年2月にNetflixでのマネジメント職を離れ、ハンズオンエンジニアリングに戻ることを発表した。\",\n   \"時期\": \"2020-02\",\n   \"相手\": \"Netflix\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQO9OUfNk6H_IJzMgdbX0lZRJS9N9dZVWYC_mOs9BB3GWBXvNUKx2WL9iExoDBIJURADLB5NixHARNm1sgA2ZSgoQu_t26msVxR_5tC3HVzSJeb1uCtTD7VBSJ7XtFMDZ2pw==\",\n   \"確かさ\": \"本人の発言\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"Meta（Facebook）に2020年3月から2021年11月までスタッフソフトウェアエンジニアとして所属し、React Server Componentsの社内プロトタイプ開発を主導し、Relayコンパイラとランタイムのサポートに取り組んだ。\",\n   \"時期\": \"2020-03 to 2021-11\",\n   \"相手\": \"Meta (Facebook)\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"Metaで2021年11月から2022年8月までReactチームのエンジニアリングマネージャーを務めた。\",\n   \"時期\": \"2021-11 to 2022-08\",\n   \"相手\": \"Meta\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"経歴\",\n   \"内容\": \"Metaで2022年8月から2026年3月までスタッフソフトウェアエンジニアとしてReact Compilerの開発に携わり、コンパイラ表現の書き換えやReact Compiler 1.0の発表を共同執筆した。\",\n   \"時期\": \"2022-08 to 2026-03\",\n   \"相手\": \"Meta\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"移籍\",\n   \"内容\": \"2026年3月にMetaを退職し、CursorにMember of Technical Staffとして入社した。\",\n   \"時期\": \"2026-03\",\n   \"相手\": \"Cursor\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"関係\",\n   \"内容\": \"2026年5月に自身のエンジニアリングワークフローをエージェントスキルに落とし込んだオープンソースプラグイン「pstack」を公開した。\",\n   \"時期\": \"2026-05\",\n   \"相手\": \"Cursor\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkyQB90vfAGI8ZPndT_CxE4Rl6fHeYdR6FfjfDeFhMI51RAefTDJcwPkhONnBdcwie8AwookEQwytvKLEUaMlRyCq-DgbwY9ClJhlk9pYVY5f26CC7AddksOEtX3yKogBMfarFOdoSub9U8GGNotktf2ve-FcMl1FyW5mRV5CwQQ4\",\n   \"確かさ\": \"本人の発言\"\n  },\n  {\n   \"項目\": \"移籍\",\n   \"内容\": \"2026年8月からSpaceXAIのプリンシパルエンジニアを務めている。\",\n   \"時期\": \"2026-08\",\n   \"相手\": \"SpaceXAI\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERA8O0pPyi2uxG03Sk8M7tZ9o5vPdi67sLWvT2sOLH4te7XCICvwU4gF3zhMSMQIU0OfTDQsZHJIoP03pQmyocmG2aM9zNxyDeIvNtIACYnGjHx3fF\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"現在\",\n   \"内容\": \"現在はGrok Botの開発に携わっており、SpaceXAIのAIチームでAIエージェント製品「Grok Bot」の中心メンバーとして活動している。\",\n   \"時期\": \"現在\",\n   \"相手\": \"SpaceXAI\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIi8mW__qwuSz0kOexhfnhfe9cXQ5zl8ai2tbCWvd6mJzMvwCsGRw29K5RD7JK-HJq_O86rgLpP-o0v8VO13EaXE-p_iiuvRJY3pfsjCCHcP_V29DcE4KvArpUF_82bCniB6497eY=\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"現在\",\n   \"内容\": \"React Compilerのコアチームメンバーであり、コンパイラのJavaScript解析方法の再設計に貢献した。\",\n   \"時期\": \"現在\",\n   \"相手\": \"React Compiler\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQO9OUfNk6H_IJzMgdbX0lZRJS9N9dZVWYC_mOs9BB3GWBXvNUKx2WL9iExoDBIJURADLB5NixHARNm1sgA2ZSgoQu_t26msVxR_5tC3HVzSJeb1uCtTD7VBSJ7XtFMDZ2pw==\",\n   \"確かさ\": \"開示\"\n  },\n  {\n   \"項目\": \"関係\",\n   \"内容\": \"2025年10月に公開されたReact Compiler 1.0の安定版リリースのアナウンスをJoe Savona、Mofei Zhangと共に執筆した主要な著者の一人である。\",\n   \"時期\": \"2025-10\",\n   \"相手\": \"Meta (React Compiler)\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQO9OUfNk6H_IJzMgdbX0lZRJS9N9dZVWYC_mOs9BB3GWBXvNUKx2WL9iExoDBIJURADLB5NixHARNm1sgA2ZSgoQu_t26msVxR_5tC3HVzSJeb1uCtTD7VBSJ7XtFMDZ2pw==\",\n   \"確かさ\": \"公式\"\n  },\n  {\n   \"項目\": \"関係\",\n   \"内容\": \"AIエージェントを活用して月に数千件（2026年11月時点で約4,000件）のプルリクエストを本番環境にデプロイしており、そのプロセスでは人間によるコードレビューではなく検証を重視している。\",\n   \"時期\": \"2026-11\",\n   \"相手\": \"SpaceXAI\",\n   \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIi8mW__qwuSz0kOexhfnhfe9cXQ5zl8ai2tbCWvd6mJzMvwCsGRw29K5RD7JK-HJq_O86rgLpP-o0v8VO13EaXE-p_iiuvRJY3pfsjCCHcP_V29DcE4KvArpUF_82bCniB6497eY=\",\n   \"確かさ\": \"本人の発言\"\n  }\n ]\n}\n```",
+ "grounding": [
+  [
+   "ai.engineer",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQO9OUfNk6H_IJzMgdbX0lZRJS9N9dZVWYC_mOs9BB3GWBXvNUKx2WL9iExoDBIJURADLB5NixHARNm1sgA2ZSgoQu_t26msVxR_5tC3HVzSJeb1uCtTD7VBSJ7XtFMDZ2pw=="
+  ],
+  [
+   "teamday.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIi8mW__qwuSz0kOexhfnhfe9cXQ5zl8ai2tbCWvd6mJzMvwCsGRw29K5RD7JK-HJq_O86rgLpP-o0v8VO13EaXE-p_iiuvRJY3pfsyCCHcP_V29DcE4KvArpUF_82bCniB6497eY="
+  ],
+  [
+   "postgrok.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdqOL8gIRRcdlY7n9Cjq6Jo-pylctYdP29i1t1u6dhsy3gJV6eSjeZpsZGyBzd5V7946hsSPG7Evq1IiRq4hLbjXIk7Hvip_kl-WjYtuJTPhjRmLJHCmfiHDhLX_5TS4xh5w8="
+  ],
+  [
+   "github.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHWjoJpONQUfPMvg1evz_aJslP9v2FySOJOwzqI1aM-4aVABAZak3neDhv4AeQeLlp9laahps57QYTJr4WNDYDojCXubqwzjwcD-trCCoRg_rPsYPU="
+  ],
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLnQd_iEB3Ipt29KiCJ018bNHj2huzSyWfdRMakTGPu70K4SqxB4IvswB6CNp-eMpFJG_sbxzh8X82W5QDqEjRhhObDvtQcU383t5RK58Z5cnFhRpXa1HASgW5k3QzosSgip6Q39g="
+  ],
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMgrDtUE-GXw7XiLmx_197ICUukq26c7aaufgsKYfybfdlioGSf4o2L1QmhQr575TMeJL8NsK9PJN53tYGHm9on5ZRjDZDErbvU1CMywmwAm0tYTZL9wI-uDthHMDkE8OL4uAuXJI="
+  ],
+  [
+   "github.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQECC94hsiCzdGHV6CfCY7US6XUvLYvLVYMs_BP70pWSrC5TvxDdf1PcOORliSp1jopvsOvaEVdfpryzH8vPSyJrDMhkKA9W9PTUOyvRW0Ffuhpw9XLbsPdoOzO3SZ5PSmvY4G0gKmVngA5PQ4ovXaxSo-kXL1Yksg=="
+  ],
+  [
+   "etarget.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0wvb4zVvjexiytRpGLwVuHb2m8DMO_truFXGGRuJ7OHdfoVm4ptee6koPrIRWy0HS82IMl2t5Ta9GmxIAo16i1bXmKPJSm4_djgiEiYluqyE9vLdRO2CJeQDrkyktLyy-AMMT0rXaAg=="
+  ],
+  [
+   "github.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEx1VbxS-7b1O-aacEv0IsuUPA_35SbXq3zGDCM5F4XflbJ0WAsH0PjTB1mx6pGI-NGZmDYa86ZTGzgnox03FXnjl_jUovBOPv4iAnD_ENMaQuaOryUo4ojRAcXuJ1B3Q=="
+  ]
+ ],
+ "queries": [
+  "Lauren Tan poteto React Compiler",
+  "Lauren Tan poteto LinkedIn",
+  "Lauren Tan poteto GitHub",
+  "Lauren Tan poteto career",
+  "Lauren Tan poteto current role",
+  "Lauren Tan education",
+  "Lauren Tan poteto staff software engineer Meta",
+  "Lauren Tan poteto staff software engineer Facebook"
+ ]
+}

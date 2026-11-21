@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-21",
+ "kind": "gemini",
+ "topic": "インド・東南アジア(シンガポール・インドネシア・ベトナム・タイ・フィリピン)のAI関連スタートアップの資金調達 2026年11月、出典はInc42・TechCrunchなどの記事URL",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Kuaishou",
+   "関係": "出資",
+   "相手": "Kling AI",
+   "金額": "US$2.98 billion",
+   "日付": "2026-10-30",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvZ_Eh7KcnrZrCgSI0FenVQXTOvT0rUQGqmYIw3KwgNfOo7yfqd_aQnTemBQH_G2lotODSLgWp5AV7TmrdikruM5LoNB4Qh5K4vuN2KbVcbbATjNKZS-WTCHCV_ylbDRfcZ4fhv9xk0N6nnBVpg-2WB5AoUHcb1v2BamK5JXGzOeaOt7l5TpduYb8aQGXAwgPcsVp6bV8cnCA",
+   "確かさ": "報道",
+   "備考": "Kuaishouのビデオ生成部門。RMB200億の資金調達。中国企業ですが、その巨額の資金調達は東南アジアのAI資金調達総額にも影響を与えると報じられています。",
+   "src": [
+    [
+     "e27",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvZ_Eh7KcnrZrCgSI0FenVQXTOvT0rUQGqmYIw3KwgNfOo7yfqd_aQnTemBQH_G2lotODSLgWp5AV7TmrdikruM5LoNB4Qh5K4vuN2KbVcbbATjNKZS-WTCHCV_ylbDRfcZ4fhv9xk0N6nnBVpg-2WB5AoUHcb1v2BamK5JXGzOeaOt7l5TpduYb8aQGXAwgPcsVp6bV8cnCA"
+    ]
+   ],
+   "既存の名前": [
+    "Kuaishou"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Google.org",
+   "関係": "出資",
+   "相手": "AIFroncort.AI",
+   "金額": "US$2.3 million",
+   "日付": "2026-11",
+   "出典URL": "https://aravind-r.com/blog/bengaluru-innovation-report-2026-ai-startup-funding",
+   "確かさ": "報道",
+   "備考": "インドのAI疾病監視スタートアップへの助成金。資金調達の正確な完了日は明示されていませんが、2026年11月19日の記事で報じられました。",
+   "src": [
+    [
+     "Aravind",
+     "https://aravind-r.com/blog/bengaluru-innovation-report-2026-ai-startup-funding"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlt-mKPKBCB78euaNR_TjNdXsxOrm2kcecsBZw1DcumNHclEFTirQK5gqZdXlkmAMVKuDFIab_uXR0Z-neCDqLXfzeHB6eFpSqLgf4_1VX8oA0dNHVILgQFW-RQHNxdVuE_zXCY_kjAn0C-TFZySWDTKl7VC7Ow1fECqdpgm4Ghlbb7SAxdjTAog",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "",
+   "関係": "出資",
+   "相手": "Dreamteam",
+   "金額": "US$53 million",
+   "日付": "2026-11",
+   "出典URL": "https://aravind-r.com/blog/bengaluru-innovation-report-2026-ai-startup-funding",
+   "確かさ": "報道",
+   "備考": "Ex-Freshworks創業者がチェンナイで設立したAIネイティブCRM企業。資金調達の正確な完了日は明示されていませんが、2026年11月19日の記事で報じられました。",
+   "src": [
+    [
+     "Aravind",
+     "https://aravind-r.com/blog/bengaluru-innovation-report-2026-ai-startup-funding"
+    ]
+   ],
+   "既存の名前": [
+    "Dreamteam"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlt-mKPKBCB78euaNR_TjNdXsxOrm2kcecsBZw1DcumNHclEFTirQK5gqZdXlkmAMVKuDFIab_uXR0Z-neCDqLXfzeHB6eFpSqLgf4_1VX8oA0dNHVILgQFW-RQHNxdVuE_zXCY_kjAn0C-TFZySWDTKl7VC7Ow1fECqdpgm4Ghlbb7SAxdjTAog",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "e27.co",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvZ_Eh7KcnrZrCgSI0FenVQXTOvT0rUQGqmYIw3KwgNfOo7yfqd_aQnTemBQH_G2lotODSLgWp5AV7TmrdikruM5LoNB4Qh5K4vuN2KbVcbbATjNKZS-WTCHCV_ylbDRfcZ4fhv9xk0N6nnBVpg-2WB5AoUHcb1v7BamK5JXGzOeaOt7l5TpduYb8aQGXAwgPcsVp6bV8cnCA="
+  ],
+  [
+   "aravind-r.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlt-mKPKBCB78euaNR_TjNdXsxOrm2kcecsBZw1DcumNHclEFTirQK5gqZdXlkmAMVKuDFIab_uXR0Z-neCDqLXfzeHB6eFpSqLgf4_1VX8oA0dNHVILgQFW-RQHNxdVuE_zXCY_kjAn0C-TFZySWDTKl7VC7Ow1fECqdpgm4Ghlbb7SAxdjTAog=="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://e27.co/cheques-bans-and-bell-ringing-50-asian-ai-companies-that-defined-2026-20261118/",
+  "https://aravind-r.com/blog/bengaluru-innovation-report-2026-ai-startup-funding"
+ ],
+ "process": {
+  "queries": [
+   "India AI startup funding November 2026 Inc42 TechCrunch Reuters Bloomberg",
+   "Southeast Asia AI startup funding November 2026 Inc42 TechCrunch Reuters Bloomberg",
+   "Singapore AI startup funding November 2026 TechCrunch Inc42",
+   "Indonesia AI startup funding November 2026 TechCrunch Inc42",
+   "Vietnam AI startup funding November 2026 TechCrunch Inc42",
+   "Thailand AI startup funding November 2026 TechCrunch Inc42",
+   "Philippines AI startup funding November 2026 TechCrunch Inc42"
+  ],
+  "sources": [
+   [
+    "e27.co",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvZ_Eh7KcnrZrCgSI0FenVQXTOvT0rUQGqmYIw3KwgNfOo7yfqd_aQnTemBQH_G2lotODSLgWp5AV7TmrdikruM5LoNB4Qh5K4vuN2KbVcbbATjNKZS-WTCHCV_ylbDRfcZ4fhv9xk0N6nnBVpg-2WB5AoUHcb1v7BamK5JXGzOeaOt7l5TpduYb8aQGXAwgPcsVp6bV8cnCA="
+   ],
+   [
+    "aravind-r.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlt-mKPKBCB78euaNR_TjNdXsxOrm2kcecsBZw1DcumNHclEFTirQK5gqZdXlkmAMVKuDFIab_uXR0Z-neCDqLXfzeHB6eFpSqLgf4_1VX8oA0dNHVILgQFW-RQHNxdVuE_zXCY_kjAn0C-TFZySWDTKl7VC7Ow1fECqdpgm4Ghlbb7SAxdjTAog=="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "中国企業ですが、その巨額の資金調達は東南アジアのAI資金調達総額にも影響を与えると報じられています。",
+    "idx": [
+     0
+    ]
+   },
+   {
+    "text": "資金調達の正確な完了日は明示されていませんが、2026年11月19日の記事で報じられました。",
+    "idx": [
+     1
+    ]
+   },
+   {
+    "text": "資金調達の正確な完了日は明示されていませんが、2026年11月19日の記事で報じられました。",
+    "idx": [
+     1
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2232,
+   "candidatesTokenCount": 1123,
+   "totalTokenCount": 13194,
+   "cachedContentTokenCount": 272,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2232
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 272
+    }
+   ],
+   "toolUsePromptTokenCount": 2905,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2905
+    }
+   ],
+   "thoughtsTokenCount": 6934,
+   "serviceTier": "standard"
+  }
+ }
+}

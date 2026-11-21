@@ -4,6 +4,10 @@
 
 - 作り方: `python3 scripts/weekly.py`(発行日=今日。前の月曜〜日曜をまとめる)
 - 冒頭の「今週のポイント」: `newsletter/lead/発行日.md` に箇条書き3つで書く。無ければ件数から自動で作る
+- 特集(任意、2026/11/19追加): `newsletter/feature/発行日.md` に書くと「今週のポイント」の次に入る。1行目「# 題名」、あとは文と「- 」の箇条書き。リンクは `[文字](URL)`、太字は `**文字**`。出典のURLを必ず付ける
+  - 特集の候補(自動): `weekly.py` が `newsletter/feature/candidates/発行日.md` に、その週の調査で人の動きが多かった会社を書く。人が選んで書き起こす
+  - note向けの記事: 特集があると `newsletter/note/発行日.md` も作る(リンクは「文字 URL」の形)。noteへの公開は、持ち主のアカウントで人が貼る(まだ公開していない)
+  - 予約済み: 2026-11-23号「Thinking Machines Labの共同創業者、6人のうち4人が離れる」
 - できるもの
   - `newsletter/issues/発行日.json` その号のデータ(号ごとに1つ。消さない)
   - `newsletter/発行日.md` メールやnoteにそのまま貼れる文章
