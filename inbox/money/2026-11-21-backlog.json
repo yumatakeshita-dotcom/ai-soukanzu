@@ -1,0 +1,183 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "from": "a16z(主導)・Accel・Uncork Capital",
+   "to": "Gamma",
+   "kind": "出資",
+   "amount": "$68M(Series B・評価額 $21億)",
+   "date": "2025-11-10",
+   "note": "AIプレゼン作成のGammaが、年間売上 $100M 超・2年以上黒字と発表。二次売却を含む。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Business Wire 公式リリース(2025/11/10)",
+     "https://www.businesswire.com/news/home/20251110805751/en"
+    ],
+    [
+     "SiliconANGLE(2025/11/10)",
+     "https://siliconangle.com/2025/11/10/ai-powered-visual-presentation-platform-gamma-raises-68m-2-1b-valuation/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "a16z(主導)・WndrCo・T. Rowe Price・Sequoia・Kleiner Perkins・Conviction・Elad Gil",
+   "to": "Harvey",
+   "kind": "出資",
+   "amount": "$160M(Series F・評価額 $80億)",
+   "date": "2025-12-04",
+   "note": "法務AIのHarveyの調達。主導はa16z、WndrCoとT. Rowe Price口座が新規。初の従業員向け買い取り(tender offer)も実施。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Harvey公式ブログ(2025/12/4)",
+     "https://www.harvey.ai/blog/andreessen-horowitz-leads-dollar160m-investment-in-harvey"
+    ],
+    [
+     "TechCrunch(2025/12/4)",
+     "https://techcrunch.com/2025/12/04/legal-ai-startup-harvey-confirms-8b-valuation"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "ICONIQ(主導)・Fidelity・Lightspeed(共同主導)",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "$130億(Series F・評価額 $1,830億)",
+   "date": "2025-09-02",
+   "note": "3月のSeries E($61.5億評価)から6か月で評価額が約3倍に。年換算売上は$50億超。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Anthropic公式(2025/9/2)",
+     "https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation"
+    ],
+    [
+     "TechCrunch(2025/9/2)",
+     "https://techcrunch.com/2025/09/02/anthropic-raises-13b-series-f-at-183b-valuation"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Thrive Capital・DST Global(共同主導)",
+   "to": "OpenEvidence",
+   "kind": "出資",
+   "amount": "$250M(Series D・評価額 $120億)",
+   "date": "2026-01-21",
+   "note": "医師向けAIのOpenEvidence。前回(2025/10、GV主導)の評価額 $60億から倍に。過去12か月の累計調達額は報道により$700M〜$750Mと差あり。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Business Wire 公式リリース(2026/1/21)",
+     "https://www.businesswire.com/news/home/20260121029132/en"
+    ],
+    [
+     "SiliconANGLE(2026/1/21)",
+     "https://siliconangle.com/2026/01/21/healthcare-ai-startup-openevidence-raises-250m-12b-valuation/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Meta",
+   "to": "Manus(Butterfly Effect)",
+   "kind": "買収",
+   "amount": "非公表(WSJは$20億超と報道)",
+   "date": "2025-12-29",
+   "note": "AIエージェントのManus(北京で創業・シンガポール拠点)をMetaが買収。Manusは中国での運営をやめ、中国資本は残らないとMetaが説明。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2025/12/29)",
+     "https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about"
+    ],
+    [
+     "Al Jazeera(2025/12/30)",
+     "https://www.aljazeera.com/economy/2025/12/30/tech-giant-meta-buys-chinese-founded-ai-firm-manus"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "Meta",
+   "to": "Moltbook",
+   "kind": "買収",
+   "amount": "非公表",
+   "date": "2026-03-10",
+   "note": "AIエージェント同士のSNS Moltbook を Meta が買収。共同創業者2人(Matt Schlicht・Ben Parr)は Meta Superintelligence Labs に参加。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Next Web(2026/3/10)",
+     "https://thenextweb.com/news/meta-acquires-moltbook-ai-agent-social-network"
+    ],
+    [
+     "Bloomberg(2026/3/10)",
+     "https://www.bloomberg.com/news/articles/2026-03-10/meta-to-acquire-moltbook-viral-social-network-for-ai-agents"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "Nvidia",
+   "to": "Groq",
+   "kind": "提携",
+   "amount": "非公表(CNBCは現金$200億と報道。NVIDIAは『会社の買収ではない』と説明)",
+   "date": "2025-12-24",
+   "note": "Groqの技術の非独占ライセンスと、創業者 Jonathan Ross・社長 Sunny Madra らの採用。GroqCloudは続く。買収ではなく『ライセンス+人材の獲得』の形。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2025/12/24)",
+     "https://techcrunch.com/2025/12/24/nvidia-acquires-ai-chip-challenger-groq-for-20b-report-says/"
+    ],
+    [
+     "Tom's Hardware",
+     "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-confirms-20-billion-groq-deal-to-bolster-ai-inference-dominance"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "Cognition",
+   "to": "Windsurf",
+   "kind": "買収",
+   "amount": "非公表",
+   "date": "2025-07-14",
+   "note": "GoogleがWindsurfのCEO Varun Mohanらを$24億のライセンス・採用契約で迎えた直後、Cognition(Devin)が残りのチームと製品を買収。 過去の動画・番組(20VC・TBPN・Big Technology・a16z)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2025/7/14)",
+     "https://www.techcrunch.com/2025/07/14/cognition-maker-of-the-ai-coding-agent-devin-acquires-windsurf/"
+    ],
+    [
+     "Bloomberg(2025/7/14)",
+     "https://www.bloomberg.com/news/articles/2025-07-14/ai-startup-cognition-to-buy-windsurf-after-google-licensing-deal"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  }
+ ]
+}

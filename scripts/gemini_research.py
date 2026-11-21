@@ -28,6 +28,14 @@ import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicod
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import urllib.request, urllib.error
 
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
+
+def jst_today():
+    """日本時間の今日(2026/11/21追加)。クラウドの時計はUTCなので、朝8時台(日本時間)の実行でも前日になっていた。
+    ファイル名・Geminiへの「今日は」・保存日付は、すべてこの日付を使う。"""
+    return datetime.datetime.now(JST).date()
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, 'inbox', 'gemini')
 STORE_FILE = os.path.join(OUT_DIR, 'store.json')
@@ -133,7 +141,7 @@ def media_leads(limit=12):
 
 def build_prompt(topic, n):
     rng = read_doc('notebooklm-code/10_*.md')
-    return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{datetime.date.today():%Y年%m月%d日}です。
+    return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{jst_today():%Y年%m月%d日}です。
 テーマ: {topic}
 
 下の「すでにある範囲」に無い、新しい事実(企業間の出資・取引・提携・買収、人物の移籍・就任・退任)を、Google検索で確かめて最大{n}件返してください。
@@ -366,7 +374,7 @@ def build_store(dry=False, log=print):
         return st
     if not st.get('name'):
         r = http('POST', f'{API}/v1beta/fileSearchStores', {'displayName': 'ai-soukanzu-notebooklm'})
-        st = {'name': r['name'], 'created': datetime.date.today().isoformat(), 'uploaded': []}
+        st = {'name': r['name'], 'created': jst_today().isoformat(), 'uploaded': []}
         save_store(st)
         log('ストアを作った: ' + st['name'])
     for f in todo:
@@ -582,7 +590,7 @@ def resolve_redirect(url, timeout=15):
 
 
 def research(topic, n=10, check=True, dry=False, log=print, verify=True, queue_on_quota=True):
-    date = datetime.date.today().isoformat()
+    date = jst_today().isoformat()
     if dry or not key():
         prompt = build_prompt(topic, n)
         st = load_store()
@@ -713,6 +721,12 @@ def main():
         if res.get('saved'):
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
+        if not a.dry_run:
+            import gemini_verify  # 2026/11/21: 保留(出典を開けなかった)のものを、もう一度確かめる。今日の調査が取れなくてもやる
+            try:
+                gemini_verify.run_recheck()
+            except Exception as e:  # やり直しの失敗で、毎朝の調査を止めない
+                print('保留のやり直しをできませんでした:', e)
         # 2026/11/20: そのあと、調べる順番の一覧(inbox/queue.json)の先頭を1件だけ調べる。人の指示は要らない。
         # 無料枠が切れていたら状態を変えずに終わる(次の朝に同じ項目)。--no-queue で省ける
         if not a.no_queue:
