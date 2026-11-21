@@ -6,3 +6,4 @@
   2. Claude が元の投稿(`scripts/x_check.py URL`)・公式ページを開いて確かめ、items.json に足す。やり方は出典に書かれている範囲だけ。確かめられないことは「未確認」と書く
   3. `python3 scripts/xlearn.py build` → `check` → commit・push
 - 共有リンクに出すときは `site/xlearn/index.html` を公開する(1枚で完結)
+- 定期タスク: 毎朝9:19(日本時間)「英語のAI新着・新モデルの日本語解説 毎日」(trig_01LX2MuZq99jhSirGcDdcg6w)。PRがmainに入るまでは動かず停止する

@@ -11,10 +11,11 @@
 
 使い方:
   python3 scripts/xlearn.py find [--days 3] [--max 8]
+  python3 scripts/xlearn.py scan           # 公式ニュースの新着を見る(sources.txt)
   python3 scripts/xlearn.py check          # items.json の書式と、出典URLが開けるかを確かめる
   python3 scripts/xlearn.py build
 """
-import argparse, datetime, html, json, os, re, sys, urllib.request, urllib.error
+import argparse, datetime, html, json, os, re, sys, urllib.parse, urllib.request, urllib.error
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -57,6 +58,36 @@ def find(days, n):
         path = os.path.join(D, f'candidates-{today}-{k}.json'); k += 1
     json.dump(data, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('候補', len(data.get('items', [])), '件 →', path)
+
+def scan():
+    # 公式ニュースの一覧ページを開き、まだ見ていない記事を inbox/xlearn/new-日付.json に足す(見た記事は seen.txt)
+    seen_p = os.path.join(D, 'seen.txt')
+    seen = set(open(seen_p, encoding='utf-8').read().split()) if os.path.exists(seen_p) else set()
+    first = not seen
+    known = {s[1] for it in load()['items'] for s in it.get('sources', [])}
+    new, fail = [], []
+    for ln in open(os.path.join(D, 'sources.txt'), encoding='utf-8'):
+        if ln.startswith('#') or '|' not in ln: continue
+        co, url = [x.strip() for x in ln.split('|', 1)]
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; relmap-checker)'})
+            page = urllib.request.urlopen(req, timeout=25).read().decode('utf-8', 'replace')
+        except Exception as e:
+            fail.append([co, url, str(e)[:80]]); continue
+        for m in re.finditer(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', page, re.S):
+            href = urllib.parse.urljoin(url, html.unescape(m.group(1)))
+            txt = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', m.group(2)))).strip()
+            if len(txt) < 25 or urllib.parse.urlparse(href).netloc != urllib.parse.urlparse(url).netloc or href == url: continue
+            if href in seen: continue
+            seen.add(href)
+            if not first and href not in known: new.append({'company': co, 'url': href, 'text': txt[:200]})
+    open(seen_p, 'w', encoding='utf-8').write('\n'.join(sorted(seen)) + '\n')
+    today = datetime.datetime.now(JST).strftime('%Y-%m-%d')
+    if new:
+        path = os.path.join(D, f'new-{today}.json'); k = 2
+        while os.path.exists(path): path = os.path.join(D, f'new-{today}-{k}.json'); k += 1
+        json.dump({'new': new, 'failed': fail}, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    print('初回: 既存の記事を「見た」として記録だけしました' if first else f'新着 {len(new)} 件', '/ 読めなかった', len(fail), fail)
 
 def load():
     return json.load(open(ITEMS, encoding='utf-8')) if os.path.exists(ITEMS) else {'items': []}
@@ -147,8 +178,9 @@ def build():
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest='cmd', required=True)
     f = sp.add_parser('find'); f.add_argument('--days', type=int, default=3); f.add_argument('--max', type=int, default=8)
-    sp.add_parser('check'); sp.add_parser('build')
+    sp.add_parser('check'); sp.add_parser('scan'); sp.add_parser('build')
     a = ap.parse_args()
     if a.cmd == 'find': find(a.days, a.max)
+    elif a.cmd == 'scan': scan()
     elif a.cmd == 'check': sys.exit(1 if check() else 0)
     else: build()
