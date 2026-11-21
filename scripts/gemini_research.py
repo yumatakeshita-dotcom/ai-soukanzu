@@ -28,6 +28,14 @@ import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicod
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import urllib.request, urllib.error
 
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
+
+def jst_today():
+    """日本時間の今日(2026/11/21追加)。クラウドの時計はUTCなので、朝8時台(日本時間)の実行でも前日になっていた。
+    ファイル名・Geminiへの「今日は」・保存日付は、すべてこの日付を使う。"""
+    return datetime.datetime.now(JST).date()
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, 'inbox', 'gemini')
 STORE_FILE = os.path.join(OUT_DIR, 'store.json')
@@ -118,7 +126,7 @@ def known_names():
 # ---------- 1回目: Google検索で調べる ----------
 def build_prompt(topic, n):
     rng = read_doc('notebooklm-code/10_*.md')
-    return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{datetime.date.today():%Y年%m月%d日}です。
+    return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{jst_today():%Y年%m月%d日}です。
 テーマ: {topic}
 
 下の「すでにある範囲」に無い、新しい事実(企業間の出資・取引・提携・買収、人物の移籍・就任・退任)を、Google検索で確かめて最大{n}件返してください。
@@ -350,7 +358,7 @@ def build_store(dry=False, log=print):
         return st
     if not st.get('name'):
         r = http('POST', f'{API}/v1beta/fileSearchStores', {'displayName': 'ai-soukanzu-notebooklm'})
-        st = {'name': r['name'], 'created': datetime.date.today().isoformat(), 'uploaded': []}
+        st = {'name': r['name'], 'created': jst_today().isoformat(), 'uploaded': []}
         save_store(st)
         log('ストアを作った: ' + st['name'])
     for f in todo:
@@ -566,7 +574,7 @@ def resolve_redirect(url, timeout=15):
 
 
 def research(topic, n=10, check=True, dry=False, log=print, verify=True, queue_on_quota=True):
-    date = datetime.date.today().isoformat()
+    date = jst_today().isoformat()
     if dry or not key():
         prompt = build_prompt(topic, n)
         st = load_store()
