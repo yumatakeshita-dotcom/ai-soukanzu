@@ -4,6 +4,96 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-22-2　YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ
+
+- モデル: gemini-2.5-flash　/　候補 8件
+
+**Geminiが打った検索の言葉**
+
+- Kalshi $1B funding
+- Mercor large funding AI
+- Northwood $375M funding
+- ElevenLabs valuation $22B funding round
+- Cognition AI vs Factory
+- Valar Atomics lawsuit
+- Salesforce AI acquisition 2026
+- Salesforce acquisition strategy AI
+
+**見たページ**
+
+- [kalshi.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwuDdYmcqdHgfbIfDpuewjFhUyZc8nltlcPVMuhfh8cyLM_b2zHc0nXVDRl_PPZZSYfWQzNyK_GX88x2oCZpXfv4PXx3xUJU3aySK3QlZJjQB8Bt3bTvWN2nvvBYhfJEi1RuyIArOaEO8Rg4lAdqvRJrWd9XkkTTz0)
+- [briefs.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQLxZPkqXP9-k5t1tZU6B68iD49yG9GwKNmBI-vpcS5MXTtPVq5RUEopP93YHLmXgwLajQNavBAmYOsPIuviDyMXbGb_qJULFJC6nXOijvphi22KwfwnxEuQOvvnGkkjTPGEV-wc2a3HlWJrOYrkDVftbn2yQQ78Rum795DInhgdidCE4sHc7h)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFv1-CmO-vqGjv6gXEMsj-OVS7rJFcaxB58VzF8UG0Yvo-QFhN8LAfKKrvNATjXEQx7PgxBdrMzVg8ogPjphB2ZjbK2HSHYEqVZKm-rt7n_oxdrL9PtDKbHClMMXYa3EhCj0RrD4NQo5qbUY2zHflJy9T3pnPeFmjzKaKLds2255pvsot_QOfPJhl_Ibg86tma8vhGbWyo=)
+- [finnect.org.in](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr0meWp1pyp3gGtks7i6zqvwfeY51T2K_6B4IvxW-_esaYUmK909tE2iHj9LQZSDyEavf_Mf4WKeF23hAcTXbwGiI9flmtMJIahZqhVTh5UrINtusQKbrPz2ybhJbJp0qMvKFeJ2P3wThGTLozZWKvN_bWoh03FQ==)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPX6L-avWd3NOpLKjZ6Dm6Knp2op9C7hGaF9daYY7bvm2_IpT__8sK8zWcQ9LmDSjLjoAAWjLfEAAiGUwSd4QmHpqNibHU_OcBOCU5Y0hphnq32jIh7eE0UAtJFbqZNyD4LBHKkrYz3Cb_27M16kbgxvc4AQbRSpt1w_vesN9WzgCQzs9ODeFU94rpGfY6wL6dowfoDsPV_3fqZwCeZG4GYmaMAJyk1btJCnO1AGmayPoF9D-rCtJ6FZSCHg==)
+- [marketscreener.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJz6DNVZUnFmsdbomruf8ahBJR3qz_CypQi7akDGXHpBal3MKClENPzl-prII-kn9qxeJlNu0IqiQSM2VJ8Gmv56r_lHAZHq7eijeCtseHT9w145qCi4w-jgVnygtC5JOebEa3Zm592fYczch122tpmgKqDRVypKZW9rJVHp3hUVYbyR_ECU1zjQWVK6yQFRevWfUO5boE3eg4Bu_ntYudYbbyiIR1M6uiurSDbRUXqUEZMbBAZpk=)
+- [northwoodspace.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOKzhP9XSwSIvCsX6yYlvtyxitrSm-1sJIy4p5uV-K1sysuCxvJJmInigCSXAoSashAZmFmaXKdk-AKmyJMZIuTFt3Ao0kaJ1obWYz1Jzamk60MEcgjHMEJmaz56uJjHjG7shW-Rn1f_kLPXpk18Ih)
+- [satnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvncv260BFPJJQQZ0NmqkZr7FvCAojaIWwgCK70tf6wE2AG-l_ZShoGR13EhD785cPHZrMYAECK2act6Zj3rVOkB45CWAE0mpLAZ40njBgwN5D25pHWQmAKMajNWRtoxnNVPSkXMSEBbmE-X7zAro8qG8gksSsRw3SwH-pTgcv11Kd0Dqxjxx4ljBlwwFPiJGc4-DEVztSCRSJSPX7n5DV1D7NaAkrBLZKFIEAyofaWZgLXm62dZpj)
+- [techfundingnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkSSwJOFPtOvmVoqVwKxw-SO36ZyKf_3mWTpfiMKqPPuniBna1X5AC2WO5r63p4XSUwK9dYclDM2FEbxLk8lC9YIMLM4rWVOuE90wS6qLwXfuyTNelIGpBPt-RGyUqVjD8-SdIeGxZ7ZXlYLtj81W74AW-NmJweUcQNR78hJwdkUmd)
+- [elevenlabs.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqK64PiJkcmOgD043FY2iJ0jX4NKtJISVHyzAPqJVBf9tX7pfGaleqEtDOUi6BGc8WDijkQW-ZlDH8d94JEioaQluMHzvvFcmbAPSa1i-CDHUxQssNLbdmcpULMyfMeZSc)
+- [tradingview.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEDV5yi1j6e2uOiKL4CKTamnPkWXicSfc-GG3YtyAuZTeYicUUMNcNwA4OYt4EBtL0_Vh9Ss_9UzbO5Txn48KbFejcf7QRVJKm3SzixxBYWZpExWiEFL0czcswCmGuiNlpDtWwXFfHWruLkPrVVRl1jIFehKPl4KzQlM7A4P4cDb8ZbLvwXQr07nmJuEhiodcGAgdLhvaaRIWwBHaQPMoYLzOTNU1Mt6vrM2AJ3s2e79R4GcdASYrp-YFlNT7-KuZjXM-Dm1E=)
+- [businessinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF57hmbeEbbWuVySy5rmazfdCRWSiuUX2oIJPQQdEpm32w54C6lDvXexqihRnZPFiPEqV0iV2wy9pOIL9-M30vl4JCXu8HjFp4jJBT4Ilu9IJ-H47dLwvG7ifypMrD7MedrJFAQlwWXSZcTiSKzCd1eMxdArDBHB-L0qLcwQuyLheOKL0sZU1fgnXe6y28BGv-0GuypnUIIjLc61g==)
+- [onlycfo.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaFepffgt_tQz_RY-hQDWWw5ufb3kM1v3VWDo4qcApBlAOaOGy_nb5WPYFuhlzz4JIFaEflar5F5_6PbbChTKYJiAZrGFL3oKRJnBZfONm-z1iiT9t06TPoVF0dfhvht-nm7zhM72qqcSCOLPWTP-tTD8o3Sc=)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr-RhSgR7_ENAiejuNgVLgfwNySwm_UfpOzXTSwlAXtsYX0g9sE2j3O96vqxlrYOUyeS116BUC0WYyk3xtjVCMdyZgjoU18HGhciQ01f6lOum9zSVgodk_DEEw9Td69B4jsPhfWNXcazRvrR6BZQhA8oQvlRY7CLgE8PzXSQDQ7feRqHbD0ie7YGpXaEelBFdaZVacthC7mYOiLPXGCnfR72I4EQ==)
+- [startupfortune.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXH-jVFtV8xcgxO1MBFtI-E7my_rU2CVQwriY5ONLvFWdiK--HQvRSuOIZELRFvLBJCW_csobilzvBoWkviB8etbj8_aPoPR7dE7u16xVZ2DWkNJE85iRX4SH6pgK5DTW4gasgdEDqExmySyvOOPEfj01cr5er19na5FQCYqdUfNpSFQ4qSUTr7I5B962_21kyH-vv3-JImdkO9f86)
+- [thefabulous.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHp3pMG8IyxkNi0epXBHGnuNluj1rCOI_wmbnhQVprFPeRW9V1hdXK7_fM9wj1mGt2_p7aQUWzwtzvDK_InLEONFYsey1EgbdUU6Nzbo2WZQabNSM0S4gV7FnDZEpsnIH7lglARiyopIF70oaMu6tI0D86kXQbZaelXX4S42qSB0LIWF6kJMj8-uGNdlw==)
+- [valueaddvc.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxFK_IbHlYARXRctnTwHnV83U9R-7X-eZZijhK2CWg-_Md8YtYT2eG15jH8gfH611UOwnh7Zvx73sanfhmFEOOD7kZr0LOpn6rhDCtOJwnlEusreg0uo8xVD8Hza9UcZceKR637sqr95psKJVJDM7bfyufLxyHzXjVCd5mH7xNEw==)
+- [gritdaily.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8v2V_KBEApYvjWknsv_kZVOLCgkZClxoj-P9EuCm9q0JwBNsZmySqTG20acA7mJED2xnU1L85EYUDKr3qEQIN-oKL4FB7H2V7AVpUJFXj5QwhybZsCoxLrC_3rZAjxzT4s8fBhkBoxfuZy_GNL_-W5kkgCqImT_O0meA2TlaVM0bbd6xs)
+- [polaris7.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcL0_AeBlyaIOrckXulBqxSkSEvq7zJoY7ph32G5pRr4eifE4Mc4RoTVFnyf2wX1nXH41Krop36yzOwIDns5I32P3OcQjhlajIoLSWrZ9N9JeECutD6u9swvX4NnIOTuifDRmJOo3UPtWtioTeHsrb7mg2npeS3chC8VsKWpiW18XbbtILDkssZwEqa0ZjgH0qr44vICIScGnzTQ==)
+- [amroar.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7IUP-YskWx_p5WZ9nmgeRr1giRsc_vZZ6kpTSiQ5cr1FwR0JbAUCZV-i51vCQOLYcgqUUQry4Ye2xprZV9uCIPCSGuI7ANG-VljNBc3jZBF6KOneWOB3Rb16LagLeLgkr4q94-OrZnoFCnll7tV16q9k=)
+
+**出てきた候補**
+
+- Kalshi → 出資 → Wellington Management, Sequoia Capital, Andreessen Horowitz 他(2026-10-29)
+- Mercor → 資金調達 (Series D) → Nvidia, Salesforce, General Catalyst, Benchmark 他(2026-11-10)
+- Northwood Space Corp. → 資金調達 (Series C) → Andreessen Horowitz (a16z), DFJ Growth 他(2026-11-02)
+- ElevenLabs → 従業員株式公開買付けによる評価額確定 → Wellington Management, T. Rowe Price, Goldman Sachs, GIC 他(2026-09-30)
+- Cognition / Factory → 移籍 → (2026-09-30)
+- Valar Atomics → 訴訟 → Day One Ventures(2026-10-10)
+- Salesforce → 買収 → Fin (旧Intercom)(2026-09-10)
+- Salesforce → 買収 → Listen Labs(2026-11-02)
+
+記録ファイル: inbox/gemini/2026-11-22-2.json / 2026-11-22-2.md
+
+## 2026-11-22　Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年
+
+- モデル: gemini-2.5-flash　/　候補 8件
+
+**Geminiが打った検索の言葉**
+
+- Fractile Kindo Model ML AI startup investment 2026
+- Fractile Kindo Model ML AI competitors 2026
+- Fractile Kindo Model ML AI company news 2026
+- AI startup funding November 2026
+- AI company acquisitions November 2026
+- semiconductor AI partnership November 2026
+- AI executive appointments November 2026
+
+**見たページ**
+
+- [euronext.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSxPimz-WXSm4TVqzg_kVBOqDqRr9gw6Zl28jCr2LvJPTMHswIPYU3QEqSEOEclDAJAI7GnqcFs4nPOc_KS3ZTamXfqvH-im8oyf6mVbeWgGwSxBF3UPPQdy_D8lTIIPytqyjd8uZWrJMRRfZN6TjTzHHHz7GBupDywYt7r31SnuXF-TH2RK8lzQqj95Dc_FHr14f8_9nKbGLpN9ncWSivjILIqDnn5JJdeL_Vfdws)
+- [aichatdaily.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbINeV04G3hmxhK-YtBsi4L1C5RbKpblS9vt0mx1rmf5L1NHlyEprV6RdQ45Y0KbGV9aQC6NioBqITJNL_EUoE0OPk4OBUB-JX1Ca78vmH0gF5OvRQEp1rNbLNF_b-kSVZGnv3yzdFUGtDAynGjlPUcyQ2nHCAI6ApNXoqnogm-UU53uy1F1VEOUs8zwig9g==)
+- [evertiq.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm6mTfniEOAaLZO_MbHCvgl3IeAAtIUzM11JSTYUUmP_DRSFmocYwYpP0e2KBi5AuqowJRFjeJ3Qvob_90l1f7uCApkca6mGS_R4pLCPjZTGbNSE2xsqIZ0QDIdk9Yg6FniU9C_5mdclRTMFNEu306N9hjKG3V0HsfBTGDkVV4MWjtQRkpNKoimCX9ADayaGd9_f6j1Q==)
+- [aipressroom.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnDEh6OQ6Iv3eLYnHOBt1fbQnnQAZ6HmsYIZqaBK7u6MUMulrl2HuAVJHk1hXvKthlEqYmIYiqU50hr2oJTIO38Ke8PfkkokQEvlA6LrgT2fFeHtf0exdAxTFOGxJ8or_qi0nhzHuCu3g=)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9JyyWqQGXi2LSOyU0qmXqHKKKCZqqxfk2SB7oOyu_rtSXEAdzn3irkmPvCBBnchanTQzKBWSpUxLw2trMAGKSqd9EicJQmymyWIptpGD0jby3eAo7hpqBh4PuRI29mWX8MNrqfi0-cCe06n738NsfDSTMwz2lzj3J1s4vnA-9olt6exqfEgxh-xXPhZ_-rrhgL3piG8j8GNo=)
+- [siliconrepublic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFahM9xYuV_rP-87Tw4jUYuVrHqTs6cQZLDpI7VbcT4UGJWSF1X5PnoVnV0owAxwnCLqZgKQezaR3C_SI_uDzi9xte_d0oAsVHEcKNLDdnE-_Rzkuh_v6eF01rnSt40iufp_eYEONscXVjXDuN_wFy1oyI3-9TEc_CtfYQ9mObC10S7ClaO3SJhvQeBsoTn16SHwFclWCv93iiB2VenTQ==)
+- [cryptobriefing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPEYfOfnQdFuOHPAdj-uWkb8hFam9u_SvvBi9QufUiaEiEzk2inoLryxtEgCK1CJpnW5DC35ZyX_f6TvvZcUdsa5w9AQCShHXh09-0ehbY2I_fKkNqg3TLqNSfuDVDktlbR9YgYH5F7XJc-4VVL_MeTGthSWbm2cbURQ==)
+- [emergent.sh](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaEahcwOJCaHyEz-wG_l7QjexMRclfvbcL7fNIm15332RxYLb0MIKvLi-LenClz3uzAxysiRD3F1ZznpYULRvu89UJvt5h9qBHK3C19LQrCti36WmPFIYmEWmaZhMd85D8o4wjHOmEBD1qySm354qTPNEJ3QHQUxo10Kluyhpe)
+- [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFY3464dHlmb6v2mM4LbDnxM7AVg2wbifhLQODW4Nvq0qBamkK207JfrakgLdKzK1ZbXogMG-z4YhWMNlD-S-qD04hpZGYVvDamoGydtIwkJK6vdv_BpZDjR9Coh1fiu9gh5HNE5xbJTKjsX5jvOR486s1JEyjynDpVg_WqlAKAf70d2R9qI6YnqnI77e75f1GtJY4bcawkAVKE9jU9WAaXDJ80jIK05cEtQ_GgnGd089afhgV0n4)
+
+**出てきた候補**
+
+- Fractile → 出資 → Thrive Capital, Founders Fund, Lightspeed, Redpoint(2026-11-11)
+- Fractile → 取引 → Anthropic(2026-11-01)
+- Palo Alto Networks → 買収 → Applied Compute(2026-11-18)
+- Palo Alto Networks → 就任 → (2026-11-18)
+- OpenAI → 買収 → Pierre Computer Company, Inc.(2026-11-04)
+- Nvidia → 提携 → Amkor Technology, Foxconn, SPIL, TSMC(2026-11-18)
+- Etisalat → 就任 → (2026-11-20)
+- Google DeepMind → 就任 → (2026-11-20)
+
+記録ファイル: inbox/gemini/2026-11-22.json / 2026-11-22.md
+
 ## 2026-11-21-3　ベトナムのAIスタートアップの資金調達 2026年11月
 
 - モデル: gemini-2.5-flash　/　候補 2件

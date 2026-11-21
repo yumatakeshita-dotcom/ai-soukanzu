@@ -1,0 +1,371 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Fractile",
+   "関係": "出資",
+   "相手": "Thrive Capital, Founders Fund, Lightspeed, Redpoint",
+   "金額": "7億2000万ドル",
+   "日付": "2026-11-11",
+   "出典URL": "https://www.evertiq.com/news/37626",
+   "確かさ": "報道",
+   "備考": "シリーズCラウンド。英国政府のSovereign AI Venture Fund、British Business Bank、CapitalG、BlackRock、DST Global、Elad Gil、Balderton、SV Angel、Bain Capital Ventures (BCV)、T. Rowe Price、Shopify Ventures、Felicis、Gigascale Capital、20VC、Georgianなども参加。評価額70億ドル。",
+   "src": [
+    [
+     "Evertiq",
+     "https://www.evertiq.com/news/37626"
+    ]
+   ],
+   "既存の名前": [
+    "Fractile"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Fractile",
+   "関係": "取引",
+   "相手": "Anthropic",
+   "金額": "2億5000万ドル",
+   "日付": "2026-11-01",
+   "出典URL": "https://dealroom.co/blog/uk-taxpayers-buy-into-the-ai-chip-boom-as-the-sovereign-ai-fund-joins-fractiles-6-5bn-round",
+   "確かさ": "報道",
+   "備考": "AIチップ供給に関する初期契約。2027年デプロイ予定。",
+   "src": [
+    [
+     "Dealroom",
+     "https://dealroom.co/blog/uk-taxpayers-buy-into-the-ai-chip-boom-as-the-sovereign-ai-fund-joins-fractiles-6-5bn-round"
+    ]
+   ],
+   "既存の名前": [
+    "Fractile",
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 429"
+   }
+  },
+  {
+   "会社名": "Palo Alto Networks",
+   "関係": "買収",
+   "相手": "Applied Compute",
+   "金額": "45億ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302324089.html",
+   "確かさ": "公式",
+   "備考": "全額株式取引。",
+   "src": [
+    [
+     "PR Newswire",
+     "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302324089.html"
+    ]
+   ],
+   "既存の名前": [
+    "Palo Alto Networks",
+    "Applied Compute"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Palo Alto Networks",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302324089.html",
+   "確かさ": "公式",
+   "備考": "Applied Computeの買収に伴い。",
+   "人物": "Yash Patil",
+   "役職": "Co-Chief AI Officer",
+   "移籍元": "Applied Compute",
+   "移籍先": "Palo Alto Networks",
+   "src": [
+    [
+     "PR Newswire",
+     "https://www.prnewswire.com/news-releases/palo-alto-networks-to-acquire-applied-compute-bringing-secure-open-weight-ai-to-the-enterprise-302324089.html"
+    ]
+   ],
+   "既存の名前": [
+    "Palo Alto Networks"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "Pierre Computer Company, Inc.",
+   "金額": "",
+   "日付": "2026-11-04",
+   "出典URL": "https://openai.com/blog/openai-to-acquire-pierre-computer-company-inc",
+   "確かさ": "公式",
+   "備考": "Code Storageの開発元。",
+   "src": [
+    [
+     "OpenAI Blog",
+     "https://openai.com/blog/openai-to-acquire-pierre-computer-company-inc"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Nvidia",
+   "関係": "提携",
+   "相手": "Amkor Technology, Foxconn, SPIL, TSMC",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout",
+   "確かさ": "公式",
+   "備考": "AIチップ生産能力増強のため。数十億ドル規模の資金提供を含む複数年契約。",
+   "src": [
+    [
+     "NVIDIA News",
+     "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout"
+    ]
+   ],
+   "既存の名前": [
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "NVIDIA Expands Commitments With Supply Chain Partners to Sup",
+    "状態": "ok",
+    "載っていた名前": [
+     "Nvidia",
+     "Amkor Technology",
+     "Foxconn",
+     "SPIL",
+     "TSMC"
+    ]
+   }
+  },
+  {
+   "会社名": "Etisalat",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-20",
+   "出典URL": "https://ai-magazine.com/articles/etisalat-amd-ai-executive-appointments-in-november-2026",
+   "確かさ": "報道",
+   "備考": "本人によるLinkedInでの発表を引用。",
+   "人物": "Hriday Ravindranath",
+   "役職": "Chief AI and Platform Officer",
+   "移籍元": "Orange Business",
+   "移籍先": "Etisalat",
+   "src": [
+    [
+     "AI Magazine",
+     "https://ai-magazine.com/articles/etisalat-amd-ai-executive-appointments-in-november-2026"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Google DeepMind",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-20",
+   "出典URL": "https://ai-magazine.com/articles/etisalat-amd-ai-executive-appointments-in-november-2026",
+   "確かさ": "報道",
+   "備考": "LinkedInプロフィールを引用。",
+   "人物": "Barret Zoph",
+   "役職": "VP of Research",
+   "移籍元": "Thinking Machines Lab, OpenAI",
+   "移籍先": "Google DeepMind",
+   "src": [
+    [
+     "AI Magazine",
+     "https://ai-magazine.com/articles/etisalat-amd-ai-executive-appointments-in-november-2026"
+    ]
+   ],
+   "既存の名前": [
+    "Google DeepMind"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "euronext.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSxPimz-WXSm4TVqzg_kVBOqDqRr9gw6Zl28jCr2LvJPTMHswIPYU3QEqSEOEclDAJAI7GnqcFs4nPOc_KS3ZTamXfqvH-im8oyf6mVbeWgGwSxBF3UPPQdy_D8lTIIPytqyjd8uZWrJMRRfZN6TjTzHHHz7GBupDywYt7r31SnuXF-TH2RK8lzQqj95Dc_FHr14f8_9nKbGLpN9ncWSivjILIqDnn5JJdeL_Vfdws"
+  ],
+  [
+   "aichatdaily.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbINeV04G3hmxhK-YtBsi4L1C5RbKpblS9vt0mx1rmf5L1NHlyEprV6RdQ45Y0KbGV9aQC6NioBqITJNL_EUoE0OPk4OBUB-JX1Ca78vmH0gF5OvRQEp1rNbLNF_b-kSVZGnv3yzdFUGtDAynGjlPUcyQ2nHCAI6ApNXoqnogm-UU53uy1F1VEOUs8zwig9g=="
+  ],
+  [
+   "evertiq.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm6mTfniEOAaLZO_MbHCvgl3IeAAtIUzM11JSTYUUmP_DRSFmocYwYpP0e2KBi5AuqowJRFjeJ3Qvob_90l1f7uCApkca6mGS_R4pLCPjZTGbNSE2xsqIZ0QDIdk9Yg6FniU9C_5mdclRTMFNEu306N9hjKG3V0HsfBTGDkVV4MWjtQRkpNKoimCX9ADayaGd9_f6j1Q=="
+  ],
+  [
+   "aipressroom.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnDEh6OQ6Iv3eLYnHOBt1fbQnnQAZ6HmsYIZqaBK7u6MUMulrl2HuAVJHk1hXvKthlEqYmIYiqU50hr2oJTIO38Ke8PfkkokQEvlA6LrgT2fFeHtf0exdAxTFOGxJ8or_qi0nhzHuCu3g="
+  ],
+  [
+   "dealroom.co",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9JyyWqQGXi2LSOyU0qmXqHKKKCZqqxfk2SB7oOyu_rtSXEAdzn3irkmPvCBBnchanTQzKBWSpUxLw2trMAGKSqd9EicJQmymyWIptpGD0jby3eAo7hpqBh4PuRI29mWX8MNrqfi0-cCe06n738NsfDSTMwz2lzj3J1s4vnA-9olt6exqfEgxh-xXPhZ_-rrhgL3piG8j8GNo="
+  ],
+  [
+   "siliconrepublic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFahM9xYuV_rP-87Tw4jUYuVrHqTs6cQZLDpI7VbcT4UGJWSF1X5PnoVnV0owAxwnCLqZgKQezaR3C_SI_uDzi9xte_d0oAsVHEcKNLDdnE-_Rzkuh_v6eF01rnSt40iufp_eYEONscXVjXDuN_wFy1oyI3-9TEc_CtfYQ9mObC10S7ClaO3SJhvQeBsoTn16SHwFclWCv93iiB2VenTQ=="
+  ],
+  [
+   "cryptobriefing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPEYfOfnQdFuOHPAdj-uWkb8hFam9u_SvvBi9QufUiaEiEzk2inoLryxtEgCK1CJpnW5DC35ZyX_f6TvvZcUdsa5w9AQCShHXh09-0ehbY2I_fKkNqg3TLqNSfuDVDktlbR9YgYH5F7XJc-4VVL_MeTGthSWbm2cbURQ=="
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaEahcwOJCaHyEz-wG_l7QjexMRclfvbcL7fNIm15332RxYLb0MIKvLi-LenClz3uzAxysiRD3F1ZznpYULRvu89UJvt5h9qBHK3C19LQrCti36WmPFIYmEWmaZhMd85D8o4wjHOmEBD1qySm354qTPNEJ3QHQUxo10Kluyhpe"
+  ],
+  [
+   "nvidia.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFY3464dHlmb6v2mM4LbDnxM7AVg2wbifhLQODW4Nvq0qBamkK207JfrakgLdKzK1ZbXogMG-z4YhWMNlD-S-qD04hpZGYVvDamoGydtIwkJK6vdv_BpZDjR9Coh1fiu9gh5HNE5xbJTKjsX5jvOR486s1JEyjynDpVg_WqlAKAf70d2R9qI6YnqnI77e75f1GtJY4bcawkAVKE9jU9WAaXDJ80jIK05cEtQ_GgnGd089afhgV0n4"
+  ]
+ ],
+ "grounding_resolved": [
+  "https://live.euronext.com/en/financial-news/uk-backed-ai-chip-startup-fractile-hits-7-billion-valuation-funding-round",
+  "https://www.aichatdaily.com/ai-business/fractile-raises-720m-series-c-uk-sovereign-ai",
+  "https://evertiq.com/news/2026-11-16-uk-chip-startup-fractile-raises-720-million-in-series-c",
+  "https://aipressroom.com/fractile-577m-ai-chips/",
+  "https://dealroom.co/news/168114-uk-chipmaker-fractile-raises-540m-series-c-to-challenge-nvidia/",
+  "https://www.siliconrepublic.com/start-ups/uk-ai-chips-start-up-fractile-raises-720m-at-7bn-valuation",
+  "https://cryptobriefing.com/fractile-raises-720m-ai-chip-funding/",
+  "https://emergent.sh/news/nvidia-expands-supplier-partnerships-meet-ai",
+  "https://nvidianews.nvidia.com/news/nvidia-expands-commitments-with-supply-chain-partners-to-support-ai-infrastructure-buildout"
+ ],
+ "process": {
+  "queries": [
+   "Fractile Kindo Model ML AI startup investment 2026",
+   "Fractile Kindo Model ML AI competitors 2026",
+   "Fractile Kindo Model ML AI company news 2026",
+   "AI startup funding November 2026",
+   "AI company acquisitions November 2026",
+   "semiconductor AI partnership November 2026",
+   "AI executive appointments November 2026"
+  ],
+  "sources": [
+   [
+    "euronext.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSxPimz-WXSm4TVqzg_kVBOqDqRr9gw6Zl28jCr2LvJPTMHswIPYU3QEqSEOEclDAJAI7GnqcFs4nPOc_KS3ZTamXfqvH-im8oyf6mVbeWgGwSxBF3UPPQdy_D8lTIIPytqyjd8uZWrJMRRfZN6TjTzHHHz7GBupDywYt7r31SnuXF-TH2RK8lzQqj95Dc_FHr14f8_9nKbGLpN9ncWSivjILIqDnn5JJdeL_Vfdws"
+   ],
+   [
+    "aichatdaily.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbINeV04G3hmxhK-YtBsi4L1C5RbKpblS9vt0mx1rmf5L1NHlyEprV6RdQ45Y0KbGV9aQC6NioBqITJNL_EUoE0OPk4OBUB-JX1Ca78vmH0gF5OvRQEp1rNbLNF_b-kSVZGnv3yzdFUGtDAynGjlPUcyQ2nHCAI6ApNXoqnogm-UU53uy1F1VEOUs8zwig9g=="
+   ],
+   [
+    "evertiq.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGm6mTfniEOAaLZO_MbHCvgl3IeAAtIUzM11JSTYUUmP_DRSFmocYwYpP0e2KBi5AuqowJRFjeJ3Qvob_90l1f7uCApkca6mGS_R4pLCPjZTGbNSE2xsqIZ0QDIdk9Yg6FniU9C_5mdclRTMFNEu306N9hjKG3V0HsfBTGDkVV4MWjtQRkpNKoimCX9ADayaGd9_f6j1Q=="
+   ],
+   [
+    "aipressroom.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFnDEh6OQ6Iv3eLYnHOBt1fbQnnQAZ6HmsYIZqaBK7u6MUMulrl2HuAVJHk1hXvKthlEqYmIYiqU50hr2oJTIO38Ke8PfkkokQEvlA6LrgT2fFeHtf0exdAxTFOGxJ8or_qi0nhzHuCu3g="
+   ],
+   [
+    "dealroom.co",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9JyyWqQGXi2LSOyU0qmXqHKKKCZqqxfk2SB7oOyu_rtSXEAdzn3irkmPvCBBnchanTQzKBWSpUxLw2trMAGKSqd9EicJQmymyWIptpGD0jby3eAo7hpqBh4PuRI29mWX8MNrqfi0-cCe06n738NsfDSTMwz2lzj3J1s4vnA-9olt6exqfEgxh-xXPhZ_-rrhgL3piG8j8GNo="
+   ],
+   [
+    "siliconrepublic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFahM9xYuV_rP-87Tw4jUYuVrHqTs6cQZLDpI7VbcT4UGJWSF1X5PnoVnV0owAxwnCLqZgKQezaR3C_SI_uDzi9xte_d0oAsVHEcKNLDdnE-_Rzkuh_v6eF01rnSt40iufp_eYEONscXVjXDuN_wFy1oyI3-9TEc_CtfYQ9mObC10S7ClaO3SJhvQeBsoTn16SHwFclWCv93iiB2VenTQ=="
+   ],
+   [
+    "cryptobriefing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPEYfOfnQdFuOHPAdj-uWkb8hFam9u_SvvBi9QufUiaEiEzk2inoLryxtEgCK1CJpnW5DC35ZyX_f6TvvZcUdsa5w9AQCShHXh09-0ehbY2I_fKkNqg3TLqNSfuDVDktlbR9YgYH5F7XJc-4VVL_MeTGthSWbm2cbURQ=="
+   ],
+   [
+    "emergent.sh",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHaEahcwOJCaHyEz-wG_l7QjexMRclfvbcL7fNIm15332RxYLb0MIKvLi-LenClz3uzAxysiRD3F1ZznpYULRvu89UJvt5h9qBHK3C19LQrCti36WmPFIYmEWmaZhMd85D8o4wjHOmEBD1qySm354qTPNEJ3QHQUxo10Kluyhpe"
+   ],
+   [
+    "nvidia.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtFY3464dHlmb6v2mM4LbDnxM7AVg2wbifhLQODW4Nvq0qBamkK207JfrakgLdKzK1ZbXogMG-z4YhWMNlD-S-qD04hpZGYVvDamoGydtIwkJK6vdv_BpZDjR9Coh1fiu9gh5HNE5xbJTKjsX5jvOR486s1JEyjynDpVg_WqlAKAf70d2R9qI6YnqnI77e75f1GtJY4bcawkAVKE9jU9WAaXDJ80jIK05cEtQ_GgnGd089afhgV0n4"
+   ]
+  ],
+  "supports": [
+   {
+    "text": "評価額70億ドル。",
+    "idx": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "text": "2027年デプロイ予定。",
+    "idx": [
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "text": "数十億ドル規模の資金提供を含む複数年契約。",
+    "idx": [
+     7,
+     8
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2635,
+   "candidatesTokenCount": 1459,
+   "totalTokenCount": 13138,
+   "cachedContentTokenCount": 353,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2635
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 353
+    }
+   ],
+   "toolUsePromptTokenCount": 3802,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3802
+    }
+   ],
+   "thoughtsTokenCount": 5242,
+   "serviceTier": "standard"
+  }
+ }
+}
