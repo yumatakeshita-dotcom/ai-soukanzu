@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, 'inbox', 'queue.json')
 STATES = ('未', '調査済', '保留')
-COOLDOWN_DAYS = {'固定': 30, '会社': 120}   # 調査済みの項目が、また選ばれるまでの日数
+COOLDOWN_DAYS = {'固定': 30, '会社': 120, '重要': 45}   # 調査済みの項目が、また選ばれるまでの日数
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
 
@@ -108,6 +108,29 @@ def company_item(name, region, n_moves):
     }
 
 
+RANK_TOP = 25   # 重要度ランキング(scripts/importance_rank.py)の上位から、この数まで会社の項目を足す
+
+
+def rank_items(have):
+    """重要度ランキングの上位の会社・投資家を、優先して調べる項目として足す(すでにある id は触らない。足すだけ)"""
+    p = os.path.join(ROOT, 'inbox', 'ranking', 'latest.json')
+    if not os.path.exists(p):
+        return []
+    out = []
+    xs = [r for r in json.load(open(p, encoding='utf-8')).get('top', []) if r['kind'] in ('会社', '投資家')][:RANK_TOP]
+    for r in xs:
+        id_ = 'company-' + norm(r['name'])
+        if id_ in have:
+            continue
+        out.append({
+            'id': id_, 'kind': '重要', 'company': r['name'], 'region': '世界',
+            'theme': f"{r['name']}の経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)",
+            'reason': f"重要度ランキング{r['rank']}位(つながり{r['links']}・直近の動き{r['recent']}・ニュース{r['news']})。よく見られそうな会社を先に確かめる",
+            'priority': 10, 'rank': r['rank'], 'status': '未', 'last_researched': None, 'attempts': 0, 'history': [], 'added': today(),
+        })
+    return out
+
+
 def build(dry=False, log=print):
     q = load()
     have = {it['id'] for it in q['items']}
@@ -116,6 +139,9 @@ def build(dry=False, log=print):
         if id_ not in have:
             added.append({'id': id_, 'kind': '固定', 'theme': theme, 'reason': reason, 'priority': pri, 'status': '未',
                           'last_researched': None, 'attempts': 0, 'history': [], 'added': today()})
+    # 0. 重要度ランキングの上位(優先度10。固定の課題の次、薄いところ探しの前)
+    for r in rank_items(have | {a['id'] for a in added}):
+        added.append(r)
     counts, names = move_counts()
     # 1. 地域ごとの会社リストで、人の動きが0〜1件のもの
     seeded = set()
@@ -160,7 +186,7 @@ def eligible(it, now=None):
 def pick(q):
     xs = [it for it in q['items'] if eligible(it)]
     # 未が先、そのあと優先度の小さい順、古く調べたものの順
-    xs.sort(key=lambda it: (it['status'] != '未', it['priority'], it.get('last_researched') or '', it['id']))
+    xs.sort(key=lambda it: (it['status'] != '未', it['priority'], it.get('rank', 999), it.get('last_researched') or '', it['id']))
     return xs[0] if xs else None
 
 
@@ -220,7 +246,7 @@ def status(log=print):
     q = load()
     c = {s: sum(1 for it in q['items'] if it['status'] == s) for s in STATES}
     log(f'合計 {len(q["items"])}件 / 未 {c["未"]} / 調査済 {c["調査済"]} / 保留 {c["保留"]}')
-    xs = sorted([it for it in q['items'] if eligible(it)], key=lambda it: (it['status'] != '未', it['priority'], it['id']))
+    xs = sorted([it for it in q['items'] if eligible(it)], key=lambda it: (it['status'] != '未', it['priority'], it.get('rank', 999), it['id']))
     for it in xs[:8]:
         log(f'  次の候補 [{it["priority"]}] {it["id"]} … {it["theme"][:60]}')
     return c
