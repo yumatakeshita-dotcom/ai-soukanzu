@@ -27,3 +27,9 @@
   - 決算資料(IR): www.jpx.co.jp、www.release.tdnet.info、disclosure2.edinet-fsa.go.jp、api.edinet-fsa.go.jp、www.hkexnews.hk、dart.fss.or.kr、mops.twse.com.tw、www.bseindia.com、www.sgx.com、group.softbank
   - 記事: techinasia.com、e27.co、startup-db.com、entrackr.com
   - 許可済みで使えるもの: prtimes.jp、thebridge.jp、dealstreetasia.com、kr-asia.com、inc42.com、nikkei.com
+
+### 許可後の確認(2026/11/21 夕)
+- 追加で許可された19ホストのうち、読めた: api.robotstart.jp、www.radionikkei.jp、rss.listen.style、feed.pod.co、feed.firstory.me、feeds.captivate.fm、www.jpx.co.jp、www.release.tdnet.info(適時開示)、www.hkexnews.hk、mops.twse.com.tw、www.bseindia.com、www.sgx.com、www.techinasia.com、startup-db.com、entrackr.com。番組7つを足して計42番組(41が読めた)
+- まだ読めない: dart.fss.or.kr(空の応答)、group.softbank(断られた)、disclosure2.edinet-fsa.go.jp(サイト側が403)、api.edinet-fsa.go.jp(転送先を確認中)
+- 前田ヒロは `www.hiromaeda.com` に転送されるため、その許可が要る(URLは www に直した)
+- 決算資料(IR)の取り込みの道具は、まだ作っていない(次の作業)

@@ -36,3 +36,11 @@ https://anchor.fm/s/58b89130/podcast/rss|Forbes India The Startup Fridays|イン
 https://anchor.fm/s/c39f2f18/podcast/rss|스타트업 인사이드(スタイン)|韓国起業|ko|Apple一致
 https://anchor.fm/s/104dd2638/podcast/rss|와우레터(ワウテール)|韓国起業ニュース|ko|Apple一致
 https://anchor.fm/s/108af8fa8/podcast/rss|The New Playbook 新创手册|中華圏起業|zh|Apple一致
+# 2026/11/21 許可された7ホストの番組を追加(Apple一致)
+https://api.robotstart.jp/api/v1/feeds/3614048b/get-feeds/podcast|10分でわかるスタートアップ・資金調達ニュース|資金調達(日本)|ja|Apple一致
+https://www.hiromaeda.com/feed/podcast/|前田ヒロ Startup Podcast|VC・起業(日本)|ja|Apple一致
+https://www.radionikkei.jp/podcast/techscience/rss.xml|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|テック(日本)|ja|Apple一致
+https://rss.listen.style/p/catalyst/rss|Catalyst by Publidia|ビジネス(日本)|ja|Apple一致
+https://feed.pod.co/bravedynamics|BRAVE Southeast Asia Tech|東南アジアVC・起業|en|Apple一致
+https://feed.firstory.me/rss/user/cl3k10tva02to01uicdc13m9r|創創燒(創投公會TVCA)|台湾VC|zh|Apple一致
+https://feeds.captivate.fm/prime-venture-partners/|Prime Venture Partners Podcast|インドVC|en|Apple一致

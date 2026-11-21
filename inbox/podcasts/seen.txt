@@ -3233,3 +3233,134 @@ c1b366a7-fae3-434a-9ccb-2414d4cddce4|The New Playbook 新创手册|2026-09-14|�
 48b32c7b-9d80-4975-be8d-48de403d73b9|The New Playbook 新创手册|2026-09-01|「最红牙医」一家诊所11位牙医？！| Dr Kayla 的创业之路
 4391f520-a27d-4c0e-8cb9-225839d5b84e|The New Playbook 新创手册|2026-08-17|中国企业来大马抢生意？是好事还是坏事？Alex 谈大马下一波机会到底在哪里
 15e09c66-b990-48ed-93d6-089903c35f5e|The New Playbook 新创手册|2026-08-02|29岁接手传统生意，他凭什么让公司走到上市？｜MSB Global 的接班之路 - OSCAR
+c956b98e3873aecad38648b368e2645523f6987e4a15be9f7f55f3141ca07b7d|10分でわかるスタートアップ・資金調達ニュース|2026-11-20|森ビル出資のスペースデータ、現実を再現する空間知能とは？
+501214478ee8afb2514b67079cead398203043a695cad678d4949c57399e01ef|10分でわかるスタートアップ・資金調達ニュース|2026-11-19|創薬AIに50億ドル？医療やECを動かす最新投資の狙いとは？
+5fc4831b2cf533403555b5bafef668f6c9e0df8d818234a1ba255585a6d930fd|10分でわかるスタートアップ・資金調達ニュース|2026-11-18|AIがコードや軌道上計算網を担う？最新の大型調達は何を変えるか
+2fffe488fa02ba702c8df65ee277221bd5760fbf00c7a93f33b633c81f8230e0|10分でわかるスタートアップ・資金調達ニュース|2026-11-17|無下剤CT検査から宇宙建築まで、現場の負担を消すAIの勝算は？
+d009aaa453726f8086f4d1ec61c923dd3bc7ee52cf4f54c0d2265e3caa97d66a|10分でわかるスタートアップ・資金調達ニュース|2026-11-16|宇宙建築ロボットや建設AI、現場の物理制約をどう超えるか？
+ea7ed265bbe786e8b3cf2b554fbbfd530369dd10775484f133f53fe826faade7|10分でわかるスタートアップ・資金調達ニュース|2026-11-13|AIの電力限界を救うか？英Fractile7億ドル調達の衝撃
+5ae91c181dda68acbbbc72a402e854d6c3082c38fa55d54041cab65533408d99|10分でわかるスタートアップ・資金調達ニュース|2026-11-12|宇宙送電から高齢者身元保証まで、今何が起きているのか？
+4172c1d30c11d1213cd60d3f363aba957a817be1001f2e9bd9a43d1244352cef|10分でわかるスタートアップ・資金調達ニュース|2026-11-11|NominalやBooostが大型調達？産業AIの資金先は？
+7bb8ebaf2c2c5aa8c616d9106065a9c84e651327eac79eaa8ce60eff490334e7|10分でわかるスタートアップ・資金調達ニュース|2026-11-10|Kling AIやnewmoの大型調達は現実インフラを変えるか？
+39a7b1f7a0c5d351dcb06363b2e9afa565864e6053920b9ef8348456176aea56|10分でわかるスタートアップ・資金調達ニュース|2026-11-09|最新調達！図面DXやストアロボは現場の非効率を消せるか？
+192c3d0095ead456b67a993d35c7cae73a278553f1dde600f95e7651e4f4b2a6|10分でわかるスタートアップ・資金調達ニュース|2026-11-06|AIはビットコインで自律決済するのか？最新資金調達＆上場速報
+79a8a1b8737910bf2ddf1e23904b5be3becd58fc63ec0ab98b2186bfbf6b7241|10分でわかるスタートアップ・資金調達ニュース|2026-11-05|宇宙送電やDeepSeek巨額調達が示す最新テックの潮流とは？
+fd36ea37dd18ff40bb9f68d45f257e84fc131209e104f20bcda07d45e119f048|10分でわかるスタートアップ・資金調達ニュース|2026-11-04|パワード義足の7.1億円調達や秋元康氏の新IPとは？
+df98dff6eb37e3168076fffff20274b77d97d39f5984ef1abd58f8c71cfe4677|10分でわかるスタートアップ・資金調達ニュース|2026-11-02|国内初の企業価値担保権活用！スタートアップM&Aはどう変わる？
+1a6353040997a729a2413dd2bc25876b3c11bb27ea01d787e9255ded84360c12|10分でわかるスタートアップ・資金調達ニュース|2026-10-30|トヨタ出資の宇宙合体衛星やAI回路設計はどう未来を変えるのか？
+d64781f1009efa856e52239b23329643b2a36d4b0326078ad135bbb27f33ad95|10分でわかるスタートアップ・資金調達ニュース|2026-10-29|酒粕で育つ細胞肉？24時間AI営業が変えるビジネス最前線とは
+07840359accb9c313d3af06593dc475b2fd03e4c4d195c0d1665e5fc4bebf982|10分でわかるスタートアップ・資金調達ニュース|2026-10-28|AI同士の自動取引や専用半導体、最新スタートアップの動向とは？
+fe76d422e91b60ec7d67cf0ecbd1c2e77234e3ae92ceafd37bdff29e743887ba|10分でわかるスタートアップ・資金調達ニュース|2026-10-27|AI費用は人件費化するか？最新AIエージェントと大型デット調達
+ec0070581f5b5a7e422779802112faa3ac4189679ce937b80d54ff56543c6f06|10分でわかるスタートアップ・資金調達ニュース|2026-10-26|なぜ現場特化AIに資金が集まる？カミナシ最新22億円調達の背景
+adb6e42a5fab169dd708c297e701ff2ba7f71fc71ad443b9ff1917c8c8fc0b96|10分でわかるスタートアップ・資金調達ニュース|2026-10-23|鉄骨15秒測定や償還型イグジットが示す資金調達の未来とは？
+d9ff2c6adfc072cb8e876a025f899f0371bf415bf88d5f93d5d7d6f6e7a7cd5e|10分でわかるスタートアップ・資金調達ニュース|2026-10-22|AIや人型ロボットの巨額調達で現場はどう変わる？
+213da2d64f805d2fe513fef891caf6503e8e33f607793e5b49bf7de10aa16299|10分でわかるスタートアップ・資金調達ニュース|2026-10-21|IPO非前提の償還型イグジットや将来売上の資金化とは？
+ca375df7c7d752378e0ec7fa50492e83e9c68fa02842681deedab1479cf3ced7|10分でわかるスタートアップ・資金調達ニュース|2026-10-20|DeepSeek2.4兆円調達！AIと自動化インフラの最新動向は？
+7773687d3180a1c068ec241ffdf11e1dc822fc68cfc951cf969d324c45239075|10分でわかるスタートアップ・資金調達ニュース|2026-10-19|AI半導体や核融合に巨額投資！最新スタートアップ調達の動向は？
+24193dc977e29e25fa36cf3dae86670955eadc11dc65e6709410fc7870e2fe23|10分でわかるスタートアップ・資金調達ニュース|2026-10-16|生成AIで駅舎を3Dモデル化？ACIMUSの最新資金調達とは
+ad473ba3afef33a4dd86c08f2e4865de5d5b1d0c5f1e0b682808baa556d2e857|10分でわかるスタートアップ・資金調達ニュース|2026-10-15|財布を持つAIとDeNA起業家再挑戦の行方は？
+9716482748b546750b2907b643d46a90a2c922284d611fda2583cd320dc8e5ac|10分でわかるスタートアップ・資金調達ニュース|2026-10-14|最新AIは倉庫ロボやハード設計をどう変える？大型調達の最前線
+b597eafd07cc6441c3c641d2073742aab041a47e474384428d6f94d277133f7e|10分でわかるスタートアップ・資金調達ニュース|2026-10-13|裏庭の大型蓄電池がAIデータセンターの電力危機を救うのか？
+ab8d838ad8bc46cc852113b8f4cf8fbc864a19f116eb6ac33e41cf3830fece88|10分でわかるスタートアップ・資金調達ニュース|2026-10-09|AI創薬460億円や核融合32億円など最新資金調達の狙いとは？
+739f80796cf3e1caf8398261eaacdf0185f62c315d0464fc33f498e58f3eabf3|10分でわかるスタートアップ・資金調達ニュース|2026-10-08|DeepSeekの巨額調達とAI創薬460億円が示す未来とは？
+2f6eda0604b648483ed077ababac075c3547cbaffd5d3cb31911fe82eb7e612f|10分でわかるスタートアップ・資金調達ニュース|2026-10-07|AI署名データや住宅ローンAI、CFRP技術の最新動向とは？
+85d1e1fab567fe662260742648e0ef454b85b8314a10f61e513a40e4cede66d4|10分でわかるスタートアップ・資金調達ニュース|2026-10-06|AIの主戦場はコードから電力へ？10月最新のインフラシフトとは
+feb800dab9f1a730608155eea2cf61a9ecb2a5c965f9ef43a7b3e1fecaa4819f|10分でわかるスタートアップ・資金調達ニュース|2026-10-05|物理AIと特化データで最新の産業現場はどう変わるのか？
+854743f14b12bcdd65f0f2db3b643f083c891aea93934b309cb73c81a423839e|10分でわかるスタートアップ・資金調達ニュース|2026-10-02|AIエージェント途中で再開できる？Restate30億円調達
+a58e016ce6239fb789d1f8c3f695ad17ba14c24dcd7577347582e781152e73d3|10分でわかるスタートアップ・資金調達ニュース|2026-10-01|評価額100億ドルのAIや配送ロボ！最新資金調達のリアルとは？
+1976c8af2c5e162706f67a3ea516392d1057a5f85004d0a5381b5ce84a0988ca|10分でわかるスタートアップ・資金調達ニュース|2026-09-30|1ヶ月で評価額100億ドル到達！AIエージェント最前線とは？
+9036d4fdc5ae682e08f583c2e8879431e14dc21418b6d23adfc89b2dd0643651|10分でわかるスタートアップ・資金調達ニュース|2026-09-29|AIと精密発酵は今、物理現場をどう変えるか？
+8941bc19d584135f0a75cda53d085ac12b3d607e39f64407303060ae8d23183b|10分でわかるスタートアップ・資金調達ニュース|2026-09-28|216センサー手袋やAI電話の登場で、産業の未来はどう変わる？
+a0806f81905a8a7f73786dff638038147f4a7a501a961b38c520145c23f0b93f|10分でわかるスタートアップ・資金調達ニュース|2026-09-25|トヨタ出資先の上場や豪HEO調達、本日の注目ニュースとは？
+db76fbd9d84cf4ae9259f14343e431eb4ff2a980c2bdb963e4e2ff94168c18eb|10分でわかるスタートアップ・資金調達ニュース|2026-09-24|「図面」や「船」を動かすAIが製造・海事現場をどう変える？
+b3d897dfce3dfad31e0358b96e39170653e991c88cb3636f5c39d3aea3d1b9f6|10分でわかるスタートアップ・資金調達ニュース|2026-09-18|GEOと自律制御AIでビジネスはどう変わる？
+41aa60492a11276832d1175de12f5c8641f466a2682e12cb86d9b4f05eb41afc|10分でわかるスタートアップ・資金調達ニュース|2026-09-17|製造業AIや介護DXはリアル現場をどう変えるか？
+e4cca791b75edd2b4f090b8e647d8be06d3d9bcead5b103f4cc281f533468510|10分でわかるスタートアップ・資金調達ニュース|2026-09-16|自前インフラを握るソリッドベンチャーはなぜ強いのか？
+621f6fe4e111ebfc629a5c9f134ff4788133de10657e397df42278a765f04158|10分でわかるスタートアップ・資金調達ニュース|2026-09-15|医療現場の薬のミスマッチは量子創薬とDXで解決できるか？
+e1008c713347dbba3764670a319e987410929abb54c4f989ffdc38a747ea0e87|10分でわかるスタートアップ・資金調達ニュース|2026-09-14|巨額資金はAI開発や茶畑の未来をどう変えるのか？
+48735198be0ef1104b030ad9c263f93ea58bf551de8c056da62daac1b64e63e8|10分でわかるスタートアップ・資金調達ニュース|2026-09-12|100億円M&AやAI半導体の大型調達が示す市場の行方は？
+c7259968da95b95def36597663dabae506cbdc24991e4c3fd24bb46cbc779d2a|10分でわかるスタートアップ・資金調達ニュース|2026-09-11|フィジカルAIと巨額資金調達は次のAI市場を制するのか？
+b41ea49f94d58120ee7f72ff14a6dfb1aaf82fc24616472889aeb4544fc25177|10分でわかるスタートアップ・資金調達ニュース|2026-09-10|ロボティクスや社会インフラへの巨額投資は現実をどう変えるか？
+aca1d9081c93e4c24094cb5adf1239be889da50db53f4c0f53ff8a9ddfac2906|10分でわかるスタートアップ・資金調達ニュース|2026-09-09|営業AIグラスやがん治療薬が未来を変える？最新テックの最前線
+4396ce371d67492db345d328497873cdc2ce376045fafd958ea9e0e395a7995d|10分でわかるスタートアップ・資金調達ニュース|2026-09-08|麻婆豆腐を作るロボットやがん治療など注目の最新技術とは？
+5faa9035b65f061d4b95627f3d9cfd9b0c09a383ab77edef870dfb13155b1482|10分でわかるスタートアップ・資金調達ニュース|2026-09-07|2026年、AIとスタートアップ投資はどう動く？
+6d5fa4260ae874391411080dbdaa400f4c9b77bf27baab968d8e711227a963b4|10分でわかるスタートアップ・資金調達ニュース|2026-09-04|2兆円買収や54億円調達も！最新AI市場で今何が起きている？
+03e4effed80f5d04258217d1d099cf53caf766b9dd74347eeb7371297ae80e1c|10分でわかるスタートアップ・資金調達ニュース|2026-09-03|牛のげっぷとAI電力への投資が未来を変える？
+6b5a4b3325501b7d4d52770d2718e7f85c77db747167204d6b58797aa52abf00|10分でわかるスタートアップ・資金調達ニュース|2026-09-02|AI時代の覇権を握るのはコードではなく物理インフラなのか？
+9591f226-e33e-11f1-8a73-dbd5915f81eb|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-11-19|「メタの話題のAIエージェント『Muse』を使ってみた？責任者に聞いた狙いと今後（続編）」＃30（2026.11.19）
+b1f237f8-ddb4-11f1-af82-5f92a7156b80|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-11-12|「メタの話題のAIエージェント『Muse』を使ってみた？責任者に聞いた狙いと今後」＃29（2026.11.12）
+1d5bf760-d836-11f1-92e5-8b4ec2facadf|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-11-05|「永遠の問いに挑む」＃28（2026.11.05）
+3cf97004-d343-11f1-b754-a3ffcfdf0f90|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-10-29|「2026年ノーベル賞徹底解剖！」＃27（2026.10.29）
+48193098-cd38-11f1-ae46-3f37ef6e4e36|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-10-22|「進化するメガネ型デバイス、使って分かった可能性と課題（後編）」＃26（2026.10.22）
+90f1ffce-c7bc-11f1-98ec-8f77a3f4e4ab|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-10-15|「進化するメガネ型デバイス、使って分かった可能性と課題（前編）」＃25（2026.10.15）
+22e32762-c233-11f1-9ec8-83f5f0efa831|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-10-08|「ノーベル賞の舞台裏（続編）」＃24（2026.10.08）
+31985acc-bc55-11f1-b4a4-77799a7552dc|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-10-01|「ノーベル賞の舞台裏」＃23（2026.10.01）
+f58c869a-b676-11f1-b20e-2f6c18700954|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-09-24|「米AI企業で相次ぐ大型買収、その理由（続編）」#22（2026.09.24）
+c0056dd0-b170-11f1-b50d-cfcf88fb634c|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-09-17|「米AI企業で相次ぐ大型買収、その理由」＃21（2026.09.17）
+d2ae2988-ac32-11f1-ad5a-8f824b9e9ae1|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-09-10|「熊本で再び地震/台風の急発達に迫る」＃20（2026.09.10）
+d3350ef0-a6ae-11f1-8378-bb3bed1ea2c1|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-09-03|「恐竜大発見」＃19（2026.09.03）
+e6b877b0-a13a-11f1-bd23-33e8c0c717b7|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-08-27|「トライアルがリアル店舗で変革する『リテールテック』(続編)」＃18（2026.08.27）
+f8656548-9b88-11f1-a77e-db9a2fffe25c|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-08-20|「トライアルがリアル店舗で変革する『リテールテック』」＃17（2026.08.20）
+31b99ea4-9634-11f1-9b00-97ab6412bd9e|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-08-13|「中国発の安価なAIモデル最前線とその影響（続編）」＃16（2026.08.13）
+aae66716-90ae-11f1-894c-3f46728369a3|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-08-06|「中国発の安価なAIモデル最前線とその影響」＃15（2026.08.06）
+55e6669e-8af5-11f1-ade3-a381b6d3cf4f|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-07-30|「AI・脳・意識」＃14（2026.07.30）
+9ab5d6ef-be5f-414d-9af4-b37517a442d3|Catalyst by Publidia|2026-11-11|#60 作家が立ち上げる書店支援サービス / note が目指すのは「文脈の卸売」か
+dc2251d8-b7e5-4660-8311-c452025b7d17|Catalyst by Publidia|2026-11-06|#59 書籍スキャンについての言及はわずか Anthropic上場申請書類 / LINEマンガ 100億円規模投資
+0fe524e1-a394-481d-b941-90ffa8458ef5|Catalyst by Publidia|2026-10-28|#58 YouTube、オーディオブックを検討 / AnthropicのS-1をちょっと読み
+1aa226e2-9584-45b6-bb40-c72b5dba131e|Catalyst by Publidia|2026-10-22|#57 スマホで記事を開くと3分の1が広告だった 大手新聞社も業界基準の広告量を上回る
+c6011a98-f4b0-413e-afbf-5ff5c7676dba|Catalyst by Publidia|2026-10-14|#56 iOS 27のアドテク遮断 今後の影響
+8c191911-2947-4322-9628-28099fe559f3|Catalyst by Publidia|2026-10-08|#55 集英社の情報漏えい セキュリティに投資すべき意味 / パブリッシャー向けGoogleの支払いプログラム
+a3489fdb-5085-4922-be41-9d44491fe2bc|Catalyst by Publidia|2026-08-06|#54 SBIネオメディアが3億円で手にした、生態系の欠けたピース
+d36b6b4f-1d41-4927-acb2-8f9b8678fb39|BRAVE Southeast Asia Tech|2026-11-18|What Makes a Dream Team in the Age of AI | BRAVE: Rockstars - E749
+d60445d2-149f-452e-8d2d-e6c9588004f6|BRAVE Southeast Asia Tech|2026-11-15|Impact Investing Doesn’t Lack Capital, It Lacks Evidence | Isher Kaila - E748
+a64622fb-f854-4863-9d14-d4c1b2cc9c52|BRAVE Southeast Asia Tech|2026-11-11|Why Southeast Asian Founders Should Spend More Time in San Francisco | Shiyan Koh - E747
+cdfa7c7c-c75e-4898-93b4-6a70565bfaad|BRAVE Southeast Asia Tech|2026-11-08|What the Nanning Scam Teaches Us about Marketing | Adrian Tan - E746
+a0ac9661-4089-488b-8271-d706dabe2590|BRAVE Southeast Asia Tech|2026-11-05|Money Is Being Rebuilt for AI Agents. Where Do You Start? | Richard Schroder - E745
+790b0015-f9a4-4a59-97b5-8961d077d3de|BRAVE Southeast Asia Tech|2026-11-01|How Tech Became Sri Lanka’s Third-largest Export Earner | Chalinda Abeykoon - E744
+1ed0f175-f6a6-4491-a8fd-0d2b5ae203f9|BRAVE Southeast Asia Tech|2026-10-28|The Future Of DeFi: One Connected Global Marketplace | Lennix Lai - E743
+5aed1547-f6b8-447e-9864-06cbb8f53a3e|BRAVE Southeast Asia Tech|2026-10-25|Enabling the Future of Design | Goh Yiping - E742
+33269f09-0cc0-4000-9376-1e6e7f80386b|BRAVE Southeast Asia Tech|2026-10-21|Starting Again at 65: Rosaline Koo on Building covee’s AI Insurance Ecosystem | E741
+e4fa2fa3-5f0a-43a1-a1fa-97f10ad9bb06|BRAVE Southeast Asia Tech|2026-10-18|Finding Hope In A Long View Of History - Gita Sjahrir | BRAVE E740
+d01907fe-5d45-4519-8a1e-b1beb1d65605|BRAVE Southeast Asia Tech|2026-10-15|Making a Podcast About Lawrence Wong: 20+ Interviews, 15+ Drafts and a Story to Weave | Jean Hew - E
+742dc067-5341-4a4e-981f-a36220e90ab5|BRAVE Southeast Asia Tech|2026-10-11|Unlearning Prestige & Unlocking the Golden Handcuffs - E738
+1bea0c9e-e677-4c44-86d4-30785aacec27|BRAVE Southeast Asia Tech|2026-10-07|China’s AI & Robotics Are Advancing Faster Than Expected - E737
+7b0eb665-1458-409b-8af5-4c4dd2b29a66|BRAVE Southeast Asia Tech|2026-10-04|Fred Ng: The Einstein Visa, Getting Paid Before Building Anything & Letting AI Do the Paperwork - E7
+2eef2f11-ddab-43c0-9f18-a1f284dab6be|BRAVE Southeast Asia Tech|2026-09-30|E735 - Singapore: Health, Scale & Policy Blueprint
+0248eb1e-e569-4165-a31b-7ce0598b1dfe|BRAVE Southeast Asia Tech|2026-09-27|Edy Widjaja: From Jakarta Provision Shop to Bain Senior Partner & The Lessons In Between - E734
+84051a8b-de0a-4488-a86a-491786314a33|BRAVE Southeast Asia Tech|2026-09-23|EdTech: The Future of Learning & K-12 Disruption - E733
+966cd8fe-b8ce-4363-ad19-1c53db852bc0|BRAVE Southeast Asia Tech|2026-09-21|Singapore Buys Fintech. Thailand Builds Data Centers. | Wing Vasiksiri E732
+f5c80e0d-d5bd-45b8-8de1-5b5009d7a330|BRAVE Southeast Asia Tech|2026-09-16|Selling My Company Taught Me More Than Building It | Ajay Bulusu - E731
+936f05ad-8b06-4f77-862e-c298607c3bdd|BRAVE Southeast Asia Tech|2026-09-14|AI Has Changed The Way We Create, Consume And Value Content | Adriel Yong - E730
+0d33a2e1-ae08-4d04-ac6e-e086c93c9381|BRAVE Southeast Asia Tech|2026-09-09|What 500 Harvard Case Studies Actually Do To Your Brain - E729
+c94b451b-4279-4245-ac2c-542540552249|BRAVE Southeast Asia Tech|2026-09-06|The Truth About China's Competitive Advantage - E728
+98c22be4-948a-48df-973b-8e9cc2870312|BRAVE Southeast Asia Tech|2026-09-02|Itamar Novick: Where AI Replaces People, and Where It Does Not - E727
+089ab880-5b3b-491c-8f32-9ed7c56271c8|BRAVE Southeast Asia Tech|2026-08-31|$70,000 Per Child: What Singapore's New Family Package Actually Changes - E726
+fafbf916-3f9d-4c56-8fb2-00a367c1945a|BRAVE Southeast Asia Tech|2026-08-26|The Next 3 Years Will Deliver 30 Years of Innovation | John Lin - E725
+cda82441-afa3-45d7-b494-3a58c7bc97ef|BRAVE Southeast Asia Tech|2026-08-23|The Innovation Playbook of 3 Southeast Asian Founders - E724
+30ca92b1-2830-42ce-9e86-0e140be0dd3a|BRAVE Southeast Asia Tech|2026-08-19|Leadership Lessons From Best-Selling Authors - E723
+39354858-f798-4e02-be7a-f14c50d4259d|BRAVE Southeast Asia Tech|2026-08-16|The New Architecture Of Tech: Seat Pricing, Orbital Rings & Superstar Employees - E722
+90a2abcd-747f-4aec-af51-75a1b3707050|BRAVE Southeast Asia Tech|2026-08-13|AI in Healthcare: Will it work for you? - E721
+0a64862a-0b04-4dff-afae-bceeed5530a5|BRAVE Southeast Asia Tech|2026-08-10|Navigating Southeast Asia: Jeremy Au on Building, Investing, and Career Pivots - E720
+cc4003ab-5c81-43a4-a11f-850d5a614cf1|BRAVE Southeast Asia Tech|2026-08-05|Stop Chasing Unicorns - E719
+55670bae-d727-4b29-a212-6e69a70f886c|BRAVE Southeast Asia Tech|2026-08-02|Navigating the Longevity Market | Dr. Sue-Anne Toh - E718
+ae1ddc79-90ca-4472-95d9-9626a881852a|BRAVE Southeast Asia Tech|2026-07-29|AI: State of Industry and Investment | Aravind Kandiah, Jun Wakabayashi, John Homer Alvero - E717
+7d6391f6-194c-451e-b0fb-47f86dbad9ec|BRAVE Southeast Asia Tech|2026-07-27|Building the World's Most-used Medical AI | Dr. Thomas Kelly of Heidi - E716
+cmwam43av00em01w40xvc0uhv|創創燒(創投公會TVCA)|2026-11-10|EP117創創燒：一個踩油門、一個踩剎車，兩位創辦人怎麼把一碗麵賣進美國？｜日日好食 共同創辦人 麥育瑋 Morris & 劉亭妏 Alli
+cmvqeusrm09r801t37vencp8n|創創燒(創投公會TVCA)|2026-10-27|EP116創創燒：肉眼看不見的原子級功夫，背後藏著哪些創業挑戰？｜原子精製總經理 莊明岳 Winston & 策略長 王宏旭 Tony
+cmvgahe4h02ct01w3h0pn6eh9|創創燒(創投公會TVCA)|2026-10-20|EP115創創燒：從海地星空，看見下一波投資機會｜中華電信股份有限公司 簡志誠 董事長
+cmv6hz4xh0d0x01xg2thq142n|創創燒(創投公會TVCA)|2026-10-13|EP114創創燒：病人等不起的答案，如何成為一場創業突破？｜亞洲準譯總經理 劉君豪 Roger & 富邦金控創投專案副理 林品緯 Wayne
+cmuc8evtq00nt01y65f8fb7ro|創創燒(創投公會TVCA)|2026-09-22|EP113創創燒：從 Day 1 就想寫醫療教科書 臺灣新創如何成為標準制定者？｜先勁智能 執行長 王毓棻 Andrea & 網盈資本 投資總監 童力威 Andy
+cmu29d66n095t01wc5agn7u6y|創創燒(創投公會TVCA)|2026-09-15|EP112創創燒：創投不只投錢，更是在投「人」｜益鼎創投副總經理 沈立平 Robin
+cmtmwwvdf024001ut5k47h9bx|創創燒(創投公會TVCA)|2026-09-08|EP111創創燒：連夜開四百公里送產品 臺灣新創如何打進美國醫療市場？｜艾斯創生醫 執行長黃毅熙 Ben & 緯創資通 CVC 總監秦北辰 Benson
+cmt7zg7q71m0v01x6h4sce8x4|創創燒(創投公會TVCA)|2026-08-25|EP110創創燒：現在為何是做創投最好的時候？和鼎創投的新創扎根學｜和鼎創投副董事長暨總經理 劉奕成 IC
+cmsfev3ar00a001th4s0rf4xg|創創燒(創投公會TVCA)|2026-08-11|EP109創創燒：七十歲把研究帶進市場，從臺灣疫苗自主布局國際｜展興生物科技 創辦人暨董事長 趙裕展
+cmsehio111v4n01wqfazofwmy|創創燒(創投公會TVCA)|2026-08-04|EP108創創燒：從早期投資到生態建構 創投的新定位｜安發天使 創辦人兼總經理 方俊傑 JJ
+cms2pnbyr22tf01yx5kgrannq|創創燒(創投公會TVCA)|2026-07-28|EP107創創燒：讓臺灣 IC 飛向太空 星相科技的創新之路｜星相科技 執行長 蔡忠旺 Wayne
+f1f7ea7d-502a-4a51-a29b-00b90a99e7a1|Prime Venture Partners Podcast|2026-11-16|How Illumine Cracked the US SaaS Market from India | GTM, AI & Growth
+43314ab3-aee6-45ee-a8c4-1217d842e340|Prime Venture Partners Podcast|2026-10-26|How Voice AI Is Transforming Banking & Insurance
+5cc97f51-dd94-4190-8248-2a9e4f70dfc7|Prime Venture Partners Podcast|2026-10-12|₹10,000 Crores Into Restaurants. Why Do 80% Fail? | The Hotshare F&B Investment Playbook
+c0c486a6-3b8f-4444-962e-be71ce049f1c|Prime Venture Partners Podcast|2026-09-28|From Puma to one8 X Agilitas: The Ganguly x Kohli Partnership
+230b41d5-682c-4fdb-ad41-4301fede7532|Prime Venture Partners Podcast|2026-09-15|From an IIT Bombay Lab to a ₹1,000 Crore IPO | The SEDEMAC Deep-Tech Story
+1b873d88-6266-4cab-bae1-9b9018b1de0a|Prime Venture Partners Podcast|2026-09-01|How India’s ₹5 Lakh Crore Alcohol Industry Works | 8X Bigger than Bollywood and Jewellery
+f16b50cc-eb45-4536-9785-1c579dcd3ca5|Prime Venture Partners Podcast|2026-08-17|How VCs Choose Founders to Back | Why Accel Backed Flipkart, Myntra & More
+fcad5ecb-6468-4f10-918f-d96e1c792df4|Prime Venture Partners Podcast|2026-08-05|How India Should Actually Compete in the Global AI Race
