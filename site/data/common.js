@@ -216,6 +216,10 @@ function cmRun(){
   GRP.forEach(([k,h])=>{const L=groups[k];if(!L.length)return;memo.push(`■ ${h}(${L.length})`);L.slice(0,5).forEach(r=>memo.push(`・${G.nodes[r.x].n}: ${r.ea.map(cmSentence).join('、')} / ${r.eb.map(cmSentence).join('、')}`))});
   if(P.len>1&&P.paths[0])memo.push(`■ 最短ルート(${P.len}ステップ)`,'・'+P.paths[0].map(x=>G.nodes[x].n).join(' → '));
   memo.push('※ 相関図に載っている範囲の情報です。連絡の前に、最新の状況を確かめてください。');
+  /* 話のタネ(おもしろ情報 fun.js から。2026/11/21追加)。2社のどちらかに関わる、出典つきの小ネタ */
+  let funHtml='';try{if(typeof funFor==='function'){const fz=funFor([A,B],[G.nodes[s].code,G.nodes[t].code]).slice(0,6);
+    if(fz.length){funHtml=`<section class="cm-g"><h3>話のタネ(おもしろ情報)</h3><ul class="cm-l" style="--c:var(--fg)">${fz.map(e=>`<li><span style="display:block"><b>${cmEsc(e.p)}</b> <span class="cm-k">${cmEsc(e.catn)}</span> ${cmEsc(e.t)}</span><small class="cm-d">${cmEsc(e.note)}</small>${(e.src||[]).slice(0,1).map(x=>`<small class="cm-src"><a href="${cmEsc(x[1])}" target="_blank" rel="noopener noreferrer">${cmEsc(x[0])}</a></small>`).join('')}</li>`).join('')}</ul></section>`;
+      memo.push('■ 話のタネ(おもしろ情報)',...fz.map(e=>'・'+e.p+': '+e.t+'('+((e.src&&e.src[0]&&e.src[0][0])||'')+')'))}}}catch(e){}
   out.innerHTML=`<div class="row" style="margin:12px 0 0;gap:8px;flex-wrap:wrap"><button type="button" id="cmbrief" style="font-weight:700;border-color:var(--active);color:var(--active)">${cmEsc(B)} の営業資料(1枚)を作る ▸</button><span class="meta" style="font-size:12px">だれに会うか・紹介を頼める人・最近のニュース・最初のひとこと(案)・出典を1枚に。印刷・PDF保存ができます</span></div><div class="cm-sum">
      <div><b>${direct.length}</b><small>直接のつながり</small></div>
      <div><b>${groups.person.length}</b><small>共通の人物</small></div>
@@ -224,6 +228,7 @@ function cmRun(){
      <div><b>${P.len<0?'—':P.len}</b><small>最短ステップ</small></div></div>
    ${direct.length?`<section class="cm-g"><h3>直接のつながり</h3><ul class="cm-l" style="--c:var(--fg)">${direct.map(e=>`<li>${cmEdgeHtml(e)}</li>`).join('')}</ul></section>`:''}
    ${grpHtml||`<section class="cm-g"><h3>共通の相手</h3><p>両方と直接つながっている相手は、この相関図の中にはいませんでした。下の「最短ルート」を見てください。</p></section>`}
+   ${funHtml}
    ${hidden&&!usePas?`<p class="note" style="margin-top:10px">株を持っているだけの信託銀行・大手運用会社 ${hidden}社は外しています(上のチェックで含められます)。</p>`:''}
    <section class="cm-g"><h3>最短ルート</h3>${pathsHtml}</section>
    <section class="cm-g"><h3>営業メモ</h3><p>そのまま社内のメモやメールの下書きに貼れます。</p><textarea id="cmmemo" aria-label="営業メモ">${cmEsc(memo.join('\n'))}</textarea>

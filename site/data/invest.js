@@ -4,10 +4,23 @@
    毎日の更新・調査の新着がそのまま反映される。出資の線(invest・invest2)だけを使う。
    本体(index.html)からは showInvest(名前) を呼ぶだけ。 */
 let invSel=-1;
+/* data/investsrc.js の出典を、名前が合う出資の線に足す(足すだけ。すでにある出典・説明は消さない。2026/11/21) */
+function invApplySrc(G){
+  if(G._invsrc||typeof INVSRC==='undefined')return;G._invsrc=1;
+  if(typeof DS!=='undefined'&&typeof INVSRC_DS!=='undefined')Object.keys(INVSRC_DS).forEach(k=>{if(!DS[k])DS[k]=INVSRC_DS[k]});
+  const nm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/[\s　\.\,・()（）]/g,'').replace(/(inc|corp|corporation|株式会社|holdings|group|グループ)$/,'');
+  const by=new Map();G.nodes.forEach((n,i)=>{const k=nm(n.n);if(!by.has(k))by.set(k,[]);by.get(k).push(i)});
+  const ix=new Map();G.edges.forEach(e=>{if(e.k==='invest'||e.k==='invest2')ix.set(e.a+'|'+e.b,e)});
+  INVSRC.forEach(r=>{const A=by.get(nm(r[0]))||[],B=by.get(nm(r[1]))||[];
+    A.forEach(a=>B.forEach(b=>{const e=ix.get(a+'|'+b);if(!e)return;
+      e.src=(e.src||[]).slice();(r[2]||[]).forEach(k=>{if(e.src.indexOf(k)<0)e.src.push(k)});
+      if(!e.ed&&r[3])e.ed=r[3]+(r[4]?'('+r[4]+'、出典で確認)':'')}))});
+}
 function invEdges(){
   const G=cmBuild();
   if(G._inv)return G._inv;
   const inc=G.nodes.map(()=>[]),out=G.nodes.map(()=>[]);
+  invApplySrc(G);
   G.edges.forEach(e=>{if(e.k!=='invest'&&e.k!=='invest2')return;out[e.a].push(e);inc[e.b].push(e)});
   return G._inv={inc,out};
 }
