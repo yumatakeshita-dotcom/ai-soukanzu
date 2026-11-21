@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Wellington Management・T. Rowe Price(主導)",
+   "to": "ElevenLabs",
+   "kind": "出資",
+   "amount": "$300M(従業員の持ち株の売り出し、評価額$220億)",
+   "date": "2026-09-30",
+   "note": "ElevenLabsが従業員の持ち株の売り出しで評価額を220億ドルに(2月の約110億ドルの倍)。WellingtonとT. Rowe Priceが主導、Goldman Sachs・GIC・Ontario Teachers'・EQT・Sapphire・BDT & MSDも参加。会社に入る新規資金ではなく、既存株の売買(ElevenLabs公式ブログで確認)。過去の動画のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "ElevenLabs公式ブログ(2026/9/30)",
+     "https://elevenlabs.io/blog/tender-22bn"
+    ],
+    [
+     "The Next Web(2026/9/30)",
+     "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "Sequoia Capital(主導)・a16z・BlackRock・NVIDIA・ICONIQ",
+   "to": "ElevenLabs",
+   "kind": "出資",
+   "amount": "$500M(シリーズD、評価額約$110億)",
+   "date": "2026-02",
+   "note": "ElevenLabsのシリーズD。Sequoiaが主導、a16z・BlackRock・NVIDIA・ICONIQが参加(ElevenLabs公式ブログの題名で確認。日付は2026年2月としか確認できず、日までは不明)。累計調達は約7.8億ドル。過去の動画のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "ElevenLabs公式ブログ(シリーズD)",
+     "https://elevenlabs.io/blog/series-d"
+    ],
+    [
+     "The Next Web(2026/9/30、前回の評価額に言及)",
+     "https://thenextweb.com/news/elevenlabs-valuation-22bn-300m-tender-wellington-t-rowe-price"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  }
+ ]
+}
