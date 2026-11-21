@@ -713,6 +713,12 @@ def main():
         if res.get('saved'):
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
+        if not a.dry_run:
+            import gemini_verify  # 2026/11/21: 保留(出典を開けなかった)のものを、もう一度確かめる。今日の調査が取れなくてもやる
+            try:
+                gemini_verify.run_recheck()
+            except Exception as e:  # やり直しの失敗で、毎朝の調査を止めない
+                print('保留のやり直しをできませんでした:', e)
         # 2026/11/20: そのあと、調べる順番の一覧(inbox/queue.json)の先頭を1件だけ調べる。人の指示は要らない。
         # 無料枠が切れていたら状態を変えずに終わる(次の朝に同じ項目)。--no-queue で省ける
         if not a.no_queue:
