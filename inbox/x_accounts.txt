@@ -75,3 +75,9 @@
 @nikkei_startup | money,vc,moves | 日経スタートアップ(日経の公式)。確認済み
 @startupnews_jp | money,vc | スタートアップ・ベンチャーのニュースを集める。個人運営。確認済み
 @JapanVenture | vc,money | 日本のスタートアップ事情を伝えるブログ・番組。確認済み
+# --- 海外の日本関連報道(英語) (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@japantimes | moves,money | The Japan Times。英字紙の公式。確認済み
+@SoraNews24 | money | 日本の話題を英語で配信。確認済み
+@JapanTodayNews | money,moves | 日本の英語ニュース。確認済み
+@NHKWORLD_News | moves,money | NHK WORLD 公式(英語)。確認済み
+@e27co | money,vc | アジアのテック・スタートアップ報道。確認済み
