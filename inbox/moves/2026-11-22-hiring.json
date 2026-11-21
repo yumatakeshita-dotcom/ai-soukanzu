@@ -24,5 +24,5 @@
    "backfill": true
   }
  ],
- "notes": "見た会社: OpenAI・Anthropic・DeepMind・xAI・Meta・Nvidia。OpenAIのアービンド・KC氏(最高人事責任者、2026-02-24、公式発表で確認)は相関図にすでにあるため外した。11月の新しい人事トップの就任・退任は見つからず。新拠点の採用開始も新しい公式発表は見つからず(Anthropic東京は2025-10開設、2026-10に1周年報道で社員50名超。新規ではない)。開けなかったもの: aimagazine.com(許可リスト外)。OpenAI採用ページは開けたが数えていない。 【追記】ユーザー依頼で過去分も入れた:KC氏を追加。TSMC→Intel・Unily→Anthropicの2件は 2026-11-22-seed-hiring.json に入っている。他社(Anthropic・xAI・Nvidia・DeepMind・Meta・TSMC)の過去の人事トップ就任は検索で見つからず。"
+ "notes": "見た会社: OpenAI・Anthropic・DeepMind・xAI・Meta・Nvidia。OpenAIのアービンド・KC氏(最高人事責任者、2026-02-24、公式発表で確認)は相関図にすでにあるため外した。11月の新しい人事トップの就任・退任は見つからず。新拠点の採用開始も新しい公式発表は見つからず(Anthropic東京は2025-10開設、2026-10に1周年報道で社員50名超。新規ではない)。開けなかったもの: aimagazine.com(許可リスト外)。OpenAI採用ページは開けたが数えていない。 【追記】ユーザー依頼で過去分も入れた:KC氏を追加。TSMC→Intel・Unily→Anthropicの2件は 2026-11-22-seed-hiring.json に入っている。他社(Anthropic・xAI・Nvidia・DeepMind・Meta・TSMC)の過去の人事トップ就任は検索で見つからず。 【追記2】ユーザー依頼で対象を全企業に広げた:Microsoft・Google・Amazon・Apple・Mistral・Samsung・ソフトバンク・Perplexity・SSI・楽天・サカナAI・NTTを検索したが、人事トップの就任・退任は新しく見つからず(Atlassian・Lumenは役職名の変更で、人の動きではない)。 【追記3】「マージしている全企業」の依頼で、重要度ランキング上位の会社(Databricks・Scale AI・Cohere・Intel・AMD・Oracle・Salesforce・Tesla・SK hynix・Thinking Machines・Mistral・Cursor・Perplexity・Figure・Character.AIなど)を検索。人事トップの就任は見つからず。VC・投資家(ランキング上位の多く)は対象外。相関図の全社を1社ずつは調べていない。"
 }
