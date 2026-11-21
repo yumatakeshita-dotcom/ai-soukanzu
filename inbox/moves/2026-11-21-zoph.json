@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-21",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Barret Zoph",
+   "name_ja": "バレット・ゾフ",
+   "from": "OpenAI(研究の幹部)",
+   "to": "Google DeepMind(研究VP)",
+   "role": "研究VP(強化学習・ポストトレーニング担当と報じられた)",
+   "date": "2026-08-26",
+   "note": "2026/11/21に本人のXのプロフィールを確認: 自己紹介が「VP Research GoogleDeepmind」、過去の欄にOpenAIとThinking Machines Lab。8月26日に報じられた移籍と合う。本人の移籍発表の投稿URLは検索で見つからず、プロフィールのみ。",
+   "src": [
+    ["本人のX(2026/11/21)", "https://x.com/barret_zoph"],
+    ["Quartz(2026/8)", "https://qz.com/barret-zoph-google-deepmind-research-vp-thinking-machines-082726"]
+   ],
+   "confidence": "本人の発言"
+  }
+ ],
+ "notes": "ゾフ氏のGoogle DeepMind移籍の確認。本人Xプロフィール(x_check.pyで確認)と複数報道(Reuters報として各社)が一致。"
+}
