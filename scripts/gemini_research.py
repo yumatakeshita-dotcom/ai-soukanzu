@@ -48,7 +48,7 @@ def key():
 
 # 2026/11/19: 無料枠では Google検索つきの呼び出しが gemini-flash-latest などで 429(枠切れ)になり、
 # gemini-2.5-flash だけ通った。そのため既定は gemini-2.5-flash にし、429 のときは次の候補を順に試す。
-MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-2.5-pro']
+MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-3.1-pro-preview']
 _model_used = []
 
 
@@ -635,7 +635,7 @@ DAILY_THEMES = [
     '直近3日の計算資源(GPU・データセンター・電力・メモリ)の大型契約と提携',
     '直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携',
     '直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業',
-    '直近3日のアジア(台湾・韓国・シンガポール・インド・中東)のAI企業の資金調達・提携・人の動き',
+    '直近3日のアジア(台湾・韓国・インド・中東と、東南アジアのシンガポール・インドネシア・ベトナム・タイ)のAI企業の資金調達・提携・人の動き。出典は Inc42・TechCrunch・DealStreetAsia など本文を開ける報道の記事URLを優先',
     '直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド',
 ]
 
