@@ -114,3 +114,10 @@ Gemini API で調べても、Geminiアプリ・NotebookLM の履歴には残ら�
 毎朝の作業が止まっていないかを、リポジトリに残った記録から確かめる(`inbox/watchdog/日付.md` に足す)。
 更新(LAST_CHECK)・各調査のファイル(壊れたJSONも)・main への push・Geminiの無料枠切れ・宿題リストが進んでいるかを見る。
 共有リンクのアーティファクト(9:41の公開)は記録がリポジトリに残らないので、定期タスク側で公開ページの `LAST_CHECK` を読んで比べる。
+
+## 1日の上限と週のまとめ(2026/11/20追加)
+- 1日(日本時間)に Gemini を呼べる回数の上限は `inbox/gemini/limits.json` の `daily_max_calls`(初期値18。無料枠は検索つきで1モデル1日20回前後)。環境変数 `GEMINI_DAILY_MAX` があればそちらを優先。0 以下で上限なし。今日の回数は `python3 scripts/gemini_research.py limit`
+- 上限に達すると Gemini を呼ばず「枠切れ」と同じ扱いになる。調査のテーマは後回し(やり直す列)、宿題リストは状態を変えず、翌朝に回る。止めた記録は `usage.jsonl` に `cap` として残る(回数には数えない)
+- 毎週月曜の見張り役の記録(`inbox/watchdog/日付.md`)の最後に、先週のGemini使用回数・やり直し・宿題リストの消化が付く(`scripts/gemini_usage_summary.py`。単独でも動く)
+- 有料にした場合の金額は `limits.json` の `assumed_price`(**仮定**。公式の料金表で確かめた値ではない)から出す目安。回数を主に見る
+- 注意: 回数は `inbox/gemini/usage.jsonl` で数えるので、定期タスクが inbox/gemini/ を commit・push しないと、別の日・別の環境の分は引き継がれない(同じ実行の中では効く)
