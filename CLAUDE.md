@@ -80,6 +80,7 @@ docs/                 移行メモなど
 - Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
   - 毎朝8:23の定期タスク「Gemini調査(確かめつき) 毎日」が `python3 scripts/gemini_research.py daily` を動かし、`scripts/gemini_verify.py` で出典URL(実際に開く)・重なり・日付・確かさを確かめる(2026/11/19追加)。合格したものだけ `inbox/money/日付-gemini.json`・`inbox/moves/日付-gemini.json` に足し、9:13の「調査の新着」がサイトに出す。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない
   - 調べ方の履歴(2026/11/20追加): Geminiが打った検索の言葉・見たページ・候補を日付ごとに `inbox/gemini/README.md` と `inbox/gemini/history.html` にまとめる(`scripts/gemini_history.py`。調査のたびに自動)。共有リンクにも公開。くわしくは `docs/gemini_research.md`
+- 宿題リストと見張り役(2026/11/20追加): `inbox/queue.json`(調べる順番。`scripts/research_queue.py`)を毎朝のGemini調査が先頭から1件ずつ調べる。`scripts/watchdog.py` が毎朝の作業の止まりを検知して `inbox/watchdog/` に記録する。くわしくは `docs/gemini_research.md`
 - 幹部の年表に Nvidia を追加(2026/11/19)。SECの臨時報告書(8-K)から取締役・経営陣の入れ替わり12件。`scripts/exectl_auto.py` も Nvidia を対象にした
 - xAI(SpaceXSI)の「モデル・製品の年表」と「Colossusの貸し借り」(2026/11/18追加): index.html の `// ===== 製品とモデルの年表` と `// ===== Colossusの貸し借り` の部分(`PRODTL` `COLOSSUS`)。会社の図の概要に出る。公式発表・開示で確かめたものを足すだけ
 - 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Anthropic・Perplexity・Nvidia・Microsoftなどの新しい提出書類(未上場の会社は資金調達の届け出 Form D も)を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
