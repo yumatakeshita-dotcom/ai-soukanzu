@@ -1,0 +1,115 @@
+# 出資の候補(説明文から) 2026-11-21
+
+確かめる前の手がかりです。相関図には入れません。37件
+
+- 2026-11-20 10分でわかるスタートアップ・資金調達ニュース / 森ビル出資のスペースデータ、現実を再現する空間知能とは？
+  - あわせて、シリーズCファイナルクローズを迎え夜空を彩るドローンショーの高度化を進めるレッドクリフなど、現実空間と先端技術が交差する最前線の動きをお届けします。
+  - 
+- 2026-11-19 Startup Now(StartPods) / 【EN | JP字幕】検索の先にある"仕事を終わらせる"AI。500万人が使っていた検索を手放したピボットと、日本で法人に広がる理由／Gen
+  - 2026年6月にシリーズBを延長し、調達の累計は6億4,500万ドル、企業価値は26億ドルになりました。
+  - https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/EN--JPAI500Genspark---COO-Wen-Sang-e3sn0ir
+- 2026-11-16 10分でわかるスタートアップ・資金調達ニュース / 宇宙建築ロボットや建設AI、現場の物理制約をどう超えるか？
+  - 1億円調達）や、職人不足や製造現場の供給力低下に直面する建設業界で、部材設計から納品までをAIで統合し工場でのプレアセンブリを進めるBALLAS（34億円調達）にフォーカスします。
+  - 
+- 2026-11-13 10分でわかるスタートアップ・資金調達ニュース / AIの電力限界を救うか？英Fractile7億ドル調達の衝撃
+  - さらに、AIデータセンターの電力不足を解決する分散型ユニットを手がける米Torusも5億ドルを調達するなど、電力・物理インフラへの投資が加速しています。
+  - 
+- 2026-11-12 10分でわかるスタートアップ・資金調達ニュース / 宇宙送電から高齢者身元保証まで、今何が起きているのか？
+  - さらに、自動運転タクシーの実装と事業拡大に向けて208億円を調達したnewmoの大型調達、上場観測を公式に否定したサカナAIの動向、建設部材調達を効率化するBALLASなど、社会課題の解決と先端技術の実装を加速させる各社の最新動向に迫ります。
+  - 
+- 2026-11-11 10分でわかるスタートアップ・資金調達ニュース / NominalやBooostが大型調達？産業AIの資金先は？
+  - ハードウェア検証向けAIを展開する米NominalがシリーズCで2億4000万ドル（評価額30億ドル）を調達したほか、中国発の動画生成AI「Kling AI」が約4800億円を調達し香港IPOを視野に入れるなど、グローバルでAI領域への巨額投資が続いています。
+  - 
+- 2026-11-10 10分でわかるスタートアップ・資金調達ニュース / Kling AIやnewmoの大型調達は現実インフラを変えるか？
+  - 国内では、newmo株式会社がシリーズBラウンドで208億円を調達し、累計調達額407億円を達成。
+  - 
+- 2026-11-09 10分でわかるスタートアップ・資金調達ニュース / 最新調達！図面DXやストアロボは現場の非効率を消せるか？
+  - 図面管理システム「ズメーン」で海外展開を加速するFact Baseの45億円調達をはじめ、店舗用ロボット「Armo」を開発するMUSEの17.
+  - 
+- 2026-11-06 10分でわかるスタートアップ・資金調達ニュース / AIはビットコインで自律決済するのか？最新資金調達＆上場速報
+  - さらに、AI時代のデータ防衛に向けて240億円を調達したSentraや、東大発AIスタートアップSimulacraのデジタルツイン技術、Aformicによる産業用ロボティクスの695万ドル調達など、AI領域への大規模投資が拡大中です。
+  - 
+- 2026-11-05 10分でわかるスタートアップ・資金調達ニュース / 宇宙送電やDeepSeek巨額調達が示す最新テックの潮流とは？
+  - 7億円を調達したZero Industriesのレーザー送電技術「Helios」。
+  - 
+- 2026-11-04 10分でわかるスタートアップ・資金調達ニュース / パワード義足の7.1億円調達や秋元康氏の新IPとは？
+  - さらに、再エネ支援のグリーングロースによるシード約5億円調達、LA発ScribeUpの銀行アプリ内サブスク解約AI機能（1,300万ドル調達）、宮崎大学発の抗体創薬スタートアップMabGenesisの東証グロース上場、東京都による「ASIA Food Ecosystem Program」の食・農スタートアップ募集など、最新のスタートアップ動向や企業提携を一挙に紹介します。
+  - 
+- 2026-11-02 20VC / 20VC: Who Wins the Inference Market | Has Open-Source LLM Inference Pe
+  - Modal has raised over $1.
+  - https://thetwentyminutevc.libsyn.com/20vc-who-wins-the-inference-market-has-open-source-llm-inference-peaked-what-happens-to-the-cost-of-compute-the-real-limits-of-post-training-and-rl-with-erik-bernhardsson-modal-ceo
+- 2026-11-01 BRAVE Southeast Asia Tech / How Tech Became Sri Lanka’s Third-largest Export Earner | Chalinda Abe
+  - A diaspora equity crowdfunding platform raised about $1 million in 20 months before the Easter bombings, the pandemic and the economic crisis ended it.
+  - https://www.bravesea.com/
+- 2026-10-30 10分でわかるスタートアップ・資金調達ニュース / トヨタ出資の宇宙合体衛星やAI回路設計はどう未来を変えるのか？
+  - トヨタ系投資会社が主導する2,000万ドル調達を果たしたRendezvous Roboticsの自動合体モジュール構想や、2,500万ドルを調達したCircuit MindのAIエージェントによる設計・検証エンジンなど、ディープテックやハードウェア開発における最新の技術動向と資金調達の最前線を詳しく解説します。
+  - 
+- 2026-10-29 日経ビジネス モーニングニュース / 10月30日（金）：自動車、資源循環時代へ／防衛テック日本勢にも好機／経営学で読む特集「日立」
+  - 3倍の211億ドル調達 デュアルユース化で日本勢にも好機／経営学で読む特集「日立」 稼ぐ土台を再構築、人材基盤も見直す、他
+  - https://business.nikkei.com/?n_cid=nbpnb_megaphone
+- 2026-10-27 TBPN / Anduril Laptop, DoorDash + Instacart, Gavin Baker Joins | Miles Arnone
+  - 1 billion fundraise led by JPMorgan Chase and Gene
+  - https://share.transistor.fm/s/0bc5367e
+- 2026-10-26 10分でわかるスタートアップ・資金調達ニュース / なぜ現場特化AIに資金が集まる？カミナシ最新22億円調達の背景
+  - 1億円を調達したカミナシの「現場オペレーションHub」構想をはじめ、生成AIでBIM制作を行うACIMUSや、建築センシングを手がけるクロスセクターなどの具体事例をピックアップ。
+  - 
+- 2026-10-26 Prime Venture Partners Podcast / How Voice AI Is Transforming Banking & Insurance
+  - Fresh off raising ₹32 crore in a Seed Plus round led by Prime Venture Partners, Desible.
+  - http://primevp.in
+- 2026-10-23 10分でわかるスタートアップ・資金調達ニュース / 鉄骨15秒測定や償還型イグジットが示す資金調達の未来とは？
+  - 1億円調達と「現場オペレーションHub」構想、東証グロース上場が承認された経理AIエージェントTOKIUM（想定時価総額約168.
+  - 
+- 2026-10-22 20VC / 20VC: Trillion or Bust: The New VC Game | Coreweave Sell-Off Creates P
+  - 5 TRN 32:10 Modal Raises $750M at a $15.
+  - https://thetwentyminutevc.libsyn.com/20vc-trillion-or-bust-the-new-vc-game-coreweave-sell-off-creates-panic-town-at-1b-anduril-at-90b-revenue-multiples-out-of-control-general-atlantic-eyes-ipo-modal-raises-750m-at-1575b
+- 2026-10-22 10分でわかるスタートアップ・資金調達ニュース / AIや人型ロボットの巨額調達で現場はどう変わる？
+  - 主なハイライト： ・米テンストレント：15億ドル調達、評価額62億ドルでエヌビディアに挑むAI半導体 ・中国AGIBOT：最大345億円調達へ、評価額1.
+  - 
+- 2026-10-20 10分でわかるスタートアップ・資金調達ニュース / DeepSeek2.4兆円調達！AIと自動化インフラの最新動向は？
+  - また、AI向け3D演算モジュールを開発するMueonの6,500万ドル調達や、電池製造共通インフラを展開するBeffの7.
+  - 
+- 2026-10-19 20VC / 20VC: You Need $1BN To Do Seed Today: The Untold Truths of Venture | W
+  - Sameer Dholakia is a Partner @ Bessemer, the first that has just raised $5.
+  - https://thetwentyminutevc.libsyn.com/20vc-you-need-1bn-to-do-seed-today-the-untold-truths-of-venture-who-wins-and-who-loses-in-the-next-decade-of-vc-why-margin-and-price-matter-less-in-a-world-of-ai-with-sameer-dholakia-bessemer
+- 2026-10-19 10分でわかるスタートアップ・資金調達ニュース / AI半導体や核融合に巨額投資！最新スタートアップ調達の動向は？
+  - 注目が集まるAI領域では、モジュール型アーキテクチャで電力・コスト効率を追求するMueonの6500万ドル調達や、ホテル運営をAIで自動化するWASIMIL、生成AIでBIMを作るACIMUSなど、実用化と効率化を加速する技術への投資が相次いでいます。
+  - 
+- 2026-10-16 10分でわかるスタートアップ・資金調達ニュース / 生成AIで駅舎を3Dモデル化？ACIMUSの最新資金調達とは
+  - あわせて、訪日客向けリファンド型免税サービスを展開するOceanの約5億円調達や、血糖基盤モデルを開発するザ・ファージの5.
+  - 
+- 2026-10-15 20VC / 20VC: The Pro-Rata Battle: Valar Atomics Sues Day One Ventures | Meta 
+  - AGENDA: 04:00 Valar Atomics Sues Seed Investor Day One Ventures Over Pro Rata 17:00 Meta Returns to the AI Frontier With Muse Wonder 20:00 NVIDIA Eyes $30B Reflection Deal as Amazon Circles Decart 26:00 Jev Raises $870M at a $7.
+  - https://thetwentyminutevc.libsyn.com/20vc-the-pro-rata-battle-valar-atomics-sues-day-one-ventures-meta-returns-to-the-ai-frontier-with-muse-wonder-nvidia-eyes-30b-reflection-deal-jev-raises-870m-at-a-75b-valuation
+- 2026-10-15 10分でわかるスタートアップ・資金調達ニュース / 財布を持つAIとDeNA起業家再挑戦の行方は？
+  - さらに、光量子コンピュータ開発OptQCによる70億円調達や、宿泊業向けAIエージェント「WASIMIL」、血糖予測AIのザ・ファージなど、多様な最新スタートアップ動向も解説。
+  - 
+- 2026-10-14 SEA of Startups / The $13 billion costume
+  - In the first nine months of this year, startups in Southeast Asia raised more than $13 billion.
+  - https://seaofstartups.substack.com/p/the-13-billion-costume
+- 2026-10-09 10分でわかるスタートアップ・資金調達ニュース / AI創薬460億円や核融合32億円など最新資金調達の狙いとは？
+  - 大型調達としては、ByteDanceからのスピンオフによるAI創薬事業「Anew Labs」の460億円調達や、中国発AIアプリ「Manus」による5億ドル超の調達、Helical Fusionによる核融合発電実証に向けた32.
+  - 
+- 2026-10-08 10分でわかるスタートアップ・資金調達ニュース / DeepSeekの巨額調達とAI創薬460億円が示す未来とは？
+  - 国内でも、不動産DXの「Facilo」による64億円調達とAI共創エコシステム構築、外国人生活支援を展開する「GTN」の累計35.
+  - 
+- 2026-10-06 スタートアップ投資TV / 起業家はVCの人脈・知見を使い倒せ！創業前から伴走するVCの投資戦略【ON&BOARD 下平 将人】
+  - シリーズA以降の資金調達の難易度が高まる中で、シードVCには何が求められるのか。
+  - https://podcasters.spotify.com/pod/show/u3010u516cu5f0fu3011u30b9u30bfu30fcu30c8u30a2u30c3u30d7u6295u8cc7tv/episodes/VCVCONBOARD-e3ptk6n
+- 2026-10-06 This is 令和スタートアップ / VCが「大学の機能」を解体する？──a16zの新しい学校
+  - ▼ 今回のトピック a16zが発表した「The Horowitz Andreessen Academy」とは：学位を出さない、1年間・約50人の学校 率いるのはUdemy・Maven共同創業者、総額4,200万ドルを調達した営利企業 成績・試験・宿題なし：自分で決めるプロジェクト「Pursuit」と、創業者が教える短期コース サンフランシスコのキャンパス、海外でのプロジェクト、テック企業でのCo-opで組む1年間 選抜は「これまでの実績」：成績より、何を作ってきたか 「何でも知れる時代」から「何でもできる時代」へ：オンラインだけでは築けない関係と、集まる場所の意味 初年度は学費無料、2028年からは一流私大並みの学費をとる2年制を構想 大学の機能を分解する：教育、選抜、ブランドによるシグナリング、友人のネットワーク 高騰するアメリカの学費と、AI時代に問われる大学の費用対効果 ビジネスス
+  - https://podcasters.spotify.com/pod/show/reiwastartup/episodes/VCa16z-e3pptlt
+- 2026-10-02 10分でわかるスタートアップ・資金調達ニュース / AIエージェント途中で再開できる？Restate30億円調達
+  - 同社はシリーズAで約30億円（2000万ドル）の資金調達を実施しました。
+  - 
+- 2026-09-30 10分でわかるスタートアップ・資金調達ニュース / 1ヶ月で評価額100億ドル到達！AIエージェント最前線とは？
+  - 0」を発表し半年で累計1,200億円を調達 ・トルコ発AIアプリ開発「HubX」、最大7,500万ドルの資金調達で同国8社目のユニコーン企業へ ・不動産テック「Live Search」、シリーズC完了で累計調達額12億円突破・対応エリア拡大 ・自動配送ロボット「LOMBY」、3.
+  - 
+- 2026-09-28 10分でわかるスタートアップ・資金調達ニュース / 216センサー手袋やAI電話の登場で、産業の未来はどう変わる？
+  - さらに、100億ドル評価を目指すDensityAIや、評価額が倍増し491億円を調達したAI創薬エンベダの事例、東証スタンダードに上場したakippaのM&A戦略やUberによる「Baemin」の2.
+  - 
+- 2026-09-25 10分でわかるスタートアップ・資金調達ニュース / トヨタ出資先の上場や豪HEO調達、本日の注目ニュースとは？
+  - 宇宙領域では、豪HEOが日本の防衛省などの支援を受けて約38億円を調達し、「衛星を撮る衛星」の運用拡大を目指します。
+  - 
+- 2026-09-24 10分でわかるスタートアップ・資金調達ニュース / 「図面」や「船」を動かすAIが製造・海事現場をどう変える？
+  - 5億円を調達し製品化と海外展開を推進するエイトノットの取り組みをはじめ、不動産DXのFacilo（64億円調達）や生成AI検索最適化（GEO）のQueryLift、AI CFOサービスのSoVaなど、2026年9月の日本における注目のスタートアップ資金調達とAIイノベーションの実装例を解説します。
+  - 
