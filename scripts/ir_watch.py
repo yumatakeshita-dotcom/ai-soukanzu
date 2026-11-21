@@ -28,7 +28,7 @@ inbox/moves/ に足すのは毎朝の調査(Claude)が本文を読んで名前�
   python3 scripts/ir_watch.py --days 7        # さかのぼる日数
   python3 scripts/ir_watch.py --dry           # 保存しない(試し)
   python3 scripts/ir_watch.py --only tdnet    # tdnet / hkex / sgx のどれかだけ
-SGX は api.sgx.com / links.sgx.com が環境の許可に入っていないと読めない(読めないときは理由を status.json に残す)。
+SGX は api.sgx.com が環境の許可を通っても、SGX側が自動の取得を断る(Access Denied)ため、今は読めない(読めない理由は status.json に残す。回り道はしない)。
 韓国DART・EDINET は今は読めないので対象外。
 """
 import argparse, datetime, glob, json, os, re, subprocess, sys, tempfile, time, unicodedata, urllib.request
@@ -332,7 +332,7 @@ def run_sgx(days, T, seen, status):
     try:
         d = json.loads(http(url, timeout=40, retries=1))
     except Exception as e:  # noqa
-        status['sgx'] = {'ok': False, 'why': 'api.sgx.com に接続できない(環境の許可に api.sgx.com / links.sgx.com を足す必要がある): ' + str(e)[:80]}
+        status['sgx'] = {'ok': False, 'why': 'SGXのデータ元 api.sgx.com に接続できない(2026/11/21: 環境の許可は通ったが、SGX側が自動の取得を断る(Access Denied)。許可の問題ではない): ' + str(e)[:80]}
         return out
     items = d.get('data') or d.get('items') or []
     for x in items:

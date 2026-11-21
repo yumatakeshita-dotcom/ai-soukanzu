@@ -85,7 +85,7 @@ docs/                 移行メモなど
 - 幹部の年表に Nvidia を追加(2026/11/19)。SECの臨時報告書(8-K)から取締役・経営陣の入れ替わり12件。`scripts/exectl_auto.py` も Nvidia を対象にした
 - xAI(SpaceXSI)の「モデル・製品の年表」と「Colossusの貸し借り」(2026/11/18追加): index.html の `// ===== 製品とモデルの年表` と `// ===== Colossusの貸し借り` の部分(`PRODTL` `COLOSSUS`)。会社の図の概要に出る。公式発表・開示で確かめたものを足すだけ
 - 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Anthropic・Perplexity・Nvidia・Microsoftなどの新しい提出書類(未上場の会社は資金調達の届け出 Form D も)を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
-- 決算資料・適時開示(IR)ウォッチ(2026/11/21追加): `python3 scripts/ir_watch.py` が日本(TDnet)・香港(HKEX)・シンガポール(SGX)の新着開示から、相関図にある会社の出資・買収・役員人事を拾い、PDFを開いて確かめたものだけ `inbox/ir/` に足す(買収・出資で相手が確実にとれたものは `inbox/money/日付-ir.json` にも)。SGXは `api.sgx.com` の許可待ち。くわしくは `docs/ir_watch.md`
+- 決算資料・適時開示(IR)ウォッチ(2026/11/21追加): `python3 scripts/ir_watch.py` が日本(TDnet)・香港(HKEX)・シンガポール(SGX)の新着開示から、相関図にある会社の出資・買収・役員人事を拾い、PDFを開いて確かめたものだけ `inbox/ir/` に足す(買収・出資で相手が確実にとれたものは `inbox/money/日付-ir.json` にも)。SGXは取引所側が自動の取得を断るため今は読めない。くわしくは `docs/ir_watch.md`
 - AI計算資源の契約まとめ(1枚資料、2026/11/18作成・11/19第2版): `docs/compute_deals_2026-11.html`。共有リンク https://claude.ai/artifact/Cs3yFwHEieKF4AhvAn18bu 。「上場の条件」(Anthropicの上場。1株83ドルは2026/11/18の S-1MEF で開示を確認。424B4 が出たら株数・金額を確かめ直す)と「開示ウォッチの新着」(`<!-- WATCH_START -->`〜`<!-- WATCH_END -->`)がある。新着は `python3 scripts/compute_brief.py` が inbox/disclosures/ から足す(足すだけ)。毎週火曜10:53の定期タスク「計算資源の1枚資料を更新 毎週」が実行して公開し直す
 
 ## 守ること
