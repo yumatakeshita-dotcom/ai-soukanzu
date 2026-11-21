@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>英語のAI新着 日本語解説</title>
+<style>
+:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--accent:#4a5dd0;--official:#1a7f4b;--report:#9a6700}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--accent:#8394f5;--official:#4cc38a;--report:#e3b341;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Noto Sans JP","Hiragino Sans",sans-serif;line-height:1.7;padding:20px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:780px;margin:0 auto;display:grid;gap:14px}
+h1{margin:0;font-size:24px}.lead{color:var(--muted);margin:0;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:6px}.bar button{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:99px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.bar button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:8px;overflow-wrap:anywhere}
+.card h2{margin:0;font-size:18px}.en{margin:0;color:var(--muted);font-size:13px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;color:var(--muted)}.co{font-weight:700;color:var(--fg)}
+.cf{border:1px solid currentColor;border-radius:99px;padding:0 8px}.cf-公式{color:var(--official)}.cf-報道{color:var(--report)}
+summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--accent)}details p,details ol,blockquote{margin:6px 0 0}
+blockquote{border-left:3px solid var(--line);padding-left:12px;color:var(--fg)}ol{padding-left:22px}
+.note{color:var(--muted);font-size:13px}.src{font-size:13px;color:var(--muted)}.src a{color:var(--accent);margin-right:10px}
+.paste{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}textarea{width:100%;font:inherit;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px}.paste button{margin-top:6px;border:0;background:var(--accent);color:#fff;border-radius:8px;padding:8px 14px;font:inherit}pre{white-space:pre-wrap;font-size:12px}
+.foot{font-size:12px;color:var(--muted)}
+</style></head><body><div class="wrap">
+<h1>英語のAI新着 日本語解説</h1>
+<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/21 / 出典つきのものだけ載せています。</p>
+<details class="paste"><summary>気になる投稿を貼って、訳・解説してもらう</summary>
+<p class="lead">投稿のURLか本文を貼ると、Claude/ChatGPTに渡す依頼文ができます。コピーして貼り付けてください(このページ自体は翻訳できないため)。</p>
+<textarea id="pin" rows="4" placeholder="https://x.com/... または英語の本文"></textarea>
+<button id="mk">依頼文を作ってコピー</button><pre id="out" hidden></pre></details>
+<div class="bar" id="bar"></div>
+<div id="list">
+<article class="card" data-co="Anthropic">
+<div class="meta"><span class="co">Anthropic</span><span>2026-11-21</span><span class="cf cf-報道">報道</span></div>
+<h2>「プロンプトの工夫はもう古い」と話すAnthropic社員の動画(Xの紹介投稿)</h2><p class="en">Post: an Anthropic engineer says &quot;prompt engineering is basically obsolete&quot; (video)</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>全員注目!ChatGPT・Claude・Grok のどれか1つでも使ったことがあるなら、この動画をぜひ見てください。AIへの見方が変わり、AIに不安を感じなくなります。Anthropicのエンジニアが重大な見解を出しました:「プロンプトエンジニアリング(指示文の工夫)はほぼ時代遅れだ」。彼女によると、同社のエンジニアの95%がすでに「AIが自分で改善を繰り返す仕組み」を動かしていて、次の段階は「グラフ構造」だといいます。会場では、わずか10…(以下、投稿は途中で切れています)</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>中国語圏のアカウント(govin.eth)が、英語の動画を紹介した投稿です。言いたいことは「人間が指示文を細かく工夫するより、AIが結果を見て自分で直す繰り返しの仕組みを組むほうが主流になりつつある」という話です。ただし、この確認で読めたのは投稿の冒頭だけで、元の動画も、95%という数字も、まだ確かめていません。投稿者の紹介の言葉であり、Anthropicの公式発表ではありません。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>投稿を開き、紹介されている動画を探す(投稿末尾のリンク先)</li><li>動画の発言者と公開元(Anthropicの公式チャンネルか)を確かめる</li><li>数字(95%)は動画の中で本人が言っているか、字幕で確かめる</li><li>自分で試すなら、AIに『出力を自分で採点して、直して、もう一度出して』と頼む形から始められる</li></ol><p class="note">やり方の最後の1行は一般的な使い方の例で、この動画の内容そのものではありません。動画を確かめたら更新します。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://x.com/goan999999/status/2123973337336668246" rel="noopener" target="_blank">Xの投稿(govin.eth)</a></div>
+</article>
+</div>
+<p class="foot">訳と解説はAIが作ったものです。「公式」は公式の告知・ページで確かめたもの、「報道」は報道ベースです。やり方は元の出典に書かれている範囲だけを載せています。料金・提供地域は変わるので、必ず元の出典で確かめてください。<br><a href="../index.html" style="color:var(--accent)">← AI企業の相関図へ</a></p>
+</div>
+<script>
+document.getElementById('mk').onclick=function(){var v=document.getElementById('pin').value.trim(),o=document.getElementById('out');if(!v)return;
+var t='次のXの投稿(AI関連)を、(1)日本語に訳す (2)何がすごいか・何ができるかを非エンジニア向けに解説 (3)試し方・使い方を、元の出典に書かれている範囲だけで説明、の順で答えてください。確かめられないことは「未確認」と書いてください。
+
+'+v;
+o.hidden=false;o.textContent=t;try{navigator.clipboard.writeText(t)}catch(e){}};
+(function(){var cs=[].slice.call(document.querySelectorAll('.card')),bar=document.getElementById('bar'),cos=['すべて'];
+cs.forEach(function(c){var n=c.dataset.co;if(cos.indexOf(n)<0)cos.push(n)});
+cos.forEach(function(n,i){var b=document.createElement('button');b.textContent=n;b.setAttribute('aria-pressed',i==0);
+b.onclick=function(){[].forEach.call(bar.children,function(x){x.setAttribute('aria-pressed',x===b)});cs.forEach(function(c){c.hidden=!(i==0||c.dataset.co==n)})};bar.appendChild(b)})})();
+</script></body></html>
