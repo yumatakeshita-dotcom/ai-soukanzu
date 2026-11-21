@@ -1,0 +1,249 @@
+{
+ "date": "2026-11-21",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 20/20番組、新着14本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "7dc28d5e-c137-4739-83c7-65bead01ea11",
+   "show": "20VC",
+   "kind": "VC",
+   "lang": "en",
+   "title": "20VC: Will Jensen Return to NVIDIA | Anthropic Set for Largest IPO of All Time | Kalshi, Mercor & Fractile: Mega-Rounds Continue",
+   "published": "2026-11-19",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-will-jensen-return-to-nvidia-anthropic-set-for-largest-ipo-of-all-time-kalshi-mercor-fractile-mega-rounds-continue",
+   "description": "AGENDA: 00:00 Nvidia's $600B Wipeout: Pressure Mounts for Jensen's Return 14:00 Anthropic's $1.4T IPO: A New Record for Venture Capital 19:00 The $20B Club: Unicorns Are No Longer Enough 23:00 Kalshi, Mercor & Fractile: Mega-Rounds Divide Investors 29:00 Nvidia's Deal Spree Under Threat: AI Startups Lose Their Safety Net 32:00 HubSpot's Founders Return as Customer Growth Slumps 41:00 Small Businesses Shun SaaS: AI Agents Win the Budget 45:00 Microsoft Outage & FAA Shutdown Expose Fragile Infrastructure 54:00 OpenAI Buys Odessia: The End of Vertical Personal Assistants? 56:00 Meta's Muse Takes Aim at the $100K Software Stack 01:06:00 SpaceX Catches Starship: The Stock Is Now a Bet on Compute"
+  },
+  {
+   "id": "d58483f7-f3a8-4375-b3ca-9f357ff95d41",
+   "show": "20VC",
+   "kind": "VC",
+   "lang": "en",
+   "title": "20VC: Jev Creator on Why Data Is More Important Than Compute | Will US Open-Source Models Catch Chinese | The Cost of Intelligence and Tokens: What No One Sees But Needs to Know with Diogo Almeida",
+   "published": "2026-11-16",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jev-creator-on-why-data-is-more-important-than-compute-will-us-open-source-models-catch-chinese-the-cost-of-intelligence-and-tokens-what-no-one-sees-but-needs-to-know-with-diogo-almeida",
+   "description": "Diogo Almeida is the Co-Founder and CEO of TypeSafe AI, the company behind Jev. Jev is an AI model that lets software make decisions automatically and tells developers how confident it is in each call. According to Sequoia's Pat Grady, it went from zero to $100M in revenue in seven days. TypeSafe's latest round valued the company at $7.5BN, with Martin Casado at Andreessen Horowitz leading and Sequoia also investing. Before TypeSafe, Diogo was a researcher at OpenAI, where he helped invent ChatGPT. AGENDA: 00:00 Why reliability is the biggest bottleneck to AI 10:26 When does doubling compute stop making models smarter? 12:06 If data matters more than compute, which data actually makes models better? 22:00 What stops OpenAI from copying your product the moment it works? 37:53 Are Harvey and"
+  },
+  {
+   "id": "2287a085-1a53-4fbc-8983-a411da9c85f8",
+   "show": "20VC",
+   "kind": "VC",
+   "lang": "en",
+   "title": "20VC: Taking on NVIDIA: Fractile CEO on the Future of Chips | What Everyone Gets Wrong About Capex Spending | The Winners and Losers in Neo Clouds with Walter Goodwin",
+   "published": "2026-11-14",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-taking-on-nvidia-fractile-ceo-on-the-future-of-chips-what-everyone-gets-wrong-about-capex-spending-the-winners-and-losers-in-neo-clouds-with-walter-goodwin",
+   "description": "Walter Goodwin is the founder and CEO of Fractile, the British chipmaker taking on Nvidia in the race to make AI models answer faster. Fractile has raised $940M , including a $720M Series C that valued the company at $7.5BN . Thrive, Founders Fund, Lightspeed and Redpoint led the latest round. AGENDA: 0:00 Can the world build enough chips for the AI we'll want in ten years? 5:04 Can you still win by just building chips? 13:26 Where can a specialist chip beat Nvidia at its own game? 16:14 Why are the world's fastest AI chips still waiting on memory? 27:37 How much of the AI chip industry is bullshit? Who's actually shipping? 35:48 What happens when you have the chips but nowhere to plug them in? 50:13 What will a single AI token cost in ten years? 58:46 Was Jensen's Groq deal an insurance p"
+  },
+  {
+   "id": "substack:post:225196123",
+   "show": "Dwarkesh Podcast",
+   "kind": "AIインタビュー",
+   "lang": "en",
+   "title": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+   "published": "2026-11-16",
+   "url": "https://www.dwarkesh.com/p/paul-christiano-2",
+   "description": "Paul Christiano is head of the Alignment Research Center. Previously, he was head of AI safety at the US AI Safety Institute. Before that, he led alignment at OpenAI, where he invented RLHF. He’s recently joined OpenAI’s board (though here he is speaking as a private citizen). Paul thinks that on the current trajectory (absent any slowing down), there is a 1 in 3 chance that we could have superintelligence powerful enough to overthrow the government within a year. (He articulates a concrete scenario). He argues that the labs should pause further algorithmic progress until they can secure their weights and research secrets. Otherwise China could simply steal the superintelligence in the middle of the intelligence explosion, and the labs would no longer be able to slow down even if they saw "
+  },
+  {
+   "id": "87f8e24a-476f-4565-88fb-9e5ee7549ece",
+   "show": "All-In",
+   "kind": "VC・テック",
+   "lang": "en",
+   "title": "Anthropic Goes Public, Nvidia in Crisis, Markets Tank, Open Source Crackdown?",
+   "published": "2026-11-20",
+   "url": "https://allinchamathjason.libsyn.com/anthropic-goes-public-nvidia-in-crisis-markets-tank-open-source-crackdown",
+   "description": "(0:00) Chamath's theory on 10 AI Megacorps that go \"Dirt to Application\" (3:27) Anthropic goes public, how companies are handling AI disruption (16:41) Bull/bear case for Anthropic and the market (36:41) White House weighs new open source disclosure rule for Chinese models (59:17) State of Nvidia: Tanking stock, talent crisis, legal issues, Jensen's future Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Refe"
+  },
+  {
+   "id": "22b845c5-e5be-4dd1-b4dd-7f3843120d12",
+   "show": "All-In",
+   "kind": "VC・テック",
+   "lang": "en",
+   "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+   "published": "2026-11-17",
+   "url": "https://allinchamathjason.libsyn.com/databricks-ceo-agi-is-already-here-why-companies-are-behind-and-the-superintelligence-debate",
+   "description": "(0:00) Ali Ghodsi joins the show: Databricks' early bets on cloud, AI, and open source (8:50) Is AGI Already Here? Why Enterprise AI Is Falling Behind (22:04) Live Demo: How Databricks Uses Agentic AI For Efficiency (38:25) Databricks IPO: The Case for Staying Private (44:02) RSI, Cyber Risk & the Doom Debate Thanks to our partner for making this possible: Airwallex is a leading global payments and financial platform for modern businesses, offering trusted solutions to manage everything from business accounts, payments, treasury, and spend management to embedded finance. Learn more at https://airwallex.com/allin Follow Ali: https://x.com/@alighodsi Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theal"
+  },
+  {
+   "id": " 01a1f60c-1b1f-7366-a794-20e0b0bcdc8a ",
+   "show": "Latent Space",
+   "kind": "AI技術",
+   "lang": "en",
+   "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+   "published": "2026-11-19",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/scaling_linear_s_gtm_to_100m_arr_cristina_cordova_coo",
+   "description": "Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" ( https://linear.app/next ) In this episode, we chat with Cristina Cordova ( htt..."
+  },
+  {
+   "id": "youtube:wX8nDtGIfYA",
+   "show": "Latent Space",
+   "kind": "AI技術",
+   "lang": "en",
+   "title": "⚡️Anthropic: Know Before You IPO — Tanay Jaipuria, Wing VC",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=wX8nDtGIfYA",
+   "description": "Watch the full show on YouTube: https://www.youtube.com/watch?v=wX8nDtGIfYA"
+  },
+  {
+   "id": " 01a1e632-c02d-713d-a840-cae7f745d45e ",
+   "show": "Latent Space",
+   "kind": "AI技術",
+   "lang": "en",
+   "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "published": "2026-11-16",
+   "url": "https://latent.space/p/bfl",
+   "description": "What can a model learn about the world by watching video and listening to it? Black Forest Labs trained FLUX 3 on images, video and audio together. Andreas Blattmann and Dustin Podell join swyx to explain why. A moving camera reveals the far side of an..."
+  },
+  {
+   "id": "4364f8cd-e957-44ef-9795-b5070115b19e",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "How an American AI Company Uses Chinese Open-Weight Models",
+   "published": "2026-11-20",
+   "url": "https://omny.fm/shows/odd-lots/how-an-american-ai-company-uses-chinese-open-weight-models",
+   "description": "This week, we got news that the Trump administration is reportedly considering a requirement for US companies to publicly disclose their use of Chinese AI models. Any effort to discourage US businesses from using Chinese open-source could be a big deal for both the AI industry and the market, where investors are still debating whether customers will ultimately be willing to pay for pricier homegrown frontier models versus cheaper alternatives. Everyone remembers last year's 'DeepSeek moment' for AI, when a Chinese company released a cheaper model that seemed nearly as good as cutting-edge US ones. So why do businesses actually use open-source? And what are the considerations that take into account in doing so? In this episode, we talk to Daniel Saedi, co-founder of Minerva, to better under"
+  },
+  {
+   "id": "53c36daa-840c-48b3-b071-b5070021e016",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "This Is The Problem With AI's Most Bullish Chart",
+   "published": "2026-11-19",
+   "url": "https://omny.fm/shows/odd-lots/this-is-the-problem-with-ais-most-bullish-chart",
+   "description": "It has been a historic week for AI: the Anthropic IPO and the ongoing situation at Nvidia headline a pretty head-spinning time for the industry. Despite Nvidia's earnings outlook looking good, and despite the scale of the Anthropic IPO — it's oversubscribed, as you might know — there are so many open questions about the state of the industry right now. Financing the buildout has become increasingly complicated, and the Democrats who won races in the midterms know that data center opposition is a winning issue. Today's episode is a special two-parter that addresses some of these questions. First, we speak with Stanley Lee, the chief product officer at Liquid Compute, and he explains why Wall Street and Silicon Valley seem to be talking past each other, and what fragilities are emerging in t"
+  },
+  {
+   "id": "8dad6dc9-ed8d-497d-8cde-b50501578aa2",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "How GTA VI Became the Most Expensive Video Game Ever Made",
+   "published": "2026-11-18",
+   "url": "https://omny.fm/shows/odd-lots/how-gta-vi-became-the-most-expensive-video-game-ever-made",
+   "description": "It took over a decade to make Grand Theft Auto VI . And when it's released on November 19, it will have likely already set at least one record: the most expensive video game ever made. In the years since the last GTA release, the video game industry has changed massively. Investors, once excited by the prospect of blockbuster video games, have pulled back, sales have stagnated, and the industry as a whole seems more precarious. Bloomberg News video game reporter Jason Schreier has been following Rockstar Games and its quest to release GTA VI for a long time. Ahead of the launch, we speak with him about why it took 13 years — and a budget that reportedly exceeded $1 billion — to get GTA VI across the finish line, and his impressions of the game having played it before almost anyone else on "
+  },
+  {
+   "id": "4bf9cb81-2185-4513-8d9c-b5010173862f",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+   "published": "2026-11-16",
+   "url": "https://omny.fm/shows/odd-lots/the-impossible-trilemma-that-hangs-over-the-nvidia-crisis",
+   "description": "Tian Yang, CIO and manager of the VPX fund at Variant Perception, recently published a report called The Sovereign Impossible Trinity that is especially salient right now. Yang's thesis is that the US-China rivalry is exposing three main policy trade-offs: The necessity of sovereignty (which both of the great powers insist on) means that neither state can assure they can maintain the trio of guns (or the AI 'arms race'), butter (social spending), and sound money because of physical constraints, political conditions, and inflation. Given that the US-China AI arms race forms the backdrop of the upheaval at Nvidia, you can't understand Jensen Huang's resignation without considering geopolitical and global economic conditions; his leaving the chipmaker is already a world-historical story. On t"
+  },
+  {
+   "id": "9d24ac51-fef1-4f4e-8cda-b501016c2b98",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+   "published": "2026-11-14",
+   "url": "https://omny.fm/shows/odd-lots/how-wall-street-is-bracing-for-the-post-jensen-huang-nvidia-era",
+   "description": "Nvidia's post-Jensen Huang era has just begun and there are so many open questions about the company's future. Who will the board choose to be Nvidia's next CEO? Will the government crack down on the chipmaker's business practices, particularly in Asia? And will Nvidia's uncertain position begin to spillover into the wider AI ecosystem, from the labs to data center providers? Stacy Rasgon, managing director and senior analyst at Bernstein, isn't optimistic about the short term future of Nvidia and he talks to us today about the cloudy outlook at the company in the wake of Jensen's resignation. We also discuss why he chose to downgrade Nvidia's stock, the surreal experience of covering Jensen's fall as an analyst, and what he's paying attention to ahead of Nvidia's earnings. Read more: http"
+  }
+ ]
+}
