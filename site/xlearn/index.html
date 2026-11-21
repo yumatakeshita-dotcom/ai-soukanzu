@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>英語のAI新着 日本語解説</title>
+<style>
+:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--accent:#4a5dd0;--official:#1a7f4b;--report:#9a6700}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--accent:#8394f5;--official:#4cc38a;--report:#e3b341;color-scheme:dark}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Noto Sans JP","Hiragino Sans",sans-serif;line-height:1.7;padding:20px max(16px,env(safe-area-inset-left,0px))}
+.wrap{max-width:780px;margin:0 auto;display:grid;gap:14px}
+h1{margin:0;font-size:24px}.lead{color:var(--muted);margin:0;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:6px}.bar button{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:99px;padding:5px 12px;font:inherit;font-size:13px;cursor:pointer}
+.bar button[aria-pressed=true]{border-color:var(--accent);color:var(--accent);font-weight:700}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:8px;overflow-wrap:anywhere}
+.card h2{margin:0;font-size:18px}.en{margin:0;color:var(--muted);font-size:13px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;color:var(--muted)}.co{font-weight:700;color:var(--fg)}
+.kind{background:var(--accent);color:#fff;border-radius:6px;padding:0 6px}.cf{border:1px solid currentColor;border-radius:99px;padding:0 8px}.cf-公式{color:var(--official)}.cf-報道{color:var(--report)}
+summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--accent)}details p,details ol,blockquote{margin:6px 0 0}
+blockquote{border-left:3px solid var(--line);padding-left:12px;color:var(--fg)}ol{padding-left:22px}
+.note{color:var(--muted);font-size:13px}.src{font-size:13px;color:var(--muted)}.src a{color:var(--accent);margin-right:10px}
+.paste{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px}textarea{width:100%;font:inherit;background:var(--bg);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:8px}.paste button{margin-top:6px;border:0;background:var(--accent);color:#fff;border-radius:8px;padding:8px 14px;font:inherit}pre{white-space:pre-wrap;font-size:12px}
+.foot{font-size:12px;color:var(--muted)}
+</style></head><body><div class="wrap">
+<h1>英語のAI新着 日本語解説</h1>
+<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/21 / 出典つきのものだけ載せています。</p>
+<details class="paste"><summary>気になる投稿を貼って、訳・解説してもらう</summary>
+<p class="lead">投稿のURLか本文を貼ると、Claude/ChatGPTに渡す依頼文ができます。コピーして貼り付けてください(このページ自体は翻訳できないため)。</p>
+<textarea id="pin" rows="4" placeholder="https://x.com/... または英語の本文"></textarea>
+<button id="mk">依頼文を作ってコピー</button><pre id="out" hidden></pre></details>
+<div class="bar" id="bar"></div>
+<div id="list">
+<article class="card" data-co="Anthropic">
+<div class="meta"><span class="co">Anthropic</span><span>2026-11-21</span><span class="cf cf-報道">報道</span></div>
+<h2>「プロンプトの工夫はもう古い」と話すAnthropic社員の動画(Xの紹介投稿)</h2><p class="en">Post: an Anthropic engineer says &quot;prompt engineering is basically obsolete&quot; (video)</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>全員注目!ChatGPT・Claude・Grok のどれか1つでも使ったことがあるなら、この動画をぜひ見てください。AIへの見方が変わり、AIに不安を感じなくなります。Anthropicのエンジニアが重大な見解を出しました:「プロンプトエンジニアリング(指示文の工夫)はほぼ時代遅れだ」。彼女によると、同社のエンジニアの95%がすでに「AIが自分で改善を繰り返す仕組み」を動かしていて、次の段階は「グラフ構造」だといいます。会場では、わずか10…(以下、投稿は途中で切れています)</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>中国語圏のアカウント(govin.eth)が、英語の動画を紹介した投稿です。言いたいことは「人間が指示文を細かく工夫するより、AIが結果を見て自分で直す繰り返しの仕組みを組むほうが主流になりつつある」という話です。ただし、この確認で読めたのは投稿の冒頭だけで、元の動画も、95%という数字も、まだ確かめていません。投稿者の紹介の言葉であり、Anthropicの公式発表ではありません。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>投稿を開き、紹介されている動画を探す(投稿末尾のリンク先)</li><li>動画の発言者と公開元(Anthropicの公式チャンネルか)を確かめる</li><li>数字(95%)は動画の中で本人が言っているか、字幕で確かめる</li><li>自分で試すなら、AIに『出力を自分で採点して、直して、もう一度出して』と頼む形から始められる</li></ol><p class="note">やり方の最後の1行は一般的な使い方の例で、この動画の内容そのものではありません。動画を確かめたら更新します。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://x.com/goan999999/status/2123973337336668246" rel="noopener" target="_blank">Xの投稿(govin.eth)</a></div>
+</article>
+<article class="card" data-co="Google">
+<div class="meta"><span class="co">Google</span><span class="kind">新モデル</span><span>2026-11-18</span><span class="cf cf-公式">公式</span></div>
+<h2>Gemini 4 Neon が登場(Googleの新モデル)</h2><p class="en">Introducing Gemini 4 Neon</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>Googleの発表(公式)より:「Gemini 4 Neon を発表します。ソフトウェア開発・知的業務・科学の複雑な仕事を、最前線の知能で、素早く最後までやり遂げます。Artificial Analysis(外部の評価機関)の知能指数で、最大の思考設定のとき61点で全体3位、Vals指数では2位です。作業の途中で人が直しを入れても素直に対応でき、でたらめ(作り話)の割合も、Googleの社内テストで過去最低だとしています。価格は入力100万トークン3ドル(キャッシュ入力0.15ドル)、出力15ドル、一度に扱える長さは100万トークンです。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>Googleの新しい主力モデルです。表計算・PDF・グラフ・音声・動画をまとめて読んで、報告書のような成果物にする仕事や、長いプログラム開発が得意とされています。順位や点数はGoogleが公式ページで紹介した外部評価の結果(一部はGoogleの社内テスト)です。同じ週に、世界モデル『Genie 4』(Google AI Ultra契約者向け)と、検索への『Gemini 4 Hydrogen』導入も発表されています。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>開発者: Google AI Studio の Gemini API で使える(公式: 今日から順次提供)</li><li>企業: 『Gemini for business』(API とモデル選択画面)</li><li>個人: Gemini アプリで、Pro・Ultra の有料契約者が使える</li><li>プログラミング: Google Antigravity で、有料の AI Pro・Ultra 契約者が使える</li><li>価格は公式によれば、入力100万トークン3ドル、出力15ドル</li></ol><p class="note">提供は順次です。使えるかどうかは契約と地域で変わります。公式ページで確認してください。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/" rel="noopener" target="_blank">Google公式発表(2026/11/18)</a></div>
+</article>
+<article class="card" data-co="OpenAI">
+<div class="meta"><span class="co">OpenAI</span><span class="kind">新モデル</span><span>2026-11-17</span><span class="cf cf-公式">公式</span></div>
+<h2>GPT-6.2 Astra と Sol が登場(OpenAIの新モデル2つ)</h2><p class="en">Introducing GPT-6.2 Astra and Sol</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>OpenAIの発表(公式)より:「最も難しい仕事向けの最上位モデル GPT-6.2 Astra と、日常の仕事向けで効率のよい GPT-6.2 Sol を発表します。どちらも少ない出力量でより良い結果を出すので、利用枠の中でより多くの仕事ができます。Astraが作るスライド・表・文書は、AIっぽさが減り、指定したテンプレートや各分野の慣習により近づきます。より整ったコードと、見た目・動きのよい画面(特にウェブサイト、ゲーム、3Dデザイン)も作れます。GPT-6.2 Sol は GPT-6.1 Sol より賢く効率的で、同じ有料プランでより多くの作業ができます。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>OpenAIの新しい2本立てです。Astraは難しい専門業務向け、Solは普段使い向けで、公式によればAPIの料金はAstraが前の版(GPT-6 Astra)より入力・出力とも20%安く、Solは据え置きです。OpenAI自身の比較では、仕事の総合テストでAnthropicのFable 5.2を上回るとしていますが、これはOpenAIが自社で出した数字で、第三者の確認はまだです(公式ページにも、比較相手の結果の扱いについての注記があります)。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>ChatGPTの Plus・Pro・Enterprise・Edu の利用者は、公式によれば『ChatGPT Work』とCodexで今日から使える</li><li>企業・学校向けは、管理者が有効にしてから使える</li><li>開発者はOpenAI APIで gpt-6.2-astra または gpt-6.2-sol を指定する</li><li>API料金(100万トークンあたり)は公式によれば、Astraが入力8ドル・キャッシュ入力0.40ドル・出力40ドル、Solが入力2ドル・キャッシュ入力0.10ドル・出力10ドル</li><li>コスト節約のため、公式は『指示の前半は変えず、新しい指示は後ろに足す』ことをすすめている</li></ol><p class="note">料金・使える範囲は変わることがあります。公式ページで最新を確認してください。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://openai.com/index/introducing-gpt-6-2-astra-sol/" rel="noopener" target="_blank">OpenAI公式発表(2026/11/17)</a></div>
+</article>
+<article class="card" data-co="DeepSeek">
+<div class="meta"><span class="co">DeepSeek</span><span class="kind">新機能</span><span>2026-11-13</span><span class="cf cf-公式">公式</span></div>
+<h2>DeepSeekが、アプリと同じ機能(検索・ファイル読み込みなど)をAPIで開放</h2><p class="en">Releasing the full suite of application APIs (DeepSeek change log)</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>DeepSeek APIの更新履歴(公式、2026/11/13)より:「アプリケーション向けAPI一式を公開します。DeepSeekのアプリ(ウェブ版を含む)では、ウェブ検索・ファイル入力・URL読み込み・音声対話・安全対策が、モデルの推論と一緒に働いて、みなさんの知る会話体験を作っています。今日、これらの機能を開発者に開放します。既存のAPIで該当のパラメータを有効にすると、道具の呼び出しや文脈の組み立てはサービス側が行います。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>自分でAIアプリを作る開発者向けの更新です。deepseek-flash というモデルで、(1)ウェブ検索(出典つきで答える)、(2)深く考えながら複数回検索、(3)PDFやOfficeファイル・画像の読み込み、(4)URLの中身を読んで答える、(5)危険な入出力のチェック、ができるとされています。音声の文字起こし・読み上げは単独のAPIとしても使えます。新しいモデルの発表ではなく、機能の追加です。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>DeepSeek APIの既存のAPI(Messages・Responses・Chat Completions)で、対応するパラメータを有効にする(公式)</li><li>ウェブ検索は、思考をオフにして deepseek_web_search ツールを有効にする。深い検索は思考をオンにして同じツールを有効にする(公式)</li><li>URL読み込みは deepseek_read_url ツールを有効にする(公式)</li><li>一般向けにサービスを出す場合は、安全チェックのパラメータを有効にし、内容審査などの義務を果たすよう公式が求めている</li></ol><p class="note">詳しい使い方は、公式の更新履歴ページのガイドを参照してください。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://api-docs.deepseek.com/updates" rel="noopener" target="_blank">DeepSeek API 更新履歴(2026/11/13)</a></div>
+</article>
+<article class="card" data-co="Anthropic">
+<div class="meta"><span class="co">Anthropic</span><span class="kind">新モデル</span><span>2026-11-09</span><span class="cf cf-公式">公式</span></div>
+<h2>Claude Fable 5.2 と Mythos 5.2 が登場(Anthropicの新モデル)</h2><p class="en">Introducing Claude Fable 5.2 and Claude Mythos 5.2</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>Anthropicの発表(公式)より:「最も難しい技術的課題に挑むためのモデル、Claude FableとClaude Mythosを更新しました。5.2はコーディング・推論・画像の理解などが良くなっています。FableとMythosは同じ土台のモデルで、Fableはサイバーとバイオの悪用を防ぐ安全装置が強く、全ユーザーに提供できます。サイバーや生命科学の研究機関は、審査つきのプログラムでMythosの利用を申請できます。5.1より出力が最大30%速く、価格は下がり、入力100万トークン8ドル・出力100万トークン40ドルです。速度を最大2.5倍にする『高速モード』(入力16ドル・出力80ドル)も任意で使えます。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>AnthropicのいちばんCapableなモデルの新版です。公式の比較表では、プログラミングの課題(FrontierCode 2.0)で前の版5.1の32.4%から49.1%、ロボット関連の評価で27.6%から64.9%に上がっています(いずれもAnthropic自身の測定)。ただし公式は、ふだんの仕事ではまずOpus 5.5から始め、足りなければFable/Mythosに上げる使い方をすすめています。Fable 5.2は、小さいモデルが相談する『助言役』や、軽い作業を任せる『まとめ役』にも使えます。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>Claude Platform(開発者向け)で、モデル名 claude-fable-5-2 を指定する</li><li>AWS・Google Cloud・Microsoft Azure でも使える(公式の記載)</li><li>Claudeの有料プランの人は、公式の発表によるとFableの追加利用枠がもらえる(内容はプランと契約期間による。公式の案内ページで確認)</li><li>まず日常の仕事はOpus 5.5で試し、難しい作業だけFable 5.2に上げる(公式のおすすめ)</li><li>Mythos 5.2は、サイバー・生命科学の審査プログラムに申請した組織だけ</li></ol><p class="note">価格・利用枠は変わることがあります。公式ページで最新を確認してください。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://www.anthropic.com/claude-fable-and-mythos-5-2" rel="noopener" target="_blank">Anthropic公式発表(2026/11/9)</a></div>
+</article>
+<article class="card" data-co="Mistral">
+<div class="meta"><span class="co">Mistral</span><span class="kind">新モデル</span><span>2026-10-29</span><span class="cf cf-公式">公式</span></div>
+<h2>Mistral Large 4(愛称 Le Chonk)の中身(重み)が公開された</h2><p class="en">Mistral Large 4 (Le Chonk) is now open weight</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>Mistralの発表(公式)より:「Le Chonk の重みを公開します。エージェント型のコーディングとサイバーセキュリティで、オープンモデルの最前線を押し上げます。今月初め、1兆パラメータ・画像も扱える主力モデル Mistral Large 4 を公開プレビューで出しました。反応は期待以上でした。その後も強化学習を続け、コーディングと防御のサイバーセキュリティが大きく向上しました。今日、その改良版の重みを公開します。思考の効率も上がり、推論のコストが下がります。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>『重みの公開』とは、モデルの中身をダウンロードして自分のサーバーで動かせるようにすることです。Mistralは、コーディングで公開モデルの中では最高だと述べ、Cognition社のテスト(FrontierCode 2.0)で19.7%と首位としています(Mistral自身の紹介)。ヨーロッパで一から学習したため、『出どころがはっきりした自前AI』を求める企業・国向けだと説明しています。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>手軽に試す: Mistral Studio、Mistral API、またはOpenRouterで使える(公式)</li><li>自分で動かす: Hugging Faceから重みをダウンロードし、vLLMまたはSGLangで動かす(公式)</li><li>コード作業: 『Vibe Code』で、機能追加やバグ修正を任せて試せる(公式)</li><li>ライセンスは『Mistral Ecosystem Open-Weight』(改変MIT)。自由に使えるが、AIをサービスとして他社に提供する事業者は別の商用ライセンスが必要(公式)</li></ol><p class="note">1兆パラメータの大きなモデルなので、自前で動かすには大きな計算機が要ります(これは一般的な目安で、公式の記載ではありません)。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://mistral.ai/news/mistral-large-4-oss/" rel="noopener" target="_blank">Mistral公式発表(2026/10/29)</a></div>
+</article>
+<article class="card" data-co="xAI(SpaceXAI)">
+<div class="meta"><span class="co">xAI(SpaceXAI)</span><span class="kind">新モデル</span><span>2026-09-21</span><span class="cf cf-公式">公式</span></div>
+<h2>Grok 4.7 が登場(SpaceXAIの最新の主力モデル。APIの公式リリースノート)</h2><p class="en">Grok 4.7 (xAI API release notes)</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>APIの公式リリースノートより(9月21日):「Grok 4.7 は、コーディング・エージェント作業・知的業務向けの、SpaceXSIの最先端モデルで、xAI APIで grok-4.7 として使えるようになりました。一度に扱える長さは50万トークン。入力は文章と画像、出力は文章のみで、出力の長さに上限はありません。料金は100万トークンあたり、20万トークン未満の入力で 入力2ドル/キャッシュ入力0.50ドル/出力6ドル、それ以上は 4ドル/1ドル/12ドル。思考の深さは low・medium・high(標準)・xhigh から選べます。『Grok 4.7 Fast』は同じモデルで、料金が2倍(長い入力は1.5倍)で、CursorとGrok Buildでだけ使えます。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>Grok 4.6(8月)の次の主力モデルで、2026年11月時点でxAIのAPIの『最新モデル』として公式ドキュメントに載っているものです。発表日は9月21日で、今月の発表ではありません。公式ページでは性能の比較表までは確認できていません(読めたのはリリースノートと使い方のページ)。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>すでにAPIキーがある人は、モデル名を grok-4.7 にするだけ(公式の例: Responses API、OpenAI互換のコードで baseURL を https://api.x.ai/v1 にする)</li><li>キーがない人は、docs.x.ai の『Create API key』から作る</li><li>思考の深さは reasoning effort(low〜xhigh)で調整できる</li><li>Fast版はCursorとGrok Buildの中でだけ使える(公開APIにはない)</li></ol><p class="note">非エンジニアの方は、CursorなどのGrokが選べる道具から試すのが近道です(これは一般的な案内で、公式の記載ではありません)。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://docs.x.ai/release-notes" rel="noopener" target="_blank">xAI APIリリースノート(2026/9/21の項)</a><a href="https://docs.x.ai/developers/grok-4-7" rel="noopener" target="_blank">Grok 4.7 公式の使い方ページ</a></div>
+</article>
+<article class="card" data-co="xAI(SpaceXAI)">
+<div class="meta"><span class="co">xAI(SpaceXAI)</span><span class="kind">新モデル</span><span>2026-08-12</span><span class="cf cf-報道">報道</span></div>
+<h2>Grok 4.6 が登場(SpaceXAI=旧xAIの主力モデル。報道ベース)</h2><p class="en">SpaceXAI releases flagship Grok 4.6 model with advanced reasoning capabilities (SiliconANGLE)</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>SiliconANGLEの報道より:「SpaceXAIは本日、大規模言語モデル Grok 4.6 を公開しました。同社は、一部の分野ではAnthropicの Claude Fable 5 を上回ると述べています。同社は先月までxAIという名前で、SpaceXによる買収に合わせて社名を変えました。Grok 4.6 は、前の主力モデルの公開から1か月後に出ました。主な改良点は、前のモデルより学習に時間をかけたことです。AIが作ったデータで推論力を高め、質の高い『エンジニアリングのデータ』も与えました。そのあと、教師あり微調整と強化学習の2段階を行っています。」</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>報道によれば、外部評価(Artificial Analysis 知能指数)で61点。OpenAIのGPT-5.6 Solと並び、Claude Fable 5の1点下です。高い水準の説明から試作品(ソフトのひな形)を作るのが得意で、画面などの見た目の部品づくりや、長い作業の途中で自分の誤りを確かめる動きも改善したとされます。数字や比較は、SpaceXAI自身の説明を報道が伝えたものです。公式サイト(x.ai)は読めないため、公式の確認はまだです。なお2026年8月の発表で、その後に新しい主力モデルが出ているかは未確認です。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>報道によれば、Cursorと、SpaceXAI自作のプログラミング道具『Grok Build』で使える</li><li>標準版の料金は、報道によれば入力100万トークン2ドル・出力6ドル。2倍の料金の高速版もある</li><li>APIで使う場合の正確なモデル名・料金は、公式のリリースノート(docs.x.ai)で確認が必要(今は読めないため未確認)</li></ol><p class="note">報道ベースのため、料金・提供範囲は公式で確かめてから使ってください。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://siliconangle.com/2026/08/12/spacexai-releases-flagship-grok-4-6-model-advanced-reasoning-capabilities/" rel="noopener" target="_blank">SiliconANGLE(2026/8/12)</a></div>
+</article>
+</div>
+<p class="foot">訳と解説はAIが作ったものです。「公式」は公式の告知・ページで確かめたもの、「報道」は報道ベースです。やり方は元の出典に書かれている範囲だけを載せています。料金・提供地域は変わるので、必ず元の出典で確かめてください。<br><a href="../index.html" style="color:var(--accent)">← AI企業の相関図へ</a></p>
+</div>
+<script>
+document.getElementById('mk').onclick=function(){var v=document.getElementById('pin').value.trim(),o=document.getElementById('out');if(!v)return;
+var t='次のXの投稿(AI関連)を、(1)日本語に訳す (2)何がすごいか・何ができるかを非エンジニア向けに解説 (3)試し方・使い方を、元の出典に書かれている範囲だけで説明、の順で答えてください。確かめられないことは「未確認」と書いてください。
+
+'+v;
+o.hidden=false;o.textContent=t;try{navigator.clipboard.writeText(t)}catch(e){}};
+(function(){var cs=[].slice.call(document.querySelectorAll('.card')),bar=document.getElementById('bar'),cos=['すべて'];
+cs.forEach(function(c){var n=c.dataset.co;if(cos.indexOf(n)<0)cos.push(n)});
+cos.forEach(function(n,i){var b=document.createElement('button');b.textContent=n;b.setAttribute('aria-pressed',i==0);
+b.onclick=function(){[].forEach.call(bar.children,function(x){x.setAttribute('aria-pressed',x===b)});cs.forEach(function(c){c.hidden=!(i==0||c.dataset.co==n)})};bar.appendChild(b)})})();
+</script></body></html>
