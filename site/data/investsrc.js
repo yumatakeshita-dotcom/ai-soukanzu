@@ -79,6 +79,8 @@ const INVSRC=[
  ['Lightspeed','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
  ['Nvidia','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
  ['Sequoia Capital','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['SpaceX','Cursor (Anysphere)',['v_sxcur1','v_sxcur2'],'買収の合併契約(2026/6/16)と完了(2026/8/14)をSEC 8-Kで確認','2026/11/22'],
+ ['BlackRock','Meta',['v_metaproxy'],'5%超の株主(クラスA株の7.2%)をMeta株主総会の招集通知で確認','2026/11/22'],
  /*MONEY_SRC_START*/
   ['Crosspoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
  ['Forgepoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
