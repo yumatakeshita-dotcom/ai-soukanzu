@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Vertex Ventures SEA & India・Vertex Growth(共同リード)",
+   "to": "Acrab(シンガポール、AIチップ・エッジAI)",
+   "kind": "出資",
+   "amount": "シリーズBで1億3000万ドル(累計4.8億ドル超)",
+   "date": "2026-08-06",
+   "region": "シンガポール",
+   "backfill": true,
+   "note": "出資した側のVertex Holdings公式ページ(2026-08-13)の本文を、PCのブラウザで開いて確認。リード2社・金額・累計額が一致。DealStreetAsiaは見出し・日付・記者名(2026-08-06)まで確認したが、本文は会員向けで読んでいない(ログインはしていない)",
+   "src": [
+    [
+     "Vertex Holdings(出資者の公式ページ、2026-08-13)",
+     "https://vertexholdings.com/news/acrab-s-us-130m-series-b-signals-a-bet-on-edge-ai-infrastructure/"
+    ],
+    [
+     "DealStreetAsia(2026-08-06、見出しと日付のみ)",
+     "https://www.dealstreetasia.com/stories/ai-startup-acrab-raises-130m-in-vertex-backed-series-b-funding-491373"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "PCのブラウザ(読むだけ・ログインなし)での確かめ。Acrabのみ追加。2026-06-17の累計3.5億ドルは別の公表で、今回の4.8億ドル超とは時点が違う"
+}

@@ -1,4 +1,21 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style><!--SEO:START-->
+<meta name="description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<link rel="canonical" href="https://kigyo-relmap.yuma-takeshita.workers.dev/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI企業の相関図">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="AI企業の相関図">
+<meta property="og:description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<meta property="og:url" content="https://kigyo-relmap.yuma-takeshita.workers.dev/">
+<meta property="og:image" content="https://kigyo-relmap.yuma-takeshita.workers.dev/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI企業の相関図">
+<meta name="twitter:description" content="OpenAI・Anthropic・NVIDIA・TSMCなど、AI企業・半導体企業の人・出資・取引・移籍のつながりを、出典つきで見られる相関図。毎朝更新。">
+<meta name="twitter:image" content="https://kigyo-relmap.yuma-takeshita.workers.dev/og.png">
+<!--SEO:END-->
+</head><body>
 
 
 
@@ -35779,8 +35796,10 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-20';
+const LAST_CHECK='2026-11-21';
 const UPDATES=[
+ {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
+ {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
  {d:'2026-11-18',co:['anthropic'],t:'Anthropicの上場価格は1株83ドルで想定の上限を上回ったと報道。調達は約685億ドル、19日にナスダックで取引開始',src:['CNBC(2026-11-18)','https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html']},
  {d:'2026-11-18',co:['anthropic','xai'],t:'Anthropicの上場の届け出書(S-1訂正3)から、売上(2026年1〜9月で332億ドル)、計算資源の契約(合計約9,009億ドル。SpaceXAIに最大1,205億ドルなど)、Amazon・Googleの持ち分を追加',cf:'開示',src:['Anthropic S-1訂正3(SEC、2026-11-17)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm']},
@@ -38780,7 +38799,7 @@ qEl.addEventListener('keydown',ev=>{
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
 /* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面 ===== */
-const BUILT='2026-11-13 17:57';
+const BUILT='2026-11-21 12:04';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
@@ -38809,7 +38828,7 @@ function showHome(){
     ['jp','日本の企業価値','上場企業と未上場ユニコーン'],
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
-  const news=RELNEWS.slice(0,6);
+  const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>

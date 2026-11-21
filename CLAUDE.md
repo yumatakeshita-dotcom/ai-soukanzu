@@ -58,6 +58,8 @@ docs/                 移行メモなど
   - 2026/11/20: NVIDIAを追加(CEO交代の3件だけ。公式発表で確かめたもの)。足し方は同じ(`EXECTL` に `nvidia:` を足す)
   - 2026/11/20: xAI(SpaceX傘下)とGoogle DeepMindを追加(`EXECTL` の `xai` `gdm`。この2社には上場の線がない)。`exectl_auto.py` の `COMPANIES` にも足した
   - 2026/11/19: Anthropicを追加(画面の「会社」で切り替え)。毎朝の移籍の調査(inbox/moves/)から、OpenAI・Anthropicの幹部の動きを `scripts/exectl_auto.py` が `site/data/finds.js` の3行目(`EXECTL_AUTO`)に自動で足す(画面では「自動で追加」の印)。`scripts/merge_inbox.py` の最後に動くので、毎朝9:13の「調査の新着」の定期タスクで更新される。手で書いた年表に同じ人の前後1か月の行があれば足さない。この3行目は手で直さない(直したいものは exectl.js に手で書く)
+- 報道サイトの読める・読めない一覧(2026/11/21): `docs/news_sources.md`。許可リストにドメインを足したら、本文が読めるか試してここに足す。読める英語の報道4サイトは `scripts/fetch_relnews.py` の毎朝のニュース集めにも入れた
+- 共有カード・検索用の meta(2026/11/20追加): `scripts/seo.py` が各ページの `<head>` に description・OGP(`<!--SEO:START-->〜`<!--SEO:END-->` の間)を入れ、`site/sitemap.xml` と `site/robots.txt` を作る。公開URLは `scripts/seo_config.json` の `base_url` 1か所(独自ドメインにしたら書き換えて `python3 scripts/seo.py`)。何度動かしても同じ。`npm run check` が印の有無を確かめ、`build-lab` と `weekly.py` の最後にも自動で動く。毎朝の更新で印が消えたら `python3 scripts/seo.py` で戻る。共有画像は `site/og.png`(`python3 scripts/make_og.py` で作り直す)。ページを足したら seo_config.json の `pages` にも足す
 - 調査の新着(メニュー「調査の新着」): `site/data/finds.js`。毎朝9:13の定期タスクが `python3 scripts/merge_inbox.py` で inbox/ から足す(足すだけ・重複なし)。手で消さない
   - 同じファイルの2行目 `FINDLINKS` は、候補を相関図の人物・会社・線として出すためのもの(`scripts/finds_map.py` が inbox/ から作る)。どの会社の図に付けるかは index.html の `applyFinds` が名前で照らして決める。既存の人物・線は書き換えない
 - 確かさの印(公式・開示・本人・報道・推定。2026/11/18追加): index.html の `// ===== 確かさの印` の部分。線や数字の出典から自動で決まり、画面の「確かさ」で絞り込める
@@ -78,13 +80,19 @@ docs/                 移行メモなど
   - 本人のXで確かめた移籍に「本人」の印を足す(2026/11/20から): `python3 scripts/moves_x_apply.py` が inbox/moves/ の候補(confidence が「本人の発言」「公式」)の出典にある本人のXの投稿・プロフィールを、X公式の埋め込みで実際に開いて確かめる(投稿者の名前が出典と同じ・表示名が英語名と合う・プロフィールなら自己紹介に移籍先がある)。`--apply` を付けると、確かめられたものだけ index.html の `/*XV_DS_START*/〜/*XV_DS_END*/`(出典)と `/*XV_PPL_START*/〜/*XV_PPL_END*/`(`VERIFY_PPL`)の間に足す(足すだけ。すでにある人は飛ばす)。確かめられなかったものは理由つきで表示するだけで、足さない。`selfPost` は出典が x.com なら確かめずに「本人」にするので、確かめられなかった表示が出たら、その出典が本人のものか見直す
   - 調査タスクの `confidence` は「公式」「開示」「報道」「本人の発言」「推定」のどれか。開示=法定の書類(SEC・EDINET・決算資料)、推定=自分や他社の推定・試算の数字
 
+- 毎日のYouTube確認(2026/11/21追加): `inbox/youtube_channels.txt` の21チャンネルを `scripts/yt_daily.py` が公式RSSで必ず見て、新着を `inbox/youtube/日付.json` に足す。`yt_fetch.py --retry-queue` を呼ぶと一緒に動く。見られなかった理由も記録して翌日また見る。ポッドキャスト(`inbox/podcast_feeds.txt`、`scripts/pod_daily.py`)と、動画・番組の手がかりのまとめ(`scripts/media_digest.py` → `inbox/media/`)も同じ回で動く。Geminiの調査には手がかりのタイトルを渡す。くわしくは `docs/youtube_daily.md`
 - Gemini API で新しいつながりを調べる試作(2026/11/19追加): `scripts/gemini_research.py` と MCP サーバー `scripts/gemini_mcp.py`(`.mcp.json`)。結果は `inbox/gemini/` に足すだけ(サイトには自動で出ない)。キーは環境変数 `GEMINI_API_KEY`。くわしくは `docs/gemini_research.md`
   - 毎朝8:23の定期タスク「Gemini調査(確かめつき) 毎日」が `python3 scripts/gemini_research.py daily` を動かし、`scripts/gemini_verify.py` で出典URL(実際に開く)・重なり・日付・確かさを確かめる(2026/11/19追加)。合格したものだけ `inbox/money/日付-gemini.json`・`inbox/moves/日付-gemini.json` に足し、9:13の「調査の新着」がサイトに出す。Geminiが書いたURLは作り話が多いので、確かめを通らないものは相関図に入れない
   - 調べ方の履歴(2026/11/20追加): Geminiが打った検索の言葉・見たページ・候補を日付ごとに `inbox/gemini/README.md` と `inbox/gemini/history.html` にまとめる(`scripts/gemini_history.py`。調査のたびに自動)。共有リンクにも公開。くわしくは `docs/gemini_research.md`
+- 宿題リストと見張り役(2026/11/20追加): `inbox/queue.json`(調べる順番。`scripts/research_queue.py`)を毎朝のGemini調査が先頭から1件ずつ調べる。`scripts/watchdog.py` が毎朝の作業の止まりを検知して `inbox/watchdog/` に記録する。くわしくは `docs/gemini_research.md`
+- 重要度ランキング(2026/11/21追加): `python3 scripts/importance_rank.py` が、人物は日本語名と英語名(本体の図・人物カード・移籍調査から集める)の両方で数え、つながりの数・直近90日の動き・ニュース見出しの数から会社・人物の重要度を計算し、`inbox/ranking/`(latest.json・latest.md・日付.json)に足す。閲覧数の計測はサイトに無いため。`scripts/research_queue.py build` が上位25社を宿題リストに足す(種類「重要」、優先度10、順位の順)。株主名簿の名義(信託口など)と運用会社は外している。画面(サイト)にはまだ出していない。別に、メニュー「人材の流れ」(`site/data/flowrank.js`)は人の移籍の流入・流出のランキングで、こちらは別物
 - 幹部の年表に Nvidia を追加(2026/11/19)。SECの臨時報告書(8-K)から取締役・経営陣の入れ替わり12件。`scripts/exectl_auto.py` も Nvidia を対象にした
 - xAI(SpaceXSI)の「モデル・製品の年表」と「Colossusの貸し借り」(2026/11/18追加): index.html の `// ===== 製品とモデルの年表` と `// ===== Colossusの貸し借り` の部分(`PRODTL` `COLOSSUS`)。会社の図の概要に出る。公式発表・開示で確かめたものを足すだけ
 - 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Anthropic・Perplexity・Nvidia・Microsoftなどの新しい提出書類(未上場の会社は資金調達の届け出 Form D も)を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
+- 決算資料・適時開示(IR)ウォッチ(2026/11/21追加): `python3 scripts/ir_watch.py` が日本(TDnet)・香港(HKEX)・シンガポール(SGX)の新着開示から、相関図にある会社の出資・買収・役員人事を拾い、PDFを開いて確かめたものだけ `inbox/ir/` に足す(買収・出資で相手が確実にとれたものは `inbox/money/日付-ir.json` にも)。SGXは取引所側が自動の取得を断るため今は読めない。くわしくは `docs/ir_watch.md`
 - AI計算資源の契約まとめ(1枚資料、2026/11/18作成・11/19第2版): `docs/compute_deals_2026-11.html`。共有リンク https://claude.ai/artifact/Cs3yFwHEieKF4AhvAn18bu 。「上場の条件」(Anthropicの上場。1株83ドルは2026/11/18の S-1MEF で開示を確認。424B4 が出たら株数・金額を確かめ直す)と「開示ウォッチの新着」(`<!-- WATCH_START -->`〜`<!-- WATCH_END -->`)がある。新着は `python3 scripts/compute_brief.py` が inbox/disclosures/ から足す(足すだけ)。毎週火曜10:53の定期タスク「計算資源の1枚資料を更新 毎週」が実行して公開し直す
+
+- 法的ページのひな形(2026/11/20追加): `site/legal/`(利用規約・プライバシーポリシー・特商法表記・お問い合わせ/訂正・削除)。`python3 scripts/legal.py` が `scripts/legal_config.json` から作る(何度動かしても同じ結果)。**ひな形・未確認**で、専門家の確認が済むまで `show_footer_links` は false のまま(各ページのフッターにリンクが出ない・noindex)。確認後に true にして `python3 scripts/legal.py`。フッターは各ページ末尾の `<!--LEGAL:START-->〜<!--LEGAL:END-->` の間だけ(毎朝の更新で消えたら legal.py を再実行)。空欄の項目はページ上で【要記入】の印のまま出る。`weekly.py` と `build-lab` の最後にも自動で動く
 
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない

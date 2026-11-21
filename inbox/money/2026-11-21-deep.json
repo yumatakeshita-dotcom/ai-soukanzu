@@ -1,0 +1,54 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Thrive Capital・Founders Fund・Lightspeed・Redpoint(主導)",
+   "to": "Fractile",
+   "kind": "出資",
+   "amount": "$720M(Series C。評価額は約$70億と報道、会社は未確認。英国政府は「50億ポンド超」と発表)",
+   "date": "2026-11-11",
+   "region": "英国",
+   "backfill": true,
+   "note": "英国のAI推論用半導体Fractile。2026/11/11発表。CapitalG・DST・BlackRock・Bain Capital Ventures・T. Rowe Priceも参加との報道。Companies Houseの10月の書類では約7.7億ドル分の株が出ており、発表額より多い点は報道間で差あり。報道ベース。20VCの過去動画の一覧(タイトル)から探し、別の報道で確認。記事の本文は開けず、検索結果の要約が一致した範囲のみ",
+   "video": "https://www.youtube.com/watch?v=UZ8eYaAf08M",
+   "src": [
+    [
+     "SiliconANGLE(2026/11/11)",
+     "https://siliconangle.com/2026/11/11/inference-chip-developer-fractile-raises-720m-in-funding/"
+    ],
+    [
+     "Startup Rise(2026/11)",
+     "https://startuprise.co.uk/fractile-raises-e649mn/"
+    ],
+    [
+     "Value Add VC(2026/11)",
+     "https://valueaddvc.com/pulse/fractile-720m-series-c-7b-valuation-thrive-2026"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Elon Musk",
+   "to": "Skydance",
+   "kind": "出資",
+   "amount": "約$10億(個人かSpaceX経由かは未公表)",
+   "date": "2026-10-22",
+   "region": "米国",
+   "backfill": true,
+   "note": "2026/10/22にSemaforが最初に報じ、CNBC・ロイターが関係者の話として続報。Skydance側はコメントせず、条件・持分は未公表。PIVOTの動画(2026/11)のタイトルから探し、別の報道で確認。報道ベース",
+   "src": [
+    [
+     "Semafor(2026/10/22)",
+     "https://www.semafor.com/article/10/22/2026/elon-musk-makes-1-billion-investment-in-ellisons-skydance"
+    ],
+    [
+     "TheWrap(2026/10)",
+     "https://www.thewrap.com/industry-news/tech/elon-musk-skydance-1-billion-investment/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "YouTubeの過去100本の一覧(yt_deep.py)から。AMD×World Labs・DoorDash×Instacart・Bessemer新ファンドは報道で確認したが、前者は相関図に既存、後2つはAI企業の線でないため入れない。NvidiaのReflection『300億ドル』は協議の報道のみで取引は確認できず除外"
+}
