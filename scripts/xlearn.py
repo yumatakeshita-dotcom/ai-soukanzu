@@ -85,7 +85,7 @@ def card(it):
     steps = ''.join(f'<li>{esc(x)}</li>' for x in it['howto'])
     note = f'<p class="note">{esc(it["howto_note"])}</p>' if it.get('howto_note') else ''
     return f'''<article class="card" data-co="{esc(it['company'])}">
-<div class="meta"><span class="co">{esc(it['company'])}</span><span>{esc(it['date'])}</span><span class="cf cf-{esc(it['confidence'])}">{esc(it['confidence'])}</span></div>
+<div class="meta"><span class="co">{esc(it['company'])}</span>{('<span class="kind">'+esc(it['kind'])+'</span>') if it.get('kind') else ''}<span>{esc(it['date'])}</span><span class="cf cf-{esc(it['confidence'])}">{esc(it['confidence'])}</span></div>
 <h2>{esc(it['title_ja'])}</h2><p class="en">{esc(it['title_en'])}</p>
 <details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>{esc(it['translation_ja'])}</blockquote></details>
 <details open><summary>何ができる?(解説)</summary><p>{esc(it['what_ja'])}</p></details>
@@ -107,7 +107,7 @@ h1{margin:0;font-size:24px}.lead{color:var(--muted);margin:0;font-size:14px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:8px;overflow-wrap:anywhere}
 .card h2{margin:0;font-size:18px}.en{margin:0;color:var(--muted);font-size:13px}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;color:var(--muted)}.co{font-weight:700;color:var(--fg)}
-.cf{border:1px solid currentColor;border-radius:99px;padding:0 8px}.cf-公式{color:var(--official)}.cf-報道{color:var(--report)}
+.kind{background:var(--accent);color:#fff;border-radius:6px;padding:0 6px}.cf{border:1px solid currentColor;border-radius:99px;padding:0 8px}.cf-公式{color:var(--official)}.cf-報道{color:var(--report)}
 summary{cursor:pointer;font-weight:700;font-size:14px;color:var(--accent)}details p,details ol,blockquote{margin:6px 0 0}
 blockquote{border-left:3px solid var(--line);padding-left:12px;color:var(--fg)}ol{padding-left:22px}
 .note{color:var(--muted);font-size:13px}.src{font-size:13px;color:var(--muted)}.src a{color:var(--accent);margin-right:10px}
