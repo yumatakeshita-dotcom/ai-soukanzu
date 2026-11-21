@@ -33,6 +33,8 @@ SCHEDULE = [
     ('世界企業調査(world)', (7, 30), (2,), 'inbox/world', ''),
     ('深堀り調査(deep)', (7, 41), (4,), 'inbox/deep', ''),
     ('薄いところ調査(moves _thin)', (7, 38), (5,), 'inbox/moves', '_thin'),
+    ('YouTube確認(youtube)', (7, 26), None, 'inbox/youtube', ''),
+    ('ポッドキャスト確認(podcasts)', (7, 26), None, 'inbox/podcasts', ''),
     ('Gemini調査(gemini)', (8, 23), None, 'inbox/gemini', ''),
     ('開示ウォッチ(disclosures)', (10, 19), (1,), 'inbox/disclosures', ''),
     ('報道だけの数字の確かめ直し(verify)', (10, 23), (6,), 'inbox/verify', ''),
@@ -122,6 +124,13 @@ def evaluate(now):
                 rows.append(('時刻前', f'{tag} {name}', f'{hm[0]}:{hm[1]:02d}の予定。まだ確かめません'))
                 continue
             fs = files_for(folder, d, mark)
+            if not fs and folder == 'inbox/gemini':
+                # 2026/11/21追加: 朝のGemini調査は、ファイル名の日付がUTCのずれで前日になることがある。
+                # その日(日本時間)に Gemini を呼んだ記録(usage.jsonl)があれば、動いたとみなす
+                q = gemini_quota(d)
+                if q and (q[0] or q[1]):
+                    rows.append(('OK', f'{tag} {name}', f'ファイルの日付は前日になっているが、Geminiを呼んだ記録あり(成功 {q[0]}・枠切れ {q[1]})'))
+                    continue
             if not fs:
                 rows.append(('問題', f'{tag} {name}', f'{folder}/ に {d} のファイルが無い(動かなかったか、push されていない)'))
                 continue

@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "August AI",
+   "to": "Accel, Peak XV Partners, Claypond Capital",
+   "kind": "出資",
+   "amount": "$12M",
+   "date": "2026-11-20",
+   "note": "インド発のHealthTech企業、Series A資金調達(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "https://www.atpartners.co.jp/news/2026-11-20-article-c7e28aad3f",
+     "https://www.atpartners.co.jp/news/2026-11-20-article-c7e28aad3f"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "保留をやり直して、scripts/gemini_verify.py の確かめを通ったもの"
+}

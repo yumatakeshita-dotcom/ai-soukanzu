@@ -139,6 +139,7 @@ def main():
     ap.add_argument("--date", default="")
     ap.add_argument("--gap", type=int, default=10, help="動画の間に空ける秒数")
     ap.add_argument("--kind", default="money", help="記録先の inbox/ のフォルダ(money, moves など)")
+    ap.add_argument("--no-daily", action="store_true", help="--retry-queue のときの毎日のチャンネル確認(yt_daily.py)を止める")
     ap.add_argument("--no-queue", action="store_true", help="取れなくても yt_retry.txt に足さない")
     a = ap.parse_args()
     global QUEUE, DONE
@@ -147,6 +148,18 @@ def main():
     waits = [int(x) for x in a.waits.split(",") if x.strip()]
     os.makedirs(a.out, exist_ok=True)
     today = time.strftime("%Y-%m-%d")
+
+    if a.retry_queue and not a.no_daily:
+        # 2026/11/21: 毎日のYouTube確認を必ず通す(登録済みチャンネルの新着を公式RSSで見る)。
+        # 調査タスクは今までどおり --retry-queue を呼ぶだけで、ここで一緒に動く
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import yt_daily
+        print("[yt_daily] " + yt_daily.main(quiet=True) + "(新着は inbox/youtube/ の今日のJSONを見る。"
+              "調査の notes にこの1行を書く)", file=sys.stderr)
+        # ポッドキャストも同じ回で確認し、動画・番組の新着から移籍・出資の手がかりをまとめる(2026/11/21追加)
+        import pod_daily, media_digest
+        print("[pod_daily] " + pod_daily.main(quiet=True), file=sys.stderr)
+        print("[media_digest] " + media_digest.main() + "(inbox/media/ の今日の.mdを見て、出典を開いて確かめてから候補にする)", file=sys.stderr)
 
     jobs = [(v, a.channel, a.date, a.title) for v in a.ids]
     if a.retry_queue:
