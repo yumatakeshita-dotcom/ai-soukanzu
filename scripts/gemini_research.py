@@ -18,9 +18,10 @@
   python3 scripts/gemini_research.py status
   python3 scripts/gemini_research.py store [--dry-run]           # 資料をファイル検索ストアに入れる(1回でよい。足すだけ)
   python3 scripts/gemini_research.py research "テーマ" [--max 10] [--no-check] [--no-verify] [--dry-run]
-  python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ scripts/gemini_verify.py で確かめる(毎朝の定期タスク)
+  python3 scripts/gemini_research.py daily [--dry-run]           # 曜日ごとのテーマで調べ、すぐ確かめる。そのあと宿題リスト(inbox/queue.json)の先頭を1件(毎朝の定期タスク)
   python3 scripts/gemini_research.py usage                         # 使った回数を日ごとに数える(無料枠が足りるかの目安)
   python3 scripts/gemini_research.py retry                         # 枠切れで後回しにしたテーマをやり直す
+  python3 scripts/gemini_research.py limit                         # 今日の使った回数と1日の上限(inbox/gemini/limits.json)を見る
   python3 scripts/gemini_research.py verify inbox/gemini/日付.json   # 出典URLを開いて確かめ直す(日付_urlcheck.md を足す)
 """
 import argparse, datetime, glob, json, mimetypes, os, re, ssl, sys, time, unicodedata
@@ -47,7 +48,7 @@ def key():
 
 # 2026/11/19: 無料枠では Google検索つきの呼び出しが gemini-flash-latest などで 429(枠切れ)になり、
 # gemini-2.5-flash だけ通った。そのため既定は gemini-2.5-flash にし、429 のときは次の候補を順に試す。
-MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-2.5-pro']
+MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-3.1-pro-preview']
 _model_used = []
 
 
@@ -115,6 +116,21 @@ def known_names():
 
 
 # ---------- 1回目: Google検索で調べる ----------
+def media_leads(limit=12):
+    """動画・ポッドキャストの新着から作った手がかり(inbox/media/)のタイトルだけを渡す(2026/11/21追加)。"""
+    fs = sorted(glob.glob(os.path.join(ROOT, 'inbox', 'media', '2*.json')))
+    if not fs:
+        return ''
+    try:
+        leads = json.load(open(fs[-1], encoding='utf-8')).get('leads', [])[:limit]
+    except Exception:  # noqa: BLE001
+        return ''
+    if not leads:
+        return ''
+    rows = '\n'.join(f"- {l['published']} {l['source']}: {l['title'][:90]}" for l in leads)
+    return ('\n--- 最近の動画・ポッドキャストの題名(手がかり。ここから新しい事実を探してよいが、事実は必ず検索で別の出典を確かめる) ---\n' + rows + '\n')
+
+
 def build_prompt(topic, n):
     rng = read_doc('notebooklm-code/10_*.md')
     return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{datetime.date.today():%Y年%m月%d日}です。
@@ -133,6 +149,7 @@ def build_prompt(topic, n):
 答えは次の形のJSONだけを ```json と ``` で囲んで返す(説明文は不要):
 {{"items":[{{"会社名":"","関係":"出資/取引/提携/買収/移籍/就任/退任 など","相手":"","金額":"","日付":"","出典URL":"","出典名":"媒体名","確かさ":"報道","備考":"","人物":"(人の動きのときだけ)","役職":"","移籍元":"","移籍先":""}}]}}
 
+{media_leads()}
 --- すでにある範囲 ---
 {rng}
 """
@@ -194,15 +211,15 @@ def usage_report(log=print):
         try: e = json.loads(ln)
         except json.JSONDecodeError: continue
         d = datetime.datetime.fromisoformat(e['at']).astimezone(jst).strftime('%Y-%m-%d')
-        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'in': 0, 'out': 0, 'models': {}})
-        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy'}.get(e['result'])
+        x = days.setdefault(d, {'ok': 0, 'quota': 0, 'busy': 0, 'cap': 0, 'in': 0, 'out': 0, 'models': {}})
+        key = {'ok': 'ok', '429': 'quota', '503': 'busy', '500': 'busy', 'cap': 'cap'}.get(e['result'])
         if key: x[key] += 1
         if e['result'] == 'ok': x['models'][e['model']] = x['models'].get(e['model'], 0) + 1
         x['in'] += e.get('in') or 0; x['out'] += e.get('out') or 0
-    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 入力トークン | 出力トークン | モデル別の成功')
+    log('日付(日本時間) | 成功 | 枠切れ(429) | 混雑 | 上限で停止 | 入力トークン | 出力トークン | モデル別の成功')
     for d in sorted(days):
         x = days[d]
-        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
+        log(f'{d} | {x["ok"]} | {x["quota"]} | {x["busy"]} | {x["cap"]} | {x["in"]:,} | {x["out"]:,} | ' + ', '.join(f'{m}:{c}' for m, c in x['models'].items()))
     n = len(days); tot = sum(x['ok'] for x in days.values())
     log(f'\n{n}日間で成功 {tot}回(1日あたり {tot/n:.1f}回)。無料枠は検索つきで1モデル1日20回前後。枠切れ(429)が出る日が続くなら、有料への切り替えを検討(docs/gemini_research.md)')
     return days
@@ -211,13 +228,54 @@ def usage_report(log=print):
 class QuotaExhausted(RuntimeError):
     """全部のモデルで枠切れ(429)。無料枠の1日の上限に達したときなど。"""
 
+
+# ---------- 1日の上限(2026/11/20追加) ----------
+# inbox/gemini/limits.json の daily_max_calls(環境変数 GEMINI_DAILY_MAX があればそちら)を、1日(日本時間)の呼び出し回数の上限にする。
+# 上限に達したら Gemini を呼ばず QuotaExhausted にする。→ 今ある「枠切れ」の流れ(やり直す列・宿題リストは翌朝に同じ項目)にそのまま乗る。
+LIMITS = os.path.join(OUT_DIR, 'limits.json')
+DEFAULT_DAILY_MAX = 18  # 無料枠(検索つきで1モデル1日20回前後)の範囲内
+
+
+def daily_max():
+    try:
+        v = os.environ.get('GEMINI_DAILY_MAX')
+        if v not in (None, ''):
+            return int(v)
+        return int(json.load(open(LIMITS, encoding='utf-8')).get('daily_max_calls', DEFAULT_DAILY_MAX))
+    except Exception:
+        return DEFAULT_DAILY_MAX
+
+
+def calls_today():
+    """今日(日本時間)の呼び出し回数。上限に止められた記録(cap)は数えない。"""
+    if not os.path.exists(USAGE):
+        return 0
+    jst = datetime.timezone(datetime.timedelta(hours=9))
+    today = datetime.datetime.now(jst).date()
+    n = 0
+    for ln in open(USAGE, encoding='utf-8'):
+        try:
+            e = json.loads(ln)
+            if e.get('result') != 'cap' and datetime.datetime.fromisoformat(e['at']).astimezone(jst).date() == today:
+                n += 1
+        except Exception:
+            continue
+    return n
+
 BUSY_WAITS = [20, 60, 120]  # 2026/11/19: 混雑(503・500)のときは時間をおいてやり直す(秒)
 
 
 def gen(body):
+    cap = daily_max()
+    if cap > 0 and calls_today() >= cap:
+        usage_log('-', 'cap')  # 自分で決めた上限で止めた記録(回数には数えない)
+        raise QuotaExhausted(f'1日の上限 {cap} 回に達したため止めました(inbox/gemini/limits.json で変えられます)')
     last = None
     for m in models():
         for i in range(len(BUSY_WAITS) + 1):
+            if cap > 0 and calls_today() >= cap:  # やり直しの途中で上限に達したら、そこで止める
+                usage_log('-', 'cap')
+                raise QuotaExhausted(f'1日の上限 {cap} 回に達したため止めました')
             try:
                 r = http('POST', f'{API}/v1beta/models/{m}:generateContent', body)
                 _model_used.append(m)
@@ -593,7 +651,7 @@ DAILY_THEMES = [
     '直近3日の計算資源(GPU・データセンター・電力・メモリ)の大型契約と提携',
     '直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携',
     '直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業',
-    '直近3日のアジア(台湾・韓国・シンガポール・インド・中東)のAI企業の資金調達・提携・人の動き',
+    '直近3日のアジア(台湾・韓国・インド・中東と、東南アジアのシンガポール・インドネシア・ベトナム・タイ)のAI企業の資金調達・提携・人の動き。出典は Inc42・TechCrunch・DealStreetAsia など本文を開ける報道の記事URLを優先',
     '直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド',
 ]
 
@@ -617,12 +675,14 @@ def main():
     s = sp.add_parser('store'); s.add_argument('--dry-run', action='store_true')
     dd = sp.add_parser('daily', help='曜日ごとのテーマで調べて、そのまま確かめる(毎朝の定期タスク用)')
     dd.add_argument('--max', type=int, default=10); dd.add_argument('--dry-run', action='store_true')
+    dd.add_argument('--no-queue', action='store_true', help='宿題リストの1件を調べない')
     r = sp.add_parser('research'); r.add_argument('topic'); r.add_argument('--max', type=int, default=10)
     r.add_argument('--no-check', action='store_true'); r.add_argument('--dry-run', action='store_true')
     r.add_argument('--no-verify', action='store_true')
     v = sp.add_parser('verify'); v.add_argument('file')
     sp.add_parser('retry')
     sp.add_parser('usage')
+    sp.add_parser('limit')
     a = ap.parse_args()
     if a.cmd == 'status':
         print(json.dumps(status(), ensure_ascii=False, indent=1))
@@ -634,6 +694,9 @@ def main():
         retry_queue()
     elif a.cmd == 'usage':
         usage_report()
+    elif a.cmd == 'limit':
+        c, m = calls_today(), daily_max()
+        print(f'今日(日本時間)の呼び出し {c} 回 / 1日の上限 ' + (f'{m} 回(残り {max(m - c, 0)} 回)' if m > 0 else 'なし'))
     elif a.cmd == 'verify':
         d = json.load(open(a.file, encoding='utf-8'))
         rows = verify_rows(d['items'], d.get('grounding') or [])
@@ -656,6 +719,17 @@ def main():
                 gemini_verify.run_recheck()
             except Exception as e:  # やり直しの失敗で、毎朝の調査を止めない
                 print('保留のやり直しをできませんでした:', e)
+        # 2026/11/20: そのあと、調べる順番の一覧(inbox/queue.json)の先頭を1件だけ調べる。人の指示は要らない。
+        # 無料枠が切れていたら状態を変えずに終わる(次の朝に同じ項目)。--no-queue で省ける
+        if not a.no_queue:
+            try:
+                import research_queue
+                research_queue.run_next(a.dry_run)
+            except Exception as e:
+                print('宿題リストの調査をできなかった:', str(e)[:200], file=sys.stderr)
+        # 2026/11/20: 枠切れで後回しにしたテーマが列にあれば、今日の分のあとに1件だけやり直す(定期タスクの文を変えずに拾うため)
+        if not a.dry_run and queue_pending():
+            retry_queue(max_items=1)
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):

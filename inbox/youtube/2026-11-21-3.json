@@ -1,0 +1,289 @@
+{
+ "date": "2026-11-21",
+ "days": 7,
+ "summary": "YouTube確認: 30/30チャンネル、新着10本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "name": "PIVOT",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 5
+  }
+ ],
+ "videos": [
+  {
+   "id": "IFrrJHGnee8",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "The Story Of How Muse Began",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=IFrrJHGnee8",
+   "description": "The ping that made Mona go all in on Muse | Mona Sarantakos (Head of Product, Muse)"
+  },
+  {
+   "id": "Ru0l6G5oq7U",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "AI Labs Should Stop Advancing Until They Fix Security - Paul Christiano",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=Ru0l6G5oq7U",
+   "description": ""
+  },
+  {
+   "id": "Ji4ePPfB_QI",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【くらま】億り人でもFIREしない理由とは？#億り人 #新NISA #ポートフォリオ #ちょる子 #くらま #ビットコイン #FIRE #newspicks",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=Ji4ePPfB_QI",
+   "description": "MONEY&MATE：株価暴落でも最強な「億超えポートフォリオ」\n\nこのショート動画の本編は、\nこのチャンネルのプロフィールページのリンクから視聴いただけます。\n\nNewsPicksで\n株価暴落でも最強な「億超えポートフォリオ」\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7849\n\n#億り人 #新NISA #ポートフォリオ #ちょる子 #くらま #ビットコイン #FIRE #newspicks"
+  },
+  {
+   "id": "lQRxpnkzBlw",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "開発最前線！自動車もスマホも大進化？実用化で実現する未来は？【放送版/円卓コンフィデンシャル】",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=lQRxpnkzBlw",
+   "description": "▼番組のフル視聴（20分）はこちらから（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/entaku/vod/post_352391?utm_source=youtube&utm_medium=video&utm_campaign=entaku_261121_yt_lQRxpnkzBlw\n\n人類はこれまでとは違う異次元の計算機を手に入れようとしています。それが、量子コンピュータ。現在の最先端のスーパーコンピュータで数万年かかる計算を数秒で解くと期待される、革命的なイノベーション。今回はそんな夢のテクノロジーに挑む企業が集結！\n量子コンピュータの商用化と実用化の道を切り拓いた業界のパイオニア、アメリカに本社を構えるＩＢＭ、２０１８年より量子コンピュータの研究開発プロジェクトを本格始動させた日立製作所、印刷業界で国内の売上高１位のＴＯＰＰＡＮホールディングス、そして、２５年以上にわたり量子の研究に従事している慶應義塾大学の山本教授が、量子コンピュータで実現する未来から業界が抱える課題まで、徹底討論します。\n\n【円卓コンフィデンシャルとは？】\n様々な企業の「同じ部署・担当」が、同業のライバルが、「共通項」を持つ異業種が、垣根を越えて円卓を囲む…直径3メートルで繰り広げられる本音トークの中から“ビジネスの今”を知る「新感覚・経済トーク番組」です。\n\n▼円卓コンフィデンシャル過去の放送・配信はテレ東BIZで▼\nhttps://txbiz.tv-tokyo.co.jp/entaku?utm_source=youtube&utm_medium=video&utm_campaign=entaku_261121_yt_lQRxpnkzBlw\n\n【出演者】\n伊沢拓司\n児嶋一哉（アンジャッシュ）\n大浜平太郎（テレビ東京　解説委員）\n\n【出演"
+  },
+  {
+   "id": "UZ6vz8Y6k0k",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "アンソロピック上場 日米株安 AIバブル懸念は【NIKKEI NEWS NEXT】",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=UZ6vz8Y6k0k",
+   "description": "2026年11月20日放送のＢＳテレ東「NIKKEI NEWS NEXT」より、特集の一部をYouTubeで配信します。\n▼フルバージョンは「テレ東BIZ」で配信中▼\nhttps://txbiz.tv-tokyo.co.jp/nikkeinext?utm_source=youtube&utm_medium=video&utm_campaign=nnn_yt\n\n▼「テレ東BIZ」会員登録はこちら▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=nnn_yt\n\nAI開発の米アンソロピックが19日にナスダック市場に上場しました。初値は公開価格を上回って好発進しましたが、一方、日米の株式市場ではAI･半導体株が軒並み大幅に下落しました。市場が警戒するAIバブル崩壊の現実味、そしてアンソロピックが抱える課題について解説します。\n【解説】\n中村仁(ブルーモ証券 CEO)\n奥平和行(日本経済新聞 編集委員)\n\n＃日米株安　＃AI　＃半導体株　＃日経平均　＃NYダウ　＃ナスダック総合指数　＃アンソロピック　＃クロード　＃アモデイCEO　＃オープンAI　＃チャットGPT　＃中村仁　＃奥平和行　#NIKKEINEWSNEXT"
+  },
+  {
+   "id": "UHn0YtJly0E",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Why do tech companies want data centers in every state?",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=UHn0YtJly0E",
+   "description": ""
+  },
+  {
+   "id": "1sehOykgoow",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Don’t force data centers on communities. Make them worth wanting.",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=1sehOykgoow",
+   "description": ""
+  },
+  {
+   "id": "jBkayOiYu5Y",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Should we be slowing down AI?",
+   "published": "2026-11-20",
+   "url": "https://www.youtube.com/watch?v=jBkayOiYu5Y",
+   "description": "Pacing AI isn’t the same as pausing it, or even slowing it down."
+  },
+  {
+   "id": "0xnIgWKmkBc",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Reid Hoffman live: AI jobs, data centers & pacing AI",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=0xnIgWKmkBc",
+   "description": "In a special live Reid Riffs from Masters of Scale Summit, Reid Hoffman and Aria Finger tackle rapid-fire questions in a new segment called “Pardon the Disruption.” Reid digs into steering the AI frontier rather than slowing it, negotiating data center deals that benefit towns, and earning public trust amid AI job disruption. Manas AI co-founder Ujjwal Singh joins to explain how AI shrinks early drug discovery from years to weeks.\nFor more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/\n\n#ai #business #technology #economy #jobs"
+  },
+  {
+   "id": "xVp2z35qIpw",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Will AI Make Everything Cheaper?",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=xVp2z35qIpw",
+   "description": "OpenAI Chief Economist Ronnie Chatterji expects AI to bring down the price of a lot of goods and services over time, even as DRAM prices and hardware bottlenecks spike today."
+  }
+ ]
+}
