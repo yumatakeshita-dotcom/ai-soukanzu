@@ -27,19 +27,23 @@
    "from": "Vertex Ventures SEA & India・Vertex Growth(リード)",
    "to": "Acrab(シンガポール、AIチップ)",
    "kind": "出資",
-   "amount": "シリーズBで1億3000万ドル(報道ベース。見出しで確認)",
+   "amount": "シリーズBで1億3000万ドル(報道ベース。リードはVertex Ventures SEA & India・Vertex Growth、欧州・東南アジアの機関投資家も参加)",
    "date": "2026-08-06",
    "region": "シンガポール",
    "backfill": true,
-   "note": "SEA of Startupsのポッドキャスト(2026-08-19)の説明文で社名を見つけ、DealStreetAsiaの記事の見出しと日付(2026-08-06「Vertex-backed Series B、$130m」)で確かめた。本文は会員向けで読めず、リードの2社は検索結果の要約(e27・TechNodeなど)による。会社発表のページはこの環境から開けず未確認。累計3.5億ドル(2026-06-17に公表)は1回の出資ではないので入れていない",
+   "note": "SEA of Startupsのポッドキャスト(2026-08-19)の説明文で社名を見つけ、Verdictの記事本文(2026-08-06、PR Newswireの発表を引用)で金額・ラウンド・リードを確認し、DealStreetAsiaの見出し(2026-08-06)でも日付を確認した(2026/11/21 本文を開いて確かめ直し)。Vertex Ventures SEAの会社発表(2026-06-18)で、Vertex側が早い時期から出資を増やしてきたことも確認。累計額は報道で「3.5億ドル超」と「4.8億ドル超」があり一致しないため入れていない。PR Newswireの原文は未確認なので「報道」のまま",
    "src": [
+    [
+     "Verdict(2026-08-06)",
+     "https://www.verdict.co.uk/acrab-series-b-agentic-ai-compute/"
+    ],
     [
      "DealStreetAsia(2026-08-06)",
      "https://www.dealstreetasia.com/stories/ai-startup-acrab-raises-130m-in-vertex-backed-series-b-funding-491373"
     ],
     [
-     "DealStreetAsia(2026-06-17)",
-     "https://www.dealstreetasia.com/?p=485810"
+     "Vertex Ventures SEA & India 発表(2026-06-18)",
+     "https://www.vertexventures.sg/news/acrab-secures-over-us-350-million-in-financing-to-advance-agentic-ai-compute-infrastructure/"
     ]
    ],
    "confidence": "報道"
