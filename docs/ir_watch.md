@@ -26,4 +26,7 @@
 - `inbox/ir/status.json` 取引所ごとの取得結果(読めなかった理由が入る)。`seen.txt` は見たものの目録
 
 ## 毎朝の使い方
-引き抜き調査(毎朝7:26)の最初に `python3 scripts/ir_watch.py` を動かす。手順の文は `project-files/money-research/ir_step.txt`。
+引き抜き調査 v5(毎朝7:29、定期タスク「調査: 引き抜き(人の移籍) v5(適時開示IRつき)」)の最初に `python3 scripts/ir_watch.py` を動かす。v4(7:26)は止めた(消していない)。手順の文は `project-files/money-research/moves_v5_ir_prompt.txt`。
+
+## 見る会社の追加(2026/11/21)
+香港は、相関図に出てくる会社のうち、HKEXの銘柄一覧で名前と番号が合うものを足した(MiniMax 0100・Z.AI(智譜) 2513・Kuaishou 1024・Hesai 2525・Momenta 6880・XPeng 9868・NIO 9866・Li Auto 2015・CATL 3750・BYD 1211・ZTE 763 など)。

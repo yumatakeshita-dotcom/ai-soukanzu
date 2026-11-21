@@ -29,3 +29,14 @@ SG	BN4	Keppel
 SG	S63	ST Engineering
 SG	V03	Venture Corporation
 SG	D05	DBS
+HK	00100	MiniMax
+HK	02513	Zhipu(Z.AI・智譜)
+HK	00763	ZTE(中興通訊)
+HK	01024	Kuaishou(快手)
+HK	02525	Hesai(禾賽)
+HK	06880	Momenta
+HK	09868	XPeng(小鵬汽車)
+HK	09866	NIO(蔚来)
+HK	02015	Li Auto(理想汽車)
+HK	03750	CATL(寧徳時代)
+HK	01211	BYD(比亜迪)
