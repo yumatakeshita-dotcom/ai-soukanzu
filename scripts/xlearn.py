@@ -73,7 +73,13 @@ def scan():
             req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; relmap-checker)'})
             page = urllib.request.urlopen(req, timeout=25).read().decode('utf-8', 'replace')
         except Exception as e:
-            fail.append([co, url, str(e)[:80]]); continue
+            # 一部のサイトはPythonからの接続を断るので、curlでもう一度試す
+            import subprocess
+            r = subprocess.run(['curl', '-sL', '-m', '25', '-A', 'Mozilla/5.0 (compatible; relmap-checker)', '-w', '\n%{http_code}', url], capture_output=True)
+            body, _, code = r.stdout.decode('utf-8', 'replace').rpartition('\n')
+            if code != '200':
+                fail.append([co, url, str(e)[:60] + ' / curl ' + code]); continue
+            page = body
         for m in re.finditer(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', page, re.S):
             href = urllib.parse.urljoin(url, html.unescape(m.group(1)))
             txt = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', m.group(2)))).strip()
