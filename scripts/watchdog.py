@@ -25,7 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JST = datetime.timezone(datetime.timedelta(hours=9))
 GRACE_MIN = 90  # 予定の時刻から、この分数たってから確かめる
 
-# (名前, 予定の時刻(時,分), 曜日(月=0。None=毎日), フォルダ, ファイル名の目印)
+# (名前, 予定の時刻(時,分), 曜日(月=0。None=毎日), フォルダ, ファイル名の目印[, 見はじめる日])
 SCHEDULE = [
     ('引き抜き調査(moves)', (7, 26), None, 'inbox/moves', ''),
     ('お金の流れ調査(money)', (7, 52), (0, 3), 'inbox/money', ''),
@@ -36,6 +36,13 @@ SCHEDULE = [
     ('YouTube確認(youtube)', (7, 26), None, 'inbox/youtube', ''),
     ('ポッドキャスト確認(podcasts)', (7, 26), None, 'inbox/podcasts', ''),
     ('Gemini調査(gemini)', (8, 23), None, 'inbox/gemini', ''),
+    # 2026/11/21追加: 新しい6係(0件でもファイルを作る決まり)。ファイル名の目印で、ほかの係のファイルと区別する
+    ('採用・求人係(hiring)', (8, 5), (6, 1, 4), 'inbox/moves', '-hiring', '2026-11-22'),
+    ('日本の提携係(jp)', (8, 11), None, 'inbox/money', '-jp.json', '2026-11-22'),
+    ('日本の人事係(jp-hr)', (8, 14), None, 'inbox/moves', '-jp-hr', '2026-11-22'),
+    ('日本の資金調達係(jp-fund)', (8, 17), None, 'inbox/money', '-jp-fund', '2026-11-22'),
+    ('データセンター・電力係(dc)', (8, 20), (6, 2, 5), 'inbox/money', '-dc', '2026-11-22'),
+    ('解説・まとめ係(column)', (20, 0), (6,), 'newsletter/column', '', '2026-11-22'),
     ('開示ウォッチ(disclosures)', (10, 19), (1,), 'inbox/disclosures', ''),
     ('報道だけの数字の確かめ直し(verify)', (10, 23), (6,), 'inbox/verify', ''),
 ]
@@ -117,7 +124,9 @@ def evaluate(now):
             if back == 0:
                 rows.append(('OK' if lc == d else '問題', f'{tag} 毎朝の更新(6:43)',
                              f'LAST_CHECK = {lc}' + ('' if lc == d else f'(今日は {d}。更新が動いていないか、push されていない)')))
-        for name, hm, wd, folder, mark in SCHEDULE:
+        for name, hm, wd, folder, mark, *since in SCHEDULE:
+            if since and d < since[0]:
+                continue  # 作る前の日は見ない(2026/11/21追加)
             if wd is not None and day.weekday() not in wd:
                 continue
             if not due(hm):
