@@ -28,3 +28,7 @@ UC8yHePe_RgUBE-waRWy6olw|PIVOT|ビジネス(日本語)|RSS名一致
 UCkKVQ_GNjd8FbAuT6xDcWgg|テレ東BIZ|経済ニュース(日本語)|RSS名一致
 UCHL12woHGeiqAqLrK-pJe7g|日本経済新聞|経済ニュース(日本語)|RSS名一致
 UCamllJQ7YaqaDNMCWgonj2w|ソフトバンクグループ|投資・AI(公式)|RSS名一致
+# 2026/11/21 海外の人本人のチャンネル(RSS名一致)
+UCXUPKJO5MZQN11PqgIvyuvQ|Andrej Karpathy|AI研究者(本人)|RSS名一致
+UCIBgYfDjtWlbJhg--Z4sOgQ|Garry Tan|Y Combinator代表(本人)|RSS名一致
+UCmeNQxKCoV3cULPuPbcj7Ag|Reid Hoffman|投資家(本人)|RSS名一致
