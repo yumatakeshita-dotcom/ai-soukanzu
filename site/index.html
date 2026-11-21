@@ -36461,11 +36461,12 @@ const VERIFY_PPL=[
  ['ハーベイ・ジョーンズ','Nvidia','v_nvceo','NvidiaのSEC 8-Kで議長就任を確認','2026/11/19'],
  ['ルーク・メッツ','Meta','v_metz','本人のXのプロフィールで確認','2026/11/20'],
  /*XV_PPL_START*/ // scripts/moves_x_apply.py --apply が、本人のXで確かめた人の動きをここに足す(足すだけ)
+ ['バレット・ゾフ','Google DeepMind','v_zoph','本人のXのプロフィールで確認','2026/11/21'],
  /*XV_PPL_END*/
 ];
 // 本人のXで確かめた人の動きの出典(scripts/moves_x_apply.py が足す。2026/11/20)
 Object.assign(DS,{
- /*XV_DS_START*/ /*XV_DS_END*/
+ /*XV_DS_START*/ v_zoph:['バレット・ゾフ本人のXプロフィール(2026/11/21確認。自己紹介が「VP Research GoogleDeepmind」、過去にOpenAI・Thinking Machines Lab)','https://x.com/barret_zoph','s'], /*XV_DS_END*/
 });
 /* 出資の線に、data/investsrc.js の出典を足す(2026/11/21。足すだけ・既存の出典は消さない)。名前が合う出資の線だけ */
 function applyInvSrc(c,d){
@@ -38942,7 +38943,7 @@ qEl.addEventListener('keydown',ev=>{
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
 /* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面 ===== */
-const BUILT='2026-11-21 23:21';
+const BUILT='2026-11-22 00:31';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
