@@ -87,3 +87,20 @@
 @UTEC_official | money,vc | UTEC(東京大学エッジキャピタル)公式。公式サイトのリンクと一致。確認済み
 # --- 日本のVC (2026-11-21 追加。公式サイトのXリンクと自己紹介で確認) ---
 @globalbrains_jp | money,vc | グローバル・ブレイン(Global Brain)公式。公式サイトのリンクと一致。確認済み
+# --- 候補の追加 (2026-11-21。x_check.py で自己紹介を確認。Geminiは枠切れのため今回は使わず) ---
+@hardmaru | moves,deep | Sakana AI 共同創業者・CEO(日本のAI新興)。確認済み
+@DarioAmodei | moves,money | Anthropic CEO。確認済み
+@gdb | moves,deep | OpenAI 社長・共同創業者。確認済み
+@drfeifei | moves,money,deep | World Labs 創業者(AI研究者)。確認済み
+@ylecun | moves,deep | AMI Labs 創業者(元Meta AI責任者)。確認済み
+@AndrewYNg | moves,deep | AI研究者・起業家(Landing AI など)。確認済み
+@kleinerperkins | vc,money | Kleiner Perkins(米国VC)公式。確認済み
+@GreylockVC | vc,money | Greylock(米国VC)公式。確認済み
+@IndexVentures | vc,money | Index Ventures(欧米のVC)公式。確認済み
+@Accel | vc,money | Accel(米国VC)公式。確認済み
+@founders_fund | vc,money | Founders Fund(米国VC)公式。確認済み
+@Crunchbase | money,vc | 資金調達データ・報道。確認済み
+@PitchBook | money,vc | 非公開市場のデータ。確認済み
+@axios | moves,money | 米国の報道(Axios)公式。確認済み
+@semafor | moves,money | 世界の報道(Semafor)公式。確認済み
+@WSJ | moves,money | The Wall Street Journal 公式。確認済み
