@@ -56,7 +56,7 @@ def key():
 
 # 2026/11/19: 無料枠では Google検索つきの呼び出しが gemini-flash-latest などで 429(枠切れ)になり、
 # gemini-2.5-flash だけ通った。そのため既定は gemini-2.5-flash にし、429 のときは次の候補を順に試す。
-MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-2.5-pro']
+MODEL_FALLBACKS = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-3.5-flash', 'gemini-3.1-pro-preview']
 _model_used = []
 
 
@@ -124,6 +124,21 @@ def known_names():
 
 
 # ---------- 1回目: Google検索で調べる ----------
+def media_leads(limit=12):
+    """動画・ポッドキャストの新着から作った手がかり(inbox/media/)のタイトルだけを渡す(2026/11/21追加)。"""
+    fs = sorted(glob.glob(os.path.join(ROOT, 'inbox', 'media', '2*.json')))
+    if not fs:
+        return ''
+    try:
+        leads = json.load(open(fs[-1], encoding='utf-8')).get('leads', [])[:limit]
+    except Exception:  # noqa: BLE001
+        return ''
+    if not leads:
+        return ''
+    rows = '\n'.join(f"- {l['published']} {l['source']}: {l['title'][:90]}" for l in leads)
+    return ('\n--- 最近の動画・ポッドキャストの題名(手がかり。ここから新しい事実を探してよいが、事実は必ず検索で別の出典を確かめる) ---\n' + rows + '\n')
+
+
 def build_prompt(topic, n):
     rng = read_doc('notebooklm-code/10_*.md')
     return f"""あなたはAI企業・半導体企業の相関図を作る調査担当です。今日は{jst_today():%Y年%m月%d日}です。
@@ -142,6 +157,7 @@ def build_prompt(topic, n):
 答えは次の形のJSONだけを ```json と ``` で囲んで返す(説明文は不要):
 {{"items":[{{"会社名":"","関係":"出資/取引/提携/買収/移籍/就任/退任 など","相手":"","金額":"","日付":"","出典URL":"","出典名":"媒体名","確かさ":"報道","備考":"","人物":"(人の動きのときだけ)","役職":"","移籍元":"","移籍先":""}}]}}
 
+{media_leads()}
 --- すでにある範囲 ---
 {rng}
 """
@@ -643,7 +659,7 @@ DAILY_THEMES = [
     '直近3日の計算資源(GPU・データセンター・電力・メモリ)の大型契約と提携',
     '直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携',
     '直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業',
-    '直近3日のアジア(台湾・韓国・シンガポール・インド・中東)のAI企業の資金調達・提携・人の動き',
+    '直近3日のアジア(台湾・韓国・インド・中東と、東南アジアのシンガポール・インドネシア・ベトナム・タイ)のAI企業の資金調達・提携・人の動き。出典は Inc42・TechCrunch・DealStreetAsia など本文を開ける報道の記事URLを優先',
     '直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド',
 ]
 
@@ -705,6 +721,12 @@ def main():
         if res.get('saved'):
             import gemini_verify  # 2026/11/19: 調べたらすぐ確かめる(合格したものだけ inbox/money・moves に足す)
             gemini_verify.run([os.path.join(ROOT, res['saved'][:-3] + '.json')])
+        if not a.dry_run:
+            import gemini_verify  # 2026/11/21: 保留(出典を開けなかった)のものを、もう一度確かめる。今日の調査が取れなくてもやる
+            try:
+                gemini_verify.run_recheck()
+            except Exception as e:  # やり直しの失敗で、毎朝の調査を止めない
+                print('保留のやり直しをできませんでした:', e)
         # 2026/11/20: そのあと、調べる順番の一覧(inbox/queue.json)の先頭を1件だけ調べる。人の指示は要らない。
         # 無料枠が切れていたら状態を変えずに終わる(次の朝に同じ項目)。--no-queue で省ける
         if not a.no_queue:
