@@ -40,6 +40,13 @@ button:disabled{opacity:.5;cursor:default}
 .sec ul,.sec ol{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:4px}
 .term b{font-weight:700}
 .warn{background:var(--warn-bg);color:var(--warn-fg);border:1px solid var(--warn-line);border-radius:4px;padding:10px 12px;font-size:14px}
+.hist{display:flex;flex-direction:column}
+.hitem{display:flex;gap:10px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}
+.hitem:first-child{border-top:0}
+.hitem .hbody{flex:1;min-width:0;text-align:left;border:0;background:none;padding:0;font:14px/1.6 var(--sans);color:var(--fg);cursor:pointer}
+.hitem .hbody small{display:block;font:11px/1.4 var(--mono);color:var(--muted)}
+.hitem .hbody span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hitem .hdel{padding:6px 10px;font-size:12px;color:var(--muted)}
 .status{font-size:13px;color:var(--muted);min-height:1.5em}
 .err{color:var(--warn-fg)}
 </style>
@@ -69,6 +76,11 @@ button:disabled{opacity:.5;cursor:default}
       <div id="out"></div>
     </section>
   </div>
+
+  <section class="panel" id="histPanel" aria-label="保存した結果" hidden>
+    <label>保存した結果(自分だけに見えます)</label>
+    <div id="hist" class="hist"><p class="hint">まだありません。訳すと、ここに自動で残ります。</p></div>
+  </section>
 </div>
 
 <script>
@@ -143,6 +155,7 @@ ${text.slice(0, 6000)}
     const r = await sample.json(prompt, {cache:false});
     render(r, false);
     $("status").textContent = "できました。";
+    saveHistory(text, r);
   }catch(e){
     const code = e && e.code;
     $("status").className = "status err";
@@ -152,6 +165,40 @@ ${text.slice(0, 6000)}
     setTimeout(()=>{ $("status").className = "status"; }, 4000);
   }
 };
+
+/* 保存: 自分専用の場所(data/users/<自分のid>/history)に1件ずつ残す。使えないときは何も出さない */
+let hcol = null;
+function when(ts){ const d = new Date(ts); return d.toLocaleString("ja-JP",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}); }
+async function initHistory(){
+  try{
+    const [db, user] = await Promise.all([claude.use("db"), claude.use("user")]);
+    if(!db || !user) return;
+    const id = await user.id();
+    hcol = db.collection("data/users/" + id + "/history");
+    $("histPanel").hidden = false;
+    hcol.orderBy("ts","desc").limit(30).onSnapshot(snap => {
+      const rows = []; snap.forEach(d => rows.push({id:d.id, ...d.data()}));
+      const box = $("hist"); box.innerHTML = "";
+      if(!rows.length){ box.innerHTML = '<p class="hint">まだありません。訳すと、ここに自動で残ります。</p>'; return; }
+      rows.forEach(row => {
+        const el = document.createElement("div"); el.className = "hitem";
+        const b = document.createElement("button"); b.type = "button"; b.className = "hbody";
+        const s = document.createElement("small"); s.textContent = when(row.ts);
+        const t = document.createElement("span"); t.textContent = (row.src || "").replace(/\s+/g," ").slice(0,80);
+        b.append(s, t);
+        b.onclick = () => { $("src").value = row.src || ""; render(row.result, false); $("status").textContent = "保存した結果を表示中です。"; window.scrollTo({top:0,behavior:"smooth"}); };
+        const x = document.createElement("button"); x.type = "button"; x.className = "hdel"; x.textContent = "消す";
+        x.onclick = () => { if(x.dataset.ask){ hcol.doc(row.id).delete().catch(()=>{}); } else { x.dataset.ask = "1"; x.textContent = "本当に消す"; setTimeout(()=>{ delete x.dataset.ask; x.textContent = "消す"; }, 3000); } };
+        el.append(b, x); box.append(el);
+      });
+    }, () => { $("histPanel").hidden = true; });
+  }catch(e){ /* 保存が使えない画面では出さない */ }
+}
+async function saveHistory(text, r){
+  if(!hcol) return;
+  try{ await hcol.doc(String(Date.now())).set({ts:Date.now(), src:text.slice(0,6000), result:r}); }catch(e){}
+}
+initHistory();
 
 render(SAMPLE.result, true);
 $("src").value = SAMPLE.text;
