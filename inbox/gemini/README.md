@@ -4,6 +4,47 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-21-3　ベトナムのAIスタートアップの資金調達 2026年11月
+
+- モデル: gemini-2.5-flash　/　候補 2件
+
+**Geminiが打った検索の言葉**
+
+- Vietnam AI startup funding November 2026
+- Vietnamese AI startups fundraising November 2026
+- AI startups Vietnam investment November 2026
+- Vietnam tech startup funding November 2026 AI
+
+**出てきた候補**
+
+- V-Indoor Care → 提携 → 韓国NIPA(2026-10-29)
+- VEEP → 提携 → 韓国NIPA(2026-10-29)
+
+記録ファイル: inbox/gemini/2026-11-21-3.json / 2026-11-21-3.md
+
+## 2026-11-21-2　インドネシア のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は記事のURL
+
+- モデル: gemini-2.5-flash　/　候補 6件
+
+**Geminiが打った検索の言葉**
+
+- Indonesian AI startup funding November 2026
+- Indonesian AI company investment November 2026
+- Indonesian AI startup acquisition November 2026
+- AI startup Indonesia partnership November 2026
+- AI startup Indonesia personnel change November 2026
+
+**出てきた候補**
+
+- PT Kawasan Industri Terpadu Batang → 提携 → Axelera AI(2026-11-06)
+- XELTA.AI (Matchbest Group) → 提携 → インドネシア政府(2026-11-18)
+- Rekosistem → 出資 → (2026-11-04)
+- Ringkas → 出資 → (2026-11-04)
+- KUMPUL → 就任 → (2026-11-05)
+- SK Innovation E&S → 提携 → Orbitani, Little Mermaids(2026-11-20)
+
+記録ファイル: inbox/gemini/2026-11-21-2.json / 2026-11-21-2.md
+
 ## 2026-11-21　インド・東南アジア(シンガポール・インドネシア・ベトナム・タイ・フィリピン)のAI関連スタートアップの資金調達 2026年11月、出典はInc42・TechCrunchなどの記事URL
 
 - モデル: gemini-2.5-flash　/　候補 3件

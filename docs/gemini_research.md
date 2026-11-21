@@ -24,7 +24,7 @@ Claude Code からは MCP サーバー `ai-soukanzu-gemini`(`scripts/gemini_mcp.
 `gemini_status` / `gemini_store` / `gemini_research` で同じことができる。
 
 - キー: 環境変数 `GEMINI_API_KEY`(コードには書かない)。無いときは自動でドライランになる
-- モデル: 環境変数 `GEMINI_MODEL`。無ければ `gemini-2.5-flash`。枠切れ(429)のときは gemini-flash-latest → gemini-3.5-flash → gemini-2.5-pro の順に試す(2026/11/19: 無料枠ではGoogle検索つきが gemini-2.5-flash しか通らなかったため)
+- モデル: 環境変数 `GEMINI_MODEL`。無ければ `gemini-2.5-flash`。枠切れ(429)のときは gemini-flash-latest → gemini-3.5-flash → gemini-3.1-pro-preview(2026/11/21: gemini-2.5-pro は新規利用者には使えなくなったので入れ替え) の順に試す(2026/11/19: 無料枠ではGoogle検索つきが gemini-2.5-flash しか通らなかったため)
 - 出典URLは Gemini が書いたもの。相関図に入れる前に元ページを開いて確かめる(初回の試しでは日付の誤りが1件あった。`inbox/gemini/2026-11-19_review.md`)
 - ファイル検索の入れ先の名前は `inbox/gemini/store.json` に記録する(キーは入っていない)
 - 資料の場所を変えるときは `GEMINI_DOCS_DIR`(既定は `/mnt/project-files`)
