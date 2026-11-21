@@ -1,0 +1,221 @@
+{
+ "date": "2026-11-21",
+ "summary": "過去動画の取得: 30/30チャンネル、新しく9本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 1
+  }
+ ],
+ "videos": [
+  {
+   "id": "52aiCiq2Apc",
+   "title": "How Much 120M Views Pays in India",
+   "age": "3h ago",
+   "channel": "Colin and Samir",
+   "url": "https://www.youtube.com/watch?v=52aiCiq2Apc"
+  },
+  {
+   "id": "DW2GWXnZTz8",
+   "title": "Revolut started in the worst market for a bank",
+   "age": "3h ago",
+   "channel": "Cheeky Pint",
+   "url": "https://www.youtube.com/watch?v=DW2GWXnZTz8"
+  },
+  {
+   "id": "pWFpTDLY7bA",
+   "title": "Who Really Makes Money From AI? | Kush Bavaria",
+   "age": "6h ago",
+   "channel": "20VC with Harry Stebbings",
+   "url": "https://www.youtube.com/watch?v=pWFpTDLY7bA"
+  },
+  {
+   "id": "3ZkDiDrxDeY",
+   "title": "Why Neo-Clouds are Great Businesses & The State of Compute with Kush Bavaria, Co-Founder @ Ornn",
+   "age": "6h ago",
+   "channel": "20VC with Harry Stebbings",
+   "url": "https://www.youtube.com/watch?v=3ZkDiDrxDeY"
+  },
+  {
+   "id": "QNCd8UHCpFQ",
+   "title": "David Friedberg: The AI Job Loss Narrative is Bullsh*t",
+   "age": "1h ago",
+   "channel": "All-In Podcast",
+   "url": "https://www.youtube.com/watch?v=QNCd8UHCpFQ"
+  },
+  {
+   "id": "QgN2bwiUh_U",
+   "title": "David Friedberg: Restricting Open Source AI Is a Path to Tyranny",
+   "age": "6h ago",
+   "channel": "All-In Podcast",
+   "url": "https://www.youtube.com/watch?v=QgN2bwiUh_U"
+  },
+  {
+   "id": "c41UFN4GXRY",
+   "title": "The Genius Of Wispr Flow's UGC Model",
+   "age": "6h ago",
+   "channel": "Lenny's Podcast",
+   "url": "https://www.youtube.com/watch?v=c41UFN4GXRY"
+  },
+  {
+   "id": "itiN9zx3UL4",
+   "title": "[Revitalization Committee raises doubts] Kagawa's \"Ship Gymnasium\": Prefecture moves to demolish ...",
+   "age": "30 min ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=itiN9zx3UL4"
+  },
+  {
+   "id": "9mLFqIQUyIg",
+   "title": "Elections shouldn’t be for sale.",
+   "age": "5h ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=9mLFqIQUyIg"
+  }
+ ]
+}

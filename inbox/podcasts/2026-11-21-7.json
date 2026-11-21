@@ -1,0 +1,239 @@
+{
+ "date": "2026-11-21",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着2本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "d70c53e1-dcc7-4f40-8074-6935ed954820",
+   "show": "20VC",
+   "kind": "VC",
+   "lang": "en",
+   "title": "20VC: The State of Compute: What Everyone Needs to Know | Why Neo-Clouds are Great Businesses | What Everyone Is Missing About GPU Prices? | How AI Infrastructure Investors Will Win with Kush Bavaria, Co-Founder @ Ornn",
+   "published": "2026-11-21",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-state-of-compute-what-everyone-needs-to-know-why-neo-clouds-are-great-businesses-what-everyone-is-missing-about-gpu-prices-how-ai-infrastructure-investors-will-win-with-kush-bavaria-co-founder-ornn",
+   "description": "Kush Bavaria is the Co-founder and CEO of Ornn, building the financial market for AI compute. Ornn helps companies price, finance and hedge GPU capacity—bringing the tools of commodity markets to AI infrastructure. Kush is just 23 years old and has raised funding from some of the best in the world including Andreessen Horowitz, Thrive Capital and BoxGroup. AGENDA: 05:00 Building a Viral Sports Betting Platform from a Dormroom at MIT 09:00 Can AI Win While Infrastructure Investors Lose? 13:00 What Is Everyone Missing About GPU Prices? 14:00 Why Is Everyone Betting Against CoreWeave and Nebius? 19:00 Are Older GPUs Really Becoming Obsolete? 24:00 Where Are AI's Biggest Untapped Opportunities? 29:00 What Would It Take for Compute to Trade Like Oil? 43:00 What Wins the AI Race: Better Talent o"
+  },
+  {
+   "id": "40e31e1f-4385-47fd-a314-d005618017ba",
+   "show": "NewsPicks Daily Briefing",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "【11月22日】ユニコーンが小企業に完敗した「特許訴訟」ほか",
+   "published": "2026-11-21",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1122-e3sptlh",
+   "description": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ アンソロピック研究者、Claudeを使い「リーマン予想」を証明か https://npx.me/s/TUDOKmPQ ◇オリジナルコンテンツ◇ 「図版データ」で理解する、アンソロピック上場 https://npx.me/s/IPsvUvOK 【争奪戦】巨大テック企業が「スパイ狩り」を爆買い中 https://npx.me/s/xtEFqb2x 米国で増える20代の起業、新卒レベルの職を選ばない訳 https://npx.me/s/RV4M6qKE 【科学】なぜ最高のアイデアは「シャワー中」に生まれるのか https://npx.me/s/kHP9boZ6 【イチゴ訴訟】Oishiiファームvs元CTOの奇妙なバトル https://npx.me/s/RLflVptH LiSAが歌で見つけた「居場所」 https://npx.me/s/4TdVyX3L ◇今日の一冊◇ いのちの停車場 https://npx.me/s/AsEnCaRT ※このAI音声番組はNewsPicksが実験的に運用しています。 内容の正確性や品質には十分配慮しておりますが、もしお気づきの点がありましたら、 下記リンクからご連絡ください。 https://newspicks.zendesk.com/hc/ja/requests/new 【外部プラットフォーム】 🟢 Spotify https://open.spotify.com/show/0zEK9BVEisHf7OKvbEEDUV?si=fMH-AU16"
+  }
+ ]
+}

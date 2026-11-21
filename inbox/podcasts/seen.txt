@@ -3369,3 +3369,5 @@ ac974bd6-b924-11f1-b9c2-27bec0444b81|Decoder with Nilay Patel|2026-11-21|Can Ant
 gid://art19-episode-locator/V0/jXYuwKke6KmV7t5RtRdk3ISvg8fggvTUCUV-rWcNu2s|Masters of Scale|2026-11-21|Rapid Response — Why everything is breaking: outages, AI, and the new cyber math, with CrowdStrike’s
 bb74684d-fcbe-4c36-9779-b5070115b930|Odd Lots (Bloomberg)|2026-11-21|How AI Is Forcing China to Reshape Industrial Policy
 https://rebuild.fm/436/|Rebuild|2026-11-21|436: Elephant in the Room (hak)
+d70c53e1-dcc7-4f40-8074-6935ed954820|20VC|2026-11-21|20VC: The State of Compute: What Everyone Needs to Know | Why Neo-Clouds are Great Businesses | What
+40e31e1f-4385-47fd-a314-d005618017ba|NewsPicks Daily Briefing|2026-11-21|【11月22日】ユニコーンが小企業に完敗した「特許訴訟」ほか
