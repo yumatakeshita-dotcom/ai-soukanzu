@@ -5,11 +5,14 @@
 - 同じ内容(種類+主な名前+出典URL)は2回足さない
 - 出典(src)の無い項目は足さない
 - 2行目の FINDLINKS(相関図に足すつながり)は scripts/finds_map.py が inbox/ から毎回作る
+- 3行目の EXECTL_AUTO(幹部の年表に自動で足すもの)は scripts/exectl_auto.py が inbox/moves/ から毎回作る
 使い方: python3 scripts/merge_inbox.py   (足した件数を表示する)
 """
 import json, os, re, sys, glob, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import finds_map
+import exectl_auto
+import fun_merge
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
@@ -155,12 +158,24 @@ def main():
         w.write(HEAD + 'const FINDS=' + json.dumps(allrows, ensure_ascii=False, separators=(',', ':')) + ';\n')
         # 相関図に足すつながり(引き抜き・出資・買収・取引)。inbox/ から毎回作る。どの図に付けるかは index.html の applyFinds が決める
         w.write(finds_map.js_line())
+        # 3行目: 幹部の年表に自動で足すもの(2026/11/19追加)。inbox/moves/ から毎回作る
+        w.write(exectl_auto.js_line())
+        # 4行目: おもしろ情報に自動で足すもの(2026/11/21追加)。inbox/fun/ から毎回作る
+        w.write(fun_merge.js_line())
     assert len(allrows) >= len(have), '件数が減った(ありえない)'
     print(f'足した件数: {len(added)} / 合計: {len(allrows)}')
     for kind in KINDS:
         n = sum(1 for r in added if r['k'] == kind)
         if n:
             print(f'  {kind}: {n}')
+    exectl_auto.report(exectl_auto.build())
+    fun_merge.report(*fun_merge.build())
+    # ニュースの見出し(トップの「最近のニュース」)も毎回足す。2026/11/20追加(11/13から止まっていたため)
+    try:
+        import fetch_relnews
+        fetch_relnews.main()
+    except Exception as e:
+        print('ニュースの取り込みに失敗(ほかの処理は済んでいる):', e)
 
 
 if __name__ == '__main__':

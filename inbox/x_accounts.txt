@@ -40,3 +40,115 @@
 @demishassabis | moves,deep | Google DeepMind CEO
 @pushmeet | moves,deep | DeepMind研究VP
 @james_riney | money,vc | Coral Capital代表(日本VC)
+# --- 自動で追加 (2026-11-20) ---
+@amir | moves,money,vc | The Information編集長。特ダネ
+@aaronpholmes | moves,money | The Information記者
+@ZeffMax | moves,money,deep | WSJ AI記者
+@EricNewcomer | money,vc | Newcomer。VC・調達の報道
+@alexeheath | moves,money,vc | Sources運営。元記者でVC所属
+@Reuters | money,moves | ロイター。速報
+@Siftedeu | money,vc | 欧州スタートアップ報道
+@ycombinator | vc,deep | Y Combinator公式
+@sequoia | vc,money | セコイア公式
+@SakanaAILabs | moves,money,deep | 日本のAI新興(Sakana AI)公式
+# --- 自動で追加 (2026-11-21) ---
+@MistralAI | moves,money,deep | 仏AI新興Mistral公式
+@AravSrinivas | moves,money | Perplexity共同創業者CEO
+@karpathy | moves,deep | 元OpenAI・元Tesla AI研究者
+@ilyasut | moves,deep | SSI共同創業者
+@saranormous | vc,money | Conviction創業者。AI投資家
+@sarahcat21 | vc,money | Amplify Partners。AI投資家
+@bgurley | vc,money | Benchmark出身の有名VC
+@lightspeedvp | vc,money | Lightspeed公式
+@PreferredNet | money,deep | 日本のAI新興PFN公式(英語)
+@JPStartups | vc,money | 日本のスタートアップ報道
+# --- 海外の人本人 (2026-11-21。プロフィールを x_check.py で確かめた) ---
+@elonmusk | moves,money,vc | xAI/SpaceX/Tesla CEO。本人
+@gdb | moves,money,vc | OpenAI共同創業者・社長。本人
+@miramurati | moves,money,vc | Thinking Machines創業者。元OpenAI CTO。本人
+@alexandr_wang | moves,money,vc | Meta Chief AI Officer。Scale AI創業者。本人
+@chamath | moves,money,vc | Social Capital。All-In。本人
+@DavidSacks | moves,money,vc | Craft Ventures。All-In。本人
+@ylecun | moves,money,vc | AMI Labs創業者。元Meta。本人
+@AndrewYNg | moves,money,vc | Coursera共同創業者。AI研究者。本人
+@JeffDean | moves,money,vc | Discovery Loop CEO。元Google。本人
+@mustafasuleyman | moves,money,vc | Microsoft AI CEO。本人
+@satyanadella | moves,money,vc | Microsoft CEO。本人
+@sundarpichai | moves,money,vc | Google CEO。本人
+@patrickc | moves,money,vc | Stripe CEO。本人
+@paulg | moves,money,vc | Y Combinator共同創業者。本人
+@bhorowitz | moves,money,vc | a16z共同創業者。本人
+@reidhoffman | moves,money,vc | LinkedIn共同創業者。投資家。本人
+@vkhosla | moves,money,vc | Khosla Ventures。本人
+@jackclarkSF | moves,money,vc | Anthropic共同創業者。本人
+# --- 日本のVC・スタートアップ (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@thebridge_jp | money,vc,moves | 日本のテックスタートアップ報道(THE BRIDGE)。確認済み
+@Kepple_jp | money,vc | 資金調達中心のスタートアップ報道(KEPPLE)。確認済み
+@coral_capital | money,vc | 日本のVC(Coral Capital)公式。確認済み
+@sogyotecho | money,vc | 起業・資金調達の情報(創業手帳)。確認済み
+# --- 日本の上場企業ニュース (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@kabutan_jp | moves,money,vc | 株探(株式・企業情報サイト)公式。確認済み
+@Nikkei_Business | moves,money,vc | 日経電子版「ビジネス」公式。確認済み
+@tdnet_jp | money,deep | 適時開示情報(上場企業の開示)のbot。確認済み
+# --- 日本のスタートアップ報道 (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@nikkei_startup | money,vc,moves | 日経スタートアップ(日経の公式)。確認済み
+@startupnews_jp | money,vc | スタートアップ・ベンチャーのニュースを集める。個人運営。確認済み
+@JapanVenture | vc,money | 日本のスタートアップ事情を伝えるブログ・番組。確認済み
+# --- 海外の日本関連報道(英語) (2026-11-21 追加。scripts/x_check.py で自己紹介を確認) ---
+@japantimes | moves,money | The Japan Times。英字紙の公式。確認済み
+@SoraNews24 | money | 日本の話題を英語で配信。確認済み
+@JapanTodayNews | money,moves | 日本の英語ニュース。確認済み
+@NHKWORLD_News | moves,money | NHK WORLD 公式(英語)。確認済み
+@e27co | money,vc | アジアのテック・スタートアップ報道。確認済み
+# --- 公的な投資・貿易の情報 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@JETRO_info | money,vc | ジェトロ(日本貿易振興機構)公式。日本のスタートアップ投資の情報。確認済み
+# --- 日本のVC (2026-11-21 追加。公式サイトのXリンクと自己紹介で確認) ---
+@UTEC_official | money,vc | UTEC(東京大学エッジキャピタル)公式。公式サイトのリンクと一致。確認済み
+# --- 日本のVC (2026-11-21 追加。公式サイトのXリンクと自己紹介で確認) ---
+@globalbrains_jp | money,vc | グローバル・ブレイン(Global Brain)公式。公式サイトのリンクと一致。確認済み
+# --- 候補の追加 (2026-11-21。x_check.py で自己紹介を確認。Geminiは枠切れのため今回は使わず) ---
+@hardmaru | moves,deep | Sakana AI 共同創業者・CEO(日本のAI新興)。確認済み
+@DarioAmodei | moves,money | Anthropic CEO。確認済み
+@drfeifei | moves,money,deep | World Labs 創業者(AI研究者)。確認済み
+@kleinerperkins | vc,money | Kleiner Perkins(米国VC)公式。確認済み
+@GreylockVC | vc,money | Greylock(米国VC)公式。確認済み
+@IndexVentures | vc,money | Index Ventures(欧米のVC)公式。確認済み
+@Accel | vc,money | Accel(米国VC)公式。確認済み
+@founders_fund | vc,money | Founders Fund(米国VC)公式。確認済み
+@Crunchbase | money,vc | 資金調達データ・報道。確認済み
+@PitchBook | money,vc | 非公開市場のデータ。確認済み
+@axios | moves,money | 米国の報道(Axios)公式。確認済み
+@semafor | moves,money | 世界の報道(Semafor)公式。確認済み
+@WSJ | moves,money | The Wall Street Journal 公式。確認済み
+# --- 海外の投資家・起業家 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@naval | vc,money | 投資家・起業家。確認済み
+@balajis | vc,deep | 起業家・投資家(Network School)。確認済み
+@sarahguo | vc,money,moves | Conviction 創業者(AI投資)。確認済み
+@dwarkesh_sp | deep | Dwarkesh Podcast(AI・起業家へのインタビュー)。確認済み
+@NFX | vc,money | NFX(米国の初期VC)公式。確認済み
+@hunterwalk | vc,money | Homebrew 共同創業者(VC)。確認済み
+@Jason | vc,money | 投資家・番組司会(All-In)。確認済み
+@TurnerNovak | vc,money | Banana Capital 投資家。確認済み
+@jasonlk | vc,money | SaaStr 創業者・投資家。確認済み
+# --- 公式サイトのリンクから見つけたもの (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@Inc42 | money,vc | インドのスタートアップ報道(Inc42)公式。確認済み
+@DealStreetAsia | money,vc | アジアのPE・VC・調達の報道。確認済み
+@aiwatch_jp | deep,moves | 日本のAIニュース(AI Watch)公式。確認済み
+# --- 日本のテック・半導体の情報 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@nikkei_tech | money,moves,deep | 日経電子版「テック」公式(AI・スタートアップ)。確認済み
+@zubo_semicon | deep | 半導体業界の情報発信(現役エンジニアの個人)。確認済み
+
+# --- 新モデル・新プロジェクトを流す英語圏のアカウント (2026-11-21 追加。PCのブラウザでプロフィールの表示・フォロワー数・最近の投稿の日付を確認) ---
+@claudeai | moves,deep | Claude公式(Anthropicの製品アカウント)。確認済み
+@OpenAIDevs | deep | OpenAI開発者向けの公式(Codex・API)。確認済み
+@GoogleAI | deep | Google AI公式。確認済み
+@AIatMeta | moves,deep | Meta AI公式。確認済み
+@huggingface | deep | Hugging Face公式。新モデルの公開が多い。確認済み
+@deepseek_ai | money,deep | DeepSeek公式(中国のAI新興)。確認済み
+@OfficialLoganK | deep | Google Gemini・AI Studio担当。本人の表示を確認
+@_akhaliq | deep | AI論文・新モデルの紹介(Hugging Face所属)。確認済み
+@perplexity_ai | money,deep | Perplexity公式。確認済み
+@cursor_ai | money,deep | Cursor(AIコーディング)公式。確認済み
+@Alibaba_Qwen | moves,deep | Qwen(Alibabaのモデル)公式。11/16・11/18の投稿を確認
+@simonw | deep | Simon Willison。新モデルを試して書く開発者。11/19・11/20の投稿を確認
+@swyx | moves,deep | AI開発者向けの発信者(Latent Space等)。11/20・11/21の投稿を確認

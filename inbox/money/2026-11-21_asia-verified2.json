@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Boyu Capital・IDG Capital(リード)・Tencent・HSG・ZhenFundほか",
+   "to": "Manus(運営会社Butterfly Effect)",
+   "kind": "出資",
+   "amount": "5億ドル超(報道ベース。評価額は非公表。「約40億ドルで協議中」は別の報道の引用)",
+   "date": "2026-10-08",
+   "region": "中国・シンガポール",
+   "backfill": true,
+   "note": "東南アジア・日本語の番組の説明文の候補一覧(inbox/media/candidates-2026-11-21.md)から見つけ、TechCrunchの本文を開いて日付・金額・リード・既存株主を確認した。Metaによる20億ドル超の買収が取り消されたあとの最初の資金調達",
+   "src": [
+    [
+     "TechCrunch(2026-10-08)",
+     "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "候補37件のうち、本文を開いて確かめられたのはManusのみ。Genspark(シリーズB延長)はBusinessWire・Axios・Dealroomが開けず見送り。Anew Labs(ByteDance系AI創薬、2.9億ドル)はDealStreetAsiaの見出しと日付(2026-09-16)しか読めず、出資者を確かめられないため見送り。残りは日本語の解説番組の要約文で、個別の出典が必要なため未確認"
+}

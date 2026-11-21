@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-21",
+ "kind": "moves",
+ "notes": "過去の動画・番組(20VC・TBPN・Big Technology)のタイトルから探した過去の動き。過去の動画・番組のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+ "items": [
+  {
+   "name_en": "CJ Desai",
+   "name_ja": "CJ・デサイ",
+   "from": "MongoDB(CEO)",
+   "to": "Meta(Meta Enterprise Platform の責任者)",
+   "role": "企業向けAI事業の責任者(Zuckerbergに直接報告)",
+   "date": "2026-09-28",
+   "region": "米国",
+   "backfill": true,
+   "note": "動画のタイトルは『Metaが MongoDBのCEOを引き抜き』。検索では Dev Ittycheriaではなく CJ Desai が Metaへ移り、Ittycheria は MongoDBの暫定CEOに戻ったと確認(名前の取り違えに注意)。過去の動画・番組のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Reuters経由 The Star(2026/9/28)",
+     "https://www.thestar.com.my/tech/tech-news/2026/09/28/meta-taps-mongodb-ceo-desai-to-drive-enterprise-ai-push"
+    ],
+    [
+     "Blocks & Files(2026/9/28)",
+     "https://blocksandfiles.com/public-cloud/2026/09/28/mongodb-ceo-walks-across-to-meta/5299537"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Dave Dugan",
+   "name_ja": "デイブ・デュガン",
+   "from": "Meta(グローバル顧客・代理店担当VP)",
+   "to": "OpenAI(グローバル広告ソリューション担当VP)",
+   "role": "広告事業の責任者(COOのBrad Lightcapに報告)",
+   "date": "2026-03-23",
+   "region": "米国",
+   "backfill": true,
+   "note": "Metaに12年以上いた幹部が3月に退任し、OpenAIの広告事業を率いる。過去の動画・番組のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Skift(2026/3/23)",
+     "https://skift.com/2026/03/23/openai-gets-serious-about-chatgpt-ads-hires-former-meta-exec/"
+    ],
+    [
+     "MediaPost(2026/3)",
+     "https://www.mediapost.com/publications/article/413761/meta-ad-veteran-david-dugan-to-head-openai-ads-team/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Roelof Botha",
+   "name_ja": "ルーロフ・ボータ",
+   "from": "Sequoia Capital(スチュワード=トップ)",
+   "to": "Sequoia Capital(助言役。Alfred LinとPat Gradyが共同スチュワードに)",
+   "role": "トップ交代",
+   "date": "2025-11-04",
+   "region": "米国",
+   "backfill": true,
+   "note": "Botha が退き、Alfred Lin と Pat Grady が後任の共同スチュワードに。過去の動画・番組のタイトルから探し、検索結果の要約で複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Fortune(2025/11/4)",
+     "https://fortune.com/2025/11/04/roelof-botha-steps-aside-as-sequoias-steward-passing-the-role-to-alfred-lin-and-pat-grady/"
+    ],
+    [
+     "TechCrunch(2025/11/4)",
+     "https://techcrunch.com/2025/11/04/sequoia-names-alfred-lin-and-pat-grady-as-new-co-stewards-as-roelof-botha-steps-down"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}

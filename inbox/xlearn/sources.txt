@@ -1,0 +1,28 @@
+# 公式ニュースの一覧ページ(毎朝見る)。足すだけ。形式: 会社 | URL
+# クラウドから読めない会社は、許可が増えたらここに足す(openai.com, x.ai, blog.google, deepmind.google, ai.meta.com, mistral.ai, blogs.nvidia.com など)
+Anthropic | https://www.anthropic.com/news
+Cursor | https://cursor.com/blog
+OpenAI | https://openai.com/news/
+Meta | https://ai.meta.com/blog/
+NVIDIA | https://blogs.nvidia.com/
+HuggingFace | https://huggingface.co/blog
+GitHub | https://github.blog/ai-and-ml/
+Mistral | https://mistral.ai/news/
+Google | https://blog.google/innovation-and-ai/models-and-research/gemini-models/rss/
+Perplexity | https://www.perplexity.ai/hub/blog
+Microsoft | https://news.microsoft.com/source/topics/ai/
+xAI | https://docs.x.ai/release-notes
+DeepSeek | https://api-docs.deepseek.com/updates
+Microsoft AI | https://microsoft.ai/news/
+Apple | https://machinelearning.apple.com/
+Apple | https://www.apple.com/newsroom/
+Amazon | https://aws.amazon.com/blogs/aws/
+Cohere | https://cohere.com/blog
+Alibaba Qwen | https://qwen.ai/blog
+Alibaba Qwen | https://qwenlm.github.io/blog/
+Moonshot | https://www.kimi.com/
+Stability AI | https://stability.ai/news
+Databricks | https://www.databricks.com/blog
+OpenRouter | https://openrouter.ai/announcements
+# 読めない: x.ai/news(403。代わりに docs.x.ai を見る)
+Z.ai | https://docs.z.ai/release-notes.md
