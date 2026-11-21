@@ -9,7 +9,7 @@
           asof:'確かめた日', works:[['作品名','作者']](本・映画の欄だけ。「影響の線」の図に使う), src:[['出典の名前','URL']], link:'相関図の会社のキー(任意。例 openai)'} */
 const FUN_CATS=[
  {k:'gear',n:'愛用品・服装',d:'いつも身につけているもの・決まった服装。本人や報道が公に語ったものだけ'},
- {k:'book',n:'本・映画',d:'誰が、どの本に影響を受けたと語っているか(人 → 作品・作者)'},
+ {k:'book',n:'本・映画',d:'誰が、どの本・映画に影響を受けた(関わった)と語っているか(人 → 作品・作者)'},
  {k:'name',n:'社名の由来',d:'会社名・サービス名の名前の由来'},
  {k:'habit',n:'朝の習慣',d:'公の場で本人が話した習慣・日課(健康や家族の話は扱いません)'},
  {k:'quote',n:'失敗談・名言',d:'株主あての手紙や上場の書類など、一次の出典で文面を確かめられたものを優先'}
@@ -25,7 +25,10 @@ book:[
  {p:'イーロン・マスク',en:'Elon Musk',works:[['指輪物語','J・R・R・トールキン'],['ファウンデーション','アイザック・アシモフ'],['銀河ヒッチハイク・ガイド','ダグラス・アダムズ']],t:'「指輪物語」「ファウンデーション」「銀河ヒッチハイク・ガイド」',note:'本の虫で、成功の一部はこの3作を読んだおかげだと語ってきたと紹介されている。',cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「Elon Musk」(生い立ちの項)','https://en.wikipedia.org/wiki/Elon_Musk']],link:'xai'},
  {p:'孫正義(ソフトバンクグループ)',en:'Masayoshi Son',works:[['竜馬がゆく','司馬遼太郎']],t:'司馬遼太郎「竜馬がゆく」',note:'高校に入ったころ、家庭教師にすすめられた「竜馬がゆく」を愛読したと紹介されている。(日本語版Wikipediaの記述。そのあとの「脱藩にあこがれて渡米を決めた」部分には、同ページで「要出典」の印が付いているので載せていません)',y:'1973年ごろ',cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「孫正義」(高校・大学時代の項)','https://ja.wikipedia.org/wiki/孫正義']],link:'softbank'},
  {p:'マーク・ザッカーバーグ',en:'Mark Zuckerberg',t:'2015年「2週間に1冊読む」宣言。最初の1冊は「The End of Power」',note:'2015年1月、「A Year of Books」と名づけた読書の挑戦を始め、最初にモイセス・ナイムの「The End of Power」を選んだ。この本はAmazonで売り切れたと報じられた。',y:'2015',works:[['The End of Power','モイセス・ナイム']],cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「The End of Power」(受容の項)','https://en.wikipedia.org/wiki/The_End_of_Power']],link:'meta'},
- {p:'ジェフ・ベゾス',en:'Jeff Bezos',t:'いちばん好きな小説は、カズオ・イシグロ「日の名残り」',note:'2003年のNPRの夏の読書特集で、「いちばん好きな小説」として挙げたと報じられている。後に「とても完璧な小説」と話したという報道もある。(「後悔しない選び方」の考え方とつなげる解説は筆者の推測なので載せていません)',y:'2003',works:[['日の名残り','カズオ・イシグロ']],cf:'r',chk:'s',asof:'2026/11/21',src:[['NPR「Summer Reading: Jeff Bezos」(2003/6/8)','https://www.npr.org/2003/06/08/1291535/summer-reading-jeff-bezos']],link:''}
+ {p:'ジェフ・ベゾス(Amazon)',en:'Jeff Bezos',works:[['スター・トレック','']],t:'アレクサの目標は「スタートレックのコンピューター」。映画にも出演',note:'2011年、アレクサのもとになる計画の最初の相談で、技術の責任者に「目標はスタートレックのコンピューターをつくること」と話したと紹介されている。2016年の映画「スター・トレック BEYOND」には、ベゾスが宇宙艦隊の宇宙人の役でカメオ出演(アレクサと音声認識への関心から、制作会社に自分で頼んだと報じられている)。家族の会社「Zefram LLC」の名前も、作中の人物ゼフラム・コクランから。',y:'2011〜2016',cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「Jeff Bezos」(スター・トレックの記述)','https://en.wikipedia.org/wiki/Jeff_Bezos'],['Wikipedia「Star Trek Beyond」(出演者の項)','https://en.wikipedia.org/wiki/Star_Trek_Beyond']],link:''},
+ {p:'ジェフ・ベゾス',en:'Jeff Bezos',t:'いちばん好きな小説は、カズオ・イシグロ「日の名残り」',note:'2003年のNPRの夏の読書特集で、「いちばん好きな小説」として挙げたと報じられている。後に「とても完璧な小説」と話したという報道もある。(「後悔しない選び方」の考え方とつなげる解説は筆者の推測なので載せていません)',y:'2003',works:[['日の名残り','カズオ・イシグロ']],cf:'r',chk:'s',asof:'2026/11/21',src:[['NPR「Summer Reading: Jeff Bezos」(2003/6/8)','https://www.npr.org/2003/06/08/1291535/summer-reading-jeff-bezos']],link:''},
+ {p:'イーロン・マスク',en:'Elon Musk',t:'映画「アイアンマン2」に、本人役で出演',note:'2010年の映画「アイアンマン2」に、テスラのCEOとして本人の役で登場する。オラクルのラリー・エリソンも同じく本人役で出ている。',works:[['アイアンマン2(映画)','']],y:'2010',cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「Iron Man 2」(出演者の項)','https://en.wikipedia.org/wiki/Iron_Man_2']],link:'xai'},
+ {p:'サム・アルトマン(OpenAI)',en:'Sam Altman',t:'GPT-4oの発表の日に、「her」とだけ投稿',note:'2024年5月13日、GPT-4oの宣伝として「her」の1語を投稿した。2013年の映画「Her」は、スカーレット・ヨハンソンが声を演じるAIの話。GPT-4oの声の1つ「Sky」が彼女の声に似ていると話題になり、OpenAIは「別の女優の声で、まねではない」と説明したうえで、5月20日にこの声を止めた。',works:[['Her(2013年の映画)','']],y:'2024',cf:'r',chk:'o',asof:'2026/11/21',src:[['Wikipedia「GPT-4o」(論争の項)','https://en.wikipedia.org/wiki/GPT-4o']],link:'openai'}
 ],
 name:[
  {p:'Google',en:'Google',t:'「googol(10の100乗)」のつづり違い',note:'1の後ろに0が100個つく数「googol」を、つづりを変えて社名にした。ものすごく多くのページを探せる、という意味を込めたと説明されている。上場書類(S-1/A)に付いているPlayboy誌のインタビューにも、同じ説明がある。',y:'1998',cf:'f',chk:'o',asof:'2026/11/21',src:[['Google 上場の書類 S-1/A(SEC、2004/8、Playboyインタビューの章)','https://www.sec.gov/Archives/edgar/data/1288776/000119312504142742/ds1a.htm'],['Wikipedia「Google」','https://en.wikipedia.org/wiki/Google']],link:'google'},
@@ -69,7 +72,7 @@ function funFor(names,codes){
 /* 本・映画: 「誰が → どの作品(作者)」の線の図。works のある件から作る */
 function funInfluenceSvg(list){
   const pe=[],wk=[],ed=[];
-  list.forEach(e=>(e.works||[]).forEach(w=>{let a=pe.indexOf(e.p);if(a<0){a=pe.length;pe.push(e.p)}const k=w[0]+'|'+w[1];let b=wk.findIndex(x=>x[0]+'|'+x[1]===k);if(b<0){b=wk.length;wk.push(w)}ed.push([a,b])}));
+  list.forEach(e=>(e.works||[]).forEach(w=>{const pn=e.p.replace(/\(.*\)$/,'');let a=pe.indexOf(pn);if(a<0){a=pe.length;pe.push(pn)}const k=w[0]+'|'+w[1];let b=wk.findIndex(x=>x[0]+'|'+x[1]===k);if(b<0){b=wk.length;wk.push(w)}ed.push([a,b])}));
   if(!ed.length)return '';
   const rowH=34,n=Math.max(pe.length,wk.length),H=n*rowH+16,W=760;
   const y=(i,m)=>8+(n*rowH-m*rowH)/2+i*rowH+rowH/2;
@@ -116,10 +119,19 @@ function funRender(){
   <div class="fn-tabs" role="group" aria-label="欄">${FUN_CATS.map(c=>`<button type="button" data-fc="${c.k}" aria-pressed="${c.k===funCat}">${c.n}(${all[c.k].length})</button>`).join('')}</div>
   <p class="meta" style="margin:0 0 8px">${funEsc(cur.d)}${nAuto?`(うち自動で追加 ${nAuto}件)`:''}</p>
   <div class="fn-q"><input id="fnq" type="search" placeholder="人・会社・ことばで絞る(例: ベゾス)" value="${funEsc(funQ)}" aria-label="絞り込み"></div>
-  ${funCat==='book'?`<h3 style="margin:4px 0 0;font-size:14px">影響の線(人 → 作品・作者)</h3>${funInfluenceSvg(all.book)}`:''}
+  ${funCat==='book'?`<h3 style="margin:4px 0 0;font-size:14px">つながりの線(人 → 作品・作者)</h3>${funInfluenceSvg(all.book)}`:''}
   ${list.length?`<ul class="fn-l">${list.map(card).join('')}</ul>`:'<p class="meta">当てはまるものがありません。</p>'}`;
   FEEDEL.querySelectorAll('button[data-fc]').forEach(b=>b.addEventListener('click',()=>{funCat=b.dataset.fc;funRender()}));
   const inp=document.getElementById('fnq');
   inp.addEventListener('input',()=>{funQ=inp.value;const pos=inp.selectionStart;funRender();const n=document.getElementById('fnq');n.focus();n.setSelectionRange(pos,pos)});
   FEEDEL.querySelectorAll('a[data-fgo]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();build(a.dataset.fgo);window.scrollTo(0,0)}));
 }
+
+/* 会社の相関図の概要に出す「おもしろ」の入口(1件だけ。index.html の概要の組み立てから呼ぶ。2026/11/21) */
+function funBtn(){
+  const nm=(typeof COMPANIES!=='undefined'&&COMPANIES[comp])?COMPANIES[comp].name:'';if(!nm)return '';
+  const fz=funFor([nm],[comp]).filter(e=>e.chk==='o'||e.cf==='f');if(!fz.length)return '';
+  const e=fz.find(x=>x.cf==='f')||fz[0];
+  return `<div class="links"><a href="#" id="gofun"><b>おもしろ情報: ${funEsc(e.p)} ${funEsc(e.catn)} ▸</b></a><small style="display:block;color:var(--muted)">${funEsc(e.t)} ${typeof cfBadge==='function'?cfBadge(e.cf):''} ${(e.src&&e.src[0])?`(出典: ${funEsc(e.src[0][0])})`:''}</small></div>`;
+}
+function wireFun(){const g=document.getElementById('gofun');if(g)g.addEventListener('click',ev=>{ev.preventDefault();const nm=COMPANIES[comp].name;const e=funFor([nm],[comp])[0];funQ=nm.length>=3?nm:'';funCat=(FUN_CATS.find(c=>c.n===(e&&e.catn))||FUN_CATS[0]).k;showFun();window.scrollTo(0,0)})}

@@ -37010,8 +37010,8 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}${investBtn()}`;
-  wireAcq();wireVc();wireCommon();wireInvest();wireKk();
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}${investBtn()}${typeof funBtn==='function'?funBtn():''}`;
+  wireAcq();wireVc();wireCommon();wireInvest();if(typeof wireFun==='function')wireFun();wireKk();
   document.querySelectorAll('a.colgo[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();build(a.dataset.k)});
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
