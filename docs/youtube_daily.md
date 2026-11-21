@@ -47,3 +47,6 @@
 - 読むときは、移籍・買収・出資の言葉(acquire / joined / led by / raised など)で絞り、出てきた発言は必ず報道・公式で確かめてから `inbox/` に足す(文字起こしだけでは足さない)
 - Apple Podcastsの番組ページ(podcasts.apple.com)はログイン不要で、直近の回の概要まで読める(文字起こしはない)
 - この方法で2026/11/21に確かめて足したもの: `inbox/money/2026-11-21-pc-media.json`、`inbox/moves/2026-11-21-pc-media.json`
+
+## 出資の候補を説明文から拾う(2026/11/21追加)
+`python3 scripts/media_money_candidates.py [--days 30]` が、番組・動画の説明文から「○○が△ドル調達」「シリーズB」などの具体的な文だけを `inbox/media/candidates-日付.md` に書く。すでに inbox/money にある会社は飛ばす。相関図には入れない。確かめる人が出典の記事を開き、日付・金額・リードを確かめてから inbox/money に足す。
