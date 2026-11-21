@@ -17,3 +17,9 @@
 - Geminiの調査(`gemini_research.py`)は、最新の手がかりのタイトルをプロンプトに添える(探すのはGemini、事実は検索で別の出典を確かめる)
 - 配信元ホストが環境の許可に無いと見られない(2026/11/21に5つを許可して、20番組すべて見られた。以前は 20VC・All-In・Dwarkesh・Latent Space・Odd Lots・Rebuild は2026/11/21時点で未許可。許可すれば自動で見られる): rss.libsyn.com, apple.dwarkesh-podcast.workers.dev, podcast.latent.space, www.omnycontent.com, feeds.rebuild.fm
 - 日本語のYouTubeは NewsPicks・ReHacQ・PIVOT・テレ東BIZ・日経・ソフトバンクグループを足した(計27)
+
+## 過去の動画をさかのぼる(2026/11/21追加)
+- RSSは最新15本までなので、`python3 scripts/yt_deep.py` で各チャンネルの「アップロード一覧」(再生リスト UU+チャンネルID)の公開ページから直近100本(タイトル・長さ・おおよその投稿時期)を読む。30チャンネルで約2900本、約3か月〜1年分。結果は `inbox/youtube/deep/日付.json`(見た動画は `deep/seen.txt`)
+- 説明文は取れない(動画ページはロボット確認で断られる)。タイトルは手がかりなので、報道・公式で確かめてから inbox/moves・money に足す
+- 100本より先(続きの読み込み)は、YouTubeの内部APIを使うことになるので行っていない
+- 新しい許可ドメインは不要(www.youtube.com は許可済み)
