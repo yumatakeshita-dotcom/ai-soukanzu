@@ -1,0 +1,13 @@
+# 装いを調べる人の順番(1行1人: 日本語名|英語名|会社)。上から順に、毎朝2人ずつ調べる。足すだけ。
+小澤隆生|Takao Ozawa|Boost Capital
+孫正義|Masayoshi Son|ソフトバンクグループ
+三木谷浩史|Hiroshi Mikitani|楽天グループ
+前澤友作|Yusaku Maezawa|MZ Web / スタートトゥデイ創業者
+堀江貴文|Takafumi Horie|ホリエモン
+サム・アルトマン|Sam Altman|OpenAI
+ダリオ・アモデイ|Dario Amodei|Anthropic
+スンダー・ピチャイ|Sundar Pichai|Google
+サティア・ナデラ|Satya Nadella|Microsoft
+イーロン・マスク|Elon Musk|Tesla / SpaceX / xAI
+リサ・スー|Lisa Su|AMD
+デミス・ハサビス|Demis Hassabis|Google DeepMind
