@@ -104,3 +104,20 @@
 @axios | moves,money | 米国の報道(Axios)公式。確認済み
 @semafor | moves,money | 世界の報道(Semafor)公式。確認済み
 @WSJ | moves,money | The Wall Street Journal 公式。確認済み
+# --- 海外の投資家・起業家 (2026-11-21 追加。x_check.py で自己紹介を確認) ---
+@paulg | vc,moves,deep | Paul Graham(Y Combinator 創業者)。確認済み
+@naval | vc,money | 投資家・起業家。確認済み
+@reidhoffman | vc,moves,money | LinkedIn 共同創業者・投資家。確認済み
+@balajis | vc,deep | 起業家・投資家(Network School)。確認済み
+@patrickc | money,deep | Stripe CEO。確認済み
+@sarahguo | vc,money,moves | Conviction 創業者(AI投資)。確認済み
+@miramurati | moves,deep | Thinking Machines 創業者(元OpenAI CTO)。確認済み
+@chamath | vc,money | Social Capital 創業者・投資家。確認済み
+@satyanadella | moves,money | Microsoft CEO。確認済み
+@sundarpichai | moves,money | Google CEO。確認済み
+@dwarkesh_sp | deep | Dwarkesh Podcast(AI・起業家へのインタビュー)。確認済み
+@NFX | vc,money | NFX(米国の初期VC)公式。確認済み
+@hunterwalk | vc,money | Homebrew 共同創業者(VC)。確認済み
+@Jason | vc,money | 投資家・番組司会(All-In)。確認済み
+@TurnerNovak | vc,money | Banana Capital 投資家。確認済み
+@jasonlk | vc,money | SaaStr 創業者・投資家。確認済み
