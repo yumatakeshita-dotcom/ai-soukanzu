@@ -2,3 +2,9 @@
 # クラウドから読めない会社は、許可が増えたらここに足す(openai.com, x.ai, blog.google, deepmind.google, ai.meta.com, mistral.ai, blogs.nvidia.com など)
 Anthropic | https://www.anthropic.com/news
 Cursor | https://cursor.com/blog
+OpenAI | https://openai.com/news/
+Meta | https://ai.meta.com/blog/
+NVIDIA | https://blogs.nvidia.com/
+HuggingFace | https://huggingface.co/blog
+GitHub | https://github.blog/ai-and-ml/
+Mistral | https://mistral.ai/news/

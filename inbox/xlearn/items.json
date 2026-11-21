@@ -50,6 +50,32 @@
    ],
    "confidence": "公式",
    "checked": "2026-11-21"
+  },
+  {
+   "id": "2026-11-17-openai-gpt-6-2",
+   "kind": "新モデル",
+   "company": "OpenAI",
+   "date": "2026-11-17",
+   "title_en": "Introducing GPT-6.2 Astra and Sol",
+   "title_ja": "GPT-6.2 Astra と Sol が登場(OpenAIの新モデル2つ)",
+   "translation_ja": "OpenAIの発表(公式)より:「最も難しい仕事向けの最上位モデル GPT-6.2 Astra と、日常の仕事向けで効率のよい GPT-6.2 Sol を発表します。どちらも少ない出力量でより良い結果を出すので、利用枠の中でより多くの仕事ができます。Astraが作るスライド・表・文書は、AIっぽさが減り、指定したテンプレートや各分野の慣習により近づきます。より整ったコードと、見た目・動きのよい画面(特にウェブサイト、ゲーム、3Dデザイン)も作れます。GPT-6.2 Sol は GPT-6.1 Sol より賢く効率的で、同じ有料プランでより多くの作業ができます。」",
+   "what_ja": "OpenAIの新しい2本立てです。Astraは難しい専門業務向け、Solは普段使い向けで、公式によればAPIの料金はAstraが前の版(GPT-6 Astra)より入力・出力とも20%安く、Solは据え置きです。OpenAI自身の比較では、仕事の総合テストでAnthropicのFable 5.2を上回るとしていますが、これはOpenAIが自社で出した数字で、第三者の確認はまだです(公式ページにも、比較相手の結果の扱いについての注記があります)。",
+   "howto": [
+    "ChatGPTの Plus・Pro・Enterprise・Edu の利用者は、公式によれば『ChatGPT Work』とCodexで今日から使える",
+    "企業・学校向けは、管理者が有効にしてから使える",
+    "開発者はOpenAI APIで gpt-6.2-astra または gpt-6.2-sol を指定する",
+    "API料金(100万トークンあたり)は公式によれば、Astraが入力8ドル・キャッシュ入力0.40ドル・出力40ドル、Solが入力2ドル・キャッシュ入力0.10ドル・出力10ドル",
+    "コスト節約のため、公式は『指示の前半は変えず、新しい指示は後ろに足す』ことをすすめている"
+   ],
+   "howto_note": "料金・使える範囲は変わることがあります。公式ページで最新を確認してください。",
+   "sources": [
+    [
+     "OpenAI公式発表(2026/11/17)",
+     "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-21"
   }
  ]
 }
