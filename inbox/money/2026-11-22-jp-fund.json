@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "KUSABI・プライムパートナーズ(Co-Founder Fund)・SMBCベンチャーキャピタル・DebtIs Capital",
+   "to": "Atsumell",
+   "kind": "出資",
+   "amount": "1億8,300万円(プレシリーズA・発表ベース)",
+   "date": "2026-11-17",
+   "note": "AI業務整理サービス「Kakusill」。第三者割当増資、記事本文で確認",
+   "src": [
+    [
+     "THE BRIDGE(2026-11-20)",
+     "https://thebridge.jp/2026/11/atsumell-pre-series-a-183-million-yen"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "THE BRIDGEの資金調達一覧から本文を開いて確認。外したもの: WyL(訪問看護でAI企業でない)。Web検索では新しい日本AIの調達は他に見つからず。ナレッジワーク48億円は日付を確かめられず外した。初回の拾い件数: 7件中4件を残し3件(海外)を外した"
+}
