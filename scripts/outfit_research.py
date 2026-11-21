@@ -112,6 +112,24 @@ def people():
     return [r for r in rows if len(r) >= 3 and r[0] not in done]
 
 
+def run_daily(n=1, dry=False):
+    """毎朝のGemini調査の最後から呼ばれる。次の n 人を調べて保存し、合格分を outfit_auto.js にまとめる"""
+    rows, finished = [], []
+    for ja, en, co in people()[:n]:
+        try:
+            out, _, _ = research_person(ja, en, co)
+        except G.QuotaExhausted as e:
+            print('装いの調査: 上限のため止めた:', e); break
+        rows += out; finished.append(ja)
+    path = save(rows, dry)
+    if finished and not dry:
+        open(DONE, 'a', encoding='utf-8').write('\n'.join(finished) + '\n')
+    if path:
+        import subprocess
+        subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'outfit_merge.py')], check=False)
+    return path
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sp = ap.add_subparsers(dest='cmd', required=True)

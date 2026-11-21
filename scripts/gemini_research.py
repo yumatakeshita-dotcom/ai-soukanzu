@@ -738,6 +738,16 @@ def main():
         # 2026/11/20: 枠切れで後回しにしたテーマが列にあれば、今日の分のあとに1件だけやり直す(定期タスクの文を変えずに拾うため)
         if not a.dry_run and queue_pending():
             retry_queue(max_items=1)
+        # 2026/11/21: 最後に、装いとブランドの調査を1人分だけ(日本の起業家から順に。他の調査のあとなので、他の呼び出しは減らさない。
+        # 上限に達していたら何もしない。1人=1回。くわしくは docs/outfit.md)
+        if not a.dry_run:
+            try:
+                import outfit_research
+                c, m = calls_today(), daily_max()
+                if m <= 0 or c < m:
+                    outfit_research.run_daily(1)
+            except Exception as e:  # 装いの調査の失敗で、毎朝の調査を止めない
+                print('装いの調査をできなかった:', str(e)[:200], file=sys.stderr)
     else:
         res = research(a.topic, a.max, not a.no_check, a.dry_run, verify=not a.no_verify)
         if res.get('markdown'):

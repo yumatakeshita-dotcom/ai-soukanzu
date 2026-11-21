@@ -1,12 +1,12 @@
 {
   "_説明": "Gemini API の1日あたりの上限と、有料にした場合の目安の「仮定」。ここを直せば上限が変わる(コードは触らない)。環境変数 GEMINI_DAILY_MAX があればそちらを優先。",
-  "daily_max_calls": 18,
-  "_daily_max_calls": "1日(日本時間)に Gemini を呼べる回数。成功・枠切れ・混雑のやり直しも全部数える。無料枠は検索つきで1モデル1日20回前後なので、その範囲内の18。0 以下なら上限なし。上限に達したら調査は止まり、テーマはやり直す列(inbox/gemini/queue.jsonl)に回って翌朝に調べる(宿題リストは状態を変えず翌朝に同じ項目)。",
+  "daily_max_calls": 19,
+  "_daily_max_calls": "1日(日本時間)に Gemini を呼べる回数。成功・枠切れ・混雑のやり直しも全部数える。無料枠は検索つきで1モデル1日20回前後なので、その範囲内の19(2026/11/21: 18→19。装いの調査の1回分。無料枠20回の範囲内)。0 以下なら上限なし。上限に達したら調査は止まり、テーマはやり直す列(inbox/gemini/queue.jsonl)に回って翌朝に調べる(宿題リストは状態を変えず翌朝に同じ項目)。",
   "warn_at_fraction": 0.8,
   "assumed_price": {
     "_注意": "すべて仮定。公式の料金表で確かめた値ではない。有料に切り替える前に Google の料金ページで確かめること。",
-    "usd_per_million_input_tokens": 0.30,
-    "usd_per_million_output_tokens": 2.50,
+    "usd_per_million_input_tokens": 0.3,
+    "usd_per_million_output_tokens": 2.5,
     "usd_per_search_grounded_call": 0.035,
     "yen_per_usd": 150
   }
