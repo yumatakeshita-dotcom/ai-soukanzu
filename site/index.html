@@ -169,7 +169,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -258,6 +258,8 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/movelab.js"></script>
 <script src="data/finds.js"></script>
 <script src="data/common.js"></script>
+<script src="data/flowrank.js"></script>
+<script src="data/invest.js"></script>
 <script src="data/cfhist.js"></script>
 <script src="data/exectl.js"></script>
 <script>
@@ -36318,13 +36320,136 @@ function cfSummaryHtml(){
 }
 (function(){const s=document.getElementById('cfmode');if(!s)return;s.value=cfMode;s.addEventListener('change',()=>{cfMode=s.value;try{localStorage.setItem('cfmode',cfMode)}catch(e){}if(typeof draw==='function'&&N&&N.length)draw()})})();
 // 人の動きの確かめ直し(2026/11/18): 調査タスクが足した線(finds.js)は書き換えず、図を作るときに確かめた出典を足す
-// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと, 確かめた日(省くと2026/11/18)]
+// [人の名前, 相手の会社名の一部(空なら、その人のすべての線), 出典キー, 説明に足すひとこと, ...続き]
+// 続き(順番は自由・省いてよい): 確かめた日 '2026/11/19'(省くと2026/11/18)、付ける会社の図の一覧 ['openai']、線の種類 'from'(出身)か'moved'(移籍先)
+// 2026/11/18 古い移籍(OpenAI→Anthropic)に出典を足した(足すだけ)。人材の流れ・営業資料の「2社のあいだの移籍」で使う
+Object.assign(DS,{
+ v_ant2021:['Anthropic公式発表(2021/5/28、ダリオ・アモデイCEO、ダニエラ・アモデイ社長で設立)','https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems','o'],
+ v_tc2021:['TechCrunch(2021/5/28、OpenAIの研究担当VPだったダリオ・アモデイが設立)','https://techcrunch.com/2021/05/28/anthropic-is-the-new-ai-research-outfit-from-openais-dario-amodei-and-it-has-124m-to-burn/','r'],
+ v_schul:['SiliconANGLE(2024/8/6、シュルマン本人のXの投稿を報道)','https://siliconangle.com/2024/08/06/openai-co-founder-john-schulman-joins-rival-llm-developer-anthropic/','r'],
+ v_leike:['Bloomberg(2024/5/28、ライケ本人のXの投稿を報道)','https://www.bloomberg.com/news/articles/2024-05-28/ex-openai-safety-leader-leike-to-join-rival-anthropic','r'],
+ v_kingma:['TechCrunch(2024/10/1、キングマ本人のXの投稿を報道。直前はGoogle)','https://techcrunch.com/2024/10/01/anthropic-hires-openai-co-founder-durk-kingma/','r'],
+ v_olah:['クリス・オラ本人のサイト(About、OpenAIで解釈可能性の研究を率いた)','https://colah.github.io/about.html','s'],
+ v_forbes7:['Forbes(2025/1、Anthropicは2021年にOpenAIの元社員7人が設立。7人の名前つき)','https://www.forbes.com.au/news/innovation/anthropics-pending-60-billion-valuation-will-make-all-seven-cofounders-billionaires/','r'],
+ v_msl:['Fortune(2025/7/2、ザッカーバーグの社内メモで新たな採用者として名前つき)','https://fortune.com/2025/07/02/key-takeaways-from-mark-zuckerbergs-memo-on-metas-new-superintelligence-ai-effort-and-key-hires/','r'],
+ v_ssi24:['The Bridge(2024/6/20、サツケバー氏がSafe Superintelligence設立を発表と報道)','https://thebridge.jp/2024/06/openai-co-founder-ilya-sutskever-announces-new-startup-to-tackle-safe-superintelligence','r'],
+ v_eureka24:['The Bridge(2024/7、カルパシー氏がEureka Labs設立を発表と報道)','https://thebridge.jp/2024/07/ex-openai-and-tesla-engineer-andrej-karpathy-announces-ai-native-school-eureka-labs','r'],
+ v_patil25:['Anthropic公式(2025/10、元Stripe CTOのラフル・パティル氏がCTOに就任)','https://www.anthropic.com/news/rahul-patil-joins-anthropic','o'],
+ v_boost24:['Forbes JAPAN(2024/3、ブーストキャピタルの共同GP3人の経歴: 小澤隆生=元ヤフー社長、堀新一郎=元ZVC社長、高橋健太=マッキンゼー・MBK出身)','https://forbesjapan.com/articles/detail/69783','r'],
+ v_krieger24:['Anthropic公式(2024/5/15、マイク・クリーガー氏が最高製品責任者として入社)','https://anthropic.com/news/mike-krieger-joins-anthropic','o'],
+ v_covar24:['GeekWire(2024/8/31、Amazonがコバリアントの創業者3人を採用しライセンス契約を結んだと報道)','https://www.geekwire.com/2024/08/31/amazon-hires-covariant-founders-inks-licensing-deal-with-robotics-ai-startup-in-latest-reverse-acquihire-deal/','r'],
+ v_adept24:['TechCrunch(2024/6/28、Amazonがアデプトの創業者らを採用しライセンス契約と報道)','https://techcrunch.com/2024/06/28/amazon-hires-founders-away-from-ai-startup-adept','r'],
+ v_lecun25:['Engadget(2025/11/19、LeCun氏が12年勤めたMetaを離れ新会社を立ち上げると報道。本人のLinkedIn発表を引用)','https://www.engadget.com/ai/metas-chief-ai-scientist-is-leaving-the-company-after-12-years-224325268.html','r'],
+ v_groq25:['Groq公式(2025/12/24、NvidiaとGroqが推論技術の非独占ライセンス契約。ロス氏・マドラ氏らがNvidiaに参加)','https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale','o'],
+ v_zrh:['Fortune(2025/6/26、ベイヤー本人がXで3人のMeta入りを表明したと報道)','https://fortune.com/2025/06/26/former-openai-researcher-lucas-beyer-pours-cold-water-on-100-million-meta-signing-bonus/','r'],
+ v_weichung:['Sherwood News(2025/7、Wiredの報道を受けて2人のMeta入りを報道)','https://sherwood.news/tech/two-more-top-openai-researchers-defect-to-meta/','r'],
+ v_tml25:['Fortune(2025/2/18、Thinking Machines Labの発表と元OpenAIの経営陣)','https://fortune.com/2025/02/18/former-openai-cto-mira-murati-finally-unveils-her-thinking-machines-lab-startup-and-a-leadership-team-stacked-with-former-openai-colleagues/','r'],
+ v_tml26:['TechCrunch(2026/1/14、ゾフ・メッツらのOpenAI復帰。OpenAIのフィジー・シモがXで発表)','https://techcrunch.com/2026/01/14/mira-muratis-startup-thinking-machines-lab-is-losing-two-of-its-co-founders-to-openai/','r'],
+ v_tml26b:['Fortune(2026/1/16、ショーンホルツ、リア・ガイらのOpenAI入り)','https://fortune.com/2026/01/16/mira-murati-thinking-machines-staff-defections-openai-zoph-metz-schoenholz/','r'],
+ v_pang26:['Business Today(2026/2/26、The InformationがOpenAIの広報の話として報道)','https://www.businesstoday.in/technology/news/story/from-apple-to-meta-to-openai-in-7-months-who-is-ruoming-pang-518181-2026-02-26','r'],
+ v_schul25:['Bloomberg(2025/2/6、シュルマンがAnthropicを離れ、ムラティの新会社へ。Anthropicがコメント)','https://www.bloomberg.com/news/articles/2025-02-06/openai-co-founder-john-schulman-leaves-rival-firm-anthropic','r'],
+ v_tulloch:['TechCrunch(2025/10/11、タロックがTMLからMetaへ。Metaに11年いて2023年にOpenAIへ移り、TMLを共同創業。TMLの広報が退社を確認)','https://techcrunch.com/2025/10/11/thinking-machines-lab-co-founder-andrew-tulloch-heads-to-meta/','r'],
+ v_xschul:['ジョン・シュルマン本人のX(2024/8/6、OpenAIを離れる決断を同僚に伝えたメモを投稿)','https://x.com/johnschulman2/status/1820610863499509855','s'],
+ v_xleike:['ヤン・ライケ本人のXのプロフィール(2026/11/19確認、Anthropicで研究、前はOpenAIとDeepMind)','https://x.com/janleike','s'],
+ v_xkingma:['ダーク・キングマ本人のXのプロフィール(2026/11/19確認、Anthropic。前はGoogle Brain/DeepMind、OpenAIの創業チーム)','https://x.com/dpkingma','s'],
+ v_xclark:['ジャック・クラーク本人のXのプロフィール(2026/11/19確認、Anthropic。前はOpenAIなど)','https://x.com/jackclarkSF','s'],
+ v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
+});
 const VERIFY_PPL=[
  ['ビル・ピーブルズ','','v_peebles','本人のXの投稿で確認'],
  ['ケイト・ラウチ','','v_rouch','本人のXの投稿で確認'],
  ['アンドリュー・ミリッチ','','v_milich','本人のXの投稿で確認'],
  ['デベンドラ・チャプロット','','v_chaplot','本人のXの投稿で確認'],
  ['ジョナサン・ロス','Nvidia','v_groqnv','Groqの公式発表で確認'],
+ ['ダリオ・アモデイ','Anthropic','v_ant2021','Anthropic公式発表で確認。OpenAI出身はTechCrunchの報道ベース',['openai']],
+ ['ダリオ・アモデイ','OpenAI','v_ant2021','Anthropic公式発表で確認。OpenAI出身はTechCrunchの報道ベース',['anthropic']],
+ ['ダリオ・アモデイ','Anthropic','v_tc2021','',['openai']],
+ ['ダリオ・アモデイ','OpenAI','v_tc2021','',['anthropic']],
+ ['ダニエラ・アモデイ','Anthropic','v_ant2021','Anthropic公式発表で確認。OpenAI出身は報道ベース',['openai']],
+ ['ダニエラ・アモデイ','OpenAI','v_ant2021','Anthropic公式発表で確認。OpenAI出身は報道ベース',['anthropic']],
+ ['ダニエラ・アモデイ','Anthropic','v_tc2021','',['openai']],
+ ['ダニエラ・アモデイ','OpenAI','v_tc2021','',['anthropic']],
+ ['ジョン・シュルマン','Anthropic','v_schul','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ジョン・シュルマン','OpenAI','v_schul','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['ヤン・ライケ','Anthropic','v_leike','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ヤン・ライケ','OpenAI','v_leike','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['ダーク・キングマ','Anthropic','v_kingma','本人のXの投稿を報じた記事で確認',['openai']],
+ ['ダーク・キングマ','OpenAI','v_kingma','本人のXの投稿を報じた記事で確認',['anthropic']],
+ ['クリス・オラ','Anthropic','v_olah','本人のサイトで確認',['openai']],
+ ['クリス・オラ','OpenAI','v_olah','本人のサイトで確認',['anthropic']],
+ ['ジャレッド・カプラン','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['ジャレッド・カプラン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['ジャック・クラーク','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['ジャック・クラーク','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['トム・ブラウン','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['トム・ブラウン','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['サム・マッキャンドリッシュ','Anthropic','v_forbes7','Forbesの報道で確認(報道ベース)',['openai']],
+ ['サム・マッキャンドリッシュ','OpenAI','v_forbes7','Forbesの報道で確認(報道ベース)',['anthropic']],
+ ['シェンジア・ジャオ','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['シェンジア・ジャオ','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ジアフイ・ユー','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ジアフイ・ユー','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ホンユー・レン','OpenAI','v_msl','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ホンユー・レン','Meta','v_msl','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['イリヤ・スツケバー','Safe Superintelligence','v_ssi24','設立の発表を報じた記事で確認','moved','2026/11/20'],
+ ['アンドレイ・カルパシー','Eureka','v_eureka24','Eureka Labs設立の発表を報じた記事で確認','moved','2026/11/20'],
+ ['ラフル・パティル','Anthropic','v_patil25','Anthropic公式発表で確認','moved','2026/11/20'],
+ ['ラフル・パティル','Stripe','v_patil25','Anthropic公式発表で確認','from','2026/11/20'],
+ ['小澤隆生','Yahoo','v_boost24','Forbes JAPANの紹介記事で確認(報道ベース)','2026/11/21'],
+ ['高橋健太','McKinsey','v_boost24','Forbes JAPANの紹介記事で確認(報道ベース)','2026/11/21'],
+ ['高橋健太','MBK','v_boost24','Forbes JAPANの紹介記事で確認(報道ベース)','2026/11/21'],
+ ['マイク・クリーガー','Anthropic','v_krieger24','Anthropic公式発表で確認','2026/11/21'],
+ ['ピーター・アビール','Amazon','v_covar24','報道で確認(報道ベース)','2026/11/21'],
+ ['ピーター・チェン','Amazon','v_covar24','報道で確認(報道ベース)','2026/11/21'],
+ ['デビッド・ルアン','Amazon','v_adept24','報道で確認(報道ベース)','2026/11/21'],
+ ['ヤン・ルカン','AMI','v_lecun25','退社の発表を報じた記事で確認(報道ベース)','2026/11/21'],
+ ['サニー・マドラ','Nvidia','v_groq25','Groq公式発表で確認','2026/11/21'],
+ ['ルーカス・ベイヤー','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['ルーカス・ベイヤー','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['アレクサンダー・コレスニコフ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['アレクサンダー・コレスニコフ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['シャオファ・ザイ','OpenAI','v_zrh','本人のXの投稿を報じた記事で確認',['meta'],'from','2026/11/19'],
+ ['シャオファ・ザイ','Meta','v_zrh','本人のXの投稿を報じた記事で確認',['openai'],'moved','2026/11/19'],
+ ['ジェイソン・ウェイ','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ジェイソン・ウェイ','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ヒョンウォン・チョン','OpenAI','v_weichung','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ヒョンウォン・チョン','Meta','v_weichung','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ミラ・ムラティ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ミラ・ムラティ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['バレット・ゾフ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['バレット・ゾフ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['リリアン・ウェン','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['リリアン・ウェン','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['ルーク・メッツ','OpenAI','v_tml25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ルーク・メッツ','Thinking Machines','v_tml25','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['バレット・ゾフ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['バレット・ゾフ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['ルーク・メッツ','Thinking Machines','v_tml26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['ルーク・メッツ','OpenAI','v_tml26','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['サム・ショーンホルツ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['サム・ショーンホルツ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['リア・ガイ','Thinking Machines','v_tml26b','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['リア・ガイ','OpenAI','v_tml26b','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['ルオミン・パン','Meta','v_pang26','報道で確認(報道ベース)',['openai'],'from','2026/11/19'],
+ ['ルオミン・パン','OpenAI','v_pang26','報道で確認(報道ベース)',['meta'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','報道で確認(報道ベース)',['anthropic'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','Anthropic','v_schul25','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['ジョン・シュルマン','Thinking Machines','v_schul25','直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['openai'],'moved','2026/11/19'],
+ ['ジョン・シュルマン','OpenAI','v_schul25','直接の移籍ではなく、2024年8月にAnthropicへ移り、2025年2月にThinking Machines Labへ移った(人材の流れでは「経由」として数えない)',['tml'],'from','2026/11/19'],
+ ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['openai'],'moved','2026/11/19'],
+ ['アンドリュー・タロック','OpenAI','v_tulloch','報道で確認(報道ベース)',['tml'],'from','2026/11/19'],
+ ['アンドリュー・タロック','Meta','v_tulloch','報道で確認(報道ベース)',['tml'],'moved','2026/11/19'],
+ ['アンドリュー・タロック','Thinking Machines','v_tulloch','報道で確認(報道ベース)',['meta'],'from','2026/11/19'],
+ ['ジョン・シュルマン','Anthropic','v_xschul','本人のXの投稿で確認(OpenAIを離れる決断。Anthropic参加は報道)',['openai'],'2026/11/19'],
+ ['ジョン・シュルマン','OpenAI','v_xschul','本人のXの投稿で確認(OpenAIを離れる決断。Anthropic参加は報道)',['anthropic'],'2026/11/19'],
+ ['ヤン・ライケ','Anthropic','v_xleike','本人のXのプロフィールで確認',['openai'],'2026/11/19'],
+ ['ヤン・ライケ','OpenAI','v_xleike','本人のXのプロフィールで確認',['anthropic'],'2026/11/19'],
+ ['ダーク・キングマ','Anthropic','v_xkingma','本人のXのプロフィールで確認',['openai'],'2026/11/19'],
+ ['ダーク・キングマ','OpenAI','v_xkingma','本人のXのプロフィールで確認',['anthropic'],'2026/11/19'],
+ ['ジャック・クラーク','Anthropic','v_xclark','本人のXのプロフィールで確認',['openai'],'2026/11/19'],
+ ['ジャック・クラーク','OpenAI','v_xclark','本人のXのプロフィールで確認',['anthropic'],'2026/11/19'],
+ ['ベン・マン','Anthropic','v_mann','本人の発言で確認',['openai']],
+ ['ベン・マン','OpenAI','v_mann','本人の発言で確認',['anthropic']],
  ['トム・ブロムフィールド','Anthropic','v_blomfield','本人のXのプロフィールで確認','2026/11/19'],
  ['オースティン・ラウ','OpenAI','v_lau','本人のXの投稿で確認','2026/11/19'],
  ['ジェンスン・フアン','Nvidia','v_nvceo','NvidiaのSEC 8-Kで辞任を確認','2026/11/19'],
@@ -36341,12 +36466,16 @@ Object.assign(DS,{
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
   d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
-    VERIFY_PPL.forEach(([nm,other,key,note,dt])=>{dt=dt||'2026/11/18';
+    VERIFY_PPL.forEach(([nm,other,key,note,...rest])=>{
+      let dt='2026/11/18',only=null,kind='';   /* 5番目からの続き: 日付・会社の図の一覧・線の種類(2026/11/19にまとめた) */
+      rest.forEach(x=>{if(Array.isArray(x))only=x;else if(x==='from'||x==='moved')kind=x;else if(/^\d{4}\/\d+\/\d+$/.test(x||''))dt=x});
+      if(only&&!only.includes(c))return;   /* この会社の図にだけ付ける */
+      if(kind&&e.k!==kind)return;          /* 同じ2社を行き来した人の、どちらの移籍かを分ける */
       const P=A.name===nm?A:B.name===nm?B:null;if(!P)return;const O=P===A?B:A;
       if(other&&!(O.name||'').includes(other))return;
       if(!DS[key])return;e.src=(e.src||[]).concat((e.src||[]).includes(key)?[]:[key]);
       const lv=dsCf(key),cur=CFJA[e.cf]||'';if(!cur||CFRANK[lv]>CFRANK[cur])e.cf=lv;
-      if(!(e.d||'').includes(dt+'、'))e.d=(e.d||'')+`(${dt}、${note})`;
+      if(note&&!(e.d||'').includes(dt+'、'))e.d=(e.d||'')+`(${dt}、${note})`;
     })});
 }
 
@@ -36880,8 +37009,8 @@ function renderOverview(){
   <ul class="rel"><li><b>在籍中</b>${c.a}人</li><li><b>退職済み</b>${c.l}人</li><li><b>出資者</b>${c.i}社・人</li></ul>
   <p class="note">点線の輪は共同創業者です。人物か会社をクリックすると、つながりの強調と、経歴・SNS・Wikipediaへのリンクを表示します。もう一度クリックすると解除します。</p>
   <div class="links">${hpHtml(COMPANIES[comp].name,comp)}</div>
-  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}`;
-  wireAcq();wireVc();wireCommon();wireKk();
+  ${updatesHtml(comp)}${cfSummaryHtml()}${dealOverviewHtml()}${colossusHtml()}${prodTlHtml()}${usesOverviewHtml()}${findsMapHtml()}${primaryHtml()}${yNewsHtml(COMPANIES[comp].name)}${kkBtn()}${acqBtn()}${vcBtn()}${commonBtn()}${investBtn()}`;
+  wireAcq();wireVc();wireCommon();wireInvest();wireKk();
   document.querySelectorAll('a.colgo[data-k]').forEach(a=>a.onclick=ev=>{ev.preventDefault();build(a.dataset.k)});
 }
 /* 買収・子会社の一覧への入口(データがある会社だけ) */
@@ -38810,6 +38939,7 @@ function showHome(){
   const cards=[
     ['company','企業の相関図',`${nCo}社。社長・経営陣・出資者のつながり`,'openai'],
     ['common','2社の共通のつながり','2社を選ぶと、共通の出資者・人物・取引先と最短ルート。営業先との接点探しに'],
+    ['invest','出資の一覧','どの企業が、どの企業に出資しているか。会社を選ぶと、出資者と出資先が並ぶ'],
     ['rank','時価総額ランキング','米国200社と日本188社'],
     ['uni','スタートアップ',`ユニコーン${UNI.length}社の一覧と、上場申請`],
     ['rel','ニュースから関係を見る','提携・買収・出資を、記事から相関図に'],
@@ -38835,7 +38965,7 @@ function showHome(){
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
-  const go={company:()=>build('openai'),common:()=>showCommon(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
+  const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
   FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
@@ -39156,13 +39286,13 @@ function vcBtn(){const nm=COMPANIES[comp]?COMPANIES[comp].name:'';const r=vcsOf(
   return (n||out.length)?`<div class="links"><a href="#" id="govc"><b>${nm}の投資・出資の記録を見る ▸</b></a><small style="display:block;color:var(--muted)">${n?`投資したVC・投資家 ${r.vcs.length}社${r.news.length?`+ニュース${r.news.length}件`:''}`:''}${n&&out.length?' / ':''}${out.length?`出資している会社 ${out.length}社`:''}</small></div>`:''}
 function wireVc(){const g=document.getElementById('govc');if(g)g.addEventListener('click',ev=>{ev.preventDefault();showOrg(COMPANIES[comp].name,'',()=>build(comp))})}
 /* 上のメインメニュー: いま見ている画面を色で示し、会社の選択欄(長い一覧)は相関図を見ているときだけ出す */
-const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),finds:()=>showFinds(),common:()=>showCommon(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn()};
+const NAVGO={home:()=>showHome(),company:()=>build(typeof comp!=='undefined'&&COMPANIES[comp]?comp:'openai'),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),common:()=>showCommon(),invest:()=>showInvest(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn()};
 function navSync(){
   let cur='company';
   if(!MAINEL.hidden||!PROFEL.hidden)cur='company';
   else if(!RANKEL.hidden)cur='rank';
   else if(!UNIEL.hidden)cur='uni';
-  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
+  else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
@@ -39517,7 +39647,7 @@ async function relExtract(items){
 
 const h0=location.hash.slice(1);
 navSync();
-if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
+if(!h0||h0==='home')showHome();else if(h0==='rank')showRank(1);else if(h0==='rel')showRel();else if(h0==='money')showMoney();else if(h0==='move')showMove();else if(h0==='finds')showFinds();else if(h0==='common')showCommon();else if(h0==='invest')showInvest();else if(h0==='rankjp')showRankJp('l',1);else build(COMPANIES[h0]?h0:'openai');
 </script>
 
 </body></html>
