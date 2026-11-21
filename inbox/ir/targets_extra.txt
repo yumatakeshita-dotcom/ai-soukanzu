@@ -1,0 +1,31 @@
+# 見る会社の追加(足すだけ)。形式: 市場<TAB>コード<TAB>会社名。市場は JP(日本)・HK(香港)・SG(シンガポール)
+# 日本の会社は site/data/jpco.js(相関図の上場企業)から自動で読むので、ここにはそれ以外を足す
+JP	9984	ソフトバンクグループ
+JP	9434	ソフトバンク
+JP	8035	東京エレクトロン
+JP	6857	アドバンテスト
+JP	6723	ルネサスエレクトロニクス
+JP	285A	キオクシアホールディングス
+JP	3778	さくらインターネット
+JP	4755	楽天グループ
+JP	4689	LINEヤフー
+JP	6702	富士通
+JP	6701	日本電気
+JP	9432	日本電信電話
+JP	9433	KDDI
+HK	00700	Tencent(騰訊)
+HK	09988	Alibaba(阿里巴巴)
+HK	09888	Baidu(百度)
+HK	00020	SenseTime(商湯)
+HK	01810	Xiaomi(小米)
+HK	03690	Meituan(美団)
+HK	09618	JD.com(京東)
+HK	00992	Lenovo(聯想)
+HK	00981	SMIC(中芯国際)
+HK	01347	Hua Hong Semiconductor(華虹)
+HK	00522	ASMPT
+SG	Z74	Singtel
+SG	BN4	Keppel
+SG	S63	ST Engineering
+SG	V03	Venture Corporation
+SG	D05	DBS
