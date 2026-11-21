@@ -17,3 +17,7 @@
 - Geminiの調査(`gemini_research.py`)は、最新の手がかりのタイトルをプロンプトに添える(探すのはGemini、事実は検索で別の出典を確かめる)
 - 配信元ホストが環境の許可に無いと見られない(2026/11/21に5つを許可して、20番組すべて見られた。以前は 20VC・All-In・Dwarkesh・Latent Space・Odd Lots・Rebuild は2026/11/21時点で未許可。許可すれば自動で見られる): rss.libsyn.com, apple.dwarkesh-podcast.workers.dev, podcast.latent.space, www.omnycontent.com, feeds.rebuild.fm
 - 日本語のYouTubeは NewsPicks・ReHacQ・PIVOT・テレ東BIZ・日経・ソフトバンクグループを足した(計27)
+
+## 過去の動画をさかのぼる(2026/11/21追加)
+- 公式RSSは直近15本までなので、`python3 scripts/yt_backfill.py [--leads]` がチャンネルの「アップロード一覧」の公開ページから各チャンネル最新100本(動画ID・題名・おおよその古さ)を読み、`inbox/youtube/backfill/日付.json` に足す(足すだけ。取った動画は飛ばす)。2026/11/21の試運転で30/30チャンネル・2,885本。説明文は取らない(題名と会社名が手がかり。確かめは別の出典で)
+- `--leads` を付けると、移籍・出資の言葉と会社名がある題名だけ表示する
