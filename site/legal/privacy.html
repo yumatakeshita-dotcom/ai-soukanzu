@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex">
+<title>プライバシーポリシー | AI企業の相関図</title>
+<style>
+:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--active:#0d8a79;--conflict:#c93b3b;--warn-bg:#fff4d6;--warn-fg:#6b4a00;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--active:#2fc2ab;--conflict:#f07272;--warn-bg:#3a2f10;--warn-fg:#f0d98a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--active:#2fc2ab;--conflict:#f07272;--warn-bg:#3a2f10;--warn-fg:#f0d98a;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.8 "Noto Sans JP",system-ui,-apple-system,"Hiragino Sans","Yu Gothic",sans-serif}
+main{max-width:760px;margin:0 auto;padding:16px max(16px,env(safe-area-inset-right)) 56px max(16px,env(safe-area-inset-left))}
+h1{font-size:22px;margin:12px 0 4px} h2{font-size:17px;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--active)}
+p,li{overflow-wrap:anywhere} a{color:var(--active)} .muted{color:var(--muted);font-size:13px}
+.draft{background:var(--warn-bg);color:var(--warn-fg);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0 16px;font-size:14px}
+mark.todo{background:var(--warn-bg);color:var(--warn-fg);padding:0 4px;border-radius:4px}
+table{border-collapse:collapse;width:100%;background:var(--surface)} th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top;overflow-wrap:anywhere} th{width:11em;background:var(--bg)}
+nav.l{display:flex;flex-wrap:wrap;gap:6px 16px;margin:20px 0 0;font-size:13px}
+</style></head><body><main>
+<p class="muted"><a href="../index.html">← 相関図に戻る</a></p>
+<h1>プライバシーポリシー</h1>
+<p class="muted">制定日・最終更新日: <mark class="todo">【要記入: 制定日・最終更新日】</mark></p>
+<div class="draft" role="note"><b>【ひな形・未確認】</b> これは公開前の下書きです。法的な確認(弁護士など専門家)はまだ受けていません。黄色の【要記入】の部分は、運営者が決めて書き入れます。確認が済むまで、この内容を正式な規約として扱わないでください。</div>
+<p><mark class="todo">【要記入: 運営者の名前】</mark>(以下「運営者」)は、「AI企業の相関図」(以下「本サービス」)での個人に関する情報の扱いを、次のとおり定めます。</p>
+<p class="muted">この文書は、いま本サービスが実際にしていること(確かめた分)と、これから始める予定のこと(予定)を分けて書いてあります。公開前に、実際の動きと合っているか見直してください。</p>
+<h2>1. 取得する情報</h2>
+<ul>
+<li><b>(いま)閲覧するだけの場合:</b> 本サービスは、閲覧者の名前・メールアドレスなどの入力を求めません。</li>
+<li><b>(予定)先行案内・お問い合わせ:</b> 先行案内の登録やお問い合わせの際に、メールアドレスなど、ご自身で入力された情報を取得します。<mark class="todo">【要記入: 実際に取得する項目】</mark></li>
+<li><b>(予定)有料機能:</b> 決済は Stripe, Inc.(決済代行)が行います。カード番号などの決済情報は Stripe が扱い、運営者のサーバーには保存しません。運営者は、決済の有無・メールアドレスなど、会員の確認に必要な情報を受け取ります。<mark class="todo">【要記入: Stripeから受け取る情報の範囲(Payment Linkの設定に合わせる)】</mark></li>
+<li><b>(予定)アクセスキー:</b> 会員にはアクセスキー(合言葉)を発行します。運営者の側ではキーそのものではなく、確認用の変換値(ハッシュ)を保存する設計です。キーを紛失・漏えいしたときは、お問い合わせください。</li>
+</ul>
+<h2>2. 利用目的</h2>
+<ul><li>本サービスの提供・改善、不具合の調査</li><li>お問い合わせへの対応、訂正・削除の対応</li><li>(予定)有料機能の提供、請求・会員確認、重要なお知らせの連絡</li><li>(予定)アクセス状況の把握(統計。個人を特定しない形)</li></ul>
+<h2>3. 外部への送信・外部サービス</h2>
+<ul>
+<li><b>(いま)Google Fonts:</b> 文字の書体を表示するため、閲覧者のブラウザが Google Fonts(Google LLC)に接続します。このとき、閲覧者のIPアドレスなどが Google に送られます。</li>
+<li><b>(いま)ニュース等のリンク:</b> 出典や記事へのリンクを押すと、リンク先のサイトに移ります。リンク先での情報の扱いは、各サイトの方針によります。</li>
+<li><b>(予定)Cloudflare:</b> 本サービスは Cloudflare, Inc. のサービス(Workers・D1 など)で配信・運用します。配信の過程でアクセス記録(IPアドレス等)が扱われます。</li>
+<li><b>(予定)Stripe:</b> 有料機能を始める場合、決済のため Stripe に接続します。</li>
+<li><b>(予定)アクセス計測:</b> <mark class="todo">【要記入: 使うアクセス解析のサービス名、使わない場合は「使いません」。使う場合は、送られる情報と、拒否(オプトアウト)の方法を書く】</mark></li>
+<li>上のほか、運営者が閲覧者の情報を第三者に売ることはありません。<mark class="todo">【要記入・専門家確認: 外部送信規律(電気通信事業法)の対象になるか、公表が必要な項目】</mark></li>
+</ul>
+<h2>4. Cookie・ブラウザの保存領域</h2>
+<ul>
+<li><b>(いま)</b> 本サービスは、広告用や追跡用の Cookie を使っていません。画面の表示設定(確かさの表示の切り替えなど)を覚えるため、閲覧者のブラウザ内の保存領域(localStorage)を使うことがあります。この情報は閲覧者のブラウザの中だけに残り、運営者には送られません。ブラウザの設定で消せます。</li>
+<li><b>(予定)</b> アクセスキーの確認のために、キーをブラウザ内に保存することがあります。アクセス計測を始める場合は、そこで使う Cookie などをここに書き足します。</li>
+</ul>
+<h2>5. 掲載する人物情報の出典と顔写真</h2>
+<ul>
+<li>本サービスに載る人物の経歴・移籍・役職などは、公式発表、開示書類(SEC・EDINET など)、報道、本人の公開投稿といった<b>すでに公開されている情報</b>をもとにしています。各情報には出典のURLと「確かさ」の印を付けます。非公開の情報や、うわさは載せません。</li>
+<li>顔写真は、ライセンスを確かめられたもの(主に Wikimedia Commons の自由に使える写真)だけを使い、作者とライセンスを「写真のクレジット」に示します。通信社など権利表記のある写真は使いません。</li>
+<li>人物の公開情報の掲載について、訂正・削除を希望する方は、「お問い合わせ・訂正/削除の受付」から申し出られます。本人であること、または正当な理由を確かめたうえで、訂正・削除などの対応をします。</li>
+</ul>
+<h2>6. 第三者への提供</h2>
+<p>法令に基づく場合などを除き、あらかじめ本人の同意を得ずに、個人情報を第三者に提供しません。ただし、利用目的の達成に必要な範囲で、上の外部サービス(Cloudflare・Stripe など)に取り扱いを任せることがあります。</p>
+<h2>7. 開示・訂正・利用停止などの請求</h2>
+<p>運営者が保有する個人情報について、開示・訂正・削除・利用停止を求めることができます。「お問い合わせ・訂正/削除の受付」からご連絡ください。</p>
+<h2>8. 安全管理・保存期間</h2>
+<p>個人情報は、漏えい・滅失を防ぐよう適切に管理します。<mark class="todo">【要記入: 保存期間(例: 先行案内のメールは配信を止めるまで)】</mark></p>
+<h2>9. 事業者情報・窓口</h2>
+<p>運営者: <mark class="todo">【要記入: 運営者の名前】</mark><br>窓口: <mark class="todo">【要記入: 連絡先メールアドレス】</mark></p>
+<h2>10. 改定</h2>
+<p>この方針は、必要に応じて改定し、本サービス上に掲示します。</p><nav class="l"><a href="terms.html">利用規約</a><a href="privacy.html" aria-current="page">プライバシーポリシー</a><a href="tokushoho.html">特定商取引法に基づく表記</a><a href="contact.html">お問い合わせ・訂正/削除の受付</a></nav>
+</main></body></html>

@@ -1,0 +1,449 @@
+{
+ "date": "2026-11-20",
+ "source": "inbox/gemini/2026-11-19.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "ElevenLabs",
+    "関係": "買収",
+    "相手": "Kotoba Technologies",
+    "金額": "約1億ドル (約159億円)",
+    "日付": "2026-11-17",
+    "出典URL": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/",
+    "確かさ": "公式",
+    "備考": "報道ベースの金額。2026年第4四半期後半に完了見込み。ElevenLabs Japan合同会社とKotoba Technologies Japan株式会社による発表",
+    "src": [
+     [
+      "www.itmedia.co.jp",
+      "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/"
+     ]
+    ],
+    "既存の名前": [
+     "ElevenLabs",
+     "Kotoba Technologies"
+    ],
+    "Geminiが書いたURL": "https://prtimes.jp/main/html/rd/p/000000002.000130983.html"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/",
+     "names_on_page": [
+      "ElevenLabs",
+      "Kotoba Technologies"
+     ]
+    },
+    "dup": "「ElevenLabs」と「Kotoba Technologies」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた",
+    "重なり: 「ElevenLabs」と「Kotoba Technologies」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Z Creative Partners",
+    "関係": "出資",
+    "相手": "不明",
+    "金額": "5000万円",
+    "日付": "2026-11-13",
+    "出典URL": "https://sogyotecho.jp/news/20261116z-creative-partners/",
+    "確かさ": "報道",
+    "備考": "生成AIによるブランド評価を可視化・分析する技術開発",
+    "src": [
+     [
+      "sogyotecho.jp",
+      "https://sogyotecho.jp/news/20261116z-creative-partners/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://sogyotecho.jp/z-creative-partners/"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://sogyotecho.jp/news/20261116z-creative-partners/",
+     "names_on_page": [
+      "Z Creative Partners"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Isomorphic Labs",
+    "関係": "出資",
+    "相手": "Greenoaks, Sequoia Capital, Andreessen Horowitz, Thrive Capital, MGX, GV, CapitalG, Temasek, 英国ソブリンAIファンド, Alphabet",
+    "金額": "50億ドル",
+    "日付": "2026-11-17",
+    "出典URL": "https://www.zaikei.co.jp/article/20261119/878385.html",
+    "確かさ": "報道",
+    "備考": "シリーズC資金調達。グリーノークスとセコイア・キャピタルが共同主導。バイオ業界の未上場企業による単一ラウンドの調達記録を更新",
+    "src": [
+     [
+      "www.zaikei.co.jp",
+      "https://www.zaikei.co.jp/article/20261119/878385.html"
+     ]
+    ],
+    "既存の名前": [
+     "Isomorphic Labs"
+    ],
+    "Geminiが書いたURL": "https://www.zaikei.co.jp/article/20261119/704764.html"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.zaikei.co.jp/article/20261119/878385.html",
+     "names_on_page": [
+      "Isomorphic Labs",
+      "MGX",
+      "GV"
+     ]
+    },
+    "dup": "「Isomorphic Labs」と「Sequoia Capital」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "date": [
+     "ページの公開日(2026-07-29)と111日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLは中身が違うため、Geminiが検索で実際に見たページに置き換えた",
+    "重なり: 「Isomorphic Labs」と「Sequoia Capital」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "日付: ページの公開日(2026-07-29)と111日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Siemens",
+    "関係": "買収",
+    "相手": "Breker Verification Systems",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://xenospectrum.com/siemens-breker-soc-verification/",
+    "確かさ": "報道",
+    "備考": "半導体設計検証技術を強化",
+    "src": [
+     [
+      "xenospectrum.com",
+      "https://xenospectrum.com/siemens-breker-soc-verification/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://xenospectrum.com/articles/siemens-acquires-breker-verification"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://xenospectrum.com/siemens-breker-soc-verification/",
+     "names_on_page": [
+      "Siemens",
+      "Breker Verification Systems"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-10-03)と45日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた",
+    "日付: ページの公開日(2026-10-03)と45日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "AMD",
+    "関係": "買収",
+    "相手": "Taalas",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://ai.watch.impress.co.jp/docs/news/2157777.html",
+    "確かさ": "報道",
+    "備考": "AI推論プラットフォーム強化のため",
+    "src": [
+     [
+      "ai.watch.impress.co.jp",
+      "https://ai.watch.impress.co.jp/docs/news/2157777.html"
+     ]
+    ],
+    "既存の名前": [
+     "AMD"
+    ],
+    "Geminiが書いたURL": "https://ai.watch.impress.co.jp/docs/news/1841366.html"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://ai.watch.impress.co.jp/docs/news/2157777.html",
+     "names_on_page": [
+      "AMD",
+      "Taalas"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "STRACT",
+    "関係": "出資",
+    "相手": "不明",
+    "金額": "約12億円",
+    "日付": "2026-11-18",
+    "出典URL": "https://sogyotecho.jp/news/20261119stract/",
+    "確かさ": "報道",
+    "備考": "AIショッピングアプリ「DONDO」およびEC運営AIエージェント「ureteku AI」の機能開発などに活用",
+    "src": [
+     [
+      "sogyotecho.jp",
+      "https://sogyotecho.jp/news/20261119stract/"
+     ]
+    ],
+    "既存の名前": [],
+    "Geminiが書いたURL": "https://sogyotecho.jp/stract/"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://sogyotecho.jp/news/20261119stract/",
+     "names_on_page": [
+      "STRACT"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた"
+   ],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "TSMC",
+    "関係": "出資",
+    "相手": "Anthropic, OpenAI Group PBC",
+    "金額": "合計最大10億ドル (各社最大5億ドル)",
+    "日付": "2026-11-10",
+    "出典URL": "https://news.mynavi.jp/techplus/article/20261111-5301691/",
+    "確かさ": "報道",
+    "備考": "AIエコシステムとの関係強化が目的",
+    "src": [
+     [
+      "news.mynavi.jp",
+      "https://news.mynavi.jp/techplus/article/20261111-5301691/"
+     ]
+    ],
+    "既存の名前": [
+     "TSMC"
+    ],
+    "Geminiが書いたURL": "https://news.mynavi.jp/techplus/article/20261111-2814881/"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://news.mynavi.jp/techplus/article/20261111-5301691/",
+     "names_on_page": [
+      "TSMC",
+      "Anthropic"
+     ]
+    },
+    "dup": "「TSMC」と「Anthropic」の組み合わせがすでにある(site/index.html、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた",
+    "重なり: 「TSMC」と「Anthropic」の組み合わせがすでにある(site/index.html、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "ソフトバンクグループ",
+    "関係": "提携・出資",
+    "相手": "Grab, PETROS",
+    "金額": "初期投資合計18.5億ドル (SBG約10億ドル)",
+    "日付": "2026-11-09",
+    "出典URL": "https://www.jetro.go.jp/biznews/2026/11/27649567c9c0f99d.html",
+    "確かさ": "報道",
+    "備考": "マレーシアでのAIインフラ構築に向けた共同開発契約。サラワク州で初期10億ドル(SBG 8億ドル, Grab 1億ドル, PETROS 1億ドル)、半島マレーシアで初期8.5億ドル(Grab 6.5億ドル, SBG 2億ドル)",
+    "src": [
+     [
+      "ジェトロ",
+      "https://www.jetro.go.jp/biznews/2026/11/27649567c9c0f99d.html"
+     ]
+    ],
+    "既存の名前": [
+     "ソフトバンクグループ"
+    ]
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://www.jetro.go.jp/biznews/2026/11/27649567c9c0f99d.html"
+    },
+    "dup": "「ソフトバンクグループ」と「Grab」の組み合わせがすでにある(site/data/relnews.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる",
+    "重なり: 「ソフトバンクグループ」と「Grab」の組み合わせがすでにある(site/data/relnews.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "IPO",
+    "相手": "Google, Microsoft, Nvidia, AMD 他",
+    "金額": "総額813億ドル (公開価格83ドル/株)。テック企業7社から非議決権株式で合計260億ドル",
+    "日付": "2026-11-18",
+    "出典URL": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/",
+    "確かさ": "報道",
+    "備考": "史上最大のIPO。公開価格は当初仮条件の上限を上回る83ドル",
+    "src": [
+     [
+      "www.itmedia.co.jp",
+      "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/"
+     ]
+    ],
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "Geminiが書いたURL": "https://note.com/hirokimiya/n/n4a625cf04b85"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.itmedia.co.jp/aiplus/article/2611/19/2000003306/",
+     "names_on_page": [
+      "Anthropic",
+      "Google",
+      "Nvidia"
+     ]
+    },
+    "dup": "「Anthropic」と「Nvidia」の組み合わせがすでにある(site/index.html、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた",
+    "重なり: 「Anthropic」と「Nvidia」の組み合わせがすでにある(site/index.html、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "NVIDIA",
+    "関係": "退任",
+    "相手": "Jensen Huang (CEO)",
+    "金額": "",
+    "日付": "2026-11-12",
+    "出典URL": "https://note.com/hirokimiyano/n/n9892e969498e",
+    "確かさ": "報道",
+    "備考": "後任の暫定CEOにはCFOのColette Kress氏が就任",
+    "src": [
+     [
+      "note.com",
+      "https://note.com/hirokimiyano/n/n9892e969498e"
+     ]
+    ],
+    "既存の名前": [
+     "NVIDIA"
+    ],
+    "Geminiが書いたURL": "https://eetimes.jp/ee/articles/2611/14/news083.html"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://note.com/hirokimiyano/n/n9892e969498e",
+     "names_on_page": [
+      "NVIDIA",
+      "Jensen Huang"
+     ]
+    },
+    "dup": "「NVIDIA」の同じころ(2026-11-12)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiが書いたURLはページが無いため、Geminiが検索で実際に見たページに置き換えた",
+    "重なり: 「NVIDIA」の同じころ(2026-11-12)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  }
+ ]
+}

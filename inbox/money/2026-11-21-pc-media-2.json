@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "notes": "PCのブラウザでソフトバンクグループの決算説明会(2026/11/10、YouTube)の文字起こしと章立てを読み、出てきた買収を公式発表で確かめた。同じ回のZiplineの$1.5B調達はソフトバンクの出資とは確認できず(報道ではParadigm・WCM・Layer Global主導)、足していない。",
+ "items": [
+  {
+   "from": "ソフトバンクグループ",
+   "to": "DigitalBridge",
+   "kind": "買収",
+   "amount": "約$3.1B(全株を現金で取得。発表時は約$40億と報道、$16/株)",
+   "date": "2026-09-30",
+   "note": "ソフトバンクグループがDigitalBridgeの全発行済み普通株を取得し完全子会社化(2026/9/30完了)。Marc GanziはCEOに残り、独立した運営を続ける。上場は廃止。2026/11/10の決算説明会で『買収完了』と説明。決済の形(現金)は公式発表を採用。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=nyCX-wTlEFc",
+   "src": [
+    [
+     "ソフトバンクグループ公式(2026/9/30)",
+     "https://group.softbank/en/news/press/20260930"
+    ],
+    [
+     "DatacenterDynamics(2026/9)",
+     "https://datacenterdynamics.com/en/news/softbank-closes-digitalbridge-acquisition"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  }
+ ]
+}

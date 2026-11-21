@@ -1,0 +1,46 @@
+// シンガポール(ACRA)の会社を、kigyo-asiapac と同じ形の静的ファイルにする
+import fs from 'node:fs';
+const [,, src, out] = process.argv;
+// 国コードと出典は、ほかの国にも使えるように切り替えられる(2026-11-19。何も指定しなければシンガポール)
+const CC = process.env.CC || 'SG', SOURCE = process.env.SOURCE || 'ACRA, data.gov.sg / Singapore Open Data Licence v1.0';
+const LEG = new Set(["ltd","limited","plc","llp","llc","inc","lp","cic","sas","sarl","sa","sasu","eurl","sci","snc","as","asa","ans","da","ba","oy","oyj","ab","gmbh","ag","kg","ug","bv","nv","ou","tu","uu","mu","fie","co","company","the","pty","nl"]);
+const core = (name) => { const s = String(name||"").normalize("NFKD").replace(/\p{M}/gu,"").toLowerCase();
+  const toks = s.replace(/[^\p{L}\p{N}]+|_/gu," ").split(" ").filter(Boolean);
+  for(;;){ if(toks.length>1&&LEG.has(toks[toks.length-1]))toks.pop(); else if(toks.length>1&&LEG.has(toks[0]))toks.shift();
+    else if(toks.length>3&&(toks[0]==="trustee"||toks[0]==="trustees")&&(toks[1]==="for"||toks[1]==="of"))toks.splice(0,2); else break; }
+  return toks.join(""); };
+const fnv = (k) => { let h=2166136261; for(let i=0;i<k.length;i++) h=Math.imul(h^k.charCodeAt(i),16777619)>>>0; return h; };
+// CSV
+function parseCSV(t){ const rows=[]; let row=[],f='',q=false; for(let i=0;i<t.length;i++){const c=t[i];
+  if(q){ if(c==='"'){ if(t[i+1]==='"'){f+='"';i++;} else q=false; } else f+=c; }
+  else if(c==='"') q=true; else if(c===','){row.push(f);f='';} else if(c==='\n'){row.push(f);rows.push(row);row=[];f='';} else if(c!=='\r') f+=c; }
+  if(f||row.length){row.push(f);rows.push(row);} return rows; }
+const all = parseCSV(fs.readFileSync(src,'utf8')); const H = all.shift(); const ix = Object.fromEntries(H.map((h,i)=>[h,i]));
+const recs = all.filter(r=>r.length===H.length);
+// 業種コードの説明(説明のある行から、同じコードの説明を借りる)
+const ssic = {}; for (const r of recs){ const c=r[ix.industry_code], d=r[ix.industry]; if(c&&d&&!ssic[c]) ssic[c]=d; }
+const rows = recs.map(r=>{ const c=r[ix.industry_code]; const d=r[ix.industry]||ssic[c]||'';
+  const old = (r[ix.former_names]||'').split(' / ').map(s=>s.trim()).filter(s=>s && s!==r[ix.name]);
+  return { id:r[ix.id], name:r[ix.name], kind:r[ix.type], addr:r[ix.address], post:r[ix.postal_code], since:r[ix.established], sic: c ? (d? `${c} ${d}` : `SSIC ${c}`) : (d||''), core: Array.from(core(r[ix.name])), old }; });
+// 検索の入口: 今の名前 + 旧社名(2026-11-18追加。旧社名の行は5番目に今の名前を持つ)
+const keys = [];
+for (const r of rows){ keys.push({core:r.core, row:[CC,r.id,r.name,r.addr]});
+  const seen = new Set([r.core.join('')]);
+  for (const o of r.old){ const k=Array.from(core(o)); if(k.length<2||seen.has(k.join(''))) continue; seen.add(k.join('')); keys.push({core:k, row:[CC,r.id,o,r.addr,r.name]}); } }
+// よく出る先頭の文字(長さ2〜5)を「hot」にして、さらに1文字ずつ細かく分ける
+const T = 1500, hot = {};
+let cur = keys;
+for (let L=2; L<6; L++){ const cnt=new Map(); for(const r of cur){ if(r.core.length>L){ const p=r.core.slice(0,L).join(''); cnt.set(p,(cnt.get(p)||0)+1);} }
+  hot[L] = new Set([...cnt].filter(([,n])=>n>T).map(([p])=>p)); cur = cur.filter(r=>r.core.length>L && hot[L].has(r.core.slice(0,L).join(''))); }
+const NB = Number(process.env.NB||700), ND = Number(process.env.ND||700);
+const nb = Array.from({length:NB},()=>[]), nd = Array.from({length:ND},()=>[]);
+for (const k of keys){ let L=2; while(L<6 && hot[L]?.has(k.core.slice(0,L).join('')) && k.core.length>L) L++;
+  nb[fnv(k.core.slice(0,L).join(''))%NB].push(k.row); }
+for (const r of rows) nd[fnv(CC+':'+r.id)%ND].push([CC,r.id,r.name,r.kind,r.addr,r.post,r.since,r.sic,r.old.join(' / ')]);
+fs.mkdirSync(out+'/c',{recursive:true}); fs.mkdirSync(out+'/n',{recursive:true});
+nb.forEach((a,i)=>{ a.sort((x,y)=>x[2].localeCompare(y[2])); fs.writeFileSync(`${out}/n/${i}.json`,JSON.stringify(a)); });
+nd.forEach((a,i)=>fs.writeFileSync(`${out}/c/${i}.json`,JSON.stringify(a)));
+fs.writeFileSync(`${out}/n/hot.json`,JSON.stringify(Object.fromEntries(Object.entries(hot).map(([L,s])=>[L,[...s].sort()]))));
+fs.writeFileSync(`${out}/c/meta.json`,JSON.stringify({total:rows.length,by:{[CC]:rows.length},nd:ND,nb:NB,built:new Date().toISOString().slice(0,10),source:SOURCE}));
+const sz = a=>Math.max(...a.map(x=>JSON.stringify(x).length));
+console.log('rows',rows.length,'keys',keys.length,'hot',Object.fromEntries(Object.entries(hot).map(([L,s])=>[L,s.size])),'max nb file',sz(nb),'max nd file',sz(nd));

@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-21",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Junyang Lin",
+   "name_ja": "ジュンヤン・リン(林俊旸)",
+   "from": "Alibaba(Qwenの技術リード)",
+   "to": "Pragmatik Labs(上海・創業)",
+   "role": "創業者。2026-03に退任、8月に新会社を発表",
+   "date": "2026-08-12",
+   "region": "中国",
+   "backfill": false,
+   "note": "過去分。退任は3/3にTechCrunchが報道(本人のXの投稿)。新会社は評価額約20億ドル・調達約1億〜2.2億ドルとの報道(Tencent・Sequoia等が出資、数字は媒体で差あり)。本文は開けず検索結果の要約で確認(報道ベース)",
+   "src": [
+    [
+     "Alibaba's Qwen tech lead steps down(TechCrunch, 2026-03-03)",
+     "https://techcrunch.com/2026/03/03/alibabas-qwen-tech-lead-steps-down-after-major-ai-push/"
+    ],
+    [
+     "The man who built Qwen has a new lab(The Next Web)",
+     "https://thenextweb.com/news/pragmatik-labs-junyang-lin-qwen-shanghai-agents"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "地域別: 中国=Web検索4回(TechCrunch・Next Web・Euronews・AI Weekly等)、韓国=Web検索2回(Korea Times・Kyunghyang等)、欧州=Web検索2回(TechCrunch・Dealroom等)。この環境から報道サイトの本文は大半が開けなかった(403/Cloudflare)ため、全件を検索結果の要約で確認(本文未確認)。X確認0件。外したもの(名前のみ): Plural(1.1B, VCファンドでAI企業でない), Fractile(既存), Genesis AI(既存・米国), Mistral €3B(9月、対象外), ElevenLabs/Black Forest Labs(日付が古い)。さかのぼり: 2026-10(DeepSeek・Moonshotの資金調達2件)。欧州の移籍は該当なし。"
+}

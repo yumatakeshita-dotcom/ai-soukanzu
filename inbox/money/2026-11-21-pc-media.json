@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-21",
+ "kind": "money",
+ "notes": "PCのブラウザでYouTubeの文字起こしを読み(20VC 2026/11/19・All-In 2026/11/20・TBPN 2026/11/20・Sequoia 2026/11/18)、出てきた発言を報道の検索結果で確かめた。文字起こしは手がかりとして使い、事実は報道・公式で確認した分のみ。",
+ "items": [
+  {
+   "from": "OpenAI",
+   "to": "Odessia",
+   "kind": "買収",
+   "amount": "非公表",
+   "date": "2026-11-10",
+   "note": "Sonder共同創業者Francis Davidsonが作ったAI旅行エージェントOdessiaをOpenAIが買収。DavidsonはOpenAIに加わる。Odessiaは約5か月前に公開、Sequoia主導の$6Mプレシードを調達していた。20VC(2026/11/19)の回で話題になり、Skiftなど複数の報道で確認。OpenAIが技術の使い道を公表していない点は未確認。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=RZ4BBkSZ3io",
+   "src": [
+    [
+     "Skift(2026/11/10)",
+     "https://skift.com/2026/11/10/a-year-after-sonders-collapse-francis-davidson-sells-his-ai-travel-startup-to-openai/"
+    ],
+    [
+     "OfficeChai(2026/11)",
+     "https://officechai.com/ai/openai-acquires-odessia-an-ai-travel-agent-startup-founded-by-sonder-founder-francis-davidson/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  },
+  {
+   "from": "Nvidia",
+   "to": "Hugging Face",
+   "kind": "買収",
+   "amount": "$12.93B(約129億ドル。株主向け約$11.9B+社員の引き留め株式最大$10億)",
+   "date": "2026-09-03",
+   "note": "NvidiaがHugging Faceの買収で合意(Nvidia公式ブログとSEC提出書類)。完了時期は未公表。20VC(2026/11/19)で『Jensen退任で買収が成立しない可能性』が話題になったが、これは出演者の見方で、報道では確認していない。SiliconANGLEは$19.3Bと書くが他は$12.93Bで、外れ値として採らない。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=RZ4BBkSZ3io",
+   "src": [
+    [
+     "NVIDIA公式ブログ(2026/9/3)",
+     "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+    ],
+    [
+     "Axios(2026/9/3)",
+     "https://axios.com/2026/09/03/nvidia-hugging-face-ai"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "Nvidia・Salesforceほか",
+   "to": "Mercor",
+   "kind": "出資",
+   "amount": "$750M(Series D・評価額 $200億)",
+   "date": "2026-11-10",
+   "note": "AI学習用データのMercorが2026/11/10にCEOのBrendan Foodyの投稿でSeries Dを発表。前回は2025年10月の$350M・評価額$100億(Felicis主導)。出資者にNvidia・Salesforceの名が報じられたが、主導役は報道で確認できていない。20VC(2026/11/19)の投資会議の回で取り上げられた。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=RZ4BBkSZ3io",
+   "src": [
+    [
+     "The Next Web(2026/11)",
+     "https://thenextweb.com/news/mercor-750m-series-d-20bn-valuation"
+    ],
+    [
+     "TechStartups(2026/11/11)",
+     "https://techstartups.com/2026/11/11/mercor-raises-750m-at-20b-valuation-doubling-its-worth-in-just-over-a-year-with-backing-from-nvidia-salesforce"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  }
+ ]
+}

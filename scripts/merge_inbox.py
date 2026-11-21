@@ -12,6 +12,7 @@ import json, os, re, sys, glob, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import finds_map
 import exectl_auto
+import fun_merge
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
@@ -159,6 +160,8 @@ def main():
         w.write(finds_map.js_line())
         # 3行目: 幹部の年表に自動で足すもの(2026/11/19追加)。inbox/moves/ から毎回作る
         w.write(exectl_auto.js_line())
+        # 4行目: おもしろ情報に自動で足すもの(2026/11/21追加)。inbox/fun/ から毎回作る
+        w.write(fun_merge.js_line())
     assert len(allrows) >= len(have), '件数が減った(ありえない)'
     print(f'足した件数: {len(added)} / 合計: {len(allrows)}')
     for kind in KINDS:
@@ -166,6 +169,13 @@ def main():
         if n:
             print(f'  {kind}: {n}')
     exectl_auto.report(exectl_auto.build())
+    fun_merge.report(*fun_merge.build())
+    # ニュースの見出し(トップの「最近のニュース」)も毎回足す。2026/11/20追加(11/13から止まっていたため)
+    try:
+        import fetch_relnews
+        fetch_relnews.main()
+    except Exception as e:
+        print('ニュースの取り込みに失敗(ほかの処理は済んでいる):', e)
 
 
 if __name__ == '__main__':

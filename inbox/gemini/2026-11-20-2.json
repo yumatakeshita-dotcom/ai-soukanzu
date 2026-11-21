@@ -1,0 +1,163 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini",
+ "topic": "Anthropic上場後の初日の値動きと時価総額(2026年11月)",
+ "model": "gemini-2.5-flash",
+ "checked": "しない",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "上場",
+   "相手": "Nasdaq Global Select Market",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEso82WfBsH2oK-0T_ICy1xsvVIg9O5KboSXQ9Y_uWe5Mgj0VFG-vNI4r0IOFRtkvG-5tuwmlKyGHwQqIY245-A9QAWFMWaUErQ7II9dBmbMO535ZusMQtMxIdzdNKUaBVtpjsr8on12_5QpwDCo4Sn_PtaJZKP7JSPbcWEpNfoQeH_jUbm8OwZK8EM9DjT6F3I",
+   "確かさ": "報道",
+   "備考": "ティッカーシンボル: ANT",
+   "src": [
+    [
+     "Admiral Markets",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEso82WfBsH2oK-0T_ICy1xsvVIg9O5KboSXQ9Y_uWe5Mgj0VFG-vNI4r0IOFRtkvG-5tuwmlKyGHwQqIY245-A9QAWFMWaUErQ7II9dBmbMO535ZusMQtMxIdzdNKUaBVtpjsr8on12_5QpwDCo4Sn_PtaJZKP7JSPbcWEpNfoQeH_jUbm8OwZK8EM9DjT6F3I"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "IPO価格設定",
+   "相手": "Class A株",
+   "金額": "83.00ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEso82WfBsH2oK-0T_ICy1xsvVIg9O5KboSXQ9Y_uWe5Mgj0VFG-vNI4r0IOFRtkvG-5tuwmlKyGHwQqIY245-A9QAWFMWaUErQ7II9dBmbMO535ZusMQtMxIdzdNKUaBVtpjsr8on12_5QpwDCo4Sn_PtaJZKP7JSPbcWEpNfoQeH_jUbm8OwZK8EM9DjT6F3I",
+   "確かさ": "報道",
+   "備考": "当初の想定価格帯70〜78ドルを上回る",
+   "src": [
+    [
+     "Admiral Markets",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEso82WfBsH2oK-0T_ICy1xsvVIg9O5KboSXQ9Y_uWe5Mgj0VFG-vNI4r0IOFRtkvG-5tuwmlKyGHwQqIY245-A9QAWFMWaUErQ7II9dBmbMO535ZusMQtMxIdzdNKUaBVtpjsr8on12_5QpwDCo4Sn_PtaJZKP7JSPbcWEpNfoQeH_jUbm8OwZK8EM9DjT6F3I"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "初値",
+   "相手": "Class A株",
+   "金額": "111.50ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_",
+   "確かさ": "報道",
+   "備考": "IPO価格83ドルから34%上昇",
+   "src": [
+    [
+     "Morningstar",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "終値",
+   "相手": "Class A株",
+   "金額": "97.17ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_",
+   "確かさ": "報道",
+   "備考": "IPO価格83ドルから約17%上昇",
+   "src": [
+    [
+     "Morningstar",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "IPO時価総額",
+   "相手": "",
+   "金額": "約1.5兆ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzbosV7FyogWl_MDicFML106xE_iS-YoTz9WvBa-Rq2WZ96GLfIe9gbHtc_i30DTC2ejnInBWXZQKWn07oa3B3wjqdmDrKeMsDj_I1cOQRwSuS3qWUIlzEDGiKkUomsE_3S6cky5_LF4krueFL8Vr2MJT-rVR_agoq6SQWKqMdUAPd0zjGtgmIW4ewMtwtvLzHYfc=",
+   "確かさ": "報道",
+   "備考": "完全希薄化後ベース、IPO価格83ドルで算出",
+   "src": [
+    [
+     "The Guardian",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzbosV7FyogWl_MDicFML106xE_iS-YoTz9WvBa-Rq2WZ96GLfIe9gbHtc_i30DTC2ejnInBWXZQKWn07oa3B3wjqdmDrKeMsDj_I1cOQRwSuS3qWUIlzEDGiKkUomsE_3S6cky5_LF4krueFL8Vr2MJT-rVR_agoq6SQWKqMdUAPd0zjGtgmIW4ewMtwtvLzHYfc="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "上場初日終値時価総額",
+   "相手": "",
+   "金額": "約1.75兆ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtxThyudrhsFbDsC3N695NeblDWqFq1d8K347aLh0KhSt1XjJXtHX_cWdn_J7ZBZneEA6PQ3dHYkiFMSUwyrj3D5kVY1qZaGRVshKt1jh4DyDEFH9PriDo7WohPXG5zRw0Y3b_ylhkRmq26VTynuhSS_ZEcGdDtxqsFwuqj_fyPqUyLQ==",
+   "確かさ": "報道",
+   "備考": "完全希薄化後ベース",
+   "src": [
+    [
+     "AFP.com",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtxThyudrhsFbDsC3N695NeblDWqFq1d8K347aLh0KhSt1XjJXtHX_cWdn_J7ZBZneEA6PQ3dHYkiFMSUwyrj3D5kVY1qZaGRVshKt1jh4DyDEFH9PriDo7WohPXG5zRw0Y3b_ylhkRmq26VTynuhSS_ZEcGdDtxqsFwuqj_fyPqUyLQ=="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "IPOによる調達額",
+   "相手": "",
+   "金額": "813.4億ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_",
+   "確かさ": "報道",
+   "備考": "史上最大のIPO調達額を記録",
+   "src": [
+    [
+     "Morningstar",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "戦略的投資",
+   "相手": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia, TSMC",
+   "金額": "260億ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_",
+   "確かさ": "報道",
+   "備考": "IPO価格でClass N（議決権なし）普通株をプライベートプレースメントで取得することに合意",
+   "src": [
+    [
+     "Morningstar",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu2hTwJH-lgQ4qhk_FSNRTlVz454oeAZoUxPseb6ViX8LHx8qQ9rGEv-vg8UVLEITFwSke8L2LdtS-RUrOCx7zQXRYTQQ9Q7sLr797M3fa_UwKBWoEls9UelBw-Ss0zmaP5jxcyi8Ha7NA7T-nuV6dcJTMWI134JRrus9vsVwC94HAAONGUqwi5zQmLam_"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": []
+}

@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-20",
+ "kind": "money",
+ "items": [
+  {
+   "from": "三菱電機",
+   "to": "Sakana AI株式会社",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-03-25",
+   "note": "次世代AI基盤モデル技術を活用した新たなソリューション創出を目指す。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "prtimes.jp",
+     "https://prtimes.jp/main/html/rd/p/000000378.000120285.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-20-3.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}

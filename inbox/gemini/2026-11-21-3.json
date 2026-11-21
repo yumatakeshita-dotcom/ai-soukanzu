@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-21",
+ "kind": "gemini",
+ "topic": "ベトナムのAIスタートアップの資金調達 2026年11月",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "V-Indoor Care",
+   "関係": "提携",
+   "相手": "韓国NIPA",
+   "金額": "",
+   "日付": "2026-10-29",
+   "出典URL": "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm",
+   "確かさ": "報道",
+   "備考": "IR Pitching 2026で2位入賞。2027年を通して韓国NIPA本部の無料ワークスペース支援を獲得。",
+   "src": [
+    [
+     "VnEconomy",
+     "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSbNeWrzldDWU-R3KAtmtyATvXm30uCAsXu50uETjk7gXrql65V6LemrVCo8oreiyqR5AGEMyeB6Sydbds50YbQkXlsSfIfGTc2OW20g8lMT1b3WQM4abuJTqJclUd18yt4_WR2EOiPnkbuDJ3wPQmw-drkQ58vzfWQhqlzuEfeSUCxtwkaNyZUNzmB4ivYzHcgpeNIZsEvWodUGX_RTIXAw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "VEEP",
+   "関係": "提携",
+   "相手": "韓国NIPA",
+   "金額": "",
+   "日付": "2026-10-29",
+   "出典URL": "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm",
+   "確かさ": "報道",
+   "備考": "IR Pitching 2026で3位入賞。2027年を通して韓国NIPA本部の無料ワークスペース支援を獲得。",
+   "src": [
+    [
+     "VnEconomy",
+     "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSbNeWrzldDWU-R3KAtmtyATvXm30uCAsXu50uETjk7gXrql65V6LemrVCo8oreiyqR5AGEMyeB6Sydbds50YbQkXlsSfIfGTc2OW20g8lMT1b3WQM4abuJTqJclUd18yt4_WR2EOiPnkbuDJ3wPQmw-drkQ58vzfWQhqlzuEfeSUCxtwkaNyZUNzmB4ivYzHcgpeNIZsEvWodUGX_RTIXAw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Vietnam AI startup funding November 2026",
+   "Vietnamese AI startups fundraising November 2026",
+   "AI startups Vietnam investment November 2026",
+   "Vietnam tech startup funding November 2026 AI"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2197,
+   "candidatesTokenCount": 601,
+   "totalTokenCount": 6716,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2197
+    }
+   ],
+   "toolUsePromptTokenCount": 2501,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2501
+    }
+   ],
+   "thoughtsTokenCount": 1417,
+   "serviceTier": "standard"
+  }
+ }
+}

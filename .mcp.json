@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ai-soukanzu-gemini": {
+      "command": "python3",
+      "args": ["scripts/gemini_mcp.py"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY:-}",
+        "GEMINI_MODEL": "${GEMINI_MODEL:-}"
+      }
+    }
+  }
+}

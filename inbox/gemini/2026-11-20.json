@@ -1,0 +1,108 @@
+{
+ "date": "2026-11-20",
+ "kind": "gemini",
+ "topic": "直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Palo Alto Networks",
+   "関係": "買収",
+   "相手": "Applied Compute",
+   "金額": "45億ドル",
+   "日付": "2026-11-18",
+   "出典URL": "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquires-applied-compute-45-billion-all-stock",
+   "確かさ": "報道",
+   "備考": "株式交換方式",
+   "src": [
+    [
+     "Palo Alto Networks (報道による引用)",
+     "https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-acquires-applied-compute-45-billion-all-stock"
+    ]
+   ],
+   "既存の名前": [
+    "Palo Alto Networks",
+    "Applied Compute"
+   ]
+  },
+  {
+   "会社名": "ElevenLabs",
+   "関係": "買収",
+   "相手": "Kotoba Technologies",
+   "金額": "約1億ドル (約159億円)",
+   "日付": "2026-11-17",
+   "出典URL": "https://www.itmedia.co.jp/aiplus/article/2611/19/news070.html",
+   "確かさ": "報道",
+   "備考": "2026年第4四半期後半完了予定",
+   "src": [
+    [
+     "ITmedia AI+",
+     "https://www.itmedia.co.jp/aiplus/article/2611/19/news070.html"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs",
+    "Kotoba Technologies"
+   ]
+  },
+  {
+   "会社名": "Google Labs",
+   "関係": "買収",
+   "相手": "Howie",
+   "金額": "",
+   "日付": "2026-11-16",
+   "出典URL": "https://dataconomy.com/2026/11/18/google-labs-acquires-ai-scheduling-startup-howie/",
+   "確かさ": "報道",
+   "備考": "金額非公開",
+   "src": [
+    [
+     "Dataconomy",
+     "https://dataconomy.com/2026/11/18/google-labs-acquires-ai-scheduling-startup-howie/"
+    ]
+   ],
+   "既存の名前": [
+    "Howie"
+   ]
+  },
+  {
+   "会社名": "AMD",
+   "関係": "買収",
+   "相手": "Taalas",
+   "金額": "約29億ドル",
+   "日付": "2026-11-17",
+   "出典URL": "https://www.biggo.finance/tw/news/amd-acquires-taalas-for-approximately-2-9-billion-chasing-nvidia-with-ai-inference-specific-chips-20261118182902640277",
+   "確かさ": "報道",
+   "備考": "現金と株式",
+   "src": [
+    [
+     "BigGo Finance",
+     "https://www.biggo.finance/tw/news/amd-acquires-taalas-for-approximately-2-9-billion-chasing-nvidia-with-ai-inference-specific-chips-20261118182902640277"
+    ]
+   ],
+   "既存の名前": [
+    "AMD"
+   ]
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "上場",
+   "相手": "",
+   "金額": "約813億ドル",
+   "日付": "2026-11-19",
+   "出典URL": "https://edition.cnn.com/2026/11/18/tech/anthropic-ipo-nasdaq/index.html",
+   "確かさ": "報道",
+   "備考": "NASDAQ上場, 史上最大規模のIPO",
+   "src": [
+    [
+     "CNN Business",
+     "https://edition.cnn.com/2026/11/18/tech/anthropic-ipo-nasdaq/index.html"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ]
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": []
+}

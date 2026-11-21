@@ -6,7 +6,8 @@
     "serve": "node scripts/serve.js",
     "check": "node scripts/check.js",
     "build-lab": "cd src/lab && python build.py route.html stop.html money.html moves.html cards.html sports.html",
-    "cf-rank": "node scripts/cf_rank.js"
+    "cf-rank": "node scripts/cf_rank.js",
+    "legal": "python3 scripts/legal.py"
   },
   "devDependencies": {
     "acorn": "^8.14.0",
