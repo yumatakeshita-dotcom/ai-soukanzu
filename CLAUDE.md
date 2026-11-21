@@ -88,6 +88,8 @@ docs/                 移行メモなど
 - 開示ウォッチ(2026/11/18追加): `python3 scripts/sec_watch.py` が米国の開示書類(SEC EDGAR)から、SpaceX・Anthropic・Perplexity・Nvidia・Microsoftなどの新しい提出書類(未上場の会社は資金調達の届け出 Form D も)を `inbox/disclosures/日付.json` に足す。SpaceXの決算からはAI(SI)部門の売上なども拾う。SECの決まりで User-Agent に名前とメールが要る(環境変数 `SEC_UA` か、gitに入れない `inbox/disclosures/ua.txt`)。クラウドの環境で www.sec.gov・data.sec.gov・efts.sec.gov を許可済み
 - AI計算資源の契約まとめ(1枚資料、2026/11/18作成・11/19第2版): `docs/compute_deals_2026-11.html`。共有リンク https://claude.ai/artifact/Cs3yFwHEieKF4AhvAn18bu 。「上場の条件」(Anthropicの上場。1株83ドルは2026/11/18の S-1MEF で開示を確認。424B4 が出たら株数・金額を確かめ直す)と「開示ウォッチの新着」(`<!-- WATCH_START -->`〜`<!-- WATCH_END -->`)がある。新着は `python3 scripts/compute_brief.py` が inbox/disclosures/ から足す(足すだけ)。毎週火曜10:53の定期タスク「計算資源の1枚資料を更新 毎週」が実行して公開し直す
 
+- 法的ページのひな形(2026/11/20追加): `site/legal/`(利用規約・プライバシーポリシー・特商法表記・お問い合わせ/訂正・削除)。`python3 scripts/legal.py` が `scripts/legal_config.json` から作る(何度動かしても同じ結果)。**ひな形・未確認**で、専門家の確認が済むまで `show_footer_links` は false のまま(各ページのフッターにリンクが出ない・noindex)。確認後に true にして `python3 scripts/legal.py`。フッターは各ページ末尾の `<!--LEGAL:START-->〜<!--LEGAL:END-->` の間だけ(毎朝の更新で消えたら legal.py を再実行)。空欄の項目はページ上で【要記入】の印のまま出る。`weekly.py` と `build-lab` の最後にも自動で動く
+
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
 - 数字が報道ベースや契約の上限のときは、そう書く
