@@ -32,3 +32,5 @@
 {"at": "2026-11-21T01:17:54+00:00", "model": "gemini-3.5-flash", "result": "429", "in": null, "out": null}
 {"at": "2026-11-21T01:17:54+00:00", "model": "gemini-2.5-pro", "result": "404", "in": null, "out": null}
 {"at": "2026-11-21T02:37:26+00:00", "model": "-", "result": "cap", "in": null, "out": null}
+{"at": "2026-11-21T02:42:44+00:00", "model": "-", "result": "cap", "in": null, "out": null}
+{"at": "2026-11-21T02:52:31+00:00", "model": "-", "result": "cap", "in": null, "out": null}
