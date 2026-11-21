@@ -14,6 +14,11 @@ FEEDS = [  # (url, 媒体名, r: j=日本 w=世界)
     ("https://prtimes.jp/index.rdf", "PR TIMES", "j"),
     ("https://thebridge.jp/feed", "THE BRIDGE", "j"),
     ("https://techcrunch.com/feed/", "TechCrunch", "w"),
+    # 2026/11/21 追加: 許可リストに足して本文が読めると確かめた報道サイト
+    ("https://news.crunchbase.com/feed/", "Crunchbase News", "w"),
+    ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge", "w"),
+    ("https://arstechnica.com/ai/feed/", "Ars Technica", "w"),
+    ("https://siliconangle.com/feed/", "SiliconANGLE", "w"),
 ]
 for q in ["AI 資金調達 スタートアップ", "生成AI 買収 提携", "OpenAI OR Anthropic", "NVIDIA OR 半導体 投資",
           "AI 幹部 就任 退任 移籍", "データセンター 投資 AI"]:
