@@ -12,6 +12,7 @@
     "lab/moves.html": {"url": "/lab/moves.html", "title": "AI人材の移籍マップ", "description": "AI企業のあいだで、どの人がどこからどこへ移ったかを見られるマップ。"},
     "lab/cards.html": {"url": "/lab/cards.html", "title": "AI人物トレカ", "description": "AI業界の人物をカードにして、経歴やつながりを楽しく見る。"},
     "lab/sports.html": {"url": "/lab/sports.html", "title": "テック長者とスポーツ球団", "description": "テック業界の資産家とスポーツ球団のつながりを見る実験ページ。", "sitemap": false},
+    "agents/index.html": {"url": "/agents/", "title": "調査エージェント一覧", "description": "AI企業の相関図の毎日の調べ物を、人材・お金・ファンド・開示・動画・Xなど分野ごとの係に分けた一覧。担当・情報源・動く時間・上限。"},
     "weekly/index.html": {"url": "/weekly/", "title": "AIのお金と人の動き(週のまとめ)", "description": "AIのお金と人の動きを、毎週月曜にまとめるニュースレター。最新号と過去の号の一覧。"},
     "credits.html": {"url": "/credits.html", "title": "顔写真のクレジット", "description": "相関図で使っている顔写真の出典とライセンスの一覧。"}
   }

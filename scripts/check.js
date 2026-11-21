@@ -7,6 +7,7 @@ const PAGES=[
  ['index.html#flow',"showFlowRank();frMoves=frCollect();frRender();document.querySelector('.frl details').open=true;document.querySelector('.frbar button[data-s=net]').click();document.querySelector('.frbar button[data-p=y1]').click();document.querySelector('.frbar button[data-v=pair]').click();document.getElementById('frsw').click();document.querySelector('.frpr a[data-pa]').click()"],
  ['index.html',"showExecTl('openai');document.querySelector('[data-t=out]').click();document.querySelector('[data-y=\"2026\"]').click();showExecTl('anthropic');document.querySelector('[data-t=all]').click();showExecTl('xai');showExecTl('gdm');showExecTl('nvidia')"],
  ['index.html#fun',"showFun();document.querySelector('[data-fc=book]').click();document.querySelector('[data-fc=quote]').click();document.querySelector('[data-fc=name]').click();document.getElementById('fnq').value='goo';document.getElementById('fnq').dispatchEvent(new Event('input'))"],
+ ['agents/index.html',"document.querySelector('#bar button[data-g=\"運営係\"]').click()"],
  ['credits.html',"document.getElementById('q').value='musk';document.getElementById('q').dispatchEvent(new Event('input'))"],['lab/route.html',''],['lab/stop.html',''],['lab/money.html',''],['lab/moves.html',''],['lab/cards.html',"document.getElementById('ten').click()"],['lab/sports.html',''],['legal/terms.html',''],['legal/privacy.html',''],['legal/tokushoho.html',''],['legal/contact.html','']
 ];
 const {spawnSync}=require('child_process');
