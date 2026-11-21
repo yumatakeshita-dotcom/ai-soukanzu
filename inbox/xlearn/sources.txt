@@ -24,4 +24,4 @@ Moonshot | https://www.kimi.com/
 Stability AI | https://stability.ai/news
 Databricks | https://www.databricks.com/blog
 OpenRouter | https://openrouter.ai/announcements
-# 読めない: x.ai/news(403)、z.ai/blog(404=パス違い。正しいパスがわかれば足す)
+# 読めない: x.ai/news(403。代わりに docs.x.ai を見る)、z.ai(中身があとから読み込まれる作りで空。docs.z.ai の許可待ち。docs/xlearn.md 参照)
