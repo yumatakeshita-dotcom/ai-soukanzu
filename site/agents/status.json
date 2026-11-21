@@ -1,0 +1,132 @@
+{
+ "date": "2026-11-21",
+ "at": "2026-11-21 12:00",
+ "tz": "日本時間",
+ "agents": {
+  "daily": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "LAST_CHECK = 2026-11-21"
+  },
+  "merge": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "BUILT = 2026-11-21"
+  },
+  "gemini": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "inbox/gemini/ か Geminiを呼んだ記録あり"
+  },
+  "people": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "引き抜き調査"
+  },
+  "money": {
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
+  },
+  "fund": {
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
+  },
+  "disclosure": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "決算資料・適時開示(IR)"
+  },
+  "media": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "YouTube確認"
+  },
+  "world": {
+   "state": "ok",
+   "label": "動いた",
+   "detail": "薄いところ調査"
+  },
+  "deep": {
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
+  },
+  "fun": {
+   "state": "ng",
+   "label": "記録なし",
+   "detail": "おもしろ情報(inbox/fun/2026-11-21.json が無い)(動かなかったか、まだ push されていない)"
+  },
+  "verify": {
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
+  },
+  "weekly": {
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
+  },
+  "watch": {
+   "state": "wait",
+   "label": "まだ時刻前",
+   "detail": "見張り役の記録(10:31の予定)"
+  },
+  "quality": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "hiring": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "jp_alliance": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "jp_hr": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "jp_funding": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "datacenter": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "column": {
+   "state": "pre",
+   "label": "作る前",
+   "detail": "2026-11-22 から見る"
+  },
+  "x": {
+   "state": "na",
+   "label": "見られない",
+   "detail": "記録がリポジトリに残らない(アカウント追加と印の追記だけ)。見張り役では見られない"
+  },
+  "xlearn": {
+   "state": "na",
+   "label": "見られない",
+   "detail": "自分専用ページの更新で、日付つきの記録が無い"
+  },
+  "publish": {
+   "state": "na",
+   "label": "見られない",
+   "detail": "公開(9:41)はリポジトリに記録が残らない。公開ページの LAST_CHECK で確かめる"
+  },
+  "kigyo": {
+   "state": "na",
+   "label": "見られない",
+   "detail": "Cloudflare 側の作業で、リポジトリに記録が残らない(inbox/watchdog/kigyo-日付.md は見張りの記録)"
+  }
+ }
+}

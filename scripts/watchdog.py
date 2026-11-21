@@ -209,6 +209,11 @@ def main():
             p = os.path.join(d, f'{now:%Y-%m-%d}-{i}.md'); i += 1
         open(p, 'w', encoding='utf-8').write(md)
         print('保存:', os.path.relpath(p, ROOT))
+        try:  # 調査エージェント一覧の「今朝動いたか」の色(2026/11/21追加)。失敗しても見張りは止めない
+            import agents_status
+            agents_status.write(now)
+        except Exception as ex:
+            print('係ごとの状態(status.json)を作れませんでした:', str(ex)[:100])
     sys.exit(1 if any(r[0] == '問題' for r in rows) else 0)
 
 
