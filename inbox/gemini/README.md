@@ -4,6 +4,38 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-22-4　起業家・経営者(OpenAI/Anthropic/NVIDIA/TSMC/ソフトバンク/Google等のAI・半導体企業の創業者や幹部)が本人の言葉(インタビュー・ブログ・株主あての手紙・本人の投稿)で公に挙げた愛読書・影響を受けた本や映画。人名・作品名・作者・出典URL付き。Elon Musk, Sam Altman, Mark Zuckerberg, Masayoshi Son は除く
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic NVIDIA 提携 2026年11月
+- NVIDIA TSMC 契約 2026年11月
+- SoftBank AI 投資 2026年11月
+- Google AI 買収 2026年11月
+- OpenAI 提携 2026年11月
+- Anthropic 資金調達 2026年11月
+- Apple AI エージェント 発表 2026年11月
+- DHH AI エージェント 会社 2026年11月
+- AI半導体データセンター 中東 2026年11月
+- 日本のAIスタートアップ 資金調達 2026年11月
+
+**出てきた候補**
+
+- Anthropic → 資金調達 → AMD, Broadcom, Google, Micron Technology, Microsoft, Nvidia, TSMC Partners (私募増資投資家)(2026-11-20)
+- ソフトバンクグループ → 投資/提携 → Grab Holdings, PETROS (マレーシア州営エネルギー企業)(2026-11-09)
+- OpenAI → 提携 → LVMH メディア部門(2026-11-16)
+- Google → 買収 → Howie(2026-11-18)
+- OpenAI → 提携 → Apollo Research, METR, Transluce, Goodfire(2026-11-16)
+- STRACT → 資金調達 → NTTドコモ・ベンチャーズ など(2026-11-18)
+- TSMC → 製造検討 → NVIDIA(2026-11-06)
+- NVIDIA → 提携/取引 → Amkor, Foxconn, Kinsus Interconnect Technology, Samsung Electro-Mechanics, SPIL, TSMC(2026-11-17)
+- Google → 助成金 → IIT Kharagpur (インド工科大学カラグプル校)(2026-11-21)
+- Apple → 開発 → (2026-11-19)
+
+記録ファイル: inbox/gemini/2026-11-22-4.json / 2026-11-22-4.md
+
 ## 2026-11-22-3　Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年
 
 - モデル: gemini-2.5-flash　/　候補 8件

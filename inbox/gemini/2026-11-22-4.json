@@ -1,0 +1,314 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "起業家・経営者(OpenAI/Anthropic/NVIDIA/TSMC/ソフトバンク/Google等のAI・半導体企業の創業者や幹部)が本人の言葉(インタビュー・ブログ・株主あての手紙・本人の投稿)で公に挙げた愛読書・影響を受けた本や映画。人名・作品名・作者・出典URL付き。Elon Musk, Sam Altman, Mark Zuckerberg, Masayoshi Son は除く",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "資金調達",
+   "相手": "AMD, Broadcom, Google, Micron Technology, Microsoft, Nvidia, TSMC Partners (私募増資投資家)",
+   "金額": "約1,195億ドル",
+   "日付": "2026-11-20",
+   "出典URL": "https://jp.investing.com/news/stock-market-news/article-432SI-1766014",
+   "確かさ": "公式",
+   "備考": "IPO約935億ドルと私募増資約260億ドルの合計。私募増資にはGoogleとNVIDIAがそれぞれ約100億ドル出資。",
+   "src": [
+    [
+     "Investing.com",
+     "https://jp.investing.com/news/stock-market-news/article-432SI-1766014"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFrxZ_ReCOaRRlBAjMkaCQrbM0BXFEi_BhbUAN23vGC6AK5mxVVmtEP2ePQiOkVyRHwURxBP8SIu9LUxwbnSfrWTr3g7U6sYUsTzYPZxZz6CjMp4rcQANhO9rTQGKHA5GZij7LBvtrkrAdOlpS-F_v03gLEagnuyiIxlapfg_xR3Q==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "ソフトバンクグループ",
+   "関係": "投資/提携",
+   "相手": "Grab Holdings, PETROS (マレーシア州営エネルギー企業)",
+   "金額": "約18.5億ドル",
+   "日付": "2026-11-09",
+   "出典URL": "https://forbesjapan.com/articles/detail/108022",
+   "確かさ": "公式",
+   "備考": "マレーシアでのAIインフラ整備に初期投資。ソフトバンクグループが10億ドル、Grabが7.5億ドル、PETROSが1億ドルを拠出する計画。",
+   "src": [
+    [
+     "Forbes Japan",
+     "https://forbesjapan.com/articles/detail/108022"
+    ]
+   ],
+   "既存の名前": [
+    "ソフトバンクグループ"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGS1R10j_Il3j73Rvy4s_5ejuhwCWqAfAGzzpa8f9jmXicPxa4jJfffHRGOmrBqOcccN2zcsHqcj_lMkRIY0acAYQRU1JIK-hrSTPoCFzGRuGlhtSFjaS1i8N1VMgE3CosVil9w0Q_y6Hk=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "孫正義率いるソフトバンクグループと配車・宅配のGrab、マレーシアAI拠点に約2923億円を投資へ | Forbes J",
+    "状態": "ok",
+    "載っていた名前": [
+     "ソフトバンクグループ",
+     "Grab Holdings",
+     "PETROS"
+    ]
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "LVMH メディア部門",
+   "金額": "",
+   "日付": "2026-11-16",
+   "出典URL": "https://openai.com/ja-JP/index/lvmh-media-division-partnership/",
+   "確かさ": "公式",
+   "備考": "AI活用支援およびChatGPTを通じた報道アクセス向上。",
+   "src": [
+    [
+     "LVMHプレスリリース",
+     "https://openai.com/ja-JP/index/lvmh-media-division-partnership/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfa3MQ-hm5hhBi_lZ1qiREKK8JnsKqLCdoraS1k-PM8r6MJfOC27nLGCfqJXyZ9be1F-L3gBMcjvp1ZSWb7KBx-zJ5wJZthdsStjv-qLP8pB836_6UZDyrJ3MahutASyKSYbJwa38pv24TnEkok5G5KBi4-Bt51N_gxA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "LVMH のメディア部門、OpenAI との戦略的提携を発表 | OpenAI",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI"
+    ]
+   }
+  },
+  {
+   "会社名": "Google",
+   "関係": "買収",
+   "相手": "Howie",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://m.sohu.com/a/1103131208_122066679?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334",
+   "確かさ": "公式",
+   "備考": "AI日程管理に特化したAIエージェント企業。Google LabsのX投稿で認定。",
+   "src": [
+    [
+     "Sohu",
+     "https://m.sohu.com/a/1103131208_122066679?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334"
+    ]
+   ],
+   "既存の名前": [
+    "Google",
+    "Howie"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiFnH8CM5jaV6xb-V1jz_3n32WkAP_Y3N87sM_8c4qqkd2HMpVQp81NhW2SD3XUkqVIDkW3cnvACweErayvBEox1wLpyrlsYkf1-CmmQYwelMBL2JoI0e0bh2MKCVqkUm96e9ZeEJfpu9jzZbpjGXIrmEO-mXSEHv9Xf75nJ7dnvOBiEJGXKW8Sc2sYOnRiQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "Apollo Research, METR, Transluce, Goodfire",
+   "金額": "",
+   "日付": "2026-11-16",
+   "出典URL": "https://ledge.ai/articles/openai_embedded_assessments",
+   "確かさ": "公式",
+   "備考": "AI安全性を検証するための内部モデル・システムへのアクセス許可。",
+   "src": [
+    [
+     "Ledge.ai",
+     "https://ledge.ai/articles/openai_embedded_assessments"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2gjRWY9HB-szUv9kr_LRMeZvk14b4hYrvyQeQoyn67eIVJjo9eBP6675VW06hbUpW0vkTN5BfTNjZD__XBig7APsqtoZK_rPcjWTEin1iP6YOrxuriZcM8uCdIGLNW8zzfDFdeXYb4r1tx48gD_c3",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "OpenAI、Apollo ResearchやMETRなど外部4機関にAI内部モデル・システムへのアクセスを許可 安全性",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI",
+     "Apollo Research",
+     "METR",
+     "Transluce",
+     "Goodfire"
+    ]
+   }
+  },
+  {
+   "会社名": "STRACT",
+   "関係": "資金調達",
+   "相手": "NTTドコモ・ベンチャーズ など",
+   "金額": "約12億円",
+   "日付": "2026-11-18",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnipfSc_HcdbuJ_Dg1ekvPHS2xt6meib032kK4Qwm9TX0VmOR-X4uvTkFcgJkG-PmGKyME2MW6pJnWqVyeK9DhuCeWHh1ZOOA1fpwXtv_x9dvvyHUOFq_WQbXj_cEM7rrKUZQ9mcy9mK94DLDJ8Wv9Yn3fKZQ==",
+   "確かさ": "公式",
+   "備考": "国内ECに特化したパーソナルAIエージェント『DONDO』の正式発表と同時に実施。累計調達額は26.2億円。",
+   "src": [
+    [
+     "PR TIMES",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnipfSc_HcdbuJ_Dg1ekvPHS2xt6meib032kK4Qwm9TX0VmOR-X4uvTkFcgJkG-PmGKyME2MW6pJnWqVyeK9DhuCeWHh1ZOOA1fpwXtv_x9dvvyHUOFq_WQbXj_cEM7rrKUZQ9mcy9mK94DLDJ8Wv9Yn3fKZQ=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "TSMC",
+   "関係": "製造検討",
+   "相手": "NVIDIA",
+   "金額": "",
+   "日付": "2026-11-06",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI_7ee-eF4xKFT4PL1rAPWG_EDrRrme43l7MEXIAW-zZ72lhGnXw3wIRN_NCb2_8cX3mSdv7B_JkmJJv8bt_MrOWmSMweroZc1Ba2vlzllOGSAJACvdztwrqFrFF1-CEKepJcvXJ69zqlDiLAScPZbV1RJRg==",
+   "確かさ": "報道",
+   "備考": "NVIDIAの要請を受け、次世代3D DRAMの製造を検討。",
+   "src": [
+    [
+     "GAZLOG",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFI_7ee-eF4xKFT4PL1rAPWG_EDrRrme43l7MEXIAW-zZ72lhGnXw3wIRN_NCb2_8cX3mSdv7B_JkmJJv8bt_MrOWmSMweroZc1Ba2vlzllOGSAJACvdztwrqFrFF1-CEKepJcvXJ69zqlDiLAScPZbV1RJRg=="
+    ]
+   ],
+   "既存の名前": [
+    "TSMC",
+    "NVIDIA"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "提携/取引",
+   "相手": "Amkor, Foxconn, Kinsus Interconnect Technology, Samsung Electro-Mechanics, SPIL, TSMC",
+   "金額": "",
+   "日付": "2026-11-17",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJHBr75fJPyfTN6Z3HH6oMCExzY6wobCdFXSu_uSIaJ29dV_ttV2D7dxPgS8wt6nWSn76SE8gSAjNQThdxGAefZ-NcyodZ8e5ilEpWfh1dbNmIn93L2KYFC_mW-KERnBAo1RT7HVLrC_VnlsEUlk5GTfNzotQxUZ2F",
+   "確かさ": "公式",
+   "備考": "サプライチェーンパートナー6社との供給コミットメント拡大を発表。SPILには数十億ドル規模の資金支援。",
+   "src": [
+    [
+     "NVIDIA Newsroom",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGJHBr75fJPyfTN6Z3HH6oMCExzY6wobCdFXSu_uSIaJ29dV_ttV2D7dxPgS8wt6nWSn76SE8gSAjNQThdxGAefZ-NcyodZ8e5ilEpWfh1dbNmIn93L2KYFC_mW-KERnBAo1RT7HVLrC_VnlsEUlk5GTfNzotQxUZ2F"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Google",
+   "関係": "助成金",
+   "相手": "IIT Kharagpur (インド工科大学カラグプル校)",
+   "金額": "500万ドル",
+   "日付": "2026-11-21",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOU9kS-cszROCCQgxP_SeXLdQ6beLoLtsSVu1fntS4ySuoN8sRrqwlEwbjvKU6nPnQC-OU6TCyBmZrVKCoBjahP7UYuhTo1z0BjHqHC9ztmQywsXTe0CazKERs0DqVujI2s-1_eeXsxtRSWYvtLaN0zG99X2LfH9Kb6_uCt",
+   "確かさ": "公式",
+   "備考": "インドでのAI研究拡大を支援。",
+   "src": [
+    [
+     "Unite.AI",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOU9kS-cszROCCQgxP_SeXLdQ6beLoLtsSVu1fntS4ySuoN8sRrqwlEwbjvKU6nPnQC-OU6TCyBmZrVKCoBjahP7UYuhTo1z0BjHqHC9ztmQywsXTe0CazKERs0DqVujI2s-1_eeXsxtRSWYvtLaN0zG99X2LfH9Kb6_uCt"
+    ]
+   ],
+   "既存の名前": [
+    "Google"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Apple",
+   "関係": "開発",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8eHsUCJCCPySVCAef4IjGLaP7UG36Ld0kJsaWzFs4F7fDmwTTeAFcSFiYpOJNX20zetlDIMO__Bi_wYZxfiMlZuvSDxwk587UlKMJzke8zaWGz62G79NJtiJ_i7pblzn-6Z1afM8_q2FsT9ANn8el6RjDp3ur8tIltZvoqwkKiK0oMg==",
+   "確かさ": "報道",
+   "備考": "ウェブ閲覧、アプリ操作、コード作成などを自律的に行うMac向けAIエージェントを開発中。求人情報とBloombergの報道から判明。",
+   "src": [
+    [
+     "GIGAZINE",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG8eHsUCJCCPySVCAef4IjGLaP7UG36Ld0kJsaWzFs4F7fDmwTTeAFcSFiYpOJNX20zetlDIMO__Bi_wYZxfiMlZuvSDxwk587UlKMJzke8zaWGz62G79NJtiJ_i7pblzn-6Z1afM8_q2FsT9ANn8el6RjDp3ur8tIltZvoqwkKiK0oMg=="
+    ]
+   ],
+   "既存の名前": [
+    "Apple"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Anthropic NVIDIA 提携 2026年11月",
+   "NVIDIA TSMC 契約 2026年11月",
+   "SoftBank AI 投資 2026年11月",
+   "Google AI 買収 2026年11月",
+   "OpenAI 提携 2026年11月",
+   "Anthropic 資金調達 2026年11月",
+   "Apple AI エージェント 発表 2026年11月",
+   "DHH AI エージェント 会社 2026年11月",
+   "AI半導体データセンター 中東 2026年11月",
+   "日本のAIスタートアップ 資金調達 2026年11月"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2713,
+   "candidatesTokenCount": 2708,
+   "totalTokenCount": 17551,
+   "cachedContentTokenCount": 542,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2713
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 542
+    }
+   ],
+   "toolUsePromptTokenCount": 4422,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4422
+    }
+   ],
+   "thoughtsTokenCount": 7708,
+   "serviceTier": "standard"
+  }
+ }
+}
