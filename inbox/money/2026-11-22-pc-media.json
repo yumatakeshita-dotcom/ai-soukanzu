@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "notes": "ソフトバンク決算説明会(2026/11/10、YouTube)で語られた『OpenAIとの20年・8GWの賃貸契約』の契約相手を報道で確かめた。契約したのはソフトバンク傘下のSB Energy。",
+ "items": [
+  {
+   "from": "OpenAI",
+   "to": "SB Energy(ソフトバンク傘下)",
+   "kind": "計算資源の賃貸",
+   "amount": "オハイオ州パイク郡の約8GW(IT容量)を20年賃貸。SB Energyが$55億相当のワラントをOpenAIに付与。NvidiaがWSJ報道で$1,050億規模の保証",
+   "date": "2026-08-17",
+   "note": "OpenAIが、SB Energyが建設・所有・運営するオハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)を20年で借りる契約。最初の800MWは2028年、2032年まで拡張の予定。Nvidiaが計算基盤の提供者で、保証の額・条件は報道ベース(Axiosは10年と報じるが、ほかは20年)。8GWはIT容量で、電源は10GWと説明する報道もあり。ソフトバンクの2026/11/10の決算説明会でも言及。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=nyCX-wTlEFc",
+   "src": [
+    [
+     "Axios(2026/8/17)",
+     "https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy"
+    ],
+    [
+     "The Next Web(2026/8)",
+     "https://thenextweb.com/news/sb-energy-openai-warrants-ohio-campus"
+    ],
+    [
+     "Channel Insider(2026/8)",
+     "https://www.channelinsider.com/ai/news-openai-8gw-ohio-data-center-lease-nvidia/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "media"
+  }
+ ]
+}
