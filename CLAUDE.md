@@ -36,6 +36,7 @@ docs/                 移行メモなど
 - 手元で見る: `npm run serve` → ブラウザで http://localhost:8000
 - 変更のあとの確認(必ずやる): `npm run check`  ※初回だけ `npm install` と `npx playwright install chromium`
 - 実験ページを作り直す: `npm run build-lab`(`src/lab/*.html` を直したあと)
+- NotebookLM用に全部の情報をMarkdownで書き出す(2026/11/19追加): `node scripts/nblm_dump.js /tmp/nblm.json && python3 scripts/nblm_md.py /tmp/nblm.json 出力フォルダ`。取り元の一覧の文は `docs/notebooklm_sources.md`。読むだけでサイトは変えない
 - 本体のデータから実験ページ用データを作り直す:
   `node scripts/export_graph.js && node scripts/export_flows.js && python scripts/make_lab_data.py && npm run build-lab`
 
