@@ -19,6 +19,24 @@
 - 日本語のYouTubeは NewsPicks・ReHacQ・PIVOT・テレ東BIZ・日経・ソフトバンクグループを足した(計27)
 
 ## 過去の動画をさかのぼる(2026/11/21追加)
+- 公式RSSは直近15本までなので、`python3 scripts/yt_backfill.py [--leads]` がチャンネルの「アップロード一覧」の公開ページから各チャンネル最新100本(動画ID・題名・おおよその古さ)を読み、`inbox/youtube/backfill/日付.json` に足す(足すだけ。取った動画は飛ばす)。2026/11/21の試運転で30/30チャンネル・2,885本。説明文は取らない(題名と会社名が手がかり。確かめは別の出典で)
+- `--leads` を付けると、移籍・出資の言葉と会社名がある題名だけ表示する
+## 日本語・アジアの情報源を追加(2026/11/21)
+- ポッドキャスト16番組を `inbox/podcast_feeds.txt` に追加(計35)。日本のVC・スタートアップ(VIVA VC、XTech Ventures、スタートアップ投資TV、令和スタートアップ、Startup Now、川邊の会食、Off Topic、海外スタートアップレポート)、経済ニュース(日経ビジネス、NewsPicks)、アジア(SEA of Startups、Forbes India、韓国の스타인・와우레터、The New Playbook)。Apple Podcastsを国別(jp・kr・tw・cn・in・id・sg)に検索して選んだ。過去120日分(323本)を `pod_daily.py --days 120` で記録
+- `media_digest.py` の会社名リストに日本・アジアの名前を足した(手がかり用。足すだけ)
+- 確かめて足せたもの: movus technologies のシリーズB(出資1件、PR TIMESの会社リリースで確認)
+- **まだ見られないもの(環境の許可に無いホスト)**:
+  - ポッドキャスト: api.robotstart.jp(10分でわかるスタートアップ・資金調達ニュース)、hiromaeda.com(前田ヒロ)、www.radionikkei.jp(耳でわかるビジネステック)、rss.listen.style(Catalyst)、feed.pod.co(BRAVE Southeast Asia Tech)、feed.firstory.me(創創燒 TVCA ほか台湾)、feeds.captivate.fm(Prime Venture Partners)
+  - 決算資料(IR): www.jpx.co.jp、www.release.tdnet.info、disclosure2.edinet-fsa.go.jp、api.edinet-fsa.go.jp、www.hkexnews.hk、dart.fss.or.kr、mops.twse.com.tw、www.bseindia.com、www.sgx.com、group.softbank
+  - 記事: techinasia.com、e27.co、startup-db.com、entrackr.com
+  - 許可済みで使えるもの: prtimes.jp、thebridge.jp、dealstreetasia.com、kr-asia.com、inc42.com、nikkei.com
+
+### 許可後の確認(2026/11/21 夕)
+- 追加で許可された19ホストのうち、読めた: api.robotstart.jp、www.radionikkei.jp、rss.listen.style、feed.pod.co、feed.firstory.me、feeds.captivate.fm、www.jpx.co.jp、www.release.tdnet.info(適時開示)、www.hkexnews.hk、mops.twse.com.tw、www.bseindia.com、www.sgx.com、www.techinasia.com、startup-db.com、entrackr.com。番組7つを足して計42番組(41が読めた)
+- まだ読めない: dart.fss.or.kr(空の応答)、group.softbank(断られた)、disclosure2.edinet-fsa.go.jp(サイト側が403)、api.edinet-fsa.go.jp(転送先を確認中)
+- 前田ヒロは `www.hiromaeda.com` に転送されるため、その許可が要る(URLは www に直した)
+- 決算資料(IR)の取り込みの道具は、まだ作っていない(次の作業)
+## 過去の動画をさかのぼる(2026/11/21追加)
 - RSSは最新15本までなので、`python3 scripts/yt_deep.py` で各チャンネルの「アップロード一覧」(再生リスト UU+チャンネルID)の公開ページから直近100本(タイトル・長さ・おおよその投稿時期)を読む。30チャンネルで約2900本、約3か月〜1年分。結果は `inbox/youtube/deep/日付.json`(見た動画は `deep/seen.txt`)
 - 説明文は取れない(動画ページはロボット確認で断られる)。タイトルは手がかりなので、報道・公式で確かめてから inbox/moves・money に足す
 - 100本より先(続きの読み込み)は、YouTubeの内部APIを使うことになるので行っていない
