@@ -44,3 +44,7 @@
 {"at": "2026-11-21T23:26:39+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 354, "out": 67}
 {"at": "2026-11-21T23:27:23+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 354, "out": 4395}
 {"at": "2026-11-21T23:54:18+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2713, "out": 2708}
+{"at": "2026-11-22T01:09:15+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 3097, "out": 227}
+{"at": "2026-11-22T01:10:02+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2945, "out": 392}
+{"at": "2026-11-22T01:10:47+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2949, "out": 343}
+{"at": "2026-11-22T01:11:08+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 1919, "out": 211}

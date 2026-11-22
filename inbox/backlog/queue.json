@@ -41,6 +41,22 @@
     "valuation"
    ]
   },
+  "01a39bec9e": {
+   "companies": [
+    "a16z"
+   ],
+   "desc": "Adriel Yong is the Co-Founder and COO of Clouted, the AI-native clipping and distribution company that turns long-form content into short video and routes it to the right platform and audience. Clouted has raised a $7M seed led by Slow Ventures, following a $4.45M round backed by a16z SPEEDRUN and AppWorks under its former name, Clout Kitchen. The team also produces &FRIENDS, one of the largest da",
+   "id": "01a39bec9e",
+   "note": "",
+   "published": "2026-09-14",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "AI Has Changed The Way We Create, Consume And Value Content | Adriel Yong - E730",
+   "url": "https://pod.co/bravedynamics/ai-has-changed-the-way-we-create-consume-and-value-content-adriel-yong-e730",
+   "words": [
+    "raised"
+   ]
+  },
   "01cbe4fc6e": {
    "companies": [
     "Anthropic",
@@ -342,6 +358,24 @@
     "joins"
    ]
   },
+  "0839ff7e49": {
+   "companies": [
+    "孫正義"
+   ],
+   "desc": "巨額の資金調達に成功した瞬間、創業者の中で何が変わるのか。 WeWork共同創業者のアダム・ニューマンが、孫正義と車中で交わした約30分間の会話を、自身の経営姿勢が変わった転機として振り返りました。当初予定していた3〜4億ドルをはるかに上回る42億ドルの出資提案。その後、WeWorkは企業価値470億ドルまで成長したものの、上場断念、創業者の退任、そして経営破綻を経験します。 今回は、ニューマンのインタビューを起点に、巨額の資金調達が創業者の心理に与える影響、企業価値の上昇とともに膨らむ投資家の期待、そして資金を受け入れる経営者と投資する側の責任について、朝倉と森が議論します。 ▼ 今回のトピック アダム・ニューマンが語った、孫正義との30分間の出来事 3〜4億ドルの調達計画が42億ドルの出資提案に変わるまで 巨額の資金調達で、事業への使命感が個人の資産や損得への関心に変わる瞬間 WeWo",
+   "id": "0839ff7e49",
+   "note": "",
+   "published": "2026-10-29",
+   "source": "This is 令和スタートアップ",
+   "status": "todo",
+   "title": "「お金は人を狂わせる」WeWork創業者と巨額調達の代償",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/WeWork-e3r6jki",
+   "words": [
+    "出資",
+    "調達",
+    "退任"
+   ]
+  },
   "0877797026": {
    "companies": [
     "Microsoft"
@@ -370,10 +404,10 @@
    ],
    "desc": "AGENDA: 04:47 Cursor Raises $2.3BN at $29BN Valuation 11:36 What Gemini 3 Means for Lovable, Cursor and Replit 30:54 Peter Thiel and Softbank Sell NVIDIA: The Bubble Bursting? 48:54 Oracle Credit Default Swaps: The Risk is Increasing 01:07:22 Stripe Does Tender at All-Time High: Why the Best Companies Will Never IPO 01:19:18 Why Retail WIll Cause a Surge of Capital into VC Funds",
    "id": "088dbdb15d",
-   "note": "",
+   "note": "Cursorはすでにある",
    "published": "2025-11-20",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Cursor Raises $2.3BN: Who Wins the Coding War | Peter Thiel and Softbank Sell NVIDIA: Analysed | Why Venture Capital Will Hit $1TRN and the Opening of Retail | Why Stripe and the Best Companies Will Never Go Public",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-cursor-raises-23bn-who-wins-the-coding-war-peter-thiel-and-softbank-sell-nvidia-analysed-why-venture-capital-will-hit-1trn-and-the-opening-of-retail-why-stripe-and-the-best-companies-will-never-go-public",
    "words": [
@@ -536,6 +570,23 @@
    "url": "https://share.transistor.fm/s/6ed35a17",
    "words": [
     "joins"
+   ]
+  },
+  "0c0198e541": {
+   "companies": [
+    "トヨタ"
+   ],
+   "desc": "直近のビジネスニュースから、注目を集める最新動向をわかりやすく解説します。 AI分野では、リーガルテックのLegoraや元Anthropic研究員設立のMirendil、トレーニングデータ事業を展開するSnorkel AIなど、評価額数千億円規模のスタートアップが相次いで大型調達を実施。国内でも生成AI電話システムのnocallや不動産DXのFaciloが巨額の資金を確保しています。 さらに、トヨタ自動車が出資する自動運転開発のMay Mobilityがナスダック市場への上場を準備しており、評価額は約2000億円規模に。宇宙領域では、豪HEOが日本の防衛省などの支援を受けて約38億円を調達し、「衛星を撮る衛星」の運用拡大を目指します。 また、JR九州とSBIの提携による総合金融アプリの発表や、相次ぐIPOラッシュなど、企業の新規参入や市場再編の最新展開を紐解きます。",
+   "id": "0c0198e541",
+   "note": "",
+   "published": "2026-09-25",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "トヨタ出資先の上場や豪HEO調達、本日の注目ニュースとは？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
    ]
   },
   "0c41d535b9": {
@@ -1016,6 +1067,24 @@
     "buy"
    ]
   },
+  "178cd8942e": {
+   "companies": [
+    "エヌビディア",
+    "オープンAI"
+   ],
+   "desc": "牛のげっぷ由来のメタンガス削減に取り組む高知大学発のスタートアップ、サンシキと、巨大化するAIインフラの電力問題に取り組むエヌビディアの最新戦略に迫ります。 サンシキは、温室効果ガス削減に即効性がある日本在来の海藻、カギケノリを活用した牛向け飼料の開発を進め、資金調達による生産体制の拡大を目指しています。 一方、半導体大手のエヌビディアは、対オープンAIの財務保証を半減させる一方で、AI需要に対応した電力供給やデータセンター開発を担うSBエナジーへの巨額出資を決定しました。 地球温暖化対策とテクノロジーの進化、その双方の持続可能性を左右する二つの重要な動きについて、それぞれの背景と投資のインパクトを分かりやすく解説します。",
+   "id": "178cd8942e",
+   "note": "",
+   "published": "2026-09-03",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "牛のげっぷとAI電力への投資が未来を変える？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
+   ]
+  },
   "17a7906d79": {
    "companies": [
     "Apple",
@@ -1200,6 +1269,22 @@
    "words": [
     "buys",
     "raises"
+   ]
+  },
+  "1b7b7df0a5": {
+   "companies": [
+    "エヌビディア"
+   ],
+   "desc": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ ビル・ゲイツ氏、ＡＩ時代に警鐘 https://npx.me/s/q5ftONvU ◇オリジナルコンテンツ◇ 【80兆円】エヌビディアの「新しい循環取引」がケタ違いだ https://npx.me/s/p9vrq2Bh エヌビディアの「AI版GitHub」買収が意味すること https://npx.me/s/wdeMhF3o 【衝撃アプローチ】ヒューマノイドのデータ収集が面白い https://npx.me/s/iW6AEU8g 【分析】ちいかわ作者「ナガノ」はいかに驚異的か https:/",
+   "id": "1b7b7df0a5",
+   "note": "",
+   "published": "2026-08-27",
+   "source": "NewsPicks Daily Briefing",
+   "status": "todo",
+   "title": "【8月28日】エヌビディアの「新しい循環取引」がケタ違いだ ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/828-e3o04gm",
+   "words": [
+    "買収"
    ]
   },
   "1b908cc039": {
@@ -1503,6 +1588,22 @@
     "acquisition"
    ]
   },
+  "202d89db2d": {
+   "companies": [
+    "Grab"
+   ],
+   "desc": "Grab is a rideshare service-turned superapp, not available in the US but rapidly growing in Southeast Asia. It’s even outmaneuvered global players like Uber to reach a valuation north of $20 billion. Grab’s co-founder and CEO Anthony Tan joins Rapid Response to share how the platform has successfully expanded into food delivery and fintech, while also investing in the future of electric vehicles a",
+   "id": "202d89db2d",
+   "note": "",
+   "published": "2025-09-02",
+   "source": "Masters of Scale",
+   "status": "todo",
+   "title": "Grab’s rise from rideshare to superapp in Asia, with Anthony Tan",
+   "url": "",
+   "words": [
+    "valuation"
+   ]
+  },
   "20712ee533": {
    "companies": [
     "Stripe"
@@ -1678,6 +1779,22 @@
     "joins"
    ]
   },
+  "23cf65f5df": {
+   "companies": [
+    "Microsoft"
+   ],
+   "desc": "\"How are you going to stay ahead of the competition in a world where two kids can vibe code a clone of your product over a weekend?\" Itamar Novick is a solo capitalist and the founder of Recursive Ventures, a pre-seed fund focused on AI and emerging tech startups. He has supported over 50 successful startups, including Deel, Honeybook, Placer, Credible (IPO), MileIQ (acquired by Microsoft), Automa",
+   "id": "23cf65f5df",
+   "note": "",
+   "published": "2026-09-02",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "Itamar Novick: Where AI Replaces People, and Where It Does Not - E727",
+   "url": "https://pod.co/bravedynamics/itamar-novick-where-ai-replaces-people-and-where-it-does-not-e727",
+   "words": [
+    "acquired"
+   ]
+  },
   "25c526028a": {
    "companies": [
     "OpenAI"
@@ -1781,6 +1898,23 @@
     "buys"
    ]
   },
+  "28906be71c": {
+   "companies": [
+    "ソニー"
+   ],
+   "desc": "前編に引き続き、株式会社Gunosy代表取締役社長で、ゲーム攻略メディア「Game8（ゲームエイト）」創業者の西尾健太郎氏をお迎えしました。 M&Aで会社を売却した創業者が、その後グループ本体の社長に就任する——珍しいキャリアの歩みを、意思決定の内側から語っていただきました。 後編となる今回は、2018年の執行役員就任から、2020年の取締役就任、そして2023年12月のGunosy社長就任までの経緯を振り返ります。エンジェル投資や社外取締役など選択肢が広がる中で悩んだキャリア判断、行動指針「Gunosy Pride」へのリブランディング、自ら管掌するAI新規事業「IR Hub」、ソニーペイメントサービス（現SP.LINKS）との合弁によるゲーム決済事業、そして現在のM&A方針までを語っていただきました。 Agenda (0:00) オープニング。M&Aされた会社の社長が本体の社長になるま",
+   "id": "28906be71c",
+   "note": "",
+   "published": "2026-09-23",
+   "source": "スタートアップ オフレコ対談(XTech Ventures)",
+   "status": "todo",
+   "title": "「買収された会社の社長が、本体の社長になる」執行役員・取締役を経てGunosy代表へ。新規事業とM&A戦略｜西尾 健太郎 氏",
+   "url": "https://podcasters.spotify.com/pod/show/xtech-ventures/episodes/GunosyMA-e3otpq1",
+   "words": [
+    "就任",
+    "買収"
+   ]
+  },
   "28c5e42f56": {
    "companies": [
     "Anthropic",
@@ -1832,6 +1966,22 @@
    "url": "https://share.transistor.fm/s/94091b47",
    "words": [
     "joins"
+   ]
+  },
+  "293d19d0ea": {
+   "companies": [
+    "ソフトバンク"
+   ],
+   "desc": "今回のゲストは、movus technologies株式会社 代表取締役の酒井丈虎さん。2050年に世界4位の経済大国になると言われるインドネシアにて、モビリティ×金融の巨大インフラ構築に挑み、シリーズBにて42.6億円の資金調達を発表し大きな注目を集めています。 慶應野球部時代の怪我と挫折、内閣総理大臣を目指した時代からの軌道修正、コロナ直撃による渡航断念とソフトバンクでの修業時代。苦闘の果てに、大学野球部の同期とともに、命をかけて東南アジアに飛び込みました。 創業初期に現地でバイクを爆走させた泥臭い事業立ち上げのリアルから、日本の強みを活かしたオペレーション設計、メガバンクも動かした42.6億円調達の舞台裏、そして「外貨を稼ぎ日本を元気にする」壮大なビジョンまで熱く語っていただきました🗣️ ━━━━━━━━━━━━━━━━━━━━━ ▼ タイムスタンプ（Highlights） 00:0",
+   "id": "293d19d0ea",
+   "note": "",
+   "published": "2026-08-04",
+   "source": "Startup Now(StartPods)",
+   "status": "todo",
+   "title": "インドネシア起業に40億円超が集まる理由。日本発だから勝てるモビリティ×金融の巨大市場／movus technologies株式会社 代表取締役 酒井丈虎さん",
+   "url": "https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/40movus-technologies-e3mmnb0",
+   "words": [
+    "調達"
    ]
   },
   "295b20e188": {
@@ -2027,6 +2177,22 @@
    "url": "https://www.youtube.com/watch?v=wX8nDtGIfYA",
    "words": [
     "buy"
+   ]
+  },
+  "2cd2929983": {
+   "companies": [
+    "メルカリ"
+   ],
+   "desc": "ディープテック、防衛、そして国策——いま日本のスタートアップ界隈で交わされる会話は、気づけば同じ言葉に収斂しつつあります。高市政権の「戦略17分野」に視線が集まり、上場株の鉄則「国策に逆らうな」がベンチャー投資の文脈でも語られはじめました。しかし、全員が同じ方向に張ったとき、そこにアルファ(超過リターン)は残るのでしょうか。 今回は、スピーダに蓄積された2010年以降の資金調達データを起点に、gumi・メルカリの時代からSaaSバブル、そしてAI・ディープテックへの収斂まで15年のセクター変遷を振り返りながら、国策テーマに集中する現在への違和感、防衛スタートアップの市場性、そしてPE化・サーチファンド化していくVCというビジネスモデルの進化まで話しています。 ▼ 今回のトピック 資金調達額トップ20を2010年から並べ直すと何が見えるか 2010年・2011年のトップ20はエネルギー、バイ",
+   "id": "2cd2929983",
+   "note": "",
+   "published": "2026-09-10",
+   "source": "This is 令和スタートアップ",
+   "status": "todo",
+   "title": "セクターの15年──調達額トップ20の顔ぶれが映す日本の独自進化",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/1520-e3od814",
+   "words": [
+    "調達"
    ]
   },
   "2d4e564c15": {
@@ -2538,10 +2704,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in under 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya N",
    "id": "35820bec2c",
-   "note": "",
+   "note": "xAI 00億を入れた",
    "published": "2026-01-07",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "xAI Raises $20B, Anthropic’s $350B Valuation, OpenAI Launches ChatGPT Health | Diet TBPN",
    "url": "https://share.transistor.fm/s/1d47c8fa",
    "words": [
@@ -2823,6 +2989,22 @@
    "words": [
     "hire",
     "raised"
+   ]
+  },
+  "3bfb7307fb": {
+   "companies": [
+    "アンソロピック"
+   ],
+   "desc": "本エピソードでは、コード開発から宇宙インフラまで広がる最新テクノロジーの大型資金調達動向を特集します。元アンソロピック研究者が立ち上げ、AIエージェントがコードの99％超を作成する体制で10億ドルを調達したミレンディルや、企業のセキュリティ運用を自律化する防御型AIのCormaなど、AI自身が開発や防御を担う最前線を解説。さらに、宇宙空間で分散コンピューティング網の構築を目指す独NeuralSatや、ロボットによる宇宙建築を進めるSpace Quarters、年産1万台のヒューマノイド量産を目指し約800億円を調達したAgile Robotsなど、宇宙や物理世界へ越境する先端テックの現在地を紐解きます。ソフトウェアの自律化から軌道上インフラまで、直近の資金調達が切り拓く産業構造の変革をお届けします。",
+   "id": "3bfb7307fb",
+   "note": "",
+   "published": "2026-11-18",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "AIがコードや軌道上計算網を担う？最新の大型調達は何を変えるか",
+   "url": "",
+   "words": [
+    "調達"
    ]
   },
   "3c0a60f134": {
@@ -3128,10 +3310,10 @@
    ],
    "desc": "Agenda: [00:00] The AI Talent Crisis No One's Ready For [03:00] Daniel Gross and Nat Friedman: Why Two Legendary VCs Walked Away From $1B to Join Meta [12:00] Meta's AI Talent Magnet: Will It Actually Work? [15:00] Cursor Is Breaking the Market: Can Anyone Compete? [18:30] OpenAI's SBC Bombshell: More Stock Comp Than Revenue [22:00] CoreWeave's Power Play: Buying Their Landlords [26:00] Is Circle ",
    "id": "423df8831c",
-   "note": "",
+   "note": "Gross/Friedman→Meta、Disney等は別件",
    "published": "2025-07-10",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Daniel Gross and Nat Friedman: Acquired by Meta | OpenAI's SBC Bombshell: More Stock Comp Than Revenue | Privat Equity is Back: Olo Bought for $2BN | Microsoft Lays Off 9,000 People: Is This Just the Start | Will Sequoia Part with Shaun Maguire",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-daniel-gross-and-nat-friedman-acquired-by-meta-openais-sbc-bombshell-more-stock-comp-than-revenue-privat-equity-is-back-olo-bought-for-2bn-microsoft-lays-off-9000-people-is-this-just-the-start-will-sequoia-part-with-shaun-maguire",
    "words": [
@@ -3486,6 +3668,22 @@
     "joins"
    ]
   },
+  "4997b78486": {
+   "companies": [
+    "サイバーエージェント"
+   ],
+   "desc": "【Sponsored by DG Daiwa Ventures】 運用総額は約300億円。国内と海外の両方にシードから投資し、世界有数のアクセラレータープログラム「Y Combinator」採択企業にも、これまでに約40社投資してきた日本のベンチャーキャピタル、DG Daiwa Ventures（DGDV）との共同企画です。 今回のゲストは、DGDV マネージングディレクターの渡辺 大和さん、キャピタリストの進藤 光太さん、槙原 ありささん。DGDVは、デジタルガレージと大和証券グループの合弁として2016年に生まれたベンチャーキャピタルで、3号ファンドは100億円です。 渡辺さんには、Y Combinatorで\"選ばれる\"投資家であるための振る舞いや、創業者2人だけの段階で投資したTurion Spaceの話を伺いました。学生起業から電通を経て、DGDVへ移った道のりも。 進藤さんは、サ",
+   "id": "4997b78486",
+   "note": "",
+   "published": "2026-11-03",
+   "source": "Startup Now(StartPods)",
+   "status": "todo",
+   "title": "国内外へ300億円、YC採択企業40社に投資【SF Tech Week現地レポート付き】／DG Daiwa Ventures マネージングディレクター 渡辺 大和さん・進藤 光太さん・槙原 ありささん",
+   "url": "https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/300YC40SF-Tech-WeekDG-Daiwa-Ventures-e3rcrgt",
+   "words": [
+    "入社"
+   ]
+  },
   "49c1dead5b": {
    "companies": [
     "Apple",
@@ -3659,10 +3857,10 @@
    ],
    "desc": "AGENDA: 04:27 Navan's IPO: Winners, Losers and 20% Crater 12:55 Harvey Raises $150M at an $8BN Valuation 35:36 Was Sam Altman Wrong to Snap at Brad Gerstner 41:25 Why GOOG is a Buy and Amazon is a Short 47:43 Meta Down 10%, Buy or Sell? 51:12 If You Have Not Accelerated with AI, You Are Dead 01:05:20 Why Now is the Best Time for Series A and Worst for Seed",
    "id": "4cb43268bf",
-   "note": "",
+   "note": "Harvey等はすでにある・動きでない",
    "published": "2025-11-06",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Navan IPO: Winners, Losers and is a $4.5BN Exit Enough in VC Today | Harvey Raises $150M at $8BN Price | Why Google is a Buy and Amazon is a Sell | Meta Down 10%, Is Zuck Struggling?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-navan-ipo-winners-losers-and-is-a-45bn-exit-enough-in-vc-today-harvey-raises-150m-at-8bn-price-why-google-is-a-buy-and-amazon-is-a-sell-meta-down-10-is-zuck-struggling",
    "words": [
@@ -3806,6 +4004,22 @@
    "url": "https://www.youtube.com/watch?v=CEYGln3s9MM",
    "words": [
     "joins"
+   ]
+  },
+  "4f4582599c": {
+   "companies": [
+    "アンソロピック"
+   ],
+   "desc": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ Apple初の折りたたみスマホ「iPhone Duo」発表 https://npx.me/s/RkHEuGvI アンソロピックの研究者が退社し超知能の開発競争を猛批判 https://npx.me/s/RE8uWon1 ◇オリジナルコンテンツ◇ データセンター建設ブーム、次の巨大商機は「保険」 https://npx.me/s/5TrlnJFX 株価80％安。ナイキを「ダサくした」戦略ミス https://npx.me/s/vaYK7agh 【SWCC】誰も知らない昭和企業が株式市場で大注目",
+   "id": "4f4582599c",
+   "note": "",
+   "published": "2026-09-09",
+   "source": "NewsPicks Daily Briefing",
+   "status": "todo",
+   "title": "【9月10日】アップル『iPhone Duo』を発表 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/910iPhone-Duo-e3ok2g2",
+   "words": [
+    "退社"
    ]
   },
   "4f4e8dad17": {
@@ -4143,10 +4357,10 @@
    ],
    "desc": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 OpenRouter's Moment: Is This the Perfect Time to Sell? 00:31 Fireworks' $1.5B Raise Signals the Real AI Money Is in Infrastructure 00:39 Why Every Great AI App May Need to Build Its Own Model 00:50 Stri",
    "id": "550169d5cb",
-   "note": "",
+   "note": "Stripe/PayPal買収など報道1件も確認できていない",
    "published": "2026-07-23",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
    "words": [
@@ -4240,6 +4454,22 @@
    "url": "https://www.youtube.com/watch?v=ffh7fdwfrWU",
    "words": [
     "leaves"
+   ]
+  },
+  "55fa548299": {
+   "companies": [
+    "a16z"
+   ],
+   "desc": "■概要欄： 大学は、何を提供してきたのでしょうか。教育に加えて、入学そのものが選抜の証になり、学歴というブランドが社会へのシグナルになる。そして、そこで出会う仲間がネットワークになる。アメリカでは学費が高騰し、AIで若手の仕事が減るとも言われるなか、その対価として高い学費を払う意味が改めて問われています。 今回は、米国の著名VCアンドリーセン・ホロウィッツ（a16z）が2026年9月に発表した「The Horowitz Andreessen Academy」を入口にしています。学位を出さず、成績より「これまで何を作ったか」で若者を選ぶこの学校の仕組みを整理しました。そのうえで朝倉が、大学の機能を分解して捉え直し、なぜVCがアクセラレーターではなく学校という手間のかかる形を選んだのかを考えます。ティール・フェローシップや、日本の京都先端科学大学、神山まるごと高専との比較も交えて話しています。",
+   "id": "55fa548299",
+   "note": "",
+   "published": "2026-10-06",
+   "source": "This is 令和スタートアップ",
+   "status": "todo",
+   "title": "VCが「大学の機能」を解体する？──a16zの新しい学校",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/VCa16z-e3pptlt",
+   "words": [
+    "調達"
    ]
   },
   "5620962c1a": {
@@ -4572,6 +4802,22 @@
     "acquired"
    ]
   },
+  "5bf60e3801": {
+   "companies": [
+    "エヌビディア"
+   ],
+   "desc": "10月の最新スタートアップ資金調達・AI動向をお届けします。本エピソードでは、AI半導体や人型ロボット、現場DX、バイオTechなど注目の最新資金調達ニュースを取り上げます。 主なハイライト： ・米テンストレント：15億ドル調達、評価額62億ドルでエヌビディアに挑むAI半導体 ・中国AGIBOT：最大345億円調達へ、評価額1.2兆円超の人型ロボット首位 ・オッターAI：約510億円調達、議事録AIを企業の知識基盤へ ・カミナシ：現場×AI「現場オペレーションHub」推進へ約22.1億円調達 ・サニーズ：5,000万円調達、「AIワークフォース統制」を提供開始 ・Kinish：コメ由来の乳代替品開発で4.9億円調達 ・Helical Fusion：核融合スタートアップ対象ファンドの募集開始 AIやディープテックの社会実装が進む最前線の動向を詳しく解説します。",
+   "id": "5bf60e3801",
+   "note": "",
+   "published": "2026-10-22",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "AIや人型ロボットの巨額調達で現場はどう変わる？",
+   "url": "",
+   "words": [
+    "調達"
+   ]
+  },
   "5bfe2720f9": {
    "companies": [
     "Apple",
@@ -4623,6 +4869,22 @@
    "url": "",
    "words": [
     "joins"
+   ]
+  },
+  "5d254af473": {
+   "companies": [
+    "アンソロピック"
+   ],
+   "desc": "ご紹介した記事はこちら（日経ビジネス電子版：https://business.nikkei.com/?n_cid=nbpnb_megaphone） JX金属、半導体素材「タンタル」仕入れ盤石に ブラジル調達や都市鉱山活用で／日本のGDP、振り向けばフランスの現実 低成長の英国にも抜かれ6位へ／アンソロピック上場へ、インフラ投資126兆円の重し ビッグテックと依存関係、他",
+   "id": "5d254af473",
+   "note": "",
+   "published": "2026-10-27",
+   "source": "日経ビジネス モーニングニュース",
+   "status": "todo",
+   "title": "10月28日（水）：JX金属 半導体素材の調達盤石に／日本のGDP6位／アンソロピック上場",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "words": [
+    "調達"
    ]
   },
   "5dd1edbee5": {
@@ -4708,6 +4970,23 @@
    "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
    "words": [
     "left"
+   ]
+  },
+  "6013991c70": {
+   "companies": [
+    "NVIDIA",
+    "エヌビディア"
+   ],
+   "desc": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ NVIDIA、ジェンスン・ファンCEO辞任 https://npx.me/s/WEaXqvex ◇オリジナルコンテンツ◇ 【29期連続増収】売上1兆円へ、サイバーの成長が止まらない https://npx.me/s/eMWHSQjL 【解説】エヌビディア一強を揺るがす、18兆円の「大型買収」 https://npx.me/s/GZXV6p4v 【現実】トランプ大敗でも、イラン戦争が終わらない https://npx.me/s/ULJphWTU AIはホワイトカラー職を奪う？ 最新統計が示すも",
+   "id": "6013991c70",
+   "note": "",
+   "published": "2026-11-12",
+   "source": "NewsPicks Daily Briefing",
+   "status": "todo",
+   "title": "【11月13日】NVIDIA、ジェンスン・ファンCEO辞任 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1113NVIDIACEO-e3s9s6k",
+   "words": [
+    "買収"
    ]
   },
   "608850cda4": {
@@ -4980,10 +5259,10 @@
    ],
    "desc": "Scott Wu is the co-founder and CEO of Cognition, the company behind Devin, the world's first AI software engineer. On Friday last week they pulled off the acquisition of the year, acquiring Windsurf, following their licensing agreement with Google. Previously a world-class competitive programmer, he was a gold medalist at the International Olympiad in Informatics and a member of the U.S. Math and ",
    "id": "67f27efae0",
-   "note": "",
+   "note": "Windsurf買収はすでにある",
    "published": "2025-07-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Cognition CEO Scott Wu on Acquiring Windsurf: The Process, The Deal, The Rationale | Did Google Overlook a Goldmine in the Core Asset and Did Founders Leave a Sinking Ship | How Cursor and Cognition Deal with Ever Increasing Reliance on Anthropic",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-ceo-scott-wu-on-acquiring-windsurf-the-process-the-deal-the-rationale-did-google-overlook-a-goldmine-in-the-core-asset-and-did-founders-leave-a-sinking-ship-how-cursor-and-cognition-deal-with-ever-increasing-reliance-on-anthropic",
    "words": [
@@ -5523,6 +5802,23 @@
     "hires"
    ]
   },
+  "71c093fb7e": {
+   "companies": [
+    "GoTo",
+    "Grab"
+   ],
+   "desc": "Three of the biggest companies this region has ever produced just did something they had never done before. They made money. Sea, the Singapore company behind Shopee and Garena, posted a net profit of 487 million US dollars in a single quarter, on 7.8 billion dollars of revenue. GoTo, the Indonesian giant behind Gojek and Tokopedia, booked its second profitable quarter in a row. And Grab, maybe my",
+   "id": "71c093fb7e",
+   "note": "",
+   "published": "2026-09-02",
+   "source": "SEA of Startups",
+   "status": "todo",
+   "title": "Southeast Asia's Superapps Finally Made Money. Do Not Copy How.",
+   "url": "https://seaofstartups.substack.com/p/southeast-asias-superapps-finally",
+   "words": [
+    "buy"
+   ]
+  },
   "725519a42c": {
    "companies": [
     "Meta",
@@ -5970,6 +6266,23 @@
    "url": "https://share.transistor.fm/s/07ad1b46",
    "words": [
     "buys"
+   ]
+  },
+  "79377e35f9": {
+   "companies": [
+    "amazon",
+    "ファーストライト"
+   ],
+   "desc": "今回は、ファーストライト・キャピタルの岩澤さんをゲストに迎え、投資方針やVCとしての支援スタイル、今後のファンド戦略について詳しく伺います。 ✅トピック ・投資テーマと投資判断の基準 ・地域金融機関との連携でスタートアップの成長を加速させる仕組み ・投資事例3社から見る投資判断と事業成長の見立て ・創業初期のスタートアップに求めるチームの条件 これから資金調達を目指す起業家の方や、VCの投資判断・支援方針を知りたい方は、ぜひ最後までご覧ください！ 今回の動画への感想や、取り上げてほしいテーマなどがあれば、ぜひコメント欄で教えてください。 また、皆さまからのお便り・ご質問も募集しています。動画で聞いてみたいことや、起業・資金調達に関するお悩みなど、ぜひお気軽に下記のお便りフォームまでお寄せください！ ▼ 岩澤さんの著書『だからベンチャーキャピタルはやめられない』 書籍はこちら： https:",
+   "id": "79377e35f9",
+   "note": "",
+   "published": "2026-11-04",
+   "source": "スタートアップ投資TV",
+   "status": "todo",
+   "title": "【リードVCの価値】140億円VCが選んだ支援のかたち｜\"VC無価値論\"が広まる中での生存戦略【ファーストライト・キャピタル 岩澤脩】",
+   "url": "https://podcasters.spotify.com/pod/show/u3010u516cu5f0fu3011u30b9u30bfu30fcu30c8u30a2u30c3u30d7u6295u8cc7tv/episodes/VC140VCVC-e3qupo3",
+   "words": [
+    "調達"
    ]
   },
   "799209f097": {
@@ -6518,10 +6831,10 @@
    ],
    "desc": "AGENDA: 00:00 Opendoor's Potential and Market Valuation 03:32 Why Did Kaz Leave $300M on the Table to Join Opendoor 04:44 Why Does Kaz Believe OPEN Can Be a Good Business When the Market Doesn't 06:34 How does Kaz Feel About OPEN Becoming a Meme Stock? 17:25 Kaz's $0 Salary but $1BN Stock Based Compensation 23:41 Oracle and OpenAI Partnership: WTF is Going On? 42:21 Microsoft's Investment in OpenA",
    "id": "87f3f5088b",
-   "note": "",
+   "note": "Replit調達額の検索確認をしていない・動きが特定できず",
    "published": "2025-09-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Opendoor's CEO on The Greatest Turnaround in Tech | OpenAI and Oracle: How Can Either Afford to Do This | How Anthropic Could Lose 50% of Their Revenue Overnight | Replit Raises at $3BN | Figure, Gemini & VIA IPOs Broken Down",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-opendoors-ceo-on-the-greatest-turnaround-in-tech-openai-and-oracle-how-can-either-afford-to-do-this-how-anthropic-could-lose-50-of-their-revenue-overnight-replit-raises-at-3bn-figure-gemini-via-ipos-broken-down",
    "words": [
@@ -7052,6 +7365,22 @@
     "joins"
    ]
   },
+  "8fd391bb23": {
+   "companies": [
+    "reliance"
+   ],
+   "desc": "Zoom out from continuing tariff turmoil and Trump’s recent attacks on the Fed and the Bureau of Labor Statistics, and you’ll see a broader new economic order is forming. Political economist and Brown University professor Mark Blyth joins Rapid Response to reveal why outdated models still underpin much of our economic understanding, and what we still misunderstand – and underestimate – about China.",
+   "id": "8fd391bb23",
+   "note": "",
+   "published": "2025-08-12",
+   "source": "Masters of Scale",
+   "status": "todo",
+   "title": "Is it ‘economic Halloween’ in the US? with political economist Mark Blyth",
+   "url": "",
+   "words": [
+    "funding"
+   ]
+  },
   "9037007c99": {
    "companies": [
     "Google"
@@ -7319,6 +7648,23 @@
    "url": "https://allinchamathjason.libsyn.com/metas-dina-powell-mccormick-the-case-for-data-centers-backlash-ai-job-boom-metas-future",
    "words": [
     "joins"
+   ]
+  },
+  "951cea9e59": {
+   "companies": [
+    "Databricks"
+   ],
+   "desc": "■概要欄： 2026年第3四半期、北米のスタートアップ投資額は約14.6兆円。前四半期比35％減となったものの、前年同期比では50％増加し、依然として巨額の資金が市場に流れ込んでいます。その約3分の2を占めるのがAI関連投資。創業間もない企業がシード段階で数百億円を調達するなど、従来の資金調達の常識が変わりつつあります。 今回は、Crunchbase NewsとPitchBook・NVCAのレポートをもとに、2026年第3四半期の北米スタートアップ投資動向を解説します。ステージ別の資金調達、大型買収・新規株式公開、VCファンド組成の状況を整理しながら、朝倉が指摘する「セクター単位で働くべき乗則」、ソフトウェア中心から資本集約型へと変化する投資構造、そして巨額の資金が必要となるAI時代におけるVCの役割を考えます。さらに、AIインフラのボトルネックとなる電力問題や、日本のスタートアップが取る",
+   "id": "951cea9e59",
+   "note": "",
+   "published": "2026-10-19",
+   "source": "This is 令和スタートアップ",
+   "status": "todo",
+   "title": "AIに投資しないリスク、AIに集中するリスク──北米Q3",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/AIAIQ3-e3ql3m5",
+   "words": [
+    "調達",
+    "買収"
    ]
   },
   "9550cb5bd9": {
@@ -7932,6 +8278,22 @@
     "buy"
    ]
   },
+  "a1a85b9ef4": {
+   "companies": [
+    "ファーストライト"
+   ],
+   "desc": "「VIVA VC」が書籍化されました。ご購入は ⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠→こちらから⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠https://amzn.asia/d/05Hc8tq0⁠⁠⁠⁠⁠⁠⁠ ▼今回のトーク内容： 岩澤、就職面接で落とされた過去／スタートアップの成長を左右する「採用」を考える／人件費は、調達資金の大きな投資先。失敗のインパクトも大きい／「スキル重視」で採用すると失敗する／大企業での経験やネットワークは、スタートアップでは通用しない／マインド面や、組織変化への対応力などは、面接で見破りにくい／採用の優先順位は「バリュー→ミッション→スキル」／ミスマッチした人材はどうする？海外と日本の違い／100〜200人規模までは、経営者が直接面接に出るべき／バリューフィットしない面接官が入ると、あっという間にチーム崩壊する／1人の採用ミスから、ネガティブなカルチャーが再生産され",
+   "id": "a1a85b9ef4",
+   "note": "",
+   "published": "2026-08-14",
+   "source": "VIVA VC(ファーストライト×Chronicle)",
+   "status": "todo",
+   "title": "#3-22 1人の「採用ミス」が命取り。スタートアップ面接はどこを見るべき？",
+   "url": "https://podcasters.spotify.com/pod/show/vivavc-chronicle/episodes/3-22-1-e3nd3q1",
+   "words": [
+    "調達"
+   ]
+  },
   "a230be86c7": {
    "companies": [
     "Anysphere",
@@ -7998,10 +8360,10 @@
    ],
    "desc": "AGENDA: 03:32 Lightspeed's $9 Billion Fundraise 05:20 The Impact of Mega Funds on Seed VCs 10:09 The Supercycle of Growth and Late-Stage Investments 13:06 Disney Invests $1BN into OpenAI and What It Means 23:19 Oracle Hit Hard: Is Now the Time to Buy 28:34 Broadcom's Market Cap Drop and Anthropic's AI Chip Orders 35:04 Cursor Competes with Figma: The Convergence of Design and Coding Tools 46:20 Th",
    "id": "a26d73be54",
-   "note": "",
+   "note": "Disney→OpenAI 0億を入れた",
    "published": "2025-12-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Will SpaceX IPO at $1.5TRN | Will Cursor Kill Figma | Lightspeed Raises $9BN | OpenAI: $1BN from Disney, New CRO & #1 App in App Store | Oracle and Broadcom Hit: Now the Time to Buy?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-will-spacex-ipo-at-15trn-will-cursor-kill-figma-lightspeed-raises-9bn-openai-1bn-from-disney-new-cro-1-app-in-app-store-oracle-and-broadcom-hit-now-the-time-to-buy",
    "words": [
@@ -8111,6 +8473,23 @@
     "join"
    ]
   },
+  "a3a92c9d4c": {
+   "companies": [
+    "Google"
+   ],
+   "desc": "Where does innovation in Southeast Asia actually start? Not in a lab. In this compilation from the BRAVE archive: a lock that took eleven hours to install, a Peter Thiel put-down at Harvard, and customers using a real estate website to sell food. Anthony Chow built Igloo's first smart lock from parts bought in China, watched the first shipments fail, then invented an offline PIN lock (Google Authe",
+   "id": "a3a92c9d4c",
+   "note": "",
+   "published": "2026-08-23",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "The Innovation Playbook of 3 Southeast Asian Founders - E724",
+   "url": "https://pod.co/bravedynamics/the-innovation-playbook-of-3-southeast-asian-founders-e724",
+   "words": [
+    "bought",
+    "funding"
+   ]
+  },
   "a45cf03af3": {
    "companies": [
     "Altman",
@@ -8141,10 +8520,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) AI Device Wars are here 2) Apple loses its head of user interface design 3) Meta's chances in the AI device wars 4) Apple's Ai device will only be as good as the assistant 5) OpenAI's AI device could work? 6) Amazon's Alexa+ is underrated 7) Google Glass returns? 8) Is the Metaverse dead? 9) Code red at",
    "id": "a502b055b2",
-   "note": "",
+   "note": "動きではない(Netflix/WBDは対象外)",
    "published": "2025-12-08",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "AI Device Wars Heat Up, RIP Metaverse?, Netflix Acquires Warner Brothers",
    "url": "",
    "words": [
@@ -8306,6 +8685,23 @@
    "url": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
    "words": [
     "raised"
+   ]
+  },
+  "a6964b494a": {
+   "companies": [
+    "Grab"
+   ],
+   "desc": "Wing Vasiksiri joins Jeremy Au to analyze a major wave of tech M&A deals and macro growth trends reshaping Southeast Asia. They dissect Grab’s $1.5 billion acquisition of a 60% stake in Atome Financial, examining its unique performance-linked staged structure, offline-to-online retail synergies against Sea Group, and the strategic value of Atome’s credit underwriting capabilities. They also break ",
+   "id": "a6964b494a",
+   "note": "",
+   "published": "2026-09-21",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "Singapore Buys Fintech. Thailand Builds Data Centers. | Wing Vasiksiri E732",
+   "url": "http://www.bravesea.com",
+   "words": [
+    "acquisition",
+    "buys"
    ]
   },
   "a697f5e8ba": {
@@ -8528,6 +8924,22 @@
    "url": "https://a16z.simplecast.com/episodes/is-ai-slowing-down-nathan-labenz-says-were-asking-the-wrong-question-fBZj_7FC",
    "words": [
     "joins"
+   ]
+  },
+  "ab3b2bd136": {
+   "companies": [
+    "エヌビディア"
+   ],
+   "desc": "AI・テック・サイエンスの最新情報をお届けするポッドキャスト番組。第21回は、日本経済新聞 奥平和行編集委員による米国のAI企業で大型買収が相次いでいる事情について探ります。 エヌビディアがハギングフェイスを買収、ストライプがオープンルーターを買収するなど、それらの背景には何があるのか？オープン型のモデル増加やコスト問題、セキュリティー問題などさまざまな側面から買収理由を探ります。",
+   "id": "ab3b2bd136",
+   "note": "",
+   "published": "2026-09-17",
+   "source": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "status": "todo",
+   "title": "「米AI企業で相次ぐ大型買収、その理由」＃21（2026.09.17）",
+   "url": "",
+   "words": [
+    "買収"
    ]
   },
   "ab752a1540": {
@@ -8998,6 +9410,23 @@
     "joins"
    ]
   },
+  "b53b431c42": {
+   "companies": [
+    "エヌビディア",
+    "孫正義"
+   ],
+   "desc": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ エヌビディア、パープレキシティへ出資協議 https://npx.me/s/F35Ubliy ◇オリジナルコンテンツ◇ マルボロの株に買い殺到、「新型たばこ」の衝撃 https://npx.me/s/ekjYxmKP 【孫正義の一手】PayPayが賭ける「波乱の取引所」 https://npx.me/s/neP6nZ8t 【大問題】巨大テック企業が頭を悩ませる「AIのゴミ」って何だ https://npx.me/s/Ni41roTx ウォール街の招待制キャンプ AIに戦々恐々 https:/",
+   "id": "b53b431c42",
+   "note": "",
+   "published": "2026-08-24",
+   "source": "NewsPicks Daily Briefing",
+   "status": "todo",
+   "title": "【8月25日】PayPayが賭ける「波乱の取引所」 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/825PayPay-e3nrg4j",
+   "words": [
+    "出資"
+   ]
+  },
   "b59a644efd": {
    "companies": [
     "Sequoia"
@@ -9337,6 +9766,23 @@
    "words": [
     "buy",
     "valuation"
+   ]
+  },
+  "bb2efa2798": {
+   "companies": [
+    "アンソロピック"
+   ],
+   "desc": "本エピソードでは、2026年9月に動きを見せた注目企業の大規模な資金調達やM&A、事業拡大の動向を詳しく解説します。 ロボティクスとフィジカルAI領域に特化して50億円を調達したAlgomatic Dynamicsをはじめ、30億ユーロ規模のメガ調達を実施した欧州のMistral AI、静岡銀行からの借入によるispaceの30億円調達など、デジタルから現実世界へと進出するAI技術とインフラへの投資加速に迫ります。 さらに、シェアリングテクノロジーのTOBによる株式非公開化や、メドテリア、ミラーフィット、ピクシオムといった注目のスタートアップによる最新の資金調達動向、アンソロピックによるDecart買収見送りの報道まで、今後の産業構造や競争環境に与える影響を多角的に分析・お届けします。",
+   "id": "bb2efa2798",
+   "note": "",
+   "published": "2026-09-11",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "フィジカルAIと巨額資金調達は次のAI市場を制するのか？",
+   "url": "",
+   "words": [
+    "調達",
+    "買収"
    ]
   },
   "bbabbba68b": {
@@ -9777,6 +10223,39 @@
     "joins"
    ]
   },
+  "c4e3327496": {
+   "companies": [
+    "Deepseek"
+   ],
+   "desc": "(00:30) - Chamath is Back with New SPAC (31:33) - Timeline (01:01:23) - TBPN Substack (01:16:35) - Gong of the Day (01:26:14) - Timeline (01:59:29) - Pete DeJoy, co-founder and interim CEO of Astronomer, discusses the company's evolution from its inception in Cincinnati, Ohio, to becoming a leader in data orchestration with its Apache Airflow-powered platform, Astro. He highlights the company's si",
+   "id": "c4e3327496",
+   "note": "",
+   "published": "2025-08-19",
+   "source": "TBPN",
+   "status": "todo",
+   "title": "Chamath Is Back With New SPAC, AI Scrutiny, China’s Moon Push | Pete DeJoy, Marty Kausas, Matteo Franceschetti, Abdul Al-Asaad, Derek Lo, Alex Telford",
+   "url": "https://share.transistor.fm/s/3e490666",
+   "words": [
+    "resignation"
+   ]
+  },
+  "c58dbe57b6": {
+   "companies": [
+    "トヨタ"
+   ],
+   "desc": "宇宙空間で小型モジュールを自動結合・再構成する最新の衛星技術や、AIを活用して電子回路設計と検証を自動化する革新的ソリューションを取り上げます。トヨタ系投資会社が主導する2,000万ドル調達を果たしたRendezvous Roboticsの自動合体モジュール構想や、2,500万ドルを調達したCircuit MindのAIエージェントによる設計・検証エンジンなど、ディープテックやハードウェア開発における最新の技術動向と資金調達の最前線を詳しく解説します。最先端テクノロジーが拓く産業の未来と開発プロセスの進化に迫るエピソードです。",
+   "id": "c58dbe57b6",
+   "note": "",
+   "published": "2026-10-30",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "トヨタ出資の宇宙合体衛星やAI回路設計はどう未来を変えるのか？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
+   ]
+  },
   "c6118d78cc": {
    "companies": [
     "Amodei",
@@ -9873,6 +10352,23 @@
    "url": "",
    "words": [
     "raises"
+   ]
+  },
+  "c7bedec2e4": {
+   "companies": [
+    "DeepSeek"
+   ],
+   "desc": "本エピソードでは、AI技術と産業・生活インフラの融合が進む最新のスタートアップ投資動向をお届けします。 注目は、中国の生成AIスタートアップ「DeepSeek」による2.4兆円規模の巨額資金調達です。CATLなどの産業資本が追加出資し、計算力強化と商業化へ向けた動きが加速しています。また、AI向け3D演算モジュールを開発するMueonの6,500万ドル調達や、電池製造共通インフラを展開するBeffの7.5億円調達など、ハードウェア・製造分野における基盤強化の動きも際立っています。 さらに、トークン化現金で企業財務の自動化を推進するSpiko（9,000万ドル調達）、みずほ銀行と提携し空間VR技術で体験型エンタメ市場を拓くURALAA、無人受取拠点の全国展開を進めるEvery WiLLなど、フィンテックから物流・エンタメまで幅広い分野でのイノベーションと資金調達の最新動向を詳しく解説します。",
+   "id": "c7bedec2e4",
+   "note": "",
+   "published": "2026-10-20",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "DeepSeek2.4兆円調達！AIと自動化インフラの最新動向は？",
+   "url": "",
+   "words": [
+    "出資",
+    "調達"
    ]
   },
   "c8385e40ac": {
@@ -9976,6 +10472,22 @@
    "url": "https://allinchamathjason.libsyn.com/worlds-first-trillionaire-anthropic-fable-banned-the-new-oligarchs-iran-peace-deal",
    "words": [
     "acquisition"
+   ]
+  },
+  "cc65df9e68": {
+   "companies": [
+    "エヌビディア"
+   ],
+   "desc": "急速に拡大するAI需要の裏で、深刻化する電力と計算コストの限界。このボトルネック打破に向け、巨額の資金が動き出しています。AI推論チップを開発する英国Fractileは、DRAM積層技術による低消費電力化を武器に7.2億ドル（約1,200億円）を調達。英国政府系ファンドも加わり、エヌビディア対抗のインフラ強化に乗り出しました。さらに、AIデータセンターの電力不足を解決する分散型ユニットを手がける米Torusも5億ドルを調達するなど、電力・物理インフラへの投資が加速しています。一方、国内でも自動運転タクシー実現を目指すnewmoが208億円、対話AIのIVRyがメガバンク3行から45億円の融資を取り付けるなど、大型資金調達の動きが活発化しています。本エピソードでは、最新の調達動向から見えるAIインフラの課題と、今後の産業動向について詳しく掘り下げます。",
+   "id": "cc65df9e68",
+   "note": "",
+   "published": "2026-11-13",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "AIの電力限界を救うか？英Fractile7億ドル調達の衝撃",
+   "url": "",
+   "words": [
+    "調達"
    ]
   },
   "cc9d9dbd1b": {
@@ -10857,6 +11369,22 @@
     "acquisition"
    ]
   },
+  "dcfb442985": {
+   "companies": [
+    "OpenAI"
+   ],
+   "desc": "Dr. Thomas Kelly was a vascular surgery trainee in Melbourne before he walked away from medicine to fix the problem he hated most: paperwork stealing time from patients. Today he is co-founder and CEO of Heidi Health, an AI medical scribe and \"care partner\" used by clinicians in more than 100 countries, valued at US$465M after its 2025 Series B led by Point72. In this episode, Jeremy Au and Dr. To",
+   "id": "dcfb442985",
+   "note": "",
+   "published": "2026-07-27",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "Building the World's Most-used Medical AI | Dr. Thomas Kelly of Heidi - E716",
+   "url": "https://pod.co/bravedynamics/from-surgical-trainee-to-ai-founder-dr-thomas-kelly-of-heidi-e716",
+   "words": [
+    "series b"
+   ]
+  },
   "dd3109c159": {
    "companies": [
     "xAI"
@@ -11041,6 +11569,23 @@
    "url": "https://a16z.simplecast.com/episodes/how-bending-spoons-built-a-20-billion-compounder-luca-ferrari-etgfvfs0",
    "words": [
     "acquires"
+   ]
+  },
+  "e081d10b75": {
+   "companies": [
+    "Mistral"
+   ],
+   "desc": "■概要欄： 2026年第3四半期、欧州のスタートアップ投資額は約4兆円に達し、前年同期比77％増、4年ぶりの高水準を記録しました。しかし、その約75％はAI関連への投資。巨額の資金が一部の企業に集中する構造は、北米市場とも共通しています。 今回は、Crunchbase NewsとPitchBookのレポートをもとに、欧州のスタートアップ投資動向を解説します。Mistral AIやNscaleの大型調達、ドイツで存在感を増す防衛テック、国別・ステージ別の投資状況から、出口市場やVCファンド組成の実態まで。さらに朝倉が、欧州は「北米のミニチュア版」なのかという視点から両市場を比較し、日本が目指すべきAI活用の方向性について考えます。 ▼ 今回のトピック 欧州スタートアップ投資額は約4兆円、前年同期比77％増 AI関連投資が全体の75％を占める欧州市場 Mistral AI、Nscale、Hel",
+   "id": "e081d10b75",
+   "note": "",
+   "published": "2026-10-21",
+   "source": "This is 令和スタートアップ",
+   "status": "todo",
+   "title": "欧州ベンチャー投資4年ぶり高水準──実態は「北米の縮小版」なのか",
+   "url": "https://podcasters.spotify.com/pod/show/reiwastartup/episodes/4-e3ql4c8",
+   "words": [
+    "調達",
+    "買収"
    ]
   },
   "e14708a1c4": {
@@ -11299,6 +11844,22 @@
     "raised"
    ]
   },
+  "e5dc25edc5": {
+   "companies": [
+    "DeepSeek"
+   ],
+   "desc": "グローバルなスタートアップ市場で加速する資金調達と事業拡大の最新動向をわかりやすく解説します。 注目の中国AIスタートアップ「DeepSeek」が、テンセントやCATLの主導で最大1.9兆円規模の巨額調達に迫る動きや、バイトダンスから分社化したAI創薬企業「新生探途（Anew Labs）」が初の外部調達で460億円を獲得した最新トレンドをピックアップ。 国内でも、不動産DXの「Facilo」による64億円調達とAI共創エコシステム構築、外国人生活支援を展開する「GTN」の累計35.5億円規模の資金調達完了、物流DX「Every WiLL」による置き配拠点拡大、AI駆動ERPの「Subliminal」、カンムと弥生の提携による中小向け資金調達支援など、最新の取り組みが相次いでいます。 テクノロジーと資金が交差する最前線の動向から、次世代ビジネスのヒントを探ります。",
+   "id": "e5dc25edc5",
+   "note": "",
+   "published": "2026-10-08",
+   "source": "10分でわかるスタートアップ・資金調達ニュース",
+   "status": "todo",
+   "title": "DeepSeekの巨額調達とAI創薬460億円が示す未来とは？",
+   "url": "",
+   "words": [
+    "調達"
+   ]
+  },
   "e5f280b20c": {
    "companies": [
     "Microsoft",
@@ -11338,6 +11899,22 @@
    "url": "https://share.transistor.fm/s/05c27878",
    "words": [
     "joins"
+   ]
+  },
+  "e653b42afc": {
+   "companies": [
+    "Sequoia"
+   ],
+   "desc": "Everyone has the same access to the same frontier models. So what's actually left to compete on? Jeremy Au moderates a panel at the Crosscurrents Summit in Parañaque on where enterprise AI adoption really stands. Aravind Kandiah is CTO and Co-founder of Bifrost, a robotics infrastructure company that simulates the world to evaluate robots. Its simulations power some of the largest robotics compani",
+   "id": "e653b42afc",
+   "note": "",
+   "published": "2026-07-29",
+   "source": "BRAVE Southeast Asia Tech",
+   "status": "todo",
+   "title": "AI: State of Industry and Investment | Aravind Kandiah, Jun Wakabayashi, John Homer Alvero - E717",
+   "url": "https://pod.co/bravedynamics/ai-state-of-industry-and-investment-aravind-kandiah-jun-wakabayashi-john-homer-alvero-e717",
+   "words": [
+    "left"
    ]
   },
   "e66cf26f4b": {
@@ -11583,10 +12160,10 @@
    ],
    "desc": "AGENDA: 00:00 — SpaceX Completes the Largest IPO in History 03:45 — Elon Musk Adds a Warren Buffett Fortune in 24 Hours 20:45 — Anthropic's Claude Fable Launches Monday, Gets Banned by Thursday 25:00 — Washington Declares War on Frontier AI 39:00 — Europe's Sovereign AI Push Accelerates as Mistral Targets $20B 43:30 — Benchmark Admits Its Biggest Miss: Passing on the Model Labs 45:15 — Salesforce ",
    "id": "ee9a44b964",
-   "note": "",
+   "note": "未来日付の主張(Fable禁止等)を独立報道で確かめられていない",
    "published": "2026-06-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Wix and Adobe Hit All-Time Lows | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce for $3.6BN",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-spacex-soars-to-27trn-anthropics-fable-banned-by-us-government-wix-and-adobe-hit-all-time-lows-mistral-raising-at-20bn-and-the-case-for-sovereign-models-fin-acquired-by-salesforce-for-36bn",
    "words": [
