@@ -4,6 +4,7 @@
 inbox/youtube/ と inbox/podcasts/ の全期間から、移籍・出資の強い言葉と会社名があるものを拾い、
 inbox/backlog/queue.json に「足すだけ」で記録する。状態は todo / done(入れた) / checked(確かめたが入れない) / unverified(確かめられない・理由つき)。
   python3 scripts/media_backlog.py sync            # 新しい手がかりをリストに足す(既存の状態は変えない)
+  python3 scripts/media_backlog.py prune           # すでにある todo のうち外れの条件に当てはまるものを checked に(消さない)
   python3 scripts/media_backlog.py next [-n 8]     # 次に確かめるもの(todo、強い順)
   python3 scripts/media_backlog.py mark ID 状態 "理由やメモ"
   python3 scripts/media_backlog.py status          # 進み具合(inbox/backlog/README.md も更新)
@@ -70,6 +71,23 @@ def new_names(title):
     return out[:4]
 
 
+GENERIC_WORDS = {"buy", "leave", "left", "join"}  # 普通の動詞の原形だけ。「buys」「leaves」などの取引の形とは分ける
+
+
+def noise_reason(title, words, newnames):
+    """リストの段階で除く外れ(2026/11/22追加)。理由を返す。当てはまらなければ None。
+    確かめて外れた残りの29件の理由(直近20件は別ルール、既出9件)を集計して決めた。"""
+    ws = set(words)
+    if re.search(r"exodus|shake-?up|depart|exits?\b|quit|poach|hires?\b|resign|steps? down|ousted|fired", title, re.I):
+        return None  # 人の動きを思わせる題名は残す
+    # 普通の動詞は説明文にあるだけ(題名にない)なら外れ。題名にあるもの(「Join OpenAI」など)は残す
+    if ws and ws <= GENERIC_WORDS and not any(re.search(r"\b" + w + r"\b", title, re.I) for w in ws) and not md.join_move(title):
+        return "普通の動詞(buy・leave・left・join)が説明文にあるだけで、題名に移籍・出資の言葉なし"
+    if (title.startswith("20VC:") or title.count(" | ") >= 2) and " | " in title and not newnames:
+        return "複数の話題のまとめ回で、題名の名前はすべて相関図にすでにある(新しい名前なし)"
+    return None
+
+
 def sync():
     q = load(); new = 0
     files = sorted(glob.glob(os.path.join(ROOT, "inbox", "youtube", "2*.json")) + glob.glob(os.path.join(ROOT, "inbox", "podcasts", "2*.json")) +
@@ -89,12 +107,26 @@ def sync():
             i = vid(v.get("url", ""), v["title"])
             if i in q["items"]:
                 continue
+            if noise_reason(v["title"], strong, new_names(v["title"])):
+                continue  # 外れのもとは足さない(2026/11/22)
             q["items"][i] = {"id": i, "published": v["published"], "source": v.get("channel") or v.get("show"), "title": v["title"],
                              "url": v.get("url", ""), "words": strong[:6], "companies": cos[:6],
                              "desc": re.sub(r"\s+", " ", v.get("description", ""))[:400], "status": "todo", "note": "",
                              "newnames": new_names(v["title"])}
             new += 1
     save(q); print(f"新しく足した手がかり: {new}件(合計{len(q['items'])})")
+
+
+def prune():
+    """すでにリストにある todo のうち、外れの条件に当てはまるものを checked にして理由を書く(消さない)。"""
+    q = load(); n = 0
+    for x in q["items"].values():
+        if x["status"] != "todo":
+            continue
+        r = noise_reason(x["title"], x["words"], x.get("newnames", new_names(x["title"])))
+        if r:
+            x["status"] = "checked"; x["note"] = "自動で除外(" + r + "。2026/11/22の絞り込み)"; n += 1
+    save(q); print(f"外れとして checked にした: {n}件")
 
 
 def todo(n):
@@ -121,10 +153,11 @@ def status():
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); s = ap.add_subparsers(dest="cmd")
-    s.add_parser("sync"); n = s.add_parser("next"); n.add_argument("-n", type=int, default=8); s.add_parser("status")
+    s.add_parser("sync"); s.add_parser("prune"); n = s.add_parser("next"); n.add_argument("-n", type=int, default=8); s.add_parser("status")
     m = s.add_parser("mark"); m.add_argument("id"); m.add_argument("state", choices=["done", "checked", "unverified", "todo"]); m.add_argument("note", nargs="?", default="")
     a = ap.parse_args()
     if a.cmd == "sync": sync()
+    elif a.cmd == "prune": prune()
     elif a.cmd == "next":
         for x in todo(a.n): print(json.dumps(x, ensure_ascii=False))
     elif a.cmd == "mark":
