@@ -38966,6 +38966,7 @@ function showHome(){
     ['rel','ニュースから関係を見る','提携・買収・出資を、記事から相関図に'],
     ['money','AIマネーの循環','出資と支払いが、AI企業のあいだをどう回っているか'],
     ['move','AI人材の移籍マップ','研究者や幹部が、どの会社からどの会社へ移ったかを年ごとに'],
+    ['flow','人材の流れ','会社ごとの人の流入・流出ランキングと、2社のあいだの移籍。営業の話題づくりに'],
     ['outfit','装いとブランド','起業家の装いを参考の目安で採点し、関係のあるブランドを出典つきで(見本版)'],
     ['extl','幹部の入れ替わり年表','OpenAI・Anthropic・xAI・Google DeepMindの経営陣の入社・退社を、時系列で。出典つき'],
     ['cf','確かさの一覧','各社の数字のうち、公式発表・開示書類で確かめた割合'],
@@ -38983,6 +38984,8 @@ function showHome(){
   ];
   /* 2026/11/22: 上のメニュー(選択欄)と同じグループ・並び。メニューにない2枚(jp・ipo)は近いグループの末尾 */
   const groups=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
+  let often=[];try{const c=JSON.parse(localStorage.getItem('navCount')||'{}');often=Object.keys(c).filter(k=>c[k]>=2&&cards.some(x=>x[0]===k)).sort((a,b)=>c[b]-c[a]).slice(0,4)}catch(e){}
+  if(often.length)groups.unshift(['よく使うページ(このブラウザで2回以上開いたもの)',often]);
   const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
@@ -38992,7 +38995,7 @@ function showHome(){
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
   const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),outfit:()=>showOutfit(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),fun:()=>showFun(),agents:()=>openAgents(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
-  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
+  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{navNote(b.dataset.h);ctrail=[];go[b.dataset.h]()}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
 }
@@ -39322,12 +39325,16 @@ function navSync(){
   else if(!UNIEL.hidden)cur='uni';
   else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':/^装いとブランド/.test(t)?'outfit':/^おもしろ情報/.test(t)?'fun':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
-  {const ts=document.getElementById('topsel');if(ts)ts.value=[...ts.options].some(o=>o.value===cur)?cur:'company'}
+  {const ts=document.getElementById('topsel');if(ts){ts.dataset.cur=[...ts.options].some(o=>o.value===cur)?cur:'company';ts.value=ts.dataset.cur}}
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
 }
-document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
-{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
+document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{navNote(b.dataset.h);ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
+/* 2026/11/23: 最近見たページ(上の選択欄の先頭)と、よく使うページ(ホームの先頭)。このブラウザの中だけに記録(localStorage) */
+function navNote(k){try{if(!k||k==='home')return;const r=JSON.parse(localStorage.getItem('navRecent')||'[]').filter(x=>x!==k);r.unshift(k);localStorage.setItem('navRecent',JSON.stringify(r.slice(0,3)));const c=JSON.parse(localStorage.getItem('navCount')||'{}');c[k]=(c[k]||0)+1;localStorage.setItem('navCount',JSON.stringify(c));navRecentSel()}catch(e){}}
+function navRecentSel(){try{const ts=document.getElementById('topsel');if(!ts)return;const old=ts.querySelector('optgroup[data-recent]');if(old)old.remove();const r=JSON.parse(localStorage.getItem('navRecent')||'[]');const lab={};ts.querySelectorAll('option').forEach(o=>{lab[o.value]=o.textContent});const ks=r.filter(k=>lab[k]);if(!ks.length)return;const g=document.createElement('optgroup');g.label='最近見たページ';g.dataset.recent='1';ks.forEach(k=>{const o=document.createElement('option');o.value=k;o.textContent=lab[k];g.appendChild(o)});ts.insertBefore(g,ts.firstChild);const cur=ts.dataset.cur;if(cur)ts.value=cur}catch(e){}}
+navRecentSel();
+{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;navNote(k);ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
 {const mo=new MutationObserver(navSync);
  [MAINEL,PROFEL,RANKEL,UNIEL,FEEDEL].forEach(e=>mo.observe(e,{attributes:true,attributeFilter:['hidden']}));
  mo.observe(document.getElementById('title'),{childList:true,characterData:true,subtree:true})}
