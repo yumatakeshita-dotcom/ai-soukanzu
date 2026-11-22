@@ -1,7 +1,7 @@
 {
  "date": "2026-11-21",
  "days": 3,
- "summary": "動画・番組の手がかり: 新着243本のうち51本に移籍・出資などの言葉と会社名",
+ "summary": "動画・番組の手がかり: 新着243本のうち40本に移籍・出資などの言葉と会社名",
  "leads": [
   {
    "source": "Decoder with Nilay Patel",
@@ -16,20 +16,6 @@
    "companies": [
     "Anthropic",
     "Jensen"
-   ]
-  },
-  {
-   "source": "Masters of Scale",
-   "type": "ポッドキャスト",
-   "published": "2026-11-21",
-   "title": "Rapid Response — Why everything is breaking: outages, AI, and the new cyber math, with CrowdStrike’s George Kurtz",
-   "url": "",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "Apple",
-    "Microsoft"
    ]
   },
   {
@@ -230,21 +216,6 @@
    ]
   },
   {
-   "source": "Hard Fork",
-   "type": "ポッドキャスト",
-   "published": "2026-11-20",
-   "title": "G.T.A. VI Is a Monumental Human Achievement",
-   "url": "https://www.nytimes.com/column/hard-fork",
-   "words": [
-    "joined"
-   ],
-   "companies": [
-    "Anthropic",
-    "Jensen",
-    "Nvidia"
-   ]
-  },
-  {
    "source": "Big Technology Podcast",
    "type": "ポッドキャスト",
    "published": "2026-11-20",
@@ -260,19 +231,6 @@
     "Jensen",
     "Nvidia",
     "OpenAI"
-   ]
-  },
-  {
-   "source": "The a16z Show",
-   "type": "ポッドキャスト",
-   "published": "2026-11-20",
-   "title": "Why the Agent Era Needs a New Operating System | DHH",
-   "url": "https://a16z.simplecast.com/episodes/why-the-agent-era-needs-a-new-operating-system-dhh-aj7iuAnL",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "a16z"
    ]
   },
   {
@@ -350,33 +308,6 @@
    ]
   },
   {
-   "source": "a16z",
-   "type": "動画",
-   "published": "2026-11-20",
-   "title": "Why AI Has DHH Working 16-Hour Days",
-   "url": "https://www.youtube.com/watch?v=TtOoLanFzGw",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "a16z"
-   ]
-  },
-  {
-   "source": "CNBC Television",
-   "type": "動画",
-   "published": "2026-11-20",
-   "title": "'We Have To Know Why': Philanthropist Priscilla Chan’s Bold Bet On Rare Disease",
-   "url": "https://www.youtube.com/watch?v=ar9X778_Kjw",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "Meta",
-    "Zuckerberg"
-   ]
-  },
-  {
    "source": "CNBC Television",
    "type": "動画",
    "published": "2026-11-20",
@@ -395,42 +326,15 @@
    "source": "CNBC Television",
    "type": "動画",
    "published": "2026-11-20",
-   "title": "Would be unprecedented to see final bottom on S&P with Apple where it is: BTIG’s Jonathan Krinsky",
-   "url": "https://www.youtube.com/watch?v=P-Aej5E1S0A",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "Apple"
-   ]
-  },
-  {
-   "source": "CNBC Television",
-   "type": "動画",
-   "published": "2026-11-20",
    "title": "Top tech investor Dan Niles on Anthropic: You can make an argument that IPO didn't go great",
    "url": "https://www.youtube.com/watch?v=XC02cQqB5Uk",
    "words": [
     "investment",
     "investor",
-    "ipo",
-    "joins"
+    "ipo"
    ],
    "companies": [
     "Anthropic"
-   ]
-  },
-  {
-   "source": "CNBC Television",
-   "type": "動画",
-   "published": "2026-11-20",
-   "title": "Nvidia's legal woes are adding up: What you should know",
-   "url": "https://www.youtube.com/watch?v=djyc-rPqBV4",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "Nvidia"
    ]
   },
   {
@@ -534,8 +438,7 @@
    "url": "https://share.transistor.fm/s/94091b47",
    "words": [
     "compute",
-    "ipo",
-    "joins"
+    "ipo"
    ],
    "companies": [
     "Anthropic"
@@ -548,8 +451,7 @@
    "title": "Why The Anthropic IPO Will Succeed — With Aaron Levie",
    "url": "",
    "words": [
-    "ipo",
-    "joins"
+    "ipo"
    ],
    "companies": [
     "Anthropic"
@@ -610,8 +512,7 @@
    "url": "https://www.youtube.com/watch?v=-iCfFQQBMzI",
    "words": [
     "compute",
-    "ipo",
-    "joins"
+    "ipo"
    ],
    "companies": [
     "Anthropic"
@@ -629,19 +530,6 @@
    "companies": [
     "Cursor",
     "OpenAI"
-   ]
-  },
-  {
-   "source": "NVIDIA",
-   "type": "動画",
-   "published": "2026-11-19",
-   "title": "Europe’s AI Future With Judith Dada | Pub Conversations",
-   "url": "https://www.youtube.com/watch?v=N5YwZjN4_oI",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "NVIDIA"
    ]
   },
   {
@@ -671,19 +559,6 @@
    ]
   },
   {
-   "source": "The a16z Show",
-   "type": "ポッドキャスト",
-   "published": "2026-11-18",
-   "title": "The Missing Layer for Personal AI | First Person Labs’ Ken Liu",
-   "url": "https://a16z.simplecast.com/episodes/the-missing-layer-for-personal-ai-first-person-labs-ken-liu-wu4i8Q00",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "a16z"
-   ]
-  },
-  {
    "source": "PIVOT",
    "type": "動画",
    "published": "2026-11-18",
@@ -698,19 +573,6 @@
     "amazon",
     "xtech",
     "エヌビディア"
-   ]
-  },
-  {
-   "source": "a16z",
-   "type": "動画",
-   "published": "2026-11-18",
-   "title": "What It Takes to Build an AI That Actually Knows You",
-   "url": "https://www.youtube.com/watch?v=kBJe4H_WobA",
-   "words": [
-    "joins"
-   ],
-   "companies": [
-    "a16z"
    ]
   },
   {
@@ -740,19 +602,6 @@
    "companies": [
     "AMD",
     "Anthropic"
-   ]
-  },
-  {
-   "source": "NVIDIA",
-   "type": "動画",
-   "published": "2026-11-18",
-   "title": "Can Open Source Make AI Agents Safer?",
-   "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
-   "words": [
-    "join"
-   ],
-   "companies": [
-    "NVIDIA"
    ]
   }
  ]

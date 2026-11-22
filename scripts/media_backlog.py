@@ -19,7 +19,7 @@ STRONG = re.compile(r"\b(hires?|hired|poach\w*|leaves?|left|steps? down|resign\w
 WEAK_ONLY_CO = {"Jensen", "Altman", "Amodei", "Musk", "Zuckerberg", "Hassabis"}
 
 
-JOIN = re.compile(r"\b(?:joins?|joined)\s+(?:the\s+)?(?:" + md.CO.pattern.split("(?:",1)[1].rsplit(")",1)[0] + r")", re.I)
+JOIN = md.JOINROLE  # 「joins ... as」の形だけ。出演の意味の joins は数えない(2026/11/21)
 RECENT_DAYS = 3  # 直近は毎日の手がかりのまとめ(media_digest)が見るので、ここでは過去分だけ
 
 
@@ -82,7 +82,7 @@ def sync():
             text = v["title"] + " " + v.get("description", "")
             if v["published"] >= (datetime.date.today() - datetime.timedelta(days=RECENT_DAYS)).isoformat():
                 continue
-            strong = sorted({m.group(0).lower() for m in STRONG.finditer(text)} | {m.group(0).lower() for m in JOIN.finditer(text)})
+            strong = sorted({m.group(0).lower() for m in STRONG.finditer(text)} | ({"joins(役職)"} if md.join_move(v["title"], v.get("description", "")) else set()))
             cos = sorted({m.group(0) for m in md.CO.finditer(text)})
             if not strong or not (set(cos) - WEAK_ONLY_CO):
                 continue
