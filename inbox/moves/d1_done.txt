@@ -6,3 +6,14 @@
 2026-11-20.json
 2026-11-21.json
 2026-11-21_thin.json
+2026-11-19_manual.json
+2026-11-21-backlog.json
+2026-11-21-media.json
+2026-11-21-pc-media.json
+2026-11-21-x-pc.json
+2026-11-21-zoph.json
+2026-11-22-gemini-recheck.json
+2026-11-22-hiring.json
+2026-11-22-jp-hr.json
+2026-11-22-seed-hiring.json
+2026-11-22.json
