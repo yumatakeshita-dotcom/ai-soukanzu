@@ -1,0 +1,461 @@
+{
+ "date": "2026-11-23",
+ "source": "inbox/gemini/2026-11-23-2.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "株式上場 (IPO) および戦略的プライベートプレースメント",
+    "相手": "公開市場の投資家、Advanced Micro Devices, Broadcom, Google, Micron Technology, Microsoft, NVIDIA, TSMC Partners",
+    "金額": "935億ドル (IPO売上総額) + 260億ドル (プライベートプレースメント)",
+    "日付": "2026-11-19",
+    "出典URL": "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement",
+    "確かさ": "公式",
+    "備考": "IPO時点での企業評価額は約1.5兆ドル。プライベートプレースメントはClass N普通株式の売却。",
+    "src": [
+     [
+      "Anthropic 公式発表",
+      "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement"
+     ]
+    ],
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "なし",
+     "code": 404,
+     "final": "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement"
+    },
+    "dup": "「Anthropic」と「Advanced Micro Devices」の組み合わせがすでにある(site/data/finds.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "ページが無い(HTTP 404)",
+    "重なり: 「Anthropic」と「Advanced Micro Devices」の組み合わせがすでにある(site/data/finds.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Mistral AI",
+    "関係": "出資 (Series D)",
+    "相手": "Samsung Electronics, EQT-managed Scaleup Europe Fund, PSG Equity (リード投資家), ASML, NVIDIA 他",
+    "金額": "30億ユーロ (約35.8億ドル)",
+    "日付": "2026-09-08",
+    "出典URL": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+    "確かさ": "報道",
+    "備考": "調達後の企業評価額は210億ユーロ超 (約243.9億ドル)。",
+    "src": [
+     [
+      "TechCrunch",
+      "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+     ]
+    ],
+    "既存の名前": [
+     "Mistral AI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Mistral raises €3B as sovereign AI becomes big business | Te",
+     "状態": "ok",
+     "載っていた名前": [
+      "Mistral AI",
+      "Samsung Electronics",
+      "EQT-managed Scaleup Europe Fund",
+      "PSG Equity",
+      "ASML"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+     "names_on_page": [
+      "Mistral AI",
+      "Samsung Electronics",
+      "EQT-managed Scaleup Europe Fund",
+      "PSG Equity",
+      "ASML",
+      "NVIDIA"
+     ]
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [],
+   "verdict": "合格",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Cohere",
+    "関係": "出資 (Series E)",
+    "相手": "ドイツのSchwarz Group (リード投資家), カナダ政府, Bell Ventures, Bullhound Capital, NVIDIA (既存投資家) 他",
+    "金額": "最大70億カナダドル (約50億米ドル)",
+    "日付": "2026-10-29",
+    "出典URL": "https://www.intelligentcio.com/north-america/2026/10/30/cohere-targets-cad7-billion-funding-round-at-cad35-7-billion-valuation-as-sovereign-ai-demand-surges/",
+    "確かさ": "報道",
+    "備考": "目標とする企業評価額は357億カナダドル。カナダ政府は最大16億カナダドルを投資。",
+    "src": [
+     [
+      "Intelligent CIO",
+      "https://www.intelligentcio.com/north-america/2026/10/30/cohere-targets-cad7-billion-funding-round-at-cad35-7-billion-valuation-as-sovereign-ai-demand-surges/"
+     ]
+    ],
+    "既存の名前": [
+     "Cohere"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.intelligentcio.com/north-america/2026/10/30/cohere-targets-cad7-billion-funding-round-at-cad35-7-billion-valuation-as-sovereign-ai-demand-surges/"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Databricks",
+    "関係": "出資 (戦略的資金調達)",
+    "相手": "Coatue (リード投資家) 他",
+    "金額": "",
+    "日付": "2026-07-16",
+    "出典URL": "https://www.databricks.com/newsroom/databricks-raising-strategic-round-funding-188-billion-valuation",
+    "確かさ": "公式",
+    "備考": "企業評価額は1880億ドル。具体的な調達額は不明だが、後日50億ドル調達が確認され評価額1900億ドルに。",
+    "src": [
+     [
+      "Databricks 公式発表",
+      "https://www.databricks.com/newsroom/databricks-raising-strategic-round-funding-188-billion-valuation"
+     ]
+    ],
+    "既存の名前": [
+     "Databricks"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "なし",
+     "code": 404,
+     "final": "https://www.databricks.com/newsroom/databricks-raising-strategic-round-funding-188-billion-valuation"
+    },
+    "dup": "「Databricks」と「Coatue」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "ページが無い(HTTP 404)",
+    "重なり: 「Databricks」と「Coatue」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Perplexity AI",
+    "関係": "取引 (クラウドサービス契約)",
+    "相手": "Microsoft Azure",
+    "金額": "7.5億ドル",
+    "日付": "2026-01",
+    "出典URL": "https://www.revenuememo.com/perplexity-ai-funding",
+    "確かさ": "報道",
+    "備考": "3年間の契約でMicrosoft AzureのクラウドサービスおよびOpenAI、Anthropic、xAIのモデルへのアクセスを獲得。",
+    "src": [
+     [
+      "Revenue Memo",
+      "https://www.revenuememo.com/perplexity-ai-funding"
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.revenuememo.com/perplexity-ai-funding"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "出資 (Series H)",
+    "相手": "Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, Capital Group, Coatue, GIC, ICONIQ, Amazon, Samsung, SK Hynix, Micron 他",
+    "金額": "650億ドル",
+    "日付": "2026-05-28",
+    "出典URL": "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement",
+    "確かさ": "公式",
+    "備考": "調達後の企業評価額は9650億ドル。IPOの公式発表内で、過去の調達についても言及されている。",
+    "src": [
+     [
+      "Anthropic 公式発表",
+      "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement"
+     ]
+    ],
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "なし",
+     "code": 404,
+     "final": "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering-including-full-exercise-of-underwriters-option-to-purchase-additional-shares-and-closing-of-concurrent-private-placement"
+    },
+    "dup": "「Anthropic」と「Dragoneer」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "ページが無い(HTTP 404)",
+    "重なり: 「Anthropic」と「Dragoneer」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Mistral AI",
+    "関係": "取引 (NVIDIAチップ購入のための融資)",
+    "相手": "NVIDIA (チップ供給元)",
+    "金額": "8.3億ドル (または7.22億ユーロ)",
+    "日付": "2026-03",
+    "出典URL": "https://vestbee.com/news/mistral-secures-e3b-at-e21b-valuation-in-record-european-tech-round",
+    "確かさ": "報道",
+    "備考": "最初のデータセンター向けNVIDIAチップ購入のための負債調達。",
+    "src": [
+     [
+      "Vestbee",
+      "https://vestbee.com/news/mistral-secures-e3b-at-e21b-valuation-in-record-european-tech-round"
+     ]
+    ],
+    "既存の名前": [
+     "Mistral AI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://vestbee.com/news/mistral-secures-e3b-at-e21b-valuation-in-record-european-tech-round"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Prometheus",
+    "関係": "出資 (Series B)",
+    "相手": "Jeff Bezos, JPMorgan, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners 他",
+    "金額": "120億ドル",
+    "日付": "2026-06-11",
+    "出典URL": "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/",
+    "確かさ": "報道",
+    "備考": "Jeff Bezosが共同CEOを務める産業AIスタートアップ。評価額は約410億ドル。",
+    "src": [
+     [
+      "Crunchbase News",
+      "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/"
+     ]
+    ],
+    "既存の名前": [
+     "Prometheus"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "なし",
+     "code": 404,
+     "final": "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "ページが無い(HTTP 404)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "DeepSeek",
+    "関係": "出資",
+    "相手": "Tencent, CATL, China's National AI Industry Investment Fund, Liang Wenfeng 他",
+    "金額": "74億ドル",
+    "日付": "2026-06",
+    "出典URL": "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/",
+    "確かさ": "報道",
+    "備考": "評価額は500億ドル超の中国AI企業。",
+    "src": [
+     [
+      "Crunchbase News",
+      "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/"
+     ]
+    ],
+    "既存の名前": [
+     "DeepSeek"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "なし",
+     "code": 404,
+     "final": "https://news.crunchbase.com/ai-robotics/top-10-biggest-ai-funding-rounds-q2-2026/"
+    },
+    "dup": "「DeepSeek」と「CATL」の組み合わせがすでにある(site/data/finds.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "ページが無い(HTTP 404)",
+    "重なり: 「DeepSeek」と「CATL」の組み合わせがすでにある(site/data/finds.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Tenstorrent",
+    "関係": "出資 (Series E)",
+    "相手": "",
+    "金額": "15億ドル",
+    "日付": "2026-10",
+    "出典URL": "https://secondtalent.com/blog/top-20-ai-startups-that-raised-funding-in-october-2026",
+    "確かさ": "報道",
+    "備考": "AIチップ企業。評価額は62億ドル。",
+    "src": [
+     [
+      "Second Talent",
+      "https://secondtalent.com/blog/top-20-ai-startups-that-raised-funding-in-october-2026"
+     ]
+    ],
+    "既存の名前": [
+     "Tenstorrent"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://secondtalent.com/blog/top-20-ai-startups-that-raised-funding-in-october-2026"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}
