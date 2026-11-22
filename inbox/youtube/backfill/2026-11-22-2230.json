@@ -1,0 +1,389 @@
+{
+ "date": "2026-11-22",
+ "summary": "過去動画の取得: 29/30チャンネル、新しく33本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "a16z",
+   "ok": false,
+   "error": "読めない:'NoneType' object has no attribute 'group'"
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 2
+  }
+ ],
+ "videos": [
+  {
+   "id": "ZIX8qo35sdE",
+   "title": "\"Every 2 Years Your Audience Will Get Bored of You\"",
+   "age": "3h ago",
+   "channel": "Colin and Samir",
+   "url": "https://www.youtube.com/watch?v=ZIX8qo35sdE"
+  },
+  {
+   "id": "jHOvCD1nGEQ",
+   "title": "Chamath: The Market is BAD for Stocks Right Now",
+   "age": "2h ago",
+   "channel": "All-In Podcast",
+   "url": "https://www.youtube.com/watch?v=jHOvCD1nGEQ"
+  },
+  {
+   "id": "QjDMSL4PpPE",
+   "title": "Chamath Predicts the Rise of AI’s Magnificent 10: “Dirt to Application”",
+   "age": "7h ago",
+   "channel": "All-In Podcast",
+   "url": "https://www.youtube.com/watch?v=QjDMSL4PpPE"
+  },
+  {
+   "id": "hRtmV1mCBSE",
+   "title": "The new rules of product management in the AI era | Sherif Mansour (Head of AI, Atlassian)",
+   "age": "8h ago",
+   "channel": "Lenny's Podcast",
+   "url": "https://www.youtube.com/watch?v=hRtmV1mCBSE"
+  },
+  {
+   "id": "PkxXtmeHGys",
+   "title": "「どんだけ出し惜しみするのよッ！」兒玉遥の意外なグラビア事情に、アレン様も困惑！セクシー動画を投稿する娘の止め方から、”安定志向”の若者への喝まで…将来の悩みに白黒つける！【アレン様×森本しんたろう】",
+   "age": "30 min ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=PkxXtmeHGys"
+  },
+  {
+   "id": "JZa0BRwUDw0",
+   "title": "「今この瞬間も攻撃されている」1日10万回をブロック…NECが“サイバー攻撃の生データ”を公開【NewsPicks/吉村崇/OFFRECO.GO/NEC/AI】",
+   "age": "9h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=JZa0BRwUDw0"
+  },
+  {
+   "id": "F2JxX9hok2A",
+   "title": "[Shinji Ishimaru × Shuzo Narita] What is most important for product development? #ShinjiIshimaru ...",
+   "age": "10h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=F2JxX9hok2A"
+  },
+  {
+   "id": "dUiJqvAlxXo",
+   "title": "[Mass Selling Books to AI Companies] Why Is Nippan Facing Backlash? #Publishing #Distributor #Boo...",
+   "age": "13h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=dUiJqvAlxXo"
+  },
+  {
+   "id": "0NAW55J9gvg",
+   "title": "#MaritalArguments #Marriage #HouseholdBudgeting #MoneyTalks #HappyMarriage #DualIncomeCouples #Te...",
+   "age": "20h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=0NAW55J9gvg"
+  },
+  {
+   "id": "kqhedBCBQFc",
+   "title": "【菊地直子が独占告白②】衝撃！逮捕の瞬間…被害者への想いは？麻原彰晃氏の評価は？【ReHacQ高橋弘樹vs元オウム真理教信者】",
+   "age": "11h ago",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=kqhedBCBQFc"
+  },
+  {
+   "id": "edYq2nQGjA8",
+   "title": "[Hiroki Takahashi vs. A Mathematical Conundrum] A 167-Year Unsolved Problem... Did AI Just Prove ...",
+   "age": "13h ago",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=edYq2nQGjA8"
+  },
+  {
+   "id": "O6-txuVY2BU",
+   "title": "【なぜ北朝鮮は崩壊しないのか】金正恩の後継者“謎の娘“の正体／中国が恐れる制御不能の混乱／鉄壁の独裁体制はどのように築かれたか／軍の掌握・密告網の確立・核開発【PIVOT EXPLAINS】",
+   "age": "11h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=O6-txuVY2BU"
+  },
+  {
+   "id": "FRKR28Zm1ds",
+   "title": "【日本の読解力は世界トップレベル】読解力は91か国中4位／実は中高年の方が読解力は低い／日本の弱点は記述問題の「白紙回答」／語彙力を伸ばす読書のコツ【PIVOT LIFE】",
+   "age": "19h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=FRKR28Zm1ds"
+  },
+  {
+   "id": "WHuKIZfMMr0",
+   "title": "【中国発スクイーズ、メロジョイの正体】メロジョイとは何？／いつ頃から流行？／ボンドロとの覇権交代／第3次ブーム／米国でもヒット／中国で旬をすぎたオモチャ／TikTok Shopがカギ／中国勢のヒット",
+   "age": "22h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=WHuKIZfMMr0"
+  },
+  {
+   "id": "vtGmvzQAxEI",
+   "title": "イノベーティブなイベント3連発！終活・ピッチ・子供の夢！【田村淳のTaMaRiBa】",
+   "age": "4h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=vtGmvzQAxEI"
+  },
+  {
+   "id": "EyTIrsQOZ64",
+   "title": "Replicating Pork and Bonito Flavors with Plant-Based Ingredients #LBS #LocalBusinessSatellite #TV...",
+   "age": "10h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=EyTIrsQOZ64"
+  },
+  {
+   "id": "Ewo_vh_ATus",
+   "title": "Signs of a Turnaround… Why Activist Shareholders Are Disappointed in Nidec [Gaia no Yoake]",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=Ewo_vh_ATus"
+  },
+  {
+   "id": "kEYgPA8WDpo",
+   "title": "COP31 Stalled: New Draft Omits 'Fossil Fuel Phase-out'",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=kEYgPA8WDpo"
+  },
+  {
+   "id": "qy8qe3cDpAQ",
+   "title": "Showcasing the Charm of Remote Islands Nationwide: \"Ilander 2026\"",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=qy8qe3cDpAQ"
+  },
+  {
+   "id": "IL5ZFDZL4mA",
+   "title": "Russian Cargo Ship Hit by Drone Attack; Ukraine Suspected of Involvement",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=IL5ZFDZL4mA"
+  },
+  {
+   "id": "m_cSTXyWWUM",
+   "title": "IRGC Claims Attack on US Military Facilities in Bahrain",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=m_cSTXyWWUM"
+  },
+  {
+   "id": "spCo4pASKHE",
+   "title": "Shuri Castle Main Hall Rebuilt After 7 Years: Government-Hosted Completion Ceremony",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=spCo4pASKHE"
+  },
+  {
+   "id": "njgd3pg2q1A",
+   "title": "What Are the Real Structural Causes of the Weak Yen? [Moyamoya Satellite]",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=njgd3pg2q1A"
+  },
+  {
+   "id": "9KrfE7M2y_Y",
+   "title": "Connecting Scents #008 Apple (Hirosaki City, Aomori Prefecture)",
+   "age": "14h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=9KrfE7M2y_Y"
+  },
+  {
+   "id": "BZU7dLOsw98",
+   "title": "【直近の民意は衆院選】日本維新の会 総務会長　金村 龍那【日曜サロン】",
+   "age": "19h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=BZU7dLOsw98"
+  },
+  {
+   "id": "43P8aMoauNU",
+   "title": "Employee Salaries Revealed!? Investigating the High-Tech Nation of Estonia [Global Salary Breakdo...",
+   "age": "19h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=43P8aMoauNU"
+  },
+  {
+   "id": "n48DY1mHiG0",
+   "title": "【ボージョレ解禁も冷める熱】 #Shorts",
+   "age": "11h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=n48DY1mHiG0"
+  },
+  {
+   "id": "SuHTLyMR85c",
+   "title": "【INFOBAR 25周年モデルで原点回帰】 #Shorts",
+   "age": "14h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=SuHTLyMR85c"
+  },
+  {
+   "id": "sHvDqlgnJdQ",
+   "title": "【首里城正殿7年ぶり復活】 「令和の復元」ここが見どころ #Shorts",
+   "age": "17h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=sHvDqlgnJdQ"
+  },
+  {
+   "id": "1clNWuDuxJU",
+   "title": "【JAXAの探査機「みお」水星軌道入り】 #Shorts",
+   "age": "20h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=1clNWuDuxJU"
+  },
+  {
+   "id": "fu6YdtdOPkc",
+   "title": "【就活早期化、大学生5割が反対　6割が学業に支障】 #Shorts",
+   "age": "23h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=fu6YdtdOPkc"
+  },
+  {
+   "id": "YMyZ7CEGL30",
+   "title": "Americans don't want handouts. They want their hardwork to pay off.",
+   "age": "7h ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=YMyZ7CEGL30"
+  },
+  {
+   "id": "rUTXuCWiP9Y",
+   "title": "Why do graduates use AI all through school, then boo it at commencement?",
+   "age": "8h ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=rUTXuCWiP9Y"
+  }
+ ]
+}
