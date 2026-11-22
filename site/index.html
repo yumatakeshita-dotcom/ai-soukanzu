@@ -36462,11 +36462,13 @@ const VERIFY_PPL=[
  ['ルーク・メッツ','Meta','v_metz','本人のXのプロフィールで確認','2026/11/20'],
  /*XV_PPL_START*/ // scripts/moves_x_apply.py --apply が、本人のXで確かめた人の動きをここに足す(足すだけ)
  ['バレット・ゾフ','Google DeepMind','v_zoph','本人のXのプロフィールで確認','2026/11/21'],
+  ['アレクサンダー・マドリー','OpenAI','v_madry','本人のXの投稿で確認','2026/11/22'],
  /*XV_PPL_END*/
 ];
 // 本人のXで確かめた人の動きの出典(scripts/moves_x_apply.py が足す。2026/11/20)
 Object.assign(DS,{
- /*XV_DS_START*/ v_zoph:['バレット・ゾフ本人のXプロフィール(2026/11/21確認。自己紹介が「VP Research GoogleDeepmind」、過去にOpenAI・Thinking Machines Lab)','https://x.com/barret_zoph','s'], /*XV_DS_END*/
+ /*XV_DS_START*/ v_zoph:['バレット・ゾフ本人のXプロフィール(2026/11/21確認。自己紹介が「VP Research GoogleDeepmind」、過去にOpenAI・Thinking Machines Lab)','https://x.com/barret_zoph','s'],  v_madry:['アレクサンダー・マドリー本人のX(2026/10/19、OpenAIに関する投稿。2026/11/22にXで確認)','https://x.com/aleks_madry/status/2112231448103239998','s'],
+ /*XV_DS_END*/
 });
 /* 出資の線に、data/investsrc.js の出典を足す(2026/11/21。足すだけ・既存の出典は消さない)。名前が合う出資の線だけ */
 function applyInvSrc(c,d){
