@@ -1,0 +1,78 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Vertex Ventures Southeast Asia & India",
+   "to": "Everful",
+   "kind": "出資",
+   "amount": "$48.5M(合計)",
+   "date": "2026-11-19",
+   "note": "Everful(サンフランシスコ・シンガポール拠点。AIエージェントで工場からの仕入れを自動化する調達サービス)のシリーズA 4,850万ドル。Vertex Ventures Southeast Asia & India と January Capital が主導、既存の Square Peg・Lightspeed が参加(TechCrunch 2026/11/19で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/19)",
+     "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "January Capital",
+   "to": "Everful",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "Everful(サンフランシスコ・シンガポール拠点。AIエージェントで工場からの仕入れを自動化する調達サービス)のシリーズA 4,850万ドル。Vertex Ventures Southeast Asia & India と January Capital が主導、既存の Square Peg・Lightspeed が参加(TechCrunch 2026/11/19で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/19)",
+     "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Square Peg",
+   "to": "Everful",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "Everful(サンフランシスコ・シンガポール拠点。AIエージェントで工場からの仕入れを自動化する調達サービス)のシリーズA 4,850万ドル。Vertex Ventures Southeast Asia & India と January Capital が主導、既存の Square Peg・Lightspeed が参加(TechCrunch 2026/11/19で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/19)",
+     "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Lightspeed",
+   "to": "Everful",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "Everful(サンフランシスコ・シンガポール拠点。AIエージェントで工場からの仕入れを自動化する調達サービス)のシリーズA 4,850万ドル。Vertex Ventures Southeast Asia & India と January Capital が主導、既存の Square Peg・Lightspeed が参加(TechCrunch 2026/11/19で本文を確認。投資家ごとの額は不明)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026/11/19)",
+     "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ]
+}

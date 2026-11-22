@@ -4,6 +4,59 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-22-6　ベトナム のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は DealStreetAsia・Inc42・TechCrunch など本文が開ける記事のURL
+
+- モデル: gemini-2.5-flash　/　候補 4件
+
+**Geminiが打った検索の言葉**
+
+- ベトナム AI スタートアップ 資金調達 2026年11月
+- Vietnam AI startup funding November 2026
+- Vietnam AI company investment November 2026
+- Vietnam AI acquisition November 2026
+- DealStreetAsia Vietnam AI November 2026
+- Inc42 Vietnam AI November 2026
+- TechCrunch Vietnam AI November 2026
+- DealStreetAsia Vietnam AI funding November 2026
+- TechCrunch Vietnam AI funding November 2026
+- Inc42 Vietnam AI funding November 2026
+- Vietnam AI startup investment November 2026 DealStreetAsia
+- Vietnam AI startup acquisition November 2026 TechCrunch
+
+**出てきた候補**
+
+- Filum AI → 出資 → (2026-11)
+- Techcoop → 出資 → (2026-11)
+- V-Indoor Care → 支援 → National IT Industry Promotion Agency (NIPA)(2026-10-29)
+- VEEP → 支援 → National IT Industry Promotion Agency (NIPA)(2026-10-29)
+
+記録ファイル: inbox/gemini/2026-11-22-6.json / 2026-11-22-6.md
+
+## 2026-11-22-5　シンガポール のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は DealStreetAsia・Inc42・TechCrunch など本文が開ける記事のURL
+
+- モデル: gemini-2.5-flash　/　候補 6件
+
+**Geminiが打った検索の言葉**
+
+- Singapore AI startup funding November 2026 DealStreetAsia
+- Singapore AI startup investment November 2026 Inc42
+- Singapore AI startup acquisition November 2026 TechCrunch
+- Singapore AI startup news November 2026
+- Singapore AI companies partnerships November 2026
+- Singapore AI talent movement November 2026
+- Singapore AI company official announcements November 2026
+
+**出てきた候補**
+
+- Vertex Ventures Southeast Asia & India → 出資 → Everful(2026-11-20)
+- Mistral AI → 拠点開設 → シンガポール(2026-11-20)
+- Databricks → 投資/提携 → シンガポール (AIエコシステム, スタートアップ)(2026-11)
+- Google Cloud → 拠点開設/提携 → Grab, DBS (提携), シンガポール (Engineering Center)(2026-11)
+- Monetary Authority of Singapore (MAS) → 提携 → Future of Finance Institute (FFI), AI Singapore (AISG)(2026-11-18)
+- NETS → 提携 → Ant International(2026-11-19)
+
+記録ファイル: inbox/gemini/2026-11-22-5.json / 2026-11-22-5.md
+
 ## 2026-11-22-4　起業家・経営者(OpenAI/Anthropic/NVIDIA/TSMC/ソフトバンク/Google等のAI・半導体企業の創業者や幹部)が本人の言葉(インタビュー・ブログ・株主あての手紙・本人の投稿)で公に挙げた愛読書・影響を受けた本や映画。人名・作品名・作者・出典URL付き。Elon Musk, Sam Altman, Mark Zuckerberg, Masayoshi Son は除く
 
 - モデル: gemini-2.5-flash　/　候補 10件
