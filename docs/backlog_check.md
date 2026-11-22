@@ -35,5 +35,6 @@
 
 ## 進み具合を画面に出した(2026/11/22)
 - `status` を動かすたびに、その日の件数(todo/done/checked/unverified)を `inbox/backlog/history.json` に足し(同じ日は置き換え・前の日は消さない)、`site/data/backlog.js` を書き直す。11/21分は git の履歴から埋めた
+- 「確かめられなかったもの」(unverified)の理由は、同じ欄の折りたたみに出る(`BACKLOG_UNV`)
 - ホーム(「調査のようす」)と調査エージェント一覧の上に「確かめ係の進み具合」の欄が出る(残り○件・前の記録からの増減・直近7日の表)。部品は `backlog.js` の `backlogBox()`
 - **`site/data/backlog.js` が変わったら共有リンクのアーティファクトにも公開する**(毎朝の自動更新は index.html しか公開しないため)。10:07のタスクは手順7のあとに公開まで行う
