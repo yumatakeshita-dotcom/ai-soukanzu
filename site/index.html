@@ -38979,11 +38979,13 @@ function showHome(){
     ['jp','日本の企業価値','上場企業と未上場ユニコーン'],
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
+  /* 2026/11/22: 上のメニュー(選択欄)と同じグループ・並び。メニューにない2枚(jp・ipo)は近いグループの末尾 */
+  const groups=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
   const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
-   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${cards.map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>
+   ${groups.map(g=>`<h3 style="margin:22px 0 8px;font-size:15px">${g[0]}</h3><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
