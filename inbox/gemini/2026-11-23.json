@@ -1,0 +1,264 @@
+{
+ "date": "2026-11-23",
+ "kind": "gemini",
+ "topic": "YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Mercor",
+   "関係": "出資",
+   "相手": "Mercor",
+   "金額": "$750M",
+   "日付": "2026-11-10",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1cJkim_DAFyBg6G6im76G4mUHcaJx_ktYgSjHrC7AdOX4M8womQrHb8h0_OSSvvRwuYvvyKn1MFBKr_usu_YF3E8XXLprky7PfCxA0f84a7tkQARCToudd005KTX67qMtjl--J1rknV2us7woA7aaGDYQIhXE9g8OavQBBzTKXlFUVN7iGZtiWQX61rHx0RqzmZuhtlBzj0AUVHjoGlxyKqVqPriNNer_smwUzVUuJj6HBrAe3uHcKqVmh9",
+   "確かさ": "報道",
+   "備考": "Series D、評価額$20B、NvidiaとSalesforceが投資家",
+   "src": [
+    [
+     "Investing.com / Reuters",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1cJkim_DAFyBg6G6im76G4mUHcaJx_ktYgSjHrC7AdOX4M8womQrHb8h0_OSSvvRwuYvvyKn1MFBKr_usu_YF3E8XXLprky7PfCxA0f84a7tkQARCToudd005KTX67qMtjl--J1rknV2us7woA7aaGDYQIhXE9g8OavQBBzTKXlFUVN7iGZtiWQX61rHx0RqzmZuhtlBzj0AUVHjoGlxyKqVqPriNNer_smwUzVUuJj6HBrAe3uHcKqVmh9"
+    ]
+   ],
+   "既存の名前": [
+    "Mercor",
+    "Mercor"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "ElevenLabs",
+   "関係": "評価額上昇 (従業員株式売却)",
+   "相手": "ElevenLabs",
+   "金額": "$300M",
+   "日付": "2026-09-30",
+   "出典URL": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+   "確かさ": "報道",
+   "備考": "評価額$22B、WellingtonとT. Rowe Priceが主導",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs",
+    "ElevenLabs"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyKak7g3N2lCkI93b2EW1m9JErZ1tiH3cfqfGSZc2rK_mI7QH8iBgFwe34F6vqnmiQDBVeEzDMDk15jgDve6Vj16bHy4YQv_7p730pY7KP0WBgbOZazNtu5vh8pWO9CRJj7felVsZQ-7yomj0mU3FKoTnmz9MWWqPXtmnZgWZrEH8rNIUNrOmraOnnlt15no8g",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "AI voice startup ElevenLabs doubles valuation to $22B | Tech",
+    "状態": "ok",
+    "載っていた名前": [
+     "ElevenLabs",
+     "ElevenLabs"
+    ]
+   }
+  },
+  {
+   "会社名": "ElevenLabs",
+   "関係": "出資",
+   "相手": "ElevenLabs",
+   "金額": "$500M",
+   "日付": "2026-05-05",
+   "出典URL": "https://sacra.com/c/elevenlabs/",
+   "確かさ": "報道",
+   "備考": "Series D、評価額$11B、NVIDIA (NVentures経由) とSalesforce Venturesが投資家",
+   "src": [
+    [
+     "Sacra",
+     "https://sacra.com/c/elevenlabs/"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs",
+    "ElevenLabs"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvYRyMOFmkfMfhSWsSbjMaHX-4amXmpEaXhzn_AmxoL9Jeh1gfAKRLaXluNbzkSt0sYMPgb_cIQA6dAWqwlujWwgw04bIb7OWwQ_6YrHgEnS4i2-OxUYB1vw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Cognition AI",
+   "関係": "資金調達交渉",
+   "相手": "Cognition AI",
+   "金額": "$2B以上",
+   "日付": "2026-11-20",
+   "出典URL": "https://mlq.ai/news/cognition-is-in-talks-to-raise-at-a-75-billion-valuation-two-months-after-its-48-billion-round/",
+   "確かさ": "報道",
+   "備考": "評価額$75Bでの交渉中、Nvidiaが顧客",
+   "src": [
+    [
+     "Bloomberg via MLQ.ai",
+     "https://mlq.ai/news/cognition-is-in-talks-to-raise-at-a-75-billion-valuation-two-months-after-its-48-billion-round/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2w0h4QnpUMklBNFSi5nPdpfJc_3Ay81ksFgj5bCQ_cfyhTygKeS71VjMQa5exYYSzKcbTZ0uXA0hjrE4dFJbDJeFCIsR5W60d0mlzQIoRHYBBW59Vl4-Ffn0L4PJpB1UK5ytkUUsU2In1HVWbCpzD2k9LtkY7DAxP77jNBTlW5WZYe0-aFf9oQMjOssNpUxCaHGqyWJa7Lg8eQsBk1bBFBZKdlCK1G_j4bJbQRw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Valar Atomics",
+   "関係": "訴訟 (被告: Day One Ventures)",
+   "相手": "Day One Ventures",
+   "金額": "",
+   "日付": "2026-10-10",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESN-Y7zYuAEqHXC7Mz4T-e8jnATi483cmiX1fq4Ab69H9KzkasLCg8cloMWMeYi5U0mD16O9IbUUXsNtwa2MPQQ9lWrD903jBVvsdyRU950ugAhBkbTYtZY19jDKG9A-MfjJBiJi1AzPeaAopGzp1siD4lj7XdXx8hnqVixYQla_b8c-zOM5mXX_aAz6ZjZyzdXegif9X5IXZyaNw==",
+   "確かさ": "報道",
+   "備考": "AIデータセンター向け小型モジュール炉開発企業がSeries Bでのプロラタ権を巡り提訴。Series Bは$1B調達、$6B評価額。",
+   "src": [
+    [
+     "Startup Fortune",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESN-Y7zYuAEqHXC7Mz4T-e8jnATi483cmiX1fq4Ab69H9KzkasLCg8cloMWMeYi5U0mD16O9IbUUXsNtwa2MPQQ9lWrD903jBVvsdyRU950ugAhBkbTYtZY19jDKG9A-MfjJBiJi1AzPeaAopGzp1siD4lj7XdXx8hnqVixYQla_b8c-zOM5mXX_aAz6ZjZyzdXegif9X5IXZyaNw=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Kalshi",
+   "関係": "出資",
+   "相手": "Kalshi",
+   "金額": "$1B",
+   "日付": "2026-10-29",
+   "出典URL": "https://news.kalshi.com/p/kalshi-series-g-40-billion-valuation",
+   "確かさ": "公式",
+   "備考": "Series G、評価額$40B、Andreessen Horowitz (a16z) が投資家",
+   "src": [
+    [
+     "Kalshi (公式発表)",
+     "https://news.kalshi.com/p/kalshi-series-g-40-billion-valuation"
+    ]
+   ],
+   "既存の名前": [
+    "Kalshi",
+    "Kalshi"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzlB94Gbg4OsUFmCWU0EYY2WHzDJQr0Qviz4R_K8KV2vRFq6fJG9gq2BkOAxGwqv1efdrpc11Ja2dJuc3f7oWsTXIwoX3o_oT28Tulfy1yKHGm-ps8sFZSkPmLOX54M9Zkoke2bIorb9cxyV4o7e8cFxLLp2wOpYk=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Northwood Space Corp.",
+   "関係": "出資",
+   "相手": "Northwood Space Corp.",
+   "金額": "$375M",
+   "日付": "2026-11-02",
+   "出典URL": "https://www.northwoodspace.io/blog/northwood-series-c",
+   "確かさ": "公式",
+   "備考": "Series C、評価額$2B、Andreessen Horowitz (a16z) が共同リード投資家",
+   "src": [
+    [
+     "Northwood Space Corp. (公式発表)",
+     "https://www.northwoodspace.io/blog/northwood-series-c"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGN49JQyppiErsvUY1bzLCfO8QPzncXHuypbjZt_KyPA8UsSPlGB56MUL03UoMPbX4K3RwU75ZQ1EjMw4lV-stxM1rEj88zRKA73vdL43G_-zFV_nCrNjWi4E1zp2eIbwOKmABrQ3Ue0bIKu-Yz8VY=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Mercor",
+   "関係": "出資",
+   "相手": "Mercor",
+   "金額": "$350M",
+   "日付": "2025-10-27",
+   "出典URL": "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/",
+   "確かさ": "報道",
+   "備考": "Series C、評価額$10B",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/"
+    ]
+   ],
+   "既存の名前": [
+    "Mercor",
+    "Mercor"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHMFafreQEurL62sutZL1_2O4PiSIei-rhLpJqmIPQ_EROHAbNnlztVprEH6dD5uAcYMwj3SqerUOrh9yZFLCpEmGc1vGcQs_xAJsXdm7vQubldZg023K86h1rxd7HmIHNpKXPMiSDDsCDJZSdTqYjmigyIZ-sqoITvc46-rmOlMJiISMFm6RapNdPKCkW7EVJnlA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Mercor quintuples valuation to $10B with $350M Series C | Te",
+    "状態": "ok",
+    "載っていた名前": [
+     "Mercor",
+     "Mercor"
+    ]
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Kalshi $1B funding",
+   "Kalshi series D funding",
+   "Kalshi valuation",
+   "Mercor large funding round",
+   "Mercor AI funding",
+   "Northwood $375M funding",
+   "Northwood AI startup",
+   "ElevenLabs valuation $22B",
+   "ElevenLabs funding round 2026",
+   "Cognition AI vs Factory AI lawsuit",
+   "Cognition AI funding 2026",
+   "Valar Atomics lawsuit",
+   "Valar Atomics funding",
+   "Salesforce AI acquisitions 2026",
+   "Salesforce acquisition policy AI"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2714,
+   "candidatesTokenCount": 2604,
+   "totalTokenCount": 14645,
+   "cachedContentTokenCount": 492,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2714
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 492
+    }
+   ],
+   "toolUsePromptTokenCount": 4212,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4212
+    }
+   ],
+   "thoughtsTokenCount": 5115,
+   "serviceTier": "standard"
+  }
+ }
+}

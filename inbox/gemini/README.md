@@ -4,6 +4,41 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-23　YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ
+
+- モデル: gemini-2.5-flash　/　候補 8件
+
+**Geminiが打った検索の言葉**
+
+- Kalshi $1B funding
+- Kalshi series D funding
+- Kalshi valuation
+- Mercor large funding round
+- Mercor AI funding
+- Northwood $375M funding
+- Northwood AI startup
+- ElevenLabs valuation $22B
+- ElevenLabs funding round 2026
+- Cognition AI vs Factory AI lawsuit
+- Cognition AI funding 2026
+- Valar Atomics lawsuit
+- Valar Atomics funding
+- Salesforce AI acquisitions 2026
+- Salesforce acquisition policy AI
+
+**出てきた候補**
+
+- Mercor → 出資 → Mercor(2026-11-10)
+- ElevenLabs → 評価額上昇 (従業員株式売却) → ElevenLabs(2026-09-30)
+- ElevenLabs → 出資 → ElevenLabs(2026-05-05)
+- Cognition AI → 資金調達交渉 → Cognition AI(2026-11-20)
+- Valar Atomics → 訴訟 (被告: Day One Ventures) → Day One Ventures(2026-10-10)
+- Kalshi → 出資 → Kalshi(2026-10-29)
+- Northwood Space Corp. → 出資 → Northwood Space Corp.(2026-11-02)
+- Mercor → 出資 → Mercor(2025-10-27)
+
+記録ファイル: inbox/gemini/2026-11-23.json / 2026-11-23.md
+
 ## 2026-11-22-4　起業家・経営者(OpenAI/Anthropic/NVIDIA/TSMC/ソフトバンク/Google等のAI・半導体企業の創業者や幹部)が本人の言葉(インタビュー・ブログ・株主あての手紙・本人の投稿)で公に挙げた愛読書・影響を受けた本や映画。人名・作品名・作者・出典URL付き。Elon Musk, Sam Altman, Mark Zuckerberg, Masayoshi Son は除く
 
 - モデル: gemini-2.5-flash　/　候補 10件
