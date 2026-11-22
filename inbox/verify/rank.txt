@@ -1,6 +1,6 @@
-報道だけの線が多い会社(2026-11-20)
+報道だけの線が多い会社(2026-11-22)
 順位 会社(キー) 報道だけ/公式・開示/確かめた割合
-1. OpenAI(openai) 報道19 / 公式・開示18 / 49%
+1. OpenAI(openai) 報道35 / 公式・開示32 / 48%
     - TensorWave|取引|AMD GPU 457MW
     - トーマス・リンド|在籍・人事|国家安全保障政策チームでサイバー・戦略リ
     - イスマイル・エルマス|在籍・人事|欧州・中東・アフリカ営業担当VP
@@ -9,21 +9,271 @@
     - ケイリン・ヴォス ・ Salesforce|移籍|行き先
     - ブライアン・マッカーシー|在籍・人事|世界営業担当VP
     - ブライアン・マッカーシー ・ SpaceX|出身|出身
-2. Meta(meta) 報道15 / 公式・開示8 / 33%
+2. Meta(meta) 報道32 / 公式・開示8 / 20%
     - デイブ・ウェーナー|在籍・人事|退社
     - デイブ・ウェーナー ・ Fireworks AI|移籍|行き先
     - ルーク・メッツ ・ OpenAI|出身|出身
-    - Google Cloud|取引|クラウド $10B+
-    - Oracle|取引|クラウド 約$20B
-    - チャヤ・ナヤック|在籍・人事|退社
-    - チャヤ・ナヤック ・ OpenAI|移籍|行き先
-    - Broadcom|取引|自社チップ MTIA
-3. Nvidia(nvidia) 報道15 / 公式・開示10 / 40%
+    - CJ・デサイ|在籍・人事|企業向けAI事業の責任者
+    - CJ・デサイ ・ MongoDB|出身|出身
+    - デイブ・デュガン|在籍・人事|退社
+    - デイブ・デュガン ・ OpenAI|移籍|行き先
+    - Moltbook|資本関係|買収 非公表
+3. Nvidia(nvidia) 報道21 / 公式・開示22 / 51%
     - Noeri|出資|1.1億ドル
+    - ElevenLabs|出資|$500M
+    - Mercor|出資|$750M
+    - Rebellions|出資|支援
     - Alibaba(Qwen)|取引|H200(許可制)
     - Tencent|取引|H200 約1万基
-    - OpenAI|出資|約300億ドル(報道)
     - Samsung|取引|HBM4(協議)
-    - xAI|取引|GPU(Colossus)
-    - SK hynix|取引|HBMメモリ
-    - ソフトバンクグループ|つながり|株式を売却(報道)
+    - ジョナサン・ロス ・ Groq|出身|出身
+4. Thinking Machines Lab(tml) 報道16 / 公式・開示3 / 16%
+    - リリアン・ウェン ・ OpenAI|移籍|行き先
+    - ミラ・ムラティ ・ OpenAI|出身|
+    - ジョン・シュルマン ・ OpenAI|出身|
+    - リリアン・ウェン ・ OpenAI|出身|
+    - バレット・ゾフ ・ OpenAI|出身|
+    - ルーク・メッツ ・ OpenAI|出身|
+    - アンドリュー・タロック ・ OpenAI|出身|
+    - ジョン・シュルマン ・ Anthropic|出身|
+5. Anthropic(anthropic) 報道15 / 公式・開示45 / 75%
+    - CoreWeave|取引|クラウド
+    - スティーブ・ジャレット|在籍・人事|欧州・アフリカ展開の担当
+    - アンドレア・ヴァローネ|在籍・人事|研究者
+    - アンドレア・ヴァローネ ・ OpenAI|出身|出身
+    - ジェニー・シアーズ|在籍・人事|人事部門
+    - アンドレイ・カルパシー|在籍・人事|事前学習チーム
+    - ジャレッド・カプラン ・ OpenAI|出身|
+    - トム・ブラウン ・ OpenAI|出身|
+6. Safe Superintelligence(ssi) 報道11 / 公式・開示0 / 0%
+    - Meta|対立|買収を打診(報道)
+    - Sequoia Capital|出資|
+    - Andreessen Horowitz|出資|
+    - Greenoaks|出資|
+    - Nvidia|出資|
+    - Lightspeed|出資|
+    - イリヤ・スツケバー|株主・出資者|CEO / 共同創業者
+    - ナット・フリードマン|株主・出資者|個人投資家
+7. ソフトバンクグループ(softbank) 報道11 / 公式・開示3 / 21%
+    - OpenAI|出資|約11〜13%(報道)
+    - 孫正義 ・ 竜馬がゆく(司馬遼太郎)|つながり|
+    - Nvidia|つながり|株式を売却(報道)
+    - 宮川潤一|株主・出資者|ソフトバンク(通信)社長
+    - Apple|株主・出資者|ファンドの出資者
+    - Foxconn|株主・出資者|ファンドの出資者
+    - Qualcomm|株主・出資者|ファンドの出資者
+    - LINEヤフー|株主・出資者|共同で支配
+8. xAI(xai) 報道11 / 公式・開示20 / 65%
+    - Google|取引|Colossus 1を貸す
+    - ジェイソン・ギンズバーグ|在籍・人事|コーディング能力強化の責任者
+    - ジェイソン・ギンズバーグ ・ Cursor(Anysphere)|出身|出身
+    - Apple|対立|独禁法で提訴→2026年9月に取り下げ
+    - OpenAI|対立|独禁法の裁判(続いている)
+    - Nvidia|取引|GPU(Colossus)
+    - イーロン・マスク ・ 指輪物語(J・R・R・トールキン)|つながり|
+    - イーロン・マスク ・ ファウンデーション(アイザック・アシモフ)|つながり|
+9. Alibaba(Qwen)(alibaba) 報道10 / 公式・開示1 / 9%
+    - Nvidia|取引|H200(許可制)
+    - ホイ・ビンユアン ・ Meta|つながり|2026年に移籍
+    - ジョウ・ハオ ・ Google DeepMind|つながり|元在籍
+    - ジュンヤン・リン(林俊旸)|在籍・人事|退社
+    - ジュンヤン・リン(林俊旸) ・ Pragmatik Labs(上海・創業)|移籍|行き先
+    - Apple|取引|中国のiPhoneのAI
+    - Moonshot AI|出資|出資者
+    - MiniMax|株主・出資者|取引先
+10. Tencent(tencent) 報道9 / 公式・開示1 / 10%
+    - Nvidia|取引|H200 約1万基
+    - Manus|出資|5億ドル超
+    - DeepSeek|出資|約1000億元
+    - ヤオ・シュンユー(姚順雨) ・ OpenAI|つながり|元OpenAI
+    - Moonshot AI|出資|出資者
+    - Zhipu AI(Z.ai)|出資|出資者
+    - MiniMax|株主・出資者|取引先
+    - Manus|株主・出資者|出資先
+11. LangChain(vc_langchain) 報道8 / 公式・開示0 / 0%
+    - CapitalG|出資|3億ドル
+    - Sapphire Ventures|出資|3億ドル
+    - GIC|出資|3億ドル
+    - DFJ Growth|出資|3億ドル
+    - CapitalG|株主・出資者|出資者
+    - Sapphire Ventures|株主・出資者|出資者
+    - GIC|株主・出資者|出資者
+    - DFJ Growth|株主・出資者|出資者
+12. Cursor (Anysphere)(cursor) 報道8 / 公式・開示3 / 27%
+    - SpaceX|出資|年内に約600億ドルで買収する権利(報道)
+    - イスマイル・エルマス|在籍・人事|退社
+    - イスマイル・エルマス ・ OpenAI|移籍|行き先
+    - ジェイソン・ギンズバーグ|在籍・人事|退社
+    - ジェイソン・ギンズバーグ ・ xAI(SpaceXSI)|移籍|行き先
+    - Nvidia|株主・出資者|出資 + GPU供給
+    - Google|株主・出資者|戦略出資者
+    - OpenAI|株主・出資者|初期の出資者
+13. Google DeepMind(gdm) 報道8 / 公式・開示5 / 38%
+    - SpaceX(旧xAI)|取引|GPUを借りる
+    - ダウエ・キエラ|在籍・人事|入社
+    - ダウエ・キエラ ・ Contextual AI|出身|出身
+    - ノーム・シェイザー|在籍・人事|退社
+    - ノーム・シェイザー ・ OpenAI|移籍|行き先
+    - Meta|取引|Google Cloud $10B+
+    - OpenAI|取引|Google Cloud
+    - ジェフリー・ヒントン|株主・出資者|元Google研究者
+14. Uber / Uber Eats(uber) 報道7 / 公式・開示0 / 0%
+    - ジル・ヘイゼルベイカー ・ OpenAI|移籍|行き先
+    - Rivian|出資|約12.5億ドル(報道)
+    - GV|株主・出資者|VC
+    - Saudi PIF|株主・出資者|政府系ファンド
+    - ソフトバンクグループ|株主・出資者|出資者
+    - トヨタ自動車|株主・出資者|出資者
+    - Rivian|株主・出資者|自動運転の提携先
+15. Instagram(instagram) 報道7 / 公式・開示1 / 13%
+    - ケビン・シストロム ・ マーク・ザッカーバーグ|対立|資源・独立性をめぐり対立(報道)
+    - Baseline Ventures|株主・出資者|シード出資者
+    - Andreessen Horowitz|株主・出資者|初期出資者
+    - Benchmark|株主・出資者|シリーズA出資者
+    - Sequoia Capital|株主・出資者|2012年の増資の出資者
+    - Greylock|株主・出資者|2012年の増資の出資者
+    - Thrive Capital|株主・出資者|2012年の増資の出資者
+16. Cohere(cohere) 報道7 / 公式・開示5 / 42%
+    - cubic|資本関係|買収 金額は非公表
+    - AISLE|資本関係|買収 金額は非公表
+    - Upstage|出資|支援
+    - AMD Ventures|株主・出資者|戦略出資者
+    - Oracle|株主・出資者|戦略出資者
+    - Salesforce Ventures|株主・出資者|戦略出資者
+    - Upstage|株主・出資者|出資者
+17. SpaceX(us_SPCX) 報道6 / 公式・開示0 / 0%
+    - ブライアン・マッカーシー|在籍・人事|退社
+    - ブライアン・マッカーシー ・ OpenAI|移籍|行き先
+    - イスマイル・エルマス|在籍・人事|退社
+    - イスマイル・エルマス ・ OpenAI|移籍|行き先
+    - Apollo Global Management|出資|約$400億
+    - Apollo Global Management|株主・出資者|出資者
+18. Intel(us_INTC) 報道6 / 公式・開示1 / 14%
+    - 羅唯仁|在籍・人事|副社長
+    - 羅唯仁 ・ TSMC|出身|出身
+    - TSMC|取引|Lunar Lakeを製造
+    - 米国政府|株主・出資者|株主(2025年・報道)
+    - ソフトバンクグループ|株主・出資者|出資者(2025年・報道)
+    - Nvidia|株主・出資者|株主(約4.3%)
+19. Accel(vc_accel) 報道6 / 公式・開示2 / 25%
+    - Dreamteam|出資|合計5,300万ドル
+    - August AI|出資|$12M
+    - Humyn Labs|出資|$26M
+    - Arda|出資|$230M
+    - Dreamteam|株主・出資者|出資先
+    - August AI|株主・出資者|出資先
+20. Canva(canva) 報道5 / 公式・開示0 / 0%
+    - メラニー・パーキンス|株主・出資者|CEO / 共同創業者
+    - Blackbird Ventures|株主・出資者|VC
+    - Sequoia Capital|株主・出資者|VC
+    - Felicis|株主・出資者|VC
+    - General Catalyst|株主・出資者|VC
+21. Sierra(st_sierra) 報道5 / 公式・開示0 / 0%
+    - Lightspeed|出資|約15億ドルを評価額約300億ド
+    - Greenoaks|出資|約15億ドルを評価額約300億ド
+    - Benchmark|出資|約15億ドルを評価額約300億ド
+    - Tiger Global|株主・出資者|出資者(2026年・報道)
+    - GV|株主・出資者|出資者(2026年・報道)
+22. Apple(us_AAPL) 報道5 / 公式・開示0 / 0%
+    - Alibaba(Qwen)|取引|中国のiPhoneのAI
+    - Qualcomm|取引|iPhoneのモデム
+    - Alphabet|取引|検索の初期設定 約$20B/年
+    - スティーブ・ウォズニアック|株主・出資者|共同創業者
+    - Microsoft|株主・出資者|出資者(1997年)
+23. Huawei(Ascend)(huawei) 報道5 / 公式・開示0 / 0%
+    - Zhipu AI(Z.ai)|取引|Ascendだけで学習
+    - TSMC|対立|規制逃れの迂回調達
+    - Samsung|取引|HBM(旧世代)
+    - SK hynix|取引|HBM(旧世代)
+    - SMIC(中芯国際)|取引|Ascendを製造
+24. SK hynix(skhynix) 報道5 / 公式・開示1 / 17%
+    - Microsoft|取引|HBM4 5年契約
+    - アン・ヒョン(安炫)|在籍・人事|米州総括 社長
+    - チャ・ソンヨン|在籍・人事|開発総括 社長
+    - Huawei(Ascend)|取引|HBM(旧世代)
+    - Nvidia|取引|HBMの主な供給元
+25. ElevenLabs(st_elevenlabs) 報道5 / 公式・開示3 / 38%
+    - a16z|出資|$500M
+    - BlackRock|出資|$500M
+    - Nvidia|出資|$500M
+    - ICONIQ|出資|$500M
+    - マティ・スタニシェフスキ|株主・出資者|共同創業者 / CEO
+26. Samsung(samsung) 報道5 / 公式・開示3 / 38%
+    - Broadcom|取引|2nm 約$200B(報道)
+    - Nvidia|取引|HBM4・GPU5万基
+    - Tesla|取引|AIチップ製造
+    - Huawei(Ascend)|取引|HBM(旧世代)
+    - asml|取引|EUV
+27. TSMC(tsmc) 報道5 / 公式・開示5 / 50%
+    - 羅唯仁|在籍・人事|退社
+    - 羅唯仁 ・ Intel|移籍|行き先
+    - Intel|取引|Lunar Lakeを製造
+    - Huawei(Ascend)|対立|規制逃れの迂回調達
+    - ASML|取引|EUV装置
+28. Mistral AI(mistral) 報道5 / 公式・開示9 / 64%
+    - アルチュール・メンシュ|株主・出資者|CEO / 共同創業者
+    - ASML|株主・出資者|最大株主(報道)
+    - Nvidia|株主・出資者|出資 + GPU供給
+    - Microsoft|株主・出資者|戦略出資者
+    - グザビエ・ニール|株主・出資者|個人投資家
+29. Isomorphic Labs(isomorphic) 報道5 / 公式・開示11 / 69%
+    - Greenoaks|株主・出資者|出資者
+    - Sequoia Capital|株主・出資者|出資者
+    - a16z|株主・出資者|出資者
+    - Thrive|株主・出資者|出資者
+    - 英国Sovereign AI Fund|株主・出資者|出資者
+30. X (Twitter)(twitter) 報道4 / 公式・開示0 / 0%
+    - ラリー・エリソン|株主・出資者|買収資金の出資者
+    - Binance|株主・出資者|買収資金の出資者
+    - Sequoia Capital|株主・出資者|買収資金の出資者
+    - Andreessen Horowitz|株主・出資者|買収資金の出資者
+31. ブースト(boost) 報道4 / 公式・開示0 / 0%
+    - 小澤隆生 ・ Yahoo Japan|出身|
+    - 高橋健太 ・ McKinsey|出身|
+    - 高橋健太 ・ MBK Partners|出身|
+    - LINEヤフー|株主・出資者|アンカー出資者
+32. Scale AI(scale) 報道4 / 公式・開示0 / 0%
+    - Meta|株主・出資者|大株主
+    - Index Ventures|株主・出資者|VC
+    - Dragoneer|株主・出資者|投資会社
+    - Tiger Global|株主・出資者|投資会社
+33. humans&(humans) 報道4 / 公式・開示0 / 0%
+    - SV Angel|株主・出資者|出資者
+    - Nvidia|株主・出資者|出資者
+    - GV|株主・出資者|出資者
+    - ジェフ・ベゾス|株主・出資者|個人投資家
+34. Ramp(st_ramp) 報道4 / 公式・開示0 / 0%
+    - Dragoneer|出資|約18.5億ドル
+    - Thrive Capital|出資|約18.5億ドル
+    - Dragoneer|株主・出資者|出資者
+    - Thrive Capital|株主・出資者|出資者
+35. Mercor(st_mercor) 報道4 / 公式・開示0 / 0%
+    - Nvidia|出資|$750M
+    - Salesforce|出資|$750M
+    - Nvidia|株主・出資者|出資者
+    - Salesforce|株主・出資者|出資者
+36. DeepSeek(st_deepseek) 報道4 / 公式・開示0 / 0%
+    - Tencent|出資|約1000億元
+    - CATL|出資|約1000億元
+    - Tencent|株主・出資者|出資者
+    - CATL|株主・出資者|出資者
+37. Physical Intelligence(st_pi) 報道4 / 公式・開示0 / 0%
+    - CapitalG|株主・出資者|出資者(報道)
+    - Lux Capital|株主・出資者|出資者(報道)
+    - Avenir|株主・出資者|出資者(報道)
+    - ジェフ・ベゾス|株主・出資者|出資者(報道)
+38. Founders Fund(vc_foundersfund) 報道4 / 公式・開示0 / 0%
+    - Fractile|出資|7.2億ドル
+    - Ramp|出資|約18.5億ドル
+    - Fractile|株主・出資者|出資先
+    - Ramp|株主・出資者|出資先
+39. Salesforce(us_CRM) 報道4 / 公式・開示1 / 20%
+    - ケイリン・ヴォス|在籍・人事|入社
+    - ケイリン・ヴォス ・ OpenAI|出身|出身
+    - Mercor|出資|$750M
+    - Mercor|株主・出資者|出資先
+40. Thrive Capital(vc_thrivecapital) 報道4 / 公式・開示2 / 33%
+    - Fractile|出資|7.2億ドル
+    - Ramp|出資|約18.5億ドル
+    - Fractile|株主・出資者|出資先
+    - Ramp|株主・出資者|出資先

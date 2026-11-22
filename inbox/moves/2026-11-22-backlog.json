@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-22",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "name_en": "Daniel Gross",
+   "name_ja": "ダニエル・グロス",
+   "from": "Safe Superintelligence(共同創業者・CEO)",
+   "to": "Meta",
+   "role": "Meta Superintelligence Labs(AI製品担当)",
+   "date": "2025-07-03",
+   "region": "米国",
+   "backfill": true,
+   "note": "Metaは投資ファンドNFDG(グロスとフリードマン)の株式取得とも報じられた(割合は未確認)。報道ベース。 過去の動画・番組(20VC・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Bloomberg(2025/7/3)",
+     "https://www.bloomberg.com/news/articles/2025-07-03/meta-hires-researcher-gross-to-join-new-ai-superintelligence-lab"
+    ],
+    [
+     "SiliconANGLE(2025/7/3)",
+     "https://siliconangle.com/2025/07/03/safe-superintelligence-ceo-daniel-gross-joins-metas-new-ai-lab/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Nat Friedman",
+   "name_ja": "ナット・フリードマン",
+   "from": "NFDG(共同創業者・元GitHub CEO)",
+   "to": "Meta",
+   "role": "Meta Superintelligence Labs(AI製品・応用研究を統括)",
+   "date": "2025-07-03",
+   "region": "米国",
+   "backfill": true,
+   "note": "ザッカーバーグ氏のメモに基づく報道。アレクサンドル・ワンと共同で部門を率いる。 過去の動画・番組(20VC・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "SiliconANGLE(2025/7/3)",
+     "https://siliconangle.com/2025/07/03/safe-superintelligence-ceo-daniel-gross-joins-metas-new-ai-lab/"
+    ],
+    [
+     "NBC(ザッカーバーグ氏のメモ)",
+     "https://www.nbcnewyork.com/news/business/money-report/mark-zuckerberg-announces-creation-of-meta-superintelligence-labs-read-the-memo/6320911/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}
