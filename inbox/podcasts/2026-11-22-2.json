@@ -1,0 +1,229 @@
+{
+ "date": "2026-11-22",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着1本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "ff83c188-ab1e-4c47-ae93-167eee349cd1",
+   "show": "The New Playbook 新创手册",
+   "kind": "中華圏起業",
+   "lang": "zh",
+   "title": "21间分店还不够！他竟然想把板面做到世界第一？｜Allan 的接班之路 - Super Kitchen",
+   "published": "2026-11-22",
+   "url": "https://podcasters.spotify.com/pod/show/wisdom-bread/episodes/21Allan----Super-Kitchen-e3snfgu",
+   "description": "很多人开始卖板面了谁不想要做第一，我的第一的定义就是每一个都出到很稳的。你去到哪一间，吃到的都是一样的！好像一碗板面对我来讲，那个鸡蛋很重要，perfect不perfect我觉得就是那鸡蛋。你知道李小龙他不怕他的对手有一万种踢法，李小龙怕的是一种踢法他练了一万次。我们的goal是要做世界第一的辣椒板面品牌。我们的赛道很清晰，focus on自己的那个赛道，不要去跑别人的赛道。there's no perfect moment thatyou'll be ready，either你要或不要而已。-------------------------------------------------------------------------本期嘉宾：Allan Khoo | Managing Director, Super Kitchen Chilli Pan Mee第二代传承人 · Legacy Keeper公司简介:丰芳辣椒板面（Super Kitchen Chilli Pan Mee）创立于2004年，是一个源自家庭、专注于辣椒板面的马来西亚餐饮品牌。我们坚持做好产品、用心服务，也希望把最有灵魂的大马辣椒板面带给更多人。标题：21间分店还不够！他竟然想把板面做到世界第一？｜Allan 的接班之路 - Super Kitchenhttps://youtu.be/doXj-4HT6q4------------------------------------------------------------------------Chapter:00:00:00 Introduction00:00:59 Super Kitchen丰芳辣椒板面的介绍00:02:05 Super Kitchen创立的年份与分店数量00:02:45 为什么会开这么多间分店？00:05:37 为什么Su"
+  }
+ ]
+}
