@@ -38981,26 +38981,35 @@ function showHome(){
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
   /* 2026/11/22: 上のメニューの選択欄(#topsel)と同じグループ分け・同じ並びで出す。jp・ipoは選択欄にないので近いグループに置く */
-  const HOMEGROUPS=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
+  const HOMEGROUPS0=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
   const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
   /* 2026/11/22: グループ見出しを押すと、そのグループだけ開閉する。閉じたグループは覚えておく(ブラウザに保存。使えなければ今の画面の間だけ) */
-  const HOMECLOSED=new Set((()=>{try{return JSON.parse(localStorage.getItem('homeClosed')||'[]')}catch(e){return[]}})());
+  /* グループの開閉(2026/11/22): 閉じたグループと、よく開く入口の回数はブラウザに覚える。スマホ幅で初めて開いたときは「見る・調べる」だけ開く */
+  const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}},lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+  let HOMEUSE={};try{HOMEUSE=JSON.parse(lsGet('homeUse')||'{}')||{}}catch(e){}
+  const okKeys=new Set(HOMEGROUPS0.flatMap(g=>g[1]));
+  const favKeys=Object.entries(HOMEUSE).filter(([k,n])=>okKeys.has(k)&&n>0).sort((a,b)=>b[1]-a[1]).slice(0,4).map(x=>x[0]);
+  const HOMEGROUPS=favKeys.length?[['よく見る',favKeys],...HOMEGROUPS0]:HOMEGROUPS0;
+  let closedArr=null;try{closedArr=JSON.parse(lsGet('homeClosed')||'null')}catch(e){}
+  if(!Array.isArray(closedArr))closedArr=innerWidth<=600?HOMEGROUPS.map(g=>g[0]).filter(n=>n!==HOMEGROUPS[0][0]):[];
+  const HOMECLOSED=new Set(closedArr);
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
+   <div style="display:flex;gap:8px;margin:0 0 4px"><button type="button" id="hgall" data-o="1" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて開く</button><button type="button" id="hgnone" data-o="0" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて閉じる</button></div>
    ${HOMEGROUPS.map((g,gi)=>`<h3 style="margin:22px 0 8px;font-size:15px"><button type="button" class="hgtoggle" data-g="${gi}" aria-expanded="${!HOMECLOSED.has(g[0])}" style="font:inherit;font-weight:700;background:none;border:0;padding:4px 0;color:var(--fg);cursor:pointer;display:flex;align-items:center;gap:6px"><span class="hgarrow" aria-hidden="true" style="display:inline-block;width:1em;transition:transform .15s;transform:rotate(${HOMECLOSED.has(g[0])?0:90}deg)">▸</span>${g[0]}<small style="color:var(--muted);font-weight:400">(${g[1].length})</small></button></h3><div class="hggrid" data-g="${gi}"${HOMECLOSED.has(g[0])?' hidden':''} style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
   const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),outfit:()=>showOutfit(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),fun:()=>showFun(),agents:()=>openAgents(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
-  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
-  FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>b.addEventListener('click',()=>{
-    const gi=+b.dataset.g,name=HOMEGROUPS[gi][0],grid=FEEDEL.querySelector(`.hggrid[data-g="${gi}"]`);
-    const open=b.getAttribute('aria-expanded')!=='true';
+  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{HOMEUSE[b.dataset.h]=(HOMEUSE[b.dataset.h]||0)+1;lsSet('homeUse',JSON.stringify(HOMEUSE));ctrail=[];go[b.dataset.h]()}));
+  const setGrp=(b,open)=>{const gi=+b.dataset.g,name=HOMEGROUPS[gi][0],grid=FEEDEL.querySelector(`.hggrid[data-g="${gi}"]`);
     b.setAttribute('aria-expanded',String(open));grid.hidden=!open;b.querySelector('.hgarrow').style.transform=`rotate(${open?90:0}deg)`;
-    if(open)HOMECLOSED.delete(name);else HOMECLOSED.add(name);
-    try{localStorage.setItem('homeClosed',JSON.stringify([...HOMECLOSED]))}catch(e){}
-  }));
+    if(open)HOMECLOSED.delete(name);else HOMECLOSED.add(name)};
+  FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>b.addEventListener('click',()=>{
+    setGrp(b,b.getAttribute('aria-expanded')!=='true');lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
+  FEEDEL.querySelectorAll('#hgall,#hgnone').forEach(x=>x.addEventListener('click',()=>{
+    FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>setGrp(b,x.dataset.o==='1'));lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
 }
