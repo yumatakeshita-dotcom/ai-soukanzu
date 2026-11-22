@@ -35804,7 +35804,7 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-22';
+const LAST_CHECK='2026-11-23';
 const UPDATES=[
  {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
@@ -36465,11 +36465,13 @@ const VERIFY_PPL=[
  ['ルーク・メッツ','Meta','v_metz','本人のXのプロフィールで確認','2026/11/20'],
  /*XV_PPL_START*/ // scripts/moves_x_apply.py --apply が、本人のXで確かめた人の動きをここに足す(足すだけ)
  ['バレット・ゾフ','Google DeepMind','v_zoph','本人のXのプロフィールで確認','2026/11/21'],
+  ['アレクサンダー・マドリー','OpenAI','v_madry','本人のXの投稿で確認','2026/11/22'],
  /*XV_PPL_END*/
 ];
 // 本人のXで確かめた人の動きの出典(scripts/moves_x_apply.py が足す。2026/11/20)
 Object.assign(DS,{
- /*XV_DS_START*/ v_zoph:['バレット・ゾフ本人のXプロフィール(2026/11/21確認。自己紹介が「VP Research GoogleDeepmind」、過去にOpenAI・Thinking Machines Lab)','https://x.com/barret_zoph','s'], /*XV_DS_END*/
+ /*XV_DS_START*/ v_zoph:['バレット・ゾフ本人のXプロフィール(2026/11/21確認。自己紹介が「VP Research GoogleDeepmind」、過去にOpenAI・Thinking Machines Lab)','https://x.com/barret_zoph','s'],  v_madry:['アレクサンダー・マドリー本人のX(2026/10/19、OpenAIに関する投稿。2026/11/22にXで確認)','https://x.com/aleks_madry/status/2112231448103239998','s'],
+ /*XV_DS_END*/
 });
 /* 出資の線に、data/investsrc.js の出典を足す(2026/11/21。足すだけ・既存の出典は消さない)。名前が合う出資の線だけ */
 function applyInvSrc(c,d){
@@ -38946,7 +38948,7 @@ qEl.addEventListener('keydown',ev=>{
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
 /* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面(2026/11/22: 入口は上のメニューと同じ5グループ) ===== */
-const BUILT='2026-11-22 09:15';
+const BUILT='2026-11-22 10:11';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;

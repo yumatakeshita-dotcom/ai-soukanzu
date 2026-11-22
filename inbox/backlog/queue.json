@@ -332,10 +332,10 @@
    ],
    "desc": "Databricks co-founder and CEO Ali Ghodsi joins a16z General Partners Martin Casado and Sarah Wang for a conversation about AI risk, recursive self-improvement, cybersecurity, and what’s actually holding back enterprise adoption. Ali argues that today’s models are already capable enough to automate far more work than most companies are using them for. The bigger problem is context: models haven’t b",
    "id": "07fd9a0943",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-09-18",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Databricks CEO on AI Pacing, Cyber Risk, and the Enterprise",
    "url": "https://a16z.simplecast.com/episodes/databricks-ceo-on-ai-pacing-cyber-risk-and-the-enterprise-QM1oJt1I",
    "words": [
@@ -404,10 +404,10 @@
    ],
    "desc": "AGENDA: 04:47 Cursor Raises $2.3BN at $29BN Valuation 11:36 What Gemini 3 Means for Lovable, Cursor and Replit 30:54 Peter Thiel and Softbank Sell NVIDIA: The Bubble Bursting? 48:54 Oracle Credit Default Swaps: The Risk is Increasing 01:07:22 Stripe Does Tender at All-Time High: Why the Best Companies Will Never IPO 01:19:18 Why Retail WIll Cause a Surge of Capital into VC Funds",
    "id": "088dbdb15d",
-   "note": "",
+   "note": "Cursorはすでにある",
    "published": "2025-11-20",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Cursor Raises $2.3BN: Who Wins the Coding War | Peter Thiel and Softbank Sell NVIDIA: Analysed | Why Venture Capital Will Hit $1TRN and the Opening of Retail | Why Stripe and the Best Companies Will Never Go Public",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-cursor-raises-23bn-who-wins-the-coding-war-peter-thiel-and-softbank-sell-nvidia-analysed-why-venture-capital-will-hit-1trn-and-the-opening-of-retail-why-stripe-and-the-best-companies-will-never-go-public",
    "words": [
@@ -440,10 +440,10 @@
    ],
    "desc": "When four MIT grads decided to build a code editor while everyone else was building AI agents, they created the fastest-growing developer tool ever built. Cursor CEO Michael Truell joins a16z’s Martin Casado to discuss the deliberate constraints that led to breakthroughs: why they rejected the \"democratization\" narrative to focus on power users, how their 2-day work trials test for agency over cre",
    "id": "08dffe1d34",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-11-10",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Michael Truell: How Cursor Builds at the Speed of AI",
    "url": "https://a16z.simplecast.com/episodes/michael-truell-how-cursor-builds-at-the-speed-of-ai-Vxy6kxbi",
    "words": [
@@ -485,25 +485,6 @@
    "words": [
     "join",
     "joins"
-   ]
-  },
-  "0a124d3544": {
-   "companies": [
-    "Anthropic"
-   ],
-   "desc": "",
-   "id": "0a124d3544",
-   "newnames": [
-    "Freezer"
-   ],
-   "note": "",
-   "published": "2026-11-08",
-   "source": "TBPN",
-   "status": "todo",
-   "title": "Anthropic Q3 Revenue, Europe’s Freezer Hack Scare, Northwood Raises $375M | Diet TBPN",
-   "url": "https://www.youtube.com/watch?v=Xo4bnJzMblU",
-   "words": [
-    "raises"
    ]
   },
   "0a162138f6": {
@@ -1145,10 +1126,10 @@
    ],
    "desc": "Canva cofounder and COO Cliff Obrecht joins Stripe president John Collison for a fireside chat at Stripe Tour Sydney.",
    "id": "1840607523",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-08-25",
    "source": "Stripe",
-   "status": "checked",
+   "status": "todo",
    "title": "Canva cofounder and COO Cliff Obrecht in conversation with John Collison",
    "url": "https://www.youtube.com/watch?v=4GmHpHyoKmo",
    "words": [
@@ -1811,8 +1792,7 @@
    "title": "Itamar Novick: Where AI Replaces People, and Where It Does Not - E727",
    "url": "https://pod.co/bravedynamics/itamar-novick-where-ai-replaces-people-and-where-it-does-not-e727",
    "words": [
-    "acquired",
-    "joined jeremy au to talk about what still counts as"
+    "acquired"
    ]
   },
   "25c526028a": {
@@ -2136,10 +2116,10 @@
    ],
    "desc": "Dmitri Dolgov, co-CEO of Waymo, joins Sequoia partner Konstantine Buhler at AI Ascent 2026 to talk about the 20-year arc from the DARPA Grand Challenge to fully autonomous service in eleven cities and counting. He explains how Waymo persisted through every AV hype cycle by treating safety as the non-negotiable foundation, why exponential scaling is finally here (10 of Waymo's 20 million autonomous",
    "id": "2a6e2acbed",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-05-04",
    "source": "Training Data (Sequoia)",
-   "status": "checked",
+   "status": "todo",
    "title": "Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy",
    "url": "",
    "words": [
@@ -2273,10 +2253,10 @@
    ],
    "desc": "If you can’t robustly protect your secrets, you can’t have reliable AI agents. In this episode, Truffle Security cofounder and CEO Dylan Ayrey joins a16z partner Joel de la Garza to discuss the emergent security stack for AI agents, why leaks are actually getting worse, and how Truffle evolved from an open-source side project to a major VC-backed startup. Follow Dylan here: https://x.com/InsecureN",
    "id": "2dc4a904df",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-11-11",
    "source": "AI + a16z",
-   "status": "checked",
+   "status": "todo",
    "title": "TruffleHog Creator: You Can’t Have AI Agents Without Secrets",
    "url": "https://ai-a16z.simplecast.com/episodes/trufflehog-creator-you-cant-have-ai-agents-without-secrets-t7dDFmLO",
    "words": [
@@ -2340,10 +2320,10 @@
    ],
    "desc": "Most companies still rely on dashboards to understand their data, even though AI now offers new ways to ask questions and explore information. Barry McCardel, CEO of Hex and former engineer at Palantir, joins a16z General Partner Sarah Wang to discuss how agent workflows, conversational interfaces, and context-aware models are reshaping analysis. Barry also explains how Hex aims to make everyone a",
    "id": "2e8e66c2fc",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-12-05",
    "source": "AI + a16z",
-   "status": "checked",
+   "status": "todo",
    "title": "The Death of Data Gatekeeping: AI Makes Everyone An Analyst | Hex Cofounder",
    "url": "https://ai-a16z.simplecast.com/episodes/the-death-of-data-gatekeeping-ai-makes-everyone-an-analyst-hex-cofounder-N4Bdzn4C",
    "words": [
@@ -2724,10 +2704,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in under 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya N",
    "id": "35820bec2c",
-   "note": "",
+   "note": "xAI 00億を入れた",
    "published": "2026-01-07",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "xAI Raises $20B, Anthropic’s $350B Valuation, OpenAI Launches ChatGPT Health | Diet TBPN",
    "url": "https://share.transistor.fm/s/1d47c8fa",
    "words": [
@@ -2818,26 +2798,6 @@
    "url": "",
    "words": [
     "joins"
-   ]
-  },
-  "371ad988a1": {
-   "companies": [
-    "AMD",
-    "Meta"
-   ],
-   "desc": "",
-   "id": "371ad988a1",
-   "newnames": [],
-   "note": "",
-   "published": "2026-10-23",
-   "source": "20VC with Harry Stebbings",
-   "status": "todo",
-   "title": "AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B",
-   "url": "https://www.youtube.com/watch?v=UNH5YtuK5UE",
-   "words": [
-    "buys",
-    "poaches",
-    "raises"
    ]
   },
   "37b39e04cf": {
@@ -3037,7 +2997,6 @@
    ],
    "desc": "本エピソードでは、コード開発から宇宙インフラまで広がる最新テクノロジーの大型資金調達動向を特集します。元アンソロピック研究者が立ち上げ、AIエージェントがコードの99％超を作成する体制で10億ドルを調達したミレンディルや、企業のセキュリティ運用を自律化する防御型AIのCormaなど、AI自身が開発や防御を担う最前線を解説。さらに、宇宙空間で分散コンピューティング網の構築を目指す独NeuralSatや、ロボットによる宇宙建築を進めるSpace Quarters、年産1万台のヒューマノイド量産を目指し約800億円を調達したAgile Robotsなど、宇宙や物理世界へ越境する先端テックの現在地を紐解きます。ソフトウェアの自律化から軌道上インフラまで、直近の資金調達が切り拓く産業構造の変革をお届けします。",
    "id": "3bfb7307fb",
-   "newnames": [],
    "note": "",
    "published": "2026-11-18",
    "source": "10分でわかるスタートアップ・資金調達ニュース",
@@ -3055,10 +3014,10 @@
    ],
    "desc": "Greg Brockman, co-founder and president of OpenAI, joins Sequoia partner Alfred Lin at AI Ascent 2026 for a conversation that spans the full OpenAI stack. He explains why the company will never have enough compute, why he believes we're 80% of the way to AGI, and why the agentic coding tools that wrote 20% of your code last December are now writing 80% of it. Also: why human attention is becoming ",
    "id": "3c0a60f134",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-05-01",
    "source": "Training Data (Sequoia)",
-   "status": "checked",
+   "status": "todo",
    "title": "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck",
    "url": "",
    "words": [
@@ -3072,10 +3031,10 @@
    ],
    "desc": "Amjad Masad, founder and CEO of Replit, joins a16z’s Marc Andreessen and Erik Torenberg to discuss the new world of AI agents, the future of programming, and how software itself is beginning to build software. They trace the history of computing to the rise of AI agents that can now plan, reason, and code for hours without breaking, and explore how Replit is making it possible for anyone to create",
    "id": "3c5d289d27",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-10-23",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Marc Andreessen and Amjad Masad: English As the New Programming Language",
    "url": "https://a16z.simplecast.com/episodes/marc-andreessen-and-amjad-masad-english-as-the-new-programming-language-wgFI3xCk",
    "words": [
@@ -3124,10 +3083,10 @@
    ],
    "desc": "Mark Cuban thinks AI could transform healthcare, but it won’t fix opaque prices and broken incentives on its own. His starting point for employers: run every benefits contract through AI and ask where you’re getting ripped off. Mark joins a16z General Partner Julie Yoo and Erik Torenberg to discuss what he’s learned building Cost Plus Drugs, why trust is its core product, and how greater transpare",
    "id": "3cced0dafa",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-10-28",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Mark Cuban on Why AI Could Turn Solo Founders Into Trillionaires",
    "url": "https://a16z.simplecast.com/episodes/mark-cubans-plan-to-make-healthcare-affordable-mwTxnVYe",
    "words": [
@@ -3351,10 +3310,10 @@
    ],
    "desc": "Agenda: [00:00] The AI Talent Crisis No One's Ready For [03:00] Daniel Gross and Nat Friedman: Why Two Legendary VCs Walked Away From $1B to Join Meta [12:00] Meta's AI Talent Magnet: Will It Actually Work? [15:00] Cursor Is Breaking the Market: Can Anyone Compete? [18:30] OpenAI's SBC Bombshell: More Stock Comp Than Revenue [22:00] CoreWeave's Power Play: Buying Their Landlords [26:00] Is Circle ",
    "id": "423df8831c",
-   "note": "",
+   "note": "Gross/Friedman→Meta、Disney等は別件",
    "published": "2025-07-10",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Daniel Gross and Nat Friedman: Acquired by Meta | OpenAI's SBC Bombshell: More Stock Comp Than Revenue | Privat Equity is Back: Olo Bought for $2BN | Microsoft Lays Off 9,000 People: Is This Just the Start | Will Sequoia Part with Shaun Maguire",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-daniel-gross-and-nat-friedman-acquired-by-meta-openais-sbc-bombshell-more-stock-comp-than-revenue-privat-equity-is-back-olo-bought-for-2bn-microsoft-lays-off-9000-people-is-this-just-the-start-will-sequoia-part-with-shaun-maguire",
    "words": [
@@ -3369,10 +3328,10 @@
    ],
    "desc": "AI isn’t just helping defenders find vulnerabilities. It’s giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls “Black October,” a wave of vulnerabilities and agentic attacks that he believes marks a turning point for cybersecurity. They brea",
    "id": "4254cabb2b",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-13",
    "source": "a16z",
-   "status": "checked",
+   "status": "todo",
    "title": "Cyberattacks Used to Take Months. AI Can Do It in Minutes.",
    "url": "https://www.youtube.com/watch?v=PbD9pVXxsYM",
    "words": [
@@ -3590,24 +3549,6 @@
     "series a"
    ]
   },
-  "467c8ede6f": {
-   "companies": [
-    "Jensen",
-    "NVIDIA"
-   ],
-   "desc": "",
-   "id": "467c8ede6f",
-   "newnames": [],
-   "note": "",
-   "published": "2026-11-14",
-   "source": "TBPN",
-   "status": "todo",
-   "title": "Jensen Huang Resigns as NVIDIA CEO | Diet TBPN",
-   "url": "https://www.youtube.com/watch?v=Pc-pxu5-fqw",
-   "words": [
-    "resigns"
-   ]
-  },
   "46be404c3c": {
    "companies": [
     "Anthropic",
@@ -3785,10 +3726,10 @@
    ],
    "desc": "Health advice has become an endless stream of supplements, diets, wearables, and biohacks. Which interventions are actually worth your time? Truemed CEO Justin Mares argues that most people should ignore the extremes and focus on a few fundamentals: better food, movement, sleep, and reducing harmful exposures. Justin joins a16z General Partner Daisy Wolf to walk through his own approach to health,",
    "id": "49ef9e65fb",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-08",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "The Health Interventions Actually Worth Your Time | Justin Mares",
    "url": "https://a16z.simplecast.com/episodes/the-health-interventions-actually-worth-your-time-justin-mares-7c97fzV_",
    "words": [
@@ -3916,10 +3857,10 @@
    ],
    "desc": "AGENDA: 04:27 Navan's IPO: Winners, Losers and 20% Crater 12:55 Harvey Raises $150M at an $8BN Valuation 35:36 Was Sam Altman Wrong to Snap at Brad Gerstner 41:25 Why GOOG is a Buy and Amazon is a Short 47:43 Meta Down 10%, Buy or Sell? 51:12 If You Have Not Accelerated with AI, You Are Dead 01:05:20 Why Now is the Best Time for Series A and Worst for Seed",
    "id": "4cb43268bf",
-   "note": "",
+   "note": "Harvey等はすでにある・動きでない",
    "published": "2025-11-06",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Navan IPO: Winners, Losers and is a $4.5BN Exit Enough in VC Today | Harvey Raises $150M at $8BN Price | Why Google is a Buy and Amazon is a Sell | Meta Down 10%, Is Zuck Struggling?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-navan-ipo-winners-losers-and-is-a-45bn-exit-enough-in-vc-today-harvey-raises-150m-at-8bn-price-why-google-is-a-buy-and-amazon-is-a-sell-meta-down-10-is-zuck-struggling",
    "words": [
@@ -4055,10 +3996,10 @@
    ],
    "desc": "Sea founder and CEO Forrest Li joins Stripe Chief Revenue Officer Tyler Bryson for a fireside chat at Stripe Tour Singapore.",
    "id": "4f21b17fda",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-09-03",
    "source": "Stripe",
-   "status": "checked",
+   "status": "todo",
    "title": "Sea founder and CEO Forrest Li in conversation with Tyler Bryson",
    "url": "https://www.youtube.com/watch?v=CEYGln3s9MM",
    "words": [
@@ -4416,10 +4357,10 @@
    ],
    "desc": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 OpenRouter's Moment: Is This the Perfect Time to Sell? 00:31 Fireworks' $1.5B Raise Signals the Real AI Money Is in Infrastructure 00:39 Why Every Great AI App May Need to Build Its Own Model 00:50 Stri",
    "id": "550169d5cb",
-   "note": "",
+   "note": "Stripe/PayPal買収など報道1件も確認できていない",
    "published": "2026-07-23",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
    "words": [
@@ -4469,10 +4410,10 @@
    ],
    "desc": "Cleo founder and CEO Barney Hussey-Yeo joins Stripe CEO John Collison for a fireside chat at Tour London. Register for Stripe Tour 2026: https://stripetour.com",
    "id": "55516871a5",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-06-10",
    "source": "Stripe",
-   "status": "checked",
+   "status": "todo",
    "title": "Barney Hussey-Yeo in conversation with John Collison",
    "url": "https://www.youtube.com/watch?v=70kWqOOWlAA",
    "words": [
@@ -4664,23 +4605,6 @@
     "joins"
    ]
   },
-  "5873e72a42": {
-   "companies": [
-    "Anthropic"
-   ],
-   "desc": "",
-   "id": "5873e72a42",
-   "newnames": [],
-   "note": "自動で除外(複数の話題のまとめ回で、題名の名前はすべて相関図にすでにある(新しい名前なし)。2026/11/22の絞り込み)",
-   "published": "2026-10-23",
-   "source": "20VC with Harry Stebbings",
-   "status": "checked",
-   "title": "Cognition vs Factory | Anthropic Under Threat | ElevenLabs Doubles Its Valuation to $22B",
-   "url": "https://www.youtube.com/watch?v=NAwiGfk_sCY",
-   "words": [
-    "valuation"
-   ]
-  },
   "5903de06f0": {
    "companies": [
     "OpenAI",
@@ -4779,10 +4703,10 @@
    ],
    "desc": "Alan cofounder and CTO joins Stripe French country lead Laurent Curny for a fireside chat at Tour Paris. Register for Stripe Tour 2026: https://stripetour.com",
    "id": "5a8576ee39",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-06-16",
    "source": "Stripe",
-   "status": "checked",
+   "status": "todo",
    "title": "A conversation with Alan cofounder and CTO Charles Gorintin",
    "url": "https://www.youtube.com/watch?v=WkktooN6s-w",
    "words": [
@@ -5046,24 +4970,6 @@
    "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
    "words": [
     "left"
-   ]
-  },
-  "5fb964fc08": {
-   "companies": [
-    "Jensen",
-    "NVIDIA"
-   ],
-   "desc": "",
-   "id": "5fb964fc08",
-   "newnames": [],
-   "note": "",
-   "published": "2026-11-14",
-   "source": "TBPN",
-   "status": "todo",
-   "title": "Jensen Huang Has Resigned as NVIDIA CEO",
-   "url": "https://www.youtube.com/watch?v=OGIEuhh2OG0",
-   "words": [
-    "resigned"
    ]
   },
   "6013991c70": {
@@ -5353,10 +5259,10 @@
    ],
    "desc": "Scott Wu is the co-founder and CEO of Cognition, the company behind Devin, the world's first AI software engineer. On Friday last week they pulled off the acquisition of the year, acquiring Windsurf, following their licensing agreement with Google. Previously a world-class competitive programmer, he was a gold medalist at the International Olympiad in Informatics and a member of the U.S. Math and ",
    "id": "67f27efae0",
-   "note": "",
+   "note": "Windsurf買収はすでにある",
    "published": "2025-07-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Cognition CEO Scott Wu on Acquiring Windsurf: The Process, The Deal, The Rationale | Did Google Overlook a Goldmine in the Core Asset and Did Founders Leave a Sinking Ship | How Cursor and Cognition Deal with Ever Increasing Reliance on Anthropic",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-cognition-ceo-scott-wu-on-acquiring-windsurf-the-process-the-deal-the-rationale-did-google-overlook-a-goldmine-in-the-core-asset-and-did-founders-leave-a-sinking-ship-how-cursor-and-cognition-deal-with-ever-increasing-reliance-on-anthropic",
    "words": [
@@ -5483,7 +5389,7 @@
    ],
    "desc": "What happens when AI starts generating content for everyone—and no one wants to watch it? In this episode, MSNBC’s Chris Hayes and ad tech veteran Antonio García Martínez join a16z General Partner, Erik Torenberg to unpack the shifting economics of attention: from the rise of “AI slop” and spammy feeds to the difference between what we want to pay attention to and what platforms push on us. They e",
    "id": "6a5b9f9480",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "自動で除外(普通の動詞(buy・leave・left・join)が説明文にあるだけで、題名に移籍・出資の言葉なし。2026/11/22の絞り込み)",
    "published": "2025-07-30",
    "source": "The a16z Show",
    "status": "checked",
@@ -5561,24 +5467,6 @@
     "acquired"
    ]
   },
-  "6c017e7e29": {
-   "companies": [
-    "Google"
-   ],
-   "desc": "",
-   "id": "6c017e7e29",
-   "newnames": [],
-   "note": "自動で除外(複数の話題のまとめ回で、題名の名前はすべて相関図にすでにある(新しい名前なし)。2026/11/22の絞り込み)",
-   "published": "2026-11-08",
-   "source": "20VC with Harry Stebbings",
-   "status": "checked",
-   "title": "Google Loses $500B in 12 Hours | DoorDash Buys Instacart for $17B | Kalshi Raises $1B",
-   "url": "https://www.youtube.com/watch?v=4nKt18AZDsQ",
-   "words": [
-    "buys",
-    "raises"
-   ]
-  },
   "6c0c5a30f9": {
    "companies": [
     "a16z"
@@ -5601,10 +5489,10 @@
    ],
    "desc": "Models, Modalities, and Memes: Creating Compelling AI Characters In this episode of AI + a16z , Hedra founder and CEO Michael Lingelbach joins a16z partners Justine Moore and Matt Bornstein to talk about building AI-native video — and why the next wave of generative content is all about characters, not just clips. They discuss how Hedra’s expressive, full-body, dialogue-centric video models are po",
    "id": "6c4e740f10",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-08-14",
    "source": "AI + a16z",
-   "status": "checked",
+   "status": "todo",
    "title": "Models, Modalities, and Memes: Creating Compelling AI Characters",
    "url": "https://ai-a16z.simplecast.com/episodes/models-modalities-and-memes-creating-compelling-ai-characters-_sIjegvt",
    "words": [
@@ -5653,10 +5541,10 @@
    ],
    "desc": "Why hasn't AI transformed everyday work as quickly as coding? Town CEO Jean-Denis Greze argues the bottleneck isn't intelligence, but making AI useful to people who don't have the time or technical skills to build their own automations. Jean-Denis joins a16z General Partner Alex Rampell to share why he pivoted Town from tax software to a personal AI assistant built around email, calendars, and the",
    "id": "6d86eec651",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-10-19",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "What Happens When Al Agents Can Spend Your Money?",
    "url": "https://a16z.simplecast.com/episodes/what-happens-when-al-agents-can-spend-your-money-PREiwaJH",
    "words": [
@@ -5687,10 +5575,10 @@
    ],
    "desc": "Bridgit Mendler, Co-founder and CEO of Northwood, joins a16z’s Erik Torenberg to discuss the critical but overlooked bottleneck in space: ground infrastructure. Northwood is building the systems that connect satellites back to Earth, enabling faster, more scalable space missions. They cover Bridgit’s unconventional path to founding a space company, why vertical integration matters in hard tech, an",
    "id": "6dcb3c6e42",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-03-23",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Why Every Satellite Needs Earth | Northwood CEO on a16z",
    "url": "https://a16z.simplecast.com/episodes/why-every-satellite-needs-earth-northwood-ceo-on-a16z-sPoRUFws",
    "words": [
@@ -5740,10 +5628,10 @@
    ],
    "desc": "What actually matters if you want to stay healthy as you age? Dr. Mark Hyman argues it isn’t the most extreme longevity intervention. It’s the small investments you make every day in strength, nutrition, sleep, and stress. Mark joins a16z Partner Daisy Wolf to walk through what he actually does, from meditation and strength training to protein, supplements, sleep, sauna, cold plunges, and the occa",
    "id": "6e51207009",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-07",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Mark Hyman’s Guide to Living Longer and Staying Strong",
    "url": "https://a16z.simplecast.com/episodes/mark-hymans-guide-to-living-longer-and-staying-strong-csBJXQYG",
    "words": [
@@ -6209,10 +6097,10 @@
    ],
    "desc": "If you could do only three things for your health, what should they be? Andrew Huberman’s answer is surprisingly straightforward: get bright light shortly after waking, resistance train, and make the sleep you can get as high-quality as possible. Andrew joins a16z Partner Daisy Wolf to walk through the protocols he actually follows, from exercise and nutrition to meditation, supplements, and locki",
    "id": "76167d5bcc",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-03",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Andrew Huberman’s Three Rules for Better Health and Focus",
    "url": "https://a16z.simplecast.com/episodes/andrew-hubermans-three-rules-for-better-health-and-focus-3LRT9Uzz",
    "words": [
@@ -6943,10 +6831,10 @@
    ],
    "desc": "AGENDA: 00:00 Opendoor's Potential and Market Valuation 03:32 Why Did Kaz Leave $300M on the Table to Join Opendoor 04:44 Why Does Kaz Believe OPEN Can Be a Good Business When the Market Doesn't 06:34 How does Kaz Feel About OPEN Becoming a Meme Stock? 17:25 Kaz's $0 Salary but $1BN Stock Based Compensation 23:41 Oracle and OpenAI Partnership: WTF is Going On? 42:21 Microsoft's Investment in OpenA",
    "id": "87f3f5088b",
-   "note": "",
+   "note": "Replit調達額の検索確認をしていない・動きが特定できず",
    "published": "2025-09-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Opendoor's CEO on The Greatest Turnaround in Tech | OpenAI and Oracle: How Can Either Afford to Do This | How Anthropic Could Lose 50% of Their Revenue Overnight | Replit Raises at $3BN | Figure, Gemini & VIA IPOs Broken Down",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-opendoors-ceo-on-the-greatest-turnaround-in-tech-openai-and-oracle-how-can-either-afford-to-do-this-how-anthropic-could-lose-50-of-their-revenue-overnight-replit-raises-at-3bn-figure-gemini-via-ipos-broken-down",
    "words": [
@@ -7467,10 +7355,10 @@
    ],
    "desc": "When four MIT grads decided to build a code editor while everyone else was building AI agents, they created the fastest-growing developer tool ever built. Cursor CEO Michael Truell joins a16z’s Martin Casado to discuss the deliberate constraints that led to breakthroughs: why they rejected the \"democratization\" narrative to focus on power users, how their 2-day work trials test for agency over cre",
    "id": "8f444dfa13",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-01-13",
    "source": "AI + a16z",
-   "status": "checked",
+   "status": "todo",
    "title": "Michael Truell: How Cursor Builds at the Speed of AI",
    "url": "https://ai-a16z.simplecast.com/episodes/michael-truell-how-cursor-builds-at-the-speed-of-ai-8Zb4fXEF",
    "words": [
@@ -7914,10 +7802,10 @@
    ],
    "desc": "Stainless founder Alex Rattray joins a16z partner Jennifer Li to talk about the future of APIs, SDKs, and the rise of MCP (Model Context Protocol). Drawing on his experience at Stripe—where he helped redesign API docs and built code-generation systems—Alex explains why the SDK is the API for most developers, and why high-quality, idiomatic libraries are essential not just for humans, but now for A",
    "id": "966980a603",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-09-06",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Building APIs for Developers and AI Agents",
    "url": "https://a16z.simplecast.com/episodes/building-apis-for-developers-and-ai-agents-c3KgOhfE",
    "words": [
@@ -8150,10 +8038,10 @@
    ],
    "desc": "Zach Abrams, the CEO and cofounder of Bridge, the leading stablecoin orchestration platform, and Henri Stern, CEO and cofounder of Privy, the leading crypto wallet infrastructure, sit down with John to discuss the future of stablecoins, issuing, and what it will take for crypto to become ubiquitous. Both companies recently joined Stripe, and are uniquely positioned to dissect how crypto is changin",
    "id": "9eacdf85d2",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-11-04",
    "source": "Cheeky Pint",
-   "status": "checked",
+   "status": "todo",
    "title": "Stablecoin special: Zach Abrams (Bridge) and Henri Stern (Privy)",
    "url": "https://share.transistor.fm/s/0c751d48",
    "words": [
@@ -8472,10 +8360,10 @@
    ],
    "desc": "AGENDA: 03:32 Lightspeed's $9 Billion Fundraise 05:20 The Impact of Mega Funds on Seed VCs 10:09 The Supercycle of Growth and Late-Stage Investments 13:06 Disney Invests $1BN into OpenAI and What It Means 23:19 Oracle Hit Hard: Is Now the Time to Buy 28:34 Broadcom's Market Cap Drop and Anthropic's AI Chip Orders 35:04 Cursor Competes with Figma: The Convergence of Design and Coding Tools 46:20 Th",
    "id": "a26d73be54",
-   "note": "自動で除外(複数の話題のまとめ回で、題名の名前はすべて相関図にすでにある(新しい名前なし)。2026/11/22の絞り込み)",
+   "note": "Disney→OpenAI 0億を入れた",
    "published": "2025-12-18",
    "source": "20VC",
-   "status": "checked",
+   "status": "done",
    "title": "20VC: Will SpaceX IPO at $1.5TRN | Will Cursor Kill Figma | Lightspeed Raises $9BN | OpenAI: $1BN from Disney, New CRO & #1 App in App Store | Oracle and Broadcom Hit: Now the Time to Buy?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-will-spacex-ipo-at-15trn-will-cursor-kill-figma-lightspeed-raises-9bn-openai-1bn-from-disney-new-cro-1-app-in-app-store-oracle-and-broadcom-hit-now-the-time-to-buy",
    "words": [
@@ -8632,10 +8520,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) AI Device Wars are here 2) Apple loses its head of user interface design 3) Meta's chances in the AI device wars 4) Apple's Ai device will only be as good as the assistant 5) OpenAI's AI device could work? 6) Amazon's Alexa+ is underrated 7) Google Glass returns? 8) Is the Metaverse dead? 9) Code red at",
    "id": "a502b055b2",
-   "note": "",
+   "note": "動きではない(Netflix/WBDは対象外)",
    "published": "2025-12-08",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "AI Device Wars Heat Up, RIP Metaverse?, Netflix Acquires Warner Brothers",
    "url": "",
    "words": [
@@ -9028,10 +8916,10 @@
    ],
    "desc": "Nathan Labenz is one of the clearest voices analyzing where AI is headed, pairing sharp technical analysis with his years of work on The Cognitive Revolution. In this episode, Nathan joins a16z’s Erik Torenberg to ask a pressing question: is AI progress actually slowing down, or are we just getting used to the breakthroughs? They discuss the debate over GPT-5, the state of reasoning and automation",
    "id": "aaf28cb25c",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2025-10-14",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Is AI Slowing Down? Nathan Labenz Says We're Asking the Wrong Question",
    "url": "https://a16z.simplecast.com/episodes/is-ai-slowing-down-nathan-labenz-says-were-asking-the-wrong-question-fBZj_7FC",
    "words": [
@@ -9614,7 +9502,7 @@
    ],
    "desc": "a16z cofounders Marc Andreessen and Ben Horowitz join a16z general partner Erik Torenberg and Not Boring founder Packy McCormick for a conversation on how the media and information ecosystem has changed over the past decade. The discussion breaks down the shift toward a more open and decentralized speech environment, the rise of writer- and creator-led platforms like Substack, and the erosion of c",
    "id": "b80ba35268",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "自動で除外(普通の動詞(buy・leave・left・join)が説明文にあるだけで、題名に移籍・出資の言葉なし。2026/11/22の絞り込み)",
    "published": "2026-01-15",
    "source": "The a16z Show",
    "status": "checked",
@@ -10567,26 +10455,6 @@
     "joins"
    ]
   },
-  "cafbc05d7a": {
-   "companies": [
-    "NVIDIA"
-   ],
-   "desc": "",
-   "id": "cafbc05d7a",
-   "newnames": [
-    "ReHacQ",
-    "Beginning"
-   ],
-   "note": "",
-   "published": "2026-11-17",
-   "source": "ReHacQ-リハック-",
-   "status": "todo",
-   "title": "[ReHacQ Emergency Livestream] NVIDIA CEO Resigns! Is This the Beginning of the AI Chip Bubble Bur...",
-   "url": "https://www.youtube.com/watch?v=eoO52Hj_uR0",
-   "words": [
-    "resigns"
-   ]
-  },
   "cc2fe5b124": {
    "companies": [
     "Amodei",
@@ -10770,10 +10638,10 @@
    ],
    "desc": "Demis Hassabis, co-founder and CEO of Google DeepMind and 2024 Nobel laureate in chemistry for AlphaFold, joins Sequoia partner Konstantine Buhler at AI Ascent 2026 for a wide-ranging conversation about the path to AGI and what comes after. He explains why he believes AGI is achievable by 2030, why drug discovery could collapse from ten years to days, and why we should think of information, not ma",
    "id": "cddb93210d",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-04-30",
    "source": "Training Data (Sequoia)",
-   "status": "checked",
+   "status": "todo",
    "title": "Demis Hassabis on Building DeepMind, AlphaFold, and the Final Stretch to AGI",
    "url": "",
    "words": [
@@ -10996,10 +10864,10 @@
    ],
    "desc": "(00:09) - Google I/O Reactions (24:14) - Karpathy Joins Anthropic (28:29) - Reactions to Spotify's New Icon (33:49) - Birth Rate Debates (45:18) - Jim Belosic, CEO and founder of SendCutSend, a company specializing in on-demand manufacturing services, discusses the recent achievement of securing a $110 million investment, valuing the company at $1 billion. He shares plans to utilize the funds to e",
    "id": "d10a9c0f84",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-05-19",
    "source": "TBPN",
-   "status": "checked",
+   "status": "todo",
    "title": "Google I/O Reactions, Birth Rate Debates, Spotify's New Icon | Jim Belosic, Aidan Dewar, Fai Nur, Tanay Tandon, Ajeya Cotra, Philip Inghelbrecht",
    "url": "https://share.transistor.fm/s/68702306",
    "words": [
@@ -11897,10 +11765,10 @@
    ],
    "desc": "Amazon expects to spend roughly $220 billion in CapEx in 2026, yet CEO Andy Jassy says the company is still leaving meaningful AI demand on the table.** He believes the buildout could ultimately help make AWS a $1 trillion annual run-rate business. Andy joins a16z co-founder Ben Horowitz and Erik Torenberg to discuss why AI demand is growing so quickly, how Amazon decides how much infrastructure t",
    "id": "e593e4042c",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-10-23",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Amazon CEO Andy Jassy on the $220 Billion AI Buildout",
    "url": "https://a16z.simplecast.com/episodes/amazon-ceo-220-billion-still-cant-meet-ai-demand-3QzhqLQK",
    "words": [
@@ -11949,10 +11817,10 @@
    ],
    "desc": "AI isn’t just helping defenders find vulnerabilities. It’s giving attackers the speed and expertise to exploit them faster than many companies can respond. Wiz co-founder and CTO Ami Luttwak joins a16z General Partners Zane Lackey and Sarah Wang to unpack what he calls “Black October,” a wave of vulnerabilities and agentic attacks that he believes marks a turning point for cybersecurity. They brea",
    "id": "e5b43c81ab",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-13",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Every Day Is Zero Day | Wiz CTO Ami Luttwak",
    "url": "https://a16z.simplecast.com/episodes/every-day-is-zero-day-wiz-cto-ami-luttwak-s6KylyoZ",
    "words": [
@@ -12221,10 +12089,10 @@
    ],
    "desc": "What happens when AI makes legal work cheap enough to take cases lawyers couldn't afford to touch before? Eve CEO Jay Madheswaran argues that AI won't just cut costs for law firms. It could expand access to legal representation by making an entirely new class of cases economically viable. Jay joins a16z General Partner Alex Rampell to explain how Eve is automating plaintiff law from the first clie",
    "id": "ea5f44f386",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-10-30",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "Why AI Could Turn Small Law Firms Into Billion-Dollar Businesses",
    "url": "https://a16z.simplecast.com/episodes/why-ai-could-turn-small-law-firms-into-billion-dollar-businesses-e8YNZDux",
    "words": [
@@ -12292,10 +12160,10 @@
    ],
    "desc": "AGENDA: 00:00 — SpaceX Completes the Largest IPO in History 03:45 — Elon Musk Adds a Warren Buffett Fortune in 24 Hours 20:45 — Anthropic's Claude Fable Launches Monday, Gets Banned by Thursday 25:00 — Washington Declares War on Frontier AI 39:00 — Europe's Sovereign AI Push Accelerates as Mistral Targets $20B 43:30 — Benchmark Admits Its Biggest Miss: Passing on the Model Labs 45:15 — Salesforce ",
    "id": "ee9a44b964",
-   "note": "",
+   "note": "未来日付の主張(Fable禁止等)を独立報道で確かめられていない",
    "published": "2026-06-18",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Wix and Adobe Hit All-Time Lows | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce for $3.6BN",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-spacex-soars-to-27trn-anthropics-fable-banned-by-us-government-wix-and-adobe-hit-all-time-lows-mistral-raising-at-20bn-and-the-case-for-sovereign-models-fin-acquired-by-salesforce-for-36bn",
    "words": [
@@ -12574,10 +12442,10 @@
    ],
    "desc": "What does it take to build robots that can actually work in factories and warehouses? Tutor Intelligence CEO Josh Gruenstein argues robotics is a systems problem spanning AI, hardware, manufacturing, and the work itself. Josh joins a16z General Partners Martin Casado and Raghu Raghuram to explain Tutor’s approach: deploy robots into real businesses, use human “tutors” when needed, and turn that wo",
    "id": "f39652ccfa",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-11-02",
    "source": "The a16z Show",
-   "status": "checked",
+   "status": "todo",
    "title": "The Robots Already Working in American Factories | Tutor Intelligence",
    "url": "https://a16z.simplecast.com/episodes/the-robots-already-working-in-american-factories-tutor-intelligence-331v57N3",
    "words": [
@@ -12710,10 +12578,10 @@
    ],
    "desc": "Boris Cherny, creator of Claude Code at Anthropic, joins Sequoia partner Lauren Reeder at AI Ascent 2026 to talk about where coding goes from here. He explains why he hasn't written a line of code in 2026, why he now ships dozens of PRs a day from his phone, and why he believes coding is effectively solved — at least for the code he writes. Also: why loops are the future, why he thinks Claude Code",
    "id": "f65e723b83",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-05-05",
    "source": "Training Data (Sequoia)",
-   "status": "checked",
+   "status": "todo",
    "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment",
    "url": "",
    "words": [
@@ -12778,7 +12646,7 @@
    ],
    "desc": "Priscilla Chan and Mark Zuckerberg join a16z’s Ben Horowitz, Erik Torenberg, and Vineeta Agarwala to share how the Chan Zuckerberg Initiative is building the computational tools that will accelerate the cure, prevention, and management of all disease by century's end. They explain why basic science needs $100 million-scale projects that traditional NIH grants can't fund, how their Cell Atlas becam",
    "id": "f886a624d6",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "自動で除外(普通の動詞(buy・leave・left・join)が説明文にあるだけで、題名に移籍・出資の言葉なし。2026/11/22の絞り込み)",
    "published": "2025-11-06",
    "source": "The a16z Show",
    "status": "checked",
@@ -12794,10 +12662,10 @@
    ],
    "desc": "Investor and tech analyst Philipp Klöckner joins Stripe EMEA CRO Conor McNamara for a fireside chat at Tour Berlin.",
    "id": "f8fa282dd4",
-   "note": "自動で除外(出演の意味の「joins」だけで、移籍・出資の言葉なし。2026/11/21の絞り込み)",
+   "note": "",
    "published": "2026-06-30",
    "source": "Stripe",
-   "status": "checked",
+   "status": "todo",
    "title": "Tech analyst Philipp Klöckner in conversation with Conor McNamara",
    "url": "https://www.youtube.com/watch?v=5bjkprj4lpU",
    "words": [
