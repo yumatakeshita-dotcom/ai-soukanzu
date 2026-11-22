@@ -17,3 +17,7 @@
 5. 状態を `mark` で記録。入れたら `done`、確認できないものは `unverified` に理由つき(例:報道が1件だけ・日付が合わない・見つからない)。削除はしない
 6. `python3 scripts/media_backlog.py status` で README を更新 → `python3 scripts/merge_inbox.py` → commit して main に push
 7. 報告は「確かめた○件・入れた○件・確かめられなかった○件・残り○件」の1行
+
+## 過去動画の一覧も入れた(2026/11/21)
+- `media_backlog.py sync` が `inbox/youtube/backfill/`(各チャンネル最新100本の題名。`scripts/yt_backfill.py`)も読む。説明文が無く古さだけなので、日付は「3mo ago」などからおおよそ作る(`approx_date`)
+- 各手がかりに `newnames`(題名にある英字の固有名詞のうち、相関図のデータに1回も無いもの)を付け、`next` の並びで少しだけ先にする。ゲスト名なども拾うので、あくまで軽い加点
