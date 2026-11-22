@@ -262,6 +262,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/finds.js"></script>
 <script src="data/common.js"></script>
 <script src="data/flowrank.js"></script>
+<script src="data/backlog.js"></script>
 <script src="data/investsrc.js"></script>
 <script src="data/invest.js"></script>
 <script src="data/outfit_auto.js"></script>
@@ -38989,6 +38990,8 @@ function showHome(){
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
    ${HOMEGROUPS.map(g=>`<h3 style="margin:22px 0 8px;font-size:15px">${g[0]}</h3><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
+   <h3 style="margin:28px 0 8px;font-size:15px">調査のようす</h3>
+   ${typeof backlogBox==='function'?backlogBox():''}
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;

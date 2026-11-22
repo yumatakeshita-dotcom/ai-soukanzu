@@ -159,6 +159,7 @@ def build_html(d):
 <h1>調査エージェント一覧</h1>
 <p class="lead">毎日の調べ物を、分野ごとの「係」に分けて見せるページです。調べる係が {n_r} つ、サイトに足したり見張ったりする運営係が {n_o} つ。時刻は日本時間。更新 {esc(d['updated'])}(元データ <code>docs/agents.json</code>)。</p>
 <div class="box"><b>決まり</b>{li(d['principles'])}</div>
+<div id="bk"></div>
 <div class="bar" id="bar"><button type="button" data-g="all" aria-pressed="true">すべて</button><button type="button" data-g="調べる係" aria-pressed="false">調べる係({n_r})</button><button type="button" data-g="運営係" aria-pressed="false">運営係({n_o})</button></div>
 {''.join(cards)}
 <h2>1日の流れ(日本時間)</h2>
@@ -168,7 +169,8 @@ def build_html(d):
 <p class="lead">{esc(g['note'])}</p>
 <h2>変更案(まだ実施していません)</h2>
 {''.join(props)}
-</div><script>{JS}</script></body></html>
+</div><script src="../data/backlog.js"></script><script>{JS}
+if(typeof backlogBox==='function')document.getElementById('bk').innerHTML=backlogBox();</script></body></html>
 """
 
 
