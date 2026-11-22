@@ -9,7 +9,8 @@ inbox/media/日付.md と 日付.json に足す。これは候補の手がかり
 import argparse, datetime, glob, json, os, re, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KW = re.compile(r"\b(joins?|joined|hires?|hired|poach\w*|leaves?|left|steps? down|resign\w*|appoint\w*|named ceo|"
+# 「○○ joins the show」(出演・参加)は移籍ではないので、joins/joined は「joins ... as/to lead」の形のときだけ数える(2026/11/21。過去の確かめで外れの9割が出演の意味だった)
+KW = re.compile(r"\b(hires?|hired|poach\w*|leaves?|left|steps? down|resign\w*|appoint\w*|named ceo|"
                 r"raises?|raised|funding|valuation|invest\w*|acquir\w*|acquisition|buys?|bought|ipo|deal|partnership|"
                 r"compute|data ?center|series [a-f])\b|移籍|入社|退社|退任|就任|引き抜き|出資|調達|買収|提携|上場", re.I)
 CO = re.compile(r"\b(?:OpenAI|Anthropic|xAI|SpaceX|Nvidia|NVIDIA|Jensen|Meta|Google|DeepMind|Microsoft|Apple|Amazon|AWS|Mistral|"
@@ -21,6 +22,23 @@ CO = re.compile(r"\b(?:OpenAI|Anthropic|xAI|SpaceX|Nvidia|NVIDIA|Jensen|Meta|Goo
                 r"楽天|トヨタ|ソニー|サイバーエージェント|LINEヤフー|ヤフー|メルカリ|オープンAI|アンソロピック|エヌビディア|エヌヴィディア|"
                 r"サカナ|Preferred|PFN|ELYZA|ソフトバンク|孫正義|ファーストライト|XTech|グロービス|ジャフコ|JAFCO)\b|"
                 r"楽天|トヨタ|ソニー|サイバーエージェント|LINEヤフー|メルカリ|オープンAI|アンソロピック|エヌビディア|ソフトバンク|孫正義", re.I)
+_COP = CO.pattern.split("(?:", 1)[1].rsplit(")", 1)[0]
+JOINROLE = re.compile(r"\b(?:joins?|joined)\b[^.\n]{0,60}\b(?:as|to lead|to head|to run|to build)\b", re.I)
+# 会社名が直接続く形は、題名にあるときだけ数える(説明文の「joins a16z パートナー...」は出演の意味が多い)
+JOINCO = re.compile(r"\b(?:joins?|joined)\s+(?:the\s+)?(?:" + _COP + r")\b(?!\s+(?:to discuss|to talk|to break|for|on|in)\b)", re.I)
+
+
+def join_move(title, desc=""):
+    return bool(JOINROLE.search(title + " " + desc) or JOINCO.search(title))
+
+
+class _JM:  # 以前の名前(JOINMOVE.search)との互換
+    @staticmethod
+    def search(text):
+        return JOINROLE.search(text) or JOINCO.search(text.split("  ")[0][:160])
+
+
+JOINMOVE = _JM()
 
 
 def main(days=3):
@@ -34,7 +52,7 @@ def main(days=3):
                 continue
             scanned += 1
             text = v["title"] + " " + v.get("description", "")
-            kws, cos = sorted({m.group(0).lower() for m in KW.finditer(text)}), sorted({m.group(0) for m in CO.finditer(text)})
+            kws, cos = sorted({m.group(0).lower() for m in KW.finditer(text)} | ({"joins(役職)"} if join_move(v["title"], v.get("description", "")) else set())), sorted({m.group(0) for m in CO.finditer(text)})
             if kws and cos:
                 leads.append({"source": v.get("channel") or v.get("show"), "type": "動画" if "channel" in v else "ポッドキャスト",
                               "published": v["published"], "title": v["title"], "url": v.get("url", ""),
