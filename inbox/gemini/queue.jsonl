@@ -3,3 +3,4 @@
 {"id": "20261120-fractile", "ev": "queued", "topic": "Fractile Kindo Model ML AIスタートアップの競合と投資家 2026年", "n": 8, "at": "2026-11-20T19:10:00", "reason": "Gemini API エラー 429: quota(2026-11-20 のチャットの案を調べたとき)"}
 {"id": "20261121-072219", "ev": "queued", "topic": "YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ", "n": 8, "at": "2026-11-21T07:22:19", "reason": "今日の上限18回に達したため翌朝に回す(YouTube過去分の手がかり)"}
 {"id": "20261120-fractile", "ev": "done", "at": "2026-11-21T23:26:33", "note": "inbox/gemini/2026-11-22-3.md"}
+{"id": "20261121-072219", "ev": "done", "at": "2026-11-22T23:26:07", "note": "inbox/gemini/2026-11-23-3.md"}
