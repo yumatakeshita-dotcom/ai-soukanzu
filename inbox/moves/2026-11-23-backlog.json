@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-23",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "name_en": "Peter Steinberger",
+   "name_ja": "ピーター・シュタインベルガー",
+   "from": "OpenClaw(作者)",
+   "to": "OpenAI",
+   "role": "次世代の個人向けエージェントを担当",
+   "date": "2026-02-15",
+   "region": "米国",
+   "backfill": true,
+   "note": "Sam Altmanが2026/2/15にXで発表。OpenClaw自体は独立した財団のオープンソースとして続く(買収ではなく人の採用と報じられている)。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Bloomberg(2026/2/15)",
+     "https://www.bloomberg.com/news/articles/2026-02-15/openai-hires-openclaw-ai-agent-developer-peter-steinberg"
+    ],
+    [
+     "Help Net Security(2026/2/16)",
+     "https://www.helpnetsecurity.com/2026/02/16/openclaw-creator-peter-steinberger-joins-openai/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Nikita Bier",
+   "name_ja": "ニキータ・ビア",
+   "from": "X(プロダクト責任者)",
+   "to": "X(アドバイザー)",
+   "role": "プロダクト責任者を退き、アドバイザーに",
+   "date": "2026-08-05",
+   "region": "米国",
+   "backfill": true,
+   "note": "約13か月在任。本人がXで発表と報じられた(本人の投稿は未確認)。後任は報道で確認できず。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "TNW",
+     "https://thenextweb.com/news/nikita-bier-steps-down-x-head-of-product"
+    ],
+    [
+     "Engadget",
+     "https://engadget.com/2231302/x-head-of-product-nikita-bier-leaving-the-company-one-year-after-joining/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}

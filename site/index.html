@@ -134,6 +134,9 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .searchbox{position:sticky;top:0;z-index:20;background:var(--bg);padding:6px 0}
 #topnav{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+#topnav>button{display:none}
+.navsel{display:flex;align-items:center;gap:8px;width:100%;max-width:420px}.navsel span{font-size:13px;color:var(--muted);white-space:nowrap}
+#topsel{flex:1;min-width:0;font:inherit;font-size:16px;font-weight:700;padding:9px 12px;border:1px solid var(--core);border-radius:10px;background:var(--surface);color:var(--fg);cursor:pointer}
 #topnav button{font:inherit;font-size:14px;font-weight:700;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:99px;padding:7px 14px;cursor:pointer}
 #topnav button[aria-pressed="true"]{background:var(--core);color:#fff;border-color:var(--core)}
 #topnav button:first-child{border-color:var(--core)}
@@ -169,7 +172,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 
 <div class="wrap">
   <div class="searchbox">
-    <nav id="topnav" aria-label="メインメニュー"><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button><button type="button" data-h="fun">おもしろ</button><button type="button" data-h="agents">調査エージェント</button></nav>
+    <nav id="topnav" aria-label="メインメニュー"><label class="navsel"><span>メニュー</span><select id="topsel" aria-label="ページを選ぶ"><optgroup label="見る・調べる"><option value="home">ホーム</option><option value="company">企業の相関図</option><option value="common">共通のつながり</option><option value="invest">出資の一覧</option><option value="rank">ランキング</option></optgroup><optgroup label="企業の一覧"><option value="su">スタートアップ一覧</option><option value="uni">ユニコーン</option><option value="jpsu">日本のスタートアップ</option><option value="world">世界の企業</option><option value="all">全企業リスト</option><option value="vc">VC・投資家</option></optgroup><optgroup label="お金と人の動き"><option value="rel">ニュース</option><option value="money">お金の流れ</option><option value="move">人材の移籍</option><option value="extl">幹部の年表</option><option value="flow">人材の流れ</option><option value="outfit">装いとブランド</option></optgroup><optgroup label="調査・解説"><option value="finds">調査の新着</option><option value="cf">確かさの一覧</option><option value="xlearn">AIの新着解説</option><option value="agents">調査エージェント</option></optgroup><optgroup label="その他"><option value="fun">おもしろ</option></optgroup></select></label><button type="button" data-h="home">ホーム</button><button type="button" data-h="company">企業の相関図</button><button type="button" data-h="common">共通のつながり</button><button type="button" data-h="invest">出資の一覧</button><button type="button" data-h="rank">ランキング</button><button type="button" data-h="su">スタートアップ一覧</button><button type="button" data-h="uni">ユニコーン</button><button type="button" data-h="jpsu">日本のスタートアップ</button><button type="button" data-h="world">世界の企業</button><button type="button" data-h="all">全企業リスト</button><button type="button" data-h="vc">VC・投資家</button><button type="button" data-h="rel">ニュース</button><button type="button" data-h="money">お金の流れ</button><button type="button" data-h="move">人材の移籍</button><button type="button" data-h="extl">幹部の年表</button><button type="button" data-h="flow">人材の流れ</button><button type="button" data-h="finds">調査の新着</button><button type="button" data-h="cf">確かさの一覧</button><button type="button" data-h="xlearn">AIの新着解説</button><button type="button" data-h="fun">おもしろ</button><button type="button" data-h="agents">調査エージェント</button></nav>
     <input type="search" id="q" placeholder="人・企業を検索(例: 孫正義 / Altman / Apple)  「/」キーで移動" autocomplete="off" aria-label="人・企業を検索" role="combobox" aria-expanded="false" aria-controls="qres">
     <ul id="qres" role="listbox" hidden></ul>
   </div>
@@ -35801,7 +35804,7 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-22';
+const LAST_CHECK='2026-11-23';
 const UPDATES=[
  {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
@@ -38944,8 +38947,8 @@ qEl.addEventListener('keydown',ev=>{
 });
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
-/* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面 ===== */
-const BUILT='2026-11-22 09:15';
+/* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面(2026/11/22: 入口は上のメニューと同じ5グループ) ===== */
+const BUILT='2026-11-23 09:15';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
@@ -38964,6 +38967,7 @@ function showHome(){
     ['money','AIマネーの循環','出資と支払いが、AI企業のあいだをどう回っているか'],
     ['move','AI人材の移籍マップ','研究者や幹部が、どの会社からどの会社へ移ったかを年ごとに'],
     ['outfit','装いとブランド','起業家の装いを参考の目安で採点し、関係のあるブランドを出典つきで(見本版)'],
+    ['flow','人材の流れ','会社ごとの人の流入・流出ランキングと、2社のあいだの移籍'],
     ['extl','幹部の入れ替わり年表','OpenAI・Anthropic・xAI・Google DeepMindの経営陣の入社・退社を、時系列で。出典つき'],
     ['cf','確かさの一覧','各社の数字のうち、公式発表・開示書類で確かめた割合'],
     ['fun','おもしろ情報','起業家の愛用品・愛読書・社名の由来・朝の習慣・失敗談と名言。どうでもよさそうで刺さる話を、出典つきで'],
@@ -38978,16 +38982,36 @@ function showHome(){
     ['jp','日本の企業価値','上場企業と未上場ユニコーン'],
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
+  /* 2026/11/22: 上のメニューの選択欄(#topsel)と同じグループ分け・同じ並びで出す。jp・ipoは選択欄にないので近いグループに置く */
+  const HOMEGROUPS0=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
   const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
+  /* 2026/11/22: グループ見出しを押すと、そのグループだけ開閉する。閉じたグループは覚えておく(ブラウザに保存。使えなければ今の画面の間だけ) */
+  /* グループの開閉(2026/11/22): 閉じたグループと、よく開く入口の回数はブラウザに覚える。スマホ幅で初めて開いたときは「見る・調べる」だけ開く */
+  const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}},lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+  let HOMEUSE={};try{HOMEUSE=JSON.parse(lsGet('homeUse')||'{}')||{}}catch(e){}
+  const okKeys=new Set(HOMEGROUPS0.flatMap(g=>g[1]));
+  const favKeys=Object.entries(HOMEUSE).filter(([k,n])=>okKeys.has(k)&&n>0).sort((a,b)=>b[1]-a[1]).slice(0,4).map(x=>x[0]);
+  const HOMEGROUPS=favKeys.length?[['よく見る',favKeys],...HOMEGROUPS0]:HOMEGROUPS0;
+  let closedArr=null;try{closedArr=JSON.parse(lsGet('homeClosed')||'null')}catch(e){}
+  if(!Array.isArray(closedArr))closedArr=innerWidth<=600?HOMEGROUPS.map(g=>g[0]).filter(n=>n!==HOMEGROUPS[0][0]):[];
+  const HOMECLOSED=new Set(closedArr);
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
-   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${cards.map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>
+   <div style="display:flex;gap:8px;margin:0 0 4px"><button type="button" id="hgall" data-o="1" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて開く</button><button type="button" id="hgnone" data-o="0" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて閉じる</button></div>
+   ${HOMEGROUPS.map((g,gi)=>`<h3 style="margin:22px 0 8px;font-size:15px"><button type="button" class="hgtoggle" data-g="${gi}" aria-expanded="${!HOMECLOSED.has(g[0])}" style="font:inherit;font-weight:700;background:none;border:0;padding:4px 0;color:var(--fg);cursor:pointer;display:flex;align-items:center;gap:6px"><span class="hgarrow" aria-hidden="true" style="display:inline-block;width:1em;transition:transform .15s;transform:rotate(${HOMECLOSED.has(g[0])?0:90}deg)">▸</span>${g[0]}<small style="color:var(--muted);font-weight:400">(${g[1].length})</small></button></h3><div class="hggrid" data-g="${gi}"${HOMECLOSED.has(g[0])?' hidden':''} style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
   const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),outfit:()=>showOutfit(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),fun:()=>showFun(),agents:()=>openAgents(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
-  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
+  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{HOMEUSE[b.dataset.h]=(HOMEUSE[b.dataset.h]||0)+1;lsSet('homeUse',JSON.stringify(HOMEUSE));ctrail=[];go[b.dataset.h]()}));
+  const setGrp=(b,open)=>{const gi=+b.dataset.g,name=HOMEGROUPS[gi][0],grid=FEEDEL.querySelector(`.hggrid[data-g="${gi}"]`);
+    b.setAttribute('aria-expanded',String(open));grid.hidden=!open;b.querySelector('.hgarrow').style.transform=`rotate(${open?90:0}deg)`;
+    if(open)HOMECLOSED.delete(name);else HOMECLOSED.add(name)};
+  FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>b.addEventListener('click',()=>{
+    setGrp(b,b.getAttribute('aria-expanded')!=='true');lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
+  FEEDEL.querySelectorAll('#hgall,#hgnone').forEach(x=>x.addEventListener('click',()=>{
+    FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>setGrp(b,x.dataset.o==='1'));lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
 }
@@ -39317,10 +39341,12 @@ function navSync(){
   else if(!UNIEL.hidden)cur='uni';
   else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':/^装いとブランド/.test(t)?'outfit':/^おもしろ情報/.test(t)?'fun':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
+  {const ts=document.getElementById('topsel');if(ts)ts.value=[...ts.options].some(o=>o.value===cur)?cur:'company'}
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
 }
 document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
+{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
 {const mo=new MutationObserver(navSync);
  [MAINEL,PROFEL,RANKEL,UNIEL,FEEDEL].forEach(e=>mo.observe(e,{attributes:true,attributeFilter:['hidden']}));
  mo.observe(document.getElementById('title'),{childList:true,characterData:true,subtree:true})}
