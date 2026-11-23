@@ -1,0 +1,469 @@
+{
+ "date": "2026-11-23",
+ "source": "inbox/gemini/2026-11-23.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "上場",
+    "相手": "",
+    "金額": "813.4億ドル",
+    "日付": "2026-11-19",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_yfNJWCxpXoTuUWNb43oi9Oa1ksrypEYNTj3EXM-NeBa8kGLYelZKUWX2m7zImNlrrh7YPXBAFL8hPhUIyzFcV1L-6bspDNgHhmiDkivMFwYVtGc0z5jsCgyNsKIwJUikvF6SNaU7iIib6LMYl7n4FS5KcrVU7LXsd5RxKNgqLadMcvZ0Suz55m25eOtoHtHsCITSq4_lx33a",
+    "確かさ": "報道",
+    "備考": "NasdaqにANTのティッカーで上場。IPO価格83ドルで約1.5兆ドルの評価額となり、過去最大のIPOとなった。調達額は813.4億ドル。",
+    "src": [
+     [
+      "SmartAsset",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_yfNJWCxpXoTuUWNb43oi9Oa1ksrypEYNTj3EXM-NeBa8kGLYelZKUWX2m7zImNlrrh7YPXBAFL8hPhUIyzFcV1L-6bspDNgHhmiDkivMFwYVtGc0z5jsCgyNsKIwJUikvF6SNaU7iIib6LMYl7n4FS5KcrVU7LXsd5RxKNgqLadMcvZ0Suz55m25eOtoHtHsCITSq4_lx33a"
+     ]
+    ],
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_yfNJWCxpXoTuUWNb43oi9Oa1ksrypEYNTj3EXM-NeBa8kGLYelZKUWX2m7zImNlrrh7YPXBAFL8hPhUIyzFcV1L-6bspDNgHhmiDkivMFwYVtGc0z5jsCgyNsKIwJUikvF6SNaU7iIib6LMYl7n4FS5KcrVU7LXsd5RxKNgqLadMcvZ0Suz55m25eOtoHtHsCITSq4_lx33a"
+    },
+    "dup": "「Anthropic」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「Anthropic」の同じころ(2026-11-19)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Intel",
+    "関係": "買収",
+    "相手": "Classiq",
+    "金額": "22.5億ドル",
+    "日付": "2026-11-22",
+    "出典URL": "https://www.mk.co.kr/en/stock/12215625",
+    "確かさ": "報道",
+    "備考": "イスラエルの量子ソフトウェアスタートアップClassiqを買収。契約は10月末に締結され、来年初頭に完了予定。最大4億ドルの成果条件付き支払いを含む。",
+    "src": [
+     [
+      "MK",
+      "https://www.mk.co.kr/en/stock/12215625"
+     ]
+    ],
+    "既存の名前": [
+     "Intel"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUWcnpZiLjKTXr6nR6NJGf6gflFPaHWVAKiU-ge4knsjB9UcM0aDyK881eP5-w5vyDmou6xk1HlYu6ivJnfHmfACXznwQ2Bhd5ZKGqaP2-nWOV4vTX2pIbk9VeNamoluQ=",
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.mk.co.kr/en/stock/12215625"
+    },
+    "dup": "「Intel」と「Classiq」の組み合わせがすでにある(site/data/world.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「Intel」と「Classiq」の組み合わせがすでにある(site/data/world.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Isomorphic Labs",
+    "関係": "出資",
+    "相手": "",
+    "金額": "50億ドル",
+    "日付": "2026-11-20",
+    "出典URL": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+    "確かさ": "報道",
+    "備考": "AIを活用した創薬スタートアップがシリーズC資金調達を完了。GreenoaksとSequoia Capitalが主導。",
+    "src": [
+     [
+      "Crunchbase News",
+      "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/"
+     ]
+    ],
+    "既存の名前": [
+     "Isomorphic Labs"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzDKLqmTujgMrqaYzqLa0IQdmFM2_4cAnQLJwayGIYswxO4SRwUJ1Ngnu5zsUBsas-ww4QrDJ-GOun9Egw_6syi9gCPya62sDso8Slk2kwgRvHzFWthHHbKJ0hrGHEZJJrCX_VznsTwdC-p_6ByQOp9CZ17ZFa58zIWLEmfa5-2eA-faL9Lyw2rJKF_KD1G7FnWA0vZI0dPKLkdMejZDRHG-TfNCQqrg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Le",
+     "状態": "ok",
+     "載っていた名前": [
+      "Isomorphic Labs"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
+     "names_on_page": [
+      "Isomorphic Labs"
+     ]
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "AMD",
+    "関係": "買収",
+    "相手": "World Labs",
+    "金額": "",
+    "日付": "2026-11-16",
+    "出典URL": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+    "確かさ": "公式",
+    "備考": "World Labsの買収を完了し、AIスタック全体での能力を拡大。World Labsの主要AIモデル研究チームがAMDに加わる。約82億ドルの全株式取引と報道されている。",
+    "src": [
+     [
+      "Advanced Micro Devices, Inc. (AMD)",
+      "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs"
+     ]
+    ],
+    "既存の名前": [
+     "AMD",
+     "World Labs"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMpSJnd1Gop29jDUaXujYckVwlO6wjUOXLbZp-Bian5Bvd4_PV3dbdnPvgldlmwNNQdLXp1a6j_KeREeOEIG8EUX7rLmo5tge-2Z7j2WvsEvL8wPccwwf_BkY8GlVDh-cGEPO_F4gFoH5Fp3WsuRXqzKVRLm4ggYJPLRLYyqK-XDK-yjVuY_nWtcny814qzlWXqWsVdOxCd_0ODw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs"
+    },
+    "dup": "「AMD」と「World Labs」の組み合わせがすでにある(site/data/relnews.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「AMD」と「World Labs」の組み合わせがすでにある(site/data/relnews.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "AMD",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg==",
+    "確かさ": "報道",
+    "備考": "World Labsの元CEOであるFei-Fei Liが、AMDのEVP兼チーフサイエンティストに就任。",
+    "src": [
+     [
+      "AI Magazine",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+     ]
+    ],
+    "既存の名前": [
+     "AMD"
+    ],
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Etisalat",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg==",
+    "確かさ": "報道",
+    "備考": "Orange Businessの元CDIO、Hriday RavindranathがEtisalatのChief AI and Platform Officerに就任。",
+    "src": [
+     [
+      "AI Magazine",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Capital One",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg==",
+    "確かさ": "報道",
+    "備考": "TalkTalkの元Chief Data and AI OfficerであるKevinが、Capital OneのChief Data and AI Officerに就任。",
+    "src": [
+     [
+      "AI Magazine",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+     ]
+    ],
+    "既存の名前": [
+     "Capital One"
+    ],
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsXp79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-20",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAOxKR8hjdlZeGeGx5JPhqXupX2KeksL4G0CckoSEkpwywFmyCmi3HSc_xySCmx1q-e_mcoMlJMhWCKRZKEfB5rgM7M0v9Q3CsO2_xRZJJ_WvnHxaMQWhKm8t8qRufbnEDzYzuUej9X7pUlQbqHHo=",
+    "確かさ": "報道",
+    "備考": "元陸軍長官兼ATF長官代理のDan Driscollが、OpenAIの政府チームのシニアカウンセラーに就任。",
+    "src": [
+     [
+      "ExecutiveBiz",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAOxKR8hjdlZeGeGx5JPhqXupX2KeksL4G0CckoSEkpwywFmyCmi3HSc_xySCmx1q-e_mcoMlJMhWCKRZKEfB5rgM7M0v9Q3CsO2_xRZJJ_WvnHxaMQWhKm8t8qRufbnEDzYzuUej9X7pUlQbqHHo="
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAOxKR8hjdlZeGeGx5JPhqXupX2KeksL4G0CckoSEkpwywFmyCmi3HSc_xySCmx1q-e_mcoMlJMhWCKRZKEfB5rgM7M0v9Q3CsO2_xRZJJ_WvnHxaMQWhKm8t8qRufbnEDzYzuUej9X7pUlQbqHHo="
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-20)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-20)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Merck",
+    "関係": "提携",
+    "相手": "Isomorphic Labs",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://casrai.org/news/merck-isomorphic-labs-oncology-ai-collaboration-2026",
+    "確かさ": "公式",
+    "備考": "未公開のがん標的に対するAI駆動型小分子創薬の戦略的共同研究を発表。Isomorphic LabsのAI創薬エンジンとMerckのデータ・経験を組み合わせる。",
+    "src": [
+     [
+      "CASRAI",
+      "https://casrai.org/news/merck-isomorphic-labs-oncology-ai-collaboration-2026"
+     ]
+    ],
+    "既存の名前": [
+     "Merck",
+     "Isomorphic Labs"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyDmW_bMH29SrbVSCQqLe_GLNRwCsBhjVX-WItjptppZEG4RhpQo7wV7qbuFlltTMIs1eY2Gn0Pz1uEA-RTOBNlcdsCzjfTM5Q6PEVTurs_K0c9BW4UrJ08CU1IU5FQXGsns8srBntXx9zHPdLDGv7ae7b-hciL8S6J2fvbeyDgNO_sJioyQ==",
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://casrai.org/news/merck-isomorphic-labs-oncology-ai-collaboration-2026"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Fujitsu",
+    "関係": "提携",
+    "相手": "Google Cloud",
+    "金額": "",
+    "日付": "2026-11-19",
+    "出典URL": "https://global.fujitsu/en-global/pr/news/2026/11/19-01",
+    "確かさ": "公式",
+    "備考": "AIとクラウド技術の安全な利用およびAI変革（AX）を加速するための戦略的パートナーシップを拡大。Google AI Threat Defenseのローンチパートナーとして参加する。",
+    "src": [
+     [
+      "Fujitsu Limited",
+      "https://global.fujitsu/en-global/pr/news/2026/11/19-01"
+     ]
+    ],
+    "既存の名前": [
+     "Fujitsu",
+     "Google Cloud"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4w99MS_EbFh6LAC4O9wCSfuM7VrxRlQCIf5ISaMlfKhx2gjg5b-JuJRw3ShD81SRssnDC45YJ7bYzkWZS7pg47tyH0lgCv3YHWl5_lLZg9dUnaijUP6YYAJPx7fQv3NXSXpXEL-4_BHHuaOSSED_Q",
+    "URL確認": {
+     "検索で見たサイト": true,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://global.fujitsu/en-global/pr/news/2026/11/19-01"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}

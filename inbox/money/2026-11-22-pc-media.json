@@ -1,0 +1,59 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "notes": "ソフトバンク決算説明会(2026/11/10、YouTube)で語られた『OpenAIとの20年・8GWの賃貸契約』の契約相手を報道で確かめた。契約したのはソフトバンク傘下のSB Energy。 2026/11/23に、NVIDIA公式発表とSEC 8-Kで賃貸20年・保証上限$1,050億・NVIDIAの$15億出資を確認して書き直した。",
+ "items": [
+  {
+   "from": "OpenAI",
+   "to": "SB Energy(ソフトバンク傘下)",
+   "kind": "計算資源の賃貸",
+   "amount": "オハイオ州パイク郡の約8GW(IT容量)を20年賃貸(NVIDIA公式発表で確認)。NVIDIAが最初の約4.25GW分に上限$1,050億の残存価値保証(SEC 8-Kで確認)。SB Energyが$55億相当のワラントをOpenAIに付与(報道ベース)",
+   "date": "2026-08-17",
+   "note": "OpenAIが、SB Energyが建設・所有・運営するオハイオ州パイク郡のキャンパス(PORTS-Pike)を20年で借りる契約。最初の800MWは2028年、2032年まで拡張の予定。2026/11/23にNVIDIA公式発表とSEC 8-Kで確認: 賃貸は20年(Axiosだけ10年と報じたが公式は20年)。保証は残存価値保証で、OpenAIが払えなくなったときの差額をNVIDIAが払う仕組み。上限は累計$1,050億(最初の約4.25GW分。残り約3.8GWは任意で追加)。ワラント約$55億は報道ベース。8GWはIT容量で、電源は10GWとする報道もあり。ソフトバンクの2026/11/10の決算説明会でも言及。",
+   "quote": "",
+   "video": "https://www.youtube.com/watch?v=nyCX-wTlEFc",
+   "src": [
+    [
+     "NVIDIA公式発表(2026/8/17)",
+     "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute"
+    ],
+    [
+     "NVIDIA 8-K(2026/8/17、SEC)",
+     "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm"
+    ],
+    [
+     "Axios(2026/8/17)",
+     "https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy"
+    ],
+    [
+     "The Next Web(2026/8)",
+     "https://thenextweb.com/news/sb-energy-openai-warrants-ohio-campus"
+    ],
+    [
+     "Channel Insider(2026/8)",
+     "https://www.channelinsider.com/ai/news-openai-8gw-ohio-data-center-lease-nvidia/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  },
+  {
+   "from": "NVIDIA",
+   "to": "SB Energy(ソフトバンク傘下)",
+   "kind": "出資",
+   "amount": "$15億",
+   "date": "2026-08-17",
+   "note": "NVIDIAがSB Energyに$15億を出資すると公式発表。既存の出資者はソフトバンクグループとOpenAI。(2026/11/23、NVIDIA公式発表で確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "NVIDIA公式発表(2026/8/17)",
+     "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "media"
+  }
+ ]
+}

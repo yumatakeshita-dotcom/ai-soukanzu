@@ -1,0 +1,43 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "items": [
+  {
+   "from": "三菱UFJフィナンシャル・グループ",
+   "to": "松尾研究所, Third Intelligence",
+   "kind": "提携",
+   "amount": "",
+   "date": "2026-11-17",
+   "note": "金融サービスにおけるAI活用推進、松尾研発スタートアップへの包括支援を含む包括的パートナーシップ。MUFGは2025年11月にThird Intelligenc(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "it.impress.co.jp",
+     "https://it.impress.co.jp/articles/-/30020"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "応援科技 (Ouen Technology)",
+   "to": "Borderless Japan傘下プラットフォーム「For Good」",
+   "kind": "提携",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "決済・資金流のクラウドプラットフォームを統合し、戦略提携(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9",
+     "https://finance.biggo.jp/news/997560a9-2a50-45e5-8bdc-54eff02709a9"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "保留をやり直して、scripts/gemini_verify.py の確かめを通ったもの"
+}

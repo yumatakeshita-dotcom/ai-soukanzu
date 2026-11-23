@@ -6,6 +6,7 @@
   python3 scripts/watchdog.py              # 今日(日本時間)と前日を確かめ、inbox/watchdog/日付.md に足す
   python3 scripts/watchdog.py --no-write   # 表示だけ
   python3 scripts/watchdog.py --now 2026-11-20T10:30   # 日本時間の時刻を決めて試す
+  python3 scripts/watchdog.py --catchup    # (2026/11/23追加)PCの予定作業が止まった日に、クラウドで代わりに拾う
 
 何を見るか(「その時刻に出るはずの記録が、リポジトリにあるか」):
   更新(6:43)  site/index.html の LAST_CHECK が今日の日付か
@@ -25,7 +26,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JST = datetime.timezone(datetime.timedelta(hours=9))
 GRACE_MIN = 90  # 予定の時刻から、この分数たってから確かめる
 
-# (名前, 予定の時刻(時,分), 曜日(月=0。None=毎日), フォルダ, ファイル名の目印)
+# (名前, 予定の時刻(時,分), 曜日(月=0。None=毎日), フォルダ, ファイル名の目印[, 見はじめる日])
 SCHEDULE = [
     ('引き抜き調査(moves)', (7, 26), None, 'inbox/moves', ''),
     ('お金の流れ調査(money)', (7, 52), (0, 3), 'inbox/money', ''),
@@ -36,6 +37,13 @@ SCHEDULE = [
     ('YouTube確認(youtube)', (7, 26), None, 'inbox/youtube', ''),
     ('ポッドキャスト確認(podcasts)', (7, 26), None, 'inbox/podcasts', ''),
     ('Gemini調査(gemini)', (8, 23), None, 'inbox/gemini', ''),
+    # 2026/11/21追加: 新しい6係(0件でもファイルを作る決まり)。ファイル名の目印で、ほかの係のファイルと区別する
+    ('採用・求人係(hiring)', (8, 5), (6, 1, 4), 'inbox/moves', '-hiring', '2026-11-22'),
+    ('日本の提携係(jp)', (8, 11), None, 'inbox/money', '-jp.json', '2026-11-22'),
+    ('日本の人事係(jp-hr)', (8, 14), None, 'inbox/moves', '-jp-hr', '2026-11-22'),
+    ('日本の資金調達係(jp-fund)', (8, 17), None, 'inbox/money', '-jp-fund', '2026-11-22'),
+    ('データセンター・電力係(dc)', (8, 20), (6, 2, 5), 'inbox/money', '-dc', '2026-11-22'),
+    ('解説・まとめ係(column)', (20, 0), (6,), 'newsletter/column', '', '2026-11-22'),
     ('開示ウォッチ(disclosures)', (10, 19), (1,), 'inbox/disclosures', ''),
     ('報道だけの数字の確かめ直し(verify)', (10, 23), (6,), 'inbox/verify', ''),
 ]
@@ -117,7 +125,9 @@ def evaluate(now):
             if back == 0:
                 rows.append(('OK' if lc == d else '問題', f'{tag} 毎朝の更新(6:43)',
                              f'LAST_CHECK = {lc}' + ('' if lc == d else f'(今日は {d}。更新が動いていないか、push されていない)')))
-        for name, hm, wd, folder, mark in SCHEDULE:
+        for name, hm, wd, folder, mark, *since in SCHEDULE:
+            if since and d < since[0]:
+                continue  # 作る前の日は見ない(2026/11/21追加)
             if wd is not None and day.weekday() not in wd:
                 continue
             if not due(hm):
@@ -163,6 +173,63 @@ def evaluate(now):
     return rows
 
 
+# PC側の予定作業のうち、クラウドから代わりに動かせるもの(2026/11/23追加)
+# (名前, フォルダ, 予定の時刻, 動かす道具)。公式RSS・公開ページだけを読む道具なので、クラウドで動く
+CATCHUP = [
+    ('YouTube確認', 'inbox/youtube', (7, 26), ['scripts/yt_daily.py']),
+    ('ポッドキャスト確認', 'inbox/podcasts', (7, 26), ['scripts/pod_daily.py']),
+]
+
+
+def catchup(now):
+    """今日のファイルがまだ無いものを、クラウドで動かして拾う。足すだけ。動かした結果の一覧(文)を返す"""
+    day = now.date()
+    d = day.isoformat()
+    notes, ran = [], False
+    for name, folder, hm, cmd in CATCHUP:
+        t = datetime.datetime.combine(day, datetime.time(*hm), tzinfo=JST) + datetime.timedelta(minutes=GRACE_MIN)
+        if now < t:
+            continue
+        if files_for(folder, d, ''):
+            continue
+        before = set(files_for(folder, d, ''))
+        try:
+            r = subprocess.run([sys.executable] + cmd, cwd=ROOT, capture_output=True, text=True, timeout=1500)
+            out = (r.stdout.strip().splitlines() or [''])[0][:200]
+            err = r.stderr.strip()[-150:]
+        except Exception as ex:  # noqa: BLE001
+            notes.append(f'{name}: クラウドでの代行に失敗({str(ex)[:100]})')
+            continue
+        new = [f for f in files_for(folder, d, '') if f not in before and f.endswith('.json')]
+        for f in new:  # 「クラウドが代わりに拾った」印を足す
+            try:
+                j = json.load(open(f, encoding='utf-8'))
+                j['filled_by'] = 'cloud-catchup(PCの予定作業が見当たらなかったため、見張り役が代行)'
+                json.dump(j, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+            except Exception:  # noqa: BLE001
+                pass
+        ran = True
+        notes.append(f'{name}: PC側の記録が無かったのでクラウドで代行 → {out or "出力なし"}' + (f' (エラー: {err})' if r.returncode and err else ''))
+    if ran:  # 手がかりのまとめも作り直す(失敗しても続ける)
+        try:
+            r = subprocess.run([sys.executable, 'scripts/media_digest.py'], cwd=ROOT, capture_output=True, text=True, timeout=300)
+            notes.append('手がかりのまとめ(media_digest)も作り直した' if r.returncode == 0 else '手がかりのまとめは失敗')
+        except Exception:  # noqa: BLE001
+            notes.append('手がかりのまとめは失敗')
+    return notes
+
+
+def stopped_agents(now):
+    """一覧の「記録なし」の係を、名前つきで『注意』に足す(2026/11/22追加)。失敗しても見張りは止めない"""
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import agents_status
+        names = {a['id']: a['name'] for a in json.load(open(os.path.join(ROOT, 'docs', 'agents.json'), encoding='utf-8'))['agents']}
+        return [('注意', f'係: {names.get(k, k)}', '今日の記録なし。' + v['detail']) for k, v in agents_status.evaluate(now).items() if v['state'] == 'ng']
+    except Exception:
+        return []
+
+
 def to_md(now, rows):
     prob = [r for r in rows if r[0] == '問題']
     warn = [r for r in rows if r[0] == '注意']
@@ -182,15 +249,46 @@ def to_md(now, rows):
     return '\n'.join(L) + '\n'
 
 
+def status_js(now, rows):
+    """ホームの画面に色で出す用の短い記録(site/data/watchstatus.js)。毎回、最新の1件で置き換える(履歴は inbox/watchdog/ の .md)。2026/11/23追加"""
+    prob = [r for r in rows if r[0] == '問題']
+    warn = [r for r in rows if r[0] == '注意']
+    st = {'t': f'{now:%Y-%m-%d %H:%M}', 'level': 'r' if prob else ('y' if warn else 'g'),
+          'p': len(prob), 'w': len(warn), 'ok': sum(r[0] == 'OK' for r in rows),
+          'items': [[r[0], r[1], r[2][:120]] for r in prob + warn][:8]}
+    return '// 見張り役の最新の結果(scripts/watchdog.py が書く。手で直さない)。level: g=順調 y=注意 r=問題\nconst WATCH_STATUS=' + json.dumps(st, ensure_ascii=False) + ';\n'
+
+
+def rows_from_md(path):
+    rows = []
+    for ln in open(path, encoding='utf-8'):
+        m = re.match(r'\| (問題|注意|OK|時刻前) \| (.+?) \| (.*) \|$', ln.rstrip())
+        if m:
+            rows.append((m.group(1), m.group(2), m.group(3)))
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--no-write', action='store_true')
+    ap.add_argument('--status-from-md', help='記録の .md から site/data/watchstatus.js だけ作る(例 inbox/watchdog/2026-11-23.md)')
+    ap.add_argument('--catchup', action='store_true', help='YouTube・ポッドキャストの今日の記録が無ければ、クラウドで代わりに動かす')
     ap.add_argument('--now', help='日本時間の時刻(例 2026-11-20T10:30)')
     a = ap.parse_args()
     now = datetime.datetime.fromisoformat(a.now).replace(tzinfo=JST) if a.now else datetime.datetime.now(JST)
+    if a.status_from_md:
+        md_path = os.path.join(ROOT, a.status_from_md)
+        t = datetime.datetime.fromisoformat(re.search(r'(\d{4}-\d\d-\d\d) (\d\d:\d\d)', open(md_path, encoding='utf-8').readline()).expand(r'\1T\2')).replace(tzinfo=JST)
+        open(os.path.join(ROOT, 'site', 'data', 'watchstatus.js'), 'w', encoding='utf-8').write(status_js(t, rows_from_md(md_path)))
+        print('保存: site/data/watchstatus.js')
+        return
     run(['git', 'fetch', '-q', 'origin', 'main'])
+    notes = catchup(now) if a.catchup else []
     rows = evaluate(now)
+    rows += stopped_agents(now)
     md = to_md(now, rows)
+    if notes:
+        md += '\n## クラウドでの代行(PCの予定作業が止まっていた分)\n' + '\n'.join('- ' + n for n in notes) + '\n'
     print(md)
     if not a.no_write:
         d = os.path.join(ROOT, 'inbox', 'watchdog')
@@ -200,6 +298,13 @@ def main():
             p = os.path.join(d, f'{now:%Y-%m-%d}-{i}.md'); i += 1
         open(p, 'w', encoding='utf-8').write(md)
         print('保存:', os.path.relpath(p, ROOT))
+        open(os.path.join(ROOT, 'site', 'data', 'watchstatus.js'), 'w', encoding='utf-8').write(status_js(now, rows))
+        print('保存: site/data/watchstatus.js')
+        try:  # 調査エージェント一覧の「今朝動いたか」の色(2026/11/21追加)。失敗しても見張りは止めない
+            import agents_status
+            agents_status.write(now)
+        except Exception as ex:
+            print('係ごとの状態(status.json)を作れませんでした:', str(ex)[:100])
     sys.exit(1 if any(r[0] == '問題' for r in rows) else 0)
 
 

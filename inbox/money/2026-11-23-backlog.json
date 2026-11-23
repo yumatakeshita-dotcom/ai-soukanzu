@@ -1,0 +1,99 @@
+{
+ "date": "2026-11-23",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "from": "Bending Spoons",
+   "to": "Airtable",
+   "kind": "買収",
+   "amount": "企業価値 $12.85億(全額現金。純現金込みの株式価値は約 $22.5億)",
+   "date": "2026-08-04",
+   "note": "Bending Spoonsの上場後で初の買収。完了は年内の見込みで規制当局の承認が条件(2026/11/23時点の完了は未確認)。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Bending Spoons 6-K(SEC)",
+     "https://www.sec.gov/Archives/edgar/data/0002004711/000200471126000009/bsp_ex99-1.htm"
+    ],
+    [
+     "SiliconANGLE(2026/8/4)",
+     "https://siliconangle.com/2026/08/04/bending-spoons-acquire-productivity-software-startup-airtable-1-285b/"
+    ],
+    [
+     "TNW",
+     "https://thenextweb.com/news/bending-spoons-airtable-acquisition"
+    ]
+   ],
+   "confidence": "開示",
+   "via": "backlog"
+  },
+  {
+   "from": "Anthropic の既存・新規投資家(GIC・Coatue が主導)",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "$300億(Series G・評価額 $3,800億=出資後)",
+   "date": "2026-02-12",
+   "note": "D.E. Shaw・Dragoneer・Founders Fund・ICONIQ・MGX が共同主導。MicrosoftとNVIDIAの先に発表した出資の一部を含む。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Anthropic 公式発表(2026/2/12)",
+     "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
+    ],
+    [
+     "Bloomberg Law",
+     "https://news.bloomberglaw.com/financial-accounting/anthropic-finalizes-30-billion-funding-at-380-billion-value"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Citadel",
+   "to": "Situational Awareness(上場株の運用分)",
+   "kind": "買収",
+   "amount": "上場株の大半(報道ベース。規模は約$160億という報道と、総資産が約$200億→約$100億になったという報道があり不一致)",
+   "date": "2026-07-30",
+   "note": "AI関連の損失で追加担保を求められた同ファンドが、上場株の大半をCitadelに売却。Anthropic株は手元に残ると報じられた。全て報道ベース。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Bloomberg Law(2026/7/30)",
+     "https://news.bloomberglaw.com/mergers-and-acquisitions/citadel-buys-bulk-of-situational-awareness-ai-stock-wagers-2"
+    ],
+    [
+     "Semafor(2026/7/30)",
+     "https://www.semafor.com/article/07/30/2026/high-flying-hedge-fund-sells-holdings-to-citadel-after-ai-losses"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "中国の国家AI産業投資基金ほか(主導の一部。全投資家は未公表)",
+   "to": "Moonshot AI",
+   "kind": "出資",
+   "amount": "$35億(評価額 $350億。報道ベース)",
+   "date": "2026-07-29",
+   "note": "当初目標の$10〜20億を超えて集まったとBloombergが報道。会社の公式発表は確認できず。 過去の動画・番組の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Dealroom(2026/7/29)",
+     "https://dealroom.co/news/141770-moonshot-ai-hits-35b-valuation-on-3-5b-raise-eyes-50b-ahead-of-ipo/"
+    ],
+    [
+     "TechNode(2026/7/30)",
+     "https://technode.com/2026/07/30/moonshot-ai-reportedly-closes-3-5-billion-round-at-35-billion-valuation/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  }
+ ]
+}

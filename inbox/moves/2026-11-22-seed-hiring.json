@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-22",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Wei-Jen Lo",
+   "name_ja": "羅唯仁",
+   "from": "TSMC",
+   "to": "Intel",
+   "role": "副社長(製造部門)",
+   "date": "2025-11-25",
+   "note": "TSMC元上級副社長。TSMCが営業秘密持ち出しで提訴(日付は提訴日)。Intelは採用を擁護",
+   "src": [
+    [
+     "TrendForce(2025-11-27)",
+     "https://www.trendforce.com/news/2025/11/27/news-intel-stands-firm-on-lo-hire-amid-tsmc-trade-secret-dispute-ceo-vows-support-dismisses-claims/"
+    ],
+    [
+     "TechSpot",
+     "https://www.techspot.com/news/110397-tsmc-sues-former-vp-allegedly-taking-trade-secrets.html"
+    ]
+   ],
+   "confidence": "報道",
+   "seed_agent": "hiring",
+   "seed_from": "inbox/moves/2026-11-18_past.json"
+  },
+  {
+   "name_en": "Jenny Shiers",
+   "name_ja": "ジェニー・シアーズ",
+   "from": "Unily(最高人事責任者)",
+   "to": "Anthropic",
+   "role": "人事部門(役職は記事参照)",
+   "date": "2026-09-01",
+   "note": "3年在籍したUnilyからAnthropicへ。さかのぼり(2026年9月)分",
+   "src": [
+    [
+     "International Employment Lawyer(2026/9/1)",
+     "https://www.internationalemploymentlawyer.com/news/former-unily-chief-people-officer-joins-anthropic"
+    ]
+   ],
+   "confidence": "報道",
+   "backfill": true,
+   "seed_agent": "hiring",
+   "seed_from": "inbox/moves/2026-11-19.json"
+  }
+ ],
+ "notes": "hiring: 過去の inbox から拾った 2 件(初回の拾い。元のファイルは変えていない)"
+}

@@ -1,0 +1,319 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "直近1週間のVC・投資会社のAI分野の大型案件と、新しいファンド",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "上場",
+   "相手": "Nasdaq",
+   "金額": "93.5 billion",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjIOSlzuh2gaZIkgVjN3l2PAShG8zitXJPWrirrKRrAtvDXMxm94F4oxvXlRw41rwzbOujlAaTnDSUb20d9pfCt48yFZxtcEl4l48XqPTSJHVskMM9l23rM68deJW9VggAZQ=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Nasdaq"
+    ]
+   }
+  },
+  {
+   "会社名": "NVIDIA Corporation",
+   "関係": "出資",
+   "相手": "Anthropic",
+   "金額": "10 billion",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "IPOと同時に実施された非公開化私募",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjIOSlzuh2gaZIkgVjN3l2PAShG8zitXJPWrirrKRrAtvDXMxm94F4oxvXlRw41rwzbOujlAaTnDSUb20d9pfCt48yFZxtcEl4l48XqPTSJHVskMM9l23rM68deJW9VggAZQ=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "NVIDIA Corporation",
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Google LLC",
+   "関係": "出資",
+   "相手": "Anthropic",
+   "金額": "10 billion",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "IPOと同時に実施された非公開化私募",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Google LLC",
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjIOSlzuh2gaZIkgVjN3l2PAShG8zitXJPWrirrKRrAtvDXMxm94F4oxvXlRw41rwzbOujlAaTnDSUb20d9pfCt48yFZxtcEl4l48XqPTSJHVskMM9l23rM68deJW9VggAZQ=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Google LLC",
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Advanced Micro Devices, Inc.",
+   "関係": "出資",
+   "相手": "Anthropic",
+   "金額": "",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "IPOと同時に実施された非公開化私募、総額260億ドルのうちの一部",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHjIOSlzuh2gaZIkgVjN3l2PAShG8zitXJPWrirrKRrAtvDXMxm94F4oxvXlRw41rwzbOujlAaTnDSUb20d9pfCt48yFZxtcEl4l48XqPTSJHVskMM9l23rM68deJW9VggAZQ=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Advanced Micro Devices",
+     "Inc.",
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Starfire Ventures",
+   "関係": "ファンド設立",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-16",
+   "出典URL": "https://casrai.org/news/starfire-ventures-two-hundred-million-ai-fund-2026",
+   "確かさ": "報道",
+   "備考": "Serena WilliamsとBeth Ferreiraによる、AIネイティブスタートアップ向け2億ドルのデビューファンド",
+   "src": [
+    [
+     "CASRAI",
+     "https://casrai.org/news/starfire-ventures-two-hundred-million-ai-fund-2026"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGFm0oYTI5KMqIpbLKhqH5RR3K2Wz-LnT-mMbGaFB87MacyjanuLrxeMnWXci8N9XoaFtMgNPW58MjPLWvdKl87YGDoxhpso6A5QOci-j6AOFDDNIhg2L9aswBEb_b55y5vro3zmgVBiL2VkASUBvIum7PY00wLpvbi-FSIk1JEu_pjZ5FR",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Creandum",
+   "関係": "ファンド閉鎖",
+   "相手": "Fund VIII",
+   "金額": "750 million",
+   "日付": "2026-11",
+   "出典URL": "https://www.everythingstartups.com/new-ai-vc-funds",
+   "確かさ": "報道",
+   "備考": "ヨーロッパとアメリカのAI駆動型スタートアップ向けファンド",
+   "src": [
+    [
+     "EverythingStartups",
+     "https://www.everythingstartups.com/new-ai-vc-funds"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvixli507rBG6J4EApmDDTOU1RZK1XPDpJlPgAaP7bkmBmVDHfFuuIckTulBxjWNJ7dNpHWhrURh4uH0S_uS09LGzZEWi1n6KMQg1QVZhvR9M1pmr9XKMht4sMyHXvPOicGES7w2nen2G348FN",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Greenoaks",
+   "関係": "出資",
+   "相手": "Isomorphic Labs",
+   "金額": "5 billion",
+   "日付": "2026-11-21",
+   "出典URL": "https://en.wowtale.net/2026/11/22/236120/",
+   "確かさ": "報道",
+   "備考": "シリーズCラウンド、Sequoia Capital、a16z、Alphabetも共同リード投資",
+   "src": [
+    [
+     "WOWTALE Global Weekly",
+     "https://en.wowtale.net/2026/11/22/236120/"
+    ]
+   ],
+   "既存の名前": [
+    "Greenoaks",
+    "Isomorphic Labs"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuDN1FlrydybY-z-24P5ytiz2fEh2ujD40QcnratdCWCeQwoN37caImJGGXhcQAQeouCH2HSnZPN4rC45OgLFcML2uCjjk5devtGj8cstYm0y6i1IEpX1J-kxBH1rR_OjUCRQW",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Premji Invest",
+   "関係": "出資",
+   "相手": "Genesis AI",
+   "金額": "500 million",
+   "日付": "2026-11-21",
+   "出典URL": "https://en.wowtale.net/2026/11/22/236120/",
+   "確かさ": "報道",
+   "備考": "シリーズAラウンド、Khosla Ventures、Eclipseも共同リード投資",
+   "src": [
+    [
+     "WOWTALE Global Weekly",
+     "https://en.wowtale.net/2026/11/22/236120/"
+    ]
+   ],
+   "既存の名前": [
+    "Genesis AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuDN1FlrydybY-z-24P5ytiz2fEh2ujD40QcnratdCWCeQwoN37caImJGGXhcQAQeouCH2HSnZPN4rC45OgLFcML2uCjjk5devtGj8cstYm0y6i1IEpX1J-kxBH1rR_OjUCRQW",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "General Atlantic",
+   "関係": "出資",
+   "相手": "Model ML",
+   "金額": "250 million",
+   "日付": "2026-11-21",
+   "出典URL": "https://en.wowtale.net/2026/11/22/236120/",
+   "確かさ": "報道",
+   "備考": "シリーズBラウンド、QED Investorsも共同リード投資",
+   "src": [
+    [
+     "WOWTALE Global Weekly",
+     "https://en.wowtale.net/2026/11/22/236120/"
+    ]
+   ],
+   "既存の名前": [
+    "General Atlantic",
+    "Model ML"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuDN1FlrydybY-z-24P5ytiz2fEh2ujD40QcnratdCWCeQwoN37caImJGGXhcQAQeouCH2HSnZPN4rC45OgLFcML2uCjjk5devtGj8cstYm0y6i1IEpX1J-kxBH1rR_OjUCRQW",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Info Edge Group",
+   "関係": "出資",
+   "相手": "Bharat Semi",
+   "金額": "24 million",
+   "日付": "2026-11-15",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVyyQ3mYNFgPieYdz2b-GCiwA04O71yKoiIXmgWRI5xL-BtU_3NtrlX7V9kzO0EHLeGGjuHoVOFTVRZ-qdiIKRpjl6mGqA0rtU6VypK3cvPfn-Q3NIryJPnplXUayghY38-i417YettQf5G6LP3wQLfyuqh33O7VzjG8bCS_YcOuBtE3zDEYVqClcK6eSHjWKKh8JCdDAyERQBljkM_DwOd9fkbOUFK2cla_vU-XwHOucSyXSv",
+   "確かさ": "報道",
+   "備考": "インドの半導体スタートアップ",
+   "src": [
+    [
+     "TechCrunch",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVyyQ3mYNFgPieYdz2b-GCiwA04O71yKoiIXmgWRI5xL-BtU_3NtrlX7V9kzO0EHLeGGjuHoVOFTVRZ-qdiIKRpjl6mGqA0rtU6VypK3cvPfn-Q3NIryJPnplXUayghY38-i417YettQf5G6LP3wQLfyuqh33O7VzjG8bCS_YcOuBtE3zDEYVqClcK6eSHjWKKh8JCdDAyERQBljkM_DwOd9fkbOUFK2cla_vU-XwHOucSyXSv"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "AI startup funding November 2026",
+   "venture capital AI investments November 15-22 2026",
+   "AI funding rounds last week November 2026",
+   "new AI funds November 2026",
+   "AI company acquisitions November 15-22 2026",
+   "AI M&A last week November 2026",
+   "AI company partnerships November 15-22 2026",
+   "AI executive moves November 15-22 2026",
+   "Anthropic IPO November 2026 news",
+   "Nvidia news November 2026 Jensen Huang",
+   "Apple AI agent November 2026",
+   "David Heinemeier Hansson AI project November 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2634,
+   "candidatesTokenCount": 2576,
+   "totalTokenCount": 16043,
+   "cachedContentTokenCount": 330,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2634
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 330
+    }
+   ],
+   "toolUsePromptTokenCount": 4021,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4021
+    }
+   ],
+   "thoughtsTokenCount": 6812,
+   "serviceTier": "standard"
+  }
+ }
+}

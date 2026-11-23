@@ -5,3 +5,8 @@ inbox/gemini/2026-11-20-2.json
 inbox/gemini/2026-11-20-3.json
 inbox/gemini/2026-11-20-4.json
 inbox/gemini/2026-11-20-5.json
+inbox/gemini/2026-11-22.json
+inbox/gemini/2026-11-22-2.json
+inbox/gemini/2026-11-23.json
+inbox/gemini/2026-11-23-2.json
+inbox/gemini/2026-11-23-recheck2.json

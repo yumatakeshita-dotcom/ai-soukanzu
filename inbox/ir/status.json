@@ -1,25 +1,23 @@
 {
  "tdnet": {
   "ok": true,
-  "rows": 1229,
+  "rows": 500,
   "days": [
+   "2026-11-23",
    "2026-11-20",
-   "2026-11-19",
-   "2026-11-18",
-   "2026-11-17",
-   "2026-11-16"
+   "2026-11-19"
   ]
  },
  "hkex": {
   "ok": true,
-  "rows": 467
+  "rows": 489
  },
  "sgx": {
   "ok": false,
-  "why": "api.sgx.com に接続できない(環境の許可に api.sgx.com / links.sgx.com を足す必要がある): <urlopen error Tunnel connection failed: 403 Forbidden (agent proxy: no rule or "
+  "why": "SGXのデータ元 api.sgx.com に接続できない(2026/11/21: 環境の許可は通ったが、SGX側が自動の取得を断る(Access Denied)。許可の問題ではない): HTTP Error 403: Forbidden"
  },
- "saved_at": "2026-11-21T16:30:12+09:00",
- "n_candidates": 7,
- "n_verified": 6,
- "n_rejected": 1
+ "saved_at": "2026-11-23T07:30:06+09:00",
+ "n_candidates": 0,
+ "n_verified": 0,
+ "n_rejected": 0
 }

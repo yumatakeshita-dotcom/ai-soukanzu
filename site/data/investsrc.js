@@ -5,6 +5,7 @@
    どれも、出典のページを実際に開いて、その出資が書いてあることを確かめたものだけ。
    名前が相関図の点と合わない行は何も起きない(壊れない)。 */
 const INVSRC_DS={
+ v_spxapollo:['SpaceX SEC 8-K(2026/10/26、Apollo運用の会社とGPU等の拘束力あるリース契約書。元金の総額約400億ドル・5〜5.25年。契約の締結は年内の見込み)','https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm','f'],
  iv_amz23:['Anthropic公式発表(2023/9/25、Amazonが最大40億ドルを出資)','https://www.anthropic.com/news/anthropic-amazon','o'],
  iv_msnv:['Anthropic公式発表(2025/11/18、NVIDIAが最大100億ドル・Microsoftが最大50億ドルを出資)','https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships','o'],
  iv_antg:['Anthropic公式発表(2026/2/12、シリーズG。GIC・Coatueが主導、Dragoneer・Founders Fund・ICONIQなどが共同主導)','https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation','o'],
@@ -33,6 +34,7 @@ const INVSRC_DS={
  iv_xaic:['xAI公式発表(2024/12/23、シリーズC。NVIDIA・AMDが参加)','https://x.ai/news/series-c','o']
 };
 const INVSRC=[
+ ['Apollo Global Management','SpaceX',['v_spxapollo'],'約400億ドルは開示書類で確認(拘束力あるリース契約書。締結は年内の見込み)','2026/11/22'],
  ['Amazon','Anthropic',['iv_amz23'],'最大40億ドル(2023年9月)','2026/11/21'],
  ['Microsoft','Anthropic',['iv_msnv'],'最大50億ドル(2025年11月)','2026/11/21'],
  ['Nvidia','Anthropic',['iv_msnv'],'最大100億ドル(2025年11月)','2026/11/21'],

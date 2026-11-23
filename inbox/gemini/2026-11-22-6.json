@@ -1,0 +1,148 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "ベトナム のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は DealStreetAsia・Inc42・TechCrunch など本文が開ける記事のURL",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Filum AI",
+   "関係": "出資",
+   "相手": "",
+   "金額": "$1M",
+   "日付": "2026-11",
+   "出典URL": "https://blog.mean.ceo/startups-vietnam-news-november-2026/",
+   "確かさ": "報道",
+   "備考": "ラウンド名不明",
+   "src": [
+    [
+     "Mean CEO's BLOG",
+     "https://blog.mean.ceo/startups-vietnam-news-november-2026/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6taafofgD3S6aCeUa36OoIrJAOhUYbi3YhLNDhMtdf3UuMTOyavrtg0-_N4FQl6pvF1lzQw5B2onHqwbGxHFdrv24Oo4lWfolW4G9HfPqMPpy0D76ra_NS6d5cOpbGjFhZwcpniWKFYkXponxrzjh8V-_9M=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Techcoop",
+   "関係": "出資",
+   "相手": "",
+   "金額": "$70M",
+   "日付": "2026-11",
+   "出典URL": "https://blog.mean.ceo/startups-vietnam-news-november-2026/",
+   "確かさ": "報道",
+   "備考": "シリーズA",
+   "src": [
+    [
+     "Mean CEO's BLOG",
+     "https://blog.mean.ceo/startups-vietnam-news-november-2026/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx6taafofgD3S6aCeUa36OoIrJAOhUYbi3YhLNDhMtdf3UuMTOyavrtg0-_N4FQl6pvF1lzQw5B2onHqwbGxHFdrv24Oo4lWfolW4G9HfPqMPpy0D76ra_NS6d5cOpbGjFhZwcpniWKFYkXponxrzjh8V-_9M=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "V-Indoor Care",
+   "関係": "支援",
+   "相手": "National IT Industry Promotion Agency (NIPA)",
+   "金額": "",
+   "日付": "2026-10-29",
+   "出典URL": "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm",
+   "確かさ": "報道",
+   "備考": "2026 Vietnam-Korea AI & Digital ForumのIRピッチングで2位入賞。NIPA韓国本社の無料ワークスペース支援を獲得。",
+   "src": [
+    [
+     "VnEconomy",
+     "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu3S6fHdQppI-aOQwEuSyx955Db1UdHHIU7FbDfTnyZakRq8UEDtr2JT1D_9wlcvxRCo3ry-bGCIuENoaAGmTKLxV2VmRlS1klPdonBzSyekbdm8J8lCJkmyH5YGrBchJb3GEeghA8J7xYJ0Yvy_AGJe-iIYln03szdbM-WAgoZTyvXWl7zu2aUH9Ga65uDy5cqKW_HTv70hwesGA5x1Yo5w==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "VEEP",
+   "関係": "支援",
+   "相手": "National IT Industry Promotion Agency (NIPA)",
+   "金額": "",
+   "日付": "2026-10-29",
+   "出典URL": "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm",
+   "確かさ": "報道",
+   "備考": "2026 Vietnam-Korea AI & Digital ForumのIRピッチングで3位入賞。NIPA韓国本社の無料ワークスペース支援を獲得。",
+   "src": [
+    [
+     "VnEconomy",
+     "https://en.vneconomy.vn/three-startups-win-investment-pitch-at-2026-vietnam-korea-ai-digital-forum.htm"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu3S6fHdQppI-aOQwEuSyx955Db1UdHHIU7FbDfTnyZakRq8UEDtr2JT1D_9wlcvxRCo3ry-bGCIuENoaAGmTKLxV2VmRlS1klPdonBzSyekbdm8J8lCJkmyH5YGrBchJb3GEeghA8J7xYJ0Yvy_AGJe-iIYln03szdbM-WAgoZTyvXWl7zu2aUH9Ga65uDy5cqKW_HTv70hwesGA5x1Yo5w==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "ベトナム AI スタートアップ 資金調達 2026年11月",
+   "Vietnam AI startup funding November 2026",
+   "Vietnam AI company investment November 2026",
+   "Vietnam AI acquisition November 2026",
+   "DealStreetAsia Vietnam AI November 2026",
+   "Inc42 Vietnam AI November 2026",
+   "TechCrunch Vietnam AI November 2026",
+   "DealStreetAsia Vietnam AI funding November 2026",
+   "TechCrunch Vietnam AI funding November 2026",
+   "Inc42 Vietnam AI funding November 2026",
+   "Vietnam AI startup investment November 2026 DealStreetAsia",
+   "Vietnam AI startup acquisition November 2026 TechCrunch"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2661,
+   "candidatesTokenCount": 1323,
+   "totalTokenCount": 19596,
+   "cachedContentTokenCount": 7370,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2661
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7370
+    }
+   ],
+   "toolUsePromptTokenCount": 9897,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 9897
+    }
+   ],
+   "thoughtsTokenCount": 5715,
+   "serviceTier": "standard"
+  }
+ }
+}

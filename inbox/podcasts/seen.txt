@@ -3369,3 +3369,11 @@ ac974bd6-b924-11f1-b9c2-27bec0444b81|Decoder with Nilay Patel|2026-11-21|Can Ant
 gid://art19-episode-locator/V0/jXYuwKke6KmV7t5RtRdk3ISvg8fggvTUCUV-rWcNu2s|Masters of Scale|2026-11-21|Rapid Response — Why everything is breaking: outages, AI, and the new cyber math, with CrowdStrike’s
 bb74684d-fcbe-4c36-9779-b5070115b930|Odd Lots (Bloomberg)|2026-11-21|How AI Is Forcing China to Reshape Industrial Policy
 https://rebuild.fm/436/|Rebuild|2026-11-21|436: Elephant in the Room (hak)
+d70c53e1-dcc7-4f40-8074-6935ed954820|20VC|2026-11-21|20VC: The State of Compute: What Everyone Needs to Know | Why Neo-Clouds are Great Businesses | What
+40e31e1f-4385-47fd-a314-d005618017ba|NewsPicks Daily Briefing|2026-11-21|【11月22日】ユニコーンが小企業に完敗した「特許訴訟」ほか
+substack:post:224503136|Lenny's Podcast|2026-11-22|First principles: What it takes to be a great product manager in the AI era | Sherif Mansour
+1a149f0e-47b5-4382-9be3-533a47758c3d|The a16z Show|2026-11-22|Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)
+491ad747-8985-4309-9cbf-4c69a137fb38|NewsPicks Daily Briefing|2026-11-22|【11月23日】ニッポンの「ドル箱」ビジネスの秘密 ほか
+f6478ddd-5f45-4f14-87bc-db11d4324a33|BRAVE Southeast Asia Tech|2026-11-22|Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750
+ff83c188-ab1e-4c47-ae93-167eee349cd1|The New Playbook 新创手册|2026-11-22|21间分店还不够！他竟然想把板面做到世界第一？｜Allan 的接班之路 - Super Kitchen
+37115d45-5e7b-452b-ad27-4cd682758278|BRAVE Southeast Asia Tech|2026-11-22|Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750

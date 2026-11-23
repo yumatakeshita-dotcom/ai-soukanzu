@@ -12,6 +12,7 @@
 使い方: python3 scripts/exectl_auto.py   (自動で足した件数を表示する)
 """
 import json, os, re, glob
+import quality_hold
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
@@ -63,8 +64,8 @@ def build():
             continue
         for it in d.get('items', []) if isinstance(d, dict) else []:
             src = [s for s in (it.get('src') or []) if isinstance(s, list) and len(s) >= 2 and str(s[1]).startswith('http')]
-            if not src or it.get('confidence') == 'うわさ':
-                continue
+            if not src or it.get('confidence') == 'うわさ' or quality_hold.hold_reason(it):
+                continue  # 品質チェックの「問題」は保留(取り込まない)
             en = it.get('name_en') or ''
             ja = it.get('name_ja') or en
             if not en and not ja:
