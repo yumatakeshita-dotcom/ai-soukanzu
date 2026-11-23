@@ -35749,10 +35749,13 @@ DATA.minimax=mk('minimax','MiniMax',[
 ],{EN:{yan:'Yan Junjie'},WEB:{minimax:'https://www.minimax.io'},WIKI:{minimax:'https://en.wikipedia.org/wiki/MiniMax_(company)'}});
 
 DATA.sbenergy=mk('sbenergy','SB Energy',[
- {id:'sbenergy',name:'SB Energy',kind:'c',from:2025,desc:'ソフトバンク傘下のエネルギー・データセンター開発会社。オハイオ州パイク郡のAIキャンパスを建設・所有・運営します。報道ベースの記述で、創業年などは未確認のため入れていません。'}
+ {id:'sbenergy',name:'SB Energy',kind:'c',from:2025,desc:'ソフトバンクグループの会社で、データセンターのキャンパスとエネルギー設備を開発・運営します。テキサス州ミラム郡(1.2GW)とオハイオ州パイク郡のキャンパスを手がけます。(2026/11/23、OpenAIの公式発表(2026/1/9)で確認。創業年は未確認のため入れていません)'},
+ {id:'hossfeld',name:'リッチ・ホスフェルド',kind:'p',from:2025,role:'共同CEO',desc:'SB Energyの共同CEO。2026年1月9日のOpenAIの公式発表で、共同CEOとして発言。(2026/11/23確認。就任時期は未確認)',src:['v_oaisbe']},
+ {id:'ares',name:'Ares',kind:'i',from:2026,role:'償還可能優先株 8億ドル',desc:'2026年1月9日、SB Energyが同社から8億ドルの償還可能優先株(Redeemable Preferred Equity)による資金を調達したと、OpenAIの公式発表に記載。(2026/11/23確認)',src:['v_oaisbe']}
 ],[
  {a:'openai',b:'sbenergy',k:'deal',label:'オハイオ 約8GW(20年賃貸)',since:2026,d:'2026年8月、オハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)の約8GW(IT容量)を、OpenAIが20年で借りる契約。SB Energyが建設・所有・運営し、最初の800MWは2028年、2032年まで拡張の予定。SB Energyが約55億ドル相当のワラントをOpenAIに付与し、NvidiaがWSJ報道で約1,050億ドル規模の保証をするとされています。報道ベース。保証額・契約年数は報道で食い違います(契約年数はAxiosが10年、ほかは20年)。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、Axios・The Next Web・Channel Insiderで確認)',src:['oaisbe']},
- {a:'softbank',b:'sbenergy',k:'owns',label:'傘下',since:2026,d:'ソフトバンク傘下の会社と報じられています。(報道ベース)',src:['oaisbe']}
+ {a:'openai',b:'sbenergy',k:'invest',label:'5億ドル出資',since:2026,d:'2026年1月9日、OpenAIとソフトバンクグループが各5億ドル(計10億ドル)をSB Energyに出資すると、OpenAIの公式発表。あわせてミラム郡の1.2GWのデータセンターの建設・運営をSB Energyに任せ、SB EnergyはOpenAIのAPI・ChatGPTの大口顧客にもなります。(2026/11/23、公式発表で確認)',src:['v_oaisbe']},
+ {a:'softbank',b:'sbenergy',k:'owns',label:'傘下(5億ドル出資)',since:2026,d:'「ソフトバンクグループの会社」とOpenAIの公式発表(2026/1/9)に記載。同日、ソフトバンクグループも5億ドルを出資。(2026/11/23、公式発表で確認)',src:['v_oaisbe']}
 ],{WEB:{}});
 
 const PN='2026年11月18日に追加。金色の線は取引(電力・データセンター・チップの供給など)、青い線は出資。金額・比率には契約の上限や報道ベースの数字を含みます。顔写真は載せていません(人物ページに写真がある人はそちらを使います)。';
@@ -35764,7 +35767,7 @@ Object.assign(COMPANIES,{
  xenergy:{name:'X-energy',min:2009,note:PN},
  cfs:{name:'Commonwealth Fusion Systems',min:2018,note:PN+'Googleの出資額は公表されていません。'},
  talen:{name:'Talen Energy',min:2015,note:PN+'Amazonとの契約の金額は公表されていません。'},
- sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸は報道ベースで、保証額・契約年数は報道で食い違います。人物・出資の記録はまだありません。'},
+ sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸は報道ベースで、保証額・契約年数は報道で食い違います。共同CEO・出資(OpenAI・ソフトバンクグループ各5億ドル、Ares 8億ドル)はOpenAIの公式発表(2026/1/9)で確認。ほかの人物・出資は未確認です。'},
  tensorwave:{name:'TensorWave',min:2023,note:PN+'共同創業者の顔ぶれは公式の発表で確認できたCEOだけを「共同創業者」としています。'},
  iren:{name:'IREN',min:2018,note:PN+'Microsoftとの契約はIRENの米国証券取引委員会への届け出(2025年11月3日)に基づく報道です。'},
  applieddigital:{name:'Applied Digital',min:2021,note:PN+'賃料の合計は会社の見込みの数字です。'},
@@ -35879,6 +35882,7 @@ function primaryHtml(){
 // ===== 取引関係(クラウド・GPU・計算資源の契約) 2026年11月13日時点の公開情報 =====
 const DEAL_ASOF='2026年11月13日';
 const DS={
+ v_oaisbe:['OpenAI公式発表(2026/1/9)','https://openai.com/index/stargate-sb-energy-partnership/','o'],
  oaisbe:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy'],
  oaitw:['The Next Web(2026-11-16)','https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios'],
  msoai:['Microsoft公式ブログ(2025/10/28)','https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/'],
