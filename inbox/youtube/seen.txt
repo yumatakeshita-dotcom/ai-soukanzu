@@ -492,3 +492,63 @@ ehe7ggFdTvg|テレ東BIZ|2026-11-23|トランプ氏「合意できなければ�
 aZCQu9BfmPU|テレ東BIZ|2026-11-23|アガサ・クリスティー没後50年 湊かなえが魅力を熱弁/鈴木保奈美が2025年に最も出会えてよかった1冊の作者が登場！/羽田圭介が愛する谷崎潤一郎作品【あの本、読みました？】
 ZCZLjMwRd6A|日本経済新聞|2026-11-23|【首里城正殿を一般公開】 #Shorts
 Apg-8FWQvsc|日本経済新聞|2026-11-23|【衣類など20万円以下の輸入、関税簡易に】中国EC利用増で通関負担重く #Shorts
+XaTnk0-RP5Y|Colin and Samir|2026-11-23|YouTube's Biggest Podcaster Explains How He Packages Every Interview
+jvUvc2VhY3s|Cheeky Pint|2026-11-23|How the CEO of Revolut detects bullshit
+vFGrw-dfoSk|20VC with Harry Stebbings|2026-11-23|Why American AI Labs Can’t Access Their Own Compute | Anjney Midha
+mg4yo5HUMuQ|20VC with Harry Stebbings|2026-11-23|"Fire the Bankers": Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable | Anj Midha
+ffHcwb1xi_w|TBPN|2026-11-23|Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records
+KVOriZgI1QI|TBPN|2026-11-23|Waymos Can't Swim
+RwYz8XhZiu0|a16z|2026-11-23|Why OpenAI Acquired a Biotech Startup
+ivjraoHQb4o|Lenny's Podcast|2026-11-23|The Surprising Muse Use Case
+QAE9nRTHtas|Dwarkesh Patel|2026-11-23|What if GPT-10 did the Hugging Face hack? - Paul Christiano
+w-ltt0Np2cY|OpenAI|2026-11-23|Investigating Linux Vulnerabilities with GPT-6 Cyber
+MpsO8Ds8uyo|OpenAI|2026-11-23|Investigating Linux Vulnerabilities with GPT-6 Cyber
+gAmjBqXNoFI|OpenAI|2026-11-23|How Franklin Templeton uses AI for investment research | OpenAI
+PXKvR8ta22Q|OpenAI|2026-11-23|How Franklin Templeton uses AI for investment research | OpenAI
+oF2xi9BaHco|NVIDIA|2026-11-23|Tomorrow on the NVIDIA AI Podcast.
+2b4QUm0tuVc|NVIDIA|2026-11-23|Unwrap new possibilities this holiday season. 🎁
+NZ5W6OymlLs|Microsoft Research|2026-11-23|FLOE: Random-Access AEAD for Fast Lightweight Online Encryption
+SgA0SDaxfLI|Microsoft Research|2026-11-23|Merkle Mountain Ranges are Optimal: On Witness Update Frequency for Cryptographic Accumulators
+9bQmxzI5PRQ|Microsoft Research|2026-11-23|Toward Cultural Alignment: Human-Centered Evaluation of Multimodal AI Stories Across 5 Communities
+zbHk7OIfrtw|CNBC Television|2026-11-23|LIVE: President Trump delivers remarks at the Department of Justice — 11/23/2026
+Wc2krdjZBBw|CNBC Television|2026-11-23|Market Close: Stocks Rally as Jensen Huang Returns as Nvidia CEO • 11/23/26
+HvmybmMcf80|CNBC Television|2026-11-23|'This is a historic moment': Stephanie Link, Alex Kantrowitz, Malcolm Ethridge on Nvidia's bounce
+-KzsKuC1AUs|CNBC Television|2026-11-23|Watch CNBC's full interview with President Trump
+hMscPs9XTv4|CNBC Television|2026-11-23|More Americans are doomsday prepping amid tech outages
+kw2cLZuS-gY|CNBC Television|2026-11-23|Employees cheer as Jensen Huang returns to Nvidia
+DaYx5j0uAgQ|CNBC Television|2026-11-23|Dan Ives: Shareholder activism was the groundswell to bringing Jensen Huang back
+MruRPjNhSec|CNBC Television|2026-11-23|DOJ shouldn't work for the president, they should conduct their own neutral investigation: Attorney
+yTkAYTGOHM0|CNBC Television|2026-11-23|CNBC's Eamon Javers on his phone call with President Trump — from the side of the road
+c55YEVRnuE4|CNBC Television|2026-11-23|Altimeter's Brad Gerstner on Jensen Huang returning as Nvidia CEO
+WYX04kGQ4aQ|CNBC Television|2026-11-23|Jensen Huang to testify before Senate Banking Committee on Dec. 3
+unawbXKdSZI|CNBC Television|2026-11-23|Jensen Huang returns to Nvidia: 'I'm going to be a better CEO the second time around'
+uMVbETHlgko|CNBC Television|2026-11-23|Squawk Pod: Jensen Huang is back - 11/23/26 | Audio Only
+qk2h_WFk3cE|CNBC Television|2026-11-23|Faber: Nvidia board 'very recently' didn't plan on reinstating Jensen Huang as CEO
+P4cC4fWQ0zw|CNBC Television|2026-11-23|Trump: Jensen Huang is 'a national treasure'
+ssAMjbpa7JI|NewsPicks|2026-11-23|【女性の人生】なぜハードモード？#newspicks
+oY5D2zK9JJU|NewsPicks|2026-11-23|つまらない本こそ読め。作家・小川哲に聞く、”ギュられない”ための「偏り」を生む読書 ｜WOMANSHIP NewsPicks for WE
+32w6-lVp4zA|NewsPicks|2026-11-23|【黒岩里奈×中野信子】人は外見で判断される？ #中野信子 #ルッキズム #黒岩里奈 #脳科学 #見た目 #第一印象 #キャリア #NewsPicks #TheChanneling
+fQA4FZJJXM4|NewsPicks|2026-11-23|「深い話ができない」なぜ大人は友達に気を使うのか？【黒岩里奈×中野信子】
+i4i0Myt_xWU|NewsPicks|2026-11-23|朝7時の皇居ランニングから出会いが始まる？ 運動コミュニティ最前線【岸谷蘭丸/MON7A/土居明莉】
+8uTiXe1AL5c|NewsPicks|2026-11-23|【高須幹弥×辻大成】医師がやりたくない美容整形とは？#美容整形 #高須幹弥 #整形依存症 #美容外科 #高須クリニック #顔面課金 #ルッキズム #NewsPicks #2Sides
+bO-ooOq_vC8|ReHacQ-リハック-|2026-11-23|【呉座勇一vs高橋弘樹】日本初のタレント「宗祇」とは！？京都のセレブで貧乏ごっこが大流行とは？【ReHacQ】
+8DnQQ4TYpw4|PIVOT|2026-11-23|【α世代のリアル。2010〜24年に生まれたAIネイティブ】α世代とは？／子持ち層はパワーカップルとマイルドヤンキーに二極化／話を聞けない子が8割／所得で幸福度に差／都会と地方の差は小さい／下剋上
+D83GEReSVjs|PIVOT|2026-11-23|【速報解説：日露首脳会談。採点は60点】なぜ領空侵犯された次の日に？／日本が会談を頼んだ3つの理由／ロシアにとって損のない話／サハリン２というカード／話せたのは○、交渉としては×
+rFcJg7QT6q0|PIVOT|2026-11-23|【24日12:00〜生配信】大岩ジャパン最速予測／注目ポイント・3月末の初戦はどんな布陣とメンバーかを徹底予想【木崎伸也×ミムラユウスケ×レオザ×カキーノ】
+xisgz9RocqQ|PIVOT|2026-11-23|【超富裕層は何に投資しているのか】害獣駆除で4000万／健康長寿×生命保険／塗料業界に注目する理由／海運・造船・創薬／業界裏話／田村耕太郎×杉村太蔵 ×ハセン【PIVOT TALK SPECIAL】
+llJzAYy4-Qo|テレ東BIZ|2026-11-23|ロシア製の巡航ミサイル ポーランド落下の飛行物体【WBS】
+VYZWRNf3o4c|テレ東BIZ|2026-11-23|「たまごっち」発売30周年 米ニューヨークでイベント【WBS】
+hFSHnWx2gyY|テレ東BIZ|2026-11-23|ロシアが核衛星打ち上げか 年内にもと独メディア【WBS】
+rTAeLeKg3oo|テレ東BIZ|2026-11-23|顔認証決済の実証実験 2027年夏の事業化目指す【WBS】
+E2BFu0rNgdY|テレ東BIZ|2026-11-23|イラン再攻撃の可能性警告 トランプ大統領【WBS】
+NmlQvUQADc0|テレ東BIZ|2026-11-23|韓国酒場に機内食…10年後の稼ぎ頭は／業務スーパー“都市型”で攻める！？／神戸物産 沼田博和社長・インタビュー未公開版【WBS】
+r1VUYJTYo1Q|テレ東BIZ|2026-11-23|異色の弁護士出身社長！ミネベアミツミ売上高1兆6000億円の裏側【カンブリア宮殿】
+1fbSnSKxYhY|テレ東BIZ|2026-11-23|「お赤飯の日」1800食無料配布 「新嘗祭」にちなんで
+bVhmqrsB1CI|テレ東BIZ|2026-11-23|レインボーブリッジで自転車快走 約6000人が参加
+D18OWroX7kg|テレ東BIZ|2026-11-23|中国国家安全省と連絡か エヌビディア問題の女性
+j9NmlP1u0TQ|テレ東BIZ|2026-11-23|米民主党92年以来最大議席を獲得
+jpMLNDf3L9o|テレ東BIZ|2026-11-23|ロシア軍が無人機攻撃 ウクライナ首都近郊で6人死亡 14時間ぶり7歳児救出
+-avz3wXyFhk|テレ東BIZ|2026-11-23|COP31　成果文書で合意できずに閉幕
+isdoZwB7-Ik|テレ東BIZ|2026-11-23|首里城一般公開開始 7年ぶりに復元
+zHRHak0QeVk|日本経済新聞|2026-11-23|【広がる「日本酒缶」】 #Shorts
+fXDhXlEwV0I|日本経済新聞|2026-11-23|【ドンキ「フェイク海鮮丼」12月発売】 #Shorts

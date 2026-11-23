@@ -1,0 +1,774 @@
+{
+ "date": "2026-11-23",
+ "summary": "過去動画の取得: 30/30チャンネル、新しく88本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "a16z",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 43
+  },
+  {
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 6
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 14
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "videos": [
+  {
+   "id": "XaTnk0-RP5Y",
+   "title": "YouTube's Biggest Podcaster Explains How He Packages Every Interview",
+   "age": "5h ago",
+   "channel": "Colin and Samir",
+   "url": "https://www.youtube.com/watch?v=XaTnk0-RP5Y"
+  },
+  {
+   "id": "jvUvc2VhY3s",
+   "title": "How the CEO of Revolut detects bullshit",
+   "age": "3h ago",
+   "channel": "Cheeky Pint",
+   "url": "https://www.youtube.com/watch?v=jvUvc2VhY3s"
+  },
+  {
+   "id": "vFGrw-dfoSk",
+   "title": "Why American AI Labs Can’t Access Their Own Compute | Anjney Midha",
+   "age": "3h ago",
+   "channel": "20VC with Harry Stebbings",
+   "url": "https://www.youtube.com/watch?v=vFGrw-dfoSk"
+  },
+  {
+   "id": "mg4yo5HUMuQ",
+   "title": "The US Sold Too Many Chips To China | Why the Inference Layer is Uninvestable | Anj Midha",
+   "age": "7h ago",
+   "channel": "20VC with Harry Stebbings",
+   "url": "https://www.youtube.com/watch?v=mg4yo5HUMuQ"
+  },
+  {
+   "id": "ffHcwb1xi_w",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records",
+   "age": "Streamed 1h ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=ffHcwb1xi_w"
+  },
+  {
+   "id": "KVOriZgI1QI",
+   "title": "Waymos Can't Swim",
+   "age": "4h ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=KVOriZgI1QI"
+  },
+  {
+   "id": "RwYz8XhZiu0",
+   "title": "Why OpenAI Acquired a Biotech Startup",
+   "age": "6h ago",
+   "channel": "a16z",
+   "url": "https://www.youtube.com/watch?v=RwYz8XhZiu0"
+  },
+  {
+   "id": "ivjraoHQb4o",
+   "title": "The Surprising Muse Use Case",
+   "age": "8h ago",
+   "channel": "Lenny's Podcast",
+   "url": "https://www.youtube.com/watch?v=ivjraoHQb4o"
+  },
+  {
+   "id": "QAE9nRTHtas",
+   "title": "What if GPT-10 did the Hugging Face hack? - Paul Christiano",
+   "age": "2h ago",
+   "channel": "Dwarkesh Patel",
+   "url": "https://www.youtube.com/watch?v=QAE9nRTHtas"
+  },
+  {
+   "id": "w-ltt0Np2cY",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "age": "2h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=w-ltt0Np2cY"
+  },
+  {
+   "id": "MpsO8Ds8uyo",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "age": "2h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo"
+  },
+  {
+   "id": "gAmjBqXNoFI",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "age": "6h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=gAmjBqXNoFI"
+  },
+  {
+   "id": "PXKvR8ta22Q",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "age": "7h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=PXKvR8ta22Q"
+  },
+  {
+   "id": "oF2xi9BaHco",
+   "title": "Tomorrow on the NVIDIA AI Podcast.",
+   "age": "18 min ago",
+   "channel": "NVIDIA",
+   "url": "https://www.youtube.com/watch?v=oF2xi9BaHco"
+  },
+  {
+   "id": "2b4QUm0tuVc",
+   "title": "Unwrap new possibilities this holiday season. 🎁",
+   "age": "3h ago",
+   "channel": "NVIDIA",
+   "url": "https://www.youtube.com/watch?v=2b4QUm0tuVc"
+  },
+  {
+   "id": "NZ5W6OymlLs",
+   "title": "FLOE: Random-Access AEAD for Fast Lightweight Online Encryption",
+   "age": "4h ago",
+   "channel": "Microsoft Research",
+   "url": "https://www.youtube.com/watch?v=NZ5W6OymlLs"
+  },
+  {
+   "id": "SgA0SDaxfLI",
+   "title": "Merkle Mountain Ranges are Optimal: On Witness Update Frequency for Cryptographic Accumulators",
+   "age": "4h ago",
+   "channel": "Microsoft Research",
+   "url": "https://www.youtube.com/watch?v=SgA0SDaxfLI"
+  },
+  {
+   "id": "9bQmxzI5PRQ",
+   "title": "Toward Cultural Alignment: Human-Centered Evaluation of Multimodal AI Stories Across 5 Communities",
+   "age": "5h ago",
+   "channel": "Microsoft Research",
+   "url": "https://www.youtube.com/watch?v=9bQmxzI5PRQ"
+  },
+  {
+   "id": "zbHk7OIfrtw",
+   "title": "LIVE: President Trump delivers remarks at the Department of Justice — 11/23/2026",
+   "age": "",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=zbHk7OIfrtw"
+  },
+  {
+   "id": "Wc2krdjZBBw",
+   "title": "Market Close: Stocks Rally as Jensen Huang Returns as Nvidia CEO • 11/23/26",
+   "age": "32 min ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=Wc2krdjZBBw"
+  },
+  {
+   "id": "HvmybmMcf80",
+   "title": "'This is a historic moment': Stephanie Link, Alex Kantrowitz, Malcolm Ethridge on Nvidia's bounce",
+   "age": "1h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=HvmybmMcf80"
+  },
+  {
+   "id": "-KzsKuC1AUs",
+   "title": "Watch CNBC's full interview with President Trump",
+   "age": "1h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=-KzsKuC1AUs"
+  },
+  {
+   "id": "hMscPs9XTv4",
+   "title": "More Americans are doomsday prepping amid tech outages",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=hMscPs9XTv4"
+  },
+  {
+   "id": "kw2cLZuS-gY",
+   "title": "Employees cheer as Jensen Huang returns to Nvidia",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=kw2cLZuS-gY"
+  },
+  {
+   "id": "DaYx5j0uAgQ",
+   "title": "Dan Ives: Shareholder activism was the groundswell to bringing Jensen Huang back",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=DaYx5j0uAgQ"
+  },
+  {
+   "id": "MruRPjNhSec",
+   "title": "DOJ shouldn't work for the president, they should conduct their own neutral investigation: Attorney",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=MruRPjNhSec"
+  },
+  {
+   "id": "yTkAYTGOHM0",
+   "title": "CNBC's Eamon Javers on his phone call with President Trump — from the side of the road",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=yTkAYTGOHM0"
+  },
+  {
+   "id": "c55YEVRnuE4",
+   "title": "Altimeter's Brad Gerstner on Jensen Huang returning as Nvidia CEO",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=c55YEVRnuE4"
+  },
+  {
+   "id": "WYX04kGQ4aQ",
+   "title": "Jensen Huang to testify before Senate Banking Committee on Dec. 3",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=WYX04kGQ4aQ"
+  },
+  {
+   "id": "unawbXKdSZI",
+   "title": "Jensen Huang returns to Nvidia: 'I'm going to be a better CEO the second time around'",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=unawbXKdSZI"
+  },
+  {
+   "id": "uMVbETHlgko",
+   "title": "Squawk Pod: Jensen Huang is back - 11/23/26 | Audio Only",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=uMVbETHlgko"
+  },
+  {
+   "id": "qk2h_WFk3cE",
+   "title": "Faber: Nvidia board 'very recently' didn't plan on reinstating Jensen Huang as CEO",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=qk2h_WFk3cE"
+  },
+  {
+   "id": "P4cC4fWQ0zw",
+   "title": "Trump: Jensen Huang is 'a national treasure'",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=P4cC4fWQ0zw"
+  },
+  {
+   "id": "rLXMnTdNM1M",
+   "title": "Trump: If I didn't get involved, you'd 'have a very sad Nvidia for a long time to come'",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=rLXMnTdNM1M"
+  },
+  {
+   "id": "XAVqD9E7upg",
+   "title": "Altimeter's Brad Gerstner reacts to Jensen Huang's reinstatement as Nvidia CEO",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=XAVqD9E7upg"
+  },
+  {
+   "id": "RmeqtY0X_HM",
+   "title": "Nvidia's board should 'completely resign' after Huang reinstatement, says Yale's Jeffrey Sonnenfeld",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=RmeqtY0X_HM"
+  },
+  {
+   "id": "XPRvHrvNbEI",
+   "title": "Trump on Nvidia's future after Huang's return as CEO: 'Sex sells'",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=XPRvHrvNbEI"
+  },
+  {
+   "id": "iTvxoWela4E",
+   "title": "Trump on Jensen Huang's return to Nvidia: 'He's a good person. He went through hell'",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=iTvxoWela4E"
+  },
+  {
+   "id": "JqiaCfof700",
+   "title": "Market Midday: Stocks Soar, Trump Urged Nvidia Board To Reinstate Huang As CEO 11/23/26",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=JqiaCfof700"
+  },
+  {
+   "id": "95rXXXQipOs",
+   "title": "Trump: 'I convinced' Nvidia board to reinstate Jensen Huang",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=95rXXXQipOs"
+  },
+  {
+   "id": "UBS4WvbVsBI",
+   "title": "CrowdStrike agrees to buy ZScaler in an all-stock deal valued at $44 billion",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=UBS4WvbVsBI"
+  },
+  {
+   "id": "OPKFGvbZmBQ",
+   "title": "Trump on national security: Losing Jensen Huang's 'brainpower' is bigger threat",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=OPKFGvbZmBQ"
+  },
+  {
+   "id": "v2dduG0PFN8",
+   "title": "Trump tells CNBC he spoke to Nvidia board directly about Jensen Huang",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=v2dduG0PFN8"
+  },
+  {
+   "id": "TxSZZRffPjw",
+   "title": "Treasury Counselor David Zervos on the Fed's inflation fight",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=TxSZZRffPjw"
+  },
+  {
+   "id": "KWrbz1ollCg",
+   "title": "President Trump: ‘I convinced’ Nvidia board to reinstate Jensen Huang",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=KWrbz1ollCg"
+  },
+  {
+   "id": "stwR6rzSkyU",
+   "title": "Expect a snapback following last week's market rout: Wharton's Jeremy Siegel",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=stwR6rzSkyU"
+  },
+  {
+   "id": "-GU6jJQtj_Q",
+   "title": "Trump on Jensen Huang's return to Nvidia: 'We have to protect our geniuses'",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=-GU6jJQtj_Q"
+  },
+  {
+   "id": "vXFp8k8_Les",
+   "title": "Iceland's Blue Lagoon just IPOed. Its CEO explains why now",
+   "age": "Iceland's Blue Lagoon just IPOed. Its CEO explains why now",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=vXFp8k8_Les"
+  },
+  {
+   "id": "wuT4dibU2B4",
+   "title": "The uncertainty hanging over Anthropic's access to compute",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=wuT4dibU2B4"
+  },
+  {
+   "id": "yhFjelpsa_M",
+   "title": "Faber and Cramer sound off on Jensen Huang's return to Nvidia",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=yhFjelpsa_M"
+  },
+  {
+   "id": "CP3gcvdvRZU",
+   "title": "Stuck: How a frozen housing market is hitting buyers, sellers and the economy",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=CP3gcvdvRZU"
+  },
+  {
+   "id": "iaMeRURYI5k",
+   "title": "Market Open: Stocks Rocket Higher, Nvidia Reinstates Huang, CrowdStrike Buys Zscaler • 11/23/26",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=iaMeRURYI5k"
+  },
+  {
+   "id": "eCxI-Y9TeKM",
+   "title": "November art sales in New York top $2B",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=eCxI-Y9TeKM"
+  },
+  {
+   "id": "nRALkLJNkZs",
+   "title": "'Squawk on the Street’ crew react to Nvidia reinstating Jensen Huang as CEO",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=nRALkLJNkZs"
+  },
+  {
+   "id": "MsCRlZs5mDc",
+   "title": "Fed's Warsh faces inflation vs. market-driven rate dilemma",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=MsCRlZs5mDc"
+  },
+  {
+   "id": "1QNk-cwLttg",
+   "title": "Nvidia reinstates Jensen Huang as CEO",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=1QNk-cwLttg"
+  },
+  {
+   "id": "N9XrPQi9ZTA",
+   "title": "Nvidia reinstates Jensen Huang as CEO",
+   "age": "8h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=N9XrPQi9ZTA"
+  },
+  {
+   "id": "5OQiolOLM-c",
+   "title": "Treasury counselor David Zervos: I'm very skeptical that inflation is running amok",
+   "age": "8h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=5OQiolOLM-c"
+  },
+  {
+   "id": "-JKIFpnsjN4",
+   "title": "The market could snap back as soon as sentiment shifts, says Fairlead's Katie Stockton",
+   "age": "9h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=-JKIFpnsjN4"
+  },
+  {
+   "id": "_-tKzYNiRtg",
+   "title": "Expect a snapback following last week's market rout, says Wharton's Jeremy Siegel",
+   "age": "10h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=_-tKzYNiRtg"
+  },
+  {
+   "id": "AdJPYPyYwbA",
+   "title": "Home Sales Hit 16 Year Low 11/23/26",
+   "age": "14h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=AdJPYPyYwbA"
+  },
+  {
+   "id": "ssAMjbpa7JI",
+   "title": "[Women's Lives] Why is it so hard? #newspicks",
+   "age": "21 min ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=ssAMjbpa7JI"
+  },
+  {
+   "id": "oY5D2zK9JJU",
+   "title": "つまらない本こそ読め。作家・小川哲に聞く、”ギュられない”ための「偏り」を生む読書 ｜WOMANSHIP NewsPicks for WE",
+   "age": "1h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=oY5D2zK9JJU"
+  },
+  {
+   "id": "32w6-lVp4zA",
+   "title": "[Rina Kuroiwa × Nobuko Nakano] Are People Judged by Their Appearance? #NobukoNakano #Lookism #Rin...",
+   "age": "10h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=32w6-lVp4zA"
+  },
+  {
+   "id": "fQA4FZJJXM4",
+   "title": "\"Why Can't I Have Deep Conversations?\" Why Do Adults Walk on Eggshells Around Friends? [Rina Kuro...",
+   "age": "11h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=fQA4FZJJXM4"
+  },
+  {
+   "id": "i4i0Myt_xWU",
+   "title": "Can Meeting People Start with a 7 AM Imperial Palace Run? The Frontline of Fitness Communities【Ra...",
+   "age": "12h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=i4i0Myt_xWU"
+  },
+  {
+   "id": "8uTiXe1AL5c",
+   "title": "[Mikiya Takasu x Taisei Tsuji] What Plastic Surgeries Do Doctors Refuse to Perform? #PlasticSurge...",
+   "age": "13h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=8uTiXe1AL5c"
+  },
+  {
+   "id": "bO-ooOq_vC8",
+   "title": "[Yuichi Goza vs. Hiroki Takahashi] Who was \"Sogi,\" Japan's first celebrity talent!? Why was playi...",
+   "age": "10h ago",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=bO-ooOq_vC8"
+  },
+  {
+   "id": "8DnQQ4TYpw4",
+   "title": "【α世代のリアル。2010〜24年に生まれたAIネイティブ】α世代とは？／子持ち層はパワーカップルとマイルドヤンキーに二極化／話を聞けない子が8割／所得で幸福度に差／都会と地方の差は小さい／下剋上",
+   "age": "21 min ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=8DnQQ4TYpw4"
+  },
+  {
+   "id": "D83GEReSVjs",
+   "title": "【速報解説：日露首脳会談。採点は60点】なぜ領空侵犯された次の日に？／日本が会談を頼んだ3つの理由／ロシアにとって損のない話／サハリン２というカード／話せたのは○、交渉としては×",
+   "age": "1h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=D83GEReSVjs"
+  },
+  {
+   "id": "rFcJg7QT6q0",
+   "title": "【24日12:00〜生配信】大岩ジャパン最速予測／注目ポイント・3月末の初戦はどんな布陣とメンバーかを徹底予想【木崎伸也×ミムラユウスケ×レオザ×カキーノ】",
+   "age": "",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=rFcJg7QT6q0"
+  },
+  {
+   "id": "xisgz9RocqQ",
+   "title": "【超富裕層は何に投資しているのか】害獣駆除で4000万／健康長寿×生命保険／塗料業界に注目する理由／海運・造船・創薬／業界裏話／田村耕太郎×杉村太蔵 ×ハセン【PIVOT TALK SPECIAL】",
+   "age": "11h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=xisgz9RocqQ"
+  },
+  {
+   "id": "llJzAYy4-Qo",
+   "title": "Russian-made cruise missiles: Flying objects fall in Poland【WBS】",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=llJzAYy4-Qo"
+  },
+  {
+   "id": "VYZWRNf3o4c",
+   "title": "Tamagotchi celebrates 30th anniversary with event in New York [WBS]",
+   "age": "Tamagotchi celebrates 30th anniversary with event in New York [WBS]",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=VYZWRNf3o4c"
+  },
+  {
+   "id": "hFSHnWx2gyY",
+   "title": "Russia Planning to Launch Nuclear Satellite by End of Year, German Media Reports [WBS]",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=hFSHnWx2gyY"
+  },
+  {
+   "id": "rTAeLeKg3oo",
+   "title": "Facial Recognition Payment Trial: Aiming for Commercial Launch in Summer 2027 【WBS】",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=rTAeLeKg3oo"
+  },
+  {
+   "id": "E2BFu0rNgdY",
+   "title": "President Trump warns of possible further attack on Iran [WBS]",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=E2BFu0rNgdY"
+  },
+  {
+   "id": "NmlQvUQADc0",
+   "title": "11/23/2026 wb special01 youtube",
+   "age": "10h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=NmlQvUQADc0"
+  },
+  {
+   "id": "r1VUYJTYo1Q",
+   "title": "The Unique Lawyer-Turned-CEO! The Secret Behind MinebeaMitsumi’s 1.6 Trillion Yen in Revenue [Cam...",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=r1VUYJTYo1Q"
+  },
+  {
+   "id": "1fbSnSKxYhY",
+   "title": "20261123 ys ns07",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=1fbSnSKxYhY"
+  },
+  {
+   "id": "bVhmqrsB1CI",
+   "title": "20261123 ys ns06",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=bVhmqrsB1CI"
+  },
+  {
+   "id": "D18OWroX7kg",
+   "title": "20261123 ys ns05",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=D18OWroX7kg"
+  },
+  {
+   "id": "j9NmlP1u0TQ",
+   "title": "11/23/2026 ys ns04",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=j9NmlP1u0TQ"
+  },
+  {
+   "id": "jpMLNDf3L9o",
+   "title": "20261123 ys ns03",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=jpMLNDf3L9o"
+  },
+  {
+   "id": "-avz3wXyFhk",
+   "title": "20261123 ys ns02",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=-avz3wXyFhk"
+  },
+  {
+   "id": "isdoZwB7-Ik",
+   "title": "20261123 ys ns01",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=isdoZwB7-Ik"
+  },
+  {
+   "id": "zHRHak0QeVk",
+   "title": "【広がる「日本酒缶」】 #Shorts",
+   "age": "12h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=zHRHak0QeVk"
+  },
+  {
+   "id": "fXDhXlEwV0I",
+   "title": "【ドンキ「フェイク海鮮丼」12月発売】 #Shorts",
+   "age": "15h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=fXDhXlEwV0I"
+  }
+ ]
+}

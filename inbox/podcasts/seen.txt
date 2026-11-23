@@ -3377,3 +3377,15 @@ substack:post:224503136|Lenny's Podcast|2026-11-22|First principles: What it tak
 f6478ddd-5f45-4f14-87bc-db11d4324a33|BRAVE Southeast Asia Tech|2026-11-22|Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750
 ff83c188-ab1e-4c47-ae93-167eee349cd1|The New Playbook 新创手册|2026-11-22|21间分店还不够！他竟然想把板面做到世界第一？｜Allan 的接班之路 - Super Kitchen
 37115d45-5e7b-452b-ad27-4cd682758278|BRAVE Southeast Asia Tech|2026-11-22|Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750
+0fddb141-5650-458f-80cc-4d697b92249d|20VC|2026-11-23|20VC: Nvidia Without Jensen: Is Anthropic the Real Winner? | "Fire the Bankers": Why Most VCs Won't 
+b153c200-90b4-41fb-8ffd-870469465814|TBPN|2026-11-23|Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records | Julia Black, Bill Gross, Jay Jandr
+69f0b39d-1f9e-402b-ba8c-31b8a1a4184c|TBPN|2026-11-23|Jensen Huang Returns As NVIDIA CEO | Diet TBPN
+f1b5cdac-cfc6-11f0-83c5-2b9504858a23|Decoder with Nilay Patel|2026-11-23|How one router caused the worst ground stop since 9/11
+4ff4b9e2-e767-11f1-9a67-afcdc5a160e9|Big Technology Podcast|2026-11-23|The Shocking Return of Jensen Huang
+59b03949-d611-4a90-952e-93929d5a6e07|The a16z Show|2026-11-23|The One-Person Biotech | OpenAI Life Sciences
+4997c0a0-d220-11f1-b770-7b58e70eb882|How I Built This|2026-11-23|Rothy's: Roth Martin. The Art Dealer Who Built a $1B Shoe Brand from Plastic Bottles
+ef741101-1572-4ac7-b9c9-b507017075ac|Odd Lots (Bloomberg)|2026-11-23|What a Town Full of Vibecoders Says About the Chinese Economy
+8fa9026a-e33d-42b2-8a9a-236d828ccd27|川邊の会食(川邊健太郎)|2026-11-23|#23-3 専門家でも、面白く伝えたい──さんまさん・有吉さんとの共演で学んだこと ゲスト：中野信子さん
+23d25c8e-e4bf-11f1-a8ea-bf8e9e5fa032|日経ビジネス モーニングニュース|2026-11-23|11月24日（火）：アンソロピック、異色の統治／オアシスが非公開化迫る手法／徹底予測 小売り
+5404e378-4bd5-4038-9f52-8fe24cab1e04|NewsPicks Daily Briefing|2026-11-23|【11月24日】NVIDIAトップ「電撃復帰」の裏側 ほか
+6f9c743f996229bd5493e91bf38f324d0fc775457112dd25c357edcd844d3973|10分でわかるスタートアップ・資金調達ニュース|2026-11-24|10億円調達のPlanet Savers、なぜ一度に集めない？

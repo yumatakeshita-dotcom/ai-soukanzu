@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-23",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着12本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "0fddb141-5650-458f-80cc-4d697b92249d",
+   "show": "20VC",
+   "kind": "VC",
+   "lang": "en",
+   "title": "20VC: Nvidia Without Jensen: Is Anthropic the Real Winner? | \"Fire the Bankers\": Why Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable and Tranched Rounds Should Be Banned with Anjney Midha",
+   "published": "2026-11-23",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-without-jensen-is-anthropic-the-real-winner-fire-the-bankers-why-most-vcs-wont-survive-ai-why-the-inference-layer-is-uninvestable-and-tranched-rounds-should-be-banned-with-anjney-midha",
+   "description": "Anjney Midha is one of Anthropic's earliest angel investors, backing the company in its founding round in 2021. Previously a General Partner at Andreessen Horowitz, he led investments in Mistral and Black Forest Labs. He was also an early angel investor in ElevenLabs and remains a Venture Partner at a16z. AGENDA: 05:00 Can America Power the AI Boom—or Is China Already Too Far Ahead? 18:00 Will Training a Single AI Model Really Cost $100 Billion? 20:00 Are VCs Lying About What Their Portfolios Are Worth? 25:00 Are AI Funding Rounds Becoming a House of Cards? 27:00 Could Custom Chips Break Nvidia's Grip on AI? 31:00 Will Companies Stop Renting AI and Own Their Intelligence? 38:00 Why Are Chinese Labs Getting the Compute American Researchers Can't? 42:00 Nvidia Without Jensen: Is Colette Kres"
+  },
+  {
+   "id": "b153c200-90b4-41fb-8ffd-870469465814",
+   "show": "TBPN",
+   "kind": "AI・テック",
+   "lang": "en",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records | Julia Black, Bill Gross, Jay Jandrain, Lincoln Murr, Thijs Simonian, Elliott Potter",
+   "published": "2026-11-23",
+   "url": "https://share.transistor.fm/s/ca7b9f75",
+   "description": "(00:26) - Jensen Returns (33:38) - Ferrari 296 CS Stuns (41:24) - Julia Black, a journalist at Vanity Fair, discusses Jensen Huang’s return to Nvidia and the reporting surrounding his alleged misconduct and ties to Chinese intelligence. She argues that the board acted reasonably, criticizes the market’s dependence on powerful tech leaders, and warns that major economic decisions are increasingly driven by political whims and investor sentiment rather than careful investigation. (55:05) - Bill Gross discusses his career as a lifelong entrepreneur and founder of Idealab, which has launched 175 companies over 30 years. He reflects on lessons from the dot-com era and explains why AI will supercharge entrepreneurship by lowering costs, generating business ideas, and enabling small teams to solv"
+  },
+  {
+   "id": "69f0b39d-1f9e-402b-ba8c-31b8a1a4184c",
+   "show": "TBPN",
+   "kind": "AI・テック",
+   "lang": "en",
+   "title": "Jensen Huang Returns As NVIDIA CEO | Diet TBPN",
+   "published": "2026-11-23",
+   "url": "https://share.transistor.fm/s/90952213",
+   "description": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella. TBPN is made possible by: Ramp - https://ramp.com Public - https://public.com Cisco - https://www.cisco.com Console - https://www.console.com CrowdStrike - https://www.crowdstrike.com Figma - https://www.figma.com Lambda - https://lambda.ai MongoDB - https://www.mongodb.com NYSE - https://www.nyse.com Railway - https://railway.com Shopify - https://www.shopify.com/ Follow TBPN: https://TBPN.com "
+  },
+  {
+   "id": "f1b5cdac-cfc6-11f0-83c5-2b9504858a23",
+   "show": "Decoder with Nilay Patel",
+   "kind": "テック経営者",
+   "lang": "en",
+   "title": "How one router caused the worst ground stop since 9/11",
+   "published": "2026-11-23",
+   "url": "",
+   "description": "Today, I’m talking with Darryl Campbell, a freelance journalist, aviation expert, and author of the book Fatal Abstraction: Why the Managerial Class Loses Control of Software. Darryl covers aviation and the FAA, and earlier this month, when the U.S. suffered a sudden nationwide ground stop on air travel, Darryl was all over the story. So ahead of one of the country’s major holiday travel weeks, I wanted to have Darryl on the show to walk us through this incident on Friday, Nov. 13, when the FAA grounded every departing flight in the country for more than four hours, and, more importantly, what happens now. Read the full interview transcript on The Verge. Links: America’s air traffic control system couldn’t handle a single bad router | The Verge Work to replace old copper wire led to the FA"
+  },
+  {
+   "id": "4ff4b9e2-e767-11f1-9a67-afcdc5a160e9",
+   "show": "Big Technology Podcast",
+   "kind": "テックニュース",
+   "lang": "en",
+   "title": "The Shocking Return of Jensen Huang",
+   "published": "2026-11-23",
+   "url": "",
+   "description": "Alex Kantrowitz is the host of Big Technology Podcast. Today he joins for a solo episode covering the return of Jensen Huang as CEO of Nvidia. Tune in to hear what Jensen's comeback means for Nvidia, U.S. AI, China AI, and why' the story isn't anywhere close to over. (Sorry for the sirens, a car crashed in front of my studio just before we started recording) Learn more about your ad choices. Visit megaphone.fm/adchoices"
+  },
+  {
+   "id": "59b03949-d611-4a90-952e-93929d5a6e07",
+   "show": "The a16z Show",
+   "kind": "VC",
+   "lang": "en",
+   "title": "The One-Person Biotech | OpenAI Life Sciences",
+   "published": "2026-11-23",
+   "url": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
+   "description": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development. They trace OpenAI’s life sciences work from scientific reasoning to the acquisition of Orchestra Bio, and how agents could search biological data, manage clinical trials, and navigate regulatory and manufacturing workflows. They also discuss AI’s role in solving difficult diagnoses and a future where a single person could potentially launch and advance multiple biotech programs. Resources: Joy Jiao on LinkedIn: https://www.linkedin.com/in/yunxin-jiao/ Follow Ashoka Rajendra on X: https://x.com/ashokaraj_ OpenAI on Orchestra Bio and Rosalind: https:"
+  },
+  {
+   "id": "4997c0a0-d220-11f1-b770-7b58e70eb882",
+   "show": "How I Built This",
+   "kind": "起業",
+   "lang": "en",
+   "title": "Rothy's: Roth Martin. The Art Dealer Who Built a $1B Shoe Brand from Plastic Bottles",
+   "published": "2026-11-23",
+   "url": "",
+   "description": "Roth Martin was running a San Francisco design gallery when he and Stephen Hawthornthwaite decided to make a better women's shoe. Neither had worked in footwear. Their idea: a soft, comfortable flat that could do for shoes what technical fabrics (think: lululemon) had done for clothing. Getting there took six years, $1 million of Roth's own money, and long stretches away from his wife and four children. After a failed manufacturing effort in Maine, Roth moved production to China. But just as Rothy's launched and sales took off, a factory disaster threatened to unravel everything. What You’ll Learn • Which ideas Roth and Stephen dreamed up, then passed on (including a heated teddy bear) and why they decided on women’s shoes • What two footwear outsiders learned from their first “sock with a"
+  },
+  {
+   "id": "ef741101-1572-4ac7-b9c9-b507017075ac",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "What a Town Full of Vibecoders Says About the Chinese Economy",
+   "published": "2026-11-23",
+   "url": "https://omny.fm/shows/odd-lots/what-a-town-full-of-vibecoders-says-about-the-chinese-economy",
+   "description": "According to Stanford's AI Index, 84% of people surveyed in China say they are optimistic about AI. In the US, by contrast, 38% of those surveyed say they are optimistic. That's a big gulf in enthusiasm, and you can see it borne out in the stories you read. While in the US we hear about AI doomsday scenarios, in China, you'll hear about grandmas who are obsessed with using OpenClaw. Journalist Afra Wang has spent a lot of time in mainland China reporting from the country's AI hotbed — in a vibecoding-obsessed town outside of Hangzhou; at the for-profit schools where influencers are teaching everyday people how to use the technology; and the content studios that are pumping out AI microdramas. She understands, better than most, how AI is reshaping everyday life in China, and for today's epi"
+  },
+  {
+   "id": "8fa9026a-e33d-42b2-8a9a-236d828ccd27",
+   "show": "川邊の会食(川邊健太郎)",
+   "kind": "経営者インタビュー(日本)",
+   "lang": "ja",
+   "title": "#23-3 専門家でも、面白く伝えたい──さんまさん・有吉さんとの共演で学んだこと ゲスト：中野信子さん",
+   "published": "2026-11-23",
+   "url": "https://podcasters.spotify.com/pod/show/kawabe/episodes/23-3-e3rpe6l",
+   "description": "今回の会食のお相手は、前回に引き続き脳科学者の中野信子さん。 人と話すことが苦手だった研究者が、本の出版をきっかけにテレビの世界へ。目の前にいるのは、さんまさんや有吉さん。自分には縁がないと思っていた場所に飛び込んだ先で、どんな経験が待っていたのか。思春期には想像もできなかった、その後の人生とは……。 ■川邊健太郎X ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://x.com/dennotai⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ■番組へのメッセージ⁠⁠ https://forms.gle/tQow1mhQ9d7ZbYTP8"
+  },
+  {
+   "id": "23d25c8e-e4bf-11f1-a8ea-bf8e9e5fa032",
+   "show": "日経ビジネス モーニングニュース",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "11月24日（火）：アンソロピック、異色の統治／オアシスが非公開化迫る手法／徹底予測 小売り",
+   "published": "2026-11-23",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "description": "ご紹介した記事はこちら（日経ビジネス電子版：https://business.nikkei.com/?n_cid=nbpnb_megaphone） アンソロピック、公益を守る異色の統治モデル 創業者7人で全議決権の50.1％／［独自］オアシスの太陽HD宛て書簡入手 非公開化を迫る手法が判明／［徹底予測2027 小売り］消費減税効果限定的か 価格激化も中小は再編・淘汰、他"
+  },
+  {
+   "id": "5404e378-4bd5-4038-9f52-8fe24cab1e04",
+   "show": "NewsPicks Daily Briefing",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "【11月24日】NVIDIAトップ「電撃復帰」の裏側 ほか",
+   "published": "2026-11-23",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1124NVIDIA-e3st8ou",
+   "description": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ 【速報解説】NVIDIAトップの電撃復帰は、トランプの秘密工作 https://npx.me/s/5bi7i3mu ◇オリジナルコンテンツ◇ 【星野佳路】日本の観光業に、イノベーションは起きていない https://npx.me/s/XAe08hfR ロマンス詐欺で犯罪に加担 増えるマネロン事例 https://npx.me/s/PEmSbQF1 【パランティア】銀行を守る技術が「全員監視」を可能にした https://npx.me/s/17n8n3dC 【豊田通商・今井斗志光】人を伸ばす「越境」のつくり方 https://npx.me/s/VHXg9XAt ◇今日の一冊◇ 原発避難計画の虚構 : 公文書が暴く冷酷な国家の真意 https://npx.me/s/zGLtZLXQ ※このAI音声番組はNewsPicksが実験的に運用しています。 内容の正確性や品質には十分配慮しておりますが、もしお気づきの点がありましたら、 下記リンクからご連絡ください。 https://newspicks.zendesk.com/hc/ja/requests/new"
+  },
+  {
+   "id": "6f9c743f996229bd5493e91bf38f324d0fc775457112dd25c357edcd844d3973",
+   "show": "10分でわかるスタートアップ・資金調達ニュース",
+   "kind": "資金調達(日本)",
+   "lang": "ja",
+   "title": "10億円調達のPlanet Savers、なぜ一度に集めない？",
+   "published": "2026-11-24",
+   "url": "",
+   "description": "本エピソードでは、直近で10.8億円を調達したPlanet Saversや15億円調達のWyLなど、大型資金調達のニュースが相次ぐスタートアップ市場の舞台裏に迫ります。 成長に多額の資金が必要なら、なぜ最初からまとめて集めないのか。その鍵を握るのが「バリュエーション（企業価値評価）」と「株式の希薄化」です。事業実績が乏しい初期に多額の資金を集めると投資家に渡す持分比率が過大になり、創業者の持ち分が大きく薄まってしまいます。そのため、シードからシリーズA、Bへと段階ごとにマイルストーンを達成し、企業価値を引き上げながら分割して調達を進めるのが定石です。 さらに、出資（エクイティ）だけに頼らず、融資やベンチャーデットを柔軟に組み合わせる「ファイナンスミックス」の重要性についても整理。資本政策の成否を分ける調達サイクルや事業規模の考え方まで、最新の資金調達動向を深く読み解くためのポイントをわかりやすくお届けします。"
+  }
+ ]
+}
