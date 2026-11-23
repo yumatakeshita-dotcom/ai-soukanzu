@@ -16,7 +16,8 @@
 4. 通ったものだけ `inbox/money/日付-backlog.json`・`inbox/moves/日付-backlog.json` に**足すだけ**(形は `inbox/money/2026-11-21-backlog.json` と同じ。`via:"backlog"`、移籍は `backfill:true`)。すでに inbox か相関図にあるものは足さず `checked`(理由:すでにある)
 5. 状態を `mark` で記録。入れたら `done`、確認できないものは `unverified` に理由つき(例:報道が1件だけ・日付が合わない・見つからない)。削除はしない
 6. `python3 scripts/media_backlog.py status` で README と進み具合の記録(`inbox/backlog/history.json`、画面用の `site/data/backlog.js`)を更新 → `python3 scripts/merge_inbox.py` → commit して main に push
-7. 報告は「確かめた○件・入れた○件・確かめられなかった○件・残り○件」の1行
+7. `site/data/backlog.js` が変わっていたら、本体の共有リンクのアーティファクト(https://claude.ai/artifact/FzzqJz3KhB1fptjKvFvWZu)にも `data/backlog.js` を files に足して公開する(先に read で今の中身を確かめ、他のファイルは書き換えない)
+8. 報告は「確かめた○件・入れた○件・確かめられなかった○件・残り○件」の1行
 
 ## 過去動画の一覧も入れた(2026/11/21)
 - `media_backlog.py sync` が `inbox/youtube/backfill/`(各チャンネル最新100本の題名。`scripts/yt_backfill.py`)も読む。説明文が無く古さだけなので、日付は「3mo ago」などからおおよそ作る(`approx_date`)
