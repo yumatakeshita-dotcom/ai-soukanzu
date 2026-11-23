@@ -39341,12 +39341,16 @@ function navSync(){
   else if(!UNIEL.hidden)cur='uni';
   else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':/^装いとブランド/.test(t)?'outfit':/^おもしろ情報/.test(t)?'fun':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
-  {const ts=document.getElementById('topsel');if(ts)ts.value=[...ts.options].some(o=>o.value===cur)?cur:'company'}
+  {const ts=document.getElementById('topsel');if(ts){ts.dataset.cur=[...ts.options].some(o=>o.value===cur)?cur:'company';ts.value=ts.dataset.cur}}
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
 }
-document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
-{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
+document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{navNote(b.dataset.h);ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
+/* 2026/11/23: 最近見たページ(上の選択欄の先頭)と、よく使うページ(ホームの先頭)。このブラウザの中だけに記録(localStorage) */
+function navNote(k){try{if(!k||k==='home')return;const r=JSON.parse(localStorage.getItem('navRecent')||'[]').filter(x=>x!==k);r.unshift(k);localStorage.setItem('navRecent',JSON.stringify(r.slice(0,3)));const c=JSON.parse(localStorage.getItem('navCount')||'{}');c[k]=(c[k]||0)+1;localStorage.setItem('navCount',JSON.stringify(c));navRecentSel()}catch(e){}}
+function navRecentSel(){try{const ts=document.getElementById('topsel');if(!ts)return;const old=ts.querySelector('optgroup[data-recent]');if(old)old.remove();const r=JSON.parse(localStorage.getItem('navRecent')||'[]');const lab={};ts.querySelectorAll('option').forEach(o=>{lab[o.value]=o.textContent});const ks=r.filter(k=>lab[k]);if(!ks.length)return;const g=document.createElement('optgroup');g.label='最近見たページ';g.dataset.recent='1';ks.forEach(k=>{const o=document.createElement('option');o.value=k;o.textContent=lab[k];g.appendChild(o)});ts.insertBefore(g,ts.firstChild);const cur=ts.dataset.cur;if(cur)ts.value=cur}catch(e){}}
+navRecentSel();
+{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;navNote(k);ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
 {const mo=new MutationObserver(navSync);
  [MAINEL,PROFEL,RANKEL,UNIEL,FEEDEL].forEach(e=>mo.observe(e,{attributes:true,attributeFilter:['hidden']}));
  mo.observe(document.getElementById('title'),{childList:true,characterData:true,subtree:true})}
