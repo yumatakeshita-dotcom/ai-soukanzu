@@ -6,6 +6,7 @@
   python3 scripts/watchdog.py              # 今日(日本時間)と前日を確かめ、inbox/watchdog/日付.md に足す
   python3 scripts/watchdog.py --no-write   # 表示だけ
   python3 scripts/watchdog.py --now 2026-11-20T10:30   # 日本時間の時刻を決めて試す
+  python3 scripts/watchdog.py --catchup    # (2026/11/23追加)PCの予定作業が止まった日に、クラウドで代わりに拾う
 
 何を見るか(「その時刻に出るはずの記録が、リポジトリにあるか」):
   更新(6:43)  site/index.html の LAST_CHECK が今日の日付か
@@ -172,6 +173,52 @@ def evaluate(now):
     return rows
 
 
+# PC側の予定作業のうち、クラウドから代わりに動かせるもの(2026/11/23追加)
+# (名前, フォルダ, 予定の時刻, 動かす道具)。公式RSS・公開ページだけを読む道具なので、クラウドで動く
+CATCHUP = [
+    ('YouTube確認', 'inbox/youtube', (7, 26), ['scripts/yt_daily.py']),
+    ('ポッドキャスト確認', 'inbox/podcasts', (7, 26), ['scripts/pod_daily.py']),
+]
+
+
+def catchup(now):
+    """今日のファイルがまだ無いものを、クラウドで動かして拾う。足すだけ。動かした結果の一覧(文)を返す"""
+    day = now.date()
+    d = day.isoformat()
+    notes, ran = [], False
+    for name, folder, hm, cmd in CATCHUP:
+        t = datetime.datetime.combine(day, datetime.time(*hm), tzinfo=JST) + datetime.timedelta(minutes=GRACE_MIN)
+        if now < t:
+            continue
+        if files_for(folder, d, ''):
+            continue
+        before = set(files_for(folder, d, ''))
+        try:
+            r = subprocess.run([sys.executable] + cmd, cwd=ROOT, capture_output=True, text=True, timeout=1500)
+            out = (r.stdout.strip().splitlines() or [''])[0][:200]
+            err = r.stderr.strip()[-150:]
+        except Exception as ex:  # noqa: BLE001
+            notes.append(f'{name}: クラウドでの代行に失敗({str(ex)[:100]})')
+            continue
+        new = [f for f in files_for(folder, d, '') if f not in before and f.endswith('.json')]
+        for f in new:  # 「クラウドが代わりに拾った」印を足す
+            try:
+                j = json.load(open(f, encoding='utf-8'))
+                j['filled_by'] = 'cloud-catchup(PCの予定作業が見当たらなかったため、見張り役が代行)'
+                json.dump(j, open(f, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+            except Exception:  # noqa: BLE001
+                pass
+        ran = True
+        notes.append(f'{name}: PC側の記録が無かったのでクラウドで代行 → {out or "出力なし"}' + (f' (エラー: {err})' if r.returncode and err else ''))
+    if ran:  # 手がかりのまとめも作り直す(失敗しても続ける)
+        try:
+            r = subprocess.run([sys.executable, 'scripts/media_digest.py'], cwd=ROOT, capture_output=True, text=True, timeout=300)
+            notes.append('手がかりのまとめ(media_digest)も作り直した' if r.returncode == 0 else '手がかりのまとめは失敗')
+        except Exception:  # noqa: BLE001
+            notes.append('手がかりのまとめは失敗')
+    return notes
+
+
 def stopped_agents(now):
     """一覧の「記録なし」の係を、名前つきで『注意』に足す(2026/11/22追加)。失敗しても見張りは止めない"""
     try:
@@ -205,13 +252,17 @@ def to_md(now, rows):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--no-write', action='store_true')
+    ap.add_argument('--catchup', action='store_true', help='YouTube・ポッドキャストの今日の記録が無ければ、クラウドで代わりに動かす')
     ap.add_argument('--now', help='日本時間の時刻(例 2026-11-20T10:30)')
     a = ap.parse_args()
     now = datetime.datetime.fromisoformat(a.now).replace(tzinfo=JST) if a.now else datetime.datetime.now(JST)
     run(['git', 'fetch', '-q', 'origin', 'main'])
+    notes = catchup(now) if a.catchup else []
     rows = evaluate(now)
     rows += stopped_agents(now)
     md = to_md(now, rows)
+    if notes:
+        md += '\n## クラウドでの代行(PCの予定作業が止まっていた分)\n' + '\n'.join('- ' + n for n in notes) + '\n'
     print(md)
     if not a.no_write:
         d = os.path.join(ROOT, 'inbox', 'watchdog')

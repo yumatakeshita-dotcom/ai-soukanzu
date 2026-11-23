@@ -1,0 +1,230 @@
+{
+ "date": "2026-11-23",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着1本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "37115d45-5e7b-452b-ad27-4cd682758278",
+   "show": "BRAVE Southeast Asia Tech",
+   "kind": "東南アジアVC・起業",
+   "lang": "en",
+   "title": "Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750",
+   "published": "2026-11-22",
+   "url": "https://pod.co/bravedynamics/growth-comes-from-outside-your-comfort-zone-why-founders-are-leaving-home-to-learn-e750-1",
+   "description": "Should founders leave home to build? In this compilation, Jeremy Au, Shiyan Koh, Adriel Yong and Chalinda Abeykoon argue that the better question is how often to go, and what to bring back. Shiyan, Managing Partner at Hustle Fund, tells founders outside the Bay Area to spend time in San Francisco every quarter or so, without necessarily moving there. Adriel, co-founder and COO of Clouted, argues that Singapore works so well it dulls the problem-solving instinct founders need, and that every student should spend six months to a year abroad. Chalinda, Managing Partner at nVentures, grew up in Colombo during Sri Lanka’s civil war, when leaving was the plan for almost everyone, and now runs a fund that backs Sri Lankan founders. They discuss why copying another ecosystem’s playbook has limits,"
+  }
+ ],
+ "filled_by": "cloud-catchup(PCの予定作業が見当たらなかったため、見張り役が代行)"
+}

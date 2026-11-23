@@ -1,0 +1,300 @@
+{
+ "date": "2026-11-23",
+ "days": 7,
+ "summary": "YouTube確認: 30/30チャンネル、新着11本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "name": "PIVOT",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 4
+  },
+  {
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "videos": [
+  {
+   "id": "52zX-vp0Ags",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "The Best Marketers Are Allergic To AI",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=52zX-vp0Ags",
+   "description": "Why Hector Serrano (Former Head of Content, Wispr Flow) believes the best marketers are allergic to AI"
+  },
+  {
+   "id": "ELx_LzNQ_pc",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【ちょる子 】FIREしない理由とは？#億り人 #新NISA #ポートフォリオ #ちょる子 #くらま #ビットコイン #FIRE #newspicks",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=ELx_LzNQ_pc",
+   "description": "MONEY&MATE：株価暴落でも最強な「億超えポートフォリオ」\n\nこのショート動画の本編は、\nこのチャンネルのプロフィールページのリンクから視聴いただけます。\n\nNewsPicksで\n株価暴落でも最強な「億超えポートフォリオ」\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7849\n\n#億り人 #新NISA #ポートフォリオ #ちょる子 #くらま #ビットコイン #FIRE #newspicks"
+  },
+  {
+   "id": "2KpUZaAqmyU",
+   "channel": "ReHacQ-リハック-",
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "kind": "経済・政治(日本語)",
+   "title": "【ひろゆきvs親の看取り】子供の責任はどこまで？自分を守る…親との別れ方とは？【ReHacQ】",
+   "published": "2026-11-18",
+   "url": "https://www.youtube.com/watch?v=2KpUZaAqmyU",
+   "description": "新たな視点で経済・社会を見つめ直すビジネス動画メディア「ReHacQ」！\n\n今回のテーマは「毒親の看取り」。\n「子どもだから最期まで面倒を見るべきだ」という前提を一旦外して、自分の人生を守りながら、どのように親を看取ればいいのか、専門家の先生と考えよう！という企画です。\n\n出演者：\n岡山容子（おかやま在宅クリニック 院長）\nひろゆき\n\n▼おすすめ動画▼\n【清水宏保vs田中渓】緊張は消さなくて良い？世界一が実践！金メダリストの本番力とは？【ReHacQ】\nhttps://youtu.be/3K9LsvR2UVI\n\n【人生を変える発信術】趣味と仕事…自ら動けば勝てる！？遠回りを強みにする方法とは？【プチ鹿島＆田中渓＆ReHacQ】\nhttps://youtu.be/nlmwYo_OlSE\n\n【動画戦略vs企業PR】商品は売り込まない！？老舗書店「有隣堂」…企業動画の勝ち筋とは？【有隣堂＆ReHacQ】\nhttps://youtu.be/vs8fCPkdYcM\n\n●ReHacQアプリ　登録お願いします！\n＜無料会員登録＞\n・iOS版URL\nhttps://apps.apple.com/jp/app/rehacq/id6738078112\n・Android版URL\nhttps://play.google.com/store/apps/details?id=jp.co.tonari.rehacq\n・WEB版URL\nhttps://rehacq.com/home\n\n＜有料会員登録はこちらから↓＞\nhttps://rehacq.com/settings/plan-list\n\n●Xでは今後のラインナップなどお知らせします！\nhttps://twitter.com/ReHacQ\n\n●番組タイアップ等のお問い合わせはこちら\nhttps://to-na-ri.jp/\n\n#看取り #トラブル #地"
+  },
+  {
+   "id": "lqjdRQRI6WM",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【現代中国社会のリアル】中国にとって日本は「非常口」／一人っ子政策のひずみ／若者の就職は超氷河期",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=lqjdRQRI6WM",
+   "description": "━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=【adj_t】&redirect=https://pivotmedia.co.jp/movie/15312\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15312&display_type=article&override=true\n\n＜ゲスト＞\n近藤大介｜ジャーナリスト\n1965年埼玉県生まれ。東京大学卒業、国際情報学修士。講談社北京副社長を経て特別編集委員、2026年10月末定年退職\n中国・朝鮮半島を中心に東アジアを取材。2019年に岡倉天心記念最優秀賞を受賞。新著に『ありのままの中国』。\n\n＜参考書籍＞\n『ありのままの中国』\n近藤大介（著）中央公論新社（刊）\nhttps://link.amazon/B0dmCWYgm\n※上記リンクURLはAmazonアソシエイトのリンクを使用しています。\n\n＜目次＞\n00:00　ダイジェスト\n01:05　流行語で読み解く現代中国\n05:48　一人っ子政策の歪みと結婚難\n12:08　深刻化する就職超氷河期\n20:28　日本へ逃げる「潤日」の背景\n28:04　猛進するAI社会実装のリアル\n37:39　政冷経冷時代の日中関係"
+  },
+  {
+   "id": "fyH-FVX5eqc",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【楠木建が認める「最もかっこいい経営者」】資源循環ビジネスの最前線／挨拶の徹底から始まった改革／スキルよりセンスの時代／見せる工場への大転換／不要な廃棄物を宝に変える／日本の資源は海外へ流出",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=fyH-FVX5eqc",
+   "description": "━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26z3el8y&redirect=https://pivotmedia.co.jp/movie/15269\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15269&display_type=article&override=true\n\n＜出演者＞\n楠木建｜一橋ビジネススクール特任教授\n\n＜ゲスト＞\n石坂典子｜石坂産業 社長\n東京都出身。高校卒業後の米国留学を経て1992年に石坂産業へ入社する。2002年に父の後を継いで社長に就任。廃棄物処理から資源再生業へと転換し、減量化・再資源化率98%を達成した。里山保全や環境教育にも力を注ぐ。\n\n＜目次＞\n00:00　ダイジェスト\n01:02　センスが問われる時代の経営\n04:00　「石坂組」へ原点回帰の理由\n10:29　静脈産業の最前線と資源循環\n20:43　ダイオキシン報道と存続危機\n28:07　30歳で社長就任と大改革\n35:30　社内マナー改革と顧客選別\n41:18　年間6万人見学と里山保全\n49:05　エンディング\n\nサムネイル\n写真：iStock\n\n＜関連動画＞\nhttps://www.youtube.c"
+  },
+  {
+   "id": "32EboPTEdIM",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "1億円超 高額所得者10年で倍増 富裕層課税の在り方焦点",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=32EboPTEdIM",
+   "description": "年間の所得が1億円を超える「高額所得者」が、10年前と比べ、2倍以上に増えたことが、共同通信の取材で分かりました。国税庁の確定申告に関するデータによりますと、2024年の高額所得者の数は、3万8000人と、10年前と比べて2.19倍に増えたことが分かりました。株価や地価の上昇に加え、企業の役員報酬が増えたことなどが背景にあります。また、全体のおよそ6割は東京、神奈川、千葉、埼玉の4都県在住者でした。格差の拡大も懸念され、今後の税制改正に向け、富裕層への課税の在り方も焦点の1つとなりそうです。\n\n#高額所得者\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "X3JcnKi2CDs",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "ウクライナがロシア艦船に攻撃か リビア東部の基地停泊中",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=X3JcnKi2CDs",
+   "description": "内戦によって東西分裂状態にあるリビアの海軍基地で22日、ロシアの艦船がウクライナ軍の無人艇による攻撃を受け、深刻な損傷が出ました。リビアの東部勢力側は東部ベンガジの海軍基地に停泊中だったロシアのコルベット艦に攻撃があり、爆発が起きたと発表しました。コルベット艦はロシアに戻る途中で、燃料補給などのために寄港していたということです。AP通信によりますとリビア西部にあるウクライナ軍の拠点から複数の無人艇が発進し、一部がコルベット艦に命中したということです。また、ロイター通信は医療関係者の話として、この爆発でロシア人やリビア人を含む10人が軽傷を負ったと伝えています。\n\n#リビア　#ロシア　#ウクライナ　#無人艇\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "ehe7ggFdTvg",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "トランプ氏「合意できなければ年明けにも再攻撃」",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=ehe7ggFdTvg",
+   "description": "アメリカのトランプ大統領は22日、イランの核開発やホルムズ海峡を巡る交渉で合意に達しなかった場合、年明けにも再攻撃する可能性があると警告しました。FOXニュースとのインタビューで、トランプ氏は「イラン側が中間選挙前より攻撃的になっている」と述べ、イランの交渉担当者に対し「彼らとはずっと協議をしているが、口先だけですべてデタラメだ」と非難しました。その上で、イランとの間で核開発やホルムズ海峡を巡る交渉で合意に達さない場合、年明けにも軍事攻撃を命じる可能性があると警告しました。アメリカとイランは仲介国のカタールやパキスタンを通じて協議を続けていますが、アメリカが求める濃縮ウランの国外への搬出に、イラン側は拒否する姿勢を貫いていて協議は難航しています。\n\n#トランプ大統領　#イラン　#ホルムズ海峡　#交渉　#再攻撃\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "aZCQu9BfmPU",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "アガサ・クリスティー没後50年 湊かなえが魅力を熱弁/鈴木保奈美が2025年に最も出会えてよかった1冊の作者が登場！/羽田圭介が愛する谷崎潤一郎作品【あの本、読みました？】",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=aZCQu9BfmPU",
+   "description": "※過去に公開した動画をあらためてお届けしています。\n\n▼テレ東BIZで全編みる（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=matome_261123_dokusho_yt_aZCQu9BfmPU\n\n0:00 アガサ・クリスティーを読むと現代ミステリーがもっと楽しくなる！（2026年8月15日）\nhttps://txbiz.tv-tokyo.co.jp/anohon/vod/post_346635?utm_source=youtube&utm_medium=video&utm_campaign=matome_261123_dokusho_yt_aZCQu9BfmPU\n\n10:42 鈴木保奈美が2025年最も出逢えて良かった1冊『祖母姫、ロンドンへ行く！』（2026年4月25日）\nhttps://txbiz.tv-tokyo.co.jp/anohon/vod/post_339495?utm_source=youtube&utm_medium=video&utm_campaign=matome_261123_dokusho_yt_aZCQu9BfmPU\n\n21:07 実は短い＆読みやすい？文豪・谷崎潤一郎を徹底特集！谷崎作品を愛する作家・羽田圭介が熱弁！（2026年5月30日）\nhttps://txbiz.tv-tokyo.co.jp/anohon/vod/post_341502?utm_source=youtube&utm_medium=video&utm_campaign=matome_261123_dokusho_yt_aZCQu9BfmPU\n\n#小川糸 #若林正恭 #朝井リョウ #読書 #小説  #小説家 "
+  },
+  {
+   "id": "ZCZLjMwRd6A",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【首里城正殿を一般公開】 #Shorts",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=ZCZLjMwRd6A",
+   "description": "#首里城 #首里城再建 #日経電子版 #ニュース"
+  },
+  {
+   "id": "Apg-8FWQvsc",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【衣類など20万円以下の輸入、関税簡易に】中国EC利用増で通関負担重く #Shorts",
+   "published": "2026-11-23",
+   "url": "https://www.youtube.com/watch?v=Apg-8FWQvsc",
+   "description": "#日経電子版   #ニュース   #関税"
+  }
+ ],
+ "filled_by": "cloud-catchup(PCの予定作業が見当たらなかったため、見張り役が代行)"
+}
