@@ -36359,6 +36359,7 @@ Object.assign(DS,{
  v_xclark:['ジャック・クラーク本人のXのプロフィール(2026/11/19確認、Anthropic。前はOpenAIなど)','https://x.com/jackclarkSF','s'],
  v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
 });
+Object.assign(DS,{v_metamanus:['Meta 四半期報告書(SEC 10-Q、2026年9月期。Manusの売却を2026年8月に完了、中国の国家発展改革委員会の命令による)','https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066773/meta-20260930.htm','f']});
 // 2026/11/23 確かめ直し(7回目): ElevenLabs公式発表・ソフトバンクの決算書類(足しただけ)
 Object.assign(DS,{
  v_sbnv:['ソフトバンクグループ 決算報告(2026年3月期第2四半期、2025年10月にNVIDIA株をすべて約58.3億ドルで売却)','https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2025_01_en.pdf','f'],
@@ -36520,6 +36521,18 @@ function applyInvSrc(c,d){
     INVSRC.forEach(([a,b,keys,note,dt])=>{if(nm(A.name)!==nm(a)||nm(B.name)!==nm(b))return;
       (keys||[]).forEach(key=>{if(DS[key]&&!(e.src||[]).includes(key))e.src=(e.src||[]).concat([key])});
       if(note&&!(e.d||'').includes('出典で確認'))e.d=(e.d||'')+`(${dt||''}、出典で確認: ${note})`})});
+}
+/* 線に「その後の動き」を足す(2026/11/23)。元の説明は消さず、あとに足すだけ。[片方の名前, もう片方の名前, 線の説明にある言葉, 足す文, 出典キー] */
+const EDGE_NOTES=[
+ ['Meta','Manus','買収','【その後】2026年8月、中国当局の命令を受けてMetaはManusの買収を解消した(2026/11/23、Meta 四半期報告書で確認)。','v_metamanus'],
+];
+function applyEdgeNotes(c,d){
+  const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
+  d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
+    EDGE_NOTES.forEach(([x,y,w,note,key])=>{
+      const ok=(A.name||'').includes(x)&&(B.name||'').includes(y)||(A.name||'').includes(y)&&(B.name||'').includes(x);
+      if(!ok||!((e.label||'')+(e.d||'')).includes(w)||(e.d||'').includes(note))return;
+      e.d=(e.d||'')+note;if(DS[key]&&!(e.src||[]).includes(key))e.src=(e.src||[]).concat([key])})});
 }
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
@@ -36785,7 +36798,7 @@ function applyBig(c,d){
     d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
   });
 }
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);if(typeof applyFun==='function')applyFun(c,d);applyVerifyPpl(c,d);applyInvSrc(c,d);applyBack(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);if(typeof applyFun==='function')applyFun(c,d);applyVerifyPpl(c,d);applyInvSrc(c,d);applyEdgeNotes(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
