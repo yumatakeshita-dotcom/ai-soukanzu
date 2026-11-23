@@ -21,13 +21,13 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- NVIDIA → 買収 → Hugging Face(2026-09)
-- NVIDIA → 取引 → Groq(2025-12)
-- Reflection AI → 取引 → SpaceX(2026-07)
-- Reflection AI → 取引 → Nebius(2026-07-14)
-- Reflection AI → 提携 → Shinsegae Group(2026-03-16)
-- NVIDIA → 出資 → Reflection AI(2025-10)
-- NVIDIA → 退任 → (2026-11)
+- NVIDIA → 買収 → Hugging Face(2026-09)【除外】
+- NVIDIA → 取引 → Groq(2025-12)【除外】
+- Reflection AI → 取引 → SpaceX(2026-07)【保留】
+- Reflection AI → 取引 → Nebius(2026-07-14)【保留】
+- Reflection AI → 提携 → Shinsegae Group(2026-03-16)【保留】
+- NVIDIA → 出資 → Reflection AI(2025-10)【除外】
+- NVIDIA → 退任 → (2026-11)【除外】
 
 記録ファイル: inbox/gemini/2026-11-24-2.json / 2026-11-24-2.md
 
