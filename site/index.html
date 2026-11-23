@@ -35753,7 +35753,10 @@ DATA.sbenergy=mk('sbenergy','SB Energy',[
  {id:'hossfeld',name:'リッチ・ホスフェルド',kind:'p',from:2025,role:'共同CEO',desc:'SB Energyの共同CEO。2026年1月9日のOpenAIの公式発表で、共同CEOとして発言。(2026/11/23確認。就任時期は未確認)',src:['v_oaisbe']},
  {id:'ares',name:'Ares',kind:'i',from:2026,role:'償還可能優先株 8億ドル',desc:'2026年1月9日、SB Energyが同社から8億ドルの償還可能優先株(Redeemable Preferred Equity)による資金を調達したと、OpenAIの公式発表に記載。(2026/11/23確認)',src:['v_oaisbe']}
 ],[
- {a:'openai',b:'sbenergy',k:'deal',label:'オハイオ 約8GW(20年賃貸)',since:2026,d:'2026年8月、オハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)の約8GW(IT容量)を、OpenAIが20年で借りる契約。SB Energyが建設・所有・運営し、最初の800MWは2028年、2032年まで拡張の予定。SB Energyが約55億ドル相当のワラントをOpenAIに付与し、NvidiaがWSJ報道で約1,050億ドル規模の保証をするとされています。報道ベース。保証額・契約年数は報道で食い違います(契約年数はAxiosが10年、ほかは20年)。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、Axios・The Next Web・Channel Insiderで確認)',src:['oaisbe']},
+ {a:'openai',b:'sbenergy',k:'deal',label:'オハイオ 約8GW(20年賃貸)',since:2026,d:'2026年8月17日、NVIDIAの公式発表で、オハイオ州パイク郡のPORTS-Pike Technology Campus(8 IT-GW分)のお客さんはOpenAI、SB Energyが建設・所有・運営し、OpenAIに20年で賃貸すると確認。最初の800MWは2028年、2032年まで拡張の予定。NVIDIAはこのキャンパスで計算基盤を独占的に提供し、最初の約4.25 IT-GW分について「残存価値保証」(OpenAIが借り手としての支払いをできなくなったとき、保証された最低賃料との差額をNVIDIAが払う仕組み)を出しました。NVIDIAの支払いの上限は累計1,050億ドルで、残りの約3.8GW分は任意で追加できます。SEC提出の8-K(2026/8/17)で確認。OpenAIはNVIDIAが払った分を返す約束です。SB Energyが約55億ドル相当のワラントをOpenAIに付与した点は報道ベースです。契約年数はAxiosだけ10年と報じましたが、NVIDIAの公式発表は20年です。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、NVIDIA公式発表・SEC 8-Kで確認)',src:['v_nvsbe','v_nv8k','oaisbe']},
+ {a:'nvidia',b:'sbenergy',k:'invest',label:'15億ドル出資',since:2026,d:'2026年8月17日、NVIDIAが15億ドルをSB Energyに出資すると公式発表。既存の出資者はソフトバンクグループとOpenAI。(2026/11/23、NVIDIA公式発表で確認)',src:['v_nvsbe']},
+ {a:'nvidia',b:'sbenergy',k:'deal',label:'保証 上限1,050億ドル',since:2026,d:'OpenAIが借りるパイク郡の約4.25GW分について、NVIDIAが残存価値保証をする契約。支払いの上限は累計1,050億ドル、残り約3.8GW分は任意で追加できます。NVIDIAが現金で1,050億ドルを出すわけではなく、OpenAIが払えなくなったときの差額の保証です。(2026/11/23、SEC 8-K(2026/8/17)・NVIDIA公式発表で確認)',src:['v_nv8k','v_nvsbe']},
+ {a:'openai',b:'sbenergy',k:'deal',label:'テキサス ミラム郡 1.2GW',since:2026,d:'2026年1月9日の公式発表で、OpenAIが1.2GWのデータセンター(テキサス州ミラム郡)の初期の建設分を賃貸する契約を結び、SB Energyに建設・運営を任せると発表。(2026/11/23、OpenAI公式発表で確認)',src:['v_oaisbe']},
  {a:'openai',b:'sbenergy',k:'invest',label:'5億ドル出資',since:2026,d:'2026年1月9日、OpenAIとソフトバンクグループが各5億ドル(計10億ドル)をSB Energyに出資すると、OpenAIの公式発表。あわせてミラム郡の1.2GWのデータセンターの建設・運営をSB Energyに任せ、SB EnergyはOpenAIのAPI・ChatGPTの大口顧客にもなります。(2026/11/23、公式発表で確認)',src:['v_oaisbe']},
  {a:'softbank',b:'sbenergy',k:'owns',label:'傘下(5億ドル出資)',since:2026,d:'「ソフトバンクグループの会社」とOpenAIの公式発表(2026/1/9)に記載。同日、ソフトバンクグループも5億ドルを出資。(2026/11/23、公式発表で確認)',src:['v_oaisbe']}
 ],{WEB:{}});
@@ -35767,7 +35770,7 @@ Object.assign(COMPANIES,{
  xenergy:{name:'X-energy',min:2009,note:PN},
  cfs:{name:'Commonwealth Fusion Systems',min:2018,note:PN+'Googleの出資額は公表されていません。'},
  talen:{name:'Talen Energy',min:2015,note:PN+'Amazonとの契約の金額は公表されていません。'},
- sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸は報道ベースで、保証額・契約年数は報道で食い違います。共同CEO・出資(OpenAI・ソフトバンクグループ各5億ドル、Ares 8億ドル)はOpenAIの公式発表(2026/1/9)で確認。ほかの人物・出資は未確認です。'},
+ sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸・NVIDIAの保証と出資はNVIDIA公式発表とSEC 8-Kで確認(ワラントなど一部は報道ベース)。共同CEO・出資(OpenAI・ソフトバンクグループ各5億ドル、Ares 8億ドル)はOpenAIの公式発表(2026/1/9)で確認。ほかの人物は未確認です。'},
  tensorwave:{name:'TensorWave',min:2023,note:PN+'共同創業者の顔ぶれは公式の発表で確認できたCEOだけを「共同創業者」としています。'},
  iren:{name:'IREN',min:2018,note:PN+'Microsoftとの契約はIRENの米国証券取引委員会への届け出(2025年11月3日)に基づく報道です。'},
  applieddigital:{name:'Applied Digital',min:2021,note:PN+'賃料の合計は会社の見込みの数字です。'},
@@ -35817,7 +35820,7 @@ function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" sty
 /* UPDATES_START */
 const LAST_CHECK='2026-11-23';
 const UPDATES=[
- {d:'2026-11-21',co:['openai'],cf:'報道',t:'OpenAIがSB Energy(ソフトバンク傘下)からオハイオ州パイク郡の約8GW(IT容量)を20年で賃貸。保証額・契約年数は報道で食い違う(報道ベース)',src:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy']},
+ {d:'2026-11-21',co:['openai'],cf:'公式',t:'OpenAIがSB Energyからオハイオ州パイク郡の約8GW(IT容量)を20年で賃貸。NVIDIAが約4.25GW分に上限1,050億ドルの残存価値保証と、SB Energyへ15億ドルの出資(NVIDIA公式発表・SEC 8-Kで確認)',src:['NVIDIA 8-K(2026-08-17)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm']},
  {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
@@ -35882,6 +35885,8 @@ function primaryHtml(){
 // ===== 取引関係(クラウド・GPU・計算資源の契約) 2026年11月13日時点の公開情報 =====
 const DEAL_ASOF='2026年11月13日';
 const DS={
+ v_nvsbe:['NVIDIA公式発表(2026/8/17)','https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute','o'],
+ v_nv8k:['NVIDIA 8-K(2026/8/17、SEC)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm','f'],
  v_oaisbe:['OpenAI公式発表(2026/1/9)','https://openai.com/index/stargate-sb-energy-partnership/','o'],
  oaisbe:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy'],
  oaitw:['The Next Web(2026-11-16)','https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios'],
@@ -35953,7 +35958,7 @@ const DEALS={
   ['coreweave','CoreWeave','GPU $22.4B',2025,'2025年に3回に分けて契約し、合計約224億ドルと報じられています。(2026/11/18、CoreWeaveの公式発表(2025/9/25)で「合計約224億ドル」で確認)',['cwv','v_oaicw']],
   ['nvidia','Nvidia','GPU 10GW → 出資$30B',2025,'2025年9月に10GW分の基本合意と、最大1,000億ドルの段階的な出資を発表。2026年2月にこの計画をやめ、300億ドルの直接出資に切り替えたと報じられています。(2026/11/18、OpenAIの公式発表で300億ドルの出資を確認)',['nv30','v_oai110']],
   ['amd','AMD','GPU 6GW',2025,'2025年10月、6GW分のGPU(MI450世代から)。OpenAIはAMD株を最大1億6,000万株(約10%)取得できる権利も得ました。最初の1GWは2026年後半から。',['oaiamd','v_oaiamd']],
-  ['sbenergy','SB Energy','オハイオ 約8GW賃貸',2026,'2026年8月、オハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)の約8GW(IT容量)を、OpenAIが20年で借りる契約。SB Energyが建設・所有・運営し、最初の800MWは2028年、2032年まで拡張の予定。SB Energyが約55億ドル相当のワラントをOpenAIに付与し、NvidiaがWSJ報道で約1,050億ドル規模の保証をするとされています。報道ベース。保証額・契約年数は報道で食い違います(契約年数はAxiosが10年、ほかは20年)。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、Axios・The Next Web・Channel Insiderで確認)',['oaisbe']],
+  ['sbenergy','SB Energy','オハイオ 約8GW賃貸',2026,'2026年8月17日、NVIDIAの公式発表で、オハイオ州パイク郡のPORTS-Pike Technology Campus(8 IT-GW分)のお客さんはOpenAI、SB Energyが建設・所有・運営し、OpenAIに20年で賃貸すると確認。最初の800MWは2028年、2032年まで拡張の予定。NVIDIAはこのキャンパスで計算基盤を独占的に提供し、最初の約4.25 IT-GW分について「残存価値保証」(OpenAIが借り手としての支払いをできなくなったとき、保証された最低賃料との差額をNVIDIAが払う仕組み)を出しました。NVIDIAの支払いの上限は累計1,050億ドルで、残りの約3.8GW分は任意で追加できます。SEC提出の8-K(2026/8/17)で確認。OpenAIはNVIDIAが払った分を返す約束です。SB Energyが約55億ドル相当のワラントをOpenAIに付与した点は報道ベースです。契約年数はAxiosだけ10年と報じましたが、NVIDIAの公式発表は20年です。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、NVIDIA公式発表・SEC 8-Kで確認)',['oaisbe']],
   ['tensorwave','TensorWave','AMD GPU 457MW',2027,'2026年11月16日、AMDのMI455X(Heliosラック)で457MW分の計算資源を6年契約。米国の複数拠点で2027年前半から稼働、2028年初めに全面稼働の予定。金額は非公表。',['oaitw']],
   ['broadcom','Broadcom','自社チップ 10GW',2025,'2025年10月、OpenAI独自のAIチップを共同開発し、10GW分を導入する契約。2026年後半から導入。',['oaiavgo','v_oaiavgo']],
   ['cerebras','Cerebras','推論 750MW',2026,'2026年1月、応答を速くする推論用に750MW・100億ドル超の契約。2028年までに導入。',['oaicbrs']],
