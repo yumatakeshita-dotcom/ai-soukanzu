@@ -307,7 +307,7 @@ Gemini+Google検索で新しいつながりを探し、機械で出典を確か�
 - 担当範囲: その時刻に出るはずの記録(inbox/ のファイル・LAST_CHECK・Geminiの枠切れ)があるかを見て、問題・注意を知らせる。月曜は定期タスクの使用量の目安をまとめる。 2026/11/21から、新しい6係(採用・求人、日本の提携・人事・資金調達、データセンター・電力、解説)も「その日のファイルがあるか」を見る(作る前の日は見ない)。
 - 情報源: リポジトリの記録
 - 動く時間: 毎日 10:31 / 月曜 10:51 使用量
-- 出力先: `inbox/watchdog/日付.md`、`inbox/usage/日付.md`
+- 出力先: `inbox/watchdog/日付.md`、`site/data/watchstatus.js(ホームの色表示。変わったら共有リンクにも公開)`、`inbox/usage/日付.md`
 - 上限・決まり: 軽い確認。Haiku で動かしてよい。他のタスクは実行・変更しない。
 - 定期タスク: 見張り役: 毎朝の自動作業が止まっていないか 毎日(毎日 10:31、`trig_01VHEGy98XEzS4DmncbxnqxS`)、定期タスクの使用量まとめ 毎週月曜(月 10:51、`trig_01Aw6q7atsUnkJkSk1R83JpH`)
 - 道具: scripts/watchdog.py、scripts/usage_report.py(枝から取り出して使う)

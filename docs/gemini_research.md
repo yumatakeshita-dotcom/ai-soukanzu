@@ -115,6 +115,11 @@ Gemini API で調べても、Geminiアプリ・NotebookLM の履歴には残ら�
 更新(LAST_CHECK)・各調査のファイル(壊れたJSONも)・main への push・Geminiの無料枠切れ・宿題リストが進んでいるかを見る。
 共有リンクのアーティファクト(9:41の公開)は記録がリポジトリに残らないので、定期タスク側で公開ページの `LAST_CHECK` を読んで比べる。
 
+#### ホームの色表示と共有リンクへの公開(2026/11/23追加)
+- 見張り役は記録を書くたびに、最新の結果を `site/data/watchstatus.js`(`WATCH_STATUS`)にも書く。ホームの見出しの下に、緑=順調・黄=注意・赤=問題で出る(`site/index.html`)。2日以上古い記録は灰色
+- **`site/data/watchstatus.js` が変わったら、共有リンクのアーティファクトにも公開する**(毎朝9:41の自動公開は index.html と finds.js だけのため。公開しないと共有リンク側の色が止まる)。見張り番の定期タスクは `python3 scripts/watchdog.py` のあと、`git status` で `site/data/watchstatus.js` が変わっていれば、本体の共有リンク(CLAUDE.md の「大事な前提」の共有リンク)に `data/watchstatus.js` を files に足して公開し直す。ほかのファイルは変えない・消さない(足すだけ)
+- 古い記録から作り直すとき: `python3 scripts/watchdog.py --status-from-md inbox/watchdog/日付.md`
+
 ## 1日の上限と週のまとめ(2026/11/20追加)
 - 1日(日本時間)に Gemini を呼べる回数の上限は `inbox/gemini/limits.json` の `daily_max_calls`(初期値18。無料枠は検索つきで1モデル1日20回前後)。環境変数 `GEMINI_DAILY_MAX` があればそちらを優先。0 以下で上限なし。今日の回数は `python3 scripts/gemini_research.py limit`
 - 上限に達すると Gemini を呼ばず「枠切れ」と同じ扱いになる。調査のテーマは後回し(やり直す列)、宿題リストは状態を変えず、翌朝に回る。止めた記録は `usage.jsonl` に `cap` として残る(回数には数えない)
