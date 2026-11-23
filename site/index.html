@@ -627,7 +627,7 @@ E.push({a:'softbank',b:'ampere',k:'invest2',since:2025});
 E.push({a:'softbank',b:'wework',k:'invest2',label:'2019年に救済'});
 E.push({a:'softbank',b:'sprint',k:'owns',label:'2020年にT-Mobileと合併'});
 E.push({a:'softbank',b:'stargate',k:'link',since:2025});
-E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)'});
+E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)',src:['v_sbnv']});
 E.push({a:'altman',b:'openai',k:'link'});
 E.push({a:'ellison',b:'oracle',k:'link'});
 E.push({a:'oracle',b:'stargate',k:'link'});
@@ -662,7 +662,7 @@ N.forEach(n=>{
 E.push({a:'nvidia',b:'openai',k:'invest2',label:'約300億ドル(報道)',since:2025});
 E.push({a:'nvidia',b:'anthropic',k:'invest2',label:'最大100億ドル'});
 ['xai','mistral','ssi','tml','sakana'].forEach(b=>E.push({a:'nvidia',b,k:'invest2'}));
-E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)'});
+E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)',src:['v_sbnv']});
 E.push({a:'huang',b:'openai',k:'link',label:'DGXを寄贈',since:2016});
 
 
@@ -36358,6 +36358,12 @@ Object.assign(DS,{
  v_xkingma:['ダーク・キングマ本人のXのプロフィール(2026/11/19確認、Anthropic。前はGoogle Brain/DeepMind、OpenAIの創業チーム)','https://x.com/dpkingma','s'],
  v_xclark:['ジャック・クラーク本人のXのプロフィール(2026/11/19確認、Anthropic。前はOpenAIなど)','https://x.com/jackclarkSF','s'],
  v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
+});
+// 2026/11/23 確かめ直し(7回目): ElevenLabs公式発表・ソフトバンクの決算書類(足しただけ)
+Object.assign(DS,{
+ v_sbnv:['ソフトバンクグループ 決算報告(2026年3月期第2四半期、2025年10月にNVIDIA株をすべて約58.3億ドルで売却)','https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2025_01_en.pdf','f'],
+ iv_el1:['ElevenLabs公式発表(2026/2/4、シリーズD 5億ドル・評価額110億ドル。Sequoiaが主導、a16zとICONIQが参加)','https://elevenlabs.io/blog/series-d','o'],
+ iv_el2:['ElevenLabs公式発表(2026/5/5、新しい出資者にBlackRock・Wellington・NVIDIA(NVentures)・Santanderなど)','https://elevenlabs.io/blog/500m-arr-and-new-investors','o'],
 });
 // 2026/11/22 確かめ直し(6回目): 本人のXのプロフィール・投稿、NVIDIA公式発表、Meta株主総会の招集通知(足しただけ)
 Object.assign(DS,{
