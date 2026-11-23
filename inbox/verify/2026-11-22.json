@@ -1,0 +1,7 @@
+{"date":"2026-11-22","checked":[
+{"what":"Apollo → SpaceX(GPU等のリース)","label":"約400億ドル","result":"確認","src":["SpaceX SEC 8-K(2026/10/26)","https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"]},
+{"what":"Mercor Series D","label":"7.5億ドル・評価額200億ドル","result":"見つからない","src":["https://www.mercor.com/blog/series-d/","このセッションでは開けなかった"]},
+{"what":"TensorWave → OpenAI","label":"AMD GPU 457MW","result":"見つからない","src":["tensorwave.com","開けなかった"]},
+{"what":"Noeri 出資","label":"1.1億ドル","result":"見つからない","src":["Business Wire(Morningstar転載)","403で開けなかった"]},
+{"what":"LangChain シリーズC","label":"3億ドル","result":"見つからない","src":["blog.langchain.com","開けなかった"]}],
+"notes":"今回は公式サイト(mercor.com・tensorwave.com・langchain.com・noeri.ai・menlovc.com)がこの環境から開けず、SECの1件だけ確認。許可リストに足せば次回確かめられる。変更はsite/data/investsrc.js(出資の一覧と各図の出資の線に出典が付く)。"}

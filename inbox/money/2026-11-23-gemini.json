@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-23",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Mistral AI",
+   "to": "Samsung Electronics, EQT-managed Scaleup Europe Fund, PSG Equity (リード投資家), ASML, NVIDIA 他",
+   "kind": "出資 (Series D)",
+   "amount": "30億ユーロ (約35.8億ドル)",
+   "date": "2026-09-08",
+   "note": "調達後の企業評価額は210億ユーロ超 (約243.9億ドル)。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-23-2.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}
