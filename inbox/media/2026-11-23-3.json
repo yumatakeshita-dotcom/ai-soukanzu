@@ -1,0 +1,603 @@
+{
+ "date": "2026-11-23",
+ "days": 3,
+ "summary": "動画・番組の手がかり: 新着268本のうち40本に移籍・出資などの言葉と会社名",
+ "leads": [
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "20VC: Nvidia Without Jensen: Is Anthropic the Real Winner? | \"Fire the Bankers\": Why Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable and Tranched Rounds Should Be Banned with Anjney Midha",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-without-jensen-is-anthropic-the-real-winner-fire-the-bankers-why-most-vcs-wont-survive-ai-why-the-inference-layer-is-uninvestable-and-tranched-rounds-should-be-banned-with-anjney-midha",
+   "words": [
+    "compute",
+    "funding",
+    "investments",
+    "investor",
+    "investors"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Mistral",
+    "Nvidia",
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records | Julia Black, Bill Gross, Jay Jandrain, Lincoln Murr, Thijs Simonian, Elliott Potter",
+   "url": "https://share.transistor.fm/s/ca7b9f75",
+   "words": [
+    "investigation",
+    "investor"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "The Shocking Return of Jensen Huang",
+   "url": "",
+   "words": [
+    "joins(役職)"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "The One-Person Biotech | OpenAI Life Sciences",
+   "url": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
+   "words": [
+    "acquisition"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "\"Fire the Bankers\": Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable | Anj Midha",
+   "url": "https://www.youtube.com/watch?v=mg4yo5HUMuQ",
+   "words": [
+    "compute",
+    "investments",
+    "investor",
+    "investors"
+   ],
+   "companies": [
+    "Anthropic",
+    "Mistral",
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records",
+   "url": "https://www.youtube.com/watch?v=ffHcwb1xi_w",
+   "words": [
+    "investigation",
+    "investor"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "a16z",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Why OpenAI Acquired a Biotech Startup",
+   "url": "https://www.youtube.com/watch?v=RwYz8XhZiu0",
+   "words": [
+    "acquired",
+    "acquisition"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "url": "https://www.youtube.com/watch?v=w-ltt0Np2cY",
+   "words": [
+    "investigating"
+   ],
+   "companies": [
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+   "words": [
+    "investigating"
+   ],
+   "companies": [
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "url": "https://www.youtube.com/watch?v=gAmjBqXNoFI",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "OpenAI",
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "url": "https://www.youtube.com/watch?v=PXKvR8ta22Q",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "OpenAI",
+    "openai"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Tomorrow on the NVIDIA AI Podcast.",
+   "url": "https://www.youtube.com/watch?v=oF2xi9BaHco",
+   "words": [
+    "buys"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "'This is a historic moment': Stephanie Link, Alex Kantrowitz, Malcolm Ethridge on Nvidia's bounce",
+   "url": "https://www.youtube.com/watch?v=HvmybmMcf80",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Dan Ives: Shareholder activism was the groundswell to bringing Jensen Huang back",
+   "url": "https://www.youtube.com/watch?v=DaYx5j0uAgQ",
+   "words": [
+    "joins(役職)"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "DOJ shouldn't work for the president, they should conduct their own neutral investigation: Attorney",
+   "url": "https://www.youtube.com/watch?v=MruRPjNhSec",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Squawk Pod: Jensen Huang is back - 11/23/26 | Audio Only",
+   "url": "https://www.youtube.com/watch?v=uMVbETHlgko",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "ReHacQ-リハック-",
+   "type": "動画",
+   "published": "2026-11-22",
+   "title": "【高橋弘樹vs数学の難問】167年未解決問題…AIが「リーマン予想」を証明か？アンソロピックの数学者がなぜ？【今井翔太vs加藤文元】",
+   "url": "https://www.youtube.com/watch?v=edYq2nQGjA8",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "apple",
+    "google",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "Decoder with Nilay Patel",
+   "type": "ポッドキャスト",
+   "published": "2026-11-21",
+   "title": "Can Anthropic afford to put safety first?",
+   "url": "",
+   "words": [
+    "investing",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-21",
+   "title": "How AI Is Forcing China to Reshape Industrial Policy",
+   "url": "https://omny.fm/shows/odd-lots/how-ai-is-forcing-china-to-reshape-industrial-policy",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Nvidia",
+    "reliance"
+   ]
+  },
+  {
+   "source": "Rebuild",
+   "type": "ポッドキャスト",
+   "published": "2026-11-21",
+   "title": "436: Elephant in the Room (hak)",
+   "url": "https://rebuild.fm/436/",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "NVIDIA",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-21",
+   "title": "20VC: The State of Compute: What Everyone Needs to Know | Why Neo-Clouds are Great Businesses | What Everyone Is Missing About GPU Prices? | How AI Infrastructure Investors Will Win with Kush Bavaria, Co-Founder @ Ornn",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-state-of-compute-what-everyone-needs-to-know-why-neo-clouds-are-great-businesses-what-everyone-is-missing-about-gpu-prices-how-ai-infrastructure-investors-will-win-with-kush-bavaria-co-founder-ornn",
+   "words": [
+    "compute",
+    "funding",
+    "investors",
+    "raised"
+   ],
+   "companies": [
+    "CoreWeave",
+    "Thrive"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-21",
+   "title": "【11月22日】ユニコーンが小企業に完敗した「特許訴訟」ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1122-e3sptlh",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "アンソロピック上場 日米株安 AIバブル懸念は【NIKKEI NEWS NEXT】",
+   "url": "https://www.youtube.com/watch?v=UZ6vz8Y6k0k",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "NewsPicks",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/OpenAI/Amazon/Google/ダリオ・アモデイ/解説：後藤直義、森川潤）",
+   "url": "https://www.youtube.com/watch?v=zWM8MZnK8jo",
+   "words": [
+    "ipo",
+    "上場",
+    "調達"
+   ],
+   "companies": [
+    "Amazon",
+    "Google",
+    "OpenAI",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "ReHacQ-リハック-",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "【ReHacQ緊急生配信】AI株急落…NVIDIA騒動どうなる？アンソロピック上場の影響は？勢力図は変わる？【後藤達也vs今井翔太】",
+   "url": "https://www.youtube.com/watch?v=ITR1D_nMP1U",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "apple",
+    "google",
+    "nvidia",
+    "openai",
+    "アンソロピック",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "中国軍事企業とつながりか エヌビディア問題の女性",
+   "url": "https://www.youtube.com/watch?v=dUlKb0yRjrk",
+   "words": [
+    "出資"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "【モーサテサタデー】AI相場は終わるのか",
+   "url": "https://www.youtube.com/watch?v=zq1qHUcpSv8",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-21",
+   "title": "Why Neo-Clouds are Great Businesses & The State of Compute with Kush Bavaria, Co-Founder @ Ornn",
+   "url": "https://www.youtube.com/watch?v=3ZkDiDrxDeY",
+   "words": [
+    "compute",
+    "funding",
+    "invest",
+    "investors",
+    "raised"
+   ],
+   "companies": [
+    "CoreWeave",
+    "Thrive"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "How an American AI Company Uses Chinese Open-Weight Models",
+   "url": "https://omny.fm/shows/odd-lots/how-an-american-ai-company-uses-chinese-open-weight-models",
+   "words": [
+    "deal",
+    "investors"
+   ],
+   "companies": [
+    "DeepSeek"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "【11月21日】株式上場で社員は「上級国民」になった ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1121-e3soleg",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "ソフトバンク"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "Market Nukes, Math Solved Again, Mansion Section | Alex Epstein, David Chang, Zhou Xian, Eric Wind",
+   "url": "https://share.transistor.fm/s/216b6b63",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-20",
+   "title": "Anthropic’s Moment of Truth, Jensen in Limbo, Apple’s AI Agent",
+   "url": "",
+   "words": [
+    "ipo",
+    "raised"
+   ],
+   "companies": [
+    "Anthropic",
+    "Apple",
+    "Jensen",
+    "Nvidia",
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【速報解説：アンソロピック、上場後の４大リスク】公開価格を超えた理由／頂点を目指す宣言／NVIDIA問題の余波は？／データセンター規制の影響／東南アジアのクラウド問題／金利上昇のリスク",
+   "url": "https://www.youtube.com/watch?v=VJE7fdvirsE",
+   "words": [
+    "ipo",
+    "上場",
+    "入社"
+   ],
+   "companies": [
+    "アンソロピック",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "“史上最大IPO”AI企業アンソロピックが上場！支払い義務が143兆円‥オープンAIと熾烈競争！空前の時価総額にリスクは？エヌビディアのスキャンダルも影響か【INSIDE/USエコノミー】",
+   "url": "https://www.youtube.com/watch?v=bn7qEFKZJyM",
+   "words": [
+    "ipo",
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック",
+    "エヌビディア",
+    "オープンAI"
+   ]
+  },
+  {
+   "source": "日本経済新聞",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【日経ヴェリタス マーケット一目瞭然】 巨大上場で疑念晴れず AI相場に晩秋の嵐",
+   "url": "https://www.youtube.com/watch?v=5kWQz-N8OEo",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "nvidia",
+    "アンソロピック",
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "日本経済新聞",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "【生成AI】アンソロピック上場、時価総額は203兆円【Claude】",
+   "url": "https://www.youtube.com/watch?v=jqtITbY5ap0",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Market Slides, Math Solved, SpaceX is now GroundX, THE MANSION SECTION",
+   "url": "https://www.youtube.com/watch?v=S-mfGKgD2MU",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Navigating a falling market: The Investment Committee's strategy",
+   "url": "https://www.youtube.com/watch?v=7yuxLar3WEA",
+   "words": [
+    "investment",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Top tech investor Dan Niles on Anthropic: You can make an argument that IPO didn't go great",
+   "url": "https://www.youtube.com/watch?v=XC02cQqB5Uk",
+   "words": [
+    "investment",
+    "investor",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-20",
+   "title": "Anthropic stock falls in first full day of trading following record-breaking IPO",
+   "url": "https://www.youtube.com/watch?v=1jSLdV-Aocs",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  }
+ ]
+}

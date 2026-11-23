@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-24",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "John Giannandrea",
+   "name_ja": "ジョン・ジャナンドレア",
+   "from": "Apple",
+   "to": "退任(2026年春に引退予定)",
+   "role": "機械学習・AI戦略の上級副社長(顧問として残り、春に引退)",
+   "date": "2025-12-01",
+   "note": "Appleが発表。後任のAI責任者にAmar Subramanyaが就任。2026年4月の株式確定で退任と報道",
+   "backfill": true,
+   "src": [
+    [
+     "Apple Newsroom(2025-12-01)",
+     "https://www.apple.com/newsroom/2025/12/john-giannandrea-to-retire-from-apple/"
+    ],
+    [
+     "Complete AI Training(2026-04)",
+     "https://completeaitraining.com/news/apple-ai-chief-john-giannandrea-exits-after-eight-years-as/"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "過去48時間の新しい移籍は検索で見つからず。さかのぼり2026-04: OpenAIの4月の退任(Narayanan・Peebles・Weil・Rouch・Hoeschele)とLightcapは登録済みで除外、Appleのみ新規。IR: 開示確認0件(候補1件は確かめで落選)、自動追加0件、役員人事0件。SGXは取得拒否(403)。YouTube再試行キューは空。Xの対象アカウント約186件、記事からたどった投稿0件。"
+}
