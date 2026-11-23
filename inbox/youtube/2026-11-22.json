@@ -1,0 +1,519 @@
+{
+ "date": "2026-11-22",
+ "days": 7,
+ "summary": "YouTube確認: 30/30チャンネル、新着33本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "name": "PIVOT",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 12
+  },
+  {
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 5
+  },
+  {
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 2
+  }
+ ],
+ "videos": [
+  {
+   "id": "ZIX8qo35sdE",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "\"Every 2 Years Your Audience Will Get Bored of You\"",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=ZIX8qo35sdE",
+   "description": ""
+  },
+  {
+   "id": "jHOvCD1nGEQ",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Chamath: The Market is BAD for Stocks Right Now",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=jHOvCD1nGEQ",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "QjDMSL4PpPE",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Chamath Predicts the Rise of AI’s Magnificent 10: “Dirt to Application”",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=QjDMSL4PpPE",
+   "description": "Follow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@allin\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "hRtmV1mCBSE",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "The new rules of product management in the AI era | Sherif Mansour (Head of AI, Atlassian)",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=hRtmV1mCBSE",
+   "description": "Sherif Mansour is Head of AI and Product Craft at Atlassian (the company behind Jira and Confluence), where he has spent 17 years building and scaling some of the most successful enterprise products in history. He joined Atlassian as its first PM on Confluence, eventually becoming its first Distinguished PM, and now leads both the craft of product management across the company and Atlassian’s AI product strategy.\n\nWe discuss:\n1. Why a PM’s #1 job is to build a “shared brain”\n2. The artist, the scientist, and the GM: three types of PM, and how to tell which one you are\n3. Why PM roles are growing fastest in the AI era\n4. Why Atlassian is hiring more juniors than ever\n5. The most common mistake new PM managers make\n\n*Brought to you by:* \nWorkOS—Make your app enterprise-ready, with SSO, SCIM,"
+  },
+  {
+   "id": "PkxXtmeHGys",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "「どんだけ出し惜しみするのよッ！」兒玉遥の意外なグラビア事情に、アレン様も困惑！セクシー動画を投稿する娘の止め方から、”安定志向”の若者への喝まで…将来の悩みに白黒つける！【アレン様×森本しんたろう】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=PkxXtmeHGys",
+   "description": "👇番組イベント【一般先着チケット】はこちらから👇\nhttps://bit.ly/4hEiYt0\n\n【締め切り迫る‼️】\n\n🌹━━━━━━━━━━━━━━━━━━━━━━🌹\n『BLACK or WHITE 大天下獲りフェスティバル２』\n12月5日(土) @ぴあアリーナMM 開催決定🔥\n🌹━━━━━━━━━━━━━━━━━━━━━━🌹\n\n豊洲PITでの大熱狂から、舞台は【ぴあアリーナMM】へ…！\n圧倒的にスケールアップした伝説のイベントをお見逃しなく👀✨\n\n⏰ 2026年11月24日(火)まで チケット受付中！\n\n≪ イベント概要 ≫\n■ 日時：2026年12月5日（土）開演 17:00\n■ 会場：ぴあアリーナMM\n■ 出演：アレン様、森本しんたろう、岸谷蘭丸、成田悠輔、加護亜依、金子恵美、神田うの \n\n会場で皆さまとお会いできるのを心より楽しみにしています🌹\n\n━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🌹公開収録応募券、限定動画などファンコミュニティは特典満載🌹\nhttps://s.npx.me/W3SsJ9zJ\n\n🖤🤍BLACK or WHITE番組スポンサーのお問い合わせはこちらから🤍🖤\nhttps://studios.newspicks.com/contact\n\n今回は親世代も若者も必見！「将来のお悩み相談」スペシャル！\n「私も脱いじゃってるから…」兒玉遥のリアルすぎる告白や、 \nSNSでの露出トラブル、アレン様が語るセクシー投稿後のえげつないDM被害まで…\n「安定なんて幻想よ」将来に悩む現代人へアレン様が一刀両断！\n\n＜出演者＞\n・アレン様\n・森本しんたろう\n・岸谷蘭丸\n・兒玉遥\n・岡春翔\n・神田うの\n\n▼過去回の視聴はこちらから🎥\nhttps://www.youtube.com/playlist?list=PLDxonNcxMgrvoW0Dnj2N5Gm"
+  },
+  {
+   "id": "JZa0BRwUDw0",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "「今この瞬間も攻撃されている」1日10万回をブロック…NECが“サイバー攻撃の生データ”を公開【NewsPicks/吉村崇/OFFRECO.GO/NEC/AI】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=JZa0BRwUDw0",
+   "description": "【Sponsored by NEC】\n\n▼詳しくはこちら\n①クライアントゼロページ\nhttps://bit.ly/4iVMNWG\n②​AI自律型組織ページ\nhttps://bit.ly/3UxKilc\n\n▼NewsPicks掲載記事\nhttps://bit.ly/3XcH2MN\n\nAIを導入したのに、現場では使われない——。\n 「上はやれと言うのに、現場が動かない」\n「3か月かかると思っていたことが、実は1時間でできる」\n 技術は進んでいるのに、多くの企業がAIを使いこなせずにいます。\n\n今回は番組を飛び出し、創業120年を超える老舗企業・NECの本社に潜入！\n顔認証だけで通れるゲートと決済、社長の考え方を学習した「社長AI」、\n経営の数字をリアルタイムで見せる「経営コックピット」、\nそして部門長から社員まで40名以上のAI社員で構成された「AI自律型組織」。\n自社を\"0番目の顧客\"として最新技術を使い倒す\n「クライアントゼロ」の現場を体験します！\n\n AIが社内に定着しない本当の理由はどこにあるのか？\n AIと人間が「共創」する組織とは、どんな姿なのか？\n\nここでしか聞けない「オフレコ話」から明日のビジネスをより良くするヒントを学び、日本の未来の「共創」を目指します！\n\nMC：吉村崇 / 大室正志\n\n＜ゲスト＞\n野口 圭 （NEC シニアエバンジェリスト）\n若林 健一 （NEC AI変革推進統括部長）\n大山 健太朗 （NEC 経営システム統括部 スペシャリスト）\n中村 健一 （NEC データ&アナリティクス統括部 プロフェッショナル）\n\n\n00:00　ダイジェスト\n01:26　OFFRECO.GO NEC 本社ビルに潜入！\n02:14　AIを仕事で使いこなす！NEC 本社ビルに潜入\n03:31　NEC 本社ビル 最新の顔認証ゲート\n05:13　高性能 顔認証システム 導入"
+  },
+  {
+   "id": "F2JxX9hok2A",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【石丸伸二×成田修造】プロダクト開発にとって大事なことは？ #石丸伸二 #成田修造 #NewsPicks #起業 #教育改革 #不登校 #住宅ロボティクス #THEBOOSTERS",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=F2JxX9hok2A",
+   "description": "THE BOOSTERS.:【フィジカルAIに勝機】ゼロから起業する“プロダクト思考”\n\nこのショート動画の本編は、\nこのチャンネルのプロフィールページのリンクから視聴いただけます。\n\nNewsPicksで\n【フィジカルAIに勝機】ゼロから起業する“プロダクト思考”\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7823\n\n#石丸伸二 #成田修造 #NewsPicks #起業 #教育改革 #不登校 #住宅ロボティクス #THEBOOSTERS"
+  },
+  {
+   "id": "dUiJqvAlxXo",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【AI企業に書籍を大量販売】なぜ日販に反発が集まるのか #出版 #取次 #書店 #アンソロピック #AI",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=dUiJqvAlxXo",
+   "description": "NewsPicksで\n【撃沈】アンソロに書籍大量売却問題。オレの本も売られて滅\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7834/\n\n#出版 #取次 #書店 #アンソロピック #AI \n\nプロフィールページのリンクから、NewsPicksオリジナル記事と動画が見放題になる10日間無料トライアルに申し込めます。"
+  },
+  {
+   "id": "0NAW55J9gvg",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【夫婦喧嘩】主な原因とは？#夫婦喧嘩 #夫婦関係 #家計管理 #お金の話 #夫婦円満 #共働き夫婦 #てぃ先生 #吉田明世",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=0NAW55J9gvg",
+   "description": "EduPassion:脳科学が示す衝撃結果「夫婦喧嘩で子どもの脳は壊れる？」\n\nこのショート動画の本編は、\nこのチャンネルのプロフィールページのリンクから視聴いただけます。\n\nNewsPicksで\n脳科学が示す衝撃結果「夫婦喧嘩で子どもの脳は壊れる？」\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7886\n\n#夫婦喧嘩 #夫婦関係 #家計管理 #お金の話 #夫婦円満 #共働き夫婦 #てぃ先生 #吉田明世"
+  },
+  {
+   "id": "kqhedBCBQFc",
+   "channel": "ReHacQ-リハック-",
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "kind": "経済・政治(日本語)",
+   "title": "【菊地直子が独占告白②】衝撃！逮捕の瞬間…被害者への想いは？麻原彰晃氏の評価は？【ReHacQ高橋弘樹vs元オウム真理教信者】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=kqhedBCBQFc",
+   "description": "新たな視点で経済・社会を見つめ直すビジネス動画メディア「ReHacQ」！\n\n「ReHacQSP」\n今回は、元オウム真理教信者で地下鉄サリン事件の被疑者として\n特別指名手配され、当時「走る爆弾娘」と報じられる中、\n17年間の逃亡の末に逮捕・起訴、最高裁で無罪が確定した\n菊地直子さんにお越しいただき、メディア初出演・独占でたっぷりお話しをお伺いした続編です。\n逮捕の瞬間…\n拘置所での生活は？\n被害者への想い…\n麻原彰晃氏への想いは？\n\n出演者：\n菊地直子（元オウム真理教信者）\n高橋弘樹\n\n▼菊地直子さんのご著書はこちら▼\n『逃亡犯 「走る爆弾娘」と呼ばれて』\nhttps://amzn.asia/d/0gfvszPW\n\n▼この動画の前半はこちら▼\n【緊急出演！独占告白】元指名手配犯 菊地直子！17年の逃亡…なぜ？！地下鉄サリン事件後逃げたワケは？逮捕の経緯は？無罪確定でも…【ReHacQ高橋弘樹vs元オウム真理教信者】\nhttps://youtu.be/1CqVQj5yKkk\n\n▼おすすめ動画▼\n【高橋弘樹vs冤罪】証拠捏造...刑事司法の闇を衝撃告白！郵便不正事件の裏側とは？村木厚子【ReHacQ】\nhttps://youtu.be/PTUa4PxfT7Q\n\n【自民党vs検察】緊迫！なぜ反対？再審法⋯検察が自民党案拒絶するワケ【ReHacQ高橋弘樹】\nhttps://youtu.be/SQqG89egtk4\n\n【林真理子が緊急出演】120分ガチ人生相談！50代は危機？80代は終わり？一番辛かった時は？恋愛,仕事,人生振り返りSP【ReHacQ高橋弘樹vs箕輪厚介】\nhttps://youtu.be/qb6hvQpwVyg\n\n●ReHacQアプリ　登録お願いします！\n＜無料会員登録＞\n・iOS版URL\nhttps://apps.apple.com/jp/app/rehacq/id"
+  },
+  {
+   "id": "edYq2nQGjA8",
+   "channel": "ReHacQ-リハック-",
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "kind": "経済・政治(日本語)",
+   "title": "【高橋弘樹vs数学の難問】167年未解決問題…AIが「リーマン予想」を証明か？アンソロピックの数学者がなぜ？【今井翔太vs加藤文元】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=edYq2nQGjA8",
+   "description": "新たな視点で経済・社会を見つめ直すビジネス動画メディア「ReHacQ」！\n\n米アンソロピックに所属する数学者のレベント・アルポーゲ氏が\n11月20日（現地時間）、自身のWebサイトで同社のAI「Claude」と共に、数学の未解決問題「リーマン予想」の証明を見つけたと声明を発表\nそもそも「リーマン予想」とはなんなのか？\nAI界、数学界にどのような影響が出るのか、\n加藤文元さんと今井翔太さんにお越しいただき、\nじっくりお話を伺いました\n\n\n出演者：加藤文元（ZEN大学教授 東京工業大学名誉教授）\n　　　　今井翔太（JAIST教授）\n　　　　高橋弘樹\n\n\n▼おすすめ動画▼\n【ReHacQ生配信】AIで数学を証明!?IUT理論は正しいのか【高橋弘樹vs川上量生vs野村泰紀vs加藤文元】\nhttps://youtube.com/live/b6JlM_nrM3M\n\n【高橋弘樹vs天才数学者】もなかも組織論も数学で説明できた！？「それ圏論やないか」ミルクボーイでわかる数学の世界【ReHacQ R大学】\nhttps://youtu.be/QTL9TIWfX-4\n\n【ReHacQ緊急生配信】AI株急落…NVIDIA騒動どうなる？アンソロピック上場の影響は？勢力図は変わる？【後藤達也vs今井翔太】\nhttps://youtube.com/live/ITR1D_nMP1U\n\n●ReHacQアプリ　登録お願いします！\n＜無料会員登録＞\n・iOS版URL\nhttps://apps.apple.com/jp/app/rehacq/id6738078112\n・Android版URL\nhttps://play.google.com/store/apps/details?id=jp.co.tonari.rehacq\n・WEB版URL\nhttps://rehacq.com/home\n\n＜有料会員登録はこちらか"
+  },
+  {
+   "id": "O6-txuVY2BU",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【なぜ北朝鮮は崩壊しないのか】金正恩の後継者“謎の娘“の正体／中国が恐れる制御不能の混乱／鉄壁の独裁体制はどのように築かれたか／軍の掌握・密告網の確立・核開発【PIVOT EXPLAINS】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=O6-txuVY2BU",
+   "description": "▼続きはこちら（11/29 20時 公開）：\n\n━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26o4q6rt&redirect=https://pivotmedia.co.jp/movie/15288\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15288&display_type=article&override=true\n\n＜インタビュー出演＞\n礒﨑敦仁｜慶應義塾大学 教授\n専門は北朝鮮政治。著書に『北朝鮮を読み解く』、『最新版北朝鮮入門』（共著）などがある。\n\n＜目次＞\n00:00　オープニング\n01:17　鉄壁の独裁体制はどのように築かれたか\n07:05　軍の掌握・密告網の確立・核開発\n15:08　金正恩の後継者“謎の娘“の正体\n19:43　中国が恐れる制御不能の混乱\n22:08　なぜ北朝鮮は崩壊しないのか\n\nサムネイル\n写真：iStock\n\n#北朝鮮 #金正恩 #独裁 #独裁者 #核 #自衛隊 #高市早苗 #military #中国 #習近平 #ロシア #ウクライナ #プーチン"
+  },
+  {
+   "id": "FRKR28Zm1ds",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【日本の読解力は世界トップレベル】読解力は91か国中4位／実は中高年の方が読解力は低い／日本の弱点は記述問題の「白紙回答」／語彙力を伸ばす読書のコツ【PIVOT LIFE】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=FRKR28Zm1ds",
+   "description": "━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26q6jdh2&redirect=https://pivotmedia.co.jp/movie/15213\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15213&display_type=article&override=true\n\n＜ゲスト＞\n飯田一史｜出版ジャーナリスト・ライター\n1982年青森県生まれ。中央大学法学部卒業。グロービス経営大学院でMBA取得。出版社でカルチャー誌やライトノベルの編集者を務めた後独立。出版業界や読書をテーマに執筆。\n\n＜参考書籍＞\n『「若者の読解力低下」というウソ』\n飯田一史（著）集英社インターナショナル（刊）\nhttps://link.amazon/B0hRPqzK8\n※上記リンクURLはAmazonアソシエイトのリンクを使用しています。\n\n＜目次＞\n00:00　ダイジェスト\n01:02　若者の読解力低下は嘘か？\n06:30　PISA順位変動の歴史と真相\n12:03　若者より中高年の読解力が低い？\n15:38　日本人の弱点「記述の無回答」\n21:38　読解力ブームと教育ビジネス\n25:26　読解力を伸ばす真の方法\n33"
+  },
+  {
+   "id": "WHuKIZfMMr0",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【中国発スクイーズ、メロジョイの正体】メロジョイとは何？／いつ頃から流行？／ボンドロとの覇権交代／第3次ブーム／米国でもヒット／中国で旬をすぎたオモチャ／TikTok Shopがカギ／中国勢のヒット",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=WHuKIZfMMr0",
+   "description": "━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26kxbuiq&redirect=https://pivotmedia.co.jp/movie/15307\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15307&display_type=article&override=true\n\n\n＜ゲスト＞\n高口康太｜ジャーナリスト・千葉大学客員教授\n千葉大学人文社会科学研究科(博士課程)単位取得退学。中国経済や企業取材に特化したジャーナリスト。著書に『ピークアウトする中国』『幸福な監視国家・中国』『プロトタイプシティ深圳と世界的イノベーション』など多数。\n\n＜目次＞\n00:00　ダイジェスト\n01:00　謎の玩具「メロジョイ」\n05:26　中国余剰品の日本逆輸入\n10:40　謎多きメロジョイの正体\n14:20　中国ブランドの海外戦略\n18:13　α世代を狙う中韓の攻勢\n22:41　メロジョイ争奪戦の真相\n\n\n写真：アフロ\n\n＃メロジョイ#中国発#ボンドロ#ラブブ#TikTok#スクイーズ#原宿#大ヒット#子ども#ピボット＃pivot"
+  },
+  {
+   "id": "vtGmvzQAxEI",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "イノベーティブなイベント3連発！終活・ピッチ・子供の夢！【田村淳のTaMaRiBa】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=vtGmvzQAxEI",
+   "description": "▽田村淳が終活イベントに潜入！キャンピングカー型の介護タクシーや墓じまいなど、終活ビジネスの最前線を取材。「おもいで食堂」の新展開も考える▽静岡県三島市の「ショーグンピッチ」では、全国から選ばれた起業家が独自のアイデアをプレゼン！▽「エンパワリングキッズ」では、夢を叶えた大人たちが子どもたちにエール。橘ケンチが夢を追い続ける中で大切にしてきたこととは？\n\n#田村淳 #橘ケンチ #終活 #終活ビジネス #エンディングビジネス #介護の日 #介護タクシー #キャンピングカー #入棺体験 #墓じまい #海洋散骨 #あかり保証 #イタコト #おもいで食堂 #ショーグンピッチ #静岡県三島市 #スタートアップ #ピッチコンテスト #エンパワリングキッズ #日本財団"
+  },
+  {
+   "id": "EyTIrsQOZ64",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "豚骨もカツオも 植物性原料で風味を再現 #LBS #ローカルビジネスサテライト #テレ東BIZ",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=EyTIrsQOZ64",
+   "description": ""
+  },
+  {
+   "id": "Ewo_vh_ATus",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "再生への兆しが見える中…物言う株主がニデックに失望した理由【ガイアの夜明け】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=Ewo_vh_ATus",
+   "description": "▼番組のフル視聴（43分）はこちらから（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/gaia/vod/post_352032?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261113_yt_Ewo_vh_ATus\n\n▼本編では伝えきれなかったエピソード「永守氏を訴える…ニデック個人株主の闘い」▼\nhttps://txbiz.tv-tokyo.co.jp/gaia/vod/post_352389?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261113_yt_Ewo_vh_ATus\n\n▼「テレ東BIZ」会員登録はこちら▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261113_yt_Ewo_vh_ATus\n\n世界最大の総合モーターメーカー、ニデックが創業以来最大の危機に揺れている。去年発覚した不正会計は国内外の多数の拠点に広がっていて、第三者委員会は純利益の水増しを累計約1600億円と認定。その背景には、創業者・永守重信氏による業績目標への「過度なプレッシャー」があったと指摘した。永守氏は経営から完全に退き、今年9月には後を託された岸田光哉社長も突然辞任。延期されていた決算では巨額の減損を計上し、過去最大の赤字に転落したが、監査法人はその決算についても意見を表明しなかった。東京証券取引所から「特別注意銘柄」に指定されているニデックは今、上場維持をかけた審査の只中にある。一代で世界的な企業を築き上げたカリスマ経"
+  },
+  {
+   "id": "kEYgPA8WDpo",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "COP31 議論紛糾　新たな成果文書案で「脱化石燃料」記載せず",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=kEYgPA8WDpo",
+   "description": "トルコで開催中の気候変動対策を話し合う国際会議＝COP31は22日、当初の会期中に合意できず延長の2日目を迎えました。議長国のトルコと交渉議長のオーストラリアが提示した新たな成果文書案では、焦点となっていた「化石燃料からの脱却」の文言は記載が見送られました。一方、世界の最終エネルギー消費に占める電力の割合「電化率」を2035年までに35％にする目標は残りました。各国が妥協点を見いだし決着するかどうかは依然として不透明です。\n\n＃COP　＃気候変動\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "qy8qe3cDpAQ",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "全国の離島の魅力を発信「アイランダー2026」",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=qy8qe3cDpAQ",
+   "description": "全国の離島の自治体などが集まる催し「アイランダー2026」が、東京・豊島区のサンシャインシティで開かれました。今年で34回目のこのイベントには170以上の島に関連するおよそ100の団体が出展し、特産品の販売や伝統芸能の披露、移住に向けた就職相談などが行われました。\n\n＃サンシャインシティ　＃アイランダー2026　＃島　＃伝統芸能　＃特産品　＃就職相談\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "IL5ZFDZL4mA",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "ロシアの貨物船にドローン攻撃　攻撃にはウクライナが関与か",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=IL5ZFDZL4mA",
+   "description": "攻撃にはウクライナが関与していた可能性があります。ロシアの貨物船が21日、バルト海でドローンによる攻撃を受けて火災を起こし、フィンランド領海で漂流しました。ロシアのレニングラード州知事は「貨物船が無人機2機による攻撃を受けた」とSNSで明らかにしています。貨物船はロシア国防省向けに物流サービスを提供している海運会社と関係があり、アメリカの制裁対象にもなっていて、フィンランドは、ウクライナによる攻撃の可能性が高いとしています。\n\n＃ロシア　＃ウクライナ　＃プーチン大統領　＃ゼレンスキー大統領\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "m_cSTXyWWUM",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "イラン革命防衛隊 バーレーンの米軍施設に攻撃と主張",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=m_cSTXyWWUM",
+   "description": "イラン革命防衛隊が21日、バーレーンにあるアメリカ軍の施設を標的に攻撃を行ったと現地メディアが報じました。イランのファルス通信によりますと、攻撃を受けたのはバーレーンにあるアメリカ海軍の複数の施設で、イラン革命防衛隊は「敵の行動に対する報復」と主張しています。また、別のアメリカ軍施設にある防空システム「パトリオット」のレーダーも攻撃対象になったと現地メディアは報じています。バーレーンの内務省は「民間の産業施設」が狙われ、火災が発生したものの人的被害はなかったと発表しています。11月に入り、バーレーンにあるアメリカ軍施設への攻撃は4度目とみられます。\n\n＃イラン　＃アメリカ\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "spCo4pASKHE",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "首里城正殿が7年ぶり復活 政府主催の復元完成式",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=spCo4pASKHE",
+   "description": "2019年に火災で焼失した那覇市の首里城で、正殿の復元が完了し、22日政府主催の完成式が開かれました。完成式には政府や沖縄県の関係者らが参加し、7年ぶりの復活を祝いました。首里城は19年10月、火災で焼失し出火原因は特定されていません。22年11月に始まった復元工事では、新たに発見された史料や研究を反映して、琉球王国時代の姿に近づけたほか、スプリンクラーなどの防火設備も増強されました。今後は、北殿や南殿の再建が進められる予定です。正殿内部の一般公開は事前予約制で23日から始まります。\n\n＃首里城　＃正殿　＃復元工事　＃北殿　＃南殿\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "njgd3pg2q1A",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "円安の本当の構造的要因とは？【モヤモヤサテライト】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=njgd3pg2q1A",
+   "description": "モーサテを移動中でもスマホから見るならテレ東BIZ（無料でお試し）\nhttps://tvtokyo.tv/3UYLpKo\n\n毎週土曜日の午前10時から放送しているマーケット番組「モーサテサタデー」のメーン司会者となった齋藤陽アナウンサー。毎日刻々と変化する金融市場や想定外の事態が起こりうる世界情勢のニュースを正しく分かりやすく伝える齋藤を支えるのが、モーサテエキスパートと呼ばれるマーケットのプロ集団。そんなマーケットの第一線で活躍する専門家から経済の基礎を学び、日々のニュースに潜む「モヤモヤ」をすっきりと解消していきます。\n\n今回のテーマは「円安の本当の構造的要因とは？」\n\n佐々木 融（ふくおかフィナンシャルグループ）\n齋藤 陽（テレビ東京アナウンサー）\n\n#国際収支　#経常収支　#金融収支　#直接投資　#証券投資　#外貨準備"
+  },
+  {
+   "id": "9KrfE7M2y_Y",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "つながる香り #008 りんご（青森県 弘前市）",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=9KrfE7M2y_Y",
+   "description": "「始まりは151年前のたった3本？」\n\nあなたの香りの原風景は？何気ないひと時に出会う香りが、心と記憶に紡がれ、愛おしいものへと変わっていく…故郷や惹かれた地域に思いを馳せ、香りを感じてみませんか。\n\n◆つながる香り\nテレビ東京にて 毎週日曜 17時15〜20分放送\n\n◆番組サイトでは取材秘話も公開中！\nhttps://www.tv-tokyo.co.jp/kaori/\n\n#つながる香り　#青森県　#弘前市　#りんご"
+  },
+  {
+   "id": "BZU7dLOsw98",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "【直近の民意は衆院選】日本維新の会 総務会長　金村 龍那【日曜サロン】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=BZU7dLOsw98",
+   "description": "日本維新の会総務会長の金村龍那さんに、消費税と社会保障の在り方や、目指している政治制度改革について聞きました。BSテレ東「NIKKEI 日曜サロン」の2026年11月22日放送回です。\n\n「人口動態に合わせた税体系を」\n消費税減税について金村氏は「２月の衆院選でチームみらい以外は減税政策を掲げた」「消費税の減税はしっかり実現すべき」と主張。その上で「２年後は単純に８％に戻すのではなく、人口動態や未来予測に即した形で税体系全体を見直すべき」と強調します。\n\n「参議院が強すぎる」\n金村氏は「参議院が強すぎる」と言います。「解散権が及ばない参議院で常態的に与党が過半数割れの状況を憲法は想定していない」「直近の民意は衆院選にあるわけなのに、その民意以上のものが参議院の多数決で決められている」と国会改革を訴えました。\n\n◆ＢＳテレ東　「ＮＩＫＫＥＩ　日曜サロン」\n毎週日曜日　朝9時30分～\nhttps://www.bs-tvtokyo.co.jp/official/sundaysalon/\n\nWBS、モーサテ、ガイアの夜明け、カンブリア宮殿などが見放題！\n「番組未公開」コンテンツも盛りだくさん。\n日本最大級の経済動画配信サービス「テレ東BIZ」。\n\n▼▼「テレ東BIZ」はこちら（無料でお試し）▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "43P8aMoauNU",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "従業員の給与が丸わかり！？ハイテク国家エストニアを調査！【世界の給与明細～日本と比べてどうなの？～】",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=43P8aMoauNU",
+   "description": "フル視聴はコチラ▶https://txbiz.tv-tokyo.co.jp/original2/vod/post_352316?utm_source=youtube&utm_medium=video&utm_campaign=original2_261122_yt_43P8aMoauNU\nヨーロッパのシリコンバレーと呼ばれるほど、IT系のスタートアップが集積するエストニア。最近ではロシアによるウクライナ侵攻の影響で軍事関連の起業も多くなっている。エストニアで暮らす人々の給与や物価、さらに従業員の給与が丸わかりとなる驚きの理由とは？！テレビ東京ロンドン支局の立花記者が解説します。\n\n※テレビ東京系列で日曜夜にレギュラー放送している世界の給与明細～日本と比べてどうなの？～」との連携コンテンツです。\n\n#給与明細　#エストニア　#スタートアップ　#ロシア　#シリコンバレー"
+  },
+  {
+   "id": "n48DY1mHiG0",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【ボージョレ解禁も冷める熱】 #Shorts",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=n48DY1mHiG0",
+   "description": "#ボージョレヌーボー #ワイン #フランスワイン #日経電子版 #ニュース"
+  },
+  {
+   "id": "SuHTLyMR85c",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【INFOBAR 25周年モデルで原点回帰】 #Shorts",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=SuHTLyMR85c",
+   "description": "#INFOBAR #日経電子版 #ニュース"
+  },
+  {
+   "id": "sHvDqlgnJdQ",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【首里城正殿7年ぶり復活】 「令和の復元」ここが見どころ #Shorts",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=sHvDqlgnJdQ",
+   "description": "#日経電子版  #ニュース  #首里城"
+  },
+  {
+   "id": "1clNWuDuxJU",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【JAXAの探査機「みお」水星軌道入り】 #Shorts",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=1clNWuDuxJU",
+   "description": "#水星 #宇宙 #JAXA #ニュース"
+  },
+  {
+   "id": "fu6YdtdOPkc",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【就活早期化、大学生5割が反対　6割が学業に支障】 #Shorts",
+   "published": "2026-11-21",
+   "url": "https://www.youtube.com/watch?v=fu6YdtdOPkc",
+   "description": "#就活 #27卒 #28卒 #日経電子版 #ニュース"
+  },
+  {
+   "id": "YMyZ7CEGL30",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Americans don't want handouts. They want their hardwork to pay off.",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=YMyZ7CEGL30",
+   "description": ""
+  },
+  {
+   "id": "rUTXuCWiP9Y",
+   "channel": "Reid Hoffman",
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "kind": "投資家(本人)",
+   "title": "Why do graduates use AI all through school, then boo it at commencement?",
+   "published": "2026-11-22",
+   "url": "https://www.youtube.com/watch?v=rUTXuCWiP9Y",
+   "description": ""
+  }
+ ]
+}

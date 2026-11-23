@@ -28,10 +28,18 @@
    "theme": "出典の付いていない出資の線(大型の資金調達・評価額)について、公式発表・開示書類・大手報道で確かめられる直近1年の案件を探す(AI企業・半導体企業・AIスタートアップ)",
    "reason": "出資の線6,193本のうち6,131本に出典がないため(2026/11/20の集計)",
    "priority": 2,
-   "status": "未",
-   "last_researched": null,
-   "attempts": 0,
-   "history": [],
+   "status": "調査済",
+   "last_researched": "2026-11-23",
+   "attempts": 1,
+   "history": [
+    {
+     "date": "2026-11-23",
+     "result": "調査済",
+     "file": "inbox/gemini/2026-11-23-2.md",
+     "note": "Geminiの候補10件",
+     "items": 10
+    }
+   ],
    "added": "2026-11-20"
   },
   {

@@ -51,3 +51,10 @@
 
 ## 出資の候補を説明文から拾う(2026/11/21追加)
 `python3 scripts/media_money_candidates.py [--days 30]` が、番組・動画の説明文から「○○が△ドル調達」「シリーズB」などの具体的な文だけを `inbox/media/candidates-日付.md` に書く。すでに inbox/money にある会社は飛ばす。相関図には入れない。確かめる人が出典の記事を開き、日付・金額・リードを確かめてから inbox/money に足す。
+
+## PCが止まった日はクラウドが代わりに拾う(2026/11/23追加)
+- YouTube確認・ポッドキャスト確認はPC側の予定作業。その日の記録(`inbox/youtube/日付*`・`inbox/podcasts/日付*`)が7:26+90分を過ぎても無いとき、`python3 scripts/watchdog.py --catchup` がクラウドで `yt_daily.py`・`pod_daily.py`・`media_digest.py` を代わりに動かす(公式RSSと公開ページだけを読むので、クラウドで動く)
+- 代わりに拾った記録のJSONには `filled_by: cloud-catchup` の印が付く。見張り役の記録(`inbox/watchdog/`)の最後にも「クラウドでの代行」として出る
+- すでに今日の記録があれば何もしない。足すだけで消さない。PCの動画の文字起こしなど、PCでしか読めないものは代行できない
+- 見張り番の定期タスクの実行コマンドは `python3 scripts/watchdog.py` を `--catchup` 付きにする
+- 2026/11/23の試運転: 30/30チャンネル・新着11本、42/42番組・新着1本を拾えた

@@ -19,3 +19,5 @@ Bloomberg、FT、WSJ、The Information、Business Insider、Fortune、Nikkei Asi
 
 ## 毎朝のニュース集めに足したもの
 `scripts/fetch_relnews.py` の FEEDS に、Crunchbase News・The Verge(AI)・Ars Technica(AI)・SiliconANGLE のRSSを足した(2026/11/21)。続けて日本語の GIGAZINE・東洋経済オンラインのRSSも足した(同日)。
+
+2026/11/22: GIGAZINE・東洋経済オンラインのRSSは、AI関連の見出しが東洋経済38件中3件・GIGAZINE11件中2件だけだったので、ニュース集めから外した(すでに入った見出しは残す)。

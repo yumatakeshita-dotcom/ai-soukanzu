@@ -164,3 +164,15 @@
 @nathanbenaich | vc,deep | Air Street投資家。AI動向
 @FinSMEs | money,vc | VC調達ニュースの速報
 @preferred_jp | deep,money | PFN公式(日本のAI)
+
+# --- 自動で追加 (2026-11-23) --- x_check.py で表示名と自己紹介を確認
+@mattturck | vc,money | FirstMark投資家。AI市場の整理
+@NoPriorsPod | vc,money,deep | AI投資家2人のポッドキャスト
+@steph_palazzolo | money,deep | The Information記者。AI調達
+@Jessicalessin | money,moves | The Information創業者
+@jordannovet | money,deep | CNBC記者。クラウド・AI
+@kyliebytes | moves,money | Core Memory記者。AI企業の動き
+@zoink | money,moves | Figma CEO。経営者の発信
+@jptechcrunch | money,vc | TechCrunch Japan公式
+@SoftBank_Group | money,moves | ソフトバンクG公式
+@forbesjapan | money,vc | Forbes JAPAN公式

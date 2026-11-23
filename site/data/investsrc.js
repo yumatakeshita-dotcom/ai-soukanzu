@@ -5,6 +5,7 @@
    どれも、出典のページを実際に開いて、その出資が書いてあることを確かめたものだけ。
    名前が相関図の点と合わない行は何も起きない(壊れない)。 */
 const INVSRC_DS={
+ v_spxapollo:['SpaceX SEC 8-K(2026/10/26、Apollo運用の会社とGPU等の拘束力あるリース契約書。元金の総額約400億ドル・5〜5.25年。契約の締結は年内の見込み)','https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm','f'],
  iv_amz23:['Anthropic公式発表(2023/9/25、Amazonが最大40億ドルを出資)','https://www.anthropic.com/news/anthropic-amazon','o'],
  iv_msnv:['Anthropic公式発表(2025/11/18、NVIDIAが最大100億ドル・Microsoftが最大50億ドルを出資)','https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships','o'],
  iv_antg:['Anthropic公式発表(2026/2/12、シリーズG。GIC・Coatueが主導、Dragoneer・Founders Fund・ICONIQなどが共同主導)','https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation','o'],
@@ -33,6 +34,7 @@ const INVSRC_DS={
  iv_xaic:['xAI公式発表(2024/12/23、シリーズC。NVIDIA・AMDが参加)','https://x.ai/news/series-c','o']
 };
 const INVSRC=[
+ ['Apollo Global Management','SpaceX',['v_spxapollo'],'約400億ドルは開示書類で確認(拘束力あるリース契約書。締結は年内の見込み)','2026/11/22'],
  ['Amazon','Anthropic',['iv_amz23'],'最大40億ドル(2023年9月)','2026/11/21'],
  ['Microsoft','Anthropic',['iv_msnv'],'最大50億ドル(2025年11月)','2026/11/21'],
  ['Nvidia','Anthropic',['iv_msnv'],'最大100億ドル(2025年11月)','2026/11/21'],
@@ -79,6 +81,15 @@ const INVSRC=[
  ['Lightspeed','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
  ['Nvidia','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
  ['Sequoia Capital','Safe Superintelligence',['iv_ssit'],'2025年4月の20億ドルで出資者と報道(報道ベース)','2026/11/21'],
+ ['SpaceX','Cursor (Anysphere)',['v_sxcur1','v_sxcur2'],'買収の合併契約(2026/6/16)と完了(2026/8/14)をSEC 8-Kで確認','2026/11/22'],
+ ['BlackRock','Meta',['v_metaproxy'],'5%超の株主(クラスA株の7.2%)をMeta株主総会の招集通知で確認','2026/11/22'],
+ ['Nvidia','ElevenLabs',['iv_el2'],'NVIDIA(NVentures)の出資は公式で確認(2026年5月)。金額の5億ドルはシリーズD全体の額で、NVIDIAの出資額は非公表','2026/11/23'],
+ ['BlackRock','ElevenLabs',['iv_el2'],'2026年5月に新しい出資者として公式で確認','2026/11/23'],
+ ['Sequoia Capital','ElevenLabs',['iv_el1'],'シリーズDを主導','2026/11/23'],
+ ['Andreessen Horowitz','ElevenLabs',['iv_el1'],'シリーズDに参加','2026/11/23'],
+ ['ICONIQ','ElevenLabs',['iv_el1'],'シリーズDに参加','2026/11/23'],
+ ['Meta','Scale AI',['iv_scale'],'Metaの出資と評価額290億ドル超は公式で確認(2025年6月)。約49%・約143億ドルは報道ベース','2026/11/23'],
+ ['Nvidia','Thinking Machines Lab',['iv_tmlnv'],'NVIDIAの大型出資をThinking Machines Lab自身の発表で確認(2026年3月)。金額は非公表','2026/11/23'],
  /*MONEY_SRC_START*/
   ['Crosspoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
  ['Forgepoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],

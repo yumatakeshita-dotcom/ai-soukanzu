@@ -191,6 +191,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
   <header>
     <h1 id="title">OpenAI 相関図</h1>
     <p id="lastchk" class="meta" style="font-family:var(--font-mono);font-size:12px"></p>
+    <p id="watchchk" class="meta" style="font-size:12px;margin:2px 0 6px" hidden></p>
     <p>創業者、経営陣、取締役、投資家のつながりを年ごとに見られます。スライダーを動かすか、再生を押してください。人物をクリックすると詳細を表示し、ダブルクリックするとその人の人物相関図(家族・友人・師・仕事仲間など)へ移ります。ドラッグで動かせます。上の「表示の形」で、つながりを線で結んだ相関図と、ピラミッド型(創業者・トップを上に、経営陣、退職者、出資者、関連組織と段に分けた図)を切り替えられます。</p>
   </header>
 
@@ -260,6 +261,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/relnews.js"></script>
 <script src="data/movelab.js"></script>
 <script src="data/finds.js"></script>
+<script src="data/watchstatus.js"></script>
 <script src="data/common.js"></script>
 <script src="data/flowrank.js"></script>
 <script src="data/backlog.js"></script>
@@ -631,7 +633,7 @@ E.push({a:'softbank',b:'ampere',k:'invest2',since:2025});
 E.push({a:'softbank',b:'wework',k:'invest2',label:'2019年に救済'});
 E.push({a:'softbank',b:'sprint',k:'owns',label:'2020年にT-Mobileと合併'});
 E.push({a:'softbank',b:'stargate',k:'link',since:2025});
-E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)'});
+E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)',src:['v_sbnv']});
 E.push({a:'altman',b:'openai',k:'link'});
 E.push({a:'ellison',b:'oracle',k:'link'});
 E.push({a:'oracle',b:'stargate',k:'link'});
@@ -666,7 +668,7 @@ N.forEach(n=>{
 E.push({a:'nvidia',b:'openai',k:'invest2',label:'約300億ドル(報道)',since:2025});
 E.push({a:'nvidia',b:'anthropic',k:'invest2',label:'最大100億ドル'});
 ['xai','mistral','ssi','tml','sakana'].forEach(b=>E.push({a:'nvidia',b,k:'invest2'}));
-E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)'});
+E.push({a:'softbank',b:'nvidia',k:'link',label:'株式を売却(報道)',src:['v_sbnv']});
 E.push({a:'huang',b:'openai',k:'link',label:'DGXを寄贈',since:2016});
 
 
@@ -35749,6 +35751,19 @@ DATA.minimax=mk('minimax','MiniMax',[
  {a:'zhipu',b:'minimax',k:'conflict',label:'同じ月に香港上場',since:2026,d:'Zhipu AIが1月8日、MiniMaxが1月9日に香港に上場。米国のOpenAI・Anthropicより先に上場した大型AI企業になりました。',src:['cn_zp']}
 ],{EN:{yan:'Yan Junjie'},WEB:{minimax:'https://www.minimax.io'},WIKI:{minimax:'https://en.wikipedia.org/wiki/MiniMax_(company)'}});
 
+DATA.sbenergy=mk('sbenergy','SB Energy',[
+ {id:'sbenergy',name:'SB Energy',kind:'c',from:2025,desc:'ソフトバンクグループの会社で、データセンターのキャンパスとエネルギー設備を開発・運営します。テキサス州ミラム郡(1.2GW)とオハイオ州パイク郡のキャンパスを手がけます。(2026/11/23、OpenAIの公式発表(2026/1/9)で確認。創業年は未確認のため入れていません)'},
+ {id:'hossfeld',name:'リッチ・ホスフェルド',kind:'p',from:2025,role:'共同CEO',desc:'SB Energyの共同CEO。2026年1月9日のOpenAIの公式発表で、共同CEOとして発言。(2026/11/23確認。就任時期は未確認)',src:['v_oaisbe']},
+ {id:'ares',name:'Ares',kind:'i',from:2026,role:'償還可能優先株 8億ドル',desc:'2026年1月9日、SB Energyが同社から8億ドルの償還可能優先株(Redeemable Preferred Equity)による資金を調達したと、OpenAIの公式発表に記載。(2026/11/23確認)',src:['v_oaisbe']}
+],[
+ {a:'openai',b:'sbenergy',k:'deal',label:'オハイオ 約8GW(20年賃貸)',since:2026,d:'2026年8月17日、NVIDIAの公式発表で、オハイオ州パイク郡のPORTS-Pike Technology Campus(8 IT-GW分)のお客さんはOpenAI、SB Energyが建設・所有・運営し、OpenAIに20年で賃貸すると確認。最初の800MWは2028年、2032年まで拡張の予定。NVIDIAはこのキャンパスで計算基盤を独占的に提供し、最初の約4.25 IT-GW分について「残存価値保証」(OpenAIが借り手としての支払いをできなくなったとき、保証された最低賃料との差額をNVIDIAが払う仕組み)を出しました。NVIDIAの支払いの上限は累計1,050億ドルで、残りの約3.8GW分は任意で追加できます。SEC提出の8-K(2026/8/17)で確認。OpenAIはNVIDIAが払った分を返す約束です。SB Energyが約55億ドル相当のワラントをOpenAIに付与した点は報道ベースです。契約年数はAxiosだけ10年と報じましたが、NVIDIAの公式発表は20年です。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、NVIDIA公式発表・SEC 8-Kで確認)',src:['v_nvsbe','v_nv8k','oaisbe']},
+ {a:'nvidia',b:'sbenergy',k:'invest',label:'15億ドル出資',since:2026,d:'2026年8月17日、NVIDIAが15億ドルをSB Energyに出資すると公式発表。既存の出資者はソフトバンクグループとOpenAI。(2026/11/23、NVIDIA公式発表で確認)',src:['v_nvsbe']},
+ {a:'nvidia',b:'sbenergy',k:'deal',label:'保証 上限1,050億ドル',since:2026,d:'OpenAIが借りるパイク郡の約4.25GW分について、NVIDIAが残存価値保証をする契約。支払いの上限は累計1,050億ドル、残り約3.8GW分は任意で追加できます。NVIDIAが現金で1,050億ドルを出すわけではなく、OpenAIが払えなくなったときの差額の保証です。(2026/11/23、SEC 8-K(2026/8/17)・NVIDIA公式発表で確認)',src:['v_nv8k','v_nvsbe']},
+ {a:'openai',b:'sbenergy',k:'deal',label:'テキサス ミラム郡 1.2GW',since:2026,d:'2026年1月9日の公式発表で、OpenAIが1.2GWのデータセンター(テキサス州ミラム郡)の初期の建設分を賃貸する契約を結び、SB Energyに建設・運営を任せると発表。(2026/11/23、OpenAI公式発表で確認)',src:['v_oaisbe']},
+ {a:'openai',b:'sbenergy',k:'invest',label:'5億ドル出資',since:2026,d:'2026年1月9日、OpenAIとソフトバンクグループが各5億ドル(計10億ドル)をSB Energyに出資すると、OpenAIの公式発表。あわせてミラム郡の1.2GWのデータセンターの建設・運営をSB Energyに任せ、SB EnergyはOpenAIのAPI・ChatGPTの大口顧客にもなります。(2026/11/23、公式発表で確認)',src:['v_oaisbe']},
+ {a:'softbank',b:'sbenergy',k:'owns',label:'傘下(5億ドル出資)',since:2026,d:'「ソフトバンクグループの会社」とOpenAIの公式発表(2026/1/9)に記載。同日、ソフトバンクグループも5億ドルを出資。(2026/11/23、公式発表で確認)',src:['v_oaisbe']}
+],{WEB:{}});
+
 const PN='2026年11月18日に追加。金色の線は取引(電力・データセンター・チップの供給など)、青い線は出資。金額・比率には契約の上限や報道ベースの数字を含みます。顔写真は載せていません(人物ページに写真がある人はそちらを使います)。';
 const CN='2026年11月18日に追加。中国の会社は公式の開示が少なく、出資比率・人事は報道ベースです。金色の線は取引、青い線は出資、赤い線は競争・対立。顔写真は載せていません。';
 Object.assign(COMPANIES,{
@@ -35758,6 +35773,7 @@ Object.assign(COMPANIES,{
  xenergy:{name:'X-energy',min:2009,note:PN},
  cfs:{name:'Commonwealth Fusion Systems',min:2018,note:PN+'Googleの出資額は公表されていません。'},
  talen:{name:'Talen Energy',min:2015,note:PN+'Amazonとの契約の金額は公表されていません。'},
+ sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸・NVIDIAの保証と出資はNVIDIA公式発表とSEC 8-Kで確認(ワラントなど一部は報道ベース)。共同CEO・出資(OpenAI・ソフトバンクグループ各5億ドル、Ares 8億ドル)はOpenAIの公式発表(2026/1/9)で確認。ほかの人物は未確認です。'},
  tensorwave:{name:'TensorWave',min:2023,note:PN+'共同創業者の顔ぶれは公式の発表で確認できたCEOだけを「共同創業者」としています。'},
  iren:{name:'IREN',min:2018,note:PN+'Microsoftとの契約はIRENの米国証券取引委員会への届け出(2025年11月3日)に基づく報道です。'},
  applieddigital:{name:'Applied Digital',min:2021,note:PN+'賃料の合計は会社の見込みの数字です。'},
@@ -35767,7 +35783,7 @@ Object.assign(COMPANIES,{
  minimax:{name:'MiniMax',min:2021,note:CN+'持ち分は上場時の報道の数字です。'}
 });
 })();
-Object.assign(ALIAS,Object.fromEntries(Object.entries({oklo:'oklo',terrapower:'terrapower',kairos:'kairos',xenergy:'xenergy',cfs:'cfs',talen:'talen',tensorwave:'tensorwave',iren:'iren',applieddigital:'applieddigital',alibaba:'alibaba',tencent:'tencent',huawei:'huawei',minimax:'minimax',amazon:'us_AMZN',google:'us_GOOGL',coreweave:'st_coreweave',apple:'us_AAPL',amd:'us_AMD'}).filter(([k,v])=>COMPANIES[v]&&!ALIAS[k])));
+Object.assign(ALIAS,Object.fromEntries(Object.entries({oklo:'oklo',terrapower:'terrapower',kairos:'kairos',xenergy:'xenergy',cfs:'cfs',talen:'talen',tensorwave:'tensorwave',sbenergy:'sbenergy',iren:'iren',applieddigital:'applieddigital',alibaba:'alibaba',tencent:'tencent',huawei:'huawei',minimax:'minimax',amazon:'us_AMZN',google:'us_GOOGL',coreweave:'st_coreweave',apple:'us_AAPL',amd:'us_AMD'}).filter(([k,v])=>COMPANIES[v]&&!ALIAS[k])));
 // 上で足した会社の線を、相手の会社の図にも出す(例: Metaの図 → Oklo・TerraPower)
 function applyBack(c,d){
   const ids=new Set(d.N.map(n=>n.id));
@@ -35805,8 +35821,9 @@ const PHCLINK='<a href="credits.html" target="_blank" rel="noopener">写真の�
 function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" style="margin:-2px 0 6px;font-size:11px">${c?'写真: '+c.replace(/[<>&]/g,'')+' / ':''}${PHCLINK}</p>`}
 // ===== 毎日の更新記録(定期タスクがここに追記する) =====
 /* UPDATES_START */
-const LAST_CHECK='2026-11-22';
+const LAST_CHECK='2026-11-23';
 const UPDATES=[
+ {d:'2026-11-21',co:['openai'],cf:'公式',t:'OpenAIがSB Energyからオハイオ州パイク郡の約8GW(IT容量)を20年で賃貸。NVIDIAが約4.25GW分に上限1,050億ドルの残存価値保証と、SB Energyへ15億ドルの出資(NVIDIA公式発表・SEC 8-Kで確認)',src:['NVIDIA 8-K(2026-08-17)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm']},
  {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
@@ -35830,6 +35847,16 @@ const UPDATES=[
 ];
 /* UPDATES_END */
 document.addEventListener('DOMContentLoaded',()=>{const e=document.getElementById('lastchk');if(e)e.textContent=`最終確認: ${LAST_CHECK}(毎日 朝に自動で更新)`});
+/* ===== 見張りの結果の色表示(2026/11/23追加): data/watchstatus.js の WATCH_STATUS を、ホームの見出しの下に 緑=順調・黄=注意・赤=問題 で出す。2日以上古い記録は灰色で「古い」と出す ===== */
+document.addEventListener('DOMContentLoaded',()=>{try{
+  const e=document.getElementById('watchchk');if(!e||typeof WATCH_STATUS==='undefined')return;
+  const S=WATCH_STATUS,t=new Date(S.t.replace(' ','T')+':00+09:00'),old=(Date.now()-t)>2*864e5;
+  const col=old?'var(--muted)':({g:'var(--active)',y:'var(--deal)',r:'var(--conflict)'}[S.level]||'var(--muted)');
+  const lab=old?'記録が古い':({g:'毎朝の作業は順調',y:'注意あり',r:'問題あり'}[S.level]||'');
+  const esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  e.innerHTML=`<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${col};margin-right:6px;vertical-align:baseline" aria-hidden="true"></span><b style="color:${col}">見張り: ${lab}</b> <span style="color:var(--muted)">(問題${S.p}・注意${S.w}・順調${S.ok} / ${esc(S.t)}の確認)</span>`+(S.items&&S.items.length?`<details style="margin-top:3px"><summary style="cursor:pointer;color:var(--muted)">くわしく</summary><ul style="margin:4px 0 0;padding-left:18px">${S.items.map(i=>`<li><b style="color:${i[0]==='問題'?'var(--conflict)':'var(--deal)'}">${esc(i[0])}</b> ${esc(i[1])}: ${esc(i[2])}</li>`).join('')}</ul></details>`:'');
+  e.hidden=false;
+}catch(_){}});
 function updatesHtml(c){
   const L=UPDATES.filter(u=>!c||u.co.includes(c)).slice(0,6);if(!L.length)return '';
   return `<h3 style="margin:14px 0 6px;font-size:14px">最近の変化</h3><ul class="rel">${L.map(u=>`<li style="display:block"><b style="min-width:0">${u.d.slice(5).replace('-','/')}</b> ${u.t} <small>(${typeof cfBadge==='function'?cfBadge(CFJA[u.cf]||srcCf(u.src[0],u.src[1])):''}<a href="${u.src[1]}" target="_blank" rel="noopener">${u.src[0]}</a>)</small></li>`).join('')}</ul>`;
@@ -35871,6 +35898,10 @@ function primaryHtml(){
 // ===== 取引関係(クラウド・GPU・計算資源の契約) 2026年11月13日時点の公開情報 =====
 const DEAL_ASOF='2026年11月13日';
 const DS={
+ v_nvsbe:['NVIDIA公式発表(2026/8/17)','https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute','o'],
+ v_nv8k:['NVIDIA 8-K(2026/8/17、SEC)','https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm','f'],
+ v_oaisbe:['OpenAI公式発表(2026/1/9)','https://openai.com/index/stargate-sb-energy-partnership/','o'],
+ oaisbe:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy'],
  oaitw:['The Next Web(2026-11-16)','https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios'],
  msoai:['Microsoft公式ブログ(2025/10/28)','https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/'],
  oaitrack:['OpenAI計算資源の契約まとめ(presenc.ai, 2026/5)','https://presenc.ai/research/openai-compute-commitments-tracker-2026'],
@@ -35940,6 +35971,7 @@ const DEALS={
   ['coreweave','CoreWeave','GPU $22.4B',2025,'2025年に3回に分けて契約し、合計約224億ドルと報じられています。(2026/11/18、CoreWeaveの公式発表(2025/9/25)で「合計約224億ドル」で確認)',['cwv','v_oaicw']],
   ['nvidia','Nvidia','GPU 10GW → 出資$30B',2025,'2025年9月に10GW分の基本合意と、最大1,000億ドルの段階的な出資を発表。2026年2月にこの計画をやめ、300億ドルの直接出資に切り替えたと報じられています。(2026/11/18、OpenAIの公式発表で300億ドルの出資を確認)',['nv30','v_oai110']],
   ['amd','AMD','GPU 6GW',2025,'2025年10月、6GW分のGPU(MI450世代から)。OpenAIはAMD株を最大1億6,000万株(約10%)取得できる権利も得ました。最初の1GWは2026年後半から。',['oaiamd','v_oaiamd']],
+  ['sbenergy','SB Energy','オハイオ 約8GW賃貸',2026,'2026年8月17日、NVIDIAの公式発表で、オハイオ州パイク郡のPORTS-Pike Technology Campus(8 IT-GW分)のお客さんはOpenAI、SB Energyが建設・所有・運営し、OpenAIに20年で賃貸すると確認。最初の800MWは2028年、2032年まで拡張の予定。NVIDIAはこのキャンパスで計算基盤を独占的に提供し、最初の約4.25 IT-GW分について「残存価値保証」(OpenAIが借り手としての支払いをできなくなったとき、保証された最低賃料との差額をNVIDIAが払う仕組み)を出しました。NVIDIAの支払いの上限は累計1,050億ドルで、残りの約3.8GW分は任意で追加できます。SEC提出の8-K(2026/8/17)で確認。OpenAIはNVIDIAが払った分を返す約束です。SB Energyが約55億ドル相当のワラントをOpenAIに付与した点は報道ベースです。契約年数はAxiosだけ10年と報じましたが、NVIDIAの公式発表は20年です。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、NVIDIA公式発表・SEC 8-Kで確認)',['oaisbe']],
   ['tensorwave','TensorWave','AMD GPU 457MW',2027,'2026年11月16日、AMDのMI455X(Heliosラック)で457MW分の計算資源を6年契約。米国の複数拠点で2027年前半から稼働、2028年初めに全面稼働の予定。金額は非公表。',['oaitw']],
   ['broadcom','Broadcom','自社チップ 10GW',2025,'2025年10月、OpenAI独自のAIチップを共同開発し、10GW分を導入する契約。2026年後半から導入。',['oaiavgo','v_oaiavgo']],
   ['cerebras','Cerebras','推論 750MW',2026,'2026年1月、応答を速くする推論用に750MW・100億ドル超の契約。2028年までに導入。',['oaicbrs']],
@@ -36363,7 +36395,53 @@ Object.assign(DS,{
  v_xclark:['ジャック・クラーク本人のXのプロフィール(2026/11/19確認、Anthropic。前はOpenAIなど)','https://x.com/jackclarkSF','s'],
  v_mann:['ベン・マン本人の発言(Lenny\'s Podcast 2025/7、OpenAIを離れてAnthropicを作った経緯)','https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann','s']
 });
+Object.assign(DS,{v_metamanus:['Meta 四半期報告書(SEC 10-Q、2026年9月期。Manusの売却を2026年8月に完了、中国の国家発展改革委員会の命令による)','https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066773/meta-20260930.htm','f']});
+Object.assign(DS,{iv_scale:['Scale AI公式発表(2025/6/12、Metaから大型出資・評価額290億ドル超。創業者のアレクサンドル・ワンがMetaに加わる)','https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution','o']});
+Object.assign(DS,{iv_tmlnv:['Thinking Machines Lab公式発表(2026/3/10、NVIDIAと1GW以上のVera Rubin提携。NVIDIAが「significant investment」)','https://thinkingmachines.ai/news/nvidia-partnership/','o']});
+// 2026/11/23 確かめ直し(7回目): ElevenLabs公式発表・ソフトバンクの決算書類(足しただけ)
+Object.assign(DS,{
+ v_sbnv:['ソフトバンクグループ 決算報告(2026年3月期第2四半期、2025年10月にNVIDIA株をすべて約58.3億ドルで売却)','https://group.softbank/media/Project/sbg/sbg/pdf/ir/financials/financial_reports/financial-report_q2fy2025_01_en.pdf','f'],
+ iv_el1:['ElevenLabs公式発表(2026/2/4、シリーズD 5億ドル・評価額110億ドル。Sequoiaが主導、a16zとICONIQが参加)','https://elevenlabs.io/blog/series-d','o'],
+ iv_el2:['ElevenLabs公式発表(2026/5/5、新しい出資者にBlackRock・Wellington・NVIDIA(NVentures)・Santanderなど)','https://elevenlabs.io/blog/500m-arr-and-new-investors','o'],
+});
+// 2026/11/22 確かめ直し(6回目): 本人のXのプロフィール・投稿、NVIDIA公式発表、Meta株主総会の招集通知(足しただけ)
+Object.assign(DS,{
+ x_ilya:['イリヤ・スツケバー本人のXのプロフィール(2026/11/22確認、「SSI @SSI」)','https://x.com/ilyasut','s'],
+ x_mira:['ミラ・ムラティ本人のXのプロフィール(2026/11/22確認、「Now building @thinkymachines. Previously CTO @OpenAI」)','https://x.com/miramurati','s'],
+ x_schul:['ジョン・シュルマン本人のXのプロフィール(2026/11/22確認、「@thinkymachines」)','https://x.com/johnschulman2','s'],
+ x_zoph:['バレット・ゾフ本人のXのプロフィール(2026/11/22確認。過去にOpenAIとTMLの共同創業者・CTO。現在はGoogle DeepMindと記載)','https://x.com/barret_zoph','s'],
+ x_lecun:['ヤン・ルカン本人のXのプロフィール(2026/11/22確認、「Founder/Chair, AMI Labs … Ex-Chief AI Scientist, Meta」)','https://x.com/ylecun','s'],
+ x_karp:['アンドレイ・カルパシー本人のXの投稿(2024/7/16、Eureka Labsを始めると表明)','https://x.com/karpathy/status/1813263734707790301','s'],
+ x_shengjia:['シェンジア・ジャオ本人のXのプロフィール(2026/11/22確認、「Chief Scientist @ Meta MSL. Formerly MTS @ OpenAI」)','https://x.com/shengjia_zhao','s'],
+ x_hwchung:['ヒョンウォン・チョン本人のXのプロフィール(2026/11/22確認、「@Meta Superintelligence Labs. Past: @OpenAI」)','https://x.com/hwchung27','s'],
+ x_beyer:['ルーカス・ベイヤー本人のXのプロフィール(2026/11/22確認、「now: Meta. ex: OpenAI」)','https://x.com/giffmana','s'],
+ x_zhai:['シャオファ・ザイ本人のXのプロフィール(2026/11/22確認、「Researcher at Meta (previously at OpenAI Zürich …)」)','https://x.com/XiaohuaZhai','s'],
+ x_jwei:['ジェイソン・ウェイ本人のXのプロフィール(2026/11/22確認、「chief scientist @mercor. past: meta, openai」)','https://x.com/_jasonwei','s'],
+ v_kress:['NVIDIA公式発表(2026/11/12、コレット・クレスが暫定CEOに。CFOを兼ねる)','https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition','o'],
+ v_metaproxy:['Meta 株主総会の招集通知(SEC DEF 14A、2026/4/16、BlackRock系が5%超の株主・クラスA株の7.2%)','https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm','f'],
+});
 const VERIFY_PPL=[
+ ['イリヤ・スツケバー','Safe Superintelligence','x_ilya','本人のXのプロフィールで確認','moved','2026/11/22'],
+ ['アンドレイ・カルパシー','Eureka','x_karp','本人のXの投稿で確認','moved','2026/11/22'],
+ ['バレット・ゾフ','DeepMind','x_zoph','本人のXのプロフィールで確認(Reuters 2026/8/26の報道とも一致)','2026/11/22'],
+ ['ミラ・ムラティ','OpenAI','x_mira','本人のXのプロフィールで確認',['tml'],'from','2026/11/22'],
+ ['ミラ・ムラティ','Thinking Machines','x_mira','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['ジョン・シュルマン','Thinking Machines','x_schul','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['バレット・ゾフ','OpenAI','x_zoph','本人のXのプロフィールで確認',['tml'],'from','2026/11/22'],
+ ['バレット・ゾフ','Thinking Machines','x_zoph','本人のXのプロフィールで確認',['openai'],'from','2026/11/22'],
+ ['ヤン・ルカン','AMI','x_lecun','本人のXのプロフィールで確認','moved','2026/11/22'],
+ ['ジョナサン・ロス','Groq','v_groqnv','Groq公式発表で確認',['nvidia'],'from','2026/11/22'],
+ ['コレット・クレス','Nvidia','v_kress','NVIDIA公式発表で確認',['nvidia'],'2026/11/22'],
+ ['シェンジア・ジャオ','OpenAI','x_shengjia','本人のXのプロフィールで確認',['meta'],'from','2026/11/22'],
+ ['シェンジア・ジャオ','Meta','x_shengjia','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['ヒョンウォン・チョン','OpenAI','x_hwchung','本人のXのプロフィールで確認',['meta'],'from','2026/11/22'],
+ ['ヒョンウォン・チョン','Meta','x_hwchung','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['ルーカス・ベイヤー','OpenAI','x_beyer','本人のXのプロフィールで確認',['meta'],'from','2026/11/22'],
+ ['ルーカス・ベイヤー','Meta','x_beyer','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['シャオファ・ザイ','OpenAI','x_zhai','本人のXのプロフィールで確認',['meta'],'from','2026/11/22'],
+ ['シャオファ・ザイ','Meta','x_zhai','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
+ ['ジェイソン・ウェイ','OpenAI','x_jwei','本人のXのプロフィールで確認',['meta'],'from','2026/11/22'],
+ ['ジェイソン・ウェイ','Meta','x_jwei','本人のXのプロフィールで確認',['openai'],'moved','2026/11/22'],
  ['ビル・ピーブルズ','','v_peebles','本人のXの投稿で確認'],
  ['ケイト・ラウチ','','v_rouch','本人のXの投稿で確認'],
  ['アンドリュー・ミリッチ','','v_milich','本人のXの投稿で確認'],
@@ -36484,6 +36562,18 @@ function applyInvSrc(c,d){
     INVSRC.forEach(([a,b,keys,note,dt])=>{if(nm(A.name)!==nm(a)||nm(B.name)!==nm(b))return;
       (keys||[]).forEach(key=>{if(DS[key]&&!(e.src||[]).includes(key))e.src=(e.src||[]).concat([key])});
       if(note&&!(e.d||'').includes('出典で確認'))e.d=(e.d||'')+`(${dt||''}、出典で確認: ${note})`})});
+}
+/* 線に「その後の動き」を足す(2026/11/23)。元の説明は消さず、あとに足すだけ。[片方の名前, もう片方の名前, 線の説明にある言葉, 足す文, 出典キー] */
+const EDGE_NOTES=[
+ ['Meta','Manus','買収','【その後】2026年8月、中国当局の命令を受けてMetaはManusの買収を解消した(2026/11/23、Meta 四半期報告書で確認)。','v_metamanus'],
+];
+function applyEdgeNotes(c,d){
+  const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
+  d.E.forEach(e=>{const A=by[e.a],B=by[e.b];if(!A||!B)return;
+    EDGE_NOTES.forEach(([x,y,w,note,key])=>{
+      const ok=(A.name||'').includes(x)&&(B.name||'').includes(y)||(A.name||'').includes(y)&&(B.name||'').includes(x);
+      if(!ok||!((e.label||'')+(e.d||'')).includes(w)||(e.d||'').includes(note))return;
+      e.d=(e.d||'')+note;if(DS[key]&&!(e.src||[]).includes(key))e.src=(e.src||[]).concat([key])})});
 }
 function applyVerifyPpl(c,d){
   const by=Object.fromEntries(d.N.map(n=>[n.id,n]));
@@ -36749,7 +36839,7 @@ function applyBig(c,d){
     d.E.push({a,b,k,label,since:y,d:desc,src,bl:1});
   });
 }
-Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);if(typeof applyFun==='function')applyFun(c,d);applyVerifyPpl(c,d);applyInvSrc(c,d);applyBack(c,d);d.N.forEach(n=>{
+Object.keys(DATA).forEach(c=>{const f=RAW[c];DATA[c]=()=>{const d=f();applyLegacy(c,d);applyDeals(c,d);applyUses(c,d);applyFinds(c,d);applyBig(c,d);if(typeof applyFun==='function')applyFun(c,d);applyVerifyPpl(c,d);applyInvSrc(c,d);applyEdgeNotes(c,d);applyBack(c,d);d.N.forEach(n=>{
   if(JA[n.name])n.name=JA[n.name];
   const k=d.EN[n.id];if(!k)return;
   if(!d.PH[n.id]){const p=GL.ph[k]||(OUT[k]&&OUT[k].img)||(PHX[k]&&PHX[k].i);if(p)d.PH[n.id]=p}
@@ -37311,7 +37401,7 @@ function renderPersonPanel(){
  ['プロダクト・SaaS企業',['twitter','notion','figma','stripe','canva','cursor','slack']],
  ['モビリティ・デリバリー',['uber','doordash','waymo','newmo','go','demaecan']],
  ['半導体',['tsmc','jasm','asml','samsung','skhynix','us_AMD','us_AVGO','us_MU','us_INTC','jp_8035','jp_6857'].filter(k=>COMPANIES[k])],
- ['電力・データセンター',['st_coreweave','st_crusoe','st_lambda','tensorwave','iren','applieddigital','us_EQIX','us_NEE','us_CEG','talen','oklo','terrapower','kairos','xenergy','cfs','st_helion'].filter(k=>COMPANIES[k])],
+ ['電力・データセンター',['st_coreweave','st_crusoe','st_lambda','tensorwave','sbenergy','iren','applieddigital','us_EQIX','us_NEE','us_CEG','talen','oklo','terrapower','kairos','xenergy','cfs','st_helion'].filter(k=>COMPANIES[k])],
  ['中国のAI企業',['st_deepseek','st_moonshot','st_zhipu','minimax','alibaba','tencent','st_bytedance','huawei'].filter(k=>COMPANIES[k])],
  ['日本の企業',['sakana','softbank','pfn','pksha','rakuten','ly','mercari','boost']],
  ['注目スタートアップ',STARTUPS.map(s=>s.key)],
@@ -38949,7 +39039,7 @@ qEl.addEventListener('keydown',ev=>{
 window.addEventListener('keydown',ev=>{if(ev.key==='/'&&document.activeElement!==qEl&&!/INPUT|TEXTAREA/.test((document.activeElement||{}).tagName||'')){ev.preventDefault();qEl.focus()}});
 
 /* ===== スタートページ: 入口を6つに絞った、いちばんシンプルな画面(2026/11/22: 入口は上のメニューと同じ5グループ) ===== */
-const BUILT='2026-11-22 09:15';
+const BUILT='2026-11-23 09:15';
 function showHome(){
   stop();leavePerson();
   MAINEL.hidden=true;controls.hidden=true;trailbar.hidden=true;document.getElementById('subbar').hidden=true;RANKEL.hidden=true;PROFEL.hidden=true;UNIEL.hidden=true;FEEDEL.hidden=false;
@@ -38984,19 +39074,37 @@ function showHome(){
     ['ipo','資金調達ニュース','日本と世界の調達・ユニコーン候補']
   ];
   /* 2026/11/22: 上のメニューの選択欄(#topsel)と同じグループ分け・同じ並びで出す。jp・ipoは選択欄にないので近いグループに置く */
-  const HOMEGROUPS=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
+  const HOMEGROUPS0=[['見る・調べる',['company','common','invest','rank']],['企業の一覧',['su','uni','jpsu','world','all','vc','jp']],['お金と人の動き',['rel','money','move','extl','flow','outfit','ipo']],['調査・解説',['finds','cf','xlearn','agents']],['その他',['fun']]];
   const aiKW=/AI|人工知能|生成|OpenAI|Anthropic|Claude|ChatGPT|Gemini|NVIDIA|エヌビディア|半導体|GPU|チップ|データセンター|TSMC|ソフトバンク|xAI|スタートアップ|資金調達|買収|出資|LLM|ロボット|chip|startup|funding|acquir|raises/i;const aiNews=RELNEWS.filter(h=>h.a===undefined?aiKW.test(h.t):h.a===1);const news=(aiNews.length>=6?aiNews:RELNEWS).slice(0,6); /* 2026/11/20: AI・半導体・資金調達に関係する見出しだけ。足りなければ全部 */
+  /* 2026/11/22: グループ見出しを押すと、そのグループだけ開閉する。閉じたグループは覚えておく(ブラウザに保存。使えなければ今の画面の間だけ) */
+  /* グループの開閉(2026/11/22): 閉じたグループと、よく開く入口の回数はブラウザに覚える。スマホ幅で初めて開いたときは「見る・調べる」だけ開く */
+  const lsGet=k=>{try{return localStorage.getItem(k)}catch(e){return null}},lsSet=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+  let HOMEUSE={};try{HOMEUSE=JSON.parse(lsGet('homeUse')||'{}')||{}}catch(e){}
+  const okKeys=new Set(HOMEGROUPS0.flatMap(g=>g[1]));
+  const favKeys=Object.entries(HOMEUSE).filter(([k,n])=>okKeys.has(k)&&n>0).sort((a,b)=>b[1]-a[1]).slice(0,4).map(x=>x[0]);
+  const HOMEGROUPS=favKeys.length?[['よく見る',favKeys],...HOMEGROUPS0]:HOMEGROUPS0;
+  let closedArr=null;try{closedArr=JSON.parse(lsGet('homeClosed')||'null')}catch(e){}
+  if(!Array.isArray(closedArr))closedArr=innerWidth<=600?HOMEGROUPS.map(g=>g[0]).filter(n=>n!==HOMEGROUPS[0][0]):[];
+  const HOMECLOSED=new Set(closedArr);
   const upd=BUILT?`このページのデータの時点: ${BUILT}`:'';
   FEEDEL.innerHTML=`<div style="max-width:880px;margin:0 auto;padding:8px 0 40px">
    <p style="font-size:15px;color:var(--muted);margin:4px 0 18px">上の検索欄で人や会社を探すか、下の入口から始めてください。</p>
-   ${HOMEGROUPS.map(g=>`<h3 style="margin:22px 0 8px;font-size:15px">${g[0]}</h3><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
+   <div style="display:flex;gap:8px;margin:0 0 4px"><button type="button" id="hgall" data-o="1" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて開く</button><button type="button" id="hgnone" data-o="0" style="font:inherit;font-size:13px;padding:4px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);cursor:pointer">すべて閉じる</button></div>
+   ${HOMEGROUPS.map((g,gi)=>`<h3 style="margin:22px 0 8px;font-size:15px"><button type="button" class="hgtoggle" data-g="${gi}" aria-expanded="${!HOMECLOSED.has(g[0])}" style="font:inherit;font-weight:700;background:none;border:0;padding:4px 0;color:var(--fg);cursor:pointer;display:flex;align-items:center;gap:6px"><span class="hgarrow" aria-hidden="true" style="display:inline-block;width:1em;transition:transform .15s;transform:rotate(${HOMECLOSED.has(g[0])?0:90}deg)">▸</span>${g[0]}<small style="color:var(--muted);font-weight:400">(${g[1].length})</small></button></h3><div class="hggrid" data-g="${gi}"${HOMECLOSED.has(g[0])?' hidden':''} style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">${g[1].map(k=>cards.find(c=>c[0]===k)).filter(Boolean).map(c=>`<button type="button" data-h="${c[0]}" style="text-align:left;font:inherit;padding:16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--fg);cursor:pointer"><b style="font-size:16px">${c[1]}</b><br><small style="color:var(--muted)">${c[2]}</small></button>`).join('')}</div>`).join('')}
    <h3 style="margin:28px 0 8px;font-size:15px">調査のようす</h3>
    ${typeof backlogBox==='function'?backlogBox():''}
    <h3 style="margin:28px 0 8px;font-size:15px">最近のニュース</h3>
    ${news.length?`<ul style="list-style:none;padding:0;margin:0">${news.map(h=>`<li style="padding:7px 0;border-bottom:1px solid var(--line)"><small style="color:var(--muted)">${esc(h.d)} ${esc(h.s)}</small><br><a href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a></li>`).join('')}</ul><p style="margin:8px 0"><a href="#" id="homenews">ニュースをすべて見る ▸</a></p>`:'<p class="note">ニュースはまだありません。</p>'}
    <p class="note" style="margin-top:22px">${esc(upd)}</p></div>`;
   const go={company:()=>build('openai'),common:()=>showCommon(),invest:()=>showInvest(),outfit:()=>showOutfit(),money:()=>showMoney(),move:()=>showMove(),flow:()=>showFlowRank(),finds:()=>showFinds(),cf:()=>showCfList(),extl:()=>showExecTl(),xlearn:()=>openXlearn(),fun:()=>showFun(),agents:()=>openAgents(),rank:()=>showRank(1),uni:()=>showUnicorns(''),rel:()=>showRel(),vc:()=>showVC(),jpsu:()=>showJpSU(),world:()=>showWorld(),all:()=>showAll(),su:()=>showStartups(),jp:()=>showRankJp('l',1),ipo:()=>showFeed('news')};
-  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{ctrail=[];go[b.dataset.h]()}));
+  FEEDEL.querySelectorAll('button[data-h]').forEach(b=>b.addEventListener('click',()=>{HOMEUSE[b.dataset.h]=(HOMEUSE[b.dataset.h]||0)+1;lsSet('homeUse',JSON.stringify(HOMEUSE));ctrail=[];go[b.dataset.h]()}));
+  const setGrp=(b,open)=>{const gi=+b.dataset.g,name=HOMEGROUPS[gi][0],grid=FEEDEL.querySelector(`.hggrid[data-g="${gi}"]`);
+    b.setAttribute('aria-expanded',String(open));grid.hidden=!open;b.querySelector('.hgarrow').style.transform=`rotate(${open?90:0}deg)`;
+    if(open)HOMECLOSED.delete(name);else HOMECLOSED.add(name)};
+  FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>b.addEventListener('click',()=>{
+    setGrp(b,b.getAttribute('aria-expanded')!=='true');lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
+  FEEDEL.querySelectorAll('#hgall,#hgnone').forEach(x=>x.addEventListener('click',()=>{
+    FEEDEL.querySelectorAll('button.hgtoggle').forEach(b=>setGrp(b,x.dataset.o==='1'));lsSet('homeClosed',JSON.stringify([...HOMECLOSED]))}));
   const hn=document.getElementById('homenews');if(hn)hn.addEventListener('click',ev=>{ev.preventDefault();showRel()});
   window.scrollTo(0,0);
 }
@@ -39326,12 +39434,16 @@ function navSync(){
   else if(!UNIEL.hidden)cur='uni';
   else if(!FEEDEL.hidden){const t=document.getElementById('title').textContent;cur=t==='企業と人のつながりを見る'?'home':/ニュースから企業の関係/.test(t)?'rel':/ベンチャーキャピタル/.test(t)?'vc':/^日本のスタートアップ/.test(t)?'jpsu':/^世界の企業/.test(t)?'world':/^全企業リスト/.test(t)?'all':/^スタートアップ一覧/.test(t)?'su':/^AIマネーの循環/.test(t)?'money':/^AI人材の移籍/.test(t)?'move':/^人材の流れ/.test(t)?'flow':/^調査の新着/.test(t)?'finds':/^2社の共通/.test(t)?'common':/^出資の一覧/.test(t)?'invest':/^確かさの一覧/.test(t)?'cf':/^幹部の年表/.test(t)?'extl':/^装いとブランド/.test(t)?'outfit':/^おもしろ情報/.test(t)?'fun':'uni'}
   document.querySelectorAll('#topnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.h===cur)));
-  {const ts=document.getElementById('topsel');if(ts)ts.value=[...ts.options].some(o=>o.value===cur)?cur:'company'}
+  {const ts=document.getElementById('topsel');if(ts){ts.dataset.cur=[...ts.options].some(o=>o.value===cur)?cur:'company';ts.value=ts.dataset.cur}}
   document.querySelectorAll('.wrap > .room').forEach(r=>{r.hidden=MAINEL.hidden});
   document.querySelectorAll('.wrap > header p').forEach(hp=>{hp.hidden=MAINEL.hidden});   /* 相関図の操作説明は、相関図を見ているときだけ */
 }
-document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
-{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
+document.querySelectorAll('#topnav button').forEach(b=>b.addEventListener('click',()=>{navNote(b.dataset.h);ctrail=[];NAVGO[b.dataset.h]();window.scrollTo(0,0)}));
+/* 2026/11/23: 最近見たページ(上の選択欄の先頭)と、よく使うページ(ホームの先頭)。このブラウザの中だけに記録(localStorage) */
+function navNote(k){try{if(!k||k==='home')return;const r=JSON.parse(localStorage.getItem('navRecent')||'[]').filter(x=>x!==k);r.unshift(k);localStorage.setItem('navRecent',JSON.stringify(r.slice(0,3)));const c=JSON.parse(localStorage.getItem('navCount')||'{}');c[k]=(c[k]||0)+1;localStorage.setItem('navCount',JSON.stringify(c));navRecentSel()}catch(e){}}
+function navRecentSel(){try{const ts=document.getElementById('topsel');if(!ts)return;const old=ts.querySelector('optgroup[data-recent]');if(old)old.remove();const r=JSON.parse(localStorage.getItem('navRecent')||'[]');const lab={};ts.querySelectorAll('option').forEach(o=>{lab[o.value]=o.textContent});const ks=r.filter(k=>lab[k]);if(!ks.length)return;const g=document.createElement('optgroup');g.label='最近見たページ';g.dataset.recent='1';ks.forEach(k=>{const o=document.createElement('option');o.value=k;o.textContent=lab[k];g.appendChild(o)});ts.insertBefore(g,ts.firstChild);const cur=ts.dataset.cur;if(cur)ts.value=cur}catch(e){}}
+navRecentSel();
+{const ts=document.getElementById('topsel');if(ts)ts.addEventListener('change',()=>{const k=ts.value;navNote(k);ctrail=[];if(NAVGO[k])NAVGO[k]();else{const bt=document.querySelector('#topnav button[data-h="'+k+'"]');if(bt)bt.click()}window.scrollTo(0,0)})}
 {const mo=new MutationObserver(navSync);
  [MAINEL,PROFEL,RANKEL,UNIEL,FEEDEL].forEach(e=>mo.observe(e,{attributes:true,attributeFilter:['hidden']}));
  mo.observe(document.getElementById('title'),{childList:true,characterData:true,subtree:true})}

@@ -19,8 +19,7 @@ FEEDS = [  # (url, 媒体名, r: j=日本 w=世界)
     ("https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "The Verge", "w"),
     ("https://arstechnica.com/ai/feed/", "Ars Technica", "w"),
     ("https://siliconangle.com/feed/", "SiliconANGLE", "w"),
-    ("https://gigazine.net/news/rss_2.0/", "GIGAZINE", "j"),
-    ("https://toyokeizai.net/list/feed/rss", "東洋経済オンライン", "j"),
+    # 2026/11/22 GIGAZINE・東洋経済オンラインは、AIと関係ない見出しが9割以上だったので外した(すでに入った見出しは残す)
 ]
 for q in ["AI 資金調達 スタートアップ", "生成AI 買収 提携", "OpenAI OR Anthropic", "NVIDIA OR 半導体 投資",
           "AI 幹部 就任 退任 移籍", "データセンター 投資 AI"]:

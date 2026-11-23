@@ -1,0 +1,199 @@
+{
+ "date": "2026-11-22",
+ "kind": "gemini",
+ "topic": "シンガポール のAI関連スタートアップの資金調達・出資・買収(2026年11月)。出典は DealStreetAsia・Inc42・TechCrunch など本文が開ける記事のURL",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Vertex Ventures Southeast Asia & India",
+   "関係": "出資",
+   "相手": "Everful",
+   "金額": "US$48.5 million",
+   "日付": "2026-11-20",
+   "出典URL": "https://e27.co/everful-raises-us48-5m-series-a-to-turn-the-overseas-sourcing-office-into-software-20261120/",
+   "確かさ": "報道",
+   "備考": "Series A funding, co-led by Vertex Ventures Southeast Asia & India and January Capital。Everfulはサンフランシスコとシンガポールを拠点とするAIインフラ企業。",
+   "src": [
+    [
+     "e27",
+     "https://e27.co/everful-raises-us48-5m-series-a-to-turn-the-overseas-sourcing-office-into-software-20261120/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8q5-1aG_NoSKoRnDSWzrPUjDMdJwfBKUVzYLq8UZwkTmnYxnXt7AGmdXaQWVYKui1sDGgY5w2Wo4jRA_W7KXcC6GY3rLz_EYcdYoN0qp-h6oOMSJ6SllIEMfwRAocgPrRV2Fx4RB0r8fIQY03FJyNwyKGw0I2rGMEEvi_Ufuj5urzdbGJRqtiWphcKOfKa7MFiyW9pw4_wAfH1WQicA2NYguXLXUd",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Everful raises US$48.5M Series A to turn the overseas sourci",
+    "状態": "ok",
+    "載っていた名前": [
+     "Everful"
+    ]
+   }
+  },
+  {
+   "会社名": "Mistral AI",
+   "関係": "拠点開設",
+   "相手": "シンガポール",
+   "金額": "",
+   "日付": "2026-11-20",
+   "出典URL": "https://cryptobriefing.com/mistral-asia-pacific-headquarters-singapore/",
+   "確かさ": "報道",
+   "備考": "フランスのAI企業Mistral AIがアジア太平洋地域統括本部をシンガポールに開設。2027年までに地域の人員を200人に倍増する計画。",
+   "src": [
+    [
+     "Crypto Briefing, Fortune, MLQ.ai",
+     "https://cryptobriefing.com/mistral-asia-pacific-headquarters-singapore/"
+    ]
+   ],
+   "既存の名前": [
+    "Mistral AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_w7jaL-KSZAdUPoFY0qPpiJm0YSH0OWQQmXPj0C2_G9RPXhRD6U3hIbqIpovzvYqnf_fVyGJce1voOoaX8Yu1izgRPqxRkseiRs_Al1hHF2rhgwutzTjMOQhTik9sbRlpU0L0dJZlq0mfn11YVxd1cSIumfpgmMtIr5eDPAo1UOqj",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Databricks",
+   "関係": "投資/提携",
+   "相手": "シンガポール (AIエコシステム, スタートアップ)",
+   "金額": "S$445 million",
+   "日付": "2026-11",
+   "出典URL": "https://www.edb.gov.sg/en/news-and-insights/latest-in-singapores-ai-scene-that-businesses-should-know-a-round-up-from-july-to-september-2026",
+   "確かさ": "報道",
+   "備考": "3年間でシンガポールにS$4.45億（約US$3.3億）以上を投資し、Singapore Startup AI Acceleratorを2026年11月に開始。",
+   "src": [
+    [
+     "Singapore Economic Development Board (EDB)",
+     "https://www.edb.gov.sg/en/news-and-insights/latest-in-singapores-ai-scene-that-businesses-should-know-a-round-up-from-july-to-september-2026"
+    ]
+   ],
+   "既存の名前": [
+    "Databricks"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7PqrL6awqc8NrXO8y-K1U8HkYUABgtJg-65CC3p6ZMUkIVMTKbXW4gcXmYftE3z0F8CoN2Z1TzzeSrB1KzqSGkc4amHAOCkaTYjs7rYzCuoAeZeyJZX1sGkCinq1Ao7Mp2RBNLbYFYp9z-DkLRke-genEiktXmNBFe1X2iCgd7rrLhS4IP3Cf4VL-5o6u2Gyo7_EKyr1A9xHxX02Tf548w5uWy8GI9kmmJWseHnxqD2rd4Qlrp90MEvZiKx8_rWqluW0Lpn3sQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Google Cloud",
+   "関係": "拠点開設/提携",
+   "相手": "Grab, DBS (提携), シンガポール (Engineering Center)",
+   "金額": "",
+   "日付": "2026-11",
+   "出典URL": "https://www.edb.gov.sg/en/news-and-insights/latest-in-singapores-ai-scene-that-businesses-should-know-a-round-up-from-july-to-september-2026",
+   "確かさ": "報道",
+   "備考": "東南アジア初のエンジニアリングセンターをシンガポールに開設。GrabとDBSとAIソリューション開発で初期協力。",
+   "src": [
+    [
+     "Singapore Economic Development Board (EDB)",
+     "https://www.edb.gov.sg/en/news-and-insights/latest-in-singapores-ai-scene-that-businesses-should-know-a-round-up-from-july-to-september-2026"
+    ]
+   ],
+   "既存の名前": [
+    "Google Cloud"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEQ7PqrL6awqc8NrXO8y-K1U8HkYUABgtJg-65CC3p6ZMUkIVMTKbXW4gcXmYftE3z0F8CoN2Z1TzzeSrB1KzqSGkc4amHAOCkaTYjs7rYzCuoAeZeyJZX1sGkCinq1Ao7Mp2RBNLbYFYp9z-DkLRke-genEiktXmNBFe1X2iCgd7rrLhS4IP3Cf4VL-5o6u2Gyo7_EKyr1A9xHxX02Tf548w5uWy8GI9kmmJWseHnxqD2rd4Qlrp90MEvZiKx8_rWqluW0Lpn3sQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Monetary Authority of Singapore (MAS)",
+   "関係": "提携",
+   "相手": "Future of Finance Institute (FFI), AI Singapore (AISG)",
+   "金額": "",
+   "日付": "2026-11-18",
+   "出典URL": "https://www.mas.gov.sg/news/media-releases/2026/mas-and-future-of-finance-institute-set-out-initiatives-in-support-of-national-ai-missions",
+   "確かさ": "公式",
+   "備考": "金融分野のAI人材育成のため、FFI、AI Singaporeと提携を発表。DBS、OCBC、Standard Chartered、UOBもFFIのローンチパートナー。",
+   "src": [
+    [
+     "Monetary Authority of Singapore",
+     "https://www.mas.gov.sg/news/media-releases/2026/mas-and-future-of-finance-institute-set-out-initiatives-in-support-of-national-ai-missions"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgeR8QzlY2eLtwmq9sUaOyo6pVRqq9fNGYUqfIyruha2i5hB2x0bWK0H_A_uqL_PYj7j7TucB01OwCktUljOVbn8NpwNB93tpqGJjI00oDdZrGIH8V46Z13YhQoXXtwZ_v1UFnyaPH85ivZfXUgfAHF3EduDPRy1ESdy617NRV9wvAW4mMKwHbqeKRSjwlrqQMXLpb4YiaYjaD2GD36lcdqzPvhxWGfeBlZQfj0OHbmCBXYNj8j7LiLHRj6tq-qkuFbpFoHgw=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "NETS",
+   "関係": "提携",
+   "相手": "Ant International",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5j9UL-ej2Yf9iQcbx4W8czBLh2ktUGmBHKgIO5GhZlo1rZK5Al3u0RiisTLWda0FMgMBISGQL9AlzQ0s8JqBeiKiviSNKhVzL9acjGcirfY2szVPVrihNQ3w59iY4p5lX3E_9DciMDroVIRBPTtg-ma6QJY8naaTMt8l6YYRtYu38vMI_rQhwyLPYCsoiUM3YS-rE2KbGMCjYJWax_G8E9PWmgAcd1rKZds5ghCu0_AiIpQ40PGp4blY920yld8LyM_RpIDKZJ-NLXSP3JebO1XAa7QRBxJ46ybxeXwDXJmF7mVVK_Hs5nYwXgI0zlAK1knL4HXAN",
+   "確かさ": "報道",
+   "備考": "Agentic Mobile Protocol (AMP)とAIネイティブソリューションを活用したパートナーシップをシンガポールフィンテックフェスティバル2026で締結。NETSはAnt InternationalのAMPに参加する初の国家決済システムとなる。",
+   "src": [
+    [
+     "The Asian Banker",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5j9UL-ej2Yf9iQcbx4W8czBLh2ktUGmBHKgIO5GhZlo1rZK5Al3u0RiisTLWda0FMgMBISGQL9AlzQ0s8JqBeiKiviSNKhVzL9acjGcirfY2szVPVrihNQ3w59iY4p5lX3E_9DciMDroVIRBPTtg-ma6QJY8naaTMt8l6YYRtYu38vMI_rQhwyLPYCsoiUM3YS-rE2KbGMCjYJWax_G8E9PWmgAcd1rKZds5ghCu0_AiIpQ40PGp4blY920yld8LyM_RpIDKZJ-NLXSP3JebO1XAa7QRBxJ46ybxeXwDXJmF7mVVK_Hs5nYwXgI0zlAK1knL4HXAN"
+    ]
+   ],
+   "既存の名前": [
+    "NETS"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Singapore AI startup funding November 2026 DealStreetAsia",
+   "Singapore AI startup investment November 2026 Inc42",
+   "Singapore AI startup acquisition November 2026 TechCrunch",
+   "Singapore AI startup news November 2026",
+   "Singapore AI companies partnerships November 2026",
+   "Singapore AI talent movement November 2026",
+   "Singapore AI company official announcements November 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2661,
+   "candidatesTokenCount": 2195,
+   "totalTokenCount": 15427,
+   "cachedContentTokenCount": 548,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2661
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 548
+    }
+   ],
+   "toolUsePromptTokenCount": 3463,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3463
+    }
+   ],
+   "thoughtsTokenCount": 7108,
+   "serviceTier": "standard"
+  }
+ }
+}

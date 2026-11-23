@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-22",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "from": "Disney",
+   "to": "OpenAI",
+   "kind": "出資",
+   "amount": "$10億(株式出資+追加の新株予約権)",
+   "date": "2025-12-11",
+   "note": "Sora向けにDisney・Marvel・Pixar・Star Warsの200超のキャラクターを3年間ライセンス。最終契約・取締役会承認などの条件つき(発表時点)。 過去の動画・番組(20VC・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "OpenAI公式(2025/12/11)",
+     "https://openai.com/index/disney-sora-agreement/"
+    ],
+    [
+     "Axios(2025/12/11)",
+     "https://www.axios.com/2025/12/11/openai-disney-sora"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "NVIDIA・Cisco Investments・Valor Equity Partners・QIA・Fidelity・MGX ほか",
+   "to": "xAI",
+   "kind": "出資",
+   "amount": "$200億(シリーズE。評価額は非公表)",
+   "date": "2026-01-06",
+   "note": "目標$150億を上回って完了とxAIが発表。評価額は会社は非開示(報道では$2300億との見方)。 過去の動画・番組(20VC・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "xAI公式(2026/1/6)",
+     "https://x.ai/news/series-e"
+    ],
+    [
+     "SiliconANGLE(2026/1/6)",
+     "https://siliconangle.com/?p=726944"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  }
+ ]
+}

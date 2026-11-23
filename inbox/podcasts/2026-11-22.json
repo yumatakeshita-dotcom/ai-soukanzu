@@ -1,0 +1,259 @@
+{
+ "date": "2026-11-22",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着4本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "substack:post:224503136",
+   "show": "Lenny's Podcast",
+   "kind": "起業・プロダクト",
+   "lang": "en",
+   "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+   "published": "2026-11-22",
+   "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+   "description": "Sherif Mansour is Head of AI and Product Craft at Atlassian (the company behind Jira and Confluence), where he has spent 17 years building and scaling some of the most successful enterprise products in history. He joined Atlassian as its first PM on Confluence, eventually becoming its first Distinguished PM, and now leads both the craft of product management across the company and Atlassian’s AI product strategy. We discuss: 1. Why a PM’s #1 job is to build a “shared brain” 2. The artist, the scientist, and the GM: three types of PM, and how to tell which one you are 3. Why PM roles are growing fastest in the AI era 4 Why Atlassian is hiring more juniors than ever 5. The most common mistake new PM managers make — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RB"
+  },
+  {
+   "id": "1a149f0e-47b5-4382-9be3-533a47758c3d",
+   "show": "The a16z Show",
+   "kind": "VC",
+   "lang": "en",
+   "title": "Replay: How the Internet Happened | Chris Dixon & Brian McCullough (2018)",
+   "published": "2026-11-22",
+   "url": "https://a16z.simplecast.com/episodes/replay-how-the-internet-happened-chris-dixon-brian-mccullough-2018-k0AHBjvt",
+   "description": "Why do technologies that look like bad ideas in one era become enormous companies in the next? Originally recorded in 2018, Brian McCullough and Chris Dixon trace the companies, failures, and accidents that built the modern internet. They revisit the battle between the open web and more centralized visions of the “information superhighway,” why eBay helped establish trust between strangers online, what Napster understood about digital media, and how Google found a business model for search. They also look at the dot-com crash and the ideas that arrived before the technology was ready, from cloud storage to grocery delivery, asking what those cycles can teach founders about spotting the next wave. Resources: Follow Brian McCullough on X: https://x.com/brianmcc Follow Chris Dixon on X: https"
+  },
+  {
+   "id": "491ad747-8985-4309-9cbf-4c69a137fb38",
+   "show": "NewsPicks Daily Briefing",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "【11月23日】ニッポンの「ドル箱」ビジネスの秘密 ほか",
+   "published": "2026-11-22",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1123-e3srand",
+   "description": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ ゴールドマン「パニック指数」、最高水準に迫る https://npx.me/s/9Kdib6FF ◇オリジナルコンテンツ◇ アンソロピックIPOの混乱、テック株4兆ドル消失に追い打ち https://npx.me/s/T6uS4qZe 【逆襲】YouTubeに遅れたアップルの「奇策」 https://npx.me/s/gb75A4W0 サイバー攻撃「衝撃の第2波」に備えよ https://npx.me/s/AHrZ8EzO 【豊田通商・今井社長】「地球を掘らない」商社の戦い方 https://npx.me/s/XDWSL47B 【超図解】ニッポンのドル箱。「国立公園ビジネス」の秘密 https://npx.me/s/sJOuODgn 「KDDI生みの親」が語る孫正義の実像 https://npx.me/s/a5hr1OiZ ◇今日の一冊◇ NVC : 人と人との関係にいのちを吹き込む法 https://npx.me/s/8CX9zveK ※このAI音声番組はNewsPicksが実験的に運用しています。 内容の正確性や品質には十分配慮しておりますが、もしお気づきの点がありましたら、 下記リンクからご連絡ください。 https://newspicks.zendesk.com/hc/ja/requests/new"
+  },
+  {
+   "id": "f6478ddd-5f45-4f14-87bc-db11d4324a33",
+   "show": "BRAVE Southeast Asia Tech",
+   "kind": "東南アジアVC・起業",
+   "lang": "en",
+   "title": "Growth Comes From Outside Your Comfort Zone: Why Founders Are Leaving Home to Learn - E750",
+   "published": "2026-11-22",
+   "url": "https://pod.co/bravedynamics/growth-comes-from-outside-your-comfort-zone-why-founders-are-leaving-home-to-learn-e750",
+   "description": "Should founders leave home to build? In this compilation, Jeremy Au, Shiyan Koh, Adriel Yong and Chalinda Abeykoon argue that the better question is how often to go, and what to bring back. Shiyan, Managing Partner at Hustle Fund, tells founders outside the Bay Area to spend time in San Francisco every quarter or so, without necessarily moving there. Adriel, co-founder and COO of Clouted, argues that Singapore works so well it dulls the problem-solving instinct founders need, and that every student should spend six months to a year abroad. Chalinda, Managing Partner at nVentures, grew up in Colombo during Sri Lanka’s civil war, when leaving was the plan for almost everyone, and now runs a fund that backs Sri Lankan founders. They discuss why copying another ecosystem’s playbook has limits,"
+  }
+ ]
+}

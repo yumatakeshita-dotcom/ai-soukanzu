@@ -2,6 +2,7 @@
 const {chromium}=require('playwright');const {start}=require('./serve');
 const PAGES=[
  ['index.html',"build('openai');build('anthropic');build('tsmc');build('jasm')"],
+ ['index.html',"(()=>{showHome();const g=[...document.querySelectorAll('#feedview h3')].map(e=>e.textContent.replace(/^[▸▾]\\s*/,'').replace(/\\(\\d+\\)$/,'')).filter(t=>/^(見る・調べる|企業の一覧|お金と人の動き|調査・解説|その他)$/.test(t)).join('|');if(g!=='見る・調べる|企業の一覧|お金と人の動き|調査・解説|その他')throw new Error('ホームのグループ見出しが上のメニューと違います: '+g);const m=[...document.querySelectorAll('#topsel option')].filter(o=>!o.parentNode.dataset.recent).map(o=>o.value).sort().join();const h=[...new Set([...document.querySelectorAll('button[data-h]')].filter(b=>!b.closest('#topnav')).map(b=>b.dataset.h))].sort().join();for(const k of m.split(','))if(!h.split(',').includes(k)&&k!=='home')throw new Error('ホームにカードがありません: '+k)})()"],
  ['index.html#common',"showCommon('Microsoft','Nvidia');showCommon('楽天グループ','OpenAI');build('openai');document.getElementById('gocommon').click()"],
  ['index.html#common',"showCommon('楽天グループ','OpenAI');document.getElementById('cmbrief').click();showCommon('トヨタ自動車','ソフトバンクグループ');document.getElementById('cmbrief').click()"],
  ['index.html#flow',"showFlowRank();frMoves=frCollect();frRender();document.querySelector('.frl details').open=true;document.querySelector('.frbar button[data-s=net]').click();document.querySelector('.frbar button[data-p=y1]').click();document.querySelector('.frbar button[data-v=pair]').click();document.getElementById('frsw').click();document.querySelector('.frpr a[data-pa]').click()"],
