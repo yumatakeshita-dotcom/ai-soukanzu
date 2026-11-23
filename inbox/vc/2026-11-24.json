@@ -1,0 +1,90 @@
+{
+ "date": "2026-11-24",
+ "kind": "vc",
+ "items": [
+  {
+   "lp": "",
+   "fund": "Progressive Ventures Fund I",
+   "gp": "Progressive Ventures(米パロアルト)",
+   "size": "1,224万ドル(最終クローズ、報道ベース)",
+   "startup": "",
+   "date": "2026-11-18",
+   "note": "B2B AI創業者向けの初号ファンドが最終クローズ。8月に締め、11/18に発表。",
+   "src": [
+    [
+     "GlobeNewswire配信(financialcontent.com, 2026-11-18)",
+     "https://www.financialcontent.com/article/gnwcq-2026-11-18-progressive-ventures-closes-1224-million-fund-i-to-back-b2b-ai-founders-before-demo-day"
+    ],
+    [
+     "Yahoo Finance(2026-11)",
+     "https://finance.yahoo.com/technology/ai/articles/progressive-ventures-closes-12-24-110000383.html"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "lp": "PSP Investments・CPP Investments・HOOPP・TD銀行・BMOなどカナダの機関投資家7社",
+   "fund": "Radical Breakouts Fund",
+   "gp": "Radical Ventures(カナダ)",
+   "size": "10億ドル超(初回クローズ、最終額は未確定・報道ベース)",
+   "startup": "",
+   "date": "2026-09-15",
+   "note": "カナダ史上最大のVCファンド。AI後期向け。年金基金などがLP。",
+   "backfill": true,
+   "src": [
+    [
+     "Cantech Letter(2026-09-15)",
+     "https://www.cantechletter.com/newswires/radical-ventures-announces-the-largest-venture-capital-fund-in-canadian-history/"
+    ],
+    [
+     "Unite.AI(2026-09)",
+     "https://www.unite.ai/radical-ventures-secures-over-us-1b-at-first-close-of-late-stage-ai-fund/"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "lp": "年金基金・大学基金・財団など(個別名は未確認)",
+   "fund": "Fund XI",
+   "gp": "Bain Capital Ventures(米)",
+   "size": "16億ドル(クローズ、報道ベース)",
+   "startup": "",
+   "date": "2026-09-16",
+   "note": "AI・初期向けの11号ファンド。年金基金や大学基金などが出資。",
+   "backfill": true,
+   "src": [
+    [
+     "Alternatives Watch(2026-09-16)",
+     "https://www.alternativeswatch.com/2026/09/16/bain-capital-ventures-bcv-1-6-billion-fund-xi-ai/"
+    ],
+    [
+     "HedgeCo(2026-09)",
+     "https://hedgeco.net/news/?p=95825"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "lp": "Temasek・英国British Business Bankなど80社超(報道ベース)",
+   "fund": "Intrepid Growth Partners AI Fund(初号)",
+   "gp": "Intrepid Growth Partners",
+   "size": "5.25億ドル(クローズ、報道ベース)",
+   "startup": "",
+   "date": "2026-09-14",
+   "note": "AI成長期向けの初号。複数の国の政府系資金がLPとして参加。",
+   "backfill": true,
+   "src": [
+    [
+     "The Next Web(2026-09-14)",
+     "https://thenextweb.com/news/intrepid-growth-partners-525m-ai-fund-state"
+    ],
+    [
+     "Let's Data Science(2026-09)",
+     "https://letsdatascience.com/news/intrepid-growth-partners-closes-525-million-ai-fund-e84a442a"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "Xの対象アカウント(vc入り)約35。記事からたどって確かめた投稿は0件(対象アカウントの投稿も0件。記事ページがこの環境から開けず)。過去7日はAI系の大型ファンド組成が検索でほとんど出ず、Progressive Ventures以外は見つからなかった(Creandum VIII 7.5億ドルは11/2、Sequoia約100億ドルは11/4で期間外)。全件 本文未確認(この環境から媒体を開けず、検索結果の要約のみ)。日本のVCは11/16の大成建設CVC以外見つからず(既出)。バックフィルは2026-09。"
+}
