@@ -182,12 +182,38 @@ def to_md(now, rows):
     return '\n'.join(L) + '\n'
 
 
+def status_js(now, rows):
+    """ホームの画面に色で出す用の短い記録(site/data/watchstatus.js)。毎回、最新の1件で置き換える(履歴は inbox/watchdog/ の .md)。2026/11/23追加"""
+    prob = [r for r in rows if r[0] == '問題']
+    warn = [r for r in rows if r[0] == '注意']
+    st = {'t': f'{now:%Y-%m-%d %H:%M}', 'level': 'r' if prob else ('y' if warn else 'g'),
+          'p': len(prob), 'w': len(warn), 'ok': sum(r[0] == 'OK' for r in rows),
+          'items': [[r[0], r[1], r[2][:120]] for r in prob + warn][:8]}
+    return '// 見張り役の最新の結果(scripts/watchdog.py が書く。手で直さない)。level: g=順調 y=注意 r=問題\nconst WATCH_STATUS=' + json.dumps(st, ensure_ascii=False) + ';\n'
+
+
+def rows_from_md(path):
+    rows = []
+    for ln in open(path, encoding='utf-8'):
+        m = re.match(r'\| (問題|注意|OK|時刻前) \| (.+?) \| (.*) \|$', ln.rstrip())
+        if m:
+            rows.append((m.group(1), m.group(2), m.group(3)))
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--no-write', action='store_true')
+    ap.add_argument('--status-from-md', help='記録の .md から site/data/watchstatus.js だけ作る(例 inbox/watchdog/2026-11-23.md)')
     ap.add_argument('--now', help='日本時間の時刻(例 2026-11-20T10:30)')
     a = ap.parse_args()
     now = datetime.datetime.fromisoformat(a.now).replace(tzinfo=JST) if a.now else datetime.datetime.now(JST)
+    if a.status_from_md:
+        md_path = os.path.join(ROOT, a.status_from_md)
+        t = datetime.datetime.fromisoformat(re.search(r'(\d{4}-\d\d-\d\d) (\d\d:\d\d)', open(md_path, encoding='utf-8').readline()).expand(r'\1T\2')).replace(tzinfo=JST)
+        open(os.path.join(ROOT, 'site', 'data', 'watchstatus.js'), 'w', encoding='utf-8').write(status_js(t, rows_from_md(md_path)))
+        print('保存: site/data/watchstatus.js')
+        return
     run(['git', 'fetch', '-q', 'origin', 'main'])
     rows = evaluate(now)
     md = to_md(now, rows)
@@ -200,6 +226,8 @@ def main():
             p = os.path.join(d, f'{now:%Y-%m-%d}-{i}.md'); i += 1
         open(p, 'w', encoding='utf-8').write(md)
         print('保存:', os.path.relpath(p, ROOT))
+        open(os.path.join(ROOT, 'site', 'data', 'watchstatus.js'), 'w', encoding='utf-8').write(status_js(now, rows))
+        print('保存: site/data/watchstatus.js')
     sys.exit(1 if any(r[0] == '問題' for r in rows) else 0)
 
 

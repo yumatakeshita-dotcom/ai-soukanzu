@@ -191,6 +191,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
   <header>
     <h1 id="title">OpenAI 相関図</h1>
     <p id="lastchk" class="meta" style="font-family:var(--font-mono);font-size:12px"></p>
+    <p id="watchchk" class="meta" style="font-size:12px;margin:2px 0 6px" hidden></p>
     <p>創業者、経営陣、取締役、投資家のつながりを年ごとに見られます。スライダーを動かすか、再生を押してください。人物をクリックすると詳細を表示し、ダブルクリックするとその人の人物相関図(家族・友人・師・仕事仲間など)へ移ります。ドラッグで動かせます。上の「表示の形」で、つながりを線で結んだ相関図と、ピラミッド型(創業者・トップを上に、経営陣、退職者、出資者、関連組織と段に分けた図)を切り替えられます。</p>
   </header>
 
@@ -260,6 +261,7 @@ h3.sub{font-size:12px;color:var(--muted);margin:14px 0 0;font-weight:500;letter-
 <script src="data/relnews.js"></script>
 <script src="data/movelab.js"></script>
 <script src="data/finds.js"></script>
+<script src="data/watchstatus.js"></script>
 <script src="data/common.js"></script>
 <script src="data/flowrank.js"></script>
 <script src="data/investsrc.js"></script>
@@ -35829,6 +35831,16 @@ const UPDATES=[
 ];
 /* UPDATES_END */
 document.addEventListener('DOMContentLoaded',()=>{const e=document.getElementById('lastchk');if(e)e.textContent=`最終確認: ${LAST_CHECK}(毎日 朝に自動で更新)`});
+/* ===== 見張りの結果の色表示(2026/11/23追加): data/watchstatus.js の WATCH_STATUS を、ホームの見出しの下に 緑=順調・黄=注意・赤=問題 で出す。2日以上古い記録は灰色で「古い」と出す ===== */
+document.addEventListener('DOMContentLoaded',()=>{try{
+  const e=document.getElementById('watchchk');if(!e||typeof WATCH_STATUS==='undefined')return;
+  const S=WATCH_STATUS,t=new Date(S.t.replace(' ','T')+':00+09:00'),old=(Date.now()-t)>2*864e5;
+  const col=old?'var(--muted)':({g:'var(--active)',y:'var(--deal)',r:'var(--conflict)'}[S.level]||'var(--muted)');
+  const lab=old?'記録が古い':({g:'毎朝の作業は順調',y:'注意あり',r:'問題あり'}[S.level]||'');
+  const esc=x=>String(x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  e.innerHTML=`<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${col};margin-right:6px;vertical-align:baseline" aria-hidden="true"></span><b style="color:${col}">見張り: ${lab}</b> <span style="color:var(--muted)">(問題${S.p}・注意${S.w}・順調${S.ok} / ${esc(S.t)}の確認)</span>`+(S.items&&S.items.length?`<details style="margin-top:3px"><summary style="cursor:pointer;color:var(--muted)">くわしく</summary><ul style="margin:4px 0 0;padding-left:18px">${S.items.map(i=>`<li><b style="color:${i[0]==='問題'?'var(--conflict)':'var(--deal)'}">${esc(i[0])}</b> ${esc(i[1])}: ${esc(i[2])}</li>`).join('')}</ul></details>`:'');
+  e.hidden=false;
+}catch(_){}});
 function updatesHtml(c){
   const L=UPDATES.filter(u=>!c||u.co.includes(c)).slice(0,6);if(!L.length)return '';
   return `<h3 style="margin:14px 0 6px;font-size:14px">最近の変化</h3><ul class="rel">${L.map(u=>`<li style="display:block"><b style="min-width:0">${u.d.slice(5).replace('-','/')}</b> ${u.t} <small>(${typeof cfBadge==='function'?cfBadge(CFJA[u.cf]||srcCf(u.src[0],u.src[1])):''}<a href="${u.src[1]}" target="_blank" rel="noopener">${u.src[0]}</a>)</small></li>`).join('')}</ul>`;
