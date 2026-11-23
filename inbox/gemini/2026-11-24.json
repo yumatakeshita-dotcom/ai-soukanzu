@@ -1,0 +1,184 @@
+{
+ "date": "2026-11-24",
+ "kind": "gemini",
+ "topic": "直近3日のAI企業・半導体企業の経営陣・主要研究者の移籍・就任・退任",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "NVIDIA",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-23",
+   "出典URL": "https://news.nicovideo.jp/watch/nw20022913?news_ref=search_search",
+   "確かさ": "報道",
+   "備考": "11月12日に辞任したCEOに復帰。取締役会の全会一致で決定。復帰は22日付。社内調査は継続。",
+   "人物": "Jensen Huang",
+   "役職": "CEO",
+   "移籍先": "NVIDIA",
+   "src": [
+    [
+     "マイナビニュース",
+     "https://news.nicovideo.jp/watch/nw20022913?news_ref=search_search"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzuPicrCAENCShrQ8DWXr1A7GNSc4J_xLj_35TdZc_-hLsGN4h0pXVnEtXsWIXKi-dusgvWKTXGs4yhXOdVvoqZOIUSkekbXCKxrhf8JWO_oiedXN0qmI5n_rQCBNY7Wq41d0NCa9YijXUcIxcpzj6K5ezpEa3LYE4Uq5",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 403"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "役職変更",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-23",
+   "出典URL": "https://news.nicovideo.jp/watch/nw20022913?news_ref=search_search",
+   "確かさ": "報道",
+   "備考": "Jensen HuangのCEO復帰に伴い、暫定CEOからCFOに復帰。",
+   "人物": "Colette Kress",
+   "役職": "CFO",
+   "移籍元": "NVIDIA (暫定CEO)",
+   "移籍先": "NVIDIA (CFO)",
+   "src": [
+    [
+     "マイナビニュース",
+     "https://news.nicovideo.jp/watch/nw20022913?news_ref=search_search"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvzuPicrCAENCShrQ8DWXr1A7GNSc4J_xLj_35TdZc_-hLsGN4h0pXVnEtXsWIXKi-dusgvWKTXGs4yhXOdVvoqZOIUSkekbXCKxrhf8JWO_oiedXN0qmI5n_rQCBNY7Wq41d0NCa9YijXUcIxcpzj6K5ezpEa3LYE4Uq5",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 403"
+   }
+  },
+  {
+   "会社名": "Arm Holdings",
+   "関係": "契約更新",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-23",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7uqNm0a00_ObfrsDfA7sN4JK-hVz8z6_yJDqo8u-H_ZzWBA9LKBz5XfS4s-CgMkMbaqSi-264qv80DjGadTIsZXjWZ7rfQwE88gDIx3XiLnZWD6QuqHP7_9QTbnjJS9OzSkiLHRFHLZtxfN_1r9YgNFQgI3qxqrxwya7mNrWgC2tJeMhSfIHkH-zKrcLxF4BoXvUjvF1m21I2GbAC3Tg5snfWZtvAaQ==",
+   "確かさ": "報道",
+   "備考": "2033年までのCEO契約を締結。NVIDIAへの移籍の噂を払拭。",
+   "人物": "Rene Haas",
+   "役職": "CEO",
+   "移籍先": "Arm Holdings",
+   "src": [
+    [
+     "Investing.com",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH7uqNm0a00_ObfrsDfA7sN4JK-hVz8z6_yJDqo8u-H_ZzWBA9LKBz5XfS4s-CgMkMbaqSi-264qv80DjGadTIsZXjWZ7rfQwE88gDIx3XiLnZWD6QuqHP7_9QTbnjJS9OzSkiLHRFHLZtxfN_1r9YgNFQgI3qxqrxwya7mNrWgC2tJeMhSfIHkH-zKrcLxF4BoXvUjvF1m21I2GbAC3Tg5snfWZtvAaQ=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "株式上場 (IPO)",
+   "相手": "投資家",
+   "金額": "約935億ドル",
+   "日付": "2026-11-22",
+   "出典URL": "https://note.com/hirokimiyano/n/n6a32c0aa1f59",
+   "確かさ": "報道",
+   "備考": "新規株式公開の手続きが完了し、報道された。Nasdaq上場、ティッカーシンボル「ANT」。公開価格1株83ドル。",
+   "src": [
+    [
+     "note",
+     "https://note.com/hirokimiyano/n/n6a32c0aa1f59"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpuJ5BjfZAw8Wgu7KbiyWISBtGIraSkzE79LMnlaTWvH9PjS9SxGnsEhL1uEwd_Lkk1bt4EdaQ0qhXReF8fD5G2SIcZ5H8pOXsh9QF5u4lrstr1ukNBlJBYMEKtatdFw40pyDqOuostw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "今日のAIニュース7選｜2026年11月23日｜AI開発に上限案｜宮野宏樹",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "投資家"
+    ]
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提案",
+   "相手": "AI業界",
+   "金額": "",
+   "日付": "2026-11-22",
+   "出典URL": "https://note.com/hirokimiyano/n/n6a32c0aa1f59",
+   "確かさ": "推定",
+   "備考": "より強力なAIモデルの開発速度に業界共通の上限を設けるべきだと論考で提案。",
+   "人物": "Jakub Pachocki",
+   "役職": "Chief Scientist",
+   "src": [
+    [
+     "note",
+     "https://note.com/hirokimiyano/n/n6a32c0aa1f59"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpuJ5BjfZAw8Wgu7KbiyWISBtGIraSkzE79LMnlaTWvH9PjS9SxGnsEhL1uEwd_Lkk1bt4EdaQ0qhXReF8fD5G2SIcZ5H8pOXsh9QF5u4lrstr1ukNBlJBYMEKtatdFw40pyDqOuostw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "今日のAIニュース7選｜2026年11月23日｜AI開発に上限案｜宮野宏樹",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI"
+    ]
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "AI企業 経営陣 移籍 2026年11月22日 2026年11月23日 2026年11月24日",
+   "半導体企業 経営陣 移籍 2026年11月22日 2026年11月23日 2026年11月24日",
+   "AI企業 主要研究者 移籍 2026年11月22日 2026年11月23日 2026年11月24日",
+   "半導体企業 主要研究者 移籍 2026年11月22日 2026年11月23日 2026年11月24日",
+   "Anthropic IPO 幹部 2026年11月",
+   "NVIDIA 中国 関連 2026年11月"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2761,
+   "candidatesTokenCount": 1744,
+   "totalTokenCount": 14394,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2761
+    }
+   ],
+   "toolUsePromptTokenCount": 4342,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4342
+    }
+   ],
+   "thoughtsTokenCount": 5547,
+   "serviceTier": "standard"
+  }
+ }
+}

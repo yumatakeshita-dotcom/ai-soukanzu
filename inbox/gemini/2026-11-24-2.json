@@ -1,0 +1,231 @@
+{
+ "date": "2026-11-24",
+ "kind": "gemini",
+ "topic": "NVIDIAとReflection AIの買収・追加出資の協議(2026/10/11にFTが協議入りと報道、条件未決)が決まったか。公式発表・SEC書類・大手報道で確かめ、決まっていれば出資・買収として足す。決まっていなければ何も足さない",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "NVIDIA",
+   "関係": "買収",
+   "相手": "Hugging Face",
+   "金額": "129.3億ドル",
+   "日付": "2026-09",
+   "出典URL": "https://beinsure.com/news/nvidia-to-acquire-reflection-ai/",
+   "確かさ": "報道",
+   "備考": "買収合意",
+   "src": [
+    [
+     "AI News",
+     "https://beinsure.com/news/nvidia-to-acquire-reflection-ai/"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA",
+    "Hugging Face"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEViFEJJYFcpte9hJftDXXYThz5aq8ey3aj7SxRzLD6NNuPqrB2HeOrkp8-d7RUqh2lFYYR4-FnhlwHn5S6bjMrcli-D6PnLC6Fm9CFAzT0jejTCh4o9YDQIe5mXvYy3eEaeZEqoHPyMJasHyq7tqNdKjc0eg==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "取引",
+   "相手": "Groq",
+   "金額": "200億ドル",
+   "日付": "2025-12",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ1xIsj4tuhSphTJSp6vJSt0Yx28Zpefe_B9XbxhAWid6GmZBOc-MmKfZwWuD3KuKKgLenX-NTtQlkwrCGKHcV6r8oGr5LWUSyHiCqnWUrCSIqVykkWrODJs7Cz7Lvtr1lWAvTjLPRYGj8U1c9oDw7pcO1scSWq-7G9c7jw==",
+   "確かさ": "報道",
+   "備考": "技術ライセンス契約",
+   "src": [
+    [
+     "AI News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ1xIsj4tuhSphTJSp6vJSt0Yx28Zpefe_B9XbxhAWid6GmZBOc-MmKfZwWuD3KuKKgLenX-NTtQlkwrCGKHcV6r8oGr5LWUSyHiCqnWUrCSIqVykkWrODJs7Cz7Lvtr1lWAvTjLPRYGj8U1c9oDw7pcO1scSWq-7G9c7jw=="
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA",
+    "Groq"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Reflection AI",
+   "関係": "取引",
+   "相手": "SpaceX",
+   "金額": "63億ドル",
+   "日付": "2026-07",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ1xIsj4tuhSphTJSp6vJSt0Yx28Zpefe_B9XbxhAWid6GmZBOc-MmKfZwWuD3KuKKgLenX-NTtQlkwrCGKHcV6r8oGr5LWUSyHiCqnWUrCSIqVykkWrODJs7Cz7Lvtr1lWAvTjLPRYGj8U1c9oDw7pcO1scSWq-7G9c7jw==",
+   "確かさ": "報道",
+   "備考": "月額1.5億ドルの計算資源リース契約、2029年まで",
+   "src": [
+    [
+     "AI News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJ1xIsj4tuhSphTJSp6vJSt0Yx28Zpefe_B9XbxhAWid6GmZBOc-MmKfZwWuD3KuKKgLenX-NTtQlkwrCGKHcV6r8oGr5LWUSyHiCqnWUrCSIqVykkWrODJs7Cz7Lvtr1lWAvTjLPRYGj8U1c9oDw7pcO1scSWq-7G9c7jw=="
+    ]
+   ],
+   "既存の名前": [
+    "Reflection AI",
+    "SpaceX"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Reflection AI",
+   "関係": "取引",
+   "相手": "Nebius",
+   "金額": "10億ドル超",
+   "日付": "2026-07-14",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEexScOdkEizeboL2a67f9VFxPu6Tav3EtavVKj2Y71iNdrob1keigw8XOqzOV5ZUS8upskeYc1ttIiIWlmXalrj9_LNJBbZMUHSfVUds5n4rU3YwOHenbPxWMdz8nlBgILlKrhfWwrt4nPAVYvsoi11A3apsv0n4lgWkIQJnx1n3ch9yL7fQ4aZqr3gSQvi6xv2PA==",
+   "確かさ": "報道",
+   "備考": "",
+   "src": [
+    [
+     "Tracxn",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEexScOdkEizeboL2a67f9VFxPu6Tav3EtavVKj2Y71iNdrob1keigw8XOqzOV5ZUS8upskeYc1ttIiIWlmXalrj9_LNJBbZMUHSfVUds5n4rU3YwOHenbPxWMdz8nlBgILlKrhfWwrt4nPAVYvsoi11A3apsv0n4lgWkIQJnx1n3ch9yL7fQ4aZqr3gSQvi6xv2PA=="
+    ]
+   ],
+   "既存の名前": [
+    "Reflection AI",
+    "Nebius"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Reflection AI",
+   "関係": "提携",
+   "相手": "Shinsegae Group",
+   "金額": "",
+   "日付": "2026-03-16",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwgk8chgPHjkMfPAzXv3cGN4__krsCS1m5rX5tppcF0ANc_uzuyGML1di_EpZUukOtZQxATpEJ9KZ_QQ99iCoYss1JAkW59MdzuDnFOmzcUfwsh85cqjeeEjckHGxqjs8XoAS_kdpm8XzB3yw7YDw==",
+   "確かさ": "公式",
+   "備考": "韓国にNVIDIA GPU使用のAI工場を建設",
+   "src": [
+    [
+     "Reflection (via Distill Intelligence)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwgk8chgPHjkMfPAzXv3cGN4__krsCS1m5rX5tppcF0ANc_uzuyGML1di_EpZUukOtZQxATpEJ9KZ_QQ99iCoYss1JAkW59MdzuDnFOmzcUfwsh85cqjeeEjckHGxqjs8XoAS_kdpm8XzB3yw7YDw=="
+    ]
+   ],
+   "既存の名前": [
+    "Reflection AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "出資",
+   "相手": "Reflection AI",
+   "金額": "20億ドル",
+   "日付": "2025-10",
+   "出典URL": "https://www.folio3.com/ai/news/reflection-ai-securesusd-2-billion-in-massive-funding-round-valuation-soars-usd-8-billion",
+   "確かさ": "報道",
+   "備考": "Reflection AIの80億ドル評価での$20億ドル資金調達ラウンドを主導（2026-09-10報道）",
+   "src": [
+    [
+     "AI News",
+     "https://www.folio3.com/ai/news/reflection-ai-securesusd-2-billion-in-massive-funding-round-valuation-soars-usd-8-billion"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA",
+    "Reflection AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGxGFvmca0_m-3KYbWC4D1vkNTVzUWhY6OCZIzh-7q_uO3Hxo6o2tIxkky_hdgwNAm7NAMnyDhR7SAoA1TDaipNpOvWqfVwWKQOEPbZ6tvfOWV7a0JoUDL2qxx5PhSAu88qNfdELdxOTu8oFm9f4yyf_cYyeqyLhBtFOb16LVkx5mehOzW-Qbb7w-CWyaN2UXzs3rpsONZoGurvd049RU_DQMCrdvgC4uLo27O5Ri8FApsz",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11",
+   "出典URL": "https://www.investing.com/news/stock-market-news/trump-saw-nvidias-huang-as-protector-of-openweight-ai-models-sources-say-5046265",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Jensen Huang",
+   "役職": "(前)CEO",
+   "移籍元": "NVIDIA",
+   "src": [
+    [
+     "Reuters",
+     "https://www.investing.com/news/stock-market-news/trump-saw-nvidias-huang-as-protector-of-openweight-ai-models-sources-say-5046265"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0zSB3pzOyiTssC6mI2d8loMbAmzMYbaIEB3-qjTEW0xly5tcwl21yqvUpkD6rw6JP0o4geMt3WujDJtjhaUuSPmFCib7jVMQIC3kXr_Eo9D8LC_tbZuRTqPpvXg_mlKEIhfIy4lr-m4yHa-3uKZ2k-4nmiBk0aPtRGbPGoIqereDa1_3RXtjDdMo_xfrSeKn0m7lcqCAR-MjFiTZCGQ7urA_eLg6pyf5yCA2EmwHSB19IpIQGDv_O96orgA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "NVIDIA Reflection AI acquisition official announcement",
+   "NVIDIA Reflection AI investment official statement",
+   "Reflection AI funding news after 2026-10-11",
+   "NVIDIA Reflection AI deal status 2026 November",
+   "Reflection AI press releases",
+   "NVIDIA press releases Reflection AI",
+   "Reflection AI SEC filings",
+   "NVIDIA SEC filings Reflection AI"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2808,
+   "candidatesTokenCount": 1856,
+   "totalTokenCount": 13960,
+   "cachedContentTokenCount": 509,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2808
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 509
+    }
+   ],
+   "toolUsePromptTokenCount": 3172,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3172
+    }
+   ],
+   "thoughtsTokenCount": 6124,
+   "serviceTier": "standard"
+  }
+ }
+}

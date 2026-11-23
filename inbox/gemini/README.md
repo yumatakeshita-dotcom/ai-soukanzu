@@ -4,6 +4,68 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-24-2　NVIDIAとReflection AIの買収・追加出資の協議(2026/10/11にFTが協議入りと報道、条件未決)が決まったか。公式発表・SEC書類・大手報道で確かめ、決まっていれば出資・買収として足す。決まっていなければ何も足さない
+
+- モデル: gemini-2.5-flash　/　候補 7件
+
+**Geminiが打った検索の言葉**
+
+- NVIDIA Reflection AI acquisition official announcement
+- NVIDIA Reflection AI investment official statement
+- Reflection AI funding news after 2026-10-11
+- NVIDIA Reflection AI deal status 2026 November
+- Reflection AI press releases
+- NVIDIA press releases Reflection AI
+- Reflection AI SEC filings
+- NVIDIA SEC filings Reflection AI
+
+**出てきた候補**
+
+- NVIDIA → 買収 → Hugging Face(2026-09)
+- NVIDIA → 取引 → Groq(2025-12)
+- Reflection AI → 取引 → SpaceX(2026-07)
+- Reflection AI → 取引 → Nebius(2026-07-14)
+- Reflection AI → 提携 → Shinsegae Group(2026-03-16)
+- NVIDIA → 出資 → Reflection AI(2025-10)
+- NVIDIA → 退任 → (2026-11)
+
+記録ファイル: inbox/gemini/2026-11-24-2.json / 2026-11-24-2.md
+
+## 2026-11-24　直近3日のAI企業・半導体企業の経営陣・主要研究者の移籍・就任・退任
+
+- モデル: gemini-2.5-flash　/　候補 5件
+
+**Geminiが打った検索の言葉**
+
+- AI企業 経営陣 移籍 2026年11月22日 2026年11月23日 2026年11月24日
+- 半導体企業 経営陣 移籍 2026年11月22日 2026年11月23日 2026年11月24日
+- AI企業 主要研究者 移籍 2026年11月22日 2026年11月23日 2026年11月24日
+- 半導体企業 主要研究者 移籍 2026年11月22日 2026年11月23日 2026年11月24日
+- Anthropic IPO 幹部 2026年11月
+- NVIDIA 中国 関連 2026年11月
+
+**出てきた候補**
+
+- NVIDIA → 就任 → (2026-11-23)【除外】
+- NVIDIA → 役職変更 → (2026-11-23)【除外】
+- Arm Holdings → 契約更新 → (2026-11-23)【保留】
+- Anthropic → 株式上場 (IPO) → 投資家(2026-11-22)【除外】
+- OpenAI → 提案 → AI業界(2026-11-22)【除外】
+
+記録ファイル: inbox/gemini/2026-11-24.json / 2026-11-24.md
+
+## 2026-11-23-recheck2　保留の確かめ直し
+
+- モデル: (不明)　/　候補 1件
+
+**Geminiが打った検索の言葉**: (この回は記録なし)
+
+**出てきた候補**
+
+- Merck → 提携 → Isomorphic Labs(2026-11-19)【合格】
+
+記録ファイル: inbox/gemini/2026-11-23-recheck2.json
+
 ## 2026-11-23-3　YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ
 
 - モデル: gemini-2.5-flash　/　候補 8件

@@ -1496,10 +1496,18 @@
    "theme": "NVIDIAとReflection AIの買収・追加出資の協議(2026/10/11にFTが協議入りと報道、条件未決)が決まったか。公式発表・SEC書類・大手報道で確かめ、決まっていれば出資・買収として足す。決まっていなければ何も足さない",
    "reason": "動画の題名にあった『$30B Reflection deal』は協議の段階で金額も未確認だったため、入れずに見張る(2026/11/21)",
    "priority": 2,
-   "status": "未",
-   "last_researched": null,
-   "attempts": 0,
-   "history": [],
+   "status": "調査済",
+   "last_researched": "2026-11-24",
+   "attempts": 1,
+   "history": [
+    {
+     "date": "2026-11-24",
+     "result": "調査済",
+     "file": "inbox/gemini/2026-11-24-2.md",
+     "note": "Geminiの候補7件",
+     "items": 7
+    }
+   ],
    "added": "2026-11-21"
   }
  ],
