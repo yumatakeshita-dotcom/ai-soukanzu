@@ -1,6 +1,6 @@
 # 調査エージェント一覧
 
-(元データ: `docs/agents.json`。`python3 scripts/agents_build.py` で作り直す。更新 2026-11-21)
+(元データ: `docs/agents.json`。`python3 scripts/agents_build.py` で作り直す。更新 2026-11-24)
 
 調べる係(エージェント)が分野ごとに inbox/ へ候補を足し、取り込み係が朝9:13にサイトへ足す、という分け方です。
 時刻は日本時間。定期タスクの実際の名前・時間は claude.ai の定期タスクが正です。
@@ -26,7 +26,7 @@ AI企業・半導体企業の人の動き(移籍・就任・退任・引き抜�
 - 上限・決まり: さかのぼりは1回1か月。Geminiは使わない(Gemini係が別に探す)。
 - 定期タスク: 調査: 引き抜き(人の移籍) v5(適時開示IRつき)(毎日 7:29、`trig_01E5NW3DMcpkYnMUAoyMeGWc`)
 - 道具: scripts/x_from_news.py、scripts/x_check.py、scripts/yt_fetch.py
-- 補足: いまは開示係(IR)と動画・音声係の手順も同じ1本のタスクの中にある。分ける案は「変更案」を参照。
+- 補足: いまは開示係(IR)と動画・音声係の手順も同じ1本のタスクの中にある。分ける案は「変更案」を参照。 2026/11/24: LinkedInは手がかりとして使う(ログイン・自動巡回はしない。検索結果の要約を公式・報道・本人のXで確かめた分だけ足す)。docs/linkedin_clues.md。
 
 ### お金係
 
@@ -163,7 +163,7 @@ Gemini+Google検索で新しいつながりを探し、機械で出典を確か�
 - 出力先: `inbox/moves/日付-hiring.json(人事責任者の就任など)`
 - 上限・決まり: Geminiは使わない(Claudeの検索で確かめる)。開けない採用ページは理由つきで記録して翌回また見る。画像は転載しない。
 - 定期タスク: 【採用・求人係】各社の採用の動き 日・火・金(日・火・金 8:05、`trig_01CVj2WUbLh4TfGNKt6Sue7J`)
-- 補足: 作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py hiring。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。
+- 補足: 作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py hiring。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: LinkedInは手がかりとして使う(ログイン・自動巡回はしない。検索結果の要約を公式・報道・本人のXで確かめた分だけ足す)。docs/linkedin_clues.md。
 
 ### 日本の提携係
 
