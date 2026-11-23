@@ -35748,6 +35748,13 @@ DATA.minimax=mk('minimax','MiniMax',[
  {a:'zhipu',b:'minimax',k:'conflict',label:'同じ月に香港上場',since:2026,d:'Zhipu AIが1月8日、MiniMaxが1月9日に香港に上場。米国のOpenAI・Anthropicより先に上場した大型AI企業になりました。',src:['cn_zp']}
 ],{EN:{yan:'Yan Junjie'},WEB:{minimax:'https://www.minimax.io'},WIKI:{minimax:'https://en.wikipedia.org/wiki/MiniMax_(company)'}});
 
+DATA.sbenergy=mk('sbenergy','SB Energy',[
+ {id:'sbenergy',name:'SB Energy',kind:'c',from:2025,desc:'ソフトバンク傘下のエネルギー・データセンター開発会社。オハイオ州パイク郡のAIキャンパスを建設・所有・運営します。報道ベースの記述で、創業年などは未確認のため入れていません。'}
+],[
+ {a:'openai',b:'sbenergy',k:'deal',label:'オハイオ 約8GW(20年賃貸)',since:2026,d:'2026年8月、オハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)の約8GW(IT容量)を、OpenAIが20年で借りる契約。SB Energyが建設・所有・運営し、最初の800MWは2028年、2032年まで拡張の予定。SB Energyが約55億ドル相当のワラントをOpenAIに付与し、NvidiaがWSJ報道で約1,050億ドル規模の保証をするとされています。報道ベース。保証額・契約年数は報道で食い違います(契約年数はAxiosが10年、ほかは20年)。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、Axios・The Next Web・Channel Insiderで確認)',src:['oaisbe']},
+ {a:'softbank',b:'sbenergy',k:'owns',label:'傘下',since:2026,d:'ソフトバンク傘下の会社と報じられています。(報道ベース)',src:['oaisbe']}
+],{WEB:{}});
+
 const PN='2026年11月18日に追加。金色の線は取引(電力・データセンター・チップの供給など)、青い線は出資。金額・比率には契約の上限や報道ベースの数字を含みます。顔写真は載せていません(人物ページに写真がある人はそちらを使います)。';
 const CN='2026年11月18日に追加。中国の会社は公式の開示が少なく、出資比率・人事は報道ベースです。金色の線は取引、青い線は出資、赤い線は競争・対立。顔写真は載せていません。';
 Object.assign(COMPANIES,{
@@ -35757,6 +35764,7 @@ Object.assign(COMPANIES,{
  xenergy:{name:'X-energy',min:2009,note:PN},
  cfs:{name:'Commonwealth Fusion Systems',min:2018,note:PN+'Googleの出資額は公表されていません。'},
  talen:{name:'Talen Energy',min:2015,note:PN+'Amazonとの契約の金額は公表されていません。'},
+ sbenergy:{name:'SB Energy',min:2025,note:'2026年11月23日に追加。OpenAIとの8GW賃貸は報道ベースで、保証額・契約年数は報道で食い違います。人物・出資の記録はまだありません。'},
  tensorwave:{name:'TensorWave',min:2023,note:PN+'共同創業者の顔ぶれは公式の発表で確認できたCEOだけを「共同創業者」としています。'},
  iren:{name:'IREN',min:2018,note:PN+'Microsoftとの契約はIRENの米国証券取引委員会への届け出(2025年11月3日)に基づく報道です。'},
  applieddigital:{name:'Applied Digital',min:2021,note:PN+'賃料の合計は会社の見込みの数字です。'},
@@ -35766,7 +35774,7 @@ Object.assign(COMPANIES,{
  minimax:{name:'MiniMax',min:2021,note:CN+'持ち分は上場時の報道の数字です。'}
 });
 })();
-Object.assign(ALIAS,Object.fromEntries(Object.entries({oklo:'oklo',terrapower:'terrapower',kairos:'kairos',xenergy:'xenergy',cfs:'cfs',talen:'talen',tensorwave:'tensorwave',iren:'iren',applieddigital:'applieddigital',alibaba:'alibaba',tencent:'tencent',huawei:'huawei',minimax:'minimax',amazon:'us_AMZN',google:'us_GOOGL',coreweave:'st_coreweave',apple:'us_AAPL',amd:'us_AMD'}).filter(([k,v])=>COMPANIES[v]&&!ALIAS[k])));
+Object.assign(ALIAS,Object.fromEntries(Object.entries({oklo:'oklo',terrapower:'terrapower',kairos:'kairos',xenergy:'xenergy',cfs:'cfs',talen:'talen',tensorwave:'tensorwave',sbenergy:'sbenergy',iren:'iren',applieddigital:'applieddigital',alibaba:'alibaba',tencent:'tencent',huawei:'huawei',minimax:'minimax',amazon:'us_AMZN',google:'us_GOOGL',coreweave:'st_coreweave',apple:'us_AAPL',amd:'us_AMD'}).filter(([k,v])=>COMPANIES[v]&&!ALIAS[k])));
 // 上で足した会社の線を、相手の会社の図にも出す(例: Metaの図 → Oklo・TerraPower)
 function applyBack(c,d){
   const ids=new Set(d.N.map(n=>n.id));
@@ -35806,6 +35814,7 @@ function phCredit(u){const c=u&&PHCRED[u.slice(-24)];return `<p class="meta" sty
 /* UPDATES_START */
 const LAST_CHECK='2026-11-23';
 const UPDATES=[
+ {d:'2026-11-21',co:['openai'],cf:'報道',t:'OpenAIがSB Energy(ソフトバンク傘下)からオハイオ州パイク郡の約8GW(IT容量)を20年で賃貸。保証額・契約年数は報道で食い違う(報道ベース)',src:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy']},
  {d:'2026-11-20',co:['anthropic'],t:'Anthropicの株は上場2日目に約8.5%下落。ハイテク株全体が下げた日と報道(初日の終値97.17ドルから)',src:['CNBC(2026-11-20)','https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicがナスダックで取引開始(ANT)。初日の終値は97.17ドルで、売り出し価格83ドルより約17%高',src:['Deadline(2026-11-19)','https://deadline.com/2026/11/anthropic-ai-volatile-ipo-shares-trading-nasdaq-market-1237229045/']},
  {d:'2026-11-19',co:['anthropic'],t:'Anthropicの上場の値段は1株83ドルに決定(SECへの届け出 S-1MEF で確認)。売り出す株を約9億8,000万株に増やし、83ドルで約813億ドル(株数×値段で計算)',cf:'開示',src:['Anthropic S-1MEF(SEC、2026-11-18)','https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm']},
@@ -35870,6 +35879,7 @@ function primaryHtml(){
 // ===== 取引関係(クラウド・GPU・計算資源の契約) 2026年11月13日時点の公開情報 =====
 const DEAL_ASOF='2026年11月13日';
 const DS={
+ oaisbe:['Axios(2026-08-17)','https://axios.com/2026/08/17/openai-nvidia-ohio-data-center-sb-energy'],
  oaitw:['The Next Web(2026-11-16)','https://thenextweb.com/news/tensorwave-openai-457mw-amd-helios'],
  msoai:['Microsoft公式ブログ(2025/10/28)','https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/'],
  oaitrack:['OpenAI計算資源の契約まとめ(presenc.ai, 2026/5)','https://presenc.ai/research/openai-compute-commitments-tracker-2026'],
@@ -35939,6 +35949,7 @@ const DEALS={
   ['coreweave','CoreWeave','GPU $22.4B',2025,'2025年に3回に分けて契約し、合計約224億ドルと報じられています。(2026/11/18、CoreWeaveの公式発表(2025/9/25)で「合計約224億ドル」で確認)',['cwv','v_oaicw']],
   ['nvidia','Nvidia','GPU 10GW → 出資$30B',2025,'2025年9月に10GW分の基本合意と、最大1,000億ドルの段階的な出資を発表。2026年2月にこの計画をやめ、300億ドルの直接出資に切り替えたと報じられています。(2026/11/18、OpenAIの公式発表で300億ドルの出資を確認)',['nv30','v_oai110']],
   ['amd','AMD','GPU 6GW',2025,'2025年10月、6GW分のGPU(MI450世代から)。OpenAIはAMD株を最大1億6,000万株(約10%)取得できる権利も得ました。最初の1GWは2026年後半から。',['oaiamd','v_oaiamd']],
+  ['sbenergy','SB Energy','オハイオ 約8GW賃貸',2026,'2026年8月、オハイオ州パイク郡のキャンパス(PORTS-Pike Technology Campus)の約8GW(IT容量)を、OpenAIが20年で借りる契約。SB Energyが建設・所有・運営し、最初の800MWは2028年、2032年まで拡張の予定。SB Energyが約55億ドル相当のワラントをOpenAIに付与し、NvidiaがWSJ報道で約1,050億ドル規模の保証をするとされています。報道ベース。保証額・契約年数は報道で食い違います(契約年数はAxiosが10年、ほかは20年)。8GWはIT容量で、電源は10GWとする報道もあります。(2026/11/23、Axios・The Next Web・Channel Insiderで確認)',['oaisbe']],
   ['tensorwave','TensorWave','AMD GPU 457MW',2027,'2026年11月16日、AMDのMI455X(Heliosラック)で457MW分の計算資源を6年契約。米国の複数拠点で2027年前半から稼働、2028年初めに全面稼働の予定。金額は非公表。',['oaitw']],
   ['broadcom','Broadcom','自社チップ 10GW',2025,'2025年10月、OpenAI独自のAIチップを共同開発し、10GW分を導入する契約。2026年後半から導入。',['oaiavgo','v_oaiavgo']],
   ['cerebras','Cerebras','推論 750MW',2026,'2026年1月、応答を速くする推論用に750MW・100億ドル超の契約。2028年までに導入。',['oaicbrs']],
@@ -37310,7 +37321,7 @@ function renderPersonPanel(){
  ['プロダクト・SaaS企業',['twitter','notion','figma','stripe','canva','cursor','slack']],
  ['モビリティ・デリバリー',['uber','doordash','waymo','newmo','go','demaecan']],
  ['半導体',['tsmc','jasm','asml','samsung','skhynix','us_AMD','us_AVGO','us_MU','us_INTC','jp_8035','jp_6857'].filter(k=>COMPANIES[k])],
- ['電力・データセンター',['st_coreweave','st_crusoe','st_lambda','tensorwave','iren','applieddigital','us_EQIX','us_NEE','us_CEG','talen','oklo','terrapower','kairos','xenergy','cfs','st_helion'].filter(k=>COMPANIES[k])],
+ ['電力・データセンター',['st_coreweave','st_crusoe','st_lambda','tensorwave','sbenergy','iren','applieddigital','us_EQIX','us_NEE','us_CEG','talen','oklo','terrapower','kairos','xenergy','cfs','st_helion'].filter(k=>COMPANIES[k])],
  ['中国のAI企業',['st_deepseek','st_moonshot','st_zhipu','minimax','alibaba','tencent','st_bytedance','huawei'].filter(k=>COMPANIES[k])],
  ['日本の企業',['sakana','softbank','pfn','pksha','rakuten','ly','mercari','boost']],
  ['注目スタートアップ',STARTUPS.map(s=>s.key)],
