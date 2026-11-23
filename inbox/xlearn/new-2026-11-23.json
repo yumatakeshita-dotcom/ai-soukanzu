@@ -1,0 +1,25 @@
+{
+ "new": [
+  {
+   "company": "OpenAI",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "text": "Perplexity and Intelligence Research Nov 22, 2026"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/not-lain/kv-caching",
+   "text": "KV Caching Explained: Optimizing Transformer Inference Efficiency not-lain • Jan 30, 2025 • 451"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/figma-ai/motion-graphics-bench",
+   "text": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification figma-ai • 12 days ago • 17"
+  },
+  {
+   "company": "OpenRouter",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "text": "Data Processing Incidents on Inference Providers Security researchers found that some inference providers did not uphold their data policies. These findings did not show any breach of OpenRouter. Here"
+  }
+ ],
+ "failed": []
+}

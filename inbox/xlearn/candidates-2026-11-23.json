@@ -1,0 +1,81 @@
+{
+ "items": [
+  {
+   "company": "Perplexity",
+   "title": "Perplexity Intelligence: New AI Research Platform Launches",
+   "date": "2026-11-22",
+   "what_en": "Perplexity has launched Intelligence, a next-generation AI research platform that combines real-time web search with advanced reasoning capabilities. It aims to provide verified, citation-backed insights for complex decision-making tasks to researchers, analysts, and enterprises.",
+   "how_to_try": "Immediate availability for enterprise customers; individual researchers and small teams can access a limited preview version via waitlist.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzBEdTHncHYmJIuz0l0fxXRDvAFRUr6_JiHSSDQHGYbBR38ndQBENFeDKPkPThSim55Kq1frf7CU_Uog16gxabtCQvovQo-wTtu_owEvdpzmDaBIMqNcZabhX1gSBUdIVgysvxh3l7GT8SAzvJiNpgphUi749XmY5K2_4="
+  },
+  {
+   "company": "Microsoft",
+   "title": "Microsoft Expands AI Role in Scientific Research Labs",
+   "date": "2026-11-22",
+   "what_en": "Microsoft has launched a comprehensive suite of AI capabilities designed for scientific research laboratories, integrating AI-powered data analysis, experiment design, and research collaboration tools into laboratory management systems. This initiative aims to accelerate discovery timelines across multiple disciplines.",
+   "how_to_try": "Available to academic institutions, government research facilities, and corporate R&D departments through Microsoft Azure.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkdGtGFrCjwZfmqAX5HkIg90jVImriG1v_JgE9b0IuftNrQV_pkthJDsTAEalXjWm--11KyNQBeBcDLYaQnJPcO3Q3Dp3jmgaXlEvwnqZrtohjaMWAq8VTFGeDc4DJw4UdYKkcIcal1YahpISToKjK9RwnPNDlrUOpY1PUW4nJI_M="
+  },
+  {
+   "company": "OpenAI",
+   "title": "OpenAI Launches Perplexity Framework for AI Evaluation",
+   "date": "2026-11-22",
+   "what_en": "OpenAI has introduced a comprehensive framework centered on perplexity as the primary metric for evaluating AI model progress. This framework provides developers with a standardized approach to measuring emerging capabilities across language models, aiming for consistent evaluation standards in the AI community.",
+   "how_to_try": "Immediately available to researchers and commercial developers through OpenAI's developer portal.",
+   "x_post_url": "",
+   "official_url": "https://openai.com/blog/perplexity-and-intelligence",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPtORcOzHTvsM_dGjNmJA8rv-DDEWPLgl5LcQPi_C9cwZDAHNNgpdLpJjbcBCiLNayI4Hsgm80RzVZJXVMrDfjZ2TdQqqDhJv2j4lY6lhYwgsT5XopJO9qF-cSKIuUYtCRmohXfxcqochfu2OfhD0t-y727JaFcVZs_Pg="
+  },
+  {
+   "company": "Cognition AI",
+   "title": "Cognition Launches Devin Bots for Multi-Day Coding Projects",
+   "date": "2026-11-22",
+   "what_en": "Cognition launched Devin Bots, which are coding agents designed to manage teams of Devins (Cognition's AI software engineering agent) on multi-day projects.",
+   "how_to_try": "",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATlqGQx2thGcADnf-QbnZF4Un1AItSY__oZ_beZW080h8ZLfv4pL-Iht8ASievd0t0VswD42CZwkyZJ_BrV72Z-MXh2l8ilujuSIQZui4oPY0jlC4N4Io1K4TEVSMYN4eC0iJQFlqVFUlXRglpKag8kIjFHdFruPPzyGjLhZVdhSsjC0PkucrnWJZoFin8EWH4DkJZ5WvhKpC1_K-L-U-OcYM4G3gSMADAvBryP0="
+  },
+  {
+   "company": "OpenAI",
+   "title": "ChatGPT Adds Faster Live Dictation and Accounting Plugin",
+   "date": "2026-11-21",
+   "what_en": "ChatGPT has introduced faster Live Dictation, allowing real-time speech transcription with text visibility and no 10-minute recording limit. Additionally, an Accounting plugin is now available to support tasks like transaction reconciliation, invoice entries, and month-end reports.",
+   "how_to_try": "Live Dictation is rolling out across various plans and platforms, and the Accounting plugin is available.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyOWjsT5RdFooD60UpEzx0VyBDWN_XLKLd7p7pqWcFCrK0rbmAU1iB9nPoiiXxtH1sIgQDD3UxyIAEUYRZTE5EKTVHNsovFrTK6JFngFXb5vX37v_Z1NgkUOC1S2bRsA=="
+  }
+ ],
+ "grounding": [
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzBEdTHncHYmJIuz0l0fxXRDvAFRUr6_JiHSSDQHGYbBR38ndQBENFeDKPkPThSim55Kq1frf7CU_Uog16gxabtCQvovQo-wTtu_owEvdpzmDaBIMqNcZabhX1gSBUdIVgysvxh3l7GT8SAzvJiNpgphUi749XmY5K2_4="
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkdGtGFrCjwZfmqAX5HkIg90jVImriG1v_JgE9b0IuftNrQV_pkthJDsTAEalXjWm--11KyNQBeBcDLYaQnJPcO3Q3Dp5jmgaXlEvwnqZrtohjaMWAq8VTFGeDc4DJw4UdYKkcIcal1YahpISToKjK9RwnPNDlrUOpY1PUW4nJI_M="
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPtORcOzHTvsM_dGjNmJA8rv-DDEWPLgl5LcQPi_C9cwZDAHNNgpdLpJjbcBCiLNayI4Hsgm80RzVZJXVMrDfjZ2TdQqqDhJv2j4lY6lhYwgsT5XopJO9qF-cSKIuUYtCRmohXfxcqochfu2OfhD0t-y727JaFcVZs_Pg="
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFB8Vl9qcp68TKIWjR1PuEECP4WDZY6v7GaruNYneDq3V_z5zVTirrU1fqGFXp9KFDcLgbhURxo_RzOdPSedRR5mcMzuMkEQboHHbDPMFLTUtT1oy-idqXM5l1xHDFsGjeBfDIIS20TVJVR0kgbr996"
+  ],
+  [
+   "mlq.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEATlqGQx2thGcADnf-QbnZF4Un1AItSY__oZ_beZW080h8ZLfv4pL-Iht8ASievd0t0VswD42CZwkyZJ_BrV72Z-MXh2l8ilujuSIQZui4oPY0jlC4N4Io1K4TEVSMYN4eC0iJQFlqVFUlXRglpKag8kIjFHdFruPPzyGjLhZVdhSsjC0PkucrnWJZoFin8EWH4DkJZ5WvhKpC1_K-L-U-OcYM4G3gSMADAvBryP0="
+  ],
+  [
+   "releasebot.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyOWjsT5RdFooD60UpEzx0VyBDWN_XLKLd7p7pqWcFCrK0rbmAU1iB9nPoiiXxtH1sIgQDD3UxyIAEUYRZTE5EKTVHNsovFrTK6JFngFXb5vX37v_Z1NgkUOC1S2bRsA=="
+  ]
+ ],
+ "model": "gemini-2.5-flash"
+}

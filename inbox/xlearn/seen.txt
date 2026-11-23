@@ -232,6 +232,7 @@ https://huggingface.co/blog/Zyphra/zonos3-mini
 https://huggingface.co/blog/allenai/xybench
 https://huggingface.co/blog/basecompute/superfluid-fleet
 https://huggingface.co/blog/dlouapre/yang-mills-openai
+https://huggingface.co/blog/figma-ai/motion-graphics-bench
 https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp
 https://huggingface.co/blog/ggml-org/llama-cpp-ci-buckets
 https://huggingface.co/blog/ggml-org/llama-cpp-v1
@@ -243,6 +244,7 @@ https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse
 https://huggingface.co/blog/inkling2mini
 https://huggingface.co/blog/lucidml/gta-in-a-neural-network-an-open-world-model-and-th
 https://huggingface.co/blog/moe-expert-streaming
+https://huggingface.co/blog/not-lain/kv-caching
 https://huggingface.co/blog/nutrientdocs/recapture
 https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place
 https://huggingface.co/blog/openrouter
@@ -387,10 +389,12 @@ https://openai.com/index/introducing-gpt-6-2-astra-sol/
 https://openai.com/index/introducing-medchembench/
 https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/
 https://openai.com/index/managing-frontier-ai-risk/
+https://openai.com/index/perplexity-and-intelligence/
 https://openai.com/index/research-acceleration-jagged-frontier/
 https://openai.com/index/the-silent-consensus/
 https://openrouter.ai/blog/announcements/auto-and-auto-code-routers/
 https://openrouter.ai/blog/announcements/csam-screening/
+https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/
 https://openrouter.ai/blog/announcements/extractions-api/
 https://openrouter.ai/blog/announcements/fusion-beats-frontier/
 https://openrouter.ai/blog/announcements/guardrail-policies/
