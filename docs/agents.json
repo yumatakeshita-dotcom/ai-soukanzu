@@ -598,6 +598,7 @@
       "when": "毎日 10:31 / 月曜 10:51 使用量",
       "outputs": [
         "inbox/watchdog/日付.md",
+        "site/data/watchstatus.js(ホームの色表示。変わったら共有リンクにも公開)",
         "inbox/usage/日付.md"
       ],
       "limits": "軽い確認。Haiku で動かしてよい。他のタスクは実行・変更しない。",
