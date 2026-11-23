@@ -1,0 +1,599 @@
+{
+ "date": "2026-11-24",
+ "kind": "gemini",
+ "topic": "AI企業・半導体企業の創業者や経営者が、本人の公の発言・インタビューで挙げた愛読書や影響を受けた本・映画(例: ジェンスン・ファン、リサ・スー、ダリオ・アモデイ、デミス・ハサビス、ソフトバンクの孫正義以外)。出典ページ付きで",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "株式上場",
+   "相手": "Nasdaq Global Select Market",
+   "金額": "83.00",
+   "日付": "2026-11-19",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "Class A普通株式、株式ティッカー「ANT」で取引開始。IPO価格は1株あたり83.00ドル。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Nasdaq Global Select Market"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "株式の第三者割当",
+   "相手": "Advanced Micro Devices (AMD), Broadcom Inc., Google LLC, Micron Technology, Inc., Microsoft Corporation, NVIDIA Corporation, TSMC Partners, Ltd.",
+   "金額": "26000000000",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "IPOと同時にClass N普通株式を1株あたり83.00ドルで売却。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Advanced Micro Devices",
+     "Broadcom Inc.",
+     "Google LLC",
+     "Micron Technology",
+     "Inc."
+    ]
+   }
+  },
+  {
+   "会社名": "Applied Digital",
+   "関係": "データセンターリース契約",
+   "相手": "ティア1投資適格ハイパースケーラー (企業名非公開)",
+   "金額": "5400000000",
+   "日付": "2026-11-23",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsksi6BBxkcwZookeW9531RxqIvgEsd2q3ooQnVkHXeBpvSgN52w9ALRKApvdEPS0OmSOggg2z1zdEyS6xSjBL1QuWkW6zZNggee9QvbrpAO-VxPIMBS2ppP5qCUwJ3X3SxW0Db4X79meSpGTi3NeSXbq3-xcUnhI5g_ljzJ75XwhPTey-EbMWN9bfWA1exrWc-T-JUuNORX2g1wupXhu8ycJAFNSpET0Ol-mBWeDHBOSQLI=",
+   "確かさ": "公式",
+   "備考": "150MWのIT容量を18年間リース。基本期間で約54億ドルの契約収益、更新オプション行使で最大33年間で約127億ドル。提供開始は2028年前半を予定。",
+   "src": [
+    [
+     "Applied Digital",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsksi6BBxkcwZookeW9531RxqIvgEsd2q3ooQnVkHXeBpvSgN52w9ALRKApvdEPS0OmSOggg2z1zdEyS6xSjBL1QuWkW6zZNggee9QvbrpAO-VxPIMBS2ppP5qCUwJ3X3SxW0Db4X79meSpGTi3NeSXbq3-xcUnhI5g_ljzJ75XwhPTey-EbMWN9bfWA1exrWc-T-JUuNORX2g1wupXhu8ycJAFNSpET0Ol-mBWeDHBOSQLI="
+    ]
+   ],
+   "既存の名前": [
+    "Applied Digital"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Applied Digital",
+   "関係": "資金調達",
+   "相手": "グローバル金融機関 (非公開)",
+   "金額": "300000000",
+   "日付": "2026-11-23",
+   "出典URL": "https://seekingalpha.com/news/4675523-applied-digital-jumps-7-premarket-as-it-closes-300m-bridge-facility",
+   "確かさ": "報道",
+   "備考": "Delta Forge 1 AIデータセンターキャンパス開発を支援する3億ドルのシニア担保付ブリッジファシリティを締結。",
+   "src": [
+    [
+     "Seeking Alpha",
+     "https://seekingalpha.com/news/4675523-applied-digital-jumps-7-premarket-as-it-closes-300m-bridge-facility"
+    ]
+   ],
+   "既存の名前": [
+    "Applied Digital"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDiOTdOqN7iZSw-ad85F8pEo1Gr_3VDBLQG-Z97zkwi5stfY_9Vn6tJffl5M75LBOCno5GVEXA6734Oa-u9J9d8PKQVhp-Eaq4NXBQHs3qGqv-WE1qpmAzuNFqyz9OiHww7_iMNSKFBYdKjyOqoswdq6xo2IkWa3Y5w76EQdsQVSueGdr0XLBd7YLoUkcxBk23FU-fDQnCvdhq7OZo7XqMEF7ofQ==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-14",
+   "出典URL": "https://www.wsws.org/en/articles/2026/11/19/nusp-n19.html",
+   "確かさ": "報道",
+   "備考": "Jensen HuangのCEO辞任に伴い、Colette Kressが暫定CEOに就任。",
+   "人物": "Colette Kress",
+   "役職": "Interim CEO",
+   "移籍元": "NVIDIA (CFO)",
+   "移籍先": "NVIDIA",
+   "src": [
+    [
+     "World Socialist Web Site",
+     "https://www.wsws.org/en/articles/2026/11/19/nusp-n19.html"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mK3EdxPFH_UuROCpOCHglnIC2tWFZTAO0KSjsQqIZJFZc7RutCRJGTb34Tye09dta91BXEe1giR-W_g6a2mtpPEiHRO-ylVEfgyNOepcsdm8kdQz4ERGitkHb2m8p6kK3vOHsTemxhgheg180JPx6-198w==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Applied Digital",
+   "関係": "データセンター容量拡張",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-10-02",
+   "出典URL": "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+   "確かさ": "公式",
+   "備考": "Polaris Forge 1キャンパスの第2フェーズが完成し、75MWのITロードが追加され、総運用容量が250MWに。",
+   "src": [
+    [
+     "Applied Digital",
+     "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai"
+    ]
+   ],
+   "既存の名前": [
+    "Applied Digital"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hiRiS1th86asygxTdbD6BRqMbDQitiqPHh_87mv8QmYvD6VT-IxyLpynr5LfVLVVSkOfNwoWH4U4LS8WpCFocZbHkMfmn4H9Dvywb4qqQgFff5KrfR4Deh1XFLjYGjsfe5ejdD37C9jF97-UX-V-ySm4VwrnEpQLFy9n6T2OedxE0hgNRYjnbISrqPsSUf69Sh9lkeSVW7HYB12eA1FiP8pPEO5iJ7mURUqZ4Ae5",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Applied Digital",
+   "関係": "データセンターリース契約",
+   "相手": "米国ベースのハイパースケーラー (企業名非公開)",
+   "金額": "",
+   "日付": "2026-04-23",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqqbSxlW-uYIbkxR9lUezu7_vqUU700-IhrncX6w36UJH62hLUsf9hRd3ocVTQ95taCLJkdTwxRGuuiWh8vuXbURNbHkJxNea0jtfYN4ItaDFFcTH3deJAlhXsR67YHPSCjZBE0Fzwy9kqmwABDx80pGAPaIxcTf7hKC6MfsO9oo-0ezjhtoxW8XWlIJUfVVOasrZuLlDfsSsMZCEVR5Uw-PRqjzHiMJDkfA==",
+   "確かさ": "開示",
+   "備考": "Delta Forge 1キャンパスでのリース契約により、契約済みリース収益総額が230億ドル超に拡大。",
+   "src": [
+    [
+     "SEC Form 8-K",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqqbSxlW-uYIbkxR9lUezu7_vqUU700-IhrncX6w36UJH62hLUsf9hRd3ocVTQ95taCLJkdTwxRGuuiWh8vuXbURNbHkJxNea0jtfYN4ItaDFFcTH3deJAlhXsR67YHPSCjZBE0Fzwy9kqmwABDx80pGAPaIxcTf7hKC6MfsO9oo-0ezjhtoxW8XWlIJUfVVOasrZuLlDfsSsMZCEVR5Uw-PRqjzHiMJDkfA=="
+    ]
+   ],
+   "既存の名前": [
+    "Applied Digital"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "ChronoScale",
+   "関係": "AI展開提携",
+   "相手": "Microsoft",
+   "金額": "",
+   "日付": "2026-10-26",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrlId2auaztZAqD4hSVGHnf3ZGNUejuzsrgaseh1tPp6qHFAxB_U3ww2eH05qMQESNRnwuza5vNG7y6FcQki1JtBZ8oE3AePgvfzQUlfSnmknJyPQKu5xz3fxsL_IeUq60cU2323M_vuJ4O7Vnxjt8D4FLsthEMoyMDSiwPrPl6e3vm61LWSMImWOG7uBKVAlffPqKFC8-QwPlNasaQ==",
+   "確かさ": "報道",
+   "備考": "ChronoScale (Applied Digital子会社)がMicrosoftと50MWのAI展開で提携し、2027年に年間経常収益10億ドルを目指す。",
+   "src": [
+    [
+     "Tickeron",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrlId2auaztZAqD4hSVGHnf3ZGNUejuzsrgaseh1tPp6qHFAxB_U3ww2eH05qMQESNRnwuza5vNG7y6FcQki1JtBZ8oE3AePgvfzQUlfSnmknJyPQKu5xz3fxsL_IeUq60cU2323M_vuJ4O7Vnxjt8D4FLsthEMoyMDSiwPrPl6e3vm61LWSMImWOG7uBKVAlffPqKFC8-QwPlNasaQ=="
+    ]
+   ],
+   "既存の名前": [
+    "Microsoft"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "取引停止",
+   "相手": "中国 (顧客全般)",
+   "金額": "",
+   "日付": "2026-11-17",
+   "出典URL": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+   "確かさ": "報道",
+   "備考": "米国政府の高度チップ対中輸出禁止の抜け穴を終了するため、H200チップの中国への出荷を停止した。",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJARSwSHRik2rY5SVrj8coJVLUYPXo9tn-CetQJKlzJAzAG_liuaXgcyoMJsxHzhRpBbDZsRbHKnKtwMUbHKdQ1UGhl2uX_2Ub84TOMVdZRj0PQYlQvVNM2vYJfS5vKKfm6jW_DSw7qOODpLVETPrJ27sW-U-k-W4YzCHvYvOsC-xrwGAoe7AWbQrgq4T9KROXNk=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Nvidia is abandoning China after Jensen Huang&#039;s ouster ",
+    "状態": "ok",
+    "載っていた名前": [
+     "NVIDIA"
+    ]
+   }
+  },
+  {
+   "会社名": "Applied Digital",
+   "関係": "契約済みリースポートフォリオ総額",
+   "相手": "",
+   "金額": "36200000000",
+   "日付": "2026-05-31",
+   "出典URL": "https://wisevoter.com/world/us/la/2026/11/23/applied-digital-150-mw-hyperscaler-lease",
+   "確かさ": "報道",
+   "備考": "5つのキャンパスにわたる契約済みリースポートフォリオの総額が約362億ドルに達した。",
+   "src": [
+    [
+     "Wisevoter",
+     "https://wisevoter.com/world/us/la/2026/11/23/applied-digital-150-mw-hyperscaler-lease"
+    ]
+   ],
+   "既存の名前": [
+    "Applied Digital"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzU4TZ5aWY4hD5QbQEPc-BIqmfpbr1aL-0np3goFaj_tHwndTM5T_izIC929pQfhaKNdVxcBMlp6w9OsPKgrTs0N_7hfkTxfMUDQGWAV9x8nz50V9j4Umsu3FG9K12dwVCW7Vfu2Amp54J7cQdZ_WAa52iOFXAUeRcJ6gHyT_Qnc2qWLIL4-1ko7Vb9hDHc4M=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "leverageshares.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF02REeZhCN55cTcMc5GIg9MqcOEaPkbDlf9dQNg3L-dpFiZvgX-FYRFT0BSVadd0R69q1C1mBanVgLZlfC5puZI4xu3EcSxNIIqI_iPxJ94PDJDYDaaNVGi_UdsfAOY_PE33pORgMk4kkXY0yrIt8="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErJEjDFik-wxlvBWHsfTA9jRlcQr7gzN8UFP0jWFzfGf1gFCQDl7hwX1XjVOTcV-_JUzzrMGVhf_MSFPmRa4ppUQscjbrzRp1AVQDH1V7guLYmO4QkhIHKqJhEqeNr4XyYZ_BAMF6mtTE-vPryn1NcWvTCXjkrcVYxzpTGFz5zprFy"
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiZdNUbfY-I4-ZDEBq72Z83rJO1VjXnt4za6ke2D1yMG5O0SixUd8gwhImMIlEHcnYy4cwUNqAOO2APxNY1Lx23JI0CVdM6ehnaqDxdmRDq9utQfxgxjPQjIq2JvG0lcKh8plXKzY6_bxpN96pI2BW5Wa7C_x8qLFfZj3O-w=="
+  ],
+  [
+   "fxcentrum.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaURFw6jE0m9Doz1xuHrYZT7smHH3Vca-WezM0iZA7XEfF4DztNjD5ygXiudgZ67ZdEok4jlKAlCBycU5zqz1jxkDSvv933HR6wmBmcAYBAqK6kEQh8FyrEXklwwwMUi0AKICdepoZBTYEhQ0Z9YXEvw=="
+  ],
+  [
+   "tmgm.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHox-DZ1v339adQBAnrOmXRJzQL2nk6JJ8I3C2S8-lEd7RrHo2LmYGcXEUUinaqXiEBPWjXgC8E-nm1Esq_Zl9jowtirJzcdeT25j-jMFxqv5v50FyG62hgRkgDdM_Oj8qR179YZXEhpt6BfmT8mZRrjadtTsQu0Y-WKPqF8tDmdFmdlE2iKW1gUFkS0Lpl9-wqD0UVTj2pRGrksw="
+  ],
+  [
+   "heygotrade.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfi7x3H8cK8vK3fNoR14lT52NRyt4dvOu0EqTTVceZIhMMS3wHo8JmE1-zVrw6a-UIzspl8pIFCmgqZgQaIIBJd0_Wl_N8TZ4exVg1RbkmsOKrw0TE6uHEfOqCnMgiKjglOTkuREcBhwHlnCcj_rDOQXGcCenOLxqCAwRNhJ5GIcwFrpLhd7jVHZhCM3o="
+  ],
+  [
+   "pepperstone.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYHbJMeyeSLzXMJUuS4Al2ECi-Squ42rDmFCT5W-Qg1e_Dk37Bo8ElyUXqJMc_rAkwvGO7XhlgAri8jjJW6GeAHUlRDEFILl83iz-Gh0QXEkdIUJZliHHZAWnL4wVyUv7V1IMJr4MLsywjXUIBG6GLI4_2pQWCMb9tZZC0nrgifkH"
+  ],
+  [
+   "wisevoter.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzU4TZ5aWY4hD5QbQEPc-BIqmfpbr1aL-0np3goFaj_tHwndTM5T_izIC929pQfhaKNdVxcBMlp6w9OsPKgrTs0N_7hfkTxfMUDQGWAV9x8nz50V9j4Umsu3FG9K12dwVCW7Vfu2Amp54J7cQdZ_WAa52iOFXAUeRcJ6gHyT_Qnc2qWLIL4-1ko7Vb9hDHc4M="
+  ],
+  [
+   "mlq.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpz_Bucrss1FTcLNm4riRC-jcaxo2F_FbNaGeZDywXeitYYOnIQCGQfjA5Mhxw2T5vG1nqp1a548uLnNCkwTJSpycIxzVf_z3ROrIdBwVPl1K5q4zOmoBCBQBzN-wsRF0diZeC2sNsrNnR6-vB4tYXacmJNgI-ayhk1OgcRkpErMRBzgujm2lSWOkgtxwf91JCnVmRSlOcjDgsVAv99SIjYrdrdUbK6g=="
+  ],
+  [
+   "investing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbBcawYueoOq--ySvijCm7-6v_KkmpJddsml8Aeo6KC8IyIbvd_XrpCly3CMMBWYusTYrHxT31scDbQwpfSbYAwqtziDf9zL_CsTTW1UztWfWzHMVeaE8GdWMgT00TozirttCBn3AHOYb2FcJyEHMBTR-N1ipUu6mlQ7Sscg_9cQMLzBfsu_frWAg_4VOTX9B0q53r0_kvbF9qHsZJxCBY-4BmW3L_Y8MMfbj-9hBrRAPSXkbdXnLtEoo="
+  ],
+  [
+   "kalkine.ca",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHClIitofD6wwzb3m9Dkh0141W8U9O1bhLdNGtC-hgCtaMMJuU8eBZ_zTY6yknDjJ6kYOU-Mfn1KNFH-x0MoVcyGwI7lq4pRjLjS040Cf5VMy3mA2S9EKBwFNAlnUtzxa6DhXALvc35zprYjLjdhDXQU7h8UQ7ijQSg-_EUzf-fkIf_5YNjuymrF4lzziN5jYQQIkJgTBHOVopkJ7Krwpk5rcfeRNl06A=="
+  ],
+  [
+   "applieddigital.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsksi6BBxkcwZookeW9531RxqIvgEsd2q3ooQnVkHXeBpvSgN52w9ALRKApvdEPS0OmSOggg2z1zdEyS6xSjBL1QuWkW6zZNggee9QvbrpAO-VxPIMBS2ppP5qCUwJ3X3SxW0Db4X79meSpGTi3NeSXbqb-xcUnhI5g_ljzJ75XwhPTey-EbMWN9bfWA1exrWc-T-JUuNORX2g1wupXhu8ycJAFNSpET0Ol-mBWeDHBOSQLI="
+  ],
+  [
+   "biggo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8vjEWWotpir873iss6RXUTItpkAQO7n5o0U_2G9hyxD2JyMzhlMSxlUHYEKf6iP0YBYyJ0O5Qeyptl06zMO-jWE6OYooPKOycu3P3JHuG_ZkQpKadrA1RITTKG8NURGHPR_JPc3D3XerX328Jm8aUDpRZixGlmHcs0_UFIGc="
+  ],
+  [
+   "seekingalpha.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDiOTdOqN7iZSw-ad85F8pEo1Gr_3VDBLQG-Z97zkwi5stfY_9Vn6tJffl5M75LBOCno5GVEXA6734Oa-u9J9d8PKQVhp-Eaq4NXBQHs3qGqv-WE1qpmAzuNFqyz9OiHww7_iMNSKFBYdKjyOqoswdq6xo2IkWa3Y5w76EQdsQVSueGdr0XLBd7YLoUkcxBk23FU-fDQnCvdhq7OZo7XqMEF7ofQ=="
+  ],
+  [
+   "wsws.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mK3EdxPFH_UuROCpOCHglnIC2tWFZTAO0KSjsQqIZJFZc7RutCRJGTb34Tye09dta91BXEe1giR-W_g6a2mtpPEiHRO-ylVEfgyNOepcsdm8kdQz4ERGitkHb2m8p6kK3vOHsTemxhgheg180JPx6-198w=="
+  ],
+  [
+   "techcrunch.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJARSwSHRik2rY5SVrj8coJVLUYPXo9tn-CetQJKlzJAzAG_liuaXgcyoMJsxHzhRpBbDZsRbHKnKtwMUbHKdQ1UGhl2uX_2Ub84TOMVdZRj0PQYlQvVNM2vYJfS5vKKfm6jW_DSw7qOODpLVETPrJ27sW-U-k-W4YzCHvYvOsC-xrwGAoe7AWbQrgq4T9KROXNk="
+  ],
+  [
+   "internationalfinance.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBdExg6iIzyRATRwizKY4J1TBncUCWpCJ5blFOwotuXbmBPcqJxVXROfMcRkAULi124kmqoCt6DYqEvSgDiRiWaan1F4QY_dWtvvfg1VS3ByRAxxDSn1WP934-4OSPe-cz3zhENiEmVaOUJ9tFXXc6QPNRBdnMCOsvCmo_FnsyBrlICUguuSflpVqz-ckR0QwqkVmAPzoJNR2p_5Q4hfBD6bp5JeVRtTqLces_ioZC5XwmU7kP1cgPfQ=="
+  ],
+  [
+   "washingtonpost.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3xCxbCwPlJW2XNqxpfH-ESbYIcMvB0z1gHIHDrHzwq41xS_yDX14tkiDCoJqdILlfflmKrCP3TCJPhqNAhBb9LXM7xT_iA4SDmbL63R3vxK55YAUAglbPbeYFtoKiEpfR1psqFqRb7hA332YkB2V3s80pGx-wptxdVxBqpUz9lzVTj286O7Vw9HnuSHMzmYuFMOzGBPF243t4f7XTmhorttvjBVArukosWlK2I7e"
+  ],
+  [
+   "applieddigital.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hiRiS1th86asygxTdbD6BRqMbDQitiqPHh_87mv8QmYvD6VT-IxyLpynr5LfVLVVSkOfNwoWH4U4LS8WpCFocZbHkMfmn4H9Dvywb4qqQgFff5KrfR4Deh1XFLjYGjsfe5ejdD37C9jF97-UX-V-ySm4VwrnEpQLFy9n6T2OedxE0hgNRYjnbISrqPsSUf69Sh9lkeSVW7HYB12eA1FiP8pPEO5iJ7mURUqZ4Ae5"
+  ],
+  [
+   "applieddigital.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqqbSxlW-uYIbkxR9lUezu7_vqUU700-IhrncX6w36UJH62hLUsf9hRd3ocVTQ95taCLJkdTwxRGuuiWh8vuXbURNvHkJxNea0jtfYN4ItaDFFcTH3deJAlhXsR67YHPSCjZBE0Fzwy9kqmwABDx80pGAPaIxcTf7hKC6MfsO9oo-0ezjhtoxW8XWlIJUfVVOasrZuLlDfsSsMZCEVR5Uw-PRqjzHiMJDkfA=="
+  ],
+  [
+   "tickeron.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrlId2auaztZAqD4hSVGHnf3ZGNUejuzsrgaseh1tPp6qHFAxB_U3ww2eH05qMQESNRnwuza5vNG7y6FcQki1JtBZ8oE3AePgvfzQUlfSnmknJyPQKu5xz3fxsL_IeUq60cU2323M_vuJ4O7Vnxjt8D4FLstxEMoyMDSiwPrPl6e3vm61LWSMImWOG7uBKVAlffPqKFC8-QwPlNasaQ=="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://leverageshares.com/us/anthropic-ipo-tracker/",
+  "https://www.anthropic.com/news/ipo-close",
+  "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "https://en.wikipedia.org/wiki/Initial_public_offering_of_Anthropic",
+  "https://fxcentrum.com/stocks/anthropic-ipo-plans-2026/",
+  "https://www.tmgm.com/en/academy/trading-academy/when-is-anthropic-ipo-everything-you-need-to-know",
+  "https://www.heygotrade.com/en/news/anthropic-ipo-date-price-range-founder-control/",
+  "https://pepperstone.com/en-au/insights/guides/shares/anthropic-post-ipo",
+  "https://wisevoter.com/world/us/la/2026/11/23/applied-digital-150-mw-hyperscaler-lease",
+  "https://mlq.ai/news/applied-digital-signs-a-54-billion-150-mw-data-center-lease-with-an-unnamed-hyperscaler/",
+  "https://www.investing.com/news/stock-market-news/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-5045760",
+  "https://kalkine.ca/news/technology/what-sent-applied-digital-nasdaqapld-up-2433-on-a-150-mw-hyperscaler-deal",
+  "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with",
+  "https://finance.biggo.com/news/25cae019-9e76-4666-9e74-5de7e2c89e0f",
+  "https://seekingalpha.com/news/4675523-applied-digital-jumps-7-premarket-as-it-closes-300m-bridge-facility",
+  "https://www.wsws.org/en/articles/2026/11/19/nusp-n19.html",
+  "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+  "https://internationalfinance.com/technology/nvidia-stops-chip-shipments-to-china-as-jensen-huang-faces-congressional-scrutiny/",
+  "https://www.washingtonpost.com/technology/2026/11/23/how-nvidia-fought-years-washington-sell-its-prized-chips-china/",
+  "https://ir.applieddigital.com/news-events/press-releases/detail/161/applied-digital-brings-an-additional-75-mw-of-ai",
+  "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001144879-26-000036/0001144879-26-000036.pdf",
+  "https://tickeron.com/blogs/applied-digital-apld-positioning-for-the-ai-data-center-expansion-22043/"
+ ],
+ "process": {
+  "queries": [
+   "Anthropic IPO date 2026",
+   "Anthropic stock market listing 2026",
+   "NVIDIA China military connection 2026",
+   "NVIDIA sanctions China 2026",
+   "NVIDIA Chinese military links 2026",
+   "Talen Energy partnership Applied Digital 2026",
+   "Applied Digital datacenter expansion 2026"
+  ],
+  "sources": [
+   [
+    "leverageshares.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF02REeZhCN55cTcMc5GIg9MqcOEaPkbDlf9dQNg3L-dpFiZvgX-FYRFT0BSVadd0R69q1C1mBanVgLZlfC5puZI4xu3EcSxNIIqI_iPxJ94PDJDYDaaNVGi_UdsfAOY_PE33pORgMk4kkXY0yrIt8="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErJEjDFik-wxlvBWHsfTA9jRlcQr7gzN8UFP0jWFzfGf1gFCQDl7hwX1XjVOTcV-_JUzzrMGVhf_MSFPmRa4ppUQscjbrzRp1AVQDH1V7guLYmO4QkhIHKqJhEqeNr4XyYZ_BAMF6mtTE-vPryn1NcWvTCXjkrcVYxzpTGFz5zprFy"
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiZdNUbfY-I4-ZDEBq72Z83rJO1VjXnt4za6ke2D1yMG5O0SixUd8gwhImMIlEHcnYy4cwUNqAOO2APxNY1Lx23JI0CVdM6ehnaqDxdmRDq9utQfxgxjPQjIq2JvG0lcKh8plXKzY6_bxpN96pI2BW5Wa7C_x8qLFfZj3O-w=="
+   ],
+   [
+    "fxcentrum.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaURFw6jE0m9Doz1xuHrYZT7smHH3Vca-WezM0iZA7XEfF4DztNjD5ygXiudgZ67ZdEok4jlKAlCBycU5zqz1jxkDSvv933HR6wmBmcAYBAqK6kEQh8FyrEXklwwwMUi0AKICdepoZBTYEhQ0Z9YXEvw=="
+   ],
+   [
+    "tmgm.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHox-DZ1v339adQBAnrOmXRJzQL2nk6JJ8I3C2S8-lEd7RrHo2LmYGcXEUUinaqXiEBPWjXgC8E-nm1Esq_Zl9jowtirJzcdeT25j-jMFxqv5v50FyG62hgRkgDdM_Oj8qR179YZXEhpt6BfmT8mZRrjadtTsQu0Y-WKPqF8tDmdFmdlE2iKW1gUFkS0Lpl9-wqD0UVTj2pRGrksw="
+   ],
+   [
+    "heygotrade.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfi7x3H8cK8vK3fNoR14lT52NRyt4dvOu0EqTTVceZIhMMS3wHo8JmE1-zVrw6a-UIzspl8pIFCmgqZgQaIIBJd0_Wl_N8TZ4exVg1RbkmsOKrw0TE6uHEfOqCnMgiKjglOTkuREcBhwHlnCcj_rDOQXGcCenOLxqCAwRNhJ5GIcwFrpLhd7jVHZhCM3o="
+   ],
+   [
+    "pepperstone.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYHbJMeyeSLzXMJUuS4Al2ECi-Squ42rDmFCT5W-Qg1e_Dk37Bo8ElyUXqJMc_rAkwvGO7XhlgAri8jjJW6GeAHUlRDEFILl83iz-Gh0QXEkdIUJZliHHZAWnL4wVyUv7V1IMJr4MLsywjXUIBG6GLI4_2pQWCMb9tZZC0nrgifkH"
+   ],
+   [
+    "wisevoter.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzU4TZ5aWY4hD5QbQEPc-BIqmfpbr1aL-0np3goFaj_tHwndTM5T_izIC929pQfhaKNdVxcBMlp6w9OsPKgrTs0N_7hfkTxfMUDQGWAV9x8nz50V9j4Umsu3FG9K12dwVCW7Vfu2Amp54J7cQdZ_WAa52iOFXAUeRcJ6gHyT_Qnc2qWLIL4-1ko7Vb9hDHc4M="
+   ],
+   [
+    "mlq.ai",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpz_Bucrss1FTcLNm4riRC-jcaxo2F_FbNaGeZDywXeitYYOnIQCGQfjA5Mhxw2T5vG1nqp1a548uLnNCkwTJSpycIxzVf_z3ROrIdBwVPl1K5q4zOmoBCBQBzN-wsRF0diZeC2sNsrNnR6-vB4tYXacmJNgI-ayhk1OgcRkpErMRBzgujm2lSWOkgtxwf91JCnVmRSlOcjDgsVAv99SIjYrdrdUbK6g=="
+   ],
+   [
+    "investing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbBcawYueoOq--ySvijCm7-6v_KkmpJddsml8Aeo6KC8IyIbvd_XrpCly3CMMBWYusTYrHxT31scDbQwpfSbYAwqtziDf9zL_CsTTW1UztWfWzHMVeaE8GdWMgT00TozirttCBn3AHOYb2FcJyEHMBTR-N1ipUu6mlQ7Sscg_9cQMLzBfsu_frWAg_4VOTX9B0q53r0_kvbF9qHsZJxCBY-4BmW3L_Y8MMfbj-9hBrRAPSXkbdXnLtEoo="
+   ],
+   [
+    "kalkine.ca",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHClIitofD6wwzb3m9Dkh0141W8U9O1bhLdNGtC-hgCtaMMJuU8eBZ_zTY6yknDjJ6kYOU-Mfn1KNFH-x0MoVcyGwI7lq4pRjLjS040Cf5VMy3mA2S9EKBwFNAlnUtzxa6DhXALvc35zprYjLjdhDXQU7h8UQ7ijQSg-_EUzf-fkIf_5YNjuymrF4lzziN5jYQQIkJgTBHOVopkJ7Krwpk5rcfeRNl06A=="
+   ],
+   [
+    "applieddigital.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsksi6BBxkcwZookeW9531RxqIvgEsd2q3ooQnVkHXeBpvSgN52w9ALRKApvdEPS0OmSOggg2z1zdEyS6xSjBL1QuWkW6zZNggee9QvbrpAO-VxPIMBS2ppP5qCUwJ3X3SxW0Db4X79meSpGTi3NeSXbqb-xcUnhI5g_ljzJ75XwhPTey-EbMWN9bfWA1exrWc-T-JUuNORX2g1wupXhu8ycJAFNSpET0Ol-mBWeDHBOSQLI="
+   ],
+   [
+    "biggo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8vjEWWotpir873iss6RXUTItpkAQO7n5o0U_2G9hyxD2JyMzhlMSxlUHYEKf6iP0YBYyJ0O5Qeyptl06zMO-jWE6OYooPKOycu3P3JHuG_ZkQpKadrA1RITTKG8NURGHPR_JPc3D3XerX328Jm8aUDpRZixGlmHcs0_UFIGc="
+   ],
+   [
+    "seekingalpha.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDiOTdOqN7iZSw-ad85F8pEo1Gr_3VDBLQG-Z97zkwi5stfY_9Vn6tJffl5M75LBOCno5GVEXA6734Oa-u9J9d8PKQVhp-Eaq4NXBQHs3qGqv-WE1qpmAzuNFqyz9OiHww7_iMNSKFBYdKjyOqoswdq6xo2IkWa3Y5w76EQdsQVSueGdr0XLBd7YLoUkcxBk23FU-fDQnCvdhq7OZo7XqMEF7ofQ=="
+   ],
+   [
+    "wsws.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mK3EdxPFH_UuROCpOCHglnIC2tWFZTAO0KSjsQqIZJFZc7RutCRJGTb34Tye09dta91BXEe1giR-W_g6a2mtpPEiHRO-ylVEfgyNOepcsdm8kdQz4ERGitkHb2m8p6kK3vOHsTemxhgheg180JPx6-198w=="
+   ],
+   [
+    "techcrunch.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJARSwSHRik2rY5SVrj8coJVLUYPXo9tn-CetQJKlzJAzAG_liuaXgcyoMJsxHzhRpBbDZsRbHKnKtwMUbHKdQ1UGhl2uX_2Ub84TOMVdZRj0PQYlQvVNM2vYJfS5vKKfm6jW_DSw7qOODpLVETPrJ27sW-U-k-W4YzCHvYvOsC-xrwGAoe7AWbQrgq4T9KROXNk="
+   ],
+   [
+    "internationalfinance.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBdExg6iIzyRATRwizKY4J1TBncUCWpCJ5blFOwotuXbmBPcqJxVXROfMcRkAULi124kmqoCt6DYqEvSgDiRiWaan1F4QY_dWtvvfg1VS3ByRAxxDSn1WP934-4OSPe-cz3zhENiEmVaOUJ9tFXXc6QPNRBdnMCOsvCmo_FnsyBrlICUguuSflpVqz-ckR0QwqkVmAPzoJNR2p_5Q4hfBD6bp5JeVRtTqLces_ioZC5XwmU7kP1cgPfQ=="
+   ],
+   [
+    "washingtonpost.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3xCxbCwPlJW2XNqxpfH-ESbYIcMvB0z1gHIHDrHzwq41xS_yDX14tkiDCoJqdILlfflmKrCP3TCJPhqNAhBb9LXM7xT_iA4SDmbL63R3vxK55YAUAglbPbeYFtoKiEpfR1psqFqRb7hA332YkB2V3s80pGx-wptxdVxBqpUz9lzVTj286O7Vw9HnuSHMzmYuFMOzGBPF243t4f7XTmhorttvjBVArukosWlK2I7e"
+   ],
+   [
+    "applieddigital.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hiRiS1th86asygxTdbD6BRqMbDQitiqPHh_87mv8QmYvD6VT-IxyLpynr5LfVLVVSkOfNwoWH4U4LS8WpCFocZbHkMfmn4H9Dvywb4qqQgFff5KrfR4Deh1XFLjYGjsfe5ejdD37C9jF97-UX-V-ySm4VwrnEpQLFy9n6T2OedxE0hgNRYjnbISrqPsSUf69Sh9lkeSVW7HYB12eA1FiP8pPEO5iJ7mURUqZ4Ae5"
+   ],
+   [
+    "applieddigital.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqqbSxlW-uYIbkxR9lUezu7_vqUU700-IhrncX6w36UJH62hLUsf9hRd3ocVTQ95taCLJkdTwxRGuuiWh8vuXbURNvHkJxNea0jtfYN4ItaDFFcTH3deJAlhXsR67YHPSCjZBE0Fzwy9kqmwABDx80pGAPaIxcTf7hKC6MfsO9oo-0ezjhtoxW8XWlIJUfVVOasrZuLlDfsSsMZCEVR5Uw-PRqjzHiMJDkfA=="
+   ],
+   [
+    "tickeron.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrlId2auaztZAqD4hSVGHnf3ZGNUejuzsrgaseh1tPp6qHFAxB_U3ww2eH05qMQESNRnwuza5vNG7y6FcQki1JtBZ8oE3AePgvfzQUlfSnmknJyPQKu5xz3fxsL_IeUq60cU2323M_vuJ4O7Vnxjt8D4FLstxEMoyMDSiwPrPl6e3vm61LWSMImWOG7uBKVAlffPqKFC8-QwPlNasaQ=="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "IPO価格は1株あたり83.00ドル。",
+    "idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"Anthropic\",\n    \"関係\": \"株式の第三者割当\",\n    \"相手\": \"Advanced Micro Devices (AMD), Broadcom Inc., Google LLC, Micron Technology, Inc., Microsoft Corporation, NVIDIA Corporation, TSMC Partners, Ltd.\",\n    \"金額\": \"26000000000\",\n    \"日付\": \"2026-11-20\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI=\",\n    \"出典名\": \"Anthropic\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"IPOと同時にClass N普通株式を1株あたり83.00ドルで売却。",
+    "idx": [
+     0,
+     1,
+     4
+    ]
+   },
+   {
+    "text": "提供開始は2028年前半を予定。",
+    "idx": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"Applied Digital\",\n    \"関係\": \"資金調達\",\n    \"相手\": \"グローバル金融機関 (非公開)\",\n    \"金額\": \"300000000\",\n    \"日付\": \"2026-11-23\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDiOTdOqN7iZSw-ad85F8pEo1Gr_3VDBLQG-Z97zkwi5stfY_9Vn6tJffl5M75LBOCno5GVEXA6734Oa-u9J9d8PKQVhp-Eaq4NXBQHs3qGqv-WE1qpmAzuNFqyz9OiHww7_iMNSKFBYdKjyOqoswdq6xo2IkWa3Y5w76EQdsQVSueGdr0XLBd7YLoUkcxBk23FU-fDQnCvdhq7OZo7XqMEF7ofQ==\",\n    \"出典名\": \"Seeking Alpha\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"Delta Forge 1 AIデータセンターキャンパス開発を支援する3億ドルのシニア担保付ブリッジファシリティを締結。",
+    "idx": [
+     8,
+     13,
+     14
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"NVIDIA\",\n    \"関係\": \"就任\",\n    \"相手\": \"\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-14\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mK3EdxPFH_UuROCpOCHglnIC2tWFZTAO0KSjsQqIZJFZc7RutCRJGTb34Tye09dta91BXEe1giR-W_g6a2mtpPEiHRO-ylVEfgyNOepcsdm8kdQz4ERGitkHb2m8p6kK3vOHsTemxhgheg180JPx6-198w==\",\n    \"出典名\": \"World Socialist Web Site\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"Jensen HuangのCEO辞任に伴い、Colette Kressが暫定CEOに就任。",
+    "idx": [
+     15,
+     16,
+     17,
+     18
+    ]
+   },
+   {
+    "text": "\",\n    \"人物\": \"Colette Kress\",\n    \"役職\": \"Interim CEO\",\n    \"移籍元\": \"NVIDIA (CFO)\",\n    \"移籍先\": \"NVIDIA\"\n  },\n  {\n    \"会社名\": \"Applied Digital\",\n    \"関係\": \"データセンター容量拡張\",\n    \"相手\": \"\",\n    \"金額\": \"\",\n    \"日付\": \"2026-10-02\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hiRiS1th86asygxTdbD6BRqMbDQitiqPHh_87mv8QmYvD6VT-IxyLpynr5LfVLVVSkOfNwoWH4U4LS8WpCFocZbHkMfmn4H9Dvywb4qqQgFff5KrfR4Deh1XFLjYGjsfe5ejdD37C9jF97-UX-V-ySm4VwrnEpQLFy9n6T2OedxE0hgNRYjnbISrqPsSUf69Sh9lkeSVW7HYB12eA1FiP8pPEO5iJ7mURUqZ4Ae5\",\n    \"出典名\": \"Applied Digital\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"Polaris Forge 1キャンパスの第2フェーズが完成し、75MWのITロードが追加され、総運用容量が250MWに。",
+    "idx": [
+     19
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"Applied Digital\",\n    \"関係\": \"データセンターリース契約\",\n    \"相手\": \"米国ベースのハイパースケーラー (企業名非公開)\",\n    \"金額\": \"\",\n    \"日付\": \"2026-04-23\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGqqbSxlW-uYIbkxR9lUezu7_vqUU700-IhrncX6w36UJH62hLUsf9hRd3ocVTQ95taCLJkdTwxRGuuiWh8vuXbURNbHkJxNea0jtfYN4ItaDFFcTH3deJAlhXsR67YHPSCjZBE0Fzwy9kqmwABDx80pGAPaIxcTf7hKC6MfsO9oo-0ezjhtoxW8XWlIJUfVVOasrZuLlDfsSsMZCEVR5Uw-PRqjzHiMJDkfA==\",\n    \"出典名\": \"SEC Form 8-K\",\n    \"確かさ\": \"開示\",\n    \"備考\": \"Delta Forge 1キャンパスでのリース契約により、契約済みリース収益総額が230億ドル超に拡大。",
+    "idx": [
+     20
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"ChronoScale\",\n    \"関係\": \"AI展開提携\",\n    \"相手\": \"Microsoft\",\n    \"金額\": \"\",\n    \"日付\": \"2026-10-26\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzrlId2auaztZAqD4hSVGHnf3ZGNUejuzsrgaseh1tPp6qHFAxB_U3ww2eH05qMQESNRnwuza5vNG7y6FcQki1JtBZ8oE3AePgvfzQUlfSnmknJyPQKu5xz3fxsL_IeUq60cU2323M_vuJ4O7Vnxjt8D4FLsthEMoyMDSiwPrPl6e3vm61LWSMImWOG7uBKVAlffPqKFC8-QwPlNasaQ==\",\n    \"出典名\": \"Tickeron\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"ChronoScale (Applied Digital子会社)がMicrosoftと50MWのAI展開で提携し、2027年に年間経常収益10億ドルを目指す。",
+    "idx": [
+     21
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"NVIDIA\",\n    \"関係\": \"取引停止\",\n    \"相手\": \"中国 (顧客全般)\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-17\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJARSwSHRik2rY5SVrj8coJVLUYPXo9tn-CetQJKlzJAzAG_liuaXgcyoMJsxHzhRpBbDZsRbHKnKtwMUbHKdQ1UGhl2uX_2Ub84TOMVdZRj0PQYlQvVNM2vYJfS5vKKfm6jW_DSw7qOODpLVETPrJ27sW-U-k-W4YzCHvYvOsC-xrwGAoe7AWbQrgq4T9KROXNk=\",\n    \"出典名\": \"TechCrunch\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"米国政府の高度チップ対中輸出禁止の抜け穴を終了するため、H200チップの中国への出荷を停止した。",
+    "idx": [
+     16,
+     17
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"Applied Digital\",\n    \"関係\": \"契約済みリースポートフォリオ総額\",\n    \"相手\": \"\",\n    \"金額\": \"36200000000\",\n    \"日付\": \"2026-05-31\",\n    \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzU4TZ5aWY4hD5QbQEPc-BIqmfpbr1aL-0np3goFaj_tHwndTM5T_izIC929pQfhaKNdVxcBMlp6w9OsPKgrTs0N_7hfkTxfMUDQGWAV9x8nz50V9j4Umsu3FG9K12dwVCW7Vfu2Amp54J7cQdZ_WAa52iOFXAUeRcJ6gHyT_Qnc2qWLIL4-1ko7Vb9hDHc4M=\",\n    \"出典名\": \"Wisevoter\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"5つのキャンパスにわたる契約済みリースポートフォリオの総額が約362億ドルに達した。",
+    "idx": [
+     8
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2808,
+   "candidatesTokenCount": 3097,
+   "totalTokenCount": 18728,
+   "cachedContentTokenCount": 623,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2808
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 623
+    }
+   ],
+   "toolUsePromptTokenCount": 4876,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4876
+    }
+   ],
+   "thoughtsTokenCount": 7947,
+   "serviceTier": "standard"
+  }
+ }
+}

@@ -4,6 +4,58 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-24-3　AI企業・半導体企業の創業者や経営者が、本人の公の発言・インタビューで挙げた愛読書や影響を受けた本・映画(例: ジェンスン・ファン、リサ・スー、ダリオ・アモデイ、デミス・ハサビス、ソフトバンクの孫正義以外)。出典ページ付きで
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic IPO date 2026
+- Anthropic stock market listing 2026
+- NVIDIA China military connection 2026
+- NVIDIA sanctions China 2026
+- NVIDIA Chinese military links 2026
+- Talen Energy partnership Applied Digital 2026
+- Applied Digital datacenter expansion 2026
+
+**見たページ**
+
+- [leverageshares.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF02REeZhCN55cTcMc5GIg9MqcOEaPkbDlf9dQNg3L-dpFiZvgX-FYRFT0BSVadd0R69q1C1mBanVgLZlfC5puZI4xu3EcSxNIIqI_iPxJ94PDJDYDaaNVGi_UdsfAOY_PE33pORgMk4kkXY0yrIt8=)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHf9tQodZTTyBihTElB0OMgN8xZWwO7YSpPJYZjsrM8iwTNkZdqhDHk_3tlcEevUeFucr1x8xPynoRQKGrJJb5qzBAVXbKFL_yuga7IZip--tJZSRhEalwxA_jYNMnqiva9tCI=)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQErJEjDFik-wxlvBWHsfTA9jRlcQr7gzN8UFP0jWFzfGf1gFCQDl7hwX1XjVOTcV-_JUzzrMGVhf_MSFPmRa4ppUQscjbrzRp1AVQDH1V7guLYmO4QkhIHKqJhEqeNr4XyYZ_BAMF6mtTE-vPryn1NcWvTCXjkrcVYxzpTGFz5zprFy)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFiZdNUbfY-I4-ZDEBq72Z83rJO1VjXnt4za6ke2D1yMG5O0SixUd8gwhImMIlEHcnYy4cwUNqAOO2APxNY1Lx23JI0CVdM6ehnaqDxdmRDq9utQfxgxjPQjIq2JvG0lcKh8plXKzY6_bxpN96pI2BW5Wa7C_x8qLFfZj3O-w==)
+- [fxcentrum.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaURFw6jE0m9Doz1xuHrYZT7smHH3Vca-WezM0iZA7XEfF4DztNjD5ygXiudgZ67ZdEok4jlKAlCBycU5zqz1jxkDSvv933HR6wmBmcAYBAqK6kEQh8FyrEXklwwwMUi0AKICdepoZBTYEhQ0Z9YXEvw==)
+- [tmgm.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEHox-DZ1v339adQBAnrOmXRJzQL2nk6JJ8I3C2S8-lEd7RrHo2LmYGcXEUUinaqXiEBPWjXgC8E-nm1Esq_Zl9jowtirJzcdeT25j-jMFxqv5v50FyG62hgRkgDdM_Oj8qR179YZXEhpt6BfmT8mZRrjadtTsQu0Y-WKPqF8tDmdFmdlE2iKW1gUFkS0Lpl9-wqD0UVTj2pRGrksw=)
+- [heygotrade.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfi7x3H8cK8vK3fNoR14lT52NRyt4dvOu0EqTTVceZIhMMS3wHo8JmE1-zVrw6a-UIzspl8pIFCmgqZgQaIIBJd0_Wl_N8TZ4exVg1RbkmsOKrw0TE6uHEfOqCnMgiKjglOTkuREcBhwHlnCcj_rDOQXGcCenOLxqCAwRNhJ5GIcwFrpLhd7jVHZhCM3o=)
+- [pepperstone.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETYHbJMeyeSLzXMJUuS4Al2ECi-Squ42rDmFCT5W-Qg1e_Dk37Bo8ElyUXqJMc_rAkwvGO7XhlgAri8jjJW6GeAHUlRDEFILl83iz-Gh0QXEkdIUJZliHHZAWnL4wVyUv7V1IMJr4MLsywjXUIBG6GLI4_2pQWCMb9tZZC0nrgifkH)
+- [wisevoter.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEzU4TZ5aWY4hD5QbQEPc-BIqmfpbr1aL-0np3goFaj_tHwndTM5T_izIC929pQfhaKNdVxcBMlp6w9OsPKgrTs0N_7hfkTxfMUDQGWAV9x8nz50V9j4Umsu3FG9K12dwVCW7Vfu2Amp54J7cQdZ_WAa52iOFXAUeRcJ6gHyT_Qnc2qWLIL4-1ko7Vb9hDHc4M=)
+- [mlq.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpz_Bucrss1FTcLNm4riRC-jcaxo2F_FbNaGeZDywXeitYYOnIQCGQfjA5Mhxw2T5vG1nqp1a548uLnNCkwTJSpycIxzVf_z3ROrIdBwVPl1K5q4zOmoBCBQBzN-wsRF0diZeC2sNsrNnR6-vB4tYXacmJNgI-ayhk1OgcRkpErMRBzgujm2lSWOkgtxwf91JCnVmRSlOcjDgsVAv99SIjYrdrdUbK6g==)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbBcawYueoOq--ySvijCm7-6v_KkmpJddsml8Aeo6KC8IyIbvd_XrpCly3CMMBWYusTYrHxT31scDbQwpfSbYAwqtziDf9zL_CsTTW1UztWfWzHMVeaE8GdWMgT00TozirttCBn3AHOYb2FcJyEHMBTR-N1ipUu6mlQ7Sscg_9cQMLzBfsu_frWAg_4VOTX9B0q53r0_kvbF9qHsZJxCBY-4BmW3L_Y8MMfbj-9hBrRAPSXkbdXnLtEoo=)
+- [kalkine.ca](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHClIitofD6wwzb3m9Dkh0141W8U9O1bhLdNGtC-hgCtaMMJuU8eBZ_zTY6yknDjJ6kYOU-Mfn1KNFH-x0MoVcyGwI7lq4pRjLjS040Cf5VMy3mA2S9EKBwFNAlnUtzxa6DhXALvc35zprYjLjdhDXQU7h8UQ7ijQSg-_EUzf-fkIf_5YNjuymrF4lzziN5jYQQIkJgTBHOVopkJ7Krwpk5rcfeRNl06A==)
+- [applieddigital.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvsksi6BBxkcwZookeW9531RxqIvgEsd2q3ooQnVkHXeBpvSgN52w9ALRKApvdEPS0OmSOggg2z1zdEyS6xSjBL1QuWkW6zZNggee9QvbrpAO-VxPIMBS2ppP5qCUwJ3X3SxW0Db4X79meSpGTi3NeSXbqb-xcUnhI5g_ljzJ75XwhPTey-EbMWN9bfWA1exrWc-T-JUuNORX2g1wupXhu8ycJAFNSpET0Ol-mBWeDHBOSQLI=)
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8vjEWWotpir873iss6RXUTItpkAQO7n5o0U_2G9hyxD2JyMzhlMSxlUHYEKf6iP0YBYyJ0O5Qeyptl06zMO-jWE6OYooPKOycu3P3JHuG_ZkQpKadrA1RITTKG8NURGHPR_JPc3D3XerX328Jm8aUDpRZixGlmHcs0_UFIGc=)
+- [seekingalpha.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDiOTdOqN7iZSw-ad85F8pEo1Gr_3VDBLQG-Z97zkwi5stfY_9Vn6tJffl5M75LBOCno5GVEXA6734Oa-u9J9d8PKQVhp-Eaq4NXBQHs3qGqv-WE1qpmAzuNFqyz9OiHww7_iMNSKFBYdKjyOqoswdq6xo2IkWa3Y5w76EQdsQVSueGdr0XLBd7YLoUkcxBk23FU-fDQnCvdhq7OZo7XqMEF7ofQ==)
+- [wsws.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4mK3EdxPFH_UuROCpOCHglnIC2tWFZTAO0KSjsQqIZJFZc7RutCRJGTb34Tye09dta91BXEe1giR-W_g6a2mtpPEiHRO-ylVEfgyNOepcsdm8kdQz4ERGitkHb2m8p6kK3vOHsTemxhgheg180JPx6-198w==)
+- [techcrunch.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDJARSwSHRik2rY5SVrj8coJVLUYPXo9tn-CetQJKlzJAzAG_liuaXgcyoMJsxHzhRpBbDZsRbHKnKtwMUbHKdQ1UGhl2uX_2Ub84TOMVdZRj0PQYlQvVNM2vYJfS5vKKfm6jW_DSw7qOODpLVETPrJ27sW-U-k-W4YzCHvYvOsC-xrwGAoe7AWbQrgq4T9KROXNk=)
+- [internationalfinance.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBdExg6iIzyRATRwizKY4J1TBncUCWpCJ5blFOwotuXbmBPcqJxVXROfMcRkAULi124kmqoCt6DYqEvSgDiRiWaan1F4QY_dWtvvfg1VS3ByRAxxDSn1WP934-4OSPe-cz3zhENiEmVaOUJ9tFXXc6QPNRBdnMCOsvCmo_FnsyBrlICUguuSflpVqz-ckR0QwqkVmAPzoJNR2p_5Q4hfBD6bp5JeVRtTqLces_ioZC5XwmU7kP1cgPfQ==)
+- [washingtonpost.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHc3xCxbCwPlJW2XNqxpfH-ESbYIcMvB0z1gHIHDrHzwq41xS_yDX14tkiDCoJqdILlfflmKrCP3TCJPhqNAhBb9LXM7xT_iA4SDmbL63R3vxK55YAUAglbPbeYFtoKiEpfR1psqFqRb7hA332YkB2V3s80pGx-wptxdVxBqpUz9lzVTj286O7Vw9HnuSHMzmYuFMOzGBPF243t4f7XTmhorttvjBVArukosWlK2I7e)
+- [applieddigital.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4hiRiS1th86asygxTdbD6BRqMbDQitiqPHh_87mv8QmYvD6VT-IxyLpynr5LfVLVVSkOfNwoWH4U4LS8WpCFocZbHkMfmn4H9Dvywb4qqQgFff5KrfR4Deh1XFLjYGjsfe5ejdD37C9jF97-UX-V-ySm4VwrnEpQLFy9n6T2OedxE0hgNRYjnbISrqPsSUf69Sh9lkeSVW7HYB12eA1FiP8pPEO5iJ7mURUqZ4Ae5)
+
+**出てきた候補**
+
+- Anthropic → 株式上場 → Nasdaq Global Select Market(2026-11-19)
+- Anthropic → 株式の第三者割当 → Advanced Micro Devices (AMD), Broadcom Inc., Google LLC, Micron Technology, Inc., Microsoft Corporation, NVIDIA Corporation, TSMC Partners, Ltd.(2026-11-20)
+- Applied Digital → データセンターリース契約 → ティア1投資適格ハイパースケーラー (企業名非公開)(2026-11-23)
+- Applied Digital → 資金調達 → グローバル金融機関 (非公開)(2026-11-23)
+- NVIDIA → 就任 → (2026-11-14)
+- Applied Digital → データセンター容量拡張 → (2026-10-02)
+- Applied Digital → データセンターリース契約 → 米国ベースのハイパースケーラー (企業名非公開)(2026-04-23)
+- ChronoScale → AI展開提携 → Microsoft(2026-10-26)
+- NVIDIA → 取引停止 → 中国 (顧客全般)(2026-11-17)
+- Applied Digital → 契約済みリースポートフォリオ総額 → (2026-05-31)
+
+記録ファイル: inbox/gemini/2026-11-24-3.json / 2026-11-24-3.md
+
 ## 2026-11-24-2　NVIDIAとReflection AIの買収・追加出資の協議(2026/10/11にFTが協議入りと報道、条件未決)が決まったか。公式発表・SEC書類・大手報道で確かめ、決まっていれば出資・買収として足す。決まっていなければ何も足さない
 
 - モデル: gemini-2.5-flash　/　候補 7件
