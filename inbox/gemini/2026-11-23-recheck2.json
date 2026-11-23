@@ -1,0 +1,27 @@
+{
+ "date": "2026-11-23",
+ "kind": "gemini",
+ "topic": "保留の確かめ直し",
+ "items": [
+  {
+   "会社名": "Merck",
+   "関係": "提携",
+   "相手": "Isomorphic Labs",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://www.merck.com/?p=3705104",
+   "確かさ": "公式",
+   "備考": "未公開のがん標的に対するAI駆動型小分子創薬の戦略的共同研究を発表。Isomorphic LabsのAI創薬エンジンとMerckのデータ・経験を組み合わせる。 (元のGeminiの出典: https://casrai.org/news/merck-isomorphic-labs-oncology-ai-collaboration-2026)",
+   "既存の名前": [
+    "Merck",
+    "Isomorphic Labs"
+   ],
+   "src": [
+    [
+     "Merck(公式発表)",
+     "https://www.merck.com/?p=3705104"
+    ]
+   ]
+  }
+ ]
+}

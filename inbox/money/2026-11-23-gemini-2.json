@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-23",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Merck",
+   "to": "Isomorphic Labs",
+   "kind": "提携",
+   "amount": "",
+   "date": "2026-11-19",
+   "note": "未公開のがん標的に対するAI駆動型小分子創薬の戦略的共同研究を発表。Isomorphic LabsのAI創薬エンジンとMerckのデータ・経験を組み合わせる。 (Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Merck(公式発表)",
+     "https://www.merck.com/?p=3705104"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-23-recheck2.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}
