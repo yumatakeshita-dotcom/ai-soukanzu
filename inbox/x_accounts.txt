@@ -176,3 +176,15 @@
 @jptechcrunch | money,vc | TechCrunch Japan公式
 @SoftBank_Group | money,moves | ソフトバンクG公式
 @forbesjapan | money,vc | Forbes JAPAN公式
+
+# --- 自動で追加 (2026-11-24) --- x_check.py で表示名と自己紹介を確認
+@AnjneyMidha | vc,money | AIに投資する投資家
+@GeneralCatalyst | vc,money | VC公式(General Catalyst)
+@khoslaventures | vc,money | VC公式(Khosla Ventures)
+@SignalFire | vc,moves | VC公式。人材データも発信
+@Atomico | vc,money | 欧州VC公式
+@rowancheung | money,deep | AIニュース配信者
+@FT | money,moves | 英経済紙FT公式
+@CBinsights | vc,money | 未上場企業データ会社
+@NewsPicks | money,moves | 日本の経済メディア公式
+@NIKKEIxTECH | deep,money | 日経クロステック公式
