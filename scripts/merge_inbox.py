@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import finds_map
 import exectl_auto
 import fun_merge
+import quality_hold
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'site', 'data', 'finds.js')
@@ -114,11 +115,41 @@ def detail_of(kind, it):
     return note
 
 
+def write_hold(held, today):
+    """保留にしたものを inbox/quality/hold-日付.json・.md に足す(足すだけ・同じ項目は2回書かない)。失敗しても取り込みは止めない"""
+    if not held:
+        return
+    try:
+        d = os.path.join(ROOT, 'inbox', 'quality')
+        os.makedirs(d, exist_ok=True)
+        jp = os.path.join(d, f'hold-{today}.json')
+        old = json.load(open(jp, encoding='utf-8')) if os.path.exists(jp) else []
+        seen = {(r['file'], r['key'], r['reason']) for r in old}
+        new = [h for h in held if (h['file'], h['key'], h['reason']) not in seen]
+        rows = old + new
+        if not new:
+            print(f'保留: {len(held)}件(記録ずみ)')
+            return
+        json.dump(rows, open(jp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        L = [f'# 取り込みで保留にした候補 {today}', '',
+             '品質チェックの「問題」のある候補です。サイトには取り込んでいません(元のファイルは inbox/ にそのまま残っています)。',
+             '直す(出典・日付)か、日付が来れば、次の取り込みで自動で入ります。', '',
+             '| 種類 | ファイル | 項目 | 理由 |', '|---|---|---|---|']
+        for r in rows:
+            L.append('| ' + ' | '.join(str(r[k]).replace('|', '/') for k in ('kind', 'file', 'title', 'reason')) + ' |')
+        open(os.path.join(d, f'hold-{today}.md'), 'w', encoding='utf-8').write('\n'.join(L) + '\n')
+        print(f'保留にした件数: {len(new)}(取り込まず、inbox/quality/hold-{today}.md に理由を記録)')
+    except Exception as e:
+        print('保留の記録に失敗(取り込みは済んでいる):', e)
+
+
 def main():
     have = load_existing()
     keys = {h['key'] for h in have}
     today = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).strftime('%Y-%m-%d')
     added = []
+    held = []  # 品質チェックの「問題」で保留にしたもの(取り込まない。元ファイルはそのまま)
+    today_d = quality_hold.today_jst()
     for kind in KINDS:
         for f in sorted(glob.glob(os.path.join(ROOT, 'inbox', kind, '*.json'))):
             try:
@@ -130,6 +161,11 @@ def main():
                 if not isinstance(it, dict):
                     continue
                 srcs = src_list(it)
+                why = quality_hold.hold_reason(it, today_d)
+                if why:
+                    held.append({'kind': kind, 'file': os.path.relpath(f, ROOT).replace(os.sep, '/'),
+                                 'title': title_of(kind, it)[:80], 'reason': why, 'key': key_of(kind, it)})
+                    continue
                 if not srcs:
                     continue
                 k = key_of(kind, it)
@@ -168,6 +204,7 @@ def main():
         n = sum(1 for r in added if r['k'] == kind)
         if n:
             print(f'  {kind}: {n}')
+    write_hold(held, today)
     exectl_auto.report(exectl_auto.build())
     fun_merge.report(*fun_merge.build())
     # ニュースの見出し(トップの「最近のニュース」)も毎回足す。2026/11/20追加(11/13から止まっていたため)

@@ -92,8 +92,8 @@ def build_md(d):
     open(MD, 'w', encoding='utf-8').write('\n'.join(L).rstrip() + '\n')
 
 
-CSS = """:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--accent:#4a5dd0;--ok:#1a7f4b;--warn:#9a6700}
-@media (prefers-color-scheme:dark){:root{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--accent:#8394f5;--ok:#4cc38a;--warn:#e3b341;color-scheme:dark}}
+CSS = """:root{--bg:#f2f4f6;--surface:#fff;--fg:#161b22;--muted:#5d6875;--line:#d5dbe1;--accent:#4a5dd0;--ok:#1a7f4b;--warn:#9a6700;--ng:#c62828;--mute:#6b7683}
+@media (prefers-color-scheme:dark){:root{--bg:#11151a;--surface:#1a2027;--fg:#e8ecf0;--muted:#97a3b0;--line:#2e3741;--accent:#8394f5;--ok:#4cc38a;--warn:#e3b341;--ng:#ff7b72;--mute:#8b97a4;color-scheme:dark}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:system-ui,"Noto Sans JP","Hiragino Sans",sans-serif;line-height:1.7;padding:20px max(16px,env(safe-area-inset-left,0px))}
 .wrap{max-width:860px;margin:0 auto;display:grid;gap:14px}
 h1{margin:0;font-size:24px}h2{margin:10px 0 0;font-size:19px}.lead{color:var(--muted);margin:0;font-size:14px}
@@ -107,6 +107,14 @@ a{color:var(--accent)}.back{font-size:13px}
 dl{margin:0;display:grid;grid-template-columns:7em 1fr;gap:4px 10px;font-size:14px}dt{color:var(--muted)}dd{margin:0}
 dd ul{margin:0;padding-left:1.1em}code{font-size:12px;background:var(--bg);border-radius:4px;padding:1px 5px;overflow-wrap:anywhere}
 .note{font-size:13px;color:var(--warn)}
+.st{margin:0;font-size:13px;display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;color:var(--muted)}
+.st b{display:inline-flex;align-items:center;gap:5px;border:1px solid currentColor;border-radius:99px;padding:1px 10px;font-weight:700}
+.st b::before{content:"";width:9px;height:9px;border-radius:50%;background:currentColor}
+.st.ok b{color:var(--ok)}.st.ng b{color:var(--ng)}.st.wait b,.st.off b,.st.na b,.st.pre b,.st.none b{color:var(--mute)}
+.today{display:grid;gap:6px}.today .row{display:flex;flex-wrap:wrap;gap:6px 14px}
+.today .dot{display:inline-flex;align-items:center;gap:5px;font-size:13px}.today .dot::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor}
+.today .ok{color:var(--ok)}.today .ng{color:var(--ng)}.today .mute{color:var(--mute)}
+.today a{color:inherit}
 .box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;font-size:14px}
 .box ul{margin:6px 0 0;padding-left:1.2em}
 .scroll{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
@@ -117,7 +125,19 @@ table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;p
 JS = """const bar=document.getElementById('bar');const cards=[...document.querySelectorAll('.card')];
 bar.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
 [...bar.children].forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
-const g=b.dataset.g;cards.forEach(c=>{c.hidden=!(g==='all'||c.dataset.g===g)})});"""
+const g=b.dataset.g;cards.forEach(c=>{c.hidden=!(g==='all'||c.dataset.g===g)})});
+/* 今朝動いたか(status.json。scripts/agents_status.py が作る。読めなければ「未確認」のまま) */
+(function(){const box=document.getElementById('today');
+const jst=()=>new Date(Date.now()+9*3600*1000).toISOString().slice(0,10);
+fetch('status.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
+const a=d.agents||{};let n={ok:0,ng:0,other:0},ngs=[];
+document.querySelectorAll('.st').forEach(el=>{const v=a[el.dataset.id];if(!v)return;
+el.className='st '+v.state;el.querySelector('b').textContent=v.label;el.querySelector('span').textContent=v.detail||'';
+if(v.state==='ok')n.ok++;else if(v.state==='ng'){n.ng++;ngs.push([el.dataset.id,el.dataset.name])}else n.other++});
+const stale=d.date!==jst();
+box.innerHTML='<b>今朝のようす</b><span class="lead">'+d.at+'(日本時間)の確認'+(stale?'。<b style="color:var(--warn)">今日の分はまだ作られていません(これは前の状態です)</b>':'')+'</span>'+
+'<div class="row"><span class="dot ok">動いた '+n.ok+'</span><span class="dot ng">記録なし '+n.ng+'</span><span class="dot mute">予定なし・時刻前・見られない など '+n.other+'</span></div>'+
+(ngs.length?'<div class="row">記録なし: '+ngs.map(x=>'<a href="#'+x[0]+'">'+x[1]+'</a>').join('、')+'</div>':'')}).catch(()=>{box.innerHTML='<b>今朝のようす</b><span class="lead">状態の記録(status.json)を読めませんでした。係ごとの色は「未確認」のままです。</span>'})})();"""
 
 
 def li(items, code=False):
@@ -139,6 +159,7 @@ def build_html(d):
         cards.append(f'<section class="card" id="{esc(a["id"])}" data-g="{esc(a["group"])}">'
                      f'<h3>{esc(a["name"])}</h3><p class="tag">{esc(a["tagline"])}</p>'
                      f'<div><span class="pill">{esc(a["group"])}</span>{'<span class="pill" style="color:var(--warn);border-color:var(--warn)">計画中</span>' if a.get('status')=='計画中' else ''}<span class="pill when">{esc(a["when"].split("/")[0].strip())}</span></div>'
+                     f'<p class="st none" data-id="{esc(a["id"])}" data-name="{esc(a["name"])}"><b>未確認</b><span></span></p>'
                      f'<dl>{dl}</dl>{note}</section>')
     tl = ''.join(f'<tr><td>{t}</td><td>{esc(day)}</td><td>{esc(who)}</td><td>{esc(name)}</td></tr>' for _, t, day, who, name in timeline(d))
     g = d['gemini_budget']
@@ -158,6 +179,7 @@ def build_html(d):
 <a class="back" href="../index.html">← 相関図にもどる</a>
 <h1>調査エージェント一覧</h1>
 <p class="lead">毎日の調べ物を、分野ごとの「係」に分けて見せるページです。調べる係が {n_r} つ、サイトに足したり見張ったりする運営係が {n_o} つ。時刻は日本時間。更新 {esc(d['updated'])}(元データ <code>docs/agents.json</code>)。</p>
+<div class="box today" id="today"><b>今朝のようす</b><span class="lead">読み込み中…</span></div>
 <div class="box"><b>決まり</b>{li(d['principles'])}</div>
 <div class="bar" id="bar"><button type="button" data-g="all" aria-pressed="true">すべて</button><button type="button" data-g="調べる係" aria-pressed="false">調べる係({n_r})</button><button type="button" data-g="運営係" aria-pressed="false">運営係({n_o})</button></div>
 {''.join(cards)}
