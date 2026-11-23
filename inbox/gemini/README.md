@@ -4,6 +4,130 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-23-3　YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ
+
+- モデル: gemini-2.5-flash　/　候補 8件
+
+**Geminiが打った検索の言葉**
+
+- Kalshi $1 billion valuation funding
+- Kalshi funding round 2025 2026 investors
+- Mercor funding round 2025 2026
+- Mercor AI investment
+- Northwood Space funding $375M
+- Northwood AI startup $375M funding
+- ElevenLabs valuation $22 billion funding round 2025 2026
+- Cognition AI Factory lawsuit
+- Cognition AI vs Factory AI company
+- Valar Atomics lawsuit
+- Salesforce AI acquisition strategy 2025 2026
+- Salesforce M&A AI companies
+
+**見たページ**
+
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH02Af4wOzjpVCqi4IGZsFXO6zlToudYp6IjKWB1mDldNtEU0xLM5cDC_CwtzN812nZJ1ZGSagNijsJDHo0J3O7Pu6c4MxDzLVWtESm1US3H71hlQxxJl0Np-rHplm-2icucyHb5tZ5mxADfW8M6-i08dYkqJwwy09sa9l4HE86dHpDk3BdL5SvkJD650jUPnMXZ4yFHS0rcnCSuoloX9xLDQN4m-r3k66FZ7TTgHEn5kwtCoQonR8fwHA=)
+- [elevenlabs.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdC0unSo-vLywQ4bxu73kWKPmtt274aTeeBd0-7MQbLi3VZYgIgNBoy1H1102PIb7vUnMjrjc6DLqd6lS-M1BAIhttsUPzNtB_mfs0YX0k6_TIG5SuL8Z6MVGzdR7xEi7U)
+- [northwoodspace.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR34SjwUcNA1NjdILZudDwUxyz2JU2PVThWZrirGl3u0j8i21zQw2oCkQqR--rBTD57eK91RGe0ob5uwRv4Pn44fdFV0IRDqLF9KDAjuE810LG3RFJht0Bidh34bju-6sWiorcRz0wawVe7WWU2ay9)
+- [startupfortune.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_XK7WoTJ0yLwfxg6jhxBmsOH-UNjbx5QjUbuO3iuLs6DcfSlV9gl4eRYCiDCRPNOKqwhaLkrw_SclXeGnzY7LE_2KZja8O4z-4t56vAPyQREd2QkamDQQ0uxFG13vV6chnJC5qOayJJelJ_Bloa8MDz1TkxBoPsa0jT2Hk-44ojpr4BxXWAx4leP-QNs3Dr_OjmY5UzOhnYUHiwvb)
+- [businessinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH68eO6R4smqX2y0THfrmfUurv9rn8N-MkKBD3d0zIbj2bO7UyI-cs2BhzvMfhbxYGX9K3rHX2r6Rt9NANglGyD4QQqhkw97cQKOG4YOJeyHGnhnZH-0DWZzVliFGKnWiLPl1oIIaW47pB0DCXF2MwDoXIjP_npVE3YIP3S6cFUpQ3211L3KgSnAyVrM4arKj2oX-0T-7foVbNQvA==)
+- [arcsen.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUFt9zxCSNKxTU4podhoLMbyB_N_t6_wmNvC0apzcE5gAmyrPiZXhocqdJYg7Laqlsfic0DsI6XUPQC8cd3YaDPi15prX2eLsZ7a3x0-ZhyiabH3tNG2Yapx9tcVh-mRaOcfSNG_jMxjpwtiuTBQ==)
+
+**出てきた候補**
+
+- Mercor → 出資 → Nvidia(2026-11-10)
+- Mercor → 出資 → Salesforce(2026-11-10)
+- ElevenLabs → 資金調達 → (2026-09-30)
+- Northwood Space → 資金調達 → (2026-11-02)
+- Valar Atomics → 訴訟 → Day One Ventures(2026-10-10)
+- Chris Degnan → 移籍 → (2026-09-30)
+- Salesforce → 買収 → Fin(2026-09-10)
+- Salesforce → 買収 → Cresta(2026-11-02)
+
+記録ファイル: inbox/gemini/2026-11-23-3.json / 2026-11-23-3.md
+
+## 2026-11-23-2　出典の付いていない出資の線(大型の資金調達・評価額)について、公式発表・開示書類・大手報道で確かめられる直近1年の案件を探す(AI企業・半導体企業・AIスタートアップ)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic IPO official announcement 2026
+- Anthropic funding round 2026
+- Anthropic valuation 2026
+- largest AI startup funding rounds 2025-2026
+- major semiconductor company investments acquisitions 2025-2026
+- Mistral AI funding 2026
+- Cohere funding 2026
+- Perplexity AI funding 2026
+- Scale AI funding 2026
+- Databricks funding 2026
+
+**見たページ**
+
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpkBZ8m1bYrFvrYcOaOaIpzjvivcZoFVThvefSDO3pR7-Cv1Wb7n7qzalKiNfUoiEEJf9EvA6zPBVkLjZA7ch0kc9KsMlYYdlsh2UMKU3TaePdZXjxtHKx1FJiq7uUdcvullmju5mui-Ll3HRnkqf2j-EoSQ89SQihtcwFBQ==)
+- [digitaltoday.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeXONTe_olE8DiAtqr2JBHhtUBiQWe5B5szGmwX0uYL682_c5rTp8EezsEzYx99s02IQHKxCJOldK15aLV0I075II0jdazFnsghrAKLfUUmZ9eiYZj7AEcL3kUfYHHceZ01sswCNtERLzFftiJ1H0hjtZ86uboAri0v9nzndW4BSiUlMu00rLsN5QNTyvXUgqKzf7BcBH3eHWkptR6fX3pkIN4QAOV)
+- [doomers.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvpFCjxRv1bHLoo5NjBfAZJ_kEkKJfQSaPG4bSIY9KUuoeSNwEw6y5WoOd3Qi634h1-cJPilxFe49faiikOD_J_vzXGF07QZLBvUN-2FOXCfzNd-OTj8bGfq0JJ0Kb)
+
+**出てきた候補**
+
+- Anthropic → 株式上場 (IPO) および戦略的プライベートプレースメント → 公開市場の投資家、Advanced Micro Devices, Broadcom, Google, Micron Technology, Microsoft, NVIDIA, TSMC Partners(2026-11-19)【除外】
+- Mistral AI → 出資 (Series D) → Samsung Electronics, EQT-managed Scaleup Europe Fund, PSG Equity (リード投資家), ASML, NVIDIA 他(2026-09-08)【合格】
+- Cohere → 出資 (Series E) → ドイツのSchwarz Group (リード投資家), カナダ政府, Bell Ventures, Bullhound Capital, NVIDIA (既存投資家) 他(2026-10-29)【保留】
+- Databricks → 出資 (戦略的資金調達) → Coatue (リード投資家) 他(2026-07-16)【除外】
+- Perplexity AI → 取引 (クラウドサービス契約) → Microsoft Azure(2026-01)【保留】
+- Anthropic → 出資 (Series H) → Altimeter Capital, Dragoneer, Greenoaks, Sequoia Capital, Capital Group, Coatue, GIC, ICONIQ, Amazon, Samsung, SK Hynix, Micron 他(2026-05-28)【除外】
+- Mistral AI → 取引 (NVIDIAチップ購入のための融資) → NVIDIA (チップ供給元)(2026-03)【保留】
+- Prometheus → 出資 (Series B) → Jeff Bezos, JPMorgan, Goldman Sachs, BlackRock, DST Global, Arch Venture Partners 他(2026-06-11)【除外】
+- DeepSeek → 出資 → Tencent, CATL, China's National AI Industry Investment Fund, Liang Wenfeng 他(2026-06)【除外】
+- Tenstorrent → 出資 (Series E) → (2026-10)【保留】
+
+記録ファイル: inbox/gemini/2026-11-23-2.json / 2026-11-23-2.md
+
+## 2026-11-23　直近3日のAI企業・半導体企業の大型の資金調達と買収(世界)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- AI company funding November 2026
+- semiconductor company acquisition November 2026
+- AI startup investment November 2026
+- semiconductor industry deals November 2026
+- AI company partnerships November 2026
+- Anthropic IPO November 2026
+- Nvidia news November 20-22 2026
+- AI executive moves November 20-22 2026
+- semiconductor executive appointments November 20-22 2026
+- AI compute deal November 20-22 2026
+- data center investment November 20-22 2026
+
+**見たページ**
+
+- [smartasset.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_yfNJWCxpXoTuUWNb43oi9Oa1ksrypEYNTj3EXM-NeBa8kGLYelZKUWX2m7zImNlrrh7YPXBAFL8hPhUIyzFcV1L-6bspDNgHhmiDkivMFwYVtGc0z5jsKgyNsKIwJUikvF6SNaU7iIib6LMYl7n4FS5KcrVU7LXsd5RxKNgqLadMcvZ0Suz55m25eOtoHtHsCITSq4_lx33a)
+- [forgeglobal.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHou6JvYCWHPW7_83NBEti-_rb84GuPxhmAwJTM0DVhtbBF39hx6Jaq8pBSWuunempDR9YJsL-PMvp8KyfCP5fPiOLQPYwvtH8HMVx5J4W0_nwZHPtA2sYTDnRVssXas9U=)
+- [mk.co.kr](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUWcnpZiLjKTXr6nR6NJGf6gflFPaHWVAKiU-ge4knsjB9UcM0aDyK881eP5-w5vyDmou6xk1HlYu6ivJnfHmfACXznwQ2Bhd5ZKGqaP2-nWOV4vTX2pIbk9VeNamoluQ=)
+- [crunchbase.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzDKLqmTujgMrqaYzqLa0IQdmFM2_4cAnQLJwayGIYswxO4SRwUJ1Ngnu5zsUBsas-ww4QrDJ-GOun9Egw_6syi9gCPya62sDso8Slk2kwgRvHzFWthHHbKJ0hrGHEZJJrCX_VznsTwdC-p_6ByQOp9CZ17ZFa58zIWLEmfa5-2eA-faL9Lyw2rJKF_KD1G7FnWA0vZI0dPKLkdMejZDRHG-TfNCQqrg==)
+- [aimagazine.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGnQp7Ca_gAJ_3ZzYkuTYmZlVEeRbqIIp6kfsZXZG16gfc4LGfWgwRXKmoVsxP79ym_2ja9ZQpBw4r4UAtNegaYOKUH4wJWYU5A4VhiAZGUZGglLlTKZxwtDjPLnb4uCTskWpzk_IzB40H8qLNwBXWlNfhvhS68kZjmEr25VtXXFg==)
+- [amd.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMpSJnd1Gop29jDUaXujYckVwlO6wjUOXLbZp-Bian5Bvd4_PV3dbdnPvgldlmwNNQdLXp1a6j_KeREeOEIG8EUX7rLmo5tge-2Z7j2WvsEvL8wPccwwf_BkY8GlVDh-cGEPO_F4gFoH5Fp3WsuRXqzKVRLm4ggYJPLRLYyqK-XDK-yjVuY_nWtcny814qzlWXqWsVdOxCd_0ODw==)
+- [executivebiz.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAOxKR8hjdlZeGeGx5JPhqXupX2KeksL4G0CckoSEkpwywFmyCmi3HSc_xySCmx1q-e_mcoMlJMhWCKRZKEfB5rgM7M0v9Q3CsO2_xRZJJ_WvnHxaMQWhKm8t8qRufbnEDzYzuUej9X7pUlQbqhHo=)
+- [casrai.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyDmW_bMH29SrbVSCQqLe_GLNRwCsBhjVX-WItjptppZEG4RhpQo7wV7qbuFlltTMIs1eY2Gn0Pz1uEA-RTOBNlcdsCzjfTM5Q6PEVTurs_K0c9BW4UrJ08CU1IU5FQXGsns8srBntXx9zHPdLDGv7ae7b-hciL8S6J2fvbeyDgNO_sJioyQ==)
+- [global.fujitsu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4w99MS_EbFh6LAC4O9wCSfuM7VrxRlQCIf5ISaMlfKhx2gjg5b-JuJRw3ShD81SRssnDC45YJ7bYzkWZS7pg47tyH0lgCv3YHWl5_lLZg9dUnaijUP6YYAJPx7fQv3NXSXpXEL-4_BHHuaOSSED_Q)
+
+**出てきた候補**
+
+- Anthropic → 上場 → (2026-11-19)【除外】
+- Intel → 買収 → Classiq(2026-11-22)【除外】
+- Isomorphic Labs → 出資 → (2026-11-20)【除外】
+- AMD → 買収 → World Labs(2026-11-16)【除外】
+- AMD → 就任 → (2026-11-20)【保留】
+- Etisalat → 就任 → (2026-11-20)【保留】
+- Capital One → 就任 → (2026-11-20)【保留】
+- OpenAI → 就任 → (2026-11-20)【除外】
+- Merck → 提携 → Isomorphic Labs(2026-11-19)【保留】
+- Fujitsu → 提携 → Google Cloud(2026-11-19)【保留】
+
+記録ファイル: inbox/gemini/2026-11-23.json / 2026-11-23.md
+
 ## 2026-11-22-4　起業家・経営者(OpenAI/Anthropic/NVIDIA/TSMC/ソフトバンク/Google等のAI・半導体企業の創業者や幹部)が本人の言葉(インタビュー・ブログ・株主あての手紙・本人の投稿)で公に挙げた愛読書・影響を受けた本や映画。人名・作品名・作者・出典URL付き。Elon Musk, Sam Altman, Mark Zuckerberg, Masayoshi Son は除く
 
 - モデル: gemini-2.5-flash　/　候補 10件

@@ -1,0 +1,353 @@
+{
+ "date": "2026-11-23",
+ "kind": "gemini",
+ "topic": "YouTube過去動画のタイトル(20VC・TBPN)に出た資金調達・移籍の手がかりを調べる: Kalshi $1B調達、Mercor大型調達、Northwoodの$375M調達、ElevenLabs評価額$22B、Cognition vs Factory、Valar Atomics訴訟、Salesforceの買収方針。AI企業・半導体企業との出資・移籍のつながりがあるものだけ",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Mercor",
+   "関係": "出資",
+   "相手": "Nvidia",
+   "金額": "",
+   "日付": "2026-11-10",
+   "出典URL": "https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/",
+   "確かさ": "報道",
+   "備考": "Series D資金調達の一環",
+   "src": [
+    [
+     "Reuters",
+     "https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/"
+    ]
+   ],
+   "既存の名前": [
+    "Mercor",
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 401"
+   }
+  },
+  {
+   "会社名": "Mercor",
+   "関係": "出資",
+   "相手": "Salesforce",
+   "金額": "",
+   "日付": "2026-11-10",
+   "出典URL": "https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/",
+   "確かさ": "報道",
+   "備考": "Series D資金調達の一環",
+   "src": [
+    [
+     "Reuters",
+     "https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/"
+    ]
+   ],
+   "既存の名前": [
+    "Mercor",
+    "Salesforce"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 401"
+   }
+  },
+  {
+   "会社名": "ElevenLabs",
+   "関係": "資金調達",
+   "相手": "",
+   "金額": "$300M",
+   "日付": "2026-09-30",
+   "出典URL": "https://elevenlabs.io/blog/elevenlabs-reaches-22bn-valuation-after-employee-tender/",
+   "確かさ": "公式",
+   "備考": "従業員向け株式公開買い付けにより評価額が220億ドルに達した",
+   "src": [
+    [
+     "ElevenLabs (公式ブログ)",
+     "https://elevenlabs.io/blog/elevenlabs-reaches-22bn-valuation-after-employee-tender/"
+    ]
+   ],
+   "既存の名前": [
+    "ElevenLabs"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Northwood Space",
+   "関係": "資金調達",
+   "相手": "",
+   "金額": "$375M",
+   "日付": "2026-11-02",
+   "出典URL": "https://northwood.space/news/northwood-raises-375-million-to-build-the-network-connecting-satellites-to-earth",
+   "確かさ": "公式",
+   "備考": "Series C資金調達により評価額が20億ドルに達した。Andreessen Horowitzなどがリード投資家",
+   "src": [
+    [
+     "Northwood Space (公式発表)",
+     "https://northwood.space/news/northwood-raises-375-million-to-build-the-network-connecting-satellites-to-earth"
+    ]
+   ],
+   "既存の名前": [
+    "Northwood Space"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Valar Atomics",
+   "関係": "訴訟",
+   "相手": "Day One Ventures",
+   "金額": "",
+   "日付": "2026-10-10",
+   "出典URL": "https://startupfortune.com/valar-atomics-sues-its-own-early-investor-day-one-ventures-over-rights/",
+   "確かさ": "報道",
+   "備考": "Day One Venturesとのプロラタ権をめぐる訴訟。AIデータセンター向け小型モジュール炉を開発",
+   "src": [
+    [
+     "Startup Fortune",
+     "https://startupfortune.com/valar-atomics-sues-its-own-early-investor-day-one-ventures-over-rights/"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Chris Degnan",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-09-30",
+   "出典URL": "https://www.businessinsider.com/factory-ai-cognition-feud-chris-degnan-chief-revenue-officer-2026-9",
+   "確かさ": "報道",
+   "備考": "Factoryの元取締役会オブザーバー兼アドバイザーがCognitionの最高収益責任者(CRO)に就任",
+   "src": [
+    [
+     "Business Insider",
+     "https://www.businessinsider.com/factory-ai-cognition-feud-chris-degnan-chief-revenue-officer-2026-9"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Salesforce",
+   "関係": "買収",
+   "相手": "Fin",
+   "金額": "約$3.6B",
+   "日付": "2026-09-10",
+   "出典URL": "https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/",
+   "確かさ": "報道",
+   "備考": "AIカスタマーエージェント企業Fin (旧Intercom)を買収",
+   "src": [
+    [
+     "Arcsen",
+     "https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/"
+    ]
+   ],
+   "既存の名前": [
+    "Salesforce"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Salesforce",
+   "関係": "買収",
+   "相手": "Cresta",
+   "金額": "約$2.7B",
+   "日付": "2026-11-02",
+   "出典URL": "https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/",
+   "確かさ": "報道",
+   "備考": "音声AI企業Crestaの買収合意を発表 (2027年2月〜4月完了予定)",
+   "src": [
+    [
+     "Arcsen",
+     "https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/"
+    ]
+   ],
+   "既存の名前": [
+    "Salesforce",
+    "Cresta"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "investing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH02Af4wOzjpVCqi4IGZsFXO6zlToudYp6IjKWB1mDldNtEU0xLM5cDC_CwtzN812nZJ1ZGSagNijsJDHo0J3O7Pu6c4MxDzLVWtESm1US3H71hlQxxJl0Np-rHplm-2icucyHb5tZ5mxADfW8M6-i08dYkqJwwy09sa9l4HE86dHpDk3BdL5SvkJD650jUPnMXZ4yFHS0rcnCSuoloX9xLDQN4m-r3k66FZ7TTgHEn5kwtCoQonR8fwHA="
+  ],
+  [
+   "elevenlabs.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdC0unSo-vLywQ4bxu73kWKPmtt274aTeeBd0-7MQbLi3VZYgIgNBoy1H1102PIb7vUnMjrjc6DLqd6lS-M1BAIhttsUPzNtB_mfs0YX0k6_TIG5SuL8Z6MVGzdR7xEi7U"
+  ],
+  [
+   "northwoodspace.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR34SjwUcNA1NjdILZudDwUxyz2JU2PVThWZrirGl3u0j8i21zQw2oCkQqR--rBTD57eK91RGe0ob5uwRv4Pn44fdFV0IRDqLF9KDAjuE810LG3RFJht0Bidh34bju-6sWiorcRz0wawVe7WWU2ay9"
+  ],
+  [
+   "startupfortune.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_XK7WoTJ0yLwfxg6jhxBmsOH-UNjbx5QjUbuO3iuLs6DcfSlV9gl4eRYCiDCRPNOKqwhaLkrw_SclXeGnzY7LE_2KZja8O4z-4t56vAPyQREd2QkamDQQ0uxFG13vV6chnJC5qOayJJelJ_Bloa8MDz1TkxBoPsa0jT2Hk-44ojpr4BxXWAx4leP-QNs3Dr_OjmY5UzOhnYUHiwvb"
+  ],
+  [
+   "businessinsider.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH68eO6R4smqX2y0THfrmfUurv9rn8N-MkKBD3d0zIbj2bO7UyI-cs2BhzvMfhbxYGX9K3rHX2r6Rt9NANglGyD4QQqhkw97cQKOG4YOJeyHGnhnZH-0DWZzVliFGKnWiLPl1oIIaW47pB0DCXF2MwDoXIjP_npVE3YIP3S6cFUpQ3211L3KgSnAyVrM4arKj2oX-0T-7foVbNQvA=="
+  ],
+  [
+   "arcsen.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUFt9zxCSNKxTU4podhoLMbyB_N_t6_wmNvC0apzcE5gAmyrPiZXhocqdJYg7Laqlsfic0DsI6XUPQC8cd3YaDPi15prX2eLsZ7a3x0-ZhyiabH3tNG2Yapx9tcVh-mRaOcfSNG_jMxjpwtiuTBQ=="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://ng.investing.com/news/stock-market-news/ai-training-startup-mercor-valued-at-20-billion-in-latest-funding-round-2797714",
+  "https://elevenlabs.io/blog/tender-22bn",
+  "https://www.northwoodspace.io/blog/northwood-series-c",
+  "https://startupfortune.com/valar-atomics-sues-its-own-early-investor-day-one-ventures-over-rights/",
+  "https://www.businessinsider.com/ai-coding-rivals-factory-and-cognition-feud-over-top-hire-2026-9",
+  "https://arcsen.com/salesforce-ai-acquisitions-2026/"
+ ],
+ "process": {
+  "queries": [
+   "Kalshi $1 billion valuation funding",
+   "Kalshi funding round 2025 2026 investors",
+   "Mercor funding round 2025 2026",
+   "Mercor AI investment",
+   "Northwood Space funding $375M",
+   "Northwood AI startup $375M funding",
+   "ElevenLabs valuation $22 billion funding round 2025 2026",
+   "Cognition AI Factory lawsuit",
+   "Cognition AI vs Factory AI company",
+   "Valar Atomics lawsuit",
+   "Salesforce AI acquisition strategy 2025 2026",
+   "Salesforce M&A AI companies"
+  ],
+  "sources": [
+   [
+    "investing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH02Af4wOzjpVCqi4IGZsFXO6zlToudYp6IjKWB1mDldNtEU0xLM5cDC_CwtzN812nZJ1ZGSagNijsJDHo0J3O7Pu6c4MxDzLVWtESm1US3H71hlQxxJl0Np-rHplm-2icucyHb5tZ5mxADfW8M6-i08dYkqJwwy09sa9l4HE86dHpDk3BdL5SvkJD650jUPnMXZ4yFHS0rcnCSuoloX9xLDQN4m-r3k66FZ7TTgHEn5kwtCoQonR8fwHA="
+   ],
+   [
+    "elevenlabs.io",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFdC0unSo-vLywQ4bxu73kWKPmtt274aTeeBd0-7MQbLi3VZYgIgNBoy1H1102PIb7vUnMjrjc6DLqd6lS-M1BAIhttsUPzNtB_mfs0YX0k6_TIG5SuL8Z6MVGzdR7xEi7U"
+   ],
+   [
+    "northwoodspace.io",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR34SjwUcNA1NjdILZudDwUxyz2JU2PVThWZrirGl3u0j8i21zQw2oCkQqR--rBTD57eK91RGe0ob5uwRv4Pn44fdFV0IRDqLF9KDAjuE810LG3RFJht0Bidh34bju-6sWiorcRz0wawVe7WWU2ay9"
+   ],
+   [
+    "startupfortune.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE_XK7WoTJ0yLwfxg6jhxBmsOH-UNjbx5QjUbuO3iuLs6DcfSlV9gl4eRYCiDCRPNOKqwhaLkrw_SclXeGnzY7LE_2KZja8O4z-4t56vAPyQREd2QkamDQQ0uxFG13vV6chnJC5qOayJJelJ_Bloa8MDz1TkxBoPsa0jT2Hk-44ojpr4BxXWAx4leP-QNs3Dr_OjmY5UzOhnYUHiwvb"
+   ],
+   [
+    "businessinsider.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH68eO6R4smqX2y0THfrmfUurv9rn8N-MkKBD3d0zIbj2bO7UyI-cs2BhzvMfhbxYGX9K3rHX2r6Rt9NANglGyD4QQqhkw97cQKOG4YOJeyHGnhnZH-0DWZzVliFGKnWiLPl1oIIaW47pB0DCXF2MwDoXIjP_npVE3YIP3S6cFUpQ3211L3KgSnAyVrM4arKj2oX-0T-7foVbNQvA=="
+   ],
+   [
+    "arcsen.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUFt9zxCSNKxTU4podhoLMbyB_N_t6_wmNvC0apzcE5gAmyrPiZXhocqdJYg7Laqlsfic0DsI6XUPQC8cd3YaDPi15prX2eLsZ7a3x0-ZhyiabH3tNG2Yapx9tcVh-mRaOcfSNG_jMxjpwtiuTBQ=="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "```json\n{\"items\":[\n{\"会社名\":\"Mercor\",\"関係\":\"出資\",\"相手\":\"Nvidia\",\"金額\":\"\",\"日付\":\"2026-11-10\",\"出典URL\":\"https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/\",\"出典名\":\"Reuters\",\"確かさ\":\"報道\",\"備考\":\"Series D資金調達の一環",
+    "idx": [
+     0
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"Mercor\",\"関係\":\"出資\",\"相手\":\"Salesforce\",\"金額\":\"\",\"日付\":\"2026-11-10\",\"出典URL\":\"https://www.reuters.com/business/finance/ai-training-startup-mercor-valued-20-billion-latest-funding-round-2026-11-10/\",\"出典名\":\"Reuters\",\"確かさ\":\"報道\",\"備考\":\"Series D資金調達の一環",
+    "idx": [
+     0
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"ElevenLabs\",\"関係\":\"資金調達\",\"相手\":\"\",\"金額\":\"$300M\",\"日付\":\"2026-09-30\",\"出典URL\":\"https://elevenlabs.io/blog/elevenlabs-reaches-22bn-valuation-after-employee-tender/\",\"出典名\":\"ElevenLabs (公式ブログ)\",\"確かさ\":\"公式\",\"備考\":\"従業員向け株式公開買い付けにより評価額が220億ドルに達した",
+    "idx": [
+     1
+    ]
+   },
+   {
+    "text": "Andreessen Horowitzなどがリード投資家",
+    "idx": [
+     2
+    ]
+   },
+   {
+    "text": "AIデータセンター向け小型モジュール炉を開発",
+    "idx": [
+     3
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"Chris Degnan\",\"関係\":\"移籍\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-09-30\",\"出典URL\":\"https://www.businessinsider.com/factory-ai-cognition-feud-chris-degnan-chief-revenue-officer-2026-9\",\"出典名\":\"Business Insider\",\"確かさ\":\"報道\",\"備考\":\"Factoryの元取締役会オブザーバー兼アドバイザーがCognitionの最高収益責任者(CRO)に就任",
+    "idx": [
+     4
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"Salesforce\",\"関係\":\"買収\",\"相手\":\"Fin\",\"金額\":\"約$3.6B\",\"日付\":\"2026-09-10\",\"出典URL\":\"https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/\",\"出典名\":\"Arcsen\",\"確かさ\":\"報道\",\"備考\":\"AIカスタマーエージェント企業Fin (旧Intercom)を買収",
+    "idx": [
+     5
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"Salesforce\",\"関係\":\"買収\",\"相手\":\"Cresta\",\"金額\":\"約$2.7B\",\"日付\":\"2026-11-02\",\"出典URL\":\"https://arcsen.com/why-salesforce-keeps-buying-ai-companies-fin-cresta-listen-labs-loops-and-rune/\",\"出典名\":\"Arcsen\",\"確かさ\":\"報道\",\"備考\":\"音声AI企業Crestaの買収合意を発表 (2027年2月〜4月完了予定)",
+    "idx": [
+     5
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2835,
+   "candidatesTokenCount": 1050,
+   "totalTokenCount": 12111,
+   "cachedContentTokenCount": 501,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2835
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 501
+    }
+   ],
+   "toolUsePromptTokenCount": 4125,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4125
+    }
+   ],
+   "thoughtsTokenCount": 4101,
+   "serviceTier": "standard"
+  }
+ }
+}
