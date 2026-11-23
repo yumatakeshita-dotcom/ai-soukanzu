@@ -1,6 +1,6 @@
 {
   "_memo": "調査エージェント一覧の元データ(2026/11/21作成)。docs/agents.md と site/agents/index.html は `python3 scripts/agents_build.py` でここから作る。係を足すときはここに足して再実行する(足すだけ)。時刻は日本時間。定期タスクの実際の名前・時間は claude.ai の定期タスクが正。",
-  "updated": "2026-11-21",
+  "updated": "2026-11-24",
   "principles": [
     "調べる係(エージェント)は、見つけたものを inbox/ に「足すだけ」で保存する。サイト(site/)には直接書かない。消さない・上書きしない。",
     "サイトに足すのは朝9:13の「取り込み係」の1本だけ(merge_inbox.py)。例外は、自分専用のページを持つ係(新モデル解説の site/xlearn/ と、確かさの印)だけ。",
@@ -39,7 +39,7 @@
         "scripts/x_check.py",
         "scripts/yt_fetch.py"
       ],
-      "note": "いまは開示係(IR)と動画・音声係の手順も同じ1本のタスクの中にある。分ける案は「変更案」を参照。"
+      "note": "いまは開示係(IR)と動画・音声係の手順も同じ1本のタスクの中にある。分ける案は「変更案」を参照。 2026/11/24: LinkedInは手がかりとして使う(ログイン・自動巡回はしない。検索結果の要約を公式・報道・本人のXで確かめた分だけ足す)。docs/linkedin_clues.md。"
     },
     {
       "id": "money",
@@ -646,7 +646,7 @@
         }
       ],
       "helpers": [],
-      "note": "作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py hiring。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。"
+      "note": "作るときは merge_inbox.py の対象に inbox/hiring を足す(取り込み係)。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py hiring。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: LinkedInは手がかりとして使う(ログイン・自動巡回はしない。検索結果の要約を公式・報道・本人のXで確かめた分だけ足す)。docs/linkedin_clues.md。"
     },
     {
       "id": "jp_alliance",
