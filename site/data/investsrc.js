@@ -86,6 +86,7 @@ const INVSRC=[
  ['Sequoia Capital','ElevenLabs',['iv_el1'],'シリーズDを主導','2026/11/23'],
  ['Andreessen Horowitz','ElevenLabs',['iv_el1'],'シリーズDに参加','2026/11/23'],
  ['ICONIQ','ElevenLabs',['iv_el1'],'シリーズDに参加','2026/11/23'],
+ ['Meta','Scale AI',['iv_scale'],'Metaの出資と評価額290億ドル超は公式で確認(2025年6月)。約49%・約143億ドルは報道ベース','2026/11/23'],
  /*MONEY_SRC_START*/
   ['Crosspoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
  ['Forgepoint Capital','Kindo',['im_23adc9a8'],'3,000万ドル(会社発表。累計5,760万ドル) 2026/11/12','2026/11/21'],
