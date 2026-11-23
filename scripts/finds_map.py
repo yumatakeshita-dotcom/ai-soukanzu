@@ -13,6 +13,7 @@ inbox/ は足すだけなので、毎回ぜんぶ作り直しても、前にあ�
   共通: y=年, lb=短い説明, d=説明文, s=[[出典名,URL]...], c=確かさ, f=元のファイル
 """
 import json, os, re, glob
+import quality_hold
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -86,8 +87,8 @@ def build():
             except Exception:
                 continue
             for it in d.get('items') or []:
-                if not isinstance(it, dict):
-                    continue
+                if not isinstance(it, dict) or quality_hold.hold_reason(it):
+                    continue  # 品質チェックの「問題」は保留(取り込まない)
                 note = _s(it.get('note'))
                 date = _s(it.get('date'))[:10]
                 if kind == 'moves':

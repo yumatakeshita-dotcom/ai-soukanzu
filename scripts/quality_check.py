@@ -19,17 +19,14 @@ import argparse, datetime, glob, json, os, re, sys, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import merge_inbox as mi  # noqa: E402
+import quality_hold as qh  # noqa: E402
 
 JST = datetime.timezone(datetime.timedelta(hours=9))
 CONF = {'公式', '開示', '報道', '本人の発言', '推定', ''}  # ''は「無い」として別に数える
 KINDS = mi.KINDS
 
 
-def parse_date(s):
-    try:
-        return datetime.date.fromisoformat(str(s)[:10]) if re.match(r'^\d{4}-\d{2}-\d{2}', str(s)) else None
-    except ValueError:
-        return None
+parse_date = qh.parse_date  # 保留の判定(quality_hold.py)と同じ決まり
 
 
 def pending_items():
