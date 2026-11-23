@@ -706,10 +706,10 @@
    ],
    "desc": "Agenda: 00:00 - Why Benchmark Is Bleeding Partners (and Why That's the New Normal) 04:57 - \"I Wouldn't Leave Benchmark… Unless I Had THIS\" — Jason on Brand vs Autonomy 09:01 - The Rise of the Solo GP & The Death of LP Conventional Wisdom 13:50 - The Unstoppable Force of Elad Gil & The Myth of LP Discipline 18:45 - Is Vibe Coding the New SaaS? Jason's $10K/Month Spend Reveal 26:57 - Cursor's Growth",
    "id": "0deff53554",
-   "note": "",
+   "note": "Elad Gilのファンド最終額が報道で食い違い($1.5B目標→約$3B目標)。確定せず",
    "published": "2025-07-31",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Benchmark Loses Another Partner | Elad Gil Raises a Monster $1.5BN Solo GP Fund | Why Apple Need a Management Overhaul | Why Google is the Best Performing Hyperscaler | Will Cursor Hit $4BN ARR & Lovable $400M ARR by EOY 2026?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-benchmark-loses-another-partner-elad-gil-raises-a-monster-15bn-solo-gp-fund-why-apple-need-a-management-overhaul-why-google-is-the-best-performing-hyperscaler-will-cursor-hit-4bn-arr-lovable-400m-arr-by-eoy-2026",
    "words": [
@@ -2861,10 +2861,10 @@
    ],
    "desc": "Special Guest: Nikesh Arora, CEO @ Palo Alto Networks. AGENDA: 04:50 Airtable Sold to Bending Spoons for $1.285B 17:00 Leo Aschenbrenner's Situational Awareness Blows Up as Citadel Buys His $16BN Book 22:30 Anthropic's AI Models Breach Three Companies as Cyber Threat Accelerates 33:35 Moonshot AI Raises $3.5B at $35B as Chinese Models Crush AI Prices 38:05 Valar Atomics Triples to $6B as Sequoia B",
    "id": "3816f70f70",
-   "note": "",
+   "note": "Airtable買収・Citadel/Situational Awareness・Moonshot調達を足した",
    "published": "2026-08-06",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
    "words": [
@@ -4283,10 +4283,10 @@
    ],
    "desc": "AGENDA: 00:00 – SpaceX Launches the Largest IPO Roadshow in History at $1.77T Valuation 05:00 – Did Elon Break the IPO Playbook? The High-Risk Pricing Strategy Explained 12:00 – Will SpaceX Create a New Generation of Venture Billionaires? 17:00 – OpenAI Files to Go Public as the AI IPO Race Officially Begins 19:00 – Sam Altman's Vision: Why AI Is Becoming Always-On Infrastructure 22:00 – Apple Adm",
    "id": "541d1272ab",
-   "note": "",
+   "note": "上場の話題で、具体的な出資・移籍ではない",
    "published": "2026-06-11",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: SpaceX Launches Largest Ever IPO | OpenAI Files to Go Public | Uber Cuts 23% of HR | Lovable Hits $500M ARR | Founders Revolt Against VCs: The Fundraising Horror Stories Going Viral",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-spacex-launches-largest-ever-ipo-openai-files-to-go-public-uber-cuts-23-of-hr-lovable-hits-500m-arr-founders-revolt-against-vcs-the-fundraising-horror-stories-going-viral",
    "words": [
@@ -5974,10 +5974,10 @@
    ],
    "desc": "AGENDA: 05:16 Nvidia Blowout Quarter: $81BN Revenues and Stock… Flat! 10:39 Uber and Microsoft Declare Productivity Gains Questionable from AI 25:26 The Layoffs Continue: ClickUp and Cloudflare 34:39 OpenAI S1: Is it a Race? How Will it be Received? 38:28 Do Anthropic Rush Out Their IPO Also? 45:49 SpaceX S-1: \"Why I Would Never Invest\" 48:06 Why Colossus is a Stroke of Genius By Elon 51:31 Data C",
    "id": "748c4ce988",
-   "note": "",
+   "note": "動きの特定が難しい(決算・S-1の話題)",
    "published": "2026-05-28",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: OpenAI & SpaceX S1 Drops | NVIDIA's $81BN Revenue Quarter | Cloudflare and ClickUp Do Controversial Layoffs | Exa, OpenRouter and Polsia Raise Mega Rounds | Uber and Microsoft Declare AI ROI for Developers is Questionable",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-spacex-s1-drops-nvidias-81bn-revenue-quarter-cloudlfare-and-clickup-do-controversial-layoffs-exa-openrouter-and-polsia-raise-mega-rounds-uber-and-microsoft-declare-ai-roi-for-developers-is-questionable",
    "words": [
@@ -6295,10 +6295,10 @@
    ],
    "desc": "Financial Times San Francisco Bureau Chief Stephen Morris joins for our weekly discussion of the latest tech news. We cover: 1) Is GPT-5 really on its way? 2) GPT-5's reported capabilities 3) Is Sam Altman going to call GPT-5 AGI? 4) If GPT-5 codes well, where does that leave Anthropic? 5) Stargate hasn't made a single data center deal yet 6) Scaling Laws back in vogue? 7) AI math olympiad faceoff",
    "id": "799209f097",
-   "note": "",
+   "note": "GPT-5の話題で、動きではない",
    "published": "2025-07-25",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "Countdown to GPT-5, OpenAI’s Stargate Sputters, AI Math Wars",
    "url": "",
    "words": [
@@ -6715,10 +6715,10 @@
    ],
    "desc": "Box CEO Aaron Levie joins for our weekly discussion of the latest tech news. We cover: 1) OpenAI's anticipated $100 billion fundraise 2) Does OpenAI's big forthcoming raise settle questions about its competitiveness 3) What's going on with OpenAI and NVIDIA? 4) Hype or True: Big Proclamations from the India AI Impact Summit 5) Why can't Sam And Dario hold hands? 6) Anthropic's powerful new model 7",
    "id": "84fb593977",
-   "note": "",
+   "note": "OpenClaw作者のOpenAI参加を足した(買収ではなく採用)",
    "published": "2026-02-20",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "done",
    "title": "OpenAI Closes in on $100 Billion, OpenClaw Acquired, AI’s Productivity Question — With Aaron Levie",
    "url": "",
    "words": [
@@ -7602,10 +7602,10 @@
    ],
    "desc": "(0:00) Gavin Baker joins the show! (2:36) Anthropic IPO report: $2T valuation, $100B+ run rate, October listing (27:32) Zuck's AI manifesto: What it means for Meta and frontier AI (56:41) All-In Summit Speaker Announcements! (58:13) Nvidia's $500B financing plan, how the AI market could fall apart (1:14:29) NJ and Mamdani take on Amazon over subcontracted drivers (1:27:32) Grok 4.6 launch: SpaceX'",
    "id": "9315b26426",
-   "note": "",
+   "note": "Anthropic上場報道($2T)は検索で確認できず",
    "published": "2026-08-14",
    "source": "All-In",
-   "status": "todo",
+   "status": "unverified",
    "title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
    "url": "https://allinchamathjason.libsyn.com/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-groks-comeback",
    "words": [
@@ -8095,10 +8095,10 @@
    ],
    "desc": "AGENDA: 00:00 – Mag Seven Earnings: The \"Super Bowl\" of Tech Results 04:45 – Google's Cloud Explosion & The AI Search \"Disruption\" That Never Came 15:53 – Microsoft's $190B Bet: Is AI the Only Thing Keeping Growth Flat? 21:59 – Meta's $150B Future Bet vs. Wall Street's Need for Spreadsheets 28:50 – Palantir's Home Run: Why Big Companies Spend Big Money on AI 38:43 – Apple's Quiet Consistency & The",
    "id": "9f75868cb7",
-   "note": "",
+   "note": "Anthropic $50BN調達は検索でSeries G($300億)と食い違い。別件は確認できず",
    "published": "2026-05-07",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Mag7 Earnings: Google & Amazon Win - Meta and Microsoft Falter | Anthropic's $50BN Raise & What it Means for a Potential IPO | Atlassian, Twilio and Five9 Beat: The SaaS Apocalypse Over? | Sierra's $15B Valuation: Peak or Potential",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-mag7-earnings-google-amazon-win-meta-and-microsoft-falter-anthropics-50bn-raise-what-it-means-for-a-potential-ipo-atlassian-twilio-and-five9-beat-the-saas-apocalypse-over-sierras-15b-valuation-peak-or-potential",
    "words": [
@@ -8576,10 +8576,10 @@
    ],
    "desc": "Financial Times San Francisco Bureau Chief Stephen Morris joins for our weekly discussion of the latest tech news. We cover: 1) Anthropic's $20 billion fundraising round 2) OpenAI is looking at $100 billion in funding 3) Amazon alone might put $50 billion in OpenAI 4) When does the money run out? 5) The rise of Clawdbot/Moltbot 6) Meta and Microsoft beat on earnings but go in separate directions 7",
    "id": "a52b4adb3e",
-   "note": "",
+   "note": "Anthropic Series G(公式)を足した",
    "published": "2026-01-31",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "done",
    "title": "The Anthropic Rocketship, AI’s Spending Limits, SpaceX IPO",
    "url": "",
    "words": [
@@ -9007,6 +9007,23 @@
    "url": "",
    "words": [
     "joined"
+   ]
+  },
+  "acebc4bfe6": {
+   "companies": [
+    "アンソロピック",
+    "エヌビディア"
+   ],
+   "desc": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ 史上初 米中ロ首脳会談で「平和宣言」 https://npx.me/s/JZEytlfk ◇オリジナルコンテンツ◇ 【APEC】中国の「嫌がらせ」が、案外マシだった https://npx.me/s/VyKB70Nz 【速報解説】1.3兆円の大損失。JTに一体、何が起きたのか https://npx.me/s/PxZmd9Ak 【株価沸騰】アンソロピックが、グーグルを超える日 https://npx.me/s/knuoVcrx 【日本上陸】中国の飲食チェーンが世界に溢れ出した https:/",
+   "id": "acebc4bfe6",
+   "note": "",
+   "published": "2026-11-19",
+   "source": "NewsPicks Daily Briefing",
+   "status": "todo",
+   "title": "【11月20日】アンソロピックが、グーグルを超える日 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1120-e3smud0",
+   "words": [
+    "退任"
    ]
   },
   "acf591d7f5": {
@@ -12003,10 +12020,10 @@
    ],
    "desc": "(04:00) - OpenAI Details Hugging Face Incident (12:36) - SpaceX SPV Gone Wrong (20:05) - Nikita Bier Steps Down at X (25:44) - Google Rewires AI Leadership (30:15) - 𝕏 Timeline Reactions (36:14) - Intel's Comeback (56:51) - 𝕏 Timeline Reactions (01:00:02) - Aditya Agarwal, managing partner at South Park Commons, discusses its new $575 million fund and the growing ambition of founders building capi",
    "id": "e987c6c1db",
-   "note": "",
+   "note": "Nikita Bier退任を足した。South Park Commonsの新ファンドは出資の線ではないので足さず",
    "published": "2026-08-06",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "SpaceX SPV Gone Wrong, Intel's Comeback, Dylan Field Joins | Aditya Agarwal, Ariane Gorin, Nick Thompson, Chris Power, Christian Mochen",
    "url": "https://share.transistor.fm/s/baea2d66",
    "words": [
