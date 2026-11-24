@@ -145,10 +145,11 @@
       ],
       "helpers": [
         "scripts/ir_watch.py",
+        "scripts/hkex_scan.py",
         "scripts/sec_watch.py",
         "scripts/compute_brief.py"
       ],
-      "note": "docs/ir_watch.md に詳しい手順。"
+      "note": "docs/ir_watch.md に詳しい手順。 2026/11/24: ir_watch.py の最後に hkex_scan.py が自動で動く(HKEXの全社ぶんの出資・買収・提携を、本文で確かめたものだけ inbox/money/日付-hkex.json に自動で足す)。"
     },
     {
       "id": "media",
@@ -676,7 +677,7 @@
         }
       ],
       "helpers": [],
-      "note": "出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。 2026/11/24 その2: 表題から相手が決まり、会社・日付・相手が本文で確かめられ、AIらしさが十分なものは `inbox/money/日付-tdnet.json` に自動で足す(出資・買収は `--kind invest` で相関図にない会社も見る。条件は docs/ir_watch.md)。"
+      "note": "出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。 2026/11/24 その2: 表題から相手が決まり、会社・日付・相手が本文で確かめられ、AIらしさが十分なものは `inbox/money/日付-tdnet.json` に自動で足す(出資・買収は `--kind invest` で相関図にない会社も見る。条件は docs/ir_watch.md)。 2026/11/24 その3: 表題が長くて相手が決まらない提携は、本文の「提携先の概要」欄から相手を読む(表題と本文が食い違う・解消や延長・子会社の提携は読まず手動に回す。試験は `python3 scripts/test_tdnet_body.py`)。"
     },
     {
       "id": "jp_hr",

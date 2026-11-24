@@ -542,6 +542,17 @@ def main():
             w.write(k + '\n')
     json.dump(status, open(os.path.join(OUT, 'status.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(json.dumps(status, ensure_ascii=False))
+    # 香港の出資・買収・提携(全社ぶん)は hkex_scan.py が見る(2026/11/24追加)。失敗しても ir_watch の結果には影響させない
+    if a.only in (None, 'hkex'):
+        try:
+            import subprocess
+            r = subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'hkex_scan.py')], capture_output=True, timeout=900)
+            print('--- hkex_scan.py ---')
+            print(r.stdout.decode('utf-8', 'replace')[-1500:])
+            if r.returncode:
+                print('hkex_scan.py が失敗(ir_watch の結果には影響なし):', r.stderr.decode('utf-8', 'replace')[-300:])
+        except Exception as e:  # noqa
+            print('hkex_scan.py を動かせなかった:', str(e)[:100])
 
 
 if __name__ == '__main__':
