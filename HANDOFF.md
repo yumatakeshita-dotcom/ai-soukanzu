@@ -24,6 +24,8 @@
 
 - 11/24(PR #127、#126の上に積んだ): `tdnet_scan.py` に `--kind invest`(相関図にない会社の出資・買収)を追加。alliance と invest は、条件がそろったものを `inbox/money/日付-tdnet.json` に自動で足す(条件は docs/ir_watch.md)
 
+4. 【11/24 PR #125〜#129の上に積んだ分】TDnet提携を本文の定義(「以下「○○」といいます」)からも読む(tdnet_scan.py)/香港の覚書(MOU)が後日の発表で実行・完了・失効したかを確かめる(scripts/mou_followup.py、目録 inbox/ir/mou_followup.json)。#125→#129は未マージ。順にマージが必要
+
 ## 決めたこと・約束ごと
 - データは足すだけで消さない。ファイルの削除・上書きは確認する
 - 作業前に git pull。アーティファクトは直接直さない(正本はこのリポジトリ)
