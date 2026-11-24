@@ -50,7 +50,7 @@ JP_KINDS = [
     ('出資', re.compile(r'出資|資本業務提携|資本提携|第三者割当|合弁|共同出資|ジョイント・?ベンチャー|ファンドへの')),
     ('役員人事', re.compile(r'代表取締役の異動|役員の異動|役員人事|社長交代|代表取締役.*(異動|交代|選定)|取締役.*(就任|退任|辞任|異動)|執行役員.*(人事|異動)|新任|CEO.*交代|人事異動|役員候補者|取締役候補者')),
 ]
-JP_BODY_HINT = {'売却・異動': re.compile(r'譲渡|売却|異動'), '買収': re.compile(r'取得|買収|子会社|公開買付|合併|譲受'), '出資': re.compile(r'出資|提携|割当|合弁'),
+JP_BODY_HINT = {'売却・異動': re.compile(r'譲渡|売却|異動'), '買収': re.compile(r'取得|買収|子会社|公開買付|合併|譲受'), '出資': re.compile(r'出資|提携|割当|合弁'), '提携': re.compile(r'提携|協業|連携|共同'),
                 '役員人事': re.compile(r'取締役|執行役員|就任|退任|選定|異動')}
 HK_CATS = re.compile(r'Discloseable Transaction|Major Transaction|Very Substantial|Connected Transaction|Takeovers Code|Change in Directors|'
                      r'Notifiable Transaction|Inside Information', re.I)

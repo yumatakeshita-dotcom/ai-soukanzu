@@ -40,3 +40,6 @@ PDFが開けなかったもの(ネットのエラー・本文が取れない)は
 
 ## TDnet新着の見張り(日本の人事係、2026/11/24追加)
 `python3 scripts/tdnet_scan.py` が、TDnetの直近2営業日の一覧をぜんぶ見て、相関図にない会社でも「表題が役員人事で、会社名か表題にAI・DX・デジタル・データ・半導体などの語がある(またはCDO・CIO・CTO)」ものだけPDFを開く。本文にもAI系の語があって日付が合うものだけ `inbox/ir/tdnet-scan-日付.json` に保存(`import` は「記録のみ」。人の名前・役職は人事係が本文で確かめてから inbox/moves に足す)。相関図の会社は ir_watch.py の担当なので重ねない。PDFが開けなかったものは上の再確認の列に入れる。
+
+## 日本の提携係向け(2026/11/24追加)
+`python3 scripts/tdnet_scan.py --kind alliance` が、TDnetの直近2営業日の一覧から、表題に「提携・協業・業務連携・共同開発」などがある発表だけPDFを開き、本文にAI企業名(OpenAI・Anthropic・Google・Nvidia など)やAI・生成AI・GPU・データセンター・半導体の語があって日付が合うものだけ `inbox/ir/tdnet-scan-alliance-日付.json` に保存する(記録のみ。提携の相手・内容は本文で確かめてから inbox/money に足す)。相関図の会社の資本業務提携・出資は ir_watch.py の担当なので重ねない。開けなかったPDFは上の再確認の列に入り、翌日から最大3回開き直す。再確認待ちの件数は、サイトの「調査エージェント」ページの「今朝のようす」に出る(`python3 scripts/agents_status.py` が `site/agents/status.json` の `retry` に書く)。

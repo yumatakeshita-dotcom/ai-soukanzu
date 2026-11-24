@@ -129,6 +129,11 @@ const g=b.dataset.g;cards.forEach(c=>{c.hidden=!(g==='all'||c.dataset.g===g)})})
 /* 今朝動いたか(status.json。scripts/agents_status.py が作る。読めなければ「未確認」のまま) */
 (function(){const box=document.getElementById('today');
 const jst=()=>new Date(Date.now()+9*3600*1000).toISOString().slice(0,10);
+const retryRow=r=>{if(!r)return'';const t=document.createElement('div');t.className='row';
+const b=document.createElement('span');b.className='dot mute';b.textContent='再確認待ち '+r.n_waiting+' 件';t.appendChild(b);
+const h=document.createElement('span');h.className='lead';
+h.textContent=r.n_waiting?'適時開示のPDFが開けず、翌日から最大3回開き直す分'+(r.n_last_chance?('(うち '+r.n_last_chance+' 件は次が最後の1回)'):'')+(r.items&&r.items.length?': '+r.items.slice(0,3).map(x=>x.co+'('+x.tries+'回見た)').join('、')+(r.n_waiting>3?' ほか':''):''):'いまは待ちなし(開けなかったものは翌日から自動で開き直します)';
+t.appendChild(h);return t.outerHTML};
 fetch('status.json?'+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
 const a=d.agents||{};let n={ok:0,ng:0,other:0},ngs=[];
 document.querySelectorAll('.st').forEach(el=>{const v=a[el.dataset.id];if(!v)return;
@@ -137,6 +142,7 @@ if(v.state==='ok')n.ok++;else if(v.state==='ng'){n.ng++;ngs.push([el.dataset.id,
 const stale=d.date!==jst();
 box.innerHTML='<b>今朝のようす</b><span class="lead">'+d.at+'(日本時間)の確認'+(stale?'。<b style="color:var(--warn)">今日の分はまだ作られていません(これは前の状態です)</b>':'')+'</span>'+
 '<div class="row"><span class="dot ok">動いた '+n.ok+'</span><span class="dot ng">記録なし '+n.ng+'</span><span class="dot mute">予定なし・時刻前・見られない など '+n.other+'</span></div>'+
+retryRow(d.retry)+
 (ngs.length?'<div class="row">記録なし: '+ngs.map(x=>'<a href="#'+x[0]+'">'+x[1]+'</a>').join('、')+'</div>':'')}).catch(()=>{box.innerHTML='<b>今朝のようす</b><span class="lead">状態の記録(status.json)を読めませんでした。係ごとの色は「未確認」のままです。</span>'})})();"""
 
 

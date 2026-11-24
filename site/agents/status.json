@@ -1,17 +1,17 @@
 {
- "date": "2026-11-21",
- "at": "2026-11-21 12:00",
+ "date": "2026-11-24",
+ "at": "2026-11-24 15:50",
  "tz": "日本時間",
  "agents": {
   "daily": {
    "state": "ok",
    "label": "動いた",
-   "detail": "LAST_CHECK = 2026-11-21"
+   "detail": "LAST_CHECK = 2026-11-24"
   },
   "merge": {
    "state": "ok",
    "label": "動いた",
-   "detail": "BUILT = 2026-11-21"
+   "detail": "BUILT = 2026-11-24"
   },
   "gemini": {
    "state": "ok",
@@ -29,9 +29,9 @@
    "detail": "曜日の予定に入っていない"
   },
   "fund": {
-   "state": "off",
-   "label": "今日は予定なし",
-   "detail": "曜日の予定に入っていない"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "LP・VC調査"
   },
   "disclosure": {
    "state": "ok",
@@ -39,14 +39,14 @@
    "detail": "決算資料・適時開示(IR)"
   },
   "media": {
-   "state": "ok",
-   "label": "動いた",
-   "detail": "YouTube確認"
+   "state": "ng",
+   "label": "記録なし",
+   "detail": "YouTube確認(inbox/youtube/2026-11-24.json が無い)(動かなかったか、まだ push されていない)"
   },
   "world": {
-   "state": "ok",
-   "label": "動いた",
-   "detail": "薄いところ調査"
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
   },
   "deep": {
    "state": "off",
@@ -54,9 +54,9 @@
    "detail": "曜日の予定に入っていない"
   },
   "fun": {
-   "state": "ng",
-   "label": "記録なし",
-   "detail": "おもしろ情報(inbox/fun/2026-11-21.json が無い)(動かなかったか、まだ push されていない)"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "おもしろ情報"
   },
   "verify": {
    "state": "off",
@@ -69,54 +69,54 @@
    "detail": "曜日の予定に入っていない"
   },
   "watch": {
-   "state": "wait",
-   "label": "まだ時刻前",
-   "detail": "見張り役の記録(10:31の予定)"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "見張り役の記録"
   },
   "quality": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "品質チェック"
   },
   "hiring": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "採用・求人"
   },
   "jp_alliance": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "日本の提携"
   },
   "jp_hr": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "日本の人事"
   },
   "jp_funding": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "日本の資金調達"
   },
   "datacenter": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
   },
   "column": {
-   "state": "pre",
-   "label": "作る前",
-   "detail": "2026-11-22 から見る"
+   "state": "off",
+   "label": "今日は予定なし",
+   "detail": "曜日の予定に入っていない"
   },
   "x": {
-   "state": "na",
-   "label": "見られない",
-   "detail": "記録がリポジトリに残らない(アカウント追加と印の追記だけ)。見張り役では見られない"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "inbox/x_accounts.txt を今日 commit した"
   },
   "xlearn": {
-   "state": "na",
-   "label": "見られない",
-   "detail": "自分専用ページの更新で、日付つきの記録が無い"
+   "state": "ok",
+   "label": "動いた",
+   "detail": "inbox/xlearn/items.json を今日 commit した"
   },
   "publish": {
    "state": "na",
@@ -128,5 +128,10 @@
    "label": "見られない",
    "detail": "Cloudflare 側の作業で、リポジトリに記録が残らない(inbox/watchdog/kigyo-日付.md は見張りの記録)"
   }
+ },
+ "retry": {
+  "n_waiting": 0,
+  "n_last_chance": 0,
+  "items": []
  }
 }
