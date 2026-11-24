@@ -1,0 +1,40 @@
+【このタスク: お金の流れ(人とお金のつながり)】 種類 = money
+0. 道具の用意: 下の準備(A)のあと、scripts/yt_fetch.py と scripts/x_from_news.py が main に無ければ `git fetch origin claude/project-thread-veli76 && git checkout FETCH_HEAD -- scripts/yt_fetch.py scripts/x_from_news.py` で取り出して使う(この道具は commit しない。E では inbox/ だけを add する)。`pip install -q yt-dlp` もする。
+1. YouTube の4チャンネル(@AIatMeta、@ColinandSamir、Cheeky Pint(Stripe のポッドキャスト。チャンネルは WebSearch で探す)、@ycombinator)を調べる(下の YouTube の調べ方)。
+   - 最初に、前回までに字幕が取れなかった動画をやり直す: `python3 scripts/yt_fetch.py --retry-queue --out /tmp/yt`。取れたものは、その動画も今回の候補探しに使う。
+   - 新しい動画: 直近7日の動画は全部見る。
+   - 過去の動画もさかのぼる(ユーザーの依頼): inbox/money/seen_videos.txt(無ければ作る)に無い古い動画を、チャンネルごとに新しい順に最大5本ずつ処理する(動画一覧は --playlist-end 200 まで見てよい)。処理した動画は seen_videos.txt に「ID|チャンネル|YYYYMMDD|タイトル」で1行ずつ足す(このファイルは足すだけ。消さない)。
+   各動画の字幕(文字起こし)・説明文、取れなければ番組の書き起こしや紹介記事から、「誰が・どの会社に・いくら出資/買収/報酬/寄付したか」「誰と誰が一緒に会社を作った・支援した」を拾う。英語など海外の内容は日本語に訳してまとめる。動画の中の発言だけの数字は confidence を「本人の発言」にして、note に(動画名・日付)を書く。
+2. 加えて WebSearch で過去7日の、AI企業への大型出資・買収・創業者の出資のニュースを調べる(海外の記事は訳す)。
+   - 記事の本文で数字を確かめる(ユーザーの依頼): 候補の数字(金額・評価額・ラウンド名)は、記事のページを WebFetch か `curl -s 記事URL` で実際に開き、本文の数字と合っているか確かめる。techcrunch.com はこの環境から開ける(2026-11-19に許可)。開けない媒体は別の媒体か会社の発表で確かめ、どちらも開けなければ note に「本文未確認」と書く。
+3. 決まったXのアカウント(ユーザーの依頼): inbox/x_accounts.txt を読み(読むだけ。変更しない)、「見る種類」に money が入っているアカウントを対象にする。Xの検索・タイムラインはログインが要って見られないので、次のやり方にする(2026-11-19から):
+   a. 報道から投稿をたどる: 手順2で見つけた記事や、対象アカウントの名前で WebSearch して見つけた記事のURLを `python3 scripts/x_from_news.py --kind money 記事URL [記事URL ...]` に渡す。記事に載っているXの投稿を拾い、X公式の埋め込みサービスで投稿者・日付・本文を確かめる。watched:true の投稿は一覧のアカウントの投稿。
+   b. 投稿URLが WebSearch で直接見つかったときは `python3 scripts/x_check.py 投稿URL` で本文と日付を確かめる。投稿者が本人・会社の公式かは `python3 scripts/x_check.py @名前` のプロフィールで確かめる。
+   c. 確かめた投稿だけを出典にする(src に ["X @名前(日付)","投稿URL"]、quote に原文を短く)。本人の投稿なら confidence「本人の発言」、会社の公式アカウントなら「公式」。報道アカウントの投稿は元の記事を出典にする。日本語以外は訳す。
+   notes に「Xの対象アカウント数、記事からたどって確かめた投稿の数、そのうち対象アカウントの投稿の数」を書く。
+item の形: {"from":"お金を出した人・会社","to":"受け取った人・会社","kind":"出資|買収|報酬|共同創業|支援","amount":"金額(わかれば。報道ベース・発言ベースを明記)","date":"YYYY-MM-DD","note":"60字以内の日本語の説明","quote":"発言の原文(短く。動画やXが出典なら)","video":"動画URL(動画が出典なら)"}
+notes に、見た動画の一覧(チャンネル名・タイトル・URL・字幕が取れたか・何回目で取れたか)も書く。
+大事: 以前、同期で追加した人物が消える事故があった。このタスクは足すだけで、何も消さない。
+
+YouTubeの調べ方(2026-11-19更新):
+ - 動画一覧(過去分も): `yt-dlp --flat-playlist --playlist-end 30 --print "%(id)s|%(upload_date)s|%(title)s" "https://www.youtube.com/@チャンネル名/videos"`
+ - 説明文と字幕: `python3 scripts/yt_fetch.py --channel チャンネルID --title "タイトル" --date YYYYMMDD --out /tmp/yt 動画ID`。混雑(429)やロボット確認で断られたら、60秒・3分・10分と時間をおいて自動でやり直す(動画の間も10秒空ける)。それでも取れなければ説明文はチャンネルの公式RSSから取り、その動画を inbox/money/yt_retry.txt に足す(次の回に自動でやり直す)。字幕のテキストは /tmp/yt/<ID>.txt。チャンネルIDは `curl -s https://www.youtube.com/@名前 | grep -o '"externalId":"[^"]*"'` で調べる。
+ - 断られ方をごまかす工夫(取り方の切り替えなど)はしない。待ってやり直すだけ。字幕が取れないときは WebSearch で「動画タイトル transcript」や番組の公式サイト・書き起こし・紹介記事を探して代わりに使う。
+ - 発言の引用は原文も短く残す。
+X・スレッズ全般: 上の3のやり方で。スレッズは WebSearch で「site:threads.net ...」と探し、本人・公式のアカウントと確認できたものだけ出典にする。
+
+【共通ルール(5つの調査タスクで同じ)】
+あなたは、ユーザー(熊本ヴォルターズで事業開発をしている日本語話者、エンジニアではない)の「AI企業の相関図」プロジェクトの調査係。これは第1段階: 調べて候補をリポジトリの inbox/ に保存し、報告するところまで。Cloudflare・D1・本番サイト(site/ 以下)には一切書き込まない。ユーザーはこのタスクで GitHub main の inbox/ へ push することを依頼・承認済み。返答はすべて日本語、短く、専門用語を使わない。
+
+日付: 最初に `TZ=Asia/Tokyo date +%F` を実行し、その結果を「今日」として使う。
+
+A. 準備: 作業フォルダに ai-soukanzu があれば `git checkout main && git pull origin main`、無ければ `git clone https://github.com/yumatakeshita-dotcom/ai-soukanzu`。認証で断られたときだけ mcp__claude-code-remote__add_repo(owner "yumatakeshita-dotcom", repo "ai-soukanzu", access "push")を試してやり直す。CLAUDE.md を読み、守ること(出典必須・うわさは入れない・報道ベースや上限の数字はそう書く・Getty等の写真は使わない)に従う。
+B. 重複を避ける: 同じ種類の inbox/<種類>/ にある過去のファイルと、site/index.html・site/people.json(全体は読まず grep で名前を探す)に既にある事実は候補にしない。
+C. 保存: inbox/<種類>/YYYY-MM-DD.json(今日の日付。同じ日のファイルが既にあれば YYYY-MM-DD-2.json のように番号を付ける)に次の形で書く:
+   {"date":"YYYY-MM-DD","kind":"<種類>","items":[ ...上のタスクの形... ],"notes":"調べた範囲・見つからなかったもの"}
+   すべての item に "src":[["媒体名(日付)","URL"], ...](1件以上、公式発表か信頼できる報道か動画かXの投稿。大きな出来事は2媒体)と "confidence":"公式" か "報道" か "本人の発言" を付ける。0件でも items を空にしてファイルを作る。
+D. 保存の確認: `python3 -c "import json,sys;json.load(open(sys.argv[1]))" <ファイル>` が通ること。
+E. GitHub に保存: inbox/ 以下だけを `git add inbox/` し(yt_retry.txt・yt_retry_done.txt も含む)、`git commit -m "調査(<種類>) YYYY-MM-DD: N件"`(環境のシステムが指定する Co-Authored-By などの行があれば付ける)、`git push origin main`。断られたら `git fetch origin main && git rebase origin/main` をして1回だけやり直す。site/ や他のファイルは変更しない。
+F. 報告(最後のメッセージ): 見つけた候補を3〜8行の箇条書き(各行に媒体名か動画名)。0件なら「新しい候補はありませんでした」。見た動画の本数(新しい/過去/やり直し)と字幕が取れた本数、Xの対象アカウント数と記事からたどって確かめた投稿の数を1行。続けて「GitHub: 保存できた / できなかった(理由)」を1行。
+
+してはいけないこと: どこであれ既存データの削除や上書き、site/ の変更、D1やCloudflareへのアクセス、main 以外への push、force push、新しいリポジトリやアーティファクトの作成。
