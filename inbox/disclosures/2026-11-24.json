@@ -1,0 +1,64 @@
+[
+ {
+  "d": "2026-11-23",
+  "co": "Nvidia",
+  "key": "nvidia",
+  "form": "8-K",
+  "items": [
+   "5.02",
+   "9.01"
+  ],
+  "items_ja": [
+   "役員の交代",
+   "9.01"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+  "acc": "0001045810-26-000090",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-23",
+  "co": "Meta",
+  "key": "meta",
+  "form": "8-K",
+  "items": [
+   "8.01"
+  ],
+  "items_ja": [
+   "その他の出来事"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026075541/meta-20261118.htm",
+  "acc": "0001628280-26-075541",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-20",
+  "co": "Oracle",
+  "key": "",
+  "form": "8-K",
+  "items": [
+   "5.07"
+  ],
+  "items_ja": [
+   "5.07"
+  ],
+  "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526470351/orcl-20261118.htm",
+  "acc": "0001193125-26-470351",
+  "desc": "8-K",
+  "cf": "開示"
+ },
+ {
+  "d": "2026-11-19",
+  "co": "Anthropic",
+  "key": "anthropic",
+  "form": "424B4",
+  "items": [],
+  "items_ja": [],
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+  "acc": "0001628280-26-074944",
+  "desc": "424B4",
+  "cf": "開示"
+ }
+]
