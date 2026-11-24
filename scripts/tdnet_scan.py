@@ -90,6 +90,63 @@ def body_partner(text, filer, title):
     return nm, None
 
 
+# 本文の「以下「○○」といいます」の定義から相手を読む(2026/11/24追加。HKEXの hkex_scan.py の「Target Company」の読み方の日本版)
+# 「提携先の概要」の欄がない短い発表や、表題が「事業提携に関するお知らせ」とだけで相手がない発表のための代わり。
+# 自動で足す条件(1つでも欠けたら手動のまま): 定義が「会社名(以下「呼び名」)」の形 / 呼び名が本文に3回以上出る /
+#   出す側以外の会社の定義がちょうど1つ / 名前が会社名らしい(株式会社・Inc など。または呼び名が表題にある) / 定義の近くに提携・協業・契約・合意の語がある
+DEF_RX = re.compile(r'以下\s*[「『“"]\s*(?P<al>[^」』”"]{1,30}?)\s*[」』”"]')
+DEF_SPLIT = re.compile(r'[、。]|[」』）)]\s*と\s*|お知らせ|において|との間で|は、|が、|と、|および|及び')
+DEF_CTX = re.compile(r'提携|協業|連携|契約|合意|パートナー|共同|アライアンス')
+DEF_NOT_CO = re.compile(r'当社|本[契提件]|本基本|本合意|本取引|本株|本資本|本件|同社|当該|および|及び|目的|[0-9]{4}年|\bFA\b')
+
+
+def flat_text(text):
+    """PDFの行末の改行をつなぐ。日本語どうしは詰め、英数字がからむ所は空白1つ"""
+    t = W.nfkc(text)
+    t = re.sub(r'(?<=[^\x00-\x7f])[ \t]*\n[ \t]*(?=[^\x00-\x7f])', '', t)
+    return re.sub(r'\s*\n\s*', ' ', t)
+
+
+def def_partner(text, filer, title):
+    """本文の定義「会社名(以下「呼び名」といいます)」から相手を1つだけ読む。(名前, None) か (None, 手動に回す理由)"""
+    if TITLE_NOT_NEW.search(W.nfkc(title)):
+        return None, '表題に「解消・延長・子会社・継続」などがあり、新しいつながりと決められない'
+    ft = flat_text(text)
+    sq = W.squash(text)
+    sq_title = W.squash(title)
+    found = {}
+    for m in DEF_RX.finditer(ft):
+        al = m.group('al').strip()
+        head = ft[max(0, m.start() - 160):m.start()]
+        op = max(head.rfind('('), head.rfind('（'))
+        if op < 0:
+            continue
+        seg = DEF_SPLIT.split(head[:op])[-1].strip()
+        if not seg or len(seg) > 60 or DEF_NOT_CO.search(seg) or DEF_NOT_CO.search(al):
+            continue
+        in_title = W.squash(al) in sq_title
+        if not (CORP_WORD.search(seg) or in_title):
+            continue
+        if re.search(r'[^\x00-\x7f]', seg):
+            seg = re.sub(r'\s+', '', seg)
+        ctx = ft[max(0, m.start() - 200):m.end() + 200]
+        if not DEF_CTX.search(ctx):
+            continue
+        found[W.squash(W.clean_name(seg)).lower()] = (seg, al, in_title)
+    others = {k: v for k, v in found.items() if not (same_co(v[0], filer) or same_co(v[1], filer))}
+    if not others:
+        return None, '本文に相手の定義(「以下「○○」といいます」)が見つからない'
+    if len(others) != 1:
+        return None, '本文に出す側以外の会社の定義が複数あって1つに決められない'
+    seg, al, in_title = next(iter(others.values()))
+    if sq.count(W.squash(al)) < 3:
+        return None, f'呼び名「{al}」が本文に3回以上出てこない'
+    nm = al if in_title else W.clean_name(seg)
+    if not name_ok(nm) or nm in ('当社', '子会社'):
+        return None, '名前が会社名として決められない'
+    return nm, None
+
+
 def ai_strength(text):
     """本文のAIらしさ。(AI企業名の数, AI系の語の数)"""
     t = W.nfkc(text)
@@ -153,14 +210,21 @@ def pick_deal(title, filer, mode, text):
         dt = None
     if mode != 'alliance':
         return dt, '表題', '' if dt else '表題から相手が決められない'
+    how_def = False
     nm, why = body_partner(text, filer, title)
+    if not nm and why in ('本文に「提携先の概要」の欄がない', '「提携先の概要」に名前が読み取れない', '名前が会社名として決められない'):
+        nm2, why2 = def_partner(text, filer, title)  # 概要の欄がないときは、本文の定義から読む
+        if nm2:
+            nm, why, how_def = nm2, '', True
+        else:
+            why = why + '。定義からも決められない(' + why2 + ')'
     if dt and nm:
         other = dt[1] if W.clean_name(dt[0]) == W.clean_name(filer) else dt[0]
         if not same_co(other, nm):
             return None, '', f'表題の相手({other})と本文の相手({nm})が合わない'
-        return dt, '表題と本文', ''
+        return dt, '表題と本文' + ('(定義)' if how_def else ''), ''
     if nm:
-        return (filer, nm, '出資' if '資本' in W.nfkc(title) else '提携'), '本文', ''
+        return (filer, nm, '出資' if '資本' in W.nfkc(title) else '提携'), '本文(定義)' if how_def else '本文', ''
     if dt:
         return dt, '表題', ''
     return None, '', why or '表題からも本文からも相手が決められない'

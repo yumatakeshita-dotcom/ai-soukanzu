@@ -29,6 +29,7 @@ import argparse, datetime, json, os, re, sys, time
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import ir_watch as W
+import mou_followup as MF
 
 FEEDS = ['https://www.hkexnews.hk/ncms/json/eds/lcisehk1relsde_1.json',
          'https://www.hkexnews.hk/ncms/json/eds/lcisehk1relsde_2.json']
@@ -38,6 +39,8 @@ HK_WANT = re.compile(r'acqui|invest|subscri|joint venture|cooperat|partnership|c
 HK_NOT = re.compile(r'dispos|financial assistance|finance lease|sale and leaseback|placing|rights issue|open offer|share buyback|repurchase|continuing connected|renewal|'
                     r'notes?\b|bonds?|loan|deposit|banking facilit|EPC|vessel|property management|appointment of|independent financial adviser|general mandate|'
                     r'scheme of arrangement|trading halt|resumption|profit warning|acquisition of shares by|acquisition of (?:the )?shares of the company', re.I)
+# 覚書(MOU)を入れた会社の発表は、契約・完了・失効の表題なら、HK_WANT に当たらなくても開く(mou_followup.py)
+FOLLOW_TITLE = re.compile(r'agreement|completion|terminat|lapse|supplemental|update|further announcement', re.I)
 # 本文の「AIらしさ」
 AI_CO_EN = re.compile(r'OpenAI|Anthropic|DeepSeek|NVIDIA|Moonshot|Zhipu|Z\.ai|MiniMax|Baichuan|StepFun|Mistral|xAI|Perplexity|Cohere|Cambricon|Moore Threads|MetaX|Biren|Enflame|Sakana', re.I)
 AI_WORD_EN = re.compile(r'artificial intelligence|\bAI\b|\bAIGC\b|large (?:language )?models?|\bLLMs?\b|\bGPUs?\b|data cent(?:re|er)s?|semiconductor|computing power|intelligent computing|machine learning|deep learning|humanoid|embodied intelligence', re.I)
@@ -250,11 +253,15 @@ def main():
     if not status['ok']:
         print('HKEXの一覧が読めない:', status.get('feeds_failed'))
         return
+    mou_st = MF.load_state()
+    MF.sync(mou_st)  # 覚書(MOU)の段階で入れた線を目録に登録(あとの発表で実行されたか確かめる。2026/11/24追加)
+    mou_codes = MF.codes(mou_st)
     short, dup = [], set()
     for x in rows:
         title = norm_title(x.get('title', ''))
         blob = f"{x.get('sTxt', '')} {title}"
-        if x.get('ext') != 'pdf' or HK_NOT.search(blob) or W.HK_EXCLUDE.search(title) or not (HK_WANT.search(title) or HK_WANT.search(x.get('sTxt', ''))):
+        follow = bool({(s_.get('sc') or '').lstrip('0').zfill(5) for s_ in (x.get('stock') or [])} & mou_codes) and bool(FOLLOW_TITLE.search(title))
+        if x.get('ext') != 'pdf' or HK_NOT.search(blob) or W.HK_EXCLUDE.search(title) or not (HK_WANT.search(title) or HK_WANT.search(x.get('sTxt', '')) or follow):
             continue
         m = re.match(r'(\d+)/(\d+)/(\d+)\s+(\d+):(\d+)', x.get('relTime', ''))
         day = datetime.date(int(m.group(3)), int(m.group(2)), int(m.group(1))) if m else today
@@ -272,7 +279,7 @@ def main():
                           'time': (m.group(4) + ':' + m.group(5)) if m else '', 'key': (tg or {}).get('key', ''), 'in_map': bool(tg),
                           'hk_cat': x.get('sTxt', ''), 'multi': len(x.get('stock') or []) > 1})
     print(f'一覧 {len(rows)} 件 → 気になる {len(short)} 件(上限 {a.max} 件を開く)')
-    items, skipped, fail, new_seen, money = [], [], [], [], []
+    items, skipped, fail, new_seen, money, follow_money = [], [], [], [], [], []
     for c in short[:a.max]:
         text, err = W.pdf_text(c['url'])
         new_seen.append(c['tkey'])
@@ -280,6 +287,11 @@ def main():
             fail.append(c)
             print('△ 開けず(再確認へ):', c['co'], c['title'][:30], err)
             continue
+        for mou, mrec in MF.observe(mou_st, c, text):  # 覚書の続きか(AIらしさに関係なく、同じ会社・相手なら確かめる)
+            print('◎ 覚書の続き:', mou['from'], '→', mou['to'], mrec['status'], '|', mrec['title'][:40])
+            fm = MF.followup_money(mou, mrec, amount_en(text))
+            if fm:
+                follow_money.append(fm)
         n_co, n_w = ai_strength_en(text)
         if not (n_co >= 1 or n_w >= 3):
             skipped.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': '本文にAI企業名・AI系の語がない(または少ない)'})
@@ -296,7 +308,7 @@ def main():
             note_extra = '。ファンドを通じた間接の出資(同社のファンドへの持分は一部)' if re.search(r"\bthe\s+fund\b", c['title'] + ' ' + text[:1500], re.I) else ''
             note_def = '。表題は相手を「Target Company」とだけ書いており、相手の名前は本文の定義から読んだ(英訳名)' if deal.get('to_from_definition') else ''
             note_mou = '。覚書(MOU)の段階で、実行は未確定' if re.search(r'memorandum of understanding|\bMOU\b|possible\s+(?:capital|investment|acquisition)', c['title'], re.I) else ''
-            money.append({'from': deal['from'], 'to': deal['to'], 'kind': deal['kind'], 'amount': deal['amount'], 'date': rec['d'], 'region': '香港',
+            money.append({'from': deal['from'], 'to': deal['to'], 'kind': deal['kind'], 'amount': deal['amount'], 'date': rec['d'], 'region': '香港', 'code': c['code'],
                           'note': f"{c['co']}のHKEXの発表「{c['title'][:70]}」で確認({rec['d']}。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合){note_extra}{note_def}{note_mou}。金額は開示書類にある場合のみ記載",
                           'src': [[f"HKEX {c['co']}の開示({rec['d']})", c['url']]], 'confidence': '開示'})
         items.append(rec)
@@ -306,6 +318,8 @@ def main():
         print(f'(dry) 本文を開いて確かめ済み {len(items)} 件・うち inbox/money に足す {len(money)} 件・関係なし {len(skipped)} 件・再確認へ {len(fail)} 件')
         for m in money:
             print('  money:', m['from'], '→', m['to'], m['kind'], m['amount'])
+        for m in follow_money:
+            print('  覚書の続き:', m['from'], '→', m['to'], m['kind'], m['mark'])
         return
     if fail:
         q = W.retry_load()
@@ -327,6 +341,10 @@ def main():
         md['items'] += [m for m in money if m['src'][0][1] not in have]
         json.dump(md, open(mp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         print('inbox/money に足した:', len(money), '→', mp)
+    MF.sync(mou_st)  # 今回足した覚書の線も登録
+    MF.save_state(mou_st)
+    if follow_money:
+        print('覚書の続きを足した:', MF.write_followups(follow_money, stamp))
     with open(W.SEEN, 'a', encoding='utf-8') as w:
         for k in new_seen:
             w.write(k + '\n')
