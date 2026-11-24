@@ -35,7 +35,7 @@ FILES = {
     'watch': [dict(f='inbox/watchdog/{d}*.md', hm=(10, 31), t='見張り役の記録')],
     'quality': [dict(f='inbox/quality/{d}*.json', hm=(9, 5), since=NEW6, t='品質チェック')],
     'hiring': [dict(f='inbox/moves/{d}-hiring.json', days=(6, 1, 4), hm=(8, 5), since=NEW6, t='採用・求人')],
-    'jp_alliance': [dict(f='inbox/money/{d}-jp.json', hm=(8, 11), since=NEW6, t='日本の提携')],
+    'jp_alliance': [dict(f='inbox/money/{d}-jp.json', days=(0, 2, 4), hm=(8, 11), since=NEW6, t='日本の提携')],
     'jp_hr': [dict(f='inbox/moves/{d}-jp-hr.json', hm=(8, 14), since=NEW6, t='日本の人事')],
     'jp_funding': [dict(f='inbox/money/{d}-jp-fund.json', hm=(8, 17), since=NEW6, t='日本の資金調達')],
     'datacenter': [dict(f='inbox/money/{d}-dc.json', days=(6, 2, 5), hm=(8, 20), since=NEW6, t='データセンター・電力')],
@@ -139,10 +139,23 @@ def evaluate(now):
     return out
 
 
+def retry_summary():
+    """適時開示のPDFが開けず、翌日以降に開き直す列(inbox/ir/retry.json)の件数(2026/11/24追加)。読むだけ。"""
+    try:
+        items = json.load(open(os.path.join(ROOT, 'inbox', 'ir', 'retry.json'), encoding='utf-8')).get('items', [])
+    except Exception:  # noqa
+        items = []
+    items = sorted(items, key=lambda x: (-x.get('tries', 0), x.get('first', '')))
+    return {'n_waiting': len(items),
+            'n_last_chance': sum(1 for x in items if x.get('tries', 0) >= 3),
+            'items': [{'co': x.get('co', ''), 'title': x.get('title', '')[:40], 'market': x.get('market', ''), 'tries': x.get('tries', 0),
+                       'first': x.get('first', '')} for x in items[:8]]}
+
+
 def write(now=None):
     now = now or datetime.datetime.now(JST)
     res = evaluate(now)
-    doc = {'date': now.date().isoformat(), 'at': now.strftime('%Y-%m-%d %H:%M'), 'tz': '日本時間', 'agents': res}
+    doc = {'date': now.date().isoformat(), 'at': now.strftime('%Y-%m-%d %H:%M'), 'tz': '日本時間', 'agents': res, 'retry': retry_summary()}
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(doc, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     return doc
@@ -157,6 +170,7 @@ def main():
     c = {}
     for v in doc['agents'].values():
         c[v['state']] = c.get(v['state'], 0) + 1
+    print(f'再確認待ち: {doc["retry"]["n_waiting"]} 件(最後の1回: {doc["retry"]["n_last_chance"]} 件)')
     print(f'{doc["at"]} 時点: ' + ' / '.join(f'{k} {n}' for k, n in sorted(c.items())))
     for k, v in doc['agents'].items():
         if v['state'] == 'ng':

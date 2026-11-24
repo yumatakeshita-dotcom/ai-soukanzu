@@ -22,6 +22,7 @@ PDFが開けなかったものは「見送り」にせず、ir_watch.py と同�
 使い方:
   python3 scripts/tdnet_scan.py            # 直近2営業日
   python3 scripts/tdnet_scan.py --days 3 --max 30 --dry
+  python3 scripts/tdnet_scan.py --kind alliance   # 日本の提携係: 提携・協業の発表(結果は inbox/ir/tdnet-scan-alliance-日付.json)
 """
 import argparse, datetime, json, os, re, sys, time
 
@@ -30,6 +31,9 @@ import ir_watch as W
 
 AI_WORDS = re.compile(r'AI|ＡＩ|人工知能|DX|ＤＸ|デジタル|データ|半導体|ロボ|ソフトウェア|ソフトウエア|情報|システム|テクノロジ|IT|ＩＴ|クラウド|サイバー|ネットワーク', re.I)
 BODY_AI = re.compile(r'AI|人工知能|DX|デジタル|データ|半導体|CDO|CIO|CTO|CAIO|最高(技術|情報|デジタル|データ)|情報システム|ロボ', re.I)
+# 提携モード(--kind alliance, 2026/11/24追加): 日本の提携係用。表題が提携・協業で、本文にAI企業名・AI系の語があるものだけ残す
+ALLI_TITLE = re.compile(r'業務提携|資本提携|資本業務提携|提携|協業|アライアンス|業務連携|共同開発|包括連携')
+ALLI_BODY = re.compile(r'OpenAI|Anthropic|Claude|ChatGPT|Gemini|Google|NVIDIA|エヌビディア|Microsoft|マイクロソフト|Mistral|Sakana|生成AI|生成ＡＩ|AI|人工知能|LLM|大規模言語|GPU|データセンター|半導体', re.I)
 TITLE_C = re.compile(r'CDO|CIO|CTO|CAIO|最高(技術|情報|デジタル|データ|AI)', re.I)
 
 
@@ -38,7 +42,11 @@ def main():
     ap.add_argument('--days', type=int, default=2)
     ap.add_argument('--max', type=int, default=30, help='1回に開くPDFの上限')
     ap.add_argument('--dry', action='store_true')
+    ap.add_argument('--kind', choices=['hr', 'alliance'], default='hr', help='hr=役員人事(既定) / alliance=資本業務提携・業務提携(日本の提携係用)')
     a = ap.parse_args()
+    alli = a.kind == 'alliance'
+    CAT = '提携' if alli else '役員人事'
+    BODY = ALLI_BODY if alli else BODY_AI
     os.makedirs(W.OUT, exist_ok=True)
     T = W.load_targets()
     seen = W.load_seen()
@@ -59,17 +67,24 @@ def main():
         for tm, code5, name, title, pdf in rows:
             code = W.nfkc(code5)
             code = code[:-1] if len(code) == 5 and code.endswith('0') else code
-            if code in T['JP']:
-                continue  # 相関図の会社は ir_watch.py の担当
             if 'TDNET|' + pdf in seen:
                 continue
-            if W.kind_of(title, W.JP_KINDS, W.JP_EXCLUDE) != '役員人事':
-                continue
-            nm = W.nfkc(name) + ' ' + W.nfkc(title)
-            if not (AI_WORDS.search(nm) or TITLE_C.search(W.nfkc(title))):
-                continue
+            if alli:
+                # 資本業務提携・出資・買収は、相関図の会社なら ir_watch.py の担当。表題だけの業務提携は相関図の会社でもここで見る
+                if W.kind_of(title, W.JP_KINDS, W.JP_EXCLUDE) in ('出資', '買収') and code in T['JP']:
+                    continue
+                if W.JP_EXCLUDE.search(W.nfkc(title)) or not ALLI_TITLE.search(W.nfkc(title)):
+                    continue
+            else:
+                if code in T['JP']:
+                    continue  # 相関図の会社は ir_watch.py の担当
+                if W.kind_of(title, W.JP_KINDS, W.JP_EXCLUDE) != '役員人事':
+                    continue
+                nm = W.nfkc(name) + ' ' + W.nfkc(title)
+                if not (AI_WORDS.search(nm) or TITLE_C.search(W.nfkc(title))):
+                    continue
             short.append({'market': 'TDnet(日本)', 'tkey': 'TDNET|' + pdf, 'code': code, 'co': name, 'co_list': name, 'title': title,
-                          'cat': '役員人事', 'url': 'https://www.release.tdnet.info/inbs/' + pdf, 'day': day, 'time': tm, 'key': ''})
+                          'cat': CAT, 'url': 'https://www.release.tdnet.info/inbs/' + pdf, 'day': day, 'time': tm, 'key': ''})
     print(f'一覧 {rows_n} 件 → 気になる {len(short)} 件(上限 {a.max} 件を開く)')
     items, skipped, fail, new_seen = [], [], [], []
     for c in short[:a.max]:
@@ -78,16 +93,17 @@ def main():
         if not text or len(text) <= 120:
             fail.append(c)
             print('△ 開けず(再確認へ):', c['co'], c['title'][:30], err)
-        elif not BODY_AI.search(W.nfkc(text)):
-            skipped.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': '本文にAI・DX・半導体などの語がない'})
+        elif not BODY.search(W.nfkc(text)):
+            skipped.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': '本文にAI企業名・AI・DX・半導体などの語がない'})
             print('× 関係なし:', c['co'], c['title'][:30])
         elif not W.date_ok(text, c['day']):
             skipped.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': '本文の日付が一覧と合わない'})
             print('× 日付:', c['co'], c['title'][:30])
         else:
             items.append({'d': str(c['day']), 'time': c['time'], 'market': c['market'], 'code': c['code'], 'co': c['co'], 'title': c['title'],
-                          'cat': '役員人事', 'url': c['url'], 'cf': '開示', 'snippet': W.ctx_snippet(text, '異動の内容'),
-                          'import': '記録のみ(人の名前・役職は本文を読んで確かめてから inbox/moves に足す)'})
+                          'cat': CAT, 'url': c['url'], 'cf': '開示', 'snippet': W.ctx_snippet(text, '提携' if alli else '異動の内容'),
+                          'import': ('記録のみ(提携の相手・内容は本文を読んで確かめてから inbox/money に足す)' if alli else
+                                     '記録のみ(人の名前・役職は本文を読んで確かめてから inbox/moves に足す)')})
             print('○', c['co'], c['title'][:40])
         time.sleep(0.5)
     if a.dry:
@@ -98,12 +114,12 @@ def main():
         q['items'] += [W.to_retry_item(c, 'PDFが開けない', tries=0) for c in fail if c['tkey'] not in have]
         W.retry_save(q)
     stamp = today.strftime('%Y-%m-%d')
-    p = os.path.join(W.OUT, f'tdnet-scan-{stamp}.json')
+    p = os.path.join(W.OUT, f'tdnet-scan-alliance-{stamp}.json' if alli else f'tdnet-scan-{stamp}.json')
     old = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else {'items': [], 'skipped': []}
     have = {x['url'] for x in old['items']}
     old['items'] += [x for x in items if x['url'] not in have]
     old['skipped'] = old.get('skipped', []) + skipped
-    old.update({'date': stamp, 'kind': 'ir-scan', 'list_rows': rows_n, 'shortlist': len(short),
+    old.update({'date': stamp, 'kind': 'ir-scan-alliance' if alli else 'ir-scan', 'list_rows': rows_n, 'shortlist': len(short),
                 'not_opened_over_limit': max(0, len(short) - a.max), 'retry_queued': len(fail)})
     json.dump(old, open(p, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     with open(W.SEEN, 'a', encoding='utf-8') as w:
