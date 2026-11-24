@@ -92,6 +92,11 @@ def cmd_check(path):
         if re.search(r'買い時|上がる|下がる|おすすめ銘柄', body): print('  ! 売買をすすめる言葉'); ok = False
     if '<!--X' not in t: print('X欄(<!--X--> 〜 <!--/X-->)がありません'); ok = False
     if re.search(r'!\[', t): print('  ! 画像の埋め込みがあります(転載しない)'); ok = False
+    # note本文の長さ(「## note(本文」から次の「## 出典の一覧」まで。空白を除いて数える。骨子だけの古い下書きには出さない)
+    m = re.search(r'## note\(本文.*?\n(.*?)(?=\n## 出典の一覧)', t, re.S)
+    if m:
+        n = len(re.sub(r'\s', '', m.group(1)))
+        print(f'note本文: {n}字', 'OK(2000字以上)' if n >= 2000 else '(2000字未満。土曜の本格版は2000〜4000字にする)')
     print('結果:', 'OK' if ok else '要直し')
     sys.exit(0 if ok else 1)
 
