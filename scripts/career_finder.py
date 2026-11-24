@@ -11,6 +11,7 @@
   python3 scripts/career_finder.py conflicts   # 対立・訴訟の2者と、もともと共通していた相手
   python3 scripts/career_finder.py coinvest    # 対立する2社の両方に出資している人・会社
   python3 scripts/career_finder.py chains [会社]  # 出資の連鎖
+  python3 scripts/career_finder.py ties "Elon Musk"  # 中心人物と二重三重につながる人
   python3 scripts/career_finder.py pick 日付    # 土曜の経歴の回の候補を、上の3つから混ぜて10人ほど出す
   どれも --out ファイル.md で書き出せる(inbox/careers/ に置く場合は足すだけ)
 
@@ -358,9 +359,37 @@ def cmd_chains(a, N, E, orgs, roles, names):
     return out
 
 
+def cmd_ties(a, N, E, orgs, roles, names):
+    """中心人物(例: Elon Musk)と、二重三重につながる人: 直接の線+同じ会社に所属した数+共通の相手の数で並べる"""
+    c = one(N, a.arg)
+    if c is None:
+        return ['人物が見つかりません: ' + a.arg]
+    adj = adjacency(N, E)
+    direct = collections.defaultdict(list)
+    for o, k, lab, since, ar in adj[c]:
+        if N[o]['t'] == 'p':
+            direct[o].append(f"{KIND_JA.get(k, k)}{':' + lab if lab else ''}")
+    mine = set(orgs.get(c, {}))
+    nb = {o for o, *_ in adj[c] if not PASSIVE.search(N[o]['n'])}
+    rows = []
+    for p in range(len(N)):
+        if p == c or N[p]['t'] != 'p':
+            continue
+        shared = mine & set(orgs.get(p, {}))
+        com = {o for o, *_ in adj[p] if o in nb and o != c} - shared
+        score = 3 * len(direct.get(p, [])) + 2 * len(shared) + len(com)
+        if len(direct.get(p, [])) + len(shared) >= 1 and score >= 3:
+            rows.append((-score, p, direct.get(p, []), sorted(N[o]['n'] for o in shared), sorted(N[o]['n'] for o in com)))
+    rows.sort()
+    out = [f"# {N[c]['n']} と二重三重につながる人(直接×3+同じ会社×2+共通の相手×1。上位{a.top})", '']
+    for sc, p, d, sh, com in rows[:a.top]:
+        out.append(f"- **{label(N[p])}** {-sc}点 … 直接:{'、'.join(d) or 'なし'} / 同じ会社:{'、'.join(sh) or 'なし'} / 共通の相手:{'、'.join(com[:6]) or 'なし'}")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description='人物の経歴の回の材料を探す(読むだけ)')
-    ap.add_argument('cmd', choices=['hoppers', 'diaspora', 'bridges', 'person', 'pick', 'between', 'conflicts', 'coinvest', 'chains'])
+    ap.add_argument('cmd', choices=['hoppers', 'diaspora', 'bridges', 'person', 'pick', 'between', 'conflicts', 'coinvest', 'chains', 'ties'])
     ap.add_argument('arg', nargs='?', default='')
     ap.add_argument('arg2', nargs='?', default='')
     ap.add_argument('--min', type=int, default=4)
@@ -368,12 +397,12 @@ def main():
     ap.add_argument('--max-people', type=int, default=2)
     ap.add_argument('--out')
     a = ap.parse_args()
-    if a.cmd in ('diaspora', 'person') and not a.arg:
+    if a.cmd in ('diaspora', 'person', 'ties') and not a.arg:
         sys.exit('会社名(または人物名)を付けてください')
     if a.cmd == 'pick' and not a.arg:
         a.arg = datetime.date.today().isoformat()
     N, E, orgs, roles, names = load()
-    f = {'hoppers': cmd_hoppers, 'diaspora': cmd_diaspora, 'bridges': cmd_bridges, 'person': cmd_person, 'pick': cmd_pick, 'between': cmd_between, 'conflicts': cmd_conflicts, 'coinvest': cmd_coinvest, 'chains': cmd_chains}[a.cmd]
+    f = {'hoppers': cmd_hoppers, 'diaspora': cmd_diaspora, 'bridges': cmd_bridges, 'person': cmd_person, 'pick': cmd_pick, 'between': cmd_between, 'conflicts': cmd_conflicts, 'coinvest': cmd_coinvest, 'chains': cmd_chains, 'ties': cmd_ties}[a.cmd]
     text = '\n'.join(f(a, N, E, orgs, roles, names))
     if a.out:
         if os.path.exists(a.out):
