@@ -12,16 +12,16 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- Microsoft → 就任 → (2024-03-19)
-- Microsoft → 就任 → (2024-03-19)
-- Cerebras Systems → 入社 → (2024-02-14)
-- Cohere → 入社 → (2024-01-23)
-- Tenstorrent → 入社 → (2024-02-21)
-- Google Cloud → 就任 → (2024-02-20)
-- Figure AI → 入社 → (2024-01-10)
-- Groq → 入社 → (2024-03-05)
-- SambaNova Systems → 入社 → (2024-01-09)
-- Intel → 提携 → UMC (United Microelectronics Corporation)(2024-01-25)
+- Microsoft → 就任 → (2024-03-19)【除外】
+- Microsoft → 就任 → (2024-03-19)【除外】
+- Cerebras Systems → 入社 → (2024-02-14)【保留】
+- Cohere → 入社 → (2024-01-23)【除外】
+- Tenstorrent → 入社 → (2024-02-21)【保留】
+- Google Cloud → 就任 → (2024-02-20)【合格】
+- Figure AI → 入社 → (2024-01-10)【保留】
+- Groq → 入社 → (2024-03-05)【保留】
+- SambaNova Systems → 入社 → (2024-01-09)【保留】
+- Intel → 提携 → UMC (United Microelectronics Corporation)(2024-01-25)【保留】
 
 記録ファイル: inbox/gemini/2026-11-25-2.json / 2026-11-25-2.md
 
