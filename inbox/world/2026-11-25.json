@@ -1,0 +1,4 @@
+{"date":"2026-11-25","kind":"world","items":[
+{"type":"更新","country":"オーストラリア","title":"ABN一括データのページ更新日は2026/4/1","detail":"data.gov.auのページ更新は2026/4/1、第1部の更新は2025/12/17。実ファイルの日付はPCで要確認。","url":"https://data.gov.au/data/dataset/abn-bulk-extract","license":"CC BY 3.0 AU","src":[["data.gov.au ABN Bulk Extract(2026-11-25確認)","https://data.gov.au/data/dataset/abn-bulk-extract"]],"confidence":"公式"},
+{"type":"新しい国","country":"香港","title":"香港は新規登記会社の一覧のみ無料公開","detail":"data.gov.hkに新設・社名変更の週次一覧(CSV)。全社の一括は無く、ICRISは有料。","url":"https://data.gov.hk/en-data/dataset/hk-cr-crdata-list-newly-registered-companies-2526","license":"data.gov.hk利用条件(要確認)","src":[["data.gov.hk 新規登記会社一覧(2026-05更新)","https://data.gov.hk/en-data/dataset/hk-cr-crdata-list-newly-registered-companies-2526"]],"confidence":"公式"}
+],"notes":"台湾data.gov.twの最新日は今回も確認できず。韓国・マレーシアは一括無料公開の確証なし(マレーシアは有料の情報あり、業者ページのみ)。台湾・豪の新しい大型AI資金調達は日付が確かなものが見つからず、前回の富邦・Future Secure AI以外は候補なし。"}
