@@ -59,7 +59,7 @@ def main(days=3):
                               "words": kws[:6], "companies": cos[:6]})
     leads.sort(key=lambda x: x["published"], reverse=True)
     out = os.path.join(ROOT, "inbox", "media"); os.makedirs(out, exist_ok=True)
-    today = time.strftime("%Y-%m-%d"); base = os.path.join(out, today); k = 2
+    today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)).strftime("%Y-%m-%d"); base = os.path.join(out, today); k = 2
     if os.path.exists(base + ".json"):
         old = json.load(open(base + ".json", encoding="utf-8")).get("leads", [])
         if [l["url"] + l["title"] for l in old] == [l["url"] + l["title"] for l in leads]:
