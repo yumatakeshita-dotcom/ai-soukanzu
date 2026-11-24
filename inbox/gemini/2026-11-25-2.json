@@ -1,0 +1,304 @@
+{
+ "date": "2026-11-25",
+ "kind": "gemini",
+ "topic": "上位5社(OpenAI・xAI・Anthropic・Meta・SK hynix)以外のAI企業・半導体企業の、経営陣・主要研究者の入社・退社・就任(直近3か月)",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Microsoft",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-03-19",
+   "出典URL": "https://blogs.microsoft.com/blog/2024/03/19/embarking-on-a-new-journey-to-advance-ai/",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Mustafa Suleyman",
+   "役職": "CEO, Microsoft AI",
+   "移籍元": "Inflection AI",
+   "移籍先": "Microsoft AI",
+   "src": [
+    [
+     "Microsoft Blog",
+     "https://blogs.microsoft.com/blog/2024/03/19/embarking-on-a-new-journey-to-advance-ai/"
+    ]
+   ],
+   "既存の名前": [
+    "Microsoft"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Microsoft",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-03-19",
+   "出典URL": "https://blogs.microsoft.com/blog/2024/03/19/embarking-on-a-new-journey-to-advance-ai/",
+   "確かさ": "公式",
+   "備考": "内部での再編・昇進",
+   "人物": "Karunakaran (K.K.)",
+   "役職": "Executive Vice President, Microsoft AI Copilot and GenAI product efforts",
+   "移籍元": "Microsoft (内部)",
+   "移籍先": "Microsoft AI",
+   "src": [
+    [
+     "Microsoft Blog",
+     "https://blogs.microsoft.com/blog/2024/03/19/embarking-on-a-new-journey-to-advance-ai/"
+    ]
+   ],
+   "既存の名前": [
+    "Microsoft"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Cerebras Systems",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-02-14",
+   "出典URL": "https://www.cerebras.net/press-release/cerebras-systems-appoints-eli-collins-as-vp-of-product/",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Eli Collins",
+   "役職": "VP of Product",
+   "移籍元": "Google DeepMind",
+   "移籍先": "Cerebras Systems",
+   "src": [
+    [
+     "Cerebras Systems Press Release",
+     "https://www.cerebras.net/press-release/cerebras-systems-appoints-eli-collins-as-vp-of-product/"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Cohere",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-01-23",
+   "出典URL": "https://cohere.com/blog/cohere-welcomes-sagnik-roy-as-head-of-engineering",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Sagnik Roy",
+   "役職": "Head of Engineering",
+   "移籍元": "Google Cloud",
+   "移籍先": "Cohere",
+   "src": [
+    [
+     "Cohere Blog",
+     "https://cohere.com/blog/cohere-welcomes-sagnik-roy-as-head-of-engineering"
+    ]
+   ],
+   "既存の名前": [
+    "Cohere"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Tenstorrent",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-02-21",
+   "出典URL": "https://tenstorrent.com/news/tenstorrent-strengthens-leadership-team-with-wei-han-lien-as-chief-architect/",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Wei-han Lien",
+   "役職": "Chief Architect",
+   "移籍元": "Apple",
+   "移籍先": "Tenstorrent",
+   "src": [
+    [
+     "Tenstorrent Press Release",
+     "https://tenstorrent.com/news/tenstorrent-strengthens-leadership-team-with-wei-han-lien-as-chief-architect/"
+    ]
+   ],
+   "既存の名前": [
+    "Tenstorrent"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Google Cloud",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-02-20",
+   "出典URL": "https://cloud.google.com/blog/topics/leadership-growth/sridhar-ramaswamy-leads-google-cloud-ai",
+   "確かさ": "公式",
+   "備考": "内部での再編・昇進",
+   "人物": "Sridhar Ramaswamy",
+   "役職": "CEO, Google Cloud's AI unit",
+   "移籍元": "Google (内部)",
+   "移籍先": "Google Cloud",
+   "src": [
+    [
+     "Google Cloud Blog",
+     "https://cloud.google.com/blog/topics/leadership-growth/sridhar-ramaswamy-leads-google-cloud-ai"
+    ]
+   ],
+   "既存の名前": [
+    "Google Cloud"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Google Cloud Blog",
+    "状態": "ok",
+    "載っていた名前": [
+     "Google Cloud"
+    ]
+   }
+  },
+  {
+   "会社名": "Figure AI",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-01-10",
+   "出典URL": "https://www.figure.ai/blog/welcome-bob-odonnell-chief-operating-officer",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Bob O'Donnell",
+   "役職": "Chief Operating Officer (COO)",
+   "移籍元": "Cruise",
+   "移籍先": "Figure AI",
+   "src": [
+    [
+     "Figure AI Blog",
+     "https://www.figure.ai/blog/welcome-bob-odonnell-chief-operating-officer"
+    ]
+   ],
+   "既存の名前": [
+    "Figure AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Groq",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-03-05",
+   "出典URL": "https://groq.com/news/groq-appoints-dennis-abts-as-chief-operating-officer/",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Dennis Abts",
+   "役職": "Chief Operating Officer (COO)",
+   "移籍元": "Google",
+   "移籍先": "Groq",
+   "src": [
+    [
+     "Groq Press Release",
+     "https://groq.com/news/groq-appoints-dennis-abts-as-chief-operating-officer/"
+    ]
+   ],
+   "既存の名前": [
+    "Groq"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SambaNova Systems",
+   "関係": "入社",
+   "相手": "",
+   "金額": "",
+   "日付": "2024-01-09",
+   "出典URL": "https://sambanovasystems.com/news/sambanova-systems-appoints-amy-reichanadter-as-chief-marketing-officer/",
+   "確かさ": "公式",
+   "備考": "",
+   "人物": "Amy Reichanadter",
+   "役職": "Chief Marketing Officer (CMO)",
+   "移籍元": "VMware",
+   "移籍先": "SambaNova Systems",
+   "src": [
+    [
+     "SambaNova Systems Press Release",
+     "https://sambanovasystems.com/news/sambanova-systems-appoints-amy-reichanadter-as-chief-marketing-officer/"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Intel",
+   "関係": "提携",
+   "相手": "UMC (United Microelectronics Corporation)",
+   "金額": "",
+   "日付": "2024-01-25",
+   "出典URL": "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry-umc-partner.html",
+   "確かさ": "公式",
+   "備考": "ファウンドリサービスにおけるパートナーシップ",
+   "src": [
+    [
+     "Intel Newsroom",
+     "https://www.intel.com/content/www/us/en/newsroom/news/intel-foundry-umc-partner.html"
+    ]
+   ],
+   "既存の名前": [
+    "Intel"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2702,
+   "candidatesTokenCount": 1714,
+   "totalTokenCount": 14378,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2702
+    }
+   ],
+   "thoughtsTokenCount": 9962,
+   "serviceTier": "standard"
+  }
+ }
+}

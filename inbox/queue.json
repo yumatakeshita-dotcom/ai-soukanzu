@@ -48,10 +48,18 @@
    "theme": "上位5社(OpenAI・xAI・Anthropic・Meta・SK hynix)以外のAI企業・半導体企業の、経営陣・主要研究者の入社・退社・就任(直近3か月)",
    "reason": "人の動きが上位5社に偏っているため(2026/11/20の集計)",
    "priority": 3,
-   "status": "未",
-   "last_researched": null,
-   "attempts": 0,
-   "history": [],
+   "status": "調査済",
+   "last_researched": "2026-11-25",
+   "attempts": 1,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "result": "調査済",
+     "file": "inbox/gemini/2026-11-25-2.md",
+     "note": "Geminiの候補10件",
+     "items": 10
+    }
+   ],
    "added": "2026-11-20"
   },
   {

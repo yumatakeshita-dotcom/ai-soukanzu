@@ -1,0 +1,236 @@
+{
+ "date": "2026-11-25",
+ "source": "inbox/gemini/2026-11-25.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Applied Optoelectronics (AOI)",
+    "関係": "取引",
+    "相手": "Tier-1 Hyperscale Data Center Customer (unnamed)",
+    "金額": "$2.2 billion",
+    "日付": "2026-11-24",
+    "出典URL": "https://www.aoi-inc.com/newsroom/applied-optoelectronics-announces-long-term-agreement-with-leading-tier-1-hyperscale-data-center-customer/",
+    "確かさ": "公式",
+    "備考": "800Gトランシーバーとレーザーダイオードの長期契約 (binding minimums)",
+    "src": [
+     [
+      "Applied Optoelectronics Newsroom",
+      "https://www.aoi-inc.com/newsroom/applied-optoelectronics-announces-long-term-agreement-with-leading-tier-1-hyperscale-data-center-customer/"
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.aoi-inc.com/newsroom/applied-optoelectronics-announces-long-term-agreement-with-leading-tier-1-hyperscale-data-center-customer/"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "SpaceX",
+    "関係": "取引",
+    "相手": "WHCO (Saturn Funding Trust)",
+    "金額": "$43 billion",
+    "日付": "2026-11-22",
+    "出典URL": "https://www.tomshardware.com/tech-industry/gpus/lenders-back-space-xs-dollar43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee",
+    "確かさ": "報道",
+    "備考": "Nvidia GPUの5年間ファイナンスリース契約",
+    "src": [
+     [
+      "Tom's Hardware",
+      "https://www.tomshardware.com/tech-industry/gpus/lenders-back-space-xs-dollar43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee"
+     ]
+    ],
+    "既存の名前": [
+     "SpaceX"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.tomshardware.com/tech-industry/gpus/lenders-back-space-xs-dollar43-billion-nvidia-gpu-deal-but-worry-the-collateral-could-end-up-in-orbit-making-it-impossible-to-reclaim-if-musk-defaults-five-year-hell-or-high-water-lease-may-lack-a-written-earth-only-guarantee"
+    },
+    "dup": "「SpaceX」の同じころ(2026-11-22)の同じ種類の出来事がすでにある(site/data/finds.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「SpaceX」の同じころ(2026-11-22)の同じ種類の出来事がすでにある(site/data/finds.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Anthropic",
+    "関係": "出資/提携",
+    "相手": "AMD, Broadcom, Google, Micron, Microsoft, Nvidia, TSMC",
+    "金額": "$26 billion",
+    "日付": "2026-11-21",
+    "出典URL": "https://www.forbes.com/sites/martineparis/2026/11/21/anthropic-ipo-amazon-google-and-the-art-of-the-ai-cloud-deal/",
+    "確かさ": "報道",
+    "備考": "IPOに合わせたプライベートプレースメント（チップ、コンピューティングインフラ、流通の提携を含む）",
+    "src": [
+     [
+      "Forbes",
+      "https://www.forbes.com/sites/martineparis/2026/11/21/anthropic-ipo-amazon-google-and-the-art-of-the-ai-cloud-deal/"
+     ]
+    ],
+    "既存の名前": [
+     "Anthropic"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.forbes.com/sites/martineparis/2026/11/21/anthropic-ipo-amazon-google-and-the-art-of-the-ai-cloud-deal/"
+    },
+    "dup": "「Anthropic」と「Broadcom」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「Anthropic」と「Broadcom」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-23",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-jensen-huang-reinstated-as-president-and-ceo",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "Jensen Huang",
+    "役職": "CEO",
+    "移籍元": "Nvidia (辞任)",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "NVIDIA Newsroom",
+      "https://nvidianews.nvidia.com/news/nvidia-announces-jensen-huang-reinstated-as-president-and-ceo"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "News Archive | NVIDIA Newsroom",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-announces-jensen-huang-reinstated-as-president-and-ceo",
+     "names_on_page": [
+      "Nvidia",
+      "Jensen Huang"
+     ]
+    },
+    "dup": "「Nvidia」と「Jensen Huang」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Jensen Huang」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Dell, HPE, Lenovo, Supermicro",
+    "関係": "取引",
+    "相手": "AI Server buyers",
+    "金額": "",
+    "日付": "2026-11-22",
+    "出典URL": "https://explainx.ai/blog/ai-server-repricing-dell-hpe-lenovo-supermicro-reportedly-hike-signed-deals",
+    "確かさ": "報道",
+    "備考": "AIサーバー契約における価格の大幅引き上げを要求",
+    "src": [
+     [
+      "explainx.ai Blog (Financial Timesを引用)",
+      "https://explainx.ai/blog/ai-server-repricing-dell-hpe-lenovo-supermicro-reportedly-hike-signed-deals"
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://explainx.ai/blog/ai-server-repricing-dell-hpe-lenovo-supermicro-reportedly-hike-signed-deals"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}

@@ -88,3 +88,7 @@
 {"at": "2026-11-24T07:09:51+00:00", "model": "gemini-2.5-flash", "result": "429", "in": null, "out": null}
 {"at": "2026-11-24T07:10:06+00:00", "model": "gemini-flash-latest", "result": "503", "in": null, "out": null}
 {"at": "2026-11-24T07:10:26+00:00", "model": "-", "result": "cap", "in": null, "out": null}
+{"at": "2026-11-24T23:24:40+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2675, "out": 1210}
+{"at": "2026-11-24T23:25:40+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2702, "out": 1714}
+{"at": "2026-11-24T23:26:05+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 359, "out": 1477}
+{"at": "2026-11-24T23:26:21+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 357, "out": 1663}
