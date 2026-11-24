@@ -20,6 +20,8 @@
 
 4. 【PR出し済み 2026-11-24】日本の提携係にTDnet(`tdnet_scan.py --kind alliance`)と、調査エージェント一覧に再確認待ち件数。PR #125(TDnet人事)の上に積んでいる
 
+- 11/24(PR #127、#126の上に積んだ): `tdnet_scan.py` に `--kind invest`(相関図にない会社の出資・買収)を追加。alliance と invest は、条件がそろったものを `inbox/money/日付-tdnet.json` に自動で足す(条件は docs/ir_watch.md)
+
 ## 決めたこと・約束ごと
 - データは足すだけで消さない。ファイルの削除・上書きは確認する
 - 作業前に git pull。アーティファクトは直接直さない(正本はこのリポジトリ)
@@ -33,7 +35,7 @@
 - inbox/watchdog/ の記録で、毎朝の係が動いたか分かる
 
 ## 変更したファイル（直近）
-- HANDOFF.md(このファイルのみ。リサーチ成果物はリポジトリ外の受け渡し置き場にある)
+- scripts/tdnet_scan.py, docs/ir_watch.md, docs/agents.json(+作り直した agents.md・site/agents/index.html), HANDOFF.md
 
 ## 最終更新
 - 日時：2026-11-24

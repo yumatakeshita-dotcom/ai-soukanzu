@@ -175,7 +175,7 @@ Gemini+Google検索で新しいつながりを探し、機械で出典を確か�
 - 出力先: `inbox/money/日付-jp.json`、`inbox/moves/日付-jp.json(人の動きがあるとき)`、inbox/ir/tdnet-scan-alliance-日付.json(適時開示で拾った提携の記録。本文で確かめてから inbox/money に足す)
 - 上限・決まり: Geminiは使わない(Gemini係の木曜テーマ「日本」と重ねない)。発表のページを開いて確かめたものだけ。
 - 定期タスク: 【日本の提携係】日本の大企業とAI企業の提携 月・水・金 v3(TDnetつき)(月・水・金 8:11、`trig_01KK7xdTxMGFbaQbphzB9YF7`)
-- 補足: 出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。
+- 補足: 出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。 2026/11/24 その2: 表題から相手が決まり、会社・日付・相手が本文で確かめられ、AIらしさが十分なものは `inbox/money/日付-tdnet.json` に自動で足す(出資・買収は `--kind invest` で相関図にない会社も見る。条件は docs/ir_watch.md)。
 
 ### 日本の人事係
 
