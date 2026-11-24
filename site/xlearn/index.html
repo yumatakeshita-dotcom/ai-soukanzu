@@ -20,13 +20,21 @@ blockquote{border-left:3px solid var(--line);padding-left:12px;color:var(--fg)}o
 .foot{font-size:12px;color:var(--muted)}
 </style></head><body><div class="wrap">
 <h1>英語のAI新着 日本語解説</h1>
-<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/21 / 出典つきのものだけ載せています。</p>
+<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/24 / 出典つきのものだけ載せています。</p>
 <details class="paste"><summary>気になる投稿を貼って、訳・解説してもらう</summary>
 <p class="lead">投稿のURLか本文を貼ると、Claude/ChatGPTに渡す依頼文ができます。コピーして貼り付けてください(このページ自体は翻訳できないため)。</p>
 <textarea id="pin" rows="4" placeholder="https://x.com/... または英語の本文"></textarea>
 <button id="mk">依頼文を作ってコピー</button><pre id="out" hidden></pre></details>
 <div class="bar" id="bar"></div>
 <div id="list">
+<article class="card" data-co="OpenAI">
+<div class="meta"><span class="co">OpenAI</span><span class="kind">新機能</span><span>2026-11-23</span><span class="cf cf-公式">公式</span></div>
+<h2>OpenAIとCisco、Linuxを止めずに守るオープンソース「Shirudo」を発表</h2><p class="en">OpenAI and Cisco introduce Shirudo</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>OpenAIとCiscoは、Shirudoを公開します。パッチ(修正)を配るあいだ、動いているLinuxシステムを守るためのオープンソースの仕組みです。管理者はパッチの適用や再起動を待たずに守りを入れられます。管理された実験では、Codexが作った『シールド(一時的な守り)』が、動いているElasticsearchへのJava4Shell攻撃の試みを、再起動なしで防ぎました。</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>脆弱性が見つかってから修正を全システムに配るまでには数日〜数週間かかります。Shirudoは、その間だけ『攻撃につながる動き』をLinuxの内部(eBPFという仕組み)で止める小さな守り(シールド)を入れ、サービスは止めずに動かし続ける道具です。管理者が承認してから適用し、シールドには電子署名が付き、TPMという部品で『いつ何を入れたか』の記録を確かめられるとされています。OpenAIの発表では、Codexでシールドを作る例が示されています。効果は公式の1回の管理された実験の説明で、一般的な効果の保証ではありません。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>GitHubのshirudo-dev/shirudoでコードを見る</li><li>公式ページにあるLinux Plumbers Conferenceの技術解説(動画)で、シールドの適用と確認の流れを見る</li></ol><p class="note">導入手順の詳細は公式ページ本文では確認していません。GitHubの中身は未確認です。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://openai.com/index/introducing-shirudo/" rel="noopener" target="_blank">OpenAI: OpenAI and Cisco introduce Shirudo(2026/11/23)</a><a href="https://github.com/shirudo-dev/shirudo" rel="noopener" target="_blank">GitHub: shirudo-dev/shirudo(公式ページからのリンク)</a></div>
+</article>
 <article class="card" data-co="Anthropic">
 <div class="meta"><span class="co">Anthropic</span><span>2026-11-21</span><span class="cf cf-報道">報道</span></div>
 <h2>「プロンプトの工夫はもう古い」と話すAnthropic社員の動画(Xの紹介投稿)</h2><p class="en">Post: an Anthropic engineer says &quot;prompt engineering is basically obsolete&quot; (video)</p>

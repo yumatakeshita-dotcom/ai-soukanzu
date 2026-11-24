@@ -1,0 +1,59 @@
+{
+ "items": [
+  {
+   "company": "Anthropic",
+   "title": "Enterprise Frontier Safeguards",
+   "date": "2026-11-23",
+   "what_en": "Anthropic launched an early version of a new safety system that enables enterprise customers using its Mythos and Fable AI models to maintain control of their data by storing prompts and responses on their own cloud computing services, rather than Anthropic's infrastructure. The system includes 15-minute scans for potential attacks and automated alerts for customers.",
+   "how_to_try": "Enterprise customers using Anthropic's Mythos and Fable AI models can choose to retain their data on their own systems.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoUpwGH8B4yaywrau0wXojitKhkoNRQobMlwPBo-KaCteG0n3cUXw9YWA55TiWUyQIPAQ1rEZowtnllSqhgz8hDAiMsTG7PmByaKjfM_BH-ewD1ea3WQFXdFLyyjrh2J52bKqgFDQVcvJqKTWEZFfO8GxbaJXay4efqi5bUMEvjbIIRKHLVvwHt73i8NSwzhwDKt_pzwl9k7drjib6ZWeGNB8xqURiN6P-KJA12zQSDxHF6so"
+  },
+  {
+   "company": "OpenAI & Cisco",
+   "title": "Shirudo for Linux Security",
+   "date": "2026-11-23",
+   "what_en": "OpenAI and Cisco introduced Shirudo, an open-source runtime designed to protect Linux systems by monitoring and constraining system behavior during the critical period when security patches are being rolled out. It intercepts potentially malicious activity targeting known vulnerabilities, allowing operations to continue without taking systems offline.",
+   "how_to_try": "Shirudo is available immediately through GitHub under an open-source license.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp6YzmBnbpzWzBou0BWn3kPPEHwFJCit3T01FQGSHomVLD8yl4JvKTnGyqGCG4Le9zBc8dDVzIZlMvdn5NAq8om7jVUEghGBJUpMKTyjnYL-Tozaw6tLaydhvArR2uZz-L4WMYlYhDSc3QHDyGI6KRpJiFU0B_4VCPv3kVWqM"
+  },
+  {
+   "company": "IBM (on Hugging Face)",
+   "title": "IBM Streamhouse Time-Series Models Launch",
+   "date": "2026-11-24",
+   "what_en": "IBM Streamhouse Time-Series Models, which are AI technology models for time-series analysis, have been launched on Hugging Face.",
+   "how_to_try": "",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn-IIbU7k-rpghemOX2ZQqhbDhWID66iI3Md6omc1ZWZakxsZHrEjVpj0u9vFZT3BGudapSVQaofzG4ESOO3GQAOu2iTWRgiXoslkY83rTyJKe8KBLjBP2gsnsQJ0JSqAokukFMDn8psz1KD4vZgoJwbWEiIqULxTUZ4M2OQ=="
+  },
+  {
+   "company": "Google",
+   "title": "Search AI Mode Integrates Drive and Wallet",
+   "date": "2026-11-24",
+   "what_en": "Google Search's AI Mode now includes integrations with Google Drive and Google Wallet, suggesting enhanced search capabilities that can access a user's personal documents and financial information.",
+   "how_to_try": "",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn-IIbU7k-rpghemOX2ZQqhbDhWID66iI3Md6omc1ZWZakxsZHrEjVpj0u9vFZT3BGudapSVQaofzG4ESOO3GQAOu2iTWRgiXoslkY83rTyJKe8KBLjBP2gsnsQJ0JSqAokukFMDn8psz1KD4vZgoJwbWEiIqULxTUZ4M2OQ=="
+  }
+ ],
+ "grounding": [
+  [
+   "investing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoUpwGH8B4yaywrau0wXojitKhkoNRQobMlwPBo-KaCteG0n3cUXw9YWA55TiWUyQIPAQ1rEZowtnllSqhgz8hDAiMsTG7PmByaKjfM_BH-ewD1ea3WQFXdFLyyjrh2J52bKqgFDQVcvJqKTWEZFfO8GxbaJXay4efqi5bUMEvjbIIRKHLVvwHt73i8NqSwzhwDKt_pzwl9k7drjib6ZWeGNB8xqURiN6P-KJA12zQSDxHF6so"
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFp6YzmBnbpzWzBou0BWn3kPPEHwFJCit3T01FQGSHomVLD8yl4JvKTzGyqGCG4Le9zBc8dDVzIZlMvdn5NAq8om7jVUEghGBJUpMKTyjnYL-Tozaw6tLaydhvArR2uZz-L4WMYlYhDSc3QHDyGI6KRpJiFU0B_4VCPv3kVWqM="
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn-IIbU7k-rpghemOX2ZQqhbDhWID66iI3Md6omc1ZWZakxsZHrEjVpj0u9vFZT3BGudapSVQaofzG4ESOO3GQAOu2iTWRgiXoslkY83rTyJKe8KBLjBP2gsnsQJ0JSqAokukFMDn8psz1KD4vZgoJwbWEiIqULxTUZ4M2OQ=="
+  ]
+ ],
+ "model": "gemini-2.5-flash"
+}

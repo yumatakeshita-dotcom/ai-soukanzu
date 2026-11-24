@@ -228,6 +228,33 @@
    ],
    "confidence": "公式",
    "checked": "2026-11-21"
+  },
+  {
+   "id": "2026-11-23-openai-cisco-shirudo",
+   "company": "OpenAI",
+   "kind": "新機能",
+   "date": "2026-11-23",
+   "title_en": "OpenAI and Cisco introduce Shirudo",
+   "title_ja": "OpenAIとCisco、Linuxを止めずに守るオープンソース「Shirudo」を発表",
+   "translation_ja": "OpenAIとCiscoは、Shirudoを公開します。パッチ(修正)を配るあいだ、動いているLinuxシステムを守るためのオープンソースの仕組みです。管理者はパッチの適用や再起動を待たずに守りを入れられます。管理された実験では、Codexが作った『シールド(一時的な守り)』が、動いているElasticsearchへのJava4Shell攻撃の試みを、再起動なしで防ぎました。",
+   "what_ja": "脆弱性が見つかってから修正を全システムに配るまでには数日〜数週間かかります。Shirudoは、その間だけ『攻撃につながる動き』をLinuxの内部(eBPFという仕組み)で止める小さな守り(シールド)を入れ、サービスは止めずに動かし続ける道具です。管理者が承認してから適用し、シールドには電子署名が付き、TPMという部品で『いつ何を入れたか』の記録を確かめられるとされています。OpenAIの発表では、Codexでシールドを作る例が示されています。効果は公式の1回の管理された実験の説明で、一般的な効果の保証ではありません。",
+   "howto": [
+    "GitHubのshirudo-dev/shirudoでコードを見る",
+    "公式ページにあるLinux Plumbers Conferenceの技術解説(動画)で、シールドの適用と確認の流れを見る"
+   ],
+   "howto_note": "導入手順の詳細は公式ページ本文では確認していません。GitHubの中身は未確認です。",
+   "sources": [
+    [
+     "OpenAI: OpenAI and Cisco introduce Shirudo(2026/11/23)",
+     "https://openai.com/index/introducing-shirudo/"
+    ],
+    [
+     "GitHub: shirudo-dev/shirudo(公式ページからのリンク)",
+     "https://github.com/shirudo-dev/shirudo"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-24"
   }
  ]
 }
