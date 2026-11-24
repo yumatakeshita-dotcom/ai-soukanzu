@@ -15,6 +15,8 @@
 
 - 11/24(PR #125〜127の上に積んだ分): TDnetの提携は、表題が長くても本文の「提携先の概要」から相手を読めるようにした(試験 scripts/test_tdnet_body.py、34件で誤り0)。HKEXは scripts/hkex_scan.py を新設し、全社ぶんの出資・買収・提携を本文で確かめたものだけ inbox/money/日付-hkex.json に自動で足す(ir_watch.py の最後に自動で動く。試験 scripts/test_hkex_scan.py)。詳しくは docs/ir_watch.md
 
+- 11/24: 経歴が薄い有名人物の一覧(scripts/person_thin.py)と、確かめた経歴を各図に足す道具(scripts/person_fill.py)を追加。28人を足した。宿題リストに「薄い人物」を足した。詳しくは docs/people_thin.md。PRはマージ待ち
+
 ## 次にやること（優先順）
 1. 【マージ済み 2026-11-24】日付ずれ修正PR #122(Museレビュー済み→ユーザーの指示でマージ、merge commit c50082a)。残る確認: 翌朝、見張り役の「動画・音声係」が緑になるか。注意点: scripts/__pycache__ の .pyc が混ざっている(実害なし、.gitignore検討)
 2. 未マージの古い下書きPR(#57 Stripe課金、#42 お金の流れv5、#10 有料サービス案)の扱いを決める
@@ -39,7 +41,7 @@
 - inbox/watchdog/ の記録で、毎朝の係が動いたか分かる
 
 ## 変更したファイル（直近）
-- scripts/tdnet_scan.py, docs/ir_watch.md, docs/agents.json(+作り直した agents.md・site/agents/index.html), HANDOFF.md
+- scripts/person_thin.py, scripts/person_fill.py, scripts/research_queue.py, docs/people_thin.md, inbox/people_thin/, scripts/tdnet_scan.py, docs/ir_watch.md, docs/agents.json(+作り直した agents.md・site/agents/index.html), HANDOFF.md
 
 ## 最終更新
 - 日時：2026-11-24

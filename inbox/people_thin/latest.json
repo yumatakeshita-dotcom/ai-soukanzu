@@ -1,59 +1,9 @@
 {
  "date": "2026-11-24",
  "total": 4741,
- "thin": 4582,
+ "thin": 4554,
  "method": "薄さ=説明文・経歴の行・出典の少なさ(3点以上)。知名度=主要なAI・半導体の図の数×5+その他の図×1.5+線の数×0.7+ニュース見出し(上限30)×2+肩書き3+Wikidata2",
  "top": [
-  {
-   "key": "Luke Metz",
-   "name": "ルーク・メッツ",
-   "en": "Luke Metz",
-   "thin": 4,
-   "why": [
-    "説明文がやや短い(130字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 23.6,
-   "desc": 130,
-   "career": 0,
-   "personal": 3,
-   "src": 0,
-   "news": 0,
-   "edges": 8,
-   "companies": [
-    "meta",
-    "openai",
-    "tml"
-   ],
-   "role": "復帰",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Jack Ma",
-   "name": "ジャック・マー",
-   "en": "Jack Ma",
-   "thin": 4,
-   "why": [
-    "説明文が短い(44字)",
-    "経歴の行が0"
-   ],
-   "fame": 21.8,
-   "desc": 44,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 2,
-   "edges": 4,
-   "companies": [
-    "alibaba",
-    "softbank"
-   ],
-   "role": "元取締役",
-   "skipped": false,
-   "profile": false
-  },
   {
    "key": "Junichi Miyakawa",
    "name": "宮川潤一",
@@ -107,30 +57,6 @@
    "profile": false
   },
   {
-   "key": "Andy Konwinski",
-   "name": "アンディ・コンウィンスキー",
-   "en": "Andy Konwinski",
-   "thin": 4,
-   "why": [
-    "説明文が短い(39字)",
-    "経歴の行が0"
-   ],
-   "fame": 18.5,
-   "desc": 39,
-   "career": 0,
-   "personal": 4,
-   "src": 0,
-   "news": 0,
-   "edges": 5,
-   "companies": [
-    "databricks",
-    "perplexity"
-   ],
-   "role": "共同創業者",
-   "skipped": false,
-   "profile": false
-  },
-  {
    "key": "Brian McCarthy",
    "name": "ブライアン・マッカーシー",
    "en": "Brian McCarthy",
@@ -153,105 +79,6 @@
     "us_SPCX"
    ],
    "role": "世界営業担当VP(新設)",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Jill Hazelbaker",
-   "name": "ジル・ヘイゼルベイカー",
-   "en": "Jill Hazelbaker",
-   "thin": 4,
-   "why": [
-    "説明文がやや短い(141字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 17.8,
-   "desc": 141,
-   "career": 0,
-   "personal": 1,
-   "src": 0,
-   "news": 0,
-   "edges": 4,
-   "companies": [
-    "openai",
-    "uber"
-   ],
-   "role": "最高渉外責任者(Chief Corporate Affairs Officer)",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Denise Dresser",
-   "name": "デニス・ドレッサー",
-   "en": "Denise Dresser",
-   "thin": 4,
-   "why": [
-    "説明文がやや短い(73字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 17.1,
-   "desc": 73,
-   "career": 0,
-   "personal": 3,
-   "src": 0,
-   "news": 0,
-   "edges": 3,
-   "companies": [
-    "openai",
-    "slack"
-   ],
-   "role": "元CRO",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Rahul Patil",
-   "name": "ラフル・パティル",
-   "en": "Rahul Patil",
-   "thin": 5,
-   "why": [
-    "説明文が短い(35字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 17.1,
-   "desc": 35,
-   "career": 0,
-   "personal": 3,
-   "src": 0,
-   "news": 0,
-   "edges": 3,
-   "companies": [
-    "anthropic",
-    "stripe"
-   ],
-   "role": "元CTO",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Rajeev Misra",
-   "name": "ラジーブ・ミスラ",
-   "en": "Rajeev Misra",
-   "thin": 3,
-   "why": [
-    "説明文がやや短い(102字)",
-    "経歴の行が0"
-   ],
-   "fame": 17.1,
-   "desc": 102,
-   "career": 0,
-   "personal": 4,
-   "src": 0,
-   "news": 0,
-   "edges": 3,
-   "companies": [
-    "softbank",
-    "visionfund"
-   ],
-   "role": "元ビジョン・ファンド責任者",
    "skipped": false,
    "profile": false
   },
@@ -505,54 +332,6 @@
    "profile": false
   },
   {
-   "key": "Sebastian Thrun",
-   "name": "セバスチャン・スラン",
-   "en": "Sebastian Thrun",
-   "thin": 3,
-   "why": [
-    "説明文が短い(34字)",
-    "経歴の行が2"
-   ],
-   "fame": 14.3,
-   "desc": 34,
-   "career": 2,
-   "personal": 5,
-   "src": 0,
-   "news": 0,
-   "edges": 4,
-   "companies": [
-    "un_cresta",
-    "waymo"
-   ],
-   "role": "創設者",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Daniel Ek",
-   "name": "ダニエル・エク",
-   "en": "Daniel Ek",
-   "thin": 4,
-   "why": [
-    "説明文が短い(50字)",
-    "経歴の行が0"
-   ],
-   "fame": 14.2,
-   "desc": 50,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 1,
-   "edges": 6,
-   "companies": [
-    "st_helsing",
-    "us_SPOT"
-   ],
-   "role": "会長 / 出資者",
-   "skipped": false,
-   "profile": false
-  },
-  {
    "key": "松田千恵子",
    "name": "松田千恵子",
    "en": "",
@@ -607,106 +386,6 @@
    "profile": false
   },
   {
-   "key": "Bill McDermott",
-   "name": "ビル・マクダーモット",
-   "en": "Bill McDermott",
-   "thin": 5,
-   "why": [
-    "説明文が短い(41字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 13.6,
-   "desc": 41,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 0,
-   "edges": 3,
-   "companies": [
-    "figma",
-    "us_NOW"
-   ],
-   "role": "取締役",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Bret Johnsen",
-   "name": "ブレット・ジョンセン",
-   "en": "Bret Johnsen",
-   "thin": 5,
-   "why": [
-    "説明文が短い(38字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 13.6,
-   "desc": 38,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 0,
-   "edges": 3,
-   "companies": [
-    "us_SPCX",
-    "xai"
-   ],
-   "role": "SpaceX CFO",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Frank Slootman",
-   "name": "フランク・スルートマン",
-   "en": "Frank Slootman",
-   "thin": 5,
-   "why": [
-    "説明文が短い(34字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 13.6,
-   "desc": 34,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 0,
-   "edges": 8,
-   "companies": [
-    "us_NOW",
-    "us_SNOW"
-   ],
-   "role": "元CEO",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Ruoming Pang",
-   "name": "ルオミン・パン",
-   "en": "Ruoming Pang",
-   "thin": 5,
-   "why": [
-    "説明文が短い(55字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 13.5,
-   "desc": 55,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 0,
-   "edges": 5,
-   "companies": [
-    "meta",
-    "openai"
-   ],
-   "role": "AI基盤",
-   "skipped": false,
-   "profile": false
-  },
-  {
    "key": "Parker Harris",
    "name": "パーカー・ハリス",
    "en": "Parker Harris",
@@ -732,29 +411,353 @@
    "profile": false
   },
   {
-   "key": "Adam D'Angelo",
-   "name": "アダム・ダンジェロ",
-   "en": "Adam D'Angelo",
-   "thin": 3,
+   "key": "Ed Whitacre",
+   "name": "エド・ウィテカー",
+   "en": "Ed Whitacre",
+   "thin": 5,
    "why": [
-    "説明文が短い(33字)",
-    "経歴の行が2"
+    "説明文が短い(37字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
    ],
    "fame": 12.9,
-   "desc": 33,
-   "career": 2,
-   "personal": 5,
+   "desc": 37,
+   "career": 0,
+   "personal": 2,
    "src": 0,
    "news": 0,
-   "edges": 2,
+   "edges": 7,
+   "companies": [
+    "us_GM",
+    "us_T"
+   ],
+   "role": "元会長兼CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Sam Schoenholz",
+   "name": "サム・ショーンホルツ",
+   "en": "Sam Schoenholz",
+   "thin": 5,
+   "why": [
+    "説明文が短い(44字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 44,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
    "companies": [
     "openai",
-    "un_quora"
+    "tml"
    ],
-   "role": "取締役",
+   "role": "復帰",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Chaya Nayak",
+   "name": "チャヤ・ナヤック",
+   "en": "Chaya Nayak",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(115字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 115,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "meta",
+    "openai"
+   ],
+   "role": "Special Initiatives(特別プロジェクト)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Austin Lau",
+   "name": "オースティン・ラウ",
+   "en": "Austin Lau",
+   "thin": 3,
+   "why": [
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 164,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "anthropic",
+    "openai"
+   ],
+   "role": "グロース担当(役職名は未発表)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Andrea Vallone",
+   "name": "アンドレア・ヴァローネ",
+   "en": "Andrea Vallone",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(119字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 119,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "anthropic",
+    "openai"
+   ],
+   "role": "研究者(ヤン・ライケのもと)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Andrew Milich",
+   "name": "アンドリュー・ミリッチ",
+   "en": "Andrew Milich",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(107字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 107,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "cursor",
+    "xai"
+   ],
+   "role": "コーディング能力強化の責任者(マスク氏直属)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Jason Ginsberg",
+   "name": "ジェイソン・ギンズバーグ",
+   "en": "Jason Ginsberg",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(105字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 105,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "cursor",
+    "xai"
+   ],
+   "role": "コーディング能力強化の責任者(マスク氏直属)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Devendra Singh Chaplot",
+   "name": "デベンドラ・チャプロット",
+   "en": "Devendra Singh Chaplot",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(117字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.8,
+   "desc": 117,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "tml",
+    "xai"
+   ],
+   "role": "Grokのモデル学習",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Arvind KC",
+   "name": "アービンド・KC",
+   "en": "Arvind KC",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(101字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.3,
+   "desc": 101,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "openai",
+    "vc_roblox"
+   ],
+   "role": "最高人事責任者(Chief People Officer)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Peter Chen",
+   "name": "ピーター・チェン",
+   "en": "Peter Chen",
+   "thin": 5,
+   "why": [
+    "説明文が短い(54字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.3,
+   "desc": 54,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "aq_covariant",
+    "covariant"
+   ],
+   "role": "共同創業者 / CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Rocky Duan",
+   "name": "ロッキー・ドゥアン",
+   "en": "Rocky Duan",
+   "thin": 5,
+   "why": [
+    "説明文が短い(54字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.3,
+   "desc": 54,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "aq_covariant",
+    "covariant"
+   ],
+   "role": "共同創業者 / CTO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Wei-Jen Lo",
+   "name": "羅唯仁",
+   "en": "Wei-Jen Lo",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(92字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.3,
+   "desc": 92,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "tsmc",
+    "us_INTC"
+   ],
+   "role": "副社長(製造部門)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Kenta Takahashi",
+   "name": "高橋健太",
+   "en": "Kenta Takahashi",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(102字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.2,
+   "desc": 102,
+   "career": 0,
+   "personal": 6,
+   "src": 0,
+   "news": 0,
+   "edges": 6,
+   "companies": [
+    "boost"
+   ],
+   "role": "取締役 / パートナー",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Vipul Ved Prakash",
+   "name": "ヴィプル・ヴェド・プラカシュ",
+   "en": "Vipul Ved Prakash",
+   "thin": 5,
+   "why": [
+    "説明文が短い(48字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 12.2,
+   "desc": 48,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 6,
+   "companies": [
+    "aq_topsylabs",
+    "st_together"
+   ],
+   "role": "共同創業者 / CEO",
    "skipped": false,
    "profile": false
   }
  ],
- "all_thin_count": 4582
+ "all_thin_count": 4554
 }
