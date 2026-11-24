@@ -62,8 +62,8 @@ VCの新ファンドと、LP(年金・大学基金・事業会社など)の出�
 - 出力先: `inbox/ir/日付.json`、`inbox/disclosures/日付.json`、`inbox/money/日付-ir.json`、`inbox/moves/日付-ir.json`、`docs/compute_deals_2026-11.html`
 - 上限・決まり: PDFを実際に開いて確かめたものだけ足す。名前や役職が本文で確かめられないものは足さない。
 - 定期タスク: 調査: 引き抜き v5 の中の手順0b(IR)(毎日 7:29(人材係と同居)、`trig_01E5NW3DMcpkYnMUAoyMeGWc`)、開示ウォッチ(SEC) 毎週(火 10:19、`trig_01PmyNoQcJrBh8cnHzpWq2CF`)、計算資源の1枚資料を更新 毎週(火 10:53、`trig_01WMjzgVZYKv6e1NK8896umN`)
-- 道具: scripts/ir_watch.py、scripts/sec_watch.py、scripts/compute_brief.py
-- 補足: docs/ir_watch.md に詳しい手順。
+- 道具: scripts/ir_watch.py、scripts/hkex_scan.py、scripts/sec_watch.py、scripts/compute_brief.py
+- 補足: docs/ir_watch.md に詳しい手順。 2026/11/24: ir_watch.py の最後に hkex_scan.py が自動で動く(HKEXの全社ぶんの出資・買収・提携を、本文で確かめたものだけ inbox/money/日付-hkex.json に自動で足す)。
 
 ### 動画・音声係
 
@@ -175,7 +175,7 @@ Gemini+Google検索で新しいつながりを探し、機械で出典を確か�
 - 出力先: `inbox/money/日付-jp.json`、`inbox/moves/日付-jp.json(人の動きがあるとき)`、inbox/ir/tdnet-scan-alliance-日付.json(適時開示で拾った提携の記録。本文で確かめてから inbox/money に足す)
 - 上限・決まり: Geminiは使わない(Gemini係の木曜テーマ「日本」と重ねない)。発表のページを開いて確かめたものだけ。
 - 定期タスク: 【日本の提携係】日本の大企業とAI企業の提携 月・水・金 v3(TDnetつき)(月・水・金 8:11、`trig_01KK7xdTxMGFbaQbphzB9YF7`)
-- 補足: 出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。 2026/11/24 その2: 表題から相手が決まり、会社・日付・相手が本文で確かめられ、AIらしさが十分なものは `inbox/money/日付-tdnet.json` に自動で足す(出資・買収は `--kind invest` で相関図にない会社も見る。条件は docs/ir_watch.md)。
+- 補足: 出力先は既存の inbox/money なので、取り込み係の変更は要らない。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_alliance。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 月・水・金の v3 に作り直した(旧 毎日版・v2 は止めただけで残してある)。 毎回の最初に `python3 scripts/tdnet_scan.py --kind alliance` を動かす流れを足した(TDnetの新着一覧から、表題が提携・協業のものだけPDFを開き、本文にAI企業名・AI・半導体などの語があるものを記録)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。再確認待ちの件数は、このページの「今朝のようす」に出る。 2026/11/24 その2: 表題から相手が決まり、会社・日付・相手が本文で確かめられ、AIらしさが十分なものは `inbox/money/日付-tdnet.json` に自動で足す(出資・買収は `--kind invest` で相関図にない会社も見る。条件は docs/ir_watch.md)。 2026/11/24 その3: 表題が長くて相手が決まらない提携は、本文の「提携先の概要」欄から相手を読む(表題と本文が食い違う・解消や延長・子会社の提携は読まず手動に回す。試験は `python3 scripts/test_tdnet_body.py`)。
 
 ### 日本の人事係
 

@@ -48,6 +48,47 @@ ALLI_PARTNER = re.compile(r'^(?P<p>[^「」]+?)と(?:の)?(?:の)?(?P<k>包括�
 ALLI_BOTH = re.compile(r'^(?P<a>[^「」]+?)と(?P<b>[^「」]+?)の(?P<k>包括的?業務提携|資本業務提携|資本提携|業務提携|業務連携|共同開発|協業|アライアンス)')
 TITLE_C = re.compile(r'CDO|CIO|CTO|CAIO|最高(技術|情報|デジタル|データ|AI)', re.I)
 
+# 本文から提携の相手を読み取る(2026/11/24追加): 表題が長くて相手が決まらないときの代わり
+# 「N．提携先(相手先)の概要 (1)名称 ○○」の欄を読む。次のどれかなら読み取らず、手動に回す(迷うものは足さない)
+BODY_HEAD = re.compile(r'^\s*[0-9０-９一二三四五六七八九]+\s*[.．、]\s*[^\n]{0,30}?(提携先|相手先|相手方|提携の相手|連携先|協業先|共同開発先|契約の相手)[^\n]{0,10}?の概要', re.M)
+BODY_NAME = re.compile(r'[（(]\s*[1１]\s*[）)]\s*名\s*称\s+(?P<n>[^\n]+)')
+# 表題に1つでもあれば「提携の新規のつながり」ではない・当事者がこの会社ではない → 本文でも読み取らない
+TITLE_NOT_NEW = re.compile(r'解消|終了|解除|契約期間|延長|日程|継続|経過|訂正|変更|締結の延期|連結子会社|当社子会社|子会社の|子会社と|による当社株式|基本方針|進捗|進捗|上市|販売提携')
+CORP_WORD = re.compile(r'株式会社|有限会社|合同会社|Inc|Corp|Ltd|Limited|GmbH|LLC|S\.A|AG|Co\.|Group|グループ|ホールディングス|銀行|金庫|大学|機構|協会|省|庁|組合|研究所')
+
+
+def body_partner(text, filer, title):
+    """本文の「提携先の概要」欄から相手の名前を1つだけ読む。(名前, None) か (None, 手動に回す理由)"""
+    if TITLE_NOT_NEW.search(W.nfkc(title)):
+        return None, '表題に「解消・延長・子会社・継続」などがあり、新しいつながりと決められない'
+    heads = list(BODY_HEAD.finditer(text))
+    if not heads:
+        return None, '本文に「提携先の概要」の欄がない'
+    names = set()
+    for h in heads:
+        seg = text[h.end():h.end() + 700]
+        m = BODY_NAME.search(seg)
+        if m:
+            # 同じ行に別の欄(2社が並ぶ表)があれば、ふた文字以上の空白で区切って最初だけ見る
+            raw = re.split(r'\s{3,}', m.group('n').strip())
+            if len(raw) > 1 and CORP_WORD.search(raw[1]):
+                return None, '「提携先の概要」に複数の会社が並んでいる'
+            nm = W.clean_name(raw[0])
+            if nm:
+                names.add(nm)
+    if len(names) != 1:
+        return None, ('「提携先の概要」に名前が読み取れない' if not names else '「提携先の概要」の名前が複数ある')
+    nm = names.pop()
+    filer_c = W.clean_name(filer)
+    if not nm or len(nm) > 40 or nm in ('当社', '子会社') or re.search(r'[、,，]|および|及び', nm):
+        return None, '名前が会社名として決められない'
+    if nm == filer_c or nm in filer_c or filer_c in nm:
+        return None, '相手が提出した会社自身と同じになる'
+    sq = W.squash(text)
+    if W.squash(nm) not in W.squash(title) and sq.count(W.squash(nm)) < 2:
+        return None, '相手の名前が本文でもう1回出てこない(欄の1回だけ)'
+    return nm, None
+
 
 def ai_strength(text):
     """本文のAIらしさ。(AI企業名の数, AI系の語の数)"""
@@ -74,6 +115,55 @@ def deal_from_title(title, filer, mode):
         if a and b and a != b and len(a) <= 40 and len(b) <= 40 and not re.search(r'[、,]', a + b):
             return a, b, '出資' if '資本' in m.group('k') else '提携'
     return None
+
+
+BAD_NAME = re.compile(r'^(の|と|が|を|子会社|当社|同社|[^\s]{1,4}企業)|取得|提携|買収|締結|契約|及び|並びに|について|[()（）]')
+
+
+def name_ok(nm):
+    """会社名として足してよい形か(「の…」で始まる・かっこや「取得」を含む・長すぎるものは手動に回す)"""
+    return bool(nm) and len(nm) <= 40 and not BAD_NAME.search(nm)
+
+
+def same_co(a, b):
+    a, b = W.squash(W.clean_name(a)).lower(), W.squash(W.clean_name(b)).lower()
+    return bool(a and b and (a == b or (len(min(a, b, key=len)) >= 3 and (a in b or b in a))))
+
+
+def filer_name(short, text):
+    """出す側の会社名。TDnetの一覧の名前は略称・市場の印つき(「Ｇ－イオレ」「りそなＨＤ」)なので、本文の先頭の「会社名 ○○」を使う。読めなければ印だけ外した略称"""
+    base = W.clean_name(re.sub(r'^[ＧＳＰＭ]\s*[－\-]\s*', '', W.nfkc(short)))
+    base = re.sub(r'^[A-Z]-', '', base)
+    m = re.search(r'(?:会\s*社\s*名|社\s*名|商\s*号)\s+([^\n]{2,60})', text[:1200])
+    if m:
+        full = W.clean_name(re.sub(r'\s+', '', W.nfkc(re.split(r'\s{3,}', m.group(1).strip())[0])))
+        # 共同発表で相手の名前が先頭に来ることがある。略称の先頭2文字が合わないものは使わない
+        if full and name_ok(full) and len(full) >= 2 and base[:2].lower() == full[:2].lower():
+            return full
+    return base
+
+
+def pick_deal(title, filer, mode, text):
+    """表題と本文から (出す側, 相手, 種類) を決める。(deal, 決め方, 手動に回す理由)。
+    表題と本文の両方で相手が読めて食い違うものは決めない。どちらかだけでも、会社名の形が整っていれば使う"""
+    if mode == 'alliance' and TITLE_NOT_NEW.search(W.nfkc(title)):
+        return None, '', '表題に「解消・延長・子会社・継続」などがあり、新しいつながりと決められない'
+    dt = deal_from_title(title, filer, mode)
+    if dt and not (name_ok(dt[0]) and name_ok(dt[1])):
+        dt = None
+    if mode != 'alliance':
+        return dt, '表題', '' if dt else '表題から相手が決められない'
+    nm, why = body_partner(text, filer, title)
+    if dt and nm:
+        other = dt[1] if W.clean_name(dt[0]) == W.clean_name(filer) else dt[0]
+        if not same_co(other, nm):
+            return None, '', f'表題の相手({other})と本文の相手({nm})が合わない'
+        return dt, '表題と本文', ''
+    if nm:
+        return (filer, nm, '出資' if '資本' in W.nfkc(title) else '提携'), '本文', ''
+    if dt:
+        return dt, '表題', ''
+    return None, '', why or '表題からも本文からも相手が決められない'
 
 
 def main():
@@ -158,20 +248,25 @@ def main():
             if mode == 'hr':
                 rec['import'] = '記録のみ(人の名前・役職は本文を読んで確かめてから inbox/moves に足す)'
             else:
-                rec['import'] = '手動(表題から相手が決められない、または相手・会社が本文で確かめられない、またはAIらしさが弱い)'
-                filer = W.clean_name(c['co'])
-                deal = deal_from_title(c['title'], filer, mode)
+                filer = filer_name(c['co'], text)
+                deal, how, why = pick_deal(c['title'], filer, mode, text)
                 sq = W.squash(text)
-                co_ok = bool(re.search(r'(コード番号|証券コード)[^0-9A-Za-z]{0,12}' + re.escape(c['code']), sq)) or W.squash(filer) in sq
+                co_ok = bool(re.search(r'(コード番号|証券コード|コード)[^0-9A-Za-z]{0,12}' + re.escape(c['code']), sq)) or W.squash(filer) in sq
                 strong = n_co >= 1 or n_w >= 2
-                if deal and co_ok and strong:
+                if deal and not co_ok:
+                    why = '本文に会社名・証券コードが見つからない'
+                elif deal and not strong:
+                    why = 'AIらしさが弱い(AI企業名がなく、AI系の語が2回未満)'
+                elif deal and not (W.squash(deal[1]) in sq or W.squash(W.clean_name(deal[1])) in sq):
+                    why = '相手の名前が本文で確かめられない'
+                rec['import'] = '手動(' + (why or '理由不明') + ')'
+                if deal and co_ok and strong and not (why and why != ''):
                     fr, to, k = deal
-                    if W.squash(to) in sq or W.squash(W.clean_name(to)) in sq:
-                        rec['deal'] = {'from': fr, 'to': to, 'kind': k, 'amount': W.amount_near(text)}
-                        rec['import'] = '自動(inbox/money)'
-                        money.append({'from': fr, 'to': to, 'kind': k, 'amount': rec['deal']['amount'], 'date': rec['d'], 'region': '日本',
-                                      'note': f"{c['co']}の適時開示「{c['title'][:60]}」で確認(TDnet、{rec['d']}。PDFを開いて会社・相手・日付・AI関連の語を照合)。金額は開示書類にある場合のみ記載",
-                                      'src': [[f"TDnet {c['co']}の開示({rec['d']})", c['url']]], 'confidence': '開示'})
+                    rec['deal'] = {'from': fr, 'to': to, 'kind': k, 'amount': W.amount_near(text), 'partner_from': how}
+                    rec['import'] = '自動(inbox/money)'
+                    money.append({'from': fr, 'to': to, 'kind': k, 'amount': rec['deal']['amount'], 'date': rec['d'], 'region': '日本',
+                                  'note': f"{c['co']}の適時開示「{c['title'][:60]}」で確認(TDnet、{rec['d']}。PDFを開いて会社・相手({how}で確認)・日付・AI関連の語を照合)。金額は開示書類にある場合のみ記載",
+                                  'src': [[f"TDnet {c['co']}の開示({rec['d']})", c['url']]], 'confidence': '開示'})
             items.append(rec)
             print('○', c['co'], c['title'][:40], '→', rec['import'][:8])
         time.sleep(0.5)
