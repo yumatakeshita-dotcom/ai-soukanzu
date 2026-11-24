@@ -45,7 +45,7 @@ def main():
     files = a.files or sorted(glob.glob(os.path.join(FILLS, '*.json')))
     items = load_items(files)
     h = open(HTML, encoding='utf-8').read()
-    blocks = [m for m in re.finditer(r'const N = (\[.*?\]);\n', h)]
+    blocks = [m for m in re.finditer(r'const N = (\[.*?\]);\n', h, re.S)]
     edits = []   # (start, end, newtext)
     stat = {k: {'nodes': 0, 'desc': 0, 'career': 0} for k in items}
     skipped = 0
@@ -59,12 +59,63 @@ def main():
         try:
             N, EN, CAR = json.loads(m.group(1)), json.loads(me.group(1)), json.loads(mc.group(1))
         except ValueError:
-            skipped += 1
-            continue
-        if dumps(N) != m.group(1) or dumps(EN) != me.group(1) or dumps(CAR) != mc.group(1):
+            N = None
+            try:
+                EN, CAR = json.loads(me.group(1)), json.loads(mc.group(1))
+            except ValueError:
+                skipped += 1
+                continue
+        if (N is not None and dumps(N) != m.group(1)) or dumps(EN) != me.group(1) or dumps(CAR) != mc.group(1):
             skipped += 1
             continue
         chg_n = chg_c = False
+        if N is None:   # 最初の主要な図は、人物が JavaScript の書き方(id:'x',…)で1行ずつ書いてある。説明文の部分だけを置き換える
+            ntext = m.group(1)
+
+            def lit(q):
+                return "'" + q.replace('\\', '\\\\').replace("'", "\\'") + "'"
+
+            def fix(lm):
+                nonlocal chg_n
+                line = lm.group(0)
+                nid = lm.group(1)
+                en = EN.get(nid)
+                it = items.get(en)
+                if not it or "kind:'p'" not in line:
+                    return line
+                dm = re.search(r"desc:'((?:[^'\\]|\\.)*)'", line)
+                if not dm:
+                    return line
+                stat[en]['nodes'] += 1
+                old = dm.group(1).replace("\\'", "'").replace('\\\\', '\\')
+                tag = '(%s 経歴を足した。出典:%s)' % (it['date'], it['src'][0])
+                if tag in old:
+                    return line
+                new = it['desc'] + ((' ' + old) if old and old not in it['desc'] else '') + tag
+                line = line[:dm.start()] + ("src:['%s'],desc:" % slug(en) if 'src:' not in line else 'desc:') + lit(new) + line[dm.end():]
+                chg_n = True
+                stat[en]['desc'] += 1
+                return line
+            ntext2 = re.sub(r"^ *\{id:'([^']+)'[^\n]*", fix, ntext, flags=re.M)
+            if ntext2 != ntext:
+                edits.append((m.start(1), m.end(1), ntext2))
+            for n in []:
+                pass
+            # 経歴(CAREER)は下で、N が JSON の図と同じ方法で足す
+            for nid, en in EN.items():
+                it = items.get(en)
+                if not it or not re.search(r"\{id:'%s'[^\n]*kind:'p'" % re.escape(nid), ntext):
+                    continue
+                rows = CAR.get(nid, [])
+                have = {tuple(r) for r in rows}
+                add = [r for r in it.get('career', []) if tuple(r) not in have]
+                if add:
+                    CAR[nid] = rows + add
+                    chg_c = True
+                    stat[en]['career'] += 1
+            if chg_c:
+                edits.append((m.end() + mc.start(1), m.end() + mc.end(1), dumps(CAR)))
+            continue
         for n in N:
             if n.get('kind') != 'p':
                 continue
