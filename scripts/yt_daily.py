@@ -47,7 +47,7 @@ def fetch(cid, waits=(30, 90)):
 def main(days=7, quiet=False):
     seen = {l.split("|")[0] for l in lines(SEEN)} | {l.split("|")[0] for l in lines(SEEN_MONEY)}
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=days)
-    today = time.strftime("%Y-%m-%d")
+    today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")  # 日本時間の日付(7:29はUTCだと前日になるため)
     checked, videos = [], []
     for l in lines(CH):
         p = (l.split("|") + ["", "", ""])[:3]
