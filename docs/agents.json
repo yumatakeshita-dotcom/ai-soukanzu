@@ -52,7 +52,7 @@
         "YouTubeの字幕・説明文(取れなければ書き起こし・紹介記事)",
         "Xの見るアカウント(money)"
       ],
-      "when": "月曜・木曜 7:52",
+      "when": "月・火・木・金 7:52",
       "outputs": [
         "inbox/money/日付.json",
         "inbox/money/seen_videos.txt・yt_retry.txt"
@@ -60,9 +60,15 @@
       "limits": "過去の動画はチャンネルごとに1回5本まで。字幕は断られたら60秒・3分・10分待ってやり直す。",
       "tasks": [
         {
-          "name": "調査: お金の流れ(YouTube・X・海外を翻訳) v4",
+          "name": "調査: お金の流れ v4(月・木 7:52)",
           "id": "trig_017GV1aGf5yoaC2bPcPcEz94",
           "cron": "月・木 7:52",
+          "on": true
+        },
+        {
+          "name": "調査: お金の流れ 追加の回(火・金) v4b",
+          "id": "trig_01Bo53PB4qiYSBV5hWaoEKmp",
+          "cron": "火・金 7:52",
           "on": true
         }
       ],
@@ -84,7 +90,7 @@
         "報道・PR TIMES・Business Wire",
         "Xの見るアカウント(vc)"
       ],
-      "when": "火曜 7:48",
+      "when": "火・金 7:48",
       "outputs": [
         "inbox/vc/日付.json",
         "inbox/vc/backfill.txt"
@@ -92,9 +98,15 @@
       "limits": "さかのぼりは1回1か月。",
       "tasks": [
         {
-          "name": "調査: LP・VC資金(X・公式サイトも) v4",
+          "name": "調査: LP・VC資金 v4(火 7:48)",
           "id": "trig_01EhwJdxzL2c2fLtBwLTc8Dy",
           "cron": "火 7:48",
+          "on": true
+        },
+        {
+          "name": "調査: LP・VC資金 追加の回(金) v4b",
+          "id": "trig_01JEAEb9LPzLGuouV85WPndW",
+          "cron": "金 7:48",
           "on": true
         }
       ],
@@ -160,7 +172,7 @@
         "YouTubeの公式RSS(字幕はロボット確認で断られやすい)",
         "ポッドキャストの公開RSS(Spotifyには無いので同じ番組のRSS)"
       ],
-      "when": "毎朝(人材係・お金係の実行時に一緒に動く)/ 毎日 10:07 過去の手がかりの確かめ",
+      "when": "毎朝(人材係・お金係の実行時に一緒に動く)/ 毎日 10:07・16:07 過去の手がかりの確かめ(1日20件)",
       "outputs": [
         "inbox/youtube/日付.json",
         "inbox/podcasts/日付.json",
@@ -179,6 +191,12 @@
           "name": "(人材係・お金係の中で yt_fetch.py --retry-queue が動かす)",
           "id": "",
           "cron": "毎朝",
+          "on": true
+        },
+        {
+          "name": "過去の動画・番組の手がかりを確かめる 午後の回 毎日",
+          "id": "trig_0132SyxrJ3m8kGdpUNrFVkU8",
+          "cron": "毎日 16:07",
           "on": true
         }
       ],
@@ -632,16 +650,16 @@
         "公式発表・報道",
         "本人のX・LinkedIn"
       ],
-      "when": "日・火・金 8:05",
+      "when": "火・金 8:05",
       "outputs": [
         "inbox/moves/日付-hiring.json(人事責任者の就任など)"
       ],
-      "limits": "Geminiは使わない(Claudeの検索で確かめる)。開けない採用ページは理由つきで記録して翌回また見る。画像は転載しない。",
+      "limits": "Geminiは使わない(Claudeの検索で確かめる)。開けない採用ページは理由つきで記録して翌回また見る。画像は転載しない。 見る期間は過去7日。公式ページが開けないときは、2つ以上の別の媒体が一致すれば「報道・本文未確認」で入れてよい(2026/11/24見直し)。",
       "tasks": [
         {
-          "name": "【採用・求人係】各社の採用の動き 日・火・金",
-          "id": "trig_01CVj2WUbLh4TfGNKt6Sue7J",
-          "cron": "日・火・金 8:05",
+          "name": "【採用・求人係】各社の採用の動き 火・金 v2",
+          "id": "trig_019fnCwxz4uz8VrRrUjr4cWe",
+          "cron": "火・金 8:05",
           "on": true
         }
       ],
@@ -659,17 +677,17 @@
         "適時開示(開示係と共有)",
         "日経・ITmedia・Bloomberg Japan などの報道"
       ],
-      "when": "毎日 8:11",
+      "when": "月・水・金 8:11",
       "outputs": [
         "inbox/money/日付-jp.json",
         "inbox/moves/日付-jp.json(人の動きがあるとき)"
       ],
-      "limits": "Geminiは使わない(Gemini係の木曜テーマ「日本」と重ねない)。発表のページを開いて確かめたものだけ。",
+      "limits": "Geminiは使わない(Gemini係の木曜テーマ「日本」と重ねない)。発表のページを開いて確かめたものだけ。 見る期間は過去7日。公式ページが開けないときは、2つ以上の別の媒体が一致すれば「報道・本文未確認」で入れてよい(2026/11/24見直し)。",
       "tasks": [
         {
-          "name": "【日本の提携係】日本の大企業とAI企業の提携 毎日",
-          "id": "trig_01ComhSGJPFdY7hLH1agQdRd",
-          "cron": "毎日 8:11",
+          "name": "【日本の提携係】日本の大企業とAI企業の提携 月・水・金 v2",
+          "id": "trig_014J5iGyLf7n6dWtcFEuaMqH",
+          "cron": "月・水・金 8:11",
           "on": true
         }
       ],
@@ -686,16 +704,16 @@
         "適時開示(TDnet)",
         "各社のニュースリリース・PR TIMES"
       ],
-      "when": "毎日 8:14",
+      "when": "火・金 8:14",
       "outputs": [
         "inbox/moves/日付-jp-hr.json"
       ],
-      "limits": "Geminiは使わない。本文で確かめられない名前・役職は足さない(開示係と同じ決まり)。",
+      "limits": "Geminiは使わない。本文で確かめられない名前・役職は足さない(開示係と同じ決まり)。 見る期間は過去7日。公式ページが開けないときは、2つ以上の別の媒体が一致すれば「報道・本文未確認」で入れてよい(2026/11/24見直し)。",
       "tasks": [
         {
-          "name": "【日本の人事係】日本の上場企業の役員人事(AI担当) 毎日",
-          "id": "trig_01KoKBASL7bWS3VAWijFjPXS",
-          "cron": "毎日 8:14",
+          "name": "【日本の人事係】日本の上場企業の役員人事(AI担当) 火・金 v2",
+          "id": "trig_01LTqTRRZkWax8LXtNwcSn3h",
+          "cron": "火・金 8:14",
           "on": true
         }
       ],
@@ -713,16 +731,16 @@
         "各VC・スタートアップの公式のお知らせ",
         "INITIAL・日経などの報道"
       ],
-      "when": "毎日 8:17",
+      "when": "月・水・金 8:17",
       "outputs": [
         "inbox/money/日付-jp-fund.json"
       ],
-      "limits": "Gemini係の木曜テーマ(日本)と重なったものは、取り込み側が重複を省く。Geminiは使わない。",
+      "limits": "Gemini係の木曜テーマ(日本)と重なったものは、取り込み側が重複を省く。Geminiは使わない。 見る期間は過去7日。公式ページが開けないときは、2つ以上の別の媒体が一致すれば「報道・本文未確認」で入れてよい(2026/11/24見直し)。",
       "tasks": [
         {
-          "name": "【日本の資金調達係】日本のAIスタートアップの資金調達 毎日",
-          "id": "trig_01F2m6uAudaw4nm2FaPnDvsa",
-          "cron": "毎日 8:17",
+          "name": "【日本の資金調達係】日本のAIスタートアップの資金調達 月・水・金 v2",
+          "id": "trig_01VHNKdMJzoWxEbP4Fk5h9Ee",
+          "cron": "月・水・金 8:17",
           "on": true
         }
       ],
@@ -740,16 +758,16 @@
         "電力会社・自治体の発表",
         "報道(本文を開けるもの)"
       ],
-      "when": "日・水・土 8:20",
+      "when": "水・土 8:20",
       "outputs": [
         "inbox/money/日付-dc.json"
       ],
-      "limits": "Geminiは使わない。契約の上限額は「上限」と書く。",
+      "limits": "Geminiは使わない。契約の上限額は「上限」と書く。 見る期間は過去7日。公式ページが開けないときは、2つ以上の別の媒体が一致すれば「報道・本文未確認」で入れてよい(2026/11/24見直し)。",
       "tasks": [
         {
-          "name": "【データセンター・電力係】データセンター・電力・工場の動き 日・水・土",
-          "id": "trig_01WbxN6RrRuwU9Evq9MCH82G",
-          "cron": "日・水・土 8:20",
+          "name": "【データセンター・電力係】データセンター・電力・工場の動き 水・土 v2",
+          "id": "trig_01VtabNhK1X4bAUTNmkjoTfr",
+          "cron": "水・土 8:20",
           "on": true
         }
       ],

@@ -179,6 +179,7 @@ def build_html(d):
 <a class="back" href="../index.html">← 相関図にもどる</a>
 <h1>調査エージェント一覧</h1>
 <p class="lead">毎日の調べ物を、分野ごとの「係」に分けて見せるページです。調べる係が {n_r} つ、サイトに足したり見張ったりする運営係が {n_o} つ。時刻は日本時間。更新 {esc(d['updated'])}(元データ <code>docs/agents.json</code>)。</p>
+<p class="lead"><a href="weekly.html">係ごとの件数(週次)を見る →</a>(どの係が何件調べたか。増やす・減らす目安つき)</p>
 <div class="box today" id="today"><b>今朝のようす</b><span class="lead">読み込み中…</span></div>
 <div class="box"><b>決まり</b>{li(d['principles'])}</div>
 <div id="bk"></div>

@@ -22,8 +22,8 @@ NEW6 = '2026-11-22'  # 新しい6係(採用〜解説)と品質チェック係を
 # 係のid -> 確かめること。f=ファイルの場所({d}=今日の日付)、days=曜日(月=0。省くと毎日)、hm=予定の時刻
 FILES = {
     'people': [dict(f='inbox/moves/{d}.json', hm=(7, 29), t='引き抜き調査')],
-    'money': [dict(f='inbox/money/{d}.json', days=(0, 3), hm=(7, 52), t='お金の流れ調査')],
-    'fund': [dict(f='inbox/vc/{d}.json', days=(1,), hm=(7, 48), t='LP・VC調査')],
+    'money': [dict(f='inbox/money/{d}.json', days=(0, 1, 3, 4), hm=(7, 52), t='お金の流れ調査')],
+    'fund': [dict(f='inbox/vc/{d}.json', days=(1, 4), hm=(7, 48), t='LP・VC調査')],
     'disclosure': [dict(f='inbox/ir/{d}.json', hm=(7, 29), t='決算資料・適時開示(IR)')],
     'media': [dict(f='inbox/youtube/{d}.json', hm=(7, 29), t='YouTube確認')],
     'world': [dict(f='inbox/world/{d}.json', days=(2,), hm=(7, 44), t='世界企業調査'),
@@ -34,11 +34,11 @@ FILES = {
     'weekly': [dict(f='newsletter/issues/{d}.json', days=(0,), hm=(9, 37), t='週のまとめ')],
     'watch': [dict(f='inbox/watchdog/{d}*.md', hm=(10, 31), t='見張り役の記録')],
     'quality': [dict(f='inbox/quality/{d}*.json', hm=(9, 5), since=NEW6, t='品質チェック')],
-    'hiring': [dict(f='inbox/moves/{d}-hiring.json', days=(6, 1, 4), hm=(8, 5), since=NEW6, t='採用・求人')],
-    'jp_alliance': [dict(f='inbox/money/{d}-jp.json', hm=(8, 11), since=NEW6, t='日本の提携')],
-    'jp_hr': [dict(f='inbox/moves/{d}-jp-hr.json', hm=(8, 14), since=NEW6, t='日本の人事')],
-    'jp_funding': [dict(f='inbox/money/{d}-jp-fund.json', hm=(8, 17), since=NEW6, t='日本の資金調達')],
-    'datacenter': [dict(f='inbox/money/{d}-dc.json', days=(6, 2, 5), hm=(8, 20), since=NEW6, t='データセンター・電力')],
+    'hiring': [dict(f='inbox/moves/{d}-hiring.json', days=(1, 4), hm=(8, 5), since=NEW6, t='採用・求人')],
+    'jp_alliance': [dict(f='inbox/money/{d}-jp.json', days=(0, 2, 4), hm=(8, 11), since=NEW6, t='日本の提携')],
+    'jp_hr': [dict(f='inbox/moves/{d}-jp-hr.json', days=(1, 4), hm=(8, 14), since=NEW6, t='日本の人事')],
+    'jp_funding': [dict(f='inbox/money/{d}-jp-fund.json', days=(0, 2, 4), hm=(8, 17), since=NEW6, t='日本の資金調達')],
+    'datacenter': [dict(f='inbox/money/{d}-dc.json', days=(2, 5), hm=(8, 20), since=NEW6, t='データセンター・電力')],
     'column': [dict(f='newsletter/column/{d}.md', days=(6,), hm=(20, 0), since=NEW6, t='解説まとめ')],
 }
 # 記録がリポジトリに残らない係(動いたかは見張り役・各サービス側で確かめる)

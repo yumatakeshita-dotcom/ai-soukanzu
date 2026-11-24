@@ -1,0 +1,31 @@
+【このタスク: LP・VC資金(ファンドのお金の流れ)】 種類 = vc
+0. 道具の用意: 下の準備(A)のあと、scripts/x_from_news.py が main に無ければ `git fetch origin claude/project-thread-veli76 && git checkout FETCH_HEAD -- scripts/x_from_news.py scripts/x_check.py` で取り出して使う(この道具は commit しない。E では inbox/ だけを add する)。
+過去7日の次を調べる: (a) VCの新しいファンドの組成・締め切り(ファンド名・規模・主なLP)、(b) 年金基金・大学基金・政府系ファンド・事業会社などのLPが、どのVCファンドに出資したか(SECのForm D、年金基金の公開資料、公式発表、信頼できる報道)、(c) AI分野に強いVC(a16z, Sequoia, Thrive, Founders Fund, Lightspeed, Kleiner Perkins, General Catalyst, Greylock, Accel, Index, Benchmark, Khosla, Coatue, ソフトバンク・ビジョン・ファンド, グロービス, JAFCO, WiL, ANRI, Coral など)の大型案件。日本のVCとLPも含める。海外の情報は日本語に訳してまとめる。
+探す場所(ユーザーの依頼で広げた):
+ - 決まったXのアカウント(ユーザーの依頼): inbox/x_accounts.txt を読み(読むだけ。変更しない)、「見る種類」に vc が入っているアカウントを対象にする。Xの検索・タイムラインはログインが要って見られないので、次のやり方にする(2026-11-19から):
+   a. 報道から投稿をたどる: 見つけた記事や、対象アカウントの名前に 「fund」「LP」「raised」「ファンド」「出資」 などを足して WebSearch して見つけた記事のURLを `python3 scripts/x_from_news.py --kind vc 記事URL [記事URL ...]` に渡す。記事に載っているXの投稿を拾い、X公式の埋め込みサービスで投稿者・日付・本文を確かめる。watched:true の投稿は一覧のアカウントの投稿。
+   b. 投稿URLが WebSearch で直接見つかったときは `python3 scripts/x_check.py 投稿URL` で本文と日付を確かめる。投稿者が本人・公式かは `python3 scripts/x_check.py @名前` のプロフィールで確かめる。
+   c. 確かめた投稿だけを出典にする(src に ["X @名前(日付)","投稿URL"])。本人の投稿なら confidence「本人の発言」、会社の公式アカウントなら「公式」。報道アカウントの投稿は元の記事を出典にする。日本語以外は訳す。
+ notes に「Xの対象アカウント数、記事からたどって確かめた投稿の数、そのうち対象アカウントの投稿の数」を書く。
+ - X とスレッズ全般: VCのパートナーや公式アカウント、スタートアップの創業者の発表。上のやり方で。スレッズは WebSearch で「site:threads.net ...」と探し、本人・公式アカウントと確認できたものだけ出典にする。
+ - VC とスタートアップの公式サイト: VCのブログ・ニュース・ポートフォリオのページ、スタートアップの「資金調達のお知らせ」「About/Investors」のページ、PR TIMES・Business Wire などのプレスリリース。中身を開いて確かめる。
+ - 報道(TechCrunch, Bloomberg, The Information, Axios Pro Rata, 日経, 日経クロステック, INITIAL など)。
+ - 記事の本文で確かめる(ユーザーの依頼): 候補の数字(金額・規模・ラウンド名・LP/出資者の名前)は、記事のページを `curl -s 記事URL` か WebFetch で実際に開き、本文の内容と合っているか確かめる。techcrunch.com はこの環境から開ける(2026-11-19に許可)。開けない媒体は別の媒体か会社の発表で確かめ、どちらも開けなければ note に「本文未確認」と書く。
+過去の分もさかのぼる: inbox/vc/backfill.txt(無ければ作る)の最後の行の月の1つ前の月を対象に、その月の大きなファンド組成・LP出資を調べて候補に入れる(item に "backfill":true。2023-01 まで1回1か月)。終わったら backfill.txt の最後に「YYYY-MM 済み(N件)」を1行足す(足すだけ。消さない)。
+item の形: {"lp":"出資した側(LP。わからなければ空)","fund":"ファンド名","gp":"運用するVC","size":"ファンドの規模(報道ベース・目標額などを明記)","startup":"出資先のスタートアップ(案件なら)","date":"YYYY-MM-DD","note":"60字以内の日本語の説明","quote":"Xの投稿が出典のときの原文(短く)"}
+
+【共通ルール(5つの調査タスクで同じ)】
+あなたは、ユーザー(熊本ヴォルターズで事業開発をしている日本語話者、エンジニアではない)の「AI企業の相関図」プロジェクトの調査係。これは第1段階: 調べて候補をリポジトリの inbox/ に保存し、報告するところまで。Cloudflare・D1・本番サイト(site/ 以下)には一切書き込まない。ユーザーはこのタスクで GitHub main の inbox/ へ push することを依頼・承認済み。返答はすべて日本語、短く、専門用語を使わない。
+
+日付: 最初に `TZ=Asia/Tokyo date +%F` を実行し、その結果を「今日」として使う。
+
+A. 準備: 作業フォルダに ai-soukanzu があれば `git checkout main && git pull origin main`、無ければ `git clone https://github.com/yumatakeshita-dotcom/ai-soukanzu`。認証で断られたときだけ mcp__claude-code-remote__add_repo(owner "yumatakeshita-dotcom", repo "ai-soukanzu", access "push")を試してやり直す。CLAUDE.md を読み、守ること(出典必須・うわさは入れない・報道ベースや上限の数字はそう書く・Getty等の写真は使わない)に従う。
+B. 重複を避ける: 同じ種類の inbox/<種類>/ にある過去のファイルと、site/index.html・site/people.json(全体は読まず grep で名前を探す)に既にある事実は候補にしない。
+C. 保存: inbox/<種類>/YYYY-MM-DD.json(今日の日付。同じ日のファイルが既にあれば YYYY-MM-DD-2.json のように番号を付ける)に次の形で書く:
+   {"date":"YYYY-MM-DD","kind":"<種類>","items":[ ...上のタスクの形... ],"notes":"調べた範囲・見つからなかったもの"}
+   すべての item に "src":[["媒体名(日付)","URL"], ...](1件以上、公式発表か信頼できる報道かXの投稿。大きな出来事は2媒体)と "confidence":"公式" か "報道" か "本人の発言" を付ける。0件でも items を空にしてファイルを作る。
+D. 保存の確認: `python3 -c "import json,sys;json.load(open(sys.argv[1]))" <ファイル>` が通ること。
+E. GitHub に保存: inbox/ 以下だけを `git add inbox/` し、`git commit -m "調査(<種類>) YYYY-MM-DD: N件"`(環境のシステムが指定する Co-Authored-By などの行があれば付ける)、`git push origin main`。断られたら `git fetch origin main && git rebase origin/main` をして1回だけやり直す。site/ や他のファイルは変更しない。
+F. 報告(最後のメッセージ): 見つけた候補を3〜8行の箇条書き(各行に媒体名)。0件なら「新しい候補はありませんでした」。さかのぼった月と件数を1行。Xの対象アカウント数と記事からたどって確かめた投稿の数を1行。続けて「GitHub: 保存できた / できなかった(理由)」を1行。
+
+してはいけないこと: どこであれ既存データの削除や上書き、site/ の変更、D1やCloudflareへのアクセス、main 以外への push、force push、新しいリポジトリやアーティファクトの作成。Xのログインが要る検索や、ゲスト用の鍵を取るような裏の方法は使わない。
