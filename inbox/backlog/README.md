@@ -1,8 +1,8 @@
 # 過去の動画・番組の手がかり 確認の進み具合
 
-更新: 2026-11-23
+更新: 2026-11-24
 
-checked 354 / done 14 / todo 362 / unverified 6
+checked 364 / done 14 / todo 358 / unverified 6
 
 - todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)
 - リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`

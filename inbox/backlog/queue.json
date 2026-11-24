@@ -487,6 +487,25 @@
     "joins"
    ]
   },
+  "0a124d3544": {
+   "companies": [
+    "Anthropic"
+   ],
+   "desc": "",
+   "id": "0a124d3544",
+   "newnames": [
+    "Freezer"
+   ],
+   "note": "",
+   "published": "2026-11-10",
+   "source": "TBPN",
+   "status": "todo",
+   "title": "Anthropic Q3 Revenue, Europe’s Freezer Hack Scare, Northwood Raises $375M | Diet TBPN",
+   "url": "https://www.youtube.com/watch?v=Xo4bnJzMblU",
+   "words": [
+    "raises"
+   ]
+  },
   "0a162138f6": {
    "companies": [
     "Jensen",
@@ -2800,6 +2819,26 @@
     "joins"
    ]
   },
+  "371ad988a1": {
+   "companies": [
+    "AMD",
+    "Meta"
+   ],
+   "desc": "",
+   "id": "371ad988a1",
+   "newnames": [],
+   "note": "",
+   "published": "2026-10-25",
+   "source": "20VC with Harry Stebbings",
+   "status": "todo",
+   "title": "AMD Buys Fei-Fei Li's World Labs for $8.2B | Meta Poaches MongoDB's CEO | Bessemer Raises $5.75B",
+   "url": "https://www.youtube.com/watch?v=UNH5YtuK5UE",
+   "words": [
+    "buys",
+    "poaches",
+    "raises"
+   ]
+  },
   "37b39e04cf": {
    "companies": [
     "Google"
@@ -3104,10 +3143,10 @@
    ],
    "desc": "(00:00) - Chapter 1 (00:00) - Chapter 2 (00:08) - Timeline in Turmoil (10:45) - Elon Demands App Store Antitrust Action (17:33) - Musk Threatens Apple Lawsuit (26:17) - Perplexity Offers $34.5B for Google Chrome (43:47) - NVIDIA Buys Back into China Markets (01:03:14) - David Senra Call In (01:17:42) - UFC Moves From PPV to Paramount Streaming (01:31:52) - Timeline (01:45:47) - Demi Guo, co-founde",
    "id": "3cffcf1db0",
-   "note": "",
+   "note": "複数話題のまとめ回。Perplexityの買収提案は申し出のみで成立せず。すでにある話題",
    "published": "2025-08-12",
    "source": "TBPN",
-   "status": "todo",
+   "status": "checked",
    "title": "Timeline in Turmoil: Elon Clashes with Altman, Perplexity Offers $34.5B for Chrome, Apple in Elon's Crosshairs | David Risher, James Cadwallader, Devin Bhushan, Demi Guo, Eugenia Kuyda, Alex Danco, Isaiah Taylor",
    "url": "https://share.transistor.fm/s/7f50a410",
    "words": [
@@ -3547,6 +3586,24 @@
    "url": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
    "words": [
     "series a"
+   ]
+  },
+  "467c8ede6f": {
+   "companies": [
+    "Jensen",
+    "NVIDIA"
+   ],
+   "desc": "",
+   "id": "467c8ede6f",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-16",
+   "source": "TBPN",
+   "status": "todo",
+   "title": "Jensen Huang Resigns as NVIDIA CEO | Diet TBPN",
+   "url": "https://www.youtube.com/watch?v=Pc-pxu5-fqw",
+   "words": [
+    "resigns"
    ]
   },
   "46be404c3c": {
@@ -4972,6 +5029,24 @@
     "left"
    ]
   },
+  "5fb964fc08": {
+   "companies": [
+    "Jensen",
+    "NVIDIA"
+   ],
+   "desc": "",
+   "id": "5fb964fc08",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-16",
+   "source": "TBPN",
+   "status": "todo",
+   "title": "Jensen Huang Has Resigned as NVIDIA CEO",
+   "url": "https://www.youtube.com/watch?v=OGIEuhh2OG0",
+   "words": [
+    "resigned"
+   ]
+  },
   "6013991c70": {
    "companies": [
     "NVIDIA",
@@ -6387,10 +6462,10 @@
    ],
    "desc": "Ben Horowitz founded Loudcloud in the middle of the dot-com bust and sold it for $1.6 billion, then led Andreessen Horowitz from its founding to $46 billion in committed capital. Ali Ghodsi co-founded Databricks, stepped in as CEO during a crisis, and led it to a valuation of over $100 billion. In this episode of “Boss Talk”, Ben and Ali join a16z General Partners Sarah Wang and Erik Torenberg to ",
    "id": "7b2df77a72",
-   "note": "",
+   "note": "動きではない(経営の対談)",
    "published": "2025-10-15",
    "source": "The a16z Show",
-   "status": "todo",
+   "status": "checked",
    "title": "Ben Horowitz and Ali Ghodsi: How to Run a Billion-Dollar Business",
    "url": "https://a16z.simplecast.com/episodes/ben-horowitz-and-ali-ghodsi-how-to-run-a-billion-dollar-business-GvrkQR3X",
    "words": [
@@ -6909,10 +6984,10 @@
    ],
    "desc": "Hakuro Matsuda さんをゲストに迎えて、万博、Pixel, チップ業界、GPT-5 などについて話しました。 Show Notes Elgato Wave Mic Arm LP 薄型デザインマイクアーム なぜ日本はSwitch 2を“抽選”で販売したのか？ 米国の先着順販売との違い、阪大が考察 横浜ナイトフラワーズ2025 Google Pixel 10 US Mobile Nvidia and AMD to pay 15% of China chip sales to US government Export Clause and Taxes | Constitution Annotated NVIDIA Newsroom on X: \"H20 export controls didn’t slow China\" Tim Cook gifts Trump a custom A",
    "id": "892b79e05a",
-   "note": "",
+   "note": "動きではない(雑談回)",
    "published": "2025-08-19",
    "source": "Rebuild",
-   "status": "todo",
+   "status": "checked",
    "title": "412: Hard Problem for Humans Too (hak)",
    "url": "https://rebuild.fm/412/",
    "words": [
@@ -7422,10 +7497,10 @@
    ],
    "desc": "This is Alex Heath, your Thursday episode guest host and deputy editor at The Verge. Today I'm joined by Hayden Field, The Verge’s new senior AI reporter to talk about the AI talent wars and why some researchers are suddenly getting traded like their NBA superstars. Both Hayden and I have been reporting on this for the past several weeks to get a sense of much these companies are paying for top ta",
    "id": "904cd3085b",
-   "note": "",
+   "note": "動きではない(AI人材争奪の解説。具体的な移籍の特定なし)",
    "published": "2025-07-31",
    "source": "Decoder with Nilay Patel",
-   "status": "todo",
+   "status": "checked",
    "title": "Why AI researchers are getting paid like NBA All-Stars",
    "url": "",
    "words": [
@@ -7769,10 +7844,10 @@
    ],
    "desc": "AGENDA: 04:06 Anthropic's $30BN Investment from Microsoft and NVIDIA 07:01 Google vs. OpenAI: Sam Altman's \"War Mode\" Memo 15:27 NVIDIA's Customer Concentration: Bull or Bear 22:12 Is \"War Mode\" BS: Does Hyper-Aggressive Ever Work? 36:12 Sierra Hits $100M ARR: Justify $10BN Price? 46:14 Implementation is the Biggest Barrier to Enterprise AI Growth 01:04:04 Is LLM Search Optimisation (GEO) Selling ",
    "id": "962b5d2d07",
-   "note": "",
+   "note": "すでにある(AnthropicへのMicrosoft・NVIDIA出資)",
    "published": "2025-11-27",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Anthropic Raises $30BN from Microsoft and NVIDIA | NVIDIA Core Business Threatened by TPU | Sam Altman's \"War Mode\" Analysed | Sierra Hits $100M ARR: Justifies $10BN Price? | Lovable Hits $200M ARR & Rumoured $6BN Round",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-30bn-from-microsoft-and-nvidia-nvidia-core-business-threatened-by-tpu-sam-altmans-war-mode-analysed-sierra-hits-100m-arr-justifies-10bn-price-lovable-hits-200m-arr-rumoured-6bn-round",
    "words": [
@@ -7810,6 +7885,24 @@
    "url": "https://a16z.simplecast.com/episodes/building-apis-for-developers-and-ai-agents-c3KgOhfE",
    "words": [
     "joins"
+   ]
+  },
+  "969162fdc4": {
+   "companies": [
+    "アンソロピック",
+    "オープンAI"
+   ],
+   "desc": "━━━━━━━━━━━━━━━━━━━━ ▼【通勤・移動中に聴く】PIVOTアプリが便利 ・バックグラウンド再生（画面を閉じても聴ける） ・ダウンロード機能（オフラインで再生） ・音声再生（耳だけで学べる） すべて無料｜ダウンロードはこちら↓ https://pivot.go.link/?adj_t=26orgtu6&redirect=https://pivotmedia.co.jp/movie/15304 ━━━━━━━━━━━━━━━━━━━━ 視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。 ▼ 今月の特典一覧はこちら https://pivotmedia.co.jp/app/mile/benefit ▼【5分で理解】 この動画の「記事」「AI要約」はこちら https://pivotmedia.co.jp/launch_app?path=movie/15304&dis",
+   "id": "969162fdc4",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-20",
+   "source": "PIVOT",
+   "status": "todo",
+   "title": "【速報解説：アンソロピック、上場後の４大リスク】公開価格を超えた理由／頂点を目指す宣言／NVIDIA問題の余波は？／データセンター規制の影響／東南アジアのクラウド問題／金利上昇のリスク",
+   "url": "https://www.youtube.com/watch?v=VJE7fdvirsE",
+   "words": [
+    "入社"
    ]
   },
   "96d7937284": {
@@ -8135,10 +8228,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella",
    "id": "9fe5fb78ed",
-   "note": "",
+   "note": "すでにある(Meta→Moltbook、Nvidia→Thinking Machines)",
    "published": "2026-03-10",
    "source": "TBPN",
-   "status": "todo",
+   "status": "checked",
    "title": "Thinking Machines X Nvidia, Meta Acquires Moltbook, BYD Mulls F1 | Diet TBPN",
    "url": "https://share.transistor.fm/s/e2924e7a",
    "words": [
@@ -8733,10 +8826,10 @@
    ],
    "desc": "On the show Long Strange Trip, Sequoia Capital partner Brian Halligan speaks with a16z’s Ben Horowitz about what separates great founder CEOs from everyone else. Ben explains why first-time founders lose confidence, defer too much to senior hires, and let decision debt paralyze their companies. They discuss where founder mode works and where people are taking it too far, why the VP of Sales is the",
    "id": "a6f063eebd",
-   "note": "",
+   "note": "動きではない(創業者論の対談)",
    "published": "2026-03-03",
    "source": "The a16z Show",
-   "status": "todo",
+   "status": "checked",
    "title": "Ben Horowitz On What Makes a Great Founder",
    "url": "https://a16z.simplecast.com/episodes/ben-horowitz-on-what-makes-a-great-founder-y8Mditkj",
    "words": [
@@ -10472,6 +10565,25 @@
     "joins"
    ]
   },
+  "cafbc05d7a": {
+   "companies": [
+    "NVIDIA"
+   ],
+   "desc": "",
+   "id": "cafbc05d7a",
+   "newnames": [
+    "ReHacQ"
+   ],
+   "note": "",
+   "published": "2026-11-19",
+   "source": "ReHacQ-リハック-",
+   "status": "todo",
+   "title": "[ReHacQ Emergency Livestream] NVIDIA CEO Resigns! Is This the Beginning of the AI Chip Bubble Bur...",
+   "url": "https://www.youtube.com/watch?v=eoO52Hj_uR0",
+   "words": [
+    "resigns"
+   ]
+  },
   "cc2fe5b124": {
    "companies": [
     "Amodei",
@@ -10711,10 +10823,10 @@
    ],
    "desc": "AGENDA: 04:13 Anthropic vs The Pentagon: Who Wins 13:54 Was Sam Altman Wrong to Take the Deal 24:28 OpenAI's $110BN Mega Round: The Breakdown 28:22 Who Has a Bigger Valuation Premium: Sam Altman or Elon Musk 34:38 Why We Got the SaaS Apocalypse Wrong? 43:24 Why Salesforce Could be the Best Buy in Public Markets 47:46 Block Lays Off 40% of Team: AI or Overhiring 01:00:16 Cursor Hits $2BN in ARR… so",
    "id": "ce67faa3ee",
-   "note": "",
+   "note": "すでにある(OpenAI 1100億ドル調達は既存)",
    "published": "2026-03-05",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Anthropic vs The Pentagon: Who Wins | OpenAI's $110BN Mega Round | Cursor Hits $2BN in ARR | Block's 40% Headcount Reduction: AI or Overhiring",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-vs-the-pentagon-who-wins-openais-110bn-mega-round-cursor-hits-2bn-in-arr-blocks-40-headcount-reduction-ai-or-overhiring",
    "words": [
@@ -11240,10 +11352,10 @@
    ],
    "desc": "Sign up for TBPN’s daily newsletter at TBPN.com (02:23) - Apple Acquires Audio AI Startup Q.AI (12:05) - Microsoft, Meta, and Tesla Earnings (25:37) - 𝕏 Timeline Reactions (36:27) - SpaceX & xAI Merger (41:02) - 𝕏 Timeline Reactions (54:23) - Google DeepMind's Project Genie (01:06:51) - Chrome Debuts \"Agentic Browsing\" (01:10:41) - TikTok Uninstalls Surge 150% (01:15:21) - Anton Osika, co-founder ",
    "id": "daba326d96",
-   "note": "",
+   "note": "すでにある(Apple→Q.ai買収は相関図に記載。SpaceX・xAI統合も既存)",
    "published": "2026-01-29",
    "source": "TBPN",
-   "status": "todo",
+   "status": "checked",
    "title": "Microsoft, Meta, & Tesla Earnings, Google DeepMind's Project Genie, SpaceX & xAI Merger | Anton Osika, Christian Garrett & Delian Asparouhov, Eric Seufert, Kevin Weil, Mehul Nariyawala",
    "url": "https://share.transistor.fm/s/b99b9555",
    "words": [
@@ -12767,10 +12879,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella",
    "id": "fc56595631",
-   "note": "",
+   "note": "すでにある(Dave Dugan: Meta→OpenAI は inbox/moves に既存)",
    "published": "2026-03-23",
    "source": "TBPN",
-   "status": "todo",
+   "status": "checked",
    "title": "SpaceX’s Lunar Mass Driver, OpenAI Hires Meta’s Top Ad Exec, Zuck Builds CEO Agent | Diet TBPN",
    "url": "https://share.transistor.fm/s/d2b401a6",
    "words": [
