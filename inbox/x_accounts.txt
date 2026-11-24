@@ -195,8 +195,8 @@
 @martin_casado | vc,deep | a16zパートナー。AI投資
 @coatuemgmt | vc,money | 投資会社Coatue公式
 @tanayj | vc,money | Wing VC。AI投資の分析
-@CrunchbaseNews | money,vc | 未上場企業の調達報道
-@PitchBook | vc,money | 投資データ会社公式
+@DealBook | money,moves | NYTの企業・M&A報道
+@WSJTech | money,moves | WSJ技術報道公式
 @Sifted | money,vc | 欧州スタートアップ報道
 @ycombinator_jp | vc,deep | YCの日本語解説
 @ClementDelangue | money,deep | Hugging Face CEO
