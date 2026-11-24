@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-24",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分(午後の回)。",
+ "items": [
+  {
+   "name_en": "Doug Leone",
+   "name_ja": "ダグ・レオーネ",
+   "from": "(2022年に退任)",
+   "to": "Sequoia Capital(会長)",
+   "role": "新設の取締役会会長。再び投資の発掘・主導も行う",
+   "date": "2026-03-31",
+   "region": "米国",
+   "backfill": true,
+   "note": "2022年にRoelof Bothaへ交代して退いた後の復帰。Sequoiaが投資を主導すると確認と報じられた。 過去の動画・番組の手がかりから探し、複数の報道の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "36Kr(2026/3)",
+     "https://eu.36kr.com/en/p/3748135369114116"
+    ],
+    [
+     "TechCrunch(2026/11/4)",
+     "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}
