@@ -9,6 +9,7 @@ inbox/backlog/queue.json に「足すだけ」で記録する。状態は todo /
   python3 scripts/media_backlog.py mark ID 状態 "理由やメモ"
   python3 scripts/media_backlog.py status          # 進み具合(inbox/backlog/README.md も更新)
 """
+import jst
 import argparse, glob, hashlib, json, os, re, sys, datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = os.path.join(ROOT, "inbox", "backlog", "queue.json")
@@ -46,10 +47,10 @@ def approx_date(age):
     """YouTubeの『3mo ago』のようなおおよその古さから、おおよその日付(年月日)を作る(2026/11/21追加)。"""
     m = AGE.search(age or "")
     if not m:
-        return datetime.date.today().isoformat()
+        return jst.today().isoformat()
     n, u = int(m.group(1)), m.group(2)
     days = {"h": 0, "d": n, "w": 7 * n, "mo": 30 * n, "y": 365 * n}[u]
-    return (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    return (jst.today() - datetime.timedelta(days=days)).isoformat()
 
 
 def corpus():
@@ -98,7 +99,7 @@ def sync():
             if "published" not in v:  # 過去動画の一覧は古さだけ(説明文なし)
                 v["published"] = approx_date(v.get("age"))
             text = v["title"] + " " + v.get("description", "")
-            if v["published"] >= (datetime.date.today() - datetime.timedelta(days=RECENT_DAYS)).isoformat():
+            if v["published"] >= (jst.today() - datetime.timedelta(days=RECENT_DAYS)).isoformat():
                 continue
             strong = sorted({m.group(0).lower() for m in STRONG.finditer(text)} | ({"joins(役職)"} if md.join_move(v["title"], v.get("description", "")) else set()))
             cos = sorted({m.group(0) for m in md.CO.finditer(text)})
@@ -161,7 +162,7 @@ PROG_JS = os.path.join(ROOT, "site", "data", "backlog.js")
 def record_history(c, day=None, items=()):
     """日ごとの件数を inbox/backlog/history.json に足す(同じ日は置き換え。前の日は消さない)。
     画面(ホーム・調査エージェント一覧)用に site/data/backlog.js も書き出す(2026/11/22追加)。"""
-    day = day or datetime.date.today().isoformat()
+    day = day or jst.today().isoformat()
     h = json.load(open(HIST, encoding="utf-8")) if os.path.exists(HIST) else []
     row = {"d": day, **{k: c.get(k, 0) for k in ("todo", "done", "checked", "unverified")}}
     h = [r for r in h if r["d"] != day] + [row]
@@ -184,7 +185,7 @@ def status():
     line = " / ".join(f"{k} {v}" for k, v in sorted(c.items()))
     print("未確認リスト:", line)
     with open(os.path.join(ROOT, "inbox", "backlog", "README.md"), "w", encoding="utf-8") as f:
-        f.write(f"# 過去の動画・番組の手がかり 確認の進み具合\n\n更新: {datetime.date.today()}\n\n{line}\n\n"
+        f.write(f"# 過去の動画・番組の手がかり 確認の進み具合\n\n更新: {jst.today()}\n\n{line}\n\n"
                 "- todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)\n"
                 "- リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`\n\n## 確かめられなかったもの(理由つき)\n\n")
         for x in sorted(q["items"].values(), key=lambda x: x["published"], reverse=True):

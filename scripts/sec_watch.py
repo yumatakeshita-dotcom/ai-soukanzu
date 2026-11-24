@@ -11,6 +11,7 @@ SpaceX の決算発表(8-K の添付 EX-99.1)からは、AI部門(SI部門)の�
 SEC は「名前とメール」を入れた User-Agent を求める。値は環境変数 SEC_UA か
 inbox/disclosures/ua.txt(1行)に書く(リポジトリには個人のメールを書かないこと)。
 """
+import jst
 import json, os, re, sys, time, datetime, urllib.request, html
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -88,7 +89,7 @@ def main():
     U = ua()
     os.makedirs(OUT, exist_ok=True)
     seen = set(open(SEEN, encoding='utf-8').read().split()) if os.path.exists(SEEN) else set()
-    since = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    since = (jst.today() - datetime.timedelta(days=days)).isoformat()
     found = []
     for cik, key, name in COMPANIES:
         try:
@@ -125,7 +126,7 @@ def main():
             time.sleep(0.2)
         time.sleep(0.3)
     found.sort(key=lambda x: x['d'], reverse=True)
-    today = datetime.date.today().isoformat()
+    today = jst.today().isoformat()
     if found:
         path = os.path.join(OUT, f'{today}.json')
         old = json.load(open(path, encoding='utf-8')) if os.path.exists(path) else []

@@ -10,6 +10,7 @@
 出力: inbox/ranking/日付.json と latest.json と latest.md。調べる順番(research_queue.py build)が latest.json を使う。
 使い方: python3 scripts/importance_rank.py [--top 50]
 """
+import jst
 import argparse, datetime, glob, json, math, os, re, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'inbox', 'ranking')
@@ -103,7 +104,7 @@ def main():
             and not (n[1] == 'p' and re.fullmatch(r'[A-Za-z]+', n[0]))]   # 人物で英単語1語だけのものは、人名ではないことが多いので外す
     keys = {i: norm(nodes[i][0]) for i in cand}
     # 直近の動き
-    now = datetime.date.today()
+    now = jst.today()
     recent_txt = []
     for f in glob.glob(os.path.join(ROOT, 'inbox', '*', '20*.json')):
         if os.path.basename(os.path.dirname(f)) not in ('moves', 'money'):

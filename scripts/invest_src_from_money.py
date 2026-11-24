@@ -18,6 +18,7 @@ import json
 import os
 import re
 import time
+import jst
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FILE = os.path.join(ROOT, "site", "data", "investsrc.js")
@@ -49,7 +50,7 @@ def main():
     a = ap.parse_args()
     txt = open(FILE, encoding="utf-8").read()
     have = set(re.findall(r"\['([^']+)','([^']+)',\['(?:im_[0-9a-f]+)", txt))
-    today = time.strftime("%Y/%m/%d")
+    today = jst.strftime("%Y/%m/%d")
     ds_lines, row_lines, seen = [], [], set()
     for f in sorted(glob.glob(os.path.join(ROOT, "inbox", "money", "*.json"))):
         try:

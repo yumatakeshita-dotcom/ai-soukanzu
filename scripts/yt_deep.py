@@ -10,6 +10,7 @@ RSSは最新15本しか返さない。そこで、各チャンネルの「アッ
   python3 scripts/yt_deep.py --only UCxxxx   # 1チャンネルだけ
 足すだけ。inbox/youtube/deep/日付.json に保存し、すでにある動画は deep/seen.txt に足す。
 """
+import jst
 import argparse, json, os, re, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -81,7 +82,7 @@ def parse(html):
 def main(only=None):
     os.makedirs(OUT, exist_ok=True)
     seen = {l.split("|")[0] for l in lines(SEEN)}
-    today = time.strftime("%Y-%m-%d")
+    today = jst.strftime("%Y-%m-%d")
     res, checked, new_ids = [], [], []
     for l in lines(CH):
         cid, name, kind = (l.split("|") + ["", ""])[:3]

@@ -6,6 +6,7 @@ inbox/media/日付.md と 日付.json に足す。これは候補の手がかり
 確かめる人(Claude)が、出典を開いて名前・日付・数字を確かめてから inbox/moves・money に足す。
   python3 scripts/media_digest.py [--days 3]
 """
+import jst
 import argparse, datetime, glob, json, os, re, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -42,7 +43,7 @@ JOINMOVE = _JM()
 
 
 def main(days=3):
-    cutoff = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    cutoff = (jst.today() - datetime.timedelta(days=days)).isoformat()
     leads, scanned = [], 0
     for f in sorted(glob.glob(os.path.join(ROOT, "inbox", "youtube", "2*.json")) +
                     glob.glob(os.path.join(ROOT, "inbox", "podcasts", "2*.json"))):

@@ -27,6 +27,7 @@ import os
 import re
 import sys
 import time
+import jst
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from x_check import post, profile  # noqa: E402
@@ -146,7 +147,7 @@ def main():
     a = ap.parse_args()
     txt = open(INDEX, encoding="utf-8").read()
     have_ppl, have_keys = existing(txt)
-    today = time.strftime("%Y/%m/%d")
+    today = jst.strftime("%Y/%m/%d")
     ds_lines, ppl_lines, seen = [], [], set()
     for base, it in load_candidates(a.since):
         nm = it.get("name_ja") or it.get("name_en") or ""

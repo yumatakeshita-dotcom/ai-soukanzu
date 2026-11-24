@@ -22,6 +22,7 @@
   3. それでもだめなら、説明文だけはチャンネルの公式RSSから取る(最新15本まで)
   ※ 断られ方をごまかす工夫(取り方の切り替え・偽装)はしない。待ってやり直すだけ。
 """
+import jst
 import argparse
 import glob
 import json
@@ -147,7 +148,7 @@ def main():
     DONE = os.path.join(ROOT, "inbox", a.kind, "yt_retry_done.txt")
     waits = [int(x) for x in a.waits.split(",") if x.strip()]
     os.makedirs(a.out, exist_ok=True)
-    today = time.strftime("%Y-%m-%d")
+    today = jst.strftime("%Y-%m-%d")
 
     if a.retry_queue and not a.no_daily:
         # 2026/11/21: 毎日のYouTube確認を必ず通す(登録済みチャンネルの新着を公式RSSで見る)。
