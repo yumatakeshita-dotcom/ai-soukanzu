@@ -187,7 +187,7 @@ Gemini+Google検索で新しいつながりを探し、機械で出典を確か�
 - 出力先: `inbox/moves/日付-jp-hr.json`
 - 上限・決まり: Geminiは使わない。本文で確かめられない名前・役職は足さない(開示係と同じ決まり)。
 - 定期タスク: 【日本の人事係】日本の上場企業の役員人事(AI担当) 毎日(毎日 8:14、`trig_01KoKBASL7bWS3VAWijFjPXS`)
-- 補足: 出力先は既存の inbox/moves。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_hr。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。
+- 補足: 出力先は既存の inbox/moves。 初回だけ、過去の inbox から当たるものを拾って足す(python3 scripts/agent_seed.py jp_hr。足すだけ・2回目以降は足さない)。 2026/11/21に定期タスクを作成(初回は11/22朝)。 2026/11/24: 毎朝の最初に `python3 scripts/tdnet_scan.py` を動かす流れを足した(TDnetの新着一覧を表題で絞り、気になる会社だけPDFを開く。結果は inbox/ir/tdnet-scan-日付.json)。開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回、ir_watch.py が開き直す。
 
 ### 日本の資金調達係
 

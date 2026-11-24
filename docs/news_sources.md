@@ -21,3 +21,10 @@ Bloomberg、FT、WSJ、The Information、Business Insider、Fortune、Nikkei Asi
 `scripts/fetch_relnews.py` の FEEDS に、Crunchbase News・The Verge(AI)・Ars Technica(AI)・SiliconANGLE のRSSを足した(2026/11/21)。続けて日本語の GIGAZINE・東洋経済オンラインのRSSも足した(同日)。
 
 2026/11/22: GIGAZINE・東洋経済オンラインのRSSは、AI関連の見出しが東洋経済38件中3件・GIGAZINE11件中2件だけだったので、ニュース集めから外した(すでに入った見出しは残す)。
+
+## 2026/11/24 許可リストに足した報道サイトの確認(A・B・C全部を入れたあと)
+記事を1本ずつ開いて本文の長さを見た。
+- 読める(本文あり): www.theverge.com、arstechnica.com、siliconangle.com、www.semafor.com(短め)、www.prnewswire.com(RSS・記事とも)、forbesjapan.com(記事。トップのRSSは404)、gigazine.net、kr-asia.com、ledge.ai(記事。RSSは404)
+- 一部だけ: toyokeizai.net(RSSは200。記事は途中までで会員向けの続きあり)
+- 読めない(許可リストから外してよい): news.crunchbase.com(11/24は403。11/21は読めたので、また読めるか数日見る)、venturebeat.com(429)、www.axios.com(403)、www.cnbc.com(403)、www.reuters.com(401)、www.businesswire.com(接続できない)、www.scmp.com(記事は403)
+- 許可が反映されたあとの確認なので、この表は反映済みの結果。

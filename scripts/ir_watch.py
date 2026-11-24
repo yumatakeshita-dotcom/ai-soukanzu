@@ -396,6 +396,59 @@ def build_record(c, chk, text):
     return rec
 
 
+# ---------- 開けず見送りの再確認(2026/11/24追加) ----------
+# PDFが開けなかった(ネットのエラー・本文が取れない)ものは「見送り」にせず、翌日からもう一度開く。
+# 本文が開けたうえで確かめに落ちたもの(日付が合わない等)は、内容の問題なので再確認しない。
+RETRY = os.path.join(OUT, 'retry.json')
+RETRY_MAX = 3  # 最初の1回のあと、あと3回まで(最大4回見て、だめなら諦めて記録する)
+
+
+def retry_load():
+    try:
+        return json.load(open(RETRY, encoding='utf-8'))
+    except Exception:  # noqa
+        return {'items': []}
+
+
+def retry_save(q):
+    json.dump(q, open(RETRY, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
+def is_open_failure(chk, why):
+    """PDFが開けなかったことによる見送りか"""
+    return chk.get('PDFが開ける') is False and bool(why)
+
+
+def to_retry_item(c, why, tries=0, first=None):
+    d = {k: v for k, v in c.items() if k != 'day'}
+    d['day'] = str(c['day'])
+    d.update({'tries': tries, 'first': first or datetime.datetime.now(JST).strftime('%Y-%m-%d'), 'why': why})
+    return d
+
+
+def retry_candidates():
+    """前の回に開けなかった候補を、確かめ用の形に戻して返す"""
+    out = []
+    for it in retry_load().get('items', []):
+        c = dict(it)
+        c['day'] = datetime.date.fromisoformat(it['day'])
+        out.append(c)
+    return out
+
+
+def retry_update(q_before, still_failed, gave_up_log):
+    """再確認の結果を反映: 開けた・内容で落ちたものは外す。まだ開けないものは回数を増やして残す(上限で諦める)"""
+    keep = []
+    for c, why in still_failed:
+        n = c.get('tries', 0) + 1
+        if n > RETRY_MAX:
+            gave_up_log.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': f"{why}(再確認{RETRY_MAX}回でも開けず、諦めた)"})
+        else:
+            keep.append(to_retry_item(c, why, tries=n, first=c.get('first')))
+    retry_save({'items': keep, 'updated': datetime.datetime.now(JST).isoformat(timespec='seconds')})
+    return len(keep)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--days', type=int, default=3)
@@ -414,24 +467,45 @@ def main():
         cands += run_hkex(T, seen, status)
     if a.only in (None, 'sgx'):
         cands += run_sgx(a.days, T, seen, status)
-    print('対象:', {k: len(v) for k, v in T.items()}, '/ 候補:', len(cands))
-    recs, rejected, new_seen = [], [], []
+    # 前の回に開けなかったものを先にもう一度開く(今回の新着と同じ確かめ)
+    mk = {'tdnet': 'TDnet', 'hkex': 'HKEX', 'sgx': 'SGX'}.get(a.only)
+    retries = [c for c in retry_candidates() if not mk or c['market'].startswith(mk)]
+    cands = retries + [c for c in cands if c['tkey'] not in {r['tkey'] for r in retries}]
+    print('対象:', {k: len(v) for k, v in T.items()}, '/ 候補:', len(cands), f'(うち再確認 {len(retries)})')
+    recs, rejected, new_seen, still_failed = [], [], [], []
     for c in cands[:a.max]:
         ok, chk, why, text = verify(c)
         new_seen.append(c['tkey'])
         if ok:
             recs.append(build_record(c, chk, text))
-            print('○', c['market'], c['co'], c['cat'], c['title'][:50])
+            print('○', c['market'], c['co'], c['cat'], c['title'][:50], '(再確認で開けた)' if c.get('tries') else '')
+        elif is_open_failure(chk, why):
+            still_failed.append((c, why))
+            print('△', c['market'], c['co'], c['title'][:40], '→ 開けず。次の回に再確認:', why)
         else:
             rejected.append({'co': c['co'], 'title': c['title'], 'url': c['url'], 'why': why})
             print('×', c['market'], c['co'], c['title'][:40], '→', why)
         time.sleep(0.5)
+    n_wait = 0
+    left = cands[a.max:]  # 上限で今回見られなかった分(再確認分は回数を増やさず残す)
+    gave = []
+    if not a.dry:
+        n_wait = retry_update(None, still_failed, gave)
+        keep_left = [c for c in left if c.get('tries') is not None]
+        other = [c for c in retry_candidates() if c['tkey'] not in {x['tkey'] for x in cands}]  # --only で見なかった市場の分
+        if keep_left or other:
+            q = retry_load()
+            q['items'] += [to_retry_item(c, c.get('why', ''), tries=c.get('tries', 0), first=c.get('first')) for c in keep_left + other]
+            retry_save(q)
+            n_wait += len(keep_left) + len(other)
+        rejected += gave
     if len(cands) > a.max:
         print(f'上限 {a.max} 件で止めた。残り {len(cands) - a.max} 件は次の回')
     status['saved_at'] = datetime.datetime.now(JST).isoformat(timespec='seconds')
     status['n_candidates'] = len(cands)
     status['n_verified'] = len(recs)
     status['n_rejected'] = len(rejected)
+    status['n_retry_waiting'] = n_wait
     if a.dry:
         print(json.dumps(status, ensure_ascii=False))
         return
