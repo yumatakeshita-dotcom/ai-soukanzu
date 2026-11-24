@@ -30,7 +30,8 @@ TITLES = [
 ]
 # 実際の発表: (銘柄の名前の一部, 期待: (出す側, 相手, 種類) / None)
 REAL = {'HUISHENG': ('Huisheng International Holdings', 'Shanghai Jingguan Intelligent Technology', '買収'),
-        'ZHIHU': ('Zhihu(知乎)', 'DeepSeek', '出資')}
+        'ZHIHU': ('Zhihu(知乎)', 'DeepSeek', '出資'),
+        'ZCLOUD': ('Hong Kong Zcloud Technology Construction', 'Shenzhen Yingshuo Cloud Technology', '出資')}
 
 wrong = ok = 0
 for t, exp in TITLES:
@@ -53,5 +54,20 @@ for c in cases:
         wrong += 1; print('誤り(本文):', c['sn'], c['title'][:50], '→', got or why, '/ 期待', exp)
     auto += bool(deal)
     if '-v' in sys.argv: print('○' if deal else '·', c['sn'], '→', got or why)
+# 「Target Company」の呼び名を本文の定義から読む部分(人工の本文): (本文, 期待の名前 / None=決めてはいけない)
+DEF = 'The Target Company is mentioned. ' * 3
+LABELS = [
+    ('“Target Company”      (Shenzhen Yingshuo Cloud Technology\n                       Co., Ltd.*)\n\n' + DEF, 'Shenzhen Yingshuo Cloud Technology Co., Ltd'),
+    ('Alpha Intelligent Technology Co., Ltd. (the “Target Company”) ' + DEF, 'Alpha Intelligent Technology Co., Ltd'),
+    (DEF, None),                                                                   # 定義がない
+    ('“Target Company”   a company incorporated in the PRC\n\n' + DEF, None),        # 定義が説明文で、名前ではない
+    ('“Target Company”   Alpha Cloud Co., Ltd.\n\n“Target Company”   Beta Cloud Co., Ltd.\n\n' + DEF, None),  # 定義が2つ
+    ('“Target Company”   Alpha Cloud Co., Ltd.\n\nThe Target Company once.', None),  # 呼び名が本文に3回未満
+]
+for body, exp in LABELS:
+    got, why = H.resolve_label('Target Company', body)
+    if got == exp: ok += 1
+    else:
+        wrong += 1; print('誤り(定義):', body[:50].replace('\n', ' '), '→', got or why, '/ 期待', exp)
 print(f'表題{len(TITLES)}件・実際の発表{len(cases)}件: 正しい{ok}件・誤り{wrong}件(うち自動で足すのは実際の発表のうち{auto}件)')
 sys.exit(1 if wrong else 0)

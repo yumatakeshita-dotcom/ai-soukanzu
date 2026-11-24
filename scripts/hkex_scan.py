@@ -81,6 +81,47 @@ def x_from_title(title):
     return None, '表題から相手が決められない'
 
 
+LABEL_RX = re.compile(r'^(?:THE\s+)?TARGET(?:\s+(?:COMPANY|GROUP|ENTITY))?$', re.I)
+CO_WORD = re.compile(r'\b(?:Co\.?|Ltd\.?|Limited|Inc\.?|Corp\.?|Corporation|Company|Group|Holdings?|Technolog(?:y|ies)|Intelligence|AI|Cloud|Network|Partnership)\b', re.I)
+
+
+def raw_title_x(title):
+    """表題の形に合う相手の言葉を、会社名かどうかを見ずにそのまま返す(「Target Company」のような呼び名も含む)。合わなければ (None, None)"""
+    t = norm_title(title)
+    t = re.sub(r'^(?:VOLUNTARY\s+ANNOUNCEMENT|ANNOUNCEMENT|JOINT\s+ANNOUNCEMENT)\s*[-:–]?\s*', '', t, flags=re.I)
+    for rx, kind in TITLE_FORMS:
+        m = rx.search(t)
+        if m:
+            return re.sub(r'^(?:THE|A|AN)\s+', '', m.group('x').strip(" .,;:-–"), flags=re.I), kind
+    return None, None
+
+
+def resolve_label(label, text):
+    """表題が「Target Company」のような呼び名のとき、本文の定義(Definitions の表、または「名前 (the “Target Company”)」)から会社名を読む。
+    決まらなければ (None, 理由)。呼び名は本文に3回以上出てくること・定義が1つに決まること・名前が会社名らしいことを条件にする"""
+    lab = re.sub(r'^(?:the\s+)?', '', label.strip(), flags=re.I)
+    lab_rx = r'\s+'.join(re.escape(w) for w in lab.split())
+    if len(re.findall(lab_rx, text, re.I)) < 3:
+        return None, f'呼び名「{lab}」が本文に3回以上出てこない'
+    cands = set()
+    # (a) 定義の表: “Target Company”   (名前 ……)   の次の空行まで
+    for m in re.finditer(r'[“"]' + lab_rx + r'[”"]\s+(?:means\s+)?(?P<n>[^\n]+(?:\n[ \t]+[^\n]+)*)', text, re.I):
+        n = ' '.join(m.group('n').split())
+        n = re.split(r'\s+(?:being|which|who|as defined|holding)\b', n, maxsplit=1)[0]
+        cands.add(n.strip())
+    # (b) 本文中: 名前 (the “Target Company”)
+    for m in re.finditer(r'(?P<n>[A-Z][\w&\.,\-\' ]{4,90}?)\s*[（(]\s*(?:the\s+)?[“"]' + lab_rx + r'[”"]\s*[)）]', text, re.I):
+        cands.add(' '.join(m.group('n').split()))
+    names = set()
+    for n in cands:
+        n = re.sub(r'^[\s(（]+|[\s)）]+$', '', n).rstrip('*').strip(' .,;')
+        if 2 <= len(n.split()) <= 8 and len(n) <= 90 and n[0].isupper() and CO_WORD.search(n) and not re.search(r'\b(?:a|an|the)\s+(?:company|limited|partnership)\b|incorporated|established', n, re.I):
+            names.add(re.sub(r'\s+', ' ', n))
+    if len(names) != 1:
+        return None, ('本文に「' + lab + '」の定義が見つからない' if not names else f'「{lab}」の定義が複数あって1つに決められない')
+    return names.pop(), ''
+
+
 def in_body(x, text):
     """表題の名前(大文字)を、本文の書き方(DeepSeek など)で探す。(本文での書き方, 出てきた回数)。大文字小文字・空白は無視する"""
     words = [re.escape(w) for w in x.split()]
@@ -155,9 +196,20 @@ def decide(c, text, T_name):
     if not (n_co >= 1 or n_w >= 3):
         return None, 'AIらしさが弱い(AI企業名がなく、AI系の語が3回未満)'
     x, kind = x_from_title(c['title'])
+    resolved = False
     if not x:
-        return None, kind
-    form, n = in_body(x, text)
+        rx_, rk = raw_title_x(c['title'])
+        if rx_ and LABEL_RX.match(rx_):  # 表題が「Target Company」とだけ書いてあるときは、本文の定義から相手の名前を読む
+            nm, why = resolve_label(rx_, text)
+            if not nm:
+                return None, f'表題の相手が「{rx_.title()}」とだけあり、本文からも決められない({why})'
+            x, kind, resolved = nm, rk, True
+        else:
+            return None, kind
+    if resolved:
+        form, n = x, 2  # 名前は定義に1回だけ出るのが普通。呼び名の出現回数は resolve_label で確かめ済み
+    else:
+        form, n = in_body(x, text)
     if n < 2:
         return None, f'相手の名前({x})が本文に2回以上出てこない'
     filer = T_name or en_clean(filer_en(text, ''))
@@ -166,7 +218,7 @@ def decide(c, text, T_name):
     to = en_clean(form)
     if not to or to.lower() == filer.lower():
         return None, '相手が出す側の会社と同じになる'
-    return {'from': filer, 'to': to, 'kind': kind, 'amount': amount_en(text), 'ai_hits': {'company': n_co, 'word': n_w}}, ''
+    return {'from': filer, 'to': to, 'kind': kind, 'amount': amount_en(text), 'ai_hits': {'company': n_co, 'word': n_w}, 'to_from_definition': resolved}, ''
 
 
 def rows_from_feeds(status):
@@ -242,8 +294,10 @@ def main():
             rec['deal'] = deal
             rec['import'] = '自動(inbox/money)'
             note_extra = '。ファンドを通じた間接の出資(同社のファンドへの持分は一部)' if re.search(r"\bthe\s+fund\b", c['title'] + ' ' + text[:1500], re.I) else ''
+            note_def = '。表題は相手を「Target Company」とだけ書いており、相手の名前は本文の定義から読んだ(英訳名)' if deal.get('to_from_definition') else ''
+            note_mou = '。覚書(MOU)の段階で、実行は未確定' if re.search(r'memorandum of understanding|\bMOU\b|possible\s+(?:capital|investment|acquisition)', c['title'], re.I) else ''
             money.append({'from': deal['from'], 'to': deal['to'], 'kind': deal['kind'], 'amount': deal['amount'], 'date': rec['d'], 'region': '香港',
-                          'note': f"{c['co']}のHKEXの発表「{c['title'][:70]}」で確認({rec['d']}。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合){note_extra}。金額は開示書類にある場合のみ記載",
+                          'note': f"{c['co']}のHKEXの発表「{c['title'][:70]}」で確認({rec['d']}。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合){note_extra}{note_def}{note_mou}。金額は開示書類にある場合のみ記載",
                           'src': [[f"HKEX {c['co']}の開示({rec['d']})", c['url']]], 'confidence': '開示'})
         items.append(rec)
         print('○', c['co'], c['title'][:40], '→', rec['import'][:30])

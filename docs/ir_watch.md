@@ -69,6 +69,7 @@ PDFが開けなかったもの(ネットのエラー・本文が取れない)は
 - 自動で `inbox/money/日付-hkex.json` に足す条件(1つでも欠けたら記録だけ、理由つき): ①本文に証券コード ②本文の日付が一覧の前後7日 ③表題から相手が決まる(「INVESTMENT IN ○○」「ACQUISITION OF …… IN ○○」「COOPERATION AGREEMENT WITH ○○」など。「Target Company」のままのものは決めない) ④相手の名前が本文にも出る ⑤本文にAI企業名が1つ以上、またはAI系の語(AI・GPU・data centre・semiconductor など)が3回以上 ⑥出す側の名前が決まる(相関図の会社は相関図の名前、そうでなければ本文の先頭から)。複数社の共同発表は決めない
 - ファンドを通じた間接の出資は、説明文にその旨を書く(例: 知乎のDeepSeekへの出資)
 - 開けなかったPDFは inbox/ir/retry.json に入り、翌日から最大3回開き直す(開き直したあとは ir_watch.py の通常の確かめ=記録のみ)
-- 精度の試験: `python3 scripts/test_hkex_scan.py [-v]`。表題15件と実際の発表13件で、誤り0件(自動で足せたのは、2026/11/23〜24の分で「知乎→DeepSeek(出資)」と「Huisheng→Shanghai Jingguan Intelligent Technology(買収)」の2件)。日本語の説明文は、表題・本文は英語のまま
+- 表題が相手を「Target Company」とだけ書いているとき(2026/11/24追加): 本文の定義(「“Target Company” (名前)」の表、または「名前 (the “Target Company”)」)から相手の名前を読む。呼び名が本文に3回以上出る・定義が1つに決まる・名前が会社名らしい(Co.・Ltd・Technology などを含む)、のすべてを満たすときだけ。1つでも欠けたら手動のまま。足したときの説明に「相手の名前は本文の定義から読んだ(英訳名)」と書く。覚書(MOU)・Possible の表題には「覚書の段階で、実行は未確定」と書く
+- 精度の試験: `python3 scripts/test_hkex_scan.py [-v]`。表題15件と実際の発表13件で、誤り0件(自動で足せたのは、2026/11/24に「ZCLOUD→Shenzhen Yingshuo Cloud Technology(出資の覚書)」を加えた3件。もとの2件は、2026/11/23〜24の分で「知乎→DeepSeek(出資)」と「Huisheng→Shanghai Jingguan Intelligent Technology(買収)」の2件)。日本語の説明文は、表題・本文は英語のまま
 - 記録: `inbox/ir/hkex-scan-日付.json`(items=本文で確かめたもの、skipped=AIに関係なかったもの)
 - シンガポール(SGX)は今までどおり読めない
