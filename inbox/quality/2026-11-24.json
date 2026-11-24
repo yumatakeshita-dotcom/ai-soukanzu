@@ -1,0 +1,30 @@
+{
+ "at": "2026-11-24T09:05:59.809395+09:00",
+ "pending": 8,
+ "rows": [
+  [
+   "注意",
+   "inbox/vc/2026-11-24.json",
+   "Progressive Ventures(米パロアルト) / Progressive Ventures Fund I(1",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://www.financialcontent.com/article/gnwcq-2026-11-18-progressive-ventures-c"
+  ],
+  [
+   "注意",
+   "inbox/vc/2026-11-24.json",
+   "Radical Ventures(カナダ) / Radical Breakouts Fund(10億ドル超(初回クローズ",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://www.cantechletter.com/newswires/radical-ventures-announces-the-largest-v"
+  ],
+  [
+   "注意",
+   "inbox/vc/2026-11-24.json",
+   "Bain Capital Ventures(米) / Fund XI(16億ドル(クローズ、報道ベース)) LP: 年金",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://www.alternativeswatch.com/2026/09/16/bain-capital-ventures-bcv-1-6-billi"
+  ],
+  [
+   "注意",
+   "inbox/vc/2026-11-24.json",
+   "Intrepid Growth Partners / Intrepid Growth Partners AI Fund(",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://thenextweb.com/news/intrepid-growth-partners-525m-ai-fund-state"
+  ]
+ ]
+}
