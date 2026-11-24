@@ -5,6 +5,7 @@
 説明文は取らない(題名と会社名から手がかりを作り、確かめは別の出典で)。足すだけ。すでに取った動画は飛ばす。
   python3 scripts/yt_backfill.py [--leads]    --leads: 移籍・出資の言葉+会社名がある題名だけ表示
 """
+import jst
 import argparse, json, os, re, sys, time, urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -72,8 +73,8 @@ def main(leads_only=False, quiet=False):
     ok = sum(c["ok"] for c in checked)
     summary = f"過去動画の取得: {ok}/{len(checked)}チャンネル、新しく{len(new)}本"
     if new:
-        json.dump({"date": time.strftime("%Y-%m-%d"), "summary": summary, "checked": checked, "videos": new},
-                  open(os.path.join(OUT, time.strftime("%Y-%m-%d-%H%M") + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        json.dump({"date": jst.strftime("%Y-%m-%d"), "summary": summary, "checked": checked, "videos": new},
+                  open(os.path.join(OUT, jst.strftime("%Y-%m-%d-%H%M") + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     bad = [c for c in checked if not c["ok"]]
     if not quiet:
         print(summary)

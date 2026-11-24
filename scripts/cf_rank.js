@@ -19,7 +19,7 @@ const {chromium}=require('playwright');const {start}=require('./serve');const fs
   fs.writeFileSync(hf,'// 確かさの一覧の週ごとの記録(scripts/cf_rank.js が足す。手で消さない)。d=日付 pct=全体の割合 ok/tot=件数 c=会社ごとの割合\nconst CFHIST=[\n'+hist.map(h=>JSON.stringify(h)).join(',\n')+'\n];\n');
   console.log(`記録: ${snap.d} 全体${snap.pct}%(${snap.ok}/${snap.tot}) → site/data/cfhist.js`);
   r.sort((a,b)=>b.r-a.r||a.pct-b.pct);
-  const lines=[`報道だけの線が多い会社(${new Date().toISOString().slice(0,10)})`,'順位 会社(キー) 報道だけ/公式・開示/確かめた割合'];
+  const lines=[`報道だけの線が多い会社(${new Date(Date.now()+9*3600e3).toISOString().slice(0,10)})`,'順位 会社(キー) 報道だけ/公式・開示/確かめた割合'];
   r.slice(0,top).forEach((x,i)=>{lines.push(`${i+1}. ${x.name}(${x.k}) 報道${x.r} / 公式・開示${x.ok} / ${x.pct}%`);x.items.forEach(t=>lines.push('    - '+t))});
   const txt=lines.join('\n');console.log(txt);
   fs.mkdirSync(path.join(__dirname,'..','inbox','verify'),{recursive:true});fs.writeFileSync(path.join(__dirname,'..','inbox','verify','rank.txt'),txt+'\n');

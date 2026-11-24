@@ -4,6 +4,7 @@
 「main への commit の件数」と「inbox/ に増えたファイル数」から、各定期タスクが何回動いたかの目安を出す。
 使い方: python3 scripts/usage_report.py [--days 7]
 """
+import jst
 import subprocess, datetime, argparse, re, os, collections
 
 # commit メッセージの先頭 → 定期タスク名 と モデル(docs/task_models.md と同じ)
@@ -24,7 +25,7 @@ TASKS = [
 
 ap = argparse.ArgumentParser(); ap.add_argument("--days", type=int, default=7)
 a = ap.parse_args()
-since = (datetime.date.today() - datetime.timedelta(days=a.days)).isoformat()
+since = (jst.today() - datetime.timedelta(days=a.days)).isoformat()
 log = subprocess.run(["git", "log", "origin/main", f"--since={since}", "--pretty=%s"],
                      capture_output=True, text=True).stdout.splitlines()
 cnt = collections.Counter()
@@ -34,7 +35,7 @@ for s in log:
             cnt[name] += 1
             break
 
-out = [f"# 定期タスクの使用量の目安 ({since} 〜 {datetime.date.today()})", "",
+out = [f"# 定期タスクの使用量の目安 ({since} 〜 {jst.today()})", "",
        "※ トークン数そのものは取れません。main への commit の件数(=その回に変更が出た回数)と、",
        "inbox/ に増えたファイル数からの目安です。変更が無かった回は数えられません。", "",
        "| 定期タスク | モデル | commit した回数 |", "|---|---|---|"]
@@ -57,7 +58,7 @@ out += ["", "## 目安の読み方", "",
         "- 回数が予定より少ない = 途中で止まった回があるかもしれない。",
         "- 正確な使用量は claude.ai の設定 → 使用量 で確認する。"]
 
-today = datetime.date.today().isoformat()
+today = jst.today().isoformat()
 os.makedirs("inbox/usage", exist_ok=True)
 p = f"inbox/usage/{today}.md"
 if os.path.exists(p):

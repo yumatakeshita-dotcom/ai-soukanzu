@@ -6,6 +6,7 @@ inbox/podcasts/ と inbox/youtube/ の説明文を読み、「○○が△ドル
 相関図には入れない。確かめる人が出典の記事を開いて、日付・金額・リードを確かめてから inbox/money に足す。
   python3 scripts/media_money_candidates.py [--days 30]
 """
+import jst
 import argparse, datetime, glob, json, os, re, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ def known_targets():
 
 
 def main(days=30):
-    cutoff = (datetime.date.today() - datetime.timedelta(days=days)).isoformat()
+    cutoff = (jst.today() - datetime.timedelta(days=days)).isoformat()
     known, out, seen = known_targets(), [], set()
     for f in sorted(glob.glob(os.path.join(ROOT, "inbox", "podcasts", "2*.json")) +
                     glob.glob(os.path.join(ROOT, "inbox", "youtube", "2*.json"))):
@@ -44,7 +45,7 @@ def main(days=30):
                                 "title": v["title"], "url": v.get("url", ""), "sentence": s})
                     break
     out.sort(key=lambda x: x["date"], reverse=True)
-    today = time.strftime("%Y-%m-%d")
+    today = jst.strftime("%Y-%m-%d")
     path = os.path.join(ROOT, "inbox", "media", f"candidates-{today}.md")
     with open(path, "w", encoding="utf-8") as f:
         f.write(f"# 出資の候補(説明文から) {today}\n\n確かめる前の手がかりです。相関図には入れません。{len(out)}件\n\n")
