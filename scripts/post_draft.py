@@ -9,8 +9,13 @@ Xの数え方: 全角(日本語)は1字=2、半角は1字=1、URLは何文字で
 import sys, json, glob, re, datetime, os, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WD = ['月', '火', '水', '木', '金', '土', '日']
-BASE = {0: '人材の移籍', 1: '役員人事', 2: 'お金の動き', 3: '資金調達', 4: '提携・協業', 5: 'この人の経歴', 6: 'おもしろ情報'}
+BASE = {0: '人の移籍の線', 1: '共通の線', 2: 'お金の連鎖', 3: '因縁の線', 4: '取引の裏の線', 5: 'この人の経歴', 6: 'おもしろ情報'}   # 2026/11/24 組み替え(docs/post_calendar_2026-12.md の3章)
 SRC = {
+ '人の移籍の線': ['python3 scripts/career_finder.py diaspora 会社名 / person 名前', 'inbox/moves/日付.json'],
+ '共通の線': ['python3 scripts/career_finder.py between A B'],
+ 'お金の連鎖': ['python3 scripts/career_finder.py coinvest / chains / bridges', 'inbox/money/日付.json'],
+ '因縁の線': ['python3 scripts/career_finder.py conflicts / between A B'],
+ '取引の裏の線': ['python3 scripts/career_finder.py between A B', 'inbox/money/日付.json'],
  '人材の移籍': ['inbox/moves/日付.json', 'inbox/moves/日付-jp-hr.json'],
  '役員人事': ['site/data/exectl.js (ev)', 'inbox/ir/日付.json', 'inbox/moves/日付-jp-hr.json'],
  'お金の動き': ['inbox/money/日付*.json', 'site/data/invest.js'],
@@ -27,9 +32,6 @@ def genre(d):
     wk = (d.day - 1) // 7 + 1  # 月の第何週(1〜7日=第1週)
     # カレンダー(docs/post_calendar_2026-12.md)は「12/1始まりの週」で数える。12月は日付の7日区切りと一致する
     g = BASE[d.weekday()]
-    if d.weekday() == 1 and wk in (2, 4): g = '採用の動き'
-    if d.weekday() == 2 and wk == 2: g = '買収・出資'
-    if d.weekday() == 2 and wk == 4: g = '計算資源・電力'
     return g
 
 def xlen(text):
@@ -62,7 +64,7 @@ def cmd_pick(a):
         if not m or m.group(1) > a: continue
         if (d - datetime.date.fromisoformat(m.group(1))).days > 14: continue
         kind = rel.split('/')[1]
-        want = {'人材の移籍': ['moves'], '役員人事': ['moves', 'ir'], 'お金の動き': ['money'], '資金調達': ['vc', 'money'],
+        want = {'人の移籍の線': ['moves'], '共通の線': [], 'お金の連鎖': ['money'], '因縁の線': [], '取引の裏の線': ['money'], '人材の移籍': ['moves'], '役員人事': ['moves', 'ir'], 'お金の動き': ['money'], '資金調達': ['vc', 'money'],
                 '提携・協業': ['money'], '買収・出資': ['ir', 'money', 'disclosures'], '計算資源・電力': ['money'],
                 '採用の動き': ['moves'], 'この人の経歴': ['deep'], 'おもしろ情報': ['fun']}[g]
         if kind not in want: continue
@@ -90,6 +92,11 @@ def cmd_check(path):
         if re.search(r'買い時|上がる|下がる|おすすめ銘柄', body): print('  ! 売買をすすめる言葉'); ok = False
     if '<!--X' not in t: print('X欄(<!--X--> 〜 <!--/X-->)がありません'); ok = False
     if re.search(r'!\[', t): print('  ! 画像の埋め込みがあります(転載しない)'); ok = False
+    # note本文の長さ(「## note(本文」から次の「## 出典の一覧」まで。空白を除いて数える。骨子だけの古い下書きには出さない)
+    m = re.search(r'## note\(本文.*?\n(.*?)(?=\n## 出典の一覧)', t, re.S)
+    if m:
+        n = len(re.sub(r'\s', '', m.group(1)))
+        print(f'note本文: {n}字', 'OK(2000字以上)' if n >= 2000 else '(2000字未満。土曜の本格版は2000〜4000字にする)')
     print('結果:', 'OK' if ok else '要直し')
     sys.exit(0 if ok else 1)
 
