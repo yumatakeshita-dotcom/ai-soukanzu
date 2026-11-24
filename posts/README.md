@@ -11,3 +11,7 @@
 ## 深掘りの下書き(2026/11/24から)
 - note記事は `posts/research/<日付>_<テーマ>/` で段階式に作る(手順 `docs/deep_research.md`、道具 `scripts/deep_post.py`)。本文は note.md、X用は `posts/drafts/日付.md`(同じ日の下書きがあれば `日付_deep.md`)
 - 見本: 12/1 xAI創業メンバー11人の回(`posts/research/2026-12-01_xai-founders/`)
+
+## 2026/11/24から: noteだけ
+- Xには出さない(祐真さんの判断)。X用の欄(<!--X-->)は今後作らない。過去の下書きのX欄は消さずに「使わない」扱いで残す
+- 本人のXを読んで情報を拾う調査は続ける
