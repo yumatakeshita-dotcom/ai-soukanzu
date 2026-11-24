@@ -1,0 +1,98 @@
+https://techcrunch.com/2026/08/11/general-catalyst-leads-1-1b-round-into-2-month-old-river-ai/
+
+General Catalyst leads $1.1B round into 2-month-old River AI | TechCrunch 
+ TechCrunch Desktop Logo 
+ TechCrunch Mobile Logo 
+ Search Submit 
+ Site Search Toggle 
+ Mega Menu Toggle 
+ Topics
+ Latest 
+ AI 
+ Amazon 
+ Apps 
+ Biotech & Health 
+ Climate 
+ Cloud Computing 
+ Commerce 
+ Crypto 
+ Enterprise 
+ EVs 
+ Fintech 
+ Fundraising 
+ Gadgets 
+ Gaming 
+ Google 
+ Government & Policy 
+ Hardware 
+ Instagram 
+ Layoffs 
+ Media & Entertainment 
+ Meta 
+ Microsoft 
+ Privacy 
+ Robotics 
+ Security 
+ Social 
+ Space 
+ Startups 
+ TikTok 
+ Transportation 
+ Venture 
+ More from TechCrunch
+ Staff 
+ Events 
+ Startup Battlefield 
+ StrictlyVC 
+ Newsletters 
+ Podcasts 
+ Videos 
+ Partner Content 
+ TechCrunch Brand Studio 
+ Contact Us 
+ Image Credits: River AI 
+ Startups 
+ General Catalyst leads $1.1B round into 2-month-old River AI
+ Julie Bort 
+ 10:41 AM PDT · August 11, 2026 
+ River AI, an AI startup founded by xAI co-founder Igor Babuschkin, has secured $1.1 billion in funding in a seed/Series A round led by General Catalyst and AMP PBC, with participation from Nvidia, AMD Ventures, Y Combinator, and Temasek. 
+ (AMP PBC is an AI-focused investment firm founded in 2026 by former Andreessen Horowitz general partner Anjney Midha, backer of companies at a16z like Black Forest Labs, Mistral AI, LMArena and OpenRouter.)
+ River came out of stealth in June with a fascinating mission. Babuschkin, whose resume includes AI roles at DeepMind and OpenAI, intends to reinvent AI from scratch, beginning with how models are trained. This is in order to turn agents into personally trainable assistants, rather than following the trajectory other AI labs are on: human worker replacements.
+ “To get there, we believe the stack has to be rebuilt end to end: training, models, the product layer, and new hardware that lets personal AI live close to you,” he wrote in his launch blog.
+ “Capable agents will be a normal part of everyday life. Less like the assistants you call on today when you need a task done, more like guardian angels: quietly present, on your side, helping with what actually matters to you. They will know you well, and they will be yours, not someone else’s,” he envisions.
+ River already offers an API, billed per 1 million tokens , with rates dependent on the open model used. The API allows developers to use both reinforcement learning (RL) and low-rank adaptation (LoRA) fine-tuning on the models. This first product is intended to be an antidote to prompt engineering. “Prompting steers a model you don’t own and can’t improve. River lets you train open models into ones that are truly yours — and serve them like any other endpoint,” the product literature says.
+ While this round is an eye-popping-size investment for a nascent company, and perhaps another indication of the overheated AI atmosphere, River’s premise comes at a particularly auspicious time. Enterprises are waking up to wanting to control their AI model destiny by using a mix of models, including open weight. River is promising to solve the post-training expertise part of that problem with its neocloud offering.
+ “Any enterprise can complete a complex reinforcement learning run in 15 to 20 minutes with no infrastructure team required, at two to four times the cost savings relative to closed-source alternatives,” it wrote in its funding announcement. 
+ The bigger vision of this company is that everyone will have their own agents, trained by themselves, and working on their behalf. We are already seeing this concept in action with the rise of personal, locally running agents in the form of OpenClaw and its derivatives . Plus, we are already seeing Nvidia partner with PC makers like Dell, Microsoft, and HP for AI-capable hardware.
+ How River’s tech will differ remains to be seen. But it’s starting out with a war chest full of cash to try.
+ Topics
+ AI , General Catalyst , Startups , TC 
+ When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. 
+ Julie Bort 
+ Venture Editor 
+ Julie Bort is the Startups/Venture Desk editor for TechCrunch. 
+You can contact or verify outreach from Julie by emailing [email protected] or via @Julie188 on X. 
+ View Bio 
+ 2027 
+ San Francisco 
+ Get an Early Peek at the Next TechCrunch Disrupt 
+ Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line.
+ Sign up for our waitlist 
+ Register Now 
+ Most Popular
+ Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes 
+ Sarah Perez 
+ A tale of two Nvidias 
+ Anthony Ha 
+ Startup sues Apple in India over tap-to-share contacts feature 
+ Jagmeet Singh 
+ AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too 
+ Tim Fernholz 
+ Microsoft CEO Satya Nadella explains why he asked 60K employees to quit 
+ Julie Bort 
+ Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated 
+ Amanda Silberling 
+ Amazon and Google will together own nearly 30% of Anthropic after its IPO 
+ Julie Bort 
+ Loading the next article 
+ Error loading the next article

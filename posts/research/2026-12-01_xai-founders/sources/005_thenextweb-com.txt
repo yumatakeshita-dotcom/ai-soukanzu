@@ -1,0 +1,72 @@
+https://thenextweb.com/news/river-ai-1-1-billion-babuschkin-general-catalyst-open-weights
+
+River AI raised $1.1bn to let companies train and keep their own models 
+ Skip to content 
+ This article was published on August 11, 2026 GMT 
+ Artificial Intelligence 
+ River AI raised $1.1bn to let companies train and keep their own models
+ The xAI co-founder wants enterprises to train and own their own models instead of renting general-purpose ones, and General Catalyst is calling it a matter of American resilience
+ August 11, 2026 - 3:17 pm GMT 
+ Add as a preferred source 
+ Read more TNW news 
+ TL;DR
+ River AI raised $1.1bn led by General Catalyst and AMP PBC. NVIDIA and AMD Ventures took strategic stakes, Y Combinator and Temasek joined. Founded by xAI co-founder Igor Babuschkin, incorporated in Nevada in April. Sells fine-tuning and reinforcement learning on open weight models. No valuation disclosed. 
+ River AI has raised $1.1bn, roughly four months after the company was incorporated. General Catalyst and AMP PBC led the round, with strategic investment from NVIDIA and AMD Ventures, and further money from Y Combinator and Temasek. The Palo Alto company was founded by Igor Babuschkin, a co-founder of xAI.
+ The pitch is that companies should train and own models rather than rent general-purpose ones. River sells an API for LoRA fine-tuning and reinforcement learning on frontier open weight models, taking on the infrastructure underneath, including weight transfers, sampling-training consistency and elastic compute.
+ Its performance claims are its own and have not been independently tested. River says a complex reinforcement learning run takes 15 to 20 minutes through its API with no infrastructure team required, at two to four times the cost saving of closed-source alternatives. Billing is metered on tokens used for training and inference, which the company says removes the expense of idle GPU capacity.
+ “ The way AI is built today is not how it will be built in the future, ” said Babuschkin, River’s chief executive. “ AI should be open, freely available, and affordable. It should feel like it is working for the person using it, not the lab that trained it. ”
+ The plan extends past software. River says it is building hardware that lets personal AI sit close to the person it serves, alongside the training infrastructure and products built around personalisation and continual learning.
+ General Catalyst framed the investment in national terms. “ American leadership in AI urgently requires leadership in open weight models, while maintaining a lead in closed frontier models, ” chief executive Hemant Taneja said, describing River’s agenda as “ a priority for American resilience. ” It is an argument that has been gaining backers, with Nvidia among those signing an open letter on American open weight leadership that OpenAI and Anthropic did not join .
+ Babuschkin worked on generative modelling and reinforcement learning at Google DeepMind, then led large-scale training efforts at OpenAI, before helping start xAI. He left Musk’s company in August 2025, initially to set up a venture firm. All 11 of xAI’s co-founders have now departed .
+ The round came in above target. Forbes reported in May that Babuschkin was seeking up to $1bn at a valuation of as much as $5bn, and that he intended to put up to $100mn of his own money in.
+ River AI was incorporated in Nevada on April 20. No valuation was disclosed on Tuesday.
+ Story by 
+ Ana-Maria Stanciuc 
+ Editor-in-Chief 
+ I am the Editor in Chief for TNW, covering technology not as a parade of launches and valuations, but as a system of influence, persuasion, (show all) 
+ I am the Editor in Chief for TNW, covering technology not as a parade of launches and valuations, but as a system of influence, persuasion, and change. I write about startups, venture capital, digital policy, and Europe ecosystem, with an eye on the larger story beneath them: who gets to build the future, who profits from it, and how Europe is learning to speak in a louder voice of its own. Before moving into senior editorial leadership, I've built my career for over +10 years across journalism, storytelling, content strategy, SEO, and digital publishing, with experience in SaaS, hospitality, art, and culture. 
+ Get the TNW newsletter
+ Get the most important tech news in your inbox each week.
+ Email address 
+ Subscribe 
+ Website 
+ Thanks! Check your inbox to confirm your subscription.
+ By subscribing you agree to our Privacy Statement .
+ Get more TNW on Google
+ Add as a preferred source 
+ Read more TNW news 
+ Follow on Google 
+ @thenextweb 
+ Story by a 
+ Ana-Maria Stanciuc 
+ Popular articles
+ 1 
+ Magnific passes $300M ARR and may raise outside money next year 
+ 2 
+ Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite 
+ 3 
+ Everful raises $48.5M for AI agents that source products from factories 
+ 4 
+ Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of the price 
+ 5 
+ The Apple executive behind the iPhone’s Camera app has left 
+ Get the TNW newsletter 
+ ✕ Close 
+ Get the TNW newsletter
+ Get the most important tech news in your inbox each week.
+ Email address 
+ Subscribe 
+ Website 
+ Thanks! Check your inbox to confirm your subscription.
+ By subscribing you agree to our Privacy Statement .
+ Related Articles
+ artificial-intelligence 
+ Magnific passes $300M ARR and may raise outside money next year 
+ microsoft 
+ Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite 
+ artificial-intelligence 
+ Everful raises $48.5M for AI agents that source products from factories 
+ microsoft 
+ Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of the price 
+ apple 
+ The Apple executive behind the iPhone’s Camera app has left

@@ -1,0 +1,75 @@
+https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild
+
+All 11 xAI co-founders have now reportedly left Elon Musk’s AI company 
+ Skip to content 
+ This article was published on March 28, 2026 GMT 
+ Artificial Intelligence 
+ All 11 xAI co-founders have now reportedly left Elon Musk’s AI company
+ March 28, 2026 - 5:46 pm GMT 
+ Add as a preferred source 
+ Read more TNW news 
+ Credit: Shutterstock 
+ Every co-founder Elon Musk recruited to build xAI has now reportedly left the company. Manuel Kroiss, who led the pretraining team, told people this month that he was departing. Ross Nordeen, described by Business Insider as Musk’s “ right-hand operator ,” left on Friday. They were the last two of eleven co-founders, all of whom have exited a company that was valued at $250 billion when SpaceX acquired it in February and that Musk himself described two weeks ago as having been “ not built right the first time around .”
+ The departures are not ordinary startup attrition. The researchers Musk assembled in 2023 were among the most accomplished in artificial intelligence. Jimmy Ba co-authored the 2014 Adam optimisation paper, the most-cited paper in AI with more than 95,000 citations. Igor Babuschkin, the chief engineer, came from Google DeepMind. Christian Szegedy came from Google. Tony Wu led the reasoning team. Greg Yang, Toby Pohlen, Zihang Dai, Guodong Zhang, and Kyle Kosic brought experience from DeepMind, Google, Microsoft, and OpenAI. That entire cohort is now gone, and the company they helped build is being, in Musk’s words, “rebuilt from the foundations up.”
+ A timeline of unravelling
+ The exodus accelerated sharply in early 2026. Christian Szegedy left in February 2025, an early signal. But the cascade began in earnest when Tony Wu, one of the most operationally central co-founders, announced his departure on February 10, 2026. Jimmy Ba resigned within 24 hours, reportedly amid tensions over demands to improve model performance. By mid-March, only Kroiss and Nordeen remained. Their departures this week complete the sweep.
+ The timing is difficult to separate from the corporate restructuring happening around xAI. On February 2, SpaceX acquired xAI in an all-stock transaction that valued SpaceX at $1 trillion and xAI at $250 billion, creating a combined entity worth $1.25 trillion, the largest corporate merger by valuation in history. The deal brought xAI, X (formerly Twitter), and SpaceX under a single corporate umbrella, with SpaceX now preparing for a potential IPO in mid-2026 that could target a $1.75 trillion valuation.
+ Weeks earlier, in January, Tesla invested $2 billion in xAI’s Series E round at an approximate $230 billion valuation. Tesla shareholders are suing Musk for breach of fiduciary duty over the investment, arguing that the company’s chief executive effectively directed shareholder capital into his own private venture. The lawsuit gained additional force on March 13, when Musk publicly acknowledged that xAI’s products, particularly its coding tools, were not competitive with Anthropic’s Claude Code or OpenAI’s Codex. Tesla had invested $2 billion in a company whose founder admitted it needed to be rebuilt from scratch.
+ What “not built right” means at $250 billion
+ Musk’s admission on March 13 was unusually candid for a chief executive whose company had just been acquired for a quarter of a trillion dollars. He said xAI’s AI coding tools simply did not work, and that the underlying system needed to be rebuilt. The statement appeared to validate the co-founders’ decision to leave: if the company’s own leadership acknowledges that the product failed, the researchers who built it have limited incentive to stay for the rebuild, particularly when they can command extraordinary compensation at competitors.
+ The AI talent market in 2026 is the most competitive it has ever been. Meta has reportedly offered packages worth up to $300 million over four years to retain top AI researchers. OpenAI, Google DeepMind, and Anthropic are all expanding their research teams aggressively. The eleven researchers who left xAI represent a concentration of talent that any of those companies would pay handsomely to acquire. Where they end up will say as much about the industry’s future direction as their departure says about xAI’s past.
+ xAI is not without assets. The Colossus supercomputer, built with more than 200,000 NVIDIA H100 GPUs, remains one of the largest AI training clusters in the world. Grok, the company’s chatbot, has a distribution channel through X’s user base. And the SpaceX merger provides access to capital, infrastructure, and engineering talent at a scale that few AI companies can match. The question is whether infrastructure and distribution are sufficient when the research leadership that was supposed to make the product competitive has entirely departed.
+ The pattern
+ The xAI co-founder exodus follows a pattern that has repeated across Musk’s companies. Twitter lost the majority of its senior leadership and roughly 80 per cent of its workforce within months of his 2022 acquisition. Tesla’s senior ranks have thinned steadily as Musk’s attention has divided across six companies. The common thread is a management style that produces extraordinary results in hardware engineering, where Musk’s tolerance for risk and pace of iteration have built SpaceX and Tesla into industry-defining companies, but appears less effective in research-driven fields where the most valuable people have abundant alternatives and low tolerance for instability.
+ Artificial intelligence research is, in 2026, the most competitive labour market in technology. The researchers who co-founded xAI did not need to be there. They chose to be, attracted by the resources Musk could deploy and the ambition of the project. That every one of them has now chosen to leave, during a period when the company received a $250 billion valuation and access to the resources of SpaceX, suggests that the problems at xAI are not principally financial or infrastructural. They are organisational. And no amount of capital can rebuild a research culture once the people who created it have gone.
+ Story by 
+ Alina Maria Stan 
+ Alina Maria Stan builds connections that people actually feel. As co-founder and COO of Tekpon, she turns product intuition into real moment (show all) 
+ Alina Maria Stan builds connections that people actually feel. As co-founder and COO of Tekpon, she turns product intuition into real moments of discovery, shaping how teams find and adopt SaaS every day. Since 2020, she has led Tekpon’s brand voice, media strategy, and growth plays with a clear focus on human outcomes behind every metric.
+Before Tekpon, Alina followed curiosity across industries and countries. She was CEO of King Casino Bonus and led affiliate and brand strategy at Extremoo Media and Fable Media in Denmark, where she learned how to build partnerships that last. Early on, she sharpened her CRM and pricing instincts at K.H. ApS, always asking why customers choose what they choose.
+Her approach is rooted in more than a decade of international experience and two master’s degrees, one in Sustainable Consumption from the Technical University of Munich and one in Consumer Affairs Management from Aarhus University. 
+ Get the TNW newsletter
+ Get the most important tech news in your inbox each week.
+ Email address 
+ Subscribe 
+ Website 
+ Thanks! Check your inbox to confirm your subscription.
+ By subscribing you agree to our Privacy Statement .
+ Get more TNW on Google
+ Add as a preferred source 
+ Read more TNW news 
+ Follow on Google 
+ @thenextweb 
+ Story by a 
+ Alina Maria Stan 
+ Popular articles
+ 1 
+ Magnific passes $300M ARR and may raise outside money next year 
+ 2 
+ Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite 
+ 3 
+ Everful raises $48.5M for AI agents that source products from factories 
+ 4 
+ Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of the price 
+ 5 
+ The Apple executive behind the iPhone’s Camera app has left 
+ Get the TNW newsletter 
+ ✕ Close 
+ Get the TNW newsletter
+ Get the most important tech news in your inbox each week.
+ Email address 
+ Subscribe 
+ Website 
+ Thanks! Check your inbox to confirm your subscription.
+ By subscribing you agree to our Privacy Statement .
+ Related Articles
+ artificial-intelligence 
+ Magnific passes $300M ARR and may raise outside money next year 
+ microsoft 
+ Microsoft puts Word, Excel and PowerPoint inside Copilot at Ignite 
+ artificial-intelligence 
+ Everful raises $48.5M for AI agents that source products from factories 
+ microsoft 
+ Microsoft says MAI Code 2 matches 98% of GPT-6.1 Sol at 40% of the price 
+ apple 
+ The Apple executive behind the iPhone’s Camera app has left
