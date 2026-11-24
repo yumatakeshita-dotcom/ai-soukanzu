@@ -1,0 +1,349 @@
+{
+ "date": "2026-11-25",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着13本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "substack:post:226413128",
+   "show": "Dwarkesh Podcast",
+   "kind": "AIインタビュー",
+   "lang": "en",
+   "title": "Responding to objections to recursive self-improvement",
+   "published": "2026-11-24",
+   "url": "https://www.dwarkesh.com/p/rsiobjections",
+   "description": "I responded to the strongest objections that people had about the RSI essay. Watch on YouTube ; read the transcript . Timestamps (00:00:00) – “Do you have a real job?” (00:02:41) – Cindy Wu: Is AI research a verifiable domain? (00:11:10) – corsaren: The overarching objection (00:12:20) – corsaren: Are the essay’s examples sloppy intuition pumps? (00:13:51) – corsaren: Is online learning AI’s Millennium Prize problem? (00:17:39) – corsaren: Is human evolution evidence for transfer? (00:22:20) – corsaren: Can scaling RL let AIs ramp quickly in new contexts? (00:25:31) – Why take Paul Christiano’s predictions seriously? (00:26:26) – Intuitions for what superintelligence could be like (00:29:26) – Paul’s 2018 prediction and the Hugging Face incident (00:32:44) – How would superhuman AIs actual"
+  },
+  {
+   "id": "0211081a-5243-4c18-ac57-e7ece5cac75d",
+   "show": "All-In",
+   "kind": "VC・テック",
+   "lang": "en",
+   "title": "CrowdStrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem",
+   "published": "2026-11-24",
+   "url": "https://allinchamathjason.libsyn.com/crowdstrike-ceo-ai-cyberattack-wave-hyperspeed-hacks-the-patching-problem",
+   "description": "(0:00) CrowdStrike CEO, George Kurtz joins the show! (1:38) Are the Outages Cyberattacks? (10:36) How AI Lets Anyone Hack Like a Nation-State Level Threat (16:33) Patching, Technical Debt, and Outages (33:40) Open-Weight and Local AI: Risk and Defense (42:38) Hackers Don't Break In, They Log In Thanks to our partners for making this possible: As wealth grows, complexity compounds. Between investments, tax strategy and estate planning, coordinating it all can feel like a full-time job. Creative Planning can help with the heavy lifting. Learn more at CreativePlanning.com/AllIn Zcash is encrypted Bitcoin. In an age of AI-powered surveillance, financial privacy is freedom. Protect your wealth from prying eyes. Download Vizor Wallet and start using Zcash today. Learn more at https://vizor.cash "
+  },
+  {
+   "id": "ff21628a-4aca-4e1e-9a1c-92f79349e3a2",
+   "show": "TBPN",
+   "kind": "AI・テック",
+   "lang": "en",
+   "title": "The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen Rapaport & John Harris",
+   "published": "2026-11-24",
+   "url": "https://share.transistor.fm/s/a149a9dd",
+   "description": "(03:47) - The Boomer Put (19:01) - Stripe @ $200b (23:45) - CrowdStrike to Buy ZScaler (28:04) - Iowa Braces For Controlled Blast (30:36) - Microsoft Declares Code Red (32:57) - 𝕏 Timeline Reactions (45:42) - Jason Buechel, CEO of Whole Foods Market and Amazon Worldwide Grocery Stores, discusses his path from a food-focused upbringing and technology career to leading Amazon’s grocery business. He covers Thanksgiving planning, demand forecasting, supply-chain automation, customer service, and the growing role of AI-powered shopping through Alexa. (59:46) - Brian Halligan discusses his return as HubSpot’s co-founder and CEO, driven by the transformative opportunities created by AI. He outlines plans to make HubSpot more accessible through AI agents, accelerate experimentation and acquisition"
+  },
+  {
+   "id": "08090338-7e87-4299-bb2f-48c0c3571314",
+   "show": "Hard Fork",
+   "kind": "テックニュース",
+   "lang": "en",
+   "title": "Trump's Mission to Get Jensen Huang Back at Nvidia",
+   "published": "2026-11-24",
+   "url": "https://www.nytimes.com/column/hard-fork",
+   "description": "Nvidia shocked the world this morning when it announced it would be reinstating Jensen Huang as its chief executive. Max Read, our guest host of “Hard Fork,” called two reporters to make sense of the news: Stephen Witt, who wrote a biography of Jensen Huang called \"The Thinking Machine,\" and Jonathan Swan, a White House reporter for The New York Times. We break down how it happened — and what to expect next. Subscribe today at nytimes.com/podcasts or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about"
+  },
+  {
+   "id": "8adf4140-e851-11f1-84d1-67690db2c884",
+   "show": "Decoder with Nilay Patel",
+   "kind": "テック経営者",
+   "lang": "en",
+   "title": "Hank Green takes over Decoder to interview me about my new book",
+   "published": "2026-11-24",
+   "url": "",
+   "description": "The Decoder book is coming May 27th, 2027 - it’s called HOW TO GET WHAT YOU WANT: AN INSTRUCTION MANUAL FOR AMBITIOUS PEOPLE and it’s all about how to be more effective in work and life. I asked Hank Green to read an early draft, and he came on to guest host once again and talk to me about it. Pre-order here: https://static.macmillan.com/static/smp/how-to-get-what-you-want-9781250460417/And thanks to The St. Martin’s Publishing Group for putting up with me ;) Learn more about your ad choices. Visit podcastchoices.com/adchoices"
+  },
+  {
+   "id": "fa4bc7f0-e514-11f1-8a20-23a2aece5414",
+   "show": "Training Data (Sequoia)",
+   "kind": "VC・AI",
+   "lang": "en",
+   "title": "OpenAI’s Noam Brown: Why Game Theory Didn’t Lead to General Intelligence (Live at No Limit Finals)",
+   "published": "2026-11-24",
+   "url": "",
+   "description": "Noam Brown built the first AIs to beat top poker professionals, then concluded that game theory, the field his career was built on, was not the path to general intelligence. Recorded live at the Finals of No Limit, Sequoia’s pokerbot tournament, the OpenAI researcher describes his “crisis of faith”: game theory assumes everyone is rational, and the Diplomacy bots that won were the ones trained on human data to model how people actually behave in the messy real world. That sent him to OpenAI and the work that became o1, at a time when much of the field believed a bigger pre-trained model would solve everything. Noam explains why he asks every new model to build a pokerbot, where GPT-6 Astra still falls short, and why this is the “centaur period” of human plus AI. He argues that human progre"
+  },
+  {
+   "id": "e21c8c84-43db-469e-b476-885b802bc758",
+   "show": "The a16z Show",
+   "kind": "VC",
+   "lang": "en",
+   "title": "REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)",
+   "published": "2026-11-24",
+   "url": "https://a16z.simplecast.com/episodes/replay-the-story-of-apple-pay-jennifer-bailey-2024-0WemB8oE",
+   "description": "When Apple Pay launched in the U.S., only about 3% of merchants accepted contactless payments. A decade later, Jennifer Bailey has helped expand it to 75 markets and more than 11,000 bank and network partners. Jennifer joins a16z General Partner Alex Rampell to tell the story of building Apple Pay, from solving the chicken-and-egg problem of banks, merchants, and consumers to designing payments around security and privacy without Apple seeing individual transactions. They also discuss the expansion from payments into transit, tickets, car and hotel keys, and digital IDs, plus why customer experience, patience, and timing have shaped Jennifer’s approach to building new products inside Apple. Resources: Follow Jennifer Bailey on LinkedIn: https://www.linkedin.com/in/jbaileyz Bailey: Follow A"
+  },
+  {
+   "id": "gid://art19-episode-locator/V0/JVDPAsRen6Gd2qpyvBxPB3XxQUkYOnjKU5bS-YxFhd4",
+   "show": "Masters of Scale",
+   "kind": "起業",
+   "lang": "en",
+   "title": "Nvidia, China, and the open-model race: Reflection AI's Misha Laskin on a $25B bet",
+   "published": "2026-11-24",
+   "url": "",
+   "description": "Reflection AI has quickly become the West’s best hope to rival China on open-source AI. Co-founder and CEO Misha Laskin, formerly of Google DeepMind, joins Rapid Response shortly after the release of Beam, Reflection's first open-weight model, to explain why he sees open models as a way to own intelligence rather than rent it. He makes the national security case for American models that win on merit, and he says open models have gone from a minority to a majority of AI token share in just six months. He also shares how Reflection plans to make money when its weights are free, and where Nvidia chips fit into the race with China. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://a"
+  },
+  {
+   "id": "e1cd0e3e-9e03-40db-bc4b-b50b0165eab4",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "What Jensen Huang's Stunning Return Means for the AI Trade",
+   "published": "2026-11-24",
+   "url": "https://omny.fm/shows/odd-lots/what-jensen-huangs-stunning-return-means-for-the-ai-trade",
+   "description": "On Monday morning, Nvidia's board stunned the world and announced that it was reinstating Jensen Huang as CEO. Reportedly, President Trump pressed the board to bring back Huang, and his return kicked off a historic rally for the chip maker. (Nasdaq 100 futures went up so fast yesterday, they briefly halted trading.) All of this follows a weekend full of doom and gloom; the S&P 500 was entering correction territory last Friday, just days after Anthropic's blockbuster IPO. When we spoke with Alexander 'Alty' Altmann, global head of equities tactical strategies at Barclays, at the end of October, the AI trade was wobbling. Now, a month later, the AI trade seems, at least for now, ascendant, riding an epic rally that few saw coming. Today, we speak with Altmann about how Wall Street is making "
+  },
+  {
+   "id": "3cb1b8ff-d328-4e59-8946-bc1a5f2f2a43",
+   "show": "スタートアップ投資TV",
+   "kind": "VC・投資(日本)",
+   "lang": "ja",
+   "title": "【M&A】売上だけでは会社の本当の価値はわからない｜利益・借入金から見る評価額の計算方法【あなたの会社 HOW MUCH?】",
+   "published": "2026-11-24",
+   "url": "https://podcasters.spotify.com/pod/show/u3010u516cu5f0fu3011u30b9u30bfu30fcu30c8u30a2u30c3u30d7u6295u8cc7tv/episodes/MA-HOW-MUCH-e3stsm6",
+   "description": "▼竹葉へのLINE無料相談はこちら 下記URLより友だち追加後、お気軽にご相談ください。 https://line.me/R/ti/p/takeba@nihonma01 ※ご相談内容に「スタートアップ投資TV経由」とご記入ください。 ▼あなたの会社も企業価値を査定してみませんか？ 「あなたの会社 HOW MUCH?」への出演希望はこちらhttps://gazellecapital.vc/sttv-media/form-request/ ※回答内容に「企業価値査定への出演希望」とご記入ください。フォームにご入力いただいたメールアドレス宛にご連絡いたします。 売上8億円の会社、実際に売却するといくらになるのか？ 新シリーズ「あなたの会社 HOW MUCH?」がスタート！ 今回は、年商約8億円のYouTube運用支援会社を題材に、M&Aのプロが実際の財務情報をもとに企業価値を算定します。 【今回の主なトピック】 ・M&Aで使われる3つの企業価値評価方法 ・売上よりも利益の中身が重要な理由 ・借入金が会社の売却価格に与える影響 ・会社を高く売るために経営者がやるべきこと M&Aを検討している経営者はもちろん、今すぐ会社を売る予定がない方にも知っておいてほしい、企業価値を高めるためのポイントをお届けします。 ▼「のれん償却」についての解説動画はこちらhttps://youtu.be/Dya3pohHBlU ▼番組へのご意見・ご質問はこちら https://gazellecapital.vc/sttv-media/form-request/ 【動画目次】 0:00 ダイジェスト 01:03 今回のテーマ 02:29 今回鑑定する会社 04:32 会社の値段のつけ方 08:31 売上と利益の見方 18:16 借入と自己資本の見方 30:46 いくらで売れるのか 33:49 定期チェックと"
+  },
+  {
+   "id": "892fa684-e7e6-11f1-9e43-0fb102e8a046",
+   "show": "日経ビジネス モーニングニュース",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "11月25日（水）：米中ロ首脳会談／日本商船隊の85％は外国籍／町工場がClaudeで変身",
+   "published": "2026-11-24",
+   "url": "https://business.nikkei.com/?n_cid=nbpnb_megaphone",
+   "description": "ご紹介した記事はこちら（日経ビジネス電子版：https://business.nikkei.com/?n_cid=nbpnb_megaphone） 同床異夢の米中ロ首脳会談 新ヤルタは杞憂だったが「グレートゲーム」の懸念／日本商船隊の85％は外国籍 ホルムズ危機で露呈、「非常時」の輸送力確保／町工場が月3万円のClaudeで変身 土鍋の売上高4割増、営業や設計にフル活用、他"
+  },
+  {
+   "id": "1896caf3-c0ab-4ea5-81dd-b85eeac740d0",
+   "show": "NewsPicks Daily Briefing",
+   "kind": "経済ニュース(日本)",
+   "lang": "ja",
+   "title": "【11月25日】新卒採用、AI普及で「減る」が逆転 ほか",
+   "published": "2026-11-24",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1125AI-e3sv9k9",
+   "description": "🎧️Podcast ウィジェットのご紹介🎧️ 番組のウィジェットができました。ホーム画面から最新の話題をチェックできます。 https://npx.me/s/FvHTvjIm 注目ニュースのコメント欄とNewsPicksの最新オリジナルコンテンツなどを紹介するAI音声番組。 ◇ニュースキャッチアップ◇ 新卒採用、AI普及で事務職「減らす」が２割 https://npx.me/s/r0CAP1kk ◇オリジナルコンテンツ◇ 【大臣発言】政府システム、脆弱性が見つかれば「一時停止」も https://npx.me/s/JSssKbVL 【実録】買収ブランドが急成長。「ロレアル流」の秘密 https://npx.me/s/dUEUpAOw 【真相】5年で6割高。マヨネーズ暴騰の意外な「真犯人」 https://npx.me/s/tTrK99tH 【哲学】金さえあれば…の先を考える読書のすすめ https://npx.me/s/olGP1hsC 「変わっても転落する」墓石に刻んだ言葉の真意 https://npx.me/s/a6Ojv8FA 『孤独死の8割は男性』孤独と寂しさの境界線 https://npx.me/s/RrtfjdQF 夫婦ゲンカが激減するたった1つのルール https://npx.me/s/n4lj3SUx ◇今日の一冊◇ 13歳からのアントレプレナーシップ https://npx.me/s/mukHKdXD ※このAI音声番組はNewsPicksが実験的に運用しています。 内容の正確性や品質には十分配慮しておりますが、もしお気づきの点がありましたら、 下記リンクからご連絡ください。 https://newspicks.zendesk.com/hc/ja/requests/new"
+  },
+  {
+   "id": "6f21acf1334067776c4850a33cb6e28eccd01866bdb4193fc74362174f149fd7",
+   "show": "10分でわかるスタートアップ・資金調達ニュース",
+   "kind": "資金調達(日本)",
+   "lang": "ja",
+   "title": "現場作業を学ぶAIと5億円の企業価値担保融資とは？",
+   "published": "2026-11-25",
+   "url": "",
+   "description": "今回のエピソードでは、テクノロジー企業の最新資金調達動向から注目の2つのトピックを解説します。 前半は、シリーズAで4,700万米ドルを調達したHumyn Labsを取り上げます。同社はウェブ上の知識ではなく、工場や農場などの現場作業を記録し、熟練者の経験をロボット学習用のデータセットへ変換するフィジカルAI基盤を展開しています。 後半は、新設された企業価値担保権を用いた国内の先駆的融資事例です。設立2年目のマイクロニティが、不動産担保や個人保証に頼らず、買収先であるIBT総合研究所の事業価値やキャッシュフローを評価され、静岡銀行から5億円の買収資金を調達しました。 現場作業から暗黙知を学ぶロボティクスAIと、事業そのものを評価して成長資金を供給する新たな融資慣行。技術と金融の双方が迎える変革の現在地をお届けします。"
+  }
+ ]
+}

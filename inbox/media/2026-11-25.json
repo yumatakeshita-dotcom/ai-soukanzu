@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-25",
+ "days": 3,
+ "summary": "動画・番組の手がかり: 新着217本のうち22本に移籍・出資などの言葉と会社名",
+ "leads": [
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-24",
+   "title": "The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen Rapaport & John Harris",
+   "url": "https://share.transistor.fm/s/a149a9dd",
+   "words": [
+    "acquisition",
+    "buy"
+   ],
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-24",
+   "title": "What Jensen Huang's Stunning Return Means for the AI Trade",
+   "url": "https://omny.fm/shows/odd-lots/what-jensen-huangs-stunning-return-means-for-the-ai-trade",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "Most VCs Are Just Glorified Bankers",
+   "url": "https://www.youtube.com/watch?v=kbU6pc9nO_4",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "The Boomer Put, Stripe @ $200b, Microsoft Code Red, China Slowing Down?",
+   "url": "https://www.youtube.com/watch?v=JzlCqkrWVoQ",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "NewsPicks",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "【株の約30%を保有】アンソロピック上場で笑いが止まらない2社 #AI #Anthropic #IPO #amazon #google #openai",
+   "url": "https://www.youtube.com/watch?v=UEnUKlKI_gk",
+   "words": [
+    "ipo",
+    "上場"
+   ],
+   "companies": [
+    "Anthropic",
+    "amazon",
+    "google",
+    "openai",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "20VC: Nvidia Without Jensen: Is Anthropic the Real Winner? | \"Fire the Bankers\": Why Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable and Tranched Rounds Should Be Banned with Anjney Midha",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-without-jensen-is-anthropic-the-real-winner-fire-the-bankers-why-most-vcs-wont-survive-ai-why-the-inference-layer-is-uninvestable-and-tranched-rounds-should-be-banned-with-anjney-midha",
+   "words": [
+    "compute",
+    "funding",
+    "investments",
+    "investor",
+    "investors"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Mistral",
+    "Nvidia",
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records | Julia Black, Bill Gross, Jay Jandrain, Lincoln Murr, Thijs Simonian, Elliott Potter",
+   "url": "https://share.transistor.fm/s/ca7b9f75",
+   "words": [
+    "investigation",
+    "investor"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "Big Technology Podcast",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "The Shocking Return of Jensen Huang",
+   "url": "",
+   "words": [
+    "joins(役職)"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "The a16z Show",
+   "type": "ポッドキャスト",
+   "published": "2026-11-23",
+   "title": "The One-Person Biotech | OpenAI Life Sciences",
+   "url": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
+   "words": [
+    "acquisition"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "\"Fire the Bankers\": Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable | Anj Midha",
+   "url": "https://www.youtube.com/watch?v=mg4yo5HUMuQ",
+   "words": [
+    "compute",
+    "investments",
+    "investor",
+    "investors"
+   ],
+   "companies": [
+    "Anthropic",
+    "Mistral",
+    "a16z"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Huang Returns, Ferrari 296 CS Stuns, GTA 6 Breaks Sales Records",
+   "url": "https://www.youtube.com/watch?v=ffHcwb1xi_w",
+   "words": [
+    "investigation",
+    "investor"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "a16z",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Why OpenAI Acquired a Biotech Startup",
+   "url": "https://www.youtube.com/watch?v=RwYz8XhZiu0",
+   "words": [
+    "acquired",
+    "acquisition"
+   ],
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "url": "https://www.youtube.com/watch?v=w-ltt0Np2cY",
+   "words": [
+    "investigating"
+   ],
+   "companies": [
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+   "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+   "words": [
+    "investigating"
+   ],
+   "companies": [
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "url": "https://www.youtube.com/watch?v=gAmjBqXNoFI",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "OpenAI",
+    "openai"
+   ]
+  },
+  {
+   "source": "OpenAI",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "How Franklin Templeton uses AI for investment research | OpenAI",
+   "url": "https://www.youtube.com/watch?v=PXKvR8ta22Q",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "OpenAI",
+    "openai"
+   ]
+  },
+  {
+   "source": "NVIDIA",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Tomorrow on the NVIDIA AI Podcast.",
+   "url": "https://www.youtube.com/watch?v=oF2xi9BaHco",
+   "words": [
+    "buys"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "'This is a historic moment': Stephanie Link, Alex Kantrowitz, Malcolm Ethridge on Nvidia's bounce",
+   "url": "https://www.youtube.com/watch?v=HvmybmMcf80",
+   "words": [
+    "investment"
+   ],
+   "companies": [
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Dan Ives: Shareholder activism was the groundswell to bringing Jensen Huang back",
+   "url": "https://www.youtube.com/watch?v=DaYx5j0uAgQ",
+   "words": [
+    "joins(役職)"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "DOJ shouldn't work for the president, they should conduct their own neutral investigation: Attorney",
+   "url": "https://www.youtube.com/watch?v=MruRPjNhSec",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-23",
+   "title": "Squawk Pod: Jensen Huang is back - 11/23/26 | Audio Only",
+   "url": "https://www.youtube.com/watch?v=uMVbETHlgko",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "ReHacQ-リハック-",
+   "type": "動画",
+   "published": "2026-11-22",
+   "title": "【高橋弘樹vs数学の難問】167年未解決問題…AIが「リーマン予想」を証明か？アンソロピックの数学者がなぜ？【今井翔太vs加藤文元】",
+   "url": "https://www.youtube.com/watch?v=edYq2nQGjA8",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "apple",
+    "google",
+    "アンソロピック"
+   ]
+  }
+ ]
+}
