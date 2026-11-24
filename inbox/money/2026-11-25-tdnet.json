@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-25",
+ "kind": "money",
+ "items": [
+  {
+   "from": "HODL1",
+   "to": "SuperX Industries",
+   "kind": "提携",
+   "amount": "",
+   "date": "2026-11-24",
+   "region": "日本",
+   "note": "ＨＯＤＬ１の適時開示「SuperX Industries株式会社との業務提携に関する基本合意書締結のお知らせ」で確認(TDnet、2026-11-24。PDFを開いて会社・相手(表題と本文(定義)で確認)・日付・AI関連の語を照合)。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "TDnet ＨＯＤＬ１の開示(2026-11-24)",
+     "https://www.release.tdnet.info/inbs/140120261117581977.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ]
+}

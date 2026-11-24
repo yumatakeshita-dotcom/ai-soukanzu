@@ -1,0 +1,35 @@
+{
+ "items": [
+  {
+   "d": "2026-11-24",
+   "time": "17:00",
+   "market": "TDnet(日本)",
+   "code": "2345",
+   "co": "ＨＯＤＬ１",
+   "title": "SuperX Industries株式会社との業務提携に関する基本合意書締結のお知らせ",
+   "cat": "提携",
+   "url": "https://www.release.tdnet.info/inbs/140120261117581977.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 43
+   },
+   "snippet": "6427-7380（代表） SuperX Industries 株式会社との業務提携に関する基本合意書締結のお知らせ 当社は、2026 年 11 月 24 日開催の取締役会において、SuperX Industries 株式会社（以 下「SuperX Industries」といいます。）との間で、AI インフラ領域における業務提携を 行うことについて決議し、同日、業務提携に関する基本合意書（以下「本 MoU」といいま す。）を締結いたしましたので、下記のとおりお知らせいたします。 記 １ 業務提携の理由 AI が企業の業務や取引を担うようになり、AI を動かす計算資源を備えたデータセンター は、経済活動に欠かせないインフラになりつつあります。データセンターを顧客の利用に つなげるには、GPU の調達、設置・運営、",
+   "import": "自動(inbox/money)",
+   "deal": {
+    "from": "HODL1",
+    "to": "SuperX Industries",
+    "kind": "提携",
+    "amount": "",
+    "partner_from": "表題と本文(定義)"
+   }
+  }
+ ],
+ "skipped": [],
+ "date": "2026-11-25",
+ "kind": "ir-scan-alliance",
+ "list_rows": 214,
+ "shortlist": 1,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}
