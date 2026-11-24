@@ -21,7 +21,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 QUEUE = os.path.join(ROOT, 'inbox', 'queue.json')
 STATES = ('未', '調査済', '保留')
-COOLDOWN_DAYS = {'固定': 30, '会社': 120, '重要': 45}   # 調査済みの項目が、また選ばれるまでの日数
+COOLDOWN_DAYS = {'固定': 30, '会社': 120, '重要': 45, '薄い人物': 60}   # 調査済みの項目が、また選ばれるまでの日数
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
 
@@ -131,6 +131,30 @@ def rank_items(have):
     return out
 
 
+THIN_TOP = 10   # 経歴の薄い有名人物(scripts/person_thin.py)の上位から、この数まで足す
+
+
+def thin_items(have):
+    """経歴が薄い有名人物の上位を、優先して調べる項目として足す(2026/11/24追加。足すだけ)。
+    inbox/people_thin/latest.json の「上位」(知名度の高い順。skip.json の人は外れている)を使う。"""
+    p = os.path.join(ROOT, 'inbox', 'people_thin', 'latest.json')
+    if not os.path.exists(p):
+        return []
+    out = []
+    for i, r in enumerate(json.load(open(p, encoding='utf-8')).get('top', [])[:THIN_TOP], 1):
+        nm = r.get('en') or r['name']
+        id_ = 'person-' + norm(nm)
+        if id_ in have:
+            continue
+        out.append({
+            'id': id_, 'kind': '薄い人物', 'company': nm, 'region': '世界',
+            'theme': f"{nm}の経歴(前職・入社時期・役割・主な実績)を、本人のX・公式ブログ・SEC書類・報道の本文など、開ける出典で確かめる。いま相関図には「{r.get('role','')}」程度しかない",
+            'reason': f"経歴の薄い有名人物の{i}位(知名度{r['fame']}。{'、'.join(r.get('why', []))})",
+            'priority': 11, 'rank': i, 'status': '未', 'last_researched': None, 'attempts': 0, 'history': [], 'added': today(),
+        })
+    return out
+
+
 def build(dry=False, log=print):
     q = load()
     have = {it['id'] for it in q['items']}
@@ -141,6 +165,9 @@ def build(dry=False, log=print):
                           'last_researched': None, 'attempts': 0, 'history': [], 'added': today()})
     # 0. 重要度ランキングの上位(優先度10。固定の課題の次、薄いところ探しの前)
     for r in rank_items(have | {a['id'] for a in added}):
+        added.append(r)
+    # 0b. 経歴の薄い有名人物の上位(優先度11。重要度ランキングの次)
+    for r in thin_items(have | {a['id'] for a in added}):
         added.append(r)
     counts, names = move_counts()
     # 1. 地域ごとの会社リストで、人の動きが0〜1件のもの

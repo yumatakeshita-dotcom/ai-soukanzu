@@ -1,0 +1,760 @@
+{
+ "date": "2026-11-24",
+ "total": 4741,
+ "thin": 4582,
+ "method": "薄さ=説明文・経歴の行・出典の少なさ(3点以上)。知名度=主要なAI・半導体の図の数×5+その他の図×1.5+線の数×0.7+ニュース見出し(上限30)×2+肩書き3+Wikidata2",
+ "top": [
+  {
+   "key": "Luke Metz",
+   "name": "ルーク・メッツ",
+   "en": "Luke Metz",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(130字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 23.6,
+   "desc": 130,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 8,
+   "companies": [
+    "meta",
+    "openai",
+    "tml"
+   ],
+   "role": "復帰",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Jack Ma",
+   "name": "ジャック・マー",
+   "en": "Jack Ma",
+   "thin": 4,
+   "why": [
+    "説明文が短い(44字)",
+    "経歴の行が0"
+   ],
+   "fame": 21.8,
+   "desc": 44,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 2,
+   "edges": 4,
+   "companies": [
+    "alibaba",
+    "softbank"
+   ],
+   "role": "元取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Junichi Miyakawa",
+   "name": "宮川潤一",
+   "en": "Junichi Miyakawa",
+   "thin": 3,
+   "why": [
+    "説明文がやや短い(75字)",
+    "経歴の行が0"
+   ],
+   "fame": 21.5,
+   "desc": 75,
+   "career": 0,
+   "personal": 4,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "paypay",
+    "sbcorp",
+    "softbank"
+   ],
+   "role": "ソフトバンク(通信)社長",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Charles Scharf",
+   "name": "チャールズ・シャーフ",
+   "en": "Charles Scharf",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(74字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 20.8,
+   "desc": 74,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 9,
+   "companies": [
+    "msft",
+    "us_BNY",
+    "us_V",
+    "us_WFC"
+   ],
+   "role": "取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Andy Konwinski",
+   "name": "アンディ・コンウィンスキー",
+   "en": "Andy Konwinski",
+   "thin": 4,
+   "why": [
+    "説明文が短い(39字)",
+    "経歴の行が0"
+   ],
+   "fame": 18.5,
+   "desc": 39,
+   "career": 0,
+   "personal": 4,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "databricks",
+    "perplexity"
+   ],
+   "role": "共同創業者",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Brian McCarthy",
+   "name": "ブライアン・マッカーシー",
+   "en": "Brian McCarthy",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(97字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 18.0,
+   "desc": 97,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "cursor",
+    "openai",
+    "us_SPCX"
+   ],
+   "role": "世界営業担当VP(新設)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Jill Hazelbaker",
+   "name": "ジル・ヘイゼルベイカー",
+   "en": "Jill Hazelbaker",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(141字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 17.8,
+   "desc": 141,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "openai",
+    "uber"
+   ],
+   "role": "最高渉外責任者(Chief Corporate Affairs Officer)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Denise Dresser",
+   "name": "デニス・ドレッサー",
+   "en": "Denise Dresser",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(73字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 17.1,
+   "desc": 73,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "openai",
+    "slack"
+   ],
+   "role": "元CRO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Rahul Patil",
+   "name": "ラフル・パティル",
+   "en": "Rahul Patil",
+   "thin": 5,
+   "why": [
+    "説明文が短い(35字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 17.1,
+   "desc": 35,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "anthropic",
+    "stripe"
+   ],
+   "role": "元CTO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Rajeev Misra",
+   "name": "ラジーブ・ミスラ",
+   "en": "Rajeev Misra",
+   "thin": 3,
+   "why": [
+    "説明文がやや短い(102字)",
+    "経歴の行が0"
+   ],
+   "fame": 17.1,
+   "desc": 102,
+   "career": 0,
+   "personal": 4,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "softbank",
+    "visionfund"
+   ],
+   "role": "元ビジョン・ファンド責任者",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Hunter Harrison",
+   "name": "ハンター・ハリソン",
+   "en": "Hunter Harrison",
+   "thin": 5,
+   "why": [
+    "説明文が短い(39字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 16.5,
+   "desc": 39,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 10,
+   "companies": [
+    "us_CNI",
+    "us_CP",
+    "us_CSX"
+   ],
+   "role": "元CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Ismail Elmas",
+   "name": "イスマイル・エルマス",
+   "en": "Ismail Elmas",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(135字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 16.4,
+   "desc": 135,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 7,
+   "companies": [
+    "cursor",
+    "openai",
+    "us_SPCX"
+   ],
+   "role": "欧州・中東・アフリカ(EMEA)営業担当VP(ミュンヘン拠点)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Dave Dugan",
+   "name": "デイブ・デュガン",
+   "en": "Dave Dugan",
+   "thin": 3,
+   "why": [
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 15.8,
+   "desc": 195,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "meta",
+    "openai"
+   ],
+   "role": "広告事業の責任者(COOのBrad Lightcapに報告)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Yash Patil",
+   "name": "ヤシュ・パティル",
+   "en": "Yash Patil",
+   "thin": 5,
+   "why": [
+    "説明文が短い(10字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 15.4,
+   "desc": 10,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 3,
+   "edges": 2,
+   "companies": [
+    "appliedcompute"
+   ],
+   "role": "共同創業者 / CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Fumiaki Koizumi",
+   "name": "小泉文明",
+   "en": "Fumiaki Koizumi",
+   "thin": 4,
+   "why": [
+    "説明文が短い(59字)",
+    "経歴の行が0"
+   ],
+   "fame": 15.1,
+   "desc": 59,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "antlers",
+    "mercari"
+   ],
+   "role": "代表執行役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Ryosuke Sakaue",
+   "name": "坂上亮介",
+   "en": "Ryosuke Sakaue",
+   "thin": 5,
+   "why": [
+    "説明文が短い(39字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 15.1,
+   "desc": 39,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "demaecan",
+    "ly"
+   ],
+   "role": "取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Alex Clavel",
+   "name": "アレックス・クラベル",
+   "en": "Alex Clavel",
+   "thin": 5,
+   "why": [
+    "説明文が短い(57字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 15.1,
+   "desc": 57,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "softbank",
+    "visionfund"
+   ],
+   "role": "ファンド運用会社CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Sandy Weill",
+   "name": "サンディ・ワイル",
+   "en": "Sandy Weill",
+   "thin": 5,
+   "why": [
+    "説明文が短い(44字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 15.1,
+   "desc": 44,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 8,
+   "companies": [
+    "us_C",
+    "us_JPM",
+    "us_TRV"
+   ],
+   "role": "関係者",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "John Lagerling",
+   "name": "ジョン・ラガリング",
+   "en": "John Lagerling",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(78字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 14.4,
+   "desc": 78,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 2,
+   "companies": [
+    "mercari",
+    "mercariUS"
+   ],
+   "role": "米国戦略(2017年)",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Yoshimitsu Goto",
+   "name": "後藤芳光",
+   "en": "Yoshimitsu Goto",
+   "thin": 4,
+   "why": [
+    "説明文が短い(43字)",
+    "経歴の行が0"
+   ],
+   "fame": 14.4,
+   "desc": 43,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 0,
+   "edges": 2,
+   "companies": [
+    "paypay",
+    "softbank"
+   ],
+   "role": "取締役 / CFO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Sebastian Thrun",
+   "name": "セバスチャン・スラン",
+   "en": "Sebastian Thrun",
+   "thin": 3,
+   "why": [
+    "説明文が短い(34字)",
+    "経歴の行が2"
+   ],
+   "fame": 14.3,
+   "desc": 34,
+   "career": 2,
+   "personal": 5,
+   "src": 0,
+   "news": 0,
+   "edges": 4,
+   "companies": [
+    "un_cresta",
+    "waymo"
+   ],
+   "role": "創設者",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Daniel Ek",
+   "name": "ダニエル・エク",
+   "en": "Daniel Ek",
+   "thin": 4,
+   "why": [
+    "説明文が短い(50字)",
+    "経歴の行が0"
+   ],
+   "fame": 14.2,
+   "desc": 50,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 1,
+   "edges": 6,
+   "companies": [
+    "st_helsing",
+    "us_SPOT"
+   ],
+   "role": "会長 / 出資者",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "松田千恵子",
+   "name": "松田千恵子",
+   "en": "",
+   "thin": 4,
+   "why": [
+    "説明文がやや短い(81字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 14.0,
+   "desc": 81,
+   "career": 0,
+   "personal": 0,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "jp_2503",
+    "jp_3099",
+    "jp_3407",
+    "jp_7013",
+    "jp_8015"
+   ],
+   "role": "取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Steve Angel",
+   "name": "スティーブ・エンジェル",
+   "en": "Steve Angel",
+   "thin": 5,
+   "why": [
+    "説明文が短い(42字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.7,
+   "desc": 42,
+   "career": 0,
+   "personal": 3,
+   "src": 0,
+   "news": 0,
+   "edges": 6,
+   "companies": [
+    "us_CSX",
+    "us_GEV",
+    "us_LIN"
+   ],
+   "role": "会長",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Bill McDermott",
+   "name": "ビル・マクダーモット",
+   "en": "Bill McDermott",
+   "thin": 5,
+   "why": [
+    "説明文が短い(41字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.6,
+   "desc": 41,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "figma",
+    "us_NOW"
+   ],
+   "role": "取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Bret Johnsen",
+   "name": "ブレット・ジョンセン",
+   "en": "Bret Johnsen",
+   "thin": 5,
+   "why": [
+    "説明文が短い(38字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.6,
+   "desc": 38,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 3,
+   "companies": [
+    "us_SPCX",
+    "xai"
+   ],
+   "role": "SpaceX CFO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Frank Slootman",
+   "name": "フランク・スルートマン",
+   "en": "Frank Slootman",
+   "thin": 5,
+   "why": [
+    "説明文が短い(34字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.6,
+   "desc": 34,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 8,
+   "companies": [
+    "us_NOW",
+    "us_SNOW"
+   ],
+   "role": "元CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Ruoming Pang",
+   "name": "ルオミン・パン",
+   "en": "Ruoming Pang",
+   "thin": 5,
+   "why": [
+    "説明文が短い(55字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.5,
+   "desc": 55,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "meta",
+    "openai"
+   ],
+   "role": "AI基盤",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Parker Harris",
+   "name": "パーカー・ハリス",
+   "en": "Parker Harris",
+   "thin": 5,
+   "why": [
+    "説明文が短い(46字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 13.0,
+   "desc": 46,
+   "career": 0,
+   "personal": 2,
+   "src": 0,
+   "news": 0,
+   "edges": 5,
+   "companies": [
+    "slack",
+    "us_CRM"
+   ],
+   "role": "CTO",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Adam D'Angelo",
+   "name": "アダム・ダンジェロ",
+   "en": "Adam D'Angelo",
+   "thin": 3,
+   "why": [
+    "説明文が短い(33字)",
+    "経歴の行が2"
+   ],
+   "fame": 12.9,
+   "desc": 33,
+   "career": 2,
+   "personal": 5,
+   "src": 0,
+   "news": 0,
+   "edges": 2,
+   "companies": [
+    "openai",
+    "un_quora"
+   ],
+   "role": "取締役",
+   "skipped": false,
+   "profile": false
+  }
+ ],
+ "all_thin_count": 4582
+}
