@@ -1,0 +1,604 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "AI企業・半導体企業の創業者や経営者が、本人が公の場(インタビュー・ポッドキャスト・投稿)で話した朝の習慣・日課(起床時間・運動・瞑想など。健康や病気、家族の話は除く)。出典URL付き",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "上場",
+   "相手": "Nasdaq Global Select Market",
+   "金額": "83.00 USD/株",
+   "日付": "2026-11-19",
+   "出典URL": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "確かさ": "公式",
+   "備考": "1株あたり83.00ドルで公募価格を設定し、Nasdaq Global Select Marketに「ANT」のティッカーで上場。IPOにより約813.4億ドルを調達した。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic prices initial public offering \\ Anthropic",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Nasdaq Global Select Market"
+    ]
+   }
+  },
+  {
+   "会社名": "AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners",
+   "関係": "出資",
+   "相手": "Anthropic",
+   "金額": "260億 USD",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering",
+   "確かさ": "公式",
+   "備考": "IPOと同時にClass N普通株式を公募価格で売却した。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Nvidia",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-12",
+   "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "確かさ": "公式",
+   "備考": "複数件の不倫疑惑報道を受け、Jensen Huang氏がPresident、CEO、取締役を辞任した。",
+   "人物": "Jensen Huang",
+   "役職": "President, CEO and Board Director",
+   "移籍元": "Nvidia",
+   "src": [
+    [
+     "Nvidia Newsroom",
+     "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    ]
+   ],
+   "既存の名前": [
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "状態": "ok",
+    "載っていた名前": [
+     "Nvidia"
+    ]
+   }
+  },
+  {
+   "会社名": "Nvidia",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-12",
+   "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "確かさ": "公式",
+   "備考": "Jensen Huang氏の辞任に伴い、Colette Kress氏が暫定CEOに就任した。",
+   "人物": "Colette Kress",
+   "役職": "Interim Chief Executive Officer",
+   "移籍先": "Nvidia",
+   "src": [
+    [
+     "Nvidia Newsroom",
+     "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    ]
+   ],
+   "既存の名前": [
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "状態": "ok",
+    "載っていた名前": [
+     "Nvidia"
+    ]
+   }
+  },
+  {
+   "会社名": "Nvidia",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-23",
+   "出典URL": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+   "確かさ": "公式",
+   "備考": "米国政府上層部からの意見を受け、国家安全保障上のリスクがないと判断され、Jensen Huang氏がPresident、CEO、取締役として再任された。",
+   "人物": "Jensen Huang",
+   "役職": "President, Chief Executive Officer and Board Director",
+   "移籍先": "Nvidia",
+   "src": [
+    [
+     "Nvidia Newsroom",
+     "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    ]
+   ],
+   "既存の名前": [
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "NVIDIA Board Reinstates Jensen Huang as President, CEO and B",
+    "状態": "ok",
+    "載っていた名前": [
+     "Nvidia"
+    ]
+   }
+  },
+  {
+   "会社名": "SpaceX",
+   "関係": "規制承認",
+   "相手": "Federal Communications Commission (FCC)",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://www.techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+   "確かさ": "報道",
+   "備考": "最大100万基の軌道上データセンター衛星「Starmind」の展開・運用が条件付きで承認された。",
+   "src": [
+    [
+     "TechCrunch",
+     "https://www.techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SpaceXAI (SpaceX)",
+   "関係": "提携",
+   "相手": "Nvidia",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://www.forbesmiddleeast.com/innovation/technology/spacex-plans-1-million-satellites-for-ai-data-centers-in-orbit",
+   "確かさ": "報道",
+   "備考": "SpaceXAIの第一世代Starmind衛星に、NvidiaのVera Rubin NVL72コンピューティングシステムを最適化して搭載する計画が発表された。",
+   "src": [
+    [
+     "Forbes Middle East",
+     "https://www.forbesmiddleeast.com/innovation/technology/spacex-plans-1-million-satellites-for-ai-data-centers-in-orbit"
+    ]
+   ],
+   "既存の名前": [
+    "Nvidia"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SINGULUS Technologies",
+   "関係": "取引",
+   "相手": "SpaceX",
+   "金額": "",
+   "日付": "2026-03",
+   "出典URL": "https://www.forbesmiddleeast.com/innovation/technology/spacex-plans-1-million-satellites-for-ai-data-centers-in-orbit",
+   "確かさ": "報道",
+   "備考": "SpaceXに対し、ヘテロ接合型太陽電池のターンキー生産ラインを供給する契約を締結。納品は2027年上半期の予定。",
+   "src": [
+    [
+     "Forbes Middle East",
+     "https://www.forbesmiddleeast.com/innovation/technology/spacex-plans-1-million-satellites-for-ai-data-centers-in-orbit"
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SB Telecom Singapore (SoftBank unit)",
+   "関係": "提携",
+   "相手": "SC ZEUS Data Centers (Singapore), Robust HPC Group (Malaysia)",
+   "金額": "",
+   "日付": "2026-08-01",
+   "出典URL": "https://midasanalytics.com/market-pulse/southeast-asias-ai-data-center-pipeline-hit-a-record-26-5-gigawatts-the-grid-cant-connect-half-of-it-on-time/",
+   "確かさ": "報道",
+   "備考": "マレーシア、タイ、インドネシア、ベトナムでAIデータセンターインフラを構築するための覚書（MOU）を締結した。",
+   "src": [
+    [
+     "Midas Analytics",
+     "https://midasanalytics.com/market-pulse/southeast-asias-ai-data-center-pipeline-hit-a-record-26-5-gigawatts-the-grid-cant-connect-half-of-it-on-time/"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Microsoft",
+   "関係": "出資",
+   "相手": "東南アジアのAIインフラ",
+   "金額": "65億 USD",
+   "日付": "2026",
+   "出典URL": "https://midasanalytics.com/market-pulse/southeast-asias-ai-data-center-pipeline-hit-a-record-26-5-gigawatts-the-grid-cant-connect-half-of-it-on-time/",
+   "確かさ": "報道",
+   "備考": "2029年までに東南アジアのAIインフラに65億ドルを投資するコミットメント。うち55億ドルはシンガポールのクラウド・AIキャパシティに充てられる。",
+   "src": [
+    [
+     "Midas Analytics",
+     "https://midasanalytics.com/market-pulse/southeast-asias-ai-data-center-pipeline-hit-a-record-26-5-gigawatts-the-grid-cant-connect-half-of-it-on-time/"
+    ]
+   ],
+   "既存の名前": [
+    "Microsoft"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "leverageshares.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlqVolHrXFs1iEByl3NVBltfG0neY1eO3U5-aPMu67mxIDlONTQmPFOALsUaLBKlbVaO79-YTnCEnt0v4YH3RYOWH6Ztomi6A1dlrrE16fgvVhVC6e_UpBHEoswrHZTBh0IhxLN1X_W4LDpVpvFQ=="
+  ],
+  [
+   "trading212.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAeD2U-XdsorNZ1fkrE4g3mRMJG7Ea38BUcNtXHq3ad2P6U_IZDGt6vKL4eFDy5mwxJSNovJYe0hiVzDzYUdr99HsyvhuAlwArK4slGyLT0Opw-5Gu4J9I5wPubbd9yjkRiwvTUjFMLsbvXSsLgxa7KZlXMED"
+  ],
+  [
+   "smartasset.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES_ygFCxz04iEYknaj5QxYSW2QFG1YdSmi8WnnM-LVZwgfxLCm2mjvgS_vEmTGPxCuogA-i4Z-8au06tzhmHlT_cY_bIKcC-UOQbAI0TjK8N6FES3vzFMGqu7xJjfjDOwCfE-bBAaIE9JPfPfP5xSo-v8AEDw65Zn562pPrxzSQ1GnHEb6QthQIf0SmxUHqvM50RjPZuBdh_6I"
+  ],
+  [
+   "tmgm.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWT2Eq0ZJFQ8ym-eXA_dlpZn9aJOguq964DUT-Zx88SxwUewnRkaYnxzUJgw_z6P8IVt1tCyFlNGS1s8fefDzKW03fL3DH4JhD-WEcsUzQ-kA0YHheqI1WaT0TCc9SvIWfyrEike4Is2uXPc-cfet1D2Ip2ANnLAn0RNdudmPdW27AtBZ5eqbJoSVBYkmf4IvMmKdBoikeZoJkiw=="
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqVMe3LnEZoBUqzytLJkBO8d_uHYY1UbkU8WjUSSAoNKKtygzeNMr-sXViljWDlXE46Do_RTtU7m3qHL_ZNd5-oi3XfO16xNrdQTdyLB14XMvR53U2q8yfDGevTiNoj-l6"
+  ],
+  [
+   "admiralmarkets.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnA_NkrmMxFO3hRdnhHLJ0MqSgKeLjEXBSHcjRt7PUPj3dfD_n7xiVUKkIY9CEMsTXWF0OpPOJ1fWeE8_ydlum8HeXrSNqGqjw6yZMjl1SArQkNnVExhyQcJk4kjkgCy-5bkXX9moBdLPZUnuuyiXiL3G9eZicU1_7wDNU"
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9RLhFzb2lxa_zaLR-9OHlwb8gcpPWDW0pZ0nJlMMtcZ0uxIK3Qj6PkGfHCvRMUXzfGP46ETQFC8ks3_HBE7xQGcnqkjOZ--DlYeRsebQWCVBlurlL31a94EjR4Jo0zBiVkjRdnzZUy5gA50BCi4cl5vKdnS_WN8wHyyMoy0WWhns="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrc3qO4aubTbGNclYe-MVsK5GA0Em1Pj4OUh7kIFhKYGYb0G3xUlw95Yt9yMTP1Y2OcrzgpuuHahme8HrfKwjxQ9ZB2-QViurSLZD0oebFPMQ8oHz0ZsbxZAI09aYDwl3pLw=="
+  ],
+  [
+   "theguardian.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSxwmEa0Wc9tLmhZUqH_c1ZCjwqGWHaJfW41TWmgF6u2X1RpxXYydhgrXmLsgKrvCRvKklvYC2Y60kbAKb7OsdPvvbV1KKyk6qXIjk-QMuAKRBTzB3xKMhxrTIa_eMq0onZkAV-68zPKSyfoPYI6DYIwUZrym4jDAgCpiYZWmwG_R3Iai2B1KI9V9zFw=="
+  ],
+  [
+   "cbsnews.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmulU6qKsgZYTO8hKp82vTwX9bGE8LItGANjHyBwgFgSUw3VJmfgfZbuS8krau7HIwHiKFR9SYCJohDqmsesSdDt_CtYoOufEpzMoEViCaBQJVzBtiVorJfplVWQBTfy1a1nxvaAR9y7wKWDtP3IZGIhIQZFAPVoYGGmZpfqTO_RD7MTg1EdVO"
+  ],
+  [
+   "venturebeat.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXdV0qK4zTG8phJEArngmI2wn5HYWUgLv04qbJFtzsVDlj8E-lKhw_1ZcjBLpmVnDyT71gXYEXaSB1I0SjqoiooX3YbLhCfCFUoJ9fyu9JyBxSvQ6PdrMGpW3JFAewF44nwmhIqBDjAa-cJuB_GItqemykNll3Sfx3Jx1vdJs-m14o70AjIymF7IBTXDnc8DxCicT07WJn-CLnyZZnqpoEzj_7"
+  ],
+  [
+   "nvidia.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-HYuBz0BGVTaYXVKYdixUEM-N8tAjR71vOfatT7beNEDqwtay8k16by_E-IsmqfA85h34pt88ngykn3gq90TtEUzeEpGscer7fvbxUSL6ADx9DyJxz0U3WM40ChntZ2vdg0RphX3MOsGnsNRowCYyCoJvGZTulcHsacvO"
+  ],
+  [
+   "britannica.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOOIv90l2V52KZY3PEPxCdifgest6TVwahuvfWxBZyQjNyh1cKmKGJpAEILLij_m2Og_U5HnUJ2pRX01J-JfRkbApBo9ZLtJtqZJPiY2B0Hk1EL31ESzaUsowtJssgzjRCaTkXN5hB6w4Yh_Y8Wk6cWWlvpVuzCpOiJP_WUqMw-pxICOwHEjq0dhbqwl0MXfZJ8pc_"
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPBGw6AtaguK4PoWw1zy2U_dyl1xrd8J2OAsjqWp4dKYWme-T26bZRETKGMRbLYbEEjYloDKoCiRrgY_2tH-9Z-wNzj4XqehCrTwfFLowakvGzrBZwo-AYyJoVvJEByRnVz7ke"
+  ],
+  [
+   "cbsnews.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8aPmFMcL4j7tOO6ZN35ftqyQUhN7sAj2aRYlHrB-2zMoqi9mWwO4PLnR8SxH3xo62eWWNO1XKPJTjxbzQRGTUqzqVUFE8YYKvCL5OL9T23E9T7HIKWovGDUOjvIntpkdqkgHwpbf4CnSsoOr7M60pJ-oyNRioMHvnAck2h9jOmXjkeZ0="
+  ],
+  [
+   "nvidia.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXJeMjxT2hbRffMRaRTFXXT_-M2bVVNJdXnRf9qoOrqH_oN57PFoSNs9hbMzCkjziMq4s9efgaHUMayRShvSgGhapcXHWLG8fX72gDocsnGWScWfWZUIMmMBBku9h3Pc6lNVStHWPKBhzR4aPwqJLwjSGrmBR5zZXqwYDrNEgc-cbL_r7mQroDy3STPLmchBljAPVCTnI9AX_drcLVcDH5Q7emi8="
+  ],
+  [
+   "cbsnews.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlD_jLHpxuowBtciRF7Rj1xupVnyotsIzr9_5NvbXjppWrCr-MC27EZywbjI0ErtZGIAode9fOfH245eMjRTq_OwxpVJOECgXRYPOgPi8guXHaEyilFvjMhKvu8OmP9o9IZXtJ9heA5hcYUYFoz4QMTRdKpyTqK9zGZ2TOgvIlES8GoD0p4UJDcfi"
+  ],
+  [
+   "cnet.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYmYj4r6QeQj437RKhSbCaFWqaZ7TIBpzpqYW9CCx0VCnrYtyeVtTAzfptZijzm1jHHokNZxC29D_qsomIcQxbbNEnjQFwfWEG6atS4b24HQoNuFn_40G2vU6RVMZraBX1QzPhMqTJI0-Y8wzcAmIUMoc4cXXxGoA8b_00fEaQOfm_llDU-0F5eTYrUJV7A5qLhw=="
+  ],
+  [
+   "forbesmiddleeast.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqKU1l5U-nmBUbJx6wfRRZxZZG99DHcUhoMEE-1ikCJT4OTCqgIg3mecmtuk5d4Yc_-kkXG12lIkEh5F7QFU6fAfHeddZLWevQRuTcHllzgwuOh6EMJBCRdERw7GHFYG4UrX3-2W3ZDaTWFUPsvL02N9UIw6FV-4a9Is-atjQ858I5Bo147eZo0H2cPJpqy86rMld3RtjYP5-yw-664sH5Bobx1Gwy6kk2FQAVspOJ9BPGcgsJZlNf0mOpCP0="
+  ],
+  [
+   "techcrunch.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs8ZAbqrGaj4_KwdQ8pmSEbnRFaiz7E481Eh4JFPSvmiZnEA1wdn5kL2UPU_bIn5c0MUXwH4pkTCMQeU5Re_wOEM0HudBPA5lxGEVZnkm4GIlXETAXtRnVMitPSVNsg52_OZm2zB8EExn1sOVb4rW7nqbjaRKSjRPijRukQIPjaI4CyhV6rjvRlglSs2heGAs-z3kssg=="
+  ],
+  [
+   "theguardian.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeG3z7IbYdmvYoEG988W4H0rN4vNbZAfDOfixxYx6IA80NnnJZHTkDNVwZrDUpuzGIXvul9jCyQ9EW1l2ALQbJ6KsM73p7XT75uS9l3wdNtyxCkfKsHABF_vOjkzrJpJAiRxvGUv2WLyv84BhcuXHB-HMYj710bt8Wszt368_HJPKzxqr9eY5ebTXRzbcGwg=="
+  ],
+  [
+   "thenationalnews.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK-5DL3KD0x9JmqMQr7RTcpjKrCkUhPdLrm78NG52gbnCx3ScAOO7lhETxd4kWlZpBZXWcESs6k9lDwFHPb1HetAsTSgUcOu-aGqOGzWYfim7U2qg-vOPyKtFYOp-g1yC-ovfF_W784zaJ-bNoMe3in31TodVOuxiGwoLDqris6EVl"
+  ],
+  [
+   "midasanalytics.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd9rdmKkIi9kUNd15re436OWSMv4h2Afx6pqsFOuB0jzPK4gJundFQVv9wcuHVGvXtMdH-sVNRcszOfdWLzJU47rXGxps1xrUOXcbDKkmnFzh2R5GSY_Ew0L9qVSHNR0Uv6xUhOfiH17OP4LQj3WDyf-sZGAsjncE81fHNJ_0iADghGXth3ayfprR-GbxVE-8="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://leverageshares.com/us/anthropic-ipo-tracker/",
+  "https://www.trading212.com/learn/investing-101/anthropic-ipo",
+  "https://smartasset.com/investing/anthropic-ipo-date-investor-timeline-valuation-and-expectations",
+  "https://www.tmgm.com/en/academy/trading-academy/when-is-anthropic-ipo-everything-you-need-to-know",
+  "https://en.wikipedia.org/wiki/Anthropic",
+  "https://admiralmarkets.com/education/articles/shares/anthropic-ipo",
+  "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "https://www.anthropic.com/news/ipo-close",
+  "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+  "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/",
+  "https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry",
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://www.britannica.com/question/What-led-up-to-Jensen-Huangs-resignation-as-NVIDIA-CEO",
+  "https://en.wikipedia.org/wiki/Jensen_Huang",
+  "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/",
+  "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "https://www.cbsnews.com/news/nvidia-jensen-huang-security-clearance-todd-blanche/",
+  "https://www.cnet.com/tech/services-and-software/jensen-huang-reinstated-nvidia-ceo-news/",
+  "https://forbesmiddleeast.com/innovation/technology/spacex-seeks-to-build-ai-data-centers-in-space-with-1-million-satellite-network",
+  "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+  "https://www.theguardian.com/us-news/2026/nov/25/spacex-datacenter-satellites-approval",
+  "https://www.thenationalnews.com/future/2026/11/25/data-centers-in-space/",
+  "https://midasanalytics.ai/market-pulse/southeast-asia-data-center-grid-bottleneck-w3k7"
+ ],
+ "process": {
+  "queries": [
+   "Anthropic IPO date official",
+   "Anthropic stock exchange listing",
+   "Jensen Huang Nvidia CEO current status",
+   "Jensen Huang Nvidia resignation",
+   "SpaceX orbital data center partnerships",
+   "Southeast Asia AI data center investments 2026"
+  ],
+  "sources": [
+   [
+    "leverageshares.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlqVolHrXFs1iEByl3NVBltfG0neY1eO3U5-aPMu67mxIDlONTQmPFOALsUaLBKlbVaO79-YTnCEnt0v4YH3RYOWH6Ztomi6A1dlrrE16fgvVhVC6e_UpBHEoswrHZTBh0IhxLN1X_W4LDpVpvFQ=="
+   ],
+   [
+    "trading212.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAeD2U-XdsorNZ1fkrE4g3mRMJG7Ea38BUcNtXHq3ad2P6U_IZDGt6vKL4eFDy5mwxJSNovJYe0hiVzDzYUdr99HsyvhuAlwArK4slGyLT0Opw-5Gu4J9I5wPubbd9yjkRiwvTUjFMLsbvXSsLgxa7KZlXMED"
+   ],
+   [
+    "smartasset.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES_ygFCxz04iEYknaj5QxYSW2QFG1YdSmi8WnnM-LVZwgfxLCm2mjvgS_vEmTGPxCuogA-i4Z-8au06tzhmHlT_cY_bIKcC-UOQbAI0TjK8N6FES3vzFMGqu7xJjfjDOwCfE-bBAaIE9JPfPfP5xSo-v8AEDw65Zn562pPrxzSQ1GnHEb6QthQIf0SmxUHqvM50RjPZuBdh_6I"
+   ],
+   [
+    "tmgm.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWT2Eq0ZJFQ8ym-eXA_dlpZn9aJOguq964DUT-Zx88SxwUewnRkaYnxzUJgw_z6P8IVt1tCyFlNGS1s8fefDzKW03fL3DH4JhD-WEcsUzQ-kA0YHheqI1WaT0TCc9SvIWfyrEike4Is2uXPc-cfet1D2Ip2ANnLAn0RNdudmPdW27AtBZ5eqbJoSVBYkmf4IvMmKdBoikeZoJkiw=="
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqVMe3LnEZoBUqzytLJkBO8d_uHYY1UbkU8WjUSSAoNKKtygzeNMr-sXViljWDlXE46Do_RTtU7m3qHL_ZNd5-oi3XfO16xNrdQTdyLB14XMvR53U2q8yfDGevTiNoj-l6"
+   ],
+   [
+    "admiralmarkets.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnA_NkrmMxFO3hRdnhHLJ0MqSgKeLjEXBSHcjRt7PUPj3dfD_n7xiVUKkIY9CEMsTXWF0OpPOJ1fWeE8_ydlum8HeXrSNqGqjw6yZMjl1SArQkNnVExhyQcJk4kjkgCy-5bkXX9moBdLPZUnuuyiXiL3G9eZicU1_7wDNU"
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9RLhFzb2lxa_zaLR-9OHlwb8gcpPWDW0pZ0nJlMMtcZ0uxIK3Qj6PkGfHCvRMUXzfGP46ETQFC8ks3_HBE7xQGcnqkjOZ--DlYeRsebQWCVBlurlL31a94EjR4Jo0zBiVkjRdnzZUy5gA50BCi4cl5vKdnS_WN8wHyyMoy0WWhns="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrc3qO4aubTbGNclYe-MVsK5GA0Em1Pj4OUh7kIFhKYGYb0G3xUlw95Yt9yMTP1Y2OcrzgpuuHahme8HrfKwjxQ9ZB2-QViurSLZD0oebFPMQ8oHz0ZsbxZAI09aYDwl3pLw=="
+   ],
+   [
+    "theguardian.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSxwmEa0Wc9tLmhZUqH_c1ZCjwqGWHaJfW41TWmgF6u2X1RpxXYydhgrXmLsgKrvCRvKklvYC2Y60kbAKb7OsdPvvbV1KKyk6qXIjk-QMuAKRBTzB3xKMhxrTIa_eMq0onZkAV-68zPKSyfoPYI6DYIwUZrym4jDAgCpiYZWmwG_R3Iai2B1KI9V9zFw=="
+   ],
+   [
+    "cbsnews.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmulU6qKsgZYTO8hKp82vTwX9bGE8LItGANjHyBwgFgSUw3VJmfgfZbuS8krau7HIwHiKFR9SYCJohDqmsesSdDt_CtYoOufEpzMoEViCaBQJVzBtiVorJfplVWQBTfy1a1nxvaAR9y7wKWDtP3IZGIhIQZFAPVoYGGmZpfqTO_RD7MTg1EdVO"
+   ],
+   [
+    "venturebeat.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXdV0qK4zTG8phJEArngmI2wn5HYWUgLv04qbJFtzsVDlj8E-lKhw_1ZcjBLpmVnDyT71gXYEXaSB1I0SjqoiooX3YbLhCfCFUoJ9fyu9JyBxSvQ6PdrMGpW3JFAewF44nwmhIqBDjAa-cJuB_GItqemykNll3Sfx3Jx1vdJs-m14o70AjIymF7IBTXDnc8DxCicT07WJn-CLnyZZnqpoEzj_7"
+   ],
+   [
+    "nvidia.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-HYuBz0BGVTaYXVKYdixUEM-N8tAjR71vOfatT7beNEDqwtay8k16by_E-IsmqfA85h34pt88ngykn3gq90TtEUzeEpGscer7fvbxUSL6ADx9DyJxz0U3WM40ChntZ2vdg0RphX3MOsGnsNRowCYyCoJvGZTulcHsacvO"
+   ],
+   [
+    "britannica.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOOIv90l2V52KZY3PEPxCdifgest6TVwahuvfWxBZyQjNyh1cKmKGJpAEILLij_m2Og_U5HnUJ2pRX01J-JfRkbApBo9ZLtJtqZJPiY2B0Hk1EL31ESzaUsowtJssgzjRCaTkXN5hB6w4Yh_Y8Wk6cWWlvpVuzCpOiJP_WUqMw-pxICOwHEjq0dhbqwl0MXfZJ8pc_"
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPBGw6AtaguK4PoWw1zy2U_dyl1xrd8J2OAsjqWp4dKYWme-T26bZRETKGMRbLYbEEjYloDKoCiRrgY_2tH-9Z-wNzj4XqehCrTwfFLowakvGzrBZwo-AYyJoVvJEByRnVz7ke"
+   ],
+   [
+    "cbsnews.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8aPmFMcL4j7tOO6ZN35ftqyQUhN7sAj2aRYlHrB-2zMoqi9mWwO4PLnR8SxH3xo62eWWNO1XKPJTjxbzQRGTUqzqVUFE8YYKvCL5OL9T23E9T7HIKWovGDUOjvIntpkdqkgHwpbf4CnSsoOr7M60pJ-oyNRioMHvnAck2h9jOmXjkeZ0="
+   ],
+   [
+    "nvidia.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXJeMjxT2hbRffMRaRTFXXT_-M2bVVNJdXnRf9qoOrqH_oN57PFoSNs9hbMzCkjziMq4s9efgaHUMayRShvSgGhapcXHWLG8fX72gDocsnGWScWfWZUIMmMBBku9h3Pc6lNVStHWPKBhzR4aPwqJLwjSGrmBR5zZXqwYDrNEgc-cbL_r7mQroDy3STPLmchBljAPVCTnI9AX_drcLVcDH5Q7emi8="
+   ],
+   [
+    "cbsnews.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlD_jLHpxuowBtciRF7Rj1xupVnyotsIzr9_5NvbXjppWrCr-MC27EZywbjI0ErtZGIAode9fOfH245eMjRTq_OwxpVJOECgXRYPOgPi8guXHaEyilFvjMhKvu8OmP9o9IZXtJ9heA5hcYUYFoz4QMTRdKpyTqK9zGZ2TOgvIlES8GoD0p4UJDcfi"
+   ],
+   [
+    "cnet.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYmYj4r6QeQj437RKhSbCaFWqaZ7TIBpzpqYW9CCx0VCnrYtyeVtTAzfptZijzm1jHHokNZxC29D_qsomIcQxbbNEnjQFwfWEG6atS4b24HQoNuFn_40G2vU6RVMZraBX1QzPhMqTJI0-Y8wzcAmIUMoc4cXXxGoA8b_00fEaQOfm_llDU-0F5eTYrUJV7A5qLhw=="
+   ],
+   [
+    "forbesmiddleeast.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqKU1l5U-nmBUbJx6wfRRZxZZG99DHcUhoMEE-1ikCJT4OTCqgIg3mecmtuk5d4Yc_-kkXG12lIkEh5F7QFU6fAfHeddZLWevQRuTcHllzgwuOh6EMJBCRdERw7GHFYG4UrX3-2W3ZDaTWFUPsvL02N9UIw6FV-4a9Is-atjQ858I5Bo147eZo0H2cPJpqy86rMld3RtjYP5-yw-664sH5Bobx1Gwy6kk2FQAVspOJ9BPGcgsJZlNf0mOpCP0="
+   ],
+   [
+    "techcrunch.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs8ZAbqrGaj4_KwdQ8pmSEbnRFaiz7E481Eh4JFPSvmiZnEA1wdn5kL2UPU_bIn5c0MUXwH4pkTCMQeU5Re_wOEM0HudBPA5lxGEVZnkm4GIlXETAXtRnVMitPSVNsg52_OZm2zB8EExn1sOVb4rW7nqbjaRKSjRPijRukQIPjaI4CyhV6rjvRlglSs2heGAs-z3kssg=="
+   ],
+   [
+    "theguardian.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEeG3z7IbYdmvYoEG988W4H0rN4vNbZAfDOfixxYx6IA80NnnJZHTkDNVwZrDUpuzGIXvul9jCyQ9EW1l2ALQbJ6KsM73p7XT75uS9l3wdNtyxCkfKsHABF_vOjkzrJpJAiRxvGUv2WLyv84BhcuXHB-HMYj710bt8Wszt368_HJPKzxqr9eY5ebTXRzbcGwg=="
+   ],
+   [
+    "thenationalnews.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHK-5DL3KD0x9JmqMQr7RTcpjKrCkUhPdLrm78NG52gbnCx3ScAOO7lhETxd4kWlZpBZXWcESs6k9lDwFHPb1HetAsTSgUcOu-aGqOGzWYfim7U2qg-vOPyKtFYOp-g1yC-ovfF_W784zaJ-bNoMe3in31TodVOuxiGwoLDqris6EVl"
+   ],
+   [
+    "midasanalytics.ai",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFd9rdmKkIi9kUNd15re436OWSMv4h2Afx6pqsFOuB0jzPK4gJundFQVv9wcuHVGvXtMdH-sVNRcszOfdWLzJU47rXGxps1xrUOXcbDKkmnFzh2R5GSY_Ew0L9qVSHNR0Uv6xUhOfiH17OP4LQj3WDyf-sZGAsjncE81fHNJ_0iADghGXth3ayfprR-GbxVE-8="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "IPOにより約813.4億ドルを調達した。",
+    "idx": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners\",\n    \"関係\": \"出資\",\n    \"相手\": \"Anthropic\",\n    \"金額\": \"260億 USD\",\n    \"日付\": \"2026-11-20\",\n    \"出典URL\": \"https://www.anthropic.com/news/anthropic-announces-closing-of-initial-public-offering\",\n    \"出典名\": \"Anthropic\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"IPOと同時にClass N普通株式を公募価格で売却した。",
+    "idx": [
+     0,
+     7,
+     4,
+     5
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"Nvidia\",\n    \"関係\": \"退任\",\n    \"相手\": \"\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-12\",\n    \"出典URL\": \"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\",\n    \"出典名\": \"Nvidia Newsroom\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"複数件の不倫疑惑報道を受け、Jensen Huang氏がPresident、CEO、取締役を辞任した。",
+    "idx": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ]
+   },
+   {
+    "text": "\",\n    \"人物\": \"Jensen Huang\",\n    \"役職\": \"President, CEO and Board Director\",\n    \"移籍元\": \"Nvidia\",\n    \"移籍先\": \"\"\n  },\n  {\n    \"会社名\": \"Nvidia\",\n    \"関係\": \"就任\",\n    \"相手\": \"\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-12\",\n    \"出典URL\": \"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\",\n    \"出典名\": \"Nvidia Newsroom\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"Jensen Huang氏の辞任に伴い、Colette Kress氏が暫定CEOに就任した。",
+    "idx": [
+     8,
+     11,
+     14
+    ]
+   },
+   {
+    "text": "\",\n    \"人物\": \"Colette Kress\",\n    \"役職\": \"Interim Chief Executive Officer\",\n    \"移籍元\": \"\",\n    \"移籍先\": \"Nvidia\"\n  },\n  {\n    \"会社名\": \"Nvidia\",\n    \"関係\": \"就任\",\n    \"相手\": \"\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-23\",\n    \"出典URL\": \"https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director\",\n    \"出典名\": \"Nvidia Newsroom\",\n    \"確かさ\": \"公式\",\n    \"備考\": \"米国政府上層部からの意見を受け、国家安全保障上のリスクがないと判断され、Jensen Huang氏がPresident、CEO、取締役として再任された。",
+    "idx": [
+     9,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "text": "\",\n    \"人物\": \"Jensen Huang\",\n    \"役職\": \"President, Chief Executive Officer and Board Director\",\n    \"移籍元\": \"\",\n    \"移籍先\": \"Nvidia\"\n  },\n  {\n    \"会社名\": \"SpaceX\",\n    \"関係\": \"規制承認\",\n    \"相手\": \"Federal Communications Commission (FCC)\",\n    \"金額\": \"\",\n    \"日付\": \"2026-11-25\",\n    \"出典URL\": \"https://www.techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/\",\n    \"出典名\": \"TechCrunch\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"最大100万基の軌道上データセンター衛星「Starmind」の展開・運用が条件付きで承認された。",
+    "idx": [
+     18,
+     19,
+     20,
+     21
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"SpaceXAI (SpaceX)\",\n    \"関係\": \"提携\",\n    \"相手\": \"Nvidia\",\n    \"金額\": \"\",\n    \"日付\": \"2026-08\",\n    \"出典URL\": \"https://www.forbesmiddleeast.com/innovation/technology/spacex-plans-1-million-satellites-for-ai-data-centers-in-orbit\",\n    \"出典名\": \"Forbes Middle East\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"SpaceXAIの第一世代Starmind衛星に、NvidiaのVera Rubin NVL72コンピューティングシステムを最適化して搭載する計画が発表された。",
+    "idx": [
+     18
+    ]
+   },
+   {
+    "text": "納品は2027年上半期の予定。",
+    "idx": [
+     18
+    ]
+   },
+   {
+    "text": "\"\n  },\n  {\n    \"会社名\": \"SB Telecom Singapore (SoftBank unit)\",\n    \"関係\": \"提携\",\n    \"相手\": \"SC ZEUS Data Centers (Singapore), Robust HPC Group (Malaysia)\",\n    \"金額\": \"\",\n    \"日付\": \"2026-08-01\",\n    \"出典URL\": \"https://midasanalytics.com/market-pulse/southeast-asias-ai-data-center-pipeline-hit-a-record-26-5-gigawatts-the-grid-cant-connect-half-of-it-on-time/\",\n    \"出典名\": \"Midas Analytics\",\n    \"確かさ\": \"報道\",\n    \"備考\": \"マレーシア、タイ、インドネシア、ベトナムでAIデータセンターインフラを構築するための覚書（MOU）を締結した。",
+    "idx": [
+     22
+    ]
+   },
+   {
+    "text": "うち55億ドルはシンガポールのクラウド・AIキャパシティに充てられる。",
+    "idx": [
+     22
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2814,
+   "candidatesTokenCount": 1834,
+   "totalTokenCount": 16533,
+   "cachedContentTokenCount": 777,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2814
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 777
+    }
+   ],
+   "toolUsePromptTokenCount": 5805,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5805
+    }
+   ],
+   "thoughtsTokenCount": 6080,
+   "serviceTier": "standard"
+  }
+ }
+}

@@ -18,6 +18,57 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-26-recheck.json
 
+## 2026-11-26-3　AI企業・半導体企業の創業者や経営者が、本人が公の場(インタビュー・ポッドキャスト・投稿)で話した朝の習慣・日課(起床時間・運動・瞑想など。健康や病気、家族の話は除く)。出典URL付き
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic IPO date official
+- Anthropic stock exchange listing
+- Jensen Huang Nvidia CEO current status
+- Jensen Huang Nvidia resignation
+- SpaceX orbital data center partnerships
+- Southeast Asia AI data center investments 2026
+
+**見たページ**
+
+- [leverageshares.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlqVolHrXFs1iEByl3NVBltfG0neY1eO3U5-aPMu67mxIDlONTQmPFOALsUaLBKlbVaO79-YTnCEnt0v4YH3RYOWH6Ztomi6A1dlrrE16fgvVhVC6e_UpBHEoswrHZTBh0IhxLN1X_W4LDpVpvFQ==)
+- [trading212.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvAeD2U-XdsorNZ1fkrE4g3mRMJG7Ea38BUcNtXHq3ad2P6U_IZDGt6vKL4eFDy5mwxJSNovJYe0hiVzDzYUdr99HsyvhuAlwArK4slGyLT0Opw-5Gu4J9I5wPubbd9yjkRiwvTUjFMLsbvXSsLgxa7KZlXMED)
+- [smartasset.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQES_ygFCxz04iEYknaj5QxYSW2QFG1YdSmi8WnnM-LVZwgfxLCm2mjvgS_vEmTGPxCuogA-i4Z-8au06tzhmHlT_cY_bIKcC-UOQbAI0TjK8N6FES3vzFMGqu7xJjfjDOwCfE-bBAaIE9JPfPfP5xSo-v8AEDw65Zn562pPrxzSQ1GnHEb6QthQIf0SmxUHqvM50RjPZuBdh_6I)
+- [tmgm.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWT2Eq0ZJFQ8ym-eXA_dlpZn9aJOguq964DUT-Zx88SxwUewnRkaYnxzUJgw_z6P8IVt1tCyFlNGS1s8fefDzKW03fL3DH4JhD-WEcsUzQ-kA0YHheqI1WaT0TCc9SvIWfyrEike4Is2uXPc-cfet1D2Ip2ANnLAn0RNdudmPdW27AtBZ5eqbJoSVBYkmf4IvMmKdBoikeZoJkiw==)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqVMe3LnEZoBUqzytLJkBO8d_uHYY1UbkU8WjUSSAoNKKtygzeNMr-sXViljWDlXE46Do_RTtU7m3qHL_ZNd5-oi3XfO16xNrdQTdyLB14XMvR53U2q8yfDGevTiNoj-l6)
+- [admiralmarkets.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnA_NkrmMxFO3hRdnhHLJ0MqSgKeLjEXBSHcjRt7PUPj3dfD_n7xiVUKkIY9CEMsTXWF0OpPOJ1fWeE8_ydlum8HeXrSNqGqjw6yZMjl1SArQkNnVExhyQcJk4kjkgCy-5bkXX9moBdLPZUnuuyiXiL3G9eZicU1_7wDNU)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9RLhFzb2lxa_zaLR-9OHlwb8gcpPWDW0pZ0nJlMMtcZ0uxIK3Qj6PkGfHCvRMUXzfGP46ETQFC8ks3_HBE7xQGcnqkjOZ--DlYeRsebQWCVBlurlL31a94EjR4Jo0zBiVkjRdnzZUy5gA50BCi4cl5vKdnS_WN8wHyyMoy0WWhns=)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrc3qO4aubTbGNclYe-MVsK5GA0Em1Pj4OUh7kIFhKYGYb0G3xUlw95Yt9yMTP1Y2OcrzgpuuHahme8HrfKwjxQ9ZB2-QViurSLZD0oebFPMQ8oHz0ZsbxZAI09aYDwl3pLw==)
+- [theguardian.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSxwmEa0Wc9tLmhZUqH_c1ZCjwqGWHaJfW41TWmgF6u2X1RpxXYydhgrXmLsgKrvCRvKklvYC2Y60kbAKb7OsdPvvbV1KKyk6qXIjk-QMuAKRBTzB3xKMhxrTIa_eMq0onZkAV-68zPKSyfoPYI6DYIwUZrym4jDAgCpiYZWmwG_R3Iai2B1KI9V9zFw==)
+- [cbsnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmulU6qKsgZYTO8hKp82vTwX9bGE8LItGANjHyBwgFgSUw3VJmfgfZbuS8krau7HIwHiKFR9SYCJohDqmsesSdDt_CtYoOufEpzMoEViCaBQJVzBtiVorJfplVWQBTfy1a1nxvaAR9y7wKWDtP3IZGIhIQZFAPVoYGGmZpfqTO_RD7MTg1EdVO)
+- [venturebeat.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXdV0qK4zTG8phJEArngmI2wn5HYWUgLv04qbJFtzsVDlj8E-lKhw_1ZcjBLpmVnDyT71gXYEXaSB1I0SjqoiooX3YbLhCfCFUoJ9fyu9JyBxSvQ6PdrMGpW3JFAewF44nwmhIqBDjAa-cJuB_GItqemykNll3Sfx3Jx1vdJs-m14o70AjIymF7IBTXDnc8DxCicT07WJn-CLnyZZnqpoEzj_7)
+- [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-HYuBz0BGVTaYXVKYdixUEM-N8tAjR71vOfatT7beNEDqwtay8k16by_E-IsmqfA85h34pt88ngykn3gq90TtEUzeEpGscer7fvbxUSL6ADx9DyJxz0U3WM40ChntZ2vdg0RphX3MOsGnsNRowCYyCoJvGZTulcHsacvO)
+- [britannica.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOOIv90l2V52KZY3PEPxCdifgest6TVwahuvfWxBZyQjNyh1cKmKGJpAEILLij_m2Og_U5HnUJ2pRX01J-JfRkbApBo9ZLtJtqZJPiY2B0Hk1EL31ESzaUsowtJssgzjRCaTkXN5hB6w4Yh_Y8Wk6cWWlvpVuzCpOiJP_WUqMw-pxICOwHEjq0dhbqwl0MXfZJ8pc_)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPBGw6AtaguK4PoWw1zy2U_dyl1xrd8J2OAsjqWp4dKYWme-T26bZRETKGMRbLYbEEjYloDKoCiRrgY_2tH-9Z-wNzj4XqehCrTwfFLowakvGzrBZwo-AYyJoVvJEByRnVz7ke)
+- [cbsnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8aPmFMcL4j7tOO6ZN35ftqyQUhN7sAj2aRYlHrB-2zMoqi9mWwO4PLnR8SxH3xo62eWWNO1XKPJTjxbzQRGTUqzqVUFE8YYKvCL5OL9T23E9T7HIKWovGDUOjvIntpkdqkgHwpbf4CnSsoOr7M60pJ-oyNRioMHvnAck2h9jOmXjkeZ0=)
+- [nvidia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVXJeMjxT2hbRffMRaRTFXXT_-M2bVVNJdXnRf9qoOrqH_oN57PFoSNs9hbMzCkjziMq4s9efgaHUMayRShvSgGhapcXHWLG8fX72gDocsnGWScWfWZUIMmMBBku9h3Pc6lNVStHWPKBhzR4aPwqJLwjSGrmBR5zZXqwYDrNEgc-cbL_r7mQroDy3STPLmchBljAPVCTnI9AX_drcLVcDH5Q7emi8=)
+- [cbsnews.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNlD_jLHpxuowBtciRF7Rj1xupVnyotsIzr9_5NvbXjppWrCr-MC27EZywbjI0ErtZGIAode9fOfH245eMjRTq_OwxpVJOECgXRYPOgPi8guXHaEyilFvjMhKvu8OmP9o9IZXtJ9heA5hcYUYFoz4QMTRdKpyTqK9zGZ2TOgvIlES8GoD0p4UJDcfi)
+- [cnet.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYmYj4r6QeQj437RKhSbCaFWqaZ7TIBpzpqYW9CCx0VCnrYtyeVtTAzfptZijzm1jHHokNZxC29D_qsomIcQxbbNEnjQFwfWEG6atS4b24HQoNuFn_40G2vU6RVMZraBX1QzPhMqTJI0-Y8wzcAmIUMoc4cXXxGoA8b_00fEaQOfm_llDU-0F5eTYrUJV7A5qLhw==)
+- [forbesmiddleeast.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqKU1l5U-nmBUbJx6wfRRZxZZG99DHcUhoMEE-1ikCJT4OTCqgIg3mecmtuk5d4Yc_-kkXG12lIkEh5F7QFU6fAfHeddZLWevQRuTcHllzgwuOh6EMJBCRdERw7GHFYG4UrX3-2W3ZDaTWFUPsvL02N9UIw6FV-4a9Is-atjQ858I5Bo147eZo0H2cPJpqy86rMld3RtjYP5-yw-664sH5Bobx1Gwy6kk2FQAVspOJ9BPGcgsJZlNf0mOpCP0=)
+- [techcrunch.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGs8ZAbqrGaj4_KwdQ8pmSEbnRFaiz7E481Eh4JFPSvmiZnEA1wdn5kL2UPU_bIn5c0MUXwH4pkTCMQeU5Re_wOEM0HudBPA5lxGEVZnkm4GIlXETAXtRnVMitPSVNsg52_OZm2zB8EExn1sOVb4rW7nqbjaRKSjRPijRukQIPjaI4CyhV6rjvRlglSs2heGAs-z3kssg==)
+
+**出てきた候補**
+
+- Anthropic → 上場 → Nasdaq Global Select Market(2026-11-19)
+- AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners → 出資 → Anthropic(2026-11-20)
+- Nvidia → 退任 → (2026-11-12)
+- Nvidia → 就任 → (2026-11-12)
+- Nvidia → 就任 → (2026-11-23)
+- SpaceX → 規制承認 → Federal Communications Commission (FCC)(2026-11-25)
+- SpaceXAI (SpaceX) → 提携 → Nvidia(2026-08)
+- SINGULUS Technologies → 取引 → SpaceX(2026-03)
+- SB Telecom Singapore (SoftBank unit) → 提携 → SC ZEUS Data Centers (Singapore), Robust HPC Group (Malaysia)(2026-08-01)
+- Microsoft → 出資 → 東南アジアのAIインフラ(2026)
+
+記録ファイル: inbox/gemini/2026-11-26-3.json / 2026-11-26-3.md
+
 ## 2026-11-26-2　OpenAIの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
 
 - モデル: gemini-2.5-flash　/　候補 10件
