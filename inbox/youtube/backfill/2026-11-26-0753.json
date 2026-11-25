@@ -1,0 +1,172 @@
+{
+ "date": "2026-11-26",
+ "summary": "過去動画の取得: 30/30チャンネル、新しく2本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "videos": [
+  {
+   "id": "zNQM2p9pjYI",
+   "title": "James Bond's Robert Pattinson's Naked Wrist",
+   "age": "18 min ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=zNQM2p9pjYI"
+  },
+  {
+   "id": "-XosIIXizOY",
+   "title": "【26日(木)12:00~生配信】NVIDIAフアンCEO復帰でマーケットはどう動く／決算超えでも戻らぬ株価の正体／トランプ政権の異例介入／米中ロ首脳会談後のAI覇権争い／FRB利上げと円相場",
+   "age": "",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=-XosIIXizOY"
+  }
+ ]
+}
