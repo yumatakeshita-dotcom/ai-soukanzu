@@ -38,3 +38,4 @@ HKX2|/listedco/listconews/sehk/2026/1125/2026112500929.pdf
 HKX2|/listedco/listconews/sehk/2026/1125/2026112500926.pdf
 HKX2|/listedco/listconews/sehk/2026/1125/2026112500508.pdf
 HKX2|/listedco/listconews/sehk/2026/1125/2026112500378.pdf
+TDNET|140120261125585984.pdf

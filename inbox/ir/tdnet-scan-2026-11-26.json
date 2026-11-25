@@ -1,0 +1,17 @@
+{
+ "items": [],
+ "skipped": [
+  {
+   "co": "キューブシステム",
+   "title": "代表取締役の異動（内定）、取締役候補者の選任および社長執行役員人事に関するお知らせ",
+   "url": "https://www.release.tdnet.info/inbs/140120261125585984.pdf",
+   "why": "本文にAI企業名・AI・DX・半導体などの語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-26",
+ "kind": "ir-scan",
+ "list_rows": 211,
+ "shortlist": 1,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}
