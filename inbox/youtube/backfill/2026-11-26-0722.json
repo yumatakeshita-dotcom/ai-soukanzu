@@ -1,0 +1,921 @@
+{
+ "date": "2026-11-26",
+ "summary": "過去動画の取得: 30/30チャンネル、新しく109本",
+ "checked": [
+  {
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "OpenAI",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 31
+  },
+  {
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 7
+  },
+  {
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "name": "PIVOT",
+   "ok": true,
+   "new": 9
+  },
+  {
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 33
+  },
+  {
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 8
+  },
+  {
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 2
+  }
+ ],
+ "videos": [
+  {
+   "id": "9S_p3KC4n3c",
+   "title": "\"You're Leaving Money on the Table by Not Being a Vlogger\"",
+   "age": "3h ago",
+   "channel": "Colin and Samir",
+   "url": "https://www.youtube.com/watch?v=9S_p3KC4n3c"
+  },
+  {
+   "id": "IeNjttIZtzo",
+   "title": "Making Content For Yourself vs the Algorithm",
+   "age": "8h ago",
+   "channel": "Colin and Samir",
+   "url": "https://www.youtube.com/watch?v=IeNjttIZtzo"
+  },
+  {
+   "id": "vuKVnPSvogY",
+   "title": "Revolut CEO's 95% rule",
+   "age": "48 min ago",
+   "channel": "Cheeky Pint",
+   "url": "https://www.youtube.com/watch?v=vuKVnPSvogY"
+  },
+  {
+   "id": "8gOkTwEHTP8",
+   "title": "Startup School Europe 2027!",
+   "age": "5h ago",
+   "channel": "Y Combinator",
+   "url": "https://www.youtube.com/watch?v=8gOkTwEHTP8"
+  },
+  {
+   "id": "N1f3LuNl514",
+   "title": "Why AI Agents Could Make the iPhone Duo Worth It",
+   "age": "7h ago",
+   "channel": "20VC with Harry Stebbings",
+   "url": "https://www.youtube.com/watch?v=N1f3LuNl514"
+  },
+  {
+   "id": "u1ARH9nV83E",
+   "title": "Tesla's New Map Mogs GTA 6",
+   "age": "4h ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=u1ARH9nV83E"
+  },
+  {
+   "id": "ix7nHk-ACjk",
+   "title": "Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Code Red | Diet TBPN",
+   "age": "21h ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=ix7nHk-ACjk"
+  },
+  {
+   "id": "8zA7C3cqISw",
+   "title": "Has Jensen's Leather Jacket Resigned?",
+   "age": "23h ago",
+   "channel": "TBPN",
+   "url": "https://www.youtube.com/watch?v=8zA7C3cqISw"
+  },
+  {
+   "id": "lTOV04EGkOA",
+   "title": "Why Muse Has Jolly",
+   "age": "8h ago",
+   "channel": "Lenny's Podcast",
+   "url": "https://www.youtube.com/watch?v=lTOV04EGkOA"
+  },
+  {
+   "id": "Ws4dO4_VsRc",
+   "title": "AI Hacking Its Own Lab Isn't Science Fiction Anymore - Paul Christiano",
+   "age": "3h ago",
+   "channel": "Dwarkesh Patel",
+   "url": "https://www.youtube.com/watch?v=Ws4dO4_VsRc"
+  },
+  {
+   "id": "EwFMmQvaxtg",
+   "title": "How AI Gives Countries Geopolitical Leverage",
+   "age": "11h ago",
+   "channel": "No Priors",
+   "url": "https://www.youtube.com/watch?v=EwFMmQvaxtg"
+  },
+  {
+   "id": "MGwa6t5jqyg",
+   "title": "Patient Safety vs. Risk Appetite in Drug Development",
+   "age": "23h ago",
+   "channel": "No Priors",
+   "url": "https://www.youtube.com/watch?v=MGwa6t5jqyg"
+  },
+  {
+   "id": "Qe9d9dWyED0",
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "age": "11 min ago",
+   "channel": "Latent Space",
+   "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0"
+  },
+  {
+   "id": "A4UNP-axGHU",
+   "title": "How your dot can keep work moving while you’re away",
+   "age": "4h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
+  },
+  {
+   "id": "kfGYU_-SuaE",
+   "title": "School Day | Make a day do anything with ChatGPT  (Official)",
+   "age": "5h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=kfGYU_-SuaE"
+  },
+  {
+   "id": "hwKct_1ilEQ",
+   "title": "Finances in ChatGPT: A Beginner’s Guide",
+   "age": "8h ago",
+   "channel": "OpenAI",
+   "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ"
+  },
+  {
+   "id": "5_peDo1mukg",
+   "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
+   "age": "6h ago",
+   "channel": "NVIDIA",
+   "url": "https://www.youtube.com/watch?v=5_peDo1mukg"
+  },
+  {
+   "id": "6TwjW5k0OnQ",
+   "title": "Market Close: Stocks Mixed, Dow Erases 1,100-Point Loss, Flyers Balk at Fares • 11/25/26",
+   "age": "36 min ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=6TwjW5k0OnQ"
+  },
+  {
+   "id": "ImvgdcYlJw4",
+   "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+   "age": "2h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=ImvgdcYlJw4"
+  },
+  {
+   "id": "Jo-dlEJN8rk",
+   "title": "Justice Dept. did not open investigation into Huang ahead of return to Nvidia, Reuters reports",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=Jo-dlEJN8rk"
+  },
+  {
+   "id": "dtJS2uYAJNA",
+   "title": "Stocks sharply lower: The Investment Committee shares its strategy",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=dtJS2uYAJNA"
+  },
+  {
+   "id": "GIn3_B9DrDg",
+   "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=GIn3_B9DrDg"
+  },
+  {
+   "id": "xW7TpHYZAuI",
+   "title": "Hyperscalers look abroad for additional AI financing: Here's what you need to know",
+   "age": "3h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=xW7TpHYZAuI"
+  },
+  {
+   "id": "1Dh6fw_zSpw",
+   "title": "Here's why Allianz's Mohamed El-Erian thinks forward guidance is problematic",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=1Dh6fw_zSpw"
+  },
+  {
+   "id": "NkwR7Ba5_ok",
+   "title": "Jensen Huang's return to Nvidia was a circuit breaker for the market, says Deutsche's Bankim Chadha",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=NkwR7Ba5_ok"
+  },
+  {
+   "id": "o-_yfGNjnaw",
+   "title": "Market Midday: Stocks Off Lows, New-Home Sales Rise as Builders Cut Prices • 11/25/26",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=o-_yfGNjnaw"
+  },
+  {
+   "id": "RZJfbY21fCk",
+   "title": "Squawk Pod: New tariffs & the Turkey Talk-Line - 11/25/26 | Audio Only",
+   "age": "4h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=RZJfbY21fCk"
+  },
+  {
+   "id": "S74ETDCQlrQ",
+   "title": "Barclays' Venu Krishna: AI spending hitting an 'air pocket'",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=S74ETDCQlrQ"
+  },
+  {
+   "id": "Q7apq5r3pMg",
+   "title": "AI borrowing binge moves abroad",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=Q7apq5r3pMg"
+  },
+  {
+   "id": "wtVvolVAN4s",
+   "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+   "age": "5h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=wtVvolVAN4s"
+  },
+  {
+   "id": "eMtO0Ilc_AQ",
+   "title": "U.S. Trade Rep. Greer: We have to make sure Nvidia 'remains on top'",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=eMtO0Ilc_AQ"
+  },
+  {
+   "id": "K7cPL_vj6zk",
+   "title": "Thanksgiving weekend air travel: Here's what travelers can expect",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=K7cPL_vj6zk"
+  },
+  {
+   "id": "-5ItKUW3gRI",
+   "title": "Inside Wealth: New York’s pied-à-terre tax raising more revenue than expected",
+   "age": "6h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=-5ItKUW3gRI"
+  },
+  {
+   "id": "3CnIdOm__gw",
+   "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=3CnIdOm__gw"
+  },
+  {
+   "id": "eugpx4BAydA",
+   "title": "Market Open: Stocks Tank, New Tariffs, Inflation Rises • 11/25/26",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=eugpx4BAydA"
+  },
+  {
+   "id": "wgFI9BoovjI",
+   "title": "Trump's role in Jensen Huang's return to Nvidia",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=wgFI9BoovjI"
+  },
+  {
+   "id": "qkEFMgaDF78",
+   "title": "Stuck: How the frozen housing market is hurting agents",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=qkEFMgaDF78"
+  },
+  {
+   "id": "ynciVHYn-3g",
+   "title": "Trump administration reportedly preparing new targeted tariffs on China and the EU",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=ynciVHYn-3g"
+  },
+  {
+   "id": "mt9EV4BTBuE",
+   "title": "U.S. Trade Rep. Greer on new tariff proposals: Targeted tariffs in response to excess capacity",
+   "age": "7h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=mt9EV4BTBuE"
+  },
+  {
+   "id": "EfiApxMR1Hc",
+   "title": "'Inflation concerns are overdone': Morningstar Wealth's Mike Coop on AI",
+   "age": "8h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=EfiApxMR1Hc"
+  },
+  {
+   "id": "2vLRiheixS0",
+   "title": "'Ready for any storm': UAE minister optimistic in economy resilience as IMF upgrades forecast",
+   "age": "8h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=2vLRiheixS0"
+  },
+  {
+   "id": "aA-2BgAjX4I",
+   "title": "Former NJ Gov. Chris Christie: Trump's Nvidia board assurances on Jensen Huang were reckless",
+   "age": "9h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=aA-2BgAjX4I"
+  },
+  {
+   "id": "h8h9L1cfV4M",
+   "title": "Hightower's Stephanie Link on her top stock picks amid market volatility",
+   "age": "10h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=h8h9L1cfV4M"
+  },
+  {
+   "id": "ofPfa3j3llQ",
+   "title": "Consumer Debt Troubles 11/25/26",
+   "age": "14h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=ofPfa3j3llQ"
+  },
+  {
+   "id": "QwS7bcuMeIc",
+   "title": "AI capex growth set to slow sharply in 2026, says One Point BFG's Peter Boockvar",
+   "age": "20h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=QwS7bcuMeIc"
+  },
+  {
+   "id": "7ORVTMbHTOA",
+   "title": "I don't think Abercrombie's stock is done going higher, says Jim Cramer",
+   "age": "20h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=7ORVTMbHTOA"
+  },
+  {
+   "id": "HHCdQXwRXyg",
+   "title": "Want to go on offense in AI right now, says Morgan Stanley's Dan Skelly",
+   "age": "20h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=HHCdQXwRXyg"
+  },
+  {
+   "id": "UhsmGj3SL5U",
+   "title": "Mad Money 11/24/26 | Audio Only",
+   "age": "20h ago",
+   "channel": "CNBC Television",
+   "url": "https://www.youtube.com/watch?v=UhsmGj3SL5U"
+  },
+  {
+   "id": "uNZxbd0M6UI",
+   "title": "[Money and Romance] The Real Reasons for Seeking a Partner #newspicks",
+   "age": "22 min ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=uNZxbd0M6UI"
+  },
+  {
+   "id": "NAoxus3f6gg",
+   "title": "An Abnormal Situation in Japan’s \"Tourism\" Goldmine: National Parks are in Trouble (Inbound Touri...",
+   "age": "10h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=NAoxus3f6gg"
+  },
+  {
+   "id": "hp00XSgx39E",
+   "title": "【佐藤優×千本倖生】孫正義は人たらし #知性密談 #佐藤優 #千本倖生 #孫正義 #ADSL #NTT #連続起業家 #KDDI #ソフトバンク #起業家 #NewsPicks",
+   "age": "10h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=hp00XSgx39E"
+  },
+  {
+   "id": "3_Nxc1WCToM",
+   "title": "「日本は戦わずして詰む」台湾有事の“兵糧攻め”、米中の経済圧力、高市首相を巡る情報戦…専門家が語る最悪のシナリオ【鈴木一人、中林美恵子、興梠一郎】The UPDATE",
+   "age": "11h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=3_Nxc1WCToM"
+  },
+  {
+   "id": "KfWJj1KEWoo",
+   "title": "Picks Kuro R 2",
+   "age": "13h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=KfWJj1KEWoo"
+  },
+  {
+   "id": "UKJZRCvHr6k",
+   "title": "[Anthropic Goes Public] Half of Employees Become \"Super Millionaires\" #Posture #FacialExpression ...",
+   "age": "13h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=UKJZRCvHr6k"
+  },
+  {
+   "id": "npaGxmGw8Uo",
+   "title": "【ちょる子】投資で成功しても働き続ける理由とは？#億り人 #新NISA #ポートフォリオ #ちょる子 #くらま #ビットコイン #FIRE #newspicks",
+   "age": "20h ago",
+   "channel": "NewsPicks",
+   "url": "https://www.youtube.com/watch?v=npaGxmGw8Uo"
+  },
+  {
+   "id": "7pigwfUK1v8",
+   "title": "[Kiyomi Tsujimoto vs. Ryosuke Nishida] A Fierce Debate on Government PR! Why Is It So Expensive? ...",
+   "age": "Streamed 10h ago",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=7pigwfUK1v8"
+  },
+  {
+   "id": "MNSubReE6Po",
+   "title": "【ダイエットvs食事】食事を抜く前に！糖質と脂質…知っておきたい良い油の落とし穴＆我慢すべきものは？【ReHacQ＆井上咲楽】",
+   "age": "【ダイエットvs食事】食事を抜く前に！糖質と脂質…知っておきたい良い油の落とし穴＆我慢すべきものは？【ReHacQ＆井上咲楽】",
+   "channel": "ReHacQ-リハック-",
+   "url": "https://www.youtube.com/watch?v=MNSubReE6Po"
+  },
+  {
+   "id": "oEW1S4zR2xA",
+   "title": "【中国はなぜ怒るのか？垂秀夫・前駐中国大使に聞く】APEC、高市外交の評価／中国の非礼をどう見るか？／怒りは戦略／中国の土俵に乗るな／米中露と力の時代／日本のナラティブを語れ／米中AI戦争の行方",
+   "age": "【中国はなぜ怒るのか？垂秀夫・前駐中国大使に聞く】APEC、高市外交の評価／中国の非礼をどう見るか？／怒りは戦略／中国の土俵に乗るな／米中露と力の時代／日本のナラティブを語れ／米中AI戦争の行方",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=oEW1S4zR2xA"
+  },
+  {
+   "id": "ATsblzIpqWg",
+   "title": "【金価格はなぜ落ちているのか？】金価格急落の原因／イラン戦争の余波／利上げの影響／AI相場との相関／中国人民銀行の爆買い／米国債と金の逆転／機関投資家の買いが戻る条件／銀、プラチナの動き",
+   "age": "1h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=ATsblzIpqWg"
+  },
+  {
+   "id": "qiA1KmN_sTg",
+   "title": "【株式を持つ＝会社のオーナーになるということ】相場やテーマに乗るな、企業の稼ぐ力に乗れ／「おおぶね」奥野一成がROICを重視する理由とは",
+   "age": "11h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=qiA1KmN_sTg"
+  },
+  {
+   "id": "QZ02woDTalI",
+   "title": "【格差・インフレ時代に富裕層になる方法】アメリカに訴えられた男の大逆転人生の教訓／40歳で起業し時価総額300億円超／現金保有はリスク？“いい借金“の活用術／金融工学によるロジカルな値付けの極意を公開",
+   "age": "12h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=QZ02woDTalI"
+  },
+  {
+   "id": "O1B49JxZsK0",
+   "title": "【年間2600万円の損失も】月経痛･更年期…女性特有の健康課題は個人の問題ではない／就業時間中に健康改善／健康はコストから投資へ／ウェルビーイング経営",
+   "age": "15h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=O1B49JxZsK0"
+  },
+  {
+   "id": "TqkXFlo4U98",
+   "title": "【経営センスを持つAIとは？】生成AIが経営判断に物足りない理由／600の知的粒子が議論する創造AI「FIRA」とは／競合との違いをどう見出せるか",
+   "age": "17h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=TqkXFlo4U98"
+  },
+  {
+   "id": "mimVa3CNe4o",
+   "title": "【AIバブル崩壊は東南アジアから始まるのか？】東南アジアのAIデータセンタ建設大ブーム／中国AI計算能力の25％は東南アジア／AI規制でどう変わるか？／ビックテックはさらに強くなる／3つのシナリオ",
+   "age": "Streamed 18h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=mimVa3CNe4o"
+  },
+  {
+   "id": "pKAhbmzI9q0",
+   "title": "【規則厳格化で何が変わる？】2026年ふるさと納税 返礼品のトレンドは／モノから旅･体験型へのシフト／空港バックヤードツアー／生産者に会いに行くANAふるさと体験プログラム",
+   "age": "21h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=pKAhbmzI9q0"
+  },
+  {
+   "id": "tsI68IWzh7Y",
+   "title": "【テレビ体験はまだ拡張する】Fire TVで70万以上のコンテンツにアクセス／ザッピングして離脱も‥「何を見るか」で迷う時間を減らす／「Alexa+」で会話するように番組を検索",
+   "age": "22h ago",
+   "channel": "PIVOT",
+   "url": "https://www.youtube.com/watch?v=tsI68IWzh7Y"
+  },
+  {
+   "id": "8uRMqixigFY",
+   "title": "Lawson Store 100 Expands Budget-Friendly Osechi for Thrifty Shoppers【WBS】",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=8uRMqixigFY"
+  },
+  {
+   "id": "X2uYb6Ty1mg",
+   "title": "Chateraise Launches Full-Scale Frozen Meal Line: Curry, Pizza, and More【WBS】",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=X2uYb6Ty1mg"
+  },
+  {
+   "id": "c36lu-PPHPk",
+   "title": "Revision of valuation of unlisted shares not included in tax reform outline [WBS]",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=c36lu-PPHPk"
+  },
+  {
+   "id": "VKSNWi47zC8",
+   "title": "Times: Compensation payment of 3,000 yen from December for driver's license image leak [WBS]",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=VKSNWi47zC8"
+  },
+  {
+   "id": "DhgzUoGokzk",
+   "title": "Toyota begins accepting orders for the \"reverse-imported\" Camry; production to take place at US f...",
+   "age": "7h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=DhgzUoGokzk"
+  },
+  {
+   "id": "i_KJmxNA49g",
+   "title": "No In-Flight Meals: The Secret Behind ZIPAIR Tokyo #CambriaPalace #ZIPAIR #InFlightMeal #Galley #...",
+   "age": "10h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=i_KJmxNA49g"
+  },
+  {
+   "id": "qc0wWzMnt98",
+   "title": "From a 3 Million Yen Salary to Quitting the Rat Race! The Investment Strategy of Dividend Growth ...",
+   "age": "10h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=qc0wWzMnt98"
+  },
+  {
+   "id": "s-YMjc7zGrE",
+   "title": "Interview with Mitsui Chemicals Chairman Osamu Hashimoto: Behind the Scenes of the Major Acquisit...",
+   "age": "10h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=s-YMjc7zGrE"
+  },
+  {
+   "id": "s-92RGfA8wE",
+   "title": "Nabeya: Over 460 Years of Jigs! Supporting Global Manufacturing with Astonishing Clamping Technol...",
+   "age": "11h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=s-92RGfA8wE"
+  },
+  {
+   "id": "2EcHFtwpjjU",
+   "title": "Unauthorized Access Surge! How to Protect Your Assets Right Now【Money Learning】",
+   "age": "12h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=2EcHFtwpjjU"
+  },
+  {
+   "id": "1WlY5RBOJac",
+   "title": "Lawson Store 100 Announces This Year’s \"Osechi from 100 Yen\" Lineup, Expanding 100-Yen Items to C...",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=1WlY5RBOJac"
+  },
+  {
+   "id": "aTBscVOxz7o",
+   "title": "Department Store Sales Top Previous Year for 10th Consecutive Month; Inbound Spending Remains Strong",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=aTBscVOxz7o"
+  },
+  {
+   "id": "TDLcTslW9Mo",
+   "title": "Triple Crown Winner Teruaki Sato Agrees to Deal with MLB Cubs: 6 Years, Approx. 19.1 Billion Yen",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=TDLcTslW9Mo"
+  },
+  {
+   "id": "prKT1sms5wE",
+   "title": "Rakuten Securities Data Breach: Additional Investigation Findings; 4.41 Million Names/Addresses a...",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=prKT1sms5wE"
+  },
+  {
+   "id": "2tshAfIeOiA",
+   "title": "Komeito and Constitutional Democratic Party Submit Proposal to Tighten Regulations on Corporate a...",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=2tshAfIeOiA"
+  },
+  {
+   "id": "VjCz46kHMg4",
+   "title": "China Launches First Manned Spacecraft With Foreign Astronaut",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=VjCz46kHMg4"
+  },
+  {
+   "id": "rDPJpcfVCic",
+   "title": "Opposition Parties to Submit Censure Motion Against Minister Seki Tomorrow",
+   "age": "13h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=rDPJpcfVCic"
+  },
+  {
+   "id": "8vOoQQg55GY",
+   "title": "Olympic Medalist Kasumi Ishikawa Announces Marriage",
+   "age": "14h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=8vOoQQg55GY"
+  },
+  {
+   "id": "Xu1SqLMD9b0",
+   "title": "20261125 hi ns07",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=Xu1SqLMD9b0"
+  },
+  {
+   "id": "aGqykpcvXE4",
+   "title": "20261125 hi ns06",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=aGqykpcvXE4"
+  },
+  {
+   "id": "uekOUwVfHHI",
+   "title": "20261125 hi ns05",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=uekOUwVfHHI"
+  },
+  {
+   "id": "ox0TM_3nPgE",
+   "title": "20261125 hi ns04",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=ox0TM_3nPgE"
+  },
+  {
+   "id": "HiVsBJqz6Lk",
+   "title": "20261125 hi ns03",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=HiVsBJqz6Lk"
+  },
+  {
+   "id": "hC9i6FBLcvU",
+   "title": "20261125 hi ns02",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=hC9i6FBLcvU"
+  },
+  {
+   "id": "shp5IhtWRE0",
+   "title": "20261125 hi ns01",
+   "age": "18h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=shp5IhtWRE0"
+  },
+  {
+   "id": "JYQGLx3F6tw",
+   "title": "Will Tax Cuts Squeeze Defense Spending? Is the High-Growth Defense Industry in Trouble!? [NIKKEI ...",
+   "age": "20h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=JYQGLx3F6tw"
+  },
+  {
+   "id": "25UMU72UcSg",
+   "title": "Trump Administration Considering Tariff Hikes #TrumpAdministration #Japan #China #EU #Tariffs #Ov...",
+   "age": "20h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=25UMU72UcSg"
+  },
+  {
+   "id": "nCofyDBMsRQ",
+   "title": "Your Smartphone is at Risk: Location Data Being Sold [Nikkei Morning Plus FT]",
+   "age": "21h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=nCofyDBMsRQ"
+  },
+  {
+   "id": "X7fRxOALQvk",
+   "title": "U.S. Consumer Confidence Improves Significantly, Driven by Job Market Recovery [Morning Satellite]",
+   "age": "22h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=X7fRxOALQvk"
+  },
+  {
+   "id": "nteo7Kny6PA",
+   "title": "Dollar Tree Earnings: Inflation Drives Foot Traffic, Outlook Raised [Morning Satellite]",
+   "age": "22h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=nteo7Kny6PA"
+  },
+  {
+   "id": "UunZnQ2Ra2k",
+   "title": "Anthropique shares fall below IPO price; CEO sells 45 billion yen worth of shares [Morning Satell...",
+   "age": "22h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=UunZnQ2Ra2k"
+  },
+  {
+   "id": "aTn_cJYTYNY",
+   "title": "NVIDIA CEO Jensen Huang reaffirms \"no security risks\" [Morning Satellite]",
+   "age": "22h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=aTn_cJYTYNY"
+  },
+  {
+   "id": "i6kpI48kIsk",
+   "title": "Trump Administration Poised to Hike Tariffs on Japan, China, and EU [Morning Satellite]",
+   "age": "22h ago",
+   "channel": "テレ東BIZ",
+   "url": "https://www.youtube.com/watch?v=i6kpI48kIsk"
+  },
+  {
+   "id": "lcSKiugkdvg",
+   "title": "【イギリス、8人に1人がニート】政府、就労支援へ若者採用の企業に助成#Shorts",
+   "age": "11h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=lcSKiugkdvg"
+  },
+  {
+   "id": "pWIwN9xfwJw",
+   "title": "【日本人の半数が「努力したくない」】 #Shorts",
+   "age": "12h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=pWIwN9xfwJw"
+  },
+  {
+   "id": "N_k8-dMi6lQ",
+   "title": "【原子力潜水艦とは】西太平洋は「原潜の海」に　日本でも保有なら安全保障の転換点に",
+   "age": "13h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=N_k8-dMi6lQ"
+  },
+  {
+   "id": "de9e9netRmo",
+   "title": "【国際会議インサイド】中ロのはざま、どう生き抜く？　中央アジア会議を秋田コメンテーター分析【NIKKEI LIVE】",
+   "age": "14h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=de9e9netRmo"
+  },
+  {
+   "id": "THKQpkYbMpU",
+   "title": "【金価格の下落率が45年ぶりの大きさ】年初までの上昇局面が一変、10ヵ月間で40%近くの下落率　#Shorts",
+   "age": "15h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=THKQpkYbMpU"
+  },
+  {
+   "id": "k3FMeKsTwAE",
+   "title": "【年金の伸び1%割れ試算】27年度支給額、実質賃金マイナスで抑制 #Shorts",
+   "age": "17h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=k3FMeKsTwAE"
+  },
+  {
+   "id": "qXUMLIRMv7U",
+   "title": "【座りすぎの大きな代償　がん死亡率上昇】 #Shorts",
+   "age": "20h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=qXUMLIRMv7U"
+  },
+  {
+   "id": "sa5fEN9RlaE",
+   "title": "【楽天証券、顧客からの預かり資産残高168万件漏洩】 #Shorts",
+   "age": "22h ago",
+   "channel": "日本経済新聞",
+   "url": "https://www.youtube.com/watch?v=sa5fEN9RlaE"
+  },
+  {
+   "id": "pQ1YKX5qXEE",
+   "title": "What the Left and the Right BOTH get wrong about business",
+   "age": "47 min ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=pQ1YKX5qXEE"
+  },
+  {
+   "id": "Azroa5i4Ftc",
+   "title": "The necessity of a founder’s mindset",
+   "age": "7h ago",
+   "channel": "Reid Hoffman",
+   "url": "https://www.youtube.com/watch?v=Azroa5i4Ftc"
+  }
+ ]
+}

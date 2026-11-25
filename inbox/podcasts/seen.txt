@@ -3402,3 +3402,11 @@ e1cd0e3e-9e03-40db-bc4b-b50b0165eab4|Odd Lots (Bloomberg)|2026-11-24|What Jensen
 892fa684-e7e6-11f1-9e43-0fb102e8a046|日経ビジネス モーニングニュース|2026-11-24|11月25日（水）：米中ロ首脳会談／日本商船隊の85％は外国籍／町工場がClaudeで変身
 1896caf3-c0ab-4ea5-81dd-b85eeac740d0|NewsPicks Daily Briefing|2026-11-24|【11月25日】新卒採用、AI普及で「減る」が逆転 ほか
 6f21acf1334067776c4850a33cb6e28eccd01866bdb4193fc74362174f149fd7|10分でわかるスタートアップ・資金調達ニュース|2026-11-25|現場作業を学ぶAIと5億円の企業価値担保融資とは？
+fd9235fe-a012-4a66-8224-4b84d6ee9ddd|TBPN|2026-11-24|Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Code Red | Diet TBPN
+e652a702-e7e4-4e5b-a3a0-9c9c52f390d6|The a16z Show|2026-11-25|Replay: Principles and Algorithms for Work and Life | Ray Dalio (2019)
+067049f6-e886-11f1-b21b-e79d1bb93e06|The Colin and Samir Show|2026-11-25|The Man Behind YouTube’s Greatest Video: Max Joseph
+dd4c7a6c-e8b8-11f1-bc38-d7bbb9cd16f7|日経ビジネス モーニングニュース|2026-11-25|11月26日（木）：AI関連対米輸出、台湾が中国超え／麻生系生コン不正／生成AIの性格差
+f59d3841-60b1-494a-b8b2-28f258afb650|NewsPicks Daily Briefing|2026-11-25|【11月26日】その「AI活用」が攻撃のカモになる ほか
+e43565e501883a0812e7c3538c404db9d1e5306dc524696e3b657c5d7d6bce41|10分でわかるスタートアップ・資金調達ニュース|2026-11-26|企業価値担保権で買収資金5億？銀行が評価した事業価値とは？
+44314078-cf55-41ee-839e-e78cb79f12f3|BRAVE Southeast Asia Tech|2026-11-25|Why China Is Playing the Long Game on Self-Reliance in AI Chips | Jianggan Li - E751
+cmwua2y6t04ju01qfe5awhfzd|創創燒(創投公會TVCA)|2026-11-24|EP118創創燒：從鴻海到抵押房子創業，被上千家自行車店拒絕，他為何不放棄？｜皓準科技 創辦人暨執行長 王議弘 Kerrif
