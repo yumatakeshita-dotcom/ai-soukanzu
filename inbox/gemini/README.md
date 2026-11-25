@@ -4,6 +4,20 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-26-recheck　保留の確かめ直し
+
+- モデル: (不明)　/　候補 3件
+
+**Geminiが打った検索の言葉**: (この回は記録なし)
+
+**出てきた候補**
+
+- TOKIUM → 資本業務提携 → 芙蓉総合リース(2026-11-25)【除外】
+- O-ID → 出資 → TAWANI Ventures, Hustle Fund, Techstars, エンジェル投資家(2026-11-24)【除外】
+- O-ID → 基本合意書 → 住友電気工業(2026-11-24)【除外】
+
+記録ファイル: inbox/gemini/2026-11-26-recheck.json
+
 ## 2026-11-26-2　OpenAIの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
 
 - モデル: gemini-2.5-flash　/　候補 10件
@@ -23,16 +37,16 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- OpenAI → 退任 → (2026-11-14)
-- OpenAI → 出資 → SoftBank(2026-11-07)
-- OpenAI → 提携 → Fujitsu(2026-11-25)
-- OpenAI → 買収 → Pierre Computer Company(2026-11-04)
-- OpenAI → 提携 → LVMH Media Division(2026-11-17)
-- OpenAI → 移籍 → (2026-11-03)
-- OpenAI → 退任 → (2026-08-11)
-- OpenAI → 就任 → (2026-08)
-- OpenAI → 退任 → (2026-08)
-- OpenAI → 就任 → (2026-07-21)
+- OpenAI → 退任 → (2026-11-14)【除外】
+- OpenAI → 出資 → SoftBank(2026-11-07)【除外】
+- OpenAI → 提携 → Fujitsu(2026-11-25)【除外】
+- OpenAI → 買収 → Pierre Computer Company(2026-11-04)【保留】
+- OpenAI → 提携 → LVMH Media Division(2026-11-17)【除外】
+- OpenAI → 移籍 → (2026-11-03)【除外】
+- OpenAI → 退任 → (2026-08-11)【除外】
+- OpenAI → 就任 → (2026-08)【除外】
+- OpenAI → 退任 → (2026-08)【除外】
+- OpenAI → 就任 → (2026-07-21)【保留】
 
 記録ファイル: inbox/gemini/2026-11-26-2.json / 2026-11-26-2.md
 
