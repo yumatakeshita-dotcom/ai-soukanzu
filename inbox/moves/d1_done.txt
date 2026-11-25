@@ -25,3 +25,6 @@
 2026-11-24-hiring.json
 2026-11-24-jp-hr.json
 2026-11-24.json
+2026-11-25-gemini.json
+2026-11-25-jp-hr.json
+2026-11-25.json
