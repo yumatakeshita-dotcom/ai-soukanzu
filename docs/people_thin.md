@@ -21,3 +21,8 @@
 ## 2026/11/24の結果
 28人を足した: Jack Ma、Andy Konwinski、Rajeev Misra、Sebastian Thrun、Daniel Ek、Bill McDermott、Frank Slootman、Adam D'Angelo、Diane Greene、Dick Costolo、Lip-Bu Tan、Garrett Camp、Nick Frosst、Luke Metz(本人のX)、Dara Khosrowshahi、Dmitri Dolgov、Marcelo Claure、Moxie Marlinspike、Parag Agrawal、Wojciech Zaremba、Ashish Vaswani、Helen Toner、Ion Stoica、Matei Zaharia、John Collison、Luis von Ahn、Bret Johnsen、Jill Hazelbaker。
 確かめられず `skip.json` に残した: Rahul Patil、Denise Dresser、Cal Henderson、Ruoming Pang。
+
+## 2026/11/25の追加
+- 本人のXの自己紹介で確かめ直した8人(Zaremba、Toner、D'Angelo、Camp、Khosrowshahi、Collison、Frosst、Zaharia)に「本人」の出典を足した(`python3 scripts/person_xsrc.py`。入力は `inbox/people_thin/xsrc/`。自己紹介が説明文の中心と合う人だけ。説明文の事実の出どころは Wikipedia のまま)
+- 経歴を18人足した(合計46人): Biz Stone、Reynold Xin、Francis deSouza、Lidiane Jones、Lucy Guo、Cliff Obrecht、Tom Blomfield、Danny Rimer、John Krafcik、Mamoon Hamid、Ned Segal、Tekedra Mawakana、Aman Sanger、Denis Yarats、Kyle Kosic、Shona Brown、Indra Nooyi
+- 顔写真: 27人のうち17人はすでに写真があった。足りない10人(Rajeev Misra、Bill McDermott、Diane Greene、Luke Metz、Moxie Marlinspike、Wojciech Zaremba、Ashish Vaswani、Helen Toner、Luis von Ahn、Bret Johnsen)は、**Wikimedia Commons(commons.wikimedia.org と upload.wikimedia.org)がこの環境の許可リストに無く、ライセンスの確認も画像の取得もできなかった**ので足していない。許可したあと `python3 scripts/person_photo.py "Helen Toner" ...` で足せる(自由なライセンスだけ・足すだけ・すでにある写真は触らない。そのあと `python3 scripts/make_photo_credits.py`。`site/faces.json` と `site/credits.html` を変えたら共有リンクにも公開)
