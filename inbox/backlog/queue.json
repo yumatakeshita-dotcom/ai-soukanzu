@@ -1369,10 +1369,10 @@
    ],
    "desc": "Box CEO Aaron Levie is back for our weekly discussion of the latest tech news. We cover: 1) OpenAi's Windsurf deal falls through 2) Is OpenAI okay? 3) What percentage of all AI spend goes to coding? 4) Google's AI code play 5) Grok 4 is out 6) Does Grok show the scaling laws are still in effect? 7) Would Box work with Grok? 8) NVIDIA hits $4 trillion 9) Are we in an AI bubble? 10) Should Tim Cook ",
    "id": "1c3e8a2087",
-   "note": "",
+   "note": "出典URLなし。Windsurf取引は別に既出の可能性",
    "published": "2025-07-12",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "unverified",
    "title": "OpenAI’s Windsurf Crash, Grok’s Wild Week, Replace Tim Cook? — With Aaron Levie",
    "url": "",
    "words": [
@@ -1398,6 +1398,23 @@
    "url": "",
    "words": [
     "joins"
+   ]
+  },
+  "1c41b4c32f": {
+   "companies": [
+    "エヌビディア"
+   ],
+   "desc": "※AIによる自動音声でお伝えします。 アメリカの半導体大手エヌビディアのジェンスン・フアン前CEOの不倫相手で、中国のスパイ疑惑がある女性が、親族らの関連企業を通じて中国の軍事企業とつながりを持っていたと、ニューヨーク・タイムズは20日報じました。中国人女性のアリス・フアン氏の妹や夫とされる男性の関与する企業が一時期、大手電子機器メーカーとデータセンター関連企業に共同出資していました。このメーカーは、レーダーやミサイルシステムの部品を製造する軍事企業を傘下に持っていて、データセンター関連企業は、複数の軍事企業にサービスを提供していたということです。 #エヌビディア #ジェンスンフアン #アリスフアン #中国軍事企業 仕事や投資に役立つ経済メディア『テレ東BIZ』。 WBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実 ▼▼「テレ東BIZ」はこちら▼▼ https://txb",
+   "id": "1c41b4c32f",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-21",
+   "source": "テレ東BIZ",
+   "status": "todo",
+   "title": "中国軍事企業とつながりか エヌビディア問題の女性",
+   "url": "https://www.youtube.com/watch?v=dUlKb0yRjrk",
+   "words": [
+    "出資"
    ]
   },
   "1c8afdde6b": {
@@ -3063,6 +3080,27 @@
     "joins"
    ]
   },
+  "3c576c22b3": {
+   "companies": [
+    "CoreWeave",
+    "Thrive"
+   ],
+   "desc": "Kush Bavaria is the Co-founder and CEO of Ornn, building the financial market for AI compute. Ornn helps companies price, finance and hedge GPU capacity—bringing the tools of commodity markets to AI infrastructure. Kush is just 23 years old and has raised funding from some of the best in the world including Andreessen Horowitz, Thrive Capital and BoxGroup. Timestamps: 01:06 Meeting Kush and His Ea",
+   "id": "3c576c22b3",
+   "newnames": [
+    "Bavaria"
+   ],
+   "note": "",
+   "published": "2026-11-21",
+   "source": "20VC with Harry Stebbings",
+   "status": "todo",
+   "title": "Why Neo-Clouds are Great Businesses & The State of Compute with Kush Bavaria, Co-Founder @ Ornn",
+   "url": "https://www.youtube.com/watch?v=3ZkDiDrxDeY",
+   "words": [
+    "funding",
+    "raised"
+   ]
+  },
   "3c5d289d27": {
    "companies": [
     "Replit",
@@ -3515,6 +3553,26 @@
    "url": "https://share.transistor.fm/s/7253c528",
    "words": [
     "resigns"
+   ]
+  },
+  "44efdac280": {
+   "companies": [
+    "Amazon",
+    "Google",
+    "OpenAI",
+    "アンソロピック"
+   ],
+   "desc": "▼番組のフル視聴はこちらから https://npx.me/s/eimjt5k8 ▼10日間無料トライアル実施中 https://s.npx.me/ySXyEJt8 ------------------------------------------------------------- AIバブルのど真ん中で、「富の爆発」が起きました。Anthropicが米国史上最大の調達額でナスダックに上場し、一夜にして時価総額200兆円超の巨大企業が誕生。創業メンバー「神セブン」は1人当たり3兆円超の資産を手にし、社員の半数以上がミリオネアになったとも報じられています。そして、その裏で笑いが止まらない「本当の勝ち組」の存在…。全産業を飲み込む「みかじめ料」シナリオから、広がるAI格差まで、歴史的上場の悲喜こもごもを掘り下げます。 👉️公開収録のお知らせ 「週刊ジョーホー番組」の公開収録を、2026年",
+   "id": "44efdac280",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-21",
+   "source": "NewsPicks",
+   "status": "todo",
+   "title": "【株式上場】アンソロピック社員たちは「上級国民」になった（AI/IPO/OpenAI/Amazon/Google/ダリオ・アモデイ/解説：後藤直義、森川潤）",
+   "url": "https://www.youtube.com/watch?v=zWM8MZnK8jo",
+   "words": [
+    "調達"
    ]
   },
   "452df3e60a": {
@@ -4633,10 +4691,10 @@
    ],
    "desc": "AGENDA: 00:00 $45B Floods into Anthropic from Google & Amazon 05:10 OpenAI Misses Growth Targets — Is This a Real Problem? 08:40 The Rise of AI Agents: Why Humans No Longer Pick Models 12:05 \"Compute ≠ Revenue\": The First Crack in the AI Business Model 20:30 China Blocks $2B Manus Deal — AI Cold War Escalates 34:10 Why Google May Be the Biggest Winner in AI Infrastructure 41:50 The Death of SaaS? ",
    "id": "5825b1ba65",
-   "note": "",
+   "note": "Manusはすでにある。Anthropic 5Bは報道と数字が合わない(Google最大0B+Amazon最大5B)ので足さない",
    "published": "2026-04-30",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Anthropic Raises $45BN but Falls Short on Compute | OpenAI Crushes with GPT5.5 and Codex: Back in the Game? | China Blocks Manus $2BN Deal to Meta | Thoma Bravo Hand Back Medallia Keys to Creditors | Why Google is a Bigger Buy Than Ever Before",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-45bn-but-falls-short-on-compute-openai-crushes-with-gpt55-and-codex-back-in-the-game-china-blocks-manus-2bn-deal-to-meta-thoma-bravo-hand-back-medallia-keys-to-creditors-why-google-is-a-bigger-buy-than-ever-before",
    "words": [
@@ -4849,10 +4907,10 @@
    ],
    "desc": "Martin Casado is a General Partner @ a16z where he leads the firms $1.25BN infrastructure fund. At a16z, Martin has led investments in companies like Cursor, dbt Labs, and Fivetran to name a few. Before joining a16z, he co-founded Nicira, acquired by VMware for $1.26B. At VMware, he served as CTO of Networking. Widely regarded as a visionary in enterprise infrastructure, Martin has helped shape th",
    "id": "5bd7b27674",
-   "note": "",
+   "note": "a16zのCasadoのインタビュー。新しい動きではない",
    "published": "2025-07-28",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: a16z's Martin Casado on Anthropic vs OpenAI: Where Value Accrues | Cursor vs Replit vs Lovable: Who Wins and Who Loses | The One Sin in AI Investing | Why Open Source is a National Security Risk with China",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-a16zs-martin-casado-on-anthropic-vs-openai-where-value-accrues-cursor-vs-replit-vs-lovable-who-wins-and-who-loses-the-one-sin-in-ai-investing-why-open-source-is-a-national-security-risk-with-china",
    "words": [
@@ -4902,10 +4960,10 @@
    ],
    "desc": "Agenda: 00:00 – Did Jason Just Kill Replit? 03:45 – Why Claude Lies To You and Cannot Be Trusted 06:50 – You Cannot Trust Agents. Period. 10:20 – Why Windsurf Was Dead Without Claude 12:30 – Cursor vs. Lovable: What's the Better Bet? 14:40 – Should You Still Invest in Cursor at $28B? 18:05 – Would You Bet on Anthropic at $100B or OpenAI at $300B? 24:15 – Inside OpenAI's Secret Weapon: The Calvin F",
    "id": "5cd7a09b09",
-   "note": "",
+   "note": "Lovable B調達の公式確認まで至らず(本回では未検索)",
    "published": "2025-07-24",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Lovable Raises at $2BN & Hits $100M ARR | Is Cursor Worth $28BN at $1BN in ARR | How Do All Providers Deal with Anthropic Dependency Risk | Are Seed Funds F******: Have Mega Funds Won | Figma IPO Breakdown: Where Does it Price?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-lovable-raises-at-2bn-hits-100m-arr-is-cursor-worth-28bn-at-1bn-in-arr-how-do-all-providers-deal-with-anthropic-dependency-risk-are-seed-funds-f-have-mega-funds-won-figma-ipo-breakdown-where-does-it-price",
    "words": [
@@ -5181,10 +5239,10 @@
    ],
    "desc": "AGENDA: 00:04 – Was GPT-5 the Biggest AI Letdown Yet? 00:17 – Is OpenAI's Real Target Anthropic's $6B Revenue? 00:22 – Why Anthropic Might Secretly Be Worried 00:28 – The Hidden Business Strategy Behind OpenAI's \"Underwhelming\" Launch 00:32 – Should Perplexity Really Try to Buy Chrome for $34.5B? 00:35 – The $3B N8N Deal: Genius Bet or Bubble FOMO? 00:38 – Why Datadog's Best Quarter Ever Still Tan",
    "id": "65e94dea28",
-   "note": "",
+   "note": "n8n B・Perplexity Chrome入札の本回確認は未了",
    "published": "2025-08-14",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: GPT5: Sam Altman's Masterplan or a Gift To Anthropic | Palantir & Shopify Crush Earnings | Monday & Datadog Perform But Hit Hard by Wall St | Should Perplexity Buy Chrome for $34.5BN |",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-gpt5-sam-altmans-masterplan-or-a-gift-to-anthropic-palantir-shopify-crush-earnings-monday-datadog-perform-but-hit-hard-by-wall-st-should-perplexity-buy-chrome-for-345bn",
    "words": [
@@ -6391,10 +6449,10 @@
    ],
    "desc": "AGENDA: 04:00 Anthropic Files S-1 Ahead of $2TRN IPO 14:50 Microsoft Offers Buyouts to 60,000 Employees 20:45 Zuckerberg Taps Equity Markets for $95 Billion AI Spending Spree 23:00 DeepSeek Raises $15 Billion as Chinese AI Faces US Backlash 34:45 OpenAI and Wiz Uncover Decade-Old Security Flaws 37:05 Instinct's Rumoured $30 Billion Valuation Divides the Panel 45:30 Invest Committee: Put 20% of the",
    "id": "7a28621898",
-   "note": "",
+   "note": "Instinct 0B調達は噂段階。確認できず",
    "published": "2026-10-29",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Anthropic Files S1 Ahead of $2TRN IPO | Instinct's Rumoured $30 Billion Fundraise | Microsoft Laysoff 27,000 While Meta Taps Equity Markets for $95 Billion Capex Spending Spree",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-s1-ahead-of-2trn-ipo-instincts-rumoured-30-billion-fundraise-microsoft-laysoff-27000-while-meta-taps-equity-markets-for-95-billion-capex-spending-spree",
    "words": [
@@ -7612,6 +7670,27 @@
     "joins"
    ]
   },
+  "92985011d0": {
+   "companies": [
+    "CoreWeave",
+    "Thrive"
+   ],
+   "desc": "Kush Bavaria is the Co-founder and CEO of Ornn, building the financial market for AI compute. Ornn helps companies price, finance and hedge GPU capacity—bringing the tools of commodity markets to AI infrastructure. Kush is just 23 years old and has raised funding from some of the best in the world including Andreessen Horowitz, Thrive Capital and BoxGroup. AGENDA: 05:00 Building a Viral Sports Bet",
+   "id": "92985011d0",
+   "newnames": [
+    "Bavaria"
+   ],
+   "note": "",
+   "published": "2026-11-21",
+   "source": "20VC",
+   "status": "todo",
+   "title": "20VC: The State of Compute: What Everyone Needs to Know | Why Neo-Clouds are Great Businesses | What Everyone Is Missing About GPU Prices? | How AI Infrastructure Investors Will Win with Kush Bavaria, Co-Founder @ Ornn",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-the-state-of-compute-what-everyone-needs-to-know-why-neo-clouds-are-great-businesses-what-everyone-is-missing-about-gpu-prices-how-ai-infrastructure-investors-will-win-with-kush-bavaria-co-founder-ornn",
+   "words": [
+    "funding",
+    "raised"
+   ]
+  },
   "92a7fdafe5": {
    "companies": [
     "Google",
@@ -8113,10 +8192,10 @@
    ],
    "desc": "AGENDA: 00:00 Jensen Huang Declares AGI Has Arrived 04:05 Instinct and GrokBot Ignite the AI Assistant War 13:32 OpenAI's GPT Astra Redefines What AGI Means 26:00 GPT Astra and Fable 5.1 Accelerate the Model Race 30:38 OpenAI's Chief Scientist Calls for Enforced AI Safety Limits 40:50 Tesla Launches Cybercabs as Travis Kalanick Returns to Robotaxis 45:55 Index Pulls Out of Town Deal Following Inst",
    "id": "9e057bc2f4",
-   "note": "",
+   "note": "Index/Town・Anthropic/Descartesの報道を本回では確認できず",
    "published": "2026-09-10",
    "source": "20VC",
-   "status": "todo",
+   "status": "unverified",
    "title": "20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 Accelerate the Model Race | Tesla Launches Cybercabs | Index Pulls Out of Town & Anthropic Pulls From Descartes Acquisition",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-declares-agi-has-arrived-gpt-astra-and-fable-51-accelerate-the-model-race-tesla-launches-cybercabs-index-pulls-out-of-town-anthropic-pulls-from-descartes-acquisition",
    "words": [
@@ -10145,10 +10224,10 @@
    ],
    "desc": "AGENDA: 03:47 Sequoia exits London and ends its scout program 14:46 Nvidia board opens inquiry into Jensen Huang 21:51 Nasdaq 100 sheds $2.5T in one day 24:13 Anthropic targets $1T IPO valuation at $70–$78 a share 34:16 Revolut hits $115B, Zipline triples to $21.5B, fal doubles to $16B 40:47 Fireworks AI suffers two breaches in 30 days 45:41 Dialpad buys Ada for $400M in stock 50:35 Cloudflare rev",
    "id": "c2226ea9c0",
-   "note": "",
+   "note": "Zipline・fal・Dialpad/Adaを確認し足した。Sequoia英国撤退は出資ではない。Revolutは未確認",
    "published": "2026-11-12",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Jensen Huang Investigation: What Happens Now | Sequoia Leave London, Close Scout Program and End Evergreen Fund | NASDAQ Loses $2.5TRN in 24 hours | Anthropic targets $1.4TRN IPO valuation",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huang-investigation-what-happens-now-sequoia-leave-london-close-scout-program-and-end-evergreen-fund-nasdaq-loses-25trn-in-24-hours-anthropic-targets-14trn-ipo-valuation",
    "words": [
@@ -10396,10 +10475,10 @@
    ],
    "desc": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal Warning: Enterprises Don't Trust Frontier AI 33:00 Meta's Shock Pivot: Has Zuck Accidentally Built the Next CoreWeave? 41:00 Nvidia's Dangerous New Game: \"Compute Now, Pay Later\" 45:00 Anthropic & DeepSe",
    "id": "c63997d43f",
-   "note": "",
+   "note": "複数話題のまとめ回。具体的な動きの特定なし",
    "published": "2026-07-09",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
    "words": [
@@ -12811,10 +12890,10 @@
    ],
    "desc": "Arthur Mensch is the Co-Founder and CEO @ Mistral, the last remaining hope for frontier intelligence in Europe. Mistral has raised approximately $7.5BN, including debt, and reached a valuation above $24BN. Previously a researcher at Google DeepMind, Arthur co-authored the landmark Chinchilla research, showing how smaller, better-trained AI models could outperform much larger rivals. --------------",
    "id": "f975a273c7",
-   "note": "",
+   "note": "Mistral CEOのインタビュー。新しい動きではない",
    "published": "2026-11-09",
    "source": "20VC with Harry Stebbings",
-   "status": "todo",
+   "status": "checked",
    "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?",
    "url": "https://www.youtube.com/watch?v=KotQbLX8pOw",
    "words": [
