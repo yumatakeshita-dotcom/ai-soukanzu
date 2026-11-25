@@ -88,3 +88,15 @@
 {"at": "2026-11-24T07:09:51+00:00", "model": "gemini-2.5-flash", "result": "429", "in": null, "out": null}
 {"at": "2026-11-24T07:10:06+00:00", "model": "gemini-flash-latest", "result": "503", "in": null, "out": null}
 {"at": "2026-11-24T07:10:26+00:00", "model": "-", "result": "cap", "in": null, "out": null}
+{"at": "2026-11-24T23:24:40+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2675, "out": 1210}
+{"at": "2026-11-24T23:25:40+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2702, "out": 1714}
+{"at": "2026-11-24T23:26:05+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 359, "out": 1477}
+{"at": "2026-11-24T23:26:21+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 357, "out": 1663}
+{"at": "2026-11-25T01:08:48+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-25T01:09:31+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-25T01:10:50+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 3261, "out": 24}
+{"at": "2026-11-25T01:11:09+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2866, "out": 326}
+{"at": "2026-11-25T01:11:32+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2849, "out": 315}
+{"at": "2026-11-25T01:11:59+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2847, "out": 392}
+{"at": "2026-11-25T01:12:36+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2204, "out": 291}
+{"at": "2026-11-25T01:12:46+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 823, "out": 81}

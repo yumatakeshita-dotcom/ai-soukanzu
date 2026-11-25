@@ -1,0 +1,17 @@
+{
+ "items": {
+  "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301346.pdf": {
+   "from": "Hong Kong Zcloud Technology Construction",
+   "to": "Shenzhen Yingshuo Cloud Technology",
+   "kind": "出資",
+   "date": "2026-11-23",
+   "code": "09900",
+   "region": "香港",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301346.pdf",
+   "src_name": "HKEX ZCLOUD TECH CONの開示(2026-11-23)",
+   "from_file": "2026-11-25-hkex.json",
+   "status": "未確認",
+   "history": []
+  }
+ }
+}

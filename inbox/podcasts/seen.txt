@@ -3389,3 +3389,16 @@ ef741101-1572-4ac7-b9c9-b507017075ac|Odd Lots (Bloomberg)|2026-11-23|What a Town
 23d25c8e-e4bf-11f1-a8ea-bf8e9e5fa032|日経ビジネス モーニングニュース|2026-11-23|11月24日（火）：アンソロピック、異色の統治／オアシスが非公開化迫る手法／徹底予測 小売り
 5404e378-4bd5-4038-9f52-8fe24cab1e04|NewsPicks Daily Briefing|2026-11-23|【11月24日】NVIDIAトップ「電撃復帰」の裏側 ほか
 6f9c743f996229bd5493e91bf38f324d0fc775457112dd25c357edcd844d3973|10分でわかるスタートアップ・資金調達ニュース|2026-11-24|10億円調達のPlanet Savers、なぜ一度に集めない？
+substack:post:226413128|Dwarkesh Podcast|2026-11-24|Responding to objections to recursive self-improvement
+0211081a-5243-4c18-ac57-e7ece5cac75d|All-In|2026-11-24|CrowdStrike CEO: AI Cyberattack Wave, Hyperspeed Hacks, & The Patching Problem
+ff21628a-4aca-4e1e-9a1c-92f79349e3a2|TBPN|2026-11-24|The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen 
+08090338-7e87-4299-bb2f-48c0c3571314|Hard Fork|2026-11-24|Trump's Mission to Get Jensen Huang Back at Nvidia
+8adf4140-e851-11f1-84d1-67690db2c884|Decoder with Nilay Patel|2026-11-24|Hank Green takes over Decoder to interview me about my new book
+fa4bc7f0-e514-11f1-8a20-23a2aece5414|Training Data (Sequoia)|2026-11-24|OpenAI’s Noam Brown: Why Game Theory Didn’t Lead to General Intelligence (Live at No Limit Finals)
+e21c8c84-43db-469e-b476-885b802bc758|The a16z Show|2026-11-24|REPLAY: The Story of Apple Pay | Jennifer Bailey (2024)
+gid://art19-episode-locator/V0/JVDPAsRen6Gd2qpyvBxPB3XxQUkYOnjKU5bS-YxFhd4|Masters of Scale|2026-11-24|Nvidia, China, and the open-model race: Reflection AI's Misha Laskin on a $25B bet
+e1cd0e3e-9e03-40db-bc4b-b50b0165eab4|Odd Lots (Bloomberg)|2026-11-24|What Jensen Huang's Stunning Return Means for the AI Trade
+3cb1b8ff-d328-4e59-8946-bc1a5f2f2a43|スタートアップ投資TV|2026-11-24|【M&A】売上だけでは会社の本当の価値はわからない｜利益・借入金から見る評価額の計算方法【あなたの会社 HOW MUCH?】
+892fa684-e7e6-11f1-9e43-0fb102e8a046|日経ビジネス モーニングニュース|2026-11-24|11月25日（水）：米中ロ首脳会談／日本商船隊の85％は外国籍／町工場がClaudeで変身
+1896caf3-c0ab-4ea5-81dd-b85eeac740d0|NewsPicks Daily Briefing|2026-11-24|【11月25日】新卒採用、AI普及で「減る」が逆転 ほか
+6f21acf1334067776c4850a33cb6e28eccd01866bdb4193fc74362174f149fd7|10分でわかるスタートアップ・資金調達ニュース|2026-11-25|現場作業を学ぶAIと5億円の企業価値担保融資とは？

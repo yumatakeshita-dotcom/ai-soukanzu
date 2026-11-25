@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-25",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Sridhar Ramaswamy",
+   "name_ja": "",
+   "from": "Google (内部)",
+   "to": "Google Cloud",
+   "role": "CEO, Google Cloud's AI unit",
+   "date": "2024-02-20",
+   "note": "内部での再編・昇進(Gemini調査・自動の確かめを通過)",
+   "src": [
+    [
+     "Google Cloud Blog",
+     "https://cloud.google.com/blog/topics/leadership-growth/sridhar-ramaswamy-leads-google-cloud-ai"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-25-2.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}

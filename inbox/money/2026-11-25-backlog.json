@@ -1,0 +1,50 @@
+{
+ "date": "2026-11-25",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を確かめた分。20VC 2026/11/12回の話題。",
+ "items": [
+  {
+   "from": "Paradigm(主導)・WCM Investment Management・Layer Global・Valor Equity Partners・Fidelity",
+   "to": "Zipline",
+   "kind": "出資",
+   "amount": "$15億(評価額 $215億)",
+   "date": "2026-11-05",
+   "note": "ドローン配送のZiplineの調達。2026年1月の評価額 $76億から約3倍。Walmartとの提携拡大も同時に報じられた。 20VCの手がかりから探し、複数の報道の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "", "video": "",
+   "src": [
+    ["The Next Web(2026/11)", "https://thenextweb.com/news/zipline-1-5bn-raise-21-5bn-valuation-walmart-300-drone-sites"],
+    ["Dealroom(2026/11)", "https://dealroom.co/news/169983-zipline-raises-1-5b-at-21-5b-valuation-to-scale-us-drone-delivery/"]
+   ],
+   "confidence": "報道", "via": "backlog"
+  },
+  {
+   "from": "Bessemer Venture Partners(主導)",
+   "to": "fal",
+   "kind": "出資",
+   "amount": "$13億(評価額 $160億)",
+   "date": "2026-11-03",
+   "note": "生成メディア向けAI推論のfalの調達。Bloomberg報道を引くもので、falの公式発表は確認できず。ラウンドの呼び名(Series Fか延長か)は報道で分かれる。報道ベース。",
+   "quote": "", "video": "",
+   "src": [
+    ["SiliconANGLE(2026/11/3)", "https://siliconangle.com/2026/11/03/generative-media-inference-startup-fal-raises-1-3b-at-a-16b-valuation/"],
+    ["Tech Funding News(2026/11)", "https://techfundingnews.com/fal-1-3b-series-f-16b-valuation-ai-inference/"]
+   ],
+   "confidence": "報道", "via": "backlog"
+  },
+  {
+   "from": "Dialpad",
+   "to": "Ada",
+   "kind": "買収",
+   "amount": "約$4.3億(全株式。報道ベース。CAD約$6億とする報道もあり、公式は金額を非開示)",
+   "date": "2026-11-04",
+   "note": "法的には合併の形で、実質はDialpadによるAda(カナダの顧客対応AI)の取り込み。Dialpadのクレイグ・ウォーカーが統合後のCEO、AdaのCEOマイク・マーチソンはチーフAIオフィサーに。 20VCの手がかりから探し、公式発表と複数の報道で確認。",
+   "quote": "", "video": "",
+   "src": [
+    ["Dialpad公式(2026/11/4)", "https://www.dialpad.com/press/dialpad-and-ada/"],
+    ["CMSWire(2026/11)", "https://www.cmswire.com/contact-center/dialpad-merges-with-ada-to-forge-agentic-cx-platform/"],
+    ["Dealroom(2026/11)", "https://dealroom.co/news/169494-dialpad-to-acquire-ada-in-430m-deal-down-from-1-2b-peak/"]
+   ],
+   "confidence": "公式", "via": "backlog"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-25",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Zhihu(知乎)",
+   "to": "DeepSeek",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-23",
+   "region": "香港",
+   "code": "02390",
+   "note": "Zhihu(知乎)のHKEXの発表「VOLUNTARY ANNOUNCEMENT THE FUND'S INVESTMENT IN DEEPSEEK」で確認(2026-11-23。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合)。ファンドを通じた間接の出資(同社のファンドへの持分は一部)。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "HKEX Zhihu(知乎)の開示(2026-11-23)",
+     "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301442.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  },
+  {
+   "from": "Hong Kong Zcloud Technology Construction",
+   "to": "Shenzhen Yingshuo Cloud Technology",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-23",
+   "region": "香港",
+   "code": "09900",
+   "note": "ZCLOUD TECH CONのHKEXの発表「VOLUNTARY ANNOUNCEMENT MEMORANDUM OF UNDERSTANDING IN RELATION TO POSS」で確認(2026-11-23。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合)。表題は相手を「Target Company」とだけ書いており、相手の名前は本文の定義から読んだ(英訳名)。覚書(MOU)の段階で、実行は未確定。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "HKEX ZCLOUD TECH CONの開示(2026-11-23)",
+     "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301346.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ]
+}

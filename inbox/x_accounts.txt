@@ -188,3 +188,15 @@
 @CBinsights | vc,money | 未上場企業データ会社
 @NewsPicks | money,moves | 日本の経済メディア公式
 @NIKKEIxTECH | deep,money | 日経クロステック公式
+
+# --- 自動で追加 (2026-11-25) --- x_check.py で表示名と自己紹介を確認
+@CadeMetz | moves,money | NYT記者。AI企業の動き
+@kaifulee | money,deep | 01.AI CEO・創新工場会長
+@martin_casado | vc,deep | a16zパートナー。AI投資
+@coatuemgmt | vc,money | 投資会社Coatue公式
+@tanayj | vc,money | Wing VC。AI投資の分析
+@DealBook | money,moves | NYTの企業・M&A報道
+@WSJTech | money,moves | WSJ技術報道公式
+@Sifted | money,vc | 欧州スタートアップ報道
+@ycombinator_jp | vc,deep | YCの日本語解説
+@ClementDelangue | money,deep | Hugging Face CEO

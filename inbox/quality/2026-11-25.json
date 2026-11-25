@@ -1,0 +1,36 @@
+{
+ "at": "2026-11-25T09:05:51.357842+09:00",
+ "pending": 9,
+ "rows": [
+  [
+   "注意",
+   "inbox/money/2026-11-25-dc.json",
+   "Bloom Energy → NTT DATA(支援 900MW(燃料電池。複数拠点の合計・価格非公表・出荷は2027年",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://www.nttdata.com/en-us/news/2026/11/ntt-data-announces-agreement-with-blo"
+  ],
+  [
+   "注意",
+   "inbox/money/2026-11-25-dc.json",
+   "Giga Energy → 非公表のAIクラウド顧客(支援 10年・約10億ドル・60MW(契約額は報道ベース))",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://www.blackridgeresearch.com/news-releases/giga-energy-signs-usd-1-billion"
+  ],
+  [
+   "注意",
+   "inbox/world/2026-11-25.json",
+   "[オーストラリア] ABN一括データのページ更新日は2026/4/1",
+   "出典URLが開けなかった(<urlopen error Tunnel connection failed: 403 Forbi)。クラウドの許可外のこともある: https://data.gov.au/data/dataset/abn-bulk-extract"
+  ],
+  [
+   "注意",
+   "inbox/world/2026-11-25.json",
+   "[オーストラリア] ABN一括データのページ更新日は2026/4/1",
+   "日付が無い"
+  ],
+  [
+   "注意",
+   "inbox/world/2026-11-25.json",
+   "[香港] 香港は新規登記会社の一覧のみ無料公開",
+   "日付が無い"
+  ]
+ ]
+}

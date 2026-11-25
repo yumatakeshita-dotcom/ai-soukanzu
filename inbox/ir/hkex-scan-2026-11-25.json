@@ -1,0 +1,145 @@
+{
+ "items": [
+  {
+   "d": "2026-11-23",
+   "time": "19:58",
+   "market": "HKEX(香港)",
+   "code": "02390",
+   "co": "Zhihu(知乎)",
+   "title": "VOLUNTARY ANNOUNCEMENT THE FUND'S INVESTMENT IN DEEPSEEK",
+   "hk_cat": "Announcements and Notices - [Other - Miscellaneous]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301442.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 6,
+    "word": 5
+   },
+   "snippet": "s pleased to announce that the Fund has invested in Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd. ( ) ( “ DeepSeek ” ) indirectly through an investment vehicle for a low single digit percentage equity interest in DeepSeek. The Group’s partnership interest in the Fund is below 30%. DeepSeek is a company focused on general artif",
+   "import": "自動(inbox/money)",
+   "deal": {
+    "from": "Zhihu(知乎)",
+    "to": "DeepSeek",
+    "kind": "出資",
+    "amount": "",
+    "ai_hits": {
+     "company": 6,
+     "word": 5
+    },
+    "to_from_definition": false
+   }
+  },
+  {
+   "d": "2026-11-23",
+   "time": "19:08",
+   "market": "HKEX(香港)",
+   "code": "09900",
+   "co": "ZCLOUD TECH CON",
+   "title": "VOLUNTARY ANNOUNCEMENT MEMORANDUM OF UNDERSTANDING IN RELATION TO POSSIBLE CAPITAL INJECTION INTO THE TARGET COMPANY",
+   "hk_cat": "Announcements and Notices - [Other - Business Update]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301346.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 16
+   },
+   "snippet": "determined. Shareholders and potential investors of the Company should note that the Possible Capital Injection may or may not materialise and the final terms of the Possible Capital Injection, which are still subject to further negotiations between the parties, have yet to be determined. Shareholders and potential investors of the Company should exercise ca",
+   "import": "自動(inbox/money)",
+   "deal": {
+    "from": "Hong Kong Zcloud Technology Construction",
+    "to": "Shenzhen Yingshuo Cloud Technology",
+    "kind": "出資",
+    "amount": "",
+    "ai_hits": {
+     "company": 0,
+     "word": 16
+    },
+    "to_from_definition": true
+   }
+  },
+  {
+   "d": "2026-11-23",
+   "time": "17:44",
+   "market": "HKEX(香港)",
+   "code": "00476",
+   "co": "EV DYNAMICS",
+   "title": "DISCLOSEABLE TRANSACTION IN RELATION TO FORMATION OF JOINT VENTURE",
+   "hk_cat": "Announcements and Notices - [Discloseable Transaction]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112300889.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 15
+   },
+   "snippet": "ipal activities of the Group consist of investment holding and development of new energy business. The Group also owns the Glauberite Mine located in the Guangxi Zhuang Autonomous Region of the PRC. Sino Brighter is a wholly-owned subsidiary of the Company incorporated in Hong Kong with limited liability. Sino Brighter is principally engaged in investment ho",
+   "import": "手動(表題から相手が決められない)"
+  }
+ ],
+ "skipped": [
+  {
+   "co": "BANKOFJIUJIANG",
+   "title": "ANNOUNCEMENT CANCELLATION OF THE 2026 FOURTH EXTRAORDINARY GENERAL MEETING TERMINATION OF SUBSCRIPTION OF CERTAIN DOMESTIC SHARES CONFIRMATION OF MATTERS RELATING TO THE TYPES AND AMOUNTS OF NEW SHARES ISSUED TO EXISTING SHAREHOLDERS AND PROPOSED AMENDMENTS TO THE ARTICLES OF ASSOCIATION",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401569.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "TIANQI LITHIUM",
+   "title": "CONNECTED TRANSACTIONS AND DISCLOSEABLE TRANSACTIONS - THE ACQUISITIONS",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401521.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "BII TRANS TECH",
+   "title": "DISCLOSEABLE TRANSACTION AND CONNECTED TRANSACTION ACQUISITION OF EQUITY INTERESTS IN THE TARGET COMPANY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401509.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "TIAN CHANG GP",
+   "title": "DISCLOSEABLE TRANSACTIONS IN RELATION TO THE ACQUISITIONS OF MACHINERY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112401143.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "SINO LAND",
+   "title": "Formation of Joint Venture and Award of Tender for the Acquisition and Development of the Site",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112400811.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "HISENSE HA",
+   "title": "DISCLOSEABLE TRANSACTIONS-SUBSCRIPTION OF WEALTH MANAGEMENT PRODUCTS",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112400597.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "NEW CENTURY GP",
+   "title": "DISCLOSEABLE TRANSACTION - ACQUISITION OF PROPERTY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1124/2026112400296.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "GROWN UP GP-NEW",
+   "title": "DISCLOSEABLE AND CONNECTED TRANSACTION ENTERING INTO THE COOPERATION AGREEMENT",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301480.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "IB DIGITAL TECH",
+   "title": "VOLUNTARY ANNOUNCEMENT STRATEGIC PARTNER INDUSTRIAL BANK HONG KONG BRANCH JOINS ENSEMBLE TX",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301450.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "DOMAINE POWER",
+   "title": "Discloseable and Connected Transaction - Completion of the VAX Acquisition",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1123/2026112301350.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-25",
+ "kind": "ir-scan-hkex",
+ "list_rows": 723,
+ "shortlist": 13,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}

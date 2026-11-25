@@ -4,6 +4,53 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-25-2　上位5社(OpenAI・xAI・Anthropic・Meta・SK hynix)以外のAI企業・半導体企業の、経営陣・主要研究者の入社・退社・就任(直近3か月)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**: (この回は記録なし)
+
+**出てきた候補**
+
+- Microsoft → 就任 → (2024-03-19)【除外】
+- Microsoft → 就任 → (2024-03-19)【除外】
+- Cerebras Systems → 入社 → (2024-02-14)【保留】
+- Cohere → 入社 → (2024-01-23)【除外】
+- Tenstorrent → 入社 → (2024-02-21)【保留】
+- Google Cloud → 就任 → (2024-02-20)【合格】
+- Figure AI → 入社 → (2024-01-10)【保留】
+- Groq → 入社 → (2024-03-05)【保留】
+- SambaNova Systems → 入社 → (2024-01-09)【保留】
+- Intel → 提携 → UMC (United Microelectronics Corporation)(2024-01-25)【保留】
+
+記録ファイル: inbox/gemini/2026-11-25-2.json / 2026-11-25-2.md
+
+## 2026-11-25　直近3日の計算資源(GPU・データセンター・電力・メモリ)の大型契約と提携
+
+- モデル: gemini-2.5-flash　/　候補 5件
+
+**Geminiが打った検索の言葉**
+
+- GPU data center power memory contract partnership November 23 2026
+- GPU data center power memory contract partnership November 24 2026
+- GPU data center power memory contract partnership November 25 2026
+- Microsoft Code Red GPU data center contract November 23-25 2026
+- Anthropic Amazon Google GPU data center contract November 23-25 2026
+- Nvidia GPU contract November 23-25 2026
+- Intel GPU data center contract November 23-25 2026
+- AMD GPU data center contract November 23-25 2026
+- cloud provider large GPU order November 23-25 2026
+
+**出てきた候補**
+
+- Applied Optoelectronics (AOI) → 取引 → Tier-1 Hyperscale Data Center Customer (unnamed)(2026-11-24)【保留】
+- SpaceX → 取引 → WHCO (Saturn Funding Trust)(2026-11-22)【除外】
+- Anthropic → 出資/提携 → AMD, Broadcom, Google, Micron, Microsoft, Nvidia, TSMC(2026-11-21)【除外】
+- Nvidia → 就任 → (2026-11-23)【除外】
+- Dell, HPE, Lenovo, Supermicro → 取引 → AI Server buyers(2026-11-22)【保留】
+
+記録ファイル: inbox/gemini/2026-11-25.json / 2026-11-25.md
+
 ## 2026-11-24-3　AI企業・半導体企業の創業者や経営者が、本人の公の発言・インタビューで挙げた愛読書や影響を受けた本・映画(例: ジェンスン・ファン、リサ・スー、ダリオ・アモデイ、デミス・ハサビス、ソフトバンクの孫正義以外)。出典ページ付きで
 
 - モデル: gemini-2.5-flash　/　候補 10件

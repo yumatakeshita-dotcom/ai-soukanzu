@@ -1,23 +1,16 @@
 {
  "tdnet": {
   "ok": true,
-  "rows": 284,
+  "rows": 214,
   "days": [
+   "2026-11-25",
    "2026-11-24",
-   "2026-11-23",
-   "2026-11-20"
+   "2026-11-23"
   ]
  },
- "hkex": {
-  "ok": true,
-  "rows": 401
- },
- "sgx": {
-  "ok": false,
-  "why": "SGXのデータ元 api.sgx.com に接続できない(2026/11/21: 環境の許可は通ったが、SGX側が自動の取得を断る(Access Denied)。許可の問題ではない): HTTP Error 403: Forbidden"
- },
- "saved_at": "2026-11-24T07:29:53+09:00",
- "n_candidates": 1,
+ "saved_at": "2026-11-25T08:15:16+09:00",
+ "n_candidates": 0,
  "n_verified": 0,
- "n_rejected": 1
+ "n_rejected": 0,
+ "n_retry_waiting": 0
 }
