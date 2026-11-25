@@ -200,3 +200,15 @@
 @Sifted | money,vc | 欧州スタートアップ報道
 @ycombinator_jp | vc,deep | YCの日本語解説
 @ClementDelangue | money,deep | Hugging Face CEO
+
+# --- 自動で追加 (2026-11-26) --- x_check.py で表示名と自己紹介を確認
+@StrictlyVC | vc,money | VC・創業者ニュース配信
+@AMD | money,deep | 半導体AMD公式
+@cohere | money,deep | AI企業Cohere公式
+@scale_AI | money,moves | AIデータ企業Scale公式
+@CoreWeave | money,deep | AIクラウドCoreWeave公式
+@kevinroose | deep,moves | NYT記者。AI企業を取材
+@lpolovets | vc,money | VCのGP。初期投資の発信
+@TheStalwart | money,deep | Bloomberg。市場とAI投資
+@ELYZA_inc | deep,money | 日本のLLM企業(松尾研発)
+@itmedia_news | deep,money | 日本のITニュース媒体
