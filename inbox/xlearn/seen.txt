@@ -21,7 +21,9 @@ https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-
 https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-polly-generative-engine-torchneuron-for-trainium-and-more-october-26-2026/
 https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/
 https://aws.amazon.com/blogs/aws/aws-weekly-roundup-gpt-6-1-terra-on-bedrock-step-functions-as-agent-tools-and-more-november-2-2026/
+https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/
 https://aws.amazon.com/blogs/aws/category/analytics/amazon-elasticsearch-service/
+https://aws.amazon.com/blogs/aws/category/analytics/amazon-managed-streaming-for-apache-kafka/
 https://aws.amazon.com/blogs/aws/category/analytics/amazon-sagemaker-unified-studio/
 https://aws.amazon.com/blogs/aws/category/aws-cloud-financial-management/
 https://aws.amazon.com/blogs/aws/category/compute/amazon-elastic-container-registry/
@@ -31,6 +33,8 @@ https://aws.amazon.com/blogs/aws/category/developer-tools/aws-fault-injection-se
 https://aws.amazon.com/blogs/aws/category/messaging/amazon-simple-notification-service-sns/
 https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-identity-and-access-management-iam/
 https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-key-management-service/
+https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-security-token-service/
+https://aws.amazon.com/blogs/aws/category/storage/amazon-elastic-block-storage-ebs/
 https://aws.amazon.com/blogs/aws/category/storage/amazon-elastic-file-system-efs/
 https://aws.amazon.com/blogs/aws/category/storage/amazon-simple-storage-services-s3/
 https://aws.amazon.com/blogs/aws/four-continents-four-new-aws-heroes-closing-out-2026/
@@ -227,6 +231,7 @@ https://huggingface.co/blog/FINAL-Bench/a-model-you-downloaded-backdoored-one-tr
 https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve
 https://huggingface.co/blog/FINAL-Bench/seeing-the-riemann-hypothesis-hold-a-live-weil-pos
 https://huggingface.co/blog/FINAL-Bench/we-handed-20-open-models-a-shell-20-of-them-failed
+https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover
 https://huggingface.co/blog/Metric-AI/ayb-05-intro
 https://huggingface.co/blog/Metric-AI/ohan-asr-v01
 https://huggingface.co/blog/Metric-AI/ohan-tts
@@ -235,6 +240,7 @@ https://huggingface.co/blog/OpenUncensored/inkling-2-mini-uncensored
 https://huggingface.co/blog/OzzyGT/using-new-models-with-modular-diffusers
 https://huggingface.co/blog/QuentinJG/ive-release
 https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin
+https://huggingface.co/blog/XijieGong/loop-behind-rethinking-where-extra-loops-pay-off-i
 https://huggingface.co/blog/Zyphra/zonos3-mini
 https://huggingface.co/blog/agentic-evals
 https://huggingface.co/blog/allenai/robotrack
@@ -258,6 +264,7 @@ https://huggingface.co/blog/lucidml/gta-in-a-neural-network-an-open-world-model-
 https://huggingface.co/blog/moe-expert-streaming
 https://huggingface.co/blog/not-lain/kv-caching
 https://huggingface.co/blog/nutrientdocs/recapture
+https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance
 https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place
 https://huggingface.co/blog/openrouter
 https://huggingface.co/blog/qvac/botpsy
@@ -396,6 +403,7 @@ https://news.microsoft.com/source/features/ai/retrochimera-new-research-advances
 https://news.microsoft.com/source/features/ai/when-disaster-strikes-ai-helps-responders-reach-people-more-quickly/
 https://news.microsoft.com/source/tag/community-partnerships/
 https://openai.com/index/advancing-chip-design-with-our-models/
+https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/
 https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/
 https://openai.com/index/inside-the-codex-sandbox/
 https://openai.com/index/introducing-gpt-6-2-astra-sol/
@@ -405,6 +413,7 @@ https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/
 https://openai.com/index/managing-frontier-ai-risk/
 https://openai.com/index/perplexity-and-intelligence/
 https://openai.com/index/research-acceleration-jagged-frontier/
+https://openai.com/index/searching-for-distant-planets-with-astra/
 https://openai.com/index/the-silent-consensus/
 https://openrouter.ai/blog/announcements/auto-and-auto-code-routers/
 https://openrouter.ai/blog/announcements/csam-screening/
@@ -482,6 +491,7 @@ https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary
 https://www.apple.com/us_epp_55499/store
 https://www.apple.com/us_epp_67909/store
 https://www.databricks.com/
+https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation
 https://www.databricks.com/blog/ai-architecture-patterns-regulated-industries
 https://www.databricks.com/blog/announcing-general-availability-native-lakebase-postgres-sink-spark-structured-streaming
 https://www.databricks.com/blog/bulk-migrate-your-dashboards-aibi-genie-code
@@ -495,6 +505,8 @@ https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise
 https://www.databricks.com/blog/introducing-genie-migrate-serverless
 https://www.databricks.com/blog/introducing-unity-gateway-insights
 https://www.databricks.com/blog/postgresql-19-available-lakebase
+https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents
+https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026
 https://www.databricks.com/blog/why-postgresql-19-shipped-late
 https://www.databricks.com/discover/data-brew
 https://www.databricks.com/forward-deployed-engineering
@@ -534,6 +546,7 @@ https://www.perplexity.ai/hub/blog/ai-memory
 https://www.perplexity.ai/hub/blog/context-api-extracts-full-context-from-any-web-page
 https://www.perplexity.ai/hub/blog/context-rot
 https://www.perplexity.ai/hub/blog/escaping-space-part-ii
+https://www.perplexity.ai/hub/blog/internal-search
 https://www.perplexity.ai/hub/blog/introducing-computer-multiagent
 https://www.perplexity.ai/hub/blog/introducing-orchestrator
 https://www.perplexity.ai/hub/blog/introducing-perplexity-frontier-research

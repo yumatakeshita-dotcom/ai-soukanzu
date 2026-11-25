@@ -1,0 +1,107 @@
+{
+ "items": [
+  {
+   "company": "OpenAI",
+   "title": "GPT-6.2 Sol rolls out to ChatGPT Chat tab",
+   "date": "2026-11-23",
+   "what_en": "OpenAI has officially rolled out GPT-6.2 Sol directly into ChatGPT's main Chat tab for Plus, Pro, Business, and Enterprise users. This version is optimized for everyday conversation, capable of handling complex requests, picking up finer details in photos, and offering proactive follow-ups.",
+   "how_to_try": "Available to ChatGPT Plus, Pro, Business, and Enterprise users in the chat tab.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvBYabzcXJrjx02UGnZ5_NyKzVKRaQ13_3Do34-go0oBjJ6EXWOI_5n9rK1fb085XV70TrL7o_U6wk-Ia7zPEJU9r8I2SL2A5MRN5kDyTCeqq5RxMH6usZqg=="
+  },
+  {
+   "company": "OpenAI",
+   "title": "Healthcare Model Configurations in API",
+   "date": "2026-11-24",
+   "what_en": "OpenAI API developers can now access healthcare configurations for models like Astra and Sol. These configurations tailor the models for healthcare use cases, allowing them to search a dedicated medical evidence index and return cited findings through the Responses API.",
+   "how_to_try": "Available to API developers.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsq2PLfGn0ZcZgMzLnRLIras6n3fm-4r08YvTFSHf7CYYrfO7H0lLTn7BJBL8fW1sIxb5QDx9WgiSsfJc8s0R44ZShQ12baW1gwcH_Fi_jjEaM70B9EIq6x-HqFLU0TQ=="
+  },
+  {
+   "company": "OpenAI and Cisco",
+   "title": "Shirudo Open-Source Linux Security Runtime",
+   "date": "2026-11-24",
+   "what_en": "OpenAI and Cisco are launching Shirudo, an open-source Linux security runtime. This tool helps security teams test and deploy eBPF shields against vulnerabilities without needing to restart services, protecting running Linux systems while patches are rolled out.",
+   "how_to_try": "Developers, security researchers, and infrastructure operators are invited to help develop the project further.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsq2PLfGn0ZcZgMzLnRLIras6n3fm-4r08YvTFSHf7CYYrfO7H0lLTn7BJBL8fW1sIxb5QDx9WgiSsfJc8s0R44ZShQ12baW1gwcH_Fi_jjEaM70B9EIq6x-HqFLU0TQ=="
+  },
+  {
+   "company": "OpenAI",
+   "title": "Proposal for Perplexity as a Common Yardstick for AI Development Limits",
+   "date": "2026-11-23",
+   "what_en": "OpenAI's chief scientist Jakub Pachocki published a proposal suggesting the use of perplexity as a shared metric for AI progress. He advocated for common limits tied to this measure that AI labs would agree not to exceed until adequate monitoring and controls are in place.",
+   "how_to_try": "",
+   "x_post_url": "",
+   "official_url": "https://openai.com/index/perplexity-and-intelligence/",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyyneQc7zSVPUOgDvLMR94P-gp7bpywuvfR2uzEYKtt7DPhqtrk3HXRvrMbUD8bCQauL7aFB4VJwDEpIgNv_j3K_n9QH4Ng9J8ayWqmlFI9bHKv20y8AhU6bhg_zTSHNbEuobZ2A1H70wGfZWhRARQfbq3-mebQCiJnAPzZtyIlzRJcpB2hg=="
+  },
+  {
+   "company": "Google",
+   "title": "AI Mode sidebar and AI shortcuts in Google Search",
+   "date": "2026-11-24",
+   "what_en": "Google is officially rolling out a collapsible AI Mode sidebar globally on desktop within Google Search. Additionally, it is testing a redesigned homepage for signed-out desktop users, replacing the traditional 'Google Search' button with three AI-first shortcuts: 'Create images,' 'Ask about files,' and 'Brainstorm.'",
+   "how_to_try": "The AI Mode sidebar is available in Google Search on desktop. The AI shortcuts are being tested for signed-out desktop users.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZeFUIise6_gXrQYZAEmqG9cwCULUFsLA_1gnw5_shZkt5HYB1SydVJxxPZgxgM3qsTTd-XAw4bfwBNlO-IMNyqoExV2g_YvFP3AcRNgrKsWMnF4_3gogH8gFgwEWpR-6h5k8Dx57pXJjRIujPGWVhn7AVpHZcCeuICGeE-PATMkVZOQQseSc6"
+  },
+  {
+   "company": "NVIDIA",
+   "title": "Major AI Hardware Developments Announced",
+   "date": "2026-11-24",
+   "what_en": "NVIDIA announced significant AI hardware developments at a technology showcase event. These include updates to next-generation chip architecture designed to accelerate enterprise AI workloads and enhance inference performance. The announcement also featured AI-powered electric bike technology.",
+   "how_to_try": "Enterprise customers are expected to gain early access to the new hardware through existing partnership channels, followed by a broader commercial rollout.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAKSAGtVkH-L5s2ZSEyydzFnF8IVWNs0ajjY6y-v_MLMb04b6R-7HmBDR238eO2mlNiSMykN7NdRYQwptt_0T_AjbCJawqB9dsYruwwBGcGMkBc2v_WorWPROTc7GAi3sJ3fdILS94NXZM9r5Wo4awYoLtGNrkdkTa1OduxQ=="
+  }
+ ],
+ "grounding": [
+  [
+   "digg.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvBYabzcXJrjx02UGnZ5_NyKzVKRaQ13_3Do34-go0oBjJ6EXWOI_5n9rK1fb085XV70TrL7o_U6wk-Ia7zPEJU9r8I2SL2A5MRN5kDyTCeqq5RxMH6usZqg=="
+  ],
+  [
+   "explainx.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCTygwf2R3b3mRueABpVkj0i0YiCekZ2byy3m3eCiUG6GjMZC6e9ebLa58Hr-8oC0UdEhHYTmoLlsIGfSriho1Z2RpoGV48gsinVtMNFuz3OEK_xiY0wYZ2BgVDXbyazKkVMrWkQxNqvJyrylO8wZlm0G9YEvl83pytiTg7LOr7Z8MAC-h8w=="
+  ],
+  [
+   "mashable.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF45P-ykv1CV-XM7rwrkwiH10SNjeXBfsHjGxrtPZdhUjpIglnc9mwuRlvNaUHYa6HnGR7QlUz_wHwkKs6Olzw6CbU2iqlCjjwNU6kccfltSjjl_H7BoyiW95xzfOpRVxOGENxX-38jIOMP12yaCqtFS9Ck7OCjiPjrC0VSQwdvvXlLabaHnYqIhwZkKEsEoXYGKiLFfE3yH7GT_4aVwxC6Z-g9-ospthe2lZ-lnviWs-cUqw=="
+  ],
+  [
+   "releasebot.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsq2PLfGn0ZcZgMzLnRLIras6n3fm-4r08YvTFSHf7CYYrfO7H0lLTn7BJBL8fW1sIxb5QDx9WgiSsfJc8s0R44ZShQ12baW1gwcH_Fi_jjEaM70B9EIq6x-HqFLU0TQ=="
+  ],
+  [
+   "meteoraweb.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFyyneQc7zSVPUOgDvLMR94P-gp7bpywuvfR2uzEYKtt7DPhqtrk3HXRvrMbUD8bCQauL7aFB4VJwDEpIgNv_j3K_n9QH4Ng9J8ayWqmlFI9bHKv20y8AhU6bhg_zTSHNbEuobZ2A1H70wGfZWhRARQfbq3-mebQCiJnAPzZtyIlzRJcpB2hg=="
+  ],
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBXfVUixkWkNEwQeGR2kJbfjWT5IB9Wcb1p_B1icAyP54SZgwqZuCC7D0_gIvY04Zs2i3J8QrhbbhbntdSrZe98btBubK30tf3--lLVRoxX1rLqXMBISlybsWmeVzRtZ-8C6moQsI="
+  ],
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHouC7iDOPkB1c6TndUdEYEhISDN7ogMgM_Zx42YdBZZKwY3ZPIDyPuqj2hq6kipyEEC09jTabeg-cwXrqK_TQ8Z74A_-TGbCjjiAjQzQ6sEz4Cp9c5MCzN4O0iPoKDAK5FDOn301k="
+  ],
+  [
+   "youtube.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFONngzH_9kh7KCZjPYrGYENi_F2_GR_cDF3_7YeeQM4ZDatfjlLqE_g5AyR2YljoYKQzlxKNZa5o36TpLSGDg5UiDNbdi7SnxWi3IpujCWyuPb--7q5aYSDkBBBbcV-XHFLP_fLiA="
+  ],
+  [
+   "reddit.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZeFUIise6_gXrQYZAEmqG9cwCULUFsLA_1gnw5_shZkt5HYB1SydVJxxPZgxgM3qsTTd-XAw4bfwBNlO-IMNyqoExV2g_YvFP3AcRNgrKsWMnF4_3gogH8gFgwEWpR-6h5k8Dx57pWLi9CPejoKT35QoRo1X_EeNU0Upqju0lDeJLlujPGWVhn7AVpHZcCeuICGeE-PATMkVZOQQseSc6"
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHAKSAGtVkH-L5s2ZSEyydzFnF8IVWNs0ajjY6y-v_MLMb04b6R-7HmBDR238eO2mlNiSMykN7NdRYQwptt_0T_AjbCJawqB9dsYruwwBGcGMkBc2v_WorWPROTc7GAi3sJ3fdILS94NXZM9r5Wo4awYoLtGNrkdkTa1OduxQ=="
+  ]
+ ],
+ "model": "gemini-2.5-flash"
+}
