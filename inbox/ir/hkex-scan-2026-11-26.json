@@ -1,0 +1,71 @@
+{
+ "items": [
+  {
+   "d": "2026-11-25",
+   "time": "16:46",
+   "market": "HKEX(香港)",
+   "code": "06608",
+   "co": "BAIRONG AI-W",
+   "title": "INSIDE INFORMATION FAIR VALUE GAIN ON INVESTMENTS",
+   "hk_cat": "Announcements and Notices - [Inside Information]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500378.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 13
+   },
+   "snippet": "t available valuations of the relevant investments as at October 31, 2026, the Group expects to record a net fair value gain of approximately RMB300 million in its consolidated statement of profit or loss and other comprehensive income for the four months ended October 31, 2026. The Fair Value Gain is primarily attributable to the increase in the valuations ",
+   "import": "手動(表題から相手が決められない)"
+  }
+ ],
+ "skipped": [
+  {
+   "co": "BAIC MOTOR",
+   "title": "CONNECTED TRANSACTION - CAPITAL INJECTION INTO ANPENG SERVICES",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501353.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "CHI MER LAND",
+   "title": "SUPPLEMENTAL ANNOUNCEMENT IN RELATION TO ACQUISITION OF CAR PARKING SPACES",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501207.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "SHENZHEN INVEST",
+   "title": "CONNECTED TRANSACTION INVESTMENT IN PARTNERSHIP FUND",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501031.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "CONCH ENVIRO",
+   "title": "MAJOR AND CONNECTED TRANSACTION IN RELATION TO THE ACQUISITIONS OF THE TARGET COMPANIES AND NOTICE OF EXTRAORDINARY GENERAL MEETING",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112501013.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "KPA-BM HLDGS",
+   "title": "JOINT ANNOUNCEMENT - DELAY IN DESPATCH OF THE COMPOSITE DOCUMENT RELATING TO THE MANDATORY UNCONDITIONAL CASH OFFER BY KINGSTON SECURITIES FOR AND ON BEHALF OF THE OFFEROR TO ACQUIRE ALL THE ISSUED SHARES OF KPA-BM HOLDINGS LIMITED (OTHER THAN THOSE ALREADY OWNED OR AGREED TO BE ACQUIRED BY THE OFFEROR, ITS ULTIMATE BENEFICIAL OWNER AND PARTIES ACTING IN CONCERT WITH ANY OF THEM)",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500929.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "XINGLU WATER",
+   "title": "SUPPLEMENTAL ANNOUNCEMENT DISCLOSEABLE TRANSACTION ESTABLISHMENT OF JOINT VENTURE",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500926.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "CHINA MERCHANTS",
+   "title": "INVESTMENT IN YUANSHI TECHNOLOGY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500508.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-26",
+ "kind": "ir-scan-hkex",
+ "list_rows": 804,
+ "shortlist": 8,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}

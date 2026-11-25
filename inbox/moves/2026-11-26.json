@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-26",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Pengchuan Zhang",
+   "name_ja": "",
+   "from": "Meta",
+   "to": "OpenAI",
+   "role": "研究者(世界シミュレーション・ロボティクス)",
+   "date": "2026-02-26",
+   "backfill": true,
+   "note": "MetaのFAIRで約3.75年。OpenAIへ移ると本人が表明と報道。本文未確認(サイトに接続できず検索結果の要約のみ)",
+   "src": [
+    [
+     "量子位 QbitAI(2026-02)",
+     "https://www.qbitai.com/2026/02/382657.html"
+    ],
+    [
+     "36Kr(2026-02)",
+     "https://eu.36kr.com/en/p/3698659222023813"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "2026-11-26 調査。過去48時間の新規の移籍は見つからず(Cat Wu・Wehner等は既出)。さかのぼり: 2026-02(1件、本文未確認)。Sissie Hsiao(Google→OpenAI, 2026-06)はAmerican Bazaar 1媒体のみで確認できず見送り。IR: 確かめ1件(SHIFT合併・役員人事なし)、HKEX1件は関係なし、SGXは取得を断られ読めず。YouTube 30チャンネル新着0本、ポッドキャスト42番組新着0本、字幕やり直し0本。Xの対象アカウント: 記事から辿れる投稿なし(0件)。"
+}
