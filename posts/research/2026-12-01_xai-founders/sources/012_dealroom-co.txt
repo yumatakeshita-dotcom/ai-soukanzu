@@ -1,0 +1,102 @@
+https://dealroom.co/news/144372-igor-babuschkins-river-ai-raises-1-1b-to-build-an-open-ai-stack/
+
+Igor Babuschkin's River AI raises $1.1B to build an open AI stack | Dealroom News 
+ News › Igor Babuschkin's River AI raises $1.1B to build an open AI … 
+ Fundraise Aug 11, 2026, 13:56 UTC 
+ Igor Babuschkin's River AI raises $1.1B to build an open AI stack
+ What's the deal? River AI , the full-stack AI company founded by xAI co-founder Igor Babuschkin Dealroom has a profile for this one. Try Dealroom → , has raised $1.1 billion in early-stage funding. General Catalyst and AMP PBC Dealroom has a profile for this one. Try Dealroom → led the round, with strategic investment from NVIDIA and AMD Ventures Dealroom has a profile for this one. Try Dealroom → , plus Y Combinator and Temasek .
+ Why it stands out: The round ranks in the top 1% of all early-stage VC deals ever recorded in its industry and region, based on a sample of 3,409 rounds — an unusually large sum for a company at this stage.
+ What's the endgame? River is building a full stack: hardware that keeps personal AI close to users, training infrastructure that makes fine-tuning accessible, and products built around personalisation. Its API delivers LoRA fine-tuning and reinforcement learning for open-weight models, handling infrastructure so developers can focus on their models.
+ The company says any enterprise can complete a reinforcement learning training run in 15 to 20 minutes without an infrastructure team, at two to four times the cost savings versus closed-source alternatives. Billing is metered on tokens used, eliminating the cost of idle GPU capacity.
+ The New York Times reported that Babuschkin wants River to build servers that let individuals and businesses run open-source AI on their own hardware, keeping private data away from River AI or any other company. He also envisions a digital assistant that works across devices and can be retrained or modified by users. Based in Palo Alto, River AI has about 20 employees and is still months away from releasing its open-source technologies.
+ What they said: "AI should be open, freely available, and affordable. It should feel like it is working for the person using it, not the lab that trained it," said Babuschkin, co-founder and chief executive officer. "We started River to allow people and companies to own their intelligence."
+ Who's behind it: Babuschkin previously worked on generative modelling and reinforcement learning at Google DeepMind , led large-scale training at OpenAI Dealroom has a profile for this one. Try Dealroom → , then co-founded xAI. River's founding team brings experience from xAI and Tesla .
+ The signal: River's backers frame open models as a national priority. "American leadership in AI urgently requires leadership in open weight models, while maintaining a lead in closed frontier models," said Hemant Taneja, chief executive of General Catalyst. The bet is that ownership of intelligence shifts from the labs that train models to the people and companies that use them.
+ Image credit: River AI
+ Read more: Associated Press · The New York Times 
+ Knowledge graph 
+ Companies and investors this story names, and Dealroom research on the same subject.
+ In this story
+ River AI $1.1B raised · Signal 92 xAI $37B raised · Signal 97 General Catalyst Power Law #13 AMP Signal 93 Nvidia $20M raised · Signal 67 Y Combinator Power Law #1 Temasek Power Law #55 Google DeepMind $5.0M raised · Signal 85 Tesla Company 
+ AI → 
+ Funding, companies and investors in this sector. 
+ Go deeper
+ The Open & Sovereign AI Ecosystem
+ Open AI now means more than open weights. Chinese labs (DeepSeek, Qwen, Kimi/Moonshot, MiniMax, Z.ai/Zhipu) alongside Meta, Mistral and others are pushing strong models into the open ecosystem, while 
+ Personal AI agents are back: nine big tech launches and 21 startups raising money in 2026
+ Personal AI agents in three waves, opening with 29 dated milestones from ChatGPT (November 2022) to OpenAI Dots (September 2026). Big tech bought the first wave: Microsoft licensed Inflection, Amazon 
+ AI-Native EDA Startups: who owns how much of the chip design stack
+ Indian Early Stage VC's #MarketMapMondays 95 (Oct 2026), billed as the first map of the AI-native EDA space: 38 startups (25+ global, 15 India-founded) applying AI to chip design. Digital chip design 
+ Deal multiples → 
+ EV/revenue on comparable rounds, by sector, region and year. 
+ Intelligence for tech ecosystems 
+ Want direct live access?
+ The source of record on startups, founders and funding, plus the signals on who is rising next. For your team and your AI agents.
+ Explore Platform 
+ Premium Access 
+ Source deals, spot trends, measure an ecosystem. 
+ API 
+ The same graph, inside your own systems. 
+ MCP server 
+ Dealroom in Claude, Cursor and VS Code. 
+ Live 
+ defence tech · Europe 
+ HQ Europe Series A+ 
+ H 
+ Helsing 
+ Munich 
+ 95 
+ Q 
+ Quantum Systems 
+ Munich 
+ 91 
+ T 
+ Tekever 
+ Lisbon 
+ 88 
+ 2,431 companies Export CSV ↓ 
+ just founded · AI agents 
+ Founded Has team 
+ S 
+ Stealth 
+ ex-DeepMind 
+ Day 6 
+ S 
+ Stealth 
+ ex-Stripe 
+ Day 11 
+ S 
+ Stealth 
+ ex-Revolut 
+ Day 19 
+ 184 this week Set alert ⚡ 
+ climate tech · Series B+ 
+ Stage B+ Europe 
+ 1 
+ 1KOMMA5° 
+ Hamburg 
+ 93 
+ E 
+ Enpal 
+ Berlin 
+ 90 
+ A 
+ Aira 
+ Stockholm 
+ 87 
+ 1,908 companies Export CSV ↓ 
+ More top stories
+ 3h ago Trump, Vance intervene to restore Nvidia's Huang over open-weight AI
+ 9m ago Kalshi pulls out of Utah as court battles mount against prediction markets
+ 6h ago Chart of the day: Price divided by revenue on the largest cybersecurity acquisitions
+ We use cookies for analytics and marketing, only with your consent. You can choose per category. See our cookie policy .
+ Strictly necessary 
+Security and remembering your choice. Always on. 
+ Analytics 
+Google Analytics, to see how the site is used. 
+ Marketing 
+HubSpot, to recognise returning visitors and link visits to our contact records. 
+ Save choices 
+ Reject all 
+ Choose 
+ Accept all

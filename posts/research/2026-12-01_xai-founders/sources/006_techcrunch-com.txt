@@ -1,0 +1,95 @@
+https://techcrunch.com/2026/02/10/okay-now-exactly-half-of-xais-founding-team-has-left-the-company/
+
+Okay, now exactly half of xAI's founding team has left the company | TechCrunch 
+ TechCrunch Desktop Logo 
+ TechCrunch Mobile Logo 
+ Search Submit 
+ Site Search Toggle 
+ Mega Menu Toggle 
+ Topics
+ Latest 
+ AI 
+ Amazon 
+ Apps 
+ Biotech & Health 
+ Climate 
+ Cloud Computing 
+ Commerce 
+ Crypto 
+ Enterprise 
+ EVs 
+ Fintech 
+ Fundraising 
+ Gadgets 
+ Gaming 
+ Google 
+ Government & Policy 
+ Hardware 
+ Instagram 
+ Layoffs 
+ Media & Entertainment 
+ Meta 
+ Microsoft 
+ Privacy 
+ Robotics 
+ Security 
+ Social 
+ Space 
+ Startups 
+ TikTok 
+ Transportation 
+ Venture 
+ More from TechCrunch
+ Staff 
+ Events 
+ Startup Battlefield 
+ StrictlyVC 
+ Newsletters 
+ Podcasts 
+ Videos 
+ Partner Content 
+ TechCrunch Brand Studio 
+ Contact Us 
+ Image Credits: Jakub Porzycki / NurPhoto / Getty Images 
+ AI 
+ Okay, now exactly half of xAI’s founding team has left the company
+ Russell Brandom 
+ 5:50 PM PST · February 10, 2026 
+ Monday night, xAI co-founder Yuhuai (Tony) Wu announced he was leaving the company. “It’s time for my next chapter,” Wu wrote in a late-night post on X. “It is an era with full possibilities: a small team armed with AIs can move mountains and redefine what’s possible.”
+ Less than a day later, on Tuesday afternoon, xAI co-founder Jimmy Ba, who reported directly to Musk, said that he, too, is bouncing, posting a gracious note on X on his way out. “Enormous thanks to @elonmusk for bringing us together on this incredible journey. So proud of what the xAI team has done and will continue to stay close as a friend of the team,” it read in part .
+ On their own, both were pretty standard tech departure announcements — but they’re part of a troubling pattern for the lab. Six members of the company’s 12-person founding team have now left the company, with five of the departures coming in just the last year. Infrastructure lead Kyle Kosic left for OpenAI in mid-2024, followed by Google veteran Christian Szegedy in February 2025. This past August, Igor Babuschkin left to found a venture firm , and Microsoft alum Greg Yang departed just last month, citing health issues .
+ By all accounts, the splits have all been amicable, and there are lots of reasons why, nearly three years in, some founders might decide to move on. Elon Musk is a notoriously demanding boss, and with the SpaceX’s acquisition of xAI complete and an IPO pending in the coming months, everyone involved has a pretty big windfall coming. It’s a great time to be fundraising for an AI startup, so it’s only natural for high-level researchers to want to strike out on their own.
+ There are also less amicable reasons that might factor in. The company’s flagship product, the Grok chatbot, has struggled with bizarre behavior and apparent internal tampering — the kind of thing that might easily create friction on the technical team. Then there were the recent changes to xAI’s image-generation tools that flooded the platform with deepfake pornography , sparking slow-moving but real legal consequences .
+ Whatever the cause, the cumulative impact is alarming. There is a lot of work left to do at xAI, and an IPO will bring more scrutiny than the lab has ever faced before. With Musk already spinning up plans for orbital data centers , the pressure to make good on those plans will be intense. The pace of model development isn’t slowing down, and if Grok can’t keep pace with the latest models from OpenAI and Anthropic, the IPO could easily suffer.
+ In short, the stakes are high, and xAI needs to hold on to all the AI talent it can.
+ Topics
+ AI , Elon Musk , talent , xAI 
+ When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence. 
+ Russell Brandom 
+ AI Editor 
+ Russell Brandom has been covering the tech industry since 2012, with a focus on platform policy and emerging technologies. He previously worked at The Verge and Rest of World, and has written for Wired, The Awl and MIT’s Technology Review.
+ He can be reached at [email protected] or on Signal at 412-401-5489. 
+ View Bio 
+ 2027 
+ San Francisco 
+ Get an Early Peek at the Next TechCrunch Disrupt 
+ Disrupt, Startup Battlefield, and more will return next year, and you can be at the front of the line.
+ Sign up for our waitlist 
+ Register Now 
+ Most Popular
+ Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes 
+ Sarah Perez 
+ A tale of two Nvidias 
+ Anthony Ha 
+ Startup sues Apple in India over tap-to-share contacts feature 
+ Jagmeet Singh 
+ AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too 
+ Tim Fernholz 
+ Microsoft CEO Satya Nadella explains why he asked 60K employees to quit 
+ Julie Bort 
+ Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated 
+ Amanda Silberling 
+ Amazon and Google will together own nearly 30% of Anthropic after its IPO 
+ Julie Bort 
+ Loading the next article 
+ Error loading the next article

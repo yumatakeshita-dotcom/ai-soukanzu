@@ -15,6 +15,8 @@
 
 - 11/24(PR #125〜127の上に積んだ分): TDnetの提携は、表題が長くても本文の「提携先の概要」から相手を読めるようにした(試験 scripts/test_tdnet_body.py、34件で誤り0)。HKEXは scripts/hkex_scan.py を新設し、全社ぶんの出資・買収・提携を本文で確かめたものだけ inbox/money/日付-hkex.json に自動で足す(ir_watch.py の最後に自動で動く。試験 scripts/test_hkex_scan.py)。詳しくは docs/ir_watch.md
 
+- 11/24: 投稿の深掘りリサーチを段階式にした(scripts/deep_post.py、docs/deep_research.md)。12/1 xAI創業メンバーの回を作り直し: posts/research/2026-12-01_xai-founders/(事実カード69枚・出典35本)、X用 posts/drafts/2026-12-01_deep.md。v3(2026-12-01.md)は消していない。毎晩20:30の下書き係の手順を3日分けに書き換えた
+
 ## 次にやること（優先順）
 1. 【マージ済み 2026-11-24】日付ずれ修正PR #122(Museレビュー済み→ユーザーの指示でマージ、merge commit c50082a)。残る確認: 翌朝、見張り役の「動画・音声係」が緑になるか。注意点: scripts/__pycache__ の .pyc が混ざっている(実害なし、.gitignore検討)
 2. 未マージの古い下書きPR(#57 Stripe課金、#42 お金の流れv5、#10 有料サービス案)の扱いを決める
@@ -39,7 +41,7 @@
 - inbox/watchdog/ の記録で、毎朝の係が動いたか分かる
 
 ## 変更したファイル（直近）
-- scripts/tdnet_scan.py, docs/ir_watch.md, docs/agents.json(+作り直した agents.md・site/agents/index.html), HANDOFF.md
+- scripts/deep_post.py, docs/deep_research.md, posts/research/, posts/drafts/2026-12-01_deep.md, CLAUDE.md, HANDOFF.md
 
 ## 最終更新
 - 日時：2026-11-24

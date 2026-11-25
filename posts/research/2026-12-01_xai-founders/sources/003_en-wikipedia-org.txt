@@ -1,0 +1,425 @@
+https://en.wikipedia.org/wiki/Project_Prometheus
+
+Project Prometheus - Wikipedia 
+ Jump to content 
+ Search 
+ Search 
+ Donate 
+ Create account 
+ Log in 
+ Personal tools 
+ Donate 
+ Create account 
+ Log in 
+ Project Prometheus 
+ 14 languages 
+ العربية 
+ Deutsch 
+ Español 
+ فارسی 
+ Suomi 
+ Français 
+ עברית 
+ Hrvatski 
+ 日本語 
+ 한국어 
+ Nederlands 
+ Polski 
+ Русский 
+ 中文 
+ Edit links 
+ From Wikipedia, the free encyclopedia 
+ NASA nuclear electric propulsion project 2003–2006 
+ For the artificial intelligence company, see Project Prometheus (company) . 
+ This article needs more citations . Please help improve this article by adding citations to reliable sources . Unsourced material may be challenged and removed .
+ Find sources: "Project Prometheus" – news · newspapers · books · scholar · JSTOR ( February 2010 ) ( Learn how and when to remove this message ) 
+ Nuclear reactors could be used to power ion engines such as this one used on Deep Space 1 . 
+ Project Prometheus (also known as Project Promethian ) was established in 2003 by NASA to develop nuclear-powered systems for long-duration space missions. [ 1 ] This was NASA's first serious foray into nuclear spacecraft propulsion since the cancellation of the SNTP project in 1995. The project was planned to design, develop, and fly multiple deep space missions to the outer planets.
+ The project was cancelled in 2005, due to other demands on NASA's budget. [ 2 ] [ 1 ] Its budget shrank from $252.6 million in 2005 [ 3 ] to only $100 million in 2006, $90 million of which was for closeout costs on cancelled contracts. As of NASA's fiscal year 2026 budget, no funding has been allocated to further nuclear propulsion research. [ 4 ] 
+ Namesake
+ [ edit ] 
+ Originally named the "Nuclear Systems Initiative", Project Prometheus was named for the wisest of the Titans in Greek mythology who gave the gift of fire to humanity. NASA said the name Prometheus indicates its hopes of establishing a new tool for understanding nature and expanding capabilities for the exploration of the Solar System.
+ Motivations
+ [ edit ] 
+ Due to their distance from the Sun, spacecraft exploring the outer planets are severely limited in that they cannot use solar power as a source of electrical energy for onboard instrumentation or for ion propulsion systems. Previous missions to the outer planets such as the Voyager program and Galileo probe have relied on radioisotope thermoelectric generators (RTGs) as their primary power source. Unlike RTGs which rely on heat produced by the natural decay of radioactive isotopes, Project Prometheus called for the use of a small nuclear reactor as the primary power source.
+ The primary advantages of this would have been:
+ Increased power generation compared to RTGs, allowing scientists and engineers more flexibility in both mission design and operations.
+ Increased spacecraft longevity.
+ Increased range and propulsion power.
+ Extra power for high speed data transmission.
+ Missions
+ [ edit ] 
+ Prometheus I (Jupiter Icy Moons Orbiter) 
+ Missions planned to involve Prometheus Nuclear Systems and Technology included:
+ Jupiter Icy Moons Orbiter , originally planned to be the first mission of Project Prometheus, it was deemed too complex and expensive, and its funding was cut in the 2006 budget. NASA instead considered a demonstration mission to a target closer to Earth to test out the reactor and heat rejection systems, possibly with a spacecraft scaled down from its original size.
+ Technology
+ [ edit ] 
+ Project Prometheus was focused on Nuclear electric propulsion : [ 5 ] :   1   
+ Development of spacecraft powered by nuclear reactors to generate electricity. Brayton cycle turboalternators were selected for power generation. [ 5 ] :   118   This electricity would then be used to run ion engines . It did not study nor pursue nuclear thermal propulsion (e.g. NERVA ).
+ NASA's Prometheus reactor was to be built by the U.S. Department of Energy's Office of Naval Reactors in Washington, D.C., per an agreement signed in August 2004. [ 6 ] The reactor would have generated 200,000 watts of power for the propulsion and instruments of a spacecraft. [ 1 ] 
+ Collaboration
+ [ edit ] 
+ The project was managed by Jet Propulsion Laboratory (JPL). [ 6 ] Spacecraft design contracts were awarded to Boeing, Lockheed-Martin, and Northrop Grumman. [ 5 ] :   25   
+ Project Prometheus would have had substantial involvement of the U.S. Department of Energy (DOE). 
+ Naval Reactors , which oversees the nuclear reactor program of the U.S. Navy , was to participate in the design and construction of the reactors for the Jupiter Icy Moons Orbiter (JIMO).
+ In addition to Knolls Atomic Power Laboratory in Schenectady , New York, Bettis Laboratory in Pittsburgh , Pennsylvania, and other supporting Department of Energy national laboratories participated in the Prometheus cooperation. [ 6 ] 
+ In September 2004, JPL chose Northrop Grumman Space Technology to co-design the projected Prometheus spacecraft. The awarded contract was worth around $400 million. [ 6 ] 
+ See also
+ [ edit ] 
+ Knolls Atomic Power Laboratory 
+ Bettis Atomic Power Laboratory – American facility in Pittsburgh, Pennsylvania 
+ Demonstration Rocket for Agile Cislunar Operations (DRACO) – U.S. Space Nuclear Thermal Propulsion Pages displaying short descriptions of redirect targets 
+ Gerald Feinberg , author of The Prometheus Project (1969)
+ Magnetoplasmadynamic thruster – Form of electrically powered spacecraft propulsion 
+ NERVA – US Nuclear thermal rocket engine project (1956–1973) 
+ Nuclear fission 
+ Project Orion (nuclear propulsion) – US research program on nuclear pulse propulsion 
+ Project Rover – U.S. project to build a nuclear thermal rocket 
+ Notes
+ [ edit ] 
+ 1 2 3 Brown, David W. "NASA's 'Nuclear Option' May Be Crucial for Getting Humans to Mars" . Scientific American . Retrieved 2023-01-04 . 
+ ↑ 
+ The National Academy of Sciences (2009). Launching Science: Science Opportunities Provided by NASA's Constellation System . Washington, DC: The National Academies Press. p. 18. ISBN 978-0-309-11644-2 . 
+ ↑ Prometheus Project Final Report (Report). NASA/JPL. October 1, 2005. p. 191. 
+ ↑ Machi, Vivienne (June 3, 2025). "Proposed NASA Budget Zeros Out Nuclear Thermal Propulsion Tech" . Aviation Week . Retrieved September 23, 2025 . 
+ 1 2 3 "982-R120461, PROMETHEUS PROJECT FINAL REPORT" . Oct 2005. Abstract, and link to pdf, of 227 page final report. 
+ 1 2 3 4 David, Leonard (2005-04-06). "NASA's Prometheus: Fire, Smoke And Mirrors" . Space.com . Retrieved 2023-01-04 . 
+ External links
+ [ edit ] 
+ NASA space propulsion and mission analysis office 
+ BBC audio programme about Project Prometheus 
+ 982-R120461, PROMETHEUS PROJECT FINAL REPORT Abstract, and link to pdf, of 227 page final report. Retrieved 2010-02-14
+ Project Prometheus-related items in the Naval Reactors History Database Archived 2016-04-22 at the Wayback Machine 
+ v 
+ t 
+ e 
+ Nuclear propulsion 
+ Spacecraft 
+ Antimatter-catalyzed nuclear pulse propulsion 
+ Bussard ramjet 
+ Fission-fragment rocket 
+ Fission sail 
+ Fusion rocket 
+ Gas core reactor rocket 
+ Nuclear electric rocket 
+ Nuclear photonic rocket 
+ Nuclear pulse propulsion 
+ Nuclear salt-water rocket 
+ Nuclear thermal rocket 
+ Radioisotope rocket 
+ U.S. 
+ Project Orion 
+ NERVA 
+ Project Longshot 
+ Project Rover 
+ Project Prometheus 
+ Jupiter Icy Moons Orbiter 
+ Space Reactor‑1 Freedom 
+ U.K. 
+ Project Daedalus 
+ USSR/Russia 
+ RD-0410 
+ TOPAZ nuclear reactor 
+ TMK 
+ TEM 
+ Sea vessels 
+ Nuclear marine propulsion 
+ Nuclear navy 
+ Poseidon 
+ Aircraft 
+ Nuclear-powered aircraft 
+ U.S. 
+ Aircraft Nuclear Propulsion program 
+ Convair NB-36H 
+ Convair X-6 
+ Project Pluto 
+ WS-125 
+ USSR/Russia 
+ Tupolev Tu-95LAL / Tu-119 
+ Myasishchev M-60 
+ 9M730 Burevestnik 
+ Ground 
+ Chrysler TV-8 
+ Ford FX-Atmos 
+ Ford Nucleon 
+ Ford Seattle-ite XXI 
+ Simca Fulgur 
+ Category 
+ v 
+ t 
+ e 
+ NASA planetary exploration programs 
+ Active 
+ Large strategic science missions 
+ Lunar Discovery & Exploration 
+ Mars Exploration 
+ Planetary Missions 
+ Discovery 
+ New Frontiers 
+ Solar System Exploration 
+ Ocean Worlds Exploration 
+ Voyager 
+ Completed 
+ Lunar Orbiter 
+ Lunar Precursor 
+ Mariner 
+ MESUR 
+ New Millennium 
+ Pioneer 
+ Planetary Observer 
+ Ranger 
+ Surveyor 
+ Viking 
+ Cancelled 
+ Grand Tour 
+ Mariner Mark II 
+ Project Prometheus 
+ Voyager (Mars) 
+ List of NASA missions 
+ v 
+ t 
+ e 
+ NASA 
+ Policy and history History 
+ ( creation ) 
+ NACA (1915)
+ National Aeronautics and Space Act (1958)
+ Space Task Group (1958)
+ Paine (1986)
+ Rogers (1986)
+ Ride (1987)
+ Space Exploration Initiative (1989)
+ Augustine (1990)
+ U.S. National Space Policy (1996)
+ CFUSAI (2002)
+ CAIB (2003)
+ Vision for Space Exploration (2004)
+ Aldridge (2004)
+ Augustine (2009)
+ General 
+ Space Race 
+ Administrator of NASA 
+ Deputy Administrator of NASA 
+ Chief Scientist 
+ Astronaut Corps 
+ Ranks and positions 
+ Chief 
+ Budget 
+ NASA research 
+ spinoff technologies 
+ NASA+ 
+ NASA TV 
+ NASA Social 
+ Launch Services Program 
+ Mercury Control Center 
+ Manned Space Flight Network 
+ Kennedy Space Center 
+ Vehicle Assembly Building 
+ Launch Complex 39 
+ 39A 
+ 39B 
+ Launch Complex 48 
+ Launch Control Center 
+ Operations and Checkout Building 
+ Johnson Space Center 
+ Mission Control 
+ Lunar Sample Laboratory 
+ Science Mission Directorate 
+ Human spaceflight 
+ programs Past 
+ X-15 ( suborbital )
+ Mercury 
+ Gemini 
+ Apollo 
+ Skylab 
+ Apollo–Soyuz (with the Soviet space program )
+ Space Shuttle 
+ Shuttle– Mir (with Roscosmos )
+ Constellation 
+ Current 
+ International Space Station 
+ Commercial Orbital Transportation Services 
+ Commercial Crew 
+ Orion 
+ Artemis 
+ Robotic programs Past 
+ Hitchhiker 
+ Mariner 
+ Mariner Mark II 
+ MESUR 
+ Mars Surveyor '98 
+ New Millennium 
+ Lunar Orbiter 
+ Pioneer 
+ Planetary Observer 
+ Ranger 
+ Surveyor 
+ Viking 
+ Project Prometheus 
+ Mars Exploration 
+ Mars Exploration Rover 
+ Current 
+ Living With a Star 
+ Lunar Precursor Robotic Program 
+ Earth Observing System 
+ Great Observatories program 
+ Explorers 
+ Voyager 
+ Discovery 
+ New Frontiers 
+ Solar Terrestrial Probes 
+ Commercial Lunar Payload Services 
+ SIMPLEx 
+ Individual featured 
+ missions 
+ (human and robotic) Past 
+ Apollo 8 
+ Apollo 11 
+ timeline 
+ Artemis II 
+ COBE 
+ Mercury 3 
+ Mercury-Atlas 6 
+ Magellan 
+ Pioneer 10 
+ Pioneer 11 
+ Galileo 
+ timeline 
+ GALEX 
+ GRAIL 
+ WMAP 
+ Space Shuttle 
+ Spitzer Space Telescope 
+ Sojourner rover 
+ Spirit rover 
+ LADEE 
+ MESSENGER 
+ Aquarius 
+ Cassini 
+ Dawn 
+ Kepler space telescope 
+ Opportunity rover 
+ timeline 
+ observed 
+ RHESSI 
+ MAVEN 
+ InSight 
+ Ingenuity helicopter 
+ flights 
+ Swift Observatory 
+ Currently 
+ operating 
+ Mars Reconnaissance Orbiter 
+ 2001 Mars Odyssey 
+ New Horizons 
+ International Space Station 
+ Hubble Space Telescope 
+ Chandra X-ray Observatory 
+ THEMIS 
+ Curiosity rover 
+ timeline 
+ Lunar Reconnaissance Orbiter 
+ SDO 
+ Juno 
+ Mars Science Laboratory 
+ timeline 
+ Voyager 1 
+ Voyager 2 
+ MMS 
+ OSIRIS-APEX 
+ TESS 
+ Mars 2020 
+ Perseverance rover 
+ timeline 
+ James Webb Space Telescope 
+ timeline 
+ PACE 
+ Europa Clipper 
+ NISAR 
+ Nancy Grace Roman Space Telescope 
+ Future 
+ DAVINCI 
+ VERITAS 
+ Communications 
+ and navigation 
+ Near Earth Network 
+ Space Network 
+ Deep Space Network ( Goldstone 
+ Madrid 
+ Canberra 
+ Space Flight Operations Facility )
+ Deep Space Atomic Clock 
+ NASA lists 
+ Astronauts 
+ by name 
+ by year 
+ Gemini astronauts 
+ Apollo astronauts 
+ Space Shuttle crews 
+ NASA aircraft 
+ NASA missions 
+ uncrewed missions 
+ Apollo missions 
+ Space Shuttle missions 
+ United States rockets 
+ NASA cancellations 
+ NASA cameras on spacecraft 
+ NASA images 
+ and artwork 
+ Earthrise 
+ The Blue Marble 
+ Family Portrait 
+ Pale Blue Dot 
+ Pillars of Creation 
+ Mystic Mountain 
+ Solar System Family Portrait 
+ The Day the Earth Smiled 
+ Hello, World 
+ Earthset 
+ Fallen Astronaut 
+ Deep fields 
+ Lunar plaques 
+ Pioneer plaques 
+ Voyager Golden Record 
+ Apollo 11 goodwill messages 
+ NASA insignia 
+ Gemini and Apollo medallions 
+ Mission patches 
+ Astronomy Picture of the Day 
+ Hubble Space Telescope anniversary images 
+ Related 
+ " We choose to go to the Moon "
+ " One small step "
+ Apollo 8 Genesis reading 
+ Apollo 15 postal covers incident 
+ Apollo Lunar Module 
+ Space Mirror Memorial 
+ The Astronaut Monument 
+ Lunar sample displays 
+ Moon rocks 
+ stolen or missing 
+ U.S. Astronaut Hall of Fame 
+ Space program on U.S. stamps 
+ Apollo 17 Moon mice 
+ Moon tree 
+ Other primates in space 
+ NASA Exoplanet Archive 
+ NASA International Space Apps Challenge 
+ Astronauts Day 
+ National Astronaut Day 
+ Nikon NASA F4 
+ Category 
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Project_Prometheus&oldid=1345427422 " 
+ Categories : NASA programs 
+ Nuclear spacecraft propulsion 
+ Hidden categories: Articles with short description 
+ Short description is different from Wikidata 
+ Articles needing additional references from February 2010 
+ All articles needing additional references 
+ Pages displaying short descriptions of redirect targets via Module:Annotated link 
+ Webarchive template wayback links 
+ Search 
+ Search 
+ Project Prometheus 
+ 14 languages 
+ Add topic

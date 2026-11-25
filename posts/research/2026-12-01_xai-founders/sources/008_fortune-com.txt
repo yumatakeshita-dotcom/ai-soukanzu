@@ -1,0 +1,53 @@
+https://fortune.com/2024/06/28/xai-original-employee-departure-kyle-kosic-engineer/
+
+One of the original employees at Elon Musk's xAI has left and returned to OpenAI | Fortune Search Subscribe Home 
+ Latest 
+ Fortune 500 
+ Finance 
+ Tech 
+ Leadership 
+ Lifestyle 
+ Rankings 
+ Multimedia 
+ For Subscribers 
+ Trending now 
+ 1
+ Elon Musk spends about an hour a week on his $16 billion foundation. Most of its 2025 giving went to another Musk nonprofit 2
+ This 71-year-old cattleman’s farm brings in $30 million a year. He says the cattle cycle that built it is broken 3
+ Jeff Bezos donated $198.9 million in Amazon stock in two days, including shares he's held since 1994 1
+ Elon Musk spends about an hour a week on his $16 billion foundation. Most of its 2025 giving went to another Musk nonprofit 2
+ This 71-year-old cattleman’s farm brings in $30 million a year. He says the cattle cycle that built it is broken 3
+ Jeff Bezos donated $198.9 million in Amazon stock in two days, including shares he's held since 1994 Newsletters Data Sheet One of the original employees at Elon Musk’s xAI has left and returned to OpenAI
+ By Jessica Mathews Jessica Mathews Former Senior Writer By Jessica Mathews Jessica Mathews Former Senior Writer June 28, 2024, 2:50 PM ET Updated June 28, 2024, 3:45 PM ET Elon Musk announced the launch of xAI in July 2023. Marc Piasecki—Getty Images Add Fortune on Google for similar content. Add us on Google Add us on Google It’s been less than a year since Elon Musk formally launched his generative AI company—xAI—and one of its original employees has already parted ways with the startup.
+ Recommended Video 
+ Kyle Kosic, a founding engineer and one of xAI’s first 11 employees, left to return to his former employer and xAI rival OpenAI. Kosic left xAI in April, according to his LinkedIn profile , and his departure had not been previously reported. 
+ OpenAI confirmed Kosic had rejoined the company, but declined to comment further. xAI and Kosic did not return requests for comment.
+ Kosic’s exit came about a month before xAI announced its $6 billion funding round, which valued the new generative AI entrant at a heaping $24 billion. During those fundraising efforts, Kosic had been featured prominently as a founding member of xAI’s team in a slide deck distributed to prospective investors, which Fortune obtained. The deck said Kosic is a full-stack reliability engineer and data scientist and that he was focused on automation, scalability, and distributed computing at xAI.
+ Kosic’s departure is just the latest in the ongoing rivalry between OpenAI—which Musk cofounded in 2015, then left three years later—and Musk’s newest venture, xAI. Musk has positioned xAI as an open-source generative AI company that is going after “understanding the universe.”
+ The feud between xAI and OpenAI—the two most valuable AI startups—has been anything but private. Musk, who left OpenAI after a power struggle, has repeatedly raised concerns about the dangers of that company’s technology. Earlier this year, Musk sued OpenAI, alleging the company had breached its founding agreement (he withdrew that lawsuit earlier this month). Shortly after the lawsuit was filed, OpenAI fired back, publishing redacted emails to present what the company argued to be “facts about our relationship with Elon.”
+ It’s still early days for xAI and the chatbot it released at the end of last year, called “Grok.” Musk said he intended it to be “anti-woke,” in response to missteps by rival chatbots. While the company has raised billions of dollars in funding in such a short period of time, it’s a late entrant into the space, with others like OpenAI, Anthropic, and Cohere already in the market for years.
+ xAI currently has around 100 employees, according to estimates from PitchBook. And the company is hiring—with a series of open engineer and AI tutor roles posted on its website. Apart from Kosic, all of xAI’s original employees appear to still be with the company.
+ For his part, Musk hopes to leverage proprietary data from his web of companies—ranging from X and SpaceX to Tesla and brain chip startup Neuralink, in order to set xAI apart from its peers. The slide deck that was shared with investors highlighted the importance of xAI’s ties to the “Muskonomy”—laying out how xAI can tap visual, sensory, navigation, and all sorts of other data from his various companies.
+ Jessica Mathews 
+ Update, June 28, 2024: This article has been updated with confirmation from OpenAI. 
+ Want to send thoughts or suggestions to Data Sheet? Drop a line here . 
+ The rest of today’s Data Sheet was written by David Meyer. 
+ NEWSWORTHY
+ Nokia buys Infinera. Finland’s Nokia says it will shell out $2.3 billion for California’s Infinera—a rival in the optical networking equipment space, though they have strengths in different geographical markets. With the surge in AI data center construction boosting demand, there’s a lot to play for. As Reuters reports , the merger (if it is approved) would let Nokia take second place in optical networking, behind Huawei.
+ Google’s Italian tax bill. Italy’s Revenue Agency is claiming €1 billion ($1.07 billion) from Google in unpaid taxes and penalties, Reuters reports . The process now set in motion could be resolved either with a settlement or a lawsuit by the tax authority—and a settlement could encourage the agency to go after other Big Tech firms.
+ APRA and KOSA stall. The American Privacy Rights Act and the Kids Online Safety Act have both slammed into a hurdle, with the House Energy and Commerce Committee abruptly cancelling discussion and votes about the bills. The Verge reports that top Democrats are blaming the GOP for trying to derail the markup, with APRA co-sponsor Rep. Jan Schakowsky (D-Il.) saying she is “furious that Republican Leadership did the bidding of Big Tech and special interests.”
+ SIGNIFICANT FIGURES
+ $5 million
+ —The newly increased reward for information leading to the arrest or conviction of Ruja Ignatova , who is alleged to have been behind the notorious OneCoin Ponzi scheme. U.S. authorities had previously been offering $100,000. The “Cryptoqueen” has been a fugitive since her 2017 indictment.
+ IN CASE YOU MISSED IT
+ Telegram has become the go-to app for heroin, guns, and everything illegal. Can crypto save it? , by Niamh Rowe
+ Original sins and dirty secrets: GenAI has an ethics problem. These are the three things it most urgently needs to fix , by Sage Lazzaro
+ Cybersecurity is now a ‘team sport’ amid a wave of generative AI–based attacks, say tech experts , by Lionel Lim
+ Why the nation of Alan Turing is poised to revolutionize AI despite the recent dip in investment, according to a venture capitalist , by James McClure (Commentary)
+ Tesla ordered to stop releasing toxic emissions from San Francisco Bay Area plant after racking up 112 violations over the last 5 years , by the Associated Press
+ Slack’s AI is saving users 97 minutes a week. But its CEO worries they don’t know what to do with their extra time , by Ryan Hogg
+ BEFORE YOU GO
+ FCC phone unlocking plan. The Federal Communications Commission has proposed forcing U.S. phone carriers to let customers unlock their new devices—as in, decouple the phone from the carrier, so it can be used on another network—60 days after purchase. However, as TechCrunch reports , it isn’t yet clear how this will work in practice, given the current nature of cellular service contracts. Details of the proposal will follow next month.
+ This is the web version of Fortune Tech, a daily newsletter breaking down the biggest players and stories shaping the future. Sign up to get it delivered free to your inbox. About the Author By Jessica Mathews Former Senior Writer Jessica Mathews is a former senior writer for Fortune , where she covered transportation, defense tech, and Elon Musk’s companies.
+ See full bio Add Fortune on Google for similar content. Add us on Google Latest in Newsletters Most Popular Recommended For You © 2026 Fortune Media IP Limited. All Rights Reserved. Use of this site constitutes acceptance of our Terms of Use and Privacy Policy | CA Notice at Collection and Privacy Notice | Do Not Sell/Share My Personal Information 
+FORTUNE is a trademark of Fortune Media IP Limited, registered in the U.S. and other countries. FORTUNE may receive compensation for some links to products and services on this website. Offers may be subject to change without notice.

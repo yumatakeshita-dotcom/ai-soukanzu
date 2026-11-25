@@ -1,0 +1,7 @@
+// 照合で「事実ではない一般の言葉」として通すもの(会社名・用語の書き方)
+xAI SpaceX SpaceXSI SpaceXAI Grok Tesla Google DeepMind Google Brain OpenAI Anthropic Microsoft Nvidia NVIDIA AMD Cisco
+River AI General Catalyst AMP PBC Y Combinator Temasek a16z Morph Labs Math Inc Project Prometheus
+トロント大学 カーネギーメロン大学 スタンフォード大学 マスク ベゾス イーロン ジェフ
+ノート リサーチ メンバー チーム モデル データ コード ニュース ベンチャーキャピタル スタートアップ
+// 数え(カードから数えたもの): 8人 = F054(ウー・バー)+F055(6人)。1本 = 言い回し
+8人 1本 イーロン・マスク メーカー カード ベース テーマ インフラ フィナンシャル・タイムズ FT

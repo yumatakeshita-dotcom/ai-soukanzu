@@ -1,0 +1,106 @@
+https://siliconangle.com/2025/08/13/xai-co-founder-igor-babuschkin-leaving-company-focus-ai-safety/
+
+Igor Babuschkin, co-founder of Elon Musk's xAI, is leaving the company to focus on AI safety - SiliconANGLE 
+ Skip to content 
+ SHARE 
+ UPDATED 22:01 EDT / AUGUST 13 2025 
+ AI 
+ Igor Babuschkin, co-founder of Elon Musk’s xAI, is leaving the company to focus on AI safety
+ by James Farrell 
+ Igor Babuschkin, a founding member of Elon Musk’s xAI, today announced that he is departing the company to focus on artificial intelligence that is “safe and beneficial to humanity.”
+ “Today was my last day at xAI, the company that I helped start with Elon Musk in 2023,” Babuschkin wrote on X. “I still remember the day I first met Elon, we talked for hours about AI and what the future might hold. We both felt that a new AI company with a different kind of mission was needed.”
+ “Thanks for helping build @xAI!,” Musk responded. “We wouldn’t be here without you.”
+ Babuschkin, a former research engineer for Google LLC’s DeepMind and once a member of OpenAI’s technical staff, will launch his own venture capital firm, Babuschkin Ventures. He says it will support AI safety and invest in startups that will build “AI and agentic systems that advance humanity and unlock the mysteries of our universe.”
+ His former workplace has certainly been in the wars of late. xAI’s Grok chatbot , which Musk has promoted as an anti-woke AI assistant, started to misfire in May when it seemingly became obsessed with what it called white genocide in South Africa. In July, it went a step further when its responses to users were steeped in Nazi ideology and other extremist rhetoric, after which X Corp.’s chief executive, Linda Yaccarino, left the firm – although without mentioning scandals.
+ Babuschkin only had good things to say about his former employer, writing that after growing up in the U.S. with his Russian immigrant parents, “building AI that advances humanity” became his “lifelong dream.”
+ “How could we ensure that this technology is used for good?” he wrote on X. “Elon had warned of the dangers of powerful AI for years. Elon and I realized that we had a shared vision of AI used to benefit humanity, thus we recruited more like-minded engineers and set off to build xAI.”
+ Babuschkin said his decision to leave xAI came after he had dinner with Max Tegmark, the founder of the Future of Life Institute, when the two talked about building AI systems that were safe while ensuring the children using them would flourish.
+ “The singularity is near, but humanity’s future is bright!” he said.
+ Photo: Unsplash 
+ A message from John Furrier, co-founder of SiliconANGLE: 
+ Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network , where technology leaders connect, share intelligence and create opportunities.
+ 15M+ viewers of theCUBE videos , powering conversations across AI, cloud, cybersecurity and more
+ 11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+ Are you an AWS customer? Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/ 
+ About SiliconANGLE Media 
+ SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE , theCUBE Network , theCUBE Research , CUBE365 , theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI. 
+ Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations. 
+ LATEST STORIES 
+ Exein launches Ray AI agent to show manufacturers which firmware weaknesses to fix first
+ Amazon acquires key assets of AI startup Decart for reported $7.5B
+ Anthropic's Claude Ship automates the final stage of the software development pipeline
+ AI agent provider Sierra closes $1.75B investment amid rapid revenue growth
+ HPE's stock slides despite record revenue growth and upbeat forecast
+ Matters.AI raises $12M as it expands its data security business in North America
+ LATEST STORIES 
+ Exein launches Ray AI agent to show manufacturers which firmware weaknesses to fix first
+ SECURITY - BY DUNCAN RILEY . 53 MINUTES AGO 
+ Amazon acquires key assets of AI startup Decart for reported $7.5B
+ AI - BY MARIA DEUTSCHER . 11 HOURS AGO 
+ Anthropic's Claude Ship automates the final stage of the software development pipeline
+ AI - BY MIKE WHEATLEY . 11 HOURS AGO 
+ AI agent provider Sierra closes $1.75B investment amid rapid revenue growth
+ AI - BY MARIA DEUTSCHER . 13 HOURS AGO 
+ HPE's stock slides despite record revenue growth and upbeat forecast
+ INFRA - BY MIKE WHEATLEY . 13 HOURS AGO 
+ Matters.AI raises $12M as it expands its data security business in North America
+ SECURITY - BY DUNCAN RILEY . 15 HOURS AGO 
+ CUBE EVENT COVERAGE help_outline 
+ LATEST FROM THECUBE 
+ Sovereignty starts with data, not chips, says Stuttgart AI factory chief Inference now drives two-thirds of AI workloads, changing where chips get deployed Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium Equifax cuts database firefighting after moving billing to Oracle on AWS AI deals shrink to as little as 30 days as the data layer sets the pace 
+ DIVE INTO DAVE VELLANTE’S BREAKING ANALYSIS SERIES help_outline Sovereign AI: Where control becomes an architectural requirement Sovereign or not? The 2026 Hyperscaler Buyer’s Guide IBM Quantum and the race to make scientific advantage useful to industry AI cyber resilience and the trust gap Can enterprise AI pay for the boom? 
+ Sign Up for Our Weekly Newsletter 
+ SUBSCRIBE 
+ UPCOMING CUBE EVENTS 
+ SEE MORE 
+ RECENT CUBE EVENTS
+ KubeCon + CloudNativeCon NA 2026
+ Oracle AI World 2026
+ monday.com Elevate 2026
+ Intuit Connect 2026
+ EVOLVE26
+ × 
+ Send us a news tip
+ Send us a News Tip
+ Company This field is for validation purposes and should be left unchanged. 
+ Name * 
+ First 
+ Last 
+ Type of Pitch * Consumer or Enterprise? Enterprise Startup News Emerging Technology 
+ Email * 
+ What's your story? * 
+ File Max. file size: 244 MB. 
+ CAPTCHA 
+ × 
+ Sign in
+ SIGN IN
+ ... Remember me LOGIN Forgot Password? 
+ × 
+ Bio
+ Ethics statement
+ × 
+ Extract the signal from the noise
+ Get SiliconANGLE updates and analysis.
+ × 
+ Contact us
+ Inquire about guest posts All other inquiries 
+ × Partner with us
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ × Contact us
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ CAPTCHA 
+ × Guest inquiry
+ NAME OF INDIVIDUAL * 
+ NAME OF COMPANY * 
+ EMAIL * 
+ COMMENTS * 
+ CAPTCHA 
+ We use cookies for analytics and measurement. You can accept or reject tracking cookies. See our Privacy Policy .
+ Accept 
+ Reject
