@@ -1,0 +1,60 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "保留の確かめ直し",
+ "items": [
+  {
+   "会社名": "TOKIUM",
+   "関係": "資本業務提携",
+   "相手": "芙蓉総合リース",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000538.000009888.html",
+   "確かさ": "公式",
+   "備考": "(元のGeminiの出典: https://dempa-digital.com/article/731863)",
+   "src": [
+    [
+     "PR TIMES (株式会社TOKIUM)",
+     "https://prtimes.jp/main/html/rd/p/000000538.000009888.html"
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "O-ID",
+   "関係": "出資",
+   "相手": "TAWANI Ventures, Hustle Fund, Techstars, エンジェル投資家",
+   "金額": "2億円",
+   "日付": "2026-11-24",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000001.000194720.html",
+   "確かさ": "公式",
+   "備考": "プレシードラウンドで総額120万ドル（約2億円）を調達(元のGeminiの出典: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ==)",
+   "src": [
+    [
+     "PR TIMES (O-ID合同会社)",
+     "https://prtimes.jp/main/html/rd/p/000000001.000194720.html"
+    ]
+   ],
+   "既存の名前": []
+  },
+  {
+   "会社名": "O-ID",
+   "関係": "基本合意書",
+   "相手": "住友電気工業",
+   "金額": "",
+   "日付": "2026-11-24",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000001.000194720.html",
+   "確かさ": "公式",
+   "備考": "ヒューマノイドロボット向けワイヤーハーネスの技術応用に関するLOI(元のGeminiの出典: https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ==)",
+   "src": [
+    [
+     "PR TIMES (O-ID合同会社)",
+     "https://prtimes.jp/main/html/rd/p/000000001.000194720.html"
+    ]
+   ],
+   "既存の名前": [
+    "住友電気工業"
+   ]
+  }
+ ]
+}

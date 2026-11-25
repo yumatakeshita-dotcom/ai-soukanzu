@@ -1,0 +1,273 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "TOKIUM",
+   "関係": "資本業務提携",
+   "相手": "芙蓉総合リース",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://dempa-digital.com/article/731863",
+   "確かさ": "報道",
+   "備考": "",
+   "src": [
+    [
+     "電波新聞デジタル",
+     "https://dempa-digital.com/article/731863"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE9RCp8n6wog63aBuRqN5WXuUJ3p-4hqYmxjlIdJI9cWLzJoVJfRq9CeWVjAFo6Qj33YOMDZTa-zaJK3YsZvj1WAMvqwMf6aHvWKI_Oel3LiP0qHKoy52f8yJW5QjzPI8mobA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "デジタルガレージ",
+   "関係": "包括業務提携・リセラー契約",
+   "相手": "Riskified Ltd.",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000095.000009752.html",
+   "確かさ": "公式",
+   "備考": "子会社DGビジネステクノロジーが国内唯一のリセラー契約を締結",
+   "src": [
+    [
+     "PR TIMES (株式会社デジタルガレージ)",
+     "https://prtimes.jp/main/html/rd/p/000000095.000009752.html"
+    ]
+   ],
+   "既存の名前": [
+    "デジタルガレージ"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFRrmNpXvvsOJ8f7Zi7q53dmX1BIts7OLC8rPibEfIrOtBAEQKy561wPzPHtUu2sVkDfWXnRkKuKKqWOgTD3ZfdYHBIU6ySxeQ3GYpP74V0Ub1xibxez_pBOMkZRo2CIyE2D22tCkuhzOk5ZZpjSNm-c90fCw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "デジタルガレージ、AI不正対策で世界市場を牽引する「Riskified」と国内初の包括業務提携を締結 | 株式会社DGビ",
+    "状態": "ok",
+    "載っていた名前": [
+     "デジタルガレージ",
+     "Riskified Ltd."
+    ]
+   }
+  },
+  {
+   "会社名": "O-ID",
+   "関係": "出資",
+   "相手": "TAWANI Ventures, Hustle Fund, Techstars, エンジェル投資家",
+   "金額": "2億円",
+   "日付": "2026-11-24",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ==",
+   "確かさ": "報道",
+   "備考": "プレシードラウンドで総額120万ドル（約2億円）を調達",
+   "src": [
+    [
+     "日経xTECH",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "O-ID",
+   "関係": "基本合意書",
+   "相手": "住友電気工業",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ==",
+   "確かさ": "報道",
+   "備考": "ヒューマノイドロボット向けワイヤーハーネスの技術応用に関するLOI",
+   "src": [
+    [
+     "日経xTECH",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUNADeZ5XAbche1A57eQUCCzgzLWLDca8kpmU2PhFClfPwWWgwiciirf2GnGtSkRr6hogjnkYA7v_fOrQjxfZaSN_ZDZtMgEje3snkM_Kn-3FtAnoWv1LXaFOXHzQ=="
+    ]
+   ],
+   "既存の名前": [
+    "住友電気工業"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "情報戦略テクノロジー",
+   "関係": "提携",
+   "相手": "株式会社ピープルドット, サイバーコマンド株式会社",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000101.000024769.html",
+   "確かさ": "公式",
+   "備考": "AI時代のサイバーセキュリティとデータガバナンス支援のための3社連携強化",
+   "src": [
+    [
+     "PR TIMES (株式会社情報戦略テクノロジー)",
+     "https://prtimes.jp/main/html/rd/p/000000101.000024769.html"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3M5-z8q6qFG3b_iOWXy62LacM0T0thITakPprWZr5iFgimp4WDsd0qOFM7Ohcf2eBeNOXXpwoMvXOeXCDNexZEfu9N7Hju6MTQWLJh-wySloDX_TKODDiL6NgdB85_bofM5fPtb7BVx2uQupAhNV9F6o9Yw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "情報戦略テクノロジー、ピープルドット社、および、サイバーコマンド社との3社連携を強化し、AI時代のサイバーセキュリティと",
+    "状態": "ok",
+    "載っていた名前": [
+     "情報戦略テクノロジー",
+     "株式会社ピープルドット",
+     "サイバーコマンド株式会社"
+    ]
+   }
+  },
+  {
+   "会社名": "株式会社アトム",
+   "関係": "融資枠契約",
+   "相手": "3メガバンク (みずほ銀行、三菱UFJ銀行、三井住友銀行など)",
+   "金額": "45億円",
+   "日付": "2026-11-24",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000008.000172692.html",
+   "確かさ": "公式",
+   "備考": "ヒューマノイドロボット量産に向けた融資枠",
+   "src": [
+    [
+     "PR TIMES (株式会社アトム)",
+     "https://prtimes.jp/main/html/rd/p/000000008.000172692.html"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7Nf6neu3RPdA0hVU-XXeoQjTl1wHPjWT4Up4SLHftrMx1-hfEgIHvrpNO5JkmRU4C42JimijpisUJZKKqMcS7t2XCf80y8eowdF2gncViEu-83n45TB5H3gbAUfKGBSH8K7PYqKuAtOQppc7yEK13KdUrLQ==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "アトム、3メガバンクと総額45億円の融資枠契約を締結 | 株式会社アトムのプレスリリース",
+    "状態": "ok",
+    "載っていた名前": [
+     "株式会社アトム",
+     "三菱UFJ銀行"
+    ]
+   }
+  },
+  {
+   "会社名": "日総工産",
+   "関係": "業務提携",
+   "相手": "VRデザイン研究所",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://prtimes.jp/main/html/rd/p/000000020.000120242.html",
+   "確かさ": "公式",
+   "備考": "Project AI✕RobotsによるフィジカルAI人材の育成推進",
+   "src": [
+    [
+     "PR TIMES (日総工産株式会社)",
+     "https://prtimes.jp/main/html/rd/p/000000020.000120242.html"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFf-gw5Jcx5LVYTW1GDmjwbPKLZ0EQYHaUC0TgwCS4GWGQ4mltM11suV0Mh2FDvhzWkDepW1C7qMfEG3FzhTesvUMlvNGOiFUhk-r1-t-WAcaw0ODfUGdsD8EYBe7MBqgnyMeQo-t0jMkwvf459PIZYAVlRiA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "日総工産、VRデザイン研究所と業務提携（Project AI✕Robots）フィジカルAI人材の育成を推進 | 日総工産",
+    "状態": "ok",
+    "載っていた名前": [
+     "日総工産",
+     "VRデザイン研究所"
+    ]
+   }
+  },
+  {
+   "会社名": "Alchemist Japan",
+   "関係": "出資",
+   "相手": "CacheAI Technologies",
+   "金額": "",
+   "日付": "2026-10-13",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlcnn-Cf1XPumjMrfn7Tt3o1XYlL_rH0Wtes8RjpOYJPBLiSrIS8EuieowdPk7t2v7q7ZzGAT_0SQh1jiF1iyG7CHNpenRXOyhf8yQs03Qgd6FsEEJDBid-pltQh2P0k015ZtOymhk1sLifjjDgNP7y4Yjcuh1CyVvrg==",
+   "確かさ": "公式",
+   "備考": "Alchemist Japan 第3期採択企業への出資（プログラム開始日）",
+   "src": [
+    [
+     "JETRO",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlcnn-Cf1XPumjMrfn7Tt3o1XYlL_rH0Wtes8RjpOYJPBLiSrIS8EuieowdPk7t2v7q7ZzGAT_0SQh1jiF1iyG7CHNpenRXOyhf8yQs03Qgd6FsEEJDBid-pltQh2P0k015ZtOymhk1sLifjjDgNP7y4Yjcuh1CyVvrg=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Alchemist Japan",
+   "関係": "出資",
+   "相手": "Rumi Light",
+   "金額": "",
+   "日付": "2026-10-13",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlcnn-Cf1XPumjMrfn7Tt3o1XYlL_rH0Wtes8RjpOYJPBLiSrIS8EuieowdPk7t2v7q7ZzGAT_0SQh1jiF1iyG7CHNpenRXOyhf8yQs03Qgd6FsEEJDBid-pltQh2P0k015ZtOymhk1sLifjjDgNP7y4Yjcuh1CyVvrg==",
+   "確かさ": "公式",
+   "備考": "Alchemist Japan 第3期採択企業への出資（プログラム開始日）",
+   "src": [
+    [
+     "JETRO",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlcnn-Cf1XPumjMrfn7Tt3o1XYlL_rH0Wtes8RjpOYJPBLiSrIS8EuieowdPk7t2v7q7ZzGAT_0SQh1jiF1iyG7CHNpenRXOyhf8yQs03Qgd6FsEEJDBid-pltQh2P0k015ZtOymhk1sLifjjDgNP7y4Yjcuh1CyVvrg=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "日本のAIスタートアップ 資金調達 2026年11月23日-26日",
+   "日本のAI企業 提携 2026年11月23日-26日",
+   "日本 大企業 AI 提携 2026年11月23日-26日",
+   "日本 AI 半導体 提携 2026年11月23日-26日",
+   "日本のAIスタートアップ 出資 2026年11月23日-26日"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2780,
+   "candidatesTokenCount": 2242,
+   "totalTokenCount": 12497,
+   "cachedContentTokenCount": 846,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2780
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 846
+    }
+   ],
+   "toolUsePromptTokenCount": 3526,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3526
+    }
+   ],
+   "thoughtsTokenCount": 3949,
+   "serviceTier": "standard"
+  }
+ }
+}

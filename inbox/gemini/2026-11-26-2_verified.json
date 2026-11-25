@@ -1,0 +1,485 @@
+{
+ "date": "2026-11-26",
+ "source": "inbox/gemini/2026-11-26-2.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "退任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-14",
+    "出典URL": "https://www.polaris7.io/signals/openai-cto-mira-murati-departs-ai-pioneer-unexpectedly-signal",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Mira Murati",
+    "役職": "CTO",
+    "移籍元": "OpenAI",
+    "src": [
+     [
+      "Polaris7 Intelligence",
+      "https://www.polaris7.io/signals/openai-cto-mira-murati-departs-ai-pioneer-unexpectedly-signal"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkJMIxq6ZEZn1L6imtS8VQTLb9w3WhyLLy56Z7l5Qys0WZnOslEfyUiNdSgfuUCn4hOahXqNIPmJ23cRBb6Yg5bc5dQDFqfXpl--_Dc97Zmm667FK0Kpa-sJodDx86ecGUuAmo5hu8PmHaxBmjHH1FISy5GmORm0zSl8eMAMGWovcVpfZq4RMps8bCv7nMQXIRz1aIh8UJrA==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://www.polaris7.io/signals/openai-cto-mira-murati-departs-ai-pioneer-unexpectedly-signal"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-14)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-14)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "出資",
+    "相手": "SoftBank",
+    "金額": "110億ドル",
+    "日付": "2026-11-07",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETLOk69htEEZVBICdHrN4-3s05Wz105KJAKGR4Y-bh66-hJEaJDi6Gy7kuWGo293Ev7OtaIEjYz_UWWBOa-zv5XQnYpQQn4QAgF5Km2dIQt1Rqs6Uqe6p7s5N2mny9TMfo1TMv8NA5a_m73vgZtnL1XtK71pTJkf9zSfE4jLWjeqCZVV1zvEjCV4Q2VHL__FD",
+    "確かさ": "報道",
+    "備考": "SoftBankとMGXが参加。評価額1.25兆ドルでの資金調達の一部。",
+    "src": [
+     [
+      "Big News Network.com",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETLOk69htEEZVBICdHrN4-3s05Wz105KJAKGR4Y-bh66-hJEaJDi6Gy7kuWGo293Ev7OtaIEjYz_UWWBOa-zv5XQnYpQQn4QAgF5Km2dIQt1Rqs6Uqe6p7s5N2mny9TMfo1TMv8NA5a_m73vgZtnL1XtK71pTJkf9zSfE4jLWjeqCZVV1zvEjCV4Q2VHL__FD"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETLOk69htEEZVBICdHrN4-3s05Wz105KJAKGR4Y-bh66-hJEaJDi6Gy7kuWGo293Ev7OtaIEjYz_UWWBOa-zv5XQnYpQQn4QAgF5Km2dIQt1Rqs6Uqe6p7s5N2mny9TMfo1TMv8NA5a_m73vgZtnL1XtK71pTJkf9zSfE4jLWjeqCZVV1zvEjCV4Q2VHL__FD"
+    },
+    "dup": "「OpenAI」と「SoftBank」の組み合わせがすでにある(site/index.html、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「OpenAI」と「SoftBank」の組み合わせがすでにある(site/index.html、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "Fujitsu",
+    "金額": "",
+    "日付": "2026-11-25",
+    "出典URL": "https://cryptobriefing.com/fujitsu-openai-cybersecurity-vulnerability-service/",
+    "確かさ": "公式",
+    "備考": "Daybreak Defense Networkへの参加と脆弱性評価サービスの開始。",
+    "src": [
+     [
+      "Fujitsu",
+      "https://cryptobriefing.com/fujitsu-openai-cybersecurity-vulnerability-service/"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI",
+     "Fujitsu"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAF5YKgpZLA7_ZdSjvedNkWnYpFle7gjD3__ur8ex-UhZE6QJIZd5fQxE4rVB3ApgYaKhGDqhoNmylBwnbui6dZTkHjjvb_0uFEQmeyN9SjfTmTY7ZgiX1CnUzTcJwlJXNMHwGfo_74kJrWPiw9dU5cFdpxUZKQGEmo2nEX_3VmcPEpii8DkymAw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://cryptobriefing.com/fujitsu-openai-cybersecurity-vulnerability-service/"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-25)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-25)の同じ種類の出来事がすでにある(site/index.html)",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "買収",
+    "相手": "Pierre Computer Company",
+    "金額": "",
+    "日付": "2026-11-04",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkQxkIHMtCtPc_yYEG7OXyWupLKdp3qf0ytraaGxq4t575PYV6eKn_wl5M6vz2WQoCJdO1zLwaYSuNrC7TL4sL0qoYfe0qF7PUEHU4Lsrb8wO5ebadD7wZqEfxx9J8a4Ioy1CYiHY6B7GeBjNVqi4RW76paaUt",
+    "確かさ": "報道",
+    "備考": "Code StorageとTrees and Diffsライブラリのチーム。",
+    "src": [
+     [
+      "Tuya AI",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkQxkIHMtCtPc_yYEG7OXyWupLKdp3qf0ytraaGxq4t575PYV6eKn_wl5M6vz2WQoCJdO1zLwaYSuNrC7TL4sL0qoYfe0qF7PUEHU4Lsrb8wO5ebadD7wZqEfxx9J8a4Ioy1CYiHY6B7GeBjNVqi4RW76paaUt"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkQxkIHMtCtPc_yYEG7OXyWupLKdp3qf0ytraaGxq4t575PYV6eKn_wl5M6vz2WQoCJdO1zLwaYSuNrC7TL4sL0qoYfe0qF7PUEHU4Lsrb8wO5ebadD7wZqEfxx9J8a4Ioy1CYiHY6B7GeBjNVqi4RW76paaUt"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "提携",
+    "相手": "LVMH Media Division",
+    "金額": "",
+    "日付": "2026-11-17",
+    "出典URL": "https://itstimeai.com.au/blog/ai-news-roundup-17-november-2026/",
+    "確かさ": "報道",
+    "備考": "ChatGPTへのジャーナリズム統合。",
+    "src": [
+     [
+      "ItsTimeAI",
+      "https://itstimeai.com.au/blog/ai-news-roundup-17-november-2026/"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE8mvV2MAYAGBDlAqiVBFn6jB4tsKdrtIBicY8S8exVvivG7QCDmoScGhcZUaB8rNVSraJMClW128zJg1SjZITF9eOD7bhlPmfnjhcilcKRS2uDrH4ciUeayl0uvG_9F1nTnPNJHMBJxuP2H8yTQh3qfRdtDZ8A5086dA==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://itstimeai.com.au/blog/ai-news-roundup-17-november-2026/"
+    },
+    "dup": "「OpenAI」の同じころ(2026-11-17)の同じ種類の出来事がすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-11-17)の同じ種類の出来事がすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "移籍",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-03",
+    "出典URL": "https://aimagazine.com/news/ai-executive-appointments-in-november-2026",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Catherine Wu",
+    "役職": "役職不明",
+    "移籍元": "Anthropic",
+    "移籍先": "OpenAI",
+    "src": [
+     [
+      "AI Magazine",
+      "https://aimagazine.com/news/ai-executive-appointments-in-november-2026"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHr_RL6FX-OGZvWKOIF_Tc1stu1O9okLA0EVub3vv7MpF4sEVxl6AcUupTbWWTdsiye5T7CwX6QY5A_0jzPA3kWyylgKmfI6B4p2jXDVL0cLrjNrKK1akP7YDquM6auIgoMBh6Gr9VKoKAuSIge5K6EQS20solHhtfeURGsWighvZc=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://aimagazine.com/news/ai-executive-appointments-in-november-2026"
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる",
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "退任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08-11",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9exsx15PWjFnp0jKKrFfpNCMbjPlO9ipa02PD6MXOFVdDBxn4VDnD067oQ1Z6gX_RvYb4xGB9rKt4fek1YWPKxXmx86igBnn5_GFb1h4qdl90RRs-xLV3CNAEjpFXdfLRJCrqOC3AA0k8pzgTmh_88xi7SMFhpSF9mspCytmc_G4FOBTC1RFXeC6NYV8K8CsdlbAkIHsYW78hLQt3X5AcZh5qftavUXSFvElDX1tyQHOZPtXXWgY_Ig==",
+    "確かさ": "報道",
+    "備考": "新しいベンチャーを開始するため。",
+    "人物": "Brad Lightcap",
+    "役職": "元COO、特別プロジェクト責任者",
+    "移籍元": "OpenAI",
+    "src": [
+     [
+      "Investing.com",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9exsx15PWjFnp0jKKrFfpNCMbjPlO9ipa02PD6MXOFVdDBxn4VDnD067oQ1Z6gX_RvYb4xGB9rKt4fek1YWPKxXmx86igBnn5_GFb1h4qdl90RRs-xLV3CNAEjpFXdfLRJCrqOC3AA0k8pzgTmh_88xi7SMFhpSF9mspCytmc_G4FOBTC1RFXeC6NYV8K8CsdlbAkIHsYW78hLQt3X5AcZh5qftavUXSFvElDX1tyQHOZPtXXWgY_Ig=="
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9exsx15PWjFnp0jKKrFfpNCMbjPlO9ipa02PD6MXOFVdDBxn4VDnD067oQ1Z6gX_RvYb4xGB9rKt4fek1YWPKxXmx86igBnn5_GFb1h4qdl90RRs-xLV3CNAEjpFXdfLRJCrqOC3AA0k8pzgTmh_88xi7SMFhpSF9mspCytmc_G4FOBTC1RFXeC6NYV8K8CsdlbAkIHsYW78hLQt3X5AcZh5qftavUXSFvElDX1tyQHOZPtXXWgY_Ig=="
+    },
+    "dup": "「OpenAI」の同じころ(2026-08-11)の同じ種類の出来事がすでにある(site/data/exectl.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-08-11)の同じ種類の出来事がすでにある(site/data/exectl.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_",
+    "確かさ": "報道",
+    "備考": "Denise Dresserの後任。",
+    "人物": "Dali Rajic",
+    "役職": "Chief Revenue Officer",
+    "移籍先": "OpenAI",
+    "src": [
+     [
+      "Business Insider",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_"
+    },
+    "dup": "「OpenAI」と「Dali Rajic」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「OpenAI」と「Dali Rajic」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "退任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Denise Dresser",
+    "役職": "Chief Revenue Officer",
+    "移籍元": "OpenAI",
+    "src": [
+     [
+      "Business Insider",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGhhc2MVlxQrd2KZKuz0G0K9eKqs_B7icc-i0NPzCmol9o3BTc-1K4JrCJiWBn63H_l4_MFjebYjS98_HkzZNo6sIywQYA2_amgzXPzP5bTC_ZncUJY06m3YtzkYc6sRcJ4Vqd4wR5MRLRGfd3D2WeIcRAUZeo_h9c1FklxQfR_"
+    },
+    "dup": "「OpenAI」の同じころ(2026-08-01)の同じ種類の出来事がすでにある(site/data/exectl.js)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる",
+    "重なり: 「OpenAI」の同じころ(2026-08-01)の同じ種類の出来事がすでにある(site/data/exectl.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "OpenAI",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-07-21",
+    "出典URL": "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo",
+    "確かさ": "報道",
+    "備考": "OpenAI FoundationとOpenAI Group PBCのボードメンバー。",
+    "人物": "David Vélez",
+    "役職": "ボードメンバー",
+    "移籍先": "OpenAI",
+    "src": [
+     [
+      "Seeking Alpha",
+      "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo"
+     ]
+    ],
+    "既存の名前": [
+     "OpenAI"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEIzw6RyjmfUr8PNgJJIEXDgw0s5JJVLU6wJsmxtcWo0W4wIFvGJzczuzuzaouT3IFR-6LnPnqTgnkGZ23FnwrxkjiiqRvv-mn5K3LsWzCkiur8wd7hbKQEp_7mow9VJrgYcIRiGqrrXKOWU4gGDp0W25uIgFu-UK3HEJw2kLE_-9QJ-qmD3eJz8U8P_QqJ5_TkhYAEGg5xJ3_CE02dLz4GvO4z6crpSRWCODmXunuN1VwSE4q7PMHRt099YII907z7CA==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "開けない",
+     "詳細": "クラウドからつながらない(URLError)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 0,
+     "final": "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo"
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}

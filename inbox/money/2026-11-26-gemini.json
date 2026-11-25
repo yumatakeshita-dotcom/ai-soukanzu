@@ -1,0 +1,61 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "items": [
+  {
+   "from": "デジタルガレージ",
+   "to": "Riskified Ltd.",
+   "kind": "包括業務提携・リセラー契約",
+   "amount": "",
+   "date": "2026-11-25",
+   "note": "子会社DGビジネステクノロジーが国内唯一のリセラー契約を締結(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "PR TIMES (株式会社デジタルガレージ)",
+     "https://prtimes.jp/main/html/rd/p/000000095.000009752.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  },
+  {
+   "from": "情報戦略テクノロジー",
+   "to": "株式会社ピープルドット, サイバーコマンド株式会社",
+   "kind": "提携",
+   "amount": "",
+   "date": "2026-11-25",
+   "note": "AI時代のサイバーセキュリティとデータガバナンス支援のための3社連携強化(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "PR TIMES (株式会社情報戦略テクノロジー)",
+     "https://prtimes.jp/main/html/rd/p/000000101.000024769.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  },
+  {
+   "from": "日総工産",
+   "to": "VRデザイン研究所",
+   "kind": "業務提携",
+   "amount": "",
+   "date": "2026-11-25",
+   "note": "Project AI✕RobotsによるフィジカルAI人材の育成推進(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "PR TIMES (日総工産株式会社)",
+     "https://prtimes.jp/main/html/rd/p/000000020.000120242.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-26.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}

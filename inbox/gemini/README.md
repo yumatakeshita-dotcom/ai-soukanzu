@@ -4,6 +4,64 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-26-2　OpenAIの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- OpenAI leadership changes November 2025 November 2026
+- OpenAI key researcher movements November 2025 November 2026
+- OpenAI major investments November 2025 November 2026
+- OpenAI significant partnerships November 2025 November 2026
+- OpenAI board of directors changes November 2025 November 2026
+- OpenAI CEO Sam Altman statements November 2025 November 2026
+- OpenAI Chief Scientist Ilya Sutskever November 2025 November 2026
+- OpenAI COO Brad Lightcap November 2025 November 2026
+- OpenAI CTO Mira Murati November 2025 November 2026
+- OpenAI Greg Brockman November 2025 November 2026
+
+**出てきた候補**
+
+- OpenAI → 退任 → (2026-11-14)
+- OpenAI → 出資 → SoftBank(2026-11-07)
+- OpenAI → 提携 → Fujitsu(2026-11-25)
+- OpenAI → 買収 → Pierre Computer Company(2026-11-04)
+- OpenAI → 提携 → LVMH Media Division(2026-11-17)
+- OpenAI → 移籍 → (2026-11-03)
+- OpenAI → 退任 → (2026-08-11)
+- OpenAI → 就任 → (2026-08)
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 就任 → (2026-07-21)
+
+記録ファイル: inbox/gemini/2026-11-26-2.json / 2026-11-26-2.md
+
+## 2026-11-26　直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携
+
+- モデル: gemini-2.5-flash　/　候補 9件
+
+**Geminiが打った検索の言葉**
+
+- 日本のAIスタートアップ 資金調達 2026年11月23日-26日
+- 日本のAI企業 提携 2026年11月23日-26日
+- 日本 大企業 AI 提携 2026年11月23日-26日
+- 日本 AI 半導体 提携 2026年11月23日-26日
+- 日本のAIスタートアップ 出資 2026年11月23日-26日
+
+**出てきた候補**
+
+- TOKIUM → 資本業務提携 → 芙蓉総合リース(2026-11-25)【除外】
+- デジタルガレージ → 包括業務提携・リセラー契約 → Riskified Ltd.(2026-11-25)【合格】
+- O-ID → 出資 → TAWANI Ventures, Hustle Fund, Techstars, エンジェル投資家(2026-11-24)【除外】
+- O-ID → 基本合意書 → 住友電気工業(2026-11-25)【保留】
+- 情報戦略テクノロジー → 提携 → 株式会社ピープルドット, サイバーコマンド株式会社(2026-11-25)【合格】
+- 株式会社アトム → 融資枠契約 → 3メガバンク (みずほ銀行、三菱UFJ銀行、三井住友銀行など)(2026-11-24)【除外】
+- 日総工産 → 業務提携 → VRデザイン研究所(2026-11-25)【合格】
+- Alchemist Japan → 出資 → CacheAI Technologies(2026-10-13)【保留】
+- Alchemist Japan → 出資 → Rumi Light(2026-10-13)【保留】
+
+記録ファイル: inbox/gemini/2026-11-26.json / 2026-11-26.md
+
 ## 2026-11-25-2　上位5社(OpenAI・xAI・Anthropic・Meta・SK hynix)以外のAI企業・半導体企業の、経営陣・主要研究者の入社・退社・就任(直近3か月)
 
 - モデル: gemini-2.5-flash　/　候補 10件

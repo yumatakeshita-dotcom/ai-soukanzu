@@ -1,0 +1,94 @@
+[
+ {
+  "人物": "イーロン・マスク",
+  "場面": "SXSW (サウス・バイ・サウスウエスト)",
+  "日付": "2018-03",
+  "装い": "ヴィンテージの革製パイロットジャケット、頑丈なエンジニアブーツ",
+  "ブランド": [],
+  "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdiRfY6m4jiwvYHpGfngEU9kAkoYNmpTA0NZLzf5tnEIfKQTH1VSNKO-w0ZNkxdXNzPKyb2MPOGAvFrIbbWimnf9BMFDl0y5g4SjrqY7Y9W3yhfhgALKmP9_janvEPhcH3mpWka6WYUSVSFjsZrpsWTQpomqZmzCsGyhwKKA==",
+  "出典名": "Code Culture",
+  "確かさ": "報道",
+  "備考": "GQの2022年12月のスタイル記事で言及された過去の装いの一つ。",
+  "英語名": "Elon Musk",
+  "会社": "Tesla / SpaceX / xAI",
+  "判定": "除外",
+  "理由": "ページが無い(HTTP 404)"
+ },
+ {
+  "人物": "イーロン・マスク",
+  "場面": "カタールで開催された2022年ワールドカップ決勝",
+  "日付": "2022-12",
+  "装い": "オリーブグリーンのTシャツ、シンプルな黒いジーンズ、楕円形のベルトバックル",
+  "ブランド": [],
+  "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdiRfY6m4jiwvYHpGfngEU9kAkoYNmpTA0NZLzf5tnEIfKQTH1VSNKO-w0ZNkxdXNzPKyb2MPOGAvFrIbbWimnf9BMFDl0y5g4SjrqY7Y9W3yhfhgALKmP9_janvEPhcH3mpWka6WYUSVSFjsZrpsWTQpomqZmzCsGyhwKKA==",
+  "出典名": "Code Culture",
+  "確かさ": "報道",
+  "備考": "GQの2022年12月のスタイル記事で言及された過去の装いの一つ。",
+  "英語名": "Elon Musk",
+  "会社": "Tesla / SpaceX / xAI",
+  "判定": "除外",
+  "理由": "ページが無い(HTTP 404)"
+ },
+ {
+  "人物": "イーロン・マスク",
+  "場面": "ハイディ・クルムのハロウィンパーティー",
+  "日付": "2022-11-02",
+  "装い": "バフォメットの頭蓋骨と逆さ十字が付いた悪魔のような鎧のスーツ",
+  "ブランド": [
+   {
+    "名前": "デイル・コールドウェル (Dale Caldwell)",
+    "もの": "スーツ",
+    "関係": "デザイナー"
+   },
+   {
+    "名前": "アブラカダブラNYC (Abracadabra NYC)",
+    "もの": "スーツ",
+    "関係": "販売店"
+   }
+  ],
+  "出典URL": "https://loudwire.com/elon-musk-wears-satanic-suit-armor/",
+  "出典名": "Loudwire",
+  "確かさ": "報道",
+  "備考": "このスーツは7,500ドルで販売されていたと報じられている。",
+  "英語名": "Elon Musk",
+  "会社": "Tesla / SpaceX / xAI",
+  "判定": "保留",
+  "理由": "ページを開けない(open_ng:URLError)"
+ },
+ {
+  "人物": "イーロン・マスク",
+  "場面": "ドナルド・トランプ元大統領の議会演説",
+  "日付": "2025-03",
+  "装い": "スーツとネクタイ",
+  "ブランド": [],
+  "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOHXdLl2mM7ag_yLV6N8n0V9F1x4C8nrtxceMCz2fBQzAr9gjE3W3D42YIJj3-cs71_OX78sdaBPqWUiYD5UyvKT87myT_KoVhdWEfCZ1KiRBhLlbNWQ3J16wu4XmfGa4k_utZLK9xOHgCkxmi1h_pu1P-1aRVJVH7MybFF3gyn3XGQRhWaWkJcdpepAsoJtX9T9BMFDl0y5g4SjrqY7Y9W3yhfhgALKmP9_janvEPhcH3mpWka6WYUSVSFjsZrpsWTQpomqZmzCsGyhwKKA==",
+  "出典名": "Tyla",
+  "確かさ": "報道",
+  "備考": "普段のカジュアルな服装とは異なり、スーツとネクタイを着用していたため注目された。ウクライナのゼレンスキー大統領がトランプ元大統領との会談でスーツを着用しなかったことへの批判を避けるためではないか、と分析する声もあった。",
+  "英語名": "Elon Musk",
+  "会社": "Tesla / SpaceX / xAI",
+  "判定": "除外",
+  "理由": "ページが無い(HTTP 404)"
+ },
+ {
+  "人物": "イーロン・マスク",
+  "場面": "New York Times DealBook Summitでのインタビュー、Don Lemonとの対談、カタール経済フォーラムでのオンライン出演など、複数の公開の場",
+  "日付": "2023年11月、2024年3月、2025年5月など",
+  "装い": "淡いシアリング風の襟が付いた黒いレザージャケット、無地の黒いTシャツ、シルバーのペンダントネックレス",
+  "ブランド": [
+   {
+    "名前": "ベルスタッフ (Belstaff)",
+    "もの": "革製フライトジャケット",
+    "関係": "着用"
+   }
+  ],
+  "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoG_d7nSz4Due8FN5sRkcUA7bVnpVbgkzewg7Umc8Il4q93IvK0qErVWzPtKcZBHoYtpCbpNwzgS1olxf2g0WevaMR2AXX54QRqrYfq0ZIt4Rt6lj-tpkLEVge2-MQPieonabfM_5aHkfWNvwuINnxEgCkxmi1h_pu1P-1aRVJVH7MybFF3gyn3XGQRhWaWkJcdpepAsoJtX9T9BMFDl0y5g4SjrqY7Y9W3yhfhgALKmP9_janvEPhcH3mpWka6WYUSVSFjsZrpsWTQpomqZmzCsGyhwKKA==, https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGWwTqQ7ObmoSZJy6YlIud7ZYrDh_wxqekQ0TTpDAk_2GYgAvStO0f_qBUyf0c_-VK1wZkYoicMHMyfOBAFw1dEVXLhVOMC1xM_KQUa-3w3cFbtlIuKtUYd7nzvaMs1PAdiHIE_3KT2uvho4Q9h-KxBIqrL6DWYezMzjnImEjE9S5qqm-OZJMdXTTg==",
+  "出典名": "Forbes, 中央日報日本語版",
+  "確かさ": "報道",
+  "備考": "彼はこのレザージャケットを頻繁に着用しており、彼のトレードマークの一つとなっている。",
+  "英語名": "Elon Musk",
+  "会社": "Tesla / SpaceX / xAI",
+  "判定": "保留",
+  "理由": "ページを開けない(open_ng:InvalidURL)"
+ }
+]
