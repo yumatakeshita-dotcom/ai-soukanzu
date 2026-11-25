@@ -1,7 +1,7 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "total": 4741,
- "thin": 4554,
+ "thin": 4537,
  "method": "薄さ=説明文・経歴の行・出典の少なさ(3点以上)。知名度=主要なAI・半導体の図の数×5+その他の図×1.5+線の数×0.7+ニュース見出し(上限30)×2+肩書き3+Wikidata2",
  "top": [
   {
@@ -53,6 +53,30 @@
     "us_WFC"
    ],
    "role": "取締役",
+   "skipped": false,
+   "profile": false
+  },
+  {
+   "key": "Yash Patil",
+   "name": "ヤシュ・パティル",
+   "en": "Yash Patil",
+   "thin": 5,
+   "why": [
+    "説明文が短い(10字)",
+    "経歴の行が0",
+    "出典・外部リンクなし"
+   ],
+   "fame": 19.4,
+   "desc": 10,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 5,
+   "edges": 2,
+   "companies": [
+    "appliedcompute"
+   ],
+   "role": "共同創業者 / CEO",
    "skipped": false,
    "profile": false
   },
@@ -135,6 +159,29 @@
    "profile": false
   },
   {
+   "key": "Liang Wenfeng",
+   "name": "リャン・ウェンフォン",
+   "en": "Liang Wenfeng",
+   "thin": 4,
+   "why": [
+    "説明文が短い(36字)",
+    "経歴の行が0"
+   ],
+   "fame": 15.9,
+   "desc": 36,
+   "career": 0,
+   "personal": 1,
+   "src": 0,
+   "news": 4,
+   "edges": 2,
+   "companies": [
+    "st_deepseek"
+   ],
+   "role": "創業者 / CEO",
+   "skipped": false,
+   "profile": false
+  },
+  {
    "key": "Dave Dugan",
    "name": "デイブ・デュガン",
    "en": "Dave Dugan",
@@ -155,30 +202,6 @@
     "openai"
    ],
    "role": "広告事業の責任者(COOのBrad Lightcapに報告)",
-   "skipped": false,
-   "profile": false
-  },
-  {
-   "key": "Yash Patil",
-   "name": "ヤシュ・パティル",
-   "en": "Yash Patil",
-   "thin": 5,
-   "why": [
-    "説明文が短い(10字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 15.4,
-   "desc": 10,
-   "career": 0,
-   "personal": 1,
-   "src": 0,
-   "news": 3,
-   "edges": 2,
-   "companies": [
-    "appliedcompute"
-   ],
-   "role": "共同創業者 / CEO",
    "skipped": false,
    "profile": false
   },
@@ -732,32 +755,7 @@
    "role": "取締役 / パートナー",
    "skipped": false,
    "profile": false
-  },
-  {
-   "key": "Vipul Ved Prakash",
-   "name": "ヴィプル・ヴェド・プラカシュ",
-   "en": "Vipul Ved Prakash",
-   "thin": 5,
-   "why": [
-    "説明文が短い(48字)",
-    "経歴の行が0",
-    "出典・外部リンクなし"
-   ],
-   "fame": 12.2,
-   "desc": 48,
-   "career": 0,
-   "personal": 2,
-   "src": 0,
-   "news": 0,
-   "edges": 6,
-   "companies": [
-    "aq_topsylabs",
-    "st_together"
-   ],
-   "role": "共同創業者 / CEO",
-   "skipped": false,
-   "profile": false
   }
  ],
- "all_thin_count": 4554
+ "all_thin_count": 4537
 }
