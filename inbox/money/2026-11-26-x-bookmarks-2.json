@@ -1,0 +1,87 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Founders Fund(主導)、Blackbird、DCVC、Bond、Bessemer、NewView、Ubiquity、Promus、Icehouse Ventures",
+   "to": "Halter",
+   "kind": "出資",
+   "amount": "2.2億ドル(シリーズE、評価額20億ドル)",
+   "date": "2026-03-24",
+   "region": "ニュージーランド・米国",
+   "note": "牛の首輪(GPS・AI)で放牧を管理する会社。BessemerとNewcomerの「AI 100」(未上場AI企業100社、2026/11/12発表)で76位。相関図に1件もなかったので足す。会社の発表(Business Wire)の本文を開いて確認。",
+   "src": [
+    [
+     "Halter Raises $220M in Series E(Business Wire、会社の発表、2026-03-24)",
+     "https://www.businesswire.com/news/home/20260324036414/en"
+    ],
+    [
+     "The AI 100(Newcomer、2026-11-12)",
+     "https://www.newcomer.co/p/the-ai-100"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Notable Capital(主導)、CRV、Kleiner Perkins",
+   "to": "Browserbase",
+   "kind": "出資",
+   "amount": "4000万ドル(シリーズB)",
+   "date": "2025-06-18",
+   "region": "米国",
+   "note": "AIエージェントが使うブラウザの基盤。a16zの「AIエージェント経済圏」のカオスマップ(祐真さんのXの保存、tmiyatake1さんの投稿 11/12)に載っていて、相関図に1件もなかったので足す。会社のブログの本文を開いて確認。評価額は報道で約3億ドルとあるが会社は公表していない。",
+   "src": [
+    [
+     "Browserbase Raises $40M Series B(会社のブログ、2025-06-18)",
+     "https://browserbase.com/blog/series-b-and-beyond"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Insight Partners(主導)、Decibel、Sunflower Capital、Kaya",
+   "to": "E2B",
+   "kind": "出資",
+   "amount": "2100万ドル(シリーズA)",
+   "date": "2025-07-28",
+   "region": "米国・チェコ",
+   "note": "AIエージェントがコードを動かすための安全な実行環境(サンドボックス)の会社。a16zのカオスマップに載っていて、相関図に1件もなかったので足す。会社のブログの本文を開いて確認。エンジェルに元DockerのCEO Scott Johnston。",
+   "src": [
+    [
+     "We Raised $21M to Give Fortune 100 Cloud for AI Agents(E2Bのブログ、2025-07-28)",
+     "https://e2b.dev/blog/series-a"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Workday",
+   "to": "Pipedream",
+   "kind": "買収",
+   "amount": "非公表",
+   "date": "2025-11-19",
+   "region": "米国",
+   "note": "AIエージェント向けのつなぎこみ(3,000以上のアプリ)の会社。Workdayが買収の合意を発表(完了はWorkdayの2026年度第4四半期=2026年1月末までの見込みと発表)。完了したかは確かめていない。a16zのカオスマップに載っていて、相関図に1件もなかったので足す。Workdayの発表の本文を開いて確認。",
+   "src": [
+    [
+     "Workday Signs Definitive Agreement to Acquire Pipedream(Workdayの発表、2025-11-19)",
+     "https://newsroom.workday.com/2025-11-19-Workday-Signs-Definitive-Agreement-to-Acquire-Pipedream"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  }
+ ],
+ "notes": "Xの保存にあった「未上場AI企業100社」(Bessemer・Newcomer)は記事に名前の出た約45社を照らし、相関図にないのはHalterだけだった(全100社の一覧は画像やボット確認のあるページにしかなく、全部は照らせていない)。「AIエージェント経済圏」のカオスマップ(a16z、約150社)は主な約60社を照らし、約23社が相関図にない。そのうち会社の発表で確かめられた3社だけ足した。Lindyは出資の主導が出典ごとに食い違うので見送り。残りの未登録の会社は notes の一覧を参照。未登録: Apify, Arcade, Cognee, Crossmint, Fyxer, Henry Labs, Honcho, Jack & Jill, Lindy, Poke, Privy, Rye, Sardine, Sauna, Seaworthy, Skydive, Skyfire, Supermemory, Vouched。"
+}
