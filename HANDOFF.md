@@ -39,8 +39,9 @@
 - inbox/watchdog/ の記録で、毎朝の係が動いたか分かる
 
 ## 変更したファイル（直近）
+- 2026-11-26: 本体の見た目を台帳・紙の資料風に作り直し(site/index.html のCSSとフォントだけ)。ブランチ design/ledger-redesign、下書きPR #142。マージは未実施(ユーザーの「マージして」待ち)。確認: npm run check OK
 - scripts/tdnet_scan.py, docs/ir_watch.md, docs/agents.json(+作り直した agents.md・site/agents/index.html), HANDOFF.md
 
 ## 最終更新
-- 日時：2026-11-24
+- 日時：2026-11-26
 - 更新した側：Claude(スレッド)
