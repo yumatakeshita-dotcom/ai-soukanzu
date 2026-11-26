@@ -3410,3 +3410,16 @@ f59d3841-60b1-494a-b8b2-28f258afb650|NewsPicks Daily Briefing|2026-11-25|【11�
 e43565e501883a0812e7c3538c404db9d1e5306dc524696e3b657c5d7d6bce41|10分でわかるスタートアップ・資金調達ニュース|2026-11-26|企業価値担保権で買収資金5億？銀行が評価した事業価値とは？
 44314078-cf55-41ee-839e-e78cb79f12f3|BRAVE Southeast Asia Tech|2026-11-25|Why China Is Playing the Long Game on Self-Reliance in AI Chips | Jianggan Li - E751
 cmwua2y6t04ju01qfe5awhfzd|創創燒(創投公會TVCA)|2026-11-24|EP118創創燒：從鴻海到抵押房子創業，被上千家自行車店拒絕，他為何不放棄？｜皓準科技 創辦人暨執行長 王議弘 Kerrif
+f71a3929-e9ab-4391-bdd7-fdd58cd07f0e|20VC|2026-11-26|20VC: Jensen Huang's $1TRN Return: What Happens Now | Anthropic Goes Public: Largest IPO Of All Time
+ 01a214b9-5541-7a74-8098-e2b949bce219 |Latent Space|2026-11-25|The Revolution vs The Renaissance — Thariq Shihipar, OpenAI
+9c3879e8-e91e-11f1-b738-3f65ab52da8e|Big Technology Podcast|2026-11-25|Is AI Racing Toward Disaster? — With Tristan Harris
+18cfd754-d940-4d83-8b54-7e7ed094467d|The a16z Show|2026-11-26|Replay: On Food as Medicine (2020)
+gid://art19-episode-locator/V0/dgOtzxaeqxDkVA1PA6WXvY08njEqEXIjQLovTurRrcY|Masters of Scale|2026-11-26|Possible: AI guardrails, data center demands, and the fight for jobs | Reid Hoffman
+49bd414a-d220-11f1-b770-276687a55362|How I Built This|2026-11-26|Wikipedia: Jimmy Wales. The Man Who Trusted Strangers to Build an Encyclopedia (2018)
+84bd57a3-7784-4f39-9716-b50d01106c9e|Odd Lots (Bloomberg)|2026-11-26|Marc Levinson on How UPS Created Modern Logistics
+e4a85a28-e972-11f1-9b26-6f626c06fddb|日経ビジネス モーニングニュース|2026-11-26|11月27日（金）：2027年、ROE10％が最低ライン／EU、HV輸入制限／ダイセル小河会長の経営教室
+001fd4ed-46d2-41a9-bbec-444b3c07de28|NewsPicks Daily Briefing|2026-11-26|【11月27日】ゼロから作る。伊藤忠の「新規事業」の育て方 ほか
+substack:post:226349939|SEA of Startups|2026-11-25|The Hackers Have Agents Now
+e03b7dbd12e3f5d7dac701ce60f5f66ccfe4d771df9438a941a813a7d5e3b76b|10分でわかるスタートアップ・資金調達ニュース|2026-11-27|クレーム解決で課金？企業価値4.7兆円に倍増したシエラの狙いとは
+e86d1ec8-e8aa-11f1-aeaa-9ba17949de80|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-11-26|「AI数学の衝撃」＃31（2026.11.26）
+1df7300c-3c94-4fd0-99fc-9c7434f635ba|Catalyst by Publidia|2026-11-26|#61 生成AI対策の連合体に朝日新聞が参加

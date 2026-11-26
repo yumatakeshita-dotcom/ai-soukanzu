@@ -1,0 +1,395 @@
+{
+ "date": "2026-11-27",
+ "days": 3,
+ "summary": "動画・番組の手がかり: 新着249本のうち26本に移籍・出資などの言葉と会社名",
+ "leads": [
+  {
+   "source": "20VC",
+   "type": "ポッドキャスト",
+   "published": "2026-11-26",
+   "title": "20VC: Jensen Huang's $1TRN Return: What Happens Now | Anthropic Goes Public: Largest IPO Of All Time & How It Changes Venture | Applied Compute, Bill.com and Mailchimp Acquisitions Broken Down",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-jensen-huangs-1trn-return-what-happens-now-anthropic-goes-public-largest-ipo-of-all-time-how-it-changes-venture-applied-compute-billcom-and-mailchimp-acquisitions-broken-down",
+   "words": [
+    "acquisition",
+    "compute",
+    "deal",
+    "investors",
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Databricks",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "NewsPicks Daily Briefing",
+   "type": "ポッドキャスト",
+   "published": "2026-11-26",
+   "title": "【11月27日】ゼロから作る。伊藤忠の「新規事業」の育て方 ほか",
+   "url": "https://podcasters.spotify.com/pod/show/takahiro-nomura/episodes/1127-e3t3aeu",
+   "words": [
+    "上場"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-26",
+   "title": "Anthropic's IPO: How It Changes Venture | Applied Compute, Bill.com & Mailchimp Acquisitions",
+   "url": "https://www.youtube.com/watch?v=UGSSg8vv8vg",
+   "words": [
+    "compute",
+    "investment",
+    "investments",
+    "investors",
+    "ipo",
+    "valuation"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-26",
+   "title": "【NVIDIA問題は泥沼化する トランプ暴走の代償】対中タカ派の逆襲／司法長官の問題／お友達取締役会／ラトニック親子の財テク／バンスvsルビオ／議会で超党派の追及／刑事訴追vs刑事告発／メディアの役割",
+   "url": "https://www.youtube.com/watch?v=q7T6glgNyzQ",
+   "words": [
+    "入社"
+   ],
+   "companies": [
+    "NVIDIA",
+    "ソニー"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-26",
+   "title": "【NVIDIAフアンCEO電撃復帰の理由】トランプ直接介入の裏側／株価30%急落で政権が動いた？／対中迂回輸出規制と公聴会の行方／AI開発競争が絶対に止まらない理由／経済安保の専門家が速報解説",
+   "url": "https://www.youtube.com/watch?v=KDi2oCzbinw",
+   "words": [
+    "就任"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "テレ東BIZ",
+   "type": "動画",
+   "published": "2026-11-26",
+   "title": "東電 AIインフラに10兆円 2035年度までに【WBS】",
+   "url": "https://www.youtube.com/watch?v=imnjNArrHEs",
+   "words": [
+    "提携"
+   ],
+   "companies": [
+    "ソフトバンク"
+   ]
+  },
+  {
+   "source": "BRAVE Southeast Asia Tech",
+   "type": "ポッドキャスト",
+   "published": "2026-11-25",
+   "title": "Why China Is Playing the Long Game on Self-Reliance in AI Chips | Jianggan Li - E751",
+   "url": "https://pod.co/bravedynamics/why-china-is-playing-the-long-game-on-self-reliance-in-ai-chips-jianggan-li-e751",
+   "words": [
+    "investor"
+   ],
+   "companies": [
+    "DeepSeek",
+    "Jensen",
+    "Nvidia",
+    "Reliance",
+    "reliance"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "【26日(木)12:00~生配信】NVIDIAフアンCEO復帰でマーケットはどう動く／決算超えでも戻らぬ株価の正体／トランプ政権の異例介入／米中ロ首脳会談後のAI覇権争い／FRB利上げと円相場",
+   "url": "https://www.youtube.com/watch?v=-XosIIXizOY",
+   "words": [
+    "入社"
+   ],
+   "companies": [
+    "NVIDIA"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Code Red | Diet TBPN",
+   "url": "https://www.youtube.com/watch?v=ix7nHk-ACjk",
+   "words": [
+    "valuation"
+   ],
+   "companies": [
+    "Altman",
+    "Microsoft",
+    "Stripe",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "Latent Space",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+   "words": [
+    "compute"
+   ],
+   "companies": [
+    "OpenAI"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+   "url": "https://www.youtube.com/watch?v=ImvgdcYlJw4",
+   "words": [
+    "data center"
+   ],
+   "companies": [
+    "Musk",
+    "SpaceX"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "Justice Dept. did not open investigation into Huang ahead of return to Nvidia, Reuters reports",
+   "url": "https://www.youtube.com/watch?v=Jo-dlEJN8rk",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+   "url": "https://www.youtube.com/watch?v=GIn3_B9DrDg",
+   "words": [
+    "investigation"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "Squawk Pod: New tariffs & the Turkey Talk-Line - 11/25/26 | Audio Only",
+   "url": "https://www.youtube.com/watch?v=RZJfbY21fCk",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "CNBC Television",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+   "url": "https://www.youtube.com/watch?v=wtVvolVAN4s",
+   "words": [
+    "investigations"
+   ],
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "NewsPicks",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "【アンソロピックが上場】社員の半数が「超ミリオネア」に #姿勢 #表情 #頭 #コミュニケーション #AI #Anthropic #IPO #amazon #google #openai",
+   "url": "https://www.youtube.com/watch?v=UKJZRCvHr6k",
+   "words": [
+    "ipo",
+    "上場"
+   ],
+   "companies": [
+    "Anthropic",
+    "amazon",
+    "google",
+    "openai",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "【中国はなぜ怒るのか？垂秀夫・前駐中国大使に聞く】APEC、高市外交の評価／中国の非礼をどう見るか？／怒りは戦略／中国の土俵に乗るな／米中露と力の時代／日本のナラティブを語れ／米中AI戦争の行方",
+   "url": "https://www.youtube.com/watch?v=oEW1S4zR2xA",
+   "words": [
+    "就任"
+   ],
+   "companies": [
+    "amazon"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "【AIバブル崩壊は東南アジアから始まるのか？】東南アジアのAIデータセンタ建設大ブーム／中国AI計算能力の25％は東南アジア／AI規制でどう変わるか？／ビックテックはさらに強くなる／3つのシナリオ",
+   "url": "https://www.youtube.com/watch?v=mimVa3CNe4o",
+   "words": [
+    "入社"
+   ],
+   "companies": [
+    "エヌビディア"
+   ]
+  },
+  {
+   "source": "PIVOT",
+   "type": "動画",
+   "published": "2026-11-25",
+   "title": "【AI相場は半導体の実需を見よ】NVIDIA騒動でもハードの需要は揺るがない／フアンCEOのフレンドリーさと脇の甘さ／シンガポールウォッシングの実態／台湾企業“毎月10日“に見る市場動向",
+   "url": "https://www.youtube.com/watch?v=yqZlxgsqL-A",
+   "words": [
+    "入社"
+   ],
+   "companies": [
+    "NVIDIA",
+    "TSMC"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-24",
+   "title": "The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen Rapaport & John Harris",
+   "url": "https://share.transistor.fm/s/a149a9dd",
+   "words": [
+    "acquisition",
+    "buy"
+   ],
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "Odd Lots (Bloomberg)",
+   "type": "ポッドキャスト",
+   "published": "2026-11-24",
+   "title": "What Jensen Huang's Stunning Return Means for the AI Trade",
+   "url": "https://omny.fm/shows/odd-lots/what-jensen-huangs-stunning-return-means-for-the-ai-trade",
+   "words": [
+    "ipo"
+   ],
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Nvidia"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "ポッドキャスト",
+   "published": "2026-11-24",
+   "title": "Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Code Red | Diet TBPN",
+   "url": "https://share.transistor.fm/s/5bbe6ac9",
+   "words": [
+    "valuation"
+   ],
+   "companies": [
+    "Altman",
+    "Microsoft",
+    "Stripe",
+    "Zuckerberg"
+   ]
+  },
+  {
+   "source": "20VC with Harry Stebbings",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "Most VCs Are Just Glorified Bankers",
+   "url": "https://www.youtube.com/watch?v=kbU6pc9nO_4",
+   "words": [
+    "investors"
+   ],
+   "companies": [
+    "Anthropic"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "The Boomer Put, Stripe @ $200b, Microsoft Code Red, China Slowing Down?",
+   "url": "https://www.youtube.com/watch?v=JzlCqkrWVoQ",
+   "words": [
+    "buy"
+   ],
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Stripe"
+   ]
+  },
+  {
+   "source": "NewsPicks",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "【株の約30%を保有】アンソロピック上場で笑いが止まらない2社 #AI #Anthropic #IPO #amazon #google #openai",
+   "url": "https://www.youtube.com/watch?v=UEnUKlKI_gk",
+   "words": [
+    "ipo",
+    "上場"
+   ],
+   "companies": [
+    "Anthropic",
+    "amazon",
+    "google",
+    "openai",
+    "アンソロピック"
+   ]
+  },
+  {
+   "source": "TBPN",
+   "type": "動画",
+   "published": "2026-11-24",
+   "title": "Has Jensen's Leather Jacket Resigned?",
+   "url": "https://www.youtube.com/watch?v=8zA7C3cqISw",
+   "words": [
+    "resigned"
+   ],
+   "companies": [
+    "Jensen",
+    "apple"
+   ]
+  }
+ ]
+}

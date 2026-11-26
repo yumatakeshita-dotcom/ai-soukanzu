@@ -1,0 +1,739 @@
+{
+ "date": "2026-11-27",
+ "days": 7,
+ "summary": "YouTube確認: 30/30チャンネル、新着55本",
+ "checked": [
+  {
+   "channel_id": "UC5qxlwEKM7-5YZudb24l0bg",
+   "name": "AI at Meta",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "name": "Colin and Samir",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXi7Hg2nSB40ujzM2CMtF-Q",
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCcefcZRL2oaA_uBNeo5UOWg",
+   "name": "Y Combinator",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "name": "20VC with Harry Stebbings",
+   "ok": true,
+   "new": 3
+  },
+  {
+   "channel_id": "UC-DRzaGnL_vtBUpCFH5M0tg",
+   "name": "TBPN",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "name": "All-In Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UC9cn0TuPq4dnbTY-CBsm8XA",
+   "name": "a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCWrF0oN6unbXrWsTN7RctTw",
+   "name": "Sequoia Capital",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "name": "Dwarkesh Patel",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCSI7h9hydQ40K5MJHnCrQvw",
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCSHZKyawb77ixDdsGog4iWA",
+   "name": "Lex Fridman",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "name": "Latent Space",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "name": "OpenAI",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "channel_id": "UCrDwWp7EBBv4NwvScIpBDOA",
+   "name": "Anthropic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "name": "Google DeepMind",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCHuiy8bXnmK5nisYHUd1J5g",
+   "name": "NVIDIA",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCCb9_Kn8F_Opb3UCGm-lILQ",
+   "name": "Microsoft Research",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "name": "CNBC Television",
+   "ok": true,
+   "new": 7
+  },
+  {
+   "channel_id": "UCM1guA1E-RHLO2OyfQPOkEQ",
+   "name": "Stripe",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "name": "NewsPicks",
+   "ok": true,
+   "new": 6
+  },
+  {
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "name": "ReHacQ-リハック-",
+   "ok": true,
+   "new": 2
+  },
+  {
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "name": "PIVOT",
+   "ok": true,
+   "new": 8
+  },
+  {
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "name": "テレ東BIZ",
+   "ok": true,
+   "new": 15
+  },
+  {
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "name": "日本経済新聞",
+   "ok": true,
+   "new": 8
+  },
+  {
+   "channel_id": "UCamllJQ7YaqaDNMCWgonj2w",
+   "name": "ソフトバンクグループ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "name": "Andrej Karpathy",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCIBgYfDjtWlbJhg--Z4sOgQ",
+   "name": "Garry Tan",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "channel_id": "UCmeNQxKCoV3cULPuPbcj7Ag",
+   "name": "Reid Hoffman",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "videos": [
+  {
+   "id": "sqy_Z5ISlvc",
+   "channel": "Colin and Samir",
+   "channel_id": "UCamLstJyCa-t5gfZegxsFMw",
+   "kind": "起業・クリエイター",
+   "title": "The Story of the Greatest YouTube Video Ever Made",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=sqy_Z5ISlvc",
+   "description": ""
+  },
+  {
+   "id": "EZ9CZ0y6_KA",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "JENSEN IS BACK...NOW WHAT?",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=EZ9CZ0y6_KA",
+   "description": "Jason Lemkin (Founder, SaaStr) on what the new era of Jensen Huang & Nvidia is going to look like"
+  },
+  {
+   "id": "UGSSg8vv8vg",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Anthropic's IPO: How It Changes Venture | Applied Compute, Bill.com & Mailchimp Acquisitions",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=UGSSg8vv8vg",
+   "description": "Jason Lemkin is one of the leading SaaS investors of the last decade with a portfolio including the likes of Algolia, Talkdesk, Owner, RevenueCat, Saleloft and more.\n\nMatt Murphy is a Partner at Menlo Ventures and one of the leading enterprise and AI investors of the last two decades, with investments including Anthropic, Carta, Benchling, Harness, OpenRouter, Skild AI and more.\n\n-----------------------------------------------\n\nTimestamps:\n\n00:00 Intro\n01:27 Jensen Huang Returns: What Happens Next for Nvidia?\n12:06 Inside Anthropic's Record-Breaking IPO\n13:45 Can Venture Capital Ever Repeat an Investment Like Anthropic?\n16:03 Is Anthropic's IPO Valuation Too High?\n20:16 Are AI Agents Making Cybersecurity a Bigger Threat?\n24:47 Has Vibe Coding Been Overtaken by AI Agents?\n29:58 Cognition's "
+  },
+  {
+   "id": "2n3a7iyCd3w",
+   "channel": "20VC with Harry Stebbings",
+   "channel_id": "UCf0PBRjhf0rF8fWBIxTuoWA",
+   "kind": "VC",
+   "title": "Are Silicon Valley’s 2021 Valuations Still Real?",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=2n3a7iyCd3w",
+   "description": "How much are Silicon Valley’s 2021 bets really worth today?\n\nAnjney Midha, founder of AMP PBC, explains why he’s sceptical of the valuations some growth funds are still reporting to investors."
+  },
+  {
+   "id": "APTd0tHbtuU",
+   "channel": "All-In Podcast",
+   "channel_id": "UCESLZhusAkFfsNsApnjF_Cg",
+   "kind": "VC・テック",
+   "title": "Billionaires vs. Pros: The Besties Take On Phil Hellmuth, Alan Keating & Jason Koon in Live Poker!",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=APTd0tHbtuU",
+   "description": "Special thanks to The Venetian Las Vegas for hosting us!:\nhttps://x.com/VenetianVegas\n\nFollow the besties: \nhttps://x.com/chamath\nhttps://x.com/Jason\nhttps://x.com/DavidSacks\nhttps://x.com/friedberg\n\nFollow on X:\nhttps://x.com/theallinpod\n\nFollow on Instagram:\nhttps://www.instagram.com/theallinpod\n\nFollow on TikTok:\nhttps://www.tiktok.com/@theallinpod\n\nFollow on LinkedIn: \nhttps://www.linkedin.com/company/allinpod\n\nIntro Music Credit:\nhttps://rb.gy/tppkzl\nhttps://x.com/yung_spielburg\n\nIntro Video Credit:\nhttps://x.com/TheZachEffect\n\n#allin #tech #news"
+  },
+  {
+   "id": "H1gRkTkEo7I",
+   "channel": "Lenny's Podcast",
+   "channel_id": "UC6t1O76G0jYXOAoYCm153dA",
+   "kind": "起業・プロダクト",
+   "title": "Why \"Everyone's An AI Builder\" Is A Myth",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=H1gRkTkEo7I",
+   "description": "The case for keeping distinct roles in your team | Sherif Mansour (Head of Product and AI, Atlassian)"
+  },
+  {
+   "id": "ufvSPf329pA",
+   "channel": "Dwarkesh Patel",
+   "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+   "kind": "AIインタビュー",
+   "title": "Terry Tao on AI solving the Riemann hypothesis",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=ufvSPf329pA",
+   "description": "When I interviewed Terry Tao in March of this year, I asked him about AI solving the Riemann hypothesis. Here's what he said:\n\n\"Part of the reason we prize problems like the Riemann hypothesis is that we’re pretty sure a new type of mathematics has to be created.\n\nWe don’t even know what the shape of the solution is, but it doesn’t feel like a problem that will be solved just by exhaustively checking cases.\""
+  },
+  {
+   "id": "qjPcaZf_plo",
+   "channel": "Latent Space",
+   "channel_id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+   "kind": "AI技術",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=qjPcaZf_plo",
+   "description": "Almost half the agent work on Clay now happens in tools like Claude Code, not their own agent.\n\nSwyx and I sat down with Jeff Barg (Head of AI at Clay) to talk about what that means for a SaaS company. Clay went from agents filling out spreadsheet cells to a coding agent that builds entire GTM workflows, which raises the question: if customers are happy driving Clay from Claude Code, why build your own agent at all? His answer is that they want to meet their customers where they are.\n\nA few things surprised us during this conversation. Clay's lead-qualification evals have been saturated for about a year, so frontier models now only matter higher up the stack. Jeff ran the math on scoring all 40M companies in their dataset for customer fit, and it comes out to about $1,500 total. They don’t"
+  },
+  {
+   "id": "C6DENY3rgqg",
+   "channel": "OpenAI",
+   "channel_id": "UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "AI企業(公式)",
+   "title": "You had us at Deployed",
+   "published": "2026-11-25",
+   "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
+   "description": "You had us at deployed. ❤️\n\nWe’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way."
+  },
+  {
+   "id": "88ek_zwbR0o",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Consumers Are Consuming 11/26/26",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=88ek_zwbR0o",
+   "description": "Your 60-second money minute. Today’s topic: Consumers Are Consuming\n\nFor access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g\n\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Watch CNBC on the go with CNBC+: https://www.cnbc.com/WatchCNBCPlus\n\n\nTurn to CNBC TV for the latest stock market news and analysis. From market futures to live price updates CNBC is the leader in business news worldwide.\n\nConnect with CNBC News Online\nGet the latest news: http://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/InstagramCNBC\nFollow CNBC News on Facebook: https://cnb.cx/LikeCNBC\nFollow CNBC on Threads: https://cnb.cx/threads\nFollow CNBC"
+  },
+  {
+   "id": "LwYc5B6mF8M",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "What to expect on the roads and in the skies this Thanksgiving",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=LwYc5B6mF8M",
+   "description": "AAA expects 81.5 million Americans to travel for Thanksgiving as higher airfares and a potential nor’easter complicate holiday plans.\n\nCNBC’s Morgan Brennan reports."
+  },
+  {
+   "id": "GfCBrC6AIog",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "'Closing Bell' panel weighs in on Wednesday's volatile trading as market heads into close",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=GfCBrC6AIog",
+   "description": "Tom Lee, Fundstrat, Jeremy Siegel, Wharton School of Business, and Stephanie Guild, Robinhood, joins 'Closing Bell' with reaction Wednesday's volatile tape."
+  },
+  {
+   "id": "QfJl8J-lJDI",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Billionaire investor Todd Boehly talks plans to buy Lukoil's oil and gas assets outside Russia",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=QfJl8J-lJDI",
+   "description": "Todd Boehly, Eldridge Chairman and CEO, joins 'Power Lunch' to talk plans to acquire Lukoil's global assets."
+  },
+  {
+   "id": "Hg5hd5sYPAw",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Tom Lee: AI and automated trading are amplifying market volatility",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=Hg5hd5sYPAw",
+   "description": "Tom Lee, Fundstrat managing partner and head of research and Fundstrat Capital CIO, tells CNBC that AI could be causing market volatility."
+  },
+  {
+   "id": "5n4ieLz5R-Q",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "Mad Money 11/25/26 | Audio Only",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=5n4ieLz5R-Q",
+   "description": "Listen to Jim Cramer’s personal guide through the confusing jungle of Wall Street investing, navigating through opportunities and pitfalls with one goal in mind - to help you make money.\n\nFor access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g\n\n» Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision\n» Subscribe to CNBC: https://cnb.cx/SubscribeCNBC\n» Watch CNBC on the go with CNBC+: https://www.cnbc.com/WatchCNBCPlus\n\n\nTurn to CNBC TV for the latest stock market news and analysis. From market futures to live price updates CNBC is the leader in business news worldwide.\n\nConnect with CNBC News Online\nGet the latest news: http://www.cnbc.com/\nFollow CNBC on LinkedIn: https://cnb.cx/LinkedInCNBC\nFollow CNBC News on Instagram: https://cnb.cx/Instagr"
+  },
+  {
+   "id": "pALj91cEk9I",
+   "channel": "CNBC Television",
+   "channel_id": "UCrp_UI8XtuYfpiqluWLD7Lw",
+   "kind": "経済ニュース",
+   "title": "AI credit repricing signals investor caution, says BondCliQ CEO Chris White",
+   "published": "2026-11-25",
+   "url": "https://www.youtube.com/watch?v=pALj91cEk9I",
+   "description": "BondCliQ CEO Chris White joins 'Fast Money' to talk the credit and bond markets' reactions to AI uncertainty."
+  },
+  {
+   "id": "Z5btYpqXrlk",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【売上は\"回数×単価\"】自動運転タクシー。GO社長「非常に追い風」 #Waymo #トヨタ #GO #自動運転 #無人タクシー",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=Z5btYpqXrlk",
+   "description": "NewsPicksで\n【疑念】AI時代、トヨタは「小作人」になるのか？\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7911/\n\n#Waymo #トヨタ #GO #自動運転 #無人タクシー\n\nプロフィールページのリンクから、NewsPicksオリジナル記事と動画が見放題になる10日間無料トライアルに申し込めます。"
+  },
+  {
+   "id": "DmacJfrrFgw",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【県が却下した再生案】「船の体育館」ブックホテル構想 #船の体育館 #香川 #地方自治体 #再生建築",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=DmacJfrrFgw",
+   "description": "NewsPicksで\n【県 VS市民】世界が注目する、香川の「体育館解体」論争\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7895/\n\n#船の体育館 #香川 #地方自治体 #再生建築\n\nプロフィールページのリンクから、NewsPicksオリジナル記事と動画が見放題になる10日間無料トライアルに申し込めます。"
+  },
+  {
+   "id": "LoKgrHjn02c",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【アメリカに大打撃を生む可能性…】AIが５年で崩壊もたらす？「もう少しで日本は社会主義に」斎藤幸平が読み解く『マタギドライヴ』AppleアプリがないiPhone、ドパガキからのセロガキ教育【落合陽一】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=LoKgrHjn02c",
+   "description": "番組のフル視聴（89分）はこちらから\nhttps://npx.me/s/Wm9dmj3m\n\n10日間無料トライアル実施中\nhttps://s.npx.me/ySXyEJt8\n_____\n\nイランをめぐる軍事衝突やアメリカの中間選挙による政治情勢の変化、AIをめぐる国家間競争など、2026年は世界を揺るがす出来事が相次いだ。\n今年刊行の『人新世の「黙示録」』で、気候危機や戦争、テクノロジーによる支配など、現代文明が直面する複合的な危機を捉え、破局の時代における社会のあり方を考察した経済思想家の斎藤幸平氏。\n一方、落合陽一はデジタルネイチャー化した世界における人間の実存という難題に挑み、そして7年の知的格闘の末に「マタギドライヴ」という一つの「解」を得た。来たる未来を2人が読み解く。\nゲスト：斎藤幸平（経済思想家）\n\n《目次》\n03:51 斎藤幸平が反省\n11:21 「やる気あるバカはチャンス」\n14:24 落合陽一の使用トークン\n17:45 セロガキを育てるためには？\n\n\n#落合陽一 #斎藤幸平 #AI時代 #WEEKLYOCHIAI #マタギドライヴ #資本主義 #社会主義 #教育 #NewsPicks"
+  },
+  {
+   "id": "FvF8WOjF454",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "「いい奴は生き残る」習慣の鬼たちのストイックなマインドセット/周囲から愛される圧倒的テクニック/後編【前田裕二×田中渓】/MONEY&MATE（マネーメイト）",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=FvF8WOjF454",
+   "description": "番組のフル視聴はこちらから\nhttps://npx.me/s/vHSbwSrc\n\n10日間無料トライアル実施中\nhttps://s.npx.me/ySXyEJt8\n\n_____\n\nSHOWROOM 代表取締役社長の前田裕二氏と投資家 田中渓氏の対談後編は、自己の能力を高めるために、どんなアクションやマインドセットが必要か、引き続き議論する。\n\n前編の議論でも上がった、「心技体」の重要性。令和では「技」の価値が薄まり、「気」すなわち意志の力の重要性が増すと前田裕二氏は語る。\n\nまた、議論の中で前田裕二氏が『桃太郎』のMVPは誰だと思うか？という思考実験的な問いを投げる。その問いに興奮しながらも、考えを巡らす田中渓氏。\n\n『桃太郎』の展開は日常におけるリスクテイクのあり方？ 桃太郎のマネジメントは外資系投資銀行的？\n\n誰もが知る昔話を仕事現場に置き換えてアナロジカルに再考察することで、今の時代にリーダーが必要とするスキルが炙り出される。\n\nそして、「習慣の鬼」である田中渓氏が前田裕二氏の習慣にも迫る。田中渓氏も驚愕する、前田裕二氏の一日とは？\n\n熱量の高い、「今日から見える景色を変える議論」をお届けする。。\n\n＜出演者＞\n前田裕二（SHOWROOM 代表取締役社長）https://x.com/UGMD\n田中渓　https://x.com/KeiTanaka_Radio\n\n※収録日は2026年11月6日（金）です。\n\n※番組を全編視聴するには、プレミアム会員登録が必要です。\n\n※この番組は、特定銘柄の売買や、投資判断ならびに外国為替証拠金取引、その他金融商品の投資勧誘を目的としたものではありません。投資に関する最終決定はあくまでご自身の判断と責任において行って下さい。\n\n＜コミュニティ「MONEY&MATE hub」応募方法＞\nNewsPicksの番組「MONEY&MATE」では"
+  },
+  {
+   "id": "C0V8RLVMvQw",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【古代ギリシャ】モテる男の条件は？#newspicks",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=C0V8RLVMvQw",
+   "description": "新たなスマホ特化型オリジナル番組「IN MY OPINION」。\n「IN MY OPINION」は、直近で話題になったニュース、トピックスなどを、NewsPicksのプロピッカーや有識者たちが、各々の得意分野・独自の視点を交えながら１分で解説配信する番組です。\n\n#shorts  #newspicks #inmyopinion"
+  },
+  {
+   "id": "mLcLv5HqC2s",
+   "channel": "NewsPicks",
+   "channel_id": "UCfTnJmRQP79C4y_BMF_XrlA",
+   "kind": "経済ニュース(日本語)",
+   "title": "【ベテランち×土居明莉】人生詰んだと思う時 #ベテランち #東大 #土居明莉 #エリート #キャリア #学歴 #MONEYMATE #NewsPicks",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=mLcLv5HqC2s",
+   "description": "MONEY&MATE：東大の天才たちの「人生の選択」【ベテランち×土居明莉】\n\nこのショート動画の本編は、\nこのチャンネルのプロフィールページのリンクから視聴いただけます。\n\nNewsPicksで\n東大の天才たちの「人生の選択」【ベテランち×土居明莉】\nで検索することで、本編動画がみつかります。\n\n本編動画のURLはこちら\nhttps://newspicks.com/live-movie/7879\n\n#ベテランち #東大 #土居明莉 #エリート #キャリア #学歴 #MONEYMATE #NewsPicks"
+  },
+  {
+   "id": "cXlkk6O8S3M",
+   "channel": "ReHacQ-リハック-",
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "kind": "経済・政治(日本語)",
+   "title": "【高橋弘樹vs辞めバンダイ】おもちゃ企画開発27年...執行役員なぜ辞めた？「たまごっちプラス」の裏側【ReHacQvs村瀬和絵】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=cXlkk6O8S3M",
+   "description": "新たな視点で経済・社会を見つめ直すビジネス動画メディア「ReHacQ」！\n\n今回は、バンダイで執行役員を務め、「たまごっちプラス」の企画・開発にも携わった村瀬和絵さんにお越しいただきました。なぜ、出世し執行役員になったにも関わらずバンダイを辞めたのか？退職を決断した理由や今後の展望についてお話を伺いました。\n\n出演者：村瀬和絵（株式会社FUNDARD代表取締役）\n　　　　高橋弘樹\n\n▼ReHacQ特別販売ページはこちら！\nhttps://jibungurumi.com/q/?c=ReHacQ\n\n■ 特典のお申し込み方法\n① 上記URLからアクセス\n② 新規会員登録またはログイン\n③ 特別販売ページにて「ReHacQスタジオ記念写真特典（0円）」をカートに追加\n（有効期間：2027年1月31日23：59まで）\n\n▼おすすめ動画▼\n【須賀川拓vs辞め三菱商事】なぜ商社マンがブリ漁師に？マッキンゼー辞め、起業…水産業界変えたいワケ【ReHacQvs松岡裕大】\nhttps://youtu.be/Mr1M3MmwJYw\n\n【ReHacQvs元UBS証券】なぜ世界的金融機関を辞めた？メディア初告白…二児の母・超バリキャリ女性18年目の決断【花岡恵梨子】\nhttps://youtu.be/FtvVkuFRcv8\n\n【高橋弘樹vsテスラジャパン社長】1年で売上2倍...なぜ成果出せる？BOSE・レッドブル・ダイソン...外資系企業を渡り歩くワケとは【ReHacQ】\nhttps://youtu.be/YttVf_r5ZeM\n\n●ReHacQアプリ　登録お願いします！\n＜無料会員登録＞\n・iOS版URL\nhttps://apps.apple.com/jp/app/rehacq/id6738078112\n・Android版URL\nhttps://play.google.com/store/app"
+  },
+  {
+   "id": "NvA2GhWnRBA",
+   "channel": "ReHacQ-リハック-",
+   "channel_id": "UCG_oqDSlIYEspNpd2H4zWhw",
+   "kind": "経済・政治(日本語)",
+   "title": "【ReHacQvs犯罪心理】子供がグレる親の特徴！親子の会話の正解は？特殊詐欺に騙される人は？【出口保行&尾崎里紗】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=NvA2GhWnRBA",
+   "description": "新たな視点で経済・社会を見つめ直すビジネス動画メディア「ReHacQ」！\n\n【ReHacQSP】\n今回は、これまで1万人以上の犯罪者を心理分析されてきた\n犯罪心理学者の出口保行さんにお越しいただき、 \n子供がグレる親の特徴は？\n家でどんな会話をするべき？\n特殊詐欺に騙されないためには？\nなど幅広く語っていただきました。 \n\n出演者：出口保行（犯罪心理学者）\n　　　　尾崎里紗（フリーアナウンサー）\n\n▼この動画の前編はこちら▼\n【ReHacQvs犯罪心理学者】子供狙った性犯罪！危険なエリアと時間は？正しい防犯とは…犯罪者の親の特徴は？【出口保行&尾崎里紗】\nhttps://youtu.be/l-iEF5PcsSQ\n\n▼おすすめ動画▼\n【高橋弘樹vs花粉症】2026最新攻略ガイド！衝撃リスク...メカニズムや予防法は？食べてはいけないNGな食べ物とは？【ReHacQvs大久保公裕】\nhttps://youtu.be/1oct2QNUv1M\n\n【高橋弘樹vsダイエット】衝撃事実！肥満のリスクとは？科学的に正しい痩せ方【ReHacQvs髙倉一樹】\nhttps://youtu.be/16qbDJM9YJU\n\n【ダイエット最新研究】痩せ薬が大流行…大丈夫？腹八分目の研究者、真の健康法とは？【ReHacQ高橋弘樹vs小幡史明】\nhttps://youtu.be/tNl0z3BHqwg\n\n●ReHacQアプリ　登録お願いします！\n＜無料会員登録＞\n・iOS版URL\nhttps://apps.apple.com/jp/app/rehacq/id6738078112\n・Android版URL\nhttps://play.google.com/store/apps/details?id=jp.co.tonari.rehacq\n・WEB版URL\nhttps://rehacq.com/home\n\n＜有"
+  },
+  {
+   "id": "q7T6glgNyzQ",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【NVIDIA問題は泥沼化する トランプ暴走の代償】対中タカ派の逆襲／司法長官の問題／お友達取締役会／ラトニック親子の財テク／バンスvsルビオ／議会で超党派の追及／刑事訴追vs刑事告発／メディアの役割",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=q7T6glgNyzQ",
+   "description": "収録日：11月26日 12:15\n\n━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26yk6du9&redirect=https://pivotmedia.co.jp/movie/15341\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15341&display_type=article&override=true\n\n＜ゲスト＞\nジョセフ・クラフト｜経済アナリスト\nUCバークレー校を卒業後、モルガン・スタンレー本社に入社。東京支社で為替本部長などを歴任。2015年に独立し会社を設立。東京国際大学の副学長やソニーグループ、東京エレクトロンの社外取締役を務める。\n\n＜関連動画＞\nhttps://youtu.be/S_AwxtOD0B0\n\n＜目次＞\n00:00　ジェンスン復帰劇の真相\n09:43　トランプ介入の真の動機\n16:25　利益相反と私利私欲の構造\n25:06　政権内抗争と議会の反発\n34:04　疑惑追及の行方とメディア\n\nクレジット\n写真：AP/アフロ\n\n#NVIDIA #トランプ #ジョセフクラフト #半導体 #AI #ジェンスンフアン #米国政治 #地政学リスク #株価 #投資 #経済安全保障 "
+  },
+  {
+   "id": "FkYWOzcGXSM",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【S&P500を超える投資信託の大本命】新NISA成長投資枠を制する攻めの一手／アクティブファンドの実力は／米国株の成長銘柄に注目／AIで「伸びる企業」と「淘汰される企業」",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=FkYWOzcGXSM",
+   "description": "【Sponsored by フィデリティ投信】\n今回は「全世界株式・S&P500の次は？ 成長投資枠で選ぶ、投資信託の大本命」をテーマに、フィデリティ投信 須野崎龍一さん、元衆議院議員でタレントの杉村太蔵さんに話を聞きました。\n\n※本動画は2026年10月31日に開催された【PIVOT DAY2026】のセッションを収録･編集したものです。\n\n▼フィデリティ・米国株式ファンドの詳細はこちら\nhttps://bit.ly/4AbTaMM\n\n▼ 目次\n00:00 ダイジェスト\n02:27 フィデリティ投信とは\n05:00 成長投資枠の使い方\n07:26 杉村太蔵の投資戦略\n10:28 S＆P500を超える実績の投信信託 大本命\n14:44 フィデリティ・米国株式ファンド 銘柄選別の基準\n18:25  成長企業の見極め方\n21:33 フィデリティ投信の目利き力\n24:41 AIバブル崩壊リスク\n\n▼ 出演者情報\n須野崎龍一｜フィデリティ投信 投信営業本部 投信営業推進部 \nシニア・マネージャー\n国内大手証券会社で富裕層向け資産保全業務に従事した後、都市銀行などを経て 2026年より現職。現在は販売会社向けの情報提供や勉強会を担当。運用委託先のフィデリティ・インベストメンツは運用総額約1029兆円を誇るアクティブ運用の雄\n\n杉村太蔵｜タレント･実業家･元衆議院議員\n2004年、筑波大学中退。派遣社員から外資系証券会社勤務。2005年総選挙で最年少当選を果たし、厚生労働委員会･決算行政監視委員会に所属。現在はテレビ･ラジオ･雑誌などタレントとして活動する一方で、自身の経験を交えながら政治･経済･資産形成をテーマに講演活動を全国で行う。\n\n#投資 #資産形成 #新NISA #成長投資枠 #投信信託 #sp500  #米国株式ファンド #フィデリティ投信 #杉村太蔵 #PIVOT"
+  },
+  {
+   "id": "KDi2oCzbinw",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【NVIDIAフアンCEO電撃復帰の理由】トランプ直接介入の裏側／株価30%急落で政権が動いた？／対中迂回輸出規制と公聴会の行方／AI開発競争が絶対に止まらない理由／経済安保の専門家が速報解説",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=KDi2oCzbinw",
+   "description": "収録日：11月25日 17:40\n\n━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26kynffe&redirect=https://pivotmedia.co.jp/movie/15336\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15336&display_type=article&override=true\n\n＜ゲスト＞\n塩野誠｜経営共創基盤 CEO\n国内外で戦略立案や事業再編、M&Aを多数手がける。2025年に経営共創基盤CEOに就任。地経学研究所経営主幹のほか、内閣官房の日本成長戦略会議で防衛産業WG委員、国際協力銀行でもスタートアップ投資委員会委員を務める\n\n＜目次＞\n00:00　ファンCEO電撃復帰の真相\n05:13　対中規制強化と統治の懸念\n11:18　止まらぬ米中AI覇権競争\n\nサムネイル\n写真：iStock\n\n#速報 #解説 #AI #NVIDIA #ジェンスン・フアン #CEO #復帰 #開発 #競争 #半導体 #トランプ #株価 #株 #市場 #メガスピード #中国 #金融 #テック #軍事 #ピボット #pivot"
+  },
+  {
+   "id": "tjXx-_xbeQE",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【働きがい1位は本当か？】三井物産の実態をクチコミ3600件で検証／修羅場が人を磨く／上司に断らず異動できる【企業超分析】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=tjXx-_xbeQE",
+   "description": "▼続きはこちら（11/27 18時 公開）：https://youtu.be/s5_QP8ewPiU\n\n━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26di1bkx&redirect=https://pivotmedia.co.jp/movie/15317\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15317&display_type=article&override=true\n\n▼「業界超分析」とは\n人気業界と、そのトップ企業をよく知る専門家が、元社員と共に徹底分析していく。就活に、転職に、さらに投資に役立つ情報をお届けします。\n\n＜出演者＞\n稲室昌也｜三井物産 代表取締役 常務執行役員 CHRO兼CCO\n1991年4月 入社\n2019年6月 IR部長\n2022年4月 執行役員経営企画部長\n2024年4月 執行役員金属資源本部長\n2025年4月 常務執行役員金属資源本部長\n2026年4月 常務執行役員、CHRO、CCO\n2026年6月 代表取締役常務執行役員、CHRO、CCO（現任）\n\n岡村裕子｜三井物産 ベーシックマテリアルズ本部 クロールアルカリ事業部 塩事業室長\n2005年：生活産業総括部企"
+  },
+  {
+   "id": "s1FsqHzyAlI",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【200施設がすでに導入】現場の課題から生まれた医療事務AI／加算漏れ･返戻･期限切れを未然に防ぐ／医療情報のセキュリティ対策は？",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=s1FsqHzyAlI",
+   "description": "【Sponsored by クラシテク】\n注目の企業や組織の新発表から業界の今がわかる「＆RELEASE」。\n今回は、「医療事務も、守りも、AIで」をテーマに、クラシテク 代表の一岡亮大さんに話を聞きました。\n\n▼株式会社クラシテクのホームページはこちら\nhttps://kteku.com/?utm_source=youtube&utm_medium=video&utm_campaign=pivot-security-check&utm_content=desc-top\n\n▼医療機関向け 無料のセキュリティ点検はこちら\nhttps://kteku.com/service/ax/cybersecurity/?utm_source=youtube&utm_medium=video&utm_campaign=pivot-security-check&utm_content=desc\n\n▼ 目次\n00:00 ダイジェスト\n00:39 オープニング\n02:57 医療事務AI「SHISHI」何がすごい？\n09:16 医療情報をAIで扱う 安全面は？\n13:21 医療･介護システム どう見直す？\n\n▼ 出演者情報\n一岡亮大｜クラシテク 代表\n2010年三井住友銀行入行。2011年MUGENUP設立、代表取締役就任。雇用創出に貢献した新興企業を顕彰する「Job Creation 2014」で1位受賞。2015年医療法人北翔会理事･社会福祉法人翔陽会理事長就任。2025年株式会社クラシテク設立。\n\n#医療事務 #医療DX #医療AI #訪問看護 #在宅医療 #レセプト #サイバーセキュリティ #SHISHI #クラシテク #PIVOT"
+  },
+  {
+   "id": "JEAw8QJqsgc",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【写真フィルムと半導体は原理が同じ】富士フイルムが半導体材料にピボットできた理由／2030年には売上5000億円へ／AI半導体を支える知られざる強みに迫る",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=JEAw8QJqsgc",
+   "description": "【Sponsored by 富士フイルム】\n注目すべき企業やプロジェクトのトップランナーを招き、キーワードをもとに掘り下げていく番組「& questions」。\n今回は、「AI半導体を支える 富士フイルムの知られざる強み」をテーマに、富士フイルム 専務執行役員の岩﨑哲也さん、政策研究大学院大学 教授の安田洋祐さんに話を聞きました。\n\n▼「富士フイルム」の詳細はこちら\nhttps://bit.ly/4jAnuuu\n\n▼「SEMICON Japan」出展概要はこちら\nhttps://bit.ly/4A8R2FC\n\n▼ 目次\n00:00 ダイジェスト\n01:02 オープニング\n08:39 ワンストップソリューション\n19:28 世界供給網\n25:02 AI向け先端半導体\n\n▼出演者情報\n岩﨑哲也｜富士フイルム 専務執行役員 エレクトロニクスマテリアルズ事業部長\n1986年入社。アメリカ･欧州･ロシアで約20年の駐在。2014年に半導体材料事業の経営企画部長。その後、イメージング事業部長、米州本社長を経て、2021年より半導体材料事業を統括。\n\n安田洋祐｜政策研究大学院大学(GRIPS) 政策研究科 教授\n東京大学卒。米プリンストン大学Ph.D.(経済学)を取得。政策研究大学院大学助教授･大阪大学教授等を経て2025年10月より現職。2020年にエコノミクスデザインを共同創業。\n\n#半導体 #AI半導体 #半導体材料 #CMPスラリー #サプライチェーン #安田洋祐 #富士フイルム #fujifilm #pivot"
+  },
+  {
+   "id": "Bw1AiF_EP_A",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【賃上げ競争の限界】賃上げ率5%、それでも人が採れない／額面ではなく総報酬で勝負する／採用と定着に効く「第2の給与明細」とは",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=Bw1AiF_EP_A",
+   "description": "【Sponsored by マネーフォワード】\n注目のテーマについてディスカッションする「&SESSION」。\n今回は「社員の採用と定着に効く『第2の給与明細』とは」をテーマに、マネーフォワード 福利厚生事業本部 本部長の柏木祐輔さんに話を聞きました。\n\n▼「マネーフォワード クラウド福利厚生賃貸」の詳細はこちら\nhttps://bit.ly/4A7MlMk\n\n▼ 目次\n00:00 ダイジェスト\n01:07 オープニング\n03:50 社員に伝わらない報酬\n07:51 総報酬を示す「第2の給与明細」とは\n14:15 導入効果 内定承諾率の向上\n21:45 手薄な中途採用サイトを補う大きな役割\n23:10 手取りが増える借り上げ社宅\n26:04 マネーフォワードが福利厚生に取り組む理由\n35:47 まとめ 採用･定着率に向けたステップ\n\n▼出演者情報\n柏木祐輔｜マネーフォワード 福利厚生事業本部 本部長\n日本総合研究所、デロイトトーマツコンサルティングで事業戦略策定や人事制度設計などを支援。シャトク取締役COOとして福利厚生事業を推進し、2024年12月のマネーフォワードへのグループジョインに伴い福利厚生事業本部の本部長に就任。\n\n#福利厚生 #人事 #採用 #人材定着 #内定承諾率 #給与明細 #総報酬 #トータルリワード #借り上げ社宅 #HR #マネーフォワード #pivot"
+  },
+  {
+   "id": "yqZlxgsqL-A",
+   "channel": "PIVOT",
+   "channel_id": "UC8yHePe_RgUBE-waRWy6olw",
+   "kind": "ビジネス(日本語)",
+   "title": "【AI相場は半導体の実需を見よ】NVIDIA騒動でもハードの需要は揺るがない／フアンCEOのフレンドリーさと脇の甘さ／シンガポールウォッシングの実態／台湾企業“毎月10日“に見る市場動向",
+   "published": "2026-11-25",
+   "url": "https://www.youtube.com/watch?v=yqZlxgsqL-A",
+   "description": "収録日：11月24日 14:00\n\n━━━━━━━━━━━━━━━━━━━━\n▼【通勤・移動中に聴く】PIVOTアプリが便利\n・バックグラウンド再生（画面を閉じても聴ける）\n・ダウンロード機能（オフラインで再生）\n・音声再生（耳だけで学べる）\nすべて無料｜ダウンロードはこちら↓\nhttps://pivot.go.link/?adj_t=26dqisol&redirect=https://pivotmedia.co.jp/movie/15328\n━━━━━━━━━━━━━━━━━━━━\n視聴ごとにマイルが貯まり、図書カードなどの特典に応募できます。\n▼ 今月の特典一覧はこちら\nhttps://pivotmedia.co.jp/app/mile/benefit\n▼【5分で理解】 この動画の「記事」「AI要約」はこちら\nhttps://pivotmedia.co.jp/launch_app?path=movie/15328&display_type=article&override=true\n\n＜ゲスト＞\n山田周平｜桜美林大学大学院 特任教授\n早稲田大学政治経済学部を卒業後、日本経済新聞社へ入社。台北支局長や産業部キャップ、中国総局長を歴任し、北京大学外資企業EMBAを修了した。\n2019年から日本経済研究センターで研究員を兼務。2023年4月より現職。\n\n＜目次＞\n00:00　オープニング\n01:44　NVIDIA疑惑の深層\n07:36　迂回規制とデータセンター実需\n10:33　AI相場の見通しと台湾データ\n\nサムネイル\n写真：iStock\n\n#AI #半導体 #相場 #NVIDIA #ジェンスン・フアン #フアン #CEO #シンガポール #台湾 #市場 #騒動 #スパイ #諜報員 #バブル #TSMC #企業 #シンガポールウォッシング #東南アジア #データセンター #ピ"
+  },
+  {
+   "id": "q5hkO5StBn0",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "民間8社 グアム集客狙う 観光価値を発信【WBS】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=q5hkO5StBn0",
+   "description": "JTBや日本航空など8社はグアムの新たな観光価値を発信するプロジェクトを発足すると発表しました。星野リゾートが11月、食事や体験アクティビティを楽しめるビーチの拠点をオープンしたほか、JTBはグアムの自然を一望できる「恋人岬」を再開発するなど各社がグアムへの集客に力を入れています。円安や物価高を背景に、短期間で海外リゾートを楽しみたいというニーズが高まるなか日本から片道3時間半ほどと近いグアムの人気が高まるとみています。\n\n#JTB #日本航空 #ケンホテルアンドリゾートホールディングス #グアム #星野リゾート #恋人岬 #観光\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "85_Pv95hWW8",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "部品事業に8100億円 京セラ設備投資引き上げ【WBS】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=85_Pv95hWW8",
+   "description": "京セラが2031年3月期までの6年間で部品事業に8100億円を設備投資すると発表しました。7月に公表した計画から1600億円引き上げます。半導体製造装置向けの部品やコンデンサーといったAI＝人工知能関連の成長領域で供給力を高める狙いです。\n\n#京セラ #部品事業 #設備投資 #半導体 #AI\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。WBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実。「テレ東BIZ」⇒ https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "imnjNArrHEs",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "東電 AIインフラに10兆円 2035年度までに【WBS】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=imnjNArrHEs",
+   "description": "東京電力HDがAIデータセンターのインフラとなる送配電網や原発に対して、2035年度までにおよそ10兆円を投資する方針であることが分かりました。東電は経営再建に向けてソフトバンクやブラックストーンなど国内外の投資ファンドと資本提携に向けた交渉を進めています。提携を実現させるために東電が各陣営に示した成長戦略によりますと、AIインフラへの投資で電力販売を拡大させるほか、原発については現在稼働している柏崎刈羽原発6号機を含め、計4基以上の稼働を目指します。\n\n#東京電力 #AI #データセンター #インフラ #送配電 #原発 #投資 #ソフトバンク #ブラックストーン #福島 #復興 #廃炉 #経営再建\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "VWRypl_tt_s",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "エヌビディア格下げ検討 S＆Pが企業統治を問題視【WBS】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=VWRypl_tt_s",
+   "description": "アメリカの格付け会社S＆Pグローバル・レーティングは25日、半導体大手のエヌビディアについて、上から3番目の「ダブルA」としている長期発行体格付けを引き下げる方向で見直すと発表しました。ジェンスン・フアンCEOの復帰を巡る経緯などから、企業統治に疑問が生じたと判断しました。今後、90日以内に格下げする可能性があります。\n\n#SアンドP #格付け #半導体 #エヌビディア #NVIDIA #フアン\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "e32c67pnfwk",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "カンブリア宮殿【解体して再生せよ！　“にぎわい”を作る極意】予告",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=e32c67pnfwk",
+   "description": "【12月3日(木)夜11時6分放送】\n※12月3日（木）は「卓球混合団体ワールドカップ2026」のため、放送時間変更、または休止となる可能性があります。\n\n全国に商業施設を展開するパルコが好調だ。パルコを率いるのが社長の川瀬賢二。創業者の言葉「解体を主張する」を実践することで、“にぎわい”を作ろうとする戦略に迫る\nhttps://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria\n\n【ゲスト】パルコ社長　川瀬賢二\n【ＭＣ】金原ひとみ　ヒャダイン\n\n「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！\n■テレ東BIZ\nhttps://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria\n\n■番組HP\nhttps://www.tv-tokyo.co.jp/cambria/\n\n#カンブリア宮殿 #金原ひとみ #ヒャダイン #パルコ"
+  },
+  {
+   "id": "7gFjYf7-FSY",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "【麹が長寿のカギ】健康・美容・環境問題に麹菌が大活躍する！ 明治大学 中島春紫教授【いまからサイエンス】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=7gFjYf7-FSY",
+   "description": "▼番組のフル視聴（43分）はこちらから（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/science/vod/post_352740?utm_source=youtube&utm_medium=video&utm_campaign=science_261125_yt_7gFjYf7-FSY\n\n▼「テレ東BIZ」会員登録はこちら▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=science_261125_yt_7gFjYf7-FSY\n\n日本人が長い年月をかけ育んだ奇跡のカビ「麹菌」！実は長寿のカギは麹菌にあった！健康だけでなく美容や環境問題解決まで、麹菌のパワー活用術に迫る！味噌や醤油、日本酒など、日本の発酵文化を支えてきた主役「麹」。その正体は、日本人だけが長い年月をかけ飼い慣らしてきた奇跡のカビ「麹菌」！大量の消化酵素を作り、食べ物の栄養を吸収しやすくし、さらに発酵の過程でビタミン類を作り、旨味もアップ！なんと＜国菌＞として認定、長寿ニッポンの礎に！他にも色白肌にする効果や、工場排水の重金属を一網打尽！？いいこと尽くめのスーパー素材・麹菌の能力に加藤浩次も興味津々！明治大学・中島春紫教授が挑むのは、菌をすっぽり包み込む「ハイドロフォービン」の活用だ。中島先生は麹菌の「守り神」ともいわれるハイドロフォービンの遺伝子を10個も発見。水を完全に弾く防御力、液体を一気に発泡させるパワーを持ち合わせ、スキンケア用品など美容への応用も！一方、さまざまな物質にくっつく不思議な性質を利用、工場排水から重金属を取り除く環境技術への応用も期待！日本が誇る麹菌活用の最前線に迫る！\n\n【出演者】\n加藤浩次\n鈴木芹里乃（テ"
+  },
+  {
+   "id": "BO9234luocI",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "常識を覆す！老舗の\"紙皿” 伊藤景パック産業/WASARA　伊藤景一郎 社長【ガイアの夜明け『あの主人公はいま…』# 99】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=BO9234luocI",
+   "description": "▼フルバージョン(21分)は「テレ東BIZ」で配信中（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/gaia/vod/post_353137?utm_source=youtube&utm_medium=video&utm_campaign=gaia20th_261125_yt_BO9234luocI\n\n▼「テレ東BIZ」会員登録はこちら▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=gaia20th_261125_yt_BO9234luocI\n\n2014年6月放送のガイアの夜明け「常識を覆して売る！老舗の逆襲」では、創業100年を超えるパッケージ会社が開発した1枚100円の高級紙皿「WASARA」を取材。美しいデザインと陶器のような質感から、パーティーや高級レストランで注目され、フレンチ料理界の帝王アラン・デュカス氏の店でも使われるように。使い捨てで薄利多売という業界の常識を覆すこの高級紙皿に、伊藤景パック産業の伊藤景一郎社長はどんな勝機を見出したのか…海外展開を狙う「WASARA」を追った。\n\nあれから12年。コロナ禍には国内外のパーティー需要がなくなり、売り上げは激減。開発中だった飛行機の機内食専用の箱型WASARAも断念し、挫折を味わったという。一方で人々の食事スタイルに変化を感じた伊藤社長…箱型WASARAを元に思い立った打開策とは。\n\n#WASARA #ワサラ #casanet #カサネ #伊藤景パック産業 #伊藤景一郎　#アランデュカス #alainducasse #lejardindetweed #ルジャルダンドゥツイード #蟹江一平 #パッケージ #テレビ東京 #ガイアの夜明け #テ"
+  },
+  {
+   "id": "cYMSicxbdWs",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "空の常識を変える！ジップエア #カンブリア宮殿 #ジップエア #格安 #航空 #飛行機",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=cYMSicxbdWs",
+   "description": ""
+  },
+  {
+   "id": "SHu6tYCn6_I",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "“物流クライシス2030”を防げ！古い体質の物流業界を変えるシステムを構築【アンパラレルド】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=SHu6tYCn6_I",
+   "description": "▼番組のフル視聴（40分）はこちらから（27年1月8日まで初回登録14日間無料！）▼\nhttps://txbiz.tv-tokyo.co.jp/unpara/vod/post_352664?utm_source=youtube&utm_medium=video&utm_campaign=unpara_261125_yt_SHu6tYCn6_I\n\n▼「テレ東BIZ」会員登録はこちら▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=unpara_261125_yt_SHu6tYCn6_I\n\n2030年度に、最大で25％程度の輸送力不足が生じると言われる…「物流クライシス2030」。\nこれをどうにか防ごうと、国と民間企業が躍起になっている。今回取り上げる企業、ハコブは、物流業界に残る古い慣習を変えるためのシステムを開発している。トラックでモノを届ける時や取りに行く時、工場や倉庫に行く日は決まっているが、“午前”“午後”など、時間はザックリ。\nだから…「倉庫の近くで7時間待った」などの話は、決して都市伝説ではなく、本当の事。待つ時間は、その時と場合によるが、この業界、“待つのは当たり前”なのだという。\nそこでハコブは、ドライバーが倉庫や工場に行く際に、日にちと時間をきちんと決めた「予約システム」をつくった。\n今回、飲料メーカーの工場に取材に行ったが、トラックは、15分で荷物を積み降ろして、出発した。\n物流業界では、配送を頼んでも、実際に運ぶ会社は、“孫請け”、といったことはよくあり、いまだにその連絡手段は、FAXという所も多いという。\n改革が進まない原因は、その辺りにあるのだという。\n古い業界を変えようとするハコブに、MCのオードリー若林正恭が切り込んでいくほか、\n"
+  },
+  {
+   "id": "qCUn2gHKqlA",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "現場の人手不足は解消できる？介護業界の未来を変える人材戦略の新常識【Sponsored】【テレ東経済ニュースアカデミー】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=qCUn2gHKqlA",
+   "description": "高齢化の影響で介護サービスの需要が高まる中、そのサービスの担い手は慢性的な人手不足に悩まされている。2024年10月時点の介護職員の数は、およそ213万人。厚生労働省の試算によると、2040年までに約60万人の人材を新たに確保する必要があるという。\n今後もサービスを必要とする人が増える続ける介護業界で、どのようにして新規の人材を確保するべきなのか？\n今回の番組では、これからの介護業界を支える「人材戦略の新常識」について、東洋大学 福祉社会デザイン学部 教授の高野龍昭氏、タイミー 取締役の池田俊氏、フリーアナウンサーの福田典子氏が多角的に議論を繰り広げる。\n\n（収録日：2026年10月16日）\n\nゲスト：\n高野 龍昭（東洋大学 福祉社会デザイン学部 教授）\n池田 俊（タイミー 取締役）\n\nMC：\n福田 典子（フリーアナウンサー）\n\nSponsored by タイミー \n\n#タイミー #高野龍昭 #池田俊 #福田典子 #東洋大学福祉社会デザイン学部 #テレ東 #テレ東BIZ"
+  },
+  {
+   "id": "zih3diJFCTg",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "金正恩総書記が核開発施設と核弾頭を視察",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=zih3diJFCTg",
+   "description": "北朝鮮メディアは26日、金正恩朝鮮労働党総書記が核兵器研究所などを視察したと伝え、複数の種類の核弾頭や、多数の遠心分離機が並ぶ施設の内部も公開しました。金総書記は、「敵対勢力の核の脅威を抑止し、報復能力を持つために核・ミサイル開発を加速し続ける」と述べたということです。\n\n#金正恩総書記　#核開発施設　#核弾頭　#視察\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "Z26HYWFlBkI",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "サンタクロースが飛行機で来日 一足先にクリスマスムードをお届け",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=Z26HYWFlBkI",
+   "description": "サンタクロースが飛行機に乗ってやってきました。フィンランドの財団公認のサンタクロースが26日、トナカイが引いたソリではなく、飛行機で成田空港に到着しました。サンタクロースは日本の子どもたちとハイタッチをしたり写真を撮ったりするなど一足先にクリスマスムードを届けました。トナカイではなく飛行機で来た理由については「クリスマスまであと1カ月なのでトナカイを休ませている」との答え。サンタクロースは今後、東京・名古屋・大阪の3都市を巡り、日本中に楽しいクリスマスを届けに行くということです。\n\n#サンタクロース　#フィンランド　#クリスマス\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "HkL73_vNVNA",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "メルカリが不要品の新たな価値を再発見するイベント開催　「ニュートロ」商品の取引量増加傾向",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=HkL73_vNVNA",
+   "description": "フリマアプリを運営するメルカリが、実家にある不要品の新たな価値を再発見するイベントを開催しました。このイベントは年末の帰省や大掃除のシーズンを前に、実家に眠る不要品を発見し出品を後押しするもので、実家をイメージした家にはZ世代に人気の「ニューレトロ＝ニュートロ」というレトロ文化のファッションや電子機器など、1000点にもおよぶ物であふれています。メルカリによりますと、こうしたニュートロ関連商品の取引量が増えていて、価値を生み出す“かくれ財産”は平均して一人当たりおよそ70万円におよぶと言います。\nメルカリ・古澤執行役員「Z世代を中心に（ニュートロ関連商品が）過去3年ぐらいで2倍の取引量。実家の私物には意外な価値が眠っている」\n\n#メルカリ　#不要品　#再発見　#イベント　#ニュートロ　#文化商品　#取引量　#増加傾向　#レトロ文化　#ファッション　#電子機器　#かくれ財産\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "JROCrGqxZro",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "小・中不登校 過去最多35万人超 いじめも最多 文科省調査",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=JROCrGqxZro",
+   "description": "文部科学省は2025年度の不登校やいじめの調査結果を公表し、不登校の児童・生徒は過去最多のおよそ35万9000人となったことが分かりました。2025年度の小・中学校・特別支援学校の不登校の児童・生徒は、13年連続で増加し、過去最多の合わせて35万9424人となりました。また、小・中・高・特別支援学校のいじめの認知件数は79万1784件、いじめの重大事態の発生件数は1798件といずれも過去最多となりました。文科省は、これらの背景としてSNSの普及による人々のコミュニケーションや社会構造の大きな変化などを挙げています。\n\n#文部科学省　#不登校　#いじめ\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "qUCKI7S1Vt4",
+   "channel": "テレ東BIZ",
+   "channel_id": "UCkKVQ_GNjd8FbAuT6xDcWgg",
+   "kind": "経済ニュース(日本語)",
+   "title": "美容医療で後遺症 クリニックを男女11人が提訴",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=qUCKI7S1Vt4",
+   "description": "美容医療を受けた患者が被害を訴えました。美容クリニックで美容医療を受けた男女11人が、クリニック側に説明義務違反があったとしてクリニックを運営する複数の医療法人に対し損害賠償を求める訴えを起こしました。原告の1人は26日の会見で、自身の血液から抽出した成分に細胞の増殖を促す薬を混ぜて注入する「bFGF添加PRP療法」について、十分な説明がないまま施術が行われ、注入した額やまぶたにしこりなどの副作用が残ったと訴えました。この問題を巡っては原告の1人が被害者の会を設立していて、相談を受け付けています。\n\n#美容クリニック　#集団訴訟\n\n仕事や投資に役立つ経済メディア『テレ東BIZ』。\nWBSやモーサテほか、他では見られない記者解説やオリジナル番組が充実\n\n▼▼「テレ東BIZ」はこちら▼▼\nhttps://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video"
+  },
+  {
+   "id": "1mFHEdKnLds",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【都内で広がるAI信号機】気付かぬうちに渋滞1割減 #Shorts",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=1mFHEdKnLds",
+   "description": "#日経電子版 #ニュース #信号機"
+  },
+  {
+   "id": "yBoKAKaKgrw",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【核のごみ、最後はどこへ】フィンランドで世界初の最終処分場稼働へ",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=yBoKAKaKgrw",
+   "description": "フィンランドで原子力発電所から出る使用済み核燃料（核のごみ）の最終処分場が早ければ年内に稼働します。実際の使用済み核燃料を地中に処分すれば世界初となります。地下約430メートルに掘られた埋設場を取材しました。\n\n【日経電子版映像ページ】 http://www.nikkei.com/video/\r\n※日本経済新聞社の動画について改ざんや、許可なく商用・営利 目的で利用することを禁じます。\n#原発 #核設施 #フィンランド"
+  },
+  {
+   "id": "4W0kNR355fI",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【ソフトバンクG、時価総額35兆円喪失】AI株安が「三重苦」に #Shorts",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=4W0kNR355fI",
+   "description": "#日経電子版  #ニュース  #ソフトバンクグループ"
+  },
+  {
+   "id": "bN-kV1aARTQ",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "国家中枢が丸見えに？　位置情報の安保リスクを考える【NIKKEI LIVE】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=bN-kV1aARTQ",
+   "description": "地図、天気、買い物……。私たちは日ごろ、位置情報機能があるスマホアプリを使っています。日本経済新聞の調査で国内の位置情報の一部が海外のオンライン市場で売買されていることが分かりました。取材班が独自に入手したデータを分析すると、政府中枢や防衛施設を出入りする端末の動きが詳細に見えてきました。位置情報が国外に流れる仕組み、政府・企業に求められる対応を解説しました。\n\n出演：太田 祐一 DataSign（データサイン）社長、上林 由宇太 データ・調査報道センター記者、坂井 爽太郎 戦略コンテンツ部ニュースルームエンジニア、岸本 好正 日経LIVE室 プロデューサー兼キャスター\n\n全編を見る（NIKKEI LIVE）\n国家中枢が丸見えに？　位置情報の安保リスクを考える\nhttps://www.nikkei.com/live/event/EVT261119002/live\n\n#位置情報 #安全保障 #調査報道 \n\n【NIKKEI LIVE】 http://www.nikkei.com/live\n※日本経済新聞社の動画について改ざんや、許可なく商用・営利 目的で利用することを禁じます。"
+  },
+  {
+   "id": "Uht70m07mLg",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【AI】都内で広がるAI信号機、気付かぬうちに渋滞1割減【クイック解説】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=Uht70m07mLg",
+   "description": "AIを使った信号制御が東京都内で広がります。実証実験では、渋滞の長さや移動時間が約1割減りました。警視庁は早ければ2027年4月から約8000カ所に導入する方針です。\n【記事】https://www.nikkei.com/article/DGXZQOUD292PN0Z20C26A9000000/\n【日経電子版映像ページ】 http://www.nikkei.com/video/\r\n※日本経済新聞社の動画について改ざんや、許可なく商用・営利 目的で利用することを禁じます。\n#ai  #交通 #信号機"
+  },
+  {
+   "id": "rvrojYeeH2g",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【カスハラ客は降りて！】 国土交通省はバスやタクシー業界のルールのひな型となる約款を改正し、カスハラをやめない客には運転手が途中下車を求められると明示します。#Shorts",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=rvrojYeeH2g",
+   "description": "#カスハラ #バス #タクシー #日経電子版 #ニュース"
+  },
+  {
+   "id": "i0AY7dAlpO4",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "オルセー展を生解説　「落穂拾い」に見るアート革命【NIKKEI LIVE】",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=i0AY7dAlpO4",
+   "description": "東京都美術館での「オルセー美術館所蔵　いまを生きる歓（よろこ）び」展。展示の目玉はご存じ「落穂拾い」です。庶民の暮らしを描いたミレーの時代の作品は、芸術を一般市民に解放する「アート革命」の原動力となりました。オルセー展を経済の視点からも読み解き、より楽しめる生中継を展覧会場からお届けしました。\n\n出演：大橋 菜都子 東京都美術館学芸員、窪田 直子 編集委員兼論説委員、水原 恵理 テレビ東京アナウンサー、北川 莉央 テレビ東京アナウンサー\n\nNIKKEI LIVEで全編を見る\nオルセー展を生解説　「落穂拾い」に見るアート革命\nhttps://www.nikkei.com/live/event/EVT261008002/live\n\n#美術展 #美術展 #西洋美術 #東京都美術館 #水原恵理 #北川莉央\n\n【NIKKEI LIVE】 http://www.nikkei.com/live\n※日本経済新聞社の動画について改ざんや、許可なく商用・営利 目的で利用することを禁じます。"
+  },
+  {
+   "id": "qbvP-wYVd2Q",
+   "channel": "日本経済新聞",
+   "channel_id": "UCHL12woHGeiqAqLrK-pJe7g",
+   "kind": "経済ニュース(日本語)",
+   "title": "【東海道新幹線のぞみ停車駅、乗車口の電光案内板撤去へ】 #Shorts",
+   "published": "2026-11-26",
+   "url": "https://www.youtube.com/watch?v=qbvP-wYVd2Q",
+   "description": "#のぞみ #新幹線 #日経電子版 #ニュース"
+  }
+ ]
+}
