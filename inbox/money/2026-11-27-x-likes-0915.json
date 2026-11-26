@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-27",
+ "kind": "money",
+ "items": [
+  {
+   "from": "JPMorgan、BlackRock、Goldman Sachs、DST Global、Arch Venture Partners、ジェフ・ベゾスほか",
+   "to": "Prometheus(旧Project Prometheus)",
+   "kind": "出資",
+   "amount": "120億ドル(シリーズB。評価額 約410億ドル)",
+   "date": "2026-06-11",
+   "region": "米国",
+   "note": "祐真さんのXのいいね(TechFlowPostさんの投稿、11/26。「累計180億ドル超の資金調達」)から。ジェフ・ベゾスとヴィク・バジャジが共同CEOの産業AIの会社(設計から製造までをAIでつなぐ「artificial general engineer」)。GeekWireの記事本文を開いて、6/11にシリーズB 120億ドル・評価額約410億ドルを発表したこと、ベゾスも参加したことを確認(出資者の名前はAxiosの報道から)。前のシリーズAは62億ドルで、ベゾスが最大の出資者(同じ記事)。相関図には会社の点(評価額410億ドル)はあるが、この出資の線は inbox/money に無かった。",
+   "src": [
+    [
+     "Bezos' AI startup Prometheus raises $12B at $41B valuation(GeekWire、2026-06-11)",
+     "https://www.geekwire.com/2026/bezos-ai-startup-prometheus-raises-12b-at-41b-valuation-and-the-ceos-explain-what-theyre-doing/"
+    ],
+    [
+     "Prometheus, Jeff Bezos' AI startup, is now worth $41 billion(Axios、2026-06-11)",
+     "https://www.axios.com/2026/06/11/prometheus-bezos-industrial-ai"
+    ],
+    [
+     "TechFlowPostさんのX(2026-11-26)",
+     "https://x.com/TechFlowPost/status/2125938503003361724"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "2026-11-27 9:15の回のXのいいね・保存の読み取り(保存7件・いいね16件を見て、前の回より新しい分は保存2件・いいね11件)。Cat Wu・Thariq ShihiparのOpenAI移籍(nayuenginさんの投稿)は既にある。他はAIの使い方・雑談で、人の動き・出資・買収ではないので見送り。"
+}
