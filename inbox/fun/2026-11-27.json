@@ -1,0 +1,45 @@
+{
+ "date": "2026-11-27",
+ "kind": "fun",
+ "items": [
+  {
+   "cat": "quote",
+   "p": "ジェフ・ベゾス(Amazon)",
+   "en": "Jeff Bezos",
+   "t": "「失敗も、会社の大きさに合わせて大きくならないといけない」",
+   "note": "2018年版の株主あての手紙(2019年4月公表)の一節。会社が大きくなったら失敗の実験の大きさも育たないと、大きな発明にならないと書き、「ときどき数十億ドル規模の失敗があるくらいがちょうどいい」という考えを示している。",
+   "q": "Amazon will be experimenting at the right scale for a company of our size if we occasionally have multibillion-dollar failures.",
+   "y": "2019",
+   "cf": "o",
+   "chk": "o",
+   "asof": "2026/11/27",
+   "src": [
+    [
+     "Amazon 2018年 株主あての手紙(Amazon公式)",
+     "https://www.aboutamazon.com/news/company-news/2018-letter-to-shareholders"
+    ]
+   ],
+   "link": "amazon"
+  },
+  {
+   "cat": "quote",
+   "p": "ジェフ・ベゾス(Amazon)",
+   "en": "Jeff Bezos",
+   "t": "自分たちの「何十億ドル分もの失敗」から高い基準を学んだ",
+   "note": "2017年版の株主あての手紙(2018年4月公表)の書き出し近く。成功だけでなく「何十億ドル分もの失敗」もあったと認めたうえで、そこで学んだ「高い基準の作り方」を株主に共有している。",
+   "q": "We’ve also had billions of dollars’ worth of failures along the way.",
+   "y": "2018",
+   "cf": "o",
+   "chk": "o",
+   "asof": "2026/11/27",
+   "src": [
+    [
+     "Amazon 2017年 株主あての手紙(Amazon公式)",
+     "https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders"
+    ]
+   ],
+   "link": "amazon"
+  }
+ ],
+ "notes": "今日の欄=quote(金)。Geminiは1回使ったが、候補が資金調達の話に寄って欄に合わず不採用(WebSearch不使用、Amazon公式の株主あての手紙2018・2017を直接開いて原文を確認)。ベゾス2015年の「失敗と発明」・ザッカーバーグS-1の「Move fast」は既にあるので外した。Google創業者の手紙は403で開けず外した。"
+}
