@@ -30,3 +30,34 @@
 - 保存87件・いいね38件を見て、新しい分は約10件
 - 足した: Thariq Shihipar(Anthropic → OpenAI)、Anthony Morris(Anthropicを退社)、カオスマップ・AI 100から出資・買収18件
 - 見送り: Cat Wu・Austin Lau(既にある)、Lindy・Rye(出典が食い違う・確かめられない)
+
+## 定期タスクの登録(2026-11-26時点で未登録)
+Claudeから定期タスクを作ろうとしたが、自動モードの安全確認に断られた。祐真さんがPCのClaudeアプリで登録する。
+1. Claudeアプリの「予定作業」(Scheduled)で新しい作業を作る
+2. 名前: `【毎晩】Xのいいね・保存からAIのつながりを拾う`
+3. 頻度: 毎日 21:15(`15 21 * * *`)
+4. 本文: 下の四角の中をそのまま貼る
+
+```text
+あなたは祐真さんのPCで動く。祐真さんのXのいいね・保存(ブックマーク)の新しい分から、AIの会社・人の動き(移籍)・出資・買収を拾い、確かめてから相関図リポジトリ(GitHub: yumatakeshita-dotcom/ai-soukanzu)に足す。報告は平易な日本語で。
+
+【守ること】
+- Xは読むだけ。いいね・保存の解除、投稿、フォロー、リポスト、返信はしない
+- データは消さず足すだけ。別の出典で確かめが通ったものだけ足す
+- 画像は転載しない(リンクと説明だけ)
+- python scripts/merge_inbox.py は実行しない
+- PRはマージしない(本人が「マージして」と言うまで待つ)
+- 個人情報を外部サービスに送らない
+
+【手順】
+1. git fetch origin のあと、origin/main から claude/x-likes-YYYYMMDD(今日の日付)のブランチを作る。CLAUDE.md、docs/x_likes_daily_pc.md、docs/x_daily_pc.md を先に読む。docs/x_likes_daily_pc.md の「どこまで読んだか」の一番下の行が前回の続きの目印。
+2. ChromeのClaude拡張(mcp__claude-in-chrome__*。ToolSearchでまとめて読み込む)で x.com/i/bookmarks を開き、「読み方のコツ」どおりに保存を読む。続けて「いいね」のタブに切り替えて読む。目印より新しい分だけを見る。
+3. AIの会社・人の動き・出資・買収に当たるものを選び、git grep -i 名前 origin/main -- inbox site/data で既にあれば足さない。
+4. 人の動きは本人のXのプロフィールと投稿で、出資・買収は会社の発表か報道の本文で確かめる。移籍先が確かめられない退社は to を「(未発表)」にする。
+5. 通ったものを inbox/moves/YYYY-MM-DD-x-likes.json と inbox/money/YYYY-MM-DD-x-likes.json に足す(形式は inbox/moves/2026-11-26-x-bookmarks-2.json と inbox/money/2026-11-26-x-bookmarks-3.json と同じ)。「どこまで読んだか」に今回の一番上の投稿IDを1行足す(0件でも足す)。
+6. commit(作者 Claude <noreply@anthropic.com>、末尾に Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>)、push。足したものがあれば、git credential fill のトークンで GitHub API に下書きPR(draft:true, base:main)を作り、yumatakeshita-dotcom を担当者にする。本文の先頭に次の2行、末尾に 🤖 Generated with [Claude Code](https://claude.com/claude-code):
+<!-- claude-projects-attribution: {"github_login":"yumatakeshita-dotcom"} -->
+_Requested by **祐真** · [project thread](https://claude.ai/code/project/chan_01TAs4swRT2S9aZ3shCp4iCo?thread=cmsg_01TAs4swRT2S9aZ3shCp4iCo5oXDveEkoiGsRWYVfRVwCP)_
+7. 開いたタブを閉じる。
+8. 報告: 見た件数、新しい分の件数、足した数と中身、見送った数と理由、PRのURL。最後に次の候補を2〜3個。
+```
