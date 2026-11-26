@@ -212,3 +212,15 @@
 @TheStalwart | money,deep | Bloomberg。市場とAI投資
 @ELYZA_inc | deep,money | 日本のLLM企業(松尾研発)
 @itmedia_news | deep,money | 日本のITニュース媒体
+
+# --- 自動で追加 (2026-11-27) --- x_check.py で表示名と自己紹介を確認
+@ReutersTech | money,moves | ロイターのテック報道
+@Bloomberg | money,moves | ブルームバーグ公式
+@sarahfrier | moves,deep | Bloomberg。大手テック担当
+@firstround | vc,deep | 初期VC公式(First Round)
+@foundersfund | vc,money | VC公式(Founders Fund)
+@ThriveCapital | vc,money | VC公式。AI大型投資
+@sparkcapital | vc,money | VC公式(Spark Capital)
+@insightpartners | vc,money | 成長投資VC公式
+@CyberAgent_PR | money,deep | サイバーエージェント広報・IR
+@PreferredNetJP | deep,money | PFN日本語公式
