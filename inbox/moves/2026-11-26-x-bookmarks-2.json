@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-26",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Thariq Shihipar",
+   "name_ja": "サリク・シヒパル",
+   "from": "Anthropic(Claude Codeのエンジニア)",
+   "to": "OpenAI",
+   "role": "役職名は未発表",
+   "date": "2026-11-25",
+   "note": "祐真さんのXのいいね(本人の投稿)と保存(easyjacksonさんの投稿、11/25)から。本人が11/25にXで「OpenAIに加わった」と投稿し、Xの自己紹介も「at your service @openai, formerly Claude Code @anthropicai」(2026/11/26にPCのブラウザで直接確認)。11/25公開のYouTube動画の題名にも「Thariq Shihipar, OpenAI」とある(inbox/media/2026-11-26-2.json)。報道ではまだ確かめられていない。",
+   "src": [
+    [
+     "Thariq本人のX(2026-11-25)",
+     "https://x.com/trq212/status/2125675533761671405"
+    ],
+    [
+     "Thariq本人のXのプロフィール(2026-11-26確認)",
+     "https://x.com/trq212"
+    ],
+    [
+     "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI(YouTube、2026-11-25)",
+     "https://www.youtube.com/watch?v=Qe9d9dWyED0"
+    ]
+   ],
+   "confidence": "本人の発言"
+  },
+  {
+   "name_en": "Anthony Morris",
+   "name_ja": "アンソニー・モリス",
+   "from": "Anthropic(Claude Codeのデスクトップ版を作った人)",
+   "to": "(未発表)",
+   "role": "退社(移籍先は未発表)",
+   "date": "2026-10-23",
+   "note": "祐真さんのXの保存(easyjacksonさんの投稿、11/25)では「OpenAIへ移籍した4人」の1人とされているが、OpenAIへの移籍は確かめられなかった。本人のXで確かめられたのは退社だけ(10/24の投稿で「昨日がAnthropicの最終日」)。Xの自己紹介は2026/11/26時点でも「created claude code on desktop @anthropicAI」のまま。報道(Magica、FourWeekMBA)も移籍先は書いていない。移籍先が発表されたら足す。",
+   "src": [
+    [
+     "Anthony Morris本人のX(2026-10-24)",
+     "https://x.com/amorriscode/status/2113972174524674247"
+    ],
+    [
+     "Claude Code desktop creator Anthony Morris leaves Anthropic(Magica)",
+     "https://magica.com/news/anthony-morris-claude-code-desktop-leaves-anthropic"
+    ]
+   ],
+   "confidence": "本人の発言"
+  }
+ ],
+ "notes": "2026-11-26 2回目のXのいいね・保存の読み取り(保存87件・いいね38件を見て、前回以降の新しい分は約10件)。同じ投稿にあったCat Wu・Austin LauはOpenAIへの移籍として既に inbox/moves にあるので足さない。読むだけで操作はしていない。"
+}
