@@ -31,6 +31,13 @@
 - 足した: Thariq Shihipar(Anthropic → OpenAI)、Anthony Morris(Anthropicを退社)、カオスマップ・AI 100から出資・買収18件
 - 見送り: Cat Wu・Austin Lau(既にある)、Lindy・Rye(出典が食い違う・確かめられない)
 
+## いいね・保存した人の印(2026-11-26追加)
+相関図の人物カードの「X @名前」の横に「♡ いいね・保存した人」の印を出す。データは `site/index.html` の `/*XLIKED_START*/〜/*XLIKED_END*/`(`XLIKED`)。
+- 足し方: `python scripts/x_liked_add.py アカウント:種類:日付 ...`(種類 b=保存 l=いいね bl=両方。足すだけで、すでにある人は書き換えない)
+- 足すのは、AIに関係するアカウントだけ(相関図の人物のX、`inbox/x_accounts.txt` の見る一覧、相関図に足した手がかりの投稿者)。友人や関係のないアカウントは公開ページに出さないため足さない
+- 相関図の人物のXアカウントは、index.html の会社ごとの `const X={...}` と `site/x_info.json` にある
+- 2026-11-26: 保存約115件・いいね直近約760件(367アカウント)を照らし、15アカウントに印を付けた(相関図の人物ではイーロン・マスク、ミラ・ムラティ、青柳直樹など)
+
 ## 定期タスクの登録(2026-11-26時点で未登録)
 Claudeから定期タスクを作ろうとしたが、自動モードの安全確認に断られた。祐真さんがPCのClaudeアプリで登録する。
 1. Claudeアプリの「予定作業」(Scheduled)で新しい作業を作る
@@ -55,6 +62,7 @@ Claudeから定期タスクを作ろうとしたが、自動モードの安全�
 3. AIの会社・人の動き・出資・買収に当たるものを選び、git grep -i 名前 origin/main -- inbox site/data で既にあれば足さない。
 4. 人の動きは本人のXのプロフィールと投稿で、出資・買収は会社の発表か報道の本文で確かめる。移籍先が確かめられない退社は to を「(未発表)」にする。
 5. 通ったものを inbox/moves/YYYY-MM-DD-x-likes.json と inbox/money/YYYY-MM-DD-x-likes.json に足す(形式は inbox/moves/2026-11-26-x-bookmarks-2.json と inbox/money/2026-11-26-x-bookmarks-3.json と同じ)。「どこまで読んだか」に今回の一番上の投稿IDを1行足す(0件でも足す)。
+5b. 今回の新しい分の投稿者のうち、AIに関係するアカウント(相関図の人物のX・inbox/x_accounts.txt の見る一覧・足した手がかりの投稿者)を python scripts/x_liked_add.py アカウント:種類:日付 で「いいね・保存した人」の印に足す(足すだけ。友人など関係のないアカウントは足さない)。
 6. commit(作者 Claude <noreply@anthropic.com>、末尾に Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>)、push。足したものがあれば、git credential fill のトークンで GitHub API に下書きPR(draft:true, base:main)を作り、yumatakeshita-dotcom を担当者にする。本文の先頭に次の2行、末尾に 🤖 Generated with [Claude Code](https://claude.com/claude-code):
 <!-- claude-projects-attribution: {"github_login":"yumatakeshita-dotcom"} -->
 _Requested by **祐真** · [project thread](https://claude.ai/code/project/chan_01TAs4swRT2S9aZ3shCp4iCo?thread=cmsg_01TAs4swRT2S9aZ3shCp4iCo5oXDveEkoiGsRWYVfRVwCP)_

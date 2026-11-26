@@ -36420,6 +36420,9 @@ Object.assign(DS,{
  v_kress:['NVIDIA公式発表(2026/11/12、コレット・クレスが暫定CEOに。CFOを兼ねる)','https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition','o'],
  v_metaproxy:['Meta 株主総会の招集通知(SEC DEF 14A、2026/4/16、BlackRock系が5%超の株主・クラスA株の7.2%)','https://www.sec.gov/Archives/edgar/data/1326801/000162828026025532/meta-20260416.htm','f'],
 });
+// ===== いいね・保存した人(2026/11/26追加): 祐真さんがXでいいね・保存した投稿のアカウント。人物カードの「X @名前」の横に印を出す。scripts/x_liked_add.py で足すだけ
+/*XLIKED_START*/ const XLIKED={"0xlogicrw": {"d": "2026-11-25", "k": "いいね・保存"}, "bizlab09": {"d": "2026-11-15", "k": "いいね・保存"}, "ctgptlb": {"d": "2026-11-16", "k": "いいね・保存"}, "elonmusk": {"d": "2026-11-25", "k": "いいね・保存"}, "miramurati": {"d": "2026-11-24", "k": "いいね"}, "naoki": {"d": "2026-07-17", "k": "いいね"}, "nikkei": {"d": "2026-08-24", "k": "いいね"}, "nikkei_startup": {"d": "2026-11-12", "k": "いいね・保存"}, "ozarnozarn": {"d": "2026-11-16", "k": "いいね・保存"}, "piazzzzzz": {"d": "2026-11-25", "k": "保存"}, "poteto": {"d": "2026-11-24", "k": "いいね・保存"}, "qihang_zeng6688": {"d": "2026-11-21", "k": "いいね・保存"}, "tmiyatake1": {"d": "2026-11-26", "k": "いいね・保存"}, "trq212": {"d": "2026-11-25", "k": "いいね"}, "usant_idea": {"d": "2026-11-25", "k": "いいね・保存"}}; /*XLIKED_END*/
+function xLikedBadge(h){const o=XLIKED[String(h||'').toLowerCase()];return o?` <span class="xliked" title="Xで${o.k}した投稿のアカウント(${o.d}の投稿まで)" style="color:var(--invest);font-size:.85em;white-space:nowrap">♡ いいね・保存した人</span>`:''}
 const VERIFY_PPL=[
  ['イリヤ・スツケバー','Safe Superintelligence','x_ilya','本人のXのプロフィールで確認','moved','2026/11/22'],
  ['アンドレイ・カルパシー','Eureka','x_karp','本人のXの投稿で確認','moved','2026/11/22'],
@@ -37147,7 +37150,7 @@ function renderPanel(id){
   const face=PH[id]?`<img class="face" src="${PH[id]}" alt="${n.name}の顔写真" ${PHX[EN[id]]&&PHX[EN[id]].i===PH[id]?`title="写真の出どころ: ${PHX[EN[id]].s}" `:''}style="border-color:${col}">`
     :`<div class="face ph" style="background:${col};border-color:${col}">${initials(n)||n.name[0]}</div>`;
   const L=[];
-  if(X[id])L.push(`<a href="https://x.com/${X[id]}" target="_blank" rel="noopener">X @${X[id]}</a>`);
+  if(X[id])L.push(`<a href="https://x.com/${X[id]}" target="_blank" rel="noopener">X @${X[id]}</a>${xLikedBadge(X[id])}`);
   (LINKS[id]||[]).forEach(([t,u])=>L.push(`<a href="${u}" target="_blank" rel="noopener">${t}</a>`));
   if(EN[id]){
     if(!X[id])L.push(`<a href="${xs(n)}" target="_blank" rel="noopener">Xで検索</a>`);
