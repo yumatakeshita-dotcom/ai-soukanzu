@@ -297,7 +297,113 @@
    ],
    "confidence": "報道",
    "via": "depth"
+  },
+  {
+   "from": "Menlo Ventures(主導)・EQT運用のScaleup Europe Fund(共同主導)・Tencent・Balderton ほか",
+   "to": "Lovable",
+   "kind": "出資(Series C)",
+   "amount": "4億ドル(評価額133億ドル)",
+   "date": "2026-08-12",
+   "note": "既存投資家のAccel・CapitalG・Salesforce Venturesも参加。累計調達は9.3億ドル超と報道。(深掘り・報道で確認。Geminiは枠切れのため検索で直接確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "SiliconANGLE(2026-08-12)",
+     "https://siliconangle.com/2026/08/12/vibe-coding-startup-lovable-doubles-valuation-13-3b-400m-raise/"
+    ],
+    [
+     "Tech.eu",
+     "https://tech.eu/2026/08/12/lovables-valuation-doubles-to-13bn-as-raises-400m/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "CapitalG・Menlo Ventures(主導)",
+   "to": "Lovable",
+   "kind": "出資(Series B)",
+   "amount": "3.3億ドル(評価額66億ドル)",
+   "date": "2025-12-18",
+   "note": "(深掘り・報道で確認。Geminiは枠切れのため検索で直接確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2025-12-18)",
+     "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "Nvidia",
+   "to": "Poolside",
+   "kind": "出資+モデル技術のライセンス",
+   "amount": "出資最大10億ドル・ライセンス60億ドル(投資家宛て書簡の報道)",
+   "date": "2026-08-20",
+   "note": "事前評価額120億ドル。Nvidiaが技術を使う権利を得て109人を採用と報道(Latent Space)。会社の公式発表は未確認。2025年10月に出ていた20億ドル調達の報道は成立しなかった可能性。(深掘り・報道で確認。Geminiは枠切れのため検索で直接確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Next Web",
+     "https://thenextweb.com/news/nvidia-poolside-6bn-model-factory-licence"
+    ],
+    [
+     "Dealroom",
+     "https://dealroom.co/news/146210-poolside-ais-6b-nvidia-licensing-deal-reshapes-the-model-building-race/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "Georgian(主導)・G Squared・Prysm Capital",
+   "to": "Replit",
+   "kind": "出資(Series D)",
+   "amount": "4億ドル(評価額90億ドル)",
+   "date": "2026-03-12",
+   "note": "CEOのAmjad MasadがLinkedInで発表と報道(投稿本文は未確認)。2025年9月は2.5億ドル・評価額30億ドル(Prysm主導)。(深掘り・報道で確認。Geminiは枠切れのため検索で直接確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "SiliconANGLE(2026-03-12)",
+     "https://siliconangle.com/2026/03/12/vibe-coding-startup-replit-closes-400m-round-9b-valuation/"
+    ],
+    [
+     "Built In",
+     "https://builtin.com/articles/replit-rasies-400m-series-d-9b-valuation-20260313"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "Google",
+   "to": "Character.AI",
+   "kind": "提携(技術ライセンス)+共同創業者のGoogle復帰",
+   "amount": "総額約27億ドルと報道",
+   "date": "2024-08-02",
+   "note": "Noam Shazeer・Daniel De FreitasがGoogleへ。Character.AIは追加資金を得るが金額は非公開。2025年6月にMeta出身のKarandeep Anandが CEOに就任。(深掘り・報道で確認。Geminiは枠切れのため検索で直接確認)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Bloomberg(2024-08-02)",
+     "https://www.bloomberg.com/news/articles/2024-08-02/character-ai-co-founders-hired-by-google-in-licensing-deal"
+    ],
+    [
+     "TechCrunch(2025-06-20)",
+     "https://techcrunch.com/2025/06/20/character-ai-taps-metas-former-vp-of-business-products-as-ceo"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
   }
  ],
- "notes": "OpenAI・Anthropic・xAI深掘り。Gemini候補のうち出典を検索・公式ページで確かめられたものだけ。xAI共同創業者の退任(2026-02〜03、Tony Wu・Jimmy Ba・Kroiss・Nordeen。報道: TheNextWeb 2026-03-28, TechCrunch 2026-02-13)は移籍先が未確認のため移籍には入れていない。Anthropic IPO(1株83ドル)・Oracle3,000億ドル・Broadcom提携・OpenAI Deployment Company・各種取締役の就任は未確認で見送り。 追記(薄い順の深掘り): Midjourney・Skild AIを確認。Skild Series A/B・ABB/Vingroup提携は出典ページを開けず見送り。"
+ "notes": "OpenAI・Anthropic・xAI深掘り。Gemini候補のうち出典を検索・公式ページで確かめられたものだけ。xAI共同創業者の退任(2026-02〜03、Tony Wu・Jimmy Ba・Kroiss・Nordeen。報道: TheNextWeb 2026-03-28, TechCrunch 2026-02-13)は移籍先が未確認のため移籍には入れていない。Anthropic IPO(1株83ドル)・Oracle3,000億ドル・Broadcom提携・OpenAI Deployment Company・各種取締役の就任は未確認で見送り。 追記(薄い順の深掘り): Midjourney・Skild AIを確認。Skild Series A/B・ABB/Vingroup提携は出典ページを開けず見送り。 追記: Lovable・Poolside・Replit・Character.AIを検索で直接確認(Gemini枠切れ)。Geminiのやり直し列にも足してある。"
 }

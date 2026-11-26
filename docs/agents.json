@@ -811,6 +811,36 @@
         "scripts/quality_check.py"
       ],
       "note": "2026/11/21に作成(初回は11/22朝)。見張り番(10:31)は『動いたか』、この係は『中身が使えるか』を見る。"
+    },
+    {
+      "id": "depth",
+      "group": "調べる係",
+      "name": "薄さ係(深掘り役)",
+      "tagline": "主要AI約50社の情報の薄さを点数にして、いちばん薄い会社を毎週深掘りする",
+      "scope": "相関図の線・人物の数から資金・幹部・移籍・提携・子会社の薄さを出す。薄い順に上位3社を、検索(Geminiの枠が残る日はGeminiも)で調べ、公式・報道で確かめたものだけ inbox/money・inbox/moves に足す。",
+      "sources": [
+        "site/index.html(相関図)",
+        "公式発表・SEC・大手報道・本人のX"
+      ],
+      "when": "毎週 月曜 8:47",
+      "outputs": [
+        "inbox/depth/latest.md・latest.json",
+        "inbox/money/日付-depth.json・inbox/moves/日付-depth.json"
+      ],
+      "limits": "Geminiは全係あわせて1日19回まで(薄さ係は使っても3回まで)。確かめられないものは入れない。足すだけで消さない。",
+      "tasks": [
+        {
+          "name": "薄さ係 深掘り 毎週",
+          "id": "trig_0142C1XUNCkbiuJLZnKn4feu",
+          "cron": "毎週 月曜 8:47",
+          "on": true
+        }
+      ],
+      "helpers": [
+        "scripts/depth_score.js",
+        "scripts/depth_rank.py"
+      ],
+      "note": "2026/11/26追加。最重要のOpenAI・Anthropic・xAIは薄さ一覧の順位に関わらず毎月見直す。"
     }
   ],
   "gemini_budget": {
