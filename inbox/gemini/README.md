@@ -4,6 +4,78 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-27-2　Nvidiaの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Jensen Huang Nvidia CEO return 2026
+- Nvidia CEO Jensen Huang resignation
+- Nvidia executive changes 2025-2026
+- Nvidia investments acquisitions partnerships 2025-2026
+- Nvidia Anthropic investment
+- Nvidia SoftBank partnership
+- Nvidia new board members 2025-2026
+- Nvidia personnel movements 2025-2026
+
+**出てきた候補**
+
+- Nvidia → 退任 → (2026-11-12)
+- Nvidia → 就任 (暫定) → (2026-11-12)
+- Nvidia → 就任 → (2026-11-12)
+- Nvidia → 就任 (復帰) → (2026-11-23)
+- Nvidia → 出資 → Anthropic(2025-11-18)
+- Nvidia → 買収 (合意) → Hugging Face(2026-08-26)
+- Nvidia → 出資 → SB Energy(2026-08-17)
+- Nvidia → 取引・人材移籍 → Groq(2025-12)
+- Nvidia → 提携 (資金調達プラットフォーム) → Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR(2026-08-10)
+- Nvidia → 就任 → (2026-08-24)
+
+記録ファイル: inbox/gemini/2026-11-27-2.json / 2026-11-27-2.md
+
+## 2026-11-27　直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業
+
+- モデル: gemini-2.5-flash　/　候補 9件
+
+**Geminiが打った検索の言葉**
+
+- AI startup acquisition November 25 2026
+- AI startup acquisition November 26 2026
+- AI startup acquisition November 27 2026
+- new AI company founded November 25 2026
+- new AI company founded November 26 2026
+- new AI company founded November 27 2026
+- major tech company AI investment November 25 2026
+- major tech company AI investment November 26 2026
+- major tech company AI investment November 27 2026
+- semiconductor company AI investment November 25 2026
+- semiconductor company AI investment November 26 2026
+- semiconductor company AI investment November 27 2026
+- SaaS company AI acquisition November 25 2026
+- SaaS company AI acquisition November 26 2026
+- SaaS company AI acquisition November 27 2026
+- Anthropic IPO major investors November 2026
+- NVIDIA AI investment November 2026
+- Google AI acquisition November 2026
+- Microsoft AI acquisition November 2026
+- Amazon AI acquisition November 2026
+- Salesforce AI acquisition November 2026
+
+**出てきた候補**
+
+- Amazon → 買収 → Decart(2026-11-23)【除外】
+- Workday → 買収 → C1.ai(2026-11-25)【保留】
+- Advanced Micro Devices (AMD) → 買収 → Taalas(2026-11-26)【保留】
+- BlackSky → 買収 → EpochGeo(2026-11-25)【保留】
+- Epochal → 新規設立 → (2026-11-24)【合格】
+- Marlowe AI → 新規設立 → (2026-11-25)【合格】
+- Omni X → 新規設立 → (2026-11-25)【保留】
+- Google, NVIDIA, AMD, Broadcom, Micron, Microsoft, TSMC → 出資 → Anthropic(2026-11-20)【合格】
+- Simmtech → 資金調達 → (2026-11-26)【合格】
+
+記録ファイル: inbox/gemini/2026-11-27.json / 2026-11-27.md
+
 ## 2026-11-26-recheck　保留の確かめ直し
 
 - モデル: (不明)　/　候補 3件

@@ -1,0 +1,569 @@
+{
+ "date": "2026-11-27",
+ "source": "inbox/gemini/2026-11-27-2.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "退任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-12",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "確かさ": "公式",
+    "備考": "",
+    "人物": "Jensen Huang",
+    "役職": "President, CEO, Board member",
+    "移籍元": "Nvidia",
+    "src": [
+     [
+      "NVIDIA News Release (via Vertex AI Search)",
+      "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH92X_qSNgXDHzAW68HDzxh3k17jYiTkC6xb2HdBxF84qSJG34HRCHjbsVvAkWgR20HJCB2OM2ApFX7gyHGvRG4KKlw51BBN6ptqOVlGxyQSIXqmDtknE4eCZb0JUjA4LZVqeNosvPFmFNz94paIRupSceFc5h07RSTC6iYw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+     "names_on_page": [
+      "Nvidia",
+      "Jensen Huang"
+     ]
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "就任 (暫定)",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-12",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "確かさ": "公式",
+    "備考": "CFO兼任",
+    "人物": "Colette Kress",
+    "役職": "Interim Chief Executive Officer",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "NVIDIA News Release (via Vertex AI Search)",
+      "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH92X_qSNgXDHzAW68HDzxh3k17jYiTkC6xb2HdBxF84qSJG34HRCHjbsVvAkWgR20HJCB2OM2ApFX7gyHGvRG4KKlw51BBN6ptqOVlGxyQSIXqmDtknE4eCZb0JUjA4LZVqeNosvPFmFNz94paIRupSceFc5h07RSTC6iYw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+     "names_on_page": [
+      "Nvidia",
+      "Colette Kress"
+     ]
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-12",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "確かさ": "公式",
+    "備考": "Nvidia初の取締役会会長",
+    "人物": "Harvey C. Jones",
+    "役職": "Chair of the Board",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "NVIDIA News Release (via Vertex AI Search)",
+      "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHH92X_qSNgXDHzAW68HDzxh3k17jYiTkC6xb2HdBxF84qSJG34HRCHjbsVvAkWgR20HJCB2OM2ApFX7gyHGvRG4KKlw51BBN6ptqOVlGxyQSIXqmDtknE4eCZb0JUjA4LZVqeNosvPFmFNz94paIRupSceFc5h07RSTC6iYw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+     "names_on_page": [
+      "Nvidia",
+      "Harvey C. Jones"
+     ]
+    },
+    "dup": "同じ出典URLがすでにある",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 同じ出典URLがすでにある"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "就任 (復帰)",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-11-23",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "確かさ": "公式",
+    "備考": "全会一致で取締役会が再任。米政府高官からの情報も考慮。",
+    "人物": "Jensen Huang",
+    "役職": "President, Chief Executive Officer, Board member",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "NVIDIA Newsroom",
+      "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcdOkZ2Sf-X8K-0vF-r9oj1-7rtwvsZorCSvZAdCG_P5PjJ2s2OW8odhs4F3077vB9IZ1n2is9ReTlXnG9ix_Vs_o4Ycg_EJNiw7ZVGqjDblg7GDLNCbYP4tH8D5bpY3lJBIf-S31saVuH2iwNzfur5dNkKZPc2cLIq9EKoJdCavH7cy31H1OJSeUeJUq7p-byWI1iSgUz3_TBG1TVddNWQkbvMzaE",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "NVIDIA Board Reinstates Jensen Huang as President, CEO and B",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+     "names_on_page": [
+      "Nvidia",
+      "Jensen Huang"
+     ]
+    },
+    "dup": "「Nvidia」と「Jensen Huang」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Jensen Huang」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "出資",
+    "相手": "Anthropic",
+    "金額": "100億ドル (上限)",
+    "日付": "2025-11-18",
+    "出典URL": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+    "確かさ": "公式",
+    "備考": "AnthropicはNvidiaから最大1ギガワットの計算能力を購入することに合意。Microsoftも50億ドル出資。",
+    "src": [
+     [
+      "Microsoft, NVIDIA and Anthropic Announce Strategic Partnership",
+      "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia",
+     "Anthropic"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgcZSoHmP_Qrg66_Ocit-mAzAa0HfXQuPMEPgPAXRp9gw95iPpmlM2d-LLCcPdyHQBOkJ2nbpmqH2iNpOiXVI7dRwtWRrc9i8k0b5VPBxjCr-l8YynS8hKzH0Pp_DVAD-DlSUmkcM-FXYocsgITDjRTt2TY9bVX1gnU9KOYV6ShB_KB6gcFNaC6Q==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Microsoft, NVIDIA and Anthropic Announce Strategic Partnersh",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia",
+      "Anthropic"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://blogs.nvidia.com/blog/microsoft-nvidia-anthropic-announce-partnership/",
+     "names_on_page": [
+      "Nvidia",
+      "Anthropic"
+     ]
+    },
+    "dup": "「Nvidia」と「Anthropic」の組み合わせがすでにある(site/index.html)",
+    "date": [
+     "ページの公開日(2026-10-29)と345日ずれる"
+    ],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Anthropic」の組み合わせがすでにある(site/index.html)",
+    "日付: ページの公開日(2026-10-29)と345日ずれる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "買収 (合意)",
+    "相手": "Hugging Face",
+    "金額": "約129億ドル",
+    "日付": "2026-08-26",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_upcuNc_9-C_ThFIpp0eva4P61gUZaudjNmjo4J5DD33p2to5U3SqabUfZVihKGsBv56iyCiedWe8XZ4fAFDH4MzgA15qQmzg4Yad8Z-3i8GVgQ8ILy3yveFdDr3tZEVjnp9orPG4ZQBhGI9dMBb4FjjY4yq8GpyhavFAPeWpPV5evYjmybsLElyog1OtaVGz-1niBW6pxK96QscDxA98mgu6MnHrRsWaAhot4LBzRlUtwZTUHQ==",
+    "確かさ": "報道",
+    "備考": "Nvidia CFO Colette Kressが確認。2027年前半に完了予定。",
+    "src": [
+     [
+      "From OpenAI to Hugging Face, Which AI Companies Has Nvidia Invested in in 2026?",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_upcuNc_9-C_ThFIpp0eva4P61gUZaudjNmjo4J5DD33p2to5U3SqabUfZVihKGsBv56iyCiedWe8XZ4fAFDH4MzgA15qQmzg4Yad8Z-3i8GVgQ8ILy3yveFdDr3tZEVjnp9orPG4ZQBhGI9dMBb4FjjY4yq8GpyhavFAPeWpPV5evYjmybsLElyog1OtaVGz-1niBW6pxK96QscDxA98mgu6MnHrRsWaAhot4LBzRlUtwZTUHQ=="
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia",
+     "Hugging Face"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_upcuNc_9-C_ThFIpp0eva4P61gUZaudjNmjo4J5DD33p2to5U3SqabUfZVihKGsBv56iyCiedWe8XZ4fAFDH4MzgA15qQmzg4Yad8Z-3i8GVgQ8ILy3yveFdDr3tZEVjnp9orPG4ZQBhGI9dMBb4FjjY4yq8GpyhavFAPeWpPV5evYjmybsLElyog1OtaVGz-1niBW6pxK96QscDxA98mgu6MnHrRsWaAhot4LBzRlUtwZTUHQ=="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "出資",
+    "相手": "SB Energy",
+    "金額": "15億ドル",
+    "日付": "2026-08-17",
+    "出典URL": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+    "確かさ": "報道",
+    "備考": "SoftBankおよびOpenAIと提携しているデータセンター開発企業。オハイオ州のOpenAIデータセンターのコンピューティングインフラの唯一のサプライヤーとなることを保証。",
+    "src": [
+     [
+      "TechCrunch",
+      "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEvdhdftl8TycJsw6nM3rDhs9FCN-xuQailxVNkdsdQWqllwYLdG_HAdBPwEskpticd38jrZmCkeIGhZRUVbvMAwODTB5n_HIESoJ3ICweqtH62PyyQO2F0NmC27mZoPpQmeOU_kb-BH8U5EI4MauvXAp0Wcmfex3U1nNAcAxhXzEjoTmca04jjBd20prc2tF_EveRdqe9kLSAp51uCvfjOK7pNb2Bev09Gq6M=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Nvidia investing $1.5B in SoftBank data center developer beh",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia",
+      "SB Energy"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+     "names_on_page": [
+      "Nvidia",
+      "SB Energy"
+     ]
+    },
+    "dup": "「Nvidia」と「SB Energy」の組み合わせがすでにある(site/index.html)",
+    "date": [
+     "ページの公開日(2026-11-25)と100日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「SB Energy」の組み合わせがすでにある(site/index.html)",
+    "日付: ページの公開日(2026-11-25)と100日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "取引・人材移籍",
+    "相手": "Groq",
+    "金額": "200億ドル (報道ベース)",
+    "日付": "2025-12",
+    "出典URL": "https://techfundingnews.com/report-nvidia-in-advanced-talks-to-acquire-stanford-led-diffusion-ai-startup-inception-for-500m/",
+    "確かさ": "報道",
+    "備考": "Groqの推論技術に関する非独占的ライセンス契約と、創設者Jonathan Ross、社長Sunny Madraおよび他の従業員の雇用。",
+    "人物": "Jonathan Ross, Sunny Madra",
+    "移籍元": "Groq",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "Tech Funding News",
+      "https://techfundingnews.com/report-nvidia-in-advanced-talks-to-acquire-stanford-led-diffusion-ai-startup-inception-for-500m/"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia",
+     "Groq"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGeUINUk59moPH2Z_YsBrzBgZ64T50gQQgn5sfjRsiDSkq_LnHYj4en1UAPaeLmOq6nZXXc2rKPeub3ZOSbY54edbJ2L94Wt6ALPn56pBX7JGTsmmgJz2buCjUhiHCLk-NL53Iq2kDEvZKTgwu-MRye5wMBP9szhRWMk_sWArNcq73vD6mXinQlwv3oWYp_wlbqcP4R7TwvtIPomyCH0tmspCVXWXWpiou9HxqSwsn0gju16NE8eGc=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Report: Nvidia in advanced talks to acquire Stanford-led dif",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia",
+      "Groq"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://techfundingnews.com/report-nvidia-in-advanced-talks-to-acquire-stanford-led-diffusion-ai-startup-inception-for-500m/",
+     "names_on_page": [
+      "Nvidia",
+      "Groq",
+      "Jonathan Ross",
+      "Sunny Madra"
+     ]
+    },
+    "dup": "「Nvidia」と「Groq」の組み合わせがすでにある(site/index.html)",
+    "date": [
+     "ページの公開日(2026-11-20)と354日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Groq」の組み合わせがすでにある(site/index.html)",
+    "日付: ページの公開日(2026-11-20)と354日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "提携 (資金調達プラットフォーム)",
+    "相手": "Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR",
+    "金額": "5000億ドル以上 (動員目標)",
+    "日付": "2026-08-10",
+    "出典URL": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+    "確かさ": "公式",
+    "備考": "AIコンピューティングインフラの資金調達プラットフォームを設立し、第三者資本を動員することを目的とした戦略的パートナーシップ。",
+    "src": [
+     [
+      "NVIDIA Newsroom",
+      "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0ieGyWvl41j7S4z-CdXqxRv1H2Lqljv-1YNIa-4x5QCCM1NdI7gFJUaRc6Epf_2opNeZXvcI4Z35nDFB8gFgD3YvQB2b04UaGuUA5Ga-_h597zMzFGaGkOlr-htaExahYuaVQxzaLTuzXododkL4KZow49RfTF6gEhSgZkNp3pto4tS8G4TDGMtomhtHII4yff2pxdEYGHYNJSMVwP1o0ocn5rBYk5sC53eKX4heb24n_-5WX83-wD3pJoSVJVpdgpd5EGe7TVI7cq6jKaptu05TtufVUnU_kRd3jix_TzUIyp8HgWRTJzi4HHtVlQyHNApvoB3--zUwW299eXGBSf0TpPRK5JXzn0eYwcNYWqhW8Ee7GHhqmYc5RMZ_4Iw==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfie",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia",
+      "Apollo",
+      "BlackRock",
+      "Blackstone",
+      "Brookfield",
+      "Goldman Sachs"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+     "names_on_page": [
+      "Nvidia",
+      "Apollo",
+      "BlackRock",
+      "Blackstone",
+      "Brookfield",
+      "Goldman Sachs",
+      "KKR"
+     ]
+    },
+    "dup": "「Nvidia」と「Apollo」の組み合わせがすでにある(site/data/finds.js)",
+    "date": [],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "公式"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Apollo」の組み合わせがすでにある(site/data/finds.js)"
+   ],
+   "verdict": "除外",
+   "confidence": "公式"
+  },
+  {
+   "item": {
+    "会社名": "Nvidia",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08-24",
+    "出典URL": "https://vectorshift.ai/research/companies/nvidia/people",
+    "確かさ": "開示",
+    "備考": "Microsoftの元Executive Vice President and Chief Business Officer。",
+    "人物": "Nicholas Parker",
+    "役職": "Executive Vice President, Worldwide Field Operations",
+    "移籍元": "Microsoft",
+    "移籍先": "Nvidia",
+    "src": [
+     [
+      "VectorShift Research (NVIDIA Form 8-Kより)",
+      "https://vectorshift.ai/research/companies/nvidia/people"
+     ]
+    ],
+    "既存の名前": [
+     "Nvidia"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGaAIP6yJGtuYJjvj2eEtMz-YxgBZl3pdYK8LYW-wjeAm2V84p5HZZq939lCet91BlvzMmFeBpNdbXhogawDJDlnODMjcQuJgf9rGfHfFZvKsCeWgM5sSLDeSbiMEbf5EoGKS9I_RH87INc8tV-J01bAYM=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Nvidia Corp leadership &amp; board · VectorShift Research",
+     "状態": "ok",
+     "載っていた名前": [
+      "Nvidia"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://vectorshift.ai/research/companies/nvidia/people",
+     "names_on_page": [
+      "Nvidia",
+      "Nicholas Parker"
+     ]
+    },
+    "dup": "「Nvidia」と「Nicholas Parker」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)",
+    "date": [
+     "ページの公開日(2026-07-13)と42日ずれる"
+    ],
+    "cf": {
+     "claimed": "開示",
+     "fixed": "開示"
+    }
+   },
+   "notes": [
+    "重なり: 「Nvidia」と「Nicholas Parker」の組み合わせがすでにある(site/data/exectl.js、近い日付あり)",
+    "日付: ページの公開日(2026-07-13)と42日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "開示"
+  }
+ ]
+}

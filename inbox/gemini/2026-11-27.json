@@ -1,0 +1,295 @@
+{
+ "date": "2026-11-27",
+ "kind": "gemini",
+ "topic": "直近3日のAIスタートアップの買収(大手IT・半導体・SaaS企業による)と、新しく設立されたAI企業",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Amazon",
+   "関係": "買収",
+   "相手": "Decart",
+   "金額": "7.5 billion",
+   "日付": "2026-11-23",
+   "出典URL": "https://en.globes.co.il/en/article-amazon-confirms-decart-acquisition-1001564520",
+   "確かさ": "報道",
+   "備考": "AI最適化スタック技術およびチームを買収。金額はBloomberg報道ベース。Amazonは条件を非公開。",
+   "src": [
+    [
+     "Globes English",
+     "https://en.globes.co.il/en/article-amazon-confirms-decart-acquisition-1001564520"
+    ]
+   ],
+   "既存の名前": [
+    "Amazon"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEEyNfSpA821SRi6T6WviAKb0gidqV62N0MPq6is8nEokWLaiY-5VaGtaeg5xaUl3ZNu7EEpfB_wC0ISlQ-MCwCseRqn3p2fivqonHwLYp-7FfD1cHAjKt-tIPeiv7nXq_yNSm-17fRnU6ffPQK0guGhwf6Gp1Vni_2TaoQ2v6W423lEUv-SU6dDdA=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Amazon confirms Decart acquisition - Globes",
+    "状態": "ok",
+    "載っていた名前": [
+     "Amazon",
+     "Decart"
+    ]
+   }
+  },
+  {
+   "会社名": "Workday",
+   "関係": "買収",
+   "相手": "C1.ai",
+   "金額": "850 million",
+   "日付": "2026-11-25",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5VI7gK5a8B6mx2NHPojdOcru-F3NYfHeIlSNagnojexl_iALN00ljvnUYF5gBR-vgnp1R6rI6MDOjfqNDDhFE1amlhBDZOxuXvG4HheyZOQ3rQB6KOXztKNrRMIoiNxh1z39av7Gyl0g7g_s0T92SAvtGzG6B6FmDNV0DdVDt-Ri41K6LT15DrSYdYrtUkkOYwyB5wtQPUI09eUusmA=",
+   "確かさ": "報道",
+   "備考": "IDガバナンスツールを提供するAIスタートアップを買収。",
+   "src": [
+    [
+     "Dealroom News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5VI7gK5a8B6mx2NHPojdOcru-F3NYfHeIlSNagnojexl_iALN00ljvnUYF5gBR-vgnp1R6rI6MDOjfqNDDhFE1amlhBDZOxuXvG4HheyZOQ3rQB6KOXztKNrRMIoiNxh1z39av7Gyl0g7g_s0T92SAvtGzG6B6FmDNV0DdVDt-Ri41K6LT15DrSYdYrtUkkOYwyB5wtQPUI09eUusmA="
+    ]
+   ],
+   "既存の名前": [
+    "Workday"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Advanced Micro Devices (AMD)",
+   "関係": "買収",
+   "相手": "Taalas",
+   "金額": "",
+   "日付": "2026-11-26",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEushu0S_U3m-gLbWrv1cCUImQDAieqhB0BMZmiVeHB26XaR1mtzmSsFCcbUyfSIl-bOX8I5iDRUKqmsgllByxwYl_wlBX2nf2TjL2s_6rgRS_fhJvQQp_7FOF7zrT-ptZl7aA9ehdFq1mHak5B8OeZnmfSAyHYnnF53GBz5gvghqJfdnNLE1D0HwyxQVYmLbeM2v7q_G2tWfprHD2eKVJUT8mG_fcFkSq2G1xH6_-p9445-quRycA2jSnG4s86BUU0gsohFLcB-w=",
+   "確かさ": "報道",
+   "備考": "AI推論チップスタートアップの買収を完了。金額は不明。",
+   "src": [
+    [
+     "Simply Wall St News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEushu0S_U3m-gLbWrv1cCUImQDAieqhB0BMZmiVeHB26XaR1mtzmSsFCcbUyfSIl-bOX8I5iDRUKqmsgllByxwYl_wlBX2nf2TjL2s_6rgRS_fhJvQQp_7FOF7zrT-ptZl7aA9ehdFq1mHak5B8OeZnmfSAyHYnnF53GBz5gvghqJfdnNLE1D0HwyxQVYmLbeM2v7q_G2tWfprHD2eKVJUT8mG_fcFkSq2G1xH6_-p9445-quRycA2jSnG4s86BUU0gsohFLcB-w="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "BlackSky",
+   "関係": "買収",
+   "相手": "EpochGeo",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG09zUiJscEmsPs2vhtvbclJrcJploD8iJ9o6izd3AsqVL4fyP-kXbaCFuFipsxT2aeHAGBgDbk0C6hNXgud0VQKwIMJ5rXh1H9rU-14ZKslBrONCMr7Pdrcfiv95IYEG54P4XXEz82kDRgKa6PLSF6jV634zHbc1_EELtndzBykA=",
+   "確かさ": "公式",
+   "備考": "地理空間データサイエンス企業を買収し、AI/ML機能を統合。",
+   "src": [
+    [
+     "Payload Space",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG09zUiJscEmsPs2vhtvbclJrcJploD8iJ9o6izd3AsqVL4fyP-kXbaCFuFipsxT2aeHAGBgDbk0C6hNXgud0VQKwIMJ5rXh1H9rU-14ZKslBrONCMr7Pdrcfiv95IYEG54P4XXEz82kDRgKa6PLSF6jV634zHbc1_EELtndzBykA="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Epochal",
+   "関係": "新規設立",
+   "相手": "",
+   "金額": "100 million",
+   "日付": "2026-11-24",
+   "出典URL": "https://www.therundown.ai/news/epochal-time-portal-ai-forecasting",
+   "確かさ": "報道",
+   "備考": "xAIの共同創設者3名が設立。創設者の一人Guodong Zhangが自己資金1億ドルを投入と報道。ウェブの過去を再現しAIに未来を予測させることを目指す。",
+   "src": [
+    [
+     "The Rundown AI",
+     "https://www.therundown.ai/news/epochal-time-portal-ai-forecasting"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFYpRzBTJ112jq5xX33iV1fh3DHjeB1mMUH7qBxfftdLVP48LZ1L_iUuP-_rE3vCibfFY_M4NluEXfHD5D4dmoIdmd6_rCcB6eq4R9mEHOko8shgCVV11kLMblxnF6HtVwewsGxXVX3r6Aq1L4596oYFOfetCPPQt8faJI=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Three xAI founders launch Epochal to teach AI to predict the",
+    "状態": "ok",
+    "載っていた名前": [
+     "Epochal"
+    ]
+   }
+  },
+  {
+   "会社名": "Marlowe AI",
+   "関係": "新規設立",
+   "相手": "",
+   "金額": "277 million",
+   "日付": "2026-11-25",
+   "出典URL": "https://en.globes.co.il/en/article-susan-brothers-in-next-generation-ai-infrastructure-venture-1001564913",
+   "確かさ": "報道",
+   "備考": "AIインフラストラクチャに焦点を当てたスタートアップがシードラウンドで資金調達。評価額は11.5億ドル。",
+   "src": [
+    [
+     "Globes English",
+     "https://en.globes.co.il/en/article-susan-brothers-in-next-generation-ai-infrastructure-venture-1001564913"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHly_LZHZAE5t83TGNyqjit9tqayUuAuItjjmS-DgUz8KOF9EbmiZyJt5ozp7xoL8YgqUoW5bP5yBvI2GPBi79Qukprl749tQXqWLAMWbdqHI9odMl1myL38Pj1u0HeSSJVyMZKvTtQN6KSivyiDmv5oosrbd_iOOHrowvJ5OjZJi1Bo7vZw_976DwCTAXkVFPAhyjaDKYRpGLMhQk5b-ftv-WF",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Susan brothers in next generation AI infrastructure venture ",
+    "状態": "ok",
+    "載っていた名前": [
+     "Marlowe AI"
+    ]
+   }
+  },
+  {
+   "会社名": "Omni X",
+   "関係": "新規設立",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11-25",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUPVz1WhadubY7CZre17SwmW_DdZRQusdaJNf__oXdv_AoIStExJ25JhP7W2JOfkgOAOj6CLh3RgCu3JYjwS-l9cA4sX-CgVmXKWkFkylGbgswPNe6jPT9mkiXiA94Qpl9SZs4tVDYoOkrxePMbrfIDvhPXzCdoHP3vTMgmRv2vey3TpVP25S4dlNgmjDOueJMCnQEv0lp1oA1JQ2HHqBzE7RAUFHqSDXUuxzdA41OUuEli1ZAjhtfTlgfA==g",
+   "確かさ": "公式",
+   "備考": "防衛・市民インフラ向けAIエージェント型オペレーティングシステムを構築するデュアルユースAI企業がステルスを解除。",
+   "src": [
+    [
+     "GlobeNewswire",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEUPVz1WhadubY7CZre17SwmW_DdZRQusdaJNf__oXdv_AoIStExJ25JhP7W2JOfkgOAOj6CLh3RgCu3JYjwS-l9cA4sX-CgVmXKWkFkylGbgswPNe6jPT9mkiXiA94Qpl9SZs4tVDYoOkrxePMbrfIDvhPXzCdoHP3vTMgmRv2vey3TpVP25S4dlNgmjDOueJMCnQEv0lp1oA1JQ2HHqBzE7RAUFHqSDXUuxzdA41OUuEli1ZAjhtfTlgfA==g"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Google, NVIDIA, AMD, Broadcom, Micron, Microsoft, TSMC",
+   "関係": "出資",
+   "相手": "Anthropic",
+   "金額": "26 billion",
+   "日付": "2026-11-20",
+   "出典URL": "https://futurumgroup.com/insights/anthropic-ipo-makes-its-biggest-suppliers-shareholders/",
+   "確かさ": "報道",
+   "備考": "AnthropicのIPOと同時に、大手IT・半導体企業7社が合計260億ドルの議決権なし株式をIPO価格で取得。GoogleとNVIDIAはそれぞれ約100億ドルを拠出と報道。",
+   "src": [
+    [
+     "The Futurum Group",
+     "https://futurumgroup.com/insights/anthropic-ipo-makes-its-biggest-suppliers-shareholders/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFro-4cDpUCmjgkkfZUA_oxr3LwacUdusDe1pI2grOOcyo25fBIshigbkbUuWGPsTCWj37d8JsfzPAoimKoDdYqfqhvOXf_xrrbsgHbGIkFFjNYKeevJhUpp6x4invaKV5UhYqFb0yFh6xn8PirWZOwfhIK7wjxpBi_p411WvOzTwuNDx_BUqj8ISN-b1Dymz1Qxpo=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Anthropic IPO Makes Its Biggest Suppliers Shareholders - Fut",
+    "状態": "ok",
+    "載っていた名前": [
+     "Google",
+     "NVIDIA",
+     "AMD",
+     "Broadcom",
+     "Micron",
+     "Microsoft"
+    ]
+   }
+  },
+  {
+   "会社名": "Simmtech",
+   "関係": "資金調達",
+   "相手": "",
+   "金額": "251.5 million",
+   "日付": "2026-11-26",
+   "出典URL": "https://dealroom.co/news/176091-simmtech-raises-223m-to-fund-ai-server-substrate-push/",
+   "確かさ": "報道",
+   "備考": "AIサーバー向け基板生産拡大のためのポストIPO転換社債を発行。理事会が承認。",
+   "src": [
+    [
+     "Dealroom News",
+     "https://dealroom.co/news/176091-simmtech-raises-223m-to-fund-ai-server-substrate-push/"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD3ev-HsChi5I4a-L1YBnIAw7N9t3-uxaXxOP1Q-GjFd20Q0i6PzAnRYtOieciS5Gc63NOq5OQABSkUHnzpZp5JEE4MD46G7tnrZ6UunO6gG6lpnFGMpGcSVuH-J1JRx61wx-BpA9zYr5DGDD8q9KYG2Mji8FHboQjPJxEztHqGGOHnShBwTXbXnEIeUN03NQ=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Simmtech raises $223M to fund AI-server substrate push | Dea",
+    "状態": "ok",
+    "載っていた名前": [
+     "Simmtech"
+    ]
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "AI startup acquisition November 25 2026",
+   "AI startup acquisition November 26 2026",
+   "AI startup acquisition November 27 2026",
+   "new AI company founded November 25 2026",
+   "new AI company founded November 26 2026",
+   "new AI company founded November 27 2026",
+   "major tech company AI investment November 25 2026",
+   "major tech company AI investment November 26 2026",
+   "major tech company AI investment November 27 2026",
+   "semiconductor company AI investment November 25 2026",
+   "semiconductor company AI investment November 26 2026",
+   "semiconductor company AI investment November 27 2026",
+   "SaaS company AI acquisition November 25 2026",
+   "SaaS company AI acquisition November 26 2026",
+   "SaaS company AI acquisition November 27 2026",
+   "Anthropic IPO major investors November 2026",
+   "NVIDIA AI investment November 2026",
+   "Google AI acquisition November 2026",
+   "Microsoft AI acquisition November 2026",
+   "Amazon AI acquisition November 2026",
+   "Salesforce AI acquisition November 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2846,
+   "candidatesTokenCount": 3290,
+   "totalTokenCount": 18367,
+   "cachedContentTokenCount": 557,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2846
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 557
+    }
+   ],
+   "toolUsePromptTokenCount": 5191,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5191
+    }
+   ],
+   "thoughtsTokenCount": 7040,
+   "serviceTier": "standard"
+  }
+ }
+}

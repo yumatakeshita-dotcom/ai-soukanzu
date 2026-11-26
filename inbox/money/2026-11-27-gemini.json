@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-27",
+ "kind": "money",
+ "items": [
+  {
+   "from": "",
+   "to": "Epochal",
+   "kind": "新規設立",
+   "amount": "100 million",
+   "date": "2026-11-24",
+   "note": "xAIの共同創設者3名が設立。創設者の一人Guodong Zhangが自己資金1億ドルを投入と報道。ウェブの過去を再現しAIに未来を予測させることを目指す。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Rundown AI",
+     "https://www.therundown.ai/news/epochal-time-portal-ai-forecasting"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "",
+   "to": "Marlowe AI",
+   "kind": "新規設立",
+   "amount": "277 million",
+   "date": "2026-11-25",
+   "note": "AIインフラストラクチャに焦点を当てたスタートアップがシードラウンドで資金調達。評価額は11.5億ドル。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Globes English",
+     "https://en.globes.co.il/en/article-susan-brothers-in-next-generation-ai-infrastructure-venture-1001564913"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "Google, NVIDIA, AMD, Broadcom, Micron, Microsoft, TSMC",
+   "to": "Anthropic",
+   "kind": "出資",
+   "amount": "26 billion",
+   "date": "2026-11-20",
+   "note": "AnthropicのIPOと同時に、大手IT・半導体企業7社が合計260億ドルの議決権なし株式をIPO価格で取得。GoogleとNVIDIAはそれぞれ約100億(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Futurum Group",
+     "https://futurumgroup.com/insights/anthropic-ipo-makes-its-biggest-suppliers-shareholders/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  },
+  {
+   "from": "",
+   "to": "Simmtech",
+   "kind": "資金調達",
+   "amount": "251.5 million",
+   "date": "2026-11-26",
+   "note": "AIサーバー向け基板生産拡大のためのポストIPO転換社債を発行。理事会が承認。(Gemini調査・自動の確かめを通過)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Dealroom News",
+     "https://dealroom.co/news/176091-simmtech-raises-223m-to-fund-ai-server-substrate-push/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "gemini"
+  }
+ ],
+ "notes": "Gemini調査(inbox/gemini/2026-11-27.json)のうち、scripts/gemini_verify.py の確かめを通ったもの"
+}
