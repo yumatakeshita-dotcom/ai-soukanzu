@@ -1,0 +1,40 @@
+{"date":"2026-11-27","kind":"deep","items":[
+{"company_en":"Humyn Labs","company_ja":"Humyn Labs(ヒューミン・ラボ)","founded":"2026","hq":"インド・ベンガルール(報道により米サンフランシスコ表記もあり)","what":"ロボット・AI向けに、人が働く様子の一人称映像を集めて売る会社","people":[
+{"name":"Manish Agarwal","role":"共同創業者","prev":"Nazara Technologies(インドのゲーム会社)の元CEO","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"Ishank Gupta","role":"共同創業者","prev":"AB InBev(ベルギーのビール会社)の元幹部","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]}],
+"investors":[
+{"name":"Accel","round":"シリーズA(株式分)主導","amount":"株式$26M(ラウンド合計$47M。報道ベース)","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"],["TechCrunch(2026/11/18)","https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"]]},
+{"name":"Prosus Ventures","round":"シリーズA参加","amount":"非公表","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"Jump Trading","round":"シリーズA参加","amount":"非公表","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"Lighthouse Canton","round":"ベンチャーデット(借入)$21Mを主導。株式にも参加","amount":"$21M(報道ベース)","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"Trifecta Capital","round":"ベンチャーデットに参加","amount":"非公表","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"BeeGlobal / Finserv Intelligence(Bajaj Finance) / Bajaj Alts AI Opportunities Fund / Dallas Venture Capital","round":"シリーズA参加","amount":"非公表","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]}],
+"partners":[
+{"name":"KGeN(創業者たちの前のゲーム事業)","what":"20か国超に広がる撮影パートナーの網は、この事業から引き継いだと報道","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]},
+{"name":"米国のAI研究所・ヒューマノイド企業(社名は非公表)","what":"少なくとも12社の有料顧客と会社は説明(会社の自称)","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"]]}],
+"note":"ロボット学習用データ。Accel主導でシリーズAが合計$47M(報道ベース)。人の移籍は確認できず","src":[["MediaNama(2026/11/20)","https://www.medianama.com/2026/11/223-humyn-labs-training-data-physical-ai/"],["TechCrunch(2026/11/18)(本文は開けず検索結果のみ)","https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/"]],"confidence":"報道"},
+{"company_en":"Taalas","company_ja":"Taalas(タラス)","founded":"2023","hq":"カナダ・トロント","what":"AIモデルを直接チップに焼き込む推論専用チップの会社","people":[
+{"name":"Ljubisa Bajic","role":"共同創業者・CEO","prev":"Tenstorrent共同創業者(CEO・CTO。2023年初めにJim Kellerへ交代)","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"],["Tech.eu(2026/11/23)","https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/"]]},
+{"name":"Lejla Bajic","role":"共同創業者・COO","prev":"AMD/ATIの元上級エンジニアリング管理職","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"]]},
+{"name":"Drago Ignjatovic","role":"共同創業者・CTO","prev":"AMDの元上級設計エンジニア","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"]]}],
+"investors":[
+{"name":"Quiet Capital","round":"創業期(2024年3月に$50M公表)・シリーズAに参加","amount":"非公表","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"]]},
+{"name":"Pierre Lamond(Lamond Ventures)","round":"2024年の$50Mを主導した一人","amount":"非公表","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"],["Tech.eu(2026/11/23)","https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/"]]},
+{"name":"Fidelity","round":"2026年2月の$169Mラウンドに参加","amount":"ラウンド$169M、累計約$220M(報道ベース)","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"]]},
+{"name":"Fifth Quarter Ventures(セルビア・ベオグラード)","round":"シリーズAに参加(欧州で唯一の投資家と報道)","amount":"非公表","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"],["Tech.eu(2026/11/23)","https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/"]]}],
+"partners":[
+{"name":"AMD","what":"2026年8月に買収を発表、11月に完了。約$2.9B(うち最大約$1.4Bは条件付き。最終額は未確認と報道)","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"],["Tech.eu(2026/11/23)","https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/"]]},
+{"name":"Meta(Llama 3.1 8B)","what":"最初の試作チップHC1がMetaのLlama 3.1 8Bを焼き込み、1ユーザーあたり約17,000トークン/秒(報道ベース)","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"]]}],
+"note":"Tenstorrent創業者が興した2社目。AMDが約$2.9Bで買収(一部条件付き、報道ベース)","src":[["The Recursive(2026/11/23)","https://www.therecursive.com/taalas-acquisition-amd-ai-silicon/"],["Tech.eu(2026/11/23)","https://tech.eu/2026/11/23/amd-acquires-ai-chip-startup-taalas-for-29b-to-advance-ai-inference-technology/"]],"confidence":"報道"},
+{"company_en":"Poolside","company_ja":"Poolside(プールサイド)","founded":"2023","hq":"米国サンフランシスコ(パリにも拠点)","what":"ソフトウェア開発向けの大規模言語モデルを作る会社","people":[
+{"name":"Jason Warner","role":"共同創業者(Wikipediaでは President、2026年7月の記事では co-CEO)","prev":"GitHubの元CTO","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]},
+{"name":"Eiso Kant","role":"共同創業者・CTO","prev":"ソフトウェア起業家","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]}],
+"investors":[
+{"name":"Bain Capital Ventures / DST Global / eBay ほか","round":"2024年10月シリーズB(評価額$3B)","amount":"$500M(報道ベース)","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]},
+{"name":"Nvidia","round":"最大$10億の出資(Wikipediaは2025年10月に発表と記載、既存の候補は2026年8月と記載。日付は未確定)","amount":"最大$1B・評価額$12B(報道ベース)","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]}],
+"partners":[
+{"name":"AWS","what":"2024年12月に提携。Amazon BedrockとEC2でPoolsideのモデルを提供","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]},
+{"name":"CoreWeave","what":"テキサス州Pecos郡の2GWのAIデータセンター「Project Horizon」を計画(2025年10月に第1期開始)。2026年には保留・終了との報道もあり本文未確認","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]},
+{"name":"米国国防総省・RTX","what":"防衛関連の契約を結んだと記載","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]]}],
+"note":"GitHub元CTOが創業。Nvidiaが出資。出資の日付と最新の条件は報道の食い違いあり","src":[["Wikipedia: Poolside AI(2026/11/27確認)","https://en.wikipedia.org/wiki/Poolside_AI"]],"confidence":"報道"}
+],"notes":"選んだ会社: Humyn Labs, Taalas, Poolside(requests.txtなし)。Bloomberg等の一次記事、TechCrunch・Robot Reportは本環境から開けず(Cloudflareで拒否)。MediaNama・Tech.eu・The Recursive・Wikipediaは本文を開いて確認。Poolsideは公式サイト・Bloomberg未確認のためWikipedia頼みで確かさ低め。Taalasの人の移籍は創業者の前職のみ。Xの対象アカウント(deep)69件。記事3本からたどったXの投稿は0件、対象アカウントの投稿も0件。"}
