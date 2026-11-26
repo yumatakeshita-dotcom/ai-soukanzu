@@ -31,6 +31,13 @@
 - 足した: Thariq Shihipar(Anthropic → OpenAI)、Anthony Morris(Anthropicを退社)、カオスマップ・AI 100から出資・買収18件
 - 見送り: Cat Wu・Austin Lau(既にある)、Lindy・Rye(出典が食い違う・確かめられない)
 
+## 1日3回動かす(2026-11-26 祐真さんの希望で変更)
+9:15・15:15・21:15(日本時間)の3回動く。予定作業は「【毎晩】Xのいいね・保存からAIのつながりを拾う」(x-likes-daily)。頻度は `15 9,15,21 * * *`。
+- 重ならないように、毎回「どこまで読んだか」の一番下の行(前の回の一番上の投稿ID)より新しい投稿だけを読む。新しい分が0件なら、目印の行だけ足して終わる
+- ブランチは1日1本(`claude/x-likes-YYYYMMDD`)。その日の2回目・3回目は、origin にそのブランチがあれば取り込んで続きを足す(`git fetch origin claude/x-likes-YYYYMMDD` のあと checkout)。同じブランチに下書きPRがすでにあれば、新しいPRは作らない
+- ファイル名に時刻を付ける: `inbox/moves/YYYY-MM-DD-x-likes-HHMM.json`、`inbox/money/YYYY-MM-DD-x-likes-HHMM.json`(HHMMは 0915・1515・2115)
+- 目印の行には時刻も書く(例: `- 2026-11-27 09:15 保存: 番号 / いいね: 番号`)
+
 ## いいね・保存した人の印(2026-11-26追加)
 相関図の人物カードの「X @名前」の横に「♡ いいね・保存した人」の印を出す。データは `site/index.html` の `/*XLIKED_START*/〜/*XLIKED_END*/`(`XLIKED`)。
 - 足し方: `python scripts/x_liked_add.py アカウント:種類:日付 ...`(種類 b=保存 l=いいね bl=両方。足すだけで、すでにある人は書き換えない)
