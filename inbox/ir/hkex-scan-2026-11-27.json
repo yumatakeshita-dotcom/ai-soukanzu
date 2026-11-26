@@ -1,0 +1,133 @@
+{
+ "items": [
+  {
+   "d": "2026-11-27",
+   "time": "06:17",
+   "market": "HKEX(香港)",
+   "code": "03364",
+   "co": "YUEN KEE FOOD",
+   "title": "GLOBAL OFFERING",
+   "hk_cat": "Listing Documents - [Offer for Subscription]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700025.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 1,
+    "word": 2
+   },
+   "snippet": "tained in this prospectus to make your investment decision. The Hong Kong Public Offering is made solely on the basis of the information contained and the representations made in this prospectus. We have not authorized anyone to provide you with information that is different from what is contained in this prospectus. Any information or representation not con",
+   "import": "手動(表題から相手が決められない)"
+  },
+  {
+   "d": "2026-11-27",
+   "time": "06:16",
+   "market": "HKEX(香港)",
+   "code": "03707",
+   "co": "SSI NEWMATERIAL",
+   "title": "GLOBAL OFFERING",
+   "hk_cat": "Listing Documents - [Offer for Subscription]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700021.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 182
+   },
+   "snippet": "ing fee of 0.00565%. Prior to making an investment decision, prospective investors should consider carefully all of the information set out in this prospectus, including the risk factors set out in the section headed “Risk Factors.” The Sponsor-Overall Coordinator (for itself and on behalf of the Underwriters) may, with our consent, reduce the number of Offe",
+   "import": "手動(表題から相手が決められない)"
+  },
+  {
+   "d": "2026-11-26",
+   "time": "19:57",
+   "market": "HKEX(香港)",
+   "code": "02632",
+   "co": "NEW VISION CO",
+   "title": "VOLUNTARY ANNOUNCEMENT STRATEGIC COOPERATION FRAMEWORK AGREEMENT",
+   "hk_cat": "Announcements and Notices - [Other - Business Update]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112601332.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 5
+   },
+   "snippet": "o inform the shareholders and potential investors of the Company of the latest business developments of the Group. The board of directors of the Company (the “Board”) is pleased to announce that the Company recently entered into a strategic cooperation framework agreement (the “Strategic Cooperation Framework Agreement”) with an independent third party prima",
+   "import": "手動(表題から相手が決められない)"
+  },
+  {
+   "d": "2026-11-26",
+   "time": "17:11",
+   "market": "HKEX(香港)",
+   "code": "02013",
+   "co": "WEIMOB INC",
+   "title": "VOLUNTARY ANNOUNCEMENT PLAN TO INCREASE INVESTMENT IN ARTIFICIAL INTELLIGENCE COMPUTING INFRASTRUCTURE AND EXPAND THE INTELLIGENT COMPUTING CLOUD SERVICES BUSINESS",
+   "hk_cat": "Announcements and Notices - [Other - Business Update]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600570.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 1,
+    "word": 34
+   },
+   "snippet": "o update the shareholders and potential investors of the Company on the Group’s latest business developments. Plan to Increase Investment in Artificial Intelligence Computing Infrastructure As a leading provider of enterprise-grade SaaS and digital marketing services in China, the Group has a broad merchant customer base and has seen substantial demand for a",
+   "import": "自動(inbox/money)",
+   "deal": {
+    "from": "Weimob Inc. *",
+    "to": "Artificial Intelligence Computing Infrastructure",
+    "kind": "出資",
+    "amount": "",
+    "ai_hits": {
+     "company": 1,
+     "word": 34
+    },
+    "to_from_definition": false
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "co": "B & S INTL HLDG",
+   "title": "JOINT ANNOUNCEMENT - (1) COMPLETION OF THE SALE AND PURCHASE AGREEMENT IN RELATION TO 75% OF THE TOTAL ISSUED SHARE CAPITAL OF B & S INTERNATIONAL HOLDINGS LTD. AND (2) UNCONDITIONAL MANDATORY CASH OFFER BY SOMERLEY CAPITAL LIMITED FOR AND ON BEHALF OF THE OFFEROR TO ACQUIRE ALL THE ISSUED SHARES OF B & S INTERNATIONAL HOLDINGS LTD. (OTHER THAN THOSE ALREADY OWNED AND/OR AGREED TO BE ACQUIRED BY THE OFFEROR AND THE OFFEROR CONCERT PARTIES)",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112601414.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "DINGDANG HEALTH",
+   "title": "VOLUNTARY ANNOUNCEMENT - MEMORANDUM OF UNDERSTANDING IN RELATION TO POTENTIAL ACQUISITION",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112601368.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "SHENZHEN INVEST",
+   "title": "CONNECTED TRANSACTION IN RELATION TO ACQUISITION OF 100% EQUITY INTEREST IN ZHI DI INVESTMENT",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112601318.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "HENLIUS",
+   "title": "VOLUNTARY ANNOUNCEMENT - THE INVESTIGATIONAL NEW DRUG APPLICATION FOR THE PHASE 1 CLINICAL TRIAL OF HLX109 INJECTION (A MONOCLONAL ANTIBODY TARGETING IL1RAP) FOR THE TREATMENT OF GENERALIZED PUSTULAR PSORIASIS HAS BEEN APPROVED BY THE NATIONAL MEDICAL PRODUCTS ADMINISTRATION",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600529.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "ES SERVICES",
+   "title": "DISCLOSEABLE TRANSACTION IN RELATION TO THE ACQUISITION OF 100% EQUITY INTEREST IN THE TARGET COMPANY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600495.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "PAN ASIA DATA H",
+   "title": "MONTHLY UPDATE RELATING TO MEMORANDUM OF UNDERSTANDING REGARDING RESTRUCTURING AND APPLICATION FOR WHITEWASH WAIVER",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600329.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "TERN PROPERTIES",
+   "title": "CONNECTED TRANSACTION IN RELATION TO THE ACQUISITION OF THE PROPERTY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600283.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-27",
+ "kind": "ir-scan-hkex",
+ "list_rows": 883,
+ "shortlist": 11,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}

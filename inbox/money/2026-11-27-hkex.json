@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-27",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Weimob Inc. *",
+   "to": "Artificial Intelligence Computing Infrastructure",
+   "kind": "出資",
+   "amount": "",
+   "date": "2026-11-26",
+   "region": "香港",
+   "code": "02013",
+   "note": "WEIMOB INCのHKEXの発表「VOLUNTARY ANNOUNCEMENT PLAN TO INCREASE INVESTMENT IN ARTIFICIAL INTEL」で確認(2026-11-26。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合)。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "HKEX WEIMOB INCの開示(2026-11-26)",
+     "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1126/2026112600570.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ]
+}
