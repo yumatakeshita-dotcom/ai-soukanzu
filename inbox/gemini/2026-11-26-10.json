@@ -1,0 +1,544 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "xAI・SpaceXAIの幹部・共同創業者の2026年の退任と移籍先、新しく就任した幹部とその前職。本人のXや公式発表、大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://entrepreneurloop.com/xai-reorganization-2026-leadership-changes-grok-future/",
+   "確かさ": "報道",
+   "備考": "Igor BabuschkinはxAI共同創業者として2026年2月上旬に退任した。",
+   "人物": "Igor Babuschkin",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "vertexaisearch (Bloomberg report cited)",
+     "https://entrepreneurloop.com/xai-reorganization-2026-leadership-changes-grok-future/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-03-28",
+   "出典URL": "https://dealroom.co/news/127097-all-11-xai-co-founders-are-gone-as-musk-rebuilds-from-the-ground-up/",
+   "確かさ": "報道",
+   "備考": "Manuel KroissはxAI共同創業者であり、プレトレーニングを主導していたが、2026年3月28日に退任した。",
+   "人物": "Manuel Kroiss",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Dealroom News",
+     "https://dealroom.co/news/127097-all-11-xai-co-founders-are-gone-as-musk-rebuilds-from-the-ground-up/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "All 11 xAI co-founders are gone as Musk rebuilds from the gr",
+    "状態": "ok",
+    "載っていた名前": [
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02-09",
+   "出典URL": "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
+   "確かさ": "報道",
+   "備考": "Tony WuはxAI共同創業者であり、推論チームを主導していたが、2026年2月9日にXで辞任を発表した。",
+   "人物": "Tony Wu",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Business Insider",
+     "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02-10",
+   "出典URL": "https://fortune.com/2026/02/11/half-of-xai-founding-team-has-left-elon-musks-ai-company-potentially-complicating-his-plans-for-a-blockbuster-spacex-ipo/",
+   "確かさ": "報道",
+   "備考": "Jimmy BaはxAI共同創業者であり、研究および安全対策を主導していたが、2026年2月10日にXで退任を発表した。",
+   "人物": "Jimmy Ba",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Fortune",
+     "https://fortune.com/2026/02/11/half-of-xai-founding-team-has-left-elon-musks-ai-company-potentially-complicating-his-plans-for-a-blockbuster-spacex-ipo/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Half of xAI’s founding team has left, potentially complicati",
+    "状態": "ok",
+    "載っていた名前": [
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-01",
+   "出典URL": "https://www.siliconrepublic.com/business/xai-co-founders-jimmy-ba-tony-wu-depart-after-spacex-acquisition-elon-musk",
+   "確かさ": "報道",
+   "備考": "Greg YangはxAI共同創業者であったが、2026年1月にライム病のため退任した。",
+   "人物": "Greg Yang",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Silicon Republic",
+     "https://www.siliconrepublic.com/business/xai-co-founders-jimmy-ba-tony-wu-depart-after-spacex-acquisition-elon-musk"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-03",
+   "出典URL": "https://capacityglobal.com/news/xai-co-founder-departs/",
+   "確かさ": "報道",
+   "備考": "Zihang DaiはxAI共同創業者として2026年3月までに退任した。",
+   "人物": "Zihang Dai",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Capacity Global",
+     "https://capacityglobal.com/news/xai-co-founder-departs/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-03",
+   "出典URL": "https://dealroom.co/news/127097-all-11-xai-co-founders-are-gone-as-musk-rebuilds-from-the-ground-up/",
+   "確かさ": "報道",
+   "備考": "Guodong ZhangはxAI共同創業者として2026年3月までに退任した。",
+   "人物": "Guodong Zhang",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "Dealroom News",
+     "https://dealroom.co/news/127097-all-11-xai-co-founders-are-gone-as-musk-rebuilds-from-the-ground-up/"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "All 11 xAI co-founders are gone as Musk rebuilds from the gr",
+    "状態": "ok",
+    "載っていた名前": [
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-05",
+   "出典URL": "https://www.crn.com/news/ai/2026/anthropic-s-5-huge-hires-from-openai-google-microsoft-and-xai-in-2026",
+   "確かさ": "報道",
+   "備考": "Ross NordeenはxAI共同創業者として2026年3月28日にxAIを退任し、2026年5月にAnthropicへテクニカルスタッフとして移籍した。",
+   "人物": "Ross Nordeen",
+   "役職": "Technical Staff",
+   "移籍元": "xAI",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "CRN",
+     "https://www.crn.com/news/ai/2026/anthropic-s-5-huge-hires-from-openai-google-microsoft-and-xai-in-2026"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02-27",
+   "出典URL": "https://goelite.com/blogs/spacexai-staff-departures-mount-after-february-merger",
+   "確かさ": "報道",
+   "備考": "Toby PohlenはxAI共同創業者として2026年2月27日に退任した。",
+   "人物": "Toby Pohlen",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "GoElite (Bloomberg report cited)",
+     "https://goelite.com/blogs/spacexai-staff-departures-mount-after-february-merger"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SpaceX",
+   "関係": "買収",
+   "相手": "xAI",
+   "金額": "2500億ドル",
+   "日付": "2026-02-02",
+   "出典URL": "https://goelite.com/blogs/spacexai-staff-departures-mount-after-february-merger",
+   "確かさ": "報道",
+   "備考": "SpaceXは2026年2月2日にxAIを全株式取引で2500億ドルの評価額で買収した。これによりxAIはSpaceXの子会社となった。",
+   "src": [
+    [
+     "GoElite (Bloomberg and AP cited)",
+     "https://goelite.com/blogs/spacexai-staff-departures-mount-after-february-merger"
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX",
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://en.wikipedia.org/wiki/SpaceXAI",
+   "確かさ": "報道",
+   "備考": "Michael NicollsはSpaceXのStarlink担当副社長から、2026年4月にxAIの社長に就任した。",
+   "人物": "Michael Nicolls",
+   "役職": "President",
+   "移籍元": "SpaceX (Starlink VP)",
+   "移籍先": "xAI",
+   "src": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/SpaceXAI"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "SpaceXAI - Wikipedia",
+    "状態": "ok",
+    "載っていた名前": [
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "SpaceX",
+   "関係": "買収",
+   "相手": "Cursor",
+   "金額": "600億ドル",
+   "日付": "2026-08-14",
+   "出典URL": "https://en.wikipedia.org/wiki/SpaceXAI",
+   "確かさ": "報道",
+   "備考": "SpaceXは2026年8月14日にソフトウェア企業であるCursorを全株式取引で600億ドルで買収した。",
+   "src": [
+    [
+     "Wikipedia",
+     "https://en.wikipedia.org/wiki/SpaceXAI"
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "SpaceXAI - Wikipedia",
+    "状態": "ok",
+    "載っていた名前": [
+     "SpaceX",
+     "Cursor"
+    ]
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "entrepreneurloop.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw=="
+  ],
+  [
+   "dealroom.co",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4="
+  ],
+  [
+   "businessinsider.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug"
+  ],
+  [
+   "fortune.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g=="
+  ],
+  [
+   "siliconrepublic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0="
+  ],
+  [
+   "capacityglobal.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE="
+  ],
+  [
+   "crn.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw=="
+  ],
+  [
+   "goelite.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU="
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv"
+  ]
+ ],
+ "grounding_resolved": [
+  "https://entrepreneurloop.com/xai-reorganization-2026-leadership-changes-grok-future/",
+  "https://dealroom.co/news/127097-all-11-xai-co-founders-are-gone-as-musk-rebuilds-from-the-ground-up/",
+  "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
+  "https://fortune.com/2026/02/11/half-of-xai-founding-team-has-left-elon-musks-ai-company-potentially-complicating-his-plans-for-a-blockbuster-spacex-ipo/",
+  "https://www.siliconrepublic.com/business/xai-co-founders-jimmy-ba-tony-wu-depart-after-spacex-acquisition-elon-musk",
+  "https://capacityglobal.com/news/xai-co-founder-departs/",
+  "https://www.crn.com/news/ai/2026/anthropic-s-5-huge-hires-from-openai-google-microsoft-and-xai-in-2026",
+  "https://goelite.com/blogs/spacexai-staff-departures-mount-after-february-merger",
+  "https://en.wikipedia.org/wiki/SpaceXAI"
+ ],
+ "process": {
+  "queries": [
+   "xAI executive changes 2026",
+   "xAI leadership departures 2026",
+   "xAI new executive appointments 2026",
+   "SpaceX AI executive changes 2026",
+   "SpaceX AI leadership departures 2026",
+   "SpaceX AI new executive appointments 2026",
+   "xAI co-founder leaves 2026",
+   "SpaceX AI personnel changes 2026"
+  ],
+  "sources": [
+   [
+    "entrepreneurloop.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw=="
+   ],
+   [
+    "dealroom.co",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4="
+   ],
+   [
+    "businessinsider.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug"
+   ],
+   [
+    "fortune.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g=="
+   ],
+   [
+    "siliconrepublic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0="
+   ],
+   [
+    "capacityglobal.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE="
+   ],
+   [
+    "crn.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw=="
+   ],
+   [
+    "goelite.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU="
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv"
+   ]
+  ],
+  "supports": [
+   {
+    "text": "```json\n{\"items\":[\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-02\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw==\",\"出典名\":\"vertexaisearch (Bloomberg report cited)\",\"確かさ\":\"報道\",\"備考\":\"Igor BabuschkinはxAI共同創業者として2026年2月上旬に退任した。",
+    "idx": [
+     0
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Igor Babuschkin\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-03-28\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=\",\"出典名\":\"Dealroom News\",\"確かさ\":\"報道\",\"備考\":\"Manuel KroissはxAI共同創業者であり、プレトレーニングを主導していたが、2026年3月28日に退任した。",
+    "idx": [
+     1
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Manuel Kroiss\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-02-09\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug\",\"出典名\":\"Business Insider\",\"確かさ\":\"報道\",\"備考\":\"Tony WuはxAI共同創業者であり、推論チームを主導していたが、2026年2月9日にXで辞任を発表した。",
+    "idx": [
+     2
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Tony Wu\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-02-10\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g==\",\"出典名\":\"Fortune\",\"確かさ\":\"報道\",\"備考\":\"Jimmy BaはxAI共同創業者であり、研究および安全対策を主導していたが、2026年2月10日にXで退任を発表した。",
+    "idx": [
+     3
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Jimmy Ba\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-01\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0=\",\"出典名\":\"Silicon Republic\",\"確かさ\":\"報道\",\"備考\":\"Greg YangはxAI共同創業者であったが、2026年1月にライム病のため退任した。",
+    "idx": [
+     4
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Greg Yang\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-03\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE=\",\"出典名\":\"Capacity Global\",\"確かさ\":\"報道\",\"備考\":\"Zihang DaiはxAI共同創業者として2026年3月までに退任した。",
+    "idx": [
+     5
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Zihang Dai\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-03\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=\",\"出典名\":\"Dealroom News\",\"確かさ\":\"報道\",\"備考\":\"Guodong ZhangはxAI共同創業者として2026年3月までに退任した。",
+    "idx": [
+     1
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Guodong Zhang\",\"役職\":\"\",\"移籍元\":\"xAI\",\"移籍先\":\"\"},\n{\"会社名\":\"xAI\",\"関係\":\"移籍\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-05\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw==\",\"出典名\":\"CRN\",\"確かさ\":\"報道\",\"備考\":\"Ross NordeenはxAI共同創業者として2026年3月28日にxAIを退任し、2026年5月にAnthropicへテクニカルスタッフとして移籍した。",
+    "idx": [
+     1,
+     6
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Ross Nordeen\",\"役職\":\"Technical Staff\",\"移籍元\":\"xAI\",\"移籍先\":\"Anthropic\"},\n{\"会社名\":\"xAI\",\"関係\":\"退任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-02-27\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU=\",\"出典名\":\"GoElite (Bloomberg report cited)\",\"確かさ\":\"報道\",\"備考\":\"Toby PohlenはxAI共同創業者として2026年2月27日に退任した。",
+    "idx": [
+     7
+    ]
+   },
+   {
+    "text": "これによりxAIはSpaceXの子会社となった。",
+    "idx": [
+     7
+    ]
+   },
+   {
+    "text": "\"},\n{\"会社名\":\"xAI\",\"関係\":\"就任\",\"相手\":\"\",\"金額\":\"\",\"日付\":\"2026-04\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv\",\"出典名\":\"Wikipedia\",\"確かさ\":\"報道\",\"備考\":\"Michael NicollsはSpaceXのStarlink担当副社長から、2026年4月にxAIの社長に就任した。",
+    "idx": [
+     8
+    ]
+   },
+   {
+    "text": "\",\"人物\":\"Michael Nicolls\",\"役職\":\"President\",\"移籍元\":\"SpaceX (Starlink VP)\",\"移籍先\":\"xAI\"},\n{\"会社名\":\"SpaceX\",\"関係\":\"買収\",\"相手\":\"Cursor\",\"金額\":\"600億ドル\",\"日付\":\"2026-08-14\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv\",\"出典名\":\"Wikipedia\",\"確かさ\":\"報道\",\"備考\":\"SpaceXは2026年8月14日にソフトウェア企業であるCursorを全株式取引で600億ドルで買収した。",
+    "idx": [
+     8
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2805,
+   "candidatesTokenCount": 3264,
+   "totalTokenCount": 18744,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2805
+    }
+   ],
+   "toolUsePromptTokenCount": 4248,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 4248
+    }
+   ],
+   "thoughtsTokenCount": 8427,
+   "serviceTier": "standard"
+  }
+ }
+}

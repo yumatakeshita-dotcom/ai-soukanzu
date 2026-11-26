@@ -18,6 +18,66 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-26-recheck.json
 
+## 2026-11-26-9　Anthropicの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic executives appointments 2026
+- Anthropic key researchers departures 2026
+- Anthropic leadership changes 2026
+- Anthropic new hires 2026
+- Anthropic board of directors 2026
+- Anthropic management team 2026
+
+**出てきた候補**
+
+- Anthropic → 就任 → (2026-04)
+- Anthropic → 就任 → (2026-04)
+- Anthropic → 就任 → (2026-01)
+- Anthropic → 就任 → (2026-02)
+- Anthropic → 移籍 → (2026-05)
+- Anthropic → 移籍 → (2026-07)
+- Anthropic → 移籍 → (2026-02)
+- Anthropic → 就任 → (2026-04-14)
+- Anthropic → 移籍 → (2026-07)
+- Anthropic → 移籍 → (2026-06-24)
+- Anthropic → 就任 → (2026-08)
+- Anthropic → 退任 → (2026-09)
+
+記録ファイル: inbox/gemini/2026-11-26-9.json / 2026-11-26-9.md
+
+## 2026-11-26-8　OpenAIの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- OpenAI executive changes 2026
+- OpenAI key researchers departures 2026
+- OpenAI leadership appointments 2026
+- OpenAI employee movements 2026
+- former OpenAI employees new roles 2026
+- OpenAI personnel news 2026
+
+**出てきた候補**
+
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 就任 → (2026-08)
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 退任 → (2026-07)
+- OpenAI → 退任 → AI science startup(2026-04)
+- OpenAI → 退任 → (2026-07)
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 退任 → (2026-09)
+- OpenAI → 就任 → (2026-11)
+- OpenAI → 就任 → (2026-02)
+- OpenAI → 就任 → (2026-10)
+- OpenAI → 就任 → (2026-11)
+
+記録ファイル: inbox/gemini/2026-11-26-8.json / 2026-11-26-8.md
+
 ## 2026-11-26-7　xAI(SpaceX統合後を含む)の資金調達、株主、幹部・共同創業者の退任と移籍先、提携、買収。公式発表・SEC開示・大手報道・本人のXで確かめられるもの
 
 - モデル: gemini-2.5-flash　/　候補 10件
@@ -285,6 +345,50 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 - OpenAI → 就任 → (2026-07-21)【保留】
 
 記録ファイル: inbox/gemini/2026-11-26-2.json / 2026-11-26-2.md
+
+## 2026-11-26-10　xAI・SpaceXAIの幹部・共同創業者の2026年の退任と移籍先、新しく就任した幹部とその前職。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- xAI executive changes 2026
+- xAI leadership departures 2026
+- xAI new executive appointments 2026
+- SpaceX AI executive changes 2026
+- SpaceX AI leadership departures 2026
+- SpaceX AI new executive appointments 2026
+- xAI co-founder leaves 2026
+- SpaceX AI personnel changes 2026
+
+**見たページ**
+
+- [entrepreneurloop.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw==)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=)
+- [businessinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug)
+- [fortune.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g==)
+- [siliconrepublic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0=)
+- [capacityglobal.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE=)
+- [crn.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw==)
+- [goelite.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU=)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv)
+
+**出てきた候補**
+
+- xAI → 退任 → (2026-02)
+- xAI → 退任 → (2026-03-28)
+- xAI → 退任 → (2026-02-09)
+- xAI → 退任 → (2026-02-10)
+- xAI → 退任 → (2026-01)
+- xAI → 退任 → (2026-03)
+- xAI → 退任 → (2026-03)
+- xAI → 移籍 → (2026-05)
+- xAI → 退任 → (2026-02-27)
+- SpaceX → 買収 → xAI(2026-02-02)
+- xAI → 就任 → (2026-04)
+- SpaceX → 買収 → Cursor(2026-08-14)
+
+記録ファイル: inbox/gemini/2026-11-26-10.json / 2026-11-26-10.md
 
 ## 2026-11-26　直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携
 

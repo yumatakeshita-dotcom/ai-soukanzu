@@ -1,0 +1,403 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "Anthropicの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Mike Krieger",
+   "役職": "Co-lead, Anthropic Labs",
+   "移籍元": "Anthropic",
+   "移籍先": "Anthropic Labs",
+   "src": [
+    [
+     "Observer",
+     "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxPBX8qdcsnGk_Rf9U2VuURd1-y2oycHp1Brg2xY0STSLHNR--hf4l9BMS4zD667j_sZSfIQ4-clZGMeSmiQ_ZhPjOyE36ROG-rwm9MMGJCN-tNkbzSSLneXZPRsoHlMS8jIh1tXttRWh3CNM7cdk-0qPqQmZu3jnOO9ubLUDp0bu8",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Ben Mann",
+   "役職": "Co-lead, Anthropic Labs",
+   "移籍元": "Anthropic",
+   "移籍先": "Anthropic Labs",
+   "src": [
+    [
+     "Observer",
+     "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxPBX8qdcsnGk_Rf9U2VuURd1-y2oycHp1Brg2xY0STSLHNR--hf4l9BMS4zD667j_sZSfIQ4-clZGMeSmiQ_ZhPjOyE36ROG-rwm9MMGJCN-tNkbzSSLneXZPRsoHlMS8jIh1tXttRWh3CNM7cdk-0qPqQmZu3jnOO9ubLUDp0bu8",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-01",
+   "出典URL": "https://derrick-app.com/company/anthropic/executives",
+   "確かさ": "報道",
+   "備考": "Mike Kriegerの後任",
+   "人物": "Ami Vora",
+   "役職": "Chief Product Officer",
+   "移籍元": "Anthropic",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Observer, Derrick App",
+     "https://derrick-app.com/company/anthropic/executives"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxPBX8qdcsnGk_Rf9U2VuURd1-y2oycHp1Brg2xY0STSLHNR--hf4l9BMS4zD667j_sZSfIQ4-clZGMeSmiQ_ZhPjOyE36ROG-rwm9MMGJCN-tNkbzSSLneXZPRsoHlMS8jIh1tXttRWh3CNM7cdk-0qPqQmZu3jnOO9ubLUDp0bu8,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVw6ZXAQbG-4ZXviWfYqmHuiHQFA12Lbr9OnZqahmnF_Taq0SCVL2WLHwQ7VwyzdzXbNtXtCRShjR1_bzTrdmEtlpjOi-t2hADm2qYlHPsBauvyvsETASwMgRLf-huK6R_MVB3UqKnLu64rMeqMA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://wolf.financial/blog/anthropic-board-of-directors",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Chris Liddell",
+   "役職": "Board of Directors Member",
+   "移籍元": "Microsoft (元CFO)",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Observer, WOLF Financial",
+     "https://wolf.financial/blog/anthropic-board-of-directors"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxPBX8qdcsnGk_Rf9U2VuURd1-y2oycHp1Brg2xY0STSLHNR--hf4l9BMS4zD667j_sZSfIQ4-clZGMeSmiQ_ZhPjOyE36ROG-rwm9MMGJCN-tNkbzSSLneXZPRsoHlMS8jIh1tXttRWh3CNM7cdk-0qPqQmZu3jnOO9ubLUDp0bu8,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0-4hBVExkGz7qKZx4XyuqBr8r1hbUJQpe4Sb7vdRXfxmWmUne1kDYtkWcMRB2LaJBJ2U3-LX0iYIpcWxlTlLkfTR0ma8oYkRhAZWZWMTAfkEF33mtn79Hnv9Ja4Bq_bxfhPe2-G7vXukIU2HN_tc6dNE=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-05",
+   "出典URL": "https://explainx.ai/blog/anthropic-hiring-spree-2026-john-jumper-karpathy-talent-2026",
+   "確かさ": "本人の発言",
+   "備考": "Xで発表",
+   "人物": "Andrej Karpathy",
+   "役職": "Researcher",
+   "移籍元": "OpenAI, Tesla, Eureka Labs",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "CRN, explainx.ai Blog",
+     "https://explainx.ai/blog/anthropic-hiring-spree-2026-john-jumper-karpathy-talent-2026"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbegTKC9UHycn7a3E9vnGzYwYkEfbaDbM3kPD9MXYiaTaJ75y5e23DzfnfCwSVbL7sJ9KVTzxnvYyHFPwciJI6j4oEEBkwGkorIEa1Q7HALq29AHE73cr_YcEvx_rRms5x0g-hkPAphSIKxUaLcB73EMUAjCoiZeZbChu779WRFK8oIKz-VAdkK0bMHB0FDtJ4-bRpASthShsahP_aXx15,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5TnG85V-xGD11aHd8V8D4kexxYHh3xKT1SzREfY6F56eYsYN1KXDaTBceAGx77ED1WymWr750xX6oJfFw-12vUkXraANvG7FlKwzCROVYUx6aS0tbPXxdR30StiYqkfLWLBsAuJR8A4pOA5s1nqtWaMQfTrEkn4d_1GwAyWV7EKK2Z_8nGkz-jJdud5CT2A==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://techfundingnews.com/anthropic-top-10-hires/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Eric Boyd",
+   "役職": "Head of Infrastructure",
+   "移籍元": "Microsoft",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "CRN, Tech Funding News",
+     "https://techfundingnews.com/anthropic-top-10-hires/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbegTKC9UHycn7a3E9vnGzYwYkEfbaDbM3kPD9MXYiaTaJ75y5e23DzfnfCwSVbL7sJ9KVTzxnvYyHFPwciJI6j4oEEBkwGkorIEa1Q7HALq29AHE73cr_YcEvx_rRms5x0g-hkPAphSIKxUaLcB73EMUAjCoiZeZbChu779WRFK8oIKz-VAdkK0bMHB0FDtJ4-bRpASthShsahP_aXx15,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLxwZvQi00ATjNqzDyv00Cp8N3YnSd01Sk8iipS9EPKpxB4N8N3hJHwyhMAg7sLHX3lwi-NT03EVxXfEiwbpJOtYO5d3NWE6YxM0ZulzM4XKywcFhGEel9_lwa62tZooy9f-ieM7ZclwCh71TT",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://techfundingnews.com/anthropic-top-10-hires/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Tim Hughes",
+   "役職": "Head of Energy; Leasing and Land",
+   "移籍元": "Stack Infrastructure, Meta",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "CRN, Tech Funding News",
+     "https://techfundingnews.com/anthropic-top-10-hires/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbegTKC9UHycn7a3E9vnGzYwYkEfbaDbM3kPD9MXYiaTaJ75y5e23DzfnfCwSVbL7sJ9KVTzxnvYyHFPwciJI6j4oEEBkwGkorIEa1Q7HALq29AHE73cr_YcEvx_rRms5x0g-hkPAphSIKxUaLcB73EMUAjCoiZeZbChu779WRFK8oIKz-VAdkK0bMHB0FDtJ4-bRpASthShsahP_aXx15,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLxwZvQi00ATjNqzDyv00Cp8N3YnSd01Sk8iipS9EPKpxB4N8N3hJHwyhMAg7sLHX3lwi-NT03EVxXfEiwbpJOtYO5d3NWE6YxM0ZulzM4XKywcFhGEel9_lwa62tZooy9f-ieM7ZclwCh71TT",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-04-14",
+   "出典URL": "https://www.anthropic.com/news/narasimhan-board",
+   "確かさ": "公式",
+   "備考": "Long-Term Benefit Trustによる任命",
+   "人物": "Vas Narasimhan",
+   "役職": "Board of Directors Member",
+   "移籍元": "Novartis (CEO)",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Anthropic (公式発表)",
+     "https://www.anthropic.com/news/narasimhan-board"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFx_5b_ltF2CGAllYuxNjdiA-t20V3Dh8Nhba4SMyZuGRoSfkjgeYbs4Kj0iaUYm94OtA6daUiAAdntmzCmgxnaOJhng20Dqp7Yxw3mY5vKzODromf3GiuNlp5-TtQo4v2QRvK6QrL3EQM=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Vas Narasimhan appointed to Board of Directors \\ Anthropic",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://www.polaris7.io/signals/top-ai-researchers-leave-google-for-anthropic-signal",
+   "確かさ": "報道",
+   "備考": "ノーベル賞受賞者",
+   "人物": "John Jumper",
+   "役職": "AI Researcher",
+   "移籍元": "Google DeepMind",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "explainx.ai Blog, Polaris7 Intelligence",
+     "https://www.polaris7.io/signals/top-ai-researchers-leave-google-for-anthropic-signal"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE5TnG85V-xGD11aHd8V8D4kexxYHh3xKT1SzREfY6F56eYsYN1KXDaTBceAGx77ED1WymWr750xX6oJfFw-12vUkXraANvG7FlKwzCROVYUx6aS0tbPXxdR30StiYqkfLWLBsAuJR8A4pOA5s1nqtWaMQfTrEkn4d_1GwAyWV7EKK2Z_8nGkz-jJdud5CT2A==,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Go2NGcEMI6OuMIUciQ-B-t8aycxbXzFl6l9UJL5LdG5PiAWqKSPgV7GybyJmmlFLK2qTt1f8liNkBIPiUX_a_Xqsi7_ayjmYNvsnXS3ms67fQ54YAWEEKSbTUrOOLPLUDmGaqFDvYMwPCtTJFufjIviNvteg6jF9MRn3FFdc3LitpmWIWC5u528n2OQr",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "移籍",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-06-24",
+   "出典URL": "https://www.polaris7.io/signals/top-ai-researchers-leave-google-for-anthropic-signal",
+   "確かさ": "報道",
+   "備考": "Google Geminiモデル開発に貢献",
+   "人物": "Jonas Adler, Alexander Pritzel",
+   "役職": "AI Researchers",
+   "移籍元": "Google",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Polaris7 Intelligence",
+     "https://www.polaris7.io/signals/top-ai-researchers-leave-google-for-anthropic-signal"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3Go2NGcEMI6OuMIUciQ-B-t8aycxbXzFl6l9UJL5LdG5PiAWqKSPgV7GybyJmmlFLK2qTt1f8liNkBIPiUX_a_Xqsi7_ayjmYNvsnXS3ms67fQ54YAWEEKSbTUrOOLPLUDmGaqFDvYMwPCtTJFufjIviNvteg6jF9MRn3FFdc3LitpmWIWC5u528n2OQr",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://www.anthropic.com/company/leadership",
+   "確かさ": "公式",
+   "備考": "元Long-Term Benefit Trust Trustee",
+   "人物": "Mariano-Florentino Cuéllar",
+   "役職": "Chief Global Affairs Officer",
+   "移籍元": "Anthropic (Long-Term Benefit Trust)",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Anthropic (公式発表), Leadership at Anthropic",
+     "https://www.anthropic.com/company/leadership"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkPMKSsp2lzPpx25hJKb4iXontSCm2axqzlfvhFOBkSfxNUXFLWiaLp-NoiO7KO6_LXEWreoIpk8fDF6I4pouc5BoO40dmz8MX7bySH2I4NPBXegF5N0JT774MwgL0fvz0rMZTS83gMBpTBQlbnKubQjsh8Lu5LbbXQMdpJ77IZEXfHUIY9RB76JAK04l2ZBr02Q==,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEYZxb-9IKayTUs9EoD4Ot6FAJudq3Uf4_xkVTBwv0ulAQeT3wPIPBgb3ccQ-8FnsKhGnqfLHCexHOaaBnUwfgmT1leRDjRlBiq1nWxK3icK4tYBOiEvKNyLoJnROrx0BcIrIM0qho=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Leadership at Anthropic \\ Anthropic",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-09",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc6xvZrP_yMlFG-i-84Q74VL-OS_75Ve-3jRbJzdD-d3jb3g8pKCWknvZub1EhUtzeqwRq9ftzH9CEkKjgwBnRmlnssk8JodKbvHuzVucG79CaO4yep_o6MpoURPKPD5MMYa2wolAnE32u7oS-Eu_SDmYln6OvSn6428CPedJW,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpVuJPDYpIgim9Ha54mdRCJu_TlpYFPZUlUoEs5aIhUHxegb8nsBsSNuN2ulOhZSCGvq2Mjgr-XfZdjhCXw6sxLnL6iXhv0gWVWwgabkyymK0oCveawTdQSaJpp9wE8GNQU1H_zXmUE3yLDcK,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdJbXFw0jOIwhTdI9OjmX35CcgNcfRXlhU_XU2hBR0Z6tZvMpEUlBrvsp3msrxQByAgK4OBtR1kyPOpY7d3YwJnd44sA-QkmJp14sycrO5OWrUk4BWcdrRL0FD2udyO75ZaTpWOEGBf-jJNWuNmoLUOnKVZEg8KChi_IGMIKyrW3cqfMTTcs4xPMuk1pcGi34PZlN0AuYHUjSENbZWqrPvdEJm5Yd-VzHK",
+   "確かさ": "報道",
+   "備考": "AIコントロールに関する懸念を表明",
+   "人物": "Jacob Coxon",
+   "役職": "Pretraining Researcher",
+   "移籍元": "Anthropic",
+   "移籍先": "AI業界から離脱",
+   "src": [
+    [
+     "NeoTeo, FREED, ARY News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEc6xvZrP_yMlFG-i-84Q74VL-OS_75Ve-3jRbJzdD-d3jb3g8pKCWknvZub1EhUtzeqwRq9ftzH9CEkKjgwBnRmlnssk8JodKbvHuzVucG79CaO4yep_o6MpoURPKPD5MMYa2wolAnE32u7oS-Eu_SDmYln6OvSn6428CPedJW,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHpVuJPDYpIgim9Ha54mdRCJu_TlpYFPZUlUoEs5aIhUHxegb8nsBsSNuN2ulOhZSCGvq2Mjgr-XfZdjhCXw6sxLnL6iXhv0gWVWwgabkyymK0oCveawTdQSaJpp9wE8GNQU1H_zXmUE3yLDcK,https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdJbXFw0jOIwhTdI9OjmX35CcgNcfRXlhU_XU2hBR0Z6tZvMpEUlBrvsp3msrxQByAgK4OBtR1kyPOpY7d3YwJnd44sA-QkmJp14sycrO5OWrUk4BWcdrRL0FD2udyO75ZaTpWOEGBf-jJNWuNmoLUOnKVZEg8KChi_IGMIKyrW3cqfMTTcs4xPMuk1pcGi34PZlN0AuYHUjSENbZWqrPvdEJm5Yd-VzHK"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Anthropic executives appointments 2026",
+   "Anthropic key researchers departures 2026",
+   "Anthropic leadership changes 2026",
+   "Anthropic new hires 2026",
+   "Anthropic board of directors 2026",
+   "Anthropic management team 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2801,
+   "candidatesTokenCount": 4872,
+   "totalTokenCount": 15175,
+   "cachedContentTokenCount": 689,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2801
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 689
+    }
+   ],
+   "toolUsePromptTokenCount": 3792,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3792
+    }
+   ],
+   "thoughtsTokenCount": 3710,
+   "serviceTier": "standard"
+  }
+ }
+}

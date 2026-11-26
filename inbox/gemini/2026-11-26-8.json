@@ -1,0 +1,392 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "OpenAIの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Denise Dresser",
+   "役職": "Chief Revenue Officer",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "Business Insider",
+     "https://www.businessinsider.com/executives-who-left-openai-in-2026-8"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV_a_SqSRdZNxWxlwwDGrT3ZbGNmyzwSE2m4Qk1cW8JbrT_Il7OsJHbcAyti2iYu9eAMw6FSMcCtpAv_PRAZ6rPCJatpmoUHMoaJeE1JbqrCnDu10DMJ-zxlusJmGBMEXAE0mxj3ztIHH9EJzoR82jsadv2HbEMOOZUlvRNpmH",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENu17UIp7MZtboYKigK51lBvXea2Mw5R6G1_dzZJrnONVqYxVlTC9Jz3yx3ZxeFkp0VQVSexpGmty00UmmxkFk-l6jxCZ6JatPvuz0_z1Zj-eF2xOIF9iIiQes_brLL3Od3nn_RLq-F9xWFt_OfeNTGSdW4PKmTKyWKNXTpL4xHkA4rHXg8TkQ6TcUcQYhqy-JY7AQNmcX",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Dali Rajic",
+   "役職": "Chief Revenue Officer",
+   "移籍元": "Wiz",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "Dealroom News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENu17UIp7MZtboYKigK51lBvXea2Mw5R6G1_dzZJrnONVqYxVlTC9Jz3yx3ZxeFkp0VQVSexpGmty00UmmxkFk-l6jxCZ6JatPvuz0_z1Zj-eF2xOIF9iIiQes_brLL3Od3nn_RLq-F9xWFt_OfeNTGSdW4PKmTKyWKNXTpL4xHkA4rHXg8TkQ6TcUcQYhqy-JY7AQNmcX"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://fortune.com/2026/08/11/openai-exec-brad-lightcap-leaving-start-something-new/",
+   "確かさ": "報道",
+   "備考": "新事業を開始するため",
+   "人物": "Brad Lightcap",
+   "役職": "Special Projects Lead (元COO)",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "Fortune",
+     "https://fortune.com/2026/08/11/openai-exec-brad-lightcap-leaving-start-something-new/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE6tUxDagr6dazyCAPaA2KfAdlhGcv9OKFaAO4zVFff_hpDlH5W0PCBc14MK_IqJxl7momeBpRRM-invc5KygCMpCYKfAUEfEvQ3g0IIdegfUsrx2caS_Khh1VRZ8dE-d00WHO8zUo1pLxNyGawWLyyW0V1IgrKM4Y4zl2m3FzrYTlKHr-WVocM6zDD5t577tE",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Long-time OpenAI exec Brad Lightcap departs to &#x27;start s",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI"
+    ]
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENu17UIp7MZtboYKigK51lBvXea2Mw5R6G1_dzZJrnONVqYxVlTC9Jz3yx3ZxeFkp0VQVSexpGmty00UmmxkFk-l6jxCZ6JatPvuz0_z1Zj-eF2xOIF9iIiQes_brLL3Od3nn_RLq-F9xWFt_OfeNTGSdW4PKmTKyWKNXTpL4xHkA4rHXg8TkQ6TcUcQYhqy-JY7AQNmcX",
+   "確かさ": "報道",
+   "備考": "健康上の理由によりパートタイムアドバイザーに移行",
+   "人物": "Fidji Simo",
+   "役職": "CEO of Applications",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "Dealroom News",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENu17UIp7MZtboYKigK51lBvXea2Mw5R6G1_dzZJrnONVqYxVlTC9Jz3yx3ZxeFkp0VQVSexpGmty00UmmxkFk-l6jxCZ6JatPvuz0_z1Zj-eF2xOIF9iIiQes_brLL3Od3nn_RLq-F9xWFt_OfeNTGSdW4PKmTKyWKNXTpL4xHkA4rHXg8TkQ6TcUcQYhqy-JY7AQNmcX"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "AI science startup",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://finance.biggo.com/news/G5x2o50B-x-dxYpbE5Qo",
+   "確かさ": "報道",
+   "備考": "AI科学スタートアップを設立するため",
+   "人物": "Kevin Weil",
+   "役職": "VP of Science Projects (OpenAI for Scienceを主導)",
+   "移籍元": "OpenAI",
+   "移籍先": "AI science startup",
+   "src": [
+    [
+     "Bloomberg (引用元: foreign media reports)",
+     "https://finance.biggo.com/news/G5x2o50B-x-dxYpbE5Qo"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETFC9EE0bq8q5bdRasFabB5xjcalLi4IcCvZXSm5XttGhmU6AZ4gmuRajBpvpG8o7bxUbTV_pRr5zj72skW6oSCFV_Ywhti-CYyztFccLv-hcLnUV6Am2DavqmbSr7e0ogQQO2vLyP3ZexZkq8Nw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-07",
+   "出典URL": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
+   "確かさ": "報道",
+   "備考": "ミッションアライメントチーム解散後、チーフフューチャリストに就任",
+   "人物": "Joshua Achiam",
+   "役職": "Chief Futurist",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "Business Insider",
+     "https://www.businessinsider.com/executives-who-left-openai-in-2026-8"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV_a_SqSRdZNxWxlwwDGrT3ZbGNmyzwSE2m4Qk1cW8JbrT_Il7OsJHbcAyti2iYu9eAMw6FSMcCtpAv_PRAZ6rPCJatpmoUHMoaJeE1JbqrCnDu10DMJ-zxlusJmGBMEXAE0mxj3ztIHH9EJzoR82jsadv2HbEMOOZUlvRNpmH",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-08",
+   "出典URL": "https://www.businessinsider.com/executives-who-left-openai-in-2026-8",
+   "確かさ": "報道",
+   "備考": "インフラ組織再編の一環",
+   "人物": "Chris Malone",
+   "役職": "Head of Data Centers",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "Business Insider",
+     "https://www.businessinsider.com/executives-who-left-openai-in-2026-8"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEV_a_SqSRdZNxWxlwwDGrT3ZbGNmyzwSE2m4Qk1cW8JbrT_Il7OsJHbcAyti2iYu9eAMw6FSMcCtpAv_PRAZ6rPCJatpmoUHMoaJeE1JbqrCnDu10DMJ-zxlusJmGBMEXAE0mxj3ztIHH9EJzoR82jsadv2HbEMOOZUlvRNpmH",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-09",
+   "出典URL": "https://shattered.io/openai-safety-lead-quits-12-launches-2026/",
+   "確かさ": "報道",
+   "備考": "AIの安全対策への懸念を理由に",
+   "人物": "David Robinson",
+   "役職": "Safety Systems team leader",
+   "移籍元": "OpenAI",
+   "src": [
+    [
+     "shattered.io (引用元: The Atlantic)",
+     "https://shattered.io/openai-safety-lead-quits-12-launches-2026/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG9Ww1it7m6-NiC_kbF2JpdfG1Z__NkoR-ZsV1XsLJSa-Zr3FNeQ1uBEKBb_RWLRdgW4YqVWvhGK_RUJMSMckA7OaC8Kvvp6G_zpRk5IqW4Osa5FhOJ89q8YCdwJzVIP0MFSVrrJr_a0IWKhdELwKq4nsfvzSD6IdyXNA==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11",
+   "出典URL": "https://www.exchange4media.com/trending-topic-ai/openai-leadership-appointment.html",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Jill Hazelbaker",
+   "役職": "Chief Corporate Affairs Officer",
+   "移籍元": "Uber",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "Exchange4media",
+     "https://www.exchange4media.com/trending-topic-ai/openai-leadership-appointment.html"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgoZHL5lka4MO5jyx7ECyPR4COWNrqMazeGWw6LdC-1BxHkJLBhOf520tFcN8H4Fiin46CPsqvxcw6ltxi8d7l-iYp2uzNIVYNUJw-PBDOYhfABD56fGy-LGxdYaNKLA_eJPVNCzl06NCcIj_diyo4wQ6srH8dpX2VmN2RJHU0qSbm1pVVMoy0ahY78e8g",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbu3TNrGjSOMCwqfS3rP_mTB2jVXMu_f3vdSduAidVb1qGUijRAUEnys5qa2H1y73MmvYSH335nOv1i9uSQeC_FpPbiRQgGYOUF4nn0bJOtfqqRQn2OekMBeSi3ENlqPWFPTLAufOXBVXSPAs=",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Arvind KC",
+   "役職": "Chief People Officer",
+   "移籍元": "Roblox",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "Derrick App",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEbu3TNrGjSOMCwqfS3rP_mTB2jVXMu_f3vdSduAidVb1qGUijRAUEnys5qa2H1y73MmvYSH335nOv1i9uSQeC_FpPbiRQgGYOUF4nn0bJOtfqqRQn2OekMBeSi3ENlqPWFPTLAufOXBVXSPAs="
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-10",
+   "出典URL": "https://www.nextgov.com/people/2026/11/openai-hones-public-sector-focus-new-leadership-hires/417047/",
+   "確かさ": "報道",
+   "備考": "",
+   "人物": "Yvette Cesario",
+   "役職": "Head of National Security",
+   "移籍元": "Amazon Web Services",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "Nextgov/FCW",
+     "https://www.nextgov.com/people/2026/11/openai-hones-public-sector-focus-new-leadership-hires/417047/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpcUfRgy1xkole2Mu4jkZeSS1gDeOT_prSmACb1IcHINXrJNwetOk6WDGWlBWg6-4kavmO4Aa1aNoj2KSDetvxhtNNahBzqbf-qsMKGaNbG9xZv2pcAEBs2b27D4gksk-MG0XWDPsoBhWPi2HJzEQqxpu1sJJBPJxwYOQ9kJ8BIOOKUhsWgeB5DitFHgfLXL8jDl2StSxvBYodI1VMW00=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-11",
+   "出典URL": "https://www.marketscreener.com/news/openai-announces-appointment-of-akash-iyer-as-head-of-social-apac-effective-november-2026-ce7851dadc8ff320",
+   "確かさ": "報道",
+   "備考": "社内昇進 (元 India social lead)",
+   "人物": "Akash Iyer",
+   "役職": "Head of Social, APAC",
+   "移籍元": "OpenAI (India social lead)",
+   "移籍先": "OpenAI (Head of Social, APAC)",
+   "src": [
+    [
+     "MarketScreener",
+     "https://www.marketscreener.com/news/openai-announces-appointment-of-akash-iyer-as-head-of-social-apac-effective-november-2026-ce7851dadc8ff320"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHTfss8y-WCM9gZ_P4zT3Z9OstKVopDopEUAq54U3SwnPR9Pua4DhZ-MIlfYesfWWIr6H4H6a9GB31YS39ovOdytJegWYP052lq0hFafMJ0V0vT1L84kNQE9Uju5_nXNbPox1-kNraPaRo_7aDVdQIN7qZBWZJhrDXd0NY2IFWCQOvfyvgG1UcxZEkjrLl9Btg-6tLYZZiCucKIXTS0ksVlXhnEkUShyfRc7_whB7st4YrK7q4lSYPHR-XDSIR2X5YNRLNcMhOp9hK6",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "OpenAI executive changes 2026",
+   "OpenAI key researchers departures 2026",
+   "OpenAI leadership appointments 2026",
+   "OpenAI employee movements 2026",
+   "former OpenAI employees new roles 2026",
+   "OpenAI personnel news 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2800,
+   "candidatesTokenCount": 3546,
+   "totalTokenCount": 11907,
+   "cachedContentTokenCount": 636,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2800
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 636
+    }
+   ],
+   "toolUsePromptTokenCount": 3167,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3167
+    }
+   ],
+   "thoughtsTokenCount": 2394,
+   "serviceTier": "standard"
+  }
+ }
+}
