@@ -1,0 +1,17 @@
+{
+ "items": [],
+ "skipped": [
+  {
+   "co": "ハビックス",
+   "title": "マルオリグループ株式会社および株式会社made in Japanとの販売提携契約の締結に関するお知らせ",
+   "url": "https://www.release.tdnet.info/inbs/140120261125585707.pdf",
+   "why": "本文にAI企業名・AI・DX・半導体などの語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-27",
+ "kind": "ir-scan-alliance",
+ "list_rows": 204,
+ "shortlist": 1,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}
