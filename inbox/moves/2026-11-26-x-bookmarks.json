@@ -73,6 +73,54 @@
     ]
    ],
    "confidence": "報道"
+  },
+  {
+   "name_en": "Alex Bocharoff",
+   "name_ja": "",
+   "from": "",
+   "to": "Epochal(創業メンバー)",
+   "role": "創業メンバー(報道の表記)",
+   "date": "2026-11-24",
+   "note": "2026/11/26に記事の本文を開いて確認(AI Weekly・MLQ・Chip Dispatchの3本が、張・戴・Kroissに加えてこの人を創業メンバーとして名前を挙げている。The Starは3人のみ記載)。前職・肩書は報道に記載がなく未記入。ほかにOpenAI・Anthropic・Google DeepMindの元社員が参加と報じられているが、名前は未公表。",
+   "src": [
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly、2026-11-24)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ],
+    [
+     "xAI founding members launch Epochal, an AI startup built to predict future events(MLQ.ai、2026-11-24)",
+     "https://mlq.ai/news/xai-founding-members-launch-epochal-an-ai-startup-built-to-predict-future-events/"
+    ],
+    [
+     "XAI founders unveil new AI startup to predict future events(The Star、Bloomberg配信、2026-11-25)",
+     "https://www.thestar.com.my/tech/tech-news/2026/11/25/xai-founders-unveil-new-ai-startup-to-predict-future-events"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Frank Luan",
+   "name_ja": "",
+   "from": "",
+   "to": "Epochal(創業メンバー)",
+   "role": "創業メンバー(報道の表記)",
+   "date": "2026-11-24",
+   "note": "2026/11/26に記事の本文を開いて確認(AI Weekly・MLQ・Chip Dispatchの3本が、張・戴・Kroissに加えてこの人を創業メンバーとして名前を挙げている。The Starは3人のみ記載)。前職・肩書は報道に記載がなく未記入。ほかにOpenAI・Anthropic・Google DeepMindの元社員が参加と報じられているが、名前は未公表。",
+   "src": [
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly、2026-11-24)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ],
+    [
+     "xAI founding members launch Epochal, an AI startup built to predict future events(MLQ.ai、2026-11-24)",
+     "https://mlq.ai/news/xai-founding-members-launch-epochal-an-ai-startup-built-to-predict-future-events/"
+    ],
+    [
+     "XAI founders unveil new AI startup to predict future events(The Star、Bloomberg配信、2026-11-25)",
+     "https://www.thestar.com.my/tech/tech-news/2026/11/25/xai-founders-unveil-new-ai-startup-to-predict-future-events"
+    ]
+   ],
+   "confidence": "報道"
   }
  ],
  "notes": "祐真さんのXのブックマーク・いいねから拾った分。AIに関係し別の出典で確かめられたものだけ。"
