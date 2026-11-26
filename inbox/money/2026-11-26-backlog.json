@@ -1,0 +1,47 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を確かめた分。",
+ "items": [
+  {
+   "from": "Stripe・Advent International",
+   "to": "PayPal",
+   "kind": "買収提案",
+   "amount": "1株$60.50・評価額$530億超(報道ベース・未成立)",
+   "date": "2026-07-15",
+   "note": "Reuters報道。PayPalは応じておらず合意なし。約$500億の融資確約と報じられた。Blockの参加は確認できず(手がかりの説明にあった Block は外した)。 過去の動画・番組(20VC・All-In・TBPN)の手がかりから探し、検索結果の複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Bloomberg Law(Reuters引用,2026/7/15)",
+     "https://news.bloomberglaw.com/business-and-practice/stripe-advent-offer-to-buy-paypal-for-53-billion-reuters-says"
+    ],
+    [
+     "Semafor(2026/7/15)",
+     "https://semafor.com/article/07/15/2026/stripe-and-advent-bid-53b-for-paypal"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "Nvidia",
+   "to": "Poolside",
+   "kind": "出資",
+   "amount": "$10億の出資(評価額$120億・出資前)+約$60億のライセンス料(報道ベース)",
+   "date": "2026-08",
+   "note": "手がかりの「$12B deal」は評価額で、取引額ではない点に注意。Poolsideの技術(Model Factory)の非独占ライセンスと100人超の社員がNvidiaのNemotron開発に参加と報道。 過去の動画・番組(20VC・All-In・TBPN)の手がかりから探し、検索結果の複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Nvidia開発者フォーラムの報道要約",
+     "https://forums.developer.nvidia.com/t/nvidia-is-reportedly-spending-6-billion-to-build-one-of-the-world-s-most-powerful-open-weight-ai-models/381011/2"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  }
+ ]
+}

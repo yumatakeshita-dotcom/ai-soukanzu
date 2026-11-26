@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-26",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を確かめた分。",
+ "items": [
+  {
+   "name_en": "Jeff Dean",
+   "name_ja": "ジェフ・ディーン",
+   "from": "Google(チーフサイエンティスト)",
+   "to": "Discovery Loop(共同創業)",
+   "role": "Sanjay Ghemawat と共同で創業。Alphabetが出資しクラウドの提携先に",
+   "date": "2026-08-05",
+   "region": "米国",
+   "backfill": true,
+   "note": "27年勤めたGoogleを退社。Oriol Vinyals・Quoc Le も参加と報道。Demis Hassabis の役割変更も同時に発表と報じられた。 過去の動画・番組(20VC・All-In・TBPN)の手がかりから探し、検索結果の複数の報道が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "Search Engine Land(2026/8)",
+     "https://searchengineland.com/google-leadership-changes-with-jeff-dean-out-demis-hassabis-role-change-and-more-484387"
+    ],
+    [
+     "DatacenterDynamics",
+     "https://www.datacenterdynamics.com/en/news/google-chief-scientist-jeff-dean-departs-demis-hassabis-steps-down-as-deepmind-ceo/"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}
