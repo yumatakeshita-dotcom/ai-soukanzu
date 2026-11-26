@@ -1,0 +1,135 @@
+{
+ "new": [
+  {
+   "company": "OpenAI",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "text": "GPT-6 models demonstrate intrinsic protein-design capabilities Science Nov 24, 2026"
+  },
+  {
+   "company": "OpenAI",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+   "text": "Searching for distant planets with Astra Science Nov 24, 2026"
+  },
+  {
+   "company": "NVIDIA",
+   "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+   "text": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/FineEnvs/fineproofenvs-rl-2b-prover",
+   "text": "FineProofEnvs: Better Math Proofs from a 2B Model with RL FineEnvs • 1 day ago • 12"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/sensenova/roborsi",
+   "text": "SenseNova-RoboRSI: Integrating VLA and Code as Policy Through Model–Harness Co-Evolution sensenova • about 13 hours ago • 10"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/XijieGong/loop-behind-rethinking-where-extra-loops-pay-off-i",
+   "text": "Loop Behind: Rethinking Where Extra Loops Pay Off in Looped Language Models XijieGong • 1 day ago • 9"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/FINAL-Bench/two-2048-bit-rsa-keys-one-gcd-both-broken-check-yo",
+   "text": "Two 2048-bit RSA Keys, One GCD, Both Broken: Check Your Own Public Keys in the Browser FINAL-Bench • about 17 hours ago • 7"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/FrontiersMind/introducing-nandibert",
+   "text": "Introducing NandiBERT FrontiersMind • 1 day ago • 6"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "text": "Where scientists draw the line on AI agents 5 November 25, 2026"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "text": "An Indic Voice Agent with CUGA 7 November 25, 2026"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "text": "inference inference-endpoints jobs Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000 2 November 25, 2026"
+  },
+  {
+   "company": "HuggingFace",
+   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "text": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton 11 November 24, 2026"
+  },
+  {
+   "company": "GitHub",
+   "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+   "text": "How to choose the next safe step in application modernization"
+  },
+  {
+   "company": "Perplexity",
+   "url": "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine",
+   "text": "Nov 25, 2026 Freeze the web with Perplexity Time Machine Time Machine adds a date cutoff to the Search API and Context API so agents see the web as it was. Nov 25, 2026"
+  },
+  {
+   "company": "Perplexity",
+   "url": "https://www.perplexity.ai/hub/blog/perplexity-pro-now-includes-weekly-computer-usage",
+   "text": "Nov 25, 2026 Perplexity Pro now includes weekly Computer usage Run Computer tasks on desktop and mobile with a weekly usage meter in Pro. See how resets, credits and auto-refill work. Nov 25, 2026"
+  },
+  {
+   "company": "Perplexity",
+   "url": "https://www.perplexity.ai/hub/blog/context-compaction",
+   "text": "Nov 25, 2026 Context compaction: what happens when your AI chat runs out of room, and what to do about it Context compaction summarizes older messages when a long AI conversation approaches the contex"
+  },
+  {
+   "company": "Perplexity",
+   "url": "https://www.perplexity.ai/hub/blog/internal-search",
+   "text": "Nov 24, 2026 How do you create an internal search engine? A guide for website and workplace discovery Learn how to set up internal search for your website or workplace in five steps, and when to build"
+  },
+  {
+   "company": "Microsoft",
+   "url": "https://news.microsoft.com/source/emea/features/how-kier-groups-louisa-finlay-is-using-copilot-to-drive-safety-and-productivity-in-the-construction-industry/",
+   "text": "How Kier Group’s Louisa Finlay is using Copilot to drive safety and productivity in the construction industry"
+  },
+  {
+   "company": "Amazon",
+   "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+   "text": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)"
+  },
+  {
+   "company": "Amazon",
+   "url": "https://aws.amazon.com/blogs/aws/category/storage/amazon-elastic-block-storage-ebs/",
+   "text": "Amazon Elastic Block Store (Amazon EBS)"
+  },
+  {
+   "company": "Amazon",
+   "url": "https://aws.amazon.com/blogs/aws/category/analytics/amazon-managed-streaming-for-apache-kafka/",
+   "text": "Amazon Managed Streaming for Apache Kafka (Amazon MSK)"
+  },
+  {
+   "company": "Amazon",
+   "url": "https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-security-token-service/",
+   "text": "AWS Security Token Service"
+  },
+  {
+   "company": "Databricks",
+   "url": "https://www.databricks.com/blog/agentic-cdp-data-modeling-data-foundation",
+   "text": "Data Strategy November 24, 2026 Data Modeling Best Practices for an Agentic CDP, Part 1: The Data Foundation 10 min read"
+  },
+  {
+   "company": "Databricks",
+   "url": "https://www.databricks.com/blog/sharing-catalog-metadata-across-data-platforms-engines-and-agents",
+   "text": "Platform November 24, 2026 Sharing catalog metadata across data platforms, engines, and agents 5 min read"
+  },
+  {
+   "company": "Databricks",
+   "url": "https://www.databricks.com/blog/what-5400-malicious-npm-packages-reveal-about-software-supply-chain-risk-2026",
+   "text": "Platform November 23, 2026 What 5,400 Malicious npm Packages Reveal about Software Supply Chain Risk in 2026 10 min read"
+  },
+  {
+   "company": "OpenRouter",
+   "url": "https://openrouter.ai/blog/tutorials/can-claude-generate-images/",
+   "text": "Can Claude Generate Images? Yes, with a Connector Claude has no image model of its own, so it draws with code or says it can't. A connector lets it call one: the image model draws, and Claude writes t"
+  }
+ ],
+ "failed": []
+}
