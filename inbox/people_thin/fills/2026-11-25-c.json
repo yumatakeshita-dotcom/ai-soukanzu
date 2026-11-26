@@ -1,0 +1,17 @@
+{"date":"2026/11/25","note":"英語版Wikipediaの本文で確かめた経歴。公式発表での再確認は未了のため、確かさの印は「報道」。","items":[
+{"en":"Aman Sanger","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Aman_Sanger","r"],
+ "desc":"MIT(2018〜2022年)でコンピューター科学と数学を学び、同級生のマイケル・トゥルーエル、スアレー・アシフ、アルビッド・ルンネマークと2022年にAnysphere(Cursorの運営会社)を共同創業しました。2021年には、細胞の遺伝子発現を空間的に解析するディープラーニングの枠組みTangramの論文(Nature Methods)を共著。Cursorは2023年に公開され、AIコーディングツールで最も急成長した会社の1つに。2025年11月の調達で評価額は293億ドル、2026年にはSpaceXが評価額600億ドルで買収することで合意したと報じられました。Cursor Researchの2026年の論文『Composer 2 Technical Report』にも共著者として名を連ねています。",
+ "career":[["2021","Tangram(細胞の空間的な遺伝子発現の解析)の論文をNature Methodsに共著"],["2022","MITを卒業。Anysphere(Cursor)を共同創業"],["2023","Cursorを公開"],["2025","11月、Anysphereの評価額293億ドルの調達"],["2026","SpaceXがAnysphereを評価額600億ドルで買収すると報じられる"]]},
+{"en":"Denis Yarats","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Denis_Yarats","r"],
+ "desc":"1987年生まれの計算機科学者・起業家。2008年にGoogle Code Jamの決勝に進出(英語力と準備不足で採用は見送り)。2011〜2013年にシアトルでMicrosoftのBing検索のエンジニア、2013〜2016年にQuoraの機械学習エンジニア、2016〜2022年にFacebook AI Research(現Meta AI)の研究者。強化学習の手法DrQを提案した論文(ICLR 2021)を共著。2022年にアラビンド・スリニバス、ジョニー・ホー、アンディ・コンウィンスキーとPerplexity AIを共同創業し、CTOに。2025年時点で同社は2億ドルを調達し、評価額200億ドルでした。",
+ "career":[["2008","Google Code Jamの決勝に進む"],["2011","MicrosoftのBing検索のエンジニアに(〜2013年)"],["2013","Quoraの機械学習エンジニアに(〜2016年)"],["2016","Facebook AI Research(現Meta AI)の研究者に(〜2022年)"],["2022","Perplexity AIを共同創業し、CTOに"],["2025","Perplexityが2億ドルを調達、評価額200億ドル"]]},
+{"en":"Kyle Kosic","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Kyle_Kosic","r"],
+ "desc":"AI研究者。2021年にOpenAIに入り、2023年5月にxAIに移りました。2024年6月にxAIを離れてOpenAIの技術スタッフに戻り、2026年に、ジェフ・ベゾスが2025年に創業した、物理世界(産業用途など)のAIに取り組む新興企業Project Prometheusに加わったと書かれています。",
+ "career":[["2021","OpenAIに入社"],["2023","5月、xAIに移る"],["2024","6月、xAIを離れてOpenAIの技術スタッフに戻る"],["2026","ベゾス創業のProject Prometheusに加わる"]]},
+{"en":"Shona Brown","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Shona_Brown","r"],
+ "desc":"1966年生まれの経営者・非営利団体と企業のコンサルタント。1995年10月〜2003年8月にMcKinsey & Companyで働き(2000年12月にロサンゼルス事務所のパートナー)、1998年に『Competing on the Edge』を共著。2003年9月にGoogleに入って人事部門と事業運営部門を築き、2006年1月にSVPに昇進、2011年4月からはGoogle.orgのSVPとして2012年12月まで務めました。2010年にFortuneで「報酬が6番目に高い女性」(計1,600万ドル超)に挙げられています。",
+ "career":[["1995","McKinsey & Companyに入社(2000年にパートナー)"],["2003","9月、Googleに入社"],["2006","1月、GoogleのSVP(事業運営・人事)に"],["2011","4月、Google.orgのSVPに(〜2012年12月)"]]},
+{"en":"Indra Nooyi","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Indra_Nooyi","r"],
+ "desc":"1955年10月28日、インド・マドラス(現チェンナイ)生まれの米国の経営者。1975年にマドラス・クリスチャン・カレッジで学士、1976年にインド経営大学院カルカッタ校でディプロマ、1980年にイェール大学経営大学院で修士。ボストン・コンサルティング・グループ、Motorola、Asea Brown Boveriを経て、1994年にPepsiCoに入社(戦略計画のSVP)。2006年にスティーブン・ライネムンドの後任として、同社の5人目のCEOに就き、2018年まで会長兼CEOを務めました。Forbesの世界で最も影響力のある女性で2014年に13位、Fortuneの最も力のある女性で2015年と2017年に2位。",
+ "career":[["1980","ボストン・コンサルティング・グループに入社(のちMotorola、ABB)"],["1994","PepsiCoに入社"],["2006","PepsiCoのCEOに(ライネムンドの後任)"],["2018","PepsiCoの会長兼CEOを退く"]]}
+]}

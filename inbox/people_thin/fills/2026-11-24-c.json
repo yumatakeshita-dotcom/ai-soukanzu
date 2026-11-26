@@ -1,0 +1,11 @@
+{"date":"2026/11/24","note":"ギャレット・キャンプとニック・フロストは英語版Wikipediaの本文、ルーク・メッツは本人のXの自己紹介で確かめた。","items":[
+{"en":"Garrett Camp","src":["英語版Wikipedia(2026/11/24確認)","https://en.wikipedia.org/wiki/Garrett_Camp","r"],
+ "desc":"1978年10月4日生まれ、カナダ・フランス国籍の起業家・投資家。2001年にカルガリー大学で電気工学の学士。2002年にStumbleUponを共同創業し(2007年にeBayが買収、2009年に分離独立、2012年に離れる)、2009年にUberCab(のちのUber)を創業。2014年に新しい会社を育てるExpa Labsを設立し、2015年にStumbleUponを買い戻して、2018年にMixへ移行。2020年にUberの取締役を離れ、取締役会のオブザーバーになりました。",
+ "career":[["2002","StumbleUponを共同創業(2007年にeBayが買収、2009年に分離)"],["2009","UberCab(のちのUber)を創業"],["2012","StumbleUponを離れる"],["2014","Expa Labsを設立"],["2015","StumbleUponを買い戻す(2018年にMixへ)"],["2020","Uberの取締役を離れ、オブザーバーに"]]},
+{"en":"Nick Frosst","src":["英語版Wikipedia(2026/11/24確認)","https://en.wikipedia.org/wiki/Nick_Frosst","r"],
+ "desc":"1993年1月5日生まれのカナダのコンピューター科学者・ミュージシャン。2015年にトロント大学でコンピューター科学と認知科学の学士。2016〜2020年にGoogleのAI研究に携わり、2019年にエイダン・ゴメス、イヴァン・ジャンとCohereを共同創業しました。2015年にはトロント大学の仲間とインディーロックバンドGood Kidを結成し、2024年にジュノー賞のブレイクスルー・グループ部門にノミネート。",
+ "career":[["2015","トロント大学を卒業。バンドGood Kidを結成"],["2016","Googleで働き始める(〜2020年)"],["2019","Cohereを共同創業(ゴメス、ジャンと)"],["2024","Good Kidがジュノー賞の新人グループ部門にノミネート"]]},
+{"en":"Luke Metz","src":["本人のX(2026/11/24確認)","https://x.com/luke_metz","s"],
+ "desc":"AI研究者。本人のXの自己紹介(2026/11/24に確認)は「Meta。以前はThinking Machines、OpenAI、Google Brain」。Google Brainを経てOpenAIに入り、Thinking Machines Labの創業メンバーとなり、2026年1月にOpenAIへ戻ったと報じられたのち、Metaへ移っています。",
+ "career":[["〜","Google Brainの研究者"],["〜","OpenAIの研究者"],["〜","Thinking Machines Labに参加"],["2026","本人のXの自己紹介では、現在はMeta(以前はThinking Machines、OpenAI、Google Brain)"]]}
+]}

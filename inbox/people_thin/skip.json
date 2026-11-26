@@ -1,0 +1,30 @@
+{
+ "Rahul Patil": {
+  "reason": "英語版Wikipediaの同名ページはインドの政治家で別人。Anthropic元CTOの経歴は開ける出典が見つからなかった",
+  "date": "2026-11-24"
+ },
+ "Denise Dresser": {
+  "reason": "英語版Wikipediaの同名ページはメキシコの政治学者で別人。OpenAI元CROの経歴は開ける出典が見つからなかった",
+  "date": "2026-11-24"
+ },
+ "Cal Henderson": {
+  "reason": "英語版Wikipediaに経歴の記述がほとんどない(学歴のみ)。Slack・Flickrの経歴は本人のページや公式の記事で確かめたら足す",
+  "date": "2026-11-24"
+ },
+ "Ruoming Pang": {
+  "reason": "英語版Wikipediaにページがなく、Apple・Meta・OpenAIの経歴を開ける出典で確かめられなかった",
+  "date": "2026-11-24"
+ },
+ "Evan Wallace": {
+  "reason": "英語版Wikipediaの同名ページはラッパーで別人。Figma共同創業者の経歴は開ける出典が見つからなかった",
+  "date": "2026-11-25"
+ },
+ "Alfred Lin": {
+  "reason": "英語版Wikipediaのページを取れなかった(通信の回数制限)。次回に再挑戦",
+  "date": "2026-11-25"
+ },
+ "Parker Harris": {
+  "reason": "英語版Wikipediaのページを取れなかった(通信の回数制限)。次回に再挑戦",
+  "date": "2026-11-25"
+ }
+}

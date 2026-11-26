@@ -104,6 +104,8 @@ docs/                 移行メモなど
 
 - 法的ページのひな形(2026/11/20追加): `site/legal/`(利用規約・プライバシーポリシー・特商法表記・お問い合わせ/訂正・削除)。`python3 scripts/legal.py` が `scripts/legal_config.json` から作る(何度動かしても同じ結果)。**ひな形・未確認**で、専門家の確認が済むまで `show_footer_links` は false のまま(各ページのフッターにリンクが出ない・noindex)。確認後に true にして `python3 scripts/legal.py`。フッターは各ページ末尾の `<!--LEGAL:START-->〜<!--LEGAL:END-->` の間だけ(毎朝の更新で消えたら legal.py を再実行)。空欄の項目はページ上で【要記入】の印のまま出る。`weekly.py` と `build-lab` の最後にも自動で動く
 
+- 人物の経歴の薄さ(2026/11/24追加): `python3 scripts/person_thin.py` が、説明文・経歴が薄い人物を知名度の高い順に `inbox/people_thin/` に書く(読むだけ)。確かめた経歴は `inbox/people_thin/fills/日付-x.json` に書き、`python3 scripts/person_fill.py` で各図に足す(足すだけ・何度動かしても同じ。`site/index.html` の `/*PF_DS_START*/` の間に出典が入る)。宿題リスト(`research_queue.py build`)にも上位10人が入る。くわしくは `docs/people_thin.md`
+
 ## 守ること
 - 事実を足すときは、公式発表か信頼できる報道で確かめ、出典のURLを必ず付ける。うわさは入れない
 - 数字が報道ベースや契約の上限のときは、そう書く

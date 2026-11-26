@@ -1,0 +1,20 @@
+{"date":"2026/11/25","note":"英語版Wikipediaの本文で確かめた経歴。公式発表での再確認は未了のため、確かさの印は「報道」。","items":[
+{"en":"Biz Stone","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Biz_Stone","r"],
+ "desc":"1974年3月10日、米ボストン生まれ。1999〜2001年にブログサービスXangaのクリエイティブ・ディレクター、2003〜2005年にGoogleで幹部職。2006年にTwitterを共同創業し、2011年に離れました。2012年にはロン・ハワードやキヤノンUSAと短編映画『Evermore』を監督。2014年に画像で探す検索のJellyを立ち上げてCEOを務め(2017年にPinterestが買収)、2017年にTwitterへ戻って2021年まで在籍。2024年には、Mastodonの米国の非営利団体の取締役会に加わりました。",
+ "career":[["1999","Xangaのクリエイティブ・ディレクターに(〜2001年)"],["2003","Googleで幹部職に(〜2005年)"],["2006","Twitterを共同創業(2011年に離れる)"],["2014","Jellyを立ち上げ、CEOに(2017年にPinterestが買収)"],["2017","Twitterに戻る(〜2021年)"],["2024","Mastodonの米国の非営利団体の取締役会に"]]},
+{"en":"Reynold Xin","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Reynold_Xin","r"],
+ "desc":"ビッグデータ・分散システムの計算機科学者。トロント大学で学士、UCバークレーのAMPLabで博士課程(指導教官はマイケル・フランクリン)にいたころからApache Sparkの開発に関わり、GraphX、Project Tungsten、Structured Streamingの設計・開発を主導、DataFramesも共同設計しました。2013年にマテイ・ザハリアらSparkの主要開発者とDatabricksを共同創業し、チーフ・アーキテクトに。2014年にはDatabricksのチームを率いて、Sparkで並べ替えの世界記録(Daytona GraySort)を達成し、従来のHadoopの記録を30倍上回ったと書かれています。",
+ "career":[["2013","Databricksを共同創業(チーフ・アーキテクト)"],["2014","Sparkで並べ替えの世界記録(Daytona GraySort)。GraphXがSparkに統合される"]]},
+{"en":"Francis deSouza","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Francis_deSouza","r"],
+ "desc":"1970年12月2日生まれの米国の起業家・経営者。1992年にMITで電気工学・コンピューター科学の学士・修士。1997年にFlash Communicationsを共同創業してCEOとなり(1998年にMicrosoftが買収)、2001年にMicrosoftを離れてIMlogicを創業。2006年2月にSymantecがIMlogicを買収して入社し、2013年11月まで製品・サービス担当の社長。その後Illuminaの社長に就き、2016年にCEO、2023年6月11日に退任を発表。のちSynthLabsを共同創業し、Google Cloudでセキュリティ製品の担当社長兼COOを務めました。",
+ "career":[["1997","Flash Communicationsを共同創業しCEOに(1998年にMicrosoftが買収)"],["2001","Microsoftを離れ、IMlogicを創業"],["2006","2月、Symantecに入社(IMlogic買収)。2013年11月まで製品・サービス担当の社長"],["2016","IlluminaのCEOに(それ以前は社長)"],["2023","6月11日、Illuminaを離れると発表"]]},
+{"en":"Lidiane Jones","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Lidiane_Jones","r"],
+ "desc":"1979年生まれのブラジル系米国人の経営者。ミシガン大学を奨学金で2002年に卒業(コンピューター科学)。Microsoftを経て、2015年にSonosのソフトウェア担当VP、2019年にSalesforceに移りCommerce Cloud担当SVP、2022年には3つのクラウド事業の責任者のEVPに。2023年1月、スチュワート・バターフィールドの後任としてSlackのCEOに就き、同年11月にBumbleのCEOに指名されて2024年1月に就任。2025年1月、退任が発表され、創業者のホイットニー・ウルフ・ハードが3月にCEOへ戻りました。",
+ "career":[["2015","Microsoftを離れ、Sonosのソフトウェア担当VPに"],["2019","Salesforceに入り、Commerce Cloud担当SVPに"],["2023","1月、SlackのCEOに(バターフィールドの後任)"],["2024","1月、BumbleのCEOに就任(2023年11月に指名)"],["2025","1月に退任が発表され、3月にウルフ・ハードがCEOに復帰"]]},
+{"en":"Lucy Guo","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Lucy_Guo","r"],
+ "desc":"1994年10月14日生まれの米国の起業家。カーネギーメロン大学でコンピューター科学を学び、2014年にティール・フェローシップ(2年間10万ドル)に選ばれて中退。2016年にScale AIを共同創業しましたが、2018年に解任。同年に「デート用の履歴書」のアプリApply to Dateを出し、2019年にベンチャー投資会社Backend Capital(当初Backend Ventures)を立ち上げ、2022年にクリエイター向けのPassesを創業(2024年に4,000万ドルのシリーズA)。2025年後半まで、自力で財を築いた女性として世界最年少の億万長者でした。",
+ "career":[["2014","ティール・フェローシップに選ばれ、カーネギーメロン大学を中退"],["2016","Scale AIを共同創業"],["2018","Scale AIを解任される。Apply to Dateを公開"],["2019","Backend Capitalを立ち上げる"],["2022","Passesを創業(2024年に4,000万ドルのシリーズA)"]]},
+{"en":"Cliff Obrecht","src":["英語版Wikipedia(2026/11/25確認)","https://en.wikipedia.org/wiki/Cliff_Obrecht","r"],
+ "desc":"Canvaの共同創業者で最高執行責任者(COO)。メラニー・パーキンスとキャメロン・アダムスとCanvaを創業しました(2012年にBlackbird Venturesが出資し、アダムスが技術面の共同創業者として加わった)。2021年1月にパーキンスと結婚し、同年にGiving Pledgeに署名して、資産の8割超をCanva財団を通じて寄付すると約束。財団は2022年から2025年末までに約8,400万ドルを寄付したと2026年8月に報じられました。2026年4月のTechRadarによると、アダムスとともに、AIが作ったデザインも編集できる層を残す方針を説明。2026年8月のForbesの推計で、個人資産は76億ドル。",
+ "career":[["2012","Blackbird VenturesがCanvaに出資。アダムスが技術面の共同創業者に"],["2021","1月にパーキンスと結婚。Giving Pledgeに署名し、Canva財団で資産の8割超を寄付すると約束"],["2026","4月、AI生成のデザインを層ごとに編集できる方針を説明。7月、財団がGlobal Goals Platformを開始"]]}
+]}
