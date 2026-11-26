@@ -1,0 +1,115 @@
+{
+ "items": [
+  {
+   "company": "NVIDIA",
+   "title": "Major AI Hardware Update",
+   "date": "2026-11-24",
+   "what_en": "NVIDIA announced significant AI hardware developments, including next-generation chip architecture updates designed to accelerate enterprise AI workloads and inference performance. The announcement also signals expansion into adjacent technology sectors like electric mobility solutions.",
+   "how_to_try": "NVIDIA has not disclosed specific availability windows for the announced hardware, though industry analysts expect enterprise customers to gain early access through existing partnership channels.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0XQIyWAwEOZAHYXT8FnTkRCHzVIi5x8SfVHAMefhoUyKZ9pAcNVCcTc8iRc7FIimR3AUzhLDZmWTWe9ze3ybHiTsQPMBgPuLxGifw0jBufoIwXgxZOELAV78mjM6c37poe7PHL6h2OAmnsh2Ju9QpotUhKLzGjzKv28isTw=="
+  },
+  {
+   "company": "Meta",
+   "title": "Muse AI Agent Launches in UK",
+   "date": "2026-11-23",
+   "what_en": "Meta officially launched Muse, its personal AI agent, for UK adults. Muse autonomously handles tasks like booking travel, managing refunds, and coordinating shopping across integrated apps such as Marks & Spencer and Ocado, requiring explicit user approval for every purchase.",
+   "how_to_try": "Muse is available to all UK adults aged 18 and over through new account creation or by connecting an existing Meta account on iOS, Android, muse.ai, and WhatsApp. It is also coming to Meta's AI glasses in the months ahead.",
+   "x_post_url": "",
+   "official_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukcI1c5s9IPmVbWadlyxOfUFMqmMKtLNABG-Z4piyBywUmxrgEtpsEMjr7B_ymc35F1-8GdHO_738lPbewQI0j-Vkw4pOzJ_TiHqjXNq2d_Kkst-3PtN8frh3XXFWQwpcPmPWm8ImwUmMMDYwy_waWRPh0NYK0mf6p7VSME0YrrdzcMs61kxmizUMhMwc5ceYPjuvxq5nUg==",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCvFxAIgCKPtdKNh23AQ3fXH_KYSLO2SpGM-kW68nUg6Wan_rjEcc7b5uotf4REvhIbnNJ4C0mkC5kqphf-KGYWI7Sme9fC-W1YPhbPo74mBPQXdW7QmT1TV6Hq_L18pMZc7W6r7cQLkGZsKhSizc_zHBcqeNPxYgBJNw=="
+  },
+  {
+   "company": "Perplexity",
+   "title": "Time Machine for Point-in-Time Web Retrieval",
+   "date": "2026-11-25",
+   "what_en": "Perplexity announced 'Time Machine' for its Search API and Context API, enabling developers and agents to search and read the web through archived copies saved at a specified historical timestamp. This feature allows historical cutoffs reaching back as far as 365 days.",
+   "how_to_try": "Developers can use the new `snapshot_as_of` parameter in Perplexity's Search API and Context API.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZscnWspH_YXKqM-zrACokSxBhjtiEh6o6yh-6Tvf61NJvmtZWQBF6difvbMpIWbz3uU4b6xGSF8iwl5k_a_rgMnkVQhorGdbvXOyjTTo6u4_0dvn6bj1paSzJcf6wyVDGDIH2F9s9DRMeY2gPmVH2tClK1u9GrrahzG8npo2YQLRY40OB9d_T-WfNKXPHlvXz"
+  },
+  {
+   "company": "Cognition",
+   "title": "SWE-2.1 with Major Coding and Cybersecurity Gains",
+   "date": "2026-11-24",
+   "what_en": "Cognition released SWE-2.1, an upgraded coding model for its Devin agent, demonstrating significant improvements in coding and cybersecurity performance. It includes a Cerebras-backed Lightning variant and a more permissive SWE-2.1 Cyber version.",
+   "how_to_try": "The model is available for free on Devin Desktop and CLI through December 8, 2026, and is discounted across Devin until January 30, 2027.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETUbwq9sWP1YFEO-wlwmEt0OELTUq4L-genZWKSwHPX7mUkS401JyVpjPqOpAgoom3Cmxtk-VtNwCMOJPnKHOuI_cNwlJ_v3fgbAdkfNwsuV64AA5sVOTibBbJzWDM4cBKPW_lWaw2ZbX_wBcsDkTZ9kFY5R35igb4T6P-OIvZ7VcR4pQ-uo7D267DNeGXdw6M0Zr-2w=="
+  },
+  {
+   "company": "Anthropic",
+   "title": "Claude and Claude Code Support Skills over MCP, Tasks and Elicitation Generally Available",
+   "date": "2026-11-24",
+   "what_en": "Anthropic expanded its Model Context Protocol (MCP), launching 'Skills over MCP' in public beta for Claude and Claude Code, allowing servers to provide standardized workflow instructions that load on demand. Concurrently, MCP 'Tasks' (for background operations) and 'Elicitation' (for user approval mid-call) achieved general availability.",
+   "how_to_try": "Claude Code users require version 2.1.331 or later to access the Skills beta. MCP Tasks and Elicitation are generally available for Pro, Max, and Ultra subscribers.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIOFGgrkLrCisQ4sIKlinTl50luOwRBitet7iCzAk-z6UwQaEbDOlUuPyC1WKgu5E7hoOjeLt0czj5EWrGhzp8SCnmU5K0mfasOJjapZqqGp76YJ_BQWGikQLfuRGelOzcwCELjlVNzVhrXT3Wp89WwXcKpC6Aq9S0arPY"
+  },
+  {
+   "company": "Anthropic",
+   "title": "Claude Artifacts as Desktop Apps",
+   "date": "2026-11-25",
+   "what_en": "Anthropic introduced a new beta feature for Claude's desktop app (Mac and Windows), enabling users to transform Claude-generated artifacts, such as interactive dashboards, charts, and webpages, into standalone desktop applications without needing to write code.",
+   "how_to_try": "The feature is rolling out in beta on the Claude desktop app for Mac and Windows users across all plans (Free, Pro, Max, Team, and Enterprise). Users must be online and signed into Claude to use the apps.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYDIzQz-YDFFYuVPctwU6_0z3pkMPdPZHDKdk3uhAfw6QLEp3rS_2d1TgSZKDKYN6tBFwN6EHt_Xseh3w5VDjcGRMr8yPYEJrwe03qffo8DF0lawvMGPYkDwpTy1ozLOV5g_zCAKJZ7Y03OwqToesVhiA9lyu4mNBKN3KwvBiG2H5B1igjPbmcjRgnPQ7ddZDsCE="
+  }
+ ],
+ "grounding": [
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0XQIyWAwEOZAHYXT8FnTkRCHzVIi5x8SfVHAMefhoUyKZ9pAcNVCcTc8iRc7FIimR3AUzhLDZmWTWe9ze3ybHiTsQPMBgPuLxGifw0jBufoIwXgxZOELAV78mjM6c37poe7PHL6h2OAmnsh2Ju9QpotUhKLzGjzKv28isTw=="
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCvFxAIgCKPtdKNh23AQ3fXH_KYSLO2SpGM-kW68nUg6Wan_rjEcc7b5uotf4REvhIbnNJ4C0mkC5kqphf-KGYWI7Sme9fC-W1YPhbPo74mBPQXdW7QmT1TV6Hq_L18pMZc7W6r7cQLkGZsKhSizc_zHBcqeNPxYgBJNw="
+  ],
+  [
+   "theguardian.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHL8uMAItppLaAJghwEpeZusRFinr1NDNqwR_Rayj6rL03V7noZxxlwWdTekQt2ytuufiobvEXaC7iNOq3ivEKjB1jTFG7V6Vbd-QKu3sDnrzEGqlG4wI5f9Ko8NO3oJ5yBjhdmwtCuIMgcrM1Y1bdnQ77vTIih_iH4L7B2K_9dhbO5uv-LniFaVaU47U93LK9Zgs_4scJdfhltqdrayu6WJik="
+  ],
+  [
+   "explainx.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj3uMriCZse6ypbZtr9nEuNCrAthgONdp2C2UQ5P8MVBKfUb0lK7q5Ss9cAD7fldz6xmcj_s2HhB4yWuYGCUIvFLyfrY-7_p6j8jFlIqVr2HdUE6kKsfoiULROV3Zx-RKOS7p3HhaRpWeyPmEYLe_iOY4aKCexIgAG88dFS0rRUai-uv0289nHdLy8Fg7zoqQ="
+  ],
+  [
+   "fb.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEukcI1c5s9IPmVbWadlyxOfUFMqmMKtLNABG-Z4piyBywUmxrgEtpsEMjr7B_ymc35F1-8GdHO_738lPbewQI0j-Vkw4pOzJ_TiHqjXNq2d_Kkst-3PtN8frh3XXFWQwpcPmPWm8ImwUmMMDYwy_waWRPh0NYK0mf6p7VSME0YrrdzcMs61kxmizUMhMwc5ceYPjuvxq5nUg=="
+  ],
+  [
+   "unite.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZscnWspH_YXKqM-zrACokSxBhjtiEh6o6yh-6Tvf61NJvmtZWQBF6difvbMpIWbz3uU4b6xGSF8iwl5k_a_rgMnkVQhorGdbvXOyjTTo6u4_0dvn6bj1paSzJcf6wyVDGDIH2F9s9DRMeY2gPmVH2tClK1u9GrrahzG8npo2YQLRY40OB9d_T-WfNKXPHlvXz"
+  ],
+  [
+   "unite.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQETUbwq9sWP1YFEO-wlwmEt0OELTUq4L-genZWKSwHPX7mUkS401JyVpjPqOpAgoom3Cmxtk-VtNwCMOJPmHUKuI_cNwlJ_v3fgbAdkfNwsuV64AA5sVOTibBbJzWDM4cBKPW_lWaw2ZbX_wBcsDkTZ9kFY5R35igb4T6P-OIvZ7VcR4pQ-uo7D267DNeGXdw6M0Zr-2w=="
+  ],
+  [
+   "aichatdaily.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI0yi9CZnCSva3OPJeq_D54lcz4te9zv1Ek5tufiMNsZp3vlJEu_gNVhU6-8uH-rzfiyWrDFE10pJZOLJUDODDfPn-9iOT-QVmxXiVJb8v23bVe43fNaihEwWGO2ob4TqzHJYTqw8_s4xk9u67QwdT0hjZ_lgvzxhleyf7UvQyFDcYwfwOchTCXCh03uo1LLRFgc0k"
+  ],
+  [
+   "cryptobriefing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIOFGgrkLrCisQ4sIKlinTl50luOwRBitet7iCzAk-z6UwQaEbDOlUuPyC1WKgu5E7hoOjeLt0czj5EWrGhzp8SCnmU5K0mfasOJjapZqqGp76YJ_BQWGikQLfuRGelOzcwCELjlVNzVhrXT3Wp89WwXcKpC6Aq9S0arPY"
+  ],
+  [
+   "emergent.sh",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7_wBDgMWMlpAz3XOk8LgzWeR-TaHYQtuOrbp-2k19NxphGeH0JWeYqNX_4DsfKBsTZInYV70SiU8nuqmILwy4YxHs0icUIVCemc6lUAi1iWSQqr7vER-Wxrl8CXfm91Pnrsfc09tW6pjiFnpTHL7IJbFybcqaPhQFSi1MZg=="
+  ],
+  [
+   "inc.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiYDIzQz-YDFFYuVPctwU6_0z3pkMPdPZHDKdk3uhAfw6QLEp3rS_2d1TgSZKDKYN6tBFwN6EHt_Xseh3w5VDjcGRMr8yPYEJrwe03qffo8DF0lawvMGPYkDwpTy1ozLOV5g_zCAKJZ7Y03OwqToesVhiA9lyu4mNBKN9KwvBiG2H5B1igjPbmcjRgnPQ7ddZDsCE="
+  ],
+  [
+   "macworld.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAo-vbSMPuqhfezbgGcdifJ5-Lnyr_kITx2pA1m4uPaEoGToahK0y9Jg7DGUVTLIUE8njR8Oh95Hz-0B1KPas_TjVGBztpR-es4oBbrjiQzkZ2fBBRTKjhyUJ678cxAF6NM48Mq2zHeRm8DGzRtssqJkEvZddYlDezj0v4WRurbVID_2WA_ZUABRkq-xdgKzt6barXW7vhgMtn7cZkTIeM8iXtVLN8F9PJ"
+  ]
+ ],
+ "model": "gemini-2.5-flash"
+}

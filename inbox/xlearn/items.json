@@ -255,6 +255,53 @@
    ],
    "confidence": "公式",
    "checked": "2026-11-24"
+  },
+  {
+   "id": "2026-11-25-perplexity-time-machine",
+   "kind": "新機能",
+   "company": "Perplexity",
+   "date": "2026-11-25",
+   "title_en": "Freeze the web with Perplexity Time Machine",
+   "title_ja": "Perplexityが「過去のウェブ」を再現する Time Machine を公開",
+   "translation_ja": "Perplexity公式ブログより:「Time Machine は Search API と Context API に日付の締め切りを加え、エージェントが『当時のウェブ』を見られるようにします。」「本日、開発者とエージェントが、指定した日付時点のウェブを表示できる Time Machine を Perplexity の Search API と Context API 向けに公開します。検索と全文の読み取りは、指定した時刻以前に保存されたウェブのコピーだけに限られます。」",
+   "what_ja": "リクエストに snapshot_as_of という項目を足すと、その日時までに公開・保存されたページだけで検索・全文取得ができます(現時点で最大365日前まで。履歴は増え続けるとのこと)。後から結果が書き足されたページが検索に出ないので、「当時の情報だけで答えを出せるか」を公平に試せます。想定用途は、強化学習、予測市場の検証、決算発表前などの金融バックテスト、評価の再現、エージェントの再生、過去のページ内容の確認。公式の自社測定では、GLM-5.3 Flashの予測テストで、通常のウェブだと0.94、Time Machineだと0.77、市場価格は0.79。Exa Snapshotとの比較では、公開日が付く割合がTime Machine 98.8〜99.5%、Exa 66.1〜77.7%と書かれています(Perplexity自身の比較で、第三者の検証ではありません)。",
+   "howto": [
+    "Perplexity の Search API または Context API のリクエストに snapshot_as_of(日時)を指定する",
+    "検索で見つけたページを読むときも、同じ日時を指定して Context API を使う(検索と読み取りで同じ締め切りが適用される)"
+   ],
+   "howto_note": "snapshot_as_of の細かい書式やAPIの料金・提供範囲は、公式ブログ本文からは確かめていません(未確認)。",
+   "sources": [
+    [
+     "Perplexity公式ブログ(2026/11/25)",
+     "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-26"
+  },
+  {
+   "id": "2026-11-25-perplexity-pro-weekly-computer",
+   "kind": "新機能",
+   "company": "Perplexity",
+   "date": "2026-11-25",
+   "title_en": "Perplexity Pro now includes weekly Computer usage",
+   "title_ja": "Perplexity Proに、エージェント機能「Computer」の週ごとの利用枠が付く",
+   "translation_ja": "Perplexity公式ブログより:「多くのPro契約者から、Perplexity Computerの利用をProに含めてほしいという声がありました。本日から含まれます。」「これまでProにはエージェント基盤のクレジットも利用枠も含まれていませんでした。今後は、含まれる利用枠が、クレジット残高ではなく週ごとのメーターとして表示されます。」",
+   "what_ja": "有料のPro全プランで、Computer(Perplexityのエージェント機能)を毎週一定量使えるようになりました。使い方の流れは、まず含まれる枠を使い、尽きたらアカウントのクレジットに切り替わり、どちらも無く自動チャージもオフならタスクが止まります。週は最初のComputer利用から7日で、使い切れなかった分は繰り越されません。自動チャージは最初はオフです。含まれる枠だけだと努力レベルは「Light」で動き、上のレベル(最大Ultra)はクレジットがあると使えます。体験用・無料のPro、Max、Enterpriseは従来の扱いのままです。",
+   "howto": [
+    "設定の「Usage and credits」にある「Included in Pro」で、残りの割合とリセット日を見る",
+    "デスクトップまたはスマホで Computer のタスクを実行する(Projectsなどの機能も使える)",
+    "枠が尽きたら、クレジットを買うか、週のリセットを待つ。自動チャージは同じ設定画面でオン・オフできる"
+   ],
+   "howto_note": "枠の具体的な量(何回分か)は公式本文に書かれておらず、未確認です。",
+   "sources": [
+    [
+     "Perplexity公式ブログ(2026/11/25)",
+     "https://www.perplexity.ai/hub/blog/perplexity-pro-now-includes-weekly-computer-usage"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-26"
   }
  ]
 }
