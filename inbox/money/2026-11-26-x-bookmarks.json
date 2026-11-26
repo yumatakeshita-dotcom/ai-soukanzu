@@ -1,0 +1,31 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Guodong Zhang(個人)",
+   "to": "Epochal",
+   "kind": "出資",
+   "amount": "1億ドル(張氏の個人資金。Bloomberg報道をThe Next Webが引用)",
+   "date": "2026-11-24",
+   "region": "米国",
+   "note": "報道ベース。ほかの投資家は公表されていない。評価額・調達総額は不明。祐真さんのXのブックマークにあった投稿(0xLogicrw、11/25)から。The Next Webの本文を開いて確認(11/24の火曜に発表、創業者3人、張氏が個人で1億ドル)。ほかの報道も同内容。AI Weeklyは検索の要約のみ。担当の肩書は報道に明記がなく未記入(検索の要約には張氏がCEOとあるが、本文では確かめられていない)。",
+   "src": [
+    [
+     "思维怪怪(@0xLogicrw)のXの投稿(2026-11-25)",
+     "https://x.com/0xLogicrw/status/2125442821465502181"
+    ],
+    [
+     "Three xAI co-founders launch Epochal to teach AI to predict the future(The Next Web、2026-11-24)",
+     "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting"
+    ],
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "Kotoba(ElevenLabs買収)は既に inbox/money にあるため足さない。"
+}

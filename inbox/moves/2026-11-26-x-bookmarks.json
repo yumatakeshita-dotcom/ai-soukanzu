@@ -1,0 +1,79 @@
+{
+ "date": "2026-11-26",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Guodong Zhang",
+   "name_ja": "張国棟",
+   "from": "xAI(共同創業者。SpaceXによるxAI買収後に退社)",
+   "to": "Epochal(共同創業者)",
+   "role": "共同創業者",
+   "date": "2026-11-24",
+   "note": "祐真さんのXのブックマークにあった投稿(0xLogicrw、11/25)から。The Next Webの本文を開いて確認(11/24の火曜に発表、創業者3人、張氏が個人で1億ドル)。ほかの報道も同内容。AI Weeklyは検索の要約のみ。担当の肩書は報道に明記がなく未記入(検索の要約には張氏がCEOとあるが、本文では確かめられていない)。",
+   "src": [
+    [
+     "思维怪怪(@0xLogicrw)のXの投稿(2026-11-25)",
+     "https://x.com/0xLogicrw/status/2125442821465502181"
+    ],
+    [
+     "Three xAI co-founders launch Epochal to teach AI to predict the future(The Next Web、2026-11-24)",
+     "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting"
+    ],
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Zihang Dai",
+   "name_ja": "戴子航",
+   "from": "xAI(共同創業者。SpaceXによるxAI買収後に退社)",
+   "to": "Epochal(共同創業者)",
+   "role": "共同創業者",
+   "date": "2026-11-24",
+   "note": "祐真さんのXのブックマークにあった投稿(0xLogicrw、11/25)から。The Next Webの本文を開いて確認(11/24の火曜に発表、創業者3人、張氏が個人で1億ドル)。ほかの報道も同内容。AI Weeklyは検索の要約のみ。担当の肩書は報道に明記がなく未記入(検索の要約には張氏がCEOとあるが、本文では確かめられていない)。",
+   "src": [
+    [
+     "思维怪怪(@0xLogicrw)のXの投稿(2026-11-25)",
+     "https://x.com/0xLogicrw/status/2125442821465502181"
+    ],
+    [
+     "Three xAI co-founders launch Epochal to teach AI to predict the future(The Next Web、2026-11-24)",
+     "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting"
+    ],
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "name_en": "Manuel Kroiss",
+   "name_ja": "マヌエル・クロイス",
+   "from": "xAI(共同創業者。SpaceXによるxAI買収後に退社)",
+   "to": "Epochal(共同創業者)",
+   "role": "共同創業者",
+   "date": "2026-11-24",
+   "note": "祐真さんのXのブックマークにあった投稿(0xLogicrw、11/25)から。The Next Webの本文を開いて確認(11/24の火曜に発表、創業者3人、張氏が個人で1億ドル)。ほかの報道も同内容。AI Weeklyは検索の要約のみ。担当の肩書は報道に明記がなく未記入(検索の要約には張氏がCEOとあるが、本文では確かめられていない)。",
+   "src": [
+    [
+     "思维怪怪(@0xLogicrw)のXの投稿(2026-11-25)",
+     "https://x.com/0xLogicrw/status/2125442821465502181"
+    ],
+    [
+     "Three xAI co-founders launch Epochal to teach AI to predict the future(The Next Web、2026-11-24)",
+     "https://thenextweb.com/news/epochal-xai-cofounders-time-portal-forecasting"
+    ],
+    [
+     "Three xAI Co-Founders Launch Epochal With $100M From Zhang(AI Weekly)",
+     "https://aiweekly.co/alerts/three-xai-co-founders-launch-epochal-with-100m-from-zhang"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "祐真さんのXのブックマーク・いいねから拾った分。AIに関係し別の出典で確かめられたものだけ。"
+}
