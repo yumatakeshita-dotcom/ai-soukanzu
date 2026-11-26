@@ -1,0 +1,171 @@
+{
+ "date": "2026-11-26",
+ "kind": "moves",
+ "items": [
+  {
+   "name_en": "Andrej Karpathy",
+   "name_ja": "",
+   "from": "OpenAI",
+   "to": "Anthropic",
+   "role": "事前学習チーム(Claudeで研究を加速する班を率いる)",
+   "date": "2026-05-19",
+   "note": "OpenAI共同創業者。本人がXで発表と報道(投稿本文は未確認)。直前の所属は報道により異なるため未確認。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "TechCrunch(2026-05-19)",
+     "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"
+    ],
+    [
+     "Axios(2026-05-19)",
+     "https://axios.com/2026/05/19/anthropic-openai-karpathy-andrej-claude"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "John Jumper",
+   "name_ja": "",
+   "from": "Google DeepMind",
+   "to": "Anthropic",
+   "role": "研究者(2024年ノーベル化学賞、AlphaFold共同リード)",
+   "date": "2026-06-19",
+   "note": "約9年在籍。本人がXで発表と報道(投稿本文は未確認)。休暇のあと入社の予定。Anthropic側が入社を認めたと報道。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "TechCrunch(2026-06-20)",
+     "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic"
+    ],
+    [
+     "The Next Web",
+     "https://thenextweb.com/news/john-jumper-nobel-deepmind-leaves-anthropic-alphafold"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "Ross Nordeen",
+   "name_ja": "",
+   "from": "xAI",
+   "to": "Anthropic",
+   "role": "計算資源(データセンター拡大)担当",
+   "date": "2026-05",
+   "note": "xAI共同創業者で最後に退任(2026-03-28)。Anthropic側の公式発表は見つからず報道ベース。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "DatacenterDynamics",
+     "https://www.datacenterdynamics.com/en/news/xai-cofounder-ross-nordeen-joins-anthropic-to-focus-on-compute-following-colossus-lease-deal/"
+    ],
+    [
+     "The Next Web(2026-03-28)",
+     "https://thenextweb.com/news/xai-all-cofounders-departed-musk-spacex-rebuild"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "Brad Lightcap",
+   "name_ja": "",
+   "from": "OpenAI",
+   "to": "",
+   "role": "元COO(2026-04から特別プロジェクト担当)",
+   "date": "2026-08-11",
+   "note": "約8年在籍。本人がXで退社と「新しいことを始める」と発表と報道。次の行き先は未発表。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "TechCrunch(2026-08-11)",
+     "https://techcrunch.com/2026/08/11/brad-lightcap-openais-longtime-coo-is-leaving-to-start-something-new/"
+    ],
+    [
+     "Axios(2026-08-11)",
+     "https://axios.com/2026/08/11/openai-executive-brad-lightcap-is-leaving"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "Fidji Simo",
+   "name_ja": "",
+   "from": "OpenAI",
+   "to": "",
+   "role": "AGI Deployment担当CEO(旧Applications担当CEO)→パートタイムの助言役",
+   "date": "2026-07-09",
+   "note": "健康上の理由でフルタイムの役を離れ助言役に。製品はBrockmanが担当、残りはSarah FriarとJason Kwonが分担と報道。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "TechCrunch(2026-07-09)",
+     "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/"
+    ],
+    [
+     "The Next Web",
+     "https://thenextweb.com/news/fidji-simo-steps-down-from-openais-number-two-job"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "Kevin Weil",
+   "name_ja": "",
+   "from": "OpenAI",
+   "to": "",
+   "role": "OpenAI for Science責任者(元プロダクト責任者)",
+   "date": "2026-04-17",
+   "note": "同日にBill Peeblesも退社。新しいAI科学スタートアップを準備との報道が1件あるが、会社名・公式発表は未確認のため行き先は書かない。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "TechCrunch(2026-04-17)",
+     "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/"
+    ],
+    [
+     "Bloomberg(2026-04-17)",
+     "https://www.bloomberg.com/news/articles/2026-04-17/openai-s-former-product-chief-and-sora-head-leave-company"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "name_en": "Vas Narasimhan",
+   "name_ja": "",
+   "from": "Novartis",
+   "to": "Anthropic",
+   "role": "取締役(Long-Term Benefit Trustが任命。Trust任命の取締役が過半数に)",
+   "date": "2026-04-14",
+   "note": "Anthropic公式発表を開いて確認。(深掘り・Gemini候補を報道で確かめて採用)",
+   "src": [
+    [
+     "Anthropic公式",
+     "https://www.anthropic.com/news/narasimhan-board"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "depth"
+  },
+  {
+   "name_en": "Igor Babuschkin",
+   "name_ja": "",
+   "from": "xAI",
+   "to": "Babuschkin Ventures",
+   "role": "創業者(AI安全に注力するベンチャー投資会社)",
+   "date": "2025-08-13",
+   "note": "xAI共同創業者。本人がXで退社を発表と報道。新会社の出資先・パートナーは報道が薄く未確認(深掘り・報道で採用)",
+   "src": [
+    [
+     "SiliconANGLE(2025-08-13)",
+     "https://siliconangle.com/2025/08/13/xai-co-founder-igor-babuschkin-leaving-company-focus-ai-safety/"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/news/igor-babuschkin-exits-xai-create-093518481.html"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  }
+ ],
+ "notes": "OpenAI・Anthropic・xAIの幹部深掘り。Gemini候補のうち報道・公式で確かめたものだけ。xAI共同創業者の退任(Greg Yang 2026-01、Babuschkin・Tony Wu・Jimmy Ba・Toby Pohlen 2026-02、Zihang Dai・Guodong Zhang・Kroiss・Nordeen 2026-03)は行き先が未確認のため入れていない。Fidji Simo・Weilなど『行き先なしの退任』も、取り込みの形式に合うかは明朝の取り込みで確認が必要。Denise Dresser・Dali Rajic・Eric Boyd・Mike Krieger/Ben Mannの役割変更・Jill Hazelbakerなどは出典を開けず見送り。 追記: 共同創業者のうちTony Wu・Jimmy Ba・Pohlen・Dai・Zhang・Kroiss・Yangの行き先は報道に出ていない(2026-11-26時点)。"
+}

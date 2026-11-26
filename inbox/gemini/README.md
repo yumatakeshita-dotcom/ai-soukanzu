@@ -18,6 +18,251 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-26-recheck.json
 
+## 2026-11-26-9　Anthropicの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic executives appointments 2026
+- Anthropic key researchers departures 2026
+- Anthropic leadership changes 2026
+- Anthropic new hires 2026
+- Anthropic board of directors 2026
+- Anthropic management team 2026
+
+**出てきた候補**
+
+- Anthropic → 就任 → (2026-04)
+- Anthropic → 就任 → (2026-04)
+- Anthropic → 就任 → (2026-01)
+- Anthropic → 就任 → (2026-02)
+- Anthropic → 移籍 → (2026-05)
+- Anthropic → 移籍 → (2026-07)
+- Anthropic → 移籍 → (2026-02)
+- Anthropic → 就任 → (2026-04-14)
+- Anthropic → 移籍 → (2026-07)
+- Anthropic → 移籍 → (2026-06-24)
+- Anthropic → 就任 → (2026-08)
+- Anthropic → 退任 → (2026-09)
+
+記録ファイル: inbox/gemini/2026-11-26-9.json / 2026-11-26-9.md
+
+## 2026-11-26-8　OpenAIの幹部・主要研究者の2026年の就任・退任・移籍(入社元・退社先を含む)。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- OpenAI executive changes 2026
+- OpenAI key researchers departures 2026
+- OpenAI leadership appointments 2026
+- OpenAI employee movements 2026
+- former OpenAI employees new roles 2026
+- OpenAI personnel news 2026
+
+**出てきた候補**
+
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 就任 → (2026-08)
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 退任 → (2026-07)
+- OpenAI → 退任 → AI science startup(2026-04)
+- OpenAI → 退任 → (2026-07)
+- OpenAI → 退任 → (2026-08)
+- OpenAI → 退任 → (2026-09)
+- OpenAI → 就任 → (2026-11)
+- OpenAI → 就任 → (2026-02)
+- OpenAI → 就任 → (2026-10)
+- OpenAI → 就任 → (2026-11)
+
+記録ファイル: inbox/gemini/2026-11-26-8.json / 2026-11-26-8.md
+
+## 2026-11-26-7　xAI(SpaceX統合後を含む)の資金調達、株主、幹部・共同創業者の退任と移籍先、提携、買収。公式発表・SEC開示・大手報道・本人のXで確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- xAI funding rounds 2025 2026
+- xAI shareholders 2025 2026
+- xAI executive departures 2025 2026
+- xAI partnerships 2025 2026
+- xAI acquisitions 2025 2026
+- xAI SpaceX integration details 2026
+- Elon Musk xAI investment 2026
+- xAI new board members 2026
+- xAI infrastructure deals 2026
+- xAI computing resources 2026
+
+**出てきた候補**
+
+- SpaceX → 買収 → xAI(2026-02-02)
+- xAI → 資金調達 → Nvidia, Cisco, Valor Equity Partners, Stepstone Group, Fidelity, Qatar Investment Authority, MGX, Baron Capital など(2026-01)
+- Tesla → 出資 → xAI(2026-01-28)
+- xAI → 退任 → (2026-03)
+- Anthropic → 提携 → xAI (後にSpaceXAI)(2026-05)
+- HUMAIN → 提携 → xAI(2025-11-19)
+- SpaceX → 買収 → Cursor (Anysphere)(2026-06)
+- GSA (米国一般調達局) → 提携 → xAI(2025-09-25)
+- xAI (後にSpaceXAI) → 就任 → (2026-04)
+- SpaceX → 上場 → Nasdaq(2026-06-12)
+
+記録ファイル: inbox/gemini/2026-11-26-7.json / 2026-11-26-7.md
+
+## 2026-11-26-6　Anthropicの2026年の資金調達ラウンド(金額・評価額・主導投資家)、株主、計算資源の提携、買収、幹部の就任・退任と前職。公式発表・SEC開示・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Anthropic IPO 2026 official announcement
+- Anthropic S-1 filing 2026
+- Anthropic stock market listing 2026
+- Anthropic Q3 2026 earnings report
+- Anthropic funding rounds 2026
+- Anthropic shareholders 2026
+- Anthropic computing resource partnership 2026
+- Anthropic acquisition 2026
+- Anthropic executive changes 2026
+
+**見たページ**
+
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=)
+- [pepperstone.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmI8H2P_A6lKfeUz5rqINHwKsMbPJmWe3dXrXtgWKOVs1aECVnojfOGv1iJT48qxvblBBUQT-RUfnh2lyLHdlV0hs5awaA6z3rQSHk0cR9kmbCsd2Y7k20im6e17cI9VuAO10gsyQpBJPJzVNEG2EhCOIYR7I4mcwzA315QCuw)
+- [leverageshares.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm5R7XNz0bmhlPmYJdgW0-x51f7fEztZyaz25HhwFOkEEh-Fy91r1lHeU9ivkW5XGA4d1TTephgTLQ8Wy7ig5m-UCAsM0LB3Ja7rMJ18FdRKkiYex6635wYPxDs77e-Vw-5bbADftUREJ9nvbxY-w=)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLmbwkJqwTmj61nh6d1o59B46dSOoiNtydHg8qhUaivPexmI1agOPQNP0ja1-L832j3N2Y2SVBeqhasuig3-RLh61MNMQ48QbBMjWw9UgGrxttS7clWMqFSNg39IPCTkt1Ky6CxSV8r6sYT6yMsUEhq1Gai48npPAQJmkWGj9iuHlw)
+- [quasa.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtNP9Q9RCMxlVQ3wG9eYZSnBbDR_6nCF-yTgv175jGAuqBM_8B4zYp3Q5Zj1Sr6bj7gYYzEyn_jI5rF55OWJJq3opPBDMqIrgHXcF_G0I-XVaM2BlrwR8N6OrU6PjY9TvT3JBbf59OmbqQe7VKmgllK60HnD9d6Uyat3_yBGOIzdsbuIMSPaPcncKNgT59kVU=)
+- [futurumgroup.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCr3Rjgp5PFIGPZQ0E0invJnNRTtbu9u6rkOgGBrZwVeF17UKT4sVzkZvjCzqxOWnu3Aogi9QmFBCQIfIYYnBorzqPXRJ-MTn5sZ1mqmVIZIk1ScKNDUq-r8BRVxL5F6esuC6QWEADSgA5XhuYka1rfkNyZzYhbQos64MtD_kyG53l0YxOQ8kmZzb9avz6HUgqB2NI)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ==)
+- [revenuememo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz_3m6ximkHXkQlNf6-CveEXGreYK0MwOQwhVUQi5EO8Fnnk5398VbdFuME94hgrpDwbdFpTwWuZGnoxWYzXQpNABIQJib1mhGmQC-Knqzyw2YFFe4inUtFtdflT29kexjWNZVMrjskGDR)
+- [graniteshares.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1kJYMz5vyIbvwsJ92i0o4i2KsQ5QIXI2Gv7tWMeeDwElFdH6UuwKWMy0cgO6FsZ6_LfbA3FcEqJQxGc3pfFEef6MToZxHG7Olo55XBAbb2EWGYOaiWw-0njWXztT8mRz5kksTbyK2S4UskafMHFCTyAr3XLZ5288nu5JgZOjVmKV2-on8hmneAaap2iNqptiP_aV4ZIPsMqi4irLC1V3RNh_4rsbIrGzcT5mFGQ==)
+- [fool.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5kgjSbbIt__vapT4rNqH-xoOmIiWbQyjskn9a_Qp8vZRCtY3r8u8-lPXng0ueS-8xdR4EysyxnPDJThyADSKsVoTCbFimvF_dTEtLlZd5-mLJ8DVS1eey5clhCIdNBkntMttOLNce4ZRbOmLwtL4-5FTH3BT6mDhwWuAhxiKpVNN76l8HzbdwnhqxW4Mx6awIy8O_J0Ocb1Q1DBNNzxK6oJG4a-CLvzfsEem7AizFxA2jREdQ)
+- [forbes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdmvN99AlcVHqdgGhUBDj4Nf2qRYuKADc-AHFw9VFl3axnOK2kCbaWjCqL-3nfZwqzeohUQnKI0MdZZgz408GtkBpLs_dxyrsqrK05BBkpdK6St2g8SLDwwIjGxBAQ14ki7O8kRXPf3qlqK6YY0nxx3lgLshvwnZ9hb4kSvrJdSNOZtRdnq2Z4kmwzO3NBOyNXcZ_7fSQfhbvBNf4GbS3sg9s=)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2hagDbcgRlqVQ_1Tt9VE85DdRawlcq3Lx7h_rsnw4t1j46AOxaiSRS6WFs-RUR6g5vQFVYMiPXcRlNLrQgPtpLCX-2fJ0xwsNrURRkSIb_r4gt1nrHJ6ALbsCMervZBichsql4IJdImglFpBw_BPVEV4=)
+- [broadbandbreakfast.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLLW7d9Q4eCTP7x45mF1OZXolJoIzErKSusPig6rRgQClk2N3cvyjxbApqoY0LUPariFlZULi9HX1jU8AmCYPWQI_-QTECxoNZq4_AQHRqR_JpV5l4UlPJ4dvxRHBQZ2RbT_iLixRO8B9j8ZOEidHq039rcl7iD0w56X2IAOlFmTLFiKUrgOO3vWMgU7qwEg==)
+- [epoch.ai](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvO1bILCuFqTn-9QjDfGurJ1jdLXVNiSBY_snX7nde0vDQJtACXpdHND6M53f8ANLiZAdG6HMq5TuVYqRfrRzy_IniY8cahCiOzwG-xBIBRZcYZCeEs2BePmP6KVA8aJ75BFi7dpGNqSBa2szc7HRhboH6rxYhCNSSSq7wtZ4K)
+- [trendingtopics.eu](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4YMAXCD93i-FspZ0CBy36e0jtjxAwkglSJtFqUNrRmqO9e6qHZsX2GwnfQuNlzsJr6vL38qXbO0xKoBXkE44ZuCX5hu8EQcZ7b7SIOPFcDJWSfc4g9j9ckIiwfMv-Gz7G7vTChOgnFHcaAbwIgmUiXeA0BS9-_onbUv2gIIoQBPgNMEYAhnxKi86Emkk6_S_6exatRnxMDxAe0wFW7g==)
+- [tracxn.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPnZg4DyadH54RoXVSfiGH9tkovWFPJUYKURUJyAOLHq-EYJUw3Z-NnoD3wXayQbKsuMw9tgYqw7XB0LXLL5QWLY74qsPKrpxHyK6oQ18QNaFb83fQLL9_JS5jwU4SDZR6rpnX9W2FlF_dsCM-iL8_FdqPMhhEl0uSnM63TfbTdIT4mQZt7smMoH8lEfMbPi4PaGkdrjnSbq1ZvYoc3ORGxu3sxw==)
+- [anthropic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSgeNQd4xnWqVneaO8XVQfibRY5fcw_puUfjPf9S8VbRQEZxc0Xp57k5TyYeBDJTe3ZAuF6zXzptcoA-YGDFrdbYb9TlKJBRFt9qUMuI8VfmYzuqBMYHAZb_DTByCeiKy2-E3UMdE5Fscll6JnznUWVihUXFgS9P_5nIO4g==)
+- [observer.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoFRGSKSpzOIzLQcDrNJf5pJa0Z6DUillPRkvLDwfLbHRaygZUo7Sudc3eUMdiuMVaQrqMkJVCzZqnXRBjEPCoz0IfP-JnmSKCKmaeanK_Eo-BCWPwi-kmMbrTz3bUh2kcEjoemeAAKbNiQq34M1JV6AdMUc23Z9xe9urILf92mjUEA==)
+- [kalkinemedia.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVzGIPORUY-nbo0yKAmccJyFYCQolFd4wWmX2cM26g1wAmD7pC5nNV-06gNWua71U7MtviISqR3_hffFHtIlPCDDaAPc3qoicPlIgJMZOdqjTIS5bK461EaQqf7C3kf-rUvtupqFL-4dxi9Mq3u_WpVKTz7rt7E_6fychA1yP4hKfVl0sY7wf69hrq3T79H-aJC6DCJTzJMJfjHRAwlPF6Ju-2apCzgjcBYNVHHEZJwjFd6OtnggOPOkmrixrfBE1iXmw=)
+
+**出てきた候補**
+
+- Anthropic → 上場 → Nasdaq Global Select Market(2026-11-19)
+- Anthropic → 資金調達 (IPO) → Public investors(2026-11-20)
+- Anthropic → 資金調達 (私募) → AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners(2026-11-20)
+- Anthropic → 資金調達 (Series H) → Altimeter Capital, Dragoneer Investment Group, Sequoia Capital(2026-05)
+- Anthropic → 資金調達 (Series G) → GIC, Coatue(2026-02-12)
+- Anthropic → 計算資源の提携 (拡張) → Amazon (AWS)(2026-04-20)
+- Anthropic → 計算資源の提携 → SpaceX(2026-05-08)
+- Anthropic → 計算資源の提携 & 出資 → AMD(2026-07-22)
+- Anthropic → 買収 → Mithril Medicine(2026-10)
+- Anthropic → 就任 → (2026-02)
+
+記録ファイル: inbox/gemini/2026-11-26-6.json / 2026-11-26-6.md
+
+## 2026-11-26-5　OpenAIの2025年後半〜2026年の新しい出資・株主(Microsoft・SoftBank・Thrive等の持ち分)、資金調達ラウンド、買収、提携。公式発表・SEC開示・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- OpenAI funding round late 2025 2026
+- OpenAI Microsoft investment stake 2025 2026
+- OpenAI SoftBank investment 2025 2026
+- OpenAI Thrive Capital investment 2025 2026
+- OpenAI acquisition 2025 2026
+- OpenAI partnership 2025 2026
+- OpenAI leadership change 2025 2026
+- OpenAI board appointments 2025 2026
+
+**見たページ**
+
+- [aillmnews.co.uk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qr10sQ5exuR3X4-AQyf5lBLAI7EcCHgsuriSOZb6oq7-g5HCOr3oZg0rbpqNR29QCSWCLq-oxDD5MAs9FJQ7MTcvAbk1AbgzAFGATVVARQsYO4-jwBO3u86OUJabECleAEggCnCPYaNvsa42X-y3oYq7tKnGjT74lvBeRcdwJh2BwA==)
+- [scommerce.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD4T6fbgh18tYGYEUSC4rGXr3nKzycFZFEyAMsD9I-fUdeCW2CO1jnzcVJUAcmw02ENGOSjkYsq_u0O6Z0YDx58yxoItvusD3qd27VUFfGwEoM8U6AdIdEL68aHUbq8RNNKI0pwJTNRWC5gUCWZzyP)
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkJxl3w1FrLMj1mW0tl8kgYag32rhvxDLM_bF3eDOGp9SmkKN42CsjW3baWfJBxh0CH6SUEwlwEZc6zuSJo7TF131o7HqpOJwtNTBdQeqKbSJvo-rzEIycjKX02hhOzhAxynlNd-3KmnWQoyI5_a0gjBM0hYXacMOeqBRalvc=)
+- [openthemagazine.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYvaR-bML4PlXdOa9vshYaZm6LXl72WIDmstlyEzhOw9kfLYHJ-ofCZZDCIdVN-HtiP_hYho-zuwB-Zd0iryT1XfkbrMKFjpfxQeq8Q3GbhWlfw_Q3NNBRJ3izgdpBFBwKpkM4ks__6qQzyus6hkgxELqVfNawBcQWsYdTri5cDHtbP3MEGcmt1Y-rl_UCpFvK3JxqHTTbuJ9y-kxV_j8fXQ3RZ8tij_cCxg==)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinGqngrrpFynT0zcbV3k0K2SrmFLzUcg3AtWcxdUYz_EomCmJfJ5qYy62090dtvOVMt24IC6VjjYIw7ob_67mr9jlqrjQdYkiYEm4Rwsvfb2IWLO4zqkMOsmFV_4P5w==)
+- [openai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1HYc7VvzlPDCXeTj4xIcZjorENtTCaxfEhmFxQWClDUYfrNu9pUT7c_okCSULcd7Xb-dovGD3wmO16QKtyYUX5BnONWRCw2AolZOk3ZHgz7mFvDoEE9zVgZ93VnerjxfSLFzRrP9LePPBPg0=)
+- [forbes.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkv7Ishiqsm2yTuGQ-2WyKFQE9MG4myYa9232yAg86bpRKfmL0TNyaCXV590-nd3OQ7SJ-PVNs-O2v0nb4VBnhQp0diN2YBwZO__JtoqUQQNoe0wnrfbWjZxor-wAhNQSxfIuv1hWJWdu9VknKAFbRXcvGcKEpf-tgKJg9DCjwHs1w79y1uBJhzaoCo-uptwsCk1-DTt_BADHVF_8aVi8LfZteNGY4LG3SAM2PA4RUZ4M=)
+- [beri.net](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjlZkTfZmiEe6cXzUZ7VvijugdhrhnPnts6NqPtORwxUz4WTzdeJ1VqGsl322edWbFeg-OdDDtWsHFBqhTp5cfWq7M4xmlHIRMIqUNNjK_uqLeZHh4eMMLHSli6oSjGtvHrSgE06EvcyxkD_8X3ZlLLHyGlvn4NZ4rbchbUUcUKxO4JjYf2MsQ8WlJZfgF4JhnYdYsqn8R4A==)
+- [revenuememo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvf9QqUS037xxVfjqyLIIMPf5PP8ETmW_P_gLZSIppI9phSJhHKVxBxXOxkV3KlrZ_GbZGD30E73VhkqUKvpRrXsCIK3T-p1_W6q4E42qAMNSrO0SAHd93-hNqIjl4ecg0wGY549kR)
+- [cryptobriefing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUAmF0O8f20iFI_LFbrfrqkQ9OLAF3isFDbuc8htx5efGdvUjnxj3rcZ4sO5MWERo3HMDOHQ07SoaBggaU8ZVTCRra0UCH6gQa5E8AAqYySYqTbbgT5uyl7ku2UXi9gLhZQWDrJYs6a1fIsetZ4HBAELVsYX4Bt_tm9ArvnVLC)
+- [useluminix.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wt7tKRHLV1ul8nJSLk12aPNAmzZYq2oWZzOu8RTvS2Q8IaWZJv0YXB6Iq6mecBX0NN4YbvQYdIDPVX1UQmohZe8YlPTXFbA8qsKBUrVndtjnYfht6LFh3IKYQyNHRstUtykHwx9vE-cKojEPpUQpqioNQqcIiCOKDPl60DUQJAu6pA3IJRTX-MHeoePLWG7ReBFSs4gF-w==)
+- [whizi.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqUr0PQFSdbQrZDFNhZYxsO9-mCwUzbKVr9cdaxMP7rmY1ZApagZl4SgFdQtAyIL4a1TUxev83FTHTLcClLcxwh08a8AXrIe4iBEHApJqINf7TRag-FVZUyOsRJpqNhcOLjVY=)
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzaftKRle9QD5oCPa4DvwG3rpfPbxnn-0IyWI2ed6FxZQMYOKQg8gz6LC3a4RKnhP37XoqT1DRXQBeSt8PIwqTyDFOKOfBaWKq9NxNjfF6Z7GZE7u1QnxcAE4lcDDJQy7_jqNZedM4qyIihunXk9I5mCtdCv5KcvYw102wdWM=)
+- [techcrunch.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_6QhrFUaeUJ6HArFBsJkKHMV49x9CHk5qSWN6rwVbBA0-JYOr9n337CmXHSa4VJbgzlwnBo1DZohisHw8I8JXgpNIbuFp0xnNXFRE7IGi0zhSleCWRUGVr2gxpeC8MJREzMZDS8UIzDZVHCfLkF9RMrkDrO82CvvGYrcv9puaqshrDyDU88OenqyueoFet0NQw==)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnEvTYMl0nXVBmJIQguapYQfvzvb3xD28wCXAn4xYnd7Zk4Swh8_ilo6hKLSPDqh7OCLQjMubuolDUC7SlidfjPx_iTXdgPvZEXVgZvyy8g3Sa4ZSpf-lmH8-cimy5Cf5HlFcs1PNpvd6xXhqQwtevgNWt3q188ln_mrrI_gmJLmA5VJKCYNFutargLEUbuNVAOiYiEomC)
+- [gend.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3WYO6RW0RhTZSdr-WYKog1BewEI15LiN3Dv28TYcp7fLC5yimUPB5LiSMJF0sMtq3kehvjt1-g0AuNTTOAs-LwsCu1Au9hnmAXuQV9RK1xHgiGtYuKBBk74iVFJWv6SEBYFucz5SWGUSEVAtGwCqZnMNQ24Y=)
+- [openai.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENvOaEj74H5nGreOnsNsEjFQzr6_qNZe1sVUJUW3H5vqhEiVXm2u-WjTq2CGWzBQeRk1SdgQMwMFU6c5YJaKQjBVxU70Cx35XRAj3eaOFKZAgGnlKJCHvfN0Zta365_2yC74aynV3T9Q-w9ifKTe1iUx44sr4=)
+- [humphreytheodore.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKOWkjGyg2jS-kw6j0U662PVFtBXYPBgGaJOuuiuhH0ClpRYuMPyG-1GuJ5ntnI8k6fGU4_2tR6k9wz0W4qU4Tf1arWrLqqlwWANwOtHFpgs6zxq-DB9LTPgGv88ro4wV5cq17Uz4fmSLG-pH1vLy53vUqCdXpAgqBR5233ZOBEXDQ_z0MHy1GQUxUCSiAcWskg==)
+- [aifundingtracker.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==)
+- [crunchbase.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBHq-bEyIc0HpaIxBVYO3COjuxUif95VzN7mIJpP5Q-9DikfV3xWj1kG60XnTY1PSypwbV2PnMscJ9_ev8jp47FtbfvizahXETsWteErUAF_lMoULd7zgMat32tkz0eJiRDwTFR1DAD_vxW_E_WRbmk2jF3je4lZudOLaUQmjAjPoCavJIeJExdkURhVKl8Z4U0Y0xKxkN0uaz)
+
+**出てきた候補**
+
+- SoftBank Group → 出資 → OpenAI(2026-10-01)
+- OpenAI → 資金調達ラウンド → Amazon, Nvidia, SoftBank など(2026-03-31)
+- Microsoft → 株主・提携 (再編) → OpenAI(2025-10-01)
+- OpenAI → 買収 → io (Jony Ive's Hardware Startup)(2025-07-09)
+- OpenAI → 買収 → Statsig(2025-09)
+- OpenAI → 買収 → Torch Health(2026-01)
+- OpenAI → 提携 → Broadcom(2025-10-13)
+- OpenAI → 取引 → Oracle(2025-09)
+- OpenAI → 新会社設立 → OpenAI Deployment Company(2026-05)
+- OpenAI → 取締役就任 → David Vélez(2026-07-21)
+
+記録ファイル: inbox/gemini/2026-11-26-5.json / 2026-11-26-5.md
+
+## 2026-11-26-4　MiniMax(中国のAI企業、上場済み)の資金調達の履歴(ラウンド・金額・投資家)、主要株主、創業者・幹部の経歴と前職、提携・買収。公式発表やHKEXの開示で確かめられるものを優先
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- MiniMax China AI company funding rounds
+- MiniMax China AI investment history
+- MiniMax major shareholders China AI
+- MiniMax founder background China AI
+- MiniMax CEO previous experience China AI
+- MiniMax partnership China AI
+- MiniMax acquisition China AI
+- MiniMax IPO details HKEX
+- MiniMax funding Pitchbook
+- MiniMax Crunchbase
+
+**見たページ**
+
+- [davispolk.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeLlDXnhKkDt18hXnRjlpP4n95IY9rrayfGbz0goX-q8hh-BnH7ZgqTnKJWJGzn85flUJHrZp1mduwPt5mbbKZRFm_QUgjFJnbrvSjd-r1kmyP4k4lVV_a309tyYSgNSEMYppX_mUzmrmRavvrGpm4nCoAW155ts77-0euOmWhMw==)
+- [law.asia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfnws-bjzHgEUkEg0PpGqLoEiZb86VK-hOBr6l8-cw5RkF4SQdLDaSICQbSVelYo19XZXPIMgjJs5nG9856TVyTrM32af_DukqAtFfMoq63pbx6zUc_BUqW1bb8Pc9uRbchPOg_gIKq1t0zSt3h8fTFSuCINZ0yAhQyQ==)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk4=)
+- [sacra.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYFQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw=)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmbQZ6PfmMyx6C7OkDp0MmOzsXMSWKcXyryjD_Jy-cwTqePTswRiWmLx4FRV3sU4bcaMLGSi_nks0qV1n6cbXjOv_-pkaG4dxJ6hzPd2_ePWgdPLA891wFIY8LkarUIkRmSrGneO0y1_UlrDCM_Mx_yC_MYhFe4V20yARfr6KiBYsxJuAgoCTkzE_4MBxlqS4c4jreUpSZjthsnAQvdMB4q-3RKuNbsz4ZuADRv-hFlwwT3bDCfWabxaMbw==)
+- [pitchbook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w==)
+- [minimax.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNM1zGYotzGrJIzoVCBTM61DvqmTuUpMrt1BhHS8F2KQraWiHAAoXYFxBgTO5KH5awttGj1S5owYupbdaJxHDwnliNqwvFP1KLYtKPfwOjm2EunMF4l4a5sF3Z7wyhy2uTETs_JBc4cl-MP47Xf4E2zuqsN50XV-2hXGinMxiOyD4Vllb_wTUJzw==)
+- [scmp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV)
+- [minimax-ai.chat](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwLYwOea7YTwXN1BM10BlvjaUnX2VTcsuXhHmCzKwCo1lc0pfVAxIB3pxPTan2GktSLKifDOcJ_JNgYLbyo4ZHWpIX3_NeSIEbp2eR2BL_r4vZ40sYO-qWt90m8ACiCtiSWrln9tIvaM5hSn8=)
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscxUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0=)
+- [thestandard.com.hk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9AfjH2in7NxTdvVwg2Wmovek3I8PeclBiYj-a5RhmMkJmV2bY07uJHF_F7IELIF7WnRerlJjDV_9mKSrMwDGrqheybbvXXeF2ImCuJdIG_L3o0oUUy2kxvVBgraProUHyTWAC6ZFwSsfdPmOaf_cYBcpV7YT4nx9QjxCqFpDnuvnhYBnl0EzcjC3zQCTeZUyNi2OSLQvLSkca4oePiU5IsTR_4K-S_7YKXQFCAlBVZFyzAIdV9xcbICQZBpLiuJmlDAgr7gv5Fq4=)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_ohx1bioURMfReL1YHh0GemBmdV1fx9TSby7Nr7uSqiEDGh9OVwqrm2GoNYdqxv_1dE6EIiNILQoNgbGydPtelCz9ucfzQXyM-Jy5SpvJWpZPa6YCRMTChDkTN6GOJaWr7l_6unzm43MbgNtdIQWuW9NM_BUBvRkbgjF9RfZucVpNDAEZIJOBuGDmGhdDpEVibBbyqrKt-3f8CZFTyhteAR1ZLJMmJQ3ZuOrb9Rq5SRZII9JIm1mEzmiGla_xExYa4hnkZpcR_luQUXs=)
+
+**出てきた候補**
+
+- MiniMax Group Inc. → 上場 → 香港証券取引所(2026-01-09)
+- MiniMax Group Inc. → 資金調達 → 複数投資家 (アリババグループ主導)(2024-03)
+- MiniMax Group Inc. → 資金調達 → 上海国有資本 (Shanghai STVC Group)(2025-07)
+- MiniMax Group Inc. → 資金調達 (株式売却・転換社債) → 複数投資家(2026-07)
+- MiniMax Group Inc. → 買収 → Luying Technology(2025-03-13)
+- MiniMax Group Inc. → 提携 → Monks (S4Capital plc)(2025-06-12)
+- MiniMax Group Inc. → 取引 → Alibaba Cloud(2026-08-28)
+- MiniMax Group Inc. → 就任 → MiniMax Group Inc.(2021-12 (設立時))
+- MiniMax Group Inc. → 就任 → MiniMax Group Inc.(2021-12 (設立時))
+- MiniMax Group Inc. → 認可 → 中国政府(2026-10-23)
+
+記録ファイル: inbox/gemini/2026-11-26-4.json / 2026-11-26-4.md
+
 ## 2026-11-26-3　AI企業・半導体企業の創業者や経営者が、本人が公の場(インタビュー・ポッドキャスト・投稿)で話した朝の習慣・日課(起床時間・運動・瞑想など。健康や病気、家族の話は除く)。出典URL付き
 
 - モデル: gemini-2.5-flash　/　候補 10件
@@ -100,6 +345,111 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 - OpenAI → 就任 → (2026-07-21)【保留】
 
 記録ファイル: inbox/gemini/2026-11-26-2.json / 2026-11-26-2.md
+
+## 2026-11-26-12　Skild AI(ロボット基盤モデル)の資金調達ラウンド・評価額・投資家(SoftBank・Nvidia等)、創業者の経歴(カーネギーメロン大)、提携。公式発表・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Skild AI 資金調達
+- Skild AI 評価額
+- Skild AI 投資家 SoftBank Nvidia
+- Skild AI 創業者 経歴 カーネギーメロン大学
+- Skild AI 提携 パートナーシップ
+- Skild AI funding round
+- Skild AI valuation
+- Skild AI investors SoftBank Nvidia
+- Skild AI founder background Carnegie Mellon University
+- Skild AI partnerships
+
+**出てきた候補**
+
+- Skild AI → 設立 → (2023)
+- Skild AI → 資金調達 (Seed) → (2023)
+- Skild AI → 資金調達 (Series A) → (2024-07-09)
+- SoftBank Group → 出資 → Skild AI(2024-07-09)
+- Skild AI → 資金調達 (Series B) → (2025-05)
+- SoftBank Group → 出資 → Skild AI(2025-05)
+- NVIDIA → 出資 → Skild AI(2025-05)
+- Skild AI → 資金調達 (Series C) → (2026-01-14)
+- ABB Robotics → 提携 → Skild AI(2026-03-19)
+- VinDynamics (Vingroup) → 提携 → Skild AI(2026-06-08)
+
+記録ファイル: inbox/gemini/2026-11-26-12.json / 2026-11-26-12.md
+
+## 2026-11-26-11　Midjourney(米AI画像生成企業)の創業者・幹部の経歴、出資者(外部資金の有無)、提携(Meta等)、訴訟、買収。公式発表・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Midjourney founder David Holz
+- Midjourney funding investors
+- Midjourney partnerships
+- Midjourney lawsuits
+- Midjourney acquisition
+- David Holz Midjourney background
+- Midjourney business model
+
+**出てきた候補**
+
+- Midjourney → 設立 → (2021)
+- Midjourney → 就任 → (2021-08)
+- Leap Motion → 在籍 → (2008-11)
+- Midjourney → 資金調達モデル → 顧客(2021)
+- Midjourney → 売上高 → (2024)
+- Meta → 提携 (技術ライセンス) → Midjourney(2025-08-22)
+- Google Cloud → 取引 (インフラ提供) → Midjourney(2023-03-14)
+- Midjourney → 訴訟 → Disney, NBC Universal, DreamWorks(2025-06-11)
+- Midjourney → 訴訟 → Warner Bros.(2025-09-05)
+- Midjourney → 買収 → Co-Star(2026-07-24)
+
+記録ファイル: inbox/gemini/2026-11-26-11.json / 2026-11-26-11.md
+
+## 2026-11-26-10　xAI・SpaceXAIの幹部・共同創業者の2026年の退任と移籍先、新しく就任した幹部とその前職。本人のXや公式発表、大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 12件
+
+**Geminiが打った検索の言葉**
+
+- xAI executive changes 2026
+- xAI leadership departures 2026
+- xAI new executive appointments 2026
+- SpaceX AI executive changes 2026
+- SpaceX AI leadership departures 2026
+- SpaceX AI new executive appointments 2026
+- xAI co-founder leaves 2026
+- SpaceX AI personnel changes 2026
+
+**見たページ**
+
+- [entrepreneurloop.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNxI-NzQOIomy3TcKpN2iJmK-jMnk_di7opf0WQzdPhGqPLGGMq4SJg9YtOpRQ85Dc3DzWfJpnc7RltYKs1Na36icRCKEUPqRr7vbAZEve1HbYehUqQMuKRI-G-asbBTcU1m5bQhGD1lCUIBxzSEGH7Fdq46zqQEb6cPTaeGBpmf6zcS3uFHzyU4S0vCVoiw==)
+- [dealroom.co](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEe9w68i4RseThchdgqN5xsU0WuXETVvt2MjC_pv7A4fJr393AELOA1s0U3LaOFj_7rdNQAXViVSfZ8Av3iP0OhiCqfnGx2rBAvctYUXclQv4iH73dIyvP7C9znnHHJiT5M7MZSvUPU5IYkMCgvY0iUs0mZIBNYUWCwcqTsXq-5l6GtBXkv-6TzDXgM13P_qa9kTG4XvGpS62S8Q0Ll9U4=)
+- [businessinsider.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOuL6ow-KpZSI9mJ0qy_6Uy-2uTLgrLlMAPoZENYrR9tBWxh__-Vxz7JkPwyTIG5VyVaNqCUx3XHPIYf5MUsLAW8R1u5nnv2lFJOJzduR0tA9mKFgwcErjZnMjeBSPxXMVYovwEPftc5HWYHtZEJm9MY1zmbCljA0xwR9axQAEefOb4dm8l5oIVxAt6ZsVTpy3ns83JQwGbbFxmmug)
+- [fortune.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5PV9iSH-QSHeSUcs4DeexnwlOAsjFwmc4EJ-gliKVViGfc_AafsBfSWFfqDP5VpObuSqnUvw7_YIPfTSEgKbVRR04oICr9X5UJECjCNxVRX2K_CJ9VB7vK-s9OA-fCnq9R8t5Rr-lJmK76z9ayyKh84J7evXLuPJ93E3KexTVfD6pWYz40rLR7U2DNlI2Q2jq39nEmpk4XsEdoZopwk5ESJBHOHiUU3zbTBr-EJ_Pckp3TXdArs5DcFgO-YPxEajVYbK_HEFuFiS1Q0UIfSa4LeN-1g==)
+- [siliconrepublic.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFcbrUVRFe6aWRXMgH5-hCYNX1_paiRAZcuZcluXFbo6jdCuPkVpO3614B9f6hIDqqebVkcuIN7PpY66fRk4Hf4j6h7pBWjKjz97dBct3l13aGfxK2PpFFohoAc53jOSb1mkmfMrTmQa7ztBkthFC7nZHr6JWhdov4fx-WUQNhqq1emrjBpqsz_Na0-xDj3iHrROLmU8ju6YQ85wB2OEYLNruj93cOecPTbgHpr9Q0=)
+- [capacityglobal.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVE4eLb8Lk23lcwfuJWmpFVspSbQVIlgwbGmfrLjAGPsTG6cr1y32XXah_3wZ-d6110upMFQZhyvoSfkMvBysn1retY73BulOtzIJS3y-cmuVkpN4V0eJEPX1-7iVp7KEfCiSWmLr67G_VTJGKKDUxvDE=)
+- [crn.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvijodrTdZzU7-Uqaj9jtHR8xnGQTZDHVhx_vo9FrVJH1eeivyQwFk0tZWaKP9DmPMmcg9VjdFkmvy9G46PudiAyZ06lDDT7WdlBwG4tnHU3gJ3g9AV5bVwv6fvFtIAokZUuNJt6DaEK8vs2XQKpC1z4V1M_OsTn_GXGzmI-PjldSWHr9Zbsf77azWyGKcC7dhqFVm6fkooVmwBUpTBR4hYw==)
+- [goelite.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGR_XUpNJH6nAzmHjgJv0zTxMwdlXOT2GUTTpVlTYCQ3VMhAH3uXxGbWUYHNvgfzF0xpgNvM1AdZjoY9QiiRvyej3QyAUel2qMlZF44wlwyOLoXKxbRGQutv3SNzkF_uqfxYj8L5qQf1XePQSYkbpZFXaXNsYFcNsm42sIBPA5erYzrogbKdKSnJcU=)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDT7Bq9taX-QqlgEpO-5BQCw2oJyjbToAXs-6-Tnpm7PbyPsqzYhznHli5qj4ena6tI3EvGtYADHroV9xRHVJOMfo07hcGU5xa0QD-yi1pmh585GDxVrnIpGl_aPFTO7lv)
+
+**出てきた候補**
+
+- xAI → 退任 → (2026-02)
+- xAI → 退任 → (2026-03-28)
+- xAI → 退任 → (2026-02-09)
+- xAI → 退任 → (2026-02-10)
+- xAI → 退任 → (2026-01)
+- xAI → 退任 → (2026-03)
+- xAI → 退任 → (2026-03)
+- xAI → 移籍 → (2026-05)
+- xAI → 退任 → (2026-02-27)
+- SpaceX → 買収 → xAI(2026-02-02)
+- xAI → 就任 → (2026-04)
+- SpaceX → 買収 → Cursor(2026-08-14)
+
+記録ファイル: inbox/gemini/2026-11-26-10.json / 2026-11-26-10.md
 
 ## 2026-11-26　直近3日の日本のAIスタートアップの資金調達・提携と、日本の大企業とAI企業の提携
 
