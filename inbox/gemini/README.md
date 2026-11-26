@@ -21,16 +21,16 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- Nvidia → 退任 → (2026-11-12)
-- Nvidia → 就任 (暫定) → (2026-11-12)
-- Nvidia → 就任 → (2026-11-12)
-- Nvidia → 就任 (復帰) → (2026-11-23)
-- Nvidia → 出資 → Anthropic(2025-11-18)
-- Nvidia → 買収 (合意) → Hugging Face(2026-08-26)
-- Nvidia → 出資 → SB Energy(2026-08-17)
-- Nvidia → 取引・人材移籍 → Groq(2025-12)
-- Nvidia → 提携 (資金調達プラットフォーム) → Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR(2026-08-10)
-- Nvidia → 就任 → (2026-08-24)
+- Nvidia → 退任 → (2026-11-12)【除外】
+- Nvidia → 就任 (暫定) → (2026-11-12)【除外】
+- Nvidia → 就任 → (2026-11-12)【除外】
+- Nvidia → 就任 (復帰) → (2026-11-23)【除外】
+- Nvidia → 出資 → Anthropic(2025-11-18)【除外】
+- Nvidia → 買収 (合意) → Hugging Face(2026-08-26)【保留】
+- Nvidia → 出資 → SB Energy(2026-08-17)【除外】
+- Nvidia → 取引・人材移籍 → Groq(2025-12)【除外】
+- Nvidia → 提携 (資金調達プラットフォーム) → Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, KKR(2026-08-10)【除外】
+- Nvidia → 就任 → (2026-08-24)【除外】
 
 記録ファイル: inbox/gemini/2026-11-27-2.json / 2026-11-27-2.md
 
