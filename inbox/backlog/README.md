@@ -2,7 +2,7 @@
 
 更新: 2026-11-26
 
-checked 383 / done 23 / todo 325 / unverified 15
+checked 390 / done 26 / todo 315 / unverified 15
 
 - todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)
 - リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`

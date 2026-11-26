@@ -1,0 +1,95 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分(午後の回)。",
+ "items": [
+  {
+   "from": "Accel(主導)・Kleiner Perkins・既存投資家",
+   "to": "Modal Labs",
+   "kind": "出資",
+   "amount": "$750M(Series D・評価額 $157.5億)",
+   "date": "2026-10-14",
+   "note": "AIインフラのModalが年間売上$10億超と発表。5月のSeries C(評価額$46.5億)から5か月弱で上昇。 過去の動画・番組(20VC・Big Technology・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Next Web(2026/10/14)",
+     "https://thenextweb.com/news/modal-750m-series-d-15-75bn-valuation"
+    ],
+    [
+     "Tech Funding News",
+     "https://techfundingnews.com/modal-becomes-latest-decacorn-after-750m-raise-to-build-cloud-infrastructure-for-ai-agents/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "Wellington・Sequoia(共同主導)・Tiger Global・Dragoneer",
+   "to": "Kalshi",
+   "kind": "出資",
+   "amount": "$10億(Series G・評価額 $400億)",
+   "date": "2026-10-29",
+   "note": "予測市場のKalshi。5月の$10億(評価額$220億)から約5か月。一部報道は評価額$440億とするが多数は$400億。 過去の動画・番組(20VC・Big Technology・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "stockanalysis.com(2026/10/29)",
+     "https://stockanalysis.com/news/kalshi-raises-1-billion-at-40-billion-valuation/"
+    ],
+    [
+     "TechStartups",
+     "https://techstartups.com/?p=140037"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "DoorDash",
+   "to": "Instacart",
+   "kind": "買収",
+   "amount": "約$170億(1株$65現金、または株式併用・未完了)",
+   "date": "2026-10-29",
+   "note": "DoorDashがInstacartの買収に合意。完了は2027年末〜2028年前半の見込み。株主承認・米独禁当局の承認などが必要。 過去の動画・番組(20VC・Big Technology・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "DoorDash 8-K(SEC)",
+     "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm"
+    ],
+    [
+     "TechCrunch(2026/10/29)",
+     "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
+    ]
+   ],
+   "confidence": "開示",
+   "via": "backlog"
+  },
+  {
+   "from": "Wellington(主導)・Goldman Sachs Alternatives・Sequoia・J.P. Morgan・Craft Ventures・Y Combinator・Atlassian Ventures・CrowdStrike Ventures",
+   "to": "Vanta",
+   "kind": "出資",
+   "amount": "$150M(Series D・評価額 $41.5億)",
+   "date": "2025-07-23",
+   "note": "コンプライアンス自動化のVanta。前回(2024年7月、評価額$24.5億)から69%増。 過去の動画・番組(20VC・Big Technology・TBPN)の手がかりから探し、複数の報道・公式発表の検索結果が一致した範囲を確認(記事の本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Business Wire 公式リリース(2025/7/23)",
+     "https://www.businesswire.com/news/home/20250723901336/en/Vanta-Raises-150M-Series-D-to-Power-the-Future-of-AI-Driven-Trust/"
+    ],
+    [
+     "SiliconANGLE(2025/7/23)",
+     "https://siliconangle.com/2025/07/23/compliance-startup-vanta-valued-4-15b-new-150m-round/"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  }
+ ]
+}
