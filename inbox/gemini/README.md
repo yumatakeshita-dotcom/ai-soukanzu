@@ -18,6 +18,53 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-26-recheck.json
 
+## 2026-11-26-4　MiniMax(中国のAI企業、上場済み)の資金調達の履歴(ラウンド・金額・投資家)、主要株主、創業者・幹部の経歴と前職、提携・買収。公式発表やHKEXの開示で確かめられるものを優先
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- MiniMax China AI company funding rounds
+- MiniMax China AI investment history
+- MiniMax major shareholders China AI
+- MiniMax founder background China AI
+- MiniMax CEO previous experience China AI
+- MiniMax partnership China AI
+- MiniMax acquisition China AI
+- MiniMax IPO details HKEX
+- MiniMax funding Pitchbook
+- MiniMax Crunchbase
+
+**見たページ**
+
+- [davispolk.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeLlDXnhKkDt18hXnRjlpP4n95IY9rrayfGbz0goX-q8hh-BnH7ZgqTnKJWJGzn85flUJHrZp1mduwPt5mbbKZRFm_QUgjFJnbrvSjd-r1kmyP4k4lVV_a309tyYSgNSEMYppX_mUzmrmRavvrGpm4nCoAW155ts77-0euOmWhMw==)
+- [law.asia](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfnws-bjzHgEUkEg0PpGqLoEiZb86VK-hOBr6l8-cw5RkF4SQdLDaSICQbSVelYo19XZXPIMgjJs5nG9856TVyTrM32af_DukqAtFfMoq63pbx6zUc_BUqW1bb8Pc9uRbchPOg_gIKq1t0zSt3h8fTFSuCINZ0yAhQyQ==)
+- [wikipedia.org](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk4=)
+- [sacra.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYFQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw=)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmbQZ6PfmMyx6C7OkDp0MmOzsXMSWKcXyryjD_Jy-cwTqePTswRiWmLx4FRV3sU4bcaMLGSi_nks0qV1n6cbXjOv_-pkaG4dxJ6hzPd2_ePWgdPLA891wFIY8LkarUIkRmSrGneO0y1_UlrDCM_Mx_yC_MYhFe4V20yARfr6KiBYsxJuAgoCTkzE_4MBxlqS4c4jreUpSZjthsnAQvdMB4q-3RKuNbsz4ZuADRv-hFlwwT3bDCfWabxaMbw==)
+- [pitchbook.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w==)
+- [minimax.io](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNM1zGYotzGrJIzoVCBTM61DvqmTuUpMrt1BhHS8F2KQraWiHAAoXYFxBgTO5KH5awttGj1S5owYupbdaJxHDwnliNqwvFP1KLYtKPfwOjm2EunMF4l4a5sF3Z7wyhy2uTETs_JBc4cl-MP47Xf4E2zuqsN50XV-2hXGinMxiOyD4Vllb_wTUJzw==)
+- [scmp.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV)
+- [minimax-ai.chat](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwLYwOea7YTwXN1BM10BlvjaUnX2VTcsuXhHmCzKwCo1lc0pfVAxIB3pxPTan2GktSLKifDOcJ_JNgYLbyo4ZHWpIX3_NeSIEbp2eR2BL_r4vZ40sYO-qWt90m8ACiCtiSWrln9tIvaM5hSn8=)
+- [biggo.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscxUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0=)
+- [thestandard.com.hk](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9AfjH2in7NxTdvVwg2Wmovek3I8PeclBiYj-a5RhmMkJmV2bY07uJHF_F7IELIF7WnRerlJjDV_9mKSrMwDGrqheybbvXXeF2ImCuJdIG_L3o0oUUy2kxvVBgraProUHyTWAC6ZFwSsfdPmOaf_cYBcpV7YT4nx9QjxCqFpDnuvnhYBnl0EzcjC3zQCTeZUyNi2OSLQvLSkca4oePiU5IsTR_4K-S_7YKXQFCAlBVZFyzAIdV9xcbICQZBpLiuJmlDAgr7gv5Fq4=)
+- [investing.com](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_ohx1bioURMfReL1YHh0GemBmdV1fx9TSby7Nr7uSqiEDGh9OVwqrm2GoNYdqxv_1dE6EIiNILQoNgbGydPtelCz9ucfzQXyM-Jy5SpvJWpZPa6YCRMTChDkTN6GOJaWr7l_6unzm43MbgNtdIQWuW9NM_BUBvRkbgjF9RfZucVpNDAEZIJOBuGDmGhdDpEVibBbyqrKt-3f8CZFTyhteAR1ZLJMmJQ3ZuOrb9Rq5SRZII9JIm1mEzmiGla_xExYa4hnkZpcR_luQUXs=)
+
+**出てきた候補**
+
+- MiniMax Group Inc. → 上場 → 香港証券取引所(2026-01-09)
+- MiniMax Group Inc. → 資金調達 → 複数投資家 (アリババグループ主導)(2024-03)
+- MiniMax Group Inc. → 資金調達 → 上海国有資本 (Shanghai STVC Group)(2025-07)
+- MiniMax Group Inc. → 資金調達 (株式売却・転換社債) → 複数投資家(2026-07)
+- MiniMax Group Inc. → 買収 → Luying Technology(2025-03-13)
+- MiniMax Group Inc. → 提携 → Monks (S4Capital plc)(2025-06-12)
+- MiniMax Group Inc. → 取引 → Alibaba Cloud(2026-08-28)
+- MiniMax Group Inc. → 就任 → MiniMax Group Inc.(2021-12 (設立時))
+- MiniMax Group Inc. → 就任 → MiniMax Group Inc.(2021-12 (設立時))
+- MiniMax Group Inc. → 認可 → 中国政府(2026-10-23)
+
+記録ファイル: inbox/gemini/2026-11-26-4.json / 2026-11-26-4.md
+
 ## 2026-11-26-3　AI企業・半導体企業の創業者や経営者が、本人が公の場(インタビュー・ポッドキャスト・投稿)で話した朝の習慣・日課(起床時間・運動・瞑想など。健康や病気、家族の話は除く)。出典URL付き
 
 - モデル: gemini-2.5-flash　/　候補 10件

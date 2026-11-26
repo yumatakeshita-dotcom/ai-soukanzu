@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "items": [
+  {
+   "from": "アリババ",
+   "to": "MiniMax",
+   "kind": "出資(資金調達ラウンドを主導)",
+   "amount": "約6億ドル(報道)",
+   "date": "2024-03",
+   "note": "深掘り(薄さ一覧1位級)。SiliconANGLEが「2024年3月にアリババ主導で6億ドル」と報道。MiniMaxの公式・香港取引所の開示はクラウドから開けず未確認のため報道ベース。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "SiliconANGLE (2025-12-30)",
+     "https://siliconangle.com/2025/12/30/minimax-moves-toward-hong-kong-ipo-chinese-ai-firms-rush-go-public/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  }
+ ],
+ "notes": "深掘り第1回。MiniMax以外のGemini候補(2億ドル調達2026-07・アリババクラウド12億ドル契約など)は出典を確かめられず入れていない。"
+}

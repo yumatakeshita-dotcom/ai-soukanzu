@@ -1,0 +1,463 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "MiniMax(中国のAI企業、上場済み)の資金調達の履歴(ラウンド・金額・投資家)、主要株主、創業者・幹部の経歴と前職、提携・買収。公式発表やHKEXの開示で確かめられるものを優先",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "上場",
+   "相手": "香港証券取引所",
+   "金額": "48億香港ドル",
+   "日付": "2026-01-09",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3",
+   "確かさ": "公式",
+   "備考": "約6.19億米ドル相当",
+   "src": [
+    [
+     "Wikipedia, Davis Polk",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "資金調達",
+   "相手": "複数投資家 (アリババグループ主導)",
+   "金額": "6億米ドル",
+   "日付": "2024-03",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3",
+   "確かさ": "報道",
+   "備考": "評価額25億米ドル",
+   "src": [
+    [
+     "Wikipedia",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "資金調達",
+   "相手": "上海国有資本 (Shanghai STVC Group)",
+   "金額": "3億米ドル",
+   "日付": "2025-07",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYQQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw==",
+   "確かさ": "報道",
+   "備考": "Series B Extension、評価額40億米ドル",
+   "src": [
+    [
+     "Sacra",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYQQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "資金調達 (株式売却・転換社債)",
+   "相手": "複数投資家",
+   "金額": "20億米ドル",
+   "日付": "2026-07",
+   "出典URL": "https://www.investing.com/news/stock-market-news/minimax-says-it-has-closed-2-bln-funding-round-outlines-agi-commitments-4785281",
+   "確かさ": "報道",
+   "備考": "AIインフラ、モデルR&D、グローバル展開に充当。内訳: 株式売却約95.4億香港ドル、転換社債約65億香港ドル",
+   "src": [
+    [
+     "Investing.com",
+     "https://www.investing.com/news/stock-market-news/minimax-says-it-has-closed-2-bln-funding-round-outlines-agi-commitments-4785281"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmbQZ6PfmMyx6C7OkDp0MmOzsXMSWKcXyryjD_Jy-cwTqePTswRiWmLx4FRV3sU4bcaMLGSi_nks0qV1n6cbXjOv_-pkaG4dxJ6hzPd2_ePWgdPLA891wFIY8LkarUIkRmSrGneO0y1_UlrDCM_Mx_yC_MYhFe4V20yARfr6KiBYsxJuAgoCTkzE_4MBxlqS4c4jreUpSZjthsnAQvdMB4q-3RKuNbsz4ZuADRv-hFlwwT3bDCfWabxaMbw==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "買収",
+   "相手": "Luying Technology",
+   "金額": "",
+   "日付": "2025-03-13",
+   "出典URL": "https://pitchbook.com/profiles/company/528653-35",
+   "確かさ": "報道",
+   "備考": "マルチメディアおよびデザインソフトウェア企業",
+   "src": [
+    [
+     "PitchBook",
+     "https://pitchbook.com/profiles/company/528653-35"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "提携",
+   "相手": "Monks (S4Capital plc)",
+   "金額": "",
+   "日付": "2025-06-12",
+   "出典URL": "https://www.minimax.io/news/monks-and-minimax-partner-to-advance-ai-innovation",
+   "確かさ": "公式",
+   "備考": "中華圏でのAIイノベーション推進に向けた戦略的提携。Monks Chinaとその顧客はMiniMaxのAIツールに早期アクセス",
+   "src": [
+    [
+     "Monks Official Announcement",
+     "https://www.minimax.io/news/monks-and-minimax-partner-to-advance-ai-innovation"
+    ]
+   ],
+   "既存の名前": [],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNM1zGYotzGrJIzoVCBTM61DvqmTuUpMrt1BhHS8F2KQraWiHAAoXYFxBgTO5KH5awttGj1S5owYupbdaJxHDwnliNqwvFP1KLYtKPfwOjm2EunMF4l4a5sF3Z7wyhy2uTETs_JBc4cl-MP47Xf4E2zuqsN50XV-2hXGinMxiOyD4Vllb_wTUJzw==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "取引",
+   "相手": "Alibaba Cloud",
+   "金額": "12億米ドル (3年間)",
+   "日付": "2026-08-28",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV",
+   "確かさ": "報道",
+   "備考": "クラウドコンピューティング契約の3年間購入上限を220%増額",
+   "src": [
+    [
+     "South China Morning Post",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "就任",
+   "相手": "MiniMax Group Inc.",
+   "金額": "",
+   "日付": "2021-12 (設立時)",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3",
+   "確かさ": "公式",
+   "備考": "創業者、CEO、会長、CTO。前職はSenseTimeの副社長兼研究機関副所長",
+   "人物": "Yan Junjie",
+   "役職": "CEO, Chairman, CTO",
+   "移籍元": "SenseTime",
+   "移籍先": "MiniMax Group Inc.",
+   "src": [
+    [
+     "Wikipedia",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "就任",
+   "相手": "MiniMax Group Inc.",
+   "金額": "",
+   "日付": "2021-12 (設立時)",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3",
+   "確かさ": "公式",
+   "備考": "共同創業者、COO。前職はSenseTime",
+   "人物": "Yun Yeyi",
+   "役職": "COO",
+   "移籍元": "SenseTime",
+   "移籍先": "MiniMax Group Inc.",
+   "src": [
+    [
+     "Wikipedia, Who Owns MiniMax AI",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "MiniMax Group Inc.",
+   "関係": "認可",
+   "相手": "中国政府",
+   "金額": "",
+   "日付": "2026-10-23",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscXUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0",
+   "確かさ": "報道",
+   "備考": "AIモデルのグローバル展開承認",
+   "src": [
+    [
+     "BigGo Finance (CCTV関連アカウント)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscXUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0"
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "davispolk.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeLlDXnhKkDt18hXnRjlpP4n95IY9rrayfGbz0goX-q8hh-BnH7ZgqTnKJWJGzn85flUJHrZp1mduwPt5mbbKZRFm_QUgjFJnbrvSjd-r1kmyP4k4lVV_a309tyYSgNSEMYppX_mUzmrmRavvrGpm4nCoAW155ts77-0euOmWhMw=="
+  ],
+  [
+   "law.asia",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfnws-bjzHgEUkEg0PpGqLoEiZb86VK-hOBr6l8-cw5RkF4SQdLDaSICQbSVelYo19XZXPIMgjJs5nG9856TVyTrM32af_DukqAtFfMoq63pbx6zUc_BUqW1bb8Pc9uRbchPOg_gIKq1t0zSt3h8fTFSuCINZ0yAhQyQ=="
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk4="
+  ],
+  [
+   "sacra.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYFQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw="
+  ],
+  [
+   "investing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmbQZ6PfmMyx6C7OkDp0MmOzsXMSWKcXyryjD_Jy-cwTqePTswRiWmLx4FRV3sU4bcaMLGSi_nks0qV1n6cbXjOv_-pkaG4dxJ6hzPd2_ePWgdPLA891wFIY8LkarUIkRmSrGneO0y1_UlrDCM_Mx_yC_MYhFe4V20yARfr6KiBYsxJuAgoCTkzE_4MBxlqS4c4jreUpSZjthsnAQvdMB4q-3RKuNbsz4ZuADRv-hFlwwT3bDCfWabxaMbw=="
+  ],
+  [
+   "pitchbook.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w=="
+  ],
+  [
+   "minimax.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNM1zGYotzGrJIzoVCBTM61DvqmTuUpMrt1BhHS8F2KQraWiHAAoXYFxBgTO5KH5awttGj1S5owYupbdaJxHDwnliNqwvFP1KLYtKPfwOjm2EunMF4l4a5sF3Z7wyhy2uTETs_JBc4cl-MP47Xf4E2zuqsN50XV-2hXGinMxiOyD4Vllb_wTUJzw=="
+  ],
+  [
+   "scmp.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV"
+  ],
+  [
+   "minimax-ai.chat",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwLYwOea7YTwXN1BM10BlvjaUnX2VTcsuXhHmCzKwCo1lc0pfVAxIB3pxPTan2GktSLKifDOcJ_JNgYLbyo4ZHWpIX3_NeSIEbp2eR2BL_r4vZ40sYO-qWt90m8ACiCtiSWrln9tIvaM5hSn8="
+  ],
+  [
+   "biggo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscxUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0="
+  ],
+  [
+   "thestandard.com.hk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9AfjH2in7NxTdvVwg2Wmovek3I8PeclBiYj-a5RhmMkJmV2bY07uJHF_F7IELIF7WnRerlJjDV_9mKSrMwDGrqheybbvXXeF2ImCuJdIG_L3o0oUUy2kxvVBgraProUHyTWAC6ZFwSsfdPmOaf_cYBcpV7YT4nx9QjxCqFpDnuvnhYBnl0EzcjC3zQCTeZUyNi2OSLQvLSkca4oePiU5IsTR_4K-S_7YKXQFCAlBVZFyzAIdV9xcbICQZBpLiuJmlDAgr7gv5Fq4="
+  ],
+  [
+   "investing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_ohx1bioURMfReL1YHh0GemBmdV1fx9TSby7Nr7uSqiEDGh9OVwqrm2GoNYdqxv_1dE6EIiNILQoNgbGydPtelCz9ucfzQXyM-Jy5SpvJWpZPa6YCRMTChDkTN6GOJaWr7l_6unzm43MbgNtdIQWuW9NM_BUBvRkbgjF9RfZucVpNDAEZIJOBuGDmGhdDpEVibBbyqrKt-3f8CZFTyhteAR1ZLJMmJQ3ZuOrb9Rq5SRZII9JIm1mEzmiGla_xExYa4hnkZpcR_luQUXs="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://www.davispolk.com/experience/minimax-group-hk-4-8-billion-ipo",
+  "https://law.asia/minimax-hkex-ipo-legal-advisors-ai-six-tigers/",
+  "https://en.wikipedia.org/wiki/MiniMax_Group",
+  "https://sacra.com/c/minimax/",
+  "https://www.investing.com/news/stock-market-news/minimax-says-it-has-closed-2-bln-funding-round-outlines-agi-commitments-4785281",
+  "https://pitchbook.com/profiles/company/528653-35",
+  "https://www.minimax.io/news/monks-and-minimax-partner-to-advance-ai-innovation",
+  "https://www.scmp.com/tech/article/3365558/minimax-expands-alibaba-cloud-pact-compute-needs-surge-training-and-inference",
+  "https://minimax-ai.chat/guide/minimax-ai-company/",
+  "https://finance.biggo.com/news/0b96d9c4-09f4-418a-9bc9-1607eabae1ae",
+  "https://www.thestandard.com.hk/china/article/346325/Chinas-DeepSeek-MiniMax-win-approval-for-AI-global-use-state-media-affiliated-entity-says",
+  "https://www.investing.com/news/stock-market-news/chinas-deepseekminimax-win-approval-for-ai-global-use-state-mediaaffiliated-entity-says-4968133"
+ ],
+ "process": {
+  "queries": [
+   "MiniMax China AI company funding rounds",
+   "MiniMax China AI investment history",
+   "MiniMax major shareholders China AI",
+   "MiniMax founder background China AI",
+   "MiniMax CEO previous experience China AI",
+   "MiniMax partnership China AI",
+   "MiniMax acquisition China AI",
+   "MiniMax IPO details HKEX",
+   "MiniMax funding Pitchbook",
+   "MiniMax Crunchbase"
+  ],
+  "sources": [
+   [
+    "davispolk.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeLlDXnhKkDt18hXnRjlpP4n95IY9rrayfGbz0goX-q8hh-BnH7ZgqTnKJWJGzn85flUJHrZp1mduwPt5mbbKZRFm_QUgjFJnbrvSjd-r1kmyP4k4lVV_a309tyYSgNSEMYppX_mUzmrmRavvrGpm4nCoAW155ts77-0euOmWhMw=="
+   ],
+   [
+    "law.asia",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHfnws-bjzHgEUkEg0PpGqLoEiZb86VK-hOBr6l8-cw5RkF4SQdLDaSICQbSVelYo19XZXPIMgjJs5nG9856TVyTrM32af_DukqAtFfMoq63pbx6zUc_BUqW1bb8Pc9uRbchPOg_gIKq1t0zSt3h8fTFSuCINZ0yAhQyQ=="
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk4="
+   ],
+   [
+    "sacra.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYFQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw="
+   ],
+   [
+    "investing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLmbQZ6PfmMyx6C7OkDp0MmOzsXMSWKcXyryjD_Jy-cwTqePTswRiWmLx4FRV3sU4bcaMLGSi_nks0qV1n6cbXjOv_-pkaG4dxJ6hzPd2_ePWgdPLA891wFIY8LkarUIkRmSrGneO0y1_UlrDCM_Mx_yC_MYhFe4V20yARfr6KiBYsxJuAgoCTkzE_4MBxlqS4c4jreUpSZjthsnAQvdMB4q-3RKuNbsz4ZuADRv-hFlwwT3bDCfWabxaMbw=="
+   ],
+   [
+    "pitchbook.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w=="
+   ],
+   [
+    "minimax.io",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNM1zGYotzGrJIzoVCBTM61DvqmTuUpMrt1BhHS8F2KQraWiHAAoXYFxBgTO5KH5awttGj1S5owYupbdaJxHDwnliNqwvFP1KLYtKPfwOjm2EunMF4l4a5sF3Z7wyhy2uTETs_JBc4cl-MP47Xf4E2zuqsN50XV-2hXGinMxiOyD4Vllb_wTUJzw=="
+   ],
+   [
+    "scmp.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV"
+   ],
+   [
+    "minimax-ai.chat",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGwLYwOea7YTwXN1BM10BlvjaUnX2VTcsuXhHmCzKwCo1lc0pfVAxIB3pxPTan2GktSLKifDOcJ_JNgYLbyo4ZHWpIX3_NeSIEbp2eR2BL_r4vZ40sYO-qWt90m8ACiCtiSWrln9tIvaM5hSn8="
+   ],
+   [
+    "biggo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscxUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0="
+   ],
+   [
+    "thestandard.com.hk",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF9AfjH2in7NxTdvVwg2Wmovek3I8PeclBiYj-a5RhmMkJmV2bY07uJHF_F7IELIF7WnRerlJjDV_9mKSrMwDGrqheybbvXXeF2ImCuJdIG_L3o0oUUy2kxvVBgraProUHyTWAC6ZFwSsfdPmOaf_cYBcpV7YT4nx9QjxCqFpDnuvnhYBnl0EzcjC3zQCTeZUyNi2OSLQvLSkca4oePiU5IsTR_4K-S_7YKXQFCAlBVZFyzAIdV9xcbICQZBpLiuJmlDAgr7gv5Fq4="
+   ],
+   [
+    "investing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_ohx1bioURMfReL1YHh0GemBmdV1fx9TSby7Nr7uSqiEDGh9OVwqrm2GoNYdqxv_1dE6EIiNILQoNgbGydPtelCz9ucfzQXyM-Jy5SpvJWpZPa6YCRMTChDkTN6GOJaWr7l_6unzm43MbgNtdIQWuW9NM_BUBvRkbgjF9RfZucVpNDAEZIJOBuGDmGhdDpEVibBbyqrKt-3f8CZFTyhteAR1ZLJMmJQ3ZuOrb9Rq5SRZII9JIm1mEzmiGla_xExYa4hnkZpcR_luQUXs="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "```json\n{\"items\":[\n  {\"会社名\":\"MiniMax Group Inc.\",\"関係\":\"上場\",\"相手\":\"香港証券取引所\",\"金額\":\"48億香港ドル\",\"日付\":\"2026-01-09\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3\",\"出典名\":\"Wikipedia, Davis Polk\",\"確かさ\":\"公式\",\"備考\":\"約6.19億米ドル相当",
+    "idx": [
+     0,
+     1
+    ]
+   },
+   {
+    "text": "\",\"関係\":\"資金調達\",\"相手\":\"複数投資家 (アリババグループ主導)\",\"金額\":\"6億米ドル\",\"日付\":\"2024-03\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgIjYJVYQh5w1GoBP9j-GFahNI6UW7Nlh9Evb_h-_2V6sIrvenyUT7DOWS_s5n6U6Iy08c7e01phX04QckEe2pjsmvGh8_RaO8dgsBqJIGWr9qGrAcY54zT8Se0aa_4ryX3l3Rdk3\",\"出典名\":\"Wikipedia\",\"確かさ\":\"報道\",\"備考\":\"評価額25億米ドル",
+    "idx": [
+     2
+    ]
+   },
+   {
+    "text": "\",\"関係\":\"資金調達\",\"相手\":\"上海国有資本 (Shanghai STVC Group)\",\"金額\":\"3億米ドル\",\"日付\":\"2025-07\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-K75k1h-U3E8QcYefDhnWUYDRlNzKHE7kAYYJlam2AEufxXIV0Lnqj4xklUe94_PuNKmEDOT0P0LfKYQQLwbEHk6-wVrehZDywijchbVbPEujI5WvWpw==\",\"出典名\":\"Sacra\",\"確かさ\":\"報道\",\"備考\":\"Series B Extension、評価額40億米ドル",
+    "idx": [
+     3
+    ]
+   },
+   {
+    "text": "内訳: 株式売却約95.4億香港ドル、転換社債約65億香港ドル",
+    "idx": [
+     4,
+     3
+    ]
+   },
+   {
+    "text": "\",\"関係\":\"買収\",\"相手\":\"Luying Technology\",\"金額\":\"\",\"日付\":\"2025-03-13\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFP7Raquq_BM6ubdAYc3zYwrVATwyx1T3iZGBCcK-uAg6n-WxSvQbbmc0X7LrLgSLt6SzeQyCntAlFaLPqPIZ6WhDUVA8SaHWPGiZ0J82u40IwsQn7YH9Fh6wEyiL5s0cQCobLjyyh6Q2tB6w==\",\"出典名\":\"PitchBook\",\"確かさ\":\"報道\",\"備考\":\"マルチメディアおよびデザインソフトウェア企業",
+    "idx": [
+     5
+    ]
+   },
+   {
+    "text": "Monks Chinaとその顧客はMiniMaxのAIツールに早期アクセス",
+    "idx": [
+     6
+    ]
+   },
+   {
+    "text": "\",\"関係\":\"取引\",\"相手\":\"Alibaba Cloud\",\"金額\":\"12億米ドル (3年間)\",\"日付\":\"2026-08-28\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcxLyyRyYpcWgfDh_oU0AIQIg4G52qknl-GG0S8QWSms2QJrpoU9OTofk4u07iW_yQGIlUlMT5nXJSsvyMhm0mGwo2k8ym8CwAFQipDg7zY-QanP4WyTI5m5oSgCogq1FCQbqM4FSnqcxNMA4Gp1k8rKN5PFUJUb1RuSO3gm_ryu5BvP_u6gHvFZWosbpUOIMD3ox43QsA3MQuU7PBxwPIJNwqZhc89o3ox43QsA3MQuU7PBxwPIJNwqZhc89o3prLJg4tHRsaiV\",\"出典名\":\"South China Morning Post\",\"確かさ\":\"報道\",\"備考\":\"クラウドコンピューティング契約の3年間購入上限を220%増額",
+    "idx": [
+     7
+    ]
+   },
+   {
+    "text": "前職はSenseTimeの副社長兼研究機関副所長",
+    "idx": [
+     2,
+     8
+    ]
+   },
+   {
+    "text": "前職はSenseTime",
+    "idx": [
+     2,
+     8
+    ]
+   },
+   {
+    "text": "\",\"関係\":\"認可\",\"相手\":\"中国政府\",\"金額\":\"\",\"日付\":\"2026-10-23\",\"出典URL\":\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIAFqPG96IMj_2iLQohP3Bu4Iw_VUuplLY-bM43SvZSNEuMaOZeNmvLfjh0Jb_AzwkQsiNfPba1AmrscXUfpcfjEJv3QqwwM5VDFhC5Iha0Rq3CDcnyhoasCq4wDgbQEGzror5yiQJ9yHhASNXh8XX9plFxDarGiWWzZxNqx0\",\"出典名\":\"BigGo Finance (CCTV関連アカウント)\",\"確かさ\":\"報道\",\"備考\":\"AIモデルのグローバル展開承認",
+    "idx": [
+     9,
+     10,
+     11
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2816,
+   "candidatesTokenCount": 2416,
+   "totalTokenCount": 12181,
+   "cachedContentTokenCount": 491,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2816
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 491
+    }
+   ],
+   "toolUsePromptTokenCount": 3595,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3595
+    }
+   ],
+   "thoughtsTokenCount": 3354,
+   "serviceTier": "standard"
+  }
+ }
+}
