@@ -1,0 +1,44 @@
+{
+ "date": "2026-11-26",
+ "kind": "vc",
+ "items": [
+  {
+   "lp": "",
+   "fund": "Venture Fund IV・Catalyst IV(2本合計)",
+   "gp": "Stage 2 Capital(米ボストン)",
+   "size": "合計1億ドル(クローズ、報道ベース)",
+   "startup": "",
+   "date": "2026-11-10",
+   "note": "B2B向けAIの初期スタートアップに出資する2本のファンドが合計1億ドルで締め切り。",
+   "src": [
+    [
+     "PR Newswire(Stage 2 Capital 公式発表, 2026-11-10)",
+     "https://www.prnewswire.com/news-releases/stage-2-capital-closes-100m-and-puts-ai-powered-go-to-market-at-the-center-of-early-stage-venture-302934266.html"
+    ],
+    [
+     "AltAssets(2026-11)",
+     "https://www.altassets.net/private-equity-news/by-region/north-america-by-region/united-states-north-america-by-region/stage-2-capital-closes-100m-across-two-venture-funds-targeting-early-stage-b2b-ai-companies.html"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "lp": "Horsley Bridge・Sofina・Granite・米国の大学基金、Slack・Datadog・Supercellなどの創業者",
+   "fund": "DIG Ventures Fund III",
+   "gp": "DIG Ventures(英ロンドン)",
+   "size": "1億2,000万ドル(クローズ、報道ベース)",
+   "startup": "",
+   "date": "2026-10-01",
+   "note": "欧州のAI基盤分野のプレシード・シード向け。約30社に出資予定。",
+   "backfill": true,
+   "src": [
+    [
+     "Tech.eu(2026-10-01)",
+     "https://tech.eu/2026/10/01/dig-ventures-closes-120m-fund-iii-to-back-europes-ai-infrastructure-startups"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "火曜の回(11/24)と重複する Progressive・Radical・Bain XI・Intrepid は除外。Stage 2は公式本文が開けず、AltAssets冒頭の要約で2本・合計1億ドルまで確認(本文一部未確認)。DIGは本文確認済み、10月分のため backfill 扱い。Creandum Fund VIII(7.5億ドル)は集計サイトのみで一次情報なし、見送り。日本のファンドは見つからず(Begin Capital Fund IIは募集開始のみ)。X: 対象アカウントからの投稿確認は今回せず。さかのぼりは火曜の回のみのため進めていない。"
+}
