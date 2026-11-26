@@ -235,7 +235,69 @@
    ],
    "confidence": "報道",
    "via": "depth"
+  },
+  {
+   "from": "SoftBank(主導)・NVentures(Nvidia)・Macquarie・Bezos Expeditions ほか",
+   "to": "Skild AI",
+   "kind": "出資(Series C)",
+   "amount": "14億ドル(評価額140億ドル超)",
+   "date": "2026-01-14",
+   "note": "評価額は「超」の下限として報道。会社発表(skild.ai/blogs/series-c)は未開示確認、TechCrunch・Bloomberg報道ベース。(深掘り・Gemini候補を報道で確かめて採用)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026-01-14)",
+     "https://www.techcrunch.com/2026/01/14/robotic-software-maker-skild-ai-hits-14b-valuation/"
+    ],
+    [
+     "Bloomberg(2026-01-14)",
+     "https://bloomberg.com/news/articles/2026-01-14/robotics-startup-skild-valued-above-14-billion-after-softbank-led-funding-round"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "Meta",
+   "to": "Midjourney",
+   "kind": "提携(技術ライセンス+研究協力)",
+   "amount": "金額非公開",
+   "date": "2025-08-22",
+   "note": "MetaのAlexandr Wangが発表と報道。Midjourney創業者Holzは「外部投資家なしの独立研究所」とXで述べたと報道(投稿本文は未確認)。(深掘り・Gemini候補を報道で確かめて採用)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2025-08-22)",
+     "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models"
+    ],
+    [
+     "Engadget",
+     "https://engadget.com/ai/meta-is-licensing-midjourneys-ai-image-and-video-tech-120012178.html"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
+  },
+  {
+   "from": "Midjourney",
+   "to": "Co-Star",
+   "kind": "買収",
+   "amount": "条件非公開",
+   "date": "2026-07-24",
+   "note": "占星術アプリ。TechCrunchの記事を開いて確認。(深掘り・Gemini候補を報道で確かめて採用)",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "TechCrunch(2026-07-24)",
+     "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
   }
  ],
- "notes": "OpenAI・Anthropic・xAI深掘り。Gemini候補のうち出典を検索・公式ページで確かめられたものだけ。xAI共同創業者の退任(2026-02〜03、Tony Wu・Jimmy Ba・Kroiss・Nordeen。報道: TheNextWeb 2026-03-28, TechCrunch 2026-02-13)は移籍先が未確認のため移籍には入れていない。Anthropic IPO(1株83ドル)・Oracle3,000億ドル・Broadcom提携・OpenAI Deployment Company・各種取締役の就任は未確認で見送り。"
+ "notes": "OpenAI・Anthropic・xAI深掘り。Gemini候補のうち出典を検索・公式ページで確かめられたものだけ。xAI共同創業者の退任(2026-02〜03、Tony Wu・Jimmy Ba・Kroiss・Nordeen。報道: TheNextWeb 2026-03-28, TechCrunch 2026-02-13)は移籍先が未確認のため移籍には入れていない。Anthropic IPO(1株83ドル)・Oracle3,000億ドル・Broadcom提携・OpenAI Deployment Company・各種取締役の就任は未確認で見送り。 追記(薄い順の深掘り): Midjourney・Skild AIを確認。Skild Series A/B・ABB/Vingroup提携は出典ページを開けず見送り。"
 }

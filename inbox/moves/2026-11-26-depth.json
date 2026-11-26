@@ -144,7 +144,28 @@
    ],
    "confidence": "公式",
    "via": "depth"
+  },
+  {
+   "name_en": "Igor Babuschkin",
+   "name_ja": "",
+   "from": "xAI",
+   "to": "Babuschkin Ventures",
+   "role": "創業者(AI安全に注力するベンチャー投資会社)",
+   "date": "2025-08-13",
+   "note": "xAI共同創業者。本人がXで退社を発表と報道。新会社の出資先・パートナーは報道が薄く未確認(深掘り・報道で採用)",
+   "src": [
+    [
+     "SiliconANGLE(2025-08-13)",
+     "https://siliconangle.com/2025/08/13/xai-co-founder-igor-babuschkin-leaving-company-focus-ai-safety/"
+    ],
+    [
+     "Yahoo Finance",
+     "https://finance.yahoo.com/news/igor-babuschkin-exits-xai-create-093518481.html"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "depth"
   }
  ],
- "notes": "OpenAI・Anthropic・xAIの幹部深掘り。Gemini候補のうち報道・公式で確かめたものだけ。xAI共同創業者の退任(Greg Yang 2026-01、Babuschkin・Tony Wu・Jimmy Ba・Toby Pohlen 2026-02、Zihang Dai・Guodong Zhang・Kroiss・Nordeen 2026-03)は行き先が未確認のため入れていない。Fidji Simo・Weilなど『行き先なしの退任』も、取り込みの形式に合うかは明朝の取り込みで確認が必要。Denise Dresser・Dali Rajic・Eric Boyd・Mike Krieger/Ben Mannの役割変更・Jill Hazelbakerなどは出典を開けず見送り。"
+ "notes": "OpenAI・Anthropic・xAIの幹部深掘り。Gemini候補のうち報道・公式で確かめたものだけ。xAI共同創業者の退任(Greg Yang 2026-01、Babuschkin・Tony Wu・Jimmy Ba・Toby Pohlen 2026-02、Zihang Dai・Guodong Zhang・Kroiss・Nordeen 2026-03)は行き先が未確認のため入れていない。Fidji Simo・Weilなど『行き先なしの退任』も、取り込みの形式に合うかは明朝の取り込みで確認が必要。Denise Dresser・Dali Rajic・Eric Boyd・Mike Krieger/Ben Mannの役割変更・Jill Hazelbakerなどは出典を開けず見送り。 追記: 共同創業者のうちTony Wu・Jimmy Ba・Pohlen・Dai・Zhang・Kroiss・Yangの行き先は報道に出ていない(2026-11-26時点)。"
 }

@@ -346,6 +346,67 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-26-2.json / 2026-11-26-2.md
 
+## 2026-11-26-12　Skild AI(ロボット基盤モデル)の資金調達ラウンド・評価額・投資家(SoftBank・Nvidia等)、創業者の経歴(カーネギーメロン大)、提携。公式発表・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Skild AI 資金調達
+- Skild AI 評価額
+- Skild AI 投資家 SoftBank Nvidia
+- Skild AI 創業者 経歴 カーネギーメロン大学
+- Skild AI 提携 パートナーシップ
+- Skild AI funding round
+- Skild AI valuation
+- Skild AI investors SoftBank Nvidia
+- Skild AI founder background Carnegie Mellon University
+- Skild AI partnerships
+
+**出てきた候補**
+
+- Skild AI → 設立 → (2023)
+- Skild AI → 資金調達 (Seed) → (2023)
+- Skild AI → 資金調達 (Series A) → (2024-07-09)
+- SoftBank Group → 出資 → Skild AI(2024-07-09)
+- Skild AI → 資金調達 (Series B) → (2025-05)
+- SoftBank Group → 出資 → Skild AI(2025-05)
+- NVIDIA → 出資 → Skild AI(2025-05)
+- Skild AI → 資金調達 (Series C) → (2026-01-14)
+- ABB Robotics → 提携 → Skild AI(2026-03-19)
+- VinDynamics (Vingroup) → 提携 → Skild AI(2026-06-08)
+
+記録ファイル: inbox/gemini/2026-11-26-12.json / 2026-11-26-12.md
+
+## 2026-11-26-11　Midjourney(米AI画像生成企業)の創業者・幹部の経歴、出資者(外部資金の有無)、提携(Meta等)、訴訟、買収。公式発表・大手報道で確かめられるもの
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Midjourney founder David Holz
+- Midjourney funding investors
+- Midjourney partnerships
+- Midjourney lawsuits
+- Midjourney acquisition
+- David Holz Midjourney background
+- Midjourney business model
+
+**出てきた候補**
+
+- Midjourney → 設立 → (2021)
+- Midjourney → 就任 → (2021-08)
+- Leap Motion → 在籍 → (2008-11)
+- Midjourney → 資金調達モデル → 顧客(2021)
+- Midjourney → 売上高 → (2024)
+- Meta → 提携 (技術ライセンス) → Midjourney(2025-08-22)
+- Google Cloud → 取引 (インフラ提供) → Midjourney(2023-03-14)
+- Midjourney → 訴訟 → Disney, NBC Universal, DreamWorks(2025-06-11)
+- Midjourney → 訴訟 → Warner Bros.(2025-09-05)
+- Midjourney → 買収 → Co-Star(2026-07-24)
+
+記録ファイル: inbox/gemini/2026-11-26-11.json / 2026-11-26-11.md
+
 ## 2026-11-26-10　xAI・SpaceXAIの幹部・共同創業者の2026年の退任と移籍先、新しく就任した幹部とその前職。本人のXや公式発表、大手報道で確かめられるもの
 
 - モデル: gemini-2.5-flash　/　候補 12件

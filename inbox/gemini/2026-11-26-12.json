@@ -1,0 +1,301 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "Skild AI(ロボット基盤モデル)の資金調達ラウンド・評価額・投資家(SoftBank・Nvidia等)、創業者の経歴(カーネギーメロン大)、提携。公式発表・大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Skild AI",
+   "関係": "設立",
+   "相手": "",
+   "金額": "",
+   "日付": "2023",
+   "出典URL": "https://exa.ai/websets/directory/skild-funding",
+   "確かさ": "報道",
+   "備考": "",
+   "src": [
+    [
+     "Exa",
+     "https://exa.ai/websets/directory/skild-funding"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_dUI_R5k-2EE-Mf9sraaJPu9K5W51frMt7RFjw09EjZh4EqWb73Cs8ZnqZIawooMmQLEtvFURJmf2nCtgxygu48ChaXMNoA5DPNGWDcefM5vOfN_XVezaXMNC1qOBD7DQb-ytzZw-M6w=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Skild AI",
+   "関係": "資金調達 (Seed)",
+   "相手": "",
+   "金額": "1450万ドル",
+   "日付": "2023",
+   "出典URL": "https://exa.ai/websets/directory/skild-funding",
+   "確かさ": "報道",
+   "備考": "",
+   "src": [
+    [
+     "Exa",
+     "https://exa.ai/websets/directory/skild-funding"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH_dUI_R5k-2EE-Mf9sraaJPu9K5W51frMt7RFjw09EjZh4EqWb73Cs8ZnqZIawooMmQLEtvFURJmf2nCtgxygu48ChaXMNoA5DPNGWDcefM5vOfN_XVezaXMNC1qOBD7DQb-ytzZw-M6w=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Skild AI",
+   "関係": "資金調達 (Series A)",
+   "相手": "",
+   "金額": "3億ドル",
+   "日付": "2024-07-09",
+   "出典URL": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+   "確かさ": "公式",
+   "備考": "評価額15億ドル",
+   "src": [
+    [
+     "Skild AI公式発表",
+     "https://www.skild.ai/blogs/announcing-our-300m-series-a"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPXnjl4kNcNe0ueVNUqJy10yzxXHNPRVs4lSGyYQxfO4N0lS0PiFogUOcDoQYe46Z2028mhOUq0oWZfWxwGX9QOmccGRN7I6VfyL-U7la3qhbRdLim7RXNF6ZdKQZhJhrWxgOTZbxFSTk9PomsVMrMMQY=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "SoftBank Group",
+   "関係": "出資",
+   "相手": "Skild AI",
+   "金額": "",
+   "日付": "2024-07-09",
+   "出典URL": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+   "確かさ": "公式",
+   "備考": "Series Aラウンドへの参加",
+   "src": [
+    [
+     "Skild AI公式発表",
+     "https://www.skild.ai/blogs/announcing-our-300m-series-a"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEPXnjl4kNcNe0ueVNUqJy10yzxXHNPRVs4lSGyYQxfO4N0lS0PiFogUOcDoQYe46Z2028mhOUq0oWZfWxwGX9QOmccGRN7I6VfyL-U7la3qhbRdLim7RXNF6ZdKQZhJhrWxgOTZbxFSTk9PomsVMrMMQY=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Skild AI",
+   "関係": "資金調達 (Series B)",
+   "相手": "",
+   "金額": "5億ドル",
+   "日付": "2025-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-",
+   "確かさ": "報道",
+   "備考": "評価額47億ドル",
+   "src": [
+    [
+     "SiliconANGLE",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "SoftBank Group",
+   "関係": "出資",
+   "相手": "Skild AI",
+   "金額": "",
+   "日付": "2025-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-",
+   "確かさ": "報道",
+   "備考": "Series Bラウンドへの参加",
+   "src": [
+    [
+     "SiliconANGLE",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "NVIDIA",
+   "関係": "出資",
+   "相手": "Skild AI",
+   "金額": "",
+   "日付": "2025-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-",
+   "確かさ": "報道",
+   "備考": "Series Bラウンドへの参加",
+   "src": [
+    [
+     "SiliconANGLE",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH23KJ9DZaHa4SUQTOA4irG0bruTds7L8lZc_aVbEFOopx0KQ6CNL4jti-1zST9hfQbnnQ6IeHCw9wK4inRMVIcHBR_vJkkg88sUzGMWP4fU2to-0or3KF_IxG1MBJX9Rau5aPvI91On6G1hwJTHiAFS9z7Y7UEsZlw13XDjGi-j_pwjtYvpDMA2s-"
+    ]
+   ],
+   "既存の名前": [
+    "NVIDIA",
+    "Skild AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Skild AI",
+   "関係": "資金調達 (Series C)",
+   "相手": "",
+   "金額": "14億ドル",
+   "日付": "2026-01-14",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa5UAsMr8bCcIFsWcnd3v0iyXd26ABZpThSTuaLKllIrhlmw8lTymmeK9ayfnTuCIXmV9VG2ydJOWQtO82LjGwHugHJi_NjSQffJ4KDfdmPOEhhT06NW3O9BuZwvl0e1CWWe6ixx-r-uD3dAEyme2ReLlx04ntVg7pKOKDrbdfiSBLHjHSjvqbSIFRNaY3xaw=",
+   "確かさ": "報道",
+   "備考": "評価額140億ドル超",
+   "src": [
+    [
+     "TechCrunch",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFa5UAsMr8bCcIFsWcnd3v0iyXd26ABZpThSTuaLKllIrhlmw8lTymmeK9ayfnTuCIXmV9VG2ydJOWQtO82LjGwHugHJi_NjSQffJ4KDfdmPOEhhT06NW3O9BuZwvl0e1CWWe6ixx-r-uD3dAEyme2ReLlx04ntVg7pKOKDrbdfiSBLHjHSjvqbSIFRNaY3xaw="
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "ABB Robotics",
+   "関係": "提携",
+   "相手": "Skild AI",
+   "金額": "",
+   "日付": "2026-03-19",
+   "出典URL": "https://www.skild.ai/blogs/reindustrial-revolution",
+   "確かさ": "公式",
+   "備考": "Skild Brainの導入で提携",
+   "src": [
+    [
+     "Skild AI公式発表",
+     "https://www.skild.ai/blogs/reindustrial-revolution"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEcIxB0u9bUj0d32kqGH9oVTxBZfZBMC1i9LOylfzHcfghLAYSA0UzVSdYpBX8-Rr9sc1OyDdKBH4O4Ch4WW2RurTO4CB15Khrg1__cehY-3nRFCe42O2_5dB3IUrXveDspbdjzyYtwJh-V0FGp",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "VinDynamics (Vingroup)",
+   "関係": "提携",
+   "相手": "Skild AI",
+   "金額": "",
+   "日付": "2026-06-08",
+   "出典URL": "https://vingroup.net/en/news/detail/6955/vindynamics-and-skild-ai-form-strategic-partnership-to-advance-humanoid-robotic",
+   "確かさ": "公式",
+   "備考": "ヒューマノイドロボットおよびembodied AIに関する戦略的MOU締結",
+   "src": [
+    [
+     "Vingroup Company",
+     "https://vingroup.net/en/news/detail/6955/vindynamics-and-skild-ai-form-strategic-partnership-to-advance-humanoid-robotic"
+    ]
+   ],
+   "既存の名前": [
+    "Skild AI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRE7p87cCLO8O19k7Pc_qDdTjG9L_8d0bDDtkTd710skzrEYwSvOPAYRSmQTRR05r9VYZh6TwTE16ieigUcGYMxxeCSVhKxjnypZg5zdRkH8Hw_tswuQ2cp2yDA66yD7dOs4NGGISqxcZhtfqxn6TpBTWIjeQuCEpw6ufjBymx3WiODBKL7HDXUE1Fi-bV1YAZcuQhlrrXZIxoSFRlfmpZTKT4NwuNCNUOqj-LPULue5JDiw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "Skild AI 資金調達",
+   "Skild AI 評価額",
+   "Skild AI 投資家 SoftBank Nvidia",
+   "Skild AI 創業者 経歴 カーネギーメロン大学",
+   "Skild AI 提携 パートナーシップ",
+   "Skild AI funding round",
+   "Skild AI valuation",
+   "Skild AI investors SoftBank Nvidia",
+   "Skild AI founder background Carnegie Mellon University",
+   "Skild AI partnerships"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2809,
+   "candidatesTokenCount": 2149,
+   "totalTokenCount": 11661,
+   "cachedContentTokenCount": 584,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2809
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 584
+    }
+   ],
+   "toolUsePromptTokenCount": 3671,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3671
+    }
+   ],
+   "thoughtsTokenCount": 3032,
+   "serviceTier": "standard"
+  }
+ }
+}
