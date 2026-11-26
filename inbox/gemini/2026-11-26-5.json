@@ -1,0 +1,631 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "OpenAIの2025年後半〜2026年の新しい出資・株主(Microsoft・SoftBank・Thrive等の持ち分)、資金調達ラウンド、買収、提携。公式発表・SEC開示・大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "SoftBank Group",
+   "関係": "出資",
+   "相手": "OpenAI",
+   "金額": "646億ドル (累計)",
+   "日付": "2026-10-01",
+   "出典URL": "https://aillmnews.co.uk/softbank-41-billion-openai-investment-explained/",
+   "確かさ": "報道",
+   "備考": "300億ドルの追加出資を完了し、累計出資額と持ち株比率が約13%に達した。",
+   "src": [
+    [
+     "AI LLM News",
+     "https://aillmnews.co.uk/softbank-41-billion-openai-investment-explained/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qr10sQ5exuR3X4-AQyf5lBLAI7EcCHgsuriSOZb6oq7-g5HCOr3oZg0rbpqNR29QCSWCLq-oxDD5MAs9FJQ7MTcvAbk1AbgzAFGATVVARQsYO4-jwBO3u86OUJabECleAEggCnCPYaNvsa42X-y3oYq7tKnGjT74lvBeRcdwJh2BwA==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "資金調達ラウンド",
+   "相手": "Amazon, Nvidia, SoftBank など",
+   "金額": "1220億ドル",
+   "日付": "2026-03-31",
+   "出典URL": "https://openai.com/index/scaling-ai-for-everyone/",
+   "確かさ": "公式",
+   "備考": "評価額8520億ドルでの資金調達ラウンドを完了。Amazonが500億ドル、Nvidiaが300億ドル、SoftBankが300億ドルをコミットした。",
+   "src": [
+    [
+     "OpenAI (Scaling AI for everyone)",
+     "https://openai.com/index/scaling-ai-for-everyone/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1HYc7VvzlPDCXeTj4xIcZjorENtTCaxfEhmFxQWClDUYfrNu9pUT7c_okCSULcd7Xb-dovGD3wmO16QKtyYUX5BnONWRCw2AolZOk3ZHgz7mFvDoEE9zVgZ93VnerjxfSLFzRrP9LePPBPg0=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Scaling AI for everyone | OpenAI",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI",
+     "Amazon",
+     "Nvidia"
+    ]
+   }
+  },
+  {
+   "会社名": "Microsoft",
+   "関係": "株主・提携 (再編)",
+   "相手": "OpenAI",
+   "金額": "1350億ドル (評価額)",
+   "日付": "2025-10-01",
+   "出典URL": "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/",
+   "確かさ": "報道",
+   "備考": "2025年10月の組織再編後、OpenAI Group PBCの議決権なし株式27%を保有。これによりOpenAIのコンピューティング能力の独占的提供権は終了したが、クラウドとライセンスの独占権および収益分配契約は維持された。",
+   "src": [
+    [
+     "Forbes",
+     "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/"
+    ]
+   ],
+   "既存の名前": [
+    "Microsoft",
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkv7Ishiqsm2yTuGQ-2WyKFQE9MG4myYa9232yAg86bpRKfmL0TNyaCXV590-nd3OQ7SJ-PVNs-O2v0nb4VBnhQp0diN2YBwZO__JtoqUQQNoe0wnrfbWjZxor-wAhNQSxfIuv1hWJWdu9VknKAFbRXcvGcKEpf-tgKJg9DCjwHs1w79y1uBJhzaoCo-uptwsCk1-DTt_BADHVF_8aVi8LfZteNGY4LG3SAM2PA4RUZ4M=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "io (Jony Ive's Hardware Startup)",
+   "金額": "65億ドル",
+   "日付": "2025-07-09",
+   "出典URL": "https://aifundingtracker.com/openai-biggest-acquisitions/",
+   "確かさ": "報道",
+   "備考": "OpenAI史上最大の買収であり、初のコンシューマーハードウェアへの進出。",
+   "src": [
+    [
+     "AI Funding Tracker",
+     "https://aifundingtracker.com/openai-biggest-acquisitions/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "Statsig",
+   "金額": "11億ドル",
+   "日付": "2025-09",
+   "出典URL": "https://aifundingtracker.com/openai-biggest-acquisitions/",
+   "確かさ": "報道",
+   "備考": "全株式取引。Statsigの創業者兼CEOであるVijaye RajiがOpenAIのアプリケーション担当最高技術責任者（CTO）に就任。",
+   "人物": "Vijaye Raji",
+   "役職": "Chief Technology Officer of Applications",
+   "移籍元": "Statsig",
+   "移籍先": "OpenAI",
+   "src": [
+    [
+     "AI Funding Tracker",
+     "https://aifundingtracker.com/openai-biggest-acquisitions/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI",
+    "Statsig"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "買収",
+   "相手": "Torch Health",
+   "金額": "約1億ドル",
+   "日付": "2026-01",
+   "出典URL": "https://aifundingtracker.com/openai-biggest-acquisitions/",
+   "確かさ": "報道",
+   "備考": "医療データとヘルスケアAI機能を強化するため。",
+   "src": [
+    [
+     "AI Funding Tracker",
+     "https://aifundingtracker.com/openai-biggest-acquisitions/"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "提携",
+   "相手": "Broadcom",
+   "金額": "",
+   "日付": "2025-10-13",
+   "出典URL": "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10",
+   "確かさ": "公式",
+   "備考": "カスタムAIアクセラレーターを共同開発・導入するため10ギガワット規模のシステムを2026年後半から展開予定。",
+   "src": [
+    [
+     "OpenAI",
+     "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI",
+    "Broadcom"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLUAV6SJI9nDrsaxJbtCsf5YnSpsHLG99Kz4gPygXmwS6UvDDP_YUydslbAdbvA-ThAXQnGqfGfRJE322uG1kwts63vpxXPHxcBstTUv-ykEYlBvMXQMjSmbgCfjnxZ_S2f8DxGliz-yfDiES88HmFLm9LM1fcLQcdOxWWEo-alt7mxOlHOj_GpV92G_vVG329-kUmXcmeklvWmF13KpVgti67dnSML-iv55mBzl3DqY-m5ua7MZ5JSxmCFg==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "取引",
+   "相手": "Oracle",
+   "金額": "3000億ドル (契約上限)",
+   "日付": "2025-09",
+   "出典URL": "https://en.wikipedia.org/wiki/OpenAI",
+   "確かさ": "報道",
+   "備考": "今後5年間で3000億ドル相当のコンピューティングパワーを購入する契約を締結。",
+   "src": [
+    [
+     "OpenAI - Wikipedia",
+     "https://en.wikipedia.org/wiki/OpenAI"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI",
+    "Oracle"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinGqngrrpFynT0zcbV3k0K2SrmFLzUcg3AtWcxdUYz_EomCmJfJ5qYy62090dtvOVMt24IC6VjjYIw7ob_67mr9jlqrjQdYkiYEm4Rwsvfb2IWLO4zqkMOsmFV_4P5w==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "OpenAI - Wikipedia",
+    "状態": "ok",
+    "載っていた名前": [
+     "OpenAI",
+     "Oracle"
+    ]
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "新会社設立",
+   "相手": "OpenAI Deployment Company",
+   "金額": "40億ドル以上 (初期投資)",
+   "日付": "2026-05",
+   "出典URL": "https://acquinox.capital/insights/intelligence/open-ai-s-acquisition-sprint-the-strategy-of-moving-beyond-a-foundation-model",
+   "確かさ": "報道",
+   "備考": "AIシステムの展開・統合サービスを提供する過半数所有子会社。TPG、Advent International、Bain Capital、Brookfieldが初期投資を主導。事後評価額は140億ドル。",
+   "src": [
+    [
+     "Acquinox Capital",
+     "https://acquinox.capital/insights/intelligence/open-ai-s-acquisition-sprint-the-strategy-of-moving-beyond-a-foundation-model"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbDPO6KMBo90ygWyehoXFKO4lUtG41-4_2QybMfZ6vE8Voj0fmwpGNORQo9ZL4Vl1-0IOYiAnpgfiWF6VIHXRDCbTlDmxhyUqsgrQvrCZds0UppCpbqQLQcIEkOr25TZx4RodVMLelrKuQf1D6bVRFzCmbRnm7xnRza9tyuI5n8_wS-3OmnNpolAH0R1GYjfo_v7qaM01iD2M7kR-wSbAKVp8IM6kio5VzOjC0VPRz-SOpUrxRECA=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "OpenAI",
+   "関係": "取締役就任",
+   "相手": "David Vélez",
+   "金額": "",
+   "日付": "2026-07-21",
+   "出典URL": "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo",
+   "確かさ": "報道",
+   "備考": "Nubankの創業者兼CEO。",
+   "人物": "David Vélez",
+   "役職": "Board Member (OpenAI Foundation and OpenAI Group PBC)",
+   "src": [
+    [
+     "Seeking Alpha",
+     "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo"
+    ]
+   ],
+   "既存の名前": [
+    "OpenAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNf9Zu0mql9kfC_onHZWFVmyAqb2reTxLKx5OqCsRFXmAV69Mso_pMW2ajZiBACWhR1z-CRvTdwsQ0Rz0uAtL40_H-ETU1gFnWKTNqgnunxuSDn84d7JqJklKtEO_MHsyUKM5692sj_6SMzXybdOjX__DujEMNzuGaYS4DtSRPPGlNqWjGVv3gyxnIFul0Q1nDCMffJAqW-YXq18xWNTvDMTu69juPQhanchfNcw1vw0Mn3kFW0eXfk2_cdWg8o9l1oQ==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "aillmnews.co.uk",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qr10sQ5exuR3X4-AQyf5lBLAI7EcCHgsuriSOZb6oq7-g5HCOr3oZg0rbpqNR29QCSWCLq-oxDD5MAs9FJQ7MTcvAbk1AbgzAFGATVVARQsYO4-jwBO3u86OUJabECleAEggCnCPYaNvsa42X-y3oYq7tKnGjT74lvBeRcdwJh2BwA=="
+  ],
+  [
+   "scommerce.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD4T6fbgh18tYGYEUSC4rGXr3nKzycFZFEyAMsD9I-fUdeCW2CO1jnzcVJUAcmw02ENGOSjkYsq_u0O6Z0YDx58yxoItvusD3qd27VUFfGwEoM8U6AdIdEL68aHUbq8RNNKI0pwJTNRWC5gUCWZzyP"
+  ],
+  [
+   "biggo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkJxl3w1FrLMj1mW0tl8kgYag32rhvxDLM_bF3eDOGp9SmkKN42CsjW3baWfJBxh0CH6SUEwlwEZc6zuSJo7TF131o7HqpOJwtNTBdQeqKbSJvo-rzEIycjKX02hhOzhAxynlNd-3KmnWQoyI5_a0gjBM0hYXacMOeqBRalvc="
+  ],
+  [
+   "openthemagazine.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYvaR-bML4PlXdOa9vshYaZm6LXl72WIDmstlyEzhOw9kfLYHJ-ofCZZDCIdVN-HtiP_hYho-zuwB-Zd0iryT1XfkbrMKFjpfxQeq8Q3GbhWlfw_Q3NNBRJ3izgdpBFBwKpkM4ks__6qQzyus6hkgxELqVfNawBcQWsYdTri5cDHtbP3MEGcmt1Y-rl_UCpFvK3JxqHTTbuJ9y-kxV_j8fXQ3RZ8tij_cCxg=="
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinGqngrrpFynT0zcbV3k0K2SrmFLzUcg3AtWcxdUYz_EomCmJfJ5qYy62090dtvOVMt24IC6VjjYIw7ob_67mr9jlqrjQdYkiYEm4Rwsvfb2IWLO4zqkMOsmFV_4P5w=="
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1HYc7VvzlPDCXeTj4xIcZjorENtTCaxfEhmFxQWClDUYfrNu9pUT7c_okCSULcd7Xb-dovGD3wmO16QKtyYUX5BnONWRCw2AolZOk3ZHgz7mFvDoEE9zVgZ93VnerjxfSLFzRrP9LePPBPg0="
+  ],
+  [
+   "forbes.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkv7Ishiqsm2yTuGQ-2WyKFQE9MG4myYa9232yAg86bpRKfmL0TNyaCXV590-nd3OQ7SJ-PVNs-O2v0nb4VBnhQp0diN2YBwZO__JtoqUQQNoe0wnrfbWjZxor-wAhNQSxfIuv1hWJWdu9VknKAFbRXcvGcKEpf-tgKJg9DCjwHs1w79y1uBJhzaoCo-uptwsCk1-DTt_BADHVF_8aVi8LfZteNGY4LG3SAM2PA4RUZ4M="
+  ],
+  [
+   "beri.net",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjlZkTfZmiEe6cXzUZ7VvijugdhrhnPnts6NqPtORwxUz4WTzdeJ1VqGsl322edWbFeg-OdDDtWsHFBqhTp5cfWq7M4xmlHIRMIqUNNjK_uqLeZHh4eMMLHSli6oSjGtvHrSgE06EvcyxkD_8X3ZlLLHyGlvn4NZ4rbchbUUcUKxO4JjYf2MsQ8WlJZfgF4JhnYdYsqn8R4A=="
+  ],
+  [
+   "revenuememo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvf9QqUS037xxVfjqyLIIMPf5PP8ETmW_P_gLZSIppI9phSJhHKVxBxXOxkV3KlrZ_GbZGD30E73VhkqUKvpRrXsCIK3T-p1_W6q4E42qAMNSrO0SAHd93-hNqIjl4ecg0wGY549kR"
+  ],
+  [
+   "cryptobriefing.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUAmF0O8f20iFI_LFbrfrqkQ9OLAF3isFDbuc8htx5efGdvUjnxj3rcZ4sO5MWERo3HMDOHQ07SoaBggaU8ZVTCRra0UCH6gQa5E8AAqYySYqTbbgT5uyl7ku2UXi9gLhZQWDrJYs6a1fIsetZ4HBAELVsYX4Bt_tm9ArvnVLC"
+  ],
+  [
+   "useluminix.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wt7tKRHLV1ul8nJSLk12aPNAmzZYq2oWZzOu8RTvS2Q8IaWZJv0YXB6Iq6mecBX0NN4YbvQYdIDPVX1UQmohZe8YlPTXFbA8qsKBUrVndtjnYfht6LFh3IKYQyNHRstUtykHwx9vE-cKojEPpUQpqioNQqcIiCOKDPl60DUQJAu6pA3IJRTX-MHeoePLWG7ReBFSs4gF-w=="
+  ],
+  [
+   "whizi.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqUr0PQFSdbQrZDFNhZYxsO9-mCwUzbKVr9cdaxMP7rmY1ZApagZl4SgFdQtAyIL4a1TUxev83FTHTLcClLcxwh08a8AXrIe4iBEHApJqINf7TRag-FVZUyOsRJpqNhcOLjVY="
+  ],
+  [
+   "biggo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzaftKRle9QD5oCPa4DvwG3rpfPbxnn-0IyWI2ed6FxZQMYOKQg8gz6LC3a4RKnhP37XoqT1DRXQBeSt8PIwqTyDFOKOfBaWKq9NxNjfF6Z7GZE7u1QnxcAE4lcDDJQy7_jqNZedM4qyIihunXk9I5mCtdCv5KcvYw102wdWM="
+  ],
+  [
+   "techcrunch.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_6QhrFUaeUJ6HArFBsJkKHMV49x9CHk5qSWN6rwVbBA0-JYOr9n337CmXHSa4VJbgzlwnBo1DZohisHw8I8JXgpNIbuFp0xnNXFRE7IGi0zhSleCWRUGVr2gxpeC8MJREzMZDS8UIzDZVHCfLkF9RMrkDrO82CvvGYrcv9puaqshrDyDU88OenqyueoFet0NQw=="
+  ],
+  [
+   "dealroom.co",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnEvTYMl0nXVBmJIQguapYQfvzvb3xD28wCXAn4xYnd7Zk4Swh8_ilo6hKLSPDqh7OCLQjMubuolDUC7SlidfjPx_iTXdgPvZEXVgZvyy8g3Sa4ZSpf-lmH8-cimy5Cf5HlFcs1PNpvd6xXhqQwtevgNWt3q188ln_mrrI_gmJLmA5VJKCYNFutargLEUbuNVAOiYiEomC"
+  ],
+  [
+   "gend.co",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3WYO6RW0RhTZSdr-WYKog1BewEI15LiN3Dv28TYcp7fLC5yimUPB5LiSMJF0sMtq3kehvjt1-g0AuNTTOAs-LwsCu1Au9hnmAXuQV9RK1xHgiGtYuKBBk74iVFJWv6SEBYFucz5SWGUSEVAtGwCqZnMNQ24Y="
+  ],
+  [
+   "openai.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENvOaEj74H5nGreOnsNsEjFQzr6_qNZe1sVUJUW3H5vqhEiVXm2u-WjTq2CGWzBQeRk1SdgQMwMFU6c5YJaKQjBVxU70Cx35XRAj3eaOFKZAgGnlKJCHvfN0Zta365_2yC74aynV3T9Q-w9ifKTe1iUx44sr4="
+  ],
+  [
+   "humphreytheodore.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKOWkjGyg2jS-kw6j0U662PVFtBXYPBgGaJOuuiuhH0ClpRYuMPyG-1GuJ5ntnI8k6fGU4_2tR6k9wz0W4qU4Tf1arWrLqqlwWANwOtHFpgs6zxq-DB9LTPgGv88ro4wV5cq17Uz4fmSLG-pH1vLy53vUqCdXpAgqBR5233ZOBEXDQ_z0MHy1GQUxUCSiAcWskg=="
+  ],
+  [
+   "aifundingtracker.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng=="
+  ],
+  [
+   "crunchbase.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBHq-bEyIc0HpaIxBVYO3COjuxUif95VzN7mIJpP5Q-9DikfV3xWj1kG60XnTY1PSypwbV2PnMscJ9_ev8jp47FtbfvizahXETsWteErUAF_lMoULd7zgMat32tkz0eJiRDwTFR1DAD_vxW_E_WRbmk2jF3je4lZudOLaUQmjAjPoCavJIeJExdkURhVKl8Z4U0Y0xKxkN0uaz"
+  ],
+  [
+   "acquinox.capital",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbDPO6KMBo90ygWyehoXFKO4lUtG41-4_2QybMfZ6vE8Voj0fmwpGNORQo9ZL4Vl1-0IOYiAnpgfiWF6VIHXRDCbTlDmxhyUqsgrQvrCZds0UppCpbqQLQcIEkOr25TZx4RodVMLelrKuQf1D6bVRFzCmbRnm7xnRza9tyuI5n8_wS-3OmnNpolAH0R1GYjfo_v7qaM01iD2M7kR-wSbAKVp8IM6kio5VzOjC0VPRz-SOpUrxRECA="
+  ],
+  [
+   "broadcom.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLUAV6SJI9nDrsaxJbtCsf5YnSpsHLG99Kz4gPygXmwS6UvDDP_YUydslbAdbvA-ThAXQnGqfGfRJE322uG1kwts63vpxXPHxcBstTUv-ykEYlBvMXQMjSmbgCfjnxZ_S2f8DxGliz-yfDiES88HmFLm9LM1fcLQcdOxWWEo-alt7mxOlHOj_GpV92G_vVG329-kUmXcmeklvWmF13KpVgti67dnSML-iv55mBzl3DqY-m5ua7MZ5JSxmCFg=="
+  ],
+  [
+   "seekingalpha.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNf9Zu0mql9kfC_onHZWFVmyAqb2reTxLKx5OqCsRFXmAV69Mso_pMW2ajZiBACWhR1z-CRvTdwsQ0Rz0uAtL40_H-ETU1gFnWKTNqgnunxuSDn84d7JqJklKtEO_MHsyUKM5692sj_6SMzXybdOjX__DujEMNzuGaYS4DtSRPPGlNqWjGVv3gyxnIFul0Q1nDCMffJAqW-YXq18xWNTvDMTu69juPQhanchfNcw1vw0Mn3kFW0eXfk2_cdWg8o9l1oQ=="
+  ],
+  [
+   "unite.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNUT5ggQLRI6WxhRBg-VO_Gu96nKWqDxxUEfDGe3CU5_2_oqhe1pyehY91tj5vC6FSZnB2OHxTQbjwKtsaJJt_ElHvQvlzZoaANrhIcvRRq5K62KgOrazOlwEhphmFWkjvCxJ1m94OPHlDIawpX9lVWnHH6Qa-AfdhIUldWxVeSefcPUxVOmdg0_r8tLZS3p4vM1chZbg="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://aillmnews.co.uk/softbank-41-billion-openai-investment-explained/",
+  "https://www.scommerce.com/softbank-openai-investment/",
+  "https://finance.biggo.com/news/1c75417a-3028-48ce-ac7a-3db94c0264ce",
+  "https://openthemagazine.com/business/openai-is-softbanks-investment-customer-and-collateral-what-could-go-wrong",
+  "https://en.wikipedia.org/wiki/OpenAI",
+  "https://openai.com/index/scaling-ai-for-everyone/",
+  "https://www.forbes.com/sites/aliciapark/2026/04/27/openai-and-microsoft-end-exclusive-partnership-and-revenue-sharing/",
+  "https://www.beri.net/article/openai-acquisition-spree-2026-enterprise-platform-vendor-lock-in",
+  "https://www.revenuememo.com/p/openai-funding",
+  "https://cryptobriefing.com/openai-valued-125-trillion-funding-round/",
+  "https://www.useluminix.com/reports/company-overviews/openai-valuation-and-ipo-timing/source/0",
+  "https://whizi.io/resources/openai-stock/",
+  "https://finance.biggo.com/news/5f5aebe8-589f-4928-8299-2bcde678e75d",
+  "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+  "https://dealroom.co/news/123554-openai-moves-beyond-tech-with-thrive-holdings-partnership-1/",
+  "https://www.gend.co/blog/openai-microsoft-partnership-2026",
+  "https://openai.com/index/continuing-microsoft-partnership/",
+  "https://humphreytheodore.com/writing/openai-nonprofit-board-paul-christiano-safety-2026",
+  "https://aifundingtracker.com/openai-biggest-acquisitions/",
+  "https://news.crunchbase.com/ma/data-openai-2023-2026-acquisitions-open-source-astral-promptfoo/",
+  "https://acquinox.capital/insights/intelligence/open-ai-s-acquisition-sprint-the-strategy-of-moving-beyond-a-foundation-model",
+  "https://investors.broadcom.com/news-releases/news-release-details/openai-and-broadcom-announce-strategic-collaboration-deploy-10",
+  "https://seekingalpha.com/news/4616180-openai-appoints-two-new-board-members-with-extensive-financial-experience-ahead-of-potential-ipo",
+  "https://www.unite.ai/openai-names-paul-christiano-to-foundation-board-and-safety-committee/"
+ ],
+ "process": {
+  "queries": [
+   "OpenAI funding round late 2025 2026",
+   "OpenAI Microsoft investment stake 2025 2026",
+   "OpenAI SoftBank investment 2025 2026",
+   "OpenAI Thrive Capital investment 2025 2026",
+   "OpenAI acquisition 2025 2026",
+   "OpenAI partnership 2025 2026",
+   "OpenAI leadership change 2025 2026",
+   "OpenAI board appointments 2025 2026"
+  ],
+  "sources": [
+   [
+    "aillmnews.co.uk",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qr10sQ5exuR3X4-AQyf5lBLAI7EcCHgsuriSOZb6oq7-g5HCOr3oZg0rbpqNR29QCSWCLq-oxDD5MAs9FJQ7MTcvAbk1AbgzAFGATVVARQsYO4-jwBO3u86OUJabECleAEggCnCPYaNvsa42X-y3oYq7tKnGjT74lvBeRcdwJh2BwA=="
+   ],
+   [
+    "scommerce.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD4T6fbgh18tYGYEUSC4rGXr3nKzycFZFEyAMsD9I-fUdeCW2CO1jnzcVJUAcmw02ENGOSjkYsq_u0O6Z0YDx58yxoItvusD3qd27VUFfGwEoM8U6AdIdEL68aHUbq8RNNKI0pwJTNRWC5gUCWZzyP"
+   ],
+   [
+    "biggo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkJxl3w1FrLMj1mW0tl8kgYag32rhvxDLM_bF3eDOGp9SmkKN42CsjW3baWfJBxh0CH6SUEwlwEZc6zuSJo7TF131o7HqpOJwtNTBdQeqKbSJvo-rzEIycjKX02hhOzhAxynlNd-3KmnWQoyI5_a0gjBM0hYXacMOeqBRalvc="
+   ],
+   [
+    "openthemagazine.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYvaR-bML4PlXdOa9vshYaZm6LXl72WIDmstlyEzhOw9kfLYHJ-ofCZZDCIdVN-HtiP_hYho-zuwB-Zd0iryT1XfkbrMKFjpfxQeq8Q3GbhWlfw_Q3NNBRJ3izgdpBFBwKpkM4ks__6qQzyus6hkgxELqVfNawBcQWsYdTri5cDHtbP3MEGcmt1Y-rl_UCpFvK3JxqHTTbuJ9y-kxV_j8fXQ3RZ8tij_cCxg=="
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinGqngrrpFynT0zcbV3k0K2SrmFLzUcg3AtWcxdUYz_EomCmJfJ5qYy62090dtvOVMt24IC6VjjYIw7ob_67mr9jlqrjQdYkiYEm4Rwsvfb2IWLO4zqkMOsmFV_4P5w=="
+   ],
+   [
+    "openai.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1HYc7VvzlPDCXeTj4xIcZjorENtTCaxfEhmFxQWClDUYfrNu9pUT7c_okCSULcd7Xb-dovGD3wmO16QKtyYUX5BnONWRCw2AolZOk3ZHgz7mFvDoEE9zVgZ93VnerjxfSLFzRrP9LePPBPg0="
+   ],
+   [
+    "forbes.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkv7Ishiqsm2yTuGQ-2WyKFQE9MG4myYa9232yAg86bpRKfmL0TNyaCXV590-nd3OQ7SJ-PVNs-O2v0nb4VBnhQp0diN2YBwZO__JtoqUQQNoe0wnrfbWjZxor-wAhNQSxfIuv1hWJWdu9VknKAFbRXcvGcKEpf-tgKJg9DCjwHs1w79y1uBJhzaoCo-uptwsCk1-DTt_BADHVF_8aVi8LfZteNGY4LG3SAM2PA4RUZ4M="
+   ],
+   [
+    "beri.net",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjlZkTfZmiEe6cXzUZ7VvijugdhrhnPnts6NqPtORwxUz4WTzdeJ1VqGsl322edWbFeg-OdDDtWsHFBqhTp5cfWq7M4xmlHIRMIqUNNjK_uqLeZHh4eMMLHSli6oSjGtvHrSgE06EvcyxkD_8X3ZlLLHyGlvn4NZ4rbchbUUcUKxO4JjYf2MsQ8WlJZfgF4JhnYdYsqn8R4A=="
+   ],
+   [
+    "revenuememo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGvf9QqUS037xxVfjqyLIIMPf5PP8ETmW_P_gLZSIppI9phSJhHKVxBxXOxkV3KlrZ_GbZGD30E73VhkqUKvpRrXsCIK3T-p1_W6q4E42qAMNSrO0SAHd93-hNqIjl4ecg0wGY549kR"
+   ],
+   [
+    "cryptobriefing.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUAmF0O8f20iFI_LFbrfrqkQ9OLAF3isFDbuc8htx5efGdvUjnxj3rcZ4sO5MWERo3HMDOHQ07SoaBggaU8ZVTCRra0UCH6gQa5E8AAqYySYqTbbgT5uyl7ku2UXi9gLhZQWDrJYs6a1fIsetZ4HBAELVsYX4Bt_tm9ArvnVLC"
+   ],
+   [
+    "useluminix.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5wt7tKRHLV1ul8nJSLk12aPNAmzZYq2oWZzOu8RTvS2Q8IaWZJv0YXB6Iq6mecBX0NN4YbvQYdIDPVX1UQmohZe8YlPTXFbA8qsKBUrVndtjnYfht6LFh3IKYQyNHRstUtykHwx9vE-cKojEPpUQpqioNQqcIiCOKDPl60DUQJAu6pA3IJRTX-MHeoePLWG7ReBFSs4gF-w=="
+   ],
+   [
+    "whizi.io",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqUr0PQFSdbQrZDFNhZYxsO9-mCwUzbKVr9cdaxMP7rmY1ZApagZl4SgFdQtAyIL4a1TUxev83FTHTLcClLcxwh08a8AXrIe4iBEHApJqINf7TRag-FVZUyOsRJpqNhcOLjVY="
+   ],
+   [
+    "biggo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzaftKRle9QD5oCPa4DvwG3rpfPbxnn-0IyWI2ed6FxZQMYOKQg8gz6LC3a4RKnhP37XoqT1DRXQBeSt8PIwqTyDFOKOfBaWKq9NxNjfF6Z7GZE7u1QnxcAE4lcDDJQy7_jqNZedM4qyIihunXk9I5mCtdCv5KcvYw102wdWM="
+   ],
+   [
+    "techcrunch.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFm_6QhrFUaeUJ6HArFBsJkKHMV49x9CHk5qSWN6rwVbBA0-JYOr9n337CmXHSa4VJbgzlwnBo1DZohisHw8I8JXgpNIbuFp0xnNXFRE7IGi0zhSleCWRUGVr2gxpeC8MJREzMZDS8UIzDZVHCfLkF9RMrkDrO82CvvGYrcv9puaqshrDyDU88OenqyueoFet0NQw=="
+   ],
+   [
+    "dealroom.co",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnEvTYMl0nXVBmJIQguapYQfvzvb3xD28wCXAn4xYnd7Zk4Swh8_ilo6hKLSPDqh7OCLQjMubuolDUC7SlidfjPx_iTXdgPvZEXVgZvyy8g3Sa4ZSpf-lmH8-cimy5Cf5HlFcs1PNpvd6xXhqQwtevgNWt3q188ln_mrrI_gmJLmA5VJKCYNFutargLEUbuNVAOiYiEomC"
+   ],
+   [
+    "gend.co",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3WYO6RW0RhTZSdr-WYKog1BewEI15LiN3Dv28TYcp7fLC5yimUPB5LiSMJF0sMtq3kehvjt1-g0AuNTTOAs-LwsCu1Au9hnmAXuQV9RK1xHgiGtYuKBBk74iVFJWv6SEBYFucz5SWGUSEVAtGwCqZnMNQ24Y="
+   ],
+   [
+    "openai.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENvOaEj74H5nGreOnsNsEjFQzr6_qNZe1sVUJUW3H5vqhEiVXm2u-WjTq2CGWzBQeRk1SdgQMwMFU6c5YJaKQjBVxU70Cx35XRAj3eaOFKZAgGnlKJCHvfN0Zta365_2yC74aynV3T9Q-w9ifKTe1iUx44sr4="
+   ],
+   [
+    "humphreytheodore.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtKOWkjGyg2jS-kw6j0U662PVFtBXYPBgGaJOuuiuhH0ClpRYuMPyG-1GuJ5ntnI8k6fGU4_2tR6k9wz0W4qU4Tf1arWrLqqlwWANwOtHFpgs6zxq-DB9LTPgGv88ro4wV5cq17Uz4fmSLG-pH1vLy53vUqCdXpAgqBR5233ZOBEXDQ_z0MHy1GQUxUCSiAcWskg=="
+   ],
+   [
+    "aifundingtracker.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng=="
+   ],
+   [
+    "crunchbase.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBHq-bEyIc0HpaIxBVYO3COjuxUif95VzN7mIJpP5Q-9DikfV3xWj1kG60XnTY1PSypwbV2PnMscJ9_ev8jp47FtbfvizahXETsWteErUAF_lMoULd7zgMat32tkz0eJiRDwTFR1DAD_vxW_E_WRbmk2jF3je4lZudOLaUQmjAjPoCavJIeJExdkURhVKl8Z4U0Y0xKxkN0uaz"
+   ],
+   [
+    "acquinox.capital",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbDPO6KMBo90ygWyehoXFKO4lUtG41-4_2QybMfZ6vE8Voj0fmwpGNORQo9ZL4Vl1-0IOYiAnpgfiWF6VIHXRDCbTlDmxhyUqsgrQvrCZds0UppCpbqQLQcIEkOr25TZx4RodVMLelrKuQf1D6bVRFzCmbRnm7xnRza9tyuI5n8_wS-3OmnNpolAH0R1GYjfo_v7qaM01iD2M7kR-wSbAKVp8IM6kio5VzOjC0VPRz-SOpUrxRECA="
+   ],
+   [
+    "broadcom.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLUAV6SJI9nDrsaxJbtCsf5YnSpsHLG99Kz4gPygXmwS6UvDDP_YUydslbAdbvA-ThAXQnGqfGfRJE322uG1kwts63vpxXPHxcBstTUv-ykEYlBvMXQMjSmbgCfjnxZ_S2f8DxGliz-yfDiES88HmFLm9LM1fcLQcdOxWWEo-alt7mxOlHOj_GpV92G_vVG329-kUmXcmeklvWmF13KpVgti67dnSML-iv55mBzl3DqY-m5ua7MZ5JSxmCFg=="
+   ],
+   [
+    "seekingalpha.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNf9Zu0mql9kfC_onHZWFVmyAqb2reTxLKx5OqCsRFXmAV69Mso_pMW2ajZiBACWhR1z-CRvTdwsQ0Rz0uAtL40_H-ETU1gFnWKTNqgnunxuSDn84d7JqJklKtEO_MHsyUKM5692sj_6SMzXybdOjX__DujEMNzuGaYS4DtSRPPGlNqWjGVv3gyxnIFul0Q1nDCMffJAqW-YXq18xWNTvDMTu69juPQhanchfNcw1vw0Mn3kFW0eXfk2_cdWg8o9l1oQ=="
+   ],
+   [
+    "unite.ai",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNUT5ggQLRI6WxhRBg-VO_Gu96nKWqDxxUEfDGe3CU5_2_oqhe1pyehY91tj5vC6FSZnB2OHxTQbjwKtsaJJt_ElHvQvlzZoaANrhIcvRRq5K62KgOrazOlwEhphmFWkjvCxJ1m94OPHlDIawpX9lVWnHH6Qa-AfdhIUldWxVeSefcPUxVOmdg0_r8tLZS3p4vM1chZbg="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "```json\n{\n  \"items\": [\n    {\n      \"会社名\": \"SoftBank Group\",\n      \"関係\": \"出資\",\n      \"相手\": \"OpenAI\",\n      \"金額\": \"646億ドル (累計)\",\n      \"日付\": \"2026-10-01\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG6qr10sQ5exuR3X4-AQyf5lBLAI7EcCHgsuriSOZb6oq7-g5HCOr3oZg0rbpqNR29QCSWCLq-oxDD5MAs9FJQ7MTcvAbk1AbgzAFGATVVARQsYO4-jwBO3u86OUJabECleAEggCnCPYaNvsa42X-y3oYq7tKnGjT74lvBeRcdwJh2BwA==\",\n      \"出典名\": \"AI LLM News\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"300億ドルの追加出資を完了し、累計出資額と持ち株比率が約13%に達した。",
+    "idx": [
+     0,
+     1,
+     2,
+     3
+    ]
+   },
+   {
+    "text": "Amazonが500億ドル、Nvidiaが300億ドル、SoftBankが300億ドルをコミットした。",
+    "idx": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ]
+   },
+   {
+    "text": "これによりOpenAIのコンピューティング能力の独占的提供権は終了したが、クラウドとライセンスの独占権および収益分配契約は維持された。",
+    "idx": [
+     4,
+     11,
+     6,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ]
+   },
+   {
+    "text": "\",\n      \"人物\": \"\",\n      \"役職\": \"\",\n      \"移籍元\": \"\",\n      \"移籍先\": \"\"\n    },\n    {\n      \"会社名\": \"OpenAI\",\n      \"関係\": \"買収\",\n      \"相手\": \"io (Jony Ive's Hardware Startup)\",\n      \"金額\": \"65億ドル\",\n      \"日付\": \"2025-07-09\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==\",\n      \"出典名\": \"AI Funding Tracker\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"OpenAI史上最大の買収であり、初のコンシューマーハードウェアへの進出。",
+    "idx": [
+     18,
+     4,
+     19,
+     20
+    ]
+   },
+   {
+    "text": "Statsigの創業者兼CEOであるVijaye RajiがOpenAIのアプリケーション担当最高技術責任者（CTO）に就任。",
+    "idx": [
+     18,
+     4,
+     19,
+     20
+    ]
+   },
+   {
+    "text": "\",\n      \"人物\": \"Vijaye Raji\",\n      \"役職\": \"Chief Technology Officer of Applications\",\n      \"移籍元\": \"Statsig\",\n      \"移籍先\": \"OpenAI\"\n    },\n    {\n      \"会社名\": \"OpenAI\",\n      \"関係\": \"買収\",\n      \"相手\": \"Torch Health\",\n      \"金額\": \"約1億ドル\",\n      \"日付\": \"2026-01\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMG6k6BQWcglDdrXNWJBeBLFG7S4oU4XAuw7qWVmp-13CmilihNPnRLvPJmajLXMS9jxplnKh2x2eicN9cXNrrseUdRtzEQueWoIGY9uHFd-olSLi_IDOYV0zAe0yBF9ZzWVcqXSYe9CWN8qVhbiggrrDBng==\",\n      \"出典名\": \"AI Funding Tracker\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"医療データとヘルスケアAI機能を強化するため。",
+    "idx": [
+     18,
+     4,
+     7,
+     19
+    ]
+   },
+   {
+    "text": "\",\n      \"人物\": \"\",\n      \"役職\": \"\",\n      \"移籍元\": \"\",\n      \"移籍先\": \"\"\n    },\n    {\n      \"会社名\": \"OpenAI\",\n      \"関係\": \"提携\",\n      \"相手\": \"Broadcom\",\n      \"金額\": \"\",\n      \"日付\": \"2025-10-13\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLUAV6SJI9nDrsaxJbtCsf5YnSpsHLG99Kz4gPygXmwS6UvDDP_YUydslbAdbvA-ThAXQnGqfGfRJE322uG1kwts63vpxXPHxcBstTUv-ykEYlBvMXQMjSmbgCfjnxZ_S2f8DxGliz-yfDiES88HmFLm9LM1fcLQcdOxWWEo-alt7mxOlHOj_GpV92G_vVG329-kUmXcmeklvWmF13KpVgti67dnSML-iv55mBzl3DqY-m5ua7MZ5JSxmCFg==\",\n      \"出典名\": \"OpenAI\",\n      \"確かさ\": \"公式\",\n      \"備考\": \"カスタムAIアクセラレーターを共同開発・導入するため10ギガワット規模のシステムを2026年後半から展開予定。",
+    "idx": [
+     4,
+     21
+    ]
+   },
+   {
+    "text": "\",\n      \"人物\": \"\",\n      \"役職\": \"\",\n      \"移籍元\": \"\",\n      \"移籍先\": \"\"\n    },\n    {\n      \"会社名\": \"OpenAI\",\n      \"関係\": \"取引\",\n      \"相手\": \"Oracle\",\n      \"金額\": \"3000億ドル (契約上限)\",\n      \"日付\": \"2025-09\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGinGqngrrpFynT0zcbV3k0K2SrmFLzUcg3AtWcxdUYz_EomCmJfJ5qYy62090dtvOVMt24IC6VjjYIw7ob_67mr9jlqrjQdYkiYEm4Rwsvfb2IWLO4zqkMOsmFV_4P5w==\",\n      \"出典名\": \"OpenAI - Wikipedia\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"今後5年間で3000億ドル相当のコンピューティングパワーを購入する契約を締結。",
+    "idx": [
+     4
+    ]
+   },
+   {
+    "text": "事後評価額は140億ドル。",
+    "idx": [
+     4,
+     20
+    ]
+   },
+   {
+    "text": "\",\n      \"人物\": \"\",\n      \"役職\": \"\",\n      \"移籍元\": \"\",\n      \"移籍先\": \"\"\n    },\n    {\n      \"会社名\": \"OpenAI\",\n      \"関係\": \"取締役就任\",\n      \"相手\": \"David Vélez\",\n      \"金額\": \"\",\n      \"日付\": \"2026-07-21\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNf9Zu0mql9kfC_onHZWFVmyAqb2reTxLKx5OqCsRFXmAV69Mso_pMW2ajZiBACWhR1z-CRvTdwsQ0Rz0uAtL40_H-ETU1gFnWKTNqgnunxuSDn84d7JqJklKtEO_MHsyUKM5692sj_6SMzXybdOjX__DujEMNzuGaYS4DtSRPPGlNqWjGVv3gyxnIFul0Q1nDCMffJAqW-YXq18xWNTvDMTu69juPQhanchfNcw1vw0Mn3kFW0eXfk2_cdWg8o9l1oQ==\",\n      \"出典名\": \"Seeking Alpha\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"Nubankの創業者兼CEO。",
+    "idx": [
+     22,
+     23,
+     17
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2812,
+   "candidatesTokenCount": 3310,
+   "totalTokenCount": 16067,
+   "cachedContentTokenCount": 506,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2812
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 506
+    }
+   ],
+   "toolUsePromptTokenCount": 3852,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3852
+    }
+   ],
+   "thoughtsTokenCount": 6093,
+   "serviceTier": "standard"
+  }
+ }
+}

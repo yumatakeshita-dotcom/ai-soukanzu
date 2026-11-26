@@ -1,0 +1,324 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "xAI(SpaceX統合後を含む)の資金調達、株主、幹部・共同創業者の退任と移籍先、提携、買収。公式発表・SEC開示・大手報道・本人のXで確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "SpaceX",
+   "関係": "買収",
+   "相手": "xAI",
+   "金額": "2500億ドル",
+   "日付": "2026-02-02",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUtzmxNjxr8UK5MatxXJDDVjZqSTdJUE1zpw26TJMTGTudjVgnmGuyYWzuX0xbHzuLJlwq8pn6NnOiNxwS2VjH2JVHRMuu5uZHFReojkIahtBe4ybE9lr0Nf3lhryWUdnH9Mr-h8g46vVlfXDXpRTKtBy2tXRKNHu_ix0c2D2IptcMiaIJ78Czzo=",
+   "確かさ": "報道",
+   "備考": "全株式交換、統合後の企業価値は1.25兆ドル",
+   "src": [
+    [
+     "SatNews",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmUtzmxNjxr8UK5MatxXJDDVjZqSTdJUE1zpw26TJMTGTudjVgnmGuyYWzuX0xbHzuLJlwq8pn6NnOiNxwS2VjH2JVHRMuu5uZHFReojkIahtBe4ybE9lr0Nf3lhryWUdnH9Mr-h8g46vVlfXDXpRTKtBy2tXRKNHu_ix0c2D2IptcMiaIJ78Czzo="
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX",
+    "xAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "資金調達",
+   "相手": "Nvidia, Cisco, Valor Equity Partners, Stepstone Group, Fidelity, Qatar Investment Authority, MGX, Baron Capital など",
+   "金額": "200億ドル",
+   "日付": "2026-01",
+   "出典URL": "https://x.ai/news/series-e",
+   "確かさ": "公式",
+   "備考": "シリーズEラウンド、企業評価額2300億ドル",
+   "src": [
+    [
+     "SpaceXSI",
+     "https://x.ai/news/series-e"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFg6TnI6b8pVLlJd035AjwTAl7Cf27SlwIEkEU8vBn5xJr4A2XVEZT39yhNgHwygLzgdh8z0G9vD5hhCaHQsfAapwo96jSZlGQkw0KaIDOfbXjNGLvf",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "xAI Raises $20B Series E | SpaceXSI",
+    "状態": "ok",
+    "載っていた名前": [
+     "xAI",
+     "Nvidia",
+     "Cisco",
+     "Valor Equity Partners",
+     "Stepstone Group",
+     "Fidelity"
+    ]
+   }
+  },
+  {
+   "会社名": "Tesla",
+   "関係": "出資",
+   "相手": "xAI",
+   "金額": "20億ドル",
+   "日付": "2026-01-28",
+   "出典URL": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai/",
+   "確かさ": "報道",
+   "備考": "xAIのシリーズEラウンドの一部として",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai/"
+    ]
+   ],
+   "既存の名前": [
+    "Tesla",
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2LxZG6zFNhBxHZlVKiiKZp3PP5wwTP3U4LassuvQM-8-pS9zzU5w8stA899OtqW73Po9uaXGf5-vioAdUlPI8jbAVfPEjXOhanMzRJuJMep8k3WVEC9rtYbKbcCTDpQKiMzhq-m5tUZbEOmNj3ccRUY0boX1YdIZvj5b_IfZC5CI=",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "Tesla to invest $2B in Elon Musk&#039;s xAI | TechCrunch",
+    "状態": "ok",
+    "載っていた名前": [
+     "Tesla",
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "xAI",
+   "関係": "退任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-03",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC9ZZZNqrU4vkQZ0LsL0SdhFPQ6mqw9ZJrO4APVy5X4qLONN1GM1kw2FHpy9D6K7KedoMo3P-J18iaBfoDeLNmk1Vjh9faz8ZMv0v6EBzUSeVr7tKeXfPd5ABIOcSee41IF0hJL_oDDtUULAYnXtd3ZTSwuEuS9UitbXZZBVVno5mzW53Nsg=",
+   "確かさ": "報道",
+   "備考": "イーロン・マスクを除く共同創業者11名全員が退任",
+   "人物": "Tony Wu, Jimmy Ba, Manuel Kroiss, Ross Nordeen など",
+   "役職": "共同創業者",
+   "移籍元": "xAI",
+   "src": [
+    [
+     "TNW",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGC9ZZZNqrU4vkQZ0LsL0SdhFPQ6mqw9ZJrO4APVy5X4qLONN1GM1kw2FHpy9D6K7KedoMo3P-J18iaBfoDeLNmk1Vjh9faz8ZMv0v6EBzUSeVr7tKeXfPd5ABIOcSee41IF0hJL_oDDtUULAYnXtd3ZTSwuEuS9UitbXZZBVVno5mzW53Nsg="
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "提携",
+   "相手": "xAI (後にSpaceXAI)",
+   "金額": "月額12.5億ドル (3年間で約450億ドル)",
+   "日付": "2026-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-xLMI_doDQ8qclvvV8HjB92Fvc7mN5JsjEFvDe92onY19AIDFVuYMgbcRzgq0Nc8i9neOWny9Ikamj5JNJ2L4l5A6OeS-W0z2EHQ332zcKOwHcy3lw4LY0qunWe8YcHjyYMtX_vyafCDzoCDqcfJ3mO821tQJDperNZmzLWF4pRgNIavVnzbduzTf0jE5tgG07FBflliATW2-g3TJxQ9_szr_1u9oMAnU0aYI3Jplwxj6rHEGt9U=",
+   "確かさ": "開示",
+   "備考": "xAIのColossusデータセンターからの計算資源購入契約",
+   "src": [
+    [
+     "Network World",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-xLMI_doDQ8qclvvV8HjB92Fvc7mN5JsjEFvDe92onY19AIDFVuYMgbcRzgq0Nc8i9neOWny9Ikamj5JNJ2L4l5A6OeS-W0z2EHQ332zcKOwHcy3lw4LY0qunWe8YcHjyYMtX_vyafCDzoCDqcfJ3mO821tQJDperNZmzLWF4pRgNIavVnzbduzTf0jE5tgG07FBflliATW2-g3TJxQ9_szr_1u9oMAnU0aYI3Jplwxj6rHEGt9U="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "HUMAIN",
+   "関係": "提携",
+   "相手": "xAI",
+   "金額": "",
+   "日付": "2025-11-19",
+   "出典URL": "https://www.prnewswire.com/news-releases/humain-and-xai-partner-to-build-next-generation-ai-compute-power-and-deploy-grok-in-the-kingdom-to-support-the-most-ai-enabled-nation-objectives-302620677.html",
+   "確かさ": "公式",
+   "備考": "サウジアラビアでのハイパースケールGPUデータセンター建設およびGrokモデル展開の枠組み合意",
+   "src": [
+    [
+     "PR Newswire",
+     "https://www.prnewswire.com/news-releases/humain-and-xai-partner-to-build-next-generation-ai-compute-power-and-deploy-grok-in-the-kingdom-to-support-the-most-ai-enabled-nation-objectives-302620677.html"
+    ]
+   ],
+   "既存の名前": [
+    "HUMAIN",
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzTE_ECNpVf9iwlEgeNYNHKCgU7v2przdtJXCdFvXeiZ4_PisjMszT109Ei5s7gh3t_xd4yS6syGhiYCxrKgpnhReyttfsJaWyBpIttS4laX0fB7CJMTo6svbdfXzSgeoQxWiRJV5IJHmIDXQoMVNbB6DbcBuhUSxnUxsxrKlDVsVNvR4dPveTW0iGXNuMA9gpHzRFienMW57wdEQUWLVfV0DUwqxIfF0s5Zp4e6EH25_RWfo7gmEMb30V1QntG6yMsz7K7k4UZRwcA0LCI_y2bbxcf8DZuOA0tn3R3jdWRHpAxFJT6FqUgwB-2tryrK5E2T5dktlTEWYibQ2BPGX8Di1rnw==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "詳細": "HUMAIN and xAI Partner to Build Next-Generation AI Compute P",
+    "状態": "ok",
+    "載っていた名前": [
+     "HUMAIN",
+     "xAI"
+    ]
+   }
+  },
+  {
+   "会社名": "SpaceX",
+   "関係": "買収",
+   "相手": "Cursor (Anysphere)",
+   "金額": "600億ドル",
+   "日付": "2026-06",
+   "出典URL": "https://frontierrounds.com/leaderboard/acquisitions",
+   "確かさ": "報道",
+   "備考": "全株式交換、xAIとの合併後にSpaceXが買収",
+   "src": [
+    [
+     "Frontier Rounds",
+     "https://frontierrounds.com/leaderboard/acquisitions"
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX",
+    "Cursor (Anysphere)"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKwzqHOQTsP-EZzUoW3JwytMopLgpNfqlD9AP79UUzTTwhZwto4mMOz3TpP6KY9NXk--c9z3ER8DXaRZ-oFhjk7amUauasnhEmUwKVWUQBSgWs64Ub1CZhwsy7R6MxAIEnnfOq_-NOXrEpgImP4A==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "GSA (米国一般調達局)",
+   "関係": "提携",
+   "相手": "xAI",
+   "金額": "1機関あたり0.42ドル",
+   "日付": "2025-09-25",
+   "出典URL": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-xai-partner-to-accelerate-federal-ai-adoption-09252025",
+   "確かさ": "公式",
+   "備考": "連邦政府機関向けにGrok AIモデルを提供",
+   "src": [
+    [
+     "PR Newswire",
+     "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-xai-partner-to-accelerate-federal-ai-adoption-09252025"
+    ]
+   ],
+   "既存の名前": [
+    "xAI"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLm5aogKD2KSo5UMjx_s9aB9dcLbh7O1Ip3PLMMWCZkbyyyvoSJEajBy0FG7SiIwCC9IMrF81rDJ6Co23kY4mdnLelJcojBcz_i4nj0n2cHgfuwimBcLT8PL-jxI4W9csSsTGpgkMUnmVo7E50m1U9fd6RSH2uKwlyiUC-R7fuRhswBNV-nvjhwyxgClFS8DMaBbLZ7lQIPYFVohrDrbE_74TlX0C-Ite-9A==",
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "xAI (後にSpaceXAI)",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-04",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcv3qB7WmwVqui0TAAQnFn2ydHGH_zQn_4y4LOzlELSs9RZoebYURzS8vpvvzqT1OGMplYmpE4HUxPIPN9pi--Y2nVIYmoquP_qk06FoTBKWrY3pqkBoA-F_m0O2zopOyNcKpsRjwkPmkfQ3Uz5QtAlIaKcjRixt1KLIseWXGllGlcoQd53ksv774FYwD7SvH79zC6D1YJ-LjRS3i7bIjrz7ABzq5g7od1RkOf9g==",
+   "確かさ": "報道",
+   "備考": "SpaceXとの統合後のxAI組織再編の一環",
+   "人物": "Michael Nicolls",
+   "役職": "CEO / 社長",
+   "移籍元": "Starlink (SpaceX)",
+   "移籍先": "xAI (後にSpaceXAI)",
+   "src": [
+    [
+     "AI World (via MLQ News)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHcv3qB7WmwVqui0TAAQnFn2ydHGH_zQn_4y4LOzlELSs9RZoebYURzS8vpvvzqT1OGMplYmpE4HUxPIPN9pi--Y2nVIYmoquP_qk06FoTBKWrY3pqkBoA-F_m0O2zopOyNcKpsRjwkPmkfQ3Uz5QtAlIaKcjRixt1KLIseWXGllGlcoQd53ksv774FYwD7SvH79zC6D1YJ-LjRS3i7bIjrz7ABzq5g7od1RkOf9g=="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "SpaceX",
+   "関係": "上場",
+   "相手": "Nasdaq",
+   "金額": "750億ドル",
+   "日付": "2026-06-12",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDSCAtnb6IjKb6_zhtevJarGsMJ5v0wnwCbyeNFfsmJ6t2yOSTovmYwLzx6bY08NLln2eSkvYPQoyazIc7OgmRejKh67HCmqfndpPe5tUzUVmW80E0RaWuOye8vO1zrXsXakWz74OJBTpnCdNa0opnjj33JsJtfs4C3vAmACSY0AgRCBAYQwCXROmL47Wr8QUyWINf08ljnKg=",
+   "確かさ": "報道",
+   "備考": "史上最大規模のIPO",
+   "src": [
+    [
+     "Enterprise DNA",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHDSCAtnb6IjKb6_zhtevJarGsMJ5v0wnwCbyeNFfsmJ6t2yOSTovmYwLzx6bY08NLln2eSkvYPQoyazIc7OgmRejKh67HCmqfndpPe5tUzUVmW80E0RaWuOye8vO1zrXsXakWz74OJBTpnCdNa0opnjj33JsJtfs4C3vAmACSY0AgRCBAYQwCXROmL47Wr8QUyWINf08ljnKg="
+    ]
+   ],
+   "既存の名前": [
+    "SpaceX"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "xAI funding rounds 2025 2026",
+   "xAI shareholders 2025 2026",
+   "xAI executive departures 2025 2026",
+   "xAI partnerships 2025 2026",
+   "xAI acquisitions 2025 2026",
+   "xAI SpaceX integration details 2026",
+   "Elon Musk xAI investment 2026",
+   "xAI new board members 2026",
+   "xAI infrastructure deals 2026",
+   "xAI computing resources 2026"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2809,
+   "candidatesTokenCount": 3302,
+   "totalTokenCount": 15433,
+   "cachedContentTokenCount": 479,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2809
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 479
+    }
+   ],
+   "toolUsePromptTokenCount": 3646,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3646
+    }
+   ],
+   "thoughtsTokenCount": 5676,
+   "serviceTier": "standard"
+  }
+ }
+}

@@ -1,0 +1,576 @@
+{
+ "date": "2026-11-26",
+ "kind": "gemini",
+ "topic": "Anthropicの2026年の資金調達ラウンド(金額・評価額・主導投資家)、株主、計算資源の提携、買収、幹部の就任・退任と前職。公式発表・SEC開示・大手報道で確かめられるもの",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Anthropic",
+   "関係": "上場",
+   "相手": "Nasdaq Global Select Market",
+   "金額": "",
+   "日付": "2026-11-19",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "ティッカーシンボル 'ANT'",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Nasdaq Global Select Market"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "資金調達 (IPO)",
+   "相手": "Public investors",
+   "金額": "約935億ドル (売却株式総額), 約916億ドル (Anthropic受取額)",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "Class A普通株11.27億株を1株あたり83ドルで発行。2026年11月18日に価格決定。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "資金調達 (私募)",
+   "相手": "AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners",
+   "金額": "約260億ドル",
+   "日付": "2026-11-20",
+   "出典URL": "https://www.anthropic.com/news/ipo-close",
+   "確かさ": "公式",
+   "備考": "Class N普通株 (議決権なし) を1株あたり83ドルで販売。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/ipo-close"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic announces closing of initial public offering, incl",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Broadcom",
+     "Google",
+     "Micron",
+     "Microsoft"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "資金調達 (Series H)",
+   "相手": "Altimeter Capital, Dragoneer Investment Group, Sequoia Capital",
+   "金額": "650億ドル",
+   "日付": "2026-05",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=",
+   "確かさ": "報道",
+   "備考": "評価額9,650億ドル。",
+   "src": [
+    [
+     "Wikipedia",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "資金調達 (Series G)",
+   "相手": "GIC, Coatue",
+   "金額": "300億ドル",
+   "日付": "2026-02-12",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=",
+   "確かさ": "報道",
+   "備考": "評価額3,800億ドル。",
+   "src": [
+    [
+     "Wikipedia",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "計算資源の提携 (拡張)",
+   "相手": "Amazon (AWS)",
+   "金額": "1,000億ドル超 (10年間)",
+   "日付": "2026-04-20",
+   "出典URL": "https://www.anthropic.com/news/anthropic-amazon-compute",
+   "確かさ": "公式",
+   "備考": "Claudeトレーニング・デプロイ用に最大5ギガワットの容量確保。2026年末までに約1GWのTrainium2/3が稼働予定。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/news/anthropic-amazon-compute"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2hagDbcgRlqVQ_1Tt9VE85DdRawlcq3Lx7h_rsnw4t1j46AOxaiSRS6WFs-RUR6g5vQFVYMiPXcRlNLrQgPtpLCX-2fJ0xwsNrURRkSIb_r4gt1nrHJ6ALbsCMervZBichsql4IJdImglFpBw_BPVEV4=",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Anthropic and Amazon expand compute collaboration \\ Anthropi",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Amazon"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "計算資源の提携",
+   "相手": "SpaceX",
+   "金額": "",
+   "日付": "2026-05-08",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLLW7d9Q4eCTP7x45mF1OZXolJoIzErKSusPig6rRgQClk2N3cvyjxbApqoY0LUPariFlZULi9HX1jU8AmCYPWQI_-QTECxoNZq4_AQHRqR_JpV5l4UlPJ4dvxRHBQZ2RbT_iLixRO8B9j8ZOEidHq039rcl7iD0w56X2IAOlFmTLFiKUrgOO3vWMgU7qwEg=",
+   "確かさ": "報道",
+   "備考": "SpaceXのColossus 1施設を通じて300メガワットのAI計算能力にアクセス。2026年Q3にAnthropicがSpaceXに約50億ドルを支払った。",
+   "src": [
+    [
+     "Broadband Breakfast",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLLW7d9Q4eCTP7x45mF1OZXolJoIzErKSusPig6rRgQClk2N3cvyjxbApqoY0LUPariFlZULi9HX1jU8AmCYPWQI_-QTECxoNZq4_AQHRqR_JpV5l4UlPJ4dvxRHBQZ2RbT_iLixRO8B9j8ZOEidHq039rcl7iD0w56X2IAOlFmTLFiKUrgOO3vWMgU7qwEg="
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic",
+    "SpaceX"
+   ],
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "計算資源の提携 & 出資",
+   "相手": "AMD",
+   "金額": "AMDがAnthropicに最大50億ドル出資。AnthropicはAMDから数百億ドル相当のAIサーバーチップを購入。",
+   "日付": "2026-07-22",
+   "出典URL": "https://www.trendingtopics.eu/amd-to-invest-up-to-5-billion-in-anthropic-in-the-next-circular-deal/",
+   "確かさ": "報道",
+   "備考": "AnthropicはAMD Instinct MI450シリーズGPUを最大2ギガワット展開。",
+   "src": [
+    [
+     "Trending Topics",
+     "https://www.trendingtopics.eu/amd-to-invest-up-to-5-billion-in-anthropic-in-the-next-circular-deal/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic",
+    "AMD"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4YMAXCD93i-FspZ0CBy36e0jtjxAwkglSJtFqUNrRmqO9e6qHZsX2GwnfQuNlzsJr6vL38qXbO0xKoBXkE44ZuCX5hu8EQcZ7b7SIOPFcDJWSfc4g9j9ckIiwfMv-Gz7G7vTChOgnFHcaAbwIgmUiXeA0BS9-_onbUv2gIIoQBPgNMEYAhnxKi86Emkk6_S_6exatRnxMDxAe0wFW7g==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "買収",
+   "相手": "Mithril Medicine",
+   "金額": "",
+   "日付": "2026-10",
+   "出典URL": "https://www.anthropic.com/research/early-progress-drug-development",
+   "確かさ": "公式",
+   "備考": "希少な筋ジストロフィー治療法を開発していた個人企業。創業者Cody TranbargerはAnthropicに入社。",
+   "src": [
+    [
+     "Anthropic",
+     "https://www.anthropic.com/research/early-progress-drug-development"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSgeNQd4xnWqVneaO8XVQfibRY5fcw_puUfjPf9S8VbRQEZxc0Xp57k5TyYeBDJTe3ZAuF6zXzptcoA-YGDFrdbYb9TlKJBRFt9qUMuI8VfmYzuqBMYHAZb_DTByCeiKy2-E3UMdE5Fscll6JnznUWVihUXFgS9P_5nIO4g==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "詳細": "Early progress on accelerating drug development with Claude ",
+    "状態": "ok",
+    "載っていた名前": [
+     "Anthropic",
+     "Mithril Medicine"
+    ]
+   }
+  },
+  {
+   "会社名": "Anthropic",
+   "関係": "就任",
+   "相手": "",
+   "金額": "",
+   "日付": "2026-02",
+   "出典URL": "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/",
+   "確かさ": "報道",
+   "備考": "2026年11月20日にIPO株を83ドルで60,240株取得。",
+   "人物": "Chris Liddell",
+   "役職": "取締役",
+   "移籍元": "(前職) 元Microsoft CFO, 元General Motors CFO, 元Deputy White House Chief of Staff",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "Observer",
+     "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/"
+    ]
+   ],
+   "既存の名前": [
+    "Anthropic"
+   ],
+   "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoFRGSKSpzOIzLQcDrNJf5pJa0Z6DUillPRkvLDwfLbHRaygZUo7Sudc3eUMdiuMVaQrqMkJVCzZqnXRBjEPCoz0IfP-JnmSKCKmaeanK_Eo-BCWPwi-kmMbrTz3bUh2kcEjoemeAAKbNiQq34M1JV6AdMUc23Z9xe9urILf92mjUEA==",
+   "URL確認": {
+    "検索で見たサイト": true,
+    "状態": "開けない",
+    "詳細": "クラウドからつながらない(URLError)"
+   }
+  }
+ ],
+ "grounding": [
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw="
+  ],
+  [
+   "pepperstone.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmI8H2P_A6lKfeUz5rqINHwKsMbPJmWe3dXrXtgWKOVs1aECVnojfOGv1iJT48qxvblBBUQT-RUfnh2lyLHdlV0hs5awaA6z3rQSHk0cR9kmbCsd2Y7k20im6e17cI9VuAO10gsyQpBJPJzVNEG2EhCOIYR7I4mcwzA315QCuw"
+  ],
+  [
+   "leverageshares.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm5R7XNz0bmhlPmYJdgW0-x51f7fEztZyaz25HhwFOkEEh-Fy91r1lHeU9ivkW5XGA4d1TTephgTLQ8Wy7ig5m-UCAsM0LB3Ja7rMJ18FdRKkiYex6635wYPxDs77e-Vw-5bbADftUREJ9nvbxY-w="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLmbwkJqwTmj61nh6d1o59B46dSOoiNtydHg8qhUaivPexmI1agOPQNP0ja1-L832j3N2Y2SVBeqhasuig3-RLh61MNMQ48QbBMjWw9UgGrxttS7clWMqFSNg39IPCTkt1Ky6CxSV8r6sYT6yMsUEhq1Gai48npPAQJmkWGj9iuHlw"
+  ],
+  [
+   "quasa.io",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtNP9Q9RCMxlVQ3wG9eYZSnBbDR_6nCF-yTgv175jGAuqBM_8B4zYp3Q5Zj1Sr6bj7gYYzEyn_jI5rF55OWJJq3opPBDMqIrgHXcF_G0I-XVaM2BlrwR8N6OrU6PjY9TvT3JBbf59OmbqQe7VKmgllK60HnD9d6Uyat3_yBGOIzdsbuIMSPaPcncKNgT59kVU="
+  ],
+  [
+   "futurumgroup.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCr3Rjgp5PFIGPZQ0E0invJnNRTtbu9u6rkOgGBrZwVeF17UKT4sVzkZvjCzqxOWnu3Aogi9QmFBCQIfIYYnBorzqPXRJ-MTn5sZ1mqmVIZIk1ScKNDUq-r8BRVxL5F6esuC6QWEADSgA5XhuYka1rfkNyZzYhbQos64MtD_kyG53l0YxOQ8kmZzb9avz6HUgqB2NI"
+  ],
+  [
+   "wikipedia.org",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=="
+  ],
+  [
+   "revenuememo.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz_3m6ximkHXkQlNf6-CveEXGreYK0MwOQwhVUQi5EO8Fnnk5398VbdFuME94hgrpDwbdFpTwWuZGnoxWYzXQpNABIQJib1mhGmQC-Knqzyw2YFFe4inUtFtdflT29kexjWNZVMrjskGDR"
+  ],
+  [
+   "graniteshares.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1kJYMz5vyIbvwsJ92i0o4i2KsQ5QIXI2Gv7tWMeeDwElFdH6UuwKWMy0cgO6FsZ6_LfbA3FcEqJQxGc3pfFEef6MToZxHG7Olo55XBAbb2EWGYOaiWw-0njWXztT8mRz5kksTbyK2S4UskafMHFCTyAr3XLZ5288nu5JgZOjVmKV2-on8hmneAaap2iNqptiP_aV4ZIPsMqi4irLC1V3RNh_4rsbIrGzcT5mFGQ=="
+  ],
+  [
+   "fool.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5kgjSbbIt__vapT4rNqH-xoOmIiWbQyjskn9a_Qp8vZRCtY3r8u8-lPXng0ueS-8xdR4EysyxnPDJThyADSKsVoTCbFimvF_dTEtLlZd5-mLJ8DVS1eey5clhCIdNBkntMttOLNce4ZRbOmLwtL4-5FTH3BT6mDhwWuAhxiKpVNN76l8HzbdwnhqxW4Mx6awIy8O_J0Ocb1Q1DBNNzxK6oJG4a-CLvzfsEem7AizFxA2jREdQ"
+  ],
+  [
+   "forbes.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdmvN99AlcVHqdgGhUBDj4Nf2qRYuKADc-AHFw9VFl3axnOK2kCbaWjCqL-3nfZwqzeohUQnKI0MdZZgz408GtkBpLs_dxyrsqrK05BBkpdK6St2g8SLDwwIjGxBAQ14ki7O8kRXPf3qlqK6YY0nxx3lgLshvwnZ9hb4kSvrJdSNOZtRdnq2Z4kmwzO3NBOyNXcZ_7fSQfhbvBNf4GbS3sg9s="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2hagDbcgRlqVQ_1Tt9VE85DdRawlcq3Lx7h_rsnw4t1j46AOxaiSRS6WFs-RUR6g5vQFVYMiPXcRlNLrQgPtpLCX-2fJ0xwsNrURRkSIb_r4gt1nrHJ6ALbsCMervZBichsql4IJdImglFpBw_BPVEV4="
+  ],
+  [
+   "broadbandbreakfast.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLLW7d9Q4eCTP7x45mF1OZXolJoIzErKSusPig6rRgQClk2N3cvyjxbApqoY0LUPariFlZULi9HX1jU8AmCYPWQI_-QTECxoNZq4_AQHRqR_JpV5l4UlPJ4dvxRHBQZ2RbT_iLixRO8B9j8ZOEidHq039rcl7iD0w56X2IAOlFmTLFiKUrgOO3vWMgU7qwEg=="
+  ],
+  [
+   "epoch.ai",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvO1bILCuFqTn-9QjDfGurJ1jdLXVNiSBY_snX7nde0vDQJtACXpdHND6M53f8ANLiZAdG6HMq5TuVYqRfrRzy_IniY8cahCiOzwG-xBIBRZcYZCeEs2BePmP6KVA8aJ75BFi7dpGNqSBa2szc7HRhboH6rxYhCNSSSq7wtZ4K"
+  ],
+  [
+   "trendingtopics.eu",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4YMAXCD93i-FspZ0CBy36e0jtjxAwkglSJtFqUNrRmqO9e6qHZsX2GwnfQuNlzsJr6vL38qXbO0xKoBXkE44ZuCX5hu8EQcZ7b7SIOPFcDJWSfc4g9j9ckIiwfMv-Gz7G7vTChOgnFHcaAbwIgmUiXeA0BS9-_onbUv2gIIoQBPgNMEYAhnxKi86Emkk6_S_6exatRnxMDxAe0wFW7g=="
+  ],
+  [
+   "tracxn.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPnZg4DyadH54RoXVSfiGH9tkovWFPJUYKURUJyAOLHq-EYJUw3Z-NnoD3wXayQbKsuMw9tgYqw7XB0LXLL5QWLY74qsPKrpxHyK6oQ18QNaFb83fQLL9_JS5jwU4SDZR6rpnX9W2FlF_dsCM-iL8_FdqPMhhEl0uSnM63TfbTdIT4mQZt7smMoH8lEfMbPi4PaGkdrjnSbq1ZvYoc3ORGxu3sxw=="
+  ],
+  [
+   "anthropic.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSgeNQd4xnWqVneaO8XVQfibRY5fcw_puUfjPf9S8VbRQEZxc0Xp57k5TyYeBDJTe3ZAuF6zXzptcoA-YGDFrdbYb9TlKJBRFt9qUMuI8VfmYzuqBMYHAZb_DTByCeiKy2-E3UMdE5Fscll6JnznUWVihUXFgS9P_5nIO4g=="
+  ],
+  [
+   "observer.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoFRGSKSpzOIzLQcDrNJf5pJa0Z6DUillPRkvLDwfLbHRaygZUo7Sudc3eUMdiuMVaQrqMkJVCzZqnXRBjEPCoz0IfP-JnmSKCKmaeanK_Eo-BCWPwi-kmMbrTz3bUh2kcEjoemeAAKbNiQq34M1JV6AdMUc23Z9xe9urILf92mjUEA=="
+  ],
+  [
+   "kalkinemedia.com",
+   "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVzGIPORUY-nbo0yKAmccJyFYCQolFd4wWmX2cM26g1wAmD7pC5nNV-06gNWua71U7MtviISqR3_hffFHtIlPCDDaAPc3qoicPlIgJMZOdqjTIS5bK461EaQqf7C3kf-rUvtupqFL-4dxi9Mq3u_WpVKTz7rt7E_6fychA1yP4hKfVl0sY7wf69hrq3T79H-aJC6DCJTzJMJfjHRAwlPF6Ju-2apCzgjcBYNVHHEZJwjFd6OtnggOPOkmrixrfBE1iXmw="
+  ]
+ ],
+ "grounding_resolved": [
+  "https://www.anthropic.com/news/ipo-close",
+  "https://pepperstone.com/en/insights/guides/shares/anthropic-post-ipo",
+  "https://leverageshares.com/us/anthropic-ipo-tracker/",
+  "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+  "https://quasa.io/stories/anthropic-s-93-5b-ipo-rewrites-how-ai-companies-fund-compute",
+  "https://futurumgroup.com/insights/anthropic-ipo-makes-its-biggest-suppliers-shareholders/",
+  "https://en.wikipedia.org/wiki/Anthropic",
+  "https://www.revenuememo.com/p/anthropic-funding",
+  "https://graniteshares.com/research/anthropic-ipo-2026-explained-from-965-billion-to-a-possible-2-trillion-listing/",
+  "https://www.fool.com/investing/2026/11/25/prediction-heres-what-anthropics-valuation-will-be-in-2027-according-to-history/",
+  "https://www.forbes.com/sites/jonmarkman/2026/05/04/anthropics-900b-funding-round-set-to-surpass-openai/",
+  "https://www.anthropic.com/news/anthropic-amazon-compute",
+  "https://broadbandbreakfast.com/anthropic-partners-with-spacex-to-expand-ai-capacity/",
+  "https://epoch.ai/data-insights/anthropic-openai-compute-spend-growth",
+  "https://www.trendingtopics.eu/amd-to-invest-up-to-5-billion-in-anthropic-in-the-next-circular-deal/",
+  "https://tracxn.com/d/acquisitions/acquisitions-by-anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08",
+  "https://www.anthropic.com/research/early-progress-drug-development",
+  "https://observer.com/2026/04/anthropic-top-executives-after-labs-launch/",
+  "https://kalkinemedia.com/us/news/announcements/christopher-p-liddell-acquires-60240-anthropic-ipo-shares-at-83-each-on-november-20-2026"
+ ],
+ "process": {
+  "queries": [
+   "Anthropic IPO 2026 official announcement",
+   "Anthropic S-1 filing 2026",
+   "Anthropic stock market listing 2026",
+   "Anthropic Q3 2026 earnings report",
+   "Anthropic funding rounds 2026",
+   "Anthropic shareholders 2026",
+   "Anthropic computing resource partnership 2026",
+   "Anthropic acquisition 2026",
+   "Anthropic executive changes 2026"
+  ],
+  "sources": [
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw="
+   ],
+   [
+    "pepperstone.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGmI8H2P_A6lKfeUz5rqINHwKsMbPJmWe3dXrXtgWKOVs1aECVnojfOGv1iJT48qxvblBBUQT-RUfnh2lyLHdlV0hs5awaA6z3rQSHk0cR9kmbCsd2Y7k20im6e17cI9VuAO10gsyQpBJPJzVNEG2EhCOIYR7I4mcwzA315QCuw"
+   ],
+   [
+    "leverageshares.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHm5R7XNz0bmhlPmYJdgW0-x51f7fEztZyaz25HhwFOkEEh-Fy91r1lHeU9ivkW5XGA4d1TTephgTLQ8Wy7ig5m-UCAsM0LB3Ja7rMJ18FdRKkiYex6635wYPxDs77e-Vw-5bbADftUREJ9nvbxY-w="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLmbwkJqwTmj61nh6d1o59B46dSOoiNtydHg8qhUaivPexmI1agOPQNP0ja1-L832j3N2Y2SVBeqhasuig3-RLh61MNMQ48QbBMjWw9UgGrxttS7clWMqFSNg39IPCTkt1Ky6CxSV8r6sYT6yMsUEhq1Gai48npPAQJmkWGj9iuHlw"
+   ],
+   [
+    "quasa.io",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtNP9Q9RCMxlVQ3wG9eYZSnBbDR_6nCF-yTgv175jGAuqBM_8B4zYp3Q5Zj1Sr6bj7gYYzEyn_jI5rF55OWJJq3opPBDMqIrgHXcF_G0I-XVaM2BlrwR8N6OrU6PjY9TvT3JBbf59OmbqQe7VKmgllK60HnD9d6Uyat3_yBGOIzdsbuIMSPaPcncKNgT59kVU="
+   ],
+   [
+    "futurumgroup.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGCr3Rjgp5PFIGPZQ0E0invJnNRTtbu9u6rkOgGBrZwVeF17UKT4sVzkZvjCzqxOWnu3Aogi9QmFBCQIfIYYnBorzqPXRJ-MTn5sZ1mqmVIZIk1ScKNDUq-r8BRVxL5F6esuC6QWEADSgA5XhuYka1rfkNyZzYhbQos64MtD_kyG53l0YxOQ8kmZzb9avz6HUgqB2NI"
+   ],
+   [
+    "wikipedia.org",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=="
+   ],
+   [
+    "revenuememo.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGz_3m6ximkHXkQlNf6-CveEXGreYK0MwOQwhVUQi5EO8Fnnk5398VbdFuME94hgrpDwbdFpTwWuZGnoxWYzXQpNABIQJib1mhGmQC-Knqzyw2YFFe4inUtFtdflT29kexjWNZVMrjskGDR"
+   ],
+   [
+    "graniteshares.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH1kJYMz5vyIbvwsJ92i0o4i2KsQ5QIXI2Gv7tWMeeDwElFdH6UuwKWMy0cgO6FsZ6_LfbA3FcEqJQxGc3pfFEef6MToZxHG7Olo55XBAbb2EWGYOaiWw-0njWXztT8mRz5kksTbyK2S4UskafMHFCTyAr3XLZ5288nu5JgZOjVmKV2-on8hmneAaap2iNqptiP_aV4ZIPsMqi4irLC1V3RNh_4rsbIrGzcT5mFGQ=="
+   ],
+   [
+    "fool.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5kgjSbbIt__vapT4rNqH-xoOmIiWbQyjskn9a_Qp8vZRCtY3r8u8-lPXng0ueS-8xdR4EysyxnPDJThyADSKsVoTCbFimvF_dTEtLlZd5-mLJ8DVS1eey5clhCIdNBkntMttOLNce4ZRbOmLwtL4-5FTH3BT6mDhwWuAhxiKpVNN76l8HzbdwnhqxW4Mx6awIy8O_J0Ocb1Q1DBNNzxK6oJG4a-CLvzfsEem7AizFxA2jREdQ"
+   ],
+   [
+    "forbes.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdmvN99AlcVHqdgGhUBDj4Nf2qRYuKADc-AHFw9VFl3axnOK2kCbaWjCqL-3nfZwqzeohUQnKI0MdZZgz408GtkBpLs_dxyrsqrK05BBkpdK6St2g8SLDwwIjGxBAQ14ki7O8kRXPf3qlqK6YY0nxx3lgLshvwnZ9hb4kSvrJdSNOZtRdnq2Z4kmwzO3NBOyNXcZ_7fSQfhbvBNf4GbS3sg9s="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2hagDbcgRlqVQ_1Tt9VE85DdRawlcq3Lx7h_rsnw4t1j46AOxaiSRS6WFs-RUR6g5vQFVYMiPXcRlNLrQgPtpLCX-2fJ0xwsNrURRkSIb_r4gt1nrHJ6ALbsCMervZBichsql4IJdImglFpBw_BPVEV4="
+   ],
+   [
+    "broadbandbreakfast.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLLW7d9Q4eCTP7x45mF1OZXolJoIzErKSusPig6rRgQClk2N3cvyjxbApqoY0LUPariFlZULi9HX1jU8AmCYPWQI_-QTECxoNZq4_AQHRqR_JpV5l4UlPJ4dvxRHBQZ2RbT_iLixRO8B9j8ZOEidHq039rcl7iD0w56X2IAOlFmTLFiKUrgOO3vWMgU7qwEg=="
+   ],
+   [
+    "epoch.ai",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvO1bILCuFqTn-9QjDfGurJ1jdLXVNiSBY_snX7nde0vDQJtACXpdHND6M53f8ANLiZAdG6HMq5TuVYqRfrRzy_IniY8cahCiOzwG-xBIBRZcYZCeEs2BePmP6KVA8aJ75BFi7dpGNqSBa2szc7HRhboH6rxYhCNSSSq7wtZ4K"
+   ],
+   [
+    "trendingtopics.eu",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4YMAXCD93i-FspZ0CBy36e0jtjxAwkglSJtFqUNrRmqO9e6qHZsX2GwnfQuNlzsJr6vL38qXbO0xKoBXkE44ZuCX5hu8EQcZ7b7SIOPFcDJWSfc4g9j9ckIiwfMv-Gz7G7vTChOgnFHcaAbwIgmUiXeA0BS9-_onbUv2gIIoQBPgNMEYAhnxKi86Emkk6_S_6exatRnxMDxAe0wFW7g=="
+   ],
+   [
+    "tracxn.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGPnZg4DyadH54RoXVSfiGH9tkovWFPJUYKURUJyAOLHq-EYJUw3Z-NnoD3wXayQbKsuMw9tgYqw7XB0LXLL5QWLY74qsPKrpxHyK6oQ18QNaFb83fQLL9_JS5jwU4SDZR6rpnX9W2FlF_dsCM-iL8_FdqPMhhEl0uSnM63TfbTdIT4mQZt7smMoH8lEfMbPi4PaGkdrjnSbq1ZvYoc3ORGxu3sxw=="
+   ],
+   [
+    "anthropic.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOSgeNQd4xnWqVneaO8XVQfibRY5fcw_puUfjPf9S8VbRQEZxc0Xp57k5TyYeBDJTe3ZAuF6zXzptcoA-YGDFrdbYb9TlKJBRFt9qUMuI8VfmYzuqBMYHAZb_DTByCeiKy2-E3UMdE5Fscll6JnznUWVihUXFgS9P_5nIO4g=="
+   ],
+   [
+    "observer.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoFRGSKSpzOIzLQcDrNJf5pJa0Z6DUillPRkvLDwfLbHRaygZUo7Sudc3eUMdiuMVaQrqMkJVCzZqnXRBjEPCoz0IfP-JnmSKCKmaeanK_Eo-BCWPwi-kmMbrTz3bUh2kcEjoemeAAKbNiQq34M1JV6AdMUc23Z9xe9urILf92mjUEA=="
+   ],
+   [
+    "kalkinemedia.com",
+    "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVzGIPORUY-nbo0yKAmccJyFYCQolFd4wWmX2cM26g1wAmD7pC5nNV-06gNWua71U7MtviISqR3_hffFHtIlPCDDaAPc3qoicPlIgJMZOdqjTIS5bK461EaQqf7C3kf-rUvtupqFL-4dxi9Mq3u_WpVKTz7rt7E_6fychA1yP4hKfVl0sY7wf69hrq3T79H-aJC6DCJTzJMJfjHRAwlPF6Ju-2apCzgjcBYNVHHEZJwjFd6OtnggOPOkmrixrfBE1iXmw="
+   ]
+  ],
+  "supports": [
+   {
+    "text": "```json\n{\n  \"items\": [\n    {\n      \"会社名\": \"Anthropic\",\n      \"関係\": \"上場\",\n      \"相手\": \"Nasdaq Global Select Market\",\n      \"金額\": \"\",\n      \"日付\": \"2026-11-19\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=\",\n      \"出典名\": \"Anthropic\",\n      \"確かさ\": \"公式\",\n      \"備考\": \"ティッカーシンボル 'ANT'",
+    "idx": [
+     0,
+     1,
+     2
+    ]
+   },
+   {
+    "text": "2026年11月18日に価格決定。",
+    "idx": [
+     0,
+     2,
+     3,
+     4
+    ]
+   },
+   {
+    "text": "\"\n    },\n    {\n      \"会社名\": \"Anthropic\",\n      \"関係\": \"資金調達 (私募)\",\n      \"相手\": \"AMD, Broadcom, Google, Micron, Microsoft, NVIDIA, TSMC Partners\",\n      \"金額\": \"約260億ドル\",\n      \"日付\": \"2026-11-20\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-GPl72uTwoaBXFvvNjdYJi7nU21nhuw7QnMjNzOzjw1XvMz7YhsxDs7mOcEnJ3lTQKvCELcFEDAO1Lg4DY8_m1yTD_voM2U3m4erkae_59PZgXws1EelBFgsLDkhrwwnQNw=\",\n      \"出典名\": \"Anthropic\",\n      \"確かさ\": \"公式\",\n      \"備考\": \"Class N普通株 (議決権なし) を1株あたり83ドルで販売。",
+    "idx": [
+     0,
+     5
+    ]
+   },
+   {
+    "text": "\"\n    },\n    {\n      \"会社名\": \"Anthropic\",\n      \"関係\": \"資金調達 (Series H)\",\n      \"相手\": \"Altimeter Capital, Dragoneer Investment Group, Sequoia Capital\",\n      \"金額\": \"650億ドル\",\n      \"日付\": \"2026-05\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=\",\n      \"出典名\": \"Wikipedia\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"評価額9,650億ドル。",
+    "idx": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   {
+    "text": "\"\n    },\n    {\n      \"会社名\": \"Anthropic\",\n      \"関係\": \"資金調達 (Series G)\",\n      \"相手\": \"GIC, Coatue\",\n      \"金額\": \"300億ドル\",\n      \"日付\": \"2026-02-12\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFA4kXKUxg9UGtqqlBBSsmRcuQKfRntVSwvvIYsMFJeyHflw1lOeEKrvdBFIrw4J4gUXZ29rM_NP7wq-7GybbYMhTLLBX3e-gz6gy6XNExRJBGEjx1FithdxD6h8LEuN2QdxQ=\",\n      \"出典名\": \"Wikipedia\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"評価額3,800億ドル。",
+    "idx": [
+     6,
+     10
+    ]
+   },
+   {
+    "text": "2026年末までに約1GWのTrainium2/3が稼働予定。",
+    "idx": [
+     11
+    ]
+   },
+   {
+    "text": "2026年Q3にAnthropicがSpaceXに約50億ドルを支払った。",
+    "idx": [
+     12,
+     13
+    ]
+   },
+   {
+    "text": "AnthropicはAMDから数百億ドル相当のAIサーバーチップを購入。\",\n      \"日付\": \"2026-07-22\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4YMAXCD93i-FspZ0CBy36e0jtjxAwkglSJtFqUNrRmqO9e6qHZsX2GwnfQuNlzsJr6vL38qXbO0xKoBXkE44ZuCX5hu8EQcZ7b7SIOPFcDJWSfc4g9j9ckIiwfMv-Gz7G7vTChOgnFHcaAbwIgmUiXeA0BS9-_onbUv2gIIoQBPgNMEYAhnxKi86Emkk6_S_6exatRnxMDxAe0wFW7g==\",\n      \"出典名\": \"Trending Topics\",\n      \"確かさ\": \"報道\",\n      \"備考\": \"AnthropicはAMD Instinct MI450シリーズGPUを最大2ギガワット展開。",
+    "idx": [
+     14
+    ]
+   },
+   {
+    "text": "創業者Cody TranbargerはAnthropicに入社。",
+    "idx": [
+     15,
+     16
+    ]
+   },
+   {
+    "text": "\"\n    },\n    {\n      \"会社名\": \"Anthropic\",\n      \"関係\": \"就任\",\n      \"相手\": \"\",\n      \"金額\": \"\",\n      \"日付\": \"2026-02\",\n      \"出典URL\": \"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBoFRGSKSpzOIzLQcDrNJf5pJa0Z6DUillPRkvLDwfLbHRaygZUo7Sudc3eUMdiuMVaQrqMkJVCzZqnXRBjEPCoz0IfP-JnmSKCKmaeanK_Eo-BCWPwi-kmMbrTz3bUh2kcEjoemeAAKbNiQq34M1JV6AdMUc23Z9xe9urILf92mjUEA==\",\n      \"出典名\": \"Observer\",\n      \"確かさ\": \"報道\",\n      \"人物\": \"Chris Liddell\",\n      \"役職\": \"取締役\",\n      \"移籍元\": \"(前職) 元Microsoft CFO, 元General Motors CFO, 元Deputy White House Chief of Staff\",\n      \"移籍先\": \"Anthropic\",\n      \"備考\": \"2026年11月20日にIPO株を83ドルで60,240株取得。",
+    "idx": [
+     17,
+     18
+    ]
+   }
+  ],
+  "usage": {
+   "promptTokenCount": 2815,
+   "candidatesTokenCount": 2771,
+   "totalTokenCount": 14216,
+   "cachedContentTokenCount": 493,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2815
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 493
+    }
+   ],
+   "toolUsePromptTokenCount": 3721,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 3721
+    }
+   ],
+   "thoughtsTokenCount": 4909,
+   "serviceTier": "standard"
+  }
+ }
+}
