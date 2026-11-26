@@ -28,3 +28,5 @@
 2026-11-25-gemini.json
 2026-11-25-jp-hr.json
 2026-11-25.json
+2026-11-26.json
+2026-11-26-jp-hr.json
