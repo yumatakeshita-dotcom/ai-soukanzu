@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-26",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Activant Capital(主導)ほか",
+   "to": "Sardine",
+   "kind": "出資",
+   "amount": "7000万ドル(シリーズC。累計1.45億ドル)",
+   "date": "2025-02-11",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。不正対策のAI。エージェントの本人確認・決済の安全の枠。会社の発表(Business Wire)の本文を開いて確認。",
+   "src": [
+    [
+     "Sardine AI Raises $70M(Business Wire、2025-02-11)",
+     "https://www.businesswire.com/news/home/20250211169372/en"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Madrona(主導)、Lakestar Capital",
+   "to": "Fyxer",
+   "kind": "出資",
+   "amount": "3000万ドル(シリーズB)",
+   "date": "2025-09-09",
+   "region": "英国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。メールを整理・下書きするAIアシスタント。会社のブログの本文を開いて確認。前のシリーズA(1000万ドル)は20VCが主導と報道。",
+   "src": [
+    [
+     "Announcing our $30M Series B(Fyxerのブログ、2025-09-09)",
+     "https://www.fyxer.com/blog/series-b-statement"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Susa Ventures(主導)、Browder Capital、SF1.vc ほか個人(Jeff Dean、Logan Kilpatrickなど。報道)",
+   "to": "Supermemory",
+   "kind": "出資",
+   "amount": "300万ドル(最初の調達。報道では260万ドルのシードとも)",
+   "date": "2025-10-06",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIの記憶(メモリー)の会社。創業者Dhravya Shah。会社のブログの本文を開いて確認。個人の出資者の名前はTechCrunchの報道ベース。",
+   "src": [
+    [
+     "Supermemory raises $3 million(会社のブログ、2025-10-06)",
+     "https://supermemory.ai/blog/supermemory-raises-3-million-and-building-the-best-memory-engine-for-llms"
+    ],
+    [
+     "A 19-year-old nabs backing from Google execs(TechCrunch、2025-10-06)",
+     "https://techcrunch.com/2025/10/06/a-19-year-old-nabs-backing-from-google-execs-for-his-ai-memory-startup-supermemory/"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Coinbase Ventures、a16z CSX",
+   "to": "Skyfire",
+   "kind": "出資",
+   "amount": "非公表(報道では100万ドル。それ以前のシードは850万ドル)",
+   "date": "2024-10-24",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIエージェントの支払いの仕組み。会社の発表(Business Wire)で、Coinbase Venturesとa16z CSXからの新しい出資を確認。金額は発表に書かれておらず報道ベース。",
+   "src": [
+    [
+     "AI Agents Race to Join Skyfire Payments Network(Business Wire、2024-10-24)",
+     "https://www.businesswire.com/news/home/20241024532897/en"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Spring Rock Ventures(主導)、BHG VC",
+   "to": "Vouched",
+   "kind": "出資",
+   "amount": "1700万ドル(シリーズA)",
+   "date": "2025-09-04",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIエージェントの本人確認(Know Your Agent)。会社の発表(Business Wire)の本文を開いて確認。",
+   "src": [
+    [
+     "Vouched Announces $17 Million Series A(Business Wire、2025-09-04)",
+     "https://www.businesswire.com/news/home/20250904708838/en"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Pebblebed(主導)、42CAP、Vermilion Ventures ほか",
+   "to": "Cognee",
+   "kind": "出資",
+   "amount": "750万ドル(シード)",
+   "date": "2026-02-19",
+   "region": "ドイツ",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIエージェントの記憶の基盤(ベルリン)。会社の発表の本文を開いて確認。エンジェルにGoogle DeepMind・n8n・Snowplowの人。",
+   "src": [
+    [
+     "Cognee Raises $7.5M Seed(会社の発表、2026-02-19)",
+     "https://www.cognee.ai/cognee-raises-seven-million-five-hundred-thousand-dollars-seed"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "SYN Ventures(主導)、Morgan Stanley、Wipro",
+   "to": "Arcade",
+   "kind": "出資",
+   "amount": "6000万ドル(シリーズA)",
+   "date": "2026-06-12",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIエージェントが外部のサービスを安全に使うための権限・つなぎこみ(Arcade.dev)。会社のブログの本文を開いて確認。前のシード(1200万ドル、2025/3)は主導の名前が出典ごとに違うので書かない。",
+   "src": [
+    [
+     "Arcade.dev Raises $60M Series A(会社のブログ、2026-06-12)",
+     "https://www.arcade.dev/blog/arcade-series-a/"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Air Street Capital(主導)、Madrona、Creandum、Entrepreneurs First",
+   "to": "Jack & Jill",
+   "kind": "出資",
+   "amount": "4000万ドル(シリーズA。累計6000万ドル)",
+   "date": "2026-09-16",
+   "region": "英国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIの採用担当(求職者側のJackと会社側のJill)。SiliconANGLEの本文で確認。前のシード(2000万ドル、2025/10)はCreandumが主導と同じ記事にある。日付は報道の日。",
+   "src": [
+    [
+     "Jack & Jill raises $40M(SiliconANGLE、2026-09-16)",
+     "https://siliconangle.com/2026/09/16/jack-jill-raises-40m-to-change-the-face-of-job-hunting-with-ai-agents/"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "General Catalyst(主導)ほか",
+   "to": "The Interaction Company of California(Poke)",
+   "kind": "出資",
+   "amount": "1500万ドル(シード。評価額1億ドルと報道)",
+   "date": "2025-09-08",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。iMessageなどで使うAIアシスタント「Poke」。General Catalystが自社の記事で「シードを主導」と書いているのを確認。金額と評価額は報道ベース。2026年に追加の調達(評価額3億ドル)の報道があるが、名前と金額が出典ごとに違うので足さない。",
+   "src": [
+    [
+     "Seeding the Future with The Interaction Company of California(General Catalyst、2025-09-08)",
+     "https://www.generalcatalyst.com/stories/seeding-the-future-with-the-interaction-company-of-california"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Stripe",
+   "to": "Privy",
+   "kind": "買収",
+   "amount": "非公表",
+   "date": "2025-06-11",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。暗号資産のウォレットの基盤。Privyのブログで買収の発表(Privyは単独の製品として続ける)。完了したかは確かめていない。",
+   "src": [
+    [
+     "Announcing our acquisition by Stripe(Privyのブログ、2025-06-11)",
+     "https://privy.io/blog/announcing-our-acquisition-by-stripe"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Ribbit Capital(主導)、Franklin Templeton、Nyca、First Round、Lightspeed Faction",
+   "to": "Crossmint",
+   "kind": "出資",
+   "amount": "2360万ドル(シード・シリーズA・戦略の3回の合計)",
+   "date": "2025-03-18",
+   "region": "米国",
+   "note": "a16zのカオスマップに載っていて、相関図に1件もなかったので足す。AIエージェントの支払い・ウォレットの基盤。報道(Fortune、The Block)で確認。会社の発表の本文は開けていない。",
+   "src": [
+    [
+     "Crossmint nets $24 million(Fortune、2025-03-18)",
+     "https://fortune.com/2025/03/18/crossmint-24-million-ribbit-capital-franklin-templeton-developer-platform-fundraise/"
+    ],
+    [
+     "Ribbit Capital leads $23.6 million funding round for Crossmint(The Block)",
+     "https://www.theblock.co/post/346863/ribbit-capital-leads-23-6-million-funding-round-for-enterprise-blockchain-platform-crossmint"
+    ],
+    [
+     "AIエージェント経済圏のカオスマップ(a16z。Tetsuro MiyatakeさんのX、2026-11-12)",
+     "https://x.com/tmiyatake1/status/2120670408961610202"
+    ]
+   ],
+   "confidence": "報道"
+  },
+  {
+   "from": "Kleiner Perkins(主導)ほか",
+   "to": "Saronic",
+   "kind": "出資",
+   "amount": "17.5億ドル(シリーズD、評価額92.5億ドル)",
+   "date": "2026-03-31",
+   "region": "米国",
+   "note": "BessemerとNewcomerの「AI 100」に名前があり、相関図に1件もなかったので足す。無人の船(海の自律航行)。会社の発表(PR Newswire)の本文を開いて確認。",
+   "src": [
+    [
+     "Saronic Closes $1.75B Series D(PR Newswire、会社の発表、2026-03-31)",
+     "https://www.prnewswire.com/apac/news-releases/saronic-closes-1-75b-series-d-at-9-25b-valuation-to-accelerate-a-new-era-of-maritime-autonomy-302729324.html"
+    ],
+    [
+     "The AI 100: benchmarks for the third supercycle(Bessemer、2026-11)",
+     "https://www.bvp.com/atlas/the-ai-100-benchmarks-for-the-third-supercycle"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "CapitalG・Valor Atreides AI Fund(共同主導)、8VC、Eclipse、NVentures(NVIDIA)ほか",
+   "to": "Bedrock Robotics",
+   "kind": "出資",
+   "amount": "2.7億ドル(シリーズB。評価額17.5億ドルと報道)",
+   "date": "2026-02-04",
+   "region": "米国",
+   "note": "「AI 100」に名前があり、相関図に1件もなかったので足す。工事の重機を自動で動かす。CapitalG(Alphabetの投資部門)の記事で共同主導を確認。金額・評価額・ほかの出資者は報道ベース。",
+   "src": [
+    [
+     "Bedrock Robotics: Autonomy for the Built World(CapitalG、2026-02-04)",
+     "https://capitalg.com/insights/bedrock-robotics-autonomy-for-the-built-world/"
+    ],
+    [
+     "Bedrock Robotics raises $270M(SiliconANGLE、2026-02-04)",
+     "https://siliconangle.com/2026/02/04/bedrock-robotics-raises-270m-scale-autonomous-construction-fleets/"
+    ],
+    [
+     "The AI 100: benchmarks for the third supercycle(Bessemer、2026-11)",
+     "https://www.bvp.com/atlas/the-ai-100-benchmarks-for-the-third-supercycle"
+    ]
+   ],
+   "confidence": "公式"
+  },
+  {
+   "from": "Accel・Andreessen Horowitz(共同主導)",
+   "to": "Mind Robotics",
+   "kind": "出資",
+   "amount": "5億ドル(シリーズA。評価額約20億ドルとWSJ報道)",
+   "date": "2026-03-11",
+   "region": "米国",
+   "note": "「AI 100」に名前があり、相関図に1件もなかったので足す。Rivianから分かれた工場ロボットの会社(会長はRivianのRJ Scaringe)。TechCrunchの本文で確認。その前のシード1.15億ドルはEclipseが主導。2026/5に追加で4億ドル(Kleiner Perkins主導)の報道があるが、本文は開いていないので書き添えだけ。",
+   "src": [
+    [
+     "Rivian spin-out Mind Robotics raises $500M(TechCrunch、2026-03-11)",
+     "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/"
+    ],
+    [
+     "The AI 100: benchmarks for the third supercycle(Bessemer、2026-11)",
+     "https://www.bvp.com/atlas/the-ai-100-benchmarks-for-the-third-supercycle"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "カオスマップ(a16z)で相関図になかった19社のうち11社を確かめて足した。見送り: Lindy(出資の主導が出典ごとに違う)、Rye(シリーズAが確かめられず、シード1400万ドルも出典1件)、Apify・Henry Labs・Honcho・Sauna・Seaworthy・Skydive(調達の発表が見つからない、または小さい)。AI 100はBessemerの解説記事(画像でない本文)から社名を拾い直し、相関図にないSaronic・Bedrock Robotics・Mind Roboticsを足した。全100社の一覧は今も画像かボット確認のあるページにしかなく、残りは照らせていない。"
+}

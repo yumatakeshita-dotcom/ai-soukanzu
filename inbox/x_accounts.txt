@@ -212,3 +212,5 @@
 @TheStalwart | money,deep | Bloomberg。市場とAI投資
 @ELYZA_inc | deep,money | 日本のLLM企業(松尾研発)
 @itmedia_news | deep,money | 日本のITニュース媒体
+# --- いいね・保存から (2026-11-26) ---
+@amorriscode | moves | Anthony Morris。Claude Codeのデスクトップ版を作った人。2026/10/23にAnthropicを退社、移籍先は未発表。発表を待つ
