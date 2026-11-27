@@ -30,3 +30,9 @@
 2026-11-25.json
 2026-11-26.json
 2026-11-26-jp-hr.json
+2026-11-24-backlog.json
+2026-11-26-backlog.json
+2026-11-27-hiring.json
+2026-11-27-jp-hr-2.json
+2026-11-27-jp-hr.json
+2026-11-27.json
