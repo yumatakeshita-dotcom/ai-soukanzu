@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-28",
+ "kind": "money",
+ "items": [
+  {
+   "from": "Brookfield",
+   "to": "Naver",
+   "kind": "出資",
+   "amount": "最大90億ドル(Nvidiaの10億ドルと合わせ約100億ドル。報道ベース)",
+   "date": "2026-07-24",
+   "note": "Naverの創業者が7/24のサンフランシスコAIサミットで発表。Brookfieldが独占的な資本パートナー、Nvidiaは10億ドルを出資。世界のAIインフラ事業を広げる狙い。相関図にまだなかった続報(Nvidia→Naverも同じ件)。",
+   "region": "韓国",
+   "backfill": true,
+   "src": [
+    [
+     "Korea JoongAng Daily(2026-07-25)",
+     "https://www.koreajoongangdaily.com/business/naver-secures-combined-10-billion-investment-from-nvidia-brookfield/12791136"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ],
+ "notes": "中国: SCMP・TechNodeを検索。SCMPは本文が開けず(ブロック)、移籍は名前確認できず外した(ByteDance Seed研究責任者の退社報道、Moonshot研究者Chen氏の退社)。智譜の9月の約50億ドル調達は単一ソース(Crypto Briefing)で本文が開けず外した。韓国: Korea Times・JoongAng Dailyを検索、Naverの件のみ本文で確認(1件)。欧州: Tech.eu・Sifted・Euronewsを検索、Mistralの9月の30億ユーロはすでに2026-11-21_thinにあり重複。Verda(1.89億ドル、Sifted 9/22)は本文が開けず外した。"
+}
