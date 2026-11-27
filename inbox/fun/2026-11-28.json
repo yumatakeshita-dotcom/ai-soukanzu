@@ -1,0 +1,41 @@
+{
+ "date": "2026-11-28",
+ "kind": "fun",
+ "items": [
+  {
+   "cat": "name",
+   "p": "Arm",
+   "en": "Arm Holdings",
+   "t": "社名の「ARM」は、最初は「エイコーン社のRISC機械」の略だった",
+   "note": "1983年に使われ始めたときは「Acorn RISC Machine」の略。1990年に会社として作られたときは「Advanced RISC Machines」に変わった。ウィキペディアは、変えたのはアップルが、競合する会社の名前を社名に入れたくなかったためだと、開発者のスティーブ・ファーバーの話として紹介している。",
+   "y": "1990",
+   "cf": "r",
+   "chk": "o",
+   "asof": "2026/11/28",
+   "src": [
+    [
+     "Wikipedia: Arm Holdings",
+     "https://en.wikipedia.org/wiki/Arm_Holdings"
+    ]
+   ],
+  },
+  {
+   "cat": "name",
+   "p": "Mistral AI",
+   "en": "Mistral AI",
+   "t": "社名は、南フランスに吹く強くて冷たい北西の風「ミストラル」から",
+   "note": "ウィキペディアは、ウォール・ストリート・ジャーナルの2024年2月の記事を出典に、そう説明している。",
+   "y": "2024",
+   "cf": "r",
+   "chk": "o",
+   "asof": "2026/11/28",
+   "src": [
+    [
+     "Wikipedia: Mistral AI",
+     "https://en.wikipedia.org/wiki/Mistral_AI"
+    ]
+   ]
+  }
+ ],
+ "notes": "今日の欄=name(土)。Gemini1回(社名の由来のテーマ。結果は資金調達の表で使えず不採用)、あとはWikipediaを開いて確認。外したもの: NVIDIA(既出)、Groq・Cerebras・Snowflake(由来の記述がWikipediaで見つからず)。"
+}
