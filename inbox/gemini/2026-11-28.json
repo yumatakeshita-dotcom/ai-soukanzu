@@ -1,0 +1,150 @@
+{
+ "date": "2026-11-28",
+ "kind": "gemini",
+ "topic": "直近3日のアジア(台湾・韓国・インド・中東と、東南アジアのシンガポール・インドネシア・ベトナム・タイ)のAI企業の資金調達・提携・人の動き。出典は Inc42・TechCrunch・DealStreetAsia など本文を開ける報道の記事URLを優先",
+ "model": "gemini-2.5-flash",
+ "checked": "ストア未作成のため、名前の照らし合わせだけ",
+ "items": [
+  {
+   "会社名": "Bridge Data Centres",
+   "関係": "資金調達の遅延",
+   "相手": "複数の銀行",
+   "金額": "6.6 billion USD",
+   "日付": "2026-11-27",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+   "確かさ": "報道",
+   "備考": "米国AIチップ規制により融資が遅延。Bain Capital傘下のマレーシアのデータセンター事業者。",
+   "src": [
+    [
+     "Investing.com (Bloomberg report)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Digital Halo",
+   "関係": "資金調達の中断",
+   "相手": "銀行",
+   "金額": "372 million USD",
+   "日付": "2026-11-27",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+   "確かさ": "報道",
+   "備考": "米国AIチップ規制により融資を拒否された。Partners Group傘下のマレーシアのデータセンター事業者。",
+   "src": [
+    [
+     "Investing.com (Bloomberg report)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  },
+  {
+   "会社名": "Aolani",
+   "関係": "資金調達の再検討",
+   "相手": "複数の銀行",
+   "金額": "480 million USD",
+   "日付": "2026-11-27",
+   "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+   "確かさ": "報道",
+   "備考": "米国AIチップ規制により融資が再検討されている。シンガポールを拠点とするネオクラウド事業者でByteDanceとの取引あり。",
+   "src": [
+    [
+     "Investing.com (Bloomberg report)",
+     "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    ]
+   ],
+   "既存の名前": [],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 404(ページが無い)"
+   }
+  }
+ ],
+ "grounding": [],
+ "grounding_resolved": [],
+ "process": {
+  "queries": [
+   "AI funding Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI funding Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI partnership Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI acquisition Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC",
+   "AI personnel Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC"
+  ],
+  "sources": [],
+  "supports": [],
+  "usage": {
+   "promptTokenCount": 2877,
+   "candidatesTokenCount": 2116,
+   "totalTokenCount": 14843,
+   "cachedContentTokenCount": 1078,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 2877
+    }
+   ],
+   "cacheTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 1078
+    }
+   ],
+   "toolUsePromptTokenCount": 5386,
+   "toolUsePromptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 5386
+    }
+   ],
+   "thoughtsTokenCount": 4464,
+   "serviceTier": "standard"
+  }
+ }
+}

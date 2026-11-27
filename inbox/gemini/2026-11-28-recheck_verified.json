@@ -1,0 +1,64 @@
+{
+ "date": "2026-11-28",
+ "source": "inbox/gemini/2026-11-28-recheck.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Google DeepMind",
+    "関係": "移籍",
+    "相手": "Anthropic",
+    "金額": "",
+    "日付": "2026-06-19",
+    "出典URL": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic",
+    "確かさ": "報道",
+    "備考": "(元のGeminiの出典: https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451)",
+    "人物": "John Jumper",
+    "役職": "Scientist",
+    "移籍元": "Google DeepMind",
+    "移籍先": "Anthropic",
+    "src": [
+     [
+      "TechCrunch",
+      "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic"
+     ]
+    ],
+    "既存の名前": [
+     "Google DeepMind",
+     "Anthropic"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 403"
+    },
+    "出典名": "TechCrunch"
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+     "names_on_page": [
+      "Google DeepMind",
+      "Anthropic",
+      "John Jumper"
+     ]
+    },
+    "dup": "「Google DeepMind」の同じころ(2026-06-19)の同じ種類の出来事がすでにある(site/data/finds.js)",
+    "date": [
+     "ページの公開日(2026-11-25)と159日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Google DeepMind」の同じころ(2026-06-19)の同じ種類の出来事がすでにある(site/data/finds.js)",
+    "日付: ページの公開日(2026-11-25)と159日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  }
+ ]
+}

@@ -4,6 +4,89 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-28-2　Googleの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- Google leadership changes 2025-2026 official announcement
+- Alphabet acquisitions 2025-2026 official
+- Google AI investments 2025-2026 official
+- Google Cloud major partnerships 2025-2026 official
+- Google DeepMind key personnel moves 2025-2026 official
+- Google executive appointments departures 2025-2026 newsroom
+
+**出てきた候補**
+
+- Alphabet → 就任 → (2026-08-05)
+- Google DeepMind → 就任 → (2026-08-05)
+- Alphabet → 出資/提携 → Discovery Loop(2026-08-05)
+- Google DeepMind → 移籍 → Anthropic(2026-06)
+- Google → 移籍 → OpenAI(2026-06)
+- Alphabet → 買収 → Wiz(2026-03)
+- Alphabet → 買収 → Intersect(2026-03)
+- Alphabet → 買収 → CSM(2026-02)
+- Google → 出資 → フィンランドAIインフラ(2026-09-09)
+- Google Cloud → 提携 → 富士通(2026-11-23)
+
+記録ファイル: inbox/gemini/2026-11-28-2.json / 2026-11-28-2.md
+
+## 2026-11-28　直近3日のアジア(台湾・韓国・インド・中東と、東南アジアのシンガポール・インドネシア・ベトナム・タイ)のAI企業の資金調達・提携・人の動き。出典は Inc42・TechCrunch・DealStreetAsia など本文を開ける報道の記事URLを優先
+
+- モデル: gemini-2.5-flash　/　候補 3件
+
+**Geminiが打った検索の言葉**
+
+- AI funding Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Taiwan November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel South Korea November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel India November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Middle East November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Singapore November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Indonesia November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Vietnam November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Thailand November 25 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Asia November 26 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI funding Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI partnership Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI acquisition Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+- AI personnel Asia November 27 2026 Inc42 TechCrunch DealStreetAsia Reuters Bloomberg CNBC
+
+**出てきた候補**
+
+- Bridge Data Centres → 資金調達の遅延 → 複数の銀行(2026-11-27)【保留】
+- Digital Halo → 資金調達の中断 → 銀行(2026-11-27)【保留】
+- Aolani → 資金調達の再検討 → 複数の銀行(2026-11-27)【保留】
+
+記録ファイル: inbox/gemini/2026-11-28.json / 2026-11-28.md
+
 ## 2026-11-27-2　Nvidiaの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
 
 - モデル: gemini-2.5-flash　/　候補 10件

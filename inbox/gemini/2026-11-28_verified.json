@@ -1,0 +1,135 @@
+{
+ "date": "2026-11-28",
+ "source": "inbox/gemini/2026-11-28.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Bridge Data Centres",
+    "関係": "資金調達の遅延",
+    "相手": "複数の銀行",
+    "金額": "6.6 billion USD",
+    "日付": "2026-11-27",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+    "確かさ": "報道",
+    "備考": "米国AIチップ規制により融資が遅延。Bain Capital傘下のマレーシアのデータセンター事業者。",
+    "src": [
+     [
+      "Investing.com (Bloomberg report)",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Digital Halo",
+    "関係": "資金調達の中断",
+    "相手": "銀行",
+    "金額": "372 million USD",
+    "日付": "2026-11-27",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+    "確かさ": "報道",
+    "備考": "米国AIチップ規制により融資を拒否された。Partners Group傘下のマレーシアのデータセンター事業者。",
+    "src": [
+     [
+      "Investing.com (Bloomberg report)",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Aolani",
+    "関係": "資金調達の再検討",
+    "相手": "複数の銀行",
+    "金額": "480 million USD",
+    "日付": "2026-11-27",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE=",
+    "確かさ": "報道",
+    "備考": "米国AIチップ規制により融資が再検討されている。シンガポールを拠点とするネオクラウド事業者でByteDanceとの取引あり。",
+    "src": [
+     [
+      "Investing.com (Bloomberg report)",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+     ]
+    ],
+    "既存の名前": [],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSc3iUPqN3hOSfgNiBacxoQdC5gvG6h-l_FuxAjyVdEi-maHmT8VhbX6vHat-xSG9sFBVscZ2l1A4AqyP66BVduLlWX0srjhKB7xx7weRSVv6__tcoTnKD5By1rGxreNwMkD-Ma5xzQLtkKRQLMwl1PRYsjBIE-JsRE6IIT14plhjy-5kBLvDjlx_pf_pwJz-CSaxKY-OBwbJ9BipzC5x1Jw8RJN3ul9NbmQ0j4dz1aXekdPdQhQtNH1kgThep2_lE="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  }
+ ]
+}

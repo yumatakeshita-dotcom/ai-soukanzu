@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-28",
+ "kind": "gemini",
+ "topic": "保留の確かめ直し",
+ "items": [
+  {
+   "会社名": "Google DeepMind",
+   "関係": "移籍",
+   "相手": "Anthropic",
+   "金額": "",
+   "日付": "2026-06-19",
+   "出典URL": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic",
+   "確かさ": "報道",
+   "備考": "(元のGeminiの出典: https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451)",
+   "人物": "John Jumper",
+   "役職": "Scientist",
+   "移籍元": "Google DeepMind",
+   "移籍先": "Anthropic",
+   "src": [
+    [
+     "TechCrunch",
+     "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic"
+    ]
+   ],
+   "既存の名前": [
+    "Google DeepMind",
+    "Anthropic"
+   ],
+   "URL確認": {
+    "検索で見たサイト": false,
+    "状態": "エラー",
+    "詳細": "HTTP 403"
+   },
+   "出典名": "TechCrunch"
+  }
+ ]
+}

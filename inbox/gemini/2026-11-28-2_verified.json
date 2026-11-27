@@ -1,0 +1,556 @@
+{
+ "date": "2026-11-28",
+ "source": "inbox/gemini/2026-11-28-2.json",
+ "results": [
+  {
+   "item": {
+    "会社名": "Alphabet",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08-05",
+    "出典URL": "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "Demis Hassabis",
+    "役職": "Alphabet Chief Scientist, Google DeepMind Chairman",
+    "移籍元": "Google DeepMind",
+    "移籍先": "Alphabet / Google DeepMind",
+    "src": [
+     [
+      "SoftwareSeni",
+      "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/"
+     ]
+    ],
+    "既存の名前": [
+     "Alphabet"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGteo2T16YNYtIfDkQGEZsS_LhiCly_SPtcWsQ047CiSd4nV4OuuHskSeYOuqbv6pZv32mL5AidRiFaegOgJbzV2RWljJHreFpLzxFvEAUKeJNiGw_YaC57byQa0r5PZHBNrTl7KRjy30b21TNWBvapwzGN4BchzZu7KQMcEVZrEbX39I2ROzUVwSzSipZsDSlUal3r",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Google DeepMind Leadership Restructuring: What Changed and W",
+     "状態": "ok",
+     "載っていた名前": [
+      "Alphabet"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/",
+     "names_on_page": [
+      "Alphabet",
+      "Demis Hassabis"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-08-19)と14日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "日付: ページの公開日(2026-08-19)と14日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Google DeepMind",
+    "関係": "就任",
+    "相手": "",
+    "金額": "",
+    "日付": "2026-08-05",
+    "出典URL": "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/",
+    "確かさ": "報道",
+    "備考": "Alphabet Chief AI Architectを兼任",
+    "人物": "Koray Kavukcuoglu",
+    "役職": "Senior Vice President of Google DeepMind",
+    "移籍元": "Google DeepMind",
+    "移籍先": "Google DeepMind",
+    "src": [
+     [
+      "SoftwareSeni",
+      "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/"
+     ]
+    ],
+    "既存の名前": [
+     "Google DeepMind"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGteo2T16YNYtIfDkQGEZsS_LhiCly_SPtcWsQ047CiSd4nV4OuuHskSeYOuqbv6pZv32mL5AidRiFaegOgJbzV2RWljJHreFpLzxFvEAUKeJNiGw_YaC57byQa0r5PZHBNrTl7KRjy30b21TNWBvapwzGN4BchzZu7KQMcEVZrEbX39I2ROzUVwSzSipZsDSlUal3r",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Google DeepMind Leadership Restructuring: What Changed and W",
+     "状態": "ok",
+     "載っていた名前": [
+      "Google DeepMind"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.softwareseni.com/google-deepmind-leadership-restructuring-and-what-it-changes/",
+     "names_on_page": [
+      "Google DeepMind",
+      "Koray Kavukcuoglu"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-08-19)と14日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "日付: ページの公開日(2026-08-19)と14日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Alphabet",
+    "関係": "出資/提携",
+    "相手": "Discovery Loop",
+    "金額": "",
+    "日付": "2026-08-05",
+    "出典URL": "https://www.insiderfinance.io/news/google-ai-leadership-shakeup-spawns-discovery-loop",
+    "確かさ": "報道",
+    "備考": "Jeff DeanらがGoogleを退社し設立。Alphabetは創業投資家かつクラウドパートナー",
+    "人物": "Jeff Dean, Sanjay Ghemawat, Oriol Vinyals, Quoc Le",
+    "役職": "Co-founders",
+    "移籍元": "Google",
+    "移籍先": "Discovery Loop",
+    "src": [
+     [
+      "InsiderFinance",
+      "https://www.insiderfinance.io/news/google-ai-leadership-shakeup-spawns-discovery-loop"
+     ]
+    ],
+    "既存の名前": [
+     "Alphabet",
+     "Discovery Loop"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHEHpWbrPlLfXO7n00ZN121lQlkXkuq3uwwDzrPgRQFLxdJIAjZg44MyZs3P2TUd8qKBAzzDrSI4OUpyVNVUozBGqZ8h76XEx8TtHHDSvblqvuYrIK51_gw_YWQikAAlovNJvZpKKvg1teOXnrrYzYDKjIlZY8Q4BLnRA3o3GhnmuRvaUcgJzwaegsBX_HSNA==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Google AI Leadership Shakeup Spawns Discovery Loop | Insider",
+     "状態": "ok",
+     "載っていた名前": [
+      "Alphabet",
+      "Discovery Loop"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.insiderfinance.io/news/google-ai-leadership-shakeup-spawns-discovery-loop",
+     "names_on_page": [
+      "Alphabet",
+      "Discovery Loop",
+      "Jeff Dean",
+      "Sanjay Ghemawat",
+      "Oriol Vinyals",
+      "Quoc Le"
+     ]
+    },
+    "dup": "「Alphabet」と「Discovery Loop」の組み合わせがすでにある(site/data/finds.js)",
+    "date": [
+     "ページの公開日(2026-11-25)と112日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Alphabet」と「Discovery Loop」の組み合わせがすでにある(site/data/finds.js)",
+    "日付: ページの公開日(2026-11-25)と112日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Google DeepMind",
+    "関係": "移籍",
+    "相手": "Anthropic",
+    "金額": "",
+    "日付": "2026-06",
+    "出典URL": "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451",
+    "確かさ": "報道",
+    "備考": "",
+    "人物": "John Jumper",
+    "役職": "Scientist",
+    "移籍元": "Google DeepMind",
+    "移籍先": "Anthropic",
+    "src": [
+     [
+      "Inc. Magazine",
+      "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451"
+     ]
+    ],
+    "既存の名前": [
+     "Google DeepMind",
+     "Anthropic"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt0r2qN97ma0XiCc9MuljqdDopy3roZ8yB6ZBqh9xoetKBwV3vzVOJ9HsTMSEWt5bchsjkScg9unSooC2Idxv_CPbo_d55-uQdBHTYVuUCE7b7RDxjDPKJGEPmKO4yciD1peeW1535Q_vJSzijcZYGCwtfo1oC3xrzr8XdZ5bjhV5G0p2d-m7LPZGR6A7jNz2DrJUZv-QuxQdpEtihtYgUUNdZ-Da0d6OTqIX9BwYJW1e2k_cvEUvemg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 403"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451"
+    },
+    "dup": "",
+    "date": [
+     "相関図の同じ組み合わせの日付(2026-11-24)と違う(別の出来事かもしれない)"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる",
+    "日付: 相関図の同じ組み合わせの日付(2026-11-24)と違う(別の出来事かもしれない)"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Google",
+    "関係": "移籍",
+    "相手": "OpenAI",
+    "金額": "",
+    "日付": "2026-06",
+    "出典URL": "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451",
+    "確かさ": "報道",
+    "備考": "Geminiモデルの共同リーダー",
+    "人物": "Noam Shazeer",
+    "移籍元": "Google",
+    "移籍先": "OpenAI",
+    "src": [
+     [
+      "Inc. Magazine",
+      "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451"
+     ]
+    ],
+    "既存の名前": [
+     "Google",
+     "OpenAI"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGt0r2qN97ma0XiCc9MuljqdDopy3roZ8yB6ZBqh9xoetKBwV3vzVOJ9HsTMSEWt5bchsjkScg9unSooC2Idxv_CPbo_d55-uQdBHTYVuUCE7b7RDxjDPKJGEPmKO4yciD1peeW1535Q_vJSzijcZYGCwtfo1oC3xrzr8XdZ5bjhV5G0p2d-m7LPZGR6A7jNz2DrJUZv-QuxQdpEtihtYgUUNdZ-Da0d6OTqIX9BwYJW1e2k_cvEUvemg==",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 403"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 403,
+     "final": "https://www.inc.com/georgia-fearn/google-put-one-executive-in-charge-of-gemini-after-eight-prominent-researchers-leave/91385451"
+    },
+    "dup": "「Google」と「OpenAI」の組み合わせがすでにある(site/index.html)",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "未確認: クラウドから出典のページにつながらない(HTTP 403)。人が開いて確かめる",
+    "重なり: 「Google」と「OpenAI」の組み合わせがすでにある(site/index.html)"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Alphabet",
+    "関係": "買収",
+    "相手": "Wiz",
+    "金額": "32000000000",
+    "日付": "2026-03",
+    "出典URL": "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/",
+    "確かさ": "報道",
+    "備考": "クラウドセキュリティ企業。2026年2月にEUからの無条件承認を受け、3月に買収完了",
+    "src": [
+     [
+      "The Motley Fool",
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/"
+     ]
+    ],
+    "既存の名前": [
+     "Alphabet",
+     "Wiz"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4-FJErBhOokIvXol8UNX7rLz3J9t6VXritUWRUpw8nOzSENu4oQyPQ6-38dheMkCT6d_YBUCbmFqUN6oE1qrWMYAw0xkSsQHaYSyuSKy0OEBuMSPQIHQJ4SS2x7sTp5Ih_g1lerVn-XuOIKOTx9XAhNiyxFSCwp3l2vEBFi4kk6t1A_vV",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "List of Companies that Alphabet (Google) Owns | The Motley F",
+     "状態": "ok",
+     "載っていた名前": [
+      "Alphabet",
+      "Wiz"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/",
+     "names_on_page": [
+      "Alphabet",
+      "Wiz"
+     ]
+    },
+    "dup": "「Alphabet」と「Wiz」の組み合わせがすでにある(site/index.html)",
+    "date": [
+     "ページの公開日(2026-11-11)と255日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Alphabet」と「Wiz」の組み合わせがすでにある(site/index.html)",
+    "日付: ページの公開日(2026-11-11)と255日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Alphabet",
+    "関係": "買収",
+    "相手": "Intersect",
+    "金額": "4750000000",
+    "日付": "2026-03",
+    "出典URL": "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/",
+    "確かさ": "報道",
+    "備考": "データセンターおよびエネルギー開発企業。負債も引き継ぐ。2026年3月に買収完了",
+    "src": [
+     [
+      "The Motley Fool",
+      "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/"
+     ]
+    ],
+    "既存の名前": [
+     "Alphabet"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4-FJErBhOokIvXol8UNX7rLz3J9t6VXritUWRUpw8nOzSENu4oQyPQ6-38dheMkCT6d_YBUCbmFqUN6oE1qrWMYAw0xkSsQHaYSyuSKy0OEBuMSPQIHQJ4SS2x7sTp5Ih_g1lerVn-XuOIKOTx9XAhNiyxFSCwp3l2vEBFi4kk6t1A_vV",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "List of Companies that Alphabet (Google) Owns | The Motley F",
+     "状態": "ok",
+     "載っていた名前": [
+      "Alphabet",
+      "Intersect"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://www.fool.com/investing/how-to-invest/stocks/what-does-alphabet-own/",
+     "names_on_page": [
+      "Alphabet",
+      "Intersect"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2026-11-11)と255日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "日付: ページの公開日(2026-11-11)と255日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Alphabet",
+    "関係": "買収",
+    "相手": "CSM",
+    "金額": "",
+    "日付": "2026-02",
+    "出典URL": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAkgmrgHajV_LxVkyCxmWIapDHb0rSKVCGJz1JlPO_v3a43FDD8FJ8N4ylCYfV0N70b91_0HR_eLipB3lb_ApPs7x1YhB1cpu7O3ZqcrRjwUiI_4JRyVV9H1kWu2bYIZ2KMQurfr8CaMHbrwlTopdEEb8b1olJeRy-cuPSPye4QgsonMd6U8-MEy6yiBZ7FGxV-xIzX-RCMjb7n3wRScGJauo=",
+    "確かさ": "報道",
+    "備考": "AIベースの3Dアセットおよびゲームスクリプト提供企業",
+    "src": [
+     [
+      "Tracxn",
+      "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAkgmrgHajV_LxVkyCxmWIapDHb0rSKVCGJz1JlPO_v3a43FDD8FJ8N4ylCYfV0N70b91_0HR_eLipB3lb_ApPs7x1YhB1cpu7O3ZqcrRjwUiI_4JRyVV9H1kWu2bYIZ2KMQurfr8CaMHbrwlTopdEEb8b1olJeRy-cuPSPye4QgsonMd6U8-MEy6yiBZ7FGxV-xIzX-RCMjb7n3wRScGJauo="
+     ]
+    ],
+    "既存の名前": [
+     "Alphabet"
+    ],
+    "URL確認": {
+     "検索で見たサイト": false,
+     "状態": "エラー",
+     "詳細": "HTTP 404(ページが無い)"
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "未確認",
+     "code": 404,
+     "final": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGAkgmrgHajV_LxVkyCxmWIapDHb0rSKVCGJz1JlPO_v3a43FDD8FJ8N4ylCYfV0N70b91_0HR_eLipB3lb_ApPs7x1YhB1cpu7O3ZqcrRjwUiI_4JRyVV9H1kWu2bYIZ2KMQurfr8CaMHbrwlTopdEEb8b1olJeRy-cuPSPye4QgsonMd6U8-MEy6yiBZ7FGxV-xIzX-RCMjb7n3wRScGJauo="
+    },
+    "dup": "",
+    "date": [],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "Geminiの転送リンクで、元の記事のURLにたどり着けない",
+    "未確認: クラウドから出典のページにつながらない(HTTP 404)。人が開いて確かめる"
+   ],
+   "verdict": "保留",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Google",
+    "関係": "出資",
+    "相手": "フィンランドAIインフラ",
+    "金額": "15100000000",
+    "日付": "2026-09-09",
+    "出典URL": "https://esgnews.com/google-commits-15-1-billion-to-finland-ai-buildout/",
+    "確かさ": "報道",
+    "備考": "2027年と2028年の2年間で少なくとも151億ドルをフィンランドのAIインフラに投資。3つの新規データセンター建設、Fortumとの22年間の原子力発電購入契約を含む",
+    "src": [
+     [
+      "ESG News",
+      "https://esgnews.com/google-commits-15-1-billion-to-finland-ai-buildout/"
+     ]
+    ],
+    "既存の名前": [
+     "Google"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFz4mmaoRkQ1SZcYt9SGUpRmkPjVw9IqXPmYDTYHAnX0RiRsRdsnSjoJFsv_m8PM5Xo3KXVw-WPCyPFGNtNXkHTY5Kw0N9or15pN7FxunMlo_MPzFlkPCnfRLy36IMf36hKqiDgzTmTXkcuqn6vfhuIm1PfbqHXJmUeTBY7YSZ4Aww=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Google Commits $15.1 Billion to Finland AI Buildout - ESG Ne",
+     "状態": "ok",
+     "載っていた名前": [
+      "Google"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://esgnews.com/google-commits-15-1-billion-to-finland-ai-buildout/",
+     "names_on_page": [
+      "Google"
+     ]
+    },
+    "dup": "",
+    "date": [
+     "ページの公開日(2021-12-20)と1724日ずれる"
+    ],
+    "cf": {
+     "claimed": "報道",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "日付: ページの公開日(2021-12-20)と1724日ずれる"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  },
+  {
+   "item": {
+    "会社名": "Google Cloud",
+    "関係": "提携",
+    "相手": "富士通",
+    "金額": "",
+    "日付": "2026-11-23",
+    "出典URL": "https://evertiq.com/design/2026-11-23-fujitsu-expands-partnership-with-google-cloud-to-boost-ai-transformation",
+    "確かさ": "公式",
+    "備考": "AIおよびクラウドテクノロジーの安全な利用とAIトランスフォーメーションを加速するための戦略的パートナーシップを拡大",
+    "src": [
+     [
+      "Evertiq",
+      "https://evertiq.com/design/2026-11-23-fujitsu-expands-partnership-with-google-cloud-to-boost-ai-transformation"
+     ]
+    ],
+    "既存の名前": [
+     "Google Cloud",
+     "富士通"
+    ],
+    "転送リンク": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFk2zzWA_3j1CgyRoYVnlN_wDOfxfbWpWK-dySIIl6sWlwCDJs_2t5gq2qGZz0eQDkBm-bfb_ztHjqd9r2nUzdtBB3EKV60t82loTAdO30K2cswX_nGYwHWNqyUs09i6KdNo7E8f-rJ9Iur4_nizf--apVNXtKwWgZUsGCmvTk_SWJ04h3oNl9s0RkLp2fFZWGlTDQAt0OYJE6uFSRgTIMOJy-qEst52Q0=",
+    "URL確認": {
+     "検索で見たサイト": false,
+     "詳細": "Fujitsu expands partnership with Google Cloud to boost AI tr",
+     "状態": "ok",
+     "載っていた名前": [
+      "Google Cloud"
+     ]
+    }
+   },
+   "checks": {
+    "url": {
+     "state": "ok",
+     "code": 200,
+     "final": "https://evertiq.com/design/2026-11-23-fujitsu-expands-partnership-with-google-cloud-to-boost-ai-transformation",
+     "names_on_page": [
+      "Google Cloud"
+     ]
+    },
+    "dup": "「Google Cloud」の同じころ(2026-11-23)の同じ種類の出来事がすでにある(site/data/finds.js)",
+    "date": [
+     "ページの公開日(2026-11-32)と22日ずれる"
+    ],
+    "cf": {
+     "claimed": "公式",
+     "fixed": "報道"
+    }
+   },
+   "notes": [
+    "重なり: 「Google Cloud」の同じころ(2026-11-23)の同じ種類の出来事がすでにある(site/data/finds.js)",
+    "日付: ページの公開日(2026-11-32)と22日ずれる",
+    "確かさ「公式」は出典の種類と合わないので「報道」にした"
+   ],
+   "verdict": "除外",
+   "confidence": "報道"
+  }
+ ]
+}

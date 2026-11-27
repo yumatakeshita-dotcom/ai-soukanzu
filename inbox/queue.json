@@ -1181,10 +1181,18 @@
    "reason": "重要度ランキング3位(つながり65・直近の動き2・ニュース17)。よく見られそうな会社を先に確かめる",
    "priority": 10,
    "rank": 3,
-   "status": "未",
-   "last_researched": null,
-   "attempts": 0,
-   "history": [],
+   "status": "調査済",
+   "last_researched": "2026-11-28",
+   "attempts": 1,
+   "history": [
+    {
+     "date": "2026-11-28",
+     "result": "調査済",
+     "file": "inbox/gemini/2026-11-28-2.md",
+     "note": "Geminiの候補10件",
+     "items": 10
+    }
+   ],
    "added": "2026-11-21"
   },
   {

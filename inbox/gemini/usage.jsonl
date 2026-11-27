@@ -144,3 +144,5 @@
 {"at": "2026-11-27T07:09:25+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 3021, "out": 76}
 {"at": "2026-11-27T07:09:46+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 3126, "out": 81}
 {"at": "2026-11-27T07:09:46+00:00", "model": "-", "result": "cap", "in": null, "out": null}
+{"at": "2026-11-27T23:24:23+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2877, "out": 2116}
+{"at": "2026-11-27T23:25:20+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2853, "out": 3117}

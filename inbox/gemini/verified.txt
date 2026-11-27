@@ -19,3 +19,6 @@ inbox/gemini/2026-11-26-2.json
 inbox/gemini/2026-11-26-recheck.json
 inbox/gemini/2026-11-27.json
 inbox/gemini/2026-11-27-2.json
+inbox/gemini/2026-11-28.json
+inbox/gemini/2026-11-28-2.json
+inbox/gemini/2026-11-28-recheck.json
