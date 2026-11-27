@@ -16,6 +16,35 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 記録ファイル: inbox/gemini/2026-11-28-recheck.json
 
+## 2026-11-28-3　AI企業・半導体企業の社名・サービス名の由来(公式ブログ・創業者本人・Wikipediaに載っているもの)。例: NVIDIA, OpenAI以外のAnthropic, Cerebras, Groq, Mistral, Perplexity, Databricks, Snowflake, Cohere, Scale AI, Stripe。既出(Palantir, Anduril, Hugging Face)は除く。各件に出典URL
+
+- モデル: gemini-2.5-flash　/　候補 10件
+
+**Geminiが打った検索の言葉**
+
+- NVIDIA Jensen Huang CEO stepped down OR OR OR OR before:2026-11-28
+- NVIDIA Jensen Huang CEO returned OR OR OR OR before:2026-11-28
+- Anthropic IPO OR OR OR OR before:2026-11-28
+- Anthropic goes public before:2026-11-28
+- 東京電力 AIインフラ 10兆円 OR OR OR before:2026-11-28
+- TEPCO AI infrastructure investment 10 trillion yen before:2026-11-28
+- NVIDIA China export restrictions November 2026 OR OR OR OR before:2026-11-28
+
+**出てきた候補**
+
+- NVIDIA → 退任 → (2026-11-12)
+- NVIDIA → 就任 → (2026-11-12)
+- NVIDIA → 就任 → (2026-11-23)
+- Anthropic → 上場 → Nasdaq(2026-11-19)
+- 東京電力ホールディングス → 投資 → AIインフラ (送電網、原子力発電所など)(2026-11-27)
+- 東京電力ホールディングス → 提携 → ソフトバンク, KKR, Blackstone(2026-11-27)
+- JERA → 取引 → Anthropic, Meta, Amazon(2026-11-27)
+- NVIDIA → 取引停止 → 東南アジア (シンガポール、タイ、マレーシア、インドネシア) のデータセンター(2026-11-26)
+- NVIDIA → 取引停止 → 中国(2026-11-17)
+- 米国政府 → 貿易制限 → Megaspeed (シンガポール) およびそのタイ・マレーシア子会社(2026-11-26)
+
+記録ファイル: inbox/gemini/2026-11-28-3.json / 2026-11-28-3.md
+
 ## 2026-11-28-2　Googleの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
 
 - モデル: gemini-2.5-flash　/　候補 10件
