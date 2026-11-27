@@ -129,3 +129,15 @@
 {"at": "2026-11-26T23:26:31+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 351, "out": 658}
 {"at": "2026-11-26T23:26:53+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 359, "out": 1744}
 {"at": "2026-11-27T00:20:59+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 260, "out": 963}
+{"at": "2026-11-27T01:09:36+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:09:58+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:11:08+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:13:14+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:13:28+00:00", "model": "gemini-flash-latest", "result": "ok", "in": 3293, "out": 4}
+{"at": "2026-11-27T01:13:50+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:14:18+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:15:23+00:00", "model": "gemini-2.5-flash", "result": "503", "in": null, "out": null}
+{"at": "2026-11-27T01:17:43+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2917, "out": 341}
+{"at": "2026-11-27T01:18:19+00:00", "model": "gemini-2.5-flash", "result": "ok", "in": 2957, "out": 392}
+{"at": "2026-11-27T01:18:19+00:00", "model": "gemini-2.5-flash", "result": "429", "in": null, "out": null}
+{"at": "2026-11-27T01:18:24+00:00", "model": "gemini-flash-latest", "result": "503", "in": null, "out": null}

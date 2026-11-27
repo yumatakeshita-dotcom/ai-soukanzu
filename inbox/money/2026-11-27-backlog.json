@@ -1,0 +1,83 @@
+{
+ "date": "2026-11-27",
+ "kind": "money",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "from": "Accel(主導)・Kleiner Perkins・既存投資家",
+   "to": "Modal",
+   "kind": "出資",
+   "amount": "$750M(Series D・評価額 $157.5億)",
+   "date": "2026-10-14",
+   "note": "AI向けクラウドのModalの調達。年間売上の run rate が $10億超。過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "The Next Web(2026/10/14)",
+     "https://thenextweb.com/news/modal-750m-series-d-15-75bn-valuation"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "DoorDash",
+   "to": "Instacart",
+   "kind": "買収",
+   "amount": "約$170億(1株$65)",
+   "date": "2026-10-29",
+   "note": "DoorDashがInstacartを買収で合意。完了は2027年末〜2028年前半の見込みで、米独禁当局などの承認待ち。過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "DoorDash 8-K(プレスリリース、2026/10)",
+     "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm"
+    ],
+    [
+     "TechCrunch(2026/10/29)",
+     "https://techcrunch.com/2026/10/29/doordash-to-acquire-instacart-for-17b/"
+    ]
+   ],
+   "confidence": "開示",
+   "via": "backlog"
+  },
+  {
+   "from": "SpaceX",
+   "to": "xAI",
+   "kind": "出資",
+   "amount": "$20億(報道ベース、$50億の調達の一部)",
+   "date": "2025-07-13",
+   "note": "WSJが報じ、各社が転載。両社は当時コメントせず。報道ベース。過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Fox Business(WSJ報道の転載、2025/07/13)",
+     "https://www.foxbusiness.com/technology/elon-musks-spacex-invest-2-billion-his-xai-startup-report"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
+  },
+  {
+   "from": "既存投資家(Series K)",
+   "to": "Databricks",
+   "kind": "出資",
+   "amount": "評価額 $1000億超(Series K。$10億調達はReuters報道)",
+   "date": "2025-08-19",
+   "note": "Databricksが Series K のターム・シートを発表。調達額は公式では非開示。過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Databricks 公式リリース(2025/08/19)",
+     "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-series-k-investment-100-billion-valuation"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  }
+ ]
+}

@@ -1,8 +1,8 @@
 # 過去の動画・番組の手がかり 確認の進み具合
 
-更新: 2026-11-26
+更新: 2026-11-27
 
-checked 383 / done 23 / todo 325 / unverified 15
+checked 387 / done 27 / todo 321 / unverified 17
 
 - todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)
 - リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`
@@ -23,4 +23,6 @@ checked 383 / done 23 / todo 325 / unverified 15
 - 2025-08-14 20VC「20VC: GPT5: Sam Altman's Masterplan or a Gift To Anthropic | Palantir 」: n8n B・Perplexity Chrome入札の本回確認は未了
 - 2025-07-31 20VC「20VC: Benchmark Loses Another Partner | Elad Gil Raises a Monster $1.5」: Elad Gilのファンド最終額が報道で食い違い($1.5B目標→約$3B目標)。確定せず
 - 2025-07-24 20VC「20VC: Lovable Raises at $2BN & Hits $100M ARR | Is Cursor Worth $28BN 」: Lovable B調達の公式確認まで至らず(本回では未検索)
+- 2025-07-23 TBPN「Apple Goes Full Throttle on F1, Meme Stocks Make a Comeback, Amazon's 」: Vanta Series D .5億は説明文のみ。今回は確認せず
+- 2025-07-22 TBPN「OpenAI's New CEO of Applications Shares Optimistic Memo, Stargate Hits」: Musk側近のxAI 20億調達は説明文の1行のみで、日付・出資者が確かめられず
 - 2025-07-12 Big Technology Podcast「OpenAI’s Windsurf Crash, Grok’s Wild Week, Replace Tim Cook? — With Aa」: 出典URLなし。Windsurf取引は別に既出の可能性

@@ -200,6 +200,23 @@
     "join"
    ]
   },
+  "05aec3ab95": {
+   "companies": [
+    "NVIDIA"
+   ],
+   "desc": "If an AI buys your plane ticket, it shouldn’t come back with a new car. Red Hat’s Chris Wright explains why AI agents need clear limits.",
+   "id": "05aec3ab95",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-23",
+   "source": "NVIDIA",
+   "status": "todo",
+   "title": "Tomorrow on the NVIDIA AI Podcast.",
+   "url": "https://www.youtube.com/watch?v=oF2xi9BaHco",
+   "words": [
+    "buys"
+   ]
+  },
   "05e7c68ff0": {
    "companies": [
     "Amazon",
@@ -2080,10 +2097,10 @@
    ],
    "desc": "AGENDA: 04:00 OpenAI Cuts Valuation to $1.25 Trillion as Fundraise Shrinks 08:00 Google Loses $500 Billion as AI Stocks Sell Off 10:00 Anthropic's Growth Slows as AI Price War Intensifies 27:00 DoorDash Buys Instacart for $17 Billion 33:00 Kalshi Raises $1 Billion at $40 Billion Despite Legal Threats 41:00 Cognition Eyes $80 Billion as Baseten Hits $30 Billion and Serval $3 Billion 51:00 AI Law Fi",
    "id": "299b00d5dc",
-   "note": "",
+   "note": "DoorDash/Instacart(開示)を足した。OpenAI評価額引き下げ等は報道の見出しのみで未確認",
    "published": "2026-11-05",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: OpenAI Cuts Valuation to $1.25TRN | Public Market Meltdown: GOOG Loses $500BN in 12 Hours | DoorDash Buys Instacart for $17BN | Kalshi Raises $1BN and Cognition Eyes $80BN Valuation",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-openai-cuts-valuation-to-125trn-public-market-meltdown-goog-loses-500bn-in-12-hours-doordash-buys-instacart-for-17bn-kalshi-raises-1bn-and-cognition-eyes-80bn-valuation",
    "words": [
@@ -2373,10 +2390,10 @@
    ],
    "desc": "(01:34) - Apple Goes Full Throttle on F1 (18:43) - Meme Stocks Are Back (37:27) - Amazon's New Wearable AI Device (56:53) - Timeline (01:19:54) - Christina Cacioppo is the founder and CEO of Vanta, a trust management platform that automates security and compliance processes for businesses. She discusses Vanta's recent $150 million Series D funding round, which increased the company's valuation to ",
    "id": "2e9346981f",
-   "note": "",
+   "note": "Vanta Series D .5億は説明文のみ。今回は確認せず",
    "published": "2025-07-23",
    "source": "TBPN",
-   "status": "todo",
+   "status": "unverified",
    "title": "Apple Goes Full Throttle on F1, Meme Stocks Make a Comeback, Amazon's New Wearable AI Device | Christina Cacioppo, Deena Shakir, Davide Asnaghi, Ylan Richard",
    "url": "https://share.transistor.fm/s/421c1711",
    "words": [
@@ -3481,6 +3498,24 @@
    "url": "https://share.transistor.fm/s/1ac96317",
    "words": [
     "joins"
+   ]
+  },
+  "43915aed74": {
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ],
+   "desc": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development. They trace OpenAI’s life sciences work from scientific reasoning to the acquisition of Orchestra Bio, and how agents could search biological data, manage ",
+   "id": "43915aed74",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-23",
+   "source": "The a16z Show",
+   "status": "todo",
+   "title": "The One-Person Biotech | OpenAI Life Sciences",
+   "url": "https://a16z.simplecast.com/episodes/the-one-person-biotech-openai-life-sciences-TrZddFUB",
+   "words": [
+    "acquisition"
    ]
   },
   "43d42e5511": {
@@ -4800,10 +4835,10 @@
    ],
    "desc": "Ranjan Roy from Margins and Alex Stamos from Cognition are back for our weekly discussion of the latest tech news. We cover: 1) Is Sundar Pichai team product or team model? 2) Google's attempt to build a unified assistant 3) Which Google teams get priority? 4) Sundar's cloud allocation between Google Cloud and AI Research 5) Will Google Cloud Platform overtake Azure? 6) Meta Stock falls on worries",
    "id": "59dccff4b4",
-   "note": "",
+   "note": "動きではない(週次の雑談回)",
    "published": "2026-10-23",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "Google’s Potential, AI Money Spigot Shutting?, PHP Bug & Cybersecurity’s “Black October”",
    "url": "",
    "words": [
@@ -6927,10 +6962,10 @@
    ],
    "desc": "Agenda: 00:00 – Databricks hits $100B: Bubble or just the beginning? 03:15 – Is Databricks actually undervalued at 25x revenue? 07:40 – Are we on the verge of the biggest IPO wave ever? 11:30 – Can Andreessen's Databricks bet return $30B+? 18:10 – Who really gets rich when mega-unicorns IPO? 19:30 – Is the return of Chamath's SPACs the ultimate bubble signal? 28:00 – Should OpenAI staff be cashing",
    "id": "8662d3c6e7",
-   "note": "",
+   "note": "Databricks Series K(公式)を足した",
    "published": "2025-08-21",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Databricks at $100BN | Chamath's SPAC Revival: Peak Mania? | OpenAI Staff Cash Out Billions & Sam Altman Will Spend Trillions | CoreWeave's $11B Debt Bet & Nubank's $2.5B Profit Shocker",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-databricks-at-100bn-chamaths-spac-revival-peak-mania-openai-staff-cash-out-billions-sam-altman-will-spend-trillions-coreweaves-11b-debt-bet-nubanks-25b-profit-shocker",
    "words": [
@@ -7184,10 +7219,10 @@
    ],
    "desc": "(00:26) - OpenAI Product Roadmap (35:47) - OpenAI to Pay Oracle $30B Per Year (39:41) - Stargate Hits Early Struggles (46:53) - Musk Allies to Raise $12B for xAI (56:23) - Intern Cam Live from Tesla Diner (01:05:50) - Anatoly Yakovenko, co-founder and CEO of Solana Labs, discusses the inception and evolution of Solana, emphasizing its design for high-performance and scalability to support global f",
    "id": "8b0e657827",
-   "note": "",
+   "note": "Musk側近のxAI 20億調達は説明文の1行のみで、日付・出資者が確かめられず",
    "published": "2025-07-22",
    "source": "TBPN",
-   "status": "todo",
+   "status": "unverified",
    "title": "OpenAI's New CEO of Applications Shares Optimistic Memo, Stargate Hits Early Struggles, P&G Pays Unilever $10M in Spying Case | Anatoly Yakovenko, Aaron Levie, Neil Parikh & Daniel Cahn, Jan Sramek, Nathaniel Manning, Chris Andrew",
    "url": "https://share.transistor.fm/s/38b06681",
    "words": [
@@ -7396,10 +7431,10 @@
    ],
    "desc": "AGENDA: 04:20 Billion-Dollar Bets or Nothing: Why VCs Are Rejecting Fast-Growing Startups 13:20 CoreWeave Sell-Off Sparks Fears of Cracks in AI Boom 18:50 Anthropic's IPO Valuation Could Fall From $2 TRN to $1.5 TRN 32:10 Modal Raises $750M at a $15.75B Valuation as Inference Booms 35:50 Town at $1B, Anduril at $90B: Have Startup Valuations Lost Touch? 42:15 Berkshire Hathaway Doubles Down on Bend",
    "id": "8d890df438",
-   "note": "",
+   "note": "Modal・DoorDash/Instacartを足した",
    "published": "2026-10-22",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Trillion or Bust: The New VC Game | Coreweave Sell-Off Creates Panic | Town at $1B, Anduril at $90B: Revenue Multiples Out of Control | General Atlantic Eyes IPO & Modal Raises $750M at $15.75B",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-trillion-or-bust-the-new-vc-game-coreweave-sell-off-creates-panic-town-at-1b-anduril-at-90b-revenue-multiples-out-of-control-general-atlantic-eyes-ipo-modal-raises-750m-at-1575b",
    "words": [
@@ -8884,10 +8919,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Google's Gemini may power Siri 2) Google gets to keep Chrome and Android 3) Google can keep paying Apple for distribution 4) Is generative AI enough rationale to allow the market to decide Google's fate? 5) Google's Nano Banana image creator goes viral 6) Google's stock is up 47% in the past year and st",
    "id": "a697f5e8ba",
-   "note": "",
+   "note": "動きではない(Google/Siriの雑談回)",
    "published": "2025-09-05",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "Google’s Best Week Ever, AI’s Rising Costs, Putin and Xi’s Immortality Quest",
    "url": "",
    "words": [
@@ -10198,6 +10233,25 @@
     "joins"
    ]
   },
+  "c0966e2e11": {
+   "companies": [
+    "OpenAI",
+    "a16z"
+   ],
+   "desc": "What happens when scientists are no longer limited by human attention? OpenAI’s Joy Jiao and Ashoka Rajendra join a16z’s Jay Rughani and Jorge Conde to discuss how AI and thousands of parallel agents could reshape drug discovery and development. They trace OpenAI’s life sciences work from scientific reasoning to the acquisition of Orchestra Bio, and how agents could search biological data, manage ",
+   "id": "c0966e2e11",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-23",
+   "source": "a16z",
+   "status": "todo",
+   "title": "Why OpenAI Acquired a Biotech Startup",
+   "url": "https://www.youtube.com/watch?v=RwYz8XhZiu0",
+   "words": [
+    "acquired",
+    "acquisition"
+   ]
+  },
   "c203680956": {
    "companies": [
     "OpenAI"
@@ -10454,10 +10508,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Alex's profile of Anthropic CEO Dario Amodei + extra reporting 2) Are Anthropic's convictions earnest or marketing? 3) Where does Anthropic fit in the broader AI landscape 4) Will one AI company 'win it all' 5) Anthropic is raising at a new, $170 billion valuation 6) OpenAI hits 700 million ChatGPT user",
    "id": "c6118d78cc",
-   "note": "",
+   "note": "動きではない(Anthropic評価額は雑談回の話題。2025/08の報道ベースで日付・出資者が不明)",
    "published": "2025-08-01",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "Anthropic’s Potential, AI Video Gets Crazy, Market Bubble Approaching?",
    "url": "",
    "words": [
@@ -10616,10 +10670,10 @@
    ],
    "desc": "(00:36) - Windsurf's Wild Weekend (04:50) - Cognition to Acquire Windsurf (13:06) - Timeline Reactions to Windsurf Deal Collapse (26:43) - Windsurf Timeline of Events Breakdown (57:40) - Zuck's New AI Data Supercluster (01:10:53) - Space X Invests $2B into xAI (01:19:39) - Casey Neistat Joins ModRetro (01:21:10) - Timeline (01:30:01) - Jeff Huber, a seasoned technology executive and entrepreneur, ",
    "id": "ca51624a2a",
-   "note": "",
+   "note": "SpaceXのxAI出資(報道ベース)を足した",
    "published": "2025-07-14",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "Windsurf's Wild Weekend, SpaceX Invests $2B into xAI, Zuck's AI Data Supercluster | Jeff Huber, Scott Wu & Jeff Wang, Carl Pei, Garrett McCurrach",
    "url": "https://share.transistor.fm/s/f032bc92",
    "words": [
@@ -11082,6 +11136,24 @@
     "joins"
    ]
   },
+  "d14168147c": {
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ],
+   "desc": "Dan Ives, Partner and Senior Managing Director at Yorkville Ives & Co., and Steve Sosnick, Interactive Brokers chief strategist, join 'Power Lunch' to discuss Jensen Huang's reinstatement as Nvidia CEO and its impact on the markets.",
+   "id": "d14168147c",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-23",
+   "source": "CNBC Television",
+   "status": "todo",
+   "title": "Dan Ives: Shareholder activism was the groundswell to bringing Jensen Huang back",
+   "url": "https://www.youtube.com/watch?v=DaYx5j0uAgQ",
+   "words": [
+    "joins(役職)"
+   ]
+  },
   "d1ad39cd1a": {
    "companies": [
     "Microsoft",
@@ -11439,6 +11511,31 @@
    "url": "https://share.transistor.fm/s/b99b9555",
    "words": [
     "acquires"
+   ]
+  },
+  "dac7f4af72": {
+   "companies": [
+    "Anthropic",
+    "Jensen",
+    "Mistral",
+    "Nvidia",
+    "a16z"
+   ],
+   "desc": "Anjney Midha is one of Anthropic's earliest angel investors, backing the company in its founding round in 2021. Previously a General Partner at Andreessen Horowitz, he led investments in Mistral and Black Forest Labs. He was also an early angel investor in ElevenLabs and remains a Venture Partner at a16z. AGENDA: 05:00 Can America Power the AI Boom—or Is China Already Too Far Ahead? 18:00 Will Tra",
+   "id": "dac7f4af72",
+   "newnames": [
+    "Uninvestable",
+    "Tranched",
+    "Anjney"
+   ],
+   "note": "動きではない(Anjney Midhaは2021年のAnthropic創業時の天使投資家という紹介。日付・金額なし)",
+   "published": "2026-11-23",
+   "source": "20VC",
+   "status": "checked",
+   "title": "20VC: Nvidia Without Jensen: Is Anthropic the Real Winner? | \"Fire the Bankers\": Why Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable and Tranched Rounds Should Be Banned with Anjney Midha",
+   "url": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-without-jensen-is-anthropic-the-real-winner-fire-the-bankers-why-most-vcs-wont-survive-ai-why-the-inference-layer-is-uninvestable-and-tranched-rounds-should-be-banned-with-anjney-midha",
+   "words": [
+    "funding"
    ]
   },
   "dadd228d9a": {
@@ -11894,6 +11991,26 @@
    "url": "https://allinchamathjason.libsyn.com/nikesh-arora-mythos-is-real-analytical-saas-is-dead-and-google-can-be-a-10t-company",
    "words": [
     "joins"
+   ]
+  },
+  "e40dca7206": {
+   "companies": [
+    "Jensen",
+    "Nvidia"
+   ],
+   "desc": "Alex Kantrowitz is the host of Big Technology Podcast. Today he joins for a solo episode covering the return of Jensen Huang as CEO of Nvidia. Tune in to hear what Jensen's comeback means for Nvidia, U.S. AI, China AI, and why' the story isn't anywhere close to over. (Sorry for the sirens, a car crashed in front of my studio just before we started recording) Learn more about your ad choices. Visit",
+   "id": "e40dca7206",
+   "newnames": [
+    "Shocking"
+   ],
+   "note": "",
+   "published": "2026-11-23",
+   "source": "Big Technology Podcast",
+   "status": "todo",
+   "title": "The Shocking Return of Jensen Huang",
+   "url": "",
+   "words": [
+    "joins(役職)"
    ]
   },
   "e4105b2549": {
