@@ -130,3 +130,4 @@ docs/                 移行メモなど
 - Claude Code が Obsidian 向けにメモを書くときは `notes/` に、1テーマ1ファイル・短く。関連するファイルは `[[ファイル名]]` でつなぐ(Obsidian でリンクになる)
 - `notes/` 以外(site/ inbox/ など自動で作るもの)は Obsidian からは読むだけにする。手で直すと毎朝の更新とぶつかる
 - `.obsidian/`(Obsidian の設定)は git に入れない
+- デイリーノート(2026/11/27追加): `notes/daily/日付.md`。毎朝9:13の取り込み(`merge_inbox.py`)の最後に `scripts/daily_note.py` が、その日「調査の新着」に足された項目(移籍・お金の流れ・資金調達・世界・深堀り)と注意点(品質チェック・保留・見張り)を短くまとめて書く。書くのは `<!-- AUTO:START -->`〜`<!-- AUTO:END -->` の間だけで、その外の「自分のメモ」は書き換えない。merge_inbox.py の後に notes/daily/ も一緒に commit・push する

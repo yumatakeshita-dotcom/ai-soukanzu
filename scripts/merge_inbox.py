@@ -213,6 +213,12 @@ def main():
         fetch_relnews.main()
     except Exception as e:
         print('ニュースの取り込みに失敗(ほかの処理は済んでいる):', e)
+    # Obsidian のデイリーノート(notes/daily/日付.md)に今朝の要点を足す。2026/11/27追加。失敗しても取り込みは止めない
+    try:
+        import daily_note
+        print('デイリーノート:', os.path.relpath(daily_note.write_note(ROOT), ROOT).replace(os.sep, '/'))
+    except Exception as e:
+        print('デイリーノートの作成に失敗(ほかの処理は済んでいる):', e)
 
 
 if __name__ == '__main__':
