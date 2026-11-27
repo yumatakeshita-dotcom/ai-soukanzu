@@ -1,0 +1,26 @@
+{
+ "items": [
+  {
+   "company": "Perplexity",
+   "title": "Time Machine for Point-in-Time Web Retrieval",
+   "date": "2026-11-25",
+   "what_en": "Perplexity launched Time Machine for its Search API and Context API, enabling developers and agents to search and read the web using copies saved at or before a specified timestamp. This feature, which can access historical data up to 365 days old, is designed to prevent information leakage in evaluations by restricting retrieval to data available at a chosen past point.",
+   "how_to_try": "Available for developers and agents through Perplexity's Search API and Context API.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFTPTzMsQrFGsnU6hBlgLO9qGahKxYFr5E1duUqR9bqexEaNQqJUcBjh920KEX28PV2cqQBvwVSKvVPMmCG3gjnaJGwWVcNGRkjp4BH0zCbBxsplz3n99H2rgyOuZ53-0esW8i8s1Lq8ciGDBREWrtCKP8qHhT5kuo_vzVHkNRe6ftFubzQQn-NopB4O-xnefkl"
+  },
+  {
+   "company": "MapleLLM",
+   "title": "Canada-Hosted Open-Weight AI Platform",
+   "date": "2026-11-25",
+   "what_en": "MapleLLM, a Toronto-based company, launched its Canada-hosted AI inference service for developers and businesses. This platform provides open-weight large language models and is built on sovereign Canadian GPU infrastructure.",
+   "how_to_try": "Intended for developers and businesses utilizing an AI inference service.",
+   "x_post_url": "",
+   "official_url": "",
+   "news_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMHApUvpbhxoVuMwi0vY7_cAE9byYcRYY60kZUF9RwdtJWFCtCGYRtNgNuhs-wa2xJpV-fOzgGEGm4tuvN5TZsDmHGi64PthGm_cOweRhKc9sLRjcnOX7l7g1H8K_u_-wM6WJ_wY8t3jYFg7S_x20AhC8LgbD5kzGZx7UH6GmvfN8zGzC8ycyPGEbknVa7emVfbKDh2zaUgO64J9UtB9OVnJZBrAl"
+  }
+ ],
+ "grounding": [],
+ "model": "gemini-2.5-flash"
+}

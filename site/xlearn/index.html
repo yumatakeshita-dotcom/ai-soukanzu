@@ -20,13 +20,29 @@ blockquote{border-left:3px solid var(--line);padding-left:12px;color:var(--fg)}o
 .foot{font-size:12px;color:var(--muted)}
 </style></head><body><div class="wrap">
 <h1>英語のAI新着 日本語解説</h1>
-<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/24 / 出典つきのものだけ載せています。</p>
+<p class="lead">XなどでAI会社が流す英語の新プロジェクト・新機能を、日本語に訳して「何ができるか」「試し方」をまとめます。更新: 2026/11/27 / 出典つきのものだけ載せています。</p>
 <details class="paste"><summary>気になる投稿を貼って、訳・解説してもらう</summary>
 <p class="lead">投稿のURLか本文を貼ると、Claude/ChatGPTに渡す依頼文ができます。コピーして貼り付けてください(このページ自体は翻訳できないため)。</p>
 <textarea id="pin" rows="4" placeholder="https://x.com/... または英語の本文"></textarea>
 <button id="mk">依頼文を作ってコピー</button><pre id="out" hidden></pre></details>
 <div class="bar" id="bar"></div>
 <div id="list">
+<article class="card" data-co="Perplexity">
+<div class="meta"><span class="co">Perplexity</span><span class="kind">新機能</span><span>2026-11-25</span><span class="cf cf-公式">公式</span></div>
+<h2>Perplexity Proに、エージェント「Computer」の毎週の利用枠が付く</h2><p class="en">Perplexity Pro now includes weekly Computer usage</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>多くのProの契約者から、Computerの利用をProに含めてほしいという要望がありました。本日から含まれます。Proには、毎週Computerの利用分が含まれるようになります。これまでProには、エージェントの基盤のクレジットも利用分も含まれていませんでした。含まれる利用分は、クレジット残高ではなく、毎週の「メーター」で表示されます。</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>Perplexity Proの有料プランで、エージェント機能「Computer」をパソコンとスマホで使えるようになりました。含まれる利用分は設定の「Usage and credits」の「Included in Pro」で、残りの割合とリセット日として見られます。まず含まれる利用分から使い、なくなるとアカウントのクレジットに切り替わり、クレジットも自動補充もなければタスクは止まります。週は最初のComputerタスクから始まり7日後にリセットされ、使い切れなかった分は繰り越されません。自動補充は初期設定でオフです。含まれる利用分だけだと「Light」の努力設定で動き、それ以外の設定はクレジットがあるアカウントで使えます。公式発表で、金額や利用量の具体的な数字は書かれていません。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>有料のPerplexity Proで、Computerのタスクを実行する</li><li>設定の「Usage and credits」→「Included in Pro」で、残りの割合とリセット日を確認する</li></ol><p class="note">試し方は公式記事に書かれた範囲だけです。利用量の上限の数字は公式記事に書かれていないため未確認です。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://www.perplexity.ai/hub/blog/perplexity-pro-now-includes-weekly-computer-usage" rel="noopener" target="_blank">Perplexity: Perplexity Pro now includes weekly Computer usage(2026/11/25)</a></div>
+</article>
+<article class="card" data-co="Perplexity">
+<div class="meta"><span class="co">Perplexity</span><span class="kind">新機能</span><span>2026-11-25</span><span class="cf cf-公式">公式</span></div>
+<h2>Perplexity、検索APIに「過去のある日のウェブ」を見せるTime Machineを追加</h2><p class="en">Freeze the web with Perplexity Time Machine</p>
+<details open><summary>日本語訳(元の投稿・告知)</summary><blockquote>本日、Perplexity Search APIとContext API向けにTime Machineを公開します。開発者とエージェントが、選んだ日付時点のウェブを見られるようになります。検索とページ全文の読み込みが、指定した時刻かそれ以前に保存されたウェブのコピーだけに限られます。</blockquote></details>
+<details open><summary>何ができる?(解説)</summary><p>リクエストに snapshot_as_of(日時の指定)を付けると、その日時より前に保存されたページのコピーだけで検索・本文取得ができます(現在は最大365日前まで)。「選挙の前に何が分かっていたか」のように、結果を後から知っている状態では不公平になる評価や学習に使えます。Search APIは日時以前のコピーで順位付けし、Context APIはその時点の全文を返し、実際のサイトにはアクセスしません。公式の説明では、PolymarketのGLM-5.3 Flashの予測で、ライブのウェブでは学習前の得点が0.94、Time Machineでは0.77(市場は0.79)で、Time Machineで学習すると0.77から0.80になったとあります。Exa Snapshotとの比較(発表日付の付与率98.8〜99.5%対66.1〜77.7%など)も公式の自社測定で、第三者の検証ではありません。</p></details>
+<details open><summary>試し方・使い方</summary><ol><li>Perplexity Search APIまたはContext APIのリクエストに snapshot_as_of を付けて、見たい日時を指定する</li></ol><p class="note">料金・提供対象・パラメータの書式は公式記事の本文では確認していません(未確認)。</p></details>
+<div class="src"><b>元の出典:</b> <a href="https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine" rel="noopener" target="_blank">Perplexity: Freeze the web with Perplexity Time Machine(2026/11/25)</a></div>
+</article>
 <article class="card" data-co="OpenAI">
 <div class="meta"><span class="co">OpenAI</span><span class="kind">新機能</span><span>2026-11-23</span><span class="cf cf-公式">公式</span></div>
 <h2>OpenAIとCisco、Linuxを止めずに守るオープンソース「Shirudo」を発表</h2><p class="en">OpenAI and Cisco introduce Shirudo</p>

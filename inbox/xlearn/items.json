@@ -255,6 +255,51 @@
    ],
    "confidence": "公式",
    "checked": "2026-11-24"
+  },
+  {
+   "id": "2026-11-25-perplexity-pro-computer-usage",
+   "company": "Perplexity",
+   "kind": "新機能",
+   "date": "2026-11-25",
+   "title_en": "Perplexity Pro now includes weekly Computer usage",
+   "title_ja": "Perplexity Proに、エージェント「Computer」の毎週の利用枠が付く",
+   "translation_ja": "多くのProの契約者から、Computerの利用をProに含めてほしいという要望がありました。本日から含まれます。Proには、毎週Computerの利用分が含まれるようになります。これまでProには、エージェントの基盤のクレジットも利用分も含まれていませんでした。含まれる利用分は、クレジット残高ではなく、毎週の「メーター」で表示されます。",
+   "what_ja": "Perplexity Proの有料プランで、エージェント機能「Computer」をパソコンとスマホで使えるようになりました。含まれる利用分は設定の「Usage and credits」の「Included in Pro」で、残りの割合とリセット日として見られます。まず含まれる利用分から使い、なくなるとアカウントのクレジットに切り替わり、クレジットも自動補充もなければタスクは止まります。週は最初のComputerタスクから始まり7日後にリセットされ、使い切れなかった分は繰り越されません。自動補充は初期設定でオフです。含まれる利用分だけだと「Light」の努力設定で動き、それ以外の設定はクレジットがあるアカウントで使えます。公式発表で、金額や利用量の具体的な数字は書かれていません。",
+   "howto": [
+    "有料のPerplexity Proで、Computerのタスクを実行する",
+    "設定の「Usage and credits」→「Included in Pro」で、残りの割合とリセット日を確認する"
+   ],
+   "howto_note": "試し方は公式記事に書かれた範囲だけです。利用量の上限の数字は公式記事に書かれていないため未確認です。",
+   "sources": [
+    [
+     "Perplexity: Perplexity Pro now includes weekly Computer usage(2026/11/25)",
+     "https://www.perplexity.ai/hub/blog/perplexity-pro-now-includes-weekly-computer-usage"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-27"
+  },
+  {
+   "id": "2026-11-25-perplexity-time-machine",
+   "company": "Perplexity",
+   "kind": "新機能",
+   "date": "2026-11-25",
+   "title_en": "Freeze the web with Perplexity Time Machine",
+   "title_ja": "Perplexity、検索APIに「過去のある日のウェブ」を見せるTime Machineを追加",
+   "translation_ja": "本日、Perplexity Search APIとContext API向けにTime Machineを公開します。開発者とエージェントが、選んだ日付時点のウェブを見られるようになります。検索とページ全文の読み込みが、指定した時刻かそれ以前に保存されたウェブのコピーだけに限られます。",
+   "what_ja": "リクエストに snapshot_as_of(日時の指定)を付けると、その日時より前に保存されたページのコピーだけで検索・本文取得ができます(現在は最大365日前まで)。「選挙の前に何が分かっていたか」のように、結果を後から知っている状態では不公平になる評価や学習に使えます。Search APIは日時以前のコピーで順位付けし、Context APIはその時点の全文を返し、実際のサイトにはアクセスしません。公式の説明では、PolymarketのGLM-5.3 Flashの予測で、ライブのウェブでは学習前の得点が0.94、Time Machineでは0.77(市場は0.79)で、Time Machineで学習すると0.77から0.80になったとあります。Exa Snapshotとの比較(発表日付の付与率98.8〜99.5%対66.1〜77.7%など)も公式の自社測定で、第三者の検証ではありません。",
+   "howto": [
+    "Perplexity Search APIまたはContext APIのリクエストに snapshot_as_of を付けて、見たい日時を指定する"
+   ],
+   "howto_note": "料金・提供対象・パラメータの書式は公式記事の本文では確認していません(未確認)。",
+   "sources": [
+    [
+     "Perplexity: Freeze the web with Perplexity Time Machine(2026/11/25)",
+     "https://www.perplexity.ai/hub/blog/freeze-the-web-with-perplexity-time-machine"
+    ]
+   ],
+   "confidence": "公式",
+   "checked": "2026-11-27"
   }
  ]
 }
