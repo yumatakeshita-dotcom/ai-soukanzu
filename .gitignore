@@ -5,3 +5,6 @@ __pycache__/
 
 # 開示ウォッチのUser-Agent(個人のメールを含むので入れない)
 inbox/disclosures/ua.txt
+
+# Obsidian の個人設定(開いているタブなど。人ごとに違うので入れない)
+.obsidian/
