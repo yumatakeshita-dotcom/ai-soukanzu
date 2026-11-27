@@ -224,3 +224,15 @@
 @insightpartners | vc,money | 成長投資VC公式
 @CyberAgent_PR | money,deep | サイバーエージェント広報・IR
 @PreferredNetJP | deep,money | PFN日本語公式
+
+# --- 自動で追加 (2026-11-28) --- x_check.py で表示名と自己紹介を確認
+@CNBC | money,moves | 米国の経済・企業報道
+@TheEconomist | money,deep | 英国の経済誌。AI動向
+@SCMPNews | money,deep | 中国・アジアの企業報道
+@technology | money,moves | Bloombergテック報道
+@FortuneMagazine | money,moves | 米経済誌。AI企業の人事
+@SambaNovaAI | money,deep | AI半導体スタートアップ公式
+@WIRED | deep,moves | 米テック誌。AI企業取材
+@verge | deep,moves | 米テック報道。AI動向
+@ElevenLabs | money,deep | 音声AIの注目企業公式
+@Sansan_Inc | deep,money | 日本の上場IT企業。AI投資
