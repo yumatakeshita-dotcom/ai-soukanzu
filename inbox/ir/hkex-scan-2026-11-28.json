@@ -1,0 +1,93 @@
+{
+ "items": [
+  {
+   "d": "2026-11-27",
+   "time": "21:03",
+   "market": "HKEX(香港)",
+   "code": "03228",
+   "co": "KINWONG",
+   "title": "VOLUNTARY ANNOUNCEMENT INVESTMENT IN THE CONSTRUCTION OF THE HIGH-END MSAP PRECISION PRINTED CIRCUIT BOARD PROJECT",
+   "hk_cat": "Announcements and Notices - [Other - Business Update]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112701733.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 8
+   },
+   "snippet": "to keep the shareholders and potential investors of the Company informed of the latest business development of the Company. The board (the “Board”) of directors (the “Directors”) of the Company hereby announces that on November 27, 2026, the Board approved the Company’s investment in the construction of a high-end mSAP precision printed circuit board project",
+   "import": "手動(表題から読んだ「CONSTRUCTION OF THE HIGH-END MSAP PRECISION PRINTED CIRCUIT BOARD PROJECT」が会社名として決められない)"
+  },
+  {
+   "d": "2026-11-27",
+   "time": "16:38",
+   "market": "HKEX(香港)",
+   "code": "01280",
+   "co": "QIDIAN GUOFENG",
+   "title": "VOLUNTARY ANNOUNCEMENT - MEMORANDUM OF UNDERSTANDING IN RELATION TO POSSIBLE ACQUISITION OF ALL EQUITY INTEREST IN SUANCHOU (SHENZHEN) INFORMATION TECHNOLOGY CO., LTD.*, AN AI CHIP COMPANY",
+   "hk_cat": "Announcements and Notices - [Other - Miscellaneous]",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700474.pdf",
+   "cf": "開示",
+   "ai_hits": {
+    "company": 0,
+    "word": 10
+   },
+   "snippet": "o inform the shareholders and potential investors of the Company of the latest business development of the Group. THE MOU The board (the “Board”) of directors (the “Directors”) of the Company is pleased to announce that on 26 November 2026, the Company entered into a non-binding memorandum of understanding (the “MOU”) with Suanchou (Shenzhen) Information Tec",
+   "import": "自動(inbox/money)",
+   "deal": {
+    "from": "(Incorporated in the Cayman Islands with limited liability)",
+    "to": "Suanchou",
+    "kind": "買収",
+    "amount": "",
+    "ai_hits": {
+     "company": 0,
+     "word": 10
+    },
+    "to_from_definition": false
+   }
+  }
+ ],
+ "skipped": [
+  {
+   "co": "EMINENCE CAP GP",
+   "title": "MAJOR TRANSACTION IN RELATION TO THE ACQUISITIONS OF AN AGGREGATE OF 26,200,000 LISTED SECURITIES",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112701855.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "SHUN WO GROUP",
+   "title": "DISCLOSEABLE TRANSACTION SUBSCRIPTION OF NEW SHARES IN METAOPTICS LTD.",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112701743.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "KINGBOARD HLDG",
+   "title": "SUPPLEMENTAL ANNOUNCEMENT IN RELATION TO DISCLOSEABLE TRANSACTION - ACQUISITION OF PROPERTY",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112701245.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "HX BLDG MAT",
+   "title": "DISCLOSEABLE AND CONNECTED TRANSACTION - SUPPLEMENTAL AGREEMENT IN RELATION TO THE ACQUISITION OF HOLCIM PHILIPPINES INC.",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112701028.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "GAC GROUP",
+   "title": "Overseas Regulatory Announcement - Announcement on the Progress of the Issuance of Shares to Acquire Assets and Raise Supporting Funds which constitute a Related Party Transaction",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700705.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  },
+  {
+   "co": "BEIJING N STAR",
+   "title": "PROPOSED SPIN-OFF OF A COMMERCIAL REAL ESTATE SECURITIES INVESTMENT FUND AND ITS SEPARATE LISTING ON THE SHANGHAI STOCK EXCHANGE",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700382.pdf",
+   "why": "本文にAI企業名・AI系の語がない(または少ない)"
+  }
+ ],
+ "date": "2026-11-28",
+ "kind": "ir-scan-hkex",
+ "list_rows": 544,
+ "shortlist": 8,
+ "not_opened_over_limit": 0,
+ "retry_queued": 0
+}

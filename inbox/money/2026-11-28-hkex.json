@@ -1,0 +1,23 @@
+{
+ "date": "2026-11-28",
+ "kind": "money",
+ "items": [
+  {
+   "from": "(Incorporated in the Cayman Islands with limited liability)",
+   "to": "Suanchou",
+   "kind": "買収",
+   "amount": "",
+   "date": "2026-11-27",
+   "region": "香港",
+   "code": "01280",
+   "note": "QIDIAN GUOFENGのHKEXの発表「VOLUNTARY ANNOUNCEMENT - MEMORANDUM OF UNDERSTANDING IN RELATION TO PO」で確認(2026-11-27。PDFを開いて証券コード・日付・相手の名前・AI関連の語を照合)。覚書(MOU)の段階で、実行は未確定。金額は開示書類にある場合のみ記載",
+   "src": [
+    [
+     "HKEX QIDIAN GUOFENGの開示(2026-11-27)",
+     "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700474.pdf"
+    ]
+   ],
+   "confidence": "開示"
+  }
+ ]
+}

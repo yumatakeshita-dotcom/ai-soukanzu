@@ -12,6 +12,19 @@
    "from_file": "2026-11-25-hkex.json",
    "status": "未確認",
    "history": []
+  },
+  "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700474.pdf": {
+   "from": "(Incorporated in the Cayman Islands with limited liability)",
+   "to": "Suanchou",
+   "kind": "買収",
+   "date": "2026-11-27",
+   "code": "01280",
+   "region": "香港",
+   "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1127/2026112700474.pdf",
+   "src_name": "HKEX QIDIAN GUOFENGの開示(2026-11-27)",
+   "from_file": "2026-11-28-hkex.json",
+   "status": "未確認",
+   "history": []
   }
  }
 }
