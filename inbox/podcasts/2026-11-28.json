@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-28",
+ "days": 7,
+ "summary": "ポッドキャスト確認: 42/42番組、新着8本",
+ "checked": [
+  {
+   "name": "20VC",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "No Priors",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Dwarkesh Podcast",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Acquired",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "All-In",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Latent Space",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Lenny's Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Cheeky Pint",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "TBPN",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Hard Fork",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Decoder with Nilay Patel",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Training Data (Sequoia)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Big Technology Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The a16z Show",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "AI + a16z",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Masters of Scale",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "How I Built This",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The Colin and Samir Show",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Odd Lots (Bloomberg)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "Rebuild",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "VIVA VC(ファーストライト×Chronicle)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "スタートアップ オフレコ対談(XTech Ventures)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "スタートアップ投資TV",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "This is 令和スタートアップ",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "海外スタートアップレポート(シリコンバレーによろしく リターンズ)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "川邊の会食(川邊健太郎)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Off Topic",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Startup Now(StartPods)",
+   "ok": true,
+   "new": 1
+  },
+  {
+   "name": "日経ビジネス モーニングニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "NewsPicks Daily Briefing",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "SEA of Startups",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Forbes India The Startup Fridays",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "스타트업 인사이드(スタイン)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "와우레터(ワウテール)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "The New Playbook 新创手册",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "10分でわかるスタートアップ・資金調達ニュース",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "前田ヒロ Startup Podcast",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Catalyst by Publidia",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "BRAVE Southeast Asia Tech",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "創創燒(創投公會TVCA)",
+   "ok": true,
+   "new": 0
+  },
+  {
+   "name": "Prime Venture Partners Podcast",
+   "ok": true,
+   "new": 0
+  }
+ ],
+ "episodes": [
+  {
+   "id": "substack:post:226789196",
+   "show": "Dwarkesh Podcast",
+   "kind": "AIインタビュー",
+   "lang": "en",
+   "title": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+   "published": "2026-11-27",
+   "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+   "description": "New podcast episode between Ege Erdil and Daniel Kokotajlo. I thought this was going to be a debate, but they ended up agreeing on a lot more than I expected. Their main point of disagreement is how likely it is that we get some intelligence explosion that gives us AIs more competent than any human expert before 2029. Ege puts this possibility at around 20%, whereas Daniel thinks it’s higher than 50%. They agree that there is not a huge difference in probability, and that, in either case, the situation is crazy enough that our civilization really needs to grapple with how the world might be transformed, and we need a plan that actually makes sense. In particular, we should stop antagonizing China if we think some kind of global treaty will be needed to make superintelligence go well. There"
+  },
+  {
+   "id": " 01a21990-d1c6-7354-bf88-7bee4614656f ",
+   "show": "Latent Space",
+   "kind": "AI技術",
+   "lang": "en",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "published": "2026-11-26",
+   "url": "https://lspace.beehiiv.com/podcast/s/latent_space_the_ai_engineer_podcast/how_clay_builds_gtm_agents_jeff_barg_head_of_ai",
+   "description": "Clay ( https://www.clay.com/ ) wants you to get about the same results whether you use its own agent or point Claude Code at Clay. Usage is already split close to 50/50 between Clay’s agent and outside harnesses. In this episode, we chat with Jeff Barg..."
+  },
+  {
+   "id": "43c554fe-e145-4e85-af8f-04f57f621423",
+   "show": "TBPN",
+   "kind": "AI・テック",
+   "lang": "en",
+   "title": "🛍️ Shopify Black Friday Gigastream with Harley Finkelstein | Stéphane de La Faverie, Sara Foster, Chet Kittleson, Max Siegelman, Brian Keller, Sean Frank",
+   "published": "2026-11-27",
+   "url": "https://share.transistor.fm/s/ff0fd7b7",
+   "description": "(00:38) - Harley Finkelstein, Shopify’s president and an advocate for entrepreneurship, discusses the company’s playful Black Friday experiences, rapid commerce growth, and commitment to celebrating merchants. He predicts continued expansion in AI-powered shopping and niche brands while emphasizing Shopify’s heightened cybersecurity standards and its mission to make entrepreneurship accessible to anyone. (09:13) - Stéphane discusses leading Estée Lauder, an 80-year-old global beauty company, with the speed and entrepreneurial mindset of a startup. He explains how unified commerce, AI, social media, and global innovation help its brands deliver seamless customer experiences, respond rapidly to trends, and remain relevant across markets and price points. (31:32) - Sara Foster discusses the g"
+  },
+  {
+   "id": "52074890-849c-4f5a-ae5d-f3f4ba9ebe2a",
+   "show": "Hard Fork",
+   "kind": "テックニュース",
+   "lang": "en",
+   "title": "How A.I. Is Transforming Mathematics",
+   "published": "2026-11-27",
+   "url": "https://www.nytimes.com/column/hard-fork",
+   "description": "Terence Tao is one of the world’s leading mathematicians, and is watching — along with the rest of us — as artificial intelligence transforms his field. He joins Max this week to explain what he’s been seeing. An interview with the mathematician Terence Tao, a Fields Medal winner who is thinking about how the latest models are changing his field. Additional Reading : Why One of the World’s Greatest Mathematicians Is on a ‘War Footing We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube , Instagram and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts, Spotify and Amazon Music. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articl"
+  },
+  {
+   "id": "b02d4b47-0cd5-46fc-a493-5b289ac53873",
+   "show": "The a16z Show",
+   "kind": "VC",
+   "lang": "en",
+   "title": "Replay: From Swipe to Scale: How Tinder Became #1 (2024)",
+   "published": "2026-11-27",
+   "url": "https://a16z.simplecast.com/episodes/replay-from-swipe-to-scale-how-tinder-became-1-2024-6396tu7J",
+   "description": "How do you build a network product when it only works if everyone around you is already using it? Originally recorded in 2024, Tinder founder Sean Rad explains how the company went from a few hundred users to the world’s #1 dating app. Sean joins a16z General Partner Andrew Chen to unpack Tinder’s early product decisions, why the team avoided mass marketing in favor of building density on college campuses, and how the swipe experience grew out of designing specifically for mobile. They also discuss why product-market fit has to come before marketing, how Tinder learned from failed features, and why listening to users mattered more than competitors or the press. Resources: Learn more about Speedrun: https://a16z.com/games/speedrun/ Find Sean on Twitter: https://x.com/seanrad Find Andrew on "
+  },
+  {
+   "id": "cac23723-26f1-4df3-b177-b50d011072f1",
+   "show": "Odd Lots (Bloomberg)",
+   "kind": "金融・テック",
+   "lang": "en",
+   "title": "Isabella Weber's Vision for an Affordability Agenda",
+   "published": "2026-11-27",
+   "url": "https://omny.fm/shows/odd-lots/isabella-webers-vision-for-an-affordability-agenda",
+   "description": "The most important word in politics right now is affordability. It was a winning issue in the midterms for Democrats, and one of the reasons why people across Europe are out in the streets protesting: Food, housing, and energy are getting more expensive by the day. During the height of the pandemic, we talked a lot about inflation with Isabella Weber, and her on what governments can do to make life more affordable has evolved into a book called Anti-Fascist Economics: In Defense of Affordability, Dignity, and Democracy. It is part-history, part-manifesto, and it maps out why things got so expensive and what can be done to get prices down. Today, we speak to Weber about why CPI, in her opinion, is a misleading measure, why fridges got cheaper but groceries got pricier, rebuilding state capa"
+  },
+  {
+   "id": "1852698d-a0b5-432e-a509-4ec8af4ef85d",
+   "show": "VIVA VC(ファーストライト×Chronicle)",
+   "kind": "VC(日本)",
+   "lang": "ja",
+   "title": "#4-03 「フィジカルAI」はロボット製造にあらず。日本の勝ち筋はどこにある？",
+   "published": "2026-11-27",
+   "url": "https://podcasters.spotify.com/pod/show/vivavc-chronicle/episodes/4-03-AI-e3t450c",
+   "description": "「VIVA VC」が書籍化されました。ご購入は ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠→ こちらから ⁠⁠⁠ https://amzn.asia/d/0iC9NKJ3 ▼今回のトーク内容： 今回のテーマは「フィジカルAI」／ファーストライトが、注目される前からフィジカルAIに投資していた理由／走る、踊る、戦う。中国のロボット運動会が印象づけたフィジカルAI／人口減少社会と切っても切り離せないテーマ／2026年上半期のヒューマノイドの出荷台数は、約2万5000台。うち95％が中国製／ASIMOを生み出した日本は、低価格ヒューマノイドにどう向き合う？／国が資金を出せばうまくいくわけではない。SpaceX・Tesla・Andurilから学ぶ／①凝り固まって高コスト体質になってる領域を探す／②技術コストが下がる転換点にいるか／③資金を持つ連続起業家がいるか／「フィジカルAI＝ロボット製造」と捉えると負け戦／日本成長戦略のフィジカルAIの資料は100ページ以上。よくまとまってる／チャンスがありそうなテーマ①土木 ②インフラ保守／ロボットづくりではなく、物理空間のデータの解析とフィードバックがカギ ▼番組概要： 日本のスタートアップを支える影の立役者・ベンチャーキャピタルの中の人のリアルな会話を通して、外からは見えにくい、ベンチャーキャピタリストの泣き笑いや業界トレンドを語っていくPodcast。MCはファーストライト・キャピタル代表の岩澤脩と、チーフアナリストの早船明夫、プリンシパルの真島里帆。土曜日配信（月3回）。 ▼番組ハッシュタグ：#ビバVC ▼番組への感想、MCへのメッセージは以下までお寄せください： ⁠https://forms.gle/5A1qVPQgdVjRqao97⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ▼MC： 岩澤 脩（ファーストライト・キャピタル株式会社 代"
+  },
+  {
+   "id": "66bcfa77-f5d5-4b84-a497-9bb53cf6aae6",
+   "show": "Startup Now(StartPods)",
+   "kind": "起業家(日本)",
+   "lang": "ja",
+   "title": "【Y Combinator採択】商社を辞めて漁師、アメリカで水産×AI起業／Asakana 共同創業者 松岡 裕大さん",
+   "published": "2026-11-27",
+   "url": "https://podcasters.spotify.com/pod/show/1p8ro37si0g/episodes/Y-CombinatorAIAsakana-e3t3epk",
+   "description": "三菱商事でマグロやカツオを扱い、退職後は鹿児島のブリの養殖場で漁師に。マッキンゼーを経てアメリカで起業し、4回目の応募でY Combinatorに採択されました。日本人の起業家が集まって暮らすサンフランシスコのテックハウスで、話を伺いました。 今回のゲストは、Asakana 共同創業者の松岡 裕大さん。Asakanaは、北米の食品卸売業者に向けて、レストランからメール・テキスト・電話・ボイスメールで届く注文をAIが読み取り、基幹システムに入力するサービスを提供しています。2026年秋のY Combinator（Fall 2026）に採択されました。 魚との原点は5歳のころ。祖父との釣りで、取りすぎたイワシを海に捨てて叱られた経験です。大学時代のアメリカ留学では、日本の魚のおいしさは締め方とコールドチェーンにあると気づきます。三菱商事に入り、「魚をやらせてくれ」と頼んで水産部へ。退職後は朝4時から働く漁師の3ヶ月を過ごし、マッキンゼー、コロンビア大学ビジネススクールのMBAへと進みました。 鮮度を測る機械から、現場のやり方を変えずに注文入力を自動化する今の事業にたどり着くまで。Googleに8年在籍し、Geminiの開発にも携わったBenjamin Solis-Cohenさんと、YCの共同創業者マッチングで出会った経緯。4回目の挑戦でYCに採択された決め手と、採択後の毎日。 「辛くなければ人生ではない」という考え方、食品業界の利益率を上げたいという思い、そして日本の視聴者への「もっとリスクを取ってほしい」というメッセージまで。商社から漁師、コンサル、MBAを経てYCにたどり着いた道のりと、食品業界で実現したい未来を伺いました。 ━━━━━━━━━━━━━━━━━━━━━ ▼ タイムスタンプ 00:00 ダイジェスト 00:44 オープニング：サンフランシスコのテックハウスから"
+  }
+ ]
+}

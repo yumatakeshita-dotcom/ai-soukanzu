@@ -3423,3 +3423,11 @@ substack:post:226349939|SEA of Startups|2026-11-25|The Hackers Have Agents Now
 e03b7dbd12e3f5d7dac701ce60f5f66ccfe4d771df9438a941a813a7d5e3b76b|10分でわかるスタートアップ・資金調達ニュース|2026-11-27|クレーム解決で課金？企業価値4.7兆円に倍増したシエラの狙いとは
 e86d1ec8-e8aa-11f1-aeaa-9ba17949de80|耳でわかる ビジネステック&サイエンス(ラジオNIKKEI)|2026-11-26|「AI数学の衝撃」＃31（2026.11.26）
 1df7300c-3c94-4fd0-99fc-9c7434f635ba|Catalyst by Publidia|2026-11-26|#61 生成AI対策の連合体に朝日新聞が参加
+substack:post:226789196|Dwarkesh Podcast|2026-11-27|AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil
+ 01a21990-d1c6-7354-bf88-7bee4614656f |Latent Space|2026-11-26|How Clay Builds GTM Agents — Jeff Barg, Head of AI
+43c554fe-e145-4e85-af8f-04f57f621423|TBPN|2026-11-27|🛍️ Shopify Black Friday Gigastream with Harley Finkelstein | Stéphane de La Faverie, Sara Foster, Ch
+52074890-849c-4f5a-ae5d-f3f4ba9ebe2a|Hard Fork|2026-11-27|How A.I. Is Transforming Mathematics
+b02d4b47-0cd5-46fc-a493-5b289ac53873|The a16z Show|2026-11-27|Replay: From Swipe to Scale: How Tinder Became #1 (2024)
+cac23723-26f1-4df3-b177-b50d011072f1|Odd Lots (Bloomberg)|2026-11-27|Isabella Weber's Vision for an Affordability Agenda
+1852698d-a0b5-432e-a509-4ec8af4ef85d|VIVA VC(ファーストライト×Chronicle)|2026-11-27|#4-03 「フィジカルAI」はロボット製造にあらず。日本の勝ち筋はどこにある？
+66bcfa77-f5d5-4b84-a497-9bb53cf6aae6|Startup Now(StartPods)|2026-11-27|【Y Combinator採択】商社を辞めて漁師、アメリカで水産×AI起業／Asakana 共同創業者 松岡 裕大さん
