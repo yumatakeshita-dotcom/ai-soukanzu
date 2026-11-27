@@ -4,6 +4,18 @@ Gemini API で調べたときに、Geminiが**自分で打った検索の言葉*
 GeminiアプリやNotebookLMの履歴には出ないため、ここに残しています(`python3 scripts/gemini_history.py` で自動で作り直し)。
 見やすい版: inbox/gemini/history.html(共有リンクにも公開)
 
+## 2026-11-28-recheck　保留の確かめ直し
+
+- モデル: (不明)　/　候補 1件
+
+**Geminiが打った検索の言葉**: (この回は記録なし)
+
+**出てきた候補**
+
+- Google DeepMind → 移籍 → Anthropic(2026-06-19)【除外】
+
+記録ファイル: inbox/gemini/2026-11-28-recheck.json
+
 ## 2026-11-28-2　Googleの経営陣・主要研究者の入社・退社・就任と、主な出資・提携(直近1年。公式発表・本人の投稿・SEC書類など出典のあるもの)
 
 - モデル: gemini-2.5-flash　/　候補 10件
@@ -19,16 +31,16 @@ GeminiアプリやNotebookLMの履歴には出ないため、ここに残して�
 
 **出てきた候補**
 
-- Alphabet → 就任 → (2026-08-05)
-- Google DeepMind → 就任 → (2026-08-05)
-- Alphabet → 出資/提携 → Discovery Loop(2026-08-05)
-- Google DeepMind → 移籍 → Anthropic(2026-06)
-- Google → 移籍 → OpenAI(2026-06)
-- Alphabet → 買収 → Wiz(2026-03)
-- Alphabet → 買収 → Intersect(2026-03)
-- Alphabet → 買収 → CSM(2026-02)
-- Google → 出資 → フィンランドAIインフラ(2026-09-09)
-- Google Cloud → 提携 → 富士通(2026-11-23)
+- Alphabet → 就任 → (2026-08-05)【除外】
+- Google DeepMind → 就任 → (2026-08-05)【除外】
+- Alphabet → 出資/提携 → Discovery Loop(2026-08-05)【除外】
+- Google DeepMind → 移籍 → Anthropic(2026-06)【保留】
+- Google → 移籍 → OpenAI(2026-06)【除外】
+- Alphabet → 買収 → Wiz(2026-03)【除外】
+- Alphabet → 買収 → Intersect(2026-03)【除外】
+- Alphabet → 買収 → CSM(2026-02)【保留】
+- Google → 出資 → フィンランドAIインフラ(2026-09-09)【除外】
+- Google Cloud → 提携 → 富士通(2026-11-23)【除外】
 
 記録ファイル: inbox/gemini/2026-11-28-2.json / 2026-11-28-2.md
 
