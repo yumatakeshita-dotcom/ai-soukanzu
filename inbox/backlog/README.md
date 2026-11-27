@@ -2,7 +2,7 @@
 
 更新: 2026-11-27
 
-checked 387 / done 27 / todo 321 / unverified 17
+checked 393 / done 30 / todo 311 / unverified 18
 
 - todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)
 - リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`
@@ -19,6 +19,7 @@ checked 387 / done 27 / todo 321 / unverified 17
 - 2026-05-16 20VC「20VC: Lessons from Jensen Huang on "Founder Mode" | How to Know if Ope」: Abridge調達の日付・額の報道が未確認
 - 2026-05-08 TBPN「Apple-Intel Chip Deal, U.S Adds 115K Jobs, DeepSeek Eyes $50B Valuatio」: DeepSeekは既にinbox。Apple-Intelは未確認
 - 2026-05-07 20VC「20VC: Mag7 Earnings: Google & Amazon Win - Meta and Microsoft Falter |」: Anthropic $50BN調達は検索でSeries G($300億)と食い違い。別件は確認できず
+- 2025-12-18 TBPN「OpenAI Sets Sights on $750B Valuation, Warner Brothers Questions Param」: OpenAI評価額$7,500億は交渉中の報道のみ。成立を確認できず
 - 2025-09-18 20VC「20VC: Opendoor's CEO on The Greatest Turnaround in Tech | OpenAI and O」: Replit調達額の検索確認をしていない・動きが特定できず
 - 2025-08-14 20VC「20VC: GPT5: Sam Altman's Masterplan or a Gift To Anthropic | Palantir 」: n8n B・Perplexity Chrome入札の本回確認は未了
 - 2025-07-31 20VC「20VC: Benchmark Loses Another Partner | Elad Gil Raises a Monster $1.5」: Elad Gilのファンド最終額が報道で食い違い($1.5B目標→約$3B目標)。確定せず

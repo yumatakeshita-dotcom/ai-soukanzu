@@ -78,6 +78,94 @@
    ],
    "confidence": "公式",
    "via": "backlog"
+  },
+  {
+   "from": "Paradigm(主導)・Sequoia・a16z・Meritech・IVP・ARK Invest・Anthos・CapitalG・Y Combinator",
+   "to": "Kalshi",
+   "kind": "出資",
+   "amount": "$10億(Series E・評価額 $110億)",
+   "date": "2025-12-02",
+   "note": "予測市場Kalshiの調達。10月の$3億・評価額$50億から約2か月で上積み。 過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Kalshi 公式発表(2025/12/2)",
+     "https://news.kalshi.com/p/kalshi-11-billion-valuation-series-e"
+    ],
+    [
+     "Business Wire(2025/12/2)",
+     "https://www.businesswire.com/news/home/20251202735424/en/Kalshi-Reaches-%2411-Billion-Valuation-as-App-Takes-over-America"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Sequoia Capital(主導)",
+   "to": "Ricursive Intelligence",
+   "kind": "出資",
+   "amount": "$3,500万(シード・評価額 $7.5億)",
+   "date": "2025-12-02",
+   "note": "GoogleのAlphaChip出身(Anna Goldie・Azalia Mirhoseini)のAIチップ設計ラボの最初の調達。のちに2026年にLightspeed主導の$3億(Series A)あり。 過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Ricursive 公式リリース(PR Newswire 2025/12/2)",
+     "https://www.prnewswire.com/news-releases/ricursive-intelligence-launches-frontier-ai-lab-to-transform-semiconductor-design-and-accelerate-path-toward-artificial-superintelligence-302630776.html"
+    ],
+    [
+     "Sequoia 公式記事",
+     "https://sequoiacap.com/article/partnering-with-ricursive-intelligence-a-premier-frontier-lab-pioneering-ai-for-chip-design"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Insight Partners・Fidelity・J.P. Morgan Asset Management(主導)",
+   "to": "Databricks",
+   "kind": "出資",
+   "amount": "$40億超(Series L・評価額 $1,340億)",
+   "date": "2025-12-16",
+   "note": "Databricksが調達を発表。年間売上の run rate は$48億超(前年比55%超増)。 過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Databricks 公式リリース(2025/12/16)",
+     "https://www.databricks.com/company/newsroom/press-releases/databricks-surpasses-4-8b-revenue-run-rate-growing-55-year-over-year"
+    ],
+    [
+     "Reuters(Yahoo Finance経由)",
+     "https://finance.yahoo.com/news/data-analytics-firm-databricks-valued-133536194.html"
+    ]
+   ],
+   "confidence": "公式",
+   "via": "backlog"
+  },
+  {
+   "from": "Bending Spoons",
+   "to": "Eventbrite",
+   "kind": "買収",
+   "amount": "約$5億(全額現金・1株$4.50)",
+   "date": "2025-12-02",
+   "note": "イベントチケットのEventbriteを非公開化。2026年上期に完了見込みと発表、のち完了の報道。 過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、WebSearchで複数の報道・公式の一致を確認(本文は開けず)。",
+   "quote": "",
+   "video": "",
+   "src": [
+    [
+     "Tech.eu(2025/12/2)",
+     "https://tech.eu/2025/12/02/bending-spoons-to-acquire-eventbrite-in-500m-all-cash-deal"
+    ],
+    [
+     "TicketNews(2026/3・完了)",
+     "https://www.ticketnews.com/2026/03/bending-spoons-finalizes-purchase-of-eventbrite/"
+    ]
+   ],
+   "confidence": "報道",
+   "via": "backlog"
   }
  ]
 }
