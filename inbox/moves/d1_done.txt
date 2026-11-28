@@ -36,3 +36,6 @@
 2026-11-27-jp-hr-2.json
 2026-11-27-jp-hr.json
 2026-11-27.json
+2026-11-28-jp-hr.json
+2026-11-28.json
+2026-11-28_thin.json
