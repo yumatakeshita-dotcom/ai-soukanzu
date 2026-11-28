@@ -1977,10 +1977,10 @@
    ],
    "desc": "AGENDA: 05:02 Anthropic's $10 Billion Fundraise 07:54 Has Claude Code Beaten Cursor Already 15:54 OpenAI Could Still Go to Zero 26:33 Andreessen Horowitz's $15 Billion Fundraise 45:16 The Middle is Dead: Boutique vs. Large Platforms in Venture 50:01 The Future of Venture Capital 01:08:06 The Impact of Wealth Taxes on the Industry",
    "id": "28c5e42f56",
-   "note": "",
+   "note": "a16z $150億調達を追加。AnthropicのSeries G $300億はすでにある",
    "published": "2026-01-15",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Anthropic's $10BN Fundraise: Have They Beaten Cursor Already | a16z's $15BN Fundraise: Is the Middle Dead in VC Today? | How OpenAI Could Go to Zero and ElevenLabs at $11BN: Buy or Not?",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-10bn-fundraise-have-they-beaten-cursor-already-a16zs-15bn-fundraise-is-the-middle-dead-in-vc-today-how-openai-could-go-to-zero-and-elevenlabs-at-11bn-buy-or-not",
    "words": [
@@ -4684,10 +4684,10 @@
    ],
    "desc": "Sign up for TBPN’s daily newsletter at TBPN.com (03:37) - Clawdbot Rebrands to Moltbot (45:55) - Meta Announces $6B Corning Deal (48:45) - Meta To Test Premium Subscription Plans (56:29) - Ramp's New Super Bowl Ad (59:20) - Timeline Reactions (01:14:30) - Jamie Cuffe, founder and CEO of Pace, an AI operations partner for leading insurers, announced the company's $10 million Series A funding led by",
    "id": "5764ee6a1e",
-   "note": "",
+   "note": "Meta→Corning最大$60億(Meta公式)を追加。Pace $10M Series Aは日付・主導者を確認できず除外",
    "published": "2026-01-27",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "Clawdbot Creator Peter Steinberger Joins, Meta's Premium Subscription Plans | Jamie Cuffe, Ben Lerer, Lucas Atkins, Bridgit Mendler, Jeff Miller, Aaron Frank",
    "url": "https://share.transistor.fm/s/36f8b869",
    "words": [
@@ -5522,10 +5522,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) What happened at Davos 2) OpenAI’s planned $50 billion funding round 3) Does the money set expectations too high for OpenAI? 4) Will OpenAI ever turn a profit? 5)) How many funding rounds does OpenAI have left? 6) Does OpenAI’s shrinking lead bode poorly for its inevitable IPO 7) OpenAI introduces ads t",
    "id": "6961902d22",
-   "note": "",
+   "note": "OpenAI $500億ラウンドは計画段階の話で、確定した金額・出資者が1件の検索で確認できない",
    "published": "2026-01-23",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "unverified",
    "title": "OpenAI’s $50 Billion Fundraise, AI Advertising Game Theory, Apple’s AI Wearable Pin",
    "url": "",
    "words": [
@@ -5943,10 +5943,10 @@
    ],
    "desc": "Anish Acharya is a General Partner at Andreessen Horowitz (a16z), where he leads consumer and fintech investing at Series A. He serves on the boards of standout portfolio companies including Deel, Mosaic, Clutch, Titan, and HappyRobot and has led early bets in companies like Runway and Carbonated. Before a16z, he founded and exited two startups—Snowball (acquired by Credit Karma) and SocialDeck (a",
    "id": "71560fa8ec",
-   "note": "",
+   "note": "動きではない(ゲスト紹介・議論)",
    "published": "2026-02-09",
    "source": "20VC",
-   "status": "todo",
+   "status": "checked",
    "title": "20VC: Is SaaS Dead in a World of AI | Do Margins Matter Anymore | Is Triple, Triple, Double, Double Dead Today? | Who Wins the Dev Market: Cursor or Claude Code | Why We Are Not in an AI Bubble with Anish Acharya @ a16z",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-is-saas-dead-in-a-world-of-ai-do-margins-matter-anymore-is-triple-triple-double-double-dead-today-who-wins-the-dev-market-cursor-or-claude-code-why-we-are-not-in-an-ai-bubble-with-anish-acharya-a16z",
    "words": [
@@ -6103,10 +6103,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella",
    "id": "741602705c",
-   "note": "",
+   "note": "Capital One→Brex買収を追加(公式発表)",
    "published": "2026-01-22",
    "source": "TBPN",
-   "status": "todo",
+   "status": "done",
    "title": "Capital One Acquires Brex for $5B, Davos’s $500M business, Apple’s Siri rebuild | Diet TBPN",
    "url": "https://share.transistor.fm/s/80cb668a",
    "words": [
@@ -7726,6 +7726,30 @@
     "raised"
    ]
   },
+  "92a3572436": {
+   "companies": [
+    "Amazon",
+    "Microsoft",
+    "Stripe"
+   ],
+   "desc": "(03:47) - The Boomer Put (19:01) - Stripe @ $200b (23:45) - CrowdStrike to Buy ZScaler (28:04) - Iowa Braces For Controlled Blast (30:36) - Microsoft Declares Code Red (32:57) - 𝕏 Timeline Reactions (45:42) - Jason Buechel, CEO of Whole Foods Market and Amazon Worldwide Grocery Stores, discusses his path from a food-focused upbringing and technology career to leading Amazon’s grocery business. He ",
+   "id": "92a3572436",
+   "newnames": [
+    "Boomer",
+    "Buechel",
+    "Rapaport"
+   ],
+   "note": "CrowdStrike→Zscaler買収(SEC 8-K)を追加。Stripe@$200Bは検索で裏づけなし(2026/2は$159B)。",
+   "published": "2026-11-24",
+   "source": "TBPN",
+   "status": "done",
+   "title": "The Boomer Put, Stripe @ $200B, Microsoft Code Red | John Tesh, Jason Buechel, Brian Halligan, Owen Rapaport & John Harris",
+   "url": "https://share.transistor.fm/s/a149a9dd",
+   "words": [
+    "acquisition",
+    "buy"
+   ]
+  },
   "92a7fdafe5": {
    "companies": [
     "Google",
@@ -7882,10 +7906,10 @@
    ],
    "desc": "AGENDA: 03:55 Anthropic Security Product Wipes Billions Off Public Markets 11:17 Do Agents Turn SaaS Incumbents into Valueless Databases 22:07 Anthropic Secondary Sale Makes Hundreds Decamillionaires 23:20 Citrini Research Piece: Everything You Need To Know 26:04 Will DoorDash Be Replaced by Agents 34:22 Will \"Ghost GDP\" Soften Consumer Spending Power 42:46 Why No Public Company Has Created a Good",
    "id": "9553f37189",
-   "note": "",
+   "note": "Jack Altman→Benchmark GP(2026/2/17)を追加",
    "published": "2026-02-26",
    "source": "20VC",
-   "status": "todo",
+   "status": "done",
    "title": "20VC: Anthropic Wipes Billions Off Markets | Citrini Research: The Ultimate Breakdown: Agents, \"Ghost GDP\", Consumer Spend etc. | Figma Earnings Beat & Four Public Stocks to Buy | Jack Altman Joins Benchmark",
    "url": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-wipes-billions-off-markets-citrini-research-the-ultimate-breakdown-agents-ghost-gdp-consumer-spend-etc-figma-earnings-beat-four-public-stocks-to-buy-jack-altman-joins-benchmark",
    "words": [
@@ -8459,10 +8483,10 @@
    ],
    "desc": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella",
    "id": "a14baa4dbd",
-   "note": "",
+   "note": "OpenAIのTorch買収はすでに相関図(acq.js)にある",
    "published": "2026-01-13",
    "source": "TBPN",
-   "status": "todo",
+   "status": "checked",
    "title": "Siri needs an App, OpenAI Acquires health startup Torch, Claude Cowork reactions | Diet TBPN",
    "url": "https://share.transistor.fm/s/07f644c1",
    "words": [
@@ -9267,6 +9291,24 @@
     "buy"
    ]
   },
+  "ad8a39e5e5": {
+   "companies": [
+    "Jensen",
+    "apple"
+   ],
+   "desc": "Sign up for TBPN’s daily newsletter at TBPN.com Follow TBPN: https://TBPN.com https://x.com/tbpn https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231 https://podcasts.apple.com/us/podcast/technology-brothers/id1772360235 https://www.youtube.com/@TBPNLive",
+   "id": "ad8a39e5e5",
+   "newnames": [],
+   "note": "",
+   "published": "2026-11-24",
+   "source": "TBPN",
+   "status": "todo",
+   "title": "Has Jensen's Leather Jacket Resigned?",
+   "url": "https://www.youtube.com/watch?v=8zA7C3cqISw",
+   "words": [
+    "resigned"
+   ]
+  },
   "adc9271824": {
    "companies": [
     "Google",
@@ -9330,10 +9372,10 @@
    ],
    "desc": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We're also joined by Steven Adler, ex-OpenAI safety researcher and author of Clear-Eyed AI on Substack. We cover: 1) The Viral \"Something Big Is Happening\" essay 2) What the essay got wrong about recursive self-improving AI 3) Where the essay was right about the pace of change 4) Are we ready for the repercussions o",
    "id": "aea0186725",
-   "note": "",
+   "note": "Anthropic $300億 Series G(2026/2/12)は2026-11-23-backlogなどですでにある",
    "published": "2026-02-13",
    "source": "Big Technology Podcast",
-   "status": "todo",
+   "status": "checked",
    "title": "Is Something Big Happening?, AI Safety Apocalypse, Anthropic Raises $30 Billion",
    "url": "",
    "words": [
@@ -10196,6 +10238,28 @@
    "url": "",
    "words": [
     "joins"
+   ]
+  },
+  "be4f009f6d": {
+   "companies": [
+    "Altman",
+    "Microsoft",
+    "Stripe",
+    "Zuckerberg"
+   ],
+   "desc": "Diet TBPN delivers the best of today’s TBPN episode in 30 minutes. TBPN is a live tech talk show hosted by John Coogan and Jordi Hays, streaming weekdays 11–2 PT on X and YouTube, with each episode posted to podcast platforms right after. Described by The New York Times as “Silicon Valley’s newest obsession,” the show has recently featured Mark Zuckerberg, Sam Altman, Mark Cuban, and Satya Nadella",
+   "id": "be4f009f6d",
+   "newnames": [
+    "Boomer"
+   ],
+   "note": "Stripe $200B評価額は公式・報道で見つからない(確認できたのは2026/2の$159B)。Microsoft code redは動きではない",
+   "published": "2026-11-24",
+   "source": "TBPN",
+   "status": "unverified",
+   "title": "Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Code Red | Diet TBPN",
+   "url": "https://share.transistor.fm/s/5bbe6ac9",
+   "words": [
+    "valuation"
    ]
   },
   "beeae6bd7c": {

@@ -1,14 +1,15 @@
 # 過去の動画・番組の手がかり 確認の進み具合
 
-更新: 2026-11-27
+更新: 2026-11-28
 
-checked 393 / done 30 / todo 311 / unverified 18
+checked 396 / done 35 / todo 304 / unverified 20
 
 - todo=まだ確かめていない / done=確かめて inbox/moves・money に入れた / checked=確かめたが入れない / unverified=確かめられない(理由つき)
 - リスト: `inbox/backlog/queue.json`(足すだけ)。道具: `scripts/media_backlog.py`
 
 ## 確かめられなかったもの(理由つき)
 
+- 2026-11-24 TBPN「Stripe Eyes $200B Valuation, The Boomer Bubble, Microsoft Declares Cod」: Stripe $200B評価額は公式・報道で見つからない(確認できたのは2026/2の$159B)。Microsoft code redは動きではない
 - 2026-10-29 20VC「20VC: Anthropic Files S1 Ahead of $2TRN IPO | Instinct's Rumoured $30 」: Instinct 0B調達は噂段階。確認できず
 - 2026-09-10 20VC「20VC: Jensen Huang Declares AGI Has Arrived | GPT Astra and Fable 5.1 」: Index/Town・Anthropic/Descartesの報道を本回では確認できず
 - 2026-08-14 All-In「Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok'」: Anthropic上場報道($2T)は検索で確認できず
@@ -19,6 +20,7 @@ checked 393 / done 30 / todo 311 / unverified 18
 - 2026-05-16 20VC「20VC: Lessons from Jensen Huang on "Founder Mode" | How to Know if Ope」: Abridge調達の日付・額の報道が未確認
 - 2026-05-08 TBPN「Apple-Intel Chip Deal, U.S Adds 115K Jobs, DeepSeek Eyes $50B Valuatio」: DeepSeekは既にinbox。Apple-Intelは未確認
 - 2026-05-07 20VC「20VC: Mag7 Earnings: Google & Amazon Win - Meta and Microsoft Falter |」: Anthropic $50BN調達は検索でSeries G($300億)と食い違い。別件は確認できず
+- 2026-01-23 Big Technology Podcast「OpenAI’s $50 Billion Fundraise, AI Advertising Game Theory, Apple’s AI」: OpenAI $500億ラウンドは計画段階の話で、確定した金額・出資者が1件の検索で確認できない
 - 2025-12-18 TBPN「OpenAI Sets Sights on $750B Valuation, Warner Brothers Questions Param」: OpenAI評価額$7,500億は交渉中の報道のみ。成立を確認できず
 - 2025-09-18 20VC「20VC: Opendoor's CEO on The Greatest Turnaround in Tech | OpenAI and O」: Replit調達額の検索確認をしていない・動きが特定できず
 - 2025-08-14 20VC「20VC: GPT5: Sam Altman's Masterplan or a Gift To Anthropic | Palantir 」: n8n B・Perplexity Chrome入札の本回確認は未了

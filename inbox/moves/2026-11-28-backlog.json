@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-28",
+ "kind": "moves",
+ "notes": "過去分の手がかり(inbox/backlog)を1件ずつ確かめた分。",
+ "items": [
+  {
+   "name_en": "Jack Altman",
+   "name_ja": "ジャック・アルトマン",
+   "from": "Alt Capital(創業者・Lattice共同創業者)",
+   "to": "Benchmark",
+   "role": "ジェネラル・パートナー(5人目)",
+   "date": "2026-02-17",
+   "region": "米国",
+   "backfill": true,
+   "note": "Benchmarkが発表。Alt Capitalのチーム数人も合流と報じられた。 過去の動画・番組(20VC・TBPN・Big Technology)の手がかりから探し、複数の報道・公式発表の検索結果の要約が一致した範囲を確認(記事の本文は開けず)。",
+   "src": [
+    [
+     "TechCrunch(2026/2/17)",
+     "https://techcrunch.com/2026/02/17/jack-altman-joins-benchmark-as-gp/"
+    ],
+    [
+     "Bloomberg(2026/2/17)",
+     "https://www.bloomberg.com/news/articles/2026-02-17/benchmark-hires-jack-altman-sees-recent-ai-bets-surge"
+    ]
+   ],
+   "confidence": "報道"
+  }
+ ]
+}
